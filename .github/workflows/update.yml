@@ -1,0 +1,83 @@
+name: Tägliches Daten-Update
+
+on:
+  schedule:
+    # 3x täglich (UTC): ~06:00, ~12:00, ~17:00 deutscher Sommerzeit
+    - cron: "0 4 * * *"
+    - cron: "0 10 * * *"
+    - cron: "0 15 * * *"
+  workflow_dispatch: {}   # manueller Start über den Actions-Tab
+  push:
+    branches: [main]      # läuft auch nach jedem Push (z.B. bei Code-Änderungen)
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repository auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Abhängigkeiten
+        run: pip install --quiet openpyxl
+
+      - name: Tennis-Historie laden (tennis-data.co.uk)
+        run: |
+          {
+            mkdir -p /tmp/tennisdata
+            Y=$(date +%Y)
+            fetch_xlsx() {  # $1=Ziel, $2=Pfadteil (z.B. 2024 oder 2024w), $3=Jahr
+              for base in "https://www.tennis-data.co.uk" "http://www.tennis-data.co.uk"; do
+                code=$(curl -sL -w "%{http_code}" "${base}/$2/$3.xlsx" -o "$1") || code=err
+                if [ "${code}" = "200" ] && file "$1" | grep -qiE 'excel|zip'; then
+                  echo "$1: OK über ${base} ($(wc -c < "$1") Bytes)"
+                  return 0
+                fi
+              done
+              echo "$1: FEHLGESCHLAGEN (letzter Code ${code}); Antwort-Anfang:"
+              head -c 300 "$1" 2>/dev/null | tr -d '\0'; echo
+              rm -f "$1"
+              return 1
+            }
+            for y in $((Y-4)) $((Y-3)) $((Y-2)) $((Y-1)) $Y; do
+              fetch_xlsx "/tmp/tennisdata/atp_${y}.xlsx" "${y}" "${y}" || true
+              fetch_xlsx "/tmp/tennisdata/wta_${y}.xlsx" "${y}w" "${y}" || true
+            done
+            ls -la /tmp/tennisdata/ || true
+          } 2>&1 | tee /tmp/clone.log
+
+      - name: Daten holen & Vorhersagen berechnen
+        env:
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}   # optional
+        run: |
+          set -o pipefail
+          { cat /tmp/clone.log 2>/dev/null; python scripts/fetch_data.py; } 2>&1 | tee data/last_run.log
+
+      - name: Dashboard bauen
+        run: python scripts/build_site.py data/data.json index.html
+
+      - name: Änderungen committen
+        run: |
+          git config user.name "sport-radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/data.json data/last_run.log data/predictions_log.json index.html
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen."
+          else
+            git commit -m "Tägliches Update $(date -u +%F)"
+            git push
+          fi
+
