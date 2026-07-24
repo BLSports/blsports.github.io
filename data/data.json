@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-07-23T18:24:37.286589+02:00",
+ "generatedAt": "2026-07-24T08:16:40.521448+02:00",
  "windowDays": 3,
  "days": [
-  "2026-07-23",
   "2026-07-24",
-  "2026-07-25"
+  "2026-07-25",
+  "2026-07-26"
  ],
  "football": [
   {
@@ -225,238 +225,6 @@
   }
  ],
  "tennis": [
-  {
-   "start": "2026-07-23T18:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "Palermo Ladies Open",
-   "round": "2. Runde",
-   "surface": "Sand",
-   "p1": {
-    "name": "Alice Rame",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "onSurface": null,
-    "favSurface": null
-   },
-   "p2": {
-    "name": "Alevtina Ibragimova",
-    "rank": 275,
-    "form": [
-     "S",
-     "N"
-    ],
-    "elo": null,
-    "onSurface": null,
-    "favSurface": null
-   },
-   "pP1": 0.5202,
-   "model": {
-    "n1": 0,
-    "n2": 2,
-    "pRank": 0.5202
-   },
-   "h2h": [],
-   "analysis": "Alice Rame – aktuell ohne Top-Ranking – trifft auf Alevtina Ibragimova (#275). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alice Rame mit 52 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-07-23T18:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "Palermo Ladies Open",
-   "round": "2. Runde",
-   "surface": "Sand",
-   "p1": {
-    "name": "Miriam Bulgaru",
-    "rank": 248,
-    "form": [
-     "S",
-     "N",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": 1331,
-    "onSurface": {
-     "w": 1,
-     "l": 5,
-     "pct": 0.167
-    },
-    "favSurface": "Sand"
-   },
-   "p2": {
-    "name": "Francesca Jones",
-    "rank": 113,
-    "form": [
-     "N",
-     "N",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": 1401,
-    "onSurface": {
-     "w": 6,
-     "l": 8,
-     "pct": 0.429
-    },
-    "favSurface": "Sand"
-   },
-   "pP1": 0.3662,
-   "model": {
-    "n1": 9,
-    "n2": 45,
-    "elo1": 1331,
-    "elo2": 1401,
-    "pElo": 0.3995,
-    "pRank": 0.3389,
-    "wElo": 0.45
-   },
-   "h2h": [],
-   "analysis": "Miriam Bulgaru (Weltrangliste #248) trifft auf Francesca Jones (#113). Auf Sand liegt die Siegquote von Miriam Bulgaru zuletzt bei 17 % (1:5), Francesca Jones kommt auf 43 % (6:8). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Francesca Jones mit 63 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-07-23T19:30:00+02:00",
-   "tour": "ATP",
-   "tournament": "Millennium Estoril Open",
-   "round": "2. Runde",
-   "surface": "Sand",
-   "p1": {
-    "name": "Luciano Darderi",
-    "rank": 21,
-    "form": [
-     "N",
-     "S",
-     "S",
-     "S",
-     "N"
-    ],
-    "elo": 1766,
-    "onSurface": {
-     "w": 64,
-     "l": 29,
-     "pct": 0.688
-    },
-    "favSurface": "Sand"
-   },
-   "p2": {
-    "name": "Pedro Martinez",
-    "rank": 157,
-    "form": [
-     "N",
-     "N",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": 1431,
-    "onSurface": {
-     "w": 36,
-     "l": 44,
-     "pct": 0.45
-    },
-    "favSurface": "Sand"
-   },
-   "pP1": 0.873,
-   "model": {
-    "n1": 149,
-    "n2": 151,
-    "elo1": 1766,
-    "elo2": 1431,
-    "pElo": 0.873,
-    "pRank": 0.8468,
-    "wElo": 1.0
-   },
-   "h2h": [
-    {
-     "year": "2026",
-     "tourney": "Argentina Open",
-     "surface": "Sand",
-     "winner": "Luciano Darderi",
-     "winnerIsP1": true,
-     "score": "7:5 6:1",
-     "rnd": "Quarterfinals"
-    },
-    {
-     "year": "2025",
-     "tourney": "Miami Open",
-     "surface": "Hartplatz",
-     "winner": "Luciano Darderi",
-     "winnerIsP1": true,
-     "score": "6:4 6:1",
-     "rnd": "1st Round"
-    },
-    {
-     "year": "2025",
-     "tourney": "Australian Open",
-     "surface": "Hartplatz",
-     "winner": "Pedro Martinez",
-     "winnerIsP1": false,
-     "score": "6:3 4:1",
-     "rnd": "1st Round"
-    },
-    {
-     "year": "2024",
-     "tourney": "Mallorca Championships",
-     "surface": "Rasen",
-     "winner": "Luciano Darderi",
-     "winnerIsP1": true,
-     "score": "7:5 7:5",
-     "rnd": "1st Round"
-    }
-   ],
-   "analysis": "Luciano Darderi (Weltrangliste #21) trifft auf Pedro Martinez (#157). Die aktuelle Form spricht für Luciano Darderi: 3 Siege aus den letzten 5 Matches, Pedro Martinez holte nur 0. Auf Sand liegt die Siegquote von Luciano Darderi zuletzt bei 69 % (64:29), Pedro Martinez kommt auf 45 % (36:44). Den direkten Vergleich führt Luciano Darderi mit 3:1 aus den letzten 4 Duellen an. Zuletzt (2026, Argentina Open) gewann Luciano Darderi mit 7:5 6:1. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Luciano Darderi mit 87 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-07-23T20:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Palermo Ladies Open",
-   "round": "2. Runde",
-   "surface": "Sand",
-   "p1": {
-    "name": "Lucia Bronzetti",
-    "rank": 120,
-    "form": [
-     "N",
-     "N",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": null,
-    "onSurface": {
-     "w": 18,
-     "l": 24,
-     "pct": 0.429
-    },
-    "favSurface": "Sand"
-   },
-   "p2": {
-    "name": "Dalila Spiteri",
-    "rank": null,
-    "form": [
-     "N"
-    ],
-    "elo": null,
-    "onSurface": null,
-    "favSurface": null
-   },
-   "pP1": 0.6511,
-   "model": {
-    "n1": 151,
-    "n2": 1,
-    "pRank": 0.6511
-   },
-   "h2h": [],
-   "analysis": "Lucia Bronzetti (#120) trifft auf Dalila Spiteri, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Auf Sand liegt die Siegquote von Lucia Bronzetti zuletzt bei 43 % (18:24). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Lucia Bronzetti mit 65 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
   {
    "start": "2026-07-24T11:00:00+02:00",
    "tour": "WTA",
@@ -863,6 +631,63 @@
    "timeTBD": false
   },
   {
+   "start": "2026-07-24T14:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "MSC Hamburg Ladies Open",
+   "round": "Viertelfinale",
+   "surface": "Sand",
+   "p1": {
+    "name": "Elina Avanesyan",
+    "rank": 224,
+    "form": [
+     "N",
+     "S",
+     "N",
+     "S",
+     "N"
+    ],
+    "elo": 1569,
+    "onSurface": {
+     "w": 25,
+     "l": 18,
+     "pct": 0.581
+    },
+    "favSurface": "Sand"
+   },
+   "p2": {
+    "name": "Oleksandra Oliynykova",
+    "rank": 45,
+    "form": [
+     "N",
+     "S",
+     "S",
+     "S",
+     "N"
+    ],
+    "elo": 1622,
+    "onSurface": {
+     "w": 9,
+     "l": 7,
+     "pct": 0.562
+    },
+    "favSurface": "Hartplatz"
+   },
+   "pP1": 0.4256,
+   "model": {
+    "n1": 107,
+    "n2": 22,
+    "elo1": 1569,
+    "elo2": 1622,
+    "pElo": 0.4256,
+    "pRank": 0.2036,
+    "wElo": 1.0
+   },
+   "h2h": [],
+   "analysis": "Elina Avanesyan (Weltrangliste #224) trifft auf Oleksandra Oliynykova (#45). Auf Sand liegt die Siegquote von Elina Avanesyan zuletzt bei 58 % (25:18), Oleksandra Oliynykova kommt auf 56 % (9:7). Oleksandra Oliynykovas stärkster Belag ist eigentlich Hartplatz. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Oleksandra Oliynykova mit 57 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
    "start": "2026-07-24T14:05:00+02:00",
    "tour": "WTA",
    "tournament": "Livesport Prague Open",
@@ -926,6 +751,175 @@
     }
    ],
    "analysis": "Sara Bejlek (Weltrangliste #40) trifft auf Lilli Tagger (#74). Die aktuelle Form spricht für Sara Bejlek: 3 Siege aus den letzten 5 Matches, Lilli Tagger holte nur 1. Auf Hartplatz liegt die Siegquote von Sara Bejlek zuletzt bei 48 % (11:12), Lilli Tagger kommt auf 64 % (7:4). Das bisher einzige Duell (2026, Athens Open) gewann Sara Bejlek mit 6:2 6:2. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Sara Bejlek mit 65 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-07-24T14:30:00+02:00",
+   "tour": "ATP",
+   "tournament": "Millennium Estoril Open",
+   "round": "Viertelfinale",
+   "surface": "Sand",
+   "p1": {
+    "name": "Luca Van Assche",
+    "rank": 78,
+    "form": [
+     "S",
+     "N",
+     "N",
+     "S",
+     "N"
+    ],
+    "elo": 1491,
+    "onSurface": {
+     "w": 12,
+     "l": 16,
+     "pct": 0.429
+    },
+    "favSurface": "Sand"
+   },
+   "p2": {
+    "name": "Andrey Rublev",
+    "rank": 14,
+    "form": [
+     "N",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "elo": 1802,
+    "onSurface": {
+     "w": 69,
+     "l": 28,
+     "pct": 0.711
+    },
+    "favSurface": "Sand"
+   },
+   "pP1": 0.1433,
+   "model": {
+    "n1": 62,
+    "n2": 318,
+    "elo1": 1491,
+    "elo2": 1802,
+    "pElo": 0.1433,
+    "pRank": 0.1885,
+    "wElo": 1.0
+   },
+   "h2h": [
+    {
+     "year": "2024",
+     "tourney": "Citi Open",
+     "surface": "Hartplatz",
+     "winner": "Andrey Rublev",
+     "winnerIsP1": false,
+     "score": "4:6 6:3 6:4",
+     "rnd": "2nd Round"
+    }
+   ],
+   "analysis": "Luca Van Assche (Weltrangliste #78) trifft auf Andrey Rublev (#14). Die aktuelle Form spricht für Andrey Rublev: 4 Siege aus den letzten 5 Matches, Luca Van Assche holte nur 2. Auf Sand liegt die Siegquote von Luca Van Assche zuletzt bei 43 % (12:16), Andrey Rublev kommt auf 71 % (69:28). Das bisher einzige Duell (2024, Citi Open) gewann Andrey Rublev mit 4:6 6:3 6:4. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Andrey Rublev mit 86 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-07-24T15:35:00+02:00",
+   "tour": "WTA",
+   "tournament": "Livesport Prague Open",
+   "round": "Viertelfinale",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Barbora Krejcikova",
+    "rank": 26,
+    "form": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "elo": 1837,
+    "onSurface": {
+     "w": 71,
+     "l": 39,
+     "pct": 0.645
+    },
+    "favSurface": "Rasen"
+   },
+   "p2": {
+    "name": "Dominika Salkova",
+    "rank": 127,
+    "form": [
+     "S",
+     "N",
+     "S",
+     "N",
+     "N"
+    ],
+    "elo": 1538,
+    "onSurface": {
+     "w": 6,
+     "l": 4,
+     "pct": 0.6
+    },
+    "favSurface": "Hartplatz"
+   },
+   "pP1": 0.8347,
+   "model": {
+    "n1": 168,
+    "n2": 15,
+    "elo1": 1837,
+    "elo2": 1538,
+    "pElo": 0.8483,
+    "pRank": 0.7938,
+    "wElo": 0.75
+   },
+   "h2h": [],
+   "analysis": "Barbora Krejcikova (Weltrangliste #26) trifft auf Dominika Salkova (#127). Die aktuelle Form spricht für Barbora Krejcikova: 5 Siege aus den letzten 5 Matches, Dominika Salkova holte nur 2. Auf Hartplatz liegt die Siegquote von Barbora Krejcikova zuletzt bei 64 % (71:39), Dominika Salkova kommt auf 60 % (6:4). Barbora Krejcikovas stärkster Belag ist eigentlich Rasen. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Barbora Krejcikova mit 83 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-07-24T17:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Palermo Ladies Open",
+   "round": "Viertelfinale",
+   "surface": "Sand",
+   "p1": {
+    "name": "Jennifer Ruggeri",
+    "rank": 265,
+    "form": [
+     "N"
+    ],
+    "elo": null,
+    "onSurface": null,
+    "favSurface": null
+   },
+   "p2": {
+    "name": "Francesca Jones",
+    "rank": 113,
+    "form": [
+     "N",
+     "N",
+     "N",
+     "N",
+     "N"
+    ],
+    "elo": null,
+    "onSurface": {
+     "w": 6,
+     "l": 8,
+     "pct": 0.429
+    },
+    "favSurface": "Sand"
+   },
+   "pP1": 0.3264,
+   "model": {
+    "n1": 1,
+    "n2": 45,
+    "pRank": 0.3264
+   },
+   "h2h": [],
+   "analysis": "Jennifer Ruggeri (Weltrangliste #265) trifft auf Francesca Jones (#113). Auf Sand liegt die Siegquote von Francesca Jones zuletzt bei 43 % (6:8). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Francesca Jones mit 67 % vorn.",
    "unconfirmed": false,
    "timeTBD": false
   },
@@ -1028,6 +1022,221 @@
    "analysis": "Alexander Blockx (Weltrangliste #38) trifft auf Roman Andres Burruchaga (#60). Auf Sand liegt die Siegquote von Alexander Blockx zuletzt bei 65 % (11:6). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alexander Blockx mit 60 % vorn.",
    "unconfirmed": false,
    "timeTBD": false
+  },
+  {
+   "start": "2026-07-24T19:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Palermo Ladies Open",
+   "round": "Viertelfinale",
+   "surface": "Sand",
+   "p1": {
+    "name": "Clara Burel",
+    "rank": 630,
+    "form": [
+     "N",
+     "N",
+     "S",
+     "S",
+     "N"
+    ],
+    "elo": null,
+    "onSurface": {
+     "w": 17,
+     "l": 17,
+     "pct": 0.5
+    },
+    "favSurface": "Hartplatz"
+   },
+   "p2": {
+    "name": "Alevtina Ibragimova",
+    "rank": 275,
+    "form": [
+     "S",
+     "N"
+    ],
+    "elo": null,
+    "onSurface": null,
+    "favSurface": null
+   },
+   "pP1": 0.3308,
+   "model": {
+    "n1": 86,
+    "n2": 2,
+    "pRank": 0.3308
+   },
+   "h2h": [],
+   "analysis": "Clara Burel (Weltrangliste #630) trifft auf Alevtina Ibragimova (#275). Auf Sand liegt die Siegquote von Clara Burel zuletzt bei 50 % (17:17). Clara Burels stärkster Belag ist eigentlich Hartplatz. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alevtina Ibragimova mit 67 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-07-24T19:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Palermo Ladies Open",
+   "round": "Viertelfinale",
+   "surface": "Sand",
+   "p1": {
+    "name": "Lucia Bronzetti",
+    "rank": 120,
+    "form": [
+     "N",
+     "N",
+     "N",
+     "N",
+     "N"
+    ],
+    "elo": 1465,
+    "onSurface": {
+     "w": 18,
+     "l": 24,
+     "pct": 0.429
+    },
+    "favSurface": "Sand"
+   },
+   "p2": {
+    "name": "Yasmine Kabbaj",
+    "rank": 334,
+    "form": [
+     "N",
+     "N",
+     "S",
+     "S",
+     "N"
+    ],
+    "elo": 1481,
+    "onSurface": {
+     "w": 2,
+     "l": 3,
+     "pct": 0.4
+    },
+    "favSurface": "Sand"
+   },
+   "pP1": 0.6481,
+   "model": {
+    "n1": 151,
+    "n2": 5,
+    "elo1": 1465,
+    "elo2": 1481,
+    "pElo": 0.4779,
+    "pRank": 0.7048,
+    "wElo": 0.25
+   },
+   "h2h": [],
+   "analysis": "Lucia Bronzetti (Weltrangliste #120) trifft auf Yasmine Kabbaj (#334). Die aktuelle Form spricht für Yasmine Kabbaj: 2 Siege aus den letzten 5 Matches, Lucia Bronzetti holte nur 0. Auf Sand liegt die Siegquote von Lucia Bronzetti zuletzt bei 43 % (18:24), Yasmine Kabbaj kommt auf 40 % (2:3). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Lucia Bronzetti mit 65 % vorn. Bemerkenswert: Die Weltrangliste würde eher Lucia Bronzetti favorisieren – die Formkurve spricht aber dagegen.",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-07-24T19:30:00+02:00",
+   "tour": "ATP",
+   "tournament": "Millennium Estoril Open",
+   "round": "Viertelfinale",
+   "surface": "Sand",
+   "p1": {
+    "name": "Luciano Darderi",
+    "rank": 21,
+    "form": [
+     "N",
+     "S",
+     "S",
+     "S",
+     "N"
+    ],
+    "elo": 1736,
+    "onSurface": {
+     "w": 64,
+     "l": 29,
+     "pct": 0.688
+    },
+    "favSurface": "Sand"
+   },
+   "p2": {
+    "name": "Jaime Faria",
+    "rank": 88,
+    "form": [
+     "N",
+     "S",
+     "N",
+     "S",
+     "N"
+    ],
+    "elo": 1573,
+    "onSurface": {
+     "w": 9,
+     "l": 11,
+     "pct": 0.45
+    },
+    "favSurface": "Sand"
+   },
+   "pP1": 0.7186,
+   "model": {
+    "n1": 149,
+    "n2": 28,
+    "elo1": 1736,
+    "elo2": 1573,
+    "pElo": 0.7186,
+    "pRank": 0.7717,
+    "wElo": 1.0
+   },
+   "h2h": [
+    {
+     "year": "2025",
+     "tourney": "Chile Open",
+     "surface": "Sand",
+     "winner": "Jaime Faria",
+     "winnerIsP1": false,
+     "score": "6:3 6:4",
+     "rnd": "1st Round"
+    }
+   ],
+   "analysis": "Luciano Darderi (Weltrangliste #21) trifft auf Jaime Faria (#88). Auf Sand liegt die Siegquote von Luciano Darderi zuletzt bei 69 % (64:29), Jaime Faria kommt auf 45 % (9:11). Das bisher einzige Duell (2025, Chile Open) gewann Jaime Faria mit 6:3 6:4. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Luciano Darderi mit 72 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-07-24T20:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "Palermo Ladies Open",
+   "round": "Viertelfinale",
+   "surface": "Sand",
+   "p1": {
+    "name": "Mina Hodzic",
+    "rank": 334,
+    "form": [
+     "N"
+    ],
+    "elo": null,
+    "onSurface": null,
+    "favSurface": null
+   },
+   "p2": {
+    "name": "Fiona Ferro",
+    "rank": 181,
+    "form": [
+     "N",
+     "N",
+     "S",
+     "N",
+     "N"
+    ],
+    "elo": null,
+    "onSurface": {
+     "w": 4,
+     "l": 12,
+     "pct": 0.25
+    },
+    "favSurface": "Sand"
+   },
+   "pP1": 0.3727,
+   "model": {
+    "n1": 1,
+    "n2": 22,
+    "pRank": 0.3727
+   },
+   "h2h": [],
+   "analysis": "Mina Hodzic (Weltrangliste #334) trifft auf Fiona Ferro (#181). Auf Sand liegt die Siegquote von Fiona Ferro zuletzt bei 25 % (4:12). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Fiona Ferro mit 63 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false
   }
  ],
  "meta": {
@@ -1044,9 +1253,9 @@
  },
  "stats": {
   "overall": {
-   "n": 172,
-   "correct": 113,
-   "pct": 0.657
+   "n": 193,
+   "correct": 129,
+   "pct": 0.6684
   },
   "football": {
    "n": 3,
@@ -1054,16 +1263,236 @@
    "pct": 0.3333
   },
   "tennis": {
-   "n": 169,
-   "correct": 112,
-   "pct": 0.6627
+   "n": 190,
+   "correct": 128,
+   "pct": 0.6737
   },
   "exact": {
    "n": 3,
    "correct": 1
   },
-  "open": 35,
+  "open": 22,
   "recent": [
+   {
+    "date": "2026-07-23",
+    "comp": "ATP · Millennium Estoril Open",
+    "label": "Gonzalo Bueno – Jaime Faria",
+    "tipName": "Jaime Faria",
+    "tip": "P2",
+    "prob": 0.7084,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-07-23",
+    "comp": "ATP · Millennium Estoril Open",
+    "label": "Pablo Carreno Busta – Luca Van Assche",
+    "tipName": "Pablo Carreno Busta",
+    "tip": "P1",
+    "prob": 0.6644,
+    "result": "Sieger: P2",
+    "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-07-23",
+    "comp": "ATP · Millennium Estoril Open",
+    "label": "Luciano Darderi – Pedro Martinez",
+    "tipName": "Luciano Darderi",
+    "tip": "P1",
+    "prob": 0.873,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-07-23",
+    "comp": "ATP · Millennium Estoril Open",
+    "label": "Timofey Skatov – Andrey Rublev",
+    "tipName": "Andrey Rublev",
+    "tip": "P2",
+    "prob": 0.9072,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-07-23",
+    "comp": "WTA · Livesport Prague Open",
+    "label": "Lanlana Tararudee – Nikola Bartunkova",
+    "tipName": "Nikola Bartunkova",
+    "tip": "P2",
+    "prob": 0.6717,
+    "result": "Sieger: P1",
+    "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-07-23",
+    "comp": "WTA · Livesport Prague Open",
+    "label": "Barbora Krejcikova – Lucie Havlickova",
+    "tipName": "Barbora Krejcikova",
+    "tip": "P1",
+    "prob": 0.8885,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-07-23",
+    "comp": "WTA · Livesport Prague Open",
+    "label": "Sara Bejlek – Maria Timofeeva",
+    "tipName": "Sara Bejlek",
+    "tip": "P1",
+    "prob": 0.7732,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-07-23",
+    "comp": "WTA · Livesport Prague Open",
+    "label": "Lilli Tagger – Mai Hontama",
+    "tipName": "Lilli Tagger",
+    "tip": "P1",
+    "prob": 0.7367,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-07-23",
+    "comp": "WTA · Palermo Ladies Open",
+    "label": "Lucia Bronzetti – Dalila Spiteri",
+    "tipName": "Lucia Bronzetti",
+    "tip": "P1",
+    "prob": 0.6511,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-07-23",
+    "comp": "WTA · Palermo Ladies Open",
+    "label": "Noemi Basiletti – Mina Hodzic",
+    "tipName": "Mina Hodzic",
+    "tip": "P2",
+    "prob": 0.552,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-07-23",
+    "comp": "WTA · Palermo Ladies Open",
+    "label": "Alice Rame – Alevtina Ibragimova",
+    "tipName": "Alice Rame",
+    "tip": "P1",
+    "prob": 0.5202,
+    "result": "Sieger: P2",
+    "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-07-23",
+    "comp": "WTA · Palermo Ladies Open",
+    "label": "Miriam Bulgaru – Francesca Jones",
+    "tipName": "Francesca Jones",
+    "tip": "P2",
+    "prob": 0.6338,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-07-23",
+    "comp": "WTA · MSC Hamburg Ladies Open",
+    "label": "Leyre Romero Gormaz – Oleksandra Oliynykova",
+    "tipName": "Oleksandra Oliynykova",
+    "tip": "P2",
+    "prob": 0.7121,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-07-23",
+    "comp": "WTA · MSC Hamburg Ladies Open",
+    "label": "Yulia Putintseva – Elina Avanesyan",
+    "tipName": "Yulia Putintseva",
+    "tip": "P1",
+    "prob": 0.5655,
+    "result": "Sieger: P2",
+    "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-07-23",
+    "comp": "ATP · Generali Open",
+    "label": "Ignacio Buse – Tomas Martin Etcheverry",
+    "tipName": "Tomas Martin Etcheverry",
+    "tip": "P2",
+    "prob": 0.5258,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-07-23",
+    "comp": "ATP · Generali Open",
+    "label": "Quentin Halys – Mariano Navone",
+    "tipName": "Mariano Navone",
+    "tip": "P2",
+    "prob": 0.5828,
+    "result": "Sieger: P1",
+    "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-07-23",
+    "comp": "ATP · Generali Open",
+    "label": "Sebastian Baez – Yannick Hanfmann",
+    "tipName": "Yannick Hanfmann",
+    "tip": "P2",
+    "prob": 0.599,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-07-23",
+    "comp": "WTA · MSC Hamburg Ladies Open",
+    "label": "Panna Udvardy – Paula Badosa",
+    "tipName": "Paula Badosa",
+    "tip": "P2",
+    "prob": 0.6309,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-07-23",
+    "comp": "WTA · MSC Hamburg Ladies Open",
+    "label": "Elsa Jacquemot – Mayar Sherif",
+    "tipName": "Mayar Sherif",
+    "tip": "P2",
+    "prob": 0.6879,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-07-23",
+    "comp": "ATP · Generali Open",
+    "label": "Alex Molcan – Alexander Bublik",
+    "tipName": "Alexander Bublik",
+    "tip": "P2",
+    "prob": 0.544,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
    {
     "date": "2026-07-22",
     "comp": "ATP · Generali Open",
@@ -1115,226 +1544,6 @@
     "tipName": "Dominika Salkova",
     "tip": "P2",
     "prob": 0.6729,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-22",
-    "comp": "WTA · Livesport Prague Open",
-    "label": "Daria Snigur – Ayla Aksu",
-    "tipName": "Daria Snigur",
-    "tip": "P1",
-    "prob": 0.7863,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-22",
-    "comp": "WTA · MSC Hamburg Ladies Open",
-    "label": "Paula Badosa – Katarzyna Kawa",
-    "tipName": "Paula Badosa",
-    "tip": "P1",
-    "prob": 0.701,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-22",
-    "comp": "WTA · MSC Hamburg Ladies Open",
-    "label": "Mayar Sherif – Simona Waltert",
-    "tipName": "Mayar Sherif",
-    "tip": "P1",
-    "prob": 0.6833,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-22",
-    "comp": "WTA · Palermo Ladies Open",
-    "label": "Lola Radivojevic – Jennifer Ruggeri",
-    "tipName": "Lola Radivojevic",
-    "tip": "P1",
-    "prob": 0.5124,
-    "result": "Sieger: P2",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-22",
-    "comp": "WTA · Palermo Ladies Open",
-    "label": "Yasmine Kabbaj – Ekaterine Gorgodze",
-    "tipName": "Ekaterine Gorgodze",
-    "tip": "P2",
-    "prob": 0.5721,
-    "result": "Sieger: P1",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-22",
-    "comp": "WTA · Palermo Ladies Open",
-    "label": "Erika Andreeva – Fiona Ferro",
-    "tipName": "Fiona Ferro",
-    "tip": "P2",
-    "prob": 0.5478,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-22",
-    "comp": "WTA · MSC Hamburg Ladies Open",
-    "label": "Anhelina Kalinina – Maria Lourdes Carle",
-    "tipName": "Anhelina Kalinina",
-    "tip": "P1",
-    "prob": 0.781,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-22",
-    "comp": "ATP · Generali Open",
-    "label": "Valentin Vacherot – Quentin Halys",
-    "tipName": "Valentin Vacherot",
-    "tip": "P1",
-    "prob": 0.6685,
-    "result": "Sieger: P2",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-22",
-    "comp": "ATP · Generali Open",
-    "label": "Arthur Rinderknech – Sebastian Baez",
-    "tipName": "Arthur Rinderknech",
-    "tip": "P1",
-    "prob": 0.5868,
-    "result": "Sieger: P2",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-22",
-    "comp": "WTA · MSC Hamburg Ladies Open",
-    "label": "Elsa Jacquemot – Tessa Johanna Brockmann",
-    "tipName": "Elsa Jacquemot",
-    "tip": "P1",
-    "prob": 0.6782,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-22",
-    "comp": "ATP · Generali Open",
-    "label": "Mariano Navone – Jan-Lennard Struff",
-    "tipName": "Jan-Lennard Struff",
-    "tip": "P2",
-    "prob": 0.529,
-    "result": "Sieger: P1",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-22",
-    "comp": "ATP · Generali Open",
-    "label": "Yannick Hanfmann – Marco Trungelliti",
-    "tipName": "Yannick Hanfmann",
-    "tip": "P1",
-    "prob": 0.7055,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-22",
-    "comp": "ATP · Generali Open",
-    "label": "Ignacio Buse – Kilian Feldbausch",
-    "tipName": "Ignacio Buse",
-    "tip": "P1",
-    "prob": 0.847,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-22",
-    "comp": "WTA · MSC Hamburg Ladies Open",
-    "label": "Sinja Kraus – Alina Charaeva",
-    "tipName": "Sinja Kraus",
-    "tip": "P1",
-    "prob": 0.5209,
-    "result": "Sieger: P2",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-22",
-    "comp": "ATP · Millennium Estoril Open",
-    "label": "Titouan Droguet – Hugo Gaston",
-    "tipName": "Titouan Droguet",
-    "tip": "P1",
-    "prob": 0.7244,
-    "result": "Sieger: P2",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-22",
-    "comp": "ATP · Generali Open",
-    "label": "Daniel Altmaier – Alex Molcan",
-    "tipName": "Alex Molcan",
-    "tip": "P2",
-    "prob": 0.6864,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-22",
-    "comp": "WTA · Livesport Prague Open",
-    "label": "Tereza Valentova – Maya Joint",
-    "tipName": "Tereza Valentova",
-    "tip": "P1",
-    "prob": 0.6188,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-22",
-    "comp": "WTA · MSC Hamburg Ladies Open",
-    "label": "Julia Stusek – Tamara Korpatsch",
-    "tipName": "Tamara Korpatsch",
-    "tip": "P2",
-    "prob": 0.7227,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-22",
-    "comp": "ATP · Millennium Estoril Open",
-    "label": "Roman Andres Burruchaga – Nuno Borges",
-    "tipName": "Nuno Borges",
-    "tip": "P2",
-    "prob": 0.5473,
-    "result": "Sieger: P1",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-22",
-    "comp": "WTA · MSC Hamburg Ladies Open",
-    "label": "Noma Noha Akugue – Anna Bondar",
-    "tipName": "Anna Bondar",
-    "tip": "P2",
-    "prob": 0.638,
     "result": "Sieger: P2",
     "correct": true,
     "sport": "tn"
