@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-25T13:00:24.088859+02:00",
+ "generatedAt": "2026-07-25T18:01:54.954640+02:00",
  "windowDays": 3,
  "days": [
   "2026-07-25",
@@ -226,418 +226,9 @@
  ],
  "tennis": [
   {
-   "start": "2026-07-25T13:05:00+02:00",
-   "tour": "ATP",
-   "tournament": "Generali Open",
-   "round": "Finale",
-   "surface": "Sand",
-   "p1": {
-    "name": "Quentin Halys",
-    "rank": 83,
-    "form": [
-     "S",
-     "N",
-     "S",
-     "S",
-     "N"
-    ],
-    "elo": 1616,
-    "onSurface": {
-     "w": 15,
-     "l": 13,
-     "pct": 0.536
-    },
-    "favSurface": "Sand"
-   },
-   "p2": {
-    "name": "Alexander Bublik",
-    "rank": 11,
-    "form": [
-     "S",
-     "S",
-     "S",
-     "N",
-     "N"
-    ],
-    "elo": 1719,
-    "onSurface": {
-     "w": 31,
-     "l": 29,
-     "pct": 0.517
-    },
-    "favSurface": "Rasen"
-   },
-   "pP1": 0.3566,
-   "model": {
-    "n1": 130,
-    "n2": 244,
-    "elo1": 1616,
-    "elo2": 1719,
-    "pElo": 0.3566,
-    "pRank": 0.1522,
-    "wElo": 1.0
-   },
-   "h2h": [
-    {
-     "year": "2026",
-     "tourney": "Suisse Open Gstaad",
-     "surface": "Sand",
-     "winner": "Quentin Halys",
-     "winnerIsP1": true,
-     "score": "6:7 6:4 7:6",
-     "rnd": "2nd Round"
-    }
-   ],
-   "analysis": "Quentin Halys (Weltrangliste #83) trifft auf Alexander Bublik (#11). Auf Sand liegt die Siegquote von Quentin Halys zuletzt bei 54 % (15:13), Alexander Bublik kommt auf 52 % (31:29). Alexander Bubliks stärkster Belag ist eigentlich Rasen. Das bisher einzige Duell (2026, Suisse Open Gstaad) gewann Quentin Halys mit 6:7 6:4 7:6. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Alexander Bublik mit 64 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-07-25T13:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "Livesport Prague Open",
-   "round": "Halbfinale",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Daria Snigur",
-    "rank": 54,
-    "form": [
-     "N",
-     "N",
-     "S",
-     "S",
-     "N"
-    ],
-    "elo": 1613,
-    "onSurface": {
-     "w": 6,
-     "l": 7,
-     "pct": 0.462
-    },
-    "favSurface": "Rasen"
-   },
-   "p2": {
-    "name": "Tereza Valentova",
-    "rank": 63,
-    "form": [
-     "N",
-     "N",
-     "S",
-     "S",
-     "N"
-    ],
-    "elo": 1641,
-    "onSurface": {
-     "w": 15,
-     "l": 10,
-     "pct": 0.6
-    },
-    "favSurface": "Hartplatz"
-   },
-   "pP1": 0.4586,
-   "model": {
-    "n1": 32,
-    "n2": 36,
-    "elo1": 1613,
-    "elo2": 1641,
-    "pElo": 0.4586,
-    "pRank": 0.5327,
-    "wElo": 1.0
-   },
-   "h2h": [],
-   "analysis": "Daria Snigur (Weltrangliste #54) trifft auf Tereza Valentova (#63). Auf Hartplatz liegt die Siegquote von Daria Snigur zuletzt bei 46 % (6:7), Tereza Valentova kommt auf 60 % (15:10). Daria Snigurs stärkster Belag ist eigentlich Rasen. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Tereza Valentova mit 54 % vorn. Bemerkenswert: Die Weltrangliste würde eher Daria Snigur favorisieren – die Formkurve spricht aber dagegen.",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-07-25T14:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "MSC Hamburg Ladies Open",
-   "round": "Halbfinale",
-   "surface": "Sand",
-   "p1": {
-    "name": "Anna Bondar",
-    "rank": 97,
-    "form": [
-     "N",
-     "N",
-     "N",
-     "S",
-     "N"
-    ],
-    "elo": 1618,
-    "onSurface": {
-     "w": 35,
-     "l": 28,
-     "pct": 0.556
-    },
-    "favSurface": "Sand"
-   },
-   "p2": {
-    "name": "Elina Avanesyan",
-    "rank": 224,
-    "form": [
-     "N",
-     "S",
-     "N",
-     "S",
-     "N"
-    ],
-    "elo": 1569,
-    "onSurface": {
-     "w": 25,
-     "l": 18,
-     "pct": 0.581
-    },
-    "favSurface": "Sand"
-   },
-   "pP1": 0.5691,
-   "model": {
-    "n1": 133,
-    "n2": 107,
-    "elo1": 1618,
-    "elo2": 1569,
-    "pElo": 0.5691,
-    "pRank": 0.6707,
-    "wElo": 1.0
-   },
-   "h2h": [
-    {
-     "year": "2023",
-     "tourney": "Budapest Open",
-     "surface": "Sand",
-     "winner": "Elina Avanesyan",
-     "winnerIsP1": false,
-     "score": "6:3 6:0",
-     "rnd": "2nd Round"
-    },
-    {
-     "year": "2022",
-     "tourney": "Transylvania Open",
-     "surface": "Hartplatz",
-     "winner": "Anna Bondar",
-     "winnerIsP1": true,
-     "score": "6:4 6:2",
-     "rnd": "1st Round"
-    }
-   ],
-   "analysis": "Anna Bondar (Weltrangliste #97) trifft auf Elina Avanesyan (#224). Auf Sand liegt die Siegquote von Anna Bondar zuletzt bei 56 % (35:28), Elina Avanesyan kommt auf 58 % (25:18). Der direkte Vergleich der letzten 2 Duelle ist mit 1:1 ausgeglichen. Zuletzt (2023, Budapest Open) gewann Elina Avanesyan mit 6:3 6:0. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Anna Bondar mit 57 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-07-25T15:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Livesport Prague Open",
-   "round": "Halbfinale",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Barbora Krejcikova",
-    "rank": 26,
-    "form": [
-     "S",
-     "S",
-     "S",
-     "S",
-     "S"
-    ],
-    "elo": 1837,
-    "onSurface": {
-     "w": 71,
-     "l": 39,
-     "pct": 0.645
-    },
-    "favSurface": "Rasen"
-   },
-   "p2": {
-    "name": "Lilli Tagger",
-    "rank": 74,
-    "form": [
-     "N",
-     "N",
-     "N",
-     "S",
-     "N"
-    ],
-    "elo": 1556,
-    "onSurface": {
-     "w": 7,
-     "l": 4,
-     "pct": 0.636
-    },
-    "favSurface": "Hartplatz"
-   },
-   "pP1": 0.8214,
-   "model": {
-    "n1": 168,
-    "n2": 18,
-    "elo1": 1837,
-    "elo2": 1556,
-    "pElo": 0.834,
-    "pRank": 0.7087,
-    "wElo": 0.9
-   },
-   "h2h": [],
-   "analysis": "Barbora Krejcikova (Weltrangliste #26) trifft auf Lilli Tagger (#74). Die aktuelle Form spricht für Barbora Krejcikova: 5 Siege aus den letzten 5 Matches, Lilli Tagger holte nur 1. Auf Hartplatz liegt die Siegquote von Barbora Krejcikova zuletzt bei 64 % (71:39), Lilli Tagger kommt auf 64 % (7:4). Barbora Krejcikovas stärkster Belag ist eigentlich Rasen. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Barbora Krejcikova mit 82 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-07-25T15:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "MSC Hamburg Ladies Open",
-   "round": "Halbfinale",
-   "surface": "Sand",
-   "p1": {
-    "name": "Tamara Korpatsch",
-    "rank": 81,
-    "form": [
-     "S",
-     "S",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": 1535,
-    "onSurface": {
-     "w": 8,
-     "l": 16,
-     "pct": 0.333
-    },
-    "favSurface": "Hartplatz"
-   },
-   "p2": {
-    "name": "Mayar Sherif",
-    "rank": 73,
-    "form": [
-     "S",
-     "S",
-     "S",
-     "S",
-     "S"
-    ],
-    "elo": 1583,
-    "onSurface": {
-     "w": 31,
-     "l": 22,
-     "pct": 0.585
-    },
-    "favSurface": "Sand"
-   },
-   "pP1": 0.4321,
-   "model": {
-    "n1": 78,
-    "n2": 102,
-    "elo1": 1535,
-    "elo2": 1583,
-    "pElo": 0.4321,
-    "pRank": 0.4779,
-    "wElo": 1.0
-   },
-   "h2h": [],
-   "analysis": "Tamara Korpatsch (Weltrangliste #81) trifft auf Mayar Sherif (#73). Die aktuelle Form spricht für Mayar Sherif: 5 Siege aus den letzten 5 Matches, Tamara Korpatsch holte nur 2. Auf Sand liegt die Siegquote von Tamara Korpatsch zuletzt bei 33 % (8:16), Mayar Sherif kommt auf 58 % (31:22). Tamara Korpatschs stärkster Belag ist eigentlich Hartplatz. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Mayar Sherif mit 57 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
    "start": "2026-07-25T16:00:00+02:00",
    "tour": "ATP",
-   "tournament": "Mubadala Citi DC Open",
-   "round": "Qualifying 1st Round",
-   "surface": null,
-   "p1": {
-    "name": "Aziz Dougaz",
-    "rank": null,
-    "form": [
-     "N",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": 1378,
-    "onSurface": null,
-    "favSurface": null
-   },
-   "p2": {
-    "name": "Aleksandar Vukic",
-    "rank": 102,
-    "form": [
-     "S",
-     "N",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": 1476,
-    "onSurface": null,
-    "favSurface": "Rasen"
-   },
-   "pP1": 0.3271,
-   "model": {
-    "n1": 4,
-    "n2": 140,
-    "elo1": 1378,
-    "elo2": 1476,
-    "pElo": 0.3628,
-    "pRank": 0.3182,
-    "wElo": 0.2
-   },
-   "h2h": [],
-   "analysis": "Aziz Dougaz – aktuell ohne Top-Ranking – trifft auf Aleksandar Vukic (#102). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Aleksandar Vukic mit 67 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-07-25T16:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "Mubadala Citi DC Open",
-   "round": "Qualifying 1st Round",
-   "surface": null,
-   "p1": {
-    "name": "Kimmer Coppejans",
-    "rank": null,
-    "form": [
-     "N",
-     "S",
-     "N"
-    ],
-    "elo": 1504,
-    "onSurface": null,
-    "favSurface": null
-   },
-   "p2": {
-    "name": "Martin Damm",
-    "rank": 105,
-    "form": [
-     "S",
-     "N",
-     "N",
-     "S",
-     "N"
-    ],
-    "elo": 1581,
-    "onSurface": null,
-    "favSurface": "Hartplatz"
-   },
-   "pP1": 0.3337,
-   "model": {
-    "n1": 3,
-    "n2": 21,
-    "elo1": 1504,
-    "elo2": 1581,
-    "pElo": 0.3908,
-    "pRank": 0.3236,
-    "wElo": 0.15
-   },
-   "h2h": [],
-   "analysis": "Kimmer Coppejans – aktuell ohne Top-Ranking – trifft auf Martin Damm (#105). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Martin Damm mit 67 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-07-25T16:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "Mubadala Citi DC Open",
+   "tournament": "Mubadala DC Open",
    "round": "Qualifying 1st Round",
    "surface": null,
    "p1": {
@@ -684,189 +275,9 @@
    "timeTBD": false
   },
   {
-   "start": "2026-07-25T16:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Mubadala Citi DC Open",
-   "round": "Qualifying 1st Round",
-   "surface": null,
-   "p1": {
-    "name": "Polina Iatcenko",
-    "rank": 146,
-    "form": [
-     "S",
-     "S",
-     "N"
-    ],
-    "elo": 1547,
-    "onSurface": null,
-    "favSurface": null
-   },
-   "p2": {
-    "name": "Julieta Pareja",
-    "rank": 269,
-    "form": [
-     "S",
-     "N",
-     "N",
-     "S",
-     "N"
-    ],
-    "elo": 1522,
-    "onSurface": null,
-    "favSurface": "Sand"
-   },
-   "pP1": 0.6134,
-   "model": {
-    "n1": 3,
-    "n2": 7,
-    "elo1": 1547,
-    "elo2": 1522,
-    "pElo": 0.5365,
-    "pRank": 0.627,
-    "wElo": 0.15
-   },
-   "h2h": [],
-   "analysis": "Polina Iatcenko (Weltrangliste #146) trifft auf Julieta Pareja (#269). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Polina Iatcenko mit 61 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-07-25T16:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Mubadala Citi DC Open",
-   "round": "Qualifying 1st Round",
-   "surface": null,
-   "p1": {
-    "name": "Heather Watson",
-    "rank": 281,
-    "form": [
-     "N",
-     "S",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": 1469,
-    "onSurface": null,
-    "favSurface": "Rasen"
-   },
-   "p2": {
-    "name": "Kamilla Rakhimova",
-    "rank": 78,
-    "form": [
-     "N",
-     "S",
-     "N",
-     "S",
-     "N"
-    ],
-    "elo": 1555,
-    "onSurface": null,
-    "favSurface": "Rasen"
-   },
-   "pP1": 0.3789,
-   "model": {
-    "n1": 50,
-    "n2": 122,
-    "elo1": 1469,
-    "elo2": 1555,
-    "pElo": 0.3789,
-    "pRank": 0.2517,
-    "wElo": 1.0
-   },
-   "h2h": [],
-   "analysis": "Heather Watson (Weltrangliste #281) trifft auf Kamilla Rakhimova (#78). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Kamilla Rakhimova mit 62 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-07-25T17:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "The Memphis Classic",
-   "round": "Qualifying 1st Round",
-   "surface": null,
-   "p1": {
-    "name": "Camila Soares",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "onSurface": null,
-    "favSurface": null
-   },
-   "p2": {
-    "name": "Katherine Sebov",
-    "rank": null,
-    "form": [
-     "S",
-     "N",
-     "S",
-     "N",
-     "N"
-    ],
-    "elo": null,
-    "onSurface": null,
-    "favSurface": "Hartplatz"
-   },
-   "pP1": null,
-   "model": {},
-   "h2h": [],
-   "analysis": "Camila Soares trifft auf Katherine Sebov; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-07-25T17:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "The Memphis Classic",
-   "round": "Qualifying 1st Round",
-   "surface": null,
-   "p1": {
-    "name": "Aoi Ito",
-    "rank": 246,
-    "form": [
-     "S",
-     "S",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": 1520,
-    "onSurface": null,
-    "favSurface": "Hartplatz"
-   },
-   "p2": {
-    "name": "Astra Sharma",
-    "rank": 148,
-    "form": [
-     "N",
-     "N",
-     "S",
-     "N",
-     "N"
-    ],
-    "elo": 1474,
-    "onSurface": null,
-    "favSurface": "Sand"
-   },
-   "pP1": 0.5486,
-   "model": {
-    "n1": 18,
-    "n2": 27,
-    "elo1": 1520,
-    "elo2": 1474,
-    "pElo": 0.5658,
-    "pRank": 0.3937,
-    "wElo": 0.9
-   },
-   "h2h": [],
-   "analysis": "Aoi Ito (Weltrangliste #246) trifft auf Astra Sharma (#148). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Aoi Ito mit 55 % vorn. Bemerkenswert: Die Weltrangliste würde eher Astra Sharma favorisieren – die Formkurve spricht aber dagegen.",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
    "start": "2026-07-25T17:30:00+02:00",
    "tour": "ATP",
-   "tournament": "Mubadala Citi DC Open",
+   "tournament": "Mubadala DC Open",
    "round": "Qualifying 1st Round",
    "surface": null,
    "p1": {
@@ -915,7 +326,7 @@
   {
    "start": "2026-07-25T17:30:00+02:00",
    "tour": "ATP",
-   "tournament": "Mubadala Citi DC Open",
+   "tournament": "Mubadala DC Open",
    "round": "Qualifying 1st Round",
    "surface": null,
    "p1": {
@@ -950,7 +361,7 @@
   {
    "start": "2026-07-25T17:30:00+02:00",
    "tour": "ATP",
-   "tournament": "Mubadala Citi DC Open",
+   "tournament": "Mubadala DC Open",
    "round": "Qualifying 1st Round",
    "surface": null,
    "p1": {
@@ -997,58 +408,9 @@
    "timeTBD": false
   },
   {
-   "start": "2026-07-25T17:30:00+02:00",
+   "start": "2026-07-25T18:10:00+02:00",
    "tour": "WTA",
-   "tournament": "Mubadala Citi DC Open",
-   "round": "Qualifying 1st Round",
-   "surface": null,
-   "p1": {
-    "name": "Varvara Lepchenko",
-    "rank": 172,
-    "form": [
-     "N",
-     "S",
-     "S",
-     "N",
-     "N"
-    ],
-    "elo": 1435,
-    "onSurface": null,
-    "favSurface": "Sand"
-   },
-   "p2": {
-    "name": "Clervie Ngounoue",
-    "rank": 178,
-    "form": [
-     "N",
-     "N",
-     "S",
-     "N",
-     "N"
-    ],
-    "elo": 1375,
-    "onSurface": null,
-    "favSurface": "Hartplatz"
-   },
-   "pP1": 0.5388,
-   "model": {
-    "n1": 15,
-    "n2": 8,
-    "elo1": 1435,
-    "elo2": 1375,
-    "pElo": 0.5861,
-    "pRank": 0.5073,
-    "wElo": 0.4
-   },
-   "h2h": [],
-   "analysis": "Varvara Lepchenko (Weltrangliste #172) trifft auf Clervie Ngounoue (#178). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Varvara Lepchenko mit 54 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-07-25T17:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "Mubadala Citi DC Open",
+   "tournament": "Mubadala DC Open",
    "round": "Qualifying 1st Round",
    "surface": null,
    "p1": {
@@ -1192,7 +554,7 @@
   {
    "start": "2026-07-25T19:00:00+02:00",
    "tour": "ATP",
-   "tournament": "Mubadala Citi DC Open",
+   "tournament": "Mubadala DC Open",
    "round": "Qualifying 1st Round",
    "surface": null,
    "p1": {
@@ -1231,7 +593,7 @@
   {
    "start": "2026-07-25T19:00:00+02:00",
    "tour": "ATP",
-   "tournament": "Mubadala Citi DC Open",
+   "tournament": "Mubadala DC Open",
    "round": "Qualifying 1st Round",
    "surface": null,
    "p1": {
@@ -1270,7 +632,7 @@
   {
    "start": "2026-07-25T19:00:00+02:00",
    "tour": "ATP",
-   "tournament": "Mubadala Citi DC Open",
+   "tournament": "Mubadala DC Open",
    "round": "Qualifying 1st Round",
    "surface": null,
    "p1": {
@@ -1448,7 +810,7 @@
   {
    "start": "2026-07-25T19:00:00+02:00",
    "tour": "WTA",
-   "tournament": "Mubadala Citi DC Open",
+   "tournament": "Mubadala DC Open",
    "round": "Qualifying 1st Round",
    "surface": null,
    "p1": {
@@ -1497,7 +859,7 @@
   {
    "start": "2026-07-25T19:00:00+02:00",
    "tour": "WTA",
-   "tournament": "Mubadala Citi DC Open",
+   "tournament": "Mubadala DC Open",
    "round": "Qualifying 1st Round",
    "surface": null,
    "p1": {
@@ -1759,7 +1121,7 @@
   {
    "start": "2026-07-25T20:30:00+02:00",
    "tour": "ATP",
-   "tournament": "Mubadala Citi DC Open",
+   "tournament": "Mubadala DC Open",
    "round": "Qualifying 1st Round",
    "surface": null,
    "p1": {
@@ -1801,7 +1163,7 @@
   {
    "start": "2026-07-25T20:30:00+02:00",
    "tour": "ATP",
-   "tournament": "Mubadala Citi DC Open",
+   "tournament": "Mubadala DC Open",
    "round": "Qualifying 1st Round",
    "surface": null,
    "p1": {
@@ -1936,7 +1298,7 @@
   {
    "start": "2026-07-25T20:30:00+02:00",
    "tour": "WTA",
-   "tournament": "Mubadala Citi DC Open",
+   "tournament": "Mubadala DC Open",
    "round": "Qualifying 1st Round",
    "surface": null,
    "p1": {
@@ -1973,22 +1335,16 @@
   {
    "start": "2026-07-25T20:30:00+02:00",
    "tour": "WTA",
-   "tournament": "Mubadala Citi DC Open",
+   "tournament": "Mubadala DC Open",
    "round": "Qualifying 1st Round",
    "surface": null,
    "p1": {
-    "name": "Katie Swan",
-    "rank": 196,
-    "form": [
-     "N",
-     "N",
-     "N",
-     "S",
-     "N"
-    ],
+    "name": "Alana Smith",
+    "rank": null,
+    "form": [],
     "elo": null,
     "onSurface": null,
-    "favSurface": "Hartplatz"
+    "favSurface": null
    },
    "p2": {
     "name": "Lea Ma",
@@ -1998,21 +1354,17 @@
     "onSurface": null,
     "favSurface": null
    },
-   "pP1": 0.5515,
-   "model": {
-    "n1": 12,
-    "n2": 0,
-    "pRank": 0.5515
-   },
+   "pP1": null,
+   "model": {},
    "h2h": [],
-   "analysis": "Katie Swan (#196) trifft auf Lea Ma, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Katie Swan mit 55 % vorn.",
+   "analysis": "Alana Smith trifft auf Lea Ma; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
    "unconfirmed": false,
    "timeTBD": false
   },
   {
    "start": "2026-07-25T21:00:00+02:00",
    "tour": "ATP",
-   "tournament": "Mubadala Citi DC Open",
+   "tournament": "Mubadala DC Open",
    "round": "Qualifying 1st Round",
    "surface": null,
    "p1": {
@@ -2449,6 +1801,278 @@
    },
    "h2h": [],
    "analysis": "Colton Smith (#164) trifft auf Roger Pascual Ferra, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Colton Smith mit 59 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-07-26T10:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Axeria Open 2026 powered by Intaro Sport",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Alessandra Mazzola",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "onSurface": null,
+    "favSurface": null
+   },
+   "p2": {
+    "name": "Yelyzaveta Kotliar",
+    "rank": 528,
+    "form": [
+     "N",
+     "S",
+     "N"
+    ],
+    "elo": null,
+    "onSurface": null,
+    "favSurface": null
+   },
+   "pP1": 0.6537,
+   "model": {
+    "n1": 0,
+    "n2": 3,
+    "pRank": 0.6537
+   },
+   "h2h": [],
+   "analysis": "Alessandra Mazzola – aktuell ohne Top-Ranking – trifft auf Yelyzaveta Kotliar (#528). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alessandra Mazzola mit 65 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-07-26T10:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Axeria Open 2026 powered by Intaro Sport",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Ekaterina Kazionova",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "onSurface": null,
+    "favSurface": null
+   },
+   "p2": {
+    "name": "Elena Malygina",
+    "rank": null,
+    "form": [
+     "N",
+     "N"
+    ],
+    "elo": null,
+    "onSurface": null,
+    "favSurface": null
+   },
+   "pP1": null,
+   "model": {},
+   "h2h": [],
+   "analysis": "Ekaterina Kazionova trifft auf Elena Malygina; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-07-26T10:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Axeria Open 2026 powered by Intaro Sport",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Andreea Prisacariu",
+    "rank": 474,
+    "form": [
+     "N"
+    ],
+    "elo": null,
+    "onSurface": null,
+    "favSurface": null
+   },
+   "p2": {
+    "name": "Deborah Chiesa",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "onSurface": null,
+    "favSurface": null
+   },
+   "pP1": 0.3673,
+   "model": {
+    "n1": 1,
+    "n2": 0,
+    "pRank": 0.3673
+   },
+   "h2h": [],
+   "analysis": "Andreea Prisacariu (#474) trifft auf Deborah Chiesa, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Deborah Chiesa mit 63 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-07-26T11:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "Axeria Open 2026 powered by Intaro Sport",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Lucija Ciric Bagaric",
+    "rank": null,
+    "form": [
+     "N"
+    ],
+    "elo": null,
+    "onSurface": null,
+    "favSurface": null
+   },
+   "p2": {
+    "name": "Amandine Monnot",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "onSurface": null,
+    "favSurface": null
+   },
+   "pP1": null,
+   "model": {},
+   "h2h": [],
+   "analysis": "Lucija Ciric Bagaric trifft auf Amandine Monnot; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-07-26T11:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "Axeria Open 2026 powered by Intaro Sport",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Amarissa Toth",
+    "rank": null,
+    "form": [
+     "S",
+     "N",
+     "N"
+    ],
+    "elo": null,
+    "onSurface": null,
+    "favSurface": null
+   },
+   "p2": {
+    "name": "Maria Sara Popa",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "onSurface": null,
+    "favSurface": null
+   },
+   "pP1": null,
+   "model": {},
+   "h2h": [],
+   "analysis": "Amarissa Toth trifft auf Maria Sara Popa; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-07-26T11:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "Axeria Open 2026 powered by Intaro Sport",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Miriana Tona",
+    "rank": 384,
+    "form": [
+     "N",
+     "S",
+     "N"
+    ],
+    "elo": null,
+    "onSurface": null,
+    "favSurface": null
+   },
+   "p2": {
+    "name": "Isabella Shinikova",
+    "rank": null,
+    "form": [
+     "N"
+    ],
+    "elo": null,
+    "onSurface": null,
+    "favSurface": null
+   },
+   "pP1": 0.4098,
+   "model": {
+    "n1": 3,
+    "n2": 1,
+    "pRank": 0.4098
+   },
+   "h2h": [],
+   "analysis": "Miriana Tona (#384) trifft auf Isabella Shinikova, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Isabella Shinikova mit 59 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-07-26T13:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Axeria Open 2026 powered by Intaro Sport",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Margaux Rouvroy",
+    "rank": 321,
+    "form": [
+     "N",
+     "N"
+    ],
+    "elo": null,
+    "onSurface": null,
+    "favSurface": null
+   },
+   "p2": {
+    "name": "Diana Ilie",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "onSurface": null,
+    "favSurface": null
+   },
+   "pP1": 0.4471,
+   "model": {
+    "n1": 2,
+    "n2": 0,
+    "pRank": 0.4471
+   },
+   "h2h": [],
+   "analysis": "Margaux Rouvroy (#321) trifft auf Diana Ilie, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Diana Ilie mit 55 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-07-26T13:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Axeria Open 2026 powered by Intaro Sport",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Briana Szabo",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "onSurface": null,
+    "favSurface": null
+   },
+   "p2": {
+    "name": "Gina Feistel",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "onSurface": null,
+    "favSurface": null
+   },
+   "pP1": null,
+   "model": {},
+   "h2h": [],
+   "analysis": "Briana Szabo trifft auf Gina Feistel; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
    "unconfirmed": false,
    "timeTBD": false
   },
@@ -2976,7 +2600,7 @@
    "n": 3,
    "correct": 1
   },
-  "open": 54,
+  "open": 58,
   "recent": [
    {
     "date": "2026-07-24",
