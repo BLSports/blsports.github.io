@@ -184,6 +184,8 @@ def tennis_card(m):
         bar += (f'<div class="predmeta"><span>Modell-Favorit: <b>{esc(fav)}</b> ({pct}%)</span>'
                 f'<span class="muted">Basis: {basis}</span></div>')
     rnd = f' · {esc(m["round"])}' if m.get("round") else ""
+    if m.get("doubles"):
+        rnd += " · Doppel"
     surf_chip = f' · {esc(surface)}' if surface else ""
     unc = ('<div class="unc">⚠️ Ansetzung unbestätigt – Quelle: Community-Daten, '
            'finaler Spielplan erscheint meist erst am Vorabend</div>') if m.get("unconfirmed") else ""
@@ -252,9 +254,10 @@ def build(data_path=None, out_path=None):
         for (tour, tournament), ms in sorted(tn_by_tour.items()):
             cards = "".join(tennis_card(m) for m in sorted(ms, key=lambda x: x["start"]))
             icon = "🎾"
+            tour_label = "Challenger" if tour == "Challenger" else esc(tour)
             tn_sections.append(
-                f'<section class="league" data-cat="tennis" data-lg="{tour.lower()}">'
-                f'<h2>{icon} {esc(tour)} · {esc(tournament)}</h2><div class="grid">{cards}</div></section>')
+                f'<section class="league" data-cat="tennis" data-lg="{esc(tour.lower())}">'
+                f'<h2>{icon} {tour_label} · {esc(tournament)}</h2><div class="grid">{cards}</div></section>')
 
         body = "".join(fb_sections) + "".join(tn_sections)
         # Heute bereits gespielte Tennis-Matches (nur im Heute-Tab)

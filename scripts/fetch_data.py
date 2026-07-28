@@ -739,8 +739,7 @@ def espn_tennis_day(tour, day):
         for g in groupings:
             gname = (g.get("grouping") or {}).get("displayName", "")
             gl = gname.lower()
-            if "doubles" in gl:
-                continue
+            is_doubles = "doubles" in gl
             # Kombinierte Turniere: der WTA-Feed enthaelt teils auch Herren-Matches
             # (und umgekehrt). Nur die zum Tour-Kontext passenden Singles uebernehmen.
             if "women" in gl:
@@ -751,10 +750,10 @@ def espn_tennis_day(tour, day):
                 gender = None
             if (tour == "atp" and gender == "W") or (tour == "wta" and gender == "M"):
                 continue
-            comps.extend([(c, gname) for c in g.get("competitions", [])])
+            comps.extend([(c, gname, is_doubles) for c in g.get("competitions", [])])
         if not groupings:
-            comps = [(c, "") for c in ev.get("competitions", [])]
-        for comp, gname in comps:
+            comps = [(c, "", False) for c in ev.get("competitions", [])]
+        for comp, gname, is_doubles in comps:
             try:
                 st = comp.get("status", {}).get("type", {})
                 if st.get("state") != "pre":
@@ -774,10 +773,9 @@ def espn_tennis_day(tour, day):
                             (ath.get("links") or [{}])[0].get("href") if ath.get("links") else ""))
                         m_id = re.search(r"a:(\d+)", blob) or re.search(r"/athletes/(\d+)", blob)
                         aid = m_id.group(1) if m_id else ""
-                    players.append({
-                        "name": ath.get("displayName") or ath.get("shortName") or "?",
-                        "id": aid,
-                    })
+                    nm = (ath.get("displayName") or ath.get("shortName")
+                          or (c.get("team") or {}).get("displayName") or "?")
+                    players.append({"name": nm, "id": aid})
                 if len(players) != 2:
                     continue
                 # Platzhalter (Gegner noch offen) ueberspringen
@@ -789,6 +787,7 @@ def espn_tennis_day(tour, day):
                     "p1": players[0], "p2": players[1], "venue": venue,
                     "src": "espn",
                     "timeTBD": comp.get("timeValid") is False,
+                    "doubles": is_doubles,
                 })
             except Exception:
                 continue
@@ -802,8 +801,14 @@ def tsdb_tennis_day(day):
         return matches
     for ev in data["events"]:
         league = ev.get("strLeague", "")
-        tour = "ATP" if "ATP" in league.upper() else ("WTA" if "WTA" in league.upper() else None)
-        if not tour:
+        lu = league.upper()
+        if "CHALLENGER" in lu:
+            tour = "Challenger"
+        elif "ATP" in lu:
+            tour = "ATP"
+        elif "WTA" in lu:
+            tour = "WTA"
+        else:
             continue
         name = ev.get("strEvent", "")
         m = re.search(r"(.+?)\s+(\S+(?:\s\S+)?)\s+vs\s+(.+)$", name)
@@ -1790,13 +1795,18 @@ def main():
         # TheSportsDB nur als Ergaenzung, wenn ESPN fuer diese Tour an dem Tag
         # nichts liefert. Community-Daten ordnen Turniere teils falsch zu,
         # daher werden solche Eintraege als "unbestaetigt" markiert.
-        espn_tours_today = {m["tour"] for m in day_matches}
         for m in tsdb_tennis_day(day):
-            if m["tour"] not in espn_tours_today:
-                day_matches.append(m)
+            day_matches.append(m)  # Dedupe unten ueber Spieler-Schluessel
         for m in day_matches:
-            # Dedupe OHNE Tour: kombinierte Turniere tauchen in beiden Feeds auf
-            key = (norm_team(m["p1"]["name"]), norm_team(m["p2"]["name"]), m["dt"].date().isoformat())
+            # Dedupe OHNE Tour: kombinierte Turniere tauchen in beiden Feeds auf;
+            # Schluessel = Nachname(n), damit "Sinner" und "Jannik Sinner" matchen
+            def _dk(name):
+                k = player_key(name)
+                parts = k.split()
+                if len(parts) >= 2 and len(parts[-1]) == 1:
+                    k = " ".join(parts[:-1])
+                return k
+            key = (_dk(m["p1"]["name"]), _dk(m["p2"]["name"]), m["dt"].date().isoformat())
             key_rev = (key[1], key[0], key[2])
             if key in seen or key_rev in seen:
                 continue
@@ -1805,6 +1815,22 @@ def main():
             by_nm = rank_atp_nm if m["tour"] == "ATP" else rank_wta_nm
             rows = sack.get(m["tour"], [])
             n1, n2 = m["p1"]["name"], m["p2"]["name"]
+            if m.get("doubles") or m["tour"] == "Challenger":
+                tennis_out.append({
+                    "start": m["dt"].isoformat(),
+                    "tour": m["tour"], "tournament": m["tournament"],
+                    "round": ROUND_DE.get((m.get("round") or "").strip().lower(),
+                                          (m.get("round") or "").strip()),
+                    "surface": None,
+                    "doubles": bool(m.get("doubles")),
+                    "p1": {"name": n1, "rank": None},
+                    "p2": {"name": n2, "rank": None},
+                    "pP1": None, "h2h": [],
+                    "analysis": "",
+                    "unconfirmed": m.get("src") == "tsdb",
+                    "timeTBD": bool(m.get("timeTBD")),
+                })
+                continue
             # Ranking: Weltrangliste (Top 150), sonst letzter bekannter Rang aus der Historie
             r1 = (by_id.get(m["p1"]["id"]) or by_nm.get(norm_team(n1))
                   or sack_last_rank(rows, n1))
