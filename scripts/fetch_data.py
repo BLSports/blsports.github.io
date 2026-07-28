@@ -1725,6 +1725,21 @@ def main():
 
     # ---- Tennis ----
     print("== Tennis ==")
+    # TEMP-DEBUG: Struktur eines Doppel-Wettbewerbs einmalig ausgeben
+    try:
+        _dbg = http_get("https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard")
+        for _ev in (_dbg or {}).get("events", []):
+            for _g in _ev.get("groupings", []):
+                if "doubles" in ((_g.get("grouping") or {}).get("displayName", "")).lower():
+                    _comps = _g.get("competitions", [])
+                    if _comps:
+                        print("DOUBLES-DEBUG:",
+                              json.dumps(_comps[0].get("competitors", []))[:1500])
+                        raise StopIteration
+    except StopIteration:
+        pass
+    except Exception as _e:
+        print(f"DOUBLES-DEBUG-FEHLER: {_e}")
     rank_atp_id, rank_atp_nm = espn_rankings("atp")
     rank_wta_id, rank_wta_nm = espn_rankings("wta")
     print(f"  Rankings: ATP {len(rank_atp_id) or len(rank_atp_nm)}, WTA {len(rank_wta_id) or len(rank_wta_nm)}")
