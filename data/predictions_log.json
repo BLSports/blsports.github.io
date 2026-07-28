@@ -4656,9 +4656,9 @@
    "tip": "P1",
    "tipName": "Carole Monnet",
    "prob": 0.5811,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-07-27|jones f|paquet c": {
    "sport": "tn",
@@ -4670,9 +4670,9 @@
    "tip": "P2",
    "tipName": "Francesca Jones",
    "prob": 0.5224,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-07-27|romero gormaz l|sorribes tormo s": {
    "sport": "tn",
@@ -4712,9 +4712,9 @@
    "tip": "P1",
    "tipName": "Maia Ilinca Burcescu",
    "prob": 0.5202,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-07-27|breaz a|samson l": {
    "sport": "tn",
@@ -4740,9 +4740,9 @@
    "tip": "P2",
    "tipName": "Selena Janicijevic",
    "prob": 0.5043,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-07-27|kazionova e|rouvroy m": {
    "sport": "tn",
@@ -4782,9 +4782,9 @@
    "tip": "P1",
    "tipName": "Carole Monnet",
    "prob": 0.5811,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-07-28|jones f|paquet c": {
    "sport": "tn",
@@ -4796,9 +4796,9 @@
    "tip": "P2",
    "tipName": "Francesca Jones",
    "prob": 0.5224,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-07-28|ibragimova a|ilinca burcescu m": {
    "sport": "tn",
@@ -4810,9 +4810,9 @@
    "tip": "P1",
    "tipName": "Maia Ilinca Burcescu",
    "prob": 0.5202,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-07-28|breaz a|samson l": {
    "sport": "tn",
@@ -4838,9 +4838,9 @@
    "tip": "P2",
    "tipName": "Selena Janicijevic",
    "prob": 0.5043,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-07-27|schoppe e|scott k": {
    "sport": "tn",
@@ -5370,9 +5370,9 @@
    "tip": "P2",
    "tipName": "Ugo Humbert",
    "prob": 0.8611,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-07-28|cabrera l|costoulas s": {
    "sport": "tn",
@@ -5692,9 +5692,9 @@
    "tip": "P1",
    "tipName": "Lola Radivojevic",
    "prob": 0.5529,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|atp|2026-07-29|pacheco mendez r|shimabukuro s": {
    "sport": "tn",
@@ -6224,6 +6224,90 @@
    "tip": "P1",
    "tipName": "Mia Ristic",
    "prob": 0.6537,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-07-29|rame a|rouvroy m": {
+   "sport": "tn",
+   "comp": "WTA · Axeria Open 2026 powered by Intaro Sport",
+   "date": "2026-07-29",
+   "label": "Margaux Rouvroy – Alice Rame",
+   "p1Key": "rouvroy m",
+   "p2Key": "rame a",
+   "tip": "P2",
+   "tipName": "Alice Rame",
+   "prob": 0.5529,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-07-29|monnet c|ruxandra bertea e": {
+   "sport": "tn",
+   "comp": "WTA · Axeria Open 2026 powered by Intaro Sport",
+   "date": "2026-07-29",
+   "label": "Carole Monnet – Elena Ruxandra Bertea",
+   "p1Key": "monnet c",
+   "p2Key": "ruxandra bertea e",
+   "tip": "P1",
+   "tipName": "Carole Monnet",
+   "prob": 0.5421,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-07-30|ciric bagaric l|jones f": {
+   "sport": "tn",
+   "comp": "WTA · Axeria Open 2026 powered by Intaro Sport",
+   "date": "2026-07-30",
+   "label": "Lucija Ciric Bagaric – Francesca Jones",
+   "p1Key": "ciric bagaric l",
+   "p2Key": "jones f",
+   "tip": "P2",
+   "tipName": "Francesca Jones",
+   "prob": 0.6677,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-07-30|kotliar y|ristic m": {
+   "sport": "tn",
+   "comp": "WTA · Axeria Open 2026 powered by Intaro Sport",
+   "date": "2026-07-30",
+   "label": "Mia Ristic – Yelyzaveta Kotliar",
+   "p1Key": "ristic m",
+   "p2Key": "kotliar y",
+   "tip": "P1",
+   "tipName": "Mia Ristic",
+   "prob": 0.6537,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-07-30|samson l|sobolieva a": {
+   "sport": "tn",
+   "comp": "WTA · Axeria Open 2026 powered by Intaro Sport",
+   "date": "2026-07-30",
+   "label": "Anastasiia Sobolieva – Laura Samson",
+   "p1Key": "sobolieva a",
+   "p2Key": "samson l",
+   "tip": "P2",
+   "tipName": "Laura Samson",
+   "prob": 0.6069,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-07-30|bronzetti l|ibragimova a": {
+   "sport": "tn",
+   "comp": "WTA · Axeria Open 2026 powered by Intaro Sport",
+   "date": "2026-07-30",
+   "label": "Lucia Bronzetti – Alevtina Ibragimova",
+   "p1Key": "bronzetti l",
+   "p2Key": "ibragimova a",
+   "tip": "P1",
+   "tipName": "Lucia Bronzetti",
+   "prob": 0.6724,
    "status": "open",
    "result": null,
    "correct": null
