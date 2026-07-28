@@ -1055,16 +1055,26 @@ def espn_tennis_results(tour, day):
             try:
                 if comp.get("status", {}).get("type", {}).get("state") != "post":
                     continue
-                keys, winner = [], None
+                keys, names, winner, winner_name = [], [], None, None
+                lines = []
                 for c in comp.get("competitors", []):
                     ath = c.get("athlete", {}) or {}
-                    k = player_key(ath.get("displayName") or "")
+                    nm = ath.get("displayName") or ath.get("shortName") or "?"
+                    k = player_key(nm)
                     keys.append(k)
+                    names.append(nm)
+                    lines.append([int(ls.get("value") or 0)
+                                  for ls in (c.get("linescores") or [])])
                     if c.get("winner") is True:
-                        winner = k
+                        winner, winner_name = k, nm
                 if len(keys) == 2 and winner:
+                    score = " ".join(f"{a}:{b}" for a, b in zip(lines[0], lines[1])) \
+                        if lines[0] and lines[1] else ""
                     out.append({"pair": tuple(sorted(keys)), "winner": winner,
-                                "day": day.isoformat()})
+                                "day": day.isoformat(),
+                                "tour": tour.upper(), "tournament": ev.get("name", ""),
+                                "p1": names[0], "p2": names[1],
+                                "winnerName": winner_name, "score": score})
             except Exception:
                 continue
     return out
@@ -1140,9 +1150,9 @@ def update_prediction_log(out, results_by_league, log_path):
             "status": "open", "result": None, "correct": None,
         }
 
-    # --- 3) Offene Fussball-Tipps aufloesen ---
+    # --- 3) Offene Fussball-Tipps aufloesen (inkl. heute bereits beendeter Spiele) ---
     for e in entries.values():
-        if e["sport"] != "fb" or e["status"] != "open" or e["date"] >= today_iso:
+        if e["sport"] != "fb" or e["status"] != "open" or e["date"] > today_iso:
             continue
         e_date = datetime.strptime(e["date"], "%Y-%m-%d").date()
         found = False
@@ -1164,7 +1174,7 @@ def update_prediction_log(out, results_by_league, log_path):
 
     # --- 4) Offene Tennis-Tipps aufloesen ---
     open_tn = [e for e in entries.values()
-               if e["sport"] == "tn" and e["status"] == "open" and e["date"] < today_iso]
+               if e["sport"] == "tn" and e["status"] == "open" and e["date"] <= today_iso]
     if open_tn:
         need_days = set()
         for e in open_tn:
@@ -1837,6 +1847,35 @@ def main():
     tennis_out.sort(key=lambda x: x["start"])
     out["tennis"] = tennis_out
     print(f"  {len(tennis_out)} Tennis-Matches in den naechsten {DAYS_AHEAD} Tagen")
+
+    # Heute bereits gespielte Matches (fuer die Tagesansicht) + Wochenbelastung
+    finished_today, load7 = [], {}
+    seen_fin = set()
+    for i in range(7):
+        dd = TODAY - timedelta(days=i)
+        for tour in ("atp", "wta"):
+            for r in espn_tennis_results(tour, dd):
+                for k in r["pair"]:
+                    load7[k] = load7.get(k, 0) + 1
+                if i == 0 and r["pair"] not in seen_fin:
+                    seen_fin.add(r["pair"])
+                    finished_today.append({
+                        "tour": r["tour"], "tournament": r["tournament"],
+                        "p1": r["p1"], "p2": r["p2"],
+                        "winner": r["winnerName"], "score": r["score"],
+                    })
+    out["tennisFinished"] = finished_today
+    print(f"  {len(finished_today)} Tennis-Matches heute bereits beendet")
+    # Wochenbelastung an anstehende Matches haengen (+ ggf. Hinweis im Text)
+    for t in tennis_out:
+        for side in ("p1", "p2"):
+            n7 = load7.get(player_key(t[side]["name"]), 0)
+            t[side]["last7"] = n7
+        for side, other in (("p1", "p2"), ("p2", "p1")):
+            if t[side]["last7"] >= 4 and t[side]["last7"] >= t[other]["last7"] + 2:
+                t["analysis"] += (f' {t[side]["name"]} hat allerdings eine intensive Woche in den '
+                                  f'Beinen ({t[side]["last7"]} Matches in den letzten 7 Tagen).')
+                break
 
     os.makedirs(os.path.join(os.path.dirname(__file__), "..", "data"), exist_ok=True)
     # Tipps protokollieren, Ergebnisse abgleichen, Trefferquote berechnen

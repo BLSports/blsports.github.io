@@ -166,6 +166,8 @@ def _player_meta(p, surface):
         fav = f'<span class="tiny muted">Lieblingsbelag: {esc(p["favSurface"])}</span>'
     if p.get("elo"):
         fav += f'<span class="tiny muted">Formstärke (Elo): {p["elo"]}</span>'
+    if p.get("last7", 0) >= 3:
+        fav += f'<span class="tiny muted">Belastung: {p["last7"]} Matches/7 Tage</span>'
     return r, surf, fav
 
 
@@ -255,6 +257,23 @@ def build(data_path=None, out_path=None):
                 f'<h2>{icon} {esc(tour)} · {esc(tournament)}</h2><div class="grid">{cards}</div></section>')
 
         body = "".join(fb_sections) + "".join(tn_sections)
+        # Heute bereits gespielte Tennis-Matches (nur im Heute-Tab)
+        if i == 0 and data.get("tennisFinished"):
+            fin_by = {}
+            for f in data["tennisFinished"]:
+                fin_by.setdefault((f["tour"], f["tournament"]), []).append(f)
+            rows = ""
+            for (tour, tournament), fs in sorted(fin_by.items()):
+                for f in fs:
+                    score = f' {esc(f["score"])}' if f.get("score") else ""
+                    rows += (f'<tr><td>{esc(tour)}</td><td>{esc(tournament)}</td>'
+                             f'<td>{esc(f["p1"])} – {esc(f["p2"])}</td>'
+                             f'<td class="num"><b>{esc(f["winner"])}</b>{score}</td></tr>')
+            body += (f'<section class="league" data-cat="tennis" data-lg="fin">'
+                     f'<h2>✅ Heute bereits gespielt ({len(data["tennisFinished"])})</h2>'
+                     f'<table class="pausetable"><thead><tr><th>Tour</th><th>Turnier</th>'
+                     f'<th>Match</th><th>Sieger &amp; Ergebnis</th></tr></thead>'
+                     f'<tbody>{rows}</tbody></table></section>')
         if not body:
             body = '<div class="empty">Für diesen Tag sind (noch) keine Partien angesetzt.</div>'
         panels.append(f'<div class="daypanel{" active" if i == 0 else ""}" data-day="{i}">{body}</div>')
