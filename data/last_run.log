@@ -9,18 +9,18 @@
 /tmp/tennisdata/atp_2026.xlsx: OK über http://www.tennis-data.co.uk (277950 Bytes)
 /tmp/tennisdata/wta_2026.xlsx: OK über http://www.tennis-data.co.uk (264884 Bytes)
 total 3812
-drwxr-xr-x  2 runner runner   4096 Jul 28 07:37 .
-drwxrwxrwt 14 root   root    12288 Jul 28 07:37 ..
--rw-r--r--  1 runner runner 417917 Jul 28 07:37 atp_2022.xlsx
--rw-r--r--  1 runner runner 447088 Jul 28 07:37 atp_2023.xlsx
--rw-r--r--  1 runner runner 445729 Jul 28 07:37 atp_2024.xlsx
--rw-r--r--  1 runner runner 426707 Jul 28 07:37 atp_2025.xlsx
--rw-r--r--  1 runner runner 277950 Jul 28 07:37 atp_2026.xlsx
--rw-r--r--  1 runner runner 370069 Jul 28 07:37 wta_2022.xlsx
--rw-r--r--  1 runner runner 407251 Jul 28 07:37 wta_2023.xlsx
--rw-r--r--  1 runner runner 406783 Jul 28 07:37 wta_2024.xlsx
--rw-r--r--  1 runner runner 399398 Jul 28 07:37 wta_2025.xlsx
--rw-r--r--  1 runner runner 264884 Jul 28 07:37 wta_2026.xlsx
+drwxr-xr-x  2 runner runner   4096 Jul 28 07:47 .
+drwxrwxrwt 14 root   root    12288 Jul 28 07:47 ..
+-rw-r--r--  1 runner runner 417917 Jul 28 07:47 atp_2022.xlsx
+-rw-r--r--  1 runner runner 447088 Jul 28 07:47 atp_2023.xlsx
+-rw-r--r--  1 runner runner 445729 Jul 28 07:47 atp_2024.xlsx
+-rw-r--r--  1 runner runner 426707 Jul 28 07:47 atp_2025.xlsx
+-rw-r--r--  1 runner runner 277950 Jul 28 07:47 atp_2026.xlsx
+-rw-r--r--  1 runner runner 370069 Jul 28 07:47 wta_2022.xlsx
+-rw-r--r--  1 runner runner 407251 Jul 28 07:47 wta_2023.xlsx
+-rw-r--r--  1 runner runner 406783 Jul 28 07:47 wta_2024.xlsx
+-rw-r--r--  1 runner runner 399398 Jul 28 07:47 wta_2025.xlsx
+-rw-r--r--  1 runner runner 264884 Jul 28 07:47 wta_2026.xlsx
   WARN: https://www.football-data.co.uk/mmz4281/2627/E0.csv nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://www.football-data.co.uk/mmz4281/2627/I1.csv nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://www.football-data.co.uk/mmz4281/2627/SP1.csv nicht erreichbar (HTTP Error 404: Not Found)
@@ -94,6 +94,7 @@ fixtures.csv: 12 Spiele mit Quoten
   0 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
 == Tennis ==
+DOUBLES-DEBUG: [{"id": "12289-15542", "uid": "s:850~l:851~t:12289-15542", "type": "team", "order": 2, "homeAway": "away", "roster": {"displayName": "Finn Reynolds / James Watt", "shortDisplayName": "F. Reynolds / J. Watt", "athletes": [{"guid": "48dd56bc-e196-3fd6-b697-b83897e3f2b1", "displayName": "Finn Reynolds", "shortName": "F. Reynolds", "fullName": "Finn Reynolds", "flag": {"href": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png", "alt": "New Zealand", "rel": ["country-flag"]}, "links": [{"language": "en-US", "rel": ["playercard", "desktop", "athlete"], "href": "https://www.espn.com/tennis/player/_/id/12289/finn-reynolds", "text": "Player Card", "shortText": "Player Card", "isExternal": false, "isPremium": false, "isHidden": false}]}, {"guid": "fb76f71c-4202-3a74-bdde-c555c3535224", "displayName": "James Watt", "shortName": "J. Watt", "fullName": "James Watt", "flag": {"href": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png", "alt": "New Zealand", "rel": ["country-flag"]}, "links": [{"language": "en-US", "rel": ["playercard", "desktop", "athlete"], "href": "https://www.espn.com/tennis/player/_/id/15542/james-watt", "text": "Player Card", "shortText": "Player Card", "isExternal": false, "isPremium": false, "isHidden": false}]}]}, "statistics": []}, {"id": "3627-1540", "uid": "s:850~l:851~t:3627-1540", "type": "team", "order": 1, "homeAway": "home", "curatedRank": {"current": 3}, "roster": {"displayName": "Robert Galloway / Evan King", "shortDisplayName": "R. Galloway 
   Rankings: ATP 150, WTA 150
   Historie: ATP 12410 Matches, WTA 11528 Matches
   Elo ATP: 546 Spieler bewertet
