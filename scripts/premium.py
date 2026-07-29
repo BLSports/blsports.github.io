@@ -28,6 +28,7 @@ FOOT_ENABLED = bool(FOOT_DIRECT_KEY or os.environ.get("RAPIDAPI_KEY"))
 
 # API-Football Liga-IDs (beim ersten Live-Lauf per /leagues gegenpruefbar)
 FOOT_IDS = {
+    "us1": 253, "br1": 71, "no1": 103, "se1": 113, "dk1": 119, "ie1": 357,
     "bl1": 78, "bl2": 79, "bl3": 80, "pl": 39, "sa": 135, "ll1": 140, "ll2": 141,
     "fr1": 61, "fr2": 62, "nl1": 88, "nl2": 89, "be1": 144, "be2": 145,
     "cl": 2, "el": 3, "ecl": 848, "wm": 1, "em": 4,
@@ -36,7 +37,7 @@ FOOT_IDS = {
 
 _calls = {"tennis": 0, "foot": 0}
 TENNIS_CALL_CAP = 120   # pro Lauf
-FOOT_CALL_CAP = 80
+FOOT_CALL_CAP = 220
 
 
 def _get(url, headers, timeout=25, retries=2):
@@ -171,6 +172,36 @@ def tennis_h2h_info(tour, p1_id, p2_id):
 # ---------------------------------------------------------------------------
 # Fussball
 # ---------------------------------------------------------------------------
+
+ROUND_DE_FOOT = (("1st Qualifying Round", "1. Quali-Runde"),
+                 ("2nd Qualifying Round", "2. Quali-Runde"),
+                 ("3rd Qualifying Round", "3. Quali-Runde"),
+                 ("Play-offs", "Play-offs"), ("Qualifying", "Qualifikation"))
+
+
+def foot_fixtures_window(lg_id, season, date_list):
+    """Anstehende Spiele (Status NS/TBD) einer Liga fuer konkrete Tage."""
+    lid = FOOT_IDS.get(lg_id)
+    if not FOOT_ENABLED or not lid:
+        return []
+    out = []
+    for d in date_list:
+        for fx in foot_get(f"/fixtures?league={lid}&season={season}&date={d}"
+                           f"&timezone=Europe/Berlin"):
+            try:
+                if fx["fixture"]["status"]["short"] not in ("NS", "TBD"):
+                    continue
+                rnd = (fx.get("league") or {}).get("round") or ""
+                for en, de in ROUND_DE_FOOT:
+                    rnd = rnd.replace(en, de)
+                out.append({"dt": fx["fixture"]["date"],
+                            "home": fx["teams"]["home"]["name"],
+                            "away": fx["teams"]["away"]["name"],
+                            "round": rnd})
+            except (KeyError, TypeError):
+                continue
+    return out
+
 
 def football_enrich(lg_id, season, matches, norm_team, team_match):
     """Reichert die Spiele einer Liga an: Verletzte, Tabellenplatz, Quoten,

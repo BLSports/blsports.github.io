@@ -140,7 +140,12 @@ def match_card(m, league):
                     f'{" …" if len(inj_h) > 4 else ""} &nbsp;·&nbsp; '
                     f'<span class="muted tiny">Gast:</span> {fmt_inj(inj_a)}'
                     f'{" …" if len(inj_a) > 4 else ""}</div>')
-    md = f'<span class="muted tiny">{m["matchday"]}. Spieltag</span>' if m.get("matchday") else ""
+    if m.get("matchday"):
+        md = f'<span class="muted tiny">{m["matchday"]}. Spieltag</span>'
+    elif m.get("roundName"):
+        md = f'<span class="muted tiny">{esc(m["roundName"])}</span>'
+    else:
+        md = ""
     return f"""
   <article class="card">
     <div class="cardtop"><span class="ko">{fmt_time(m["kickoff"])} Uhr</span>{md}</div>

@@ -231,6 +231,18 @@ LEAGUES = [
      "source": "espn", "espn": "sui.1", "fdcuk": None},
     {"id": "sc1", "name": "Premiership (Schottland)", "country": "SC", "flag": "\U0001F3F4\U000E0067\U000E0062\U000E0073\U000E0063\U000E0074\U000E007F",
      "source": "espn", "espn": "sco.1", "fdcuk": "SC0"},
+    {"id": "us1", "name": "MLS (USA)", "country": "US", "flag": "\U0001F1FA\U0001F1F8",
+     "source": "espn", "espn": "usa.1", "fdcuk": None},
+    {"id": "br1", "name": "Série A (Brasilien)", "country": "BR", "flag": "\U0001F1E7\U0001F1F7",
+     "source": "espn", "espn": "bra.1", "fdcuk": None},
+    {"id": "no1", "name": "Eliteserien (Norwegen)", "country": "NO", "flag": "\U0001F1F3\U0001F1F4",
+     "source": "espn", "espn": "nor.1", "fdcuk": None},
+    {"id": "se1", "name": "Allsvenskan (Schweden)", "country": "SE", "flag": "\U0001F1F8\U0001F1EA",
+     "source": "espn", "espn": "swe.1", "fdcuk": None},
+    {"id": "dk1", "name": "Superliga (Dänemark)", "country": "DK", "flag": "\U0001F1E9\U0001F1F0",
+     "source": "espn", "espn": "den.1", "fdcuk": None},
+    {"id": "ie1", "name": "Premier Division (Irland)", "country": "IE", "flag": "\U0001F1EE\U0001F1EA",
+     "source": "espn", "espn": "irl.1", "fdcuk": None},
 ]
 
 
@@ -1694,6 +1706,23 @@ def main():
             upcoming, first_future = upcoming_openligadb(lg["oldb"], season)
         else:
             upcoming, first_future = upcoming_espn(lg["espn"])
+        if lg["source"] != "openligadb" and premium and premium.FOOT_ENABLED:
+            try:
+                date_list = [(TODAY + timedelta(days=i)).isoformat() for i in range(DAYS_AHEAD)]
+                seen_pairs = [(norm_team(m["home"]), norm_team(m["away"]),
+                               m["dt"].date().isoformat()) for m in upcoming]
+                for fx in premium.foot_fixtures_window(lg["id"], season, date_list):
+                    dt = datetime.fromisoformat(fx["dt"]).astimezone(TZ)
+                    hk, ak, dk = norm_team(fx["home"]), norm_team(fx["away"]), dt.date().isoformat()
+                    if any(dk == c and team_match(hk, a) and team_match(ak, b)
+                           for a, b, c in seen_pairs):
+                        continue
+                    seen_pairs.append((hk, ak, dk))
+                    upcoming.append({"dt": dt, "home": fx["home"], "away": fx["away"],
+                                     "homeIcon": None, "awayIcon": None,
+                                     "matchday": None, "roundName": fx.get("round")})
+            except Exception as e:
+                print(f"  WARN foot_fixtures {lg['id']}: {e}", file=sys.stderr)
         print(f"  {len(upcoming)} Spiele in den naechsten {DAYS_AHEAD} Tagen")
 
         # Nationalteams: deutsche Laendernamen (konsistent in Ergebnissen & Spielen)
@@ -1758,6 +1787,7 @@ def main():
                 "home": m["home"], "away": m["away"],
                 "homeIcon": m.get("homeIcon"), "awayIcon": m.get("awayIcon"),
                 "matchday": m.get("matchday"),
+                "roundName": m.get("roundName"),
                 "formHome": team_form(results, m["home"]),
                 "formAway": team_form(results, m["away"]),
                 "posHome": table_pos(table, m["home"]),
