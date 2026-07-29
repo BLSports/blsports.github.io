@@ -653,11 +653,19 @@ def find_odds(odds_map, div, home, away):
 
 
 def odds_api_get(sport_key):
-    if not ODDS_API_KEY:
+    global _odds_budget
+    if not ODDS_API_KEY or not sport_key:
+        return []
+    if sport_key in _day_odds["sports"]:
+        return _day_odds["sports"][sport_key]
+    if _odds_budget <= 0:
         return []
     url = (f"https://api.the-odds-api.com/v4/sports/{sport_key}/odds/"
            f"?apiKey={ODDS_API_KEY}&regions=eu&markets=h2h&oddsFormat=decimal")
-    return http_get(url) or []
+    events = http_get(url) or []
+    _day_odds["sports"][sport_key] = events
+    _odds_budget -= 1
+    return events
 
 
 def odds_api_football(sport_key, home, away):
@@ -685,6 +693,44 @@ def odds_api_football(sport_key, home, away):
 
 
 odds_api_cache = {}
+
+ODDS_CACHE_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "odds_cache.json")
+_day_odds = {"date": None, "sports": {}}
+_odds_budget = 0
+
+
+def init_odds_day_cache():
+    """Quoten nur 1x pro Tag frisch holen (Budget ~15 Abrufe/Tag), sonst Cache."""
+    global _day_odds, _odds_budget
+    if not ODDS_API_KEY:
+        return
+    try:
+        with open(ODDS_CACHE_PATH, encoding="utf-8") as f:
+            c = json.load(f)
+        if c.get("date") == TODAY.isoformat():
+            _day_odds = c
+    except Exception:
+        pass
+    if _day_odds["date"] != TODAY.isoformat():
+        _day_odds = {"date": TODAY.isoformat(), "sports": {}}
+    _odds_budget = max(0, 15 - len(_day_odds["sports"]))
+
+
+def save_odds_day_cache():
+    if not ODDS_API_KEY:
+        return
+    try:
+        with open(ODDS_CACHE_PATH, "w", encoding="utf-8") as f:
+            json.dump(_day_odds, f, ensure_ascii=False)
+    except OSError:
+        pass
+
+
+def odds_api_tennis_keys():
+    """Aktive Tennis-Turniere bei The Odds API (der Sports-Index kostet keine Credits)."""
+    data = http_get(f"https://api.the-odds-api.com/v4/sports/?apiKey={ODDS_API_KEY}") or []
+    return [x["key"] for x in data
+            if str(x.get("key", "")).startswith("tennis") and x.get("active")]
 
 ODDS_API_SPORT_KEYS = {
     "bl1": "soccer_germany_bundesliga",
@@ -1600,6 +1646,7 @@ def main():
         "meta": {"oddsApiEnabled": bool(ODDS_API_KEY), "season": f"{season}/{str(season+1)[2:]}"},
     }
 
+    init_odds_day_cache()
     fixture_odds = load_fixture_odds_fdcuk()
     print(f"fixtures.csv: {len(fixture_odds)} Spiele mit Quoten")
 
@@ -1871,6 +1918,61 @@ def main():
                 "unconfirmed": m.get("src") == "tsdb",
                 "timeTBD": bool(m.get("timeTBD")),
             })
+    # Tennis-Quoten (The Odds API, optional) den Matches zuordnen
+    if ODDS_API_KEY:
+        odds_map = {}
+        for skey in odds_api_tennis_keys()[:6]:
+            for ev in odds_api_get(skey):
+                hk = player_key(ev.get("home_team", ""))
+                ak = player_key(ev.get("away_team", ""))
+                if not hk or not ak:
+                    continue
+                price_h = price_a = book = None
+                for bm in ev.get("bookmakers", []):
+                    for mk in bm.get("markets", []):
+                        if mk.get("key") != "h2h":
+                            continue
+                        pr = {player_key(o.get("name", "")): o.get("price")
+                              for o in mk.get("outcomes", [])}
+                        if pr.get(hk) and pr.get(ak):
+                            price_h, price_a = pr[hk], pr[ak]
+                            book = bm.get("title", "")
+                            break
+                    if price_h:
+                        break
+                if price_h and price_a:
+                    odds_map[frozenset((hk, ak))] = {hk: price_h, ak: price_a, "src": book}
+        n_matched = 0
+        for t in tennis_out:
+            if t.get("doubles"):
+                continue
+            k1, k2 = player_key(t["p1"]["name"]), player_key(t["p2"]["name"])
+            o = odds_map.get(frozenset((k1, k2)))
+            if not o:
+                continue
+            o1, o2 = o.get(k1), o.get(k2)
+            if not o1 or not o2:
+                continue
+            t["odds"] = {"p1": o1, "p2": o2, "src": o.get("src", "")}
+            n_matched += 1
+            if t.get("pP1") is not None:
+                inv1, inv2 = 1.0 / o1, 1.0 / o2
+                imp1 = inv1 / (inv1 + inv2)
+                for p_model, imp, oq, name in ((t["pP1"], imp1, o1, t["p1"]["name"]),
+                                               (1 - t["pP1"], 1 - imp1, o2, t["p2"]["name"])):
+                    if p_model - imp >= 0.05:
+                        t["value"] = {"name": name, "odds": oq,
+                                      "edge": round(p_model - imp, 4),
+                                      "modelP": round(p_model, 4)}
+                        t["analysis"] = (t.get("analysis", "") +
+                                         f" Quoten-Hinweis: Das Modell hält {name} (Quote "
+                                         f"{str(round(oq, 2)).replace('.', ',')}) für "
+                                         f"{round((p_model - imp) * 100)} Prozentpunkte "
+                                         f"wahrscheinlicher als der Markt.")
+                        break
+        print(f"  Tennis-Quoten zugeordnet: {n_matched}")
+        save_odds_day_cache()
+
     tennis_out.sort(key=lambda x: x["start"])
     out["tennis"] = tennis_out
     print(f"  {len(tennis_out)} Tennis-Matches in den naechsten {DAYS_AHEAD} Tagen")

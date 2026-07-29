@@ -199,6 +199,23 @@ def tennis_card(m):
         h2h_html = (f'<details class="h2h"><summary>{label}</summary>'
                     f'<table>{rows}</table></details>')
     analysis_html = f'<p class="analysis">{esc(m["analysis"])}</p>' if m.get("analysis") else ""
+    odds_html = ""
+    o = m.get("odds")
+    if o:
+        def _short(nm):
+            parts = nm.split()
+            return parts[-1] if parts else nm
+        hot1 = ' hot' if m.get("value") and m["value"]["name"] == m["p1"]["name"] else ''
+        hot2 = ' hot' if m.get("value") and m["value"]["name"] == m["p2"]["name"] else ''
+        odds_html = (f'<div class="oddsrow">'
+                     f'<span class="chip{hot1}"><b>{esc(_short(m["p1"]["name"]))}</b> {de_num(o["p1"], 2)}</span>'
+                     f'<span class="chip{hot2}"><b>{esc(_short(m["p2"]["name"]))}</b> {de_num(o["p2"], 2)}</span>'
+                     f'<span class="muted tiny">({esc(o.get("src", ""))})</span></div>')
+        v = m.get("value")
+        if v:
+            odds_html += (f'<div class="value-note">💡 Modell sieht <b>{esc(v["name"])}</b> bei Quote '
+                          f'{de_num(v["odds"], 2)} um <b>+{round(v["edge"]*100)} Prozentpunkte</b> '
+                          f'wahrscheinlicher als der Markt.</div>')
     return f"""
   <article class="card">
     <div class="cardtop"><span class="ko">{ko}</span>
@@ -210,6 +227,7 @@ def tennis_card(m):
       <div class="team right"><span class="tname">{esc(m["p2"]["name"])}</span><span class="tmeta">{r2}</span>{surf2}{fav2}</div>
     </div>
     {bar}
+    {odds_html}
     {analysis_html}
     {h2h_html}
   </article>"""
