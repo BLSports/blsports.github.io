@@ -443,7 +443,7 @@ def build(data_path=None, out_path=None):
             "edge": v["edge"],
             "cid": card_id(t["tour"], t["start"], t["p1"]["name"], t["p2"]["name"]),
         })
-    value_rows.sort(key=lambda r: -r["edge"])
+    value_rows.sort(key=lambda r: r["when"])  # chronologisch (Datum + Uhrzeit)
     value_html = ""
     if value_rows:
         rows = ""
