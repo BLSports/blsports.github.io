@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-29T19:38:36.706101+02:00",
+ "generatedAt": "2026-07-29T19:54:56.305943+02:00",
  "windowDays": 3,
  "days": [
   "2026-07-29",
@@ -39,25 +39,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "U",
+      "S",
+      "N",
+      "N",
+      "S"
+     ],
+     "formAway": [
+      "U",
+      "S",
+      "S",
+      "S",
+      "S"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "21.07.2026",
+       "home": "Fenerbahçe",
+       "away": "Gornik Zabrze",
+       "score": "1:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3502,
+      "pDraw": 0.2503,
+      "pAway": 0.3995,
+      "pOver25": 0.5401,
+      "pBtts": 0.5743,
+      "xgHome": 1.37,
+      "xgAway": 1.47,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5743,
      "odds": {
       "h": 6.0,
       "d": 4.2,
       "a": 1.51,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.194,
+      "modelP": 0.3502,
+      "odds": 6.0
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": " Die Aufstellungen sind offiziell (4-3-3 gegen 4-2-3-1).",
+     "analysis": "Zwischen Gornik Zabrze und Fenerbahçe deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Gornik Zabrze 35 %, Unentschieden 25 %, Sieg Fenerbahçe 40 %). Die Form spricht für Fenerbahçe: 4 Siege aus den letzten 5 Spielen, Gornik Zabrze holte nur 2. Das letzte Duell (2026) endete 1:0 (Fenerbahçe – Gornik Zabrze). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,4:1,5; über 2,5 Tore: 54 %, beide Teams treffen zu 57 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 6,00) für 19 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)",
      "lineups": {
       "home": {
        "formation": "4-3-3",
@@ -101,21 +135,55 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "U",
+      "N",
+      "S",
+      "S",
+      "S"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "S",
+      "S",
+      "N"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "21.07.2026",
+       "home": "Larne",
+       "away": "FK Crvena Zvezda",
+       "score": "0:4"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4672,
+      "pDraw": 0.2381,
+      "pAway": 0.2947,
+      "pOver25": 0.5758,
+      "pBtts": 0.594,
+      "xgHome": 1.69,
+      "xgAway": 1.3,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.594,
      "odds": {
       "h": 1.06,
       "d": 10.75,
       "a": 33.0,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.2663,
+      "modelP": 0.2947,
+      "odds": 33.0
+     },
      "scorersHome": [],
      "scorersAway": [
       {
@@ -124,7 +192,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": " Die Aufstellungen sind offiziell (4-3-2-1 gegen 4-3-3).",
+     "analysis": "FK Crvena Zvezda ist gegen Larne leicht favorisiert (47 % zu 29 %). Das letzte Duell (2026) endete 0:4 (Larne – FK Crvena Zvezda). Das Modell erwartet ein torreiches Spiel (xG 1,7:1,3; über 2,5 Tore: 58 %, beide Teams treffen zu 59 %). Gefährlichste Torschützen: bei Larne M. Ridley (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 33,00) für 27 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)",
      "lineups": {
       "home": {
        "formation": "4-3-2-1",
@@ -168,25 +236,93 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "N",
+      "S",
+      "S",
+      "S",
+      "S"
+     ],
+     "formAway": [
+      "U",
+      "S",
+      "U",
+      "N",
+      "S"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "21.07.2026",
+       "home": "Saburtalo",
+       "away": "Slovan Bratislava",
+       "score": "0:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5119,
+      "pDraw": 0.255,
+      "pAway": 0.2332,
+      "pOver25": 0.4594,
+      "pBtts": 0.4862,
+      "xgHome": 1.55,
+      "xgAway": 0.96,
+      "tipScore": "1:0",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.4862,
      "odds": {
       "h": 1.33,
       "d": 5.1,
       "a": 8.1,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.118,
+      "modelP": 0.2332,
+      "odds": 8.1
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Slovan Bratislava ist gegen Saburtalo leicht favorisiert (51 % zu 23 %). Die Form spricht für Slovan Bratislava: 4 Siege aus den letzten 5 Spielen, Saburtalo holte nur 2. Das letzte Duell (2026) endete 0:2 (Saburtalo – Slovan Bratislava). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:1,0; über 2,5 Tore: 46 %, beide Teams treffen zu 49 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 8,10) für 12 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)",
+     "lineups": {
+      "home": {
+       "formation": "4-3-3",
+       "xi": [
+        "Aleksandar Popovic",
+        "César Blackman",
+        "Kenan Bajrić",
+        "Svetozar Marković",
+        "Sandro Cruz",
+        "Cristian Martínez",
+        "Peter Pokorný",
+        "Artur Gajdoš",
+        "Alexej Maros",
+        "Mykola Kukharevych",
+        "Alasana Yirajang"
+       ]
+      },
+      "away": {
+       "formation": "4-3-3",
+       "xi": [
+        "Giorgi Makaridze",
+        "Jemali Giorgi Jinjolava",
+        "Vahid Selimović",
+        "Aleksandre Amisulashvili",
+        "Giorgi Kobuladze",
+        "Giorgi Kutsia",
+        "Bakar Kardava",
+        "Nikoloz Dadiani",
+        "Lucas Cafe",
+        "Zviad Natchkebia",
+        "Nika Sikharulashvili"
+       ]
+      }
+     }
     }
    ],
    "seasonHasStarted": false,
@@ -213,24 +349,52 @@
       "N",
       "N"
      ],
-     "formAway": [],
+     "formAway": [
+      "S",
+      "S",
+      "S",
+      "N",
+      "U"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Sheriff Tiraspol",
+       "away": "Maccabi Tel Aviv",
+       "score": "0:5"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4829,
+      "pDraw": 0.2437,
+      "pAway": 0.2734,
+      "pOver25": 0.5372,
+      "pBtts": 0.5594,
+      "xgHome": 1.65,
+      "xgAway": 1.18,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5594,
      "odds": {
       "h": 1.34,
       "d": 5.1,
       "a": 7.9,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.155,
+      "modelP": 0.2734,
+      "odds": 7.9
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Maccabi Tel Aviv ist gegen Sheriff Tiraspol leicht favorisiert (49 % zu 27 %). Die Form spricht für Sheriff Tiraspol: 3 Siege aus den letzten 5 Spielen, Maccabi Tel Aviv holte nur 0. Das letzte Duell (2026) endete 0:5 (Sheriff Tiraspol – Maccabi Tel Aviv). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:1,2; über 2,5 Tore: 54 %, beide Teams treffen zu 56 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 7,90) für 16 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T19:00:00+02:00",
@@ -247,24 +411,52 @@
       "S",
       "N"
      ],
-     "formAway": [],
+     "formAway": [
+      "U",
+      "N",
+      "U",
+      "N",
+      "S"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Beşiktaş",
+       "away": "FC Midtjylland",
+       "score": "1:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5511,
+      "pDraw": 0.2319,
+      "pAway": 0.2169,
+      "pOver25": 0.5357,
+      "pBtts": 0.5363,
+      "xgHome": 1.79,
+      "xgAway": 1.03,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5363,
      "odds": {
       "h": 1.9,
       "d": 3.8,
       "a": 3.55,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.0598,
+      "modelP": 0.5511,
+      "odds": 1.9
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "FC Midtjylland geht als klarer Favorit (55 %) in das Heimspiel gegen Beşiktaş. Die Form spricht für FC Midtjylland: 3 Siege aus den letzten 5 Spielen, Beşiktaş holte nur 1. Das letzte Duell (2026) endete 1:0 (Beşiktaş – FC Midtjylland). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,8:1,0; über 2,5 Tore: 54 %, beide Teams treffen zu 54 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 1,90) für 6 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T19:00:00+02:00",
@@ -302,25 +494,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "S",
+      "U",
+      "U",
+      "S",
+      "S"
+     ],
+     "formAway": [
+      "U",
+      "S",
+      "S",
+      "S",
+      "N"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Tromso",
+       "away": "Hradec Králové",
+       "score": "0:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4842,
+      "pDraw": 0.2363,
+      "pAway": 0.2795,
+      "pOver25": 0.5745,
+      "pBtts": 0.5893,
+      "xgHome": 1.73,
+      "xgAway": 1.26,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5893,
      "odds": {
       "h": 3.4,
       "d": 3.75,
       "a": 1.97,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.2089,
+      "modelP": 0.4842,
+      "odds": 3.4
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Hradec Králové ist gegen Tromso leicht favorisiert (48 % zu 28 %). Das letzte Duell (2026) endete 0:1 (Tromso – Hradec Králové). Das Modell erwartet ein torreiches Spiel (xG 1,7:1,3; über 2,5 Tore: 57 %, beide Teams treffen zu 59 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,40) für 21 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T19:45:00+02:00",
@@ -337,24 +563,52 @@
       "N",
       "N"
      ],
-     "formAway": [],
+     "formAway": [
+      "S",
+      "U",
+      "S",
+      "U",
+      "N"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Dynamo Kyiv",
+       "away": "PAOK",
+       "score": "2:3"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4656,
+      "pDraw": 0.2208,
+      "pAway": 0.3136,
+      "pOver25": 0.6703,
+      "pBtts": 0.6697,
+      "xgHome": 1.91,
+      "xgAway": 1.54,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6697,
      "odds": {
       "h": 1.73,
       "d": 3.75,
       "a": 4.45,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.1035,
+      "modelP": 0.3136,
+      "odds": 4.45
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "PAOK ist gegen Dynamo Kyiv leicht favorisiert (47 % zu 31 %). Das letzte Duell (2026) endete 2:3 (Dynamo Kyiv – PAOK). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,5; über 2,5 Tore: 67 %, beide Teams treffen zu 67 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 4,45) für 10 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T20:00:00+02:00",
@@ -364,25 +618,66 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "S",
+      "S",
+      "U",
+      "U",
+      "S"
+     ],
+     "formAway": [
+      "N",
+      "N",
+      "S",
+      "S",
+      "U"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Qarabag",
+       "away": "CSKA Sofia",
+       "score": "0:0"
+      },
+      {
+       "date": "04.07.2023",
+       "home": "CSKA Sofia",
+       "away": "Qarabag",
+       "score": "0:1"
+      },
+      {
+       "date": "07.07.2021",
+       "home": "CSKA Sofia",
+       "away": "Qarabag",
+       "score": "0:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.408,
+      "pDraw": 0.237,
+      "pAway": 0.355,
+      "pOver25": 0.6039,
+      "pBtts": 0.6237,
+      "xgHome": 1.62,
+      "xgAway": 1.5,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6237,
      "odds": {
-      "h": 2.5,
+      "h": 2.36,
       "d": 3.25,
-      "a": 2.78,
+      "a": 2.95,
       "src": "10Bet"
      },
      "value": null,
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Zwischen CSKA Sofia und Qarabag deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg CSKA Sofia 40 %, Unentschieden 24 %, Sieg Qarabag 36 %). Das letzte Duell (2026) endete 0:0 (Qarabag – CSKA Sofia). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,5; über 2,5 Tore: 60 %, beide Teams treffen zu 62 %). (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T20:30:00+02:00",
@@ -392,25 +687,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "U",
+      "S",
+      "S",
+      "S",
+      "U"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "S",
+      "U",
+      "U"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Hammarby FF",
+       "away": "Anderlecht",
+       "score": "1:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3524,
+      "pDraw": 0.2383,
+      "pAway": 0.4093,
+      "pOver25": 0.5974,
+      "pBtts": 0.6185,
+      "xgHome": 1.48,
+      "xgAway": 1.61,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6185,
      "odds": {
       "h": 2.12,
       "d": 3.6,
       "a": 3.1,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.1084,
+      "modelP": 0.4093,
+      "odds": 3.1
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Zwischen Anderlecht und Hammarby FF deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Anderlecht 35 %, Unentschieden 24 %, Sieg Hammarby FF 41 %). Das letzte Duell (2026) endete 1:1 (Hammarby FF – Anderlecht). Das Modell erwartet ein torreiches Spiel (xG 1,5:1,6; über 2,5 Tore: 60 %, beide Teams treffen zu 62 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,10) für 11 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T20:30:00+02:00",
@@ -427,24 +756,52 @@
       "S",
       "N"
      ],
-     "formAway": [],
+     "formAway": [
+      "S",
+      "S",
+      "U",
+      "N",
+      "S"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Twente",
+       "away": "Ferencvarosi TC",
+       "score": "1:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5251,
+      "pDraw": 0.2236,
+      "pAway": 0.2513,
+      "pOver25": 0.6104,
+      "pBtts": 0.6077,
+      "xgHome": 1.9,
+      "xgAway": 1.25,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6077,
      "odds": {
       "h": 2.86,
       "d": 3.7,
       "a": 2.22,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.1984,
+      "modelP": 0.5251,
+      "odds": 2.86
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Ferencvarosi TC ist gegen Twente leicht favorisiert (53 % zu 25 %). Das letzte Duell (2026) endete 1:2 (Twente – Ferencvarosi TC). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,2; über 2,5 Tore: 61 %, beide Teams treffen zu 61 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,86) für 20 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T21:00:00+02:00",
@@ -454,25 +811,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "S",
+      "N",
+      "S",
+      "N",
+      "S"
+     ],
+     "formAway": [
+      "S",
+      "N",
+      "N",
+      "S",
+      "S"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "FC ST. Gallen",
+       "away": "Benfica",
+       "score": "2:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5924,
+      "pDraw": 0.1973,
+      "pAway": 0.2101,
+      "pOver25": 0.6883,
+      "pBtts": 0.6491,
+      "xgHome": 2.26,
+      "xgAway": 1.29,
+      "tipScore": "2:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6491,
      "odds": {
       "h": 1.13,
       "d": 8.2,
       "a": 16.5,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.1533,
+      "modelP": 0.2101,
+      "odds": 16.5
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Benfica geht als klarer Favorit (59 %) in das Heimspiel gegen FC ST. Gallen. Das letzte Duell (2026) endete 2:1 (FC ST. Gallen – Benfica). Das Modell erwartet ein torreiches Spiel (xG 2,3:1,3; über 2,5 Tore: 69 %, beide Teams treffen zu 65 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 16,50) für 15 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     }
    ],
    "seasonHasStarted": false,
@@ -499,20 +890,48 @@
       "N",
       "U"
      ],
-     "formAway": [],
+     "formAway": [
+      "N",
+      "N",
+      "S",
+      "S",
+      "N"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "FC Santa Coloma",
+       "away": "Rapid Vienna",
+       "score": "1:3"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4859,
+      "pDraw": 0.2395,
+      "pAway": 0.2747,
+      "pOver25": 0.5568,
+      "pBtts": 0.5746,
+      "xgHome": 1.69,
+      "xgAway": 1.22,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5746,
      "odds": {
       "h": 1.1,
       "d": 7.75,
       "a": 19.0,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.2264,
+      "modelP": 0.2747,
+      "odds": 19.0
+     },
      "scorersHome": [
       {
        "name": "Y. Demir",
@@ -534,7 +953,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": ""
+     "analysis": "Rapid Vienna ist gegen FC Santa Coloma leicht favorisiert (49 % zu 27 %). Die Form spricht für FC Santa Coloma: 2 Siege aus den letzten 5 Spielen, Rapid Vienna holte nur 0. Das letzte Duell (2026) endete 1:3 (FC Santa Coloma – Rapid Vienna). Das Modell erwartet ein torreiches Spiel (xG 1,7:1,2; über 2,5 Tore: 56 %, beide Teams treffen zu 57 %). Gefährlichste Torschützen: bei Rapid Vienna Y. Demir (1 Tore) und bei FC Santa Coloma Pedja Muñoz (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 19,00) für 23 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T16:00:00+02:00",
@@ -544,25 +963,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "N",
+      "S",
+      "U",
+      "U",
+      "S"
+     ],
+     "formAway": [
+      "N",
+      "N",
+      "U",
+      "N",
+      "U"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Panevėžys",
+       "away": "FK Tobol Kostanay",
+       "score": "1:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5462,
+      "pDraw": 0.237,
+      "pAway": 0.2168,
+      "pOver25": 0.5143,
+      "pBtts": 0.5201,
+      "xgHome": 1.73,
+      "xgAway": 1.0,
+      "tipScore": "1:0",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5201,
      "odds": {
       "h": 1.25,
       "d": 5.1,
       "a": 10.75,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.1314,
+      "modelP": 0.2168,
+      "odds": 10.75
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "FK Tobol Kostanay ist gegen Panevėžys leicht favorisiert (54 % zu 22 %). Die Form spricht für FK Tobol Kostanay: 2 Siege aus den letzten 5 Spielen, Panevėžys holte nur 0. Das letzte Duell (2026) endete 1:1 (Panevėžys – FK Tobol Kostanay). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,7:1,0; über 2,5 Tore: 51 %, beide Teams treffen zu 52 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 10,75) für 13 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T16:00:00+02:00",
@@ -572,20 +1025,49 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "S",
+      "S",
+      "S",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "S",
+      "N",
+      "S",
+      "S",
+      "N"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "FC Vaduz",
+       "away": "Atlètic Club d'Escaldes",
+       "score": "4:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4301,
+      "pDraw": 0.234,
+      "pAway": 0.3358,
+      "pOver25": 0.6138,
+      "pBtts": 0.6296,
+      "xgHome": 1.69,
+      "xgAway": 1.47,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6296,
      "odds": null,
      "value": null,
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Atlètic Club d'Escaldes ist gegen FC Vaduz leicht favorisiert (43 % zu 34 %). Das letzte Duell (2026) endete 4:0 (FC Vaduz – Atlètic Club d'Escaldes). Das Modell erwartet ein torreiches Spiel (xG 1,7:1,5; über 2,5 Tore: 61 %, beide Teams treffen zu 63 %). (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T18:00:00+02:00",
@@ -595,25 +1077,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "S",
+      "N",
+      "S",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "S",
+      "U",
+      "S",
+      "N",
+      "S"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Paide",
+       "away": "Zira",
+       "score": "1:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4939,
+      "pDraw": 0.2541,
+      "pAway": 0.2519,
+      "pOver25": 0.4781,
+      "pBtts": 0.5077,
+      "xgHome": 1.55,
+      "xgAway": 1.03,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5077,
      "odds": {
       "h": 1.22,
       "d": 5.1,
       "a": 13.5,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.1839,
+      "modelP": 0.2519,
+      "odds": 13.5
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Zira ist gegen Paide leicht favorisiert (50 % zu 25 %). Das letzte Duell (2026) endete 1:0 (Paide – Zira). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:1,0; über 2,5 Tore: 48 %, beide Teams treffen zu 51 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 13,50) für 18 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T18:00:00+02:00",
@@ -623,7 +1139,13 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
+     "formHome": [
+      "S",
+      "S",
+      "U",
+      "U",
+      "N"
+     ],
      "formAway": [
       "N",
       "N",
@@ -634,20 +1156,42 @@
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Shelbourne",
+       "away": "Kalju Nomme",
+       "score": "5:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4154,
+      "pDraw": 0.2499,
+      "pAway": 0.3347,
+      "pOver25": 0.5386,
+      "pBtts": 0.572,
+      "xgHome": 1.51,
+      "xgAway": 1.33,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.572,
      "odds": {
       "h": 2.88,
       "d": 3.7,
       "a": 2.12,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.0966,
+      "modelP": 0.4154,
+      "odds": 2.88
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Kalju Nomme ist gegen Shelbourne leicht favorisiert (42 % zu 33 %). Die Form spricht für Kalju Nomme: 2 Siege aus den letzten 5 Spielen, Shelbourne holte nur 0. Das letzte Duell (2026) endete 5:2 (Shelbourne – Kalju Nomme). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,5:1,3; über 2,5 Tore: 54 %, beide Teams treffen zu 57 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,88) für 10 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T18:00:00+02:00",
@@ -657,25 +1201,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "U",
+      "N",
+      "S",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "U",
+      "N",
+      "S",
+      "S",
+      "N"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Debreceni VSC",
+       "away": "Pyunik Yerevan",
+       "score": "1:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5024,
+      "pDraw": 0.272,
+      "pAway": 0.2256,
+      "pOver25": 0.3935,
+      "pBtts": 0.4325,
+      "xgHome": 1.41,
+      "xgAway": 0.85,
+      "tipScore": "1:0",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.4325,
      "odds": {
       "h": 2.1,
       "d": 3.25,
       "a": 3.3,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.0643,
+      "modelP": 0.5024,
+      "odds": 2.1
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Pyunik Yerevan ist gegen Debreceni VSC leicht favorisiert (50 % zu 23 %). Das letzte Duell (2026) endete 1:0 (Debreceni VSC – Pyunik Yerevan). Das Modell erwartet eher wenige Tore (xG 1,4:0,8; über 2,5 Tore: 39 %, beide Teams treffen zu 43 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,10) für 6 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T18:00:00+02:00",
@@ -685,25 +1263,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "N",
+      "S",
+      "S",
+      "N",
+      "S"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "S",
+      "S",
+      "S"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "NK Varazdin",
+       "away": "FK Jablonec",
+       "score": "3:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3502,
+      "pDraw": 0.2503,
+      "pAway": 0.3995,
+      "pOver25": 0.5401,
+      "pBtts": 0.5743,
+      "xgHome": 1.37,
+      "xgAway": 1.47,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5743,
      "odds": {
       "h": 1.64,
       "d": 3.85,
       "a": 4.55,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.1977,
+      "modelP": 0.3995,
+      "odds": 4.55
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Zwischen FK Jablonec und NK Varazdin deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg FK Jablonec 35 %, Unentschieden 25 %, Sieg NK Varazdin 40 %). Die Form spricht für NK Varazdin: 5 Siege aus den letzten 5 Spielen, FK Jablonec holte nur 3. Das letzte Duell (2026) endete 3:2 (NK Varazdin – FK Jablonec). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,4:1,5; über 2,5 Tore: 54 %, beide Teams treffen zu 57 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 4,55) für 20 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T18:00:00+02:00",
@@ -713,25 +1325,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "U",
+      "S",
+      "S",
+      "N",
+      "S"
+     ],
+     "formAway": [
+      "S",
+      "U",
+      "N",
+      "S",
+      "N"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Stjarnan",
+       "away": "Ilves",
+       "score": "1:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.6296,
+      "pDraw": 0.1795,
+      "pAway": 0.1906,
+      "pOver25": 0.7476,
+      "pBtts": 0.6856,
+      "xgHome": 2.54,
+      "xgAway": 1.36,
+      "tipScore": "2:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6856,
      "odds": {
       "h": 1.73,
       "d": 3.8,
       "a": 4.0,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.0999,
+      "modelP": 0.6296,
+      "odds": 1.73
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Ilves geht als klarer Favorit (63 %) in das Heimspiel gegen Stjarnan. Das letzte Duell (2026) endete 1:0 (Stjarnan – Ilves). Das Modell erwartet ein torreiches Spiel (xG 2,5:1,4; über 2,5 Tore: 75 %, beide Teams treffen zu 69 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 1,73) für 10 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T18:00:00+02:00",
@@ -741,25 +1387,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "U",
+      "S",
+      "U",
+      "U",
+      "N"
+     ],
+     "formAway": [
+      "N",
+      "U",
+      "S",
+      "S",
+      "U"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "22.07.2026",
+       "home": "Başakşehir",
+       "away": "Inter Turku",
+       "score": "1:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3802,
+      "pDraw": 0.2587,
+      "pAway": 0.3611,
+      "pOver25": 0.5038,
+      "pBtts": 0.5466,
+      "xgHome": 1.37,
+      "xgAway": 1.32,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5466,
      "odds": {
       "h": 4.45,
       "d": 3.7,
       "a": 1.68,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.1741,
+      "modelP": 0.3802,
+      "odds": 4.45
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Zwischen Inter Turku und Başakşehir deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Inter Turku 38 %, Unentschieden 26 %, Sieg Başakşehir 36 %). Das letzte Duell (2026) endete 1:1 (Başakşehir – Inter Turku). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,4:1,3; über 2,5 Tore: 50 %, beide Teams treffen zu 55 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 4,45) für 17 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T18:00:00+02:00",
@@ -776,20 +1456,48 @@
       "S",
       "N"
      ],
-     "formAway": [],
+     "formAway": [
+      "S",
+      "N",
+      "U",
+      "U",
+      "S"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Zimbru",
+       "away": "FC Noah",
+       "score": "1:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5918,
+      "pDraw": 0.2181,
+      "pAway": 0.1901,
+      "pOver25": 0.56,
+      "pBtts": 0.539,
+      "xgHome": 1.93,
+      "xgAway": 1.0,
+      "tipScore": "1:0",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.539,
      "odds": {
       "h": 1.31,
       "d": 4.65,
       "a": 9.2,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.0901,
+      "modelP": 0.1901,
+      "odds": 9.2
+     },
      "scorersHome": [
       {
        "name": "Nardin Mulahusejnović",
@@ -798,7 +1506,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Gefährlichste Torschützen: bei FC Noah Nardin Mulahusejnović (5 Tore)."
+     "analysis": "FC Noah geht als klarer Favorit (59 %) in das Heimspiel gegen Zimbru. Das letzte Duell (2026) endete 1:1 (Zimbru – FC Noah). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,0; über 2,5 Tore: 56 %, beide Teams treffen zu 54 %). Gefährlichste Torschützen: bei FC Noah Nardin Mulahusejnović (5 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 9,20) für 9 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T18:00:00+02:00",
@@ -808,25 +1516,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "N",
+      "U",
+      "S",
+      "S",
+      "S"
+     ],
+     "formAway": [
+      "S",
+      "N",
+      "S",
+      "N",
+      "S"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "FCSB",
+       "away": "Auda",
+       "score": "2:3"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.468,
+      "pDraw": 0.2521,
+      "pAway": 0.2799,
+      "pOver25": 0.5056,
+      "pBtts": 0.5371,
+      "xgHome": 1.55,
+      "xgAway": 1.14,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5371,
      "odds": {
       "h": 4.55,
       "d": 3.85,
       "a": 1.64,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.2662,
+      "modelP": 0.468,
+      "odds": 4.55
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Auda ist gegen FCSB leicht favorisiert (47 % zu 28 %). Das letzte Duell (2026) endete 2:3 (FCSB – Auda). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:1,1; über 2,5 Tore: 51 %, beide Teams treffen zu 54 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 4,55) für 27 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T18:30:00+02:00",
@@ -836,25 +1578,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "N",
+      "S",
+      "S",
+      "S",
+      "S"
+     ],
+     "formAway": [
+      "N",
+      "N",
+      "S",
+      "N",
+      "N"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "21.07.2026",
+       "home": "IFK Goteborg",
+       "away": "FC Levadia Tallinn",
+       "score": "1:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.7961,
+      "pDraw": 0.1223,
+      "pAway": 0.0804,
+      "pOver25": 0.758,
+      "pBtts": 0.5732,
+      "xgHome": 3.06,
+      "xgAway": 0.92,
+      "tipScore": "3:0",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5732,
      "odds": {
       "h": 3.0,
       "d": 3.7,
       "a": 2.06,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.49,
+      "modelP": 0.7961,
+      "odds": 3.0
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "FC Levadia Tallinn geht als klarer Favorit (80 %) in das Heimspiel gegen IFK Goteborg. Die Form spricht für FC Levadia Tallinn: 4 Siege aus den letzten 5 Spielen, IFK Goteborg holte nur 1. Das letzte Duell (2026) endete 1:2 (IFK Goteborg – FC Levadia Tallinn). Das Modell erwartet ein torreiches Spiel (xG 3,1:0,9; über 2,5 Tore: 76 %, beide Teams treffen zu 57 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,00) für 49 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T19:00:00+02:00",
@@ -864,25 +1640,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "N",
+      "S",
+      "S",
+      "U",
+      "N"
+     ],
+     "formAway": [
+      "U",
+      "U",
+      "S",
+      "U",
+      "N"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Universitatea Cluj",
+       "away": "Brann",
+       "score": "2:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5281,
+      "pDraw": 0.2422,
+      "pAway": 0.2297,
+      "pOver25": 0.5062,
+      "pBtts": 0.5202,
+      "xgHome": 1.68,
+      "xgAway": 1.02,
+      "tipScore": "1:1",
+      "confidence": "niedrig"
+     },
+     "pBtts": 0.5202,
      "odds": {
       "h": 1.38,
       "d": 4.7,
       "a": 6.6,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.0906,
+      "modelP": 0.2297,
+      "odds": 6.6
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Brann ist gegen Universitatea Cluj leicht favorisiert (53 % zu 23 %). Das letzte Duell (2026) endete 2:2 (Universitatea Cluj – Brann). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,7:1,0; über 2,5 Tore: 51 %, beide Teams treffen zu 52 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 6,60) für 9 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T19:00:00+02:00",
@@ -892,25 +1702,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "U",
+      "S",
+      "N",
+      "S",
+      "S"
+     ],
+     "formAway": [
+      "N",
+      "N",
+      "S",
+      "N",
+      "N"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "22.07.2026",
+       "home": "Neftchi Baku",
+       "away": "Dinamo Minsk",
+       "score": "2:4"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5779,
+      "pDraw": 0.2228,
+      "pAway": 0.1993,
+      "pOver25": 0.5525,
+      "pBtts": 0.5392,
+      "xgHome": 1.88,
+      "xgAway": 1.01,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5392,
      "odds": {
       "h": 2.66,
       "d": 3.35,
       "a": 2.4,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.2334,
+      "modelP": 0.5779,
+      "odds": 2.66
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Dinamo Minsk geht als klarer Favorit (58 %) in das Heimspiel gegen Neftchi Baku. Die Form spricht für Dinamo Minsk: 3 Siege aus den letzten 5 Spielen, Neftchi Baku holte nur 1. Das letzte Duell (2026) endete 2:4 (Neftchi Baku – Dinamo Minsk). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,0; über 2,5 Tore: 55 %, beide Teams treffen zu 54 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,66) für 23 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T19:00:00+02:00",
@@ -920,25 +1764,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "S",
+      "N",
+      "U",
+      "N",
+      "U"
+     ],
+     "formAway": [
+      "U",
+      "S",
+      "N",
+      "S",
+      "U"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Gais",
+       "away": "FC Nordsjaelland",
+       "score": "1:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3777,
+      "pDraw": 0.2707,
+      "pAway": 0.3517,
+      "pOver25": 0.4531,
+      "pBtts": 0.5064,
+      "xgHome": 1.27,
+      "xgAway": 1.22,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5064,
      "odds": {
       "h": 1.47,
       "d": 4.1,
       "a": 6.0,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.1989,
+      "modelP": 0.3517,
+      "odds": 6.0
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Zwischen FC Nordsjaelland und Gais deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg FC Nordsjaelland 38 %, Unentschieden 27 %, Sieg Gais 35 %). Das letzte Duell (2026) endete 1:0 (Gais – FC Nordsjaelland). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,3:1,2; über 2,5 Tore: 45 %, beide Teams treffen zu 51 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 6,00) für 20 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T19:00:00+02:00",
@@ -948,14 +1826,49 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "S",
+      "S",
+      "S",
+      "N",
+      "S"
+     ],
+     "formAway": [
+      "U",
+      "S",
+      "U",
+      "S",
+      "N"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Dinamo Tbilisi",
+       "away": "FK Zalgiris Vilnius",
+       "score": "3:0"
+      },
+      {
+       "date": "01.02.2023",
+       "home": "FK Zalgiris Vilnius",
+       "away": "Dinamo Tbilisi",
+       "score": "0:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4387,
+      "pDraw": 0.2439,
+      "pAway": 0.3175,
+      "pOver25": 0.5605,
+      "pBtts": 0.5866,
+      "xgHome": 1.6,
+      "xgAway": 1.33,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5866,
      "odds": {
       "h": 1.94,
       "d": 3.75,
@@ -966,7 +1879,7 @@
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "FK Zalgiris Vilnius ist gegen Dinamo Tbilisi leicht favorisiert (44 % zu 32 %). Die Form spricht für FK Zalgiris Vilnius: 4 Siege aus den letzten 5 Spielen, Dinamo Tbilisi holte nur 2. Das letzte Duell (2026) endete 3:0 (Dinamo Tbilisi – FK Zalgiris Vilnius). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,3; über 2,5 Tore: 56 %, beide Teams treffen zu 59 %). (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T19:00:00+02:00",
@@ -976,25 +1889,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "U",
+      "N",
+      "N",
+      "N",
+      "U"
+     ],
+     "formAway": [
+      "U",
+      "N",
+      "U",
+      "N",
+      "S"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Borac Banja Luka",
+       "away": "Petrocub",
+       "score": "3:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3282,
+      "pDraw": 0.2612,
+      "pAway": 0.4106,
+      "pOver25": 0.4879,
+      "pBtts": 0.5321,
+      "xgHome": 1.22,
+      "xgAway": 1.4,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5321,
      "odds": {
       "h": 3.35,
       "d": 3.85,
       "a": 1.88,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.0544,
+      "modelP": 0.3282,
+      "odds": 3.35
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Borac Banja Luka ist bei Petrocub leicht favorisiert (41 % zu 33 %). Das letzte Duell (2026) endete 3:0 (Borac Banja Luka – Petrocub). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,2:1,4; über 2,5 Tore: 49 %, beide Teams treffen zu 53 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,35) für 5 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T19:00:00+02:00",
@@ -1004,21 +1951,55 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "S",
+      "N",
+      "U",
+      "S",
+      "U"
+     ],
+     "formAway": [
+      "S",
+      "N",
+      "N",
+      "N",
+      "U"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "21.07.2026",
+       "home": "Atert Bissen",
+       "away": "Gyori ETO FC",
+       "score": "2:6"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5392,
+      "pDraw": 0.2085,
+      "pAway": 0.2522,
+      "pOver25": 0.6848,
+      "pBtts": 0.6649,
+      "xgHome": 2.12,
+      "xgAway": 1.41,
+      "tipScore": "2:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6649,
      "odds": {
       "h": 1.23,
       "d": 5.7,
       "a": 9.8,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.1586,
+      "modelP": 0.2522,
+      "odds": 9.8
+     },
      "scorersHome": [
       {
        "name": "N. Njie",
@@ -1035,7 +2016,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": ""
+     "analysis": "Gyori ETO FC ist gegen Atert Bissen leicht favorisiert (54 % zu 25 %). Das letzte Duell (2026) endete 2:6 (Atert Bissen – Gyori ETO FC). Das Modell erwartet ein torreiches Spiel (xG 2,1:1,4; über 2,5 Tore: 68 %, beide Teams treffen zu 66 %). Gefährlichste Torschützen: bei Gyori ETO FC N. Njie (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 9,80) für 16 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T19:00:00+02:00",
@@ -1045,25 +2026,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "N",
+      "N",
+      "U",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "U",
+      "N",
+      "S",
+      "S",
+      "U"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Dunajska Streda",
+       "away": "Velež",
+       "score": "1:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3967,
+      "pDraw": 0.2831,
+      "pAway": 0.3202,
+      "pOver25": 0.4022,
+      "pBtts": 0.4637,
+      "xgHome": 1.22,
+      "xgAway": 1.07,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.4637,
      "odds": {
       "h": 4.3,
       "d": 3.5,
       "a": 1.75,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.1833,
+      "modelP": 0.3967,
+      "odds": 4.3
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Zwischen Velež und Dunajska Streda deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Velež 40 %, Unentschieden 28 %, Sieg Dunajska Streda 32 %). Das letzte Duell (2026) endete 1:0 (Dunajska Streda – Velež). Das Modell erwartet eher wenige Tore (xG 1,2:1,1; über 2,5 Tore: 40 %, beide Teams treffen zu 46 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 4,30) für 18 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T19:00:00+02:00",
@@ -1073,25 +2088,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "S",
+      "N",
+      "S",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "N",
+      "S",
+      "N",
+      "N",
+      "S"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Motherwell",
+       "away": "HB Torshavn",
+       "score": "2:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.554,
+      "pDraw": 0.2111,
+      "pAway": 0.2348,
+      "pOver25": 0.6529,
+      "pBtts": 0.6335,
+      "xgHome": 2.07,
+      "xgAway": 1.29,
+      "tipScore": "2:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6335,
      "odds": {
       "h": 5.4,
       "d": 4.1,
       "a": 1.51,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.3843,
+      "modelP": 0.554,
+      "odds": 5.4
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "HB Torshavn geht als klarer Favorit (56 %) in das Heimspiel gegen Motherwell. Das letzte Duell (2026) endete 2:0 (Motherwell – HB Torshavn). Das Modell erwartet ein torreiches Spiel (xG 2,1:1,3; über 2,5 Tore: 65 %, beide Teams treffen zu 63 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 5,40) für 38 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T19:30:00+02:00",
@@ -1101,25 +2150,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "U",
+      "S",
+      "N",
+      "N",
+      "N"
+     ],
+     "formAway": [
+      "S",
+      "N",
+      "U",
+      "N",
+      "S"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Flora Tallinn",
+       "away": "The New Saints",
+       "score": "1:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3548,
+      "pDraw": 0.2462,
+      "pAway": 0.399,
+      "pOver25": 0.5596,
+      "pBtts": 0.5897,
+      "xgHome": 1.41,
+      "xgAway": 1.51,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5897,
      "odds": {
       "h": 1.78,
       "d": 3.5,
       "a": 4.1,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.1755,
+      "modelP": 0.399,
+      "odds": 4.1
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Zwischen The New Saints und Flora Tallinn deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg The New Saints 35 %, Unentschieden 25 %, Sieg Flora Tallinn 40 %). Das letzte Duell (2026) endete 1:0 (Flora Tallinn – The New Saints). Das Modell erwartet ein torreiches Spiel (xG 1,4:1,5; über 2,5 Tore: 56 %, beide Teams treffen zu 59 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 4,10) für 18 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T19:30:00+02:00",
@@ -1129,7 +2212,13 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
+     "formHome": [
+      "U",
+      "U",
+      "S",
+      "U",
+      "S"
+     ],
      "formAway": [
       "U",
       "U",
@@ -1140,9 +2229,32 @@
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "AEK Larnaca",
+       "away": "Beitar Jerusalem",
+       "score": "0:1"
+      },
+      {
+       "date": "22.07.2021",
+       "home": "Beitar Jerusalem",
+       "away": "AEK Larnaca",
+       "score": "0:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4531,
+      "pDraw": 0.2733,
+      "pAway": 0.2736,
+      "pOver25": 0.4201,
+      "pBtts": 0.4695,
+      "xgHome": 1.37,
+      "xgAway": 1.0,
+      "tipScore": "1:0",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.4695,
      "odds": {
       "h": 2.15,
       "d": 3.4,
@@ -1153,7 +2265,7 @@
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Beitar Jerusalem ist gegen AEK Larnaca leicht favorisiert (46 % zu 27 %). Das letzte Duell (2026) endete 0:1 (AEK Larnaca – Beitar Jerusalem). Das Modell erwartet eher wenige Tore (xG 1,4:1,0; über 2,5 Tore: 42 %, beide Teams treffen zu 47 %). (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T19:30:00+02:00",
@@ -1163,7 +2275,13 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
+     "formHome": [
+      "U",
+      "N",
+      "S",
+      "S",
+      "N"
+     ],
      "formAway": [
       "S",
       "S",
@@ -1174,20 +2292,42 @@
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Raków Częstochowa",
+       "away": "Valletta FC",
+       "score": "3:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3765,
+      "pDraw": 0.2521,
+      "pAway": 0.3714,
+      "pOver25": 0.5338,
+      "pBtts": 0.5701,
+      "xgHome": 1.41,
+      "xgAway": 1.4,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5701,
      "odds": {
       "h": 5.9,
       "d": 4.55,
       "a": 1.43,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.2208,
+      "modelP": 0.3765,
+      "odds": 5.9
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Zwischen Valletta FC und Raków Częstochowa deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Valletta FC 38 %, Unentschieden 25 %, Sieg Raków Częstochowa 37 %). Das letzte Duell (2026) endete 3:1 (Raków Częstochowa – Valletta FC). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,4:1,4; über 2,5 Tore: 53 %, beide Teams treffen zu 57 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 5,90) für 22 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T19:30:00+02:00",
@@ -1197,7 +2337,13 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
+     "formHome": [
+      "N",
+      "N",
+      "N",
+      "S",
+      "N"
+     ],
      "formAway": [
       "U",
       "S",
@@ -1208,16 +2354,38 @@
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "HNK Rijeka",
+       "away": "Derry City",
+       "score": "1:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.2917,
+      "pDraw": 0.2847,
+      "pAway": 0.4236,
+      "pOver25": 0.3886,
+      "pBtts": 0.4487,
+      "xgHome": 0.99,
+      "xgAway": 1.25,
+      "tipScore": "0:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.4487,
      "odds": {
       "h": 4.9,
       "d": 3.65,
       "a": 1.63,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.1047,
+      "modelP": 0.2917,
+      "odds": 4.9
+     },
      "scorersHome": [],
      "scorersAway": [
       {
@@ -1226,7 +2394,7 @@
       }
      ],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Gefährlichste Torschützen: bei HNK Rijeka Toni Fruk (5 Tore)."
+     "analysis": "HNK Rijeka ist bei Derry City leicht favorisiert (43 % zu 29 %). Das letzte Duell (2026) endete 1:0 (HNK Rijeka – Derry City). Das Modell erwartet eher wenige Tore (xG 1,0:1,2; über 2,5 Tore: 39 %, beide Teams treffen zu 45 %). Gefährlichste Torschützen: bei HNK Rijeka Toni Fruk (5 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 4,90) für 10 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T20:00:00+02:00",
@@ -1236,21 +2404,67 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "S",
+      "U",
+      "S",
+      "S",
+      "S"
+     ],
+     "formAway": [
+      "N",
+      "N",
+      "S",
+      "N",
+      "N"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Vojvodina",
+       "away": "Ajax",
+       "score": "1:4"
+      },
+      {
+       "date": "01.08.2024",
+       "home": "Vojvodina",
+       "away": "Ajax",
+       "score": "1:3"
+      },
+      {
+       "date": "25.07.2024",
+       "home": "Ajax",
+       "away": "Vojvodina",
+       "score": "1:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4999,
+      "pDraw": 0.2446,
+      "pAway": 0.2554,
+      "pOver25": 0.5195,
+      "pBtts": 0.5404,
+      "xgHome": 1.65,
+      "xgAway": 1.11,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5404,
      "odds": {
       "h": 1.16,
       "d": 6.75,
       "a": 13.5,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.1871,
+      "modelP": 0.2554,
+      "odds": 13.5
+     },
      "scorersHome": [
       {
        "name": "Mohamed Abdalla",
@@ -1267,7 +2481,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": ""
+     "analysis": "Ajax ist gegen Vojvodina leicht favorisiert (50 % zu 26 %). Die Form spricht für Ajax: 4 Siege aus den letzten 5 Spielen, Vojvodina holte nur 1. Das letzte Duell (2026) endete 1:4 (Vojvodina – Ajax). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:1,1; über 2,5 Tore: 52 %, beide Teams treffen zu 54 %). Gefährlichste Torschützen: bei Ajax Mohamed Abdalla (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 13,50) für 19 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T20:00:00+02:00",
@@ -1277,14 +2491,43 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "S",
+      "S",
+      "S",
+      "N",
+      "S"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "U",
+      "U",
+      "S"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Hapoel Tel Aviv",
+       "away": "Ludogorets",
+       "score": "2:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5152,
+      "pDraw": 0.258,
+      "pAway": 0.2267,
+      "pOver25": 0.4424,
+      "pBtts": 0.4705,
+      "xgHome": 1.53,
+      "xgAway": 0.92,
+      "tipScore": "1:0",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.4705,
      "odds": {
       "h": 1.79,
       "d": 3.8,
@@ -1295,7 +2538,7 @@
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Ludogorets ist gegen Hapoel Tel Aviv leicht favorisiert (51 % zu 23 %). Das letzte Duell (2026) endete 2:0 (Hapoel Tel Aviv – Ludogorets). Das Modell erwartet eher wenige Tore (xG 1,5:0,9; über 2,5 Tore: 44 %, beide Teams treffen zu 47 %). (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T20:00:00+02:00",
@@ -1312,19 +2555,42 @@
       "N",
       "N"
      ],
-     "formAway": [],
+     "formAway": [
+      "N",
+      "N",
+      "S",
+      "S",
+      "N"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Bravo",
+       "away": "Shkendija",
+       "score": "2:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4749,
+      "pDraw": 0.2415,
+      "pAway": 0.2836,
+      "pOver25": 0.5537,
+      "pBtts": 0.5747,
+      "xgHome": 1.67,
+      "xgAway": 1.23,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5747,
      "odds": null,
      "value": null,
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Shkendija ist gegen Bravo leicht favorisiert (48 % zu 28 %). Das letzte Duell (2026) endete 2:1 (Bravo – Shkendija). Das Modell erwartet ein torreiches Spiel (xG 1,7:1,2; über 2,5 Tore: 55 %, beide Teams treffen zu 57 %). (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T20:00:00+02:00",
@@ -1334,25 +2600,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "N",
+      "N",
+      "N",
+      "N",
+      "N"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "S",
+      "S",
+      "S"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Rīgas FS",
+       "away": "Vestri",
+       "score": "4:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.2115,
+      "pDraw": 0.2153,
+      "pAway": 0.5732,
+      "pOver25": 0.6034,
+      "pBtts": 0.5845,
+      "xgHome": 1.13,
+      "xgAway": 1.99,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5845,
      "odds": {
       "h": 13.0,
       "d": 5.8,
       "a": 1.19,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.1409,
+      "modelP": 0.2115,
+      "odds": 13.0
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Rīgas FS reist als klarer Favorit (57 %) zu Vestri. Die Form spricht für Rīgas FS: 5 Siege aus den letzten 5 Spielen, Vestri holte nur 0. Das letzte Duell (2026) endete 4:1 (Rīgas FS – Vestri). Das Modell erwartet ein torreiches Spiel (xG 1,1:2,0; über 2,5 Tore: 60 %, beide Teams treffen zu 58 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 13,00) für 14 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T20:00:00+02:00",
@@ -1362,25 +2662,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "N",
+      "N",
+      "U",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "S",
+      "U",
+      "S"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "22.07.2026",
+       "home": "Bohemians",
+       "away": "Ballkani",
+       "score": "2:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.2791,
+      "pDraw": 0.253,
+      "pAway": 0.4679,
+      "pOver25": 0.5014,
+      "pBtts": 0.5337,
+      "xgHome": 1.13,
+      "xgAway": 1.55,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5337,
      "odds": {
       "h": 2.28,
       "d": 3.4,
       "a": 2.82,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.1418,
+      "modelP": 0.4679,
+      "odds": 2.82
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Bohemians ist bei Ballkani leicht favorisiert (47 % zu 28 %). Die Form spricht für Bohemians: 4 Siege aus den letzten 5 Spielen, Ballkani holte nur 1. Das letzte Duell (2026) endete 2:1 (Bohemians – Ballkani). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,1:1,6; über 2,5 Tore: 50 %, beide Teams treffen zu 53 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,82) für 14 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T20:15:00+02:00",
@@ -1428,25 +2762,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "U",
+      "S",
+      "S",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "U",
+      "S",
+      "U",
+      "S",
+      "S"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "FK Partizan",
+       "away": "UNA Strassen",
+       "score": "4:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3572,
+      "pDraw": 0.2714,
+      "pAway": 0.3713,
+      "pOver25": 0.4505,
+      "pBtts": 0.5045,
+      "xgHome": 1.22,
+      "xgAway": 1.25,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5045,
      "odds": {
       "h": 5.0,
       "d": 4.3,
       "a": 1.52,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.1738,
+      "modelP": 0.3572,
+      "odds": 5.0
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Zwischen UNA Strassen und FK Partizan deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg UNA Strassen 36 %, Unentschieden 27 %, Sieg FK Partizan 37 %). Das letzte Duell (2026) endete 4:0 (FK Partizan – UNA Strassen). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,2:1,2; über 2,5 Tore: 45 %, beide Teams treffen zu 50 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 5,00) für 17 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T20:30:00+02:00",
@@ -1463,24 +2831,52 @@
       "U",
       "N"
      ],
-     "formAway": [],
+     "formAway": [
+      "S",
+      "N",
+      "N",
+      "N",
+      "S"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Valur Reykjavik",
+       "away": "Zrinjski",
+       "score": "1:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.6842,
+      "pDraw": 0.1883,
+      "pAway": 0.1274,
+      "pOver25": 0.5716,
+      "pBtts": 0.4919,
+      "xgHome": 2.17,
+      "xgAway": 0.81,
+      "tipScore": "2:0",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.4919,
      "odds": {
       "h": 1.2,
       "d": 5.5,
       "a": 13.0,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.057,
+      "modelP": 0.1274,
+      "odds": 13.0
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Zrinjski geht als klarer Favorit (68 %) in das Heimspiel gegen Valur Reykjavik. Das letzte Duell (2026) endete 1:0 (Valur Reykjavik – Zrinjski). Das Modell erwartet ein torreiches Spiel (xG 2,2:0,8; über 2,5 Tore: 57 %, beide Teams treffen zu 49 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 13,00) für 6 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T20:30:00+02:00",
@@ -1490,21 +2886,55 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "U",
+      "U",
+      "S",
+      "S",
+      "S"
+     ],
+     "formAway": [
+      "S",
+      "N",
+      "S",
+      "N",
+      "S"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "FK Liepaja",
+       "away": "Austria Vienna",
+       "score": "0:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5511,
+      "pDraw": 0.2319,
+      "pAway": 0.2169,
+      "pOver25": 0.5357,
+      "pBtts": 0.5363,
+      "xgHome": 1.79,
+      "xgAway": 1.03,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5363,
      "odds": {
       "h": 1.18,
       "d": 6.25,
       "a": 11.5,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.1374,
+      "modelP": 0.2169,
+      "odds": 11.5
+     },
      "scorersHome": [
       {
        "name": "M. Wels",
@@ -1513,7 +2943,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": ""
+     "analysis": "Austria Vienna geht als klarer Favorit (55 %) in das Heimspiel gegen FK Liepaja. Das letzte Duell (2026) endete 0:2 (FK Liepaja – Austria Vienna). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,8:1,0; über 2,5 Tore: 54 %, beide Teams treffen zu 54 %). Gefährlichste Torschützen: bei Austria Vienna M. Wels (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 11,50) für 14 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T20:30:00+02:00",
@@ -1523,21 +2953,55 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "S",
+      "S",
+      "S",
+      "N",
+      "S"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "N",
+      "N",
+      "S"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Paks",
+       "away": "Panathinaikos",
+       "score": "1:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4459,
+      "pDraw": 0.2147,
+      "pAway": 0.3394,
+      "pOver25": 0.7125,
+      "pBtts": 0.7059,
+      "xgHome": 1.98,
+      "xgAway": 1.71,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.7059,
      "odds": {
       "h": 1.24,
       "d": 5.2,
       "a": 11.0,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.256,
+      "modelP": 0.3394,
+      "odds": 11.0
+     },
      "scorersHome": [
       {
        "name": "Santino Andino",
@@ -1551,7 +3015,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": ""
+     "analysis": "Panathinaikos ist gegen Paks leicht favorisiert (45 % zu 34 %). Das letzte Duell (2026) endete 1:2 (Paks – Panathinaikos). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,7; über 2,5 Tore: 71 %, beide Teams treffen zu 71 %). Gefährlichste Torschützen: bei Panathinaikos Santino Andino (1 Tore) und bei Paks D. Böde (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 11,00) für 26 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T20:30:00+02:00",
@@ -1561,25 +3025,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "U",
+      "S",
+      "N",
+      "U",
+      "U"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "U",
+      "N",
+      "U"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "LNZ Cherkasy",
+       "away": "Gent",
+       "score": "0:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3595,
+      "pDraw": 0.2796,
+      "pAway": 0.3609,
+      "pOver25": 0.419,
+      "pBtts": 0.4792,
+      "xgHome": 1.18,
+      "xgAway": 1.18,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.4792,
      "odds": {
       "h": 1.43,
       "d": 4.2,
       "a": 6.6,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.2218,
+      "modelP": 0.3609,
+      "odds": 6.6
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Zwischen Gent und LNZ Cherkasy deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Gent 36 %, Unentschieden 28 %, Sieg LNZ Cherkasy 36 %). Das letzte Duell (2026) endete 0:0 (LNZ Cherkasy – Gent). Das Modell erwartet eher wenige Tore (xG 1,2:1,2; über 2,5 Tore: 42 %, beide Teams treffen zu 48 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 6,60) für 22 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T20:30:00+02:00",
@@ -1589,25 +3087,71 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "S",
+      "N",
+      "N",
+      "U",
+      "S"
+     ],
+     "formAway": [
+      "S",
+      "N",
+      "U",
+      "U",
+      "U"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Alashkert",
+       "away": "CFR 1907 Cluj",
+       "score": "1:1"
+      },
+      {
+       "date": "16.08.2018",
+       "home": "CFR 1907 Cluj",
+       "away": "Alashkert",
+       "score": "5:0"
+      },
+      {
+       "date": "09.08.2018",
+       "home": "Alashkert",
+       "away": "CFR 1907 Cluj",
+       "score": "0:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3791,
+      "pDraw": 0.2844,
+      "pAway": 0.3364,
+      "pOver25": 0.4,
+      "pBtts": 0.4632,
+      "xgHome": 1.19,
+      "xgAway": 1.1,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.4632,
      "odds": {
       "h": 1.55,
       "d": 4.0,
       "a": 5.1,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.1567,
+      "modelP": 0.3364,
+      "odds": 5.1
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Zwischen CFR 1907 Cluj und Alashkert deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg CFR 1907 Cluj 38 %, Unentschieden 28 %, Sieg Alashkert 34 %). Das letzte Duell (2026) endete 1:1 (Alashkert – CFR 1907 Cluj). Das Modell erwartet eher wenige Tore (xG 1,2:1,1; über 2,5 Tore: 40 %, beide Teams treffen zu 46 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 5,10) für 16 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T20:30:00+02:00",
@@ -1617,14 +3161,43 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "S",
+      "S",
+      "U",
+      "N",
+      "N"
+     ],
+     "formAway": [
+      "U",
+      "N",
+      "S",
+      "S",
+      "U"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Žilina",
+       "away": "GKS Katowice",
+       "score": "2:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5819,
+      "pDraw": 0.2196,
+      "pAway": 0.1985,
+      "pOver25": 0.5657,
+      "pBtts": 0.5486,
+      "xgHome": 1.92,
+      "xgAway": 1.03,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5486,
      "odds": {
       "h": 1.58,
       "d": 4.0,
@@ -1635,7 +3208,7 @@
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "GKS Katowice geht als klarer Favorit (58 %) in das Heimspiel gegen Žilina. Das letzte Duell (2026) endete 2:1 (Žilina – GKS Katowice). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,0; über 2,5 Tore: 57 %, beide Teams treffen zu 55 %). (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T20:45:00+02:00",
@@ -1645,25 +3218,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "S",
+      "S",
+      "S",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "S",
+      "N",
+      "S",
+      "S",
+      "S"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "HJK Helsinki",
+       "away": "Coleraine FC",
+       "score": "5:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4557,
+      "pDraw": 0.1923,
+      "pAway": 0.3518,
+      "pOver25": 0.828,
+      "pBtts": 0.7995,
+      "xgHome": 2.4,
+      "xgAway": 2.12,
+      "tipScore": "2:2",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.7995,
      "odds": {
       "h": 3.6,
       "d": 4.0,
       "a": 1.77,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.2015,
+      "modelP": 0.4557,
+      "odds": 3.6
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Coleraine FC ist gegen HJK Helsinki leicht favorisiert (46 % zu 35 %). Das letzte Duell (2026) endete 5:0 (HJK Helsinki – Coleraine FC). Das Modell erwartet ein torreiches Spiel (xG 2,4:2,1; über 2,5 Tore: 83 %, beide Teams treffen zu 80 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,60) für 20 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T20:45:00+02:00",
@@ -1673,25 +3280,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "N",
+      "S",
+      "S",
+      "S",
+      "U"
+     ],
+     "formAway": [
+      "U",
+      "U",
+      "U",
+      "S",
+      "N"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "NSI Runavik",
+       "away": "Koper",
+       "score": "0:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.476,
+      "pDraw": 0.227,
+      "pAway": 0.2969,
+      "pOver25": 0.6299,
+      "pBtts": 0.6356,
+      "xgHome": 1.84,
+      "xgAway": 1.41,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6356,
      "odds": {
       "h": 1.41,
       "d": 4.75,
       "a": 6.0,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.1435,
+      "modelP": 0.2969,
+      "odds": 6.0
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Koper ist gegen NSI Runavik leicht favorisiert (47 % zu 30 %). Die Form spricht für Koper: 3 Siege aus den letzten 5 Spielen, NSI Runavik holte nur 1. Das letzte Duell (2026) endete 0:2 (NSI Runavik – Koper). Das Modell erwartet ein torreiches Spiel (xG 1,8:1,4; über 2,5 Tore: 63 %, beide Teams treffen zu 64 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 6,00) für 14 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T21:00:00+02:00",
@@ -1701,25 +3342,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "S",
+      "S",
+      "S",
+      "U",
+      "S"
+     ],
+     "formAway": [
+      "U",
+      "N",
+      "S",
+      "S",
+      "N"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "22.07.2026",
+       "home": "Železničar Pančevo",
+       "away": "SC Braga",
+       "score": "0:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5197,
+      "pDraw": 0.2399,
+      "pAway": 0.2404,
+      "pOver25": 0.5265,
+      "pBtts": 0.54,
+      "xgHome": 1.7,
+      "xgAway": 1.08,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.54,
      "odds": {
       "h": 1.17,
       "d": 6.2,
       "a": 14.0,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.1747,
+      "modelP": 0.2404,
+      "odds": 14.0
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "SC Braga ist gegen Železničar Pančevo leicht favorisiert (52 % zu 24 %). Die Form spricht für SC Braga: 4 Siege aus den letzten 5 Spielen, Železničar Pančevo holte nur 2. Das letzte Duell (2026) endete 0:1 (Železničar Pančevo – SC Braga). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,7:1,1; über 2,5 Tore: 53 %, beide Teams treffen zu 54 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 14,00) für 17 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T21:00:00+02:00",
@@ -1729,25 +3404,59 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "N",
+      "N",
+      "S",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "N",
+      "S",
+      "N",
+      "S",
+      "S"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Malisheva",
+       "away": "Hibernian",
+       "score": "2:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3593,
+      "pDraw": 0.2424,
+      "pAway": 0.3984,
+      "pOver25": 0.5786,
+      "pBtts": 0.6045,
+      "xgHome": 1.46,
+      "xgAway": 1.55,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6045,
      "odds": {
       "h": 1.2,
       "d": 6.4,
       "a": 10.25,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.3087,
+      "modelP": 0.3984,
+      "odds": 10.25
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Zwischen Hibernian und Malisheva deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Hibernian 36 %, Unentschieden 24 %, Sieg Malisheva 40 %). Das letzte Duell (2026) endete 2:0 (Malisheva – Hibernian). Das Modell erwartet ein torreiches Spiel (xG 1,5:1,6; über 2,5 Tore: 58 %, beide Teams treffen zu 60 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 10,25) für 31 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T21:00:00+02:00",
@@ -1757,14 +3466,43 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "N",
+      "N",
+      "N",
+      "N",
+      "N"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "N",
+      "N",
+      "S"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "ML Vitebsk",
+       "away": "Sutjeska",
+       "score": "3:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3577,
+      "pDraw": 0.241,
+      "pAway": 0.4013,
+      "pOver25": 0.5852,
+      "pBtts": 0.6095,
+      "xgHome": 1.47,
+      "xgAway": 1.57,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6095,
      "odds": {
       "h": 2.62,
       "d": 3.55,
@@ -1775,7 +3513,7 @@
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Zwischen Sutjeska und ML Vitebsk deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Sutjeska 36 %, Unentschieden 24 %, Sieg ML Vitebsk 40 %). Die Form spricht für ML Vitebsk: 3 Siege aus den letzten 5 Spielen, Sutjeska holte nur 0. Das letzte Duell (2026) endete 3:0 (ML Vitebsk – Sutjeska). Das Modell erwartet ein torreiches Spiel (xG 1,5:1,6; über 2,5 Tore: 59 %, beide Teams treffen zu 61 %). (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-30T21:00:00+02:00",
@@ -1785,14 +3523,43 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "2. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "S",
+      "U",
+      "N",
+      "S",
+      "U"
+     ],
+     "formAway": [
+      "N",
+      "U",
+      "N",
+      "U",
+      "U"
+     ],
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "23.07.2026",
+       "home": "Aluminij",
+       "away": "Dinamo Tirana",
+       "score": "1:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5476,
+      "pDraw": 0.2452,
+      "pAway": 0.2072,
+      "pOver25": 0.4708,
+      "pBtts": 0.4823,
+      "xgHome": 1.65,
+      "xgAway": 0.91,
+      "tipScore": "1:0",
+      "confidence": "niedrig"
+     },
+     "pBtts": 0.4823,
      "odds": {
       "h": 1.72,
       "d": 3.65,
@@ -1803,7 +3570,7 @@
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": ""
+     "analysis": "Dinamo Tirana ist gegen Aluminij leicht favorisiert (54 % zu 21 %). Die Form spricht für Dinamo Tirana: 2 Siege aus den letzten 5 Spielen, Aluminij holte nur 0. Das letzte Duell (2026) endete 1:1 (Aluminij – Dinamo Tirana). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:0,9; über 2,5 Tore: 47 %, beide Teams treffen zu 48 %). (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     }
    ],
    "seasonHasStarted": false,
@@ -2889,20 +4656,72 @@
       "S",
       "U"
      ],
-     "formAway": [],
+     "formAway": [
+      "S",
+      "N",
+      "N",
+      "S",
+      "S"
+     ],
      "posHome": 9,
      "posAway": 3,
      "nTeams": 20,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "19.02.2026",
+       "home": "Atletico Paranaense",
+       "away": "Corinthians",
+       "score": "0:1"
+      },
+      {
+       "date": "11.09.2025",
+       "home": "Corinthians",
+       "away": "Atletico Paranaense",
+       "score": "2:0"
+      },
+      {
+       "date": "28.08.2025",
+       "home": "Atletico Paranaense",
+       "away": "Corinthians",
+       "score": "0:1"
+      },
+      {
+       "date": "17.10.2024",
+       "home": "Corinthians",
+       "away": "Atletico Paranaense",
+       "score": "5:2"
+      },
+      {
+       "date": "23.06.2024",
+       "home": "Atletico Paranaense",
+       "away": "Corinthians",
+       "score": "1:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4227,
+      "pDraw": 0.2938,
+      "pAway": 0.2835,
+      "pOver25": 0.3568,
+      "pBtts": 0.4215,
+      "xgHome": 1.2,
+      "xgAway": 0.93,
+      "tipScore": "1:0",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.4215,
      "odds": {
       "h": 1.9,
       "d": 3.25,
       "a": 4.3,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.0655,
+      "modelP": 0.2835,
+      "odds": 4.3
+     },
      "scorersHome": [],
      "scorersAway": [
       {
@@ -2911,7 +4730,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Gefährlichste Torschützen: bei Atletico Paranaense Kevin Viveros (12 Tore). Personal: Corinthians fehlen 27 Spieler (u.a. J. Martinez); Atletico Paranaense fehlen 20 Spieler (u.a. Felipinho).",
+     "analysis": "Corinthians ist gegen Atletico Paranaense leicht favorisiert (43 % zu 28 %). In der Tabelle stehen sich Platz 9 und Platz 3 gegenüber. Das letzte Duell (2026) endete 0:1 (Atletico Paranaense – Corinthians). Das Modell erwartet eher wenige Tore (xG 1,2:0,9; über 2,5 Tore: 36 %, beide Teams treffen zu 42 %). Gefährlichste Torschützen: bei Atletico Paranaense Kevin Viveros (12 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 4,30) für 7 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.) Personal: Corinthians fehlen 6 Spieler (u.a. J. Martinez); Atletico Paranaense fehlen 6 Spieler (u.a. Felipinho).",
      "injuriesHome": [
       {
        "name": "J. Martinez",
@@ -3203,20 +5022,72 @@
       "S",
       "S"
      ],
-     "formAway": [],
+     "formAway": [
+      "S",
+      "U",
+      "N",
+      "N",
+      "N"
+     ],
      "posHome": 7,
      "posAway": 10,
      "nTeams": 16,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "08.05.2026",
+       "home": "Ham-Kam",
+       "away": "Valerenga",
+       "score": "1:0"
+      },
+      {
+       "date": "19.10.2025",
+       "home": "Ham-Kam",
+       "away": "Valerenga",
+       "score": "2:1"
+      },
+      {
+       "date": "16.05.2025",
+       "home": "Valerenga",
+       "away": "Ham-Kam",
+       "score": "1:1"
+      },
+      {
+       "date": "08.05.2024",
+       "home": "Valerenga",
+       "away": "Ham-Kam",
+       "score": "2:2"
+      },
+      {
+       "date": "26.11.2023",
+       "home": "Ham-Kam",
+       "away": "Valerenga",
+       "score": "0:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4914,
+      "pDraw": 0.2209,
+      "pAway": 0.2877,
+      "pOver25": 0.6541,
+      "pBtts": 0.6519,
+      "xgHome": 1.93,
+      "xgAway": 1.44,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6519,
      "odds": {
       "h": 1.6,
       "d": 4.2,
       "a": 4.75,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.0916,
+      "modelP": 0.2877,
+      "odds": 4.75
+     },
      "scorersHome": [
       {
        "name": "Lucas Haren",
@@ -3234,7 +5105,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Gefährlichste Torschützen: bei Valerenga Lucas Haren (6 Tore). Personal: Valerenga fehlen 12 Spieler (u.a. F. Ambina); Ham-Kam fehlen 5 Spieler (u.a. N. Alexandersson).",
+     "analysis": "Valerenga ist gegen Ham-Kam leicht favorisiert (49 % zu 29 %). In der Tabelle stehen sich Platz 7 und Platz 10 gegenüber. Das letzte Duell (2026) endete 1:0 (Ham-Kam – Valerenga). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,4; über 2,5 Tore: 65 %, beide Teams treffen zu 65 %). Gefährlichste Torschützen: bei Valerenga Lucas Haren (6 Tore) und bei Ham-Kam M. Niang (6 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 4,75) für 9 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.) Personal: Valerenga fehlen 6 Spieler (u.a. F. Ambina); Ham-Kam fehlen 5 Spieler (u.a. N. Alexandersson).",
      "injuriesHome": [
       {
        "name": "F. Ambina",
@@ -3451,7 +5322,13 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "Regular Season - 26",
-     "formHome": [],
+     "formHome": [
+      "N",
+      "N",
+      "N",
+      "S",
+      "U"
+     ],
      "formAway": [
       "S",
       "N",
@@ -3462,16 +5339,62 @@
      "posHome": 4,
      "posAway": 10,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "25.04.2026",
+       "home": "Sligo Rovers",
+       "away": "Dundalk",
+       "score": "2:0"
+      },
+      {
+       "date": "16.03.2026",
+       "home": "Dundalk",
+       "away": "Sligo Rovers",
+       "score": "1:0"
+      },
+      {
+       "date": "18.07.2025",
+       "home": "Dundalk",
+       "away": "Sligo Rovers",
+       "score": "0:2"
+      },
+      {
+       "date": "21.09.2024",
+       "home": "Sligo Rovers",
+       "away": "Dundalk",
+       "score": "2:1"
+      },
+      {
+       "date": "13.06.2024",
+       "home": "Dundalk",
+       "away": "Sligo Rovers",
+       "score": "1:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5622,
+      "pDraw": 0.2107,
+      "pAway": 0.2271,
+      "pOver25": 0.6456,
+      "pBtts": 0.6245,
+      "xgHome": 2.07,
+      "xgAway": 1.25,
+      "tipScore": "2:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6245,
      "odds": {
       "h": 1.44,
       "d": 4.4,
       "a": 6.8,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.0895,
+      "modelP": 0.2271,
+      "odds": 6.8
+     },
      "scorersHome": [
       {
        "name": "G. Arubi",
@@ -3493,7 +5416,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": ""
+     "analysis": "Dundalk geht als klarer Favorit (56 %) in das Heimspiel gegen Sligo Rovers. In der Tabelle stehen sich Platz 4 und Platz 10 gegenüber. Das letzte Duell (2026) endete 2:0 (Sligo Rovers – Dundalk). Das Modell erwartet ein torreiches Spiel (xG 2,1:1,2; über 2,5 Tore: 65 %, beide Teams treffen zu 62 %). Gefährlichste Torschützen: bei Dundalk G. Arubi (7 Tore) und bei Sligo Rovers W. Fitzgerald (5 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 6,80) für 9 Prozentpunkte wahrscheinlicher als der Markt. (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
     },
     {
      "kickoff": "2026-07-31T21:00:00+02:00",
@@ -3577,47 +5500,6 @@
  ],
  "tennis": [
   {
-   "start": "2026-07-29T19:50:00+02:00",
-   "tour": "WTA",
-   "tournament": "The Memphis Classic",
-   "round": "2. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Anastasia Zakharova",
-    "rank": 101,
-    "form": [
-     "N",
-     "N",
-     "S",
-     "N",
-     "N"
-    ],
-    "elo": null,
-    "onSurface": null,
-    "favSurface": "Rasen",
-    "last7": 5
-   },
-   "p2": {
-    "name": "Camila Osorio",
-    "rank": 56,
-    "form": [],
-    "elo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 5
-   },
-   "pP1": 0.3772,
-   "model": {
-    "n1": 50,
-    "n2": 0,
-    "pRank": 0.3772
-   },
-   "h2h": [],
-   "analysis": "Anastasia Zakharova (Weltrangliste #101) trifft auf Camila Osorio (#56). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Camila Osorio mit 62 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
    "start": "2026-07-29T20:00:00+02:00",
    "tour": "ATP",
    "tournament": "Mubadala DC Open",
@@ -3641,7 +5523,7 @@
    "timeTBD": false
   },
   {
-   "start": "2026-07-29T20:00:00+02:00",
+   "start": "2026-07-29T20:20:00+02:00",
    "tour": "WTA",
    "tournament": "Mubadala DC Open",
    "round": "2. Runde",
@@ -7866,7 +9748,7 @@
    "n": 3,
    "correct": 1
   },
-  "open": 81,
+  "open": 137,
   "recent": [
    {
     "date": "2026-07-29",
