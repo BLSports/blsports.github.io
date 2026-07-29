@@ -73,6 +73,22 @@ jobs:
       - name: Dashboard bauen
         run: python scripts/build_site.py data/data.json index.html
 
+      - name: Seite mit Passwort schützen (optional)
+        env:
+          SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
+        run: |
+          if [ -n "$SITE_PASSWORD" ]; then
+            npx --yes staticrypt index.html -d . --short \
+              --password "$SITE_PASSWORD" --remember 30 \
+              --template-title "Sport-Radar" \
+              --template-instructions "Bitte Passwort eingeben" \
+              --template-button "Öffnen" \
+              && echo "Seite verschlüsselt." \
+              || echo "WARN: Verschlüsselung fehlgeschlagen - Seite bleibt offen."
+          else
+            echo "Kein SITE_PASSWORD gesetzt - Seite bleibt öffentlich."
+          fi
+
       - name: Fehlerlog sichern
         if: failure()
         run: |
