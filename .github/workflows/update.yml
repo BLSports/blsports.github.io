@@ -102,14 +102,18 @@ jobs:
       - name: Zu Cloudflare Pages veröffentlichen (optional)
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
         run: |
           if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
             echo "Kein CF_API_TOKEN gesetzt - Cloudflare-Deploy übersprungen." > data/cf_deploy.log
             exit 0
           fi
           {
-            ACC=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN"               https://api.cloudflare.com/client/v4/accounts               | python3 -c "import json,sys; d=json.load(sys.stdin); print((d.get('result') or [{}])[0].get('id',''))")
-            if [ -z "$ACC" ]; then echo "FEHLER: Konto nicht ermittelbar (Token-Rechte pruefen)"; exit 0; fi
+            ACC="$CF_ACCOUNT_ID"
+            if [ -z "$ACC" ]; then
+              ACC=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN"                 https://api.cloudflare.com/client/v4/accounts                 | python3 -c "import json,sys; d=json.load(sys.stdin); print((d.get('result') or [{}])[0].get('id',''))")
+            fi
+            if [ -z "$ACC" ]; then echo "FEHLER: Konto-ID fehlt - bitte Secret CF_ACCOUNT_ID anlegen"; exit 0; fi
             echo "Konto gefunden: ${ACC:0:6}..."
             export CLOUDFLARE_ACCOUNT_ID="$ACC"
             mkdir -p dist
