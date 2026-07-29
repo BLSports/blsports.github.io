@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-29T10:21:27.630799+02:00",
+ "generatedAt": "2026-07-29T11:19:31.634474+02:00",
  "windowDays": 3,
  "days": [
   "2026-07-29",
@@ -225,94 +225,6 @@
   }
  ],
  "tennis": [
-  {
-   "start": "2026-07-29T11:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Axeria Open 2026 powered by Intaro Sport",
-   "round": "2. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Irene Burillo",
-    "rank": null,
-    "form": [
-     "N",
-     "S",
-     "N",
-     "N"
-    ],
-    "elo": 1422,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4
-   },
-   "p2": {
-    "name": "Kaitlin Quevedo",
-    "rank": 103,
-    "form": [
-     "S",
-     "N",
-     "S",
-     "N",
-     "N"
-    ],
-    "elo": 1482,
-    "onSurface": null,
-    "favSurface": "Sand",
-    "last7": 8
-   },
-   "pP1": 0.3389,
-   "model": {
-    "n1": 4,
-    "n2": 10,
-    "elo1": 1422,
-    "elo2": 1482,
-    "pElo": 0.4146,
-    "pRank": 0.32,
-    "wElo": 0.2
-   },
-   "h2h": [],
-   "analysis": "Irene Burillo – aktuell ohne Top-Ranking – trifft auf Kaitlin Quevedo (#103). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Kaitlin Quevedo mit 66 % vorn. Kaitlin Quevedo hat allerdings eine intensive Woche in den Beinen (8 Matches in den letzten 7 Tagen).",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-07-29T11:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Axeria Open 2026 powered by Intaro Sport",
-   "round": "2. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Margaux Rouvroy",
-    "rank": 321,
-    "form": [
-     "N",
-     "N"
-    ],
-    "elo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 12
-   },
-   "p2": {
-    "name": "Alice Rame",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 12
-   },
-   "pP1": 0.4471,
-   "model": {
-    "n1": 2,
-    "n2": 0,
-    "pRank": 0.4471
-   },
-   "h2h": [],
-   "analysis": "Margaux Rouvroy (#321) trifft auf Alice Rame, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alice Rame mit 55 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
   {
    "start": "2026-07-29T12:30:00+02:00",
    "tour": "WTA",
@@ -2675,29 +2587,6 @@
    "start": "2026-07-30T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "Odlum Brown VanOpen",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Emma Si Yu Dong / Annabelle Xu",
-    "rank": null,
-    "last7": 0
-   },
-   "p2": {
-    "name": "Martina Okalova / Katrina Scott",
-    "rank": null,
-    "last7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-07-30T06:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Odlum Brown VanOpen",
    "round": "Viertelfinale",
    "surface": null,
    "doubles": true,
@@ -2725,7 +2614,7 @@
    "surface": null,
    "doubles": true,
    "p1": {
-    "name": "TBD / TBD",
+    "name": "Emma Si Yu Dong / Annabelle Xu",
     "rank": null,
     "last7": 0
    },
@@ -4416,6 +4305,14 @@
   },
   {
    "tour": "WTA",
+   "tournament": "Odlum Brown VanOpen",
+   "p1": "Annabelle Xu",
+   "p2": "Ariana Arseneault",
+   "winner": "Ariana Arseneault",
+   "score": "4:6 6:7"
+  },
+  {
+   "tour": "WTA",
    "tournament": "The Memphis Classic",
    "p1": "Camila Soares",
    "p2": "Katherine Sebov",
@@ -4873,9 +4770,9 @@
  ],
  "stats": {
   "overall": {
-   "n": 405,
+   "n": 408,
    "correct": 245,
-   "pct": 0.6049
+   "pct": 0.6005
   },
   "football": {
    "n": 3,
@@ -4883,15 +4780,15 @@
    "pct": 0.3333
   },
   "tennis": {
-   "n": 402,
+   "n": 405,
    "correct": 244,
-   "pct": 0.607
+   "pct": 0.6025
   },
   "exact": {
    "n": 3,
    "correct": 1
   },
-  "open": 80,
+  "open": 77,
   "recent": [
    {
     "date": "2026-07-29",
@@ -5061,6 +4958,17 @@
    {
     "date": "2026-07-29",
     "comp": "WTA · Odlum Brown VanOpen",
+    "label": "Annabelle Xu – Ariana Arseneault",
+    "tipName": "Annabelle Xu",
+    "tip": "P1",
+    "prob": 0.6489,
+    "result": "Sieger: P2",
+    "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-07-29",
+    "comp": "WTA · Odlum Brown VanOpen",
     "label": "Emma Si Yu Dong – Yeonwoo Ku",
     "tipName": "Emma Si Yu Dong",
     "tip": "P1",
@@ -5155,17 +5063,6 @@
     "prob": 0.532,
     "result": "Sieger: P2",
     "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-28",
-    "comp": "WTA · The Memphis Classic",
-    "label": "Tatiana Prozorova – Solana Sierra",
-    "tipName": "Solana Sierra",
-    "tip": "P2",
-    "prob": 0.7494,
-    "result": "Sieger: P1",
-    "correct": false,
     "sport": "tn"
    }
   ]
