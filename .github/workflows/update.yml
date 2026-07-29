@@ -99,11 +99,32 @@ jobs:
           git pull --rebase origin main || true
           git push || true
 
+      - name: Zu Cloudflare Pages veröffentlichen (optional)
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "Kein CF_API_TOKEN gesetzt - Cloudflare-Deploy übersprungen." > data/cf_deploy.log
+            exit 0
+          fi
+          {
+            ACC=$(curl -s -H "Authorization: Bearer $CLOUDFLARE_API_TOKEN"               https://api.cloudflare.com/client/v4/accounts               | python3 -c "import json,sys; d=json.load(sys.stdin); print((d.get('result') or [{}])[0].get('id',''))")
+            if [ -z "$ACC" ]; then echo "FEHLER: Konto nicht ermittelbar (Token-Rechte pruefen)"; exit 0; fi
+            echo "Konto gefunden: ${ACC:0:6}..."
+            export CLOUDFLARE_ACCOUNT_ID="$ACC"
+            mkdir -p dist
+            cp index.html dist/
+            cp robots.txt dist/ 2>/dev/null || true
+            npx --yes wrangler pages project create blsports-sport-radar               --production-branch main 2>&1 | head -2 || true
+            npx --yes wrangler pages deploy dist --project-name blsports-sport-radar               --branch main --commit-dirty=true 2>&1 | tail -4
+          } > data/cf_deploy.log 2>&1 || true
+          cat data/cf_deploy.log
+
       - name: Änderungen committen
         run: |
           git config user.name "sport-radar-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/data.json data/last_run.log data/predictions_log.json data/odds_cache.json index.html 2>/dev/null || git add data/data.json data/last_run.log data/predictions_log.json index.html
+          git add data/data.json data/last_run.log data/predictions_log.json data/odds_cache.json data/cf_deploy.log index.html 2>/dev/null || git add data/data.json data/last_run.log data/predictions_log.json index.html
           if git diff --cached --quiet; then
             echo "Keine Änderungen."
           else
