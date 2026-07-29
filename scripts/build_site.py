@@ -401,6 +401,55 @@ def build(data_path=None, out_path=None):
         stats_html = (f'<section class="pause"><h2>📊 Trefferquote des Modells {open_note}</h2>'
                       f'<div class="tiles">{tiles}</div>{note}{table}</section>')
 
+    # --- Value-Bets-Übersicht (Modell unabhängig vom Markt; Quoten nur Vergleich) ---
+    value_rows = []
+    for lg in data["football"]:
+        for m in lg["matches"]:
+            v = m.get("value")
+            if not v:
+                continue
+            tip = f'{v["outcome"]}' + (f' ({esc(m["home"] if v["outcome"] == "1" else (m["away"] if v["outcome"] == "2" else "Unentschieden"))})')
+            value_rows.append({
+                "when": m["kickoff"], "comp": f'{lg["flag"]} {lg["name"]}',
+                "label": f'{m["home"]} – {m["away"]}', "tip": tip,
+                "modelP": v["modelP"], "odds": v["odds"], "edge": v["edge"],
+            })
+    for t in data["tennis"]:
+        v = t.get("value")
+        if not v:
+            continue
+        value_rows.append({
+            "when": t["start"], "comp": f'🎾 {t["tour"]} · {t["tournament"]}',
+            "label": f'{t["p1"]["name"]} – {t["p2"]["name"]}',
+            "tip": esc(v["name"]), "modelP": v["modelP"], "odds": v["odds"],
+            "edge": v["edge"],
+        })
+    value_rows.sort(key=lambda r: -r["edge"])
+    value_html = ""
+    if value_rows:
+        rows = ""
+        for r in value_rows[:30]:
+            dt = datetime.fromisoformat(r["when"])
+            imp = 1.0 / r["odds"] if r["odds"] else 0
+            rows += (f'<tr><td>{dt.day:02d}.{dt.month:02d}. {dt:%H:%M}</td>'
+                     f'<td>{r["comp"]}</td><td>{esc(r["label"])}</td>'
+                     f'<td><b>{r["tip"]}</b></td>'
+                     f'<td class="num">{round(r["modelP"]*100)}%</td>'
+                     f'<td class="num">{de_num(r["odds"], 2)}</td>'
+                     f'<td class="num">{round(imp*100)}%</td>'
+                     f'<td class="num"><b>+{round(r["edge"]*100)}</b></td></tr>')
+        value_html = (
+            '<section class="pause" id="valuebets"><h2>💎 Value-Bets '
+            f'<span class="muted tiny">({len(value_rows)} Signale · Modell rechnet ohne '
+            'Buchmacher-Quoten; Quoten dienen nur dem Vergleich)</span></h2>'
+            '<table class="pausetable"><thead><tr><th>Anstoß</th><th>Wettbewerb</th>'
+            '<th>Partie</th><th>Modell-Tipp</th><th>Modell-W.</th><th>Quote</th>'
+            '<th>Markt-W.</th><th>Edge (Pp.)</th></tr></thead>'
+            f'<tbody>{rows}</tbody></table>'
+            '<div class="muted tiny" style="margin-top:6px">Statistische Signale mit '
+            'Unsicherheit – keine Wettempfehlung. Edge = Modell-Wahrscheinlichkeit minus '
+            'implizite Markt-Wahrscheinlichkeit.</div></section>')
+
     n_fb = sum(len(l["matches"]) for l in data["football"])
     n_tn = len(data["tennis"])
 
@@ -542,9 +591,11 @@ footer summary {{ cursor:pointer; }}
     <button class="flt active" data-f="alle">Alle</button>
     <button class="flt" data-f="fussball">⚽ Fußball</button>
     <button class="flt" data-f="tennis">🎾 Tennis</button>
+    <button class="flt" onclick="document.getElementById('valuebets')?.scrollIntoView({{behavior:'smooth'}})">💎 Value-Bets</button>
   </div>
 </header>
 <main>
+{value_html}
 {"".join(panels)}
 {stats_html}
 {pause_html}

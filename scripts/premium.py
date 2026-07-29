@@ -37,7 +37,7 @@ FOOT_IDS = {
 
 _calls = {"tennis": 0, "foot": 0}
 TENNIS_CALL_CAP = 120   # pro Lauf
-FOOT_CALL_CAP = 220
+FOOT_CALL_CAP = 320
 
 
 def _get(url, headers, timeout=25, retries=2):
