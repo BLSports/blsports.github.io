@@ -626,6 +626,8 @@ footer summary {{ cursor:pointer; }}
   </div>
 </header>
 <main>
+<section class="pause" id="livebox" style="display:none"><h2>🔴 Jetzt live
+  <span class="muted tiny" id="liveinfo"></span></h2><div id="livebody"></div></section>
 {value_html}
 {"".join(panels)}
 {stats_html}
@@ -673,6 +675,44 @@ fetch('https://raw.githubusercontent.com/BLSports/blsports.github.io/main/data/d
       document.querySelector('header').insertBefore(b, document.querySelector('.tabs'));
     }}
   }}).catch(() => {{}});
+// Live-Box: laufende Spiele + Live-Quoten (alle ~15 Min. frisch, Anzeige alle 90s)
+async function ladeLive() {{
+  try {{
+    const r = await fetch('https://raw.githubusercontent.com/BLSports/blsports.github.io/main/data/live.json?v=' + Date.now(), {{cache: 'no-store'}});
+    if (!r.ok) return;
+    const d = await r.json();
+    const box = document.getElementById('livebox');
+    const body = document.getElementById('livebody');
+    const rows = [];
+    for (const m of (d.football || [])) {{
+      let odds = m.odds ? ` <span class="chip"><b>1</b> ${{m.odds.h.toFixed(2)}}</span>` +
+        ` <span class="chip"><b>X</b> ${{m.odds.d.toFixed(2)}}</span>` +
+        ` <span class="chip"><b>2</b> ${{m.odds.a.toFixed(2)}}</span>` : '';
+      let val = m.value ? ` <span class="value-note" style="display:inline-block;margin:0">💎 Live-Value: ` +
+        `<b>${{m.value.name}}</b> (Quote ${{m.value.odds.toFixed(2)}}, +${{Math.round(m.value.edge*100)}} Pp.)</span>` : '';
+      rows.push(`<div style="padding:6px 0;border-bottom:1px solid var(--grid)">⚽ ` +
+        `<span class="muted tiny">${{m.league}} · ${{m.minute}}′</span> ` +
+        `<b>${{m.home}} ${{m.score}} ${{m.away}}</b>${{odds}}${{val}}</div>`);
+    }}
+    for (const t of (d.tennis || []).slice(0, 20)) {{
+      rows.push(`<div style="padding:6px 0;border-bottom:1px solid var(--grid)">🎾 ` +
+        `<span class="muted tiny">${{t.tour}} · ${{t.tournament}}</span> ` +
+        `<b>${{t.p1}} – ${{t.p2}}</b> <span class="muted">Sätze: ${{t.sets}}</span></div>`);
+    }}
+    if (rows.length) {{
+      body.innerHTML = rows.join('');
+      const upd = new Date(d.updated);
+      document.getElementById('liveinfo').textContent =
+        '(' + rows.length + ' laufend · Datenstand ' +
+        upd.toLocaleTimeString('de-DE', {{hour: '2-digit', minute: '2-digit'}}) + ' Uhr)';
+      box.style.display = '';
+    }} else {{
+      box.style.display = 'none';
+    }}
+  }} catch (e) {{}}
+}}
+ladeLive();
+setInterval(ladeLive, 90000);
 // Value-Zeile -> zur Analyse-Karte springen
 document.querySelectorAll('.vrow').forEach(r => r.addEventListener('click', () => {{
   const tab = document.querySelector('.tab[data-day="' + r.dataset.day + '"]');
