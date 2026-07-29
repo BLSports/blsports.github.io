@@ -1825,6 +1825,34 @@ def main():
             }
         out["football"].append(league_out)
 
+    # ---- Vereins-News (Kicker-RSS) den Spielen zuordnen ----
+    if premium:
+        try:
+            news = premium.kicker_news()
+            STOPWORDS = {"fc", "sv", "vfb", "vfl", "tsg", "rb", "bsc", "sc", "spvgg",
+                         "1", "04", "05", "07", "96", "98", "99", "borussia", "eintracht",
+                         "fortuna", "union", "hertha", "real", "inter", "as", "ac", "cf",
+                         "united", "city", "club", "de", "cd", "ud", "afc"}
+            def _sig_tokens(team):
+                return [t for t in norm_team(team).split()
+                        if len(t) >= 4 and t not in STOPWORDS][:2]
+            for lgo in out["football"]:
+                for m in lgo["matches"]:
+                    hits = []
+                    for side in (m["home"], m["away"]):
+                        toks = _sig_tokens(side)
+                        for title, link in news:
+                            tl = title.lower()
+                            if toks and all(t in tl for t in toks[:1]):
+                                if not any(h["link"] == link for h in hits):
+                                    hits.append({"title": title, "link": link})
+                            if len(hits) >= 3:
+                                break
+                    if hits:
+                        m["news"] = hits[:3]
+        except Exception as e:
+            print(f"  WARN kicker-news: {e}", file=sys.stderr)
+
     # ---- Tennis ----
     print("== Tennis ==")
     rank_atp_id, rank_atp_nm = espn_rankings("atp")

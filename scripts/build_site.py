@@ -140,6 +140,22 @@ def match_card(m, league):
                     f'{" …" if len(inj_h) > 4 else ""} &nbsp;·&nbsp; '
                     f'<span class="muted tiny">Gast:</span> {fmt_inj(inj_a)}'
                     f'{" …" if len(inj_a) > 4 else ""}</div>')
+    news_html = ""
+    if m.get("news"):
+        links = " · ".join(f'<a href="{esc(n["link"])}" target="_blank">{esc(n["title"])}</a>'
+                           for n in m["news"][:2])
+        news_html = f'<div class="scorers">📰 <b>Vereins-News</b> <span class="muted tiny">(Kicker)</span><br>{links}</div>'
+    lineup_html = ""
+    lu = m.get("lineups") or {}
+    if lu.get("home") or lu.get("away"):
+        parts = []
+        for side, label in (("home", m["home"]), ("away", m["away"])):
+            x = lu.get(side)
+            if x:
+                parts.append(f'<b>{esc(label)}</b> ({esc(x.get("formation") or "?")}): '
+                             + ", ".join(esc(p) for p in x.get("xi", [])))
+        lineup_html = (f'<details class="h2h"><summary>📋 Offizielle Aufstellungen</summary>'
+                       f'<p class="analysis">{"<br><br>".join(parts)}</p></details>')
     if m.get("matchday"):
         md = f'<span class="muted tiny">{m["matchday"]}. Spieltag</span>'
     elif m.get("roundName"):
@@ -165,6 +181,8 @@ def match_card(m, league):
     {scorers_html}
     <div class="oddsrow">{odds_chips(m.get("odds"), m.get("value"))}</div>
     {value_badge(m.get("value"))}
+    {news_html}
+    {lineup_html}
     {analysis_html}
     {h2h_html}
   </article>"""

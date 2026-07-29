@@ -92,6 +92,59 @@ def foot_get(path):
     return (d or {}).get("response") or []
 
 
+def _get_text(url, timeout=20):
+    try:
+        req = Request(url, headers={"User-Agent": "Mozilla/5.0 (SportRadar RSS Reader)"})
+        with urlopen(req, timeout=timeout) as r:
+            return r.read().decode("utf-8", "replace")
+    except Exception as e:
+        print(f"  WARN rss: {url} -> {str(e)[:120]}", file=sys.stderr)
+        return ""
+
+
+KICKER_FEEDS = [
+    "https://newsfeed.kicker.de/news/fussball",
+    "https://newsfeed.kicker.de/news/bundesliga",
+]
+
+
+def kicker_news(max_items=80):
+    """Aktuelle Kicker-Schlagzeilen (offizielle RSS-Feeds): [(titel, link)]."""
+    import re as _re
+    items, seen = [], set()
+    for u in KICKER_FEEDS:
+        raw = _get_text(u)
+        for m in _re.finditer(r"<item>(.*?)</item>", raw, _re.S):
+            block = m.group(1)
+            t = _re.search(r"<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>", block, _re.S)
+            l = _re.search(r"<link>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</link>", block, _re.S)
+            if not t or not l:
+                continue
+            title = t.group(1).strip()
+            if title in seen:
+                continue
+            seen.add(title)
+            items.append((title, l.group(1).strip()))
+            if len(items) >= max_items:
+                break
+    print(f"  Kicker-News: {len(items)} Schlagzeilen geladen")
+    return items
+
+
+def foot_lineups(fixture_id):
+    """Offizielle Aufstellungen (verfuegbar ~20-40 Min vor Anpfiff)."""
+    out = {}
+    for e in foot_get(f"/fixtures/lineups?fixture={fixture_id}"):
+        try:
+            out[e["team"]["name"]] = {
+                "formation": e.get("formation") or "",
+                "xi": [p["player"]["name"] for p in (e.get("startXI") or [])[:11]],
+            }
+        except (KeyError, TypeError):
+            continue
+    return out
+
+
 def _rows(payload):
     """MatchStat verpackt Listen mal direkt, mal unter data - beides abfangen."""
     if payload is None:
@@ -316,6 +369,29 @@ def football_enrich(lg_id, season, matches, norm_team, team_match):
                 if found:
                     m["odds"] = found
                     break
+        # Offizielle Aufstellungen kurz vor Anpfiff
+        try:
+            from datetime import datetime as _dt, timezone as _tz
+            ko = _dt.fromisoformat(m["kickoff"])
+            hours = (ko - _dt.now(_tz.utc)).total_seconds() / 3600.0
+            if fid and 0 <= hours <= 6 and not m.get("lineups"):
+                lu = foot_lineups(fid)
+                if lu:
+                    def _pick(name):
+                        n = norm_team(name)
+                        for k, v in lu.items():
+                            if team_match(n, norm_team(k)):
+                                return v
+                        return None
+                    lh, la = _pick(m["home"]), _pick(m["away"])
+                    if lh or la:
+                        m["lineups"] = {"home": lh, "away": la}
+                        forms = [x["formation"] for x in (lh, la) if x and x.get("formation")]
+                        if forms:
+                            m["analysis"] = (m.get("analysis") or "") +                                 f" Die Aufstellungen sind offiziell ({' gegen '.join(forms)})."
+        except Exception as _e:
+            print(f"  WARN lineups: {_e}", file=sys.stderr)
+
         # Verletzten-Hinweis in den Analysetext
         bits = []
         if inj_h:

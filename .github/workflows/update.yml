@@ -6,6 +6,7 @@ on:
     - cron: "0 4 * * *"
     - cron: "0 10 * * *"
     - cron: "0 15 * * *"
+    - cron: "30 17 * * *"   # 19:30 Berlin: offizielle Aufstellungen der Abendspiele
   workflow_dispatch: {}   # manueller Start über den Actions-Tab
   push:
     branches: [main]      # läuft auch nach jedem Push (z.B. bei Code-Änderungen)
