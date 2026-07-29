@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-29T11:19:31.634474+02:00",
+ "generatedAt": "2026-07-29T13:53:03.155053+02:00",
  "windowDays": 3,
  "days": [
   "2026-07-29",
@@ -225,70 +225,6 @@
   }
  ],
  "tennis": [
-  {
-   "start": "2026-07-29T12:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "Axeria Open 2026 powered by Intaro Sport",
-   "round": "2. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Carole Monnet",
-    "rank": 205,
-    "form": [
-     "N",
-     "N",
-     "N",
-     "S",
-     "N"
-    ],
-    "elo": null,
-    "onSurface": null,
-    "favSurface": "Sand",
-    "last7": 8
-   },
-   "p2": {
-    "name": "Elena Ruxandra Bertea",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4
-   },
-   "pP1": 0.5421,
-   "model": {
-    "n1": 9,
-    "n2": 0,
-    "pRank": 0.5421
-   },
-   "h2h": [],
-   "analysis": "Carole Monnet (#205) trifft auf Elena Ruxandra Bertea, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Carole Monnet mit 54 % vorn. Carole Monnet hat allerdings eine intensive Woche in den Beinen (8 Matches in den letzten 7 Tagen).",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-07-29T12:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "Axeria Open 2026 powered by Intaro Sport",
-   "round": "Viertelfinale",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Lucija Ciric Bagaric / Angelica Moratelli",
-    "rank": null,
-    "last7": 0
-   },
-   "p2": {
-    "name": "Alevtina Ibragimova / Amarissa Toth",
-    "rank": null,
-    "last7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
   {
    "start": "2026-07-29T16:00:00+02:00",
    "tour": "WTA",
@@ -2192,6 +2128,57 @@
    "round": "2. Runde",
    "surface": null,
    "p1": {
+    "name": "Luciano Darderi",
+    "rank": 23,
+    "form": [
+     "S",
+     "N",
+     "S",
+     "S",
+     "N"
+    ],
+    "elo": 1709,
+    "onSurface": null,
+    "favSurface": "Sand",
+    "last7": 12
+   },
+   "p2": {
+    "name": "Dalibor Svrcina",
+    "rank": 116,
+    "form": [
+     "S",
+     "N",
+     "N",
+     "N",
+     "N"
+    ],
+    "elo": 1521,
+    "onSurface": null,
+    "favSurface": "Hartplatz",
+    "last7": 5
+   },
+   "pP1": 0.7466,
+   "model": {
+    "n1": 152,
+    "n2": 21,
+    "elo1": 1709,
+    "elo2": 1521,
+    "pElo": 0.7466,
+    "pRank": 0.7982,
+    "wElo": 1.0
+   },
+   "h2h": [],
+   "analysis": "Luciano Darderi (Weltrangliste #23) trifft auf Dalibor Svrcina (#116). Die aktuelle Form spricht für Luciano Darderi: 3 Siege aus den letzten 5 Matches, Dalibor Svrcina holte nur 1. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Luciano Darderi mit 75 % vorn. Luciano Darderi hat allerdings eine intensive Woche in den Beinen (12 Matches in den letzten 7 Tagen).",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-07-30T06:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Mifel Tennis Open by Telcel Oppo",
+   "round": "2. Runde",
+   "surface": null,
+   "p1": {
     "name": "James Duckworth",
     "rank": 83,
     "form": [
@@ -3650,6 +3637,14 @@
   {
    "tour": "ATP",
    "tournament": "Mifel Tennis Open by Telcel Oppo",
+   "p1": "Adam Walton",
+   "p2": "Dalibor Svrcina",
+   "winner": "Dalibor Svrcina",
+   "score": "7:6 6:7 3:6"
+  },
+  {
+   "tour": "ATP",
+   "tournament": "Mifel Tennis Open by Telcel Oppo",
    "p1": "Martin Landaluce",
    "p2": "Michael Zheng",
    "winner": "Michael Zheng",
@@ -4766,13 +4761,29 @@
    "p2": "Miriam Bulgaru",
    "winner": "Carole Monnet",
    "score": "6:1 6:3"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Axeria Open 2026 powered by Intaro Sport",
+   "p1": "Irene Burillo",
+   "p2": "Kaitlin Quevedo",
+   "winner": "Kaitlin Quevedo",
+   "score": "5:7 1:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Axeria Open 2026 powered by Intaro Sport",
+   "p1": "Margaux Rouvroy",
+   "p2": "Alice Rame",
+   "winner": "Alice Rame",
+   "score": "2:6 4:6"
   }
  ],
  "stats": {
   "overall": {
-   "n": 408,
-   "correct": 245,
-   "pct": 0.6005
+   "n": 413,
+   "correct": 247,
+   "pct": 0.5981
   },
   "football": {
    "n": 3,
@@ -4780,15 +4791,15 @@
    "pct": 0.3333
   },
   "tennis": {
-   "n": 405,
-   "correct": 244,
-   "pct": 0.6025
+   "n": 410,
+   "correct": 246,
+   "pct": 0.6
   },
   "exact": {
    "n": 3,
    "correct": 1
   },
-  "open": 77,
+  "open": 73,
   "recent": [
    {
     "date": "2026-07-29",
@@ -4853,6 +4864,17 @@
     "tip": "P1",
     "prob": 0.5235,
     "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-07-29",
+    "comp": "WTA · Axeria Open 2026 powered by Intaro Sport",
+    "label": "Irene Burillo – Kaitlin Quevedo",
+    "tipName": "Kaitlin Quevedo",
+    "tip": "P2",
+    "prob": 0.6611,
+    "result": "Sieger: P2",
     "correct": true,
     "sport": "tn"
    },
@@ -4968,12 +4990,34 @@
    },
    {
     "date": "2026-07-29",
+    "comp": "ATP · Mifel Tennis Open by Telcel Oppo",
+    "label": "Adam Walton – Dalibor Svrcina",
+    "tipName": "Adam Walton",
+    "tip": "P1",
+    "prob": 0.5089,
+    "result": "Sieger: P2",
+    "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-07-29",
     "comp": "WTA · Odlum Brown VanOpen",
     "label": "Emma Si Yu Dong – Yeonwoo Ku",
     "tipName": "Emma Si Yu Dong",
     "tip": "P1",
     "prob": 0.5422,
     "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-07-29",
+    "comp": "WTA · Axeria Open 2026 powered by Intaro Sport",
+    "label": "Margaux Rouvroy – Alice Rame",
+    "tipName": "Alice Rame",
+    "tip": "P2",
+    "prob": 0.5529,
+    "result": "Sieger: P2",
     "correct": true,
     "sport": "tn"
    },
@@ -5030,39 +5074,6 @@
     "prob": 0.5043,
     "result": "Sieger: P1",
     "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-28",
-    "comp": "WTA · Mubadala DC Open",
-    "label": "Madison Keys – Liudmila Samsonova",
-    "tipName": "Madison Keys",
-    "tip": "P1",
-    "prob": 0.8379,
-    "result": "Sieger: P2",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-28",
-    "comp": "WTA · The Memphis Classic",
-    "label": "Tatjana Maria – Talia Gibson",
-    "tipName": "Talia Gibson",
-    "tip": "P2",
-    "prob": 0.5161,
-    "result": "Sieger: P1",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-28",
-    "comp": "WTA · The Memphis Classic",
-    "label": "Reese Brantmeier – Iryna Shymanovich",
-    "tipName": "Iryna Shymanovich",
-    "tip": "P2",
-    "prob": 0.532,
-    "result": "Sieger: P2",
-    "correct": true,
     "sport": "tn"
    }
   ]
