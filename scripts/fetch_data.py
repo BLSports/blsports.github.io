@@ -74,6 +74,10 @@ def http_get(url, retries=3, timeout=25, as_json=True):
 # ----------------------------------------------------------------------------
 
 ALIASES = {
+    # Deutsch/Englisch-Varianten
+    "bayern munich": "bayern", "fc bayern munchen": "bayern", "bayern munchen": "bayern",
+    "borussia monchengladbach": "mgladbach", "monchengladbach": "mgladbach",
+    "1 fc koln": "fc koln", "fc cologne": "fc koln", "koln": "fc koln",
     # Premier League
     "manchester united": "man united", "manchester utd": "man united",
     "manchester city": "man city",
