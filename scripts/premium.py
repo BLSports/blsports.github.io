@@ -37,7 +37,7 @@ FOOT_IDS = {
 
 _calls = {"tennis": 0, "foot": 0}
 TENNIS_CALL_CAP = 120   # pro Lauf
-FOOT_CALL_CAP = 320
+FOOT_CALL_CAP = 500
 
 
 def _get(url, headers, timeout=25, retries=2):
@@ -308,8 +308,9 @@ def football_enrich(lg_id, season, matches, norm_team, team_match):
                 return v
         return None
 
-    # Fixture-IDs der Spiele im Fenster (fuer Quoten)
+    # Fixture-IDs der Spiele im Fenster (fuer Quoten + Team-IDs fuer Fallback)
     fixture_ids = {}
+    _fixture_cache[lg_id] = []
     dates = sorted({m["kickoff"][:10] for m in matches})
     for d in dates[:3]:
         for fx in foot_get(f"/fixtures?league={lid}&season={season}&date={d}"
@@ -318,6 +319,10 @@ def football_enrich(lg_id, season, matches, norm_team, team_match):
                 key = (norm_team(fx["teams"]["home"]["name"]),
                        norm_team(fx["teams"]["away"]["name"]))
                 fixture_ids[key] = fx["fixture"]["id"]
+                _fixture_cache[lg_id].append({
+                    "hk": key[0], "ak": key[1],
+                    "hid": fx["teams"]["home"]["id"], "aid": fx["teams"]["away"]["id"],
+                })
             except (KeyError, TypeError):
                 continue
 
@@ -402,6 +407,69 @@ def football_enrich(lg_id, season, matches, norm_team, team_match):
                         f'(u.a. {inj_a[0]["name"]})')
         if bits and "Personal:" not in (m.get("analysis") or ""):
             m["analysis"] = (m.get("analysis") or "") + " Personal: " + "; ".join(bits) + "."
+
+
+_fixture_cache = {}
+_team_stats_cache = {}
+FINISHED = ("FT", "AET", "PEN")
+
+
+def _team_recent(team_id, n=12):
+    """Letzte n beendete Spiele eines Teams (alle Wettbewerbe): Toere, Form."""
+    if team_id in _team_stats_cache:
+        return _team_stats_cache[team_id]
+    gf = ga = cnt = 0
+    form = []
+    for fx in foot_get(f"/fixtures?team={team_id}&last={n}"):
+        try:
+            if fx["fixture"]["status"]["short"] not in FINISHED:
+                continue
+            is_home = fx["teams"]["home"]["id"] == team_id
+            g_own = fx["goals"]["home" if is_home else "away"]
+            g_opp = fx["goals"]["away" if is_home else "home"]
+            if g_own is None or g_opp is None:
+                continue
+            gf += g_own
+            ga += g_opp
+            cnt += 1
+            form.append("S" if g_own > g_opp else ("U" if g_own == g_opp else "N"))
+        except (KeyError, TypeError):
+            continue
+    res = None
+    if cnt >= 4:
+        form.reverse()  # aeltestes zuerst (API liefert neueste zuerst)
+        res = {"gf": gf / cnt, "ga": ga / cnt, "n": cnt, "form": form[-5:]}
+    _team_stats_cache[team_id] = res
+    return res
+
+
+def foot_fallback_data(lg_id, home, away, norm_team, team_match):
+    """Team-Staerken + H2H aus der API, wenn die Liga-Historie nichts hergibt."""
+    hk, ak = norm_team(home), norm_team(away)
+    hid = aid = None
+    for e in _fixture_cache.get(lg_id, []):
+        if team_match(hk, e["hk"]) and team_match(ak, e["ak"]):
+            hid, aid = e["hid"], e["aid"]
+            break
+    if not hid or not aid:
+        return None
+    sh, sa = _team_recent(hid), _team_recent(aid)
+    if not sh or not sa:
+        return None
+    h2h = []
+    for fx in foot_get(f"/fixtures/headtohead?h2h={hid}-{aid}&last=5"):
+        try:
+            if fx["fixture"]["status"]["short"] not in FINISHED:
+                continue
+            h2h.append({
+                "date": fx["fixture"]["date"][:10],
+                "home": fx["teams"]["home"]["name"],
+                "away": fx["teams"]["away"]["name"],
+                "score": f'{fx["goals"]["home"]}:{fx["goals"]["away"]}',
+            })
+        except (KeyError, TypeError):
+            continue
+    return {"h": sh, "a": sa, "h2h": h2h}
 
 
 def report():

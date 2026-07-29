@@ -1817,6 +1817,67 @@ def main():
                 premium.football_enrich(lg["id"], season, matches_out, norm_team, team_match)
             except Exception as e:
                 print(f"  WARN football_enrich {lg['id']}: {e}", file=sys.stderr)
+            # Fallback: fehlt die Liga-Historie (z.B. Quali-Teams), Staerken aus
+            # den letzten 12 Spielen beider Teams laut API-Football berechnen
+            n_fb = 0
+            for m_out in matches_out:
+                if m_out.get("prediction"):
+                    continue
+                try:
+                    fb = premium.foot_fallback_data(lg["id"], m_out["home"], m_out["away"],
+                                                    norm_team, team_match)
+                except Exception as e:
+                    print(f"  WARN fallback {lg['id']}: {e}", file=sys.stderr)
+                    fb = None
+                if not fb:
+                    continue
+                sh, sa = fb["h"], fb["a"]
+                mu_h = max(0.15, (sh["gf"] + sa["ga"]) / 2.0 * 1.13)
+                mu_a = max(0.1, (sa["gf"] + sh["ga"]) / 2.0 / 1.13)
+                p_h, p_d, p_a, p_o25, score, p_btts = poisson_probs(mu_h, mu_a)
+                conf = "mittel" if min(sh["n"], sa["n"]) >= 10 else "niedrig"
+                m_out["prediction"] = {
+                    "pHome": round(p_h, 4), "pDraw": round(p_d, 4), "pAway": round(p_a, 4),
+                    "pOver25": round(p_o25, 4), "pBtts": round(p_btts, 4),
+                    "xgHome": round(mu_h, 2), "xgAway": round(mu_a, 2),
+                    "tipScore": f"{score[0]}:{score[1]}", "confidence": conf,
+                }
+                m_out["pBtts"] = m_out["prediction"]["pBtts"]
+                if not m_out.get("formHome"):
+                    m_out["formHome"] = sh.get("form") or []
+                if not m_out.get("formAway"):
+                    m_out["formAway"] = sa.get("form") or []
+                if not m_out.get("h2h") and fb.get("h2h"):
+                    m_out["h2h"] = [{"date": x["date"][8:10] + "." + x["date"][5:7] + "." + x["date"][:4],
+                                     "home": x["home"], "away": x["away"], "score": x["score"]}
+                                    for x in fb["h2h"]]
+                # Quoten-Value jetzt nachrechnen (Quoten liegen ggf. schon an)
+                if m_out.get("odds") and not m_out.get("value"):
+                    imp = implied_probs(m_out["odds"])
+                    if imp:
+                        pr = m_out["prediction"]
+                        diffs = [pr["pHome"] - imp[0], pr["pDraw"] - imp[1], pr["pAway"] - imp[2]]
+                        best = max(range(3), key=lambda i: diffs[i])
+                        if diffs[best] >= 0.05:
+                            m_out["value"] = {"outcome": ["1", "X", "2"][best],
+                                              "edge": round(diffs[best], 4),
+                                              "modelP": [pr["pHome"], pr["pDraw"], pr["pAway"]][best],
+                                              "odds": [m_out["odds"]["h"], m_out["odds"]["d"],
+                                                       m_out["odds"]["a"]][best]}
+                # Analysetext neu erzeugen (inkl. Personal-Hinweis wiederherstellen)
+                m_out["analysis"] = football_text(m_out["home"], m_out["away"], m_out) +                     " (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
+                bits = []
+                if m_out.get("injuriesHome"):
+                    bits.append(f'{m_out["home"]} fehlen {len(m_out["injuriesHome"])} Spieler '
+                                f'(u.a. {m_out["injuriesHome"][0]["name"]})')
+                if m_out.get("injuriesAway"):
+                    bits.append(f'{m_out["away"]} fehlen {len(m_out["injuriesAway"])} Spieler '
+                                f'(u.a. {m_out["injuriesAway"][0]["name"]})')
+                if bits:
+                    m_out["analysis"] += " Personal: " + "; ".join(bits) + "."
+                n_fb += 1
+            if n_fb:
+                print(f"  {n_fb} Prognosen via Team-Historie-Fallback erstellt")
         results_by_league[lg["id"]] = results
         if not matches_out and first_future:
             league_out["nextMatch"] = {
