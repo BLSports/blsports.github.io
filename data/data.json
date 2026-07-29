@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-29T13:53:03.155053+02:00",
+ "generatedAt": "2026-07-29T16:14:49.391973+02:00",
  "windowDays": 3,
  "days": [
   "2026-07-29",
@@ -225,72 +225,6 @@
   }
  ],
  "tennis": [
-  {
-   "start": "2026-07-29T16:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Axeria Open 2026 powered by Intaro Sport",
-   "round": "2. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Caijsa Hennemann",
-    "rank": 292,
-    "form": [
-     "N"
-    ],
-    "elo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 8
-   },
-   "p2": {
-    "name": "Sara Sorribes Tormo",
-    "rank": 212,
-    "form": [
-     "N",
-     "S",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": null,
-    "onSurface": null,
-    "favSurface": "Sand",
-    "last7": 8
-   },
-   "pP1": 0.4324,
-   "model": {
-    "n1": 1,
-    "n2": 114,
-    "pRank": 0.4324
-   },
-   "h2h": [],
-   "analysis": "Caijsa Hennemann (Weltrangliste #292) trifft auf Sara Sorribes Tormo (#212). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Sara Sorribes Tormo mit 57 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-07-29T16:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Axeria Open 2026 powered by Intaro Sport",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Alesia Breaz / Rachel Gailis",
-    "rank": null,
-    "last7": 0
-   },
-   "p2": {
-    "name": "Aneta Laboutkova / Carole Monnet",
-    "rank": null,
-    "last7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
   {
    "start": "2026-07-29T17:00:00+02:00",
    "tour": "WTA",
@@ -3443,6 +3377,80 @@
    "analysis": "",
    "unconfirmed": false,
    "timeTBD": true
+  },
+  {
+   "start": "2026-07-31T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Axeria Open 2026 powered by Intaro Sport",
+   "round": "Viertelfinale",
+   "surface": null,
+   "p1": {
+    "name": "Carole Monnet",
+    "rank": 205,
+    "form": [
+     "N",
+     "N",
+     "N",
+     "S",
+     "N"
+    ],
+    "elo": 1415,
+    "onSurface": null,
+    "favSurface": "Sand",
+    "last7": 12
+   },
+   "p2": {
+    "name": "Kaitlin Quevedo",
+    "rank": 103,
+    "form": [
+     "S",
+     "N",
+     "S",
+     "N",
+     "N"
+    ],
+    "elo": 1482,
+    "onSurface": null,
+    "favSurface": "Sand",
+    "last7": 12
+   },
+   "pP1": 0.3788,
+   "model": {
+    "n1": 9,
+    "n2": 10,
+    "elo1": 1415,
+    "elo2": 1482,
+    "pElo": 0.4044,
+    "pRank": 0.3578,
+    "wElo": 0.45
+   },
+   "h2h": [],
+   "analysis": "Carole Monnet (Weltrangliste #205) trifft auf Kaitlin Quevedo (#103). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Kaitlin Quevedo mit 62 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-07-31T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Axeria Open 2026 powered by Intaro Sport",
+   "round": "Halbfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Lucija Ciric Bagaric / Angelica Moratelli",
+    "rank": null,
+    "last7": 0
+   },
+   "p2": {
+    "name": "TBD / TBD",
+    "rank": null,
+    "last7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
   }
  ],
  "meta": {
@@ -4777,13 +4785,21 @@
    "p2": "Alice Rame",
    "winner": "Alice Rame",
    "score": "2:6 4:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Axeria Open 2026 powered by Intaro Sport",
+   "p1": "Carole Monnet",
+   "p2": "Elena Ruxandra Bertea",
+   "winner": "Carole Monnet",
+   "score": "7:6 7:5"
   }
  ],
  "stats": {
   "overall": {
-   "n": 413,
-   "correct": 247,
-   "pct": 0.5981
+   "n": 414,
+   "correct": 248,
+   "pct": 0.599
   },
   "football": {
    "n": 3,
@@ -4791,9 +4807,9 @@
    "pct": 0.3333
   },
   "tennis": {
-   "n": 410,
-   "correct": 246,
-   "pct": 0.6
+   "n": 411,
+   "correct": 247,
+   "pct": 0.601
   },
   "exact": {
    "n": 3,
@@ -5022,6 +5038,17 @@
     "sport": "tn"
    },
    {
+    "date": "2026-07-29",
+    "comp": "WTA · Axeria Open 2026 powered by Intaro Sport",
+    "label": "Carole Monnet – Elena Ruxandra Bertea",
+    "tipName": "Carole Monnet",
+    "tip": "P1",
+    "prob": 0.5421,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
     "date": "2026-07-28",
     "comp": "WTA · Axeria Open 2026 powered by Intaro Sport",
     "label": "Carole Monnet – Miriam Bulgaru",
@@ -5063,17 +5090,6 @@
     "prob": 0.6069,
     "result": "Sieger: P2",
     "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-28",
-    "comp": "WTA · Axeria Open 2026 powered by Intaro Sport",
-    "label": "Anastasiia Sobolieva – Selena Janicijevic",
-    "tipName": "Selena Janicijevic",
-    "tip": "P2",
-    "prob": 0.5043,
-    "result": "Sieger: P1",
-    "correct": false,
     "sport": "tn"
    }
   ]
