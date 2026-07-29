@@ -40,13 +40,25 @@ FOOT_CALL_CAP = 80
 
 
 def _get(url, headers, timeout=25, retries=2):
+    from urllib.error import HTTPError
+    last = ""
     for attempt in range(retries):
         try:
             with urlopen(Request(url, headers=headers), timeout=timeout) as r:
                 return json.loads(r.read().decode("utf-8", "replace"))
-        except Exception:
+        except HTTPError as e:
+            try:
+                body = e.read().decode("utf-8", "replace")[:200]
+            except Exception:
+                body = ""
+            last = f"HTTP {e.code}: {body}"
+            if e.code in (401, 403, 404):
+                break  # kein Retry bei Auth-/Pfadfehlern
             time.sleep(1.0 + attempt)
-    print(f"  WARN premium: {url.split('?')[0]} nicht erreichbar", file=sys.stderr)
+        except Exception as e:
+            last = str(e)[:200]
+            time.sleep(1.0 + attempt)
+    print(f"  WARN premium: {url.split('?')[0]} -> {last}", file=sys.stderr)
     return None
 
 
@@ -91,11 +103,27 @@ def _rows(payload):
 # Tennis
 # ---------------------------------------------------------------------------
 
+RANKING_PATHS = [
+    "/tennis/v2/{tour}/ranking/singles?pageSize={ps}&pageNo={pg}",
+    "/tennis/v2/{tour}/rankings/singles?pageSize={ps}&pageNo={pg}",
+    "/tennis/v2/{tour}/ranking/singles",
+    "/tennis/v2/ms-api/{tour}/ranking/singles?pageSize={ps}&pageNo={pg}",
+]
+
+
 def tennis_rankings_deep(tour, key_fn, max_pages=2, page_size=500):
     """Weltrangliste weit ueber Top 150 hinaus: {player_key: position}."""
     out = {}
+    template = None
+    for cand in RANKING_PATHS:
+        d = tennis_get(cand.format(tour=tour, ps=page_size, pg=1))
+        if _rows(d):
+            template = cand
+            break
+    if template is None:
+        return out
     for page in range(1, max_pages + 1):
-        d = tennis_get(f"/tennis/v2/{tour}/ranking/singles?pageSize={page_size}&pageNo={page}")
+        d = tennis_get(template.format(tour=tour, ps=page_size, pg=page))
         rows = _rows(d)
         got = 0
         for r in rows:
