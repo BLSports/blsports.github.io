@@ -221,6 +221,16 @@ LEAGUES = [
      "source": "espn", "espn": "bel.1", "fdcuk": "B1"},
     {"id": "be2", "name": "Challenger Pro League (Belgien)", "country": "BE", "flag": "\U0001F1E7\U0001F1EA",
      "source": "espn", "espn": "bel.2", "fdcuk": None},
+    {"id": "pt1", "name": "Primeira Liga (Portugal)", "country": "PT", "flag": "\U0001F1F5\U0001F1F9",
+     "source": "espn", "espn": "por.1", "fdcuk": "P1"},
+    {"id": "tr1", "name": "Süper Lig (Türkei)", "country": "TR", "flag": "\U0001F1F9\U0001F1F7",
+     "source": "espn", "espn": "tur.1", "fdcuk": "T1"},
+    {"id": "at1", "name": "Bundesliga (Österreich)", "country": "AT", "flag": "\U0001F1E6\U0001F1F9",
+     "source": "espn", "espn": "aut.1", "fdcuk": None},
+    {"id": "ch1", "name": "Super League (Schweiz)", "country": "CH", "flag": "\U0001F1E8\U0001F1ED",
+     "source": "espn", "espn": "sui.1", "fdcuk": None},
+    {"id": "sc1", "name": "Premiership (Schottland)", "country": "SC", "flag": "\U0001F3F4\U000E0067\U000E0062\U000E0073\U000E0063\U000E0074\U000E007F",
+     "source": "espn", "espn": "sco.1", "fdcuk": "SC0"},
 ]
 
 

@@ -271,8 +271,10 @@ def build(data_path=None, out_path=None):
                 continue
             cards = "".join(match_card(m, lg) for m in day_matches)
             fb_sections.append(
-                f'<section class="league" data-cat="fussball" data-lg="{lg["id"]}">'
-                f'<h2>{lg["flag"]} {esc(lg["name"])}</h2><div class="grid">{cards}</div></section>')
+                f'<details class="league" data-cat="fussball" data-lg="{lg["id"]}" open>'
+                f'<summary><h2>{lg["flag"]} {esc(lg["name"])} '
+                f'<span class="muted tiny">({len(day_matches)})</span></h2></summary>'
+                f'<div class="grid">{cards}</div></details>')
 
         # Tennis des Tages, nach Turnier gruppiert
         tn_by_tour = {}
@@ -281,13 +283,18 @@ def build(data_path=None, out_path=None):
                 continue
             tn_by_tour.setdefault((m["tour"], m["tournament"]), []).append(m)
         tn_sections = []
+        idx_open = 0
         for (tour, tournament), ms in sorted(tn_by_tour.items()):
             cards = "".join(tennis_card(m) for m in sorted(ms, key=lambda x: x["start"]))
             icon = "🎾"
             tour_label = "Challenger" if tour == "Challenger" else esc(tour)
+            open_attr = " open" if idx_open < 1 else ""
+            idx_open += 1
             tn_sections.append(
-                f'<section class="league" data-cat="tennis" data-lg="{esc(tour.lower())}">'
-                f'<h2>{icon} {tour_label} · {esc(tournament)}</h2><div class="grid">{cards}</div></section>')
+                f'<details class="league" data-cat="tennis" data-lg="{esc(tour.lower())}"{open_attr}>'
+                f'<summary><h2>{icon} {tour_label} · {esc(tournament)} '
+                f'<span class="muted tiny">({len(ms)} Matches)</span></h2></summary>'
+                f'<div class="grid">{cards}</div></details>')
 
         body = "".join(fb_sections) + "".join(tn_sections)
         # Heute bereits gespielte Tennis-Matches (nur im Heute-Tab)
@@ -302,11 +309,11 @@ def build(data_path=None, out_path=None):
                     rows += (f'<tr><td>{esc(tour)}</td><td>{esc(tournament)}</td>'
                              f'<td>{esc(f["p1"])} – {esc(f["p2"])}</td>'
                              f'<td class="num"><b>{esc(f["winner"])}</b>{score}</td></tr>')
-            body += (f'<section class="league" data-cat="tennis" data-lg="fin">'
-                     f'<h2>✅ Heute bereits gespielt ({len(data["tennisFinished"])})</h2>'
+            body += (f'<details class="league" data-cat="tennis" data-lg="fin">'
+                     f'<summary><h2>✅ Heute bereits gespielt ({len(data["tennisFinished"])})</h2></summary>'
                      f'<table class="pausetable"><thead><tr><th>Tour</th><th>Turnier</th>'
                      f'<th>Match</th><th>Sieger &amp; Ergebnis</th></tr></thead>'
-                     f'<tbody>{rows}</tbody></table></section>')
+                     f'<tbody>{rows}</tbody></table></details>')
         if not body:
             body = '<div class="empty">Für diesen Tag sind (noch) keine Partien angesetzt.</div>'
         panels.append(f'<div class="daypanel{" active" if i == 0 else ""}" data-day="{i}">{body}</div>')
@@ -428,6 +435,11 @@ main {{ max-width:1100px; margin:0 auto; padding:0 18px 40px; }}
 .daypanel {{ display:none; }} .daypanel.active {{ display:block; }}
 .league {{ margin-top:22px; }}
 .league h2 {{ font-size:16px; margin:0 0 10px; border-bottom:1px solid var(--grid); padding-bottom:6px; }}
+details.league > summary {{ cursor:pointer; list-style:none; }}
+details.league > summary::-webkit-details-marker {{ display:none; }}
+details.league > summary h2 {{ display:inline-block; width:100%; }}
+details.league > summary h2::before {{ content:"▸ "; color:var(--muted); }}
+details.league[open] > summary h2::before {{ content:"▾ "; }}
 .grid {{ display:grid; grid-template-columns:repeat(auto-fill,minmax(330px,1fr)); gap:12px; }}
 .card {{ background:var(--surface); border:1px solid var(--border); border-radius:12px; padding:12px 14px; }}
 .cardtop {{ display:flex; justify-content:space-between; align-items:baseline; gap:8px; margin-bottom:8px; }}
