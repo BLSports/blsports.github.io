@@ -42,6 +42,11 @@ FOOT_CALL_CAP = 80
 def _get(url, headers, timeout=25, retries=2):
     from urllib.error import HTTPError
     last = ""
+    headers = dict(headers)
+    headers.setdefault("User-Agent",
+                       "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                       "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
+    headers.setdefault("Accept", "application/json")
     for attempt in range(retries):
         try:
             with urlopen(Request(url, headers=headers), timeout=timeout) as r:
