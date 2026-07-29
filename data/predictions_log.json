@@ -4166,9 +4166,9 @@
    "tip": "P1",
    "tipName": "Martin Landaluce",
    "prob": 0.5727,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|atp|2026-07-27|brooksby j|moutet c": {
    "sport": "tn",
@@ -5188,9 +5188,9 @@
    "tip": "P1",
    "tipName": "Martin Landaluce",
    "prob": 0.5688,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|atp|2026-07-28|brooksby j|moutet c": {
    "sport": "tn",
@@ -5748,9 +5748,9 @@
    "tip": "P1",
    "tipName": "Martin Landaluce",
    "prob": 0.5688,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|atp|2026-07-29|brooksby j|moutet c": {
    "sport": "tn",
@@ -6210,9 +6210,9 @@
    "tip": "P1",
    "tipName": "Emma Si Yu Dong",
    "prob": 0.5422,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-07-29|kotliar y|ristic m": {
    "sport": "tn",
@@ -6700,6 +6700,118 @@
    "tip": "P1",
    "tipName": "Maya Joint",
    "prob": 0.7334,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-07-30|lam coleman wong c|lehecka j": {
+   "sport": "tn",
+   "comp": "ATP · Mifel Tennis Open by Telcel Oppo",
+   "date": "2026-07-30",
+   "label": "Chak Lam Coleman Wong – Jiri Lehecka",
+   "p1Key": "lam coleman wong c",
+   "p2Key": "lehecka j",
+   "tip": "P2",
+   "tipName": "Jiri Lehecka",
+   "prob": 0.8662,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-07-30|brooksby j|winter e": {
+   "sport": "tn",
+   "comp": "ATP · Mifel Tennis Open by Telcel Oppo",
+   "date": "2026-07-30",
+   "label": "Jenson Brooksby – Edward Winter",
+   "p1Key": "brooksby j",
+   "p2Key": "winter e",
+   "tip": "P1",
+   "tipName": "Jenson Brooksby",
+   "prob": 0.7313,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-07-30|boyer t|cerundolo f": {
+   "sport": "tn",
+   "comp": "ATP · Mifel Tennis Open by Telcel Oppo",
+   "date": "2026-07-30",
+   "label": "Tristan Boyer – Francisco Cerundolo",
+   "p1Key": "boyer t",
+   "p2Key": "cerundolo f",
+   "tip": "P2",
+   "tipName": "Francisco Cerundolo",
+   "prob": 0.8632,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-07-30|dart h|si yu dong e": {
+   "sport": "tn",
+   "comp": "WTA · Odlum Brown VanOpen",
+   "date": "2026-07-30",
+   "label": "Emma Si Yu Dong – Harriet Dart",
+   "p1Key": "si yu dong e",
+   "p2Key": "dart h",
+   "tip": "P2",
+   "tipName": "Harriet Dart",
+   "prob": 0.6165,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-07-30|pacheco mendez r|shapovalov d": {
+   "sport": "tn",
+   "comp": "ATP · Mifel Tennis Open by Telcel Oppo",
+   "date": "2026-07-30",
+   "label": "Rodrigo Pacheco Mendez – Denis Shapovalov",
+   "p1Key": "pacheco mendez r",
+   "p2Key": "shapovalov d",
+   "tip": "P2",
+   "tipName": "Denis Shapovalov",
+   "prob": 0.7619,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-07-30|gea a|zheng m": {
+   "sport": "tn",
+   "comp": "ATP · Mifel Tennis Open by Telcel Oppo",
+   "date": "2026-07-30",
+   "label": "Michael Zheng – Arthur Gea",
+   "p1Key": "zheng m",
+   "p2Key": "gea a",
+   "tip": "P1",
+   "tipName": "Michael Zheng",
+   "prob": 0.5495,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-07-30|khachanov k|tomic b": {
+   "sport": "tn",
+   "comp": "ATP · Mifel Tennis Open by Telcel Oppo",
+   "date": "2026-07-30",
+   "label": "Karen Khachanov – Bernard Tomic",
+   "p1Key": "khachanov k",
+   "p2Key": "tomic b",
+   "tip": "P1",
+   "tipName": "Karen Khachanov",
+   "prob": 0.8245,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-07-30|duckworth j|norrie c": {
+   "sport": "tn",
+   "comp": "ATP · Mifel Tennis Open by Telcel Oppo",
+   "date": "2026-07-30",
+   "label": "James Duckworth – Cameron Norrie",
+   "p1Key": "duckworth j",
+   "p2Key": "norrie c",
+   "tip": "P2",
+   "tipName": "Cameron Norrie",
+   "prob": 0.7095,
    "status": "open",
    "result": null,
    "correct": null
