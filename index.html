@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
 <title>Sport-Radar · Spiele &amp; Analysen der nächsten 3 Tage</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚽</text></svg>">
 <style>
@@ -119,16 +120,18 @@ footer summary { cursor:pointer; }
 <header>
   <h1>⚽ Sport-Radar 🎾</h1>
   <div class="sub">Spiele &amp; Analysen der nächsten 3 Tage · Saison 2026/27 ·
-    Stand: <b>29.07.2026, 18:34 Uhr</b> · 74 Fußballspiele · 78 Tennis-Matches</div>
+    Stand: <b>29.07.2026, 18:49 Uhr</b> · 74 Fußballspiele · 76 Tennis-Matches</div>
   
   <div class="tabs"><button class="tab active" data-day="0">Heute<span class="tabsub">Mi 29.07.</span></button><button class="tab" data-day="1">Morgen<span class="tabsub">Do 30.07.</span></button><button class="tab" data-day="2">Freitag<span class="tabsub">31.07.</span></button></div>
   <div class="filters">
     <button class="flt active" data-f="alle">Alle</button>
     <button class="flt" data-f="fussball">⚽ Fußball</button>
     <button class="flt" data-f="tennis">🎾 Tennis</button>
+    <button class="flt" onclick="document.getElementById('valuebets')?.scrollIntoView({behavior:'smooth'})">💎 Value-Bets</button>
   </div>
 </header>
 <main>
+<section class="pause" id="valuebets"><h2>💎 Value-Bets <span class="muted tiny">(9 Signale · Modell rechnet ohne Buchmacher-Quoten; Quoten dienen nur dem Vergleich)</span></h2><table class="pausetable"><thead><tr><th>Anstoß</th><th>Wettbewerb</th><th>Partie</th><th>Modell-Tipp</th><th>Modell-W.</th><th>Quote</th><th>Markt-W.</th><th>Edge (Pp.)</th></tr></thead><tbody><tr><td>29.07. 19:00</td><td>🎾 ATP · Mubadala DC Open</td><td>Lorenzo Musetti – Aleksandar Vukic</td><td><b>Lorenzo Musetti</b></td><td class="num">89%</td><td class="num">1,37</td><td class="num">73%</td><td class="num"><b>+20</b></td></tr><tr><td>30.07. 06:00</td><td>🎾 WTA · Mubadala DC Open</td><td>Anastasia Potapova – Diana Shnaider</td><td><b>Anastasia Potapova</b></td><td class="num">52%</td><td class="num">2,10</td><td class="num">48%</td><td class="num"><b>+18</b></td></tr><tr><td>30.07. 06:00</td><td>🎾 WTA · Mubadala DC Open</td><td>Anna Kalinskaya – Janice Tjen</td><td><b>Anna Kalinskaya</b></td><td class="num">84%</td><td class="num">1,36</td><td class="num">74%</td><td class="num"><b>+14</b></td></tr><tr><td>30.07. 06:00</td><td>🎾 WTA · Mubadala DC Open</td><td>Elina Svitolina – Polina Kudermetova</td><td><b>Elina Svitolina</b></td><td class="num">95%</td><td class="num">1,22</td><td class="num">82%</td><td class="num"><b>+14</b></td></tr><tr><td>30.07. 00:30</td><td>🎾 WTA · Mubadala DC Open</td><td>Naomi Osaka – Ashlyn Krueger</td><td><b>Naomi Osaka</b></td><td class="num">86%</td><td class="num">1,33</td><td class="num">75%</td><td class="num"><b>+13</b></td></tr><tr><td>30.07. 06:00</td><td>🎾 ATP · Mubadala DC Open</td><td>Jakub Mensik – Brandon Nakashima</td><td><b>Jakub Mensik</b></td><td class="num">64%</td><td class="num">1,66</td><td class="num">60%</td><td class="num"><b>+8</b></td></tr><tr><td>30.07. 00:00</td><td>🎾 ATP · Mubadala DC Open</td><td>Adrian Mannarino – Alex Michelsen</td><td><b>Adrian Mannarino</b></td><td class="num">33%</td><td class="num">3,90</td><td class="num">26%</td><td class="num"><b>+8</b></td></tr><tr><td>30.07. 06:00</td><td>🎾 ATP · Mubadala DC Open</td><td>Alejandro Tabilo – Terence Atmane</td><td><b>Alejandro Tabilo</b></td><td class="num">55%</td><td class="num">2,00</td><td class="num">50%</td><td class="num"><b>+7</b></td></tr><tr><td>30.07. 06:00</td><td>🎾 WTA · Mubadala DC Open</td><td>Magdalena Frech – Jessica Pegula</td><td><b>Jessica Pegula</b></td><td class="num">93%</td><td class="num">1,14</td><td class="num">88%</td><td class="num"><b>+6</b></td></tr></tbody></table><div class="muted tiny" style="margin-top:6px">Statistische Signale mit Unsicherheit – keine Wettempfehlung. Edge = Modell-Wahrscheinlichkeit minus implizite Markt-Wahrscheinlichkeit.</div></section>
 <div class="daypanel active" data-day="0"><details class="league" data-cat="fussball" data-lg="cl" open><summary><h2>🏆 Champions League <span class="muted tiny">(6)</span></h2></summary><div class="grid">
   <article class="card">
     <div class="cardtop"><span class="ko">19:00 Uhr</span><span class="muted tiny">2. Quali-Runde</span></div>
@@ -313,21 +316,7 @@ footer summary { cursor:pointer; }
     
     
     
-  </article></div></details><details class="league" data-cat="tennis" data-lg="atp" open><summary><h2>🎾 ATP · Mubadala DC Open <span class="muted tiny">(6 Matches)</span></h2></summary><div class="grid">
-  <article class="card">
-    <div class="cardtop"><span class="ko">18:40 Uhr</span>
-      <span class="muted tiny">Mubadala DC Open · 1. Runde · Doppel</span></div>
-    
-    <div class="teams">
-      <div class="team"><span class="tname">Francisco Cabral / JJ Tracy</span><span class="tmeta"><span class="rank unk">o. R.</span></span></div>
-      <span class="vs">–</span>
-      <div class="team right"><span class="tname">Ariel Behar / Anirudh Chandrasekar</span><span class="tmeta"><span class="rank unk">o. R.</span></span></div>
-    </div>
-    
-    
-    
-    
-  </article>
+  </article></div></details><details class="league" data-cat="tennis" data-lg="atp" open><summary><h2>🎾 ATP · Mubadala DC Open <span class="muted tiny">(5 Matches)</span></h2></summary><div class="grid">
   <article class="card">
     <div class="cardtop"><span class="ko">19:00 Uhr</span>
       <span class="muted tiny">Mubadala DC Open · 2. Runde</span></div>
@@ -523,7 +512,7 @@ footer summary { cursor:pointer; }
     
     <p class="analysis">Mananchaya Sawangkaew (Weltrangliste #111) trifft auf Nao Hibino (#226). Die aktuelle Form spricht für Mananchaya Sawangkaew: 2 Siege aus den letzten 5 Matches, Nao Hibino holte nur 0. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Mananchaya Sawangkaew mit 82 % vorn. Nao Hibino hat allerdings eine intensive Woche in den Beinen (9 Matches in den letzten 7 Tagen).</p>
     
-  </article></div></details><details class="league" data-cat="tennis" data-lg="wta"><summary><h2>🎾 WTA · The Memphis Classic <span class="muted tiny">(5 Matches)</span></h2></summary><div class="grid">
+  </article></div></details><details class="league" data-cat="tennis" data-lg="wta"><summary><h2>🎾 WTA · The Memphis Classic <span class="muted tiny">(4 Matches)</span></h2></summary><div class="grid">
   <article class="card">
     <div class="cardtop"><span class="ko">19:30 Uhr</span>
       <span class="muted tiny">The Memphis Classic · 2. Runde</span></div>
@@ -536,20 +525,6 @@ footer summary { cursor:pointer; }
     <div class="pbar" role="img" aria-label="Anastasia Zakharova 38%, Camila Osorio 62%"><div class="seg ph" style="width:38%"><span>38%</span></div><div class="seg pa" style="width:62%"><span>62%</span></div></div><div class="predmeta"><span>Modell-Favorit: <b>Camila Osorio</b> (62%)</span><span class="muted">Basis: Weltrangliste</span></div>
     
     <p class="analysis">Anastasia Zakharova (Weltrangliste #101) trifft auf Camila Osorio (#56). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Camila Osorio mit 62 % vorn.</p>
-    
-  </article>
-  <article class="card">
-    <div class="cardtop"><span class="ko">19:30 Uhr</span>
-      <span class="muted tiny">The Memphis Classic · 1. Runde · Doppel</span></div>
-    
-    <div class="teams">
-      <div class="team"><span class="tname">Hao-Ching Chan / Maya Joint</span><span class="tmeta"><span class="rank unk">o. R.</span></span></div>
-      <span class="vs">–</span>
-      <div class="team right"><span class="tname">Ekaterina Alexandrova / Talia Gibson</span><span class="tmeta"><span class="rank unk">o. R.</span></span></div>
-    </div>
-    
-    
-    
     
   </article>
   <article class="card">
@@ -571,9 +546,9 @@ footer summary { cursor:pointer; }
       <span class="muted tiny">The Memphis Classic · 1. Runde · Doppel</span></div>
     
     <div class="teams">
-      <div class="team"><span class="tname">Sofia Johnson / Aran Teixido Garcia</span><span class="tmeta"><span class="rank unk">o. R.</span></span></div>
+      <div class="team"><span class="tname">Eudice Wong Chong / Eri Hozumi</span><span class="tmeta"><span class="rank unk">o. R.</span></span></div>
       <span class="vs">–</span>
-      <div class="team right"><span class="tname">Nika Radisic / Iryna Shymanovich</span><span class="tmeta"><span class="rank unk">o. R.</span></span></div>
+      <div class="team right"><span class="tname">Storm Hunter / Desirae Krawczyk</span><span class="tmeta"><span class="rank unk">o. R.</span></span></div>
     </div>
     
     
@@ -581,13 +556,13 @@ footer summary { cursor:pointer; }
     
   </article>
   <article class="card">
-    <div class="cardtop"><span class="ko">21:00 Uhr</span>
+    <div class="cardtop"><span class="ko">22:30 Uhr</span>
       <span class="muted tiny">The Memphis Classic · 1. Runde · Doppel</span></div>
     
     <div class="teams">
-      <div class="team"><span class="tname">Eudice Wong Chong / Eri Hozumi</span><span class="tmeta"><span class="rank unk">o. R.</span></span></div>
+      <div class="team"><span class="tname">Sofia Johnson / Aran Teixido Garcia</span><span class="tmeta"><span class="rank unk">o. R.</span></span></div>
       <span class="vs">–</span>
-      <div class="team right"><span class="tname">Storm Hunter / Desirae Krawczyk</span><span class="tmeta"><span class="rank unk">o. R.</span></span></div>
+      <div class="team right"><span class="tname">Nika Radisic / Iryna Shymanovich</span><span class="tmeta"><span class="rank unk">o. R.</span></span></div>
     </div>
     
     
@@ -2643,7 +2618,7 @@ footer summary { cursor:pointer; }
       <span class="muted tiny">The Memphis Classic · Viertelfinale · Doppel</span></div>
     
     <div class="teams">
-      <div class="team"><span class="tname">TBD / TBD</span><span class="tmeta"><span class="rank unk">o. R.</span></span></div>
+      <div class="team"><span class="tname">Hao-Ching Chan / Maya Joint</span><span class="tmeta"><span class="rank unk">o. R.</span></span></div>
       <span class="vs">–</span>
       <div class="team right"><span class="tname">Ingrid Gamarra Martins / Ekaterina Ovcharenko</span><span class="tmeta"><span class="rank unk">o. R.</span></span></div>
     </div>
@@ -2952,7 +2927,7 @@ footer summary { cursor:pointer; }
 </footer>
 <script>
 // Frische-Pruefung: liegt im Repo eine neuere Version als die im Browser-Cache?
-const GEN = "2026-07-29T18:34:26.409202+02:00";
+const GEN = "2026-07-29T18:49:00.762157+02:00";
 fetch('https://raw.githubusercontent.com/BLSports/blsports.github.io/main/data/data.json',
       {cache: 'no-store'})
   .then(r => r.json())
