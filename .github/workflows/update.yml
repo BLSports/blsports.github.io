@@ -61,7 +61,10 @@ jobs:
 
       - name: Daten holen & Vorhersagen berechnen
         env:
-          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}   # optional
+          ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}       # optional (Gratis-Quoten)
+          RAPIDAPI_KEY: ${{ secrets.RAPIDAPI_KEY }}       # optional (Tennis+Fussball via RapidAPI)
+          TENNIS_API_KEY: ${{ secrets.TENNIS_API_KEY }}   # optional (nur Tennis)
+          FOOTBALL_API_KEY: ${{ secrets.FOOTBALL_API_KEY }}  # optional (API-Football direkt)
         run: |
           set -o pipefail
           { cat /tmp/clone.log 2>/dev/null; python scripts/fetch_data.py; } 2>&1 | tee data/last_run.log

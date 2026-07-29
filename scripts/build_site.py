@@ -129,6 +129,17 @@ def match_card(m, league):
                         f'<span class="muted tiny">Heim:</span> {fmt_sc(sc_h)} &nbsp;·&nbsp; '
                         f'<span class="muted tiny">Gast:</span> {fmt_sc(sc_a)}</div>')
     analysis_html = f'<p class="analysis">{esc(m["analysis"])}</p>' if m.get("analysis") else ""
+    inj_html = ""
+    inj_h, inj_a = m.get("injuriesHome") or [], m.get("injuriesAway") or []
+    if inj_h or inj_a:
+        fmt_inj = lambda lst: ", ".join(
+            f'{esc(x["name"])}' + (f' ({esc(x["reason"])})' if x.get("reason") else "")
+            for x in lst[:4]) or "–"
+        inj_html = (f'<div class="scorers">🚑 <b>Verletzt/fehlend</b><br>'
+                    f'<span class="muted tiny">Heim:</span> {fmt_inj(inj_h)}'
+                    f'{" …" if len(inj_h) > 4 else ""} &nbsp;·&nbsp; '
+                    f'<span class="muted tiny">Gast:</span> {fmt_inj(inj_a)}'
+                    f'{" …" if len(inj_a) > 4 else ""}</div>')
     md = f'<span class="muted tiny">{m["matchday"]}. Spieltag</span>' if m.get("matchday") else ""
     return f"""
   <article class="card">
@@ -145,6 +156,7 @@ def match_card(m, league):
       </div>
     </div>
     {pred_html}
+    {inj_html}
     {scorers_html}
     <div class="oddsrow">{odds_chips(m.get("odds"), m.get("value"))}</div>
     {value_badge(m.get("value"))}

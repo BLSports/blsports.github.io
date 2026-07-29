@@ -26,6 +26,11 @@ import unicodedata
 from datetime import datetime, timedelta, timezone
 from difflib import SequenceMatcher
 from urllib.request import Request, urlopen
+
+try:
+    import premium
+except ImportError:
+    premium = None
 from urllib.error import URLError, HTTPError
 
 BERLIN_UTC_OFFSET = None  # wird via zoneinfo bestimmt
@@ -1762,6 +1767,11 @@ def main():
             "seasonHasStarted": len(season_results) > 0,
             "isCup": bool(lg.get("cup")),
         }
+        if premium and premium.FOOT_ENABLED and matches_out:
+            try:
+                premium.football_enrich(lg["id"], season, matches_out, norm_team, team_match)
+            except Exception as e:
+                print(f"  WARN football_enrich {lg['id']}: {e}", file=sys.stderr)
         results_by_league[lg["id"]] = results
         if not matches_out and first_future:
             league_out["nextMatch"] = {
@@ -1777,6 +1787,12 @@ def main():
     rank_wta_id, rank_wta_nm = espn_rankings("wta")
     print(f"  Rankings: ATP {len(rank_atp_id) or len(rank_atp_nm)}, WTA {len(rank_wta_id) or len(rank_wta_nm)}")
     out["meta"]["rankCounts"] = {"atp": len(rank_atp_id), "wta": len(rank_wta_id)}
+    deep_atp, deep_wta = {}, {}
+    if premium and premium.TENNIS_ENABLED:
+        deep_atp = premium.tennis_rankings_deep("atp", player_key)
+        deep_wta = premium.tennis_rankings_deep("wta", player_key)
+        print(f"  Tiefe Rankings (MatchStat): ATP {len(deep_atp)}, WTA {len(deep_wta)}")
+        out["meta"]["deepRankCounts"] = {"atp": len(deep_atp), "wta": len(deep_wta)}
 
     # Historie (Sackmann) fuer Belag-Bilanzen, H2H und Rank-Fallback
     sack = {"ATP": load_sackmann("atp"), "WTA": load_sackmann("wta")}
@@ -1880,10 +1896,11 @@ def main():
                 })
                 continue
             # Ranking: Weltrangliste (Top 150), sonst letzter bekannter Rang aus der Historie
+            deep = deep_atp if m["tour"] == "ATP" else deep_wta
             r1 = (by_id.get(m["p1"]["id"]) or by_nm.get(norm_team(n1))
-                  or sack_last_rank(rows, n1))
+                  or deep.get(player_key(n1)) or sack_last_rank(rows, n1))
             r2 = (by_id.get(m["p2"]["id"]) or by_nm.get(norm_team(n2))
-                  or sack_last_rank(rows, n2))
+                  or deep.get(player_key(n2)) or sack_last_rank(rows, n2))
             rnd = (m.get("round") or "").strip()
             rnd = ROUND_DE.get(rnd.lower(), rnd)
             # Belag & Bilanzen
@@ -2013,6 +2030,8 @@ def main():
         update_prediction_log(out, results_by_league, log_path)
     except Exception as e:
         print(f"  WARN Tipp-Log: {e}", file=sys.stderr)
+    if premium:
+        premium.report()
     path = os.path.join(os.path.dirname(__file__), "..", "data", "data.json")
     with open(path, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=1, default=str)
