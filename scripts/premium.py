@@ -107,6 +107,9 @@ def tennis_rankings_deep(tour, key_fn, max_pages=2, page_size=500):
                     got += 1
             except (ValueError, TypeError, AttributeError):
                 continue
+        if got == 0 and d is not None and page == 1:
+            print(f"  DEBUG premium rankings {tour}: Antwortstruktur = "
+                  f"{json.dumps(d)[:400]}", file=sys.stderr)
         if got < page_size:
             break
     return out
