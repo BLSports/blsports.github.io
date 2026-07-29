@@ -220,8 +220,13 @@ def football_enrich(lg_id, season, matches, norm_team, team_match):
         if sc_a and not m.get("scorersAway"):
             m["scorersAway"] = sc_a[:3]
             m["scorersPeriod"] = "Saison"
-        # Quoten je Fixture (Markt "Match Winner")
+        # Quoten je Fixture (Markt "Match Winner"); Teamnamen fuzzy matchen
         fid = fixture_ids.get((hk, ak))
+        if not fid:
+            for (fh, fa), v in fixture_ids.items():
+                if team_match(hk, fh) and team_match(ak, fa):
+                    fid = v
+                    break
         if fid and not m.get("odds"):
             for o in foot_get(f"/odds?fixture={fid}"):
                 found = None
