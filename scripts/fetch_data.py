@@ -1807,6 +1807,7 @@ def main():
 
         league_out = {
             "id": lg["id"], "name": lg["name"], "flag": lg["flag"],
+            "espn": lg.get("espn") or {"bl1": "ger.1", "bl2": "ger.2", "bl3": "ger.3"}.get(lg["id"]),
             "matches": matches_out,
             "seasonHasStarted": len(season_results) > 0,
             "isCup": bool(lg.get("cup")),

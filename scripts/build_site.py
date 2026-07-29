@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 """Rendert data/data.json -> docs/index.html (komplett eigenstaendige Seite)."""
 
+import hashlib
 import html
 import json
 import os
@@ -101,6 +102,18 @@ def pos_str(pos, n):
     return f'<span class="pos">{pos}.</span>'
 
 
+def card_id(*parts):
+    return "c_" + hashlib.md5("|".join(str(p) for p in parts).encode()).hexdigest()[:10]
+
+
+def live_btn(sport, slug, kickoff, a, b):
+    if not slug:
+        return ""
+    d = kickoff[:10].replace("-", "")
+    return (f'<button class="livebtn" data-sport="{sport}" data-slug="{esc(slug)}" '
+            f'data-date="{d}" data-a="{esc(a)}" data-b="{esc(b)}">📡 Live-Status</button>')
+
+
 def match_card(m, league):
     pred = m.get("prediction")
     h2h_html = ""
@@ -162,9 +175,11 @@ def match_card(m, league):
         md = f'<span class="muted tiny">{esc(m["roundName"])}</span>'
     else:
         md = ""
+    cid = card_id(league["id"], m["kickoff"], m["home"], m["away"])
+    lb = live_btn("fb", league.get("espn"), m["kickoff"], m["home"], m["away"])
     return f"""
-  <article class="card">
-    <div class="cardtop"><span class="ko">{fmt_time(m["kickoff"])} Uhr</span>{md}</div>
+  <article class="card" id="{cid}">
+    <div class="cardtop"><span class="ko">{fmt_time(m["kickoff"])} Uhr</span>{md}{lb}</div>
     <div class="teams">
       <div class="team">
         <span class="tname">{esc(m["home"])}</span>
@@ -251,10 +266,12 @@ def tennis_card(m):
             odds_html += (f'<div class="value-note">💡 Modell sieht <b>{esc(v["name"])}</b> bei Quote '
                           f'{de_num(v["odds"], 2)} um <b>+{round(v["edge"]*100)} Prozentpunkte</b> '
                           f'wahrscheinlicher als der Markt.</div>')
+    cid = card_id(m["tour"], m["start"], m["p1"]["name"], m["p2"]["name"])
+    lb = "" if (m.get("doubles") or m["tour"] == "Challenger") else         live_btn("tn", m["tour"].lower(), m["start"], m["p1"]["name"], m["p2"]["name"])
     return f"""
-  <article class="card">
+  <article class="card" id="{cid}">
     <div class="cardtop"><span class="ko">{ko}</span>
-      <span class="muted tiny">{esc(m["tournament"])}{rnd}{surf_chip}</span></div>
+      <span class="muted tiny">{esc(m["tournament"])}{rnd}{surf_chip}</span>{lb}</div>
     {unc}
     <div class="teams">
       <div class="team"><span class="tname">{esc(m["p1"]["name"])}</span><span class="tmeta">{r1}</span>{surf1}{fav1}</div>
@@ -413,6 +430,7 @@ def build(data_path=None, out_path=None):
                 "when": m["kickoff"], "comp": f'{lg["flag"]} {lg["name"]}',
                 "label": f'{m["home"]} – {m["away"]}', "tip": tip,
                 "modelP": v["modelP"], "odds": v["odds"], "edge": v["edge"],
+                "cid": card_id(lg["id"], m["kickoff"], m["home"], m["away"]),
             })
     for t in data["tennis"]:
         v = t.get("value")
@@ -423,6 +441,7 @@ def build(data_path=None, out_path=None):
             "label": f'{t["p1"]["name"]} – {t["p2"]["name"]}',
             "tip": esc(v["name"]), "modelP": v["modelP"], "odds": v["odds"],
             "edge": v["edge"],
+            "cid": card_id(t["tour"], t["start"], t["p1"]["name"], t["p2"]["name"]),
         })
     value_rows.sort(key=lambda r: -r["edge"])
     value_html = ""
@@ -431,7 +450,13 @@ def build(data_path=None, out_path=None):
         for r in value_rows[:30]:
             dt = datetime.fromisoformat(r["when"])
             imp = 1.0 / r["odds"] if r["odds"] else 0
-            rows += (f'<tr><td>{dt.day:02d}.{dt.month:02d}. {dt:%H:%M}</td>'
+            try:
+                day_idx = data["days"].index(r["when"][:10])
+            except ValueError:
+                day_idx = 0
+            rows += (f'<tr class="vrow" data-day="{day_idx}" data-cid="{r["cid"]}" '
+                     f'title="Zur Analyse springen">'
+                     f'<td>{dt.day:02d}.{dt.month:02d}. {dt:%H:%M}</td>'
                      f'<td>{r["comp"]}</td><td>{esc(r["label"])}</td>'
                      f'<td><b>{r["tip"]}</b></td>'
                      f'<td class="num">{round(r["modelP"]*100)}%</td>'
@@ -578,6 +603,11 @@ footer summary {{ cursor:pointer; }}
 .tunit {{ font-size:16px; font-weight:600; color:var(--ink2); }}
 .tlab {{ font-size:12.5px; color:var(--ink2); margin-top:2px; font-weight:600; }}
 .tsub {{ font-size:11.5px; color:var(--muted); margin-top:1px; }}
+.livebtn {{ margin-left:auto; background:none; border:1px solid var(--border); border-radius:7px;
+  padding:2px 8px; font:inherit; font-size:11px; color:var(--ink2); cursor:pointer; }}
+.vrow {{ cursor:pointer; }}
+.vrow:hover td {{ background:var(--page); }}
+.card.flash {{ outline:2px solid var(--accent); transition:outline .3s; }}
 .scorers {{ font-size:12px; color:var(--ink2); margin-top:8px; line-height:1.5; }}
 </style>
 </head>
@@ -620,6 +650,9 @@ footer summary {{ cursor:pointer; }}
   <a href="http://www.tennis-data.co.uk">tennis-data.co.uk</a> (Tennis-Historie: Belag, H2H),
   TheSportsDB (Tennis-Ergänzung). Privates, nicht-kommerzielles Projekt.
   Automatisches Update: täglich.</div>
+  <div style="margin-bottom:8px"><a href="https://github.com/BLSports/blsports.github.io/actions/workflows/update.yml"
+    target="_blank">🔁 Komplett-Update jetzt anstoßen</a> <span class="tiny">(nur Betreiber:
+    dort „Run workflow" klicken – alle Analysen werden in ~8 Min. neu berechnet)</span></div>
   <div class="disclaimer">Dieses Dashboard ist ein privates Statistik-Projekt und keine
   Wettempfehlung. Quoten dienen nur dem Vergleich mit dem Modell. Glücksspiel kann süchtig
   machen (18+) – Hilfe: <a href="https://www.bundesweit-gegen-gluecksspielsucht.de">bundesweit-gegen-gluecksspielsucht.de</a>.</div>
@@ -640,6 +673,48 @@ fetch('https://raw.githubusercontent.com/BLSports/blsports.github.io/main/data/d
       document.querySelector('header').insertBefore(b, document.querySelector('.tabs'));
     }}
   }}).catch(() => {{}});
+// Value-Zeile -> zur Analyse-Karte springen
+document.querySelectorAll('.vrow').forEach(r => r.addEventListener('click', () => {{
+  const tab = document.querySelector('.tab[data-day="' + r.dataset.day + '"]');
+  if (tab) tab.click();
+  const el = document.getElementById(r.dataset.cid);
+  if (el) {{
+    const sec = el.closest('details.league');
+    if (sec) sec.setAttribute('open', '');
+    el.scrollIntoView({{behavior: 'smooth', block: 'center'}});
+    el.classList.add('flash');
+    setTimeout(() => el.classList.remove('flash'), 3000);
+  }}
+}}));
+// Live-Status je Spiel (direkt von ESPN, jederzeit aktuell)
+document.querySelectorAll('.livebtn').forEach(btn => btn.addEventListener('click', async e => {{
+  e.stopPropagation();
+  const s = btn.dataset;
+  const base = s.sport === 'fb' ? 'soccer/' + s.slug : 'tennis/' + s.slug;
+  btn.textContent = '⏳…';
+  try {{
+    const r = await fetch('https://site.api.espn.com/apis/site/v2/sports/' + base +
+                          '/scoreboard?dates=' + s.date, {{cache: 'no-store'}});
+    const d = await r.json();
+    const la = s.a.toLowerCase().split(' ').pop(), lb = s.b.toLowerCase().split(' ').pop();
+    let hit = null;
+    for (const ev of (d.events || [])) {{
+      const comps = [...(ev.competitions || [])];
+      (ev.groupings || []).forEach(g => comps.push(...(g.competitions || [])));
+      for (const c of comps) {{
+        const txt = JSON.stringify(c.competitors || []).toLowerCase();
+        if (txt.includes(la) && txt.includes(lb)) {{ hit = c; break; }}
+      }}
+      if (hit) break;
+    }}
+    if (!hit) {{ btn.textContent = '📡 kein Live-Eintrag'; return; }}
+    const st = (hit.status && hit.status.type &&
+                (hit.status.type.shortDetail || hit.status.type.description)) || '?';
+    let sc = (hit.competitors || []).map(c => c.score != null ? c.score : '').join(':');
+    if (sc === ':' || sc === '') sc = '';
+    btn.textContent = '📡 ' + st + (sc ? ' · ' + sc : '');
+  }} catch (err) {{ btn.textContent = '📡 nicht abrufbar'; }}
+}}));
 document.querySelectorAll('.tab').forEach(t => t.addEventListener('click', () => {{
   document.querySelectorAll('.tab').forEach(x => x.classList.remove('active'));
   document.querySelectorAll('.daypanel').forEach(x => x.classList.remove('active'));
