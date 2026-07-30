@@ -6630,9 +6630,9 @@
    "tip": "P1",
    "tipName": "Anna Kalinskaya",
    "prob": 0.7898,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-07-30|frech m|pegula j": {
    "sport": "tn",
@@ -6644,9 +6644,9 @@
    "tip": "P2",
    "tipName": "Jessica Pegula",
    "prob": 0.9199,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-07-30|mcnally c|yexin m": {
    "sport": "tn",
@@ -6658,9 +6658,9 @@
    "tip": "P1",
    "tipName": "Catherine McNally",
    "prob": 0.7401,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-07-30|prozorova t|stearns p": {
    "sport": "tn",
@@ -6854,7 +6854,7 @@
    "awayKey": "grazer ak",
    "tip": "1",
    "tipName": "LASK Linz",
-   "prob": 0.5397,
+   "prob": 0.5398,
    "tipScore": "1:1",
    "pOver25": 0.6264,
    "status": "open",
@@ -6980,9 +6980,9 @@
    "awayKey": "athletico-pr",
    "tip": "2",
    "tipName": "Athletico-PR",
-   "prob": 0.3546,
+   "prob": 0.3547,
    "tipScore": "0:0",
-   "pOver25": 0.3121,
+   "pOver25": 0.312,
    "status": "open",
    "result": null,
    "correct": null,
@@ -8114,9 +8114,9 @@
    "awayKey": "sk sturm graz",
    "tip": "2",
    "tipName": "SK Sturm Graz",
-   "prob": 0.5656,
+   "prob": 0.5657,
    "tipScore": "0:1",
-   "pOver25": 0.5336,
+   "pOver25": 0.5335,
    "status": "open",
    "result": null,
    "correct": null,
@@ -8150,7 +8150,7 @@
    "awayKey": "tsv hartberg",
    "tip": "1",
    "tipName": "RB Salzburg",
-   "prob": 0.5097,
+   "prob": 0.5098,
    "tipScore": "1:1",
    "pOver25": 0.517,
    "status": "open",
@@ -8276,7 +8276,7 @@
    "awayKey": "toronto fc",
    "tip": "1",
    "tipName": "New York City FC",
-   "prob": 0.6189,
+   "prob": 0.6188,
    "tipScore": "1:0",
    "pOver25": 0.5487,
    "status": "open",
@@ -8398,9 +8398,9 @@
    "tip": "P1",
    "tipName": "Mananchaya Sawangkaew",
    "prob": 0.5913,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-07-30|hontama m|sakatsume h": {
    "sport": "tn",
@@ -8412,9 +8412,9 @@
    "tip": "P1",
    "tipName": "Himeno Sakatsume",
    "prob": 0.6017,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-07-30|inglis m|uchijima m": {
    "sport": "tn",
@@ -8426,9 +8426,9 @@
    "tip": "P1",
    "tipName": "Maddison Inglis",
    "prob": 0.5882,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-07-30|dart h|preston t": {
    "sport": "tn",
@@ -8664,6 +8664,48 @@
    "tip": "P2",
    "tipName": "Alex de Minaur",
    "prob": 0.7141,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-07-31|hontama m|inglis m": {
+   "sport": "tn",
+   "comp": "WTA · Odlum Brown VanOpen",
+   "date": "2026-07-31",
+   "label": "Mai Hontama – Maddison Inglis",
+   "p1Key": "hontama m",
+   "p2Key": "inglis m",
+   "tip": "P2",
+   "tipName": "Maddison Inglis",
+   "prob": 0.555,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-07-31|kalinskaya a|pegula j": {
+   "sport": "tn",
+   "comp": "WTA · Mubadala DC Open",
+   "date": "2026-07-31",
+   "label": "Anna Kalinskaya – Jessica Pegula",
+   "p1Key": "kalinskaya a",
+   "p2Key": "pegula j",
+   "tip": "P2",
+   "tipName": "Jessica Pegula",
+   "prob": 0.8042,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-07-31|liutova k|mcnally c": {
+   "sport": "tn",
+   "comp": "WTA · The Memphis Classic",
+   "date": "2026-07-31",
+   "label": "Catherine McNally – Kristina Liutova",
+   "p1Key": "mcnally c",
+   "p2Key": "liutova k",
+   "tip": "P1",
+   "tipName": "Catherine McNally",
+   "prob": 0.7255,
    "status": "open",
    "result": null,
    "correct": null
