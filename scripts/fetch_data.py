@@ -1202,6 +1202,10 @@ def espn_tennis_results(tour, day):
             gname = ((g.get("grouping") or {}).get("displayName", "")).lower()
             if "doubles" in gname:
                 continue
+            # Kombinierte Turniere: nur Matches der passenden Tour uebernehmen
+            gender = "W" if "women" in gname else ("M" if "men" in gname else None)
+            if (tour == "atp" and gender == "W") or (tour == "wta" and gender == "M"):
+                continue
             comps.extend(g.get("competitions", []))
         if not groupings:
             comps = ev.get("competitions", [])

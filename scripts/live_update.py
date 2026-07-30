@@ -155,6 +155,7 @@ def main():
     # Tennis: laufende Matches via ESPN (nur Anzeige, kein In-Play-Modell)
     try:
         from urllib.request import Request, urlopen
+        seen_pairs = set()
         for tour in ("atp", "wta"):
             url = (f"https://site.api.espn.com/apis/site/v2/sports/tennis/{tour}/scoreboard")
             with urlopen(Request(url, headers={"User-Agent": "Mozilla/5.0"}), timeout=20) as r:
@@ -164,6 +165,11 @@ def main():
                 for g in (ev.get("groupings") or []):
                     gname = ((g.get("grouping") or {}).get("displayName", "")).lower()
                     if "doubles" in gname:
+                        continue
+                    # Kombinierte Turniere (z.B. DC Open): der WTA-Feed enthaelt
+                    # auch Herren-Matches (und umgekehrt) - nur passende Tour zeigen
+                    gender = "W" if "women" in gname else ("M" if "men" in gname else None)
+                    if (tour == "atp" and gender == "W") or (tour == "wta" and gender == "M"):
                         continue
                     comps.extend(g.get("competitions") or [])
                 if not ev.get("groupings"):
@@ -180,6 +186,10 @@ def main():
                                 for ls in (comp.get("linescores") or [])]
                         scores.append("-".join(sets) if sets else "")
                     if len(names) == 2:
+                        pk = frozenset(n.lower() for n in names)
+                        if pk in seen_pairs:
+                            continue  # gleiches Match aus beiden Feeds nur 1x
+                        seen_pairs.add(pk)
                         out["tennis"].append({
                             "tour": tour.upper(),
                             "tournament": ev.get("name", ""),
