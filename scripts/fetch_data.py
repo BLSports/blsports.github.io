@@ -1954,7 +1954,21 @@ def main():
         loc_map[tour_key] = lm
         name_map[tour_key] = nm2
 
+    ms_surface = {}
+    if premium and premium.TENNIS_ENABLED:
+        try:
+            ms_surface = premium.tennis_surface_map(TODAY.isoformat())
+        except Exception as e:
+            print(f"  WARN surface-map: {e}", file=sys.stderr)
+
     def tournament_surface(tour_key, name):
+        # Praezise Quelle zuerst: MatchStat kennt den Belag jedes Turniers
+        nl = (name or "").strip().lower()
+        if nl in ms_surface:
+            return ms_surface[nl]
+        for k, surf in ms_surface.items():
+            if len(k) >= 6 and (k in nl or nl in k):
+                return surf
         t = norm_player(name)
         tours = (tour_key, "ATP" if tour_key == "WTA" else "WTA")
         # 1) Ort als ganzes Wort im ESPN-Turniernamen (z.B. "gstaad", "umag")

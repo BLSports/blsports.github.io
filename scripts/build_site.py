@@ -330,9 +330,13 @@ def build(data_path=None, out_path=None):
             tour_label = "Challenger" if tour == "Challenger" else esc(tour)
             open_attr = " open" if idx_open < 1 else ""
             idx_open += 1
+            srf = next((x.get("surface") for x in ms if x.get("surface")), None)
+            srf_lbl = {"Sand": "🟠 Sand", "Hartplatz": "🔵 Hartplatz",
+                       "Rasen": "🟢 Rasen", "Teppich": "Teppich"}.get(srf, srf)
+            srf_html = f' · <b>{esc(srf_lbl)}</b>' if srf else ""
             tn_sections.append(
                 f'<details class="league" data-cat="tennis" data-lg="{esc(tour.lower())}"{open_attr}>'
-                f'<summary><h2>{icon} {tour_label} · {esc(tournament)} '
+                f'<summary><h2>{icon} {tour_label} · {esc(tournament)}{srf_html} '
                 f'<span class="muted tiny">({len(ms)} Matches)</span></h2></summary>'
                 f'<div class="grid">{cards}</div></details>')
 

@@ -218,6 +218,24 @@ def tennis_fixtures_day(tour, day_iso):
     return _rows(d)
 
 
+def tennis_surface_map(day_iso):
+    """Turniername -> Belag (englisch) aus den MatchStat-Fixtures des Tages."""
+    out = {}
+    for tour in ("atp", "wta"):
+        for fx in tennis_fixtures_day(tour, day_iso):
+            try:
+                t = fx.get("tournament") or {}
+                name = (t.get("name") or "").strip().lower()
+                cid = (t.get("court") or {}).get("id")
+                if name and cid in COURT_SURFACE:
+                    out[name] = COURT_SURFACE[cid]
+            except (KeyError, TypeError, AttributeError):
+                continue
+    if out:
+        print(f"  Belag-Zuordnung (MatchStat): {len(out)} Turniere")
+    return out
+
+
 def tennis_h2h_info(tour, p1_id, p2_id):
     return tennis_get(f"/tennis/v2/{tour}/h2h/info/{p1_id}/{p2_id}")
 
