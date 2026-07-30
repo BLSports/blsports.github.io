@@ -2,8 +2,8 @@ name: Live-Ticker
 
 on:
   schedule:
-    # alle 15 Minuten zwischen 11:00 und 23:45 UTC (13:00-01:45 deutscher Zeit)
-    - cron: "*/15 11-23 * * *"
+    # alle 15 Minuten, rund um die Uhr (US-Turniere laufen bis in den Morgen)
+    - cron: "*/15 * * * *"
   workflow_dispatch: {}
 
 permissions:

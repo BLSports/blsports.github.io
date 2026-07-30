@@ -632,6 +632,8 @@ footer summary {{ cursor:pointer; }}
     <button class="flt" data-f="fussball">⚽ Fußball</button>
     <button class="flt" data-f="tennis">🎾 Tennis</button>
     <button class="flt" onclick="document.getElementById('valuebets')?.scrollIntoView({{behavior:'smooth'}})">💎 Value-Bets</button>
+    <button class="flt" title="Alle Analysen neu berechnen (GitHub-Login nötig, dort ‚Run workflow' klicken)"
+      onclick="window.open('https://github.com/BLSports/blsports.github.io/actions/workflows/update.yml','_blank')">🔁 Update starten</button>
   </div>
 </header>
 <main>
@@ -692,6 +694,9 @@ async function ladeLive() {{
     const d = await r.json();
     const box = document.getElementById('livebox');
     const body = document.getElementById('livebody');
+    // Veraltete Live-Daten nie als "laufend" anzeigen (Ticker-Stand aelter als 40 Min.)
+    const alterMin = (Date.now() - new Date(d.updated).getTime()) / 60000;
+    if (!d.updated || alterMin > 40) {{ box.style.display = 'none'; return; }}
     const rows = [];
     for (const m of (d.football || [])) {{
       let odds = m.odds ? ` <span class="chip"><b>1</b> ${{m.odds.h.toFixed(2)}}</span>` +
