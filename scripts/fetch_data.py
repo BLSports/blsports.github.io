@@ -595,6 +595,34 @@ def team_form(results, team, n=5):
     return played[-n:]
 
 
+def team_form_venue(results, team, venue, n=5):
+    """Form nur aus Heim- bzw. Auswaertsspielen (S/U/N, aeltestes zuerst)."""
+    n_t = norm_team(team)
+    played = []
+    for r in sorted(results, key=lambda x: x["date"]):
+        h, a = norm_team(r["home"]), norm_team(r["away"])
+        if venue == "home" and team_match(n_t, h):
+            played.append("S" if r["hg"] > r["ag"] else ("U" if r["hg"] == r["ag"] else "N"))
+        elif venue == "away" and team_match(n_t, a):
+            played.append("S" if r["ag"] > r["hg"] else ("U" if r["hg"] == r["ag"] else "N"))
+    return played[-n:]
+
+
+def team_load14(results, team):
+    """Liga-Pflichtspiele der letzten 14 Tage (Belastung / englische Wochen)."""
+    n_t = norm_team(team)
+    cutoff = NOW - timedelta(days=14)
+    cnt = 0
+    for r in results:
+        d = r["date"]
+        if d.tzinfo is None:
+            d = d.replace(tzinfo=TZ)
+        if d >= cutoff and (team_match(n_t, norm_team(r["home"]))
+                            or team_match(n_t, norm_team(r["away"]))):
+            cnt += 1
+    return cnt
+
+
 def compute_table(results, season_start):
     table = {}
     for r in results:
@@ -1118,6 +1146,31 @@ def sack_last_rank(rows, player, max_age_days=400):
         return None
 
 
+def sack_rank_at(rows, player, days_ago=365, window=75):
+    """Weltranglisten-Position vor ~x Tagen (aus den Matchdaten, +/- Fenster)."""
+    p = player_key(player)
+    if not p:
+        return None
+    target = int((NOW - timedelta(days=days_ago)).strftime("%Y%m%d"))
+    lo = (NOW - timedelta(days=days_ago + window)).strftime("%Y%m%d")
+    hi = (NOW - timedelta(days=days_ago - window)).strftime("%Y%m%d")
+    best = (None, None)  # (rank, abstand)
+    for r in rows:
+        if not (lo <= r["date"] <= hi):
+            continue
+        rk = r["wrank"] if r["w"] == p else (r["lrank"] if r["l"] == p else None)
+        if not rk:
+            continue
+        try:
+            rk = int(float(rk))
+        except (ValueError, TypeError):
+            continue
+        dist = abs(int(r["date"]) - target)
+        if best[1] is None or dist < best[1]:
+            best = (rk, dist)
+    return best[0]
+
+
 def espn_tennis_results(tour, day):
     """Beendete Einzel-Matches eines Tages: [(spieler-paar, gewinner-key)]."""
     data = http_get(f"https://site.api.espn.com/apis/site/v2/sports/tennis/{tour}/scoreboard?dates={day:%Y%m%d}")
@@ -1344,7 +1397,8 @@ def espn_rankings(tour):
     return by_id, by_name
 
 
-def tennis_text(p1, p2, r1, r2, p1win, surf_de, s1, s2, h2h, comp=None, f1=None, f2=None):
+def tennis_text(p1, p2, r1, r2, p1win, surf_de, s1, s2, h2h, comp=None, f1=None, f2=None,
+                trend1=None, trend2=None, opp1=None, opp2=None, bo5=False):
     """Deterministischer deutscher Analysetext fuer ein Tennis-Match."""
     parts = []
     comp = comp or {}
@@ -1356,6 +1410,16 @@ def tennis_text(p1, p2, r1, r2, p1win, surf_de, s1, s2, h2h, comp=None, f1=None,
         parts.append(f"{p1} – aktuell ohne Top-Ranking – trifft auf {p2} (#{r2}).")
     else:
         parts.append(f"{p1} trifft auf {p2}; für beide liegt kein aktuelles Top-Ranking vor.")
+    # Ranking-Entwicklung ueber ~12 Monate (aus den Matchdaten)
+    for nm, r_now, r_old in ((p1, r1, trend1), (p2, r2, trend2)):
+        if not (r_now and r_old):
+            continue
+        if r_old >= r_now * 1.5 and r_old - r_now >= 15:
+            parts.append(f"{nm} befindet sich im Aufwind: vor rund einem Jahr noch um "
+                         f"Platz {r_old}, inzwischen #{r_now}.")
+        elif r_now >= r_old * 1.5 and r_now - r_old >= 15:
+            parts.append(f"{nm} hat über die letzten zwölf Monate deutlich an Boden verloren "
+                         f"(von etwa Platz {r_old} auf #{r_now}).")
     # Form (letzte 5 Matches)
     if f1 and f2 and (len(f1) >= 3 and len(f2) >= 3):
         s1w, s2w = f1.count("S"), f2.count("S")
@@ -1365,6 +1429,11 @@ def tennis_text(p1, p2, r1, r2, p1win, surf_de, s1, s2, h2h, comp=None, f1=None,
         elif s2w - s1w >= 2:
             parts.append(f"Die aktuelle Form spricht für {p2}: {s2w} Siege aus den letzten "
                          f"{len(f2)} Matches, {p1} holte nur {s1w}.")
+    # Gegnerqualitaet der juengsten Matches (Form ist nicht gleich Form)
+    if opp1 and opp2 and abs(opp1 - opp2) >= 60:
+        stronger = p1 if opp1 > opp2 else p2
+        parts.append(f"Wichtiger Formkontext: {stronger} spielte zuletzt gegen das deutlich "
+                     f"stärkere Gegnerfeld (Ø-Elo {max(opp1, opp2)} vs. {min(opp1, opp2)}).")
     if surf_de:
         b1 = s1.get("bilanz")
         b2 = s2.get("bilanz")
@@ -1419,6 +1488,10 @@ def tennis_text(p1, p2, r1, r2, p1win, surf_de, s1, s2, h2h, comp=None, f1=None,
         else:
             parts.append(f"Mangels ausreichender Match-Historie stützt sich die Einschätzung "
                          f"auf die Weltrangliste: {fav} mit {pct} % vorn.")
+        if bo5:
+            parts.append("Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere "
+                         "Format begünstigt statistisch den stärkeren Spieler, die "
+                         "Wahrscheinlichkeit ist entsprechend umgerechnet.")
     return " ".join(parts)
 
 
@@ -1460,6 +1533,24 @@ def football_text(home, away, m):
         elif sa - sh >= 2:
             parts.append(f"Die Form spricht für {away}: {sa} Siege aus den letzten {len(fa)} Spielen, "
                          f"{home} holte nur {sh}.")
+    # Heim-/Auswaertsstaerke getrennt (aussagekraeftiger als die Gesamtform)
+    fhh, faa = m.get("formHomeH") or [], m.get("formAwayA") or []
+    if len(fhh) >= 3 and len(faa) >= 3:
+        shh, saa = fhh.count("S"), faa.count("S")
+        parts.append(f"Heim-/Auswärtsbilanz: {home} gewann {shh} der letzten {len(fhh)} Heimspiele, "
+                     f"{away} {saa} der letzten {len(faa)} Auswärtsspiele.")
+    # Belastung (englische Wochen)
+    l14h, l14a = m.get("load14Home"), m.get("load14Away")
+    if l14h is not None and l14a is not None:
+        busy = []
+        if l14h >= 4:
+            busy.append(f"{home} ({l14h} Ligaspiele in 14 Tagen)")
+        if l14a >= 4:
+            busy.append(f"{away} ({l14a} Ligaspiele in 14 Tagen)")
+        if busy:
+            verb = "stecken" if len(busy) > 1 else "steckt"
+            parts.append("Belastung beachten: " + " und ".join(busy) +
+                         f" {verb} mitten in einer englischen Woche.")
     h2h = m.get("h2h") or []
     if h2h:
         parts.append(f"Das letzte Duell ({h2h[0]['date'][-4:]}) endete {h2h[0]['score']} "
@@ -1486,6 +1577,38 @@ def football_text(home, away, m):
         parts.append(f"Quoten-Hinweis: Das Modell hält Tipp {v['outcome']} (Quote {q}) für "
                      f"{round(v['edge']*100)} Prozentpunkte wahrscheinlicher als der Markt.")
     return " ".join(parts)
+
+
+def football_basis(m, n_results):
+    """Transparenz-Fusszeile: welche Daten flossen ein, was fehlt (Analysten-Regel:
+    fehlende Faktoren offen benennen statt sie zu erfinden)."""
+    src = []
+    if m.get("prediction"):
+        if m["prediction"].get("confidence"):  # Team-Historie-Fallback
+            src.append("Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe)")
+        else:
+            src.append(f"Poisson-Modell aus {n_results} Liga-Ergebnissen (zeitgewichtet)")
+    if m.get("formHomeH") or m.get("formAwayA"):
+        src.append("Heim/Auswärts-Form")
+    if m.get("posHome"):
+        src.append("Tabelle")
+    if m.get("injuriesHome") or m.get("injuriesAway"):
+        src.append("Verletztenliste")
+    if m.get("lineups"):
+        src.append("offizielle Aufstellungen")
+    if m.get("odds"):
+        src.append("Quoten (nur Vergleich, kein Modell-Input)")
+    miss = ["xG-Detaildaten", "Trainerwechsel/Motivation", "Saisonziele"]
+    if not m.get("lineups"):
+        miss.insert(0, "Aufstellungen (erst ~1 h vor Anpfiff)")
+    if not (m.get("injuriesHome") or m.get("injuriesAway")):
+        miss.insert(0, "bestätigte Ausfälle")
+    txt = ""
+    if src:
+        txt = "Datenbasis: " + ", ".join(src) + "."
+    txt += " Nicht in den Zahlen enthalten: " + ", ".join(miss) + \
+           " – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    return txt.strip()
 
 
 def scorers_openligadb(shortcut, year):
@@ -1645,6 +1768,24 @@ def tennis_predict_v2(elo_all, elo_surf, surface, p1, p2, r1, r2, h2h):
     return round(w * p_elo + (1 - w) * p_rank, 4), comp
 
 
+def bo5_adjust(p):
+    """Rechnet eine Best-of-3-Siegwahrscheinlichkeit auf Best-of-5 um.
+    Mathematisch sauber ueber die implizite Satz-Gewinnwahrscheinlichkeit s:
+    Bo3: p = s^2*(3-2s)  ->  Bo5: p = s^3*(10-15s+6s^2).
+    Das laengere Format beguenstigt den staerkeren Spieler."""
+    if p is None:
+        return None
+    lo, hi = 0.0, 1.0
+    for _ in range(50):
+        mid = (lo + hi) / 2.0
+        if mid * mid * (3 - 2 * mid) < p:
+            lo = mid
+        else:
+            hi = mid
+    s = (lo + hi) / 2.0
+    return round(s ** 3 * (10 - 15 * s + 6 * s * s), 4)
+
+
 def tennis_form(rows, player, n=5):
     """Letzte n Einzel-Ergebnisse als S/N-Kette (aeltestes zuerst)."""
     p = player_key(player)
@@ -1659,6 +1800,28 @@ def tennis_form(rows, player, n=5):
         elif r["l"] == p:
             played.append("N")
     return played[-n:]
+
+
+def form_opp_elo(rows, player, elo_all, n=5):
+    """Durchschnittliche Elo-Staerke der letzten n Gegner (Formkontext:
+    Siege gegen starke Gegner zaehlen mehr als Siege gegen schwache)."""
+    p = player_key(player)
+    if not p:
+        return None
+    opps = []
+    for r in sorted(rows, key=lambda x: x["date"]):
+        if r["w"] == p:
+            opps.append(r["l"])
+        elif r["l"] == p:
+            opps.append(r["w"])
+    elos = []
+    for o in opps[-n:]:
+        e = elo_all.get(o)
+        if e and e[0] is not None and e[1] >= 3:
+            elos.append(e[0])
+    if len(elos) >= 3:
+        return round(sum(elos) / len(elos))
+    return None
 
 
 # ----------------------------------------------------------------------------
@@ -1791,6 +1954,10 @@ def main():
                 "roundName": m.get("roundName"),
                 "formHome": team_form(results, m["home"]),
                 "formAway": team_form(results, m["away"]),
+                "formHomeH": team_form_venue(results, m["home"], "home"),
+                "formAwayA": team_form_venue(results, m["away"], "away"),
+                "load14Home": team_load14(results, m["home"]),
+                "load14Away": team_load14(results, m["away"]),
                 "posHome": table_pos(table, m["home"]),
                 "posAway": table_pos(table, m["away"]),
                 "nTeams": n_teams if n_teams else None,
@@ -1866,7 +2033,7 @@ def main():
                                               "odds": [m_out["odds"]["h"], m_out["odds"]["d"],
                                                        m_out["odds"]["a"]][best]}
                 # Analysetext neu erzeugen (inkl. Personal-Hinweis wiederherstellen)
-                m_out["analysis"] = football_text(m_out["home"], m_out["away"], m_out) +                     " (Datenbasis: letzte Spiele beider Teams aus allen Wettbewerben, API-Football.)"
+                m_out["analysis"] = football_text(m_out["home"], m_out["away"], m_out)
                 bits = []
                 if m_out.get("injuriesHome"):
                     bits.append(f'{m_out["home"]} fehlen {len(m_out["injuriesHome"])} Spieler '
@@ -1879,6 +2046,9 @@ def main():
                 n_fb += 1
             if n_fb:
                 print(f"  {n_fb} Prognosen via Team-Historie-Fallback erstellt")
+        # Transparenz-Fusszeile (nach Anreicherung, damit Verletzte/Quoten bekannt sind)
+        for m_out in matches_out:
+            m_out["basis"] = football_basis(m_out, len(results))
         results_by_league[lg["id"]] = results
         if not matches_out and first_future:
             league_out["nextMatch"] = {
@@ -2065,22 +2235,35 @@ def main():
             elo_all, elo_surf = elo.get(m["tour"], ({}, {}))
             p1win, comp = tennis_predict_v2(elo_all, elo_surf, surf, n1, n2, r1, r2, h2h)
             f1, f2 = tennis_form(rows, n1), tennis_form(rows, n2)
+            # 12-Monats-Ranking-Trend + Gegnerqualitaet der juengsten Form
+            trend1, trend2 = sack_rank_at(rows, n1), sack_rank_at(rows, n2)
+            opp1, opp2 = form_opp_elo(rows, n1, elo_all), form_opp_elo(rows, n2, elo_all)
+            # Grand Slams (ATP) werden ueber Best-of-5 gespielt -> Favorit profitiert
+            slam = any(g in (m["tournament"] or "").lower() for g in
+                       ("australian open", "french open", "roland garros",
+                        "wimbledon", "us open"))
+            bo5 = slam and m["tour"] == "ATP"
+            if bo5 and p1win is not None:
+                p1win = bo5_adjust(p1win)
+                comp["bo5"] = True
             tennis_out.append({
                 "start": m["dt"].isoformat(),
                 "tour": m["tour"], "tournament": m["tournament"],
                 "round": rnd,
                 "surface": surf_de,
                 "p1": {"name": n1, "rank": r1, "form": f1,
-                       "elo": comp.get("elo1"),
+                       "elo": comp.get("elo1"), "rankYearAgo": trend1, "oppElo": opp1,
                        "onSurface": s1["bilanz"], "favSurface": s1["fav"]},
                 "p2": {"name": n2, "rank": r2, "form": f2,
-                       "elo": comp.get("elo2"),
+                       "elo": comp.get("elo2"), "rankYearAgo": trend2, "oppElo": opp2,
                        "onSurface": s2["bilanz"], "favSurface": s2["fav"]},
                 "pP1": p1win,
                 "model": comp,
                 "h2h": h2h,
                 "analysis": tennis_text(n1, n2, r1, r2, p1win, surf_de, s1, s2, h2h,
-                                        comp=comp, f1=f1, f2=f2),
+                                        comp=comp, f1=f1, f2=f2,
+                                        trend1=trend1, trend2=trend2,
+                                        opp1=opp1, opp2=opp2, bo5=bo5),
                 "unconfirmed": m.get("src") == "tsdb",
                 "timeTBD": bool(m.get("timeTBD")),
             })
@@ -2144,7 +2327,7 @@ def main():
     print(f"  {len(tennis_out)} Tennis-Matches in den naechsten {DAYS_AHEAD} Tagen")
 
     # Heute bereits gespielte Matches (fuer die Tagesansicht) + Wochenbelastung
-    finished_today, load7 = [], {}
+    finished_today, load7, sets7 = [], {}, {}
     seen_matches = set()
     for i in range(7):
         dd = TODAY - timedelta(days=i)
@@ -2161,8 +2344,10 @@ def main():
                     continue
                 if mdd > TODAY or (TODAY - mdd).days > 7:
                     continue
+                n_sets = len((r.get("score") or "").split())
                 for k in r["pair"]:
                     load7[k] = load7.get(k, 0) + 1
+                    sets7[k] = sets7.get(k, 0) + n_sets
                 if mdd == TODAY:
                     finished_today.append({
                         "tour": r["tour"], "tournament": r["tournament"],
@@ -2174,13 +2359,28 @@ def main():
     # Wochenbelastung an anstehende Matches haengen (+ ggf. Hinweis im Text)
     for t in tennis_out:
         for side in ("p1", "p2"):
-            n7 = load7.get(player_key(t[side]["name"]), 0)
-            t[side]["last7"] = n7
+            pk = player_key(t[side]["name"])
+            t[side]["last7"] = load7.get(pk, 0)
+            t[side]["sets7"] = sets7.get(pk, 0)
         for side, other in (("p1", "p2"), ("p2", "p1")):
             if t[side]["last7"] >= 4 and t[side]["last7"] >= t[other]["last7"] + 2:
+                sets_txt = f' und {t[side]["sets7"]} Sätzen' if t[side].get("sets7") else ""
                 t["analysis"] += (f' {t[side]["name"]} hat allerdings eine intensive Woche in den '
-                                  f'Beinen ({t[side]["last7"]} Matches in den letzten 7 Tagen).')
+                                  f'Beinen ({t[side]["last7"]} Matches in den letzten 7 Tagen'
+                                  f'{sets_txt}) – die physische Frische ist ein Fragezeichen.')
                 break
+        # Transparenz-Fusszeile fuer jedes Einzel-Match mit Analyse
+        if t.get("analysis"):
+            src = ["Live-Weltrangliste", "Match-Historie inkl. Belag & H2H (mehrere Saisons)",
+                   "Elo-Formmodell mit Gegnerstärke"]
+            if t["p1"].get("last7") or t["p2"].get("last7"):
+                src.append("Matchbelastung der letzten 7 Tage")
+            if t.get("odds"):
+                src.append("Quoten (nur Vergleich, kein Modell-Input)")
+            t["basis"] = ("Datenbasis: " + ", ".join(src) +
+                          ". Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, "
+                          "Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten "
+                          "entsprechend vorsichtig interpretieren.")
 
     os.makedirs(os.path.join(os.path.dirname(__file__), "..", "data"), exist_ok=True)
     # Tipps protokollieren, Ergebnisse abgleichen, Trefferquote berechnen

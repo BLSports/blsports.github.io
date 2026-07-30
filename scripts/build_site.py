@@ -142,6 +142,8 @@ def match_card(m, league):
                         f'<span class="muted tiny">Heim:</span> {fmt_sc(sc_h)} &nbsp;·&nbsp; '
                         f'<span class="muted tiny">Gast:</span> {fmt_sc(sc_a)}</div>')
     analysis_html = f'<p class="analysis">{esc(m["analysis"])}</p>' if m.get("analysis") else ""
+    if m.get("basis"):
+        analysis_html += f'<p class="basis">{esc(m["basis"])}</p>'
     inj_html = ""
     inj_h, inj_a = m.get("injuriesHome") or [], m.get("injuriesAway") or []
     if inj_h or inj_a:
@@ -249,6 +251,8 @@ def tennis_card(m):
         h2h_html = (f'<details class="h2h"><summary>{label}</summary>'
                     f'<table>{rows}</table></details>')
     analysis_html = f'<p class="analysis">{esc(m["analysis"])}</p>' if m.get("analysis") else ""
+    if m.get("basis"):
+        analysis_html += f'<p class="basis">{esc(m["basis"])}</p>'
     odds_html = ""
     o = m.get("odds")
     if o:
@@ -599,6 +603,7 @@ footer summary {{ cursor:pointer; }}
   padding:4px 8px; margin-bottom:8px; }}
 .analysis {{ font-size:12.5px; color:var(--ink2); background:var(--page); border-radius:8px;
   padding:8px 10px; margin:9px 0 0; line-height:1.5; }}
+.basis {{ font-size:10.5px; color:var(--muted); margin:6px 2px 0; line-height:1.45; }}
 .tiles {{ display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px;
   margin:10px 0; }}
 .tile {{ background:var(--surface); border:1px solid var(--border); border-radius:12px;
