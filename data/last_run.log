@@ -9,22 +9,24 @@
 /tmp/tennisdata/atp_2026.xlsx: OK über http://www.tennis-data.co.uk (277950 Bytes)
 /tmp/tennisdata/wta_2026.xlsx: OK über http://www.tennis-data.co.uk (264884 Bytes)
 total 3812
-drwxr-xr-x  2 runner runner   4096 Jul 30 06:15 .
-drwxrwxrwt 14 root   root    12288 Jul 30 06:15 ..
--rw-r--r--  1 runner runner 417917 Jul 30 06:15 atp_2022.xlsx
--rw-r--r--  1 runner runner 447088 Jul 30 06:15 atp_2023.xlsx
--rw-r--r--  1 runner runner 445729 Jul 30 06:15 atp_2024.xlsx
--rw-r--r--  1 runner runner 426707 Jul 30 06:15 atp_2025.xlsx
--rw-r--r--  1 runner runner 277950 Jul 30 06:15 atp_2026.xlsx
--rw-r--r--  1 runner runner 370069 Jul 30 06:15 wta_2022.xlsx
--rw-r--r--  1 runner runner 407251 Jul 30 06:15 wta_2023.xlsx
--rw-r--r--  1 runner runner 406783 Jul 30 06:15 wta_2024.xlsx
--rw-r--r--  1 runner runner 399398 Jul 30 06:15 wta_2025.xlsx
--rw-r--r--  1 runner runner 264884 Jul 30 06:15 wta_2026.xlsx
+drwxr-xr-x  2 runner runner   4096 Jul 30 07:25 .
+drwxrwxrwt 15 root   root    12288 Jul 30 07:25 ..
+-rw-r--r--  1 runner runner 417917 Jul 30 07:25 atp_2022.xlsx
+-rw-r--r--  1 runner runner 447088 Jul 30 07:25 atp_2023.xlsx
+-rw-r--r--  1 runner runner 445729 Jul 30 07:25 atp_2024.xlsx
+-rw-r--r--  1 runner runner 426707 Jul 30 07:25 atp_2025.xlsx
+-rw-r--r--  1 runner runner 277950 Jul 30 07:25 atp_2026.xlsx
+-rw-r--r--  1 runner runner 370069 Jul 30 07:25 wta_2022.xlsx
+-rw-r--r--  1 runner runner 407251 Jul 30 07:25 wta_2023.xlsx
+-rw-r--r--  1 runner runner 406783 Jul 30 07:25 wta_2024.xlsx
+-rw-r--r--  1 runner runner 399398 Jul 30 07:25 wta_2025.xlsx
+-rw-r--r--  1 runner runner 264884 Jul 30 07:25 wta_2026.xlsx
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/uefa.europa/seasons/2026/types/1/leaders nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/uefa.europa/seasons/2026/types/2/leaders nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/uefa.europa.conf/seasons/2026/types/1/leaders nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/uefa.europa.conf/seasons/2026/types/2/leaders nicht erreichbar (HTTP Error 404: Not Found)
+  WARN api-football /odds: {'rateLimit': 'Too many requests. You have exceeded the limit of requests per minute of your subscription.'}
+  WARN api-football /fixtures: {'rateLimit': 'Too many requests. You have exceeded the limit of requests per minute of your subscription.'}
   WARN: https://www.football-data.co.uk/mmz4281/2627/E0.csv nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://www.football-data.co.uk/mmz4281/2627/I1.csv nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://www.football-data.co.uk/mmz4281/2627/SP1.csv nicht erreichbar (HTTP Error 404: Not Found)
@@ -72,7 +74,7 @@ fixtures.csv: 12 Spiele mit Quoten
 == Conference League ==
   153 Ergebnisse geladen
   42 Spiele in den naechsten 3 Tagen
-  42 Prognosen via Team-Historie-Fallback erstellt
+  41 Prognosen via Team-Historie-Fallback erstellt
 == 1. Bundesliga ==
   306 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
@@ -151,16 +153,17 @@ fixtures.csv: 12 Spiele mit Quoten
   66 Ergebnisse geladen
   2 Spiele in den naechsten 3 Tagen
   1 Prognosen via Team-Historie-Fallback erstellt
-  Kicker-News: 33 Schlagzeilen geladen
+  Kicker-News: 34 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 896, WTA 894
   Historie: ATP 12410 Matches, WTA 11528 Matches
   Elo ATP: 546 Spieler bewertet
   Elo WTA: 572 Spieler bewertet
+  Belag-Zuordnung (MatchStat): 43 Turniere
   Tennis-Quoten zugeordnet: 8
-  53 Tennis-Matches in den naechsten 3 Tagen
-  198 Tennis-Matches heute bereits beendet
-  Tipp-Log: 589 Eintraege, 462 ausgewertet, 280 richtig
-  Premium-Abrufe: Tennis 6, Fussball 370 (Tennis AKTIV, Fussball AKTIV)
+  54 Tennis-Matches in den naechsten 3 Tagen
+  199 Tennis-Matches heute bereits beendet
+  Tipp-Log: 590 Eintraege, 464 ausgewertet, 282 richtig
+  Premium-Abrufe: Tennis 8, Fussball 369 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
