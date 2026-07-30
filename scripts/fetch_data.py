@@ -1153,8 +1153,9 @@ def espn_tennis_results(tour, day):
                 if len(keys) == 2 and winner:
                     score = " ".join(f"{a}:{b}" for a, b in zip(lines[0], lines[1])) \
                         if lines[0] and lines[1] else ""
+                    m_date = (comp.get("date") or ev.get("date") or "")[:10]
                     out.append({"pair": tuple(sorted(keys)), "winner": winner,
-                                "day": day.isoformat(),
+                                "day": day.isoformat(), "matchDate": m_date or day.isoformat(),
                                 "tour": tour.upper(), "tournament": ev.get("name", ""),
                                 "p1": names[0], "p2": names[1],
                                 "winnerName": winner_name, "score": score})
@@ -1276,7 +1277,7 @@ def update_prediction_log(out, results_by_league, log_path):
             e_date = datetime.strptime(e["date"], "%Y-%m-%d").date()
             hit = None
             for r in res_map.get(pair, []):
-                r_day = datetime.strptime(r["day"], "%Y-%m-%d").date()
+                r_day = datetime.strptime(r.get("matchDate") or r["day"], "%Y-%m-%d").date()
                 if abs((r_day - e_date).days) <= 1:
                     hit = r
                     break
@@ -2144,15 +2145,25 @@ def main():
 
     # Heute bereits gespielte Matches (fuer die Tagesansicht) + Wochenbelastung
     finished_today, load7 = [], {}
-    seen_fin = set()
+    seen_matches = set()
     for i in range(7):
         dd = TODAY - timedelta(days=i)
         for tour in ("atp", "wta"):
             for r in espn_tennis_results(tour, dd):
+                md = r.get("matchDate") or r["day"]
+                mkey = (r["pair"], md)
+                if mkey in seen_matches:
+                    continue  # ESPN liefert Turnier-Historie mehrfach - nur 1x zaehlen
+                seen_matches.add(mkey)
+                try:
+                    mdd = datetime.strptime(md, "%Y-%m-%d").date()
+                except ValueError:
+                    continue
+                if mdd > TODAY or (TODAY - mdd).days > 7:
+                    continue
                 for k in r["pair"]:
                     load7[k] = load7.get(k, 0) + 1
-                if i == 0 and r["pair"] not in seen_fin:
-                    seen_fin.add(r["pair"])
+                if mdd == TODAY:
                     finished_today.append({
                         "tour": r["tour"], "tournament": r["tournament"],
                         "p1": r["p1"], "p2": r["p2"],
