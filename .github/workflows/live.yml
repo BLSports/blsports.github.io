@@ -5,6 +5,8 @@ on:
     # alle 15 Minuten, rund um die Uhr (US-Turniere laufen bis in den Morgen)
     - cron: "*/15 * * * *"
   workflow_dispatch: {}
+  push:
+    paths: [".github/workflows/live.yml", "scripts/live_update.py"]
 
 permissions:
   contents: write
