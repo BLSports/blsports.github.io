@@ -137,7 +137,11 @@ def main():
                         imp = [x / s for x in inv]
                         diffs = [p_h - imp[0], p_d - imp[1], p_a - imp[2]]
                         best = max(range(3), key=lambda i: diffs[i])
-                        if diffs[best] >= 0.07:  # hoehere Schwelle in-play
+                        p_best = [p_h, p_d, p_a][best]
+                        o_best = [odds["h"], odds["d"], odds["a"]][best]
+                        # hoehere Schwelle in-play + realistische Eintritts-
+                        # wahrscheinlichkeit + Quoten-Deckel (keine Longshots)
+                        if diffs[best] >= 0.07 and p_best >= 0.30 and o_best <= 4.5:
                             entry["value"] = {
                                 "outcome": ["1", "X", "2"][best],
                                 "name": [home, "Unentschieden", away][best],

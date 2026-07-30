@@ -474,7 +474,9 @@ def build(data_path=None, out_path=None):
         value_html = (
             '<section class="pause" id="valuebets"><h2>💎 Value-Bets '
             f'<span class="muted tiny">({len(value_rows)} Signale · Modell rechnet ohne '
-            'Buchmacher-Quoten; Quoten dienen nur dem Vergleich)</span></h2>'
+            'Buchmacher-Quoten · nur realistische Tipps: Modell-Wahrscheinlichkeit '
+            '&ge;&thinsp;30&thinsp;% (Tennis 38&thinsp;%), Quote gedeckelt, solide Datenlage '
+            'vorausgesetzt)</span></h2>'
             '<table class="pausetable"><thead><tr><th>Anstoß</th><th>Wettbewerb</th>'
             '<th>Partie</th><th>Modell-Tipp</th><th>Modell-W.</th><th>Quote</th>'
             '<th>Markt-W.</th><th>Edge (Pp.)</th></tr></thead>'

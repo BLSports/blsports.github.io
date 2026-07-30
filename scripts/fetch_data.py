@@ -811,6 +811,24 @@ ODDS_API_SPORT_KEYS = {
 }
 
 
+def value_pick(p_model, imp, odds_q, min_p=0.30, max_odds=4.5, min_edge=0.05):
+    """Value-Signal nur, wenn der Tipp realistisch eintreten kann.
+
+    Mindest-Wahrscheinlichkeit + Quoten-Deckel filtern Aussenseiter-Fallen:
+    Gerade bei hohen Quoten ist die eigene Modell-Unsicherheit am groessten
+    (Favorite-Longshot-Bias) - 5 Pp. "Edge" auf eine 15%-Chance sind meist
+    Rauschen, kein Value. Zusaetzlich muss der Vorsprung auch relativ zur
+    Markt-Einschaetzung deutlich sein (mind. +15 %)."""
+    if p_model is None or imp is None or not odds_q:
+        return None
+    edge = p_model - imp
+    if edge < min_edge or p_model < min_p or odds_q > max_odds:
+        return None
+    if imp > 0 and edge / imp < 0.15:
+        return None
+    return round(edge, 4)
+
+
 def implied_probs(o):
     """Normalisierte implizite Wahrscheinlichkeiten aus 1X2-Quoten."""
     try:
@@ -1939,13 +1957,17 @@ def main():
             if odds and pred:
                 imp = implied_probs(odds)
                 if imp:
-                    diffs = [pred["pHome"] - imp[0], pred["pDraw"] - imp[1], pred["pAway"] - imp[2]]
-                    best = max(range(3), key=lambda i: diffs[i])
-                    if diffs[best] >= 0.05:
-                        value = {"outcome": ["1", "X", "2"][best],
-                                 "edge": round(diffs[best], 4),
-                                 "modelP": [pred["pHome"], pred["pDraw"], pred["pAway"]][best],
-                                 "odds": [odds["h"], odds["d"], odds["a"]][best]}
+                    probs = [pred["pHome"], pred["pDraw"], pred["pAway"]]
+                    quotes = [odds["h"], odds["d"], odds["a"]]
+                    best_i, best_edge = None, 0.0
+                    for i in range(3):
+                        e = value_pick(probs[i], imp[i], quotes[i])
+                        if e and e > best_edge:
+                            best_i, best_edge = i, e
+                    if best_i is not None:
+                        value = {"outcome": ["1", "X", "2"][best_i],
+                                 "edge": best_edge,
+                                 "modelP": probs[best_i], "odds": quotes[best_i]}
             m_out = {
                 "kickoff": m["dt"].isoformat(),
                 "home": m["home"], "away": m["away"],
@@ -2019,19 +2041,23 @@ def main():
                     m_out["h2h"] = [{"date": x["date"][8:10] + "." + x["date"][5:7] + "." + x["date"][:4],
                                      "home": x["home"], "away": x["away"], "score": x["score"]}
                                     for x in fb["h2h"]]
-                # Quoten-Value jetzt nachrechnen (Quoten liegen ggf. schon an)
-                if m_out.get("odds") and not m_out.get("value"):
+                # Quoten-Value nachrechnen - aber NUR bei solider Datenlage
+                # (bei "niedrig" ist die Prognose zu unsicher fuer ein Value-Signal)
+                if m_out.get("odds") and not m_out.get("value") and conf != "niedrig":
                     imp = implied_probs(m_out["odds"])
                     if imp:
                         pr = m_out["prediction"]
-                        diffs = [pr["pHome"] - imp[0], pr["pDraw"] - imp[1], pr["pAway"] - imp[2]]
-                        best = max(range(3), key=lambda i: diffs[i])
-                        if diffs[best] >= 0.05:
-                            m_out["value"] = {"outcome": ["1", "X", "2"][best],
-                                              "edge": round(diffs[best], 4),
-                                              "modelP": [pr["pHome"], pr["pDraw"], pr["pAway"]][best],
-                                              "odds": [m_out["odds"]["h"], m_out["odds"]["d"],
-                                                       m_out["odds"]["a"]][best]}
+                        probs = [pr["pHome"], pr["pDraw"], pr["pAway"]]
+                        quotes = [m_out["odds"]["h"], m_out["odds"]["d"], m_out["odds"]["a"]]
+                        best_i, best_edge = None, 0.0
+                        for i in range(3):
+                            e = value_pick(probs[i], imp[i], quotes[i])
+                            if e and e > best_edge:
+                                best_i, best_edge = i, e
+                        if best_i is not None:
+                            m_out["value"] = {"outcome": ["1", "X", "2"][best_i],
+                                              "edge": best_edge,
+                                              "modelP": probs[best_i], "odds": quotes[best_i]}
                 # Analysetext neu erzeugen (inkl. Personal-Hinweis wiederherstellen)
                 m_out["analysis"] = football_text(m_out["home"], m_out["away"], m_out)
                 bits = []
@@ -2304,14 +2330,17 @@ def main():
                 continue
             t["odds"] = {"p1": o1, "p2": o2, "src": o.get("src", "")}
             n_matched += 1
-            if t.get("pP1") is not None:
+            # Value nur mit Elo-Formmodell (genug Match-Historie); reine
+            # Ranglisten-Schaetzungen sind fuer Value-Signale zu unsicher
+            if t.get("pP1") is not None and (t.get("model") or {}).get("pElo") is not None:
                 inv1, inv2 = 1.0 / o1, 1.0 / o2
                 imp1 = inv1 / (inv1 + inv2)
                 for p_model, imp, oq, name in ((t["pP1"], imp1, o1, t["p1"]["name"]),
                                                (1 - t["pP1"], 1 - imp1, o2, t["p2"]["name"])):
-                    if p_model - imp >= 0.05:
+                    edge = value_pick(p_model, imp, oq, min_p=0.38, max_odds=3.5)
+                    if edge:
                         t["value"] = {"name": name, "odds": oq,
-                                      "edge": round(p_model - imp, 4),
+                                      "edge": edge,
                                       "modelP": round(p_model, 4)}
                         t["analysis"] = (t.get("analysis", "") +
                                          f" Quoten-Hinweis: Das Modell hält {name} (Quote "
