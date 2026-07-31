@@ -9,18 +9,18 @@
 /tmp/tennisdata/atp_2026.xlsx: OK über http://www.tennis-data.co.uk (277950 Bytes)
 /tmp/tennisdata/wta_2026.xlsx: OK über http://www.tennis-data.co.uk (264884 Bytes)
 total 3812
-drwxr-xr-x  2 runner runner   4096 Jul 31 14:00 .
-drwxrwxrwt 14 root   root    12288 Jul 31 14:00 ..
--rw-r--r--  1 runner runner 417917 Jul 31 14:00 atp_2022.xlsx
--rw-r--r--  1 runner runner 447088 Jul 31 14:00 atp_2023.xlsx
--rw-r--r--  1 runner runner 445729 Jul 31 14:00 atp_2024.xlsx
--rw-r--r--  1 runner runner 426707 Jul 31 14:00 atp_2025.xlsx
--rw-r--r--  1 runner runner 277950 Jul 31 14:00 atp_2026.xlsx
--rw-r--r--  1 runner runner 370069 Jul 31 14:00 wta_2022.xlsx
--rw-r--r--  1 runner runner 407251 Jul 31 14:00 wta_2023.xlsx
--rw-r--r--  1 runner runner 406783 Jul 31 14:00 wta_2024.xlsx
--rw-r--r--  1 runner runner 399398 Jul 31 14:00 wta_2025.xlsx
--rw-r--r--  1 runner runner 264884 Jul 31 14:00 wta_2026.xlsx
+drwxr-xr-x  2 runner runner   4096 Jul 31 14:23 .
+drwxrwxrwt 14 root   root    12288 Jul 31 14:23 ..
+-rw-r--r--  1 runner runner 417917 Jul 31 14:23 atp_2022.xlsx
+-rw-r--r--  1 runner runner 447088 Jul 31 14:23 atp_2023.xlsx
+-rw-r--r--  1 runner runner 445729 Jul 31 14:23 atp_2024.xlsx
+-rw-r--r--  1 runner runner 426707 Jul 31 14:23 atp_2025.xlsx
+-rw-r--r--  1 runner runner 277950 Jul 31 14:23 atp_2026.xlsx
+-rw-r--r--  1 runner runner 370069 Jul 31 14:23 wta_2022.xlsx
+-rw-r--r--  1 runner runner 407251 Jul 31 14:23 wta_2023.xlsx
+-rw-r--r--  1 runner runner 406783 Jul 31 14:23 wta_2024.xlsx
+-rw-r--r--  1 runner runner 399398 Jul 31 14:23 wta_2025.xlsx
+-rw-r--r--  1 runner runner 264884 Jul 31 14:23 wta_2026.xlsx
   WARN: https://www.football-data.co.uk/mmz4281/2627/E0.csv nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://www.football-data.co.uk/mmz4281/2627/I1.csv nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://www.football-data.co.uk/mmz4281/2627/SP1.csv nicht erreichbar (HTTP Error 404: Not Found)
@@ -47,6 +47,7 @@ drwxrwxrwt 14 root   root    12288 Jul 31 14:00 ..
   WARN: https://www.football-data.co.uk/mmz4281/2627/SC0.csv nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/sco.1/seasons/2026/types/1/leaders nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/sco.1/seasons/2026/types/2/leaders nicht erreichbar (HTTP Error 404: Not Found)
+  WARN api-football /injuries: {'bug': 'This is on our side, please report us this bug on https://dashboard.api-football.com', 'error': '5xEr'}
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/irl.1/seasons/2026/types/1/leaders nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/irl.1/seasons/2026/types/2/leaders nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/irl.1/seasons/2025/types/1/leaders nicht erreichbar (HTTP Error 404: Not Found)
@@ -147,7 +148,7 @@ fixtures.csv: 21 Spiele mit Quoten
   66 Ergebnisse geladen
   5 Spiele in den naechsten 3 Tagen
   1 Prognosen via Team-Historie-Fallback erstellt
-  Kicker-News: 33 Schlagzeilen geladen
+  Kicker-News: 34 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 896, WTA 894
