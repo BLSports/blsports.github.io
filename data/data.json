@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-31T13:56:06.480993+02:00",
+ "generatedAt": "2026-07-31T15:27:14.495909+02:00",
  "windowDays": 3,
  "days": [
   "2026-07-31",
@@ -333,10 +333,10 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5398,
-      "pDraw": 0.2182,
-      "pAway": 0.242,
-      "pOver25": 0.6264,
+      "pHome": 0.5396,
+      "pDraw": 0.2183,
+      "pAway": 0.2421,
+      "pOver25": 0.6263,
       "pBtts": 0.6163,
       "xgHome": 1.97,
       "xgAway": 1.26,
@@ -427,17 +427,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.2053,
+      "pHome": 0.2054,
       "pDraw": 0.2291,
-      "pAway": 0.5657,
-      "pOver25": 0.5335,
-      "pBtts": 0.5284,
+      "pAway": 0.5655,
+      "pOver25": 0.5336,
+      "pBtts": 0.5285,
       "xgHome": 1.0,
       "xgAway": 1.82,
       "tipScore": "0:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5284,
+     "pBtts": 0.5285,
      "odds": null,
      "value": null,
      "scorersHome": [
@@ -464,13 +464,7 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "Regular Season - 1",
-     "formHome": [
-      "N",
-      "U",
-      "N",
-      "N",
-      "S"
-     ],
+     "formHome": [],
      "formAway": [
       "U",
       "U",
@@ -491,62 +485,11 @@
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [
-      {
-       "date": "14.02.2026",
-       "home": "WSG Wattens",
-       "away": "Sturm Graz",
-       "score": "1:0"
-      },
-      {
-       "date": "03.12.2025",
-       "home": "Sturm Graz",
-       "away": "WSG Wattens",
-       "score": "1:3"
-      },
-      {
-       "date": "07.12.2024",
-       "home": "WSG Wattens",
-       "away": "Sturm Graz",
-       "score": "0:3"
-      },
-      {
-       "date": "31.08.2024",
-       "home": "Sturm Graz",
-       "away": "WSG Wattens",
-       "score": "4:2"
-      },
-      {
-       "date": "25.02.2024",
-       "home": "WSG Wattens",
-       "away": "Sturm Graz",
-       "score": "0:2"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.4008,
-      "pDraw": 0.2077,
-      "pAway": 0.3913,
-      "pOver25": 0.7579,
-      "pBtts": 0.7444,
-      "xgHome": 2.0,
-      "xgAway": 1.97,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.7444,
-     "odds": {
-      "h": 3.75,
-      "d": 3.65,
-      "a": 1.9,
-      "src": "10Bet"
-     },
-     "value": {
-      "outcome": "1",
-      "edge": 0.1509,
-      "modelP": 0.4008,
-      "odds": 3.75
-     },
+     "h2h": [],
+     "prediction": null,
+     "pBtts": null,
+     "odds": null,
+     "value": null,
      "scorersHome": [],
      "scorersAway": [
       {
@@ -555,8 +498,8 @@
       }
      ],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Zwischen WSG Wattens und Sturm Graz deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg WSG Wattens 40 %, Unentschieden 21 %, Sieg Sturm Graz 39 %). Das letzte Duell (2026) endete 1:0 (WSG Wattens – Sturm Graz). Das Modell erwartet ein torreiches Spiel (xG 2,0:2,0; über 2,5 Tore: 76 %, beide Teams treffen zu 74 %). Gefährlichste Torschützen: bei Sturm Graz Otar Kiteishvili (15 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,75) für 15 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "analysis": "Gefährlichste Torschützen: bei Sturm Graz Otar Kiteishvili (15 Tore).",
+     "basis": "Datenbasis: Heim/Auswärts-Form. Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-01T19:30:00+02:00",
@@ -629,14 +572,14 @@
       "pHome": 0.5098,
       "pDraw": 0.2435,
       "pAway": 0.2467,
-      "pOver25": 0.517,
-      "pBtts": 0.5354,
+      "pOver25": 0.5169,
+      "pBtts": 0.5353,
       "xgHome": 1.66,
       "xgAway": 1.08,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5354,
+     "pBtts": 0.5353,
      "odds": null,
      "value": null,
      "scorersHome": [],
@@ -658,13 +601,7 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "Regular Season - 1",
-     "formHome": [
-      "S",
-      "N",
-      "N",
-      "S",
-      "S"
-     ],
+     "formHome": [],
      "formAway": [
       "S",
       "N",
@@ -685,56 +622,10 @@
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [
-      {
-       "date": "17.05.2026",
-       "home": "Red Bull Salzburg",
-       "away": "TSV Hartberg",
-       "score": "1:3"
-      },
-      {
-       "date": "05.04.2026",
-       "home": "TSV Hartberg",
-       "away": "Red Bull Salzburg",
-       "score": "1:2"
-      },
-      {
-       "date": "01.03.2026",
-       "home": "Red Bull Salzburg",
-       "away": "TSV Hartberg",
-       "score": "0:0"
-      },
-      {
-       "date": "16.08.2025",
-       "home": "TSV Hartberg",
-       "away": "Red Bull Salzburg",
-       "score": "1:2"
-      },
-      {
-       "date": "04.12.2024",
-       "home": "Red Bull Salzburg",
-       "away": "TSV Hartberg",
-       "score": "4:0"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.5356,
-      "pDraw": 0.2096,
-      "pAway": 0.2547,
-      "pOver25": 0.6816,
-      "pBtts": 0.6633,
-      "xgHome": 2.11,
-      "xgAway": 1.41,
-      "tipScore": "2:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.6633,
-     "odds": {
-      "h": 1.3,
-      "d": 5.1,
-      "a": 9.0,
-      "src": "10Bet"
-     },
+     "h2h": [],
+     "prediction": null,
+     "pBtts": null,
+     "odds": null,
      "value": null,
      "scorersHome": [],
      "scorersAway": [
@@ -744,8 +635,8 @@
       }
      ],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Red Bull Salzburg ist gegen TSV Hartberg leicht favorisiert (54 % zu 25 %). Das letzte Duell (2026) endete 1:3 (Red Bull Salzburg – TSV Hartberg). Das Modell erwartet ein torreiches Spiel (xG 2,1:1,4; über 2,5 Tore: 68 %, beide Teams treffen zu 66 %). Gefährlichste Torschützen: bei TSV Hartberg Elias Havel (13 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "analysis": "Gefährlichste Torschützen: bei TSV Hartberg Elias Havel (13 Tore).",
+     "basis": "Datenbasis: Heim/Auswärts-Form. Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
       {
        "title": "Schmidt wird Klopp-Nachfolger als Head of Global Soccer bei Red Bull",
@@ -911,9 +802,9 @@
       }
      ],
      "prediction": {
-      "pHome": 0.435,
+      "pHome": 0.4349,
       "pDraw": 0.2501,
-      "pAway": 0.3149,
+      "pAway": 0.315,
       "pOver25": 0.5313,
       "pBtts": 0.5639,
       "xgHome": 1.53,
@@ -937,7 +828,7 @@
       }
      ],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Wolfsberger ist gegen Austria Vienna leicht favorisiert (44 % zu 31 %). Die Form spricht für Wolfsberger: 4 Siege aus den letzten 5 Spielen, Austria Vienna holte nur 2. Heim-/Auswärtsbilanz: Wolfsberger gewann 2 der letzten 5 Heimspiele, Austria Vienna 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2025) endete 2:1 (Wolfsberger – Austria Vienna). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,5:1,3; über 2,5 Tore: 53 %, beide Teams treffen zu 56 %). Gefährlichste Torschützen: bei Austria Vienna Johannes Eggestein (9 Tore).",
+     "analysis": "Wolfsberger ist gegen Austria Vienna leicht favorisiert (43 % zu 32 %). Die Form spricht für Wolfsberger: 4 Siege aus den letzten 5 Spielen, Austria Vienna holte nur 2. Heim-/Auswärtsbilanz: Wolfsberger gewann 2 der letzten 5 Heimspiele, Austria Vienna 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2025) endete 2:1 (Wolfsberger – Austria Vienna). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,5:1,3; über 2,5 Tore: 53 %, beide Teams treffen zu 56 %). Gefährlichste Torschützen: bei Austria Vienna Johannes Eggestein (9 Tore).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -1169,15 +1060,15 @@
      "prediction": {
       "pHome": 0.6486,
       "pDraw": 0.2003,
-      "pAway": 0.151,
+      "pAway": 0.1511,
       "pOver25": 0.5706,
-      "pBtts": 0.5161,
+      "pBtts": 0.5162,
       "xgHome": 2.08,
       "xgAway": 0.89,
       "tipScore": "2:0",
       "confidence": "niedrig"
      },
-     "pBtts": 0.5161,
+     "pBtts": 0.5162,
      "odds": {
       "h": 1.9,
       "d": 3.9,
@@ -1328,17 +1219,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.3929,
+      "pHome": 0.3931,
       "pDraw": 0.2129,
-      "pAway": 0.3942,
-      "pOver25": 0.7309,
-      "pBtts": 0.7231,
+      "pAway": 0.3939,
+      "pOver25": 0.7308,
+      "pBtts": 0.723,
       "xgHome": 1.9,
       "xgAway": 1.9,
       "tipScore": "1:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.7231,
+     "pBtts": 0.723,
      "odds": {
       "h": 2.5,
       "d": 3.85,
@@ -1516,9 +1407,9 @@
      "nTeams": null,
      "h2h": [],
      "prediction": {
-      "pHome": 0.46,
+      "pHome": 0.4599,
       "pDraw": 0.2837,
-      "pAway": 0.2563,
+      "pAway": 0.2564,
       "pOver25": 0.3762,
       "pBtts": 0.4303,
       "xgHome": 1.3,
@@ -1528,9 +1419,9 @@
      },
      "pBtts": 0.4303,
      "odds": {
-      "h": 2.0,
-      "d": 3.75,
-      "a": 3.25,
+      "h": 2.05,
+      "d": 3.8,
+      "a": 3.1,
       "src": "10Bet"
      },
      "value": null,
@@ -1612,8 +1503,8 @@
      },
      "pBtts": 0.5694,
      "odds": {
-      "h": 3.7,
-      "d": 3.65,
+      "h": 3.65,
+      "d": 3.7,
       "a": 1.9,
       "src": "10Bet"
      },
@@ -1738,9 +1629,9 @@
      },
      "pBtts": 0.6269,
      "odds": {
-      "h": 5.5,
-      "d": 4.3,
-      "a": 1.53,
+      "h": 5.3,
+      "d": 4.2,
+      "a": 1.55,
       "src": "10Bet"
      },
      "value": null,
@@ -2037,21 +1928,21 @@
      },
      "pBtts": 0.552,
      "odds": {
-      "h": 2.22,
-      "d": 3.5,
-      "a": 3.0,
+      "h": 2.2,
+      "d": 3.35,
+      "a": 3.15,
       "src": "10Bet"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.1014,
+      "edge": 0.098,
       "modelP": 0.5226,
-      "odds": 2.22
+      "odds": 2.2
      },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": "St Johnstone ist gegen Kilmarnock leicht favorisiert (52 % zu 24 %). In der Tabelle stehen sich Platz 9 und Platz 5 gegenüber. Das letzte Duell (2025) endete 0:2 (ST Johnstone – Kilmarnock). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,7:1,1; über 2,5 Tore: 54 %, beide Teams treffen zu 55 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,22) für 10 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "St Johnstone ist gegen Kilmarnock leicht favorisiert (52 % zu 24 %). In der Tabelle stehen sich Platz 9 und Platz 5 gegenüber. Das letzte Duell (2025) endete 0:2 (ST Johnstone – Kilmarnock). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,7:1,1; über 2,5 Tore: 54 %, beide Teams treffen zu 55 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,20) für 10 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -2134,9 +2025,9 @@
      },
      "pBtts": 0.4657,
      "odds": {
-      "h": 2.24,
+      "h": 2.25,
       "d": 3.4,
-      "a": 3.0,
+      "a": 3.05,
       "src": "10Bet"
      },
      "value": null,
@@ -3532,9 +3423,9 @@
      },
      "pBtts": 0.6068,
      "odds": {
-      "h": 1.51,
-      "d": 4.4,
-      "a": 5.5,
+      "h": 1.54,
+      "d": 4.6,
+      "a": 4.9,
       "src": "10Bet"
      },
      "value": null,
@@ -4874,21 +4765,21 @@
       }
      ],
      "prediction": {
-      "pHome": 0.7241,
-      "pDraw": 0.1785,
-      "pAway": 0.0973,
-      "pOver25": 0.5344,
-      "pBtts": 0.4225,
+      "pHome": 0.7243,
+      "pDraw": 0.1784,
+      "pAway": 0.0972,
+      "pOver25": 0.5345,
+      "pBtts": 0.4224,
       "xgHome": 2.17,
       "xgAway": 0.65,
       "tipScore": "2:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.4225,
+     "pBtts": 0.4224,
      "odds": {
-      "h": 1.22,
-      "d": 6.6,
-      "a": 9.2,
+      "h": 1.25,
+      "d": 6.5,
+      "a": 8.6,
       "src": "10Bet"
      },
      "value": null,
@@ -5016,28 +4907,28 @@
       }
      ],
      "prediction": {
-      "pHome": 0.3825,
-      "pDraw": 0.2741,
+      "pHome": 0.3826,
+      "pDraw": 0.274,
       "pAway": 0.3434,
-      "pOver25": 0.4391,
-      "pBtts": 0.4949,
+      "pOver25": 0.4392,
+      "pBtts": 0.495,
       "xgHome": 1.26,
       "xgAway": 1.18,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.4949,
+     "pBtts": 0.495,
      "odds": {
-      "h": 2.25,
-      "d": 3.35,
-      "a": 3.0,
+      "h": 2.3,
+      "d": 3.45,
+      "a": 2.88,
       "src": "10Bet"
      },
      "value": null,
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen Fredrikstad und Sandefjord deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Fredrikstad 39 %, Unentschieden 27 %, Sieg Sandefjord 34 %). In der Tabelle stehen sich Platz 16 und Platz 13 gegenüber. Heim-/Auswärtsbilanz: Fredrikstad gewann 2 der letzten 5 Heimspiele, Sandefjord 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:1 (Sandefjord – Fredrikstad). Das Modell erwartet eher wenige Tore (xG 1,3:1,2; über 2,5 Tore: 44 %, beide Teams treffen zu 49 %). Personal: Fredrikstad fehlen 10 Spieler (u.a. S. Kvile); Sandefjord fehlen 7 Spieler (u.a. J. Swift).",
+     "analysis": "Zwischen Fredrikstad und Sandefjord deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Fredrikstad 39 %, Unentschieden 27 %, Sieg Sandefjord 34 %). In der Tabelle stehen sich Platz 16 und Platz 13 gegenüber. Heim-/Auswärtsbilanz: Fredrikstad gewann 2 der letzten 5 Heimspiele, Sandefjord 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:1 (Sandefjord – Fredrikstad). Das Modell erwartet eher wenige Tore (xG 1,3:1,2; über 2,5 Tore: 44 %, beide Teams treffen zu 50 %). Personal: Fredrikstad fehlen 10 Spieler (u.a. S. Kvile); Sandefjord fehlen 7 Spieler (u.a. J. Swift).",
      "injuriesHome": [
       {
        "name": "S. Kvile",
@@ -5142,8 +5033,8 @@
       }
      ],
      "prediction": {
-      "pHome": 0.0814,
-      "pDraw": 0.1267,
+      "pHome": 0.0813,
+      "pDraw": 0.1266,
       "pAway": 0.791,
       "pOver25": 0.7374,
       "pBtts": 0.5562,
@@ -5233,16 +5124,16 @@
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
       {
+       "title": "Zurück aus der Sommerpause: Oldenburg startet in Bremen - SVDA empfängt Phönix",
+       "link": "https://www.kicker.de/zurueck-aus-der-sommerpause-oldenburg-startet-in-bremen-svda-empfaengt-phoenix-1239859/artikel#omrss"
+      },
+      {
        "title": "Auftakt im Westen: Startet RWO in Bonn mit einem guten Gefühl in die neue Saison?",
        "link": "https://www.kicker.de/auftakt-im-westen-startet-rwo-in-bonn-mit-einem-guten-gefuehl-in-die-neue-saison-1239841/artikel#omrss"
       },
       {
        "title": "Der Verein, den niemand kleinbekommt: 1860 ist bereit für den Neustart",
        "link": "https://www.kicker.de/der-verein-den-niemand-kleinbekommt-1860-ist-bereit-fuer-den-neustart-1239800/artikel#omrss"
-      },
-      {
-       "title": "Aufsteiger Delmenhorst vor dem Saisonstart: \"Wir bauen keine Luftschlösser\"",
-       "link": "https://www.kicker.de/aufsteiger-delmenhorst-vor-dem-saisonstart-wir-bauen-keine-luftschloesser-1239791/artikel#omrss"
       }
      ]
     },
@@ -5296,17 +5187,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.2057,
+      "pHome": 0.2058,
       "pDraw": 0.2308,
-      "pAway": 0.5635,
-      "pOver25": 0.5268,
-      "pBtts": 0.5236,
+      "pAway": 0.5634,
+      "pOver25": 0.5267,
+      "pBtts": 0.5235,
       "xgHome": 0.99,
       "xgAway": 1.8,
       "tipScore": "0:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5236,
+     "pBtts": 0.5235,
      "odds": {
       "h": 3.7,
       "d": 3.7,
@@ -5440,7 +5331,7 @@
      "prediction": {
       "pHome": 0.5692,
       "pDraw": 0.2465,
-      "pAway": 0.1843,
+      "pAway": 0.1842,
       "pOver25": 0.4388,
       "pBtts": 0.4444,
       "xgHome": 1.63,
@@ -5575,17 +5466,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.6231,
-      "pDraw": 0.2078,
-      "pAway": 0.1691,
-      "pOver25": 0.5715,
-      "pBtts": 0.5325,
+      "pHome": 0.6229,
+      "pDraw": 0.2079,
+      "pAway": 0.1692,
+      "pOver25": 0.5713,
+      "pBtts": 0.5324,
       "xgHome": 2.03,
       "xgAway": 0.95,
       "tipScore": "2:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.5325,
+     "pBtts": 0.5324,
      "odds": null,
      "value": null,
      "scorersHome": [
@@ -5830,17 +5721,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5437,
-      "pDraw": 0.2066,
-      "pAway": 0.2496,
-      "pOver25": 0.6916,
-      "pBtts": 0.6692,
+      "pHome": 0.5439,
+      "pDraw": 0.2065,
+      "pAway": 0.2495,
+      "pOver25": 0.6917,
+      "pBtts": 0.6693,
       "xgHome": 2.15,
       "xgAway": 1.42,
       "tipScore": "2:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6692,
+     "pBtts": 0.6693,
      "odds": {
       "h": 1.9,
       "d": 3.85,
@@ -5972,14 +5863,14 @@
       "pHome": 0.5079,
       "pDraw": 0.231,
       "pAway": 0.2611,
-      "pOver25": 0.5847,
-      "pBtts": 0.5916,
+      "pOver25": 0.5848,
+      "pBtts": 0.5917,
       "xgHome": 1.8,
       "xgAway": 1.23,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5916,
+     "pBtts": 0.5917,
      "odds": {
       "h": 1.77,
       "d": 3.95,
@@ -6105,9 +5996,9 @@
       }
      ],
      "prediction": {
-      "pHome": 0.3434,
+      "pHome": 0.3435,
       "pDraw": 0.2266,
-      "pAway": 0.4299,
+      "pAway": 0.4298,
       "pOver25": 0.6529,
       "pBtts": 0.6603,
       "xgHome": 1.58,
@@ -6241,10 +6132,10 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5246,
-      "pDraw": 0.25,
-      "pAway": 0.2255,
-      "pOver25": 0.4714,
+      "pHome": 0.5247,
+      "pDraw": 0.2499,
+      "pAway": 0.2254,
+      "pOver25": 0.4715,
       "pBtts": 0.492,
       "xgHome": 1.6,
       "xgAway": 0.96,
@@ -6365,17 +6256,17 @@
      "nTeams": 16,
      "h2h": [],
      "prediction": {
-      "pHome": 0.6985,
-      "pDraw": 0.1931,
-      "pAway": 0.1084,
-      "pOver25": 0.5041,
-      "pBtts": 0.4173,
+      "pHome": 0.6982,
+      "pDraw": 0.1932,
+      "pAway": 0.1085,
+      "pOver25": 0.5037,
+      "pBtts": 0.4172,
       "xgHome": 2.04,
       "xgAway": 0.65,
       "tipScore": "2:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.4173,
+     "pBtts": 0.4172,
      "odds": null,
      "value": null,
      "scorersHome": [],
@@ -6593,13 +6484,13 @@
       "pDraw": 0.2355,
       "pAway": 0.5344,
       "pOver25": 0.5349,
-      "pBtts": 0.5419,
+      "pBtts": 0.542,
       "xgHome": 1.07,
       "xgAway": 1.75,
       "tipScore": "1:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.5419,
+     "pBtts": 0.542,
      "odds": null,
      "value": null,
      "scorersHome": [
@@ -6795,8 +6686,8 @@
      "pBtts": 0.5984,
      "odds": {
       "h": 1.3,
-      "d": 5.0,
-      "a": 9.6,
+      "d": 4.8,
+      "a": 9.75,
       "src": "10Bet"
      },
      "value": null,
@@ -6886,21 +6777,21 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5725,
-      "pDraw": 0.2436,
-      "pAway": 0.1839,
+      "pHome": 0.5721,
+      "pDraw": 0.2437,
+      "pAway": 0.1842,
       "pOver25": 0.4489,
-      "pBtts": 0.4517,
+      "pBtts": 0.4519,
       "xgHome": 1.65,
       "xgAway": 0.82,
       "tipScore": "1:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.4517,
+     "pBtts": 0.4519,
      "odds": {
-      "h": 1.68,
-      "d": 3.85,
-      "a": 4.6,
+      "h": 1.67,
+      "d": 3.9,
+      "a": 4.75,
       "src": "10Bet"
      },
      "value": null,
@@ -7016,17 +6907,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4369,
+      "pHome": 0.437,
       "pDraw": 0.2704,
-      "pAway": 0.2927,
-      "pOver25": 0.4395,
-      "pBtts": 0.489,
+      "pAway": 0.2926,
+      "pOver25": 0.4394,
+      "pBtts": 0.4889,
       "xgHome": 1.37,
       "xgAway": 1.07,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.489,
+     "pBtts": 0.4889,
      "odds": null,
      "value": null,
      "scorersHome": [
@@ -7148,13 +7039,13 @@
      "pBtts": 0.6203,
      "odds": {
       "h": 1.9,
-      "d": 3.8,
-      "a": 3.55,
+      "d": 3.75,
+      "a": 3.6,
       "src": "10Bet"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.1255,
+      "edge": 0.1253,
       "modelP": 0.6168,
       "odds": 1.9
      },
@@ -7264,17 +7155,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.1304,
-      "pDraw": 0.1487,
-      "pAway": 0.7201,
-      "pOver25": 0.7788,
-      "pBtts": 0.6643,
+      "pHome": 0.1302,
+      "pDraw": 0.1486,
+      "pAway": 0.7203,
+      "pOver25": 0.7789,
+      "pBtts": 0.6642,
       "xgHome": 1.21,
       "xgAway": 2.91,
       "tipScore": "1:2",
       "confidence": "hoch"
      },
-     "pBtts": 0.6643,
+     "pBtts": 0.6642,
      "odds": null,
      "value": null,
      "scorersHome": [
@@ -7584,9 +7475,9 @@
      },
      "pBtts": 0.6245,
      "odds": {
-      "h": 1.41,
-      "d": 4.6,
-      "a": 7.1,
+      "h": 1.43,
+      "d": 4.45,
+      "a": 6.8,
       "src": "10Bet"
      },
      "value": null,
@@ -7676,9 +7567,9 @@
      },
      "pBtts": 0.347,
      "odds": {
-      "h": 4.35,
+      "h": 4.2,
       "d": 3.45,
-      "a": 1.82,
+      "a": 1.85,
       "src": "10Bet"
      },
      "value": null,
@@ -7768,9 +7659,9 @@
      },
      "pBtts": 0.5799,
      "odds": {
-      "h": 3.1,
-      "d": 3.6,
-      "a": 2.12,
+      "h": 3.05,
+      "d": 3.55,
+      "a": 2.18,
       "src": "10Bet"
      },
      "value": null,
@@ -7864,9 +7755,9 @@
      },
      "pBtts": 0.3033,
      "odds": {
-      "h": 1.71,
-      "d": 3.55,
-      "a": 4.9,
+      "h": 1.75,
+      "d": 3.5,
+      "a": 4.65,
       "src": "10Bet"
      },
      "value": null,
@@ -9479,6 +9370,64 @@
    "tournament": "Axeria Open 2026 powered by Intaro Sport",
    "round": "Halbfinale",
    "surface": null,
+   "p1": {
+    "name": "Francesca Jones",
+    "rank": 110,
+    "form": [
+     "N",
+     "N",
+     "N",
+     "N",
+     "N"
+    ],
+    "elo": 1374,
+    "rankYearAgo": 104,
+    "oppElo": 1676,
+    "onSurface": null,
+    "favSurface": "Sand",
+    "last7": 6,
+    "sets7": 15
+   },
+   "p2": {
+    "name": "Kaitlin Quevedo",
+    "rank": 103,
+    "form": [
+     "S",
+     "N",
+     "S",
+     "N",
+     "N"
+    ],
+    "elo": 1482,
+    "rankYearAgo": null,
+    "oppElo": 1643,
+    "onSurface": null,
+    "favSurface": "Sand",
+    "last7": 3,
+    "sets7": 6
+   },
+   "pP1": 0.4175,
+   "model": {
+    "n1": 45,
+    "n2": 10,
+    "elo1": 1374,
+    "elo2": 1482,
+    "pElo": 0.3489,
+    "pRank": 0.486,
+    "wElo": 0.5
+   },
+   "h2h": [],
+   "analysis": "Francesca Jones (Weltrangliste #110) trifft auf Kaitlin Quevedo (#103). Die aktuelle Form spricht für Kaitlin Quevedo: 2 Siege aus den letzten 5 Matches, Francesca Jones holte nur 0. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Kaitlin Quevedo mit 58 % vorn. Francesca Jones hat allerdings eine intensive Woche in den Beinen (6 Matches in den letzten 7 Tagen und 15 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-08-01T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Axeria Open 2026 powered by Intaro Sport",
+   "round": "Halbfinale",
+   "surface": null,
    "doubles": true,
    "p1": {
     "name": "Yvonne Cavalle-Reimers / Lara Salden",
@@ -9488,6 +9437,31 @@
    },
    "p2": {
     "name": "Irina Bara / Naima Karamoko",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-08-02T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Axeria Open 2026 powered by Intaro Sport",
+   "round": "Finale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "TBD / TBD",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Lucija Ciric Bagaric / Angelica Moratelli",
     "rank": null,
     "last7": 0,
     "sets7": 0
@@ -9571,13 +9545,21 @@
    "p2": "Laura Samson",
    "winner": "Laura Samson",
    "score": "6:7 6:4 2:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Axeria Open 2026 powered by Intaro Sport",
+   "p1": "Alice Rame",
+   "p2": "Francesca Jones",
+   "winner": "Francesca Jones",
+   "score": "1:6 2:6"
   }
  ],
  "stats": {
   "overall": {
-   "n": 498,
-   "correct": 308,
-   "pct": 0.6185
+   "n": 499,
+   "correct": 309,
+   "pct": 0.6192
   },
   "football": {
    "n": 10,
@@ -9585,9 +9567,9 @@
    "pct": 0.4
   },
   "tennis": {
-   "n": 488,
-   "correct": 304,
-   "pct": 0.623
+   "n": 489,
+   "correct": 305,
+   "pct": 0.6237
   },
   "exact": {
    "n": 10,
@@ -9728,6 +9710,17 @@
     "sport": "tn"
    },
    {
+    "date": "2026-07-31",
+    "comp": "WTA · Axeria Open 2026 powered by Intaro Sport",
+    "label": "Alice Rame – Francesca Jones",
+    "tipName": "Francesca Jones",
+    "tip": "P2",
+    "prob": 0.6751,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
     "date": "2026-07-30",
     "comp": "WTA · Axeria Open 2026 powered by Intaro Sport",
     "label": "Lucija Ciric Bagaric – Francesca Jones",
@@ -9857,17 +9850,6 @@
     "prob": 0.5313,
     "result": "Sieger: P1",
     "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-30",
-    "comp": "ATP · Mubadala DC Open",
-    "label": "Jakub Mensik – Brandon Nakashima",
-    "tipName": "Jakub Mensik",
-    "tip": "P1",
-    "prob": 0.6635,
-    "result": "Sieger: P2",
-    "correct": false,
     "sport": "tn"
    }
   ]
