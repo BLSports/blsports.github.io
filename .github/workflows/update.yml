@@ -119,8 +119,10 @@ jobs:
             mkdir -p dist
             cp index.html dist/
             cp robots.txt dist/ 2>/dev/null || true
-            npx --yes wrangler pages project create blsports-sport-radar               --production-branch main 2>&1 | head -2 || true
-            npx --yes wrangler pages deploy dist --project-name blsports-sport-radar               --branch main --commit-dirty=true 2>&1 | tail -4
+            echo "--- project create ---"
+            npx --yes wrangler pages project create blsports-sport-radar               --production-branch main 2>&1 || true
+            echo "--- deploy ---"
+            npx --yes wrangler pages deploy dist --project-name blsports-sport-radar               --branch main --commit-dirty=true 2>&1               && echo "DEPLOY_OK" || echo "DEPLOY_FEHLER (Exit-Code $?)"
           } > data/cf_deploy.log 2>&1 || true
           cat data/cf_deploy.log
 
