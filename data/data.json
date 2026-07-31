@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-07-31T15:27:14.495909+02:00",
+ "generatedAt": "2026-07-31T16:00:24.684224+02:00",
  "windowDays": 3,
  "days": [
   "2026-07-31",
@@ -337,13 +337,13 @@
       "pDraw": 0.2183,
       "pAway": 0.2421,
       "pOver25": 0.6263,
-      "pBtts": 0.6163,
+      "pBtts": 0.6162,
       "xgHome": 1.97,
       "xgAway": 1.26,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6163,
+     "pBtts": 0.6162,
      "odds": {
       "h": 1.65,
       "d": 3.85,
@@ -427,9 +427,9 @@
       }
      ],
      "prediction": {
-      "pHome": 0.2054,
+      "pHome": 0.2053,
       "pDraw": 0.2291,
-      "pAway": 0.5655,
+      "pAway": 0.5656,
       "pOver25": 0.5336,
       "pBtts": 0.5285,
       "xgHome": 1.0,
@@ -464,7 +464,13 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "Regular Season - 1",
-     "formHome": [],
+     "formHome": [
+      "N",
+      "U",
+      "N",
+      "N",
+      "S"
+     ],
      "formAway": [
       "U",
       "U",
@@ -485,11 +491,62 @@
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
-     "odds": null,
-     "value": null,
+     "h2h": [
+      {
+       "date": "14.02.2026",
+       "home": "WSG Wattens",
+       "away": "Sturm Graz",
+       "score": "1:0"
+      },
+      {
+       "date": "03.12.2025",
+       "home": "Sturm Graz",
+       "away": "WSG Wattens",
+       "score": "1:3"
+      },
+      {
+       "date": "07.12.2024",
+       "home": "WSG Wattens",
+       "away": "Sturm Graz",
+       "score": "0:3"
+      },
+      {
+       "date": "31.08.2024",
+       "home": "Sturm Graz",
+       "away": "WSG Wattens",
+       "score": "4:2"
+      },
+      {
+       "date": "25.02.2024",
+       "home": "WSG Wattens",
+       "away": "Sturm Graz",
+       "score": "0:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4008,
+      "pDraw": 0.2077,
+      "pAway": 0.3913,
+      "pOver25": 0.7579,
+      "pBtts": 0.7444,
+      "xgHome": 2.0,
+      "xgAway": 1.97,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.7444,
+     "odds": {
+      "h": 3.75,
+      "d": 3.65,
+      "a": 1.9,
+      "src": "10Bet"
+     },
+     "value": {
+      "outcome": "1",
+      "edge": 0.1509,
+      "modelP": 0.4008,
+      "odds": 3.75
+     },
      "scorersHome": [],
      "scorersAway": [
       {
@@ -498,8 +555,8 @@
       }
      ],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Gefährlichste Torschützen: bei Sturm Graz Otar Kiteishvili (15 Tore).",
-     "basis": "Datenbasis: Heim/Auswärts-Form. Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "analysis": "Zwischen WSG Wattens und Sturm Graz deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg WSG Wattens 40 %, Unentschieden 21 %, Sieg Sturm Graz 39 %). Das letzte Duell (2026) endete 1:0 (WSG Wattens – Sturm Graz). Das Modell erwartet ein torreiches Spiel (xG 2,0:2,0; über 2,5 Tore: 76 %, beide Teams treffen zu 74 %). Gefährlichste Torschützen: bei Sturm Graz Otar Kiteishvili (15 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,75) für 15 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-01T19:30:00+02:00",
@@ -572,7 +629,7 @@
       "pHome": 0.5098,
       "pDraw": 0.2435,
       "pAway": 0.2467,
-      "pOver25": 0.5169,
+      "pOver25": 0.517,
       "pBtts": 0.5353,
       "xgHome": 1.66,
       "xgAway": 1.08,
@@ -601,7 +658,13 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "Regular Season - 1",
-     "formHome": [],
+     "formHome": [
+      "S",
+      "N",
+      "N",
+      "S",
+      "S"
+     ],
      "formAway": [
       "S",
       "N",
@@ -622,10 +685,56 @@
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
-     "odds": null,
+     "h2h": [
+      {
+       "date": "17.05.2026",
+       "home": "Red Bull Salzburg",
+       "away": "TSV Hartberg",
+       "score": "1:3"
+      },
+      {
+       "date": "05.04.2026",
+       "home": "TSV Hartberg",
+       "away": "Red Bull Salzburg",
+       "score": "1:2"
+      },
+      {
+       "date": "01.03.2026",
+       "home": "Red Bull Salzburg",
+       "away": "TSV Hartberg",
+       "score": "0:0"
+      },
+      {
+       "date": "16.08.2025",
+       "home": "TSV Hartberg",
+       "away": "Red Bull Salzburg",
+       "score": "1:2"
+      },
+      {
+       "date": "04.12.2024",
+       "home": "Red Bull Salzburg",
+       "away": "TSV Hartberg",
+       "score": "4:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5356,
+      "pDraw": 0.2096,
+      "pAway": 0.2547,
+      "pOver25": 0.6816,
+      "pBtts": 0.6633,
+      "xgHome": 2.11,
+      "xgAway": 1.41,
+      "tipScore": "2:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6633,
+     "odds": {
+      "h": 1.3,
+      "d": 5.1,
+      "a": 9.0,
+      "src": "10Bet"
+     },
      "value": null,
      "scorersHome": [],
      "scorersAway": [
@@ -635,8 +744,8 @@
       }
      ],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Gefährlichste Torschützen: bei TSV Hartberg Elias Havel (13 Tore).",
-     "basis": "Datenbasis: Heim/Auswärts-Form. Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "analysis": "Red Bull Salzburg ist gegen TSV Hartberg leicht favorisiert (54 % zu 25 %). Das letzte Duell (2026) endete 1:3 (Red Bull Salzburg – TSV Hartberg). Das Modell erwartet ein torreiches Spiel (xG 2,1:1,4; über 2,5 Tore: 68 %, beide Teams treffen zu 66 %). Gefährlichste Torschützen: bei TSV Hartberg Elias Havel (13 Tore).",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
       {
        "title": "Schmidt wird Klopp-Nachfolger als Head of Global Soccer bei Red Bull",
@@ -887,17 +996,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.3911,
+      "pHome": 0.3912,
       "pDraw": 0.288,
       "pAway": 0.3209,
-      "pOver25": 0.3855,
-      "pBtts": 0.4502,
+      "pOver25": 0.3856,
+      "pBtts": 0.4503,
       "xgHome": 1.19,
       "xgAway": 1.05,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.4502,
+     "pBtts": 0.4503,
      "odds": null,
      "value": null,
      "scorersHome": [],
@@ -1058,17 +1167,17 @@
      "nTeams": null,
      "h2h": [],
      "prediction": {
-      "pHome": 0.6486,
+      "pHome": 0.6487,
       "pDraw": 0.2003,
-      "pAway": 0.1511,
-      "pOver25": 0.5706,
-      "pBtts": 0.5162,
+      "pAway": 0.1509,
+      "pOver25": 0.5704,
+      "pBtts": 0.5159,
       "xgHome": 2.08,
       "xgAway": 0.89,
       "tipScore": "2:0",
       "confidence": "niedrig"
      },
-     "pBtts": 0.5162,
+     "pBtts": 0.5159,
      "odds": {
       "h": 1.9,
       "d": 3.9,
@@ -1140,16 +1249,16 @@
      ],
      "prediction": {
       "pHome": 0.4688,
-      "pDraw": 0.2108,
+      "pDraw": 0.2107,
       "pAway": 0.3204,
       "pOver25": 0.7244,
-      "pBtts": 0.7125,
+      "pBtts": 0.7126,
       "xgHome": 2.07,
       "xgAway": 1.69,
       "tipScore": "2:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.7125,
+     "pBtts": 0.7126,
      "odds": {
       "h": 3.35,
       "d": 3.8,
@@ -1222,14 +1331,14 @@
       "pHome": 0.3931,
       "pDraw": 0.2129,
       "pAway": 0.3939,
-      "pOver25": 0.7308,
-      "pBtts": 0.723,
+      "pOver25": 0.7309,
+      "pBtts": 0.7231,
       "xgHome": 1.9,
       "xgAway": 1.9,
       "tipScore": "1:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.723,
+     "pBtts": 0.7231,
      "odds": {
       "h": 2.5,
       "d": 3.85,
@@ -1407,7 +1516,7 @@
      "nTeams": null,
      "h2h": [],
      "prediction": {
-      "pHome": 0.4599,
+      "pHome": 0.46,
       "pDraw": 0.2837,
       "pAway": 0.2564,
       "pOver25": 0.3762,
@@ -1629,8 +1738,8 @@
      },
      "pBtts": 0.6269,
      "odds": {
-      "h": 5.3,
-      "d": 4.2,
+      "h": 5.4,
+      "d": 4.1,
       "a": 1.55,
       "src": "10Bet"
      },
@@ -4506,9 +4615,9 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5178,
+      "pHome": 0.518,
       "pDraw": 0.2181,
-      "pAway": 0.264,
+      "pAway": 0.2639,
       "pOver25": 0.6487,
       "pBtts": 0.6412,
       "xgHome": 1.98,
@@ -4765,7 +4874,7 @@
       }
      ],
      "prediction": {
-      "pHome": 0.7243,
+      "pHome": 0.7244,
       "pDraw": 0.1784,
       "pAway": 0.0972,
       "pOver25": 0.5345,
@@ -4777,9 +4886,9 @@
      },
      "pBtts": 0.4224,
      "odds": {
-      "h": 1.25,
-      "d": 6.5,
-      "a": 8.6,
+      "h": 1.22,
+      "d": 6.6,
+      "a": 9.2,
       "src": "10Bet"
      },
      "value": null,
@@ -4907,9 +5016,9 @@
       }
      ],
      "prediction": {
-      "pHome": 0.3826,
+      "pHome": 0.3825,
       "pDraw": 0.274,
-      "pAway": 0.3434,
+      "pAway": 0.3435,
       "pOver25": 0.4392,
       "pBtts": 0.495,
       "xgHome": 1.26,
@@ -5033,17 +5142,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.0813,
-      "pDraw": 0.1266,
-      "pAway": 0.791,
-      "pOver25": 0.7374,
-      "pBtts": 0.5562,
+      "pHome": 0.0814,
+      "pDraw": 0.1267,
+      "pAway": 0.7909,
+      "pOver25": 0.7371,
+      "pBtts": 0.556,
       "xgHome": 0.88,
       "xgAway": 2.96,
       "tipScore": "0:2",
       "confidence": "hoch"
      },
-     "pBtts": 0.5562,
+     "pBtts": 0.556,
      "odds": {
       "h": 5.5,
       "d": 4.4,
@@ -5130,10 +5239,6 @@
       {
        "title": "Auftakt im Westen: Startet RWO in Bonn mit einem guten Gefühl in die neue Saison?",
        "link": "https://www.kicker.de/auftakt-im-westen-startet-rwo-in-bonn-mit-einem-guten-gefuehl-in-die-neue-saison-1239841/artikel#omrss"
-      },
-      {
-       "title": "Der Verein, den niemand kleinbekommt: 1860 ist bereit für den Neustart",
-       "link": "https://www.kicker.de/der-verein-den-niemand-kleinbekommt-1860-ist-bereit-fuer-den-neustart-1239800/artikel#omrss"
       }
      ]
     },
@@ -5187,10 +5292,10 @@
       }
      ],
      "prediction": {
-      "pHome": 0.2058,
+      "pHome": 0.2057,
       "pDraw": 0.2308,
       "pAway": 0.5634,
-      "pOver25": 0.5267,
+      "pOver25": 0.5266,
       "pBtts": 0.5235,
       "xgHome": 0.99,
       "xgAway": 1.8,
@@ -5331,7 +5436,7 @@
      "prediction": {
       "pHome": 0.5692,
       "pDraw": 0.2465,
-      "pAway": 0.1842,
+      "pAway": 0.1843,
       "pOver25": 0.4388,
       "pBtts": 0.4444,
       "xgHome": 1.63,
@@ -5467,16 +5572,16 @@
      ],
      "prediction": {
       "pHome": 0.6229,
-      "pDraw": 0.2079,
+      "pDraw": 0.2078,
       "pAway": 0.1692,
-      "pOver25": 0.5713,
-      "pBtts": 0.5324,
+      "pOver25": 0.5714,
+      "pBtts": 0.5325,
       "xgHome": 2.03,
       "xgAway": 0.95,
       "tipScore": "2:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.5324,
+     "pBtts": 0.5325,
      "odds": null,
      "value": null,
      "scorersHome": [
@@ -5721,9 +5826,9 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5439,
+      "pHome": 0.544,
       "pDraw": 0.2065,
-      "pAway": 0.2495,
+      "pAway": 0.2494,
       "pOver25": 0.6917,
       "pBtts": 0.6693,
       "xgHome": 2.15,
@@ -6134,7 +6239,7 @@
      "prediction": {
       "pHome": 0.5247,
       "pDraw": 0.2499,
-      "pAway": 0.2254,
+      "pAway": 0.2253,
       "pOver25": 0.4715,
       "pBtts": 0.492,
       "xgHome": 1.6,
@@ -6259,7 +6364,7 @@
       "pHome": 0.6982,
       "pDraw": 0.1932,
       "pAway": 0.1085,
-      "pOver25": 0.5037,
+      "pOver25": 0.5038,
       "pBtts": 0.4172,
       "xgHome": 2.04,
       "xgAway": 0.65,
@@ -6483,14 +6588,14 @@
       "pHome": 0.23,
       "pDraw": 0.2355,
       "pAway": 0.5344,
-      "pOver25": 0.5349,
-      "pBtts": 0.542,
+      "pOver25": 0.5348,
+      "pBtts": 0.5419,
       "xgHome": 1.07,
       "xgAway": 1.75,
       "tipScore": "1:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.542,
+     "pBtts": 0.5419,
      "odds": null,
      "value": null,
      "scorersHome": [
@@ -6676,7 +6781,7 @@
       "pHome": 0.6466,
       "pDraw": 0.1875,
       "pAway": 0.1657,
-      "pOver25": 0.6608,
+      "pOver25": 0.6609,
       "pBtts": 0.5984,
       "xgHome": 2.31,
       "xgAway": 1.09,
@@ -6686,8 +6791,8 @@
      "pBtts": 0.5984,
      "odds": {
       "h": 1.3,
-      "d": 4.8,
-      "a": 9.75,
+      "d": 5.0,
+      "a": 9.6,
       "src": "10Bet"
      },
      "value": null,
@@ -6789,9 +6894,9 @@
      },
      "pBtts": 0.4519,
      "odds": {
-      "h": 1.67,
-      "d": 3.9,
-      "a": 4.75,
+      "h": 1.68,
+      "d": 3.85,
+      "a": 4.6,
       "src": "10Bet"
      },
      "value": null,
@@ -6907,10 +7012,10 @@
       }
      ],
      "prediction": {
-      "pHome": 0.437,
+      "pHome": 0.4371,
       "pDraw": 0.2704,
-      "pAway": 0.2926,
-      "pOver25": 0.4394,
+      "pAway": 0.2925,
+      "pOver25": 0.4393,
       "pBtts": 0.4889,
       "xgHome": 1.37,
       "xgAway": 1.07,
@@ -7155,17 +7260,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.1302,
+      "pHome": 0.1303,
       "pDraw": 0.1486,
-      "pAway": 0.7203,
-      "pOver25": 0.7789,
-      "pBtts": 0.6642,
+      "pAway": 0.7202,
+      "pOver25": 0.7787,
+      "pBtts": 0.6641,
       "xgHome": 1.21,
       "xgAway": 2.91,
       "tipScore": "1:2",
       "confidence": "hoch"
      },
-     "pBtts": 0.6642,
+     "pBtts": 0.6641,
      "odds": null,
      "value": null,
      "scorersHome": [
@@ -7475,9 +7580,9 @@
      },
      "pBtts": 0.6245,
      "odds": {
-      "h": 1.43,
-      "d": 4.45,
-      "a": 6.8,
+      "h": 1.41,
+      "d": 4.6,
+      "a": 7.1,
       "src": "10Bet"
      },
      "value": null,
@@ -7567,9 +7672,9 @@
      },
      "pBtts": 0.347,
      "odds": {
-      "h": 4.2,
+      "h": 4.35,
       "d": 3.45,
-      "a": 1.85,
+      "a": 1.82,
       "src": "10Bet"
      },
      "value": null,
@@ -7659,9 +7764,9 @@
      },
      "pBtts": 0.5799,
      "odds": {
-      "h": 3.05,
-      "d": 3.55,
-      "a": 2.18,
+      "h": 3.1,
+      "d": 3.6,
+      "a": 2.12,
       "src": "10Bet"
      },
      "value": null,
@@ -7755,9 +7860,9 @@
      },
      "pBtts": 0.3033,
      "odds": {
-      "h": 1.75,
-      "d": 3.5,
-      "a": 4.65,
+      "h": 1.74,
+      "d": 3.55,
+      "a": 4.7,
       "src": "10Bet"
      },
      "value": null,
@@ -7885,64 +7990,6 @@
   }
  ],
  "tennis": [
-  {
-   "start": "2026-07-31T16:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Axeria Open 2026 powered by Intaro Sport",
-   "round": "Viertelfinale",
-   "surface": null,
-   "p1": {
-    "name": "Lucia Bronzetti",
-    "rank": 118,
-    "form": [
-     "N",
-     "N",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": 1493,
-    "rankYearAgo": 66,
-    "oppElo": 1677,
-    "onSurface": null,
-    "favSurface": "Sand",
-    "last7": 4,
-    "sets7": 9
-   },
-   "p2": {
-    "name": "Sara Sorribes Tormo",
-    "rank": 214,
-    "form": [
-     "N",
-     "S",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": 1515,
-    "rankYearAgo": null,
-    "oppElo": 1626,
-    "onSurface": null,
-    "favSurface": "Sand",
-    "last7": 2,
-    "sets7": 5
-   },
-   "pP1": 0.4687,
-   "model": {
-    "n1": 151,
-    "n2": 114,
-    "elo1": 1493,
-    "elo2": 1515,
-    "pElo": 0.4687,
-    "pRank": 0.6239,
-    "wElo": 1.0
-   },
-   "h2h": [],
-   "analysis": "Lucia Bronzetti (Weltrangliste #118) trifft auf Sara Sorribes Tormo (#214). Lucia Bronzetti hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 66 auf #118). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Sara Sorribes Tormo mit 53 % vorn. Bemerkenswert: Die Weltrangliste würde eher Lucia Bronzetti favorisieren – die Formkurve spricht aber dagegen. Lucia Bronzetti hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 9 Sätzen) – die physische Frische ist ein Fragezeichen.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
   {
    "start": "2026-07-31T18:00:00+02:00",
    "tour": "WTA",
