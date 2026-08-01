@@ -9,18 +9,18 @@
 /tmp/tennisdata/atp_2026.xlsx: OK über http://www.tennis-data.co.uk (277950 Bytes)
 /tmp/tennisdata/wta_2026.xlsx: OK über http://www.tennis-data.co.uk (264884 Bytes)
 total 3812
-drwxr-xr-x  2 runner runner   4096 Jul 31 22:56 .
-drwxrwxrwt 14 root   root    12288 Jul 31 22:56 ..
--rw-r--r--  1 runner runner 417917 Jul 31 22:56 atp_2022.xlsx
--rw-r--r--  1 runner runner 447088 Jul 31 22:56 atp_2023.xlsx
--rw-r--r--  1 runner runner 445729 Jul 31 22:56 atp_2024.xlsx
--rw-r--r--  1 runner runner 426707 Jul 31 22:56 atp_2025.xlsx
--rw-r--r--  1 runner runner 277950 Jul 31 22:56 atp_2026.xlsx
--rw-r--r--  1 runner runner 370069 Jul 31 22:56 wta_2022.xlsx
--rw-r--r--  1 runner runner 407251 Jul 31 22:56 wta_2023.xlsx
--rw-r--r--  1 runner runner 406783 Jul 31 22:56 wta_2024.xlsx
--rw-r--r--  1 runner runner 399398 Jul 31 22:56 wta_2025.xlsx
--rw-r--r--  1 runner runner 264884 Jul 31 22:56 wta_2026.xlsx
+drwxr-xr-x  2 runner runner   4096 Aug  1 06:18 .
+drwxrwxrwt 14 root   root    12288 Aug  1 06:18 ..
+-rw-r--r--  1 runner runner 417917 Aug  1 06:18 atp_2022.xlsx
+-rw-r--r--  1 runner runner 447088 Aug  1 06:18 atp_2023.xlsx
+-rw-r--r--  1 runner runner 445729 Aug  1 06:18 atp_2024.xlsx
+-rw-r--r--  1 runner runner 426707 Aug  1 06:18 atp_2025.xlsx
+-rw-r--r--  1 runner runner 277950 Aug  1 06:18 atp_2026.xlsx
+-rw-r--r--  1 runner runner 370069 Aug  1 06:18 wta_2022.xlsx
+-rw-r--r--  1 runner runner 407251 Aug  1 06:18 wta_2023.xlsx
+-rw-r--r--  1 runner runner 406783 Aug  1 06:18 wta_2024.xlsx
+-rw-r--r--  1 runner runner 399398 Aug  1 06:18 wta_2025.xlsx
+-rw-r--r--  1 runner runner 264884 Aug  1 06:18 wta_2026.xlsx
   WARN: https://www.football-data.co.uk/mmz4281/2627/E0.csv nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://www.football-data.co.uk/mmz4281/2627/I1.csv nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://www.football-data.co.uk/mmz4281/2627/SP1.csv nicht erreichbar (HTTP Error 404: Not Found)
@@ -125,8 +125,8 @@ fixtures.csv: 21 Spiele mit Quoten
   5 Spiele in den naechsten 3 Tagen
   2 Prognosen via Team-Historie-Fallback erstellt
 == MLS (USA) ==
-  504 Ergebnisse geladen
-  18 Spiele in den naechsten 3 Tagen
+  505 Ergebnisse geladen
+  17 Spiele in den naechsten 3 Tagen
   3 Prognosen via Team-Historie-Fallback erstellt
 == Série A (Brasilien) ==
   469 Ergebnisse geladen
@@ -153,10 +153,10 @@ fixtures.csv: 21 Spiele mit Quoten
   Historie: ATP 12410 Matches, WTA 11528 Matches
   Elo ATP: 546 Spieler bewertet
   Elo WTA: 572 Spieler bewertet
-  Belag-Zuordnung (MatchStat): 33 Turniere
-  Tennis-Quoten zugeordnet: 2
-  87 Tennis-Matches in den naechsten 3 Tagen
-  0 Tennis-Matches heute bereits beendet
-  Tipp-Log: 728 Eintraege, 511 ausgewertet, 316 richtig
-  Premium-Abrufe: Tennis 8, Fussball 221 (Tennis AKTIV, Fussball AKTIV)
+  Belag-Zuordnung (MatchStat): 39 Turniere
+  Tennis-Quoten zugeordnet: 0
+  81 Tennis-Matches in den naechsten 3 Tagen
+  3 Tennis-Matches heute bereits beendet
+  Tipp-Log: 747 Eintraege, 521 ausgewertet, 316 richtig
+  Premium-Abrufe: Tennis 8, Fussball 218 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
