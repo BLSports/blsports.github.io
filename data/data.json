@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-01T15:10:45.414246+02:00",
+ "generatedAt": "2026-08-01T16:57:08.502329+02:00",
  "windowDays": 3,
  "days": [
   "2026-08-01",
@@ -335,7 +335,7 @@
      "prediction": {
       "pHome": 0.2098,
       "pDraw": 0.231,
-      "pAway": 0.5592,
+      "pAway": 0.5593,
       "pOver25": 0.5311,
       "pBtts": 0.5291,
       "xgHome": 1.01,
@@ -423,14 +423,14 @@
       "pHome": 0.5158,
       "pDraw": 0.2423,
       "pAway": 0.2419,
-      "pOver25": 0.5176,
-      "pBtts": 0.5339,
+      "pOver25": 0.5177,
+      "pBtts": 0.534,
       "xgHome": 1.68,
       "xgAway": 1.07,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5339,
+     "pBtts": 0.534,
      "odds": null,
      "value": null,
      "scorersHome": [],
@@ -680,8 +680,8 @@
      "prediction": {
       "pHome": 0.3964,
       "pDraw": 0.2877,
-      "pAway": 0.3159,
-      "pOver25": 0.3853,
+      "pAway": 0.3158,
+      "pOver25": 0.3854,
       "pBtts": 0.4496,
       "xgHome": 1.2,
       "xgAway": 1.03,
@@ -747,17 +747,17 @@
      "nTeams": null,
      "h2h": [],
      "prediction": {
-      "pHome": 0.6486,
-      "pDraw": 0.2003,
-      "pAway": 0.1511,
-      "pOver25": 0.5706,
-      "pBtts": 0.5162,
+      "pHome": 0.6489,
+      "pDraw": 0.2002,
+      "pAway": 0.1509,
+      "pOver25": 0.5705,
+      "pBtts": 0.5159,
       "xgHome": 2.08,
       "xgAway": 0.89,
       "tipScore": "2:0",
       "confidence": "niedrig"
      },
-     "pBtts": 0.5162,
+     "pBtts": 0.5159,
      "odds": {
       "h": 1.9,
       "d": 3.9,
@@ -828,17 +828,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4688,
-      "pDraw": 0.2108,
-      "pAway": 0.3204,
-      "pOver25": 0.7244,
-      "pBtts": 0.7125,
+      "pHome": 0.4687,
+      "pDraw": 0.2107,
+      "pAway": 0.3205,
+      "pOver25": 0.7245,
+      "pBtts": 0.7127,
       "xgHome": 2.07,
       "xgAway": 1.69,
       "tipScore": "2:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.7125,
+     "pBtts": 0.7127,
      "odds": {
       "h": 3.4,
       "d": 3.8,
@@ -908,10 +908,10 @@
       }
      ],
      "prediction": {
-      "pHome": 0.3931,
+      "pHome": 0.3932,
       "pDraw": 0.2129,
-      "pAway": 0.3939,
-      "pOver25": 0.7308,
+      "pAway": 0.3938,
+      "pOver25": 0.7309,
       "pBtts": 0.723,
       "xgHome": 1.9,
       "xgAway": 1.9,
@@ -954,7 +954,13 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "Regular Season - 2",
-     "formHome": [],
+     "formHome": [
+      "N",
+      "S",
+      "S",
+      "N",
+      "S"
+     ],
      "formAway": [
       "S",
       "N",
@@ -973,16 +979,62 @@
      "posHome": 9,
      "posAway": 3,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "13.07.2024",
+       "home": "FC Vaduz",
+       "away": "FC ST. Gallen",
+       "score": "0:1"
+      },
+      {
+       "date": "24.04.2021",
+       "home": "FC ST. Gallen",
+       "away": "FC Vaduz",
+       "score": "1:0"
+      },
+      {
+       "date": "20.02.2021",
+       "home": "FC Vaduz",
+       "away": "FC ST. Gallen",
+       "score": "2:1"
+      },
+      {
+       "date": "20.01.2021",
+       "home": "FC ST. Gallen",
+       "away": "FC Vaduz",
+       "score": "2:0"
+      },
+      {
+       "date": "27.09.2020",
+       "home": "FC Vaduz",
+       "away": "FC ST. Gallen",
+       "score": "0:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.6005,
+      "pDraw": 0.1965,
+      "pAway": 0.2029,
+      "pOver25": 0.6816,
+      "pBtts": 0.6399,
+      "xgHome": 2.26,
+      "xgAway": 1.25,
+      "tipScore": "2:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6399,
      "odds": {
       "h": 3.0,
       "d": 3.85,
       "a": 2.1,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.2888,
+      "modelP": 0.6005,
+      "odds": 3.0
+     },
      "scorersHome": [
       {
        "name": "L. Dalipi",
@@ -1000,8 +1052,8 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Gefährlichste Torschützen: bei FC ST. Gallen Alessandro Vogt (5 Tore).",
-     "basis": "Datenbasis: Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "analysis": "FC Vaduz geht als klarer Favorit (60 %) in das Heimspiel gegen FC ST. Gallen. In der Tabelle stehen sich Platz 9 und Platz 3 gegenüber. Das letzte Duell (2024) endete 0:1 (FC Vaduz – FC ST. Gallen). Das Modell erwartet ein torreiches Spiel (xG 2,3:1,2; über 2,5 Tore: 68 %, beide Teams treffen zu 64 %). Gefährlichste Torschützen: bei FC Vaduz L. Dalipi (1 Tore) und bei FC ST. Gallen Alessandro Vogt (5 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,00) für 29 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-02T16:30:00+02:00",
@@ -1044,17 +1096,17 @@
      "nTeams": null,
      "h2h": [],
      "prediction": {
-      "pHome": 0.4599,
+      "pHome": 0.4597,
       "pDraw": 0.2837,
-      "pAway": 0.2564,
-      "pOver25": 0.3762,
-      "pBtts": 0.4303,
+      "pAway": 0.2566,
+      "pOver25": 0.3764,
+      "pBtts": 0.4305,
       "xgHome": 1.3,
-      "xgAway": 0.89,
+      "xgAway": 0.9,
       "tipScore": "1:0",
       "confidence": "niedrig"
      },
-     "pBtts": 0.4303,
+     "pBtts": 0.4305,
      "odds": {
       "h": 2.05,
       "d": 3.8,
@@ -1128,17 +1180,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5627,
-      "pDraw": 0.2215,
-      "pAway": 0.2158,
-      "pOver25": 0.5804,
-      "pBtts": 0.5694,
+      "pHome": 0.5622,
+      "pDraw": 0.2216,
+      "pAway": 0.2161,
+      "pOver25": 0.58,
+      "pBtts": 0.5693,
       "xgHome": 1.91,
       "xgAway": 1.1,
       "tipScore": "1:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.5694,
+     "pBtts": 0.5693,
      "odds": {
       "h": 3.65,
       "d": 3.7,
@@ -1180,92 +1232,6 @@
    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
    "espn": "sco.1",
    "matches": [
-    {
-     "kickoff": "2026-08-01T16:00:00+02:00",
-     "home": "Falkirk",
-     "away": "St Mirren",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/254.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/250.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "S",
-      "N",
-      "N",
-      "N"
-     ],
-     "formAway": [
-      "N",
-      "N",
-      "N",
-      "S",
-      "U"
-     ],
-     "formHomeH": [
-      "N",
-      "N",
-      "S",
-      "N",
-      "N"
-     ],
-     "formAwayA": [
-      "N",
-      "S",
-      "N",
-      "N",
-      "S"
-     ],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 3,
-     "posAway": 8,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "21.03.2026",
-       "home": "Falkirk",
-       "away": "St Mirren",
-       "score": "1:2"
-      },
-      {
-       "date": "10.01.2026",
-       "home": "St Mirren",
-       "away": "Falkirk",
-       "score": "0:2"
-      },
-      {
-       "date": "13.09.2025",
-       "home": "Falkirk",
-       "away": "St Mirren",
-       "score": "1:2"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.555,
-      "pDraw": 0.25,
-      "pAway": 0.195,
-      "pOver25": 0.4393,
-      "pBtts": 0.4515,
-      "xgHome": 1.6,
-      "xgAway": 0.83,
-      "tipScore": "1:0",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.4515,
-     "odds": {
-      "h": 1.97,
-      "d": 3.6,
-      "a": 3.5,
-      "src": "10Bet"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Falkirk geht als klarer Favorit (55 %) in das Heimspiel gegen St Mirren. Heim-/Auswärtsbilanz: Falkirk gewann 1 der letzten 5 Heimspiele, St Mirren 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:2 (Falkirk – St Mirren). Das Modell erwartet eher wenige Tore (xG 1,6:0,8; über 2,5 Tore: 44 %, beide Teams treffen zu 45 %).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-08-01T18:30:00+02:00",
      "home": "Aberdeen",
@@ -1443,21 +1409,21 @@
      },
      "pBtts": 0.552,
      "odds": {
-      "h": 2.2,
-      "d": 3.4,
-      "a": 3.1,
+      "h": 2.22,
+      "d": 3.45,
+      "a": 3.05,
       "src": "10Bet"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.0983,
+      "edge": 0.1009,
       "modelP": 0.5226,
-      "odds": 2.2
+      "odds": 2.22
      },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "St Johnstone ist gegen Kilmarnock leicht favorisiert (52 % zu 24 %). In der Tabelle stehen sich Platz 10 und Platz 6 gegenüber. Das letzte Duell (2025) endete 0:2 (ST Johnstone – Kilmarnock). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,7:1,1; über 2,5 Tore: 54 %, beide Teams treffen zu 55 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,20) für 10 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "St Johnstone ist gegen Kilmarnock leicht favorisiert (52 % zu 24 %). In der Tabelle stehen sich Platz 10 und Platz 6 gegenüber. Das letzte Duell (2025) endete 0:2 (ST Johnstone – Kilmarnock). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,7:1,1; über 2,5 Tore: 54 %, beide Teams treffen zu 55 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,22) für 10 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -1540,9 +1506,9 @@
      },
      "pBtts": 0.4657,
      "odds": {
-      "h": 2.24,
+      "h": 2.25,
       "d": 3.4,
-      "a": 3.0,
+      "a": 3.05,
       "src": "10Bet"
      },
      "value": null,
@@ -2125,9 +2091,9 @@
      },
      "pBtts": 0.6796,
      "odds": {
-      "h": 1.63,
-      "d": 4.4,
-      "a": 4.35,
+      "h": 1.58,
+      "d": 4.65,
+      "a": 4.55,
       "src": "10Bet"
      },
      "value": null,
@@ -2859,8 +2825,8 @@
      },
      "pBtts": 0.5886,
      "odds": {
-      "h": 2.92,
-      "d": 3.6,
+      "h": 2.9,
+      "d": 3.65,
       "a": 2.22,
       "src": "10Bet"
      },
@@ -3366,7 +3332,7 @@
      "odds": {
       "h": 2.12,
       "d": 3.9,
-      "a": 2.94,
+      "a": 2.92,
       "src": "10Bet"
      },
      "value": null,
@@ -3459,138 +3425,6 @@
    "espn": "nor.1",
    "matches": [
     {
-     "kickoff": "2026-08-01T16:00:00+02:00",
-     "home": "Fredrikstad",
-     "away": "Sandefjord",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3039.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3279.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "U",
-      "S",
-      "N",
-      "N",
-      "N"
-     ],
-     "formAway": [
-      "U",
-      "N",
-      "U",
-      "N",
-      "N"
-     ],
-     "formHomeH": [
-      "U",
-      "N",
-      "S",
-      "S",
-      "N"
-     ],
-     "formAwayA": [
-      "S",
-      "N",
-      "N",
-      "N",
-      "N"
-     ],
-     "load14Home": 1,
-     "load14Away": 2,
-     "posHome": 12,
-     "posAway": 11,
-     "nTeams": 16,
-     "h2h": [
-      {
-       "date": "25.05.2026",
-       "home": "Sandefjord",
-       "away": "Fredrikstad",
-       "score": "1:1"
-      },
-      {
-       "date": "26.10.2025",
-       "home": "Sandefjord",
-       "away": "Fredrikstad",
-       "score": "0:0"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.3821,
-      "pDraw": 0.2743,
-      "pAway": 0.3436,
-      "pOver25": 0.4381,
-      "pBtts": 0.4941,
-      "xgHome": 1.25,
-      "xgAway": 1.18,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.4941,
-     "odds": {
-      "h": 2.25,
-      "d": 3.35,
-      "a": 3.0,
-      "src": "10Bet"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen Fredrikstad und Sandefjord deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Fredrikstad 39 %, Unentschieden 27 %, Sieg Sandefjord 34 %). In der Tabelle stehen sich Platz 16 und Platz 14 gegenüber. Heim-/Auswärtsbilanz: Fredrikstad gewann 2 der letzten 5 Heimspiele, Sandefjord 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:1 (Sandefjord – Fredrikstad). Das Modell erwartet eher wenige Tore (xG 1,2:1,2; über 2,5 Tore: 44 %, beide Teams treffen zu 49 %). Personal: Fredrikstad fehlen 11 Spieler (u.a. S. Kvile); Sandefjord fehlen 7 Spieler (u.a. J. Swift).",
-     "injuriesHome": [
-      {
-       "name": "S. Kvile",
-       "reason": "Thigh Injury"
-      },
-      {
-       "name": "J. Nysveen",
-       "reason": "Injury"
-      },
-      {
-       "name": "B. Faraas",
-       "reason": "Injury"
-      },
-      {
-       "name": "S. Owusu",
-       "reason": "Injury"
-      },
-      {
-       "name": "F. Holme",
-       "reason": "Injury"
-      },
-      {
-       "name": "J. Nunez",
-       "reason": "Leg Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "J. Swift",
-       "reason": "Injury"
-      },
-      {
-       "name": "M. Melchior",
-       "reason": "Injury"
-      },
-      {
-       "name": "F. Loftesnes-Bjune",
-       "reason": "Thigh Injury"
-      },
-      {
-       "name": "J. Dunsby",
-       "reason": "Thigh Injury"
-      },
-      {
-       "name": "H. Krogelien",
-       "reason": "Injury"
-      },
-      {
-       "name": "Z. Smajlovic",
-       "reason": "Red Card"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
      "kickoff": "2026-08-01T18:00:00+02:00",
      "home": "IK Start",
      "away": "Viking FK",
@@ -3626,7 +3460,7 @@
       "S",
       "U"
      ],
-     "load14Home": 2,
+     "load14Home": 1,
      "load14Away": 3,
      "posHome": 16,
      "posAway": 2,
@@ -3641,16 +3475,16 @@
      ],
      "prediction": {
       "pHome": 0.0813,
-      "pDraw": 0.1267,
-      "pAway": 0.791,
-      "pOver25": 0.7365,
-      "pBtts": 0.5553,
+      "pDraw": 0.1268,
+      "pAway": 0.7909,
+      "pOver25": 0.7363,
+      "pBtts": 0.5551,
       "xgHome": 0.88,
       "xgAway": 2.96,
       "tipScore": "0:2",
       "confidence": "hoch"
      },
-     "pBtts": 0.5553,
+     "pBtts": 0.5551,
      "odds": {
       "h": 5.4,
       "d": 4.4,
@@ -3724,13 +3558,7 @@
        "reason": "Leg Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "LIVE! Sechs-Punkte-Start für Zwickau?",
-       "link": "https://www.kicker.de/live-sechs-punkte-start-fuer-zwickau-1238720/artikel#omrss"
-      }
-     ]
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-02T17:00:00+02:00",
@@ -3786,13 +3614,13 @@
       "pDraw": 0.231,
       "pAway": 0.5635,
       "pOver25": 0.5256,
-      "pBtts": 0.5226,
+      "pBtts": 0.5225,
       "xgHome": 0.99,
       "xgAway": 1.79,
       "tipScore": "0:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5226,
+     "pBtts": 0.5225,
      "odds": {
       "h": 3.7,
       "d": 3.65,
@@ -3904,8 +3732,8 @@
       "U",
       "N"
      ],
-     "load14Home": 2,
-     "load14Away": 2,
+     "load14Home": 1,
+     "load14Away": 1,
      "posHome": 14,
      "posAway": 15,
      "nTeams": 16,
@@ -3926,8 +3754,8 @@
      "prediction": {
       "pHome": 0.5685,
       "pDraw": 0.247,
-      "pAway": 0.1845,
-      "pOver25": 0.4375,
+      "pAway": 0.1846,
+      "pOver25": 0.4376,
       "pBtts": 0.4436,
       "xgHome": 1.62,
       "xgAway": 0.8,
@@ -4042,7 +3870,7 @@
       "U"
      ],
      "load14Home": 2,
-     "load14Away": 2,
+     "load14Away": 1,
      "posHome": 5,
      "posAway": 3,
      "nTeams": 16,
@@ -4061,17 +3889,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.6221,
+      "pHome": 0.6222,
       "pDraw": 0.2083,
       "pAway": 0.1695,
-      "pOver25": 0.5699,
-      "pBtts": 0.5316,
+      "pOver25": 0.57,
+      "pBtts": 0.5317,
       "xgHome": 2.02,
       "xgAway": 0.95,
       "tipScore": "2:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.5316,
+     "pBtts": 0.5317,
      "odds": null,
      "value": null,
      "scorersHome": [
@@ -4148,7 +3976,7 @@
       "S"
      ],
      "load14Home": 2,
-     "load14Away": 2,
+     "load14Away": 1,
      "posHome": 9,
      "posAway": 10,
      "nTeams": 16,
@@ -4167,9 +3995,9 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5432,
+      "pHome": 0.5433,
       "pDraw": 0.2068,
-      "pAway": 0.2499,
+      "pAway": 0.2498,
       "pOver25": 0.6905,
       "pBtts": 0.6685,
       "xgHome": 2.15,
@@ -4181,7 +4009,7 @@
      "odds": {
       "h": 1.9,
       "d": 3.9,
-      "a": 3.55,
+      "a": 3.5,
       "src": "10Bet"
      },
      "value": null,
@@ -4314,9 +4142,9 @@
      ],
      "prediction": {
       "pHome": 0.3435,
-      "pDraw": 0.2266,
+      "pDraw": 0.2267,
       "pAway": 0.4298,
-      "pOver25": 0.6529,
+      "pOver25": 0.6528,
       "pBtts": 0.6603,
       "xgHome": 1.58,
       "xgAway": 1.78,
@@ -4449,21 +4277,21 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5247,
-      "pDraw": 0.2499,
+      "pHome": 0.5246,
+      "pDraw": 0.25,
       "pAway": 0.2254,
-      "pOver25": 0.4715,
-      "pBtts": 0.492,
+      "pOver25": 0.4714,
+      "pBtts": 0.4919,
       "xgHome": 1.6,
       "xgAway": 0.96,
       "tipScore": "1:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.492,
+     "pBtts": 0.4919,
      "odds": {
-      "h": 1.7,
-      "d": 3.7,
-      "a": 4.75,
+      "h": 1.75,
+      "d": 3.75,
+      "a": 4.4,
       "src": "10Bet"
      },
      "value": null,
@@ -4575,15 +4403,15 @@
      "prediction": {
       "pHome": 0.6982,
       "pDraw": 0.1932,
-      "pAway": 0.1085,
-      "pOver25": 0.5037,
-      "pBtts": 0.4172,
+      "pAway": 0.1086,
+      "pOver25": 0.5038,
+      "pBtts": 0.4173,
       "xgHome": 2.04,
       "xgAway": 0.65,
       "tipScore": "2:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.4172,
+     "pBtts": 0.4173,
      "odds": null,
      "value": null,
      "scorersHome": [],
@@ -4666,12 +4494,12 @@
      "nTeams": 16,
      "h2h": [],
      "prediction": {
-      "pHome": 0.6922,
-      "pDraw": 0.1654,
+      "pHome": 0.6923,
+      "pDraw": 0.1653,
       "pAway": 0.142,
-      "pOver25": 0.7209,
+      "pOver25": 0.721,
       "pBtts": 0.6258,
-      "xgHome": 2.61,
+      "xgHome": 2.62,
       "xgAway": 1.13,
       "tipScore": "2:1",
       "confidence": "hoch"
@@ -4798,9 +4626,9 @@
      ],
      "prediction": {
       "pHome": 0.0801,
-      "pDraw": 0.1329,
+      "pDraw": 0.1328,
       "pAway": 0.7864,
-      "pOver25": 0.6975,
+      "pOver25": 0.6976,
       "pBtts": 0.5186,
       "xgHome": 0.8,
       "xgAway": 2.8,
@@ -4920,14 +4748,14 @@
       "pHome": 0.23,
       "pDraw": 0.2355,
       "pAway": 0.5344,
-      "pOver25": 0.5349,
-      "pBtts": 0.542,
+      "pOver25": 0.5348,
+      "pBtts": 0.5419,
       "xgHome": 1.07,
       "xgAway": 1.75,
       "tipScore": "1:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.542,
+     "pBtts": 0.5419,
      "odds": {
       "h": 2.85,
       "d": 3.5,
@@ -5019,7 +4847,7 @@
       "pHome": 0.6466,
       "pDraw": 0.1875,
       "pAway": 0.1657,
-      "pOver25": 0.6608,
+      "pOver25": 0.6609,
       "pBtts": 0.5984,
       "xgHome": 2.31,
       "xgAway": 1.09,
@@ -5250,10 +5078,10 @@
       }
      ],
      "prediction": {
-      "pHome": 0.437,
+      "pHome": 0.4371,
       "pDraw": 0.2704,
-      "pAway": 0.2926,
-      "pOver25": 0.4394,
+      "pAway": 0.2925,
+      "pOver25": 0.4393,
       "pBtts": 0.4889,
       "xgHome": 1.37,
       "xgAway": 1.07,
@@ -5374,17 +5202,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.1302,
+      "pHome": 0.1303,
       "pDraw": 0.1486,
-      "pAway": 0.7203,
-      "pOver25": 0.7789,
-      "pBtts": 0.6642,
+      "pAway": 0.7202,
+      "pOver25": 0.7787,
+      "pBtts": 0.6641,
       "xgHome": 1.21,
       "xgAway": 2.91,
       "tipScore": "1:2",
       "confidence": "hoch"
      },
-     "pBtts": 0.6642,
+     "pBtts": 0.6641,
      "odds": {
       "h": 4.5,
       "d": 4.0,
@@ -5520,17 +5348,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4433,
-      "pDraw": 0.2361,
+      "pHome": 0.4434,
+      "pDraw": 0.236,
       "pAway": 0.3206,
-      "pOver25": 0.5984,
-      "pBtts": 0.6159,
+      "pOver25": 0.5985,
+      "pBtts": 0.616,
       "xgHome": 1.69,
       "xgAway": 1.41,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6159,
+     "pBtts": 0.616,
      "odds": {
       "h": 2.05,
       "d": 3.6,
@@ -5880,386 +5708,7 @@
  ],
  "tennis": [
   {
-   "start": "2026-08-01T15:20:00+02:00",
-   "tour": "WTA",
-   "tournament": "Axeria Open 2026 powered by Intaro Sport",
-   "round": "Halbfinale",
-   "surface": null,
-   "p1": {
-    "name": "Francesca Jones",
-    "rank": 110,
-    "form": [
-     "N",
-     "N",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": 1374,
-    "rankYearAgo": 89,
-    "oppElo": 1676,
-    "onSurface": null,
-    "favSurface": "Sand",
-    "last7": 5,
-    "sets7": 12
-   },
-   "p2": {
-    "name": "Kaitlin Quevedo",
-    "rank": 103,
-    "form": [
-     "S",
-     "N",
-     "S",
-     "N",
-     "N"
-    ],
-    "elo": 1482,
-    "rankYearAgo": null,
-    "oppElo": 1643,
-    "onSurface": null,
-    "favSurface": "Sand",
-    "last7": 3,
-    "sets7": 6
-   },
-   "pP1": 0.4175,
-   "model": {
-    "n1": 45,
-    "n2": 10,
-    "elo1": 1374,
-    "elo2": 1482,
-    "pElo": 0.3489,
-    "pRank": 0.486,
-    "wElo": 0.5
-   },
-   "h2h": [],
-   "analysis": "Francesca Jones (Weltrangliste #110) trifft auf Kaitlin Quevedo (#103). Die aktuelle Form spricht für Kaitlin Quevedo: 2 Siege aus den letzten 5 Matches, Francesca Jones holte nur 0. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Kaitlin Quevedo mit 58 % vorn. Francesca Jones hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 12 Sätzen) – die physische Frische ist ein Fragezeichen.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-08-01T16:30:00+02:00",
-   "tour": "ATP",
-   "tournament": "National Bank Open presented by Rogers",
-   "round": "Qualifying Final",
-   "surface": null,
-   "p1": {
-    "name": "Nicolas Mejia",
-    "rank": 131,
-    "form": [
-     "N",
-     "N",
-     "S",
-     "N"
-    ],
-    "elo": 1427,
-    "rankYearAgo": 244,
-    "oppElo": 1557,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "p2": {
-    "name": "Marco Trungelliti",
-    "rank": 91,
-    "form": [
-     "N",
-     "S",
-     "N",
-     "S",
-     "N"
-    ],
-    "elo": 1497,
-    "rankYearAgo": 147,
-    "oppElo": 1618,
-    "onSurface": null,
-    "favSurface": "Sand",
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.4185,
-   "model": {
-    "n1": 4,
-    "n2": 29,
-    "elo1": 1427,
-    "elo2": 1497,
-    "pElo": 0.3996,
-    "pRank": 0.4232,
-    "wElo": 0.2
-   },
-   "h2h": [],
-   "analysis": "Nicolas Mejia (Weltrangliste #131) trifft auf Marco Trungelliti (#91). Nicolas Mejia befindet sich im Aufwind: vor rund einem Jahr noch um Platz 244, inzwischen #131. Marco Trungelliti befindet sich im Aufwind: vor rund einem Jahr noch um Platz 147, inzwischen #91. Wichtiger Formkontext: Marco Trungelliti spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1618 vs. 1557). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Marco Trungelliti mit 58 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 2.21,
-    "p2": 1.69,
-    "src": "Pinnacle"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-08-01T16:30:00+02:00",
-   "tour": "ATP",
-   "tournament": "National Bank Open presented by Rogers",
-   "round": "Qualifying Final",
-   "surface": null,
-   "p1": {
-    "name": "Henrique Rocha",
-    "rank": 123,
-    "form": [
-     "S",
-     "N",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": 1383,
-    "rankYearAgo": 200,
-    "oppElo": 1598,
-    "onSurface": null,
-    "favSurface": "Sand",
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Martin Damm",
-    "rank": 104,
-    "form": [
-     "S",
-     "N",
-     "N",
-     "S",
-     "N"
-    ],
-    "elo": 1581,
-    "rankYearAgo": 431,
-    "oppElo": 1640,
-    "onSurface": null,
-    "favSurface": "Hartplatz",
-    "last7": 3,
-    "sets7": 8
-   },
-   "pP1": 0.3537,
-   "model": {
-    "n1": 10,
-    "n2": 21,
-    "elo1": 1383,
-    "elo2": 1581,
-    "pElo": 0.243,
-    "pRank": 0.4644,
-    "wElo": 0.5
-   },
-   "h2h": [],
-   "analysis": "Henrique Rocha (Weltrangliste #123) trifft auf Martin Damm (#104). Henrique Rocha befindet sich im Aufwind: vor rund einem Jahr noch um Platz 200, inzwischen #123. Martin Damm befindet sich im Aufwind: vor rund einem Jahr noch um Platz 431, inzwischen #104. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Martin Damm mit 65 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-08-01T16:30:00+02:00",
-   "tour": "ATP",
-   "tournament": "National Bank Open presented by Rogers",
-   "round": "Qualifying Final",
-   "surface": null,
-   "p1": {
-    "name": "Kyrian Jacquet",
-    "rank": 120,
-    "form": [
-     "S",
-     "N",
-     "N",
-     "S",
-     "N"
-    ],
-    "elo": 1486,
-    "rankYearAgo": 150,
-    "oppElo": 1631,
-    "onSurface": null,
-    "favSurface": "Hartplatz",
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Aleksandr Shevchenko",
-    "rank": 89,
-    "form": [
-     "S",
-     "S",
-     "S",
-     "N",
-     "N"
-    ],
-    "elo": 1591,
-    "rankYearAgo": 91,
-    "oppElo": 1628,
-    "onSurface": null,
-    "favSurface": "Hartplatz",
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.3865,
-   "model": {
-    "n1": 12,
-    "n2": 134,
-    "elo1": 1486,
-    "elo2": 1591,
-    "pElo": 0.353,
-    "pRank": 0.4368,
-    "wElo": 0.6
-   },
-   "h2h": [],
-   "analysis": "Kyrian Jacquet (Weltrangliste #120) trifft auf Aleksandr Shevchenko (#89). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Aleksandr Shevchenko mit 61 % vorn. Quoten-Hinweis: Das Modell hält Aleksandr Shevchenko (Quote 2,32) für 20 Prozentpunkte wahrscheinlicher als der Markt.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 1.64,
-    "p2": 2.32,
-    "src": "Pinnacle"
-   },
-   "value": {
-    "name": "Aleksandr Shevchenko",
-    "odds": 2.32,
-    "edge": 0.1994,
-    "modelP": 0.6135
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-08-01T16:30:00+02:00",
-   "tour": "ATP",
-   "tournament": "National Bank Open presented by Rogers",
-   "round": "Qualifying Final",
-   "surface": null,
-   "p1": {
-    "name": "Pablo Llamas Ruiz",
-    "rank": 129,
-    "form": [
-     "S",
-     "S",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": 1542,
-    "rankYearAgo": 361,
-    "oppElo": 1665,
-    "onSurface": null,
-    "favSurface": "Sand",
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Marcos Giron",
-    "rank": 85,
-    "form": [
-     "N",
-     "N",
-     "S",
-     "S",
-     "N"
-    ],
-    "elo": 1587,
-    "rankYearAgo": 61,
-    "oppElo": 1757,
-    "onSurface": null,
-    "favSurface": "Rasen",
-    "last7": 3,
-    "sets7": 6
-   },
-   "pP1": 0.4327,
-   "model": {
-    "n1": 18,
-    "n2": 226,
-    "elo1": 1542,
-    "elo2": 1587,
-    "pElo": 0.435,
-    "pRank": 0.4123,
-    "wElo": 0.9
-   },
-   "h2h": [],
-   "analysis": "Pablo Llamas Ruiz (Weltrangliste #129) trifft auf Marcos Giron (#85). Pablo Llamas Ruiz befindet sich im Aufwind: vor rund einem Jahr noch um Platz 361, inzwischen #129. Wichtiger Formkontext: Marcos Giron spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1757 vs. 1665). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Marcos Giron mit 57 % vorn. Quoten-Hinweis: Das Modell hält Pablo Llamas Ruiz (Quote 2,59) für 6 Prozentpunkte wahrscheinlicher als der Markt.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 2.59,
-    "p2": 1.52,
-    "src": "Pinnacle"
-   },
-   "value": {
-    "name": "Pablo Llamas Ruiz",
-    "odds": 2.59,
-    "edge": 0.0629,
-    "modelP": 0.4327
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-08-01T16:30:00+02:00",
-   "tour": "ATP",
-   "tournament": "National Bank Open presented by Rogers",
-   "round": "Qualifying Final",
-   "surface": null,
-   "p1": {
-    "name": "Kei Nishikori",
-    "rank": 721,
-    "form": [
-     "S",
-     "N",
-     "S",
-     "N",
-     "N"
-    ],
-    "elo": 1601,
-    "rankYearAgo": 65,
-    "oppElo": 1617,
-    "onSurface": null,
-    "favSurface": "Hartplatz",
-    "last7": 2,
-    "sets7": 5
-   },
-   "p2": {
-    "name": "Michael Zheng",
-    "rank": 118,
-    "form": [
-     "N",
-     "N",
-     "S",
-     "S",
-     "N"
-    ],
-    "elo": 1554,
-    "rankYearAgo": null,
-    "oppElo": 1637,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 5
-   },
-   "pP1": 0.3331,
-   "model": {
-    "n1": 36,
-    "n2": 8,
-    "elo1": 1601,
-    "elo2": 1554,
-    "pElo": 0.5675,
-    "pRank": 0.1768,
-    "wElo": 0.4
-   },
-   "h2h": [],
-   "analysis": "Kei Nishikori (Weltrangliste #721) trifft auf Michael Zheng (#118). Kei Nishikori hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 65 auf #721). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Michael Zheng mit 67 % vorn. Bemerkenswert: Die Weltrangliste würde eher Michael Zheng favorisieren – die Formkurve spricht aber dagegen.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 2.9,
-    "p2": 1.43,
-    "src": "Pinnacle"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-08-01T17:00:00+02:00",
+   "start": "2026-08-01T17:05:00+02:00",
    "tour": "WTA",
    "tournament": "Axeria Open 2026 powered by Intaro Sport",
    "round": "Halbfinale",
@@ -6317,7 +5766,7 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-08-01T17:00:00+02:00",
+   "start": "2026-08-01T17:05:00+02:00",
    "tour": "WTA",
    "tournament": "National Bank Open presented by Rogers",
    "round": "Qualifying Final",
@@ -6375,7 +5824,7 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-08-01T17:00:00+02:00",
+   "start": "2026-08-01T17:05:00+02:00",
    "tour": "WTA",
    "tournament": "National Bank Open presented by Rogers",
    "round": "Qualifying Final",
@@ -6433,7 +5882,7 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-08-01T17:00:00+02:00",
+   "start": "2026-08-01T17:05:00+02:00",
    "tour": "WTA",
    "tournament": "National Bank Open presented by Rogers",
    "round": "Qualifying Final",
@@ -6481,7 +5930,7 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-08-01T17:00:00+02:00",
+   "start": "2026-08-01T17:05:00+02:00",
    "tour": "WTA",
    "tournament": "National Bank Open presented by Rogers",
    "round": "Qualifying Final",
@@ -7589,54 +7038,6 @@
    "round": "Qualifying Final",
    "surface": null,
    "p1": {
-    "name": "Ana Grubor",
-    "rank": 534,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "p2": {
-    "name": "Maya Joint",
-    "rank": 76,
-    "form": [
-     "N",
-     "S",
-     "N",
-     "S",
-     "N"
-    ],
-    "elo": null,
-    "rankYearAgo": 44,
-    "oppElo": 1573,
-    "onSurface": null,
-    "favSurface": "Rasen",
-    "last7": 2,
-    "sets7": 5
-   },
-   "pP1": 0.1601,
-   "model": {
-    "n1": 0,
-    "n2": 72,
-    "pRank": 0.1601
-   },
-   "h2h": [],
-   "analysis": "Ana Grubor (Weltrangliste #534) trifft auf Maya Joint (#76). Maya Joint hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 44 auf #76). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Maya Joint mit 84 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-08-01T21:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "National Bank Open presented by Rogers",
-   "round": "Qualifying Final",
-   "surface": null,
-   "p1": {
     "name": "Sloane Stephens",
     "rank": 320,
     "form": [
@@ -7655,35 +7056,35 @@
     "sets7": 5
    },
    "p2": {
-    "name": "Katie Volynets",
-    "rank": 93,
+    "name": "Harriet Dart",
+    "rank": 143,
     "form": [
-     "S",
+     "N",
      "N",
      "N",
      "S",
      "N"
     ],
-    "elo": 1500,
-    "rankYearAgo": 107,
-    "oppElo": 1682,
+    "elo": 1419,
+    "rankYearAgo": 198,
+    "oppElo": 1617,
     "onSurface": null,
-    "favSurface": "Hartplatz",
+    "favSurface": "Rasen",
     "last7": 3,
-    "sets7": 8
+    "sets7": 7
    },
-   "pP1": 0.4024,
+   "pP1": 0.5169,
    "model": {
     "n1": 130,
-    "n2": 110,
+    "n2": 85,
     "elo1": 1431,
-    "elo2": 1500,
-    "pElo": 0.4024,
-    "pRank": 0.2592,
+    "elo2": 1419,
+    "pElo": 0.5169,
+    "pRank": 0.3352,
     "wElo": 1.0
    },
    "h2h": [],
-   "analysis": "Sloane Stephens (Weltrangliste #320) trifft auf Katie Volynets (#93). Sloane Stephens befindet sich im Aufwind: vor rund einem Jahr noch um Platz 1051, inzwischen #320. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Katie Volynets mit 60 % vorn.",
+   "analysis": "Sloane Stephens (Weltrangliste #320) trifft auf Harriet Dart (#143). Sloane Stephens befindet sich im Aufwind: vor rund einem Jahr noch um Platz 1051, inzwischen #320. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Sloane Stephens mit 52 % vorn. Bemerkenswert: Die Weltrangliste würde eher Harriet Dart favorisieren – die Formkurve spricht aber dagegen.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -7695,22 +7096,22 @@
    "round": "Qualifying Final",
    "surface": null,
    "p1": {
-    "name": "Elvina Kalieva",
-    "rank": 132,
+    "name": "Heather Watson",
+    "rank": 475,
     "form": [
-     "S",
      "N",
+     "S",
      "N",
      "N",
      "N"
     ],
-    "elo": 1332,
-    "rankYearAgo": null,
-    "oppElo": 1630,
+    "elo": 1469,
+    "rankYearAgo": 143,
+    "oppElo": 1665,
     "onSurface": null,
-    "favSurface": "Hartplatz",
-    "last7": 3,
-    "sets7": 8
+    "favSurface": "Rasen",
+    "last7": 2,
+    "sets7": 5
    },
    "p2": {
     "name": "Anna Blinkova",
@@ -7730,18 +7131,18 @@
     "last7": 0,
     "sets7": 0
    },
-   "pP1": 0.3545,
+   "pP1": 0.4348,
    "model": {
-    "n1": 10,
+    "n1": 50,
     "n2": 165,
-    "elo1": 1332,
+    "elo1": 1469,
     "elo2": 1514,
-    "pElo": 0.2595,
-    "pRank": 0.4495,
-    "wElo": 0.5
+    "pElo": 0.4348,
+    "pRank": 0.2157,
+    "wElo": 1.0
    },
    "h2h": [],
-   "analysis": "Elvina Kalieva (Weltrangliste #132) trifft auf Anna Blinkova (#104). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Anna Blinkova mit 65 % vorn.",
+   "analysis": "Heather Watson (Weltrangliste #475) trifft auf Anna Blinkova (#104). Heather Watson hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 143 auf #475). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Anna Blinkova mit 57 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -7762,7 +7163,7 @@
      "N",
      "N"
     ],
-    "elo": 1288,
+    "elo": null,
     "rankYearAgo": null,
     "oppElo": 1673,
     "onSurface": null,
@@ -7771,161 +7172,25 @@
     "sets7": 3
    },
    "p2": {
-    "name": "Darja Vidmanova",
-    "rank": 114,
-    "form": [
-     "N",
-     "N",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": 1333,
-    "rankYearAgo": 161,
-    "oppElo": 1647,
+    "name": "Guo Hanyu",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
     "onSurface": null,
-    "favSurface": "Hartplatz",
-    "last7": 3,
-    "sets7": 8
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
    },
-   "pP1": 0.4625,
+   "pP1": 0.6401,
    "model": {
     "n1": 22,
-    "n2": 7,
-    "elo1": 1288,
-    "elo2": 1333,
-    "pElo": 0.4355,
-    "pRank": 0.4771,
-    "wElo": 0.35
+    "n2": 0,
+    "pRank": 0.6401
    },
    "h2h": [],
-   "analysis": "Kayla Day (Weltrangliste #127) trifft auf Darja Vidmanova (#114). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Darja Vidmanova mit 54 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-08-01T21:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "National Bank Open presented by Rogers",
-   "round": "Qualifying Final",
-   "surface": null,
-   "p1": {
-    "name": "Rebecca Sramkova",
-    "rank": 141,
-    "form": [
-     "N",
-     "N",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": 1496,
-    "rankYearAgo": 38,
-    "oppElo": 1515,
-    "onSurface": null,
-    "favSurface": "Hartplatz",
-    "last7": 3,
-    "sets7": 6
-   },
-   "p2": {
-    "name": "Mananchaya Sawangkaew",
-    "rank": 111,
-    "form": [
-     "N",
-     "N",
-     "S",
-     "S",
-     "N"
-    ],
-    "elo": 1676,
-    "rankYearAgo": null,
-    "oppElo": 1748,
-    "onSurface": null,
-    "favSurface": "Hartplatz",
-    "last7": 4,
-    "sets7": 10
-   },
-   "pP1": 0.2994,
-   "model": {
-    "n1": 92,
-    "n2": 16,
-    "elo1": 1496,
-    "elo2": 1676,
-    "pElo": 0.2619,
-    "pRank": 0.4493,
-    "wElo": 0.8
-   },
-   "h2h": [
-    {
-     "year": "2024",
-     "tourney": "Thailand Open 2",
-     "surface": "Hartplatz",
-     "winner": "Rebecca Sramkova",
-     "winnerIsP1": true,
-     "score": "6:2 2:6 6:4",
-     "rnd": "1st Round"
-    }
-   ],
-   "analysis": "Rebecca Sramkova (Weltrangliste #141) trifft auf Mananchaya Sawangkaew (#111). Rebecca Sramkova hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 38 auf #141). Die aktuelle Form spricht für Mananchaya Sawangkaew: 2 Siege aus den letzten 5 Matches, Rebecca Sramkova holte nur 0. Wichtiger Formkontext: Mananchaya Sawangkaew spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1748 vs. 1515). Das bisher einzige Duell (2024, Thailand Open 2) gewann Rebecca Sramkova mit 6:2 2:6 6:4. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Mananchaya Sawangkaew mit 70 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-08-01T21:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "National Bank Open presented by Rogers",
-   "round": "Qualifying Final",
-   "surface": null,
-   "p1": {
-    "name": "Emerson Jones",
-    "rank": 139,
-    "form": [
-     "N",
-     "N",
-     "S",
-     "N",
-     "N"
-    ],
-    "elo": 1551,
-    "rankYearAgo": null,
-    "oppElo": 1805,
-    "onSurface": null,
-    "favSurface": "Hartplatz",
-    "last7": 3,
-    "sets7": 8
-   },
-   "p2": {
-    "name": "Taylah Preston",
-    "rank": 119,
-    "form": [
-     "N",
-     "S",
-     "N",
-     "S",
-     "N"
-    ],
-    "elo": 1602,
-    "rankYearAgo": null,
-    "oppElo": 1704,
-    "onSurface": null,
-    "favSurface": "Hartplatz",
-    "last7": 4,
-    "sets7": 9
-   },
-   "pP1": 0.447,
-   "model": {
-    "n1": 10,
-    "n2": 16,
-    "elo1": 1551,
-    "elo2": 1602,
-    "pElo": 0.427,
-    "pRank": 0.467,
-    "wElo": 0.5
-   },
-   "h2h": [],
-   "analysis": "Emerson Jones (Weltrangliste #139) trifft auf Taylah Preston (#119). Wichtiger Formkontext: Emerson Jones spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1805 vs. 1704). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Taylah Preston mit 55 % vorn.",
+   "analysis": "Kayla Day (#127) trifft auf Guo Hanyu, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Kayla Day mit 64 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -8266,6 +7531,180 @@
    },
    "h2h": [],
    "analysis": "Taylah Preston (Weltrangliste #119) trifft auf Maddison Inglis (#150). Wichtiger Formkontext: Maddison Inglis spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1802 vs. 1704). Auf Hartplatz liegt die Siegquote von Taylah Preston zuletzt bei 38 % (5:8), Maddison Inglis kommt auf 38 % (6:10). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Taylah Preston mit 68 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-08-01T22:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "National Bank Open presented by Rogers",
+   "round": "Qualifying Final",
+   "surface": null,
+   "p1": {
+    "name": "Emerson Jones",
+    "rank": 139,
+    "form": [
+     "N",
+     "N",
+     "S",
+     "N",
+     "N"
+    ],
+    "elo": 1551,
+    "rankYearAgo": null,
+    "oppElo": 1805,
+    "onSurface": null,
+    "favSurface": "Hartplatz",
+    "last7": 3,
+    "sets7": 8
+   },
+   "p2": {
+    "name": "Varvara Lepchenko",
+    "rank": 175,
+    "form": [
+     "N",
+     "S",
+     "S",
+     "N",
+     "N"
+    ],
+    "elo": 1435,
+    "rankYearAgo": null,
+    "oppElo": 1545,
+    "onSurface": null,
+    "favSurface": "Sand",
+    "last7": 2,
+    "sets7": 6
+   },
+   "pP1": 0.6047,
+   "model": {
+    "n1": 10,
+    "n2": 15,
+    "elo1": 1551,
+    "elo2": 1435,
+    "pElo": 0.6607,
+    "pRank": 0.5488,
+    "wElo": 0.5
+   },
+   "h2h": [],
+   "analysis": "Emerson Jones (Weltrangliste #139) trifft auf Varvara Lepchenko (#175). Wichtiger Formkontext: Emerson Jones spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1805 vs. 1545). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Emerson Jones mit 60 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-08-01T23:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "National Bank Open presented by Rogers",
+   "round": "Qualifying Final",
+   "surface": null,
+   "p1": {
+    "name": "Ana Grubor",
+    "rank": 534,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "p2": {
+    "name": "Maya Joint",
+    "rank": 76,
+    "form": [
+     "N",
+     "S",
+     "N",
+     "S",
+     "N"
+    ],
+    "elo": null,
+    "rankYearAgo": 44,
+    "oppElo": 1573,
+    "onSurface": null,
+    "favSurface": "Rasen",
+    "last7": 2,
+    "sets7": 5
+   },
+   "pP1": 0.1601,
+   "model": {
+    "n1": 0,
+    "n2": 72,
+    "pRank": 0.1601
+   },
+   "h2h": [],
+   "analysis": "Ana Grubor (Weltrangliste #534) trifft auf Maya Joint (#76). Maya Joint hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 44 auf #76). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Maya Joint mit 84 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-08-01T23:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "National Bank Open presented by Rogers",
+   "round": "Qualifying Final",
+   "surface": null,
+   "p1": {
+    "name": "Rebecca Sramkova",
+    "rank": 141,
+    "form": [
+     "N",
+     "N",
+     "N",
+     "N",
+     "N"
+    ],
+    "elo": 1496,
+    "rankYearAgo": 38,
+    "oppElo": 1515,
+    "onSurface": null,
+    "favSurface": "Hartplatz",
+    "last7": 3,
+    "sets7": 6
+   },
+   "p2": {
+    "name": "Mananchaya Sawangkaew",
+    "rank": 111,
+    "form": [
+     "N",
+     "N",
+     "S",
+     "S",
+     "N"
+    ],
+    "elo": 1676,
+    "rankYearAgo": null,
+    "oppElo": 1748,
+    "onSurface": null,
+    "favSurface": "Hartplatz",
+    "last7": 4,
+    "sets7": 10
+   },
+   "pP1": 0.2994,
+   "model": {
+    "n1": 92,
+    "n2": 16,
+    "elo1": 1496,
+    "elo2": 1676,
+    "pElo": 0.2619,
+    "pRank": 0.4493,
+    "wElo": 0.8
+   },
+   "h2h": [
+    {
+     "year": "2024",
+     "tourney": "Thailand Open 2",
+     "surface": "Hartplatz",
+     "winner": "Rebecca Sramkova",
+     "winnerIsP1": true,
+     "score": "6:2 2:6 6:4",
+     "rnd": "1st Round"
+    }
+   ],
+   "analysis": "Rebecca Sramkova (Weltrangliste #141) trifft auf Mananchaya Sawangkaew (#111). Rebecca Sramkova hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 38 auf #141). Die aktuelle Form spricht für Mananchaya Sawangkaew: 2 Siege aus den letzten 5 Matches, Rebecca Sramkova holte nur 0. Wichtiger Formkontext: Mananchaya Sawangkaew spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1748 vs. 1515). Das bisher einzige Duell (2024, Thailand Open 2) gewann Rebecca Sramkova mit 6:2 2:6 6:4. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Mananchaya Sawangkaew mit 70 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -10547,6 +9986,51 @@
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-08-03T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "T-Mobile Polish Open",
+   "round": "Qualifying Final",
+   "surface": null,
+   "p1": {
+    "name": "Georgina Garcia Perez",
+    "rank": 789,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Elena Micic",
+    "rank": 269,
+    "form": [
+     "S",
+     "N"
+    ],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.286,
+   "model": {
+    "n1": 0,
+    "n2": 2,
+    "pRank": 0.286
+   },
+   "h2h": [],
+   "analysis": "Georgina Garcia Perez (Weltrangliste #789) trifft auf Elena Micic (#269). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Elena Micic mit 71 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   }
  ],
  "meta": {
@@ -10597,13 +10081,21 @@
    "p2": "Darja Vidmanova",
    "winner": "Darja Vidmanova",
    "score": "4:6 7:6 1:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Axeria Open 2026 powered by Intaro Sport",
+   "p1": "Francesca Jones",
+   "p2": "Kaitlin Quevedo",
+   "winner": "Kaitlin Quevedo",
+   "score": "6:7"
   }
  ],
  "stats": {
   "overall": {
-   "n": 522,
-   "correct": 316,
-   "pct": 0.6054
+   "n": 523,
+   "correct": 317,
+   "pct": 0.6061
   },
   "football": {
    "n": 14,
@@ -10611,15 +10103,15 @@
    "pct": 0.4286
   },
   "tennis": {
-   "n": 508,
-   "correct": 310,
-   "pct": 0.6102
+   "n": 509,
+   "correct": 311,
+   "pct": 0.611
   },
   "exact": {
    "n": 14,
    "correct": 2
   },
-  "open": 231,
+  "open": 235,
   "recent": [
    {
     "date": "2026-08-01",
@@ -10696,6 +10188,17 @@
     "prob": 0.6169,
     "result": "Sieger: P1",
     "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-08-01",
+    "comp": "WTA · Axeria Open 2026 powered by Intaro Sport",
+    "label": "Francesca Jones – Kaitlin Quevedo",
+    "tipName": "Kaitlin Quevedo",
+    "tip": "P2",
+    "prob": 0.5825,
+    "result": "Sieger: P2",
+    "correct": true,
     "sport": "tn"
    },
    {
@@ -10883,17 +10386,6 @@
     "prob": 0.8511,
     "result": "Sieger: P1",
     "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-07-31",
-    "comp": "WTA · The Memphis Classic",
-    "label": "Renata Zarazua – Anastasia Zakharova",
-    "tipName": "Anastasia Zakharova",
-    "tip": "P2",
-    "prob": 0.5876,
-    "result": "Sieger: P1",
-    "correct": false,
     "sport": "tn"
    }
   ]
