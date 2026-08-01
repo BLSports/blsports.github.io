@@ -157,14 +157,25 @@ ALIASES = {
     "ceuta": "ceuta", "ad ceuta": "ceuta",
     "real sociedad b": "sociedad b",
     "cultural leonesa": "cul leonesa", "cultural y deportiva leonesa": "cul leonesa",
+    # Daenemark/Skandinavien: lokale vs. englische Schreibweise
+    "fc kobenhavn": "fc copenhagen", "kobenhavn": "fc copenhagen",
+    "brondby if": "brondby",
+    "aab": "aalborg", "aab aalborg": "aalborg",
+    "agf": "aarhus", "agf aarhus": "aarhus",
 }
 
 
 def norm_team(name):
     if not name:
         return ""
+    # Zeichen ohne ASCII-Zerlegung vorab uebersetzen (ø, æ, ß, ł, đ ...):
+    # sonst wird z.B. "København" zu "kbenhavn" statt "kobenhavn"
+    for src, dst in (("ø", "o"), ("Ø", "O"), ("æ", "ae"), ("Æ", "Ae"),
+                     ("ß", "ss"), ("ł", "l"), ("Ł", "L"), ("đ", "d"), ("Đ", "D")):
+        name = name.replace(src, dst)
     s = unicodedata.normalize("NFKD", name).encode("ascii", "ignore").decode("ascii")
     s = s.lower().strip()
+    s = re.sub(r"[.’'`]", "", s)  # Punkte/Apostrophe: "F.C." == "FC"
     s = re.sub(r"\s+", " ", s)
     s = ALIASES.get(s, s)
     return s
@@ -1900,7 +1911,10 @@ def main():
                 for fx in premium.foot_fixtures_window(lg["id"], season, date_list):
                     dt = datetime.fromisoformat(fx["dt"]).astimezone(TZ)
                     hk, ak, dk = norm_team(fx["home"]), norm_team(fx["away"]), dt.date().isoformat()
-                    if any(dk == c and team_match(hk, a) and team_match(ak, b)
+                    # Ein Team spielt nur 1x pro Tag: schon EINE uebereinstimmende
+                    # Seite bedeutet Dublette (faengt Namensvarianten wie
+                    # "F.C. København" vs. "FC Copenhagen" ab)
+                    if any(dk == c and (team_match(hk, a) or team_match(ak, b))
                            for a, b, c in seen_pairs):
                         continue
                     seen_pairs.append((hk, ak, dk))
