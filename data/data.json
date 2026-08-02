@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-02T18:56:58.419792+02:00",
+ "generatedAt": "2026-08-02T20:29:50.699044+02:00",
  "windowDays": 3,
  "days": [
   "2026-08-02",
@@ -538,13 +538,13 @@
      "nTeams": null,
      "h2h": [],
      "prediction": {
-      "pHome": 0.2351,
-      "pDraw": 0.2246,
-      "pAway": 0.5402,
-      "pOver25": 0.5889,
+      "pHome": 0.2349,
+      "pDraw": 0.2245,
+      "pAway": 0.5406,
+      "pOver25": 0.5891,
       "pBtts": 0.585,
       "xgHome": 1.17,
-      "xgAway": 1.88,
+      "xgAway": 1.89,
       "tipScore": "1:1",
       "confidence": "niedrig"
      },
@@ -559,7 +559,7 @@
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Bodo/Glimt ist bei Union St. Gilloise leicht favorisiert (54 % zu 24 %). Die Form spricht für Bodo/Glimt: 4 Siege aus den letzten 5 Spielen, Union St. Gilloise holte nur 2. Heim-/Auswärtsbilanz: Union St. Gilloise gewann 1 der letzten 4 Heimspiele, Bodo/Glimt 2 der letzten 5 Auswärtsspiele. Das Modell erwartet ein torreiches Spiel (xG 1,2:1,9; über 2,5 Tore: 59 %, beide Teams treffen zu 58 %).",
+     "analysis": "Bodo/Glimt ist bei Union St. Gilloise leicht favorisiert (55 % zu 23 %). Die Form spricht für Bodo/Glimt: 4 Siege aus den letzten 5 Spielen, Union St. Gilloise holte nur 2. Heim-/Auswärtsbilanz: Union St. Gilloise gewann 1 der letzten 4 Heimspiele, Bodo/Glimt 2 der letzten 5 Auswärtsspiele. Das Modell erwartet ein torreiches Spiel (xG 1,2:1,9; über 2,5 Tore: 59 %, beide Teams treffen zu 58 %).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
@@ -975,85 +975,15 @@
    "name": "Bundesliga (Österreich)",
    "flag": "🇦🇹",
    "espn": "aut.1",
-   "matches": [
-    {
-     "kickoff": "2026-08-02T19:00:00+02:00",
-     "home": "Rapid Vienna",
-     "away": "SC Rheindorf Altach",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/519.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/4405.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "N",
-      "N",
-      "N",
-      "S"
-     ],
-     "formAway": [
-      "U",
-      "N",
-      "N",
-      "U",
-      "S"
-     ],
-     "formHomeH": [
-      "N",
-      "N",
-      "S",
-      "N",
-      "S"
-     ],
-     "formAwayA": [
-      "U",
-      "N",
-      "U",
-      "N",
-      "U"
-     ],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": null,
-     "posAway": null,
-     "nTeams": 6,
-     "h2h": [
-      {
-       "date": "01.03.2026",
-       "home": "SC Rheindorf Altach",
-       "away": "Rapid Vienna",
-       "score": "1:1"
-      },
-      {
-       "date": "17.08.2025",
-       "home": "Rapid Vienna",
-       "away": "SC Rheindorf Altach",
-       "score": "0:0"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.3988,
-      "pDraw": 0.2862,
-      "pAway": 0.315,
-      "pOver25": 0.3903,
-      "pBtts": 0.4535,
-      "xgHome": 1.21,
-      "xgAway": 1.04,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.4535,
-     "odds": null,
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Rapid Vienna ist gegen SC Rheindorf Altach leicht favorisiert (39 % zu 32 %). Heim-/Auswärtsbilanz: Rapid Vienna gewann 2 der letzten 5 Heimspiele, SC Rheindorf Altach 0 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:1 (SC Rheindorf Altach – Rapid Vienna). Das Modell erwartet eher wenige Tore (xG 1,2:1,0; über 2,5 Tore: 39 %, beide Teams treffen zu 45 %).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form. Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": true,
-   "isCup": false
+   "isCup": false,
+   "nextMatch": {
+    "kickoff": "2026-08-07T19:30:00+02:00",
+    "home": "SC Rheindorf Altach",
+    "away": "WSG Swarovski Tirol",
+    "matchday": null
+   }
   },
   {
    "id": "ch1",
@@ -1216,186 +1146,15 @@
    "name": "Eliteserien (Norwegen)",
    "flag": "🇳🇴",
    "espn": "nor.1",
-   "matches": [
-    {
-     "kickoff": "2026-08-02T19:15:00+02:00",
-     "home": "SK Brann",
-     "away": "Rosenborg",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/620.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/438.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "N",
-      "S",
-      "S",
-      "N"
-     ],
-     "formAway": [
-      "N",
-      "U",
-      "S",
-      "S",
-      "S"
-     ],
-     "formHomeH": [
-      "S",
-      "S",
-      "N",
-      "S",
-      "N"
-     ],
-     "formAwayA": [
-      "N",
-      "U",
-      "N",
-      "N",
-      "S"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 9,
-     "posAway": 10,
-     "nTeams": 16,
-     "h2h": [
-      {
-       "date": "25.04.2026",
-       "home": "Rosenborg",
-       "away": "SK Brann",
-       "score": "1:1"
-      },
-      {
-       "date": "26.10.2025",
-       "home": "Rosenborg",
-       "away": "SK Brann",
-       "score": "2:3"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.5392,
-      "pDraw": 0.2072,
-      "pAway": 0.2536,
-      "pOver25": 0.6926,
-      "pBtts": 0.6714,
-      "xgHome": 2.14,
-      "xgAway": 1.43,
-      "tipScore": "2:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.6714,
-     "odds": {
-      "h": 2.0,
-      "d": 3.8,
-      "a": 3.2,
-      "src": "10Bet"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "N. Holm",
-       "goals": 5
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Amin Chiakha",
-       "goals": 6
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "SK Brann ist gegen Rosenborg leicht favorisiert (54 % zu 25 %). In der Tabelle stehen sich Platz 6 und Platz 3 gegenüber. Heim-/Auswärtsbilanz: SK Brann gewann 3 der letzten 5 Heimspiele, Rosenborg 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:1 (Rosenborg – SK Brann). Das Modell erwartet ein torreiches Spiel (xG 2,1:1,4; über 2,5 Tore: 69 %, beide Teams treffen zu 67 %). Gefährlichste Torschützen: bei Rosenborg Amin Chiakha (6 Tore). Die Aufstellungen sind offiziell (4-3-3 gegen 4-3-3). Personal: SK Brann fehlen 13 Spieler (u.a. N. Castro); Rosenborg fehlen 15 Spieler (u.a. I. Holmen).",
-     "injuriesHome": [
-      {
-       "name": "N. Castro",
-       "reason": "Achilles Tendon Injury"
-      },
-      {
-       "name": "E. Gudmundsson",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "K. M. Ingason",
-       "reason": "Groin Injury"
-      },
-      {
-       "name": "S. Magnusson",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "S. Opsahl",
-       "reason": "Foot Injury"
-      },
-      {
-       "name": "J. Torsvik",
-       "reason": "Groin Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "I. Holmen",
-       "reason": "Lacking Match Fitness"
-      },
-      {
-       "name": "J. Mortensen",
-       "reason": "Ankle Injury"
-      },
-      {
-       "name": "T. Nemcik",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "S. Nordli",
-       "reason": "Injury"
-      },
-      {
-       "name": "J. Reitan-Sunde",
-       "reason": "Broken collarbone"
-      },
-      {
-       "name": "E. Slordal",
-       "reason": "Leg Injury"
-      }
-     ],
-     "lineups": {
-      "home": {
-       "formation": "4-3-3",
-       "xi": [
-        "Mathias Dyngeland",
-        "Denzel De Roeve",
-        "Fredrik Pallesen Knudsen",
-        "Thore Pedersen",
-        "Joachim Soltvedt",
-        "Jacob Lungi Sørensen",
-        "Niklas Jensen Wassberg",
-        "Felix Horn Myhre",
-        "Eggert Aron Guðmundsson",
-        "Noah Jean Holm",
-        "Niklas Castro"
-       ]
-      },
-      "away": {
-       "formation": "4-3-3",
-       "xi": [
-        "Leopold Wahlstedt",
-        "Mikkel Konradsen Ceide",
-        "Jonas Svensson",
-        "Tomáš Nemčík",
-        "Adrian Nilsen Pereira",
-        "Mads Bomholt",
-        "Ole Selnaes",
-        "Iver Fossum",
-        "Dávid Ďuriš",
-        "Amin Chiakha",
-        "Emil Konradsen Ceide"
-       ]
-      }
-     },
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": true,
-   "isCup": false
+   "isCup": false,
+   "nextMatch": {
+    "kickoff": "2026-08-07T19:00:00+02:00",
+    "home": "Sandefjord",
+    "away": "KFUM Oslo",
+    "matchday": null
+   }
   },
   {
    "id": "se1",
@@ -1446,17 +1205,17 @@
      "nTeams": 16,
      "h2h": [],
      "prediction": {
-      "pHome": 0.6936,
-      "pDraw": 0.1645,
-      "pAway": 0.1414,
-      "pOver25": 0.724,
-      "pBtts": 0.6278,
-      "xgHome": 2.63,
-      "xgAway": 1.13,
+      "pHome": 0.6887,
+      "pDraw": 0.1663,
+      "pAway": 0.1446,
+      "pOver25": 0.7222,
+      "pBtts": 0.6293,
+      "xgHome": 2.61,
+      "xgAway": 1.14,
       "tipScore": "2:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6278,
+     "pBtts": 0.6293,
      "odds": {
       "h": 1.45,
       "d": 4.6,
@@ -1477,7 +1236,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Djurgården geht als klarer Favorit (70 %) in das Heimspiel gegen Västerås SK. In der Tabelle stehen sich Platz 4 und Platz 3 gegenüber. Heim-/Auswärtsbilanz: Djurgården gewann 2 der letzten 5 Heimspiele, Västerås SK 3 der letzten 5 Auswärtsspiele. Das Modell erwartet ein torreiches Spiel (xG 2,6:1,1; über 2,5 Tore: 72 %, beide Teams treffen zu 63 %). Gefährlichste Torschützen: bei Djurgården Kristian Stromland Lien (7 Tore) und bei Västerås SK Mikkel Ladefoged (9 Tore). Personal: Djurgården fehlen 9 Spieler (u.a. M. Anderson); Västerås SK fehlen 9 Spieler (u.a. M. Diallo).",
+     "analysis": "Djurgården geht als klarer Favorit (69 %) in das Heimspiel gegen Västerås SK. In der Tabelle stehen sich Platz 4 und Platz 3 gegenüber. Heim-/Auswärtsbilanz: Djurgården gewann 2 der letzten 5 Heimspiele, Västerås SK 3 der letzten 5 Auswärtsspiele. Das Modell erwartet ein torreiches Spiel (xG 2,6:1,1; über 2,5 Tore: 72 %, beide Teams treffen zu 63 %). Gefährlichste Torschützen: bei Djurgården Kristian Stromland Lien (7 Tore) und bei Västerås SK Mikkel Ladefoged (9 Tore). Personal: Djurgården fehlen 9 Spieler (u.a. M. Anderson); Västerås SK fehlen 9 Spieler (u.a. M. Diallo).",
      "injuriesHome": [
       {
        "name": "M. Anderson",
@@ -1582,17 +1341,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.08,
-      "pDraw": 0.1323,
-      "pAway": 0.787,
-      "pOver25": 0.7003,
-      "pBtts": 0.5208,
-      "xgHome": 0.81,
-      "xgAway": 2.81,
+      "pHome": 0.078,
+      "pDraw": 0.1303,
+      "pAway": 0.791,
+      "pOver25": 0.7028,
+      "pBtts": 0.5188,
+      "xgHome": 0.8,
+      "xgAway": 2.83,
       "tipScore": "0:2",
       "confidence": "hoch"
      },
-     "pBtts": 0.5208,
+     "pBtts": 0.5188,
      "odds": {
       "h": 7.5,
       "d": 5.0,
@@ -1725,17 +1484,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4468,
-      "pDraw": 0.2353,
-      "pAway": 0.3179,
-      "pOver25": 0.6012,
-      "pBtts": 0.6176,
-      "xgHome": 1.7,
+      "pHome": 0.4493,
+      "pDraw": 0.2343,
+      "pAway": 0.3165,
+      "pOver25": 0.6052,
+      "pBtts": 0.6205,
+      "xgHome": 1.72,
       "xgAway": 1.41,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6176,
+     "pBtts": 0.6205,
      "odds": {
       "h": 2.05,
       "d": 3.65,
@@ -1751,7 +1510,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Odense Boldklub ist gegen Sønderjyske Fodbold leicht favorisiert (44 % zu 32 %). In der Tabelle stehen sich Platz 11 und Platz 12 gegenüber. Heim-/Auswärtsbilanz: Odense Boldklub gewann 3 der letzten 5 Heimspiele, Sønderjyske Fodbold 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:0 (Sønderjyske Fodbold – Odense Boldklub). Das Modell erwartet ein torreiches Spiel (xG 1,7:1,4; über 2,5 Tore: 60 %, beide Teams treffen zu 62 %). Gefährlichste Torschützen: bei Sønderjyske Fodbold Magnus Jensen (1 Tore). Personal: Odense Boldklub fehlen 3 Spieler (u.a. J. Grot); Sønderjyske Fodbold fehlen 3 Spieler (u.a. T. Klysner).",
+     "analysis": "Odense Boldklub ist gegen Sønderjyske Fodbold leicht favorisiert (45 % zu 32 %). In der Tabelle stehen sich Platz 11 und Platz 12 gegenüber. Heim-/Auswärtsbilanz: Odense Boldklub gewann 3 der letzten 5 Heimspiele, Sønderjyske Fodbold 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:0 (Sønderjyske Fodbold – Odense Boldklub). Das Modell erwartet ein torreiches Spiel (xG 1,7:1,4; über 2,5 Tore: 61 %, beide Teams treffen zu 62 %). Gefährlichste Torschützen: bei Sønderjyske Fodbold Magnus Jensen (1 Tore). Personal: Odense Boldklub fehlen 3 Spieler (u.a. J. Grot); Sønderjyske Fodbold fehlen 3 Spieler (u.a. T. Klysner).",
      "injuriesHome": [
       {
        "name": "J. Grot",
@@ -1791,234 +1550,14 @@
    "name": "Premier Division (Irland)",
    "flag": "🇮🇪",
    "espn": "irl.1",
-   "matches": [
-    {
-     "kickoff": "2026-08-02T20:00:00+02:00",
-     "home": "Bohemians",
-     "away": "Galway United",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 26",
-     "formHome": [
-      "N",
-      "N",
-      "U",
-      "N",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "S",
-      "U",
-      "N",
-      "U"
-     ],
-     "formHomeH": [
-      "S",
-      "N",
-      "S",
-      "U",
-      "N"
-     ],
-     "formAwayA": [
-      "N",
-      "N",
-      "U",
-      "N",
-      "U"
-     ],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 3,
-     "posAway": 7,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "17.10.2025",
-       "home": "Galway United FC",
-       "away": "Bohemians",
-       "score": "2:0"
-      },
-      {
-       "date": "11.07.2025",
-       "home": "Bohemians",
-       "away": "Galway United FC",
-       "score": "3:0"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.6523,
-      "pDraw": 0.217,
-      "pAway": 0.1307,
-      "pOver25": 0.4612,
-      "pBtts": 0.4143,
-      "xgHome": 1.84,
-      "xgAway": 0.68,
-      "tipScore": "1:0",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.4143,
-     "odds": {
-      "h": 1.54,
-      "d": 4.2,
-      "a": 5.4,
-      "src": "10Bet"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "C. Whelan",
-       "goals": 9
-      },
-      {
-       "name": "R. Tierney",
-       "goals": 6
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "K. Twardek",
-       "goals": 6
-      },
-      {
-       "name": "F. Pierrot",
-       "goals": 5
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Bohemians geht als klarer Favorit (65 %) in das Heimspiel gegen Galway United. Heim-/Auswärtsbilanz: Bohemians gewann 2 der letzten 5 Heimspiele, Galway United 0 der letzten 5 Auswärtsspiele. Das letzte Duell (2025) endete 2:0 (Galway United FC – Bohemians). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,8:0,7; über 2,5 Tore: 46 %, beide Teams treffen zu 41 %).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": false,
    "isCup": false
   }
  ],
  "tennis": [
   {
-   "start": "2026-08-02T18:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "National Bank Open presented by Rogers",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Viktorija Golubic",
-    "rank": 51,
-    "form": [
-     "S",
-     "S",
-     "N",
-     "S",
-     "N"
-    ],
-    "elo": 1642,
-    "rankYearAgo": 77,
-    "oppElo": 1652,
-    "onSurface": null,
-    "favSurface": "Rasen",
-    "last7": 1,
-    "sets7": 3
-   },
-   "p2": {
-    "name": "Kimberly Birrell",
-    "rank": 66,
-    "form": [
-     "N",
-     "S",
-     "N",
-     "S",
-     "N"
-    ],
-    "elo": 1613,
-    "rankYearAgo": 82,
-    "oppElo": 1711,
-    "onSurface": null,
-    "favSurface": "Hartplatz",
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": 0.5414,
-   "model": {
-    "n1": 81,
-    "n2": 91,
-    "elo1": 1642,
-    "elo2": 1613,
-    "pElo": 0.5414,
-    "pRank": 0.5546,
-    "wElo": 1.0
-   },
-   "h2h": [
-    {
-     "year": "2025",
-     "tourney": "BNP Paribas Open",
-     "surface": "Hartplatz",
-     "winner": "Kimberly Birrell",
-     "winnerIsP1": false,
-     "score": "6:4 6:4",
-     "rnd": "1st Round"
-    }
-   ],
-   "analysis": "Viktorija Golubic (Weltrangliste #51) trifft auf Kimberly Birrell (#66). Viktorija Golubic befindet sich im Aufwind: vor rund einem Jahr noch um Platz 77, inzwischen #51. Das bisher einzige Duell (2025, BNP Paribas Open) gewann Kimberly Birrell mit 6:4 6:4. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Viktorija Golubic mit 54 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 1.95,
-    "p2": 1.85,
-    "src": "Marathon Bet"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-08-02T18:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "National Bank Open presented by Rogers",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Sara Bejlek",
-    "rank": 38,
-    "form": [
-     "S",
-     "N",
-     "S",
-     "S",
-     "N"
-    ],
-    "elo": null,
-    "rankYearAgo": 120,
-    "oppElo": 1600,
-    "onSurface": null,
-    "favSurface": "Hartplatz",
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Wang Xiyu",
-    "rank": 94,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "pP1": 0.6835,
-   "model": {
-    "n1": 42,
-    "n2": 0,
-    "pRank": 0.6835
-   },
-   "h2h": [],
-   "analysis": "Sara Bejlek (Weltrangliste #38) trifft auf Wang Xiyu (#94). Sara Bejlek befindet sich im Aufwind: vor rund einem Jahr noch um Platz 120, inzwischen #38. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Sara Bejlek mit 68 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-08-02T19:10:00+02:00",
+   "start": "2026-08-02T20:45:00+02:00",
    "tour": "ATP",
    "tournament": "National Bank Open presented by Rogers",
    "round": "1. Runde",
@@ -2086,64 +1625,94 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-08-02T19:20:00+02:00",
-   "tour": "ATP",
-   "tournament": "National Bank Open presented by Rogers",
-   "round": "1. Runde",
-   "surface": null,
+   "start": "2026-08-02T20:45:00+02:00",
+   "tour": "WTA",
+   "tournament": "Mubadala DC Open",
+   "round": "Finale",
+   "surface": "Hartplatz",
    "p1": {
-    "name": "Martin Landaluce",
-    "rank": 63,
+    "name": "Alexandra Eala",
+    "rank": 28,
     "form": [
+     "N",
+     "N",
+     "N",
      "S",
-     "N",
-     "N",
-     "N",
      "N"
     ],
-    "elo": 1538,
-    "rankYearAgo": 142,
-    "oppElo": 1604,
-    "onSurface": null,
-    "favSurface": "Hartplatz",
-    "last7": 1,
-    "sets7": 2
+    "elo": 1536,
+    "rankYearAgo": 75,
+    "oppElo": 1704,
+    "onSurface": {
+     "w": 9,
+     "l": 18,
+     "pct": 0.333
+    },
+    "favSurface": "Rasen",
+    "last7": 4,
+    "sets7": 9
    },
    "p2": {
-    "name": "Nicolas Mejia",
-    "rank": 131,
+    "name": "Jessica Pegula",
+    "rank": 3,
     "form": [
      "N",
+     "S",
      "N",
      "S",
      "N"
     ],
-    "elo": 1427,
-    "rankYearAgo": 244,
-    "oppElo": 1557,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 5
+    "elo": 1924,
+    "rankYearAgo": 4,
+    "oppElo": 2001,
+    "onSurface": {
+     "w": 131,
+     "l": 51,
+     "pct": 0.72
+    },
+    "favSurface": "Hartplatz",
+    "last7": 3,
+    "sets7": 7
    },
-   "pP1": 0.6515,
+   "pP1": 0.0969,
    "model": {
-    "n1": 31,
-    "n2": 4,
-    "elo1": 1538,
-    "elo2": 1427,
-    "pElo": 0.6545,
-    "pRank": 0.6507,
-    "wElo": 0.2
+    "n1": 40,
+    "n2": 253,
+    "elo1": 1536,
+    "elo2": 1924,
+    "pElo": 0.0969,
+    "pRank": 0.1303,
+    "wElo": 1.0
    },
-   "h2h": [],
-   "analysis": "Martin Landaluce (Weltrangliste #63) trifft auf Nicolas Mejia (#131). Martin Landaluce befindet sich im Aufwind: vor rund einem Jahr noch um Platz 142, inzwischen #63. Nicolas Mejia befindet sich im Aufwind: vor rund einem Jahr noch um Platz 244, inzwischen #131. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Martin Landaluce mit 65 % vorn.",
+   "h2h": [
+    {
+     "year": "2025",
+     "tourney": "Miami Open",
+     "surface": "Hartplatz",
+     "winner": "Jessica Pegula",
+     "winnerIsP1": false,
+     "score": "7:6 5:7 6:3",
+     "rnd": "Semifinals"
+    }
+   ],
+   "analysis": "Alexandra Eala (Weltrangliste #28) trifft auf Jessica Pegula (#3). Alexandra Eala befindet sich im Aufwind: vor rund einem Jahr noch um Platz 75, inzwischen #28. Wichtiger Formkontext: Jessica Pegula spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 2001 vs. 1704). Auf Hartplatz liegt die Siegquote von Alexandra Eala zuletzt bei 33 % (9:18), Jessica Pegula kommt auf 72 % (131:51). Alexandra Ealas stärkster Belag ist eigentlich Rasen. Das bisher einzige Duell (2025, Miami Open) gewann Jessica Pegula mit 7:6 5:7 6:3. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Jessica Pegula mit 90 % vorn. Quoten-Hinweis: Das Modell hält Jessica Pegula (Quote 1,62) für 30 Prozentpunkte wahrscheinlicher als der Markt.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 2.42,
+    "p2": 1.62,
+    "src": "Pinnacle"
+   },
+   "value": {
+    "name": "Jessica Pegula",
+    "odds": 1.62,
+    "edge": 0.3041,
+    "modelP": 0.9031
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-08-02T19:30:00+02:00",
+   "start": "2026-08-02T21:00:00+02:00",
    "tour": "ATP",
    "tournament": "National Bank Open presented by Rogers",
    "round": "1. Runde",
@@ -2220,7 +1789,240 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-08-02T19:30:00+02:00",
+   "start": "2026-08-02T21:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "National Bank Open presented by Rogers",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Martin Landaluce",
+    "rank": 63,
+    "form": [
+     "S",
+     "N",
+     "N",
+     "N",
+     "N"
+    ],
+    "elo": 1538,
+    "rankYearAgo": 142,
+    "oppElo": 1604,
+    "onSurface": null,
+    "favSurface": "Hartplatz",
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Nicolas Mejia",
+    "rank": 131,
+    "form": [
+     "N",
+     "N",
+     "S",
+     "N"
+    ],
+    "elo": 1427,
+    "rankYearAgo": 244,
+    "oppElo": 1557,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 5
+   },
+   "pP1": 0.6515,
+   "model": {
+    "n1": 31,
+    "n2": 4,
+    "elo1": 1538,
+    "elo2": 1427,
+    "pElo": 0.6545,
+    "pRank": 0.6507,
+    "wElo": 0.2
+   },
+   "h2h": [],
+   "analysis": "Martin Landaluce (Weltrangliste #63) trifft auf Nicolas Mejia (#131). Martin Landaluce befindet sich im Aufwind: vor rund einem Jahr noch um Platz 142, inzwischen #63. Nicolas Mejia befindet sich im Aufwind: vor rund einem Jahr noch um Platz 244, inzwischen #131. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Martin Landaluce mit 65 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-08-02T21:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "National Bank Open presented by Rogers",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Viktorija Golubic",
+    "rank": 51,
+    "form": [
+     "N",
+     "S",
+     "S",
+     "S",
+     "N"
+    ],
+    "elo": 1588,
+    "rankYearAgo": 77,
+    "oppElo": 1552,
+    "onSurface": null,
+    "favSurface": "Hartplatz",
+    "last7": 1,
+    "sets7": 3
+   },
+   "p2": {
+    "name": "Kimberly Birrell",
+    "rank": 66,
+    "form": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "N"
+    ],
+    "elo": 1590,
+    "rankYearAgo": 82,
+    "oppElo": 1597,
+    "onSurface": null,
+    "favSurface": "Hartplatz",
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.4976,
+   "model": {
+    "n1": 101,
+    "n2": 69,
+    "elo1": 1588,
+    "elo2": 1590,
+    "pElo": 0.4976,
+    "pRank": 0.5546,
+    "wElo": 1.0
+   },
+   "h2h": [
+    {
+     "year": "2025",
+     "tourney": "BNP Paribas Open",
+     "surface": "Hartplatz",
+     "winner": "Kimberly Birrell",
+     "winnerIsP1": false,
+     "score": "6:4 6:4",
+     "rnd": "1st Round"
+    }
+   ],
+   "analysis": "Viktorija Golubic (Weltrangliste #51) trifft auf Kimberly Birrell (#66). Viktorija Golubic befindet sich im Aufwind: vor rund einem Jahr noch um Platz 77, inzwischen #51. Das bisher einzige Duell (2025, BNP Paribas Open) gewann Kimberly Birrell mit 6:4 6:4. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Kimberly Birrell mit 50 % vorn. Bemerkenswert: Die Weltrangliste würde eher Viktorija Golubic favorisieren – die Formkurve spricht aber dagegen.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "odds": {
+    "p1": 1.95,
+    "p2": 1.85,
+    "src": "Marathon Bet"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-08-02T21:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "National Bank Open presented by Rogers",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Sara Bejlek",
+    "rank": 38,
+    "form": [
+     "S",
+     "N",
+     "S",
+     "S",
+     "N"
+    ],
+    "elo": null,
+    "rankYearAgo": 120,
+    "oppElo": 1596,
+    "onSurface": null,
+    "favSurface": "Sand",
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Wang Xiyu",
+    "rank": 94,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "pP1": 0.6835,
+   "model": {
+    "n1": 17,
+    "n2": 0,
+    "pRank": 0.6835
+   },
+   "h2h": [],
+   "analysis": "Sara Bejlek (Weltrangliste #38) trifft auf Wang Xiyu (#94). Sara Bejlek befindet sich im Aufwind: vor rund einem Jahr noch um Platz 120, inzwischen #38. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Sara Bejlek mit 68 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-08-02T21:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "National Bank Open presented by Rogers",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Ariana Arseneault",
+    "rank": 407,
+    "form": [
+     "N"
+    ],
+    "elo": null,
+    "rankYearAgo": 515,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
+   },
+   "p2": {
+    "name": "Jessica Bouzas Maneiro",
+    "rank": 59,
+    "form": [
+     "S",
+     "N",
+     "S",
+     "N",
+     "N"
+    ],
+    "elo": null,
+    "rankYearAgo": 51,
+    "oppElo": 1629,
+    "onSurface": null,
+    "favSurface": "Rasen",
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.1622,
+   "model": {
+    "n1": 1,
+    "n2": 69,
+    "pRank": 0.1622
+   },
+   "h2h": [],
+   "analysis": "Ariana Arseneault (Weltrangliste #407) trifft auf Jessica Bouzas Maneiro (#59). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Jessica Bouzas Maneiro mit 84 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "odds": {
+    "p1": 6.45,
+    "p2": 1.11,
+    "src": "Marathon Bet"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-08-02T21:10:00+02:00",
    "tour": "ATP",
    "tournament": "National Bank Open presented by Rogers",
    "round": "1. Runde",
@@ -2302,380 +2104,7 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-08-02T19:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "Mubadala DC Open",
-   "round": "Finale",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Alexandra Eala",
-    "rank": 28,
-    "form": [
-     "N",
-     "S",
-     "S",
-     "S",
-     "N"
-    ],
-    "elo": 1748,
-    "rankYearAgo": 75,
-    "oppElo": 1703,
-    "onSurface": {
-     "w": 21,
-     "l": 24,
-     "pct": 0.467
-    },
-    "favSurface": "Rasen",
-    "last7": 4,
-    "sets7": 9
-   },
-   "p2": {
-    "name": "Jessica Pegula",
-    "rank": 3,
-    "form": [
-     "S",
-     "S",
-     "S",
-     "S",
-     "N"
-    ],
-    "elo": 1998,
-    "rankYearAgo": 4,
-    "oppElo": 1648,
-    "onSurface": {
-     "w": 122,
-     "l": 40,
-     "pct": 0.753
-    },
-    "favSurface": "Hartplatz",
-    "last7": 3,
-    "sets7": 7
-   },
-   "pP1": 0.1923,
-   "model": {
-    "n1": 79,
-    "n2": 236,
-    "elo1": 1748,
-    "elo2": 1998,
-    "pElo": 0.1923,
-    "pRank": 0.1303,
-    "wElo": 1.0
-   },
-   "h2h": [
-    {
-     "year": "2025",
-     "tourney": "Miami Open",
-     "surface": "Hartplatz",
-     "winner": "Jessica Pegula",
-     "winnerIsP1": false,
-     "score": "7:6 5:7 6:3",
-     "rnd": "Semifinals"
-    }
-   ],
-   "analysis": "Alexandra Eala (Weltrangliste #28) trifft auf Jessica Pegula (#3). Alexandra Eala befindet sich im Aufwind: vor rund einem Jahr noch um Platz 75, inzwischen #28. Auf Hartplatz liegt die Siegquote von Alexandra Eala zuletzt bei 47 % (21:24), Jessica Pegula kommt auf 75 % (122:40). Alexandra Ealas stärkster Belag ist eigentlich Rasen. Das bisher einzige Duell (2025, Miami Open) gewann Jessica Pegula mit 7:6 5:7 6:3. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Jessica Pegula mit 81 % vorn. Quoten-Hinweis: Das Modell hält Jessica Pegula (Quote 1,62) für 21 Prozentpunkte wahrscheinlicher als der Markt.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 2.42,
-    "p2": 1.62,
-    "src": "Pinnacle"
-   },
-   "value": {
-    "name": "Jessica Pegula",
-    "odds": 1.62,
-    "edge": 0.2087,
-    "modelP": 0.8077
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-08-02T19:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "The Memphis Classic",
-   "round": "Finale",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Darja Vidmanova",
-    "rank": 114,
-    "form": [
-     "N",
-     "N",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": null,
-    "rankYearAgo": 161,
-    "oppElo": 1646,
-    "onSurface": {
-     "w": 1,
-     "l": 4,
-     "pct": 0.2
-    },
-    "favSurface": "Hartplatz",
-    "last7": 4,
-    "sets7": 10
-   },
-   "p2": {
-    "name": "Kristina Liutova",
-    "rank": 229,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 5,
-    "sets7": 13
-   },
-   "pP1": 0.644,
-   "model": {
-    "n1": 7,
-    "n2": 0,
-    "pRank": 0.644
-   },
-   "h2h": [],
-   "analysis": "Darja Vidmanova (Weltrangliste #114) trifft auf Kristina Liutova (#229). Auf Hartplatz liegt die Siegquote von Darja Vidmanova zuletzt bei 20 % (1:4). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Darja Vidmanova mit 64 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-08-02T20:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "National Bank Open presented by Rogers",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Venus Williams",
-    "rank": 664,
-    "form": [
-     "N",
-     "N",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": 1282,
-    "rankYearAgo": 644,
-    "oppElo": 1514,
-    "onSurface": null,
-    "favSurface": "Rasen",
-    "last7": 1,
-    "sets7": 2
-   },
-   "p2": {
-    "name": "Kamilla Rakhimova",
-    "rank": 82,
-    "form": [
-     "N",
-     "S",
-     "N",
-     "S",
-     "N"
-    ],
-    "elo": 1548,
-    "rankYearAgo": 67,
-    "oppElo": 1665,
-    "onSurface": null,
-    "favSurface": "Rasen",
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.178,
-   "model": {
-    "n1": 24,
-    "n2": 102,
-    "elo1": 1282,
-    "elo2": 1548,
-    "pElo": 0.178,
-    "pRank": 0.1446,
-    "wElo": 1.0
-   },
-   "h2h": [],
-   "analysis": "Venus Williams (Weltrangliste #664) trifft auf Kamilla Rakhimova (#82). Die aktuelle Form spricht für Kamilla Rakhimova: 2 Siege aus den letzten 5 Matches, Venus Williams holte nur 0. Wichtiger Formkontext: Kamilla Rakhimova spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1665 vs. 1514). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Kamilla Rakhimova mit 82 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 3.75,
-    "p2": 1.31,
-    "src": "Coolbet"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-08-02T20:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "National Bank Open presented by Rogers",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Antonia Ruzic",
-    "rank": 55,
-    "form": [
-     "N",
-     "N",
-     "S",
-     "N",
-     "N"
-    ],
-    "elo": 1556,
-    "rankYearAgo": 84,
-    "oppElo": 1602,
-    "onSurface": null,
-    "favSurface": "Hartplatz",
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Lois Boisson",
-    "rank": 292,
-    "form": [
-     "S",
-     "N",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": 1615,
-    "rankYearAgo": 46,
-    "oppElo": 1794,
-    "onSurface": null,
-    "favSurface": "Sand",
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": 0.4157,
-   "model": {
-    "n1": 49,
-    "n2": 27,
-    "elo1": 1556,
-    "elo2": 1615,
-    "pElo": 0.4157,
-    "pRank": 0.8052,
-    "wElo": 1.0
-   },
-   "h2h": [],
-   "analysis": "Antonia Ruzic (Weltrangliste #55) trifft auf Lois Boisson (#292). Antonia Ruzic befindet sich im Aufwind: vor rund einem Jahr noch um Platz 84, inzwischen #55. Lois Boisson hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 46 auf #292). Wichtiger Formkontext: Lois Boisson spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1794 vs. 1602). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Lois Boisson mit 58 % vorn. Bemerkenswert: Die Weltrangliste würde eher Antonia Ruzic favorisieren – die Formkurve spricht aber dagegen.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-08-02T20:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "National Bank Open presented by Rogers",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Katherine Sebov",
-    "rank": 231,
-    "form": [
-     "S",
-     "N",
-     "S",
-     "N",
-     "N"
-    ],
-    "elo": 1484,
-    "rankYearAgo": null,
-    "oppElo": 1641,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 4
-   },
-   "p2": {
-    "name": "Aoi Ito",
-    "rank": 235,
-    "form": [
-     "S",
-     "S",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": 1510,
-    "rankYearAgo": 94,
-    "oppElo": 1657,
-    "onSurface": null,
-    "favSurface": "Hartplatz",
-    "last7": 2,
-    "sets7": 6
-   },
-   "pP1": 0.491,
-   "model": {
-    "n1": 6,
-    "n2": 18,
-    "elo1": 1484,
-    "elo2": 1510,
-    "pElo": 0.4615,
-    "pRank": 0.5036,
-    "wElo": 0.3
-   },
-   "h2h": [],
-   "analysis": "Katherine Sebov (Weltrangliste #231) trifft auf Aoi Ito (#235). Aoi Ito hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 94 auf #235). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Aoi Ito mit 51 % vorn. Bemerkenswert: Die Weltrangliste würde eher Katherine Sebov favorisieren – die Formkurve spricht aber dagegen.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-08-02T20:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "National Bank Open presented by Rogers",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Ariana Arseneault",
-    "rank": 407,
-    "form": [
-     "N"
-    ],
-    "elo": null,
-    "rankYearAgo": 515,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 4
-   },
-   "p2": {
-    "name": "Jessica Bouzas Maneiro",
-    "rank": 59,
-    "form": [
-     "S",
-     "S",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": null,
-    "rankYearAgo": 51,
-    "oppElo": 1774,
-    "onSurface": null,
-    "favSurface": "Rasen",
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.1622,
-   "model": {
-    "n1": 1,
-    "n2": 98,
-    "pRank": 0.1622
-   },
-   "h2h": [],
-   "analysis": "Ariana Arseneault (Weltrangliste #407) trifft auf Jessica Bouzas Maneiro (#59). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Jessica Bouzas Maneiro mit 84 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 6.45,
-    "p2": 1.11,
-    "src": "Marathon Bet"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-08-02T20:30:00+02:00",
+   "start": "2026-08-02T21:30:00+02:00",
    "tour": "ATP",
    "tournament": "Mubadala DC Open",
    "round": "Finale",
@@ -2751,75 +2180,121 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-08-02T20:30:00+02:00",
-   "tour": "ATP",
+   "start": "2026-08-02T21:45:00+02:00",
+   "tour": "WTA",
    "tournament": "National Bank Open presented by Rogers",
    "round": "1. Runde",
    "surface": null,
    "p1": {
-    "name": "Titouan Droguet",
-    "rank": 119,
+    "name": "Katherine Sebov",
+    "rank": 231,
     "form": [
-     "S",
      "S",
      "N",
      "S",
+     "N",
      "N"
     ],
-    "elo": 1589,
-    "rankYearAgo": 176,
-    "oppElo": 1624,
-    "onSurface": null,
-    "favSurface": "Hartplatz",
-    "last7": 1,
-    "sets7": 3
-   },
-   "p2": {
-    "name": "Luca Van Assche",
-    "rank": 48,
-    "form": [
-     "S",
-     "S",
-     "S",
-     "S",
-     "S"
-    ],
-    "elo": 1632,
+    "elo": 1511,
     "rankYearAgo": null,
     "oppElo": 1647,
     "onSurface": null,
-    "favSurface": "Sand",
-    "last7": 0,
-    "sets7": 0
+    "favSurface": "Hartplatz",
+    "last7": 2,
+    "sets7": 4
    },
-   "pP1": 0.4391,
+   "p2": {
+    "name": "Aoi Ito",
+    "rank": 235,
+    "form": [
+     "S",
+     "N",
+     "S",
+     "S",
+     "N"
+    ],
+    "elo": 1604,
+    "rankYearAgo": 94,
+    "oppElo": 1733,
+    "onSurface": null,
+    "favSurface": "Hartplatz",
+    "last7": 2,
+    "sets7": 6
+   },
+   "pP1": 0.4426,
    "model": {
-    "n1": 22,
-    "n2": 67,
-    "elo1": 1589,
-    "elo2": 1632,
-    "pElo": 0.4391,
-    "pRank": 0.3161,
-    "wElo": 1.0
+    "n1": 9,
+    "n2": 16,
+    "elo1": 1511,
+    "elo2": 1604,
+    "pElo": 0.3681,
+    "pRank": 0.5036,
+    "wElo": 0.45
    },
-   "h2h": [
-    {
-     "year": "2026",
-     "tourney": "Croatia Open",
-     "surface": "Sand",
-     "winner": "Titouan Droguet",
-     "winnerIsP1": true,
-     "score": "6:1 1:6 7:5",
-     "rnd": "2nd Round"
-    }
-   ],
-   "analysis": "Titouan Droguet (Weltrangliste #119) trifft auf Luca Van Assche (#48). Die aktuelle Form spricht für Luca Van Assche: 5 Siege aus den letzten 5 Matches, Titouan Droguet holte nur 3. Das bisher einzige Duell (2026, Croatia Open) gewann Titouan Droguet mit 6:1 1:6 7:5. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Luca Van Assche mit 56 % vorn.",
+   "h2h": [],
+   "analysis": "Katherine Sebov (Weltrangliste #231) trifft auf Aoi Ito (#235). Aoi Ito hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 94 auf #235). Wichtiger Formkontext: Aoi Ito spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1733 vs. 1647). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Aoi Ito mit 56 % vorn. Bemerkenswert: Die Weltrangliste würde eher Katherine Sebov favorisieren – die Formkurve spricht aber dagegen.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-08-02T21:00:00+02:00",
+   "start": "2026-08-02T22:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "National Bank Open presented by Rogers",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Lanlana Tararudee",
+    "rank": 78,
+    "form": [
+     "N",
+     "S",
+     "S",
+     "S",
+     "N"
+    ],
+    "elo": 1573,
+    "rankYearAgo": null,
+    "oppElo": 1537,
+    "onSurface": null,
+    "favSurface": "Hartplatz",
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Emerson Jones",
+    "rank": 139,
+    "form": [
+     "S",
+     "N",
+     "N"
+    ],
+    "elo": 1540,
+    "rankYearAgo": null,
+    "oppElo": 1750,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 4,
+    "sets7": 11
+   },
+   "pP1": 0.6096,
+   "model": {
+    "n1": 8,
+    "n2": 3,
+    "elo1": 1573,
+    "elo2": 1540,
+    "pElo": 0.5483,
+    "pRank": 0.6204,
+    "wElo": 0.15
+   },
+   "h2h": [],
+   "analysis": "Lanlana Tararudee (Weltrangliste #78) trifft auf Emerson Jones (#139). Die aktuelle Form spricht für Lanlana Tararudee: 3 Siege aus den letzten 5 Matches, Emerson Jones holte nur 1. Wichtiger Formkontext: Emerson Jones spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1750 vs. 1537). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Lanlana Tararudee mit 61 % vorn. Emerson Jones hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 11 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-08-02T22:15:00+02:00",
    "tour": "ATP",
    "tournament": "National Bank Open presented by Rogers",
    "round": "1. Runde",
@@ -2907,7 +2382,133 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-08-02T21:30:00+02:00",
+   "start": "2026-08-02T22:30:00+02:00",
+   "tour": "ATP",
+   "tournament": "National Bank Open presented by Rogers",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Titouan Droguet",
+    "rank": 119,
+    "form": [
+     "S",
+     "S",
+     "N",
+     "S",
+     "N"
+    ],
+    "elo": 1589,
+    "rankYearAgo": 176,
+    "oppElo": 1624,
+    "onSurface": null,
+    "favSurface": "Hartplatz",
+    "last7": 1,
+    "sets7": 3
+   },
+   "p2": {
+    "name": "Luca Van Assche",
+    "rank": 48,
+    "form": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "elo": 1632,
+    "rankYearAgo": null,
+    "oppElo": 1647,
+    "onSurface": null,
+    "favSurface": "Sand",
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.4391,
+   "model": {
+    "n1": 22,
+    "n2": 67,
+    "elo1": 1589,
+    "elo2": 1632,
+    "pElo": 0.4391,
+    "pRank": 0.3161,
+    "wElo": 1.0
+   },
+   "h2h": [
+    {
+     "year": "2026",
+     "tourney": "Croatia Open",
+     "surface": "Sand",
+     "winner": "Titouan Droguet",
+     "winnerIsP1": true,
+     "score": "6:1 1:6 7:5",
+     "rnd": "2nd Round"
+    }
+   ],
+   "analysis": "Titouan Droguet (Weltrangliste #119) trifft auf Luca Van Assche (#48). Die aktuelle Form spricht für Luca Van Assche: 5 Siege aus den letzten 5 Matches, Titouan Droguet holte nur 3. Das bisher einzige Duell (2026, Croatia Open) gewann Titouan Droguet mit 6:1 1:6 7:5. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Luca Van Assche mit 56 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-08-02T22:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "National Bank Open presented by Rogers",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Antonia Ruzic",
+    "rank": 55,
+    "form": [
+     "S",
+     "N",
+     "S",
+     "N",
+     "N"
+    ],
+    "elo": 1596,
+    "rankYearAgo": 84,
+    "oppElo": 1689,
+    "onSurface": null,
+    "favSurface": "Hartplatz",
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Lois Boisson",
+    "rank": 292,
+    "form": [
+     "S",
+     "N",
+     "S",
+     "S",
+     "N"
+    ],
+    "elo": 1742,
+    "rankYearAgo": 46,
+    "oppElo": 1716,
+    "onSurface": null,
+    "favSurface": "Sand",
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.3013,
+   "model": {
+    "n1": 23,
+    "n2": 20,
+    "elo1": 1596,
+    "elo2": 1742,
+    "pElo": 0.3013,
+    "pRank": 0.8052,
+    "wElo": 1.0
+   },
+   "h2h": [],
+   "analysis": "Antonia Ruzic (Weltrangliste #55) trifft auf Lois Boisson (#292). Antonia Ruzic befindet sich im Aufwind: vor rund einem Jahr noch um Platz 84, inzwischen #55. Lois Boisson hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 46 auf #292). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Lois Boisson mit 70 % vorn. Bemerkenswert: Die Weltrangliste würde eher Antonia Ruzic favorisieren – die Formkurve spricht aber dagegen.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-08-02T22:30:00+02:00",
    "tour": "WTA",
    "tournament": "National Bank Open presented by Rogers",
    "round": "1. Runde",
@@ -2917,14 +2518,14 @@
     "rank": 40,
     "form": [
      "N",
-     "N",
-     "N",
-     "N",
+     "S",
+     "S",
+     "S",
      "N"
     ],
-    "elo": 1565,
+    "elo": 1622,
     "rankYearAgo": 91,
-    "oppElo": 1598,
+    "oppElo": 1698,
     "onSurface": null,
     "favSurface": "Hartplatz",
     "last7": 1,
@@ -2934,38 +2535,38 @@
     "name": "Moyuka Uchijima",
     "rank": 107,
     "form": [
-     "N",
+     "S",
      "N",
      "N",
      "N",
      "N"
     ],
-    "elo": 1356,
+    "elo": 1453,
     "rankYearAgo": 89,
-    "oppElo": 1557,
+    "oppElo": 1702,
     "onSurface": null,
     "favSurface": "Sand",
     "last7": 4,
     "sets7": 10
    },
-   "pP1": 0.7696,
+   "pP1": 0.7251,
    "model": {
-    "n1": 116,
-    "n2": 74,
-    "elo1": 1565,
-    "elo2": 1356,
-    "pElo": 0.7696,
+    "n1": 111,
+    "n2": 69,
+    "elo1": 1622,
+    "elo2": 1453,
+    "pElo": 0.7251,
     "pRank": 0.6977,
     "wElo": 1.0
    },
    "h2h": [],
-   "analysis": "Cristina Bucsa (Weltrangliste #40) trifft auf Moyuka Uchijima (#107). Cristina Bucsa befindet sich im Aufwind: vor rund einem Jahr noch um Platz 91, inzwischen #40. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Cristina Bucsa mit 77 % vorn. Moyuka Uchijima hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Cristina Bucsa (Weltrangliste #40) trifft auf Moyuka Uchijima (#107). Cristina Bucsa befindet sich im Aufwind: vor rund einem Jahr noch um Platz 91, inzwischen #40. Die aktuelle Form spricht für Cristina Bucsa: 3 Siege aus den letzten 5 Matches, Moyuka Uchijima holte nur 1. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Cristina Bucsa mit 73 % vorn. Moyuka Uchijima hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-08-02T21:30:00+02:00",
+   "start": "2026-08-02T22:30:00+02:00",
    "tour": "WTA",
    "tournament": "National Bank Open presented by Rogers",
    "round": "1. Runde",
@@ -2989,12 +2590,12 @@
      "N",
      "S",
      "N",
-     "N",
+     "S",
      "N"
     ],
     "elo": null,
     "rankYearAgo": 151,
-    "oppElo": 1633,
+    "oppElo": 1574,
     "onSurface": null,
     "favSurface": "Hartplatz",
     "last7": 1,
@@ -3003,127 +2604,11 @@
    "pP1": 0.6906,
    "model": {
     "n1": 0,
-    "n2": 32,
+    "n2": 35,
     "pRank": 0.6906
    },
    "h2h": [],
    "analysis": "Camila Osorio (Weltrangliste #56) trifft auf Lucrezia Stefanini (#144). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Camila Osorio mit 69 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-08-02T22:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "National Bank Open presented by Rogers",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Lanlana Tararudee",
-    "rank": 78,
-    "form": [
-     "S",
-     "N",
-     "S",
-     "S",
-     "N"
-    ],
-    "elo": 1602,
-    "rankYearAgo": null,
-    "oppElo": 1703,
-    "onSurface": null,
-    "favSurface": "Hartplatz",
-    "last7": 1,
-    "sets7": 2
-   },
-   "p2": {
-    "name": "Emerson Jones",
-    "rank": 139,
-    "form": [
-     "N",
-     "N",
-     "S",
-     "N",
-     "N"
-    ],
-    "elo": 1544,
-    "rankYearAgo": null,
-    "oppElo": 1797,
-    "onSurface": null,
-    "favSurface": "Hartplatz",
-    "last7": 4,
-    "sets7": 11
-   },
-   "pP1": 0.6013,
-   "model": {
-    "n1": 15,
-    "n2": 10,
-    "elo1": 1602,
-    "elo2": 1544,
-    "pElo": 0.5822,
-    "pRank": 0.6204,
-    "wElo": 0.5
-   },
-   "h2h": [],
-   "analysis": "Lanlana Tararudee (Weltrangliste #78) trifft auf Emerson Jones (#139). Die aktuelle Form spricht für Lanlana Tararudee: 3 Siege aus den letzten 5 Matches, Emerson Jones holte nur 1. Wichtiger Formkontext: Emerson Jones spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1797 vs. 1703). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Lanlana Tararudee mit 60 % vorn. Emerson Jones hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 11 Sätzen) – die physische Frische ist ein Fragezeichen.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-08-02T23:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "National Bank Open presented by Rogers",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Leolia Jeanjean",
-    "rank": 117,
-    "form": [
-     "N",
-     "N",
-     "N",
-     "S",
-     "N"
-    ],
-    "elo": 1414,
-    "rankYearAgo": 95,
-    "oppElo": 1584,
-    "onSurface": null,
-    "favSurface": "Sand",
-    "last7": 1,
-    "sets7": 3
-   },
-   "p2": {
-    "name": "Magdalena Frech",
-    "rank": 48,
-    "form": [
-     "S",
-     "N",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": 1569,
-    "rankYearAgo": 28,
-    "oppElo": 1745,
-    "onSurface": null,
-    "favSurface": "Hartplatz",
-    "last7": 2,
-    "sets7": 5
-   },
-   "pP1": 0.2911,
-   "model": {
-    "n1": 36,
-    "n2": 148,
-    "elo1": 1414,
-    "elo2": 1569,
-    "pElo": 0.2911,
-    "pRank": 0.3192,
-    "wElo": 1.0
-   },
-   "h2h": [],
-   "analysis": "Leolia Jeanjean (Weltrangliste #117) trifft auf Magdalena Frech (#48). Magdalena Frech hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 28 auf #48). Wichtiger Formkontext: Magdalena Frech spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1745 vs. 1584). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Magdalena Frech mit 71 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -3138,6 +2623,7 @@
     "name": "Cadence Brace",
     "rank": 254,
     "form": [
+     "S",
      "N"
     ],
     "elo": null,
@@ -3160,7 +2646,7 @@
     ],
     "elo": null,
     "rankYearAgo": 32,
-    "oppElo": 1769,
+    "oppElo": 1735,
     "onSurface": null,
     "favSurface": "Rasen",
     "last7": 1,
@@ -3168,8 +2654,8 @@
    },
    "pP1": 0.1925,
    "model": {
-    "n1": 1,
-    "n2": 99,
+    "n1": 2,
+    "n2": 72,
     "pRank": 0.1925
    },
    "h2h": [],
@@ -3184,64 +2670,6 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-08-02T23:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "National Bank Open presented by Rogers",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Anna Blinkova",
-    "rank": 104,
-    "form": [
-     "N",
-     "S",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": 1508,
-    "rankYearAgo": 77,
-    "oppElo": 1665,
-    "onSurface": null,
-    "favSurface": "Rasen",
-    "last7": 1,
-    "sets7": 2
-   },
-   "p2": {
-    "name": "Rebecca Sramkova",
-    "rank": 141,
-    "form": [
-     "N",
-     "N",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": 1480,
-    "rankYearAgo": 38,
-    "oppElo": 1505,
-    "onSurface": null,
-    "favSurface": "Hartplatz",
-    "last7": 3,
-    "sets7": 6
-   },
-   "pP1": 0.54,
-   "model": {
-    "n1": 152,
-    "n2": 91,
-    "elo1": 1508,
-    "elo2": 1480,
-    "pElo": 0.54,
-    "pRank": 0.5643,
-    "wElo": 1.0
-   },
-   "h2h": [],
-   "analysis": "Anna Blinkova (Weltrangliste #104) trifft auf Rebecca Sramkova (#141). Rebecca Sramkova hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 38 auf #141). Wichtiger Formkontext: Anna Blinkova spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1665 vs. 1505). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Anna Blinkova mit 54 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
    "start": "2026-08-02T23:30:00+02:00",
    "tour": "WTA",
    "tournament": "National Bank Open presented by Rogers",
@@ -3252,14 +2680,14 @@
     "rank": 71,
     "form": [
      "S",
+     "S",
      "N",
-     "N",
-     "N",
+     "S",
      "N"
     ],
-    "elo": 1600,
+    "elo": 1587,
     "rankYearAgo": 87,
-    "oppElo": 1692,
+    "oppElo": 1620,
     "onSurface": null,
     "favSurface": "Rasen",
     "last7": 3,
@@ -3269,44 +2697,38 @@
     "name": "Talia Gibson",
     "rank": 72,
     "form": [
-     "S",
+     "N",
      "S",
      "N",
      "N",
      "N"
     ],
-    "elo": 1625,
+    "elo": 1431,
     "rankYearAgo": 107,
-    "oppElo": 1715,
+    "oppElo": 1680,
     "onSurface": null,
     "favSurface": "Hartplatz",
     "last7": 1,
     "sets7": 2
    },
-   "pP1": 0.4652,
+   "pP1": 0.607,
    "model": {
-    "n1": 135,
-    "n2": 33,
-    "elo1": 1600,
-    "elo2": 1625,
-    "pElo": 0.4652,
+    "n1": 126,
+    "n2": 10,
+    "elo1": 1587,
+    "elo2": 1431,
+    "pElo": 0.711,
     "pRank": 0.503,
-    "wElo": 1.0
+    "wElo": 0.5
    },
    "h2h": [],
-   "analysis": "Elisabetta Cocciaretto (Weltrangliste #71) trifft auf Talia Gibson (#72). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Talia Gibson mit 53 % vorn. Bemerkenswert: Die Weltrangliste würde eher Elisabetta Cocciaretto favorisieren – die Formkurve spricht aber dagegen. Quoten-Hinweis: Das Modell hält Talia Gibson (Quote 2,23) für 11 Prozentpunkte wahrscheinlicher als der Markt.",
+   "analysis": "Elisabetta Cocciaretto (Weltrangliste #71) trifft auf Talia Gibson (#72). Die aktuelle Form spricht für Elisabetta Cocciaretto: 3 Siege aus den letzten 5 Matches, Talia Gibson holte nur 1. Wichtiger Formkontext: Talia Gibson spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1680 vs. 1620). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Elisabetta Cocciaretto mit 61 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
     "p1": 1.65,
     "p2": 2.23,
     "src": "Marathon Bet"
-   },
-   "value": {
-    "name": "Talia Gibson",
-    "odds": 2.23,
-    "edge": 0.1095,
-    "modelP": 0.5348
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
@@ -3369,6 +2791,122 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
+   "start": "2026-08-03T00:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "National Bank Open presented by Rogers",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Leolia Jeanjean",
+    "rank": 117,
+    "form": [
+     "S",
+     "N",
+     "N",
+     "N",
+     "N"
+    ],
+    "elo": 1375,
+    "rankYearAgo": 95,
+    "oppElo": 1695,
+    "onSurface": null,
+    "favSurface": "Sand",
+    "last7": 1,
+    "sets7": 3
+   },
+   "p2": {
+    "name": "Magdalena Frech",
+    "rank": 48,
+    "form": [
+     "N",
+     "N",
+     "S",
+     "S",
+     "N"
+    ],
+    "elo": 1630,
+    "rankYearAgo": 28,
+    "oppElo": 1665,
+    "onSurface": null,
+    "favSurface": "Rasen",
+    "last7": 2,
+    "sets7": 5
+   },
+   "pP1": 0.1877,
+   "model": {
+    "n1": 36,
+    "n2": 153,
+    "elo1": 1375,
+    "elo2": 1630,
+    "pElo": 0.1877,
+    "pRank": 0.3192,
+    "wElo": 1.0
+   },
+   "h2h": [],
+   "analysis": "Leolia Jeanjean (Weltrangliste #117) trifft auf Magdalena Frech (#48). Magdalena Frech hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 28 auf #48). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Magdalena Frech mit 81 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-08-03T00:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "National Bank Open presented by Rogers",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Anna Blinkova",
+    "rank": 104,
+    "form": [
+     "S",
+     "S",
+     "S",
+     "S",
+     "S"
+    ],
+    "elo": 1637,
+    "rankYearAgo": 77,
+    "oppElo": 1520,
+    "onSurface": null,
+    "favSurface": "Rasen",
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Rebecca Sramkova",
+    "rank": 141,
+    "form": [
+     "S",
+     "N",
+     "S",
+     "S",
+     "N"
+    ],
+    "elo": 1629,
+    "rankYearAgo": 38,
+    "oppElo": 1784,
+    "onSurface": null,
+    "favSurface": "Hartplatz",
+    "last7": 3,
+    "sets7": 6
+   },
+   "pP1": 0.5113,
+   "model": {
+    "n1": 146,
+    "n2": 82,
+    "elo1": 1637,
+    "elo2": 1629,
+    "pElo": 0.5113,
+    "pRank": 0.5643,
+    "wElo": 1.0
+   },
+   "h2h": [],
+   "analysis": "Anna Blinkova (Weltrangliste #104) trifft auf Rebecca Sramkova (#141). Rebecca Sramkova hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 38 auf #141). Die aktuelle Form spricht für Anna Blinkova: 5 Siege aus den letzten 5 Matches, Rebecca Sramkova holte nur 3. Wichtiger Formkontext: Rebecca Sramkova spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1784 vs. 1520). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Anna Blinkova mit 51 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
    "start": "2026-08-03T00:30:00+02:00",
    "tour": "WTA",
    "tournament": "National Bank Open presented by Rogers",
@@ -3379,14 +2917,14 @@
     "rank": 58,
     "form": [
      "N",
-     "S",
+     "N",
      "S",
      "N",
      "N"
     ],
     "elo": null,
     "rankYearAgo": 53,
-    "oppElo": 1689,
+    "oppElo": 1565,
     "onSurface": null,
     "favSurface": "Sand",
     "last7": 3,
@@ -3406,7 +2944,7 @@
    },
    "pP1": 0.5544,
    "model": {
-    "n1": 139,
+    "n1": 112,
     "n2": 0,
     "pRank": 0.5544
    },
@@ -3487,7 +3025,7 @@
    "surface": null,
    "p1": {
     "name": "Bianca Andreescu",
-    "rank": 180,
+    "rank": 172,
     "form": [
      "N",
      "S",
@@ -3495,11 +3033,11 @@
      "N",
      "N"
     ],
-    "elo": 1531,
+    "elo": 1632,
     "rankYearAgo": 187,
-    "oppElo": 1665,
+    "oppElo": 1725,
     "onSurface": null,
-    "favSurface": "Sand",
+    "favSurface": "Rasen",
     "last7": 0,
     "sets7": 0
    },
@@ -3510,41 +3048,35 @@
      "S",
      "S",
      "N",
-     "S",
+     "N",
      "N"
     ],
-    "elo": 1704,
+    "elo": 1471,
     "rankYearAgo": 228,
-    "oppElo": 1670,
+    "oppElo": 1623,
     "onSurface": null,
-    "favSurface": "Rasen",
+    "favSurface": "Hartplatz",
     "last7": 0,
     "sets7": 0
    },
-   "pP1": 0.2696,
+   "pP1": 0.4478,
    "model": {
-    "n1": 73,
-    "n2": 29,
-    "elo1": 1531,
-    "elo2": 1704,
-    "pElo": 0.2696,
-    "pRank": 0.2214,
-    "wElo": 1.0
+    "n1": 96,
+    "n2": 9,
+    "elo1": 1632,
+    "elo2": 1471,
+    "pElo": 0.7163,
+    "pRank": 0.2281,
+    "wElo": 0.45
    },
    "h2h": [],
-   "analysis": "Bianca Andreescu (Weltrangliste #180) trifft auf Nikola Bartunkova (#41). Nikola Bartunkova befindet sich im Aufwind: vor rund einem Jahr noch um Platz 228, inzwischen #41. Die aktuelle Form spricht für Nikola Bartunkova: 3 Siege aus den letzten 5 Matches, Bianca Andreescu holte nur 1. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Nikola Bartunkova mit 73 % vorn. Quoten-Hinweis: Das Modell hält Nikola Bartunkova (Quote 1,61) für 14 Prozentpunkte wahrscheinlicher als der Markt.",
+   "analysis": "Bianca Andreescu (Weltrangliste #172) trifft auf Nikola Bartunkova (#41). Nikola Bartunkova befindet sich im Aufwind: vor rund einem Jahr noch um Platz 228, inzwischen #41. Wichtiger Formkontext: Bianca Andreescu spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1725 vs. 1623). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Nikola Bartunkova mit 55 % vorn. Bemerkenswert: Die Weltrangliste würde eher Nikola Bartunkova favorisieren – die Formkurve spricht aber dagegen.",
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
     "p1": 2.3,
     "p2": 1.61,
     "src": "Marathon Bet"
-   },
-   "value": {
-    "name": "Nikola Bartunkova",
-    "odds": 1.61,
-    "edge": 0.1422,
-    "modelP": 0.7304
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
@@ -3698,23 +3230,23 @@
     "rank": 81,
     "form": [
      "S",
-     "S",
      "N",
+     "S",
      "S",
      "N"
     ],
     "elo": null,
     "rankYearAgo": 46,
-    "oppElo": 1490,
+    "oppElo": 1521,
     "onSurface": null,
-    "favSurface": "Rasen",
+    "favSurface": "Sand",
     "last7": 0,
     "sets7": 0
    },
    "pP1": 0.5741,
    "model": {
     "n1": 0,
-    "n2": 161,
+    "n2": 173,
     "pRank": 0.5741
    },
    "h2h": [],
@@ -4812,15 +4344,15 @@
     "name": "Magda Linette",
     "rank": 65,
     "form": [
-     "S",
-     "S",
+     "N",
+     "N",
      "N",
      "N",
      "N"
     ],
-    "elo": 1674,
+    "elo": 1615,
     "rankYearAgo": 40,
-    "oppElo": 1680,
+    "oppElo": 1708,
     "onSurface": null,
     "favSurface": "Sand",
     "last7": 1,
@@ -4836,26 +4368,26 @@
      "S",
      "N"
     ],
-    "elo": 1434,
+    "elo": 1415,
     "rankYearAgo": null,
-    "oppElo": 1574,
+    "oppElo": 1546,
     "onSurface": null,
-    "favSurface": null,
+    "favSurface": "Hartplatz",
     "last7": 1,
     "sets7": 3
    },
-   "pP1": 0.8394,
+   "pP1": 0.799,
    "model": {
-    "n1": 177,
-    "n2": 9,
-    "elo1": 1674,
-    "elo2": 1434,
-    "pElo": 0.7997,
+    "n1": 190,
+    "n2": 13,
+    "elo1": 1615,
+    "elo2": 1415,
+    "pElo": 0.7598,
     "pRank": 0.8718,
-    "wElo": 0.45
+    "wElo": 0.65
    },
    "h2h": [],
-   "analysis": "Magda Linette (Weltrangliste #65) trifft auf Carol Zhao (#620). Magda Linette hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 40 auf #65). Wichtiger Formkontext: Magda Linette spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1680 vs. 1574). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Magda Linette mit 84 % vorn.",
+   "analysis": "Magda Linette (Weltrangliste #65) trifft auf Carol Zhao (#620). Magda Linette hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 40 auf #65). Wichtiger Formkontext: Magda Linette spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1708 vs. 1546). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Magda Linette mit 80 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
@@ -4881,9 +4413,9 @@
      "N",
      "N"
     ],
-    "elo": 1435,
+    "elo": 1436,
     "rankYearAgo": 60,
-    "oppElo": 1676,
+    "oppElo": 1556,
     "onSurface": null,
     "favSurface": "Hartplatz",
     "last7": 4,
@@ -4893,32 +4425,32 @@
     "name": "Alina Korneeva",
     "rank": 89,
     "form": [
+     "S",
+     "S",
      "N",
-     "S",
-     "S",
-     "S",
+     "N",
      "N"
     ],
-    "elo": 1578,
+    "elo": 1481,
     "rankYearAgo": null,
-    "oppElo": 1620,
+    "oppElo": 1556,
     "onSurface": null,
     "favSurface": "Hartplatz",
     "last7": 1,
     "sets7": 3
    },
-   "pP1": 0.3121,
+   "pP1": 0.4462,
    "model": {
-    "n1": 56,
-    "n2": 19,
-    "elo1": 1435,
-    "elo2": 1578,
-    "pElo": 0.3043,
+    "n1": 49,
+    "n2": 11,
+    "elo1": 1436,
+    "elo2": 1481,
+    "pElo": 0.4358,
     "pRank": 0.459,
-    "wElo": 0.95
+    "wElo": 0.55
    },
    "h2h": [],
-   "analysis": "Polina Kudermetova (Weltrangliste #108) trifft auf Alina Korneeva (#89). Polina Kudermetova hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 60 auf #108). Die aktuelle Form spricht für Alina Korneeva: 3 Siege aus den letzten 5 Matches, Polina Kudermetova holte nur 1. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Alina Korneeva mit 69 % vorn. Polina Kudermetova hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Polina Kudermetova (Weltrangliste #108) trifft auf Alina Korneeva (#89). Polina Kudermetova hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 60 auf #108). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Alina Korneeva mit 55 % vorn. Polina Kudermetova hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -4933,15 +4465,15 @@
     "name": "Taylor Townsend",
     "rank": 105,
     "form": [
+     "N",
      "S",
      "S",
-     "N",
-     "N",
+     "S",
      "N"
     ],
-    "elo": 1696,
+    "elo": 1734,
     "rankYearAgo": 125,
-    "oppElo": 1771,
+    "oppElo": 1708,
     "onSurface": null,
     "favSurface": "Hartplatz",
     "last7": 0,
@@ -4951,32 +4483,32 @@
     "name": "Tereza Valentova",
     "rank": 64,
     "form": [
-     "N",
+     "S",
      "S",
      "S",
      "S",
      "N"
     ],
-    "elo": 1674,
+    "elo": 1766,
     "rankYearAgo": 96,
-    "oppElo": 1626,
+    "oppElo": 1693,
     "onSurface": null,
     "favSurface": "Hartplatz",
     "last7": 0,
     "sets7": 0
    },
-   "pP1": 0.5317,
+   "pP1": 0.4336,
    "model": {
-    "n1": 79,
-    "n2": 40,
-    "elo1": 1696,
-    "elo2": 1674,
-    "pElo": 0.5317,
+    "n1": 68,
+    "n2": 13,
+    "elo1": 1734,
+    "elo2": 1766,
+    "pElo": 0.4537,
     "pRank": 0.3963,
-    "wElo": 1.0
+    "wElo": 0.65
    },
    "h2h": [],
-   "analysis": "Taylor Townsend (Weltrangliste #105) trifft auf Tereza Valentova (#64). Tereza Valentova befindet sich im Aufwind: vor rund einem Jahr noch um Platz 96, inzwischen #64. Wichtiger Formkontext: Taylor Townsend spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1771 vs. 1626). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Taylor Townsend mit 53 % vorn. Bemerkenswert: Die Weltrangliste würde eher Tereza Valentova favorisieren – die Formkurve spricht aber dagegen. Quoten-Hinweis: Das Modell hält Taylor Townsend (Quote 2,64) für 17 Prozentpunkte wahrscheinlicher als der Markt.",
+   "analysis": "Taylor Townsend (Weltrangliste #105) trifft auf Tereza Valentova (#64). Tereza Valentova befindet sich im Aufwind: vor rund einem Jahr noch um Platz 96, inzwischen #64. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Tereza Valentova mit 57 % vorn. Quoten-Hinweis: Das Modell hält Taylor Townsend (Quote 2,64) für 7 Prozentpunkte wahrscheinlicher als der Markt.",
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
@@ -4987,8 +4519,8 @@
    "value": {
     "name": "Taylor Townsend",
     "odds": 2.64,
-    "edge": 0.1725,
-    "modelP": 0.5317
+    "edge": 0.0744,
+    "modelP": 0.4336
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
@@ -5003,14 +4535,14 @@
     "rank": 320,
     "form": [
      "N",
-     "S",
+     "N",
      "N",
      "N",
      "N"
     ],
-    "elo": 1400,
+    "elo": 1467,
     "rankYearAgo": 1051,
-    "oppElo": 1653,
+    "oppElo": 1698,
     "onSurface": null,
     "favSurface": "Sand",
     "last7": 3,
@@ -5020,32 +4552,32 @@
     "name": "Solana Sierra",
     "rank": 86,
     "form": [
+     "N",
+     "N",
      "S",
-     "N",
-     "N",
      "S",
      "N"
     ],
-    "elo": 1667,
+    "elo": 1523,
     "rankYearAgo": 72,
-    "oppElo": 1729,
+    "oppElo": 1532,
     "onSurface": null,
-    "favSurface": "Sand",
+    "favSurface": "Hartplatz",
     "last7": 1,
     "sets7": 3
    },
-   "pP1": 0.1771,
+   "pP1": 0.3593,
    "model": {
-    "n1": 95,
-    "n2": 36,
-    "elo1": 1400,
-    "elo2": 1667,
-    "pElo": 0.1771,
+    "n1": 120,
+    "n2": 13,
+    "elo1": 1467,
+    "elo2": 1523,
+    "pElo": 0.42,
     "pRank": 0.2466,
-    "wElo": 1.0
+    "wElo": 0.65
    },
    "h2h": [],
-   "analysis": "Sloane Stephens (Weltrangliste #320) trifft auf Solana Sierra (#86). Sloane Stephens befindet sich im Aufwind: vor rund einem Jahr noch um Platz 1051, inzwischen #320. Wichtiger Formkontext: Solana Sierra spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1729 vs. 1653). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Solana Sierra mit 82 % vorn.",
+   "analysis": "Sloane Stephens (Weltrangliste #320) trifft auf Solana Sierra (#86). Sloane Stephens befindet sich im Aufwind: vor rund einem Jahr noch um Platz 1051, inzwischen #320. Die aktuelle Form spricht für Solana Sierra: 2 Siege aus den letzten 5 Matches, Sloane Stephens holte nur 0. Wichtiger Formkontext: Sloane Stephens spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1698 vs. 1532). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Solana Sierra mit 64 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -5061,16 +4593,16 @@
     "rank": 46,
     "form": [
      "S",
+     "N",
      "S",
      "S",
-     "S",
-     "S"
+     "N"
     ],
-    "elo": 1653,
+    "elo": 1454,
     "rankYearAgo": 163,
-    "oppElo": 1525,
+    "oppElo": 1563,
     "onSurface": null,
-    "favSurface": "Sand",
+    "favSurface": "Hartplatz",
     "last7": 0,
     "sets7": 0
    },
@@ -5079,31 +4611,31 @@
     "rank": 83,
     "form": [
      "N",
-     "N",
-     "N",
-     "N",
+     "S",
+     "S",
+     "S",
      "N"
     ],
-    "elo": 1487,
+    "elo": 1562,
     "rankYearAgo": 70,
-    "oppElo": 1785,
+    "oppElo": 1561,
     "onSurface": null,
     "favSurface": "Hartplatz",
     "last7": 4,
     "sets7": 8
    },
-   "pP1": 0.7214,
+   "pP1": 0.3502,
    "model": {
-    "n1": 72,
-    "n2": 59,
-    "elo1": 1653,
-    "elo2": 1487,
-    "pElo": 0.7214,
+    "n1": 64,
+    "n2": 47,
+    "elo1": 1454,
+    "elo2": 1562,
+    "pElo": 0.3502,
     "pRank": 0.6229,
     "wElo": 1.0
    },
    "h2h": [],
-   "analysis": "Tamara Korpatsch (Weltrangliste #46) trifft auf Renata Zarazua (#83). Tamara Korpatsch befindet sich im Aufwind: vor rund einem Jahr noch um Platz 163, inzwischen #46. Die aktuelle Form spricht für Tamara Korpatsch: 5 Siege aus den letzten 5 Matches, Renata Zarazua holte nur 0. Wichtiger Formkontext: Renata Zarazua spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1785 vs. 1525). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Tamara Korpatsch mit 72 % vorn. Renata Zarazua hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 8 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Tamara Korpatsch (Weltrangliste #46) trifft auf Renata Zarazua (#83). Tamara Korpatsch befindet sich im Aufwind: vor rund einem Jahr noch um Platz 163, inzwischen #46. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Renata Zarazua mit 65 % vorn. Bemerkenswert: Die Weltrangliste würde eher Tamara Korpatsch favorisieren – die Formkurve spricht aber dagegen. Renata Zarazua hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 8 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -5118,50 +4650,40 @@
     "name": "Karolina Pliskova",
     "rank": 63,
     "form": [
-     "S",
+     "N",
      "S",
      "N",
      "S",
      "N"
     ],
-    "elo": 1788,
+    "elo": null,
     "rankYearAgo": null,
-    "oppElo": 1740,
+    "oppElo": 1702,
     "onSurface": null,
-    "favSurface": "Sand",
+    "favSurface": "Hartplatz",
     "last7": 0,
     "sets7": 0
    },
    "p2": {
     "name": "Oleksandra Oliynykova",
     "rank": 44,
-    "form": [
-     "S",
-     "S",
-     "N",
-     "S",
-     "S"
-    ],
-    "elo": 1657,
+    "form": [],
+    "elo": null,
     "rankYearAgo": null,
-    "oppElo": 1518,
+    "oppElo": null,
     "onSurface": null,
-    "favSurface": "Hartplatz",
+    "favSurface": null,
     "last7": 0,
     "sets7": 0
    },
-   "pP1": 0.6804,
+   "pP1": 0.4243,
    "model": {
-    "n1": 100,
-    "n2": 24,
-    "elo1": 1788,
-    "elo2": 1657,
-    "pElo": 0.6804,
-    "pRank": 0.4243,
-    "wElo": 1.0
+    "n1": 112,
+    "n2": 0,
+    "pRank": 0.4243
    },
    "h2h": [],
-   "analysis": "Karolina Pliskova (Weltrangliste #63) trifft auf Oleksandra Oliynykova (#44). Wichtiger Formkontext: Karolina Pliskova spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1740 vs. 1518). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Karolina Pliskova mit 68 % vorn. Bemerkenswert: Die Weltrangliste würde eher Oleksandra Oliynykova favorisieren – die Formkurve spricht aber dagegen.",
+   "analysis": "Karolina Pliskova (Weltrangliste #63) trifft auf Oleksandra Oliynykova (#44). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Oleksandra Oliynykova mit 58 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
@@ -5184,12 +4706,12 @@
      "N",
      "S",
      "N",
-     "N",
+     "S",
      "N"
     ],
-    "elo": 1659,
+    "elo": 1766,
     "rankYearAgo": 69,
-    "oppElo": 1782,
+    "oppElo": 1815,
     "onSurface": null,
     "favSurface": "Hartplatz",
     "last7": 0,
@@ -5200,26 +4722,26 @@
     "rank": 74,
     "form": [
      "S",
-     "S",
      "N",
+     "S",
      "S",
      "N"
     ],
-    "elo": 1598,
+    "elo": 1444,
     "rankYearAgo": 150,
-    "oppElo": 1540,
+    "oppElo": 1594,
     "onSurface": null,
-    "favSurface": "Sand",
+    "favSurface": "Hartplatz",
     "last7": 0,
     "sets7": 0
    },
-   "pP1": 0.5866,
+   "pP1": 0.8645,
    "model": {
-    "n1": 84,
-    "n2": 49,
-    "elo1": 1659,
-    "elo2": 1598,
-    "pElo": 0.5866,
+    "n1": 75,
+    "n2": 34,
+    "elo1": 1766,
+    "elo2": 1444,
+    "pElo": 0.8645,
     "pRank": 0.4706,
     "wElo": 1.0
    },
@@ -5234,13 +4756,19 @@
      "rnd": "2nd Round"
     }
    ],
-   "analysis": "Eva Lys (Weltrangliste #85) trifft auf Panna Udvardy (#74). Panna Udvardy befindet sich im Aufwind: vor rund einem Jahr noch um Platz 150, inzwischen #74. Die aktuelle Form spricht für Panna Udvardy: 3 Siege aus den letzten 5 Matches, Eva Lys holte nur 1. Wichtiger Formkontext: Eva Lys spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1782 vs. 1540). Das bisher einzige Duell (2023, European Open) gewann Eva Lys mit 6:4 6:1. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Eva Lys mit 59 % vorn. Bemerkenswert: Die Weltrangliste würde eher Panna Udvardy favorisieren – die Formkurve spricht aber dagegen.",
+   "analysis": "Eva Lys (Weltrangliste #85) trifft auf Panna Udvardy (#74). Panna Udvardy befindet sich im Aufwind: vor rund einem Jahr noch um Platz 150, inzwischen #74. Wichtiger Formkontext: Eva Lys spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1815 vs. 1594). Das bisher einzige Duell (2023, European Open) gewann Eva Lys mit 6:4 6:1. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Eva Lys mit 86 % vorn. Bemerkenswert: Die Weltrangliste würde eher Panna Udvardy favorisieren – die Formkurve spricht aber dagegen. Quoten-Hinweis: Das Modell hält Eva Lys (Quote 1,52) für 24 Prozentpunkte wahrscheinlicher als der Markt.",
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
     "p1": 1.52,
     "p2": 2.52,
     "src": "Marathon Bet"
+   },
+   "value": {
+    "name": "Eva Lys",
+    "odds": 1.52,
+    "edge": 0.2407,
+    "modelP": 0.8645
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
@@ -5254,15 +4782,15 @@
     "name": "Anna Bondar",
     "rank": 77,
     "form": [
+     "N",
      "S",
-     "S",
-     "S",
+     "N",
      "S",
      "N"
     ],
-    "elo": 1598,
+    "elo": 1501,
     "rankYearAgo": 93,
-    "oppElo": 1502,
+    "oppElo": 1529,
     "onSurface": null,
     "favSurface": "Sand",
     "last7": 0,
@@ -5273,53 +4801,47 @@
     "rank": 54,
     "form": [
      "N",
-     "N",
      "S",
+     "N",
      "S",
      "N"
     ],
-    "elo": 1580,
+    "elo": 1556,
     "rankYearAgo": 113,
-    "oppElo": 1560,
+    "oppElo": 1625,
     "onSurface": null,
     "favSurface": "Sand",
     "last7": 0,
     "sets7": 0
    },
-   "pP1": 0.5254,
+   "pP1": 0.4212,
    "model": {
     "n1": 101,
-    "n2": 133,
-    "elo1": 1598,
-    "elo2": 1580,
-    "pElo": 0.5254,
+    "n2": 154,
+    "elo1": 1501,
+    "elo2": 1556,
+    "pElo": 0.4212,
     "pRank": 0.4252,
     "wElo": 1.0
    },
    "h2h": [
     {
-     "year": "2026",
-     "tourney": "Morocco Open",
-     "surface": "Sand",
+     "year": "2022",
+     "tourney": "Wimbledon",
+     "surface": "Rasen",
      "winner": "Anhelina Kalinina",
      "winnerIsP1": false,
-     "score": "6:4 7:5",
-     "rnd": "Quarterfinals"
+     "score": "4:6 6:2 6:4",
+     "rnd": "1st Round"
     }
    ],
-   "analysis": "Anna Bondar (Weltrangliste #77) trifft auf Anhelina Kalinina (#54). Anhelina Kalinina befindet sich im Aufwind: vor rund einem Jahr noch um Platz 113, inzwischen #54. Die aktuelle Form spricht für Anna Bondar: 4 Siege aus den letzten 5 Matches, Anhelina Kalinina holte nur 2. Das bisher einzige Duell (2026, Morocco Open) gewann Anhelina Kalinina mit 6:4 7:5. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Anna Bondar mit 53 % vorn. Bemerkenswert: Die Weltrangliste würde eher Anhelina Kalinina favorisieren – die Formkurve spricht aber dagegen. Quoten-Hinweis: Das Modell hält Anna Bondar (Quote 2,55) für 15 Prozentpunkte wahrscheinlicher als der Markt.",
+   "analysis": "Anna Bondar (Weltrangliste #77) trifft auf Anhelina Kalinina (#54). Anhelina Kalinina befindet sich im Aufwind: vor rund einem Jahr noch um Platz 113, inzwischen #54. Wichtiger Formkontext: Anhelina Kalinina spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1625 vs. 1529). Das bisher einzige Duell (2022, Wimbledon) gewann Anhelina Kalinina mit 4:6 6:2 6:4. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Anhelina Kalinina mit 58 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
     "p1": 2.55,
     "p2": 1.51,
     "src": "Marathon Bet"
-   },
-   "value": {
-    "name": "Anna Bondar",
-    "odds": 2.55,
-    "edge": 0.1535,
-    "modelP": 0.5254
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
@@ -5339,11 +4861,11 @@
      "S",
      "N"
     ],
-    "elo": 1630,
+    "elo": 1593,
     "rankYearAgo": 79,
-    "oppElo": 1579,
+    "oppElo": 1558,
     "onSurface": null,
-    "favSurface": "Rasen",
+    "favSurface": "Hartplatz",
     "last7": 2,
     "sets7": 6
    },
@@ -5357,38 +4879,32 @@
      "S",
      "N"
     ],
-    "elo": 1373,
+    "elo": 1404,
     "rankYearAgo": 117,
-    "oppElo": 1578,
+    "oppElo": 1611,
     "onSurface": null,
     "favSurface": "Rasen",
     "last7": 0,
     "sets7": 0
    },
-   "pP1": 0.815,
+   "pP1": 0.7479,
    "model": {
-    "n1": 71,
-    "n2": 41,
-    "elo1": 1630,
-    "elo2": 1373,
-    "pElo": 0.815,
+    "n1": 41,
+    "n2": 67,
+    "elo1": 1593,
+    "elo2": 1404,
+    "pElo": 0.7479,
     "pRank": 0.8311,
     "wElo": 1.0
    },
    "h2h": [],
-   "analysis": "Zeynep Sonmez (Weltrangliste #52) trifft auf Rebecca Marino (#339). Zeynep Sonmez befindet sich im Aufwind: vor rund einem Jahr noch um Platz 79, inzwischen #52. Rebecca Marino hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 117 auf #339). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Zeynep Sonmez mit 82 % vorn. Quoten-Hinweis: Das Modell hält Zeynep Sonmez (Quote 1,34) für 11 Prozentpunkte wahrscheinlicher als der Markt.",
+   "analysis": "Zeynep Sonmez (Weltrangliste #52) trifft auf Rebecca Marino (#339). Zeynep Sonmez befindet sich im Aufwind: vor rund einem Jahr noch um Platz 79, inzwischen #52. Rebecca Marino hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 117 auf #339). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Zeynep Sonmez mit 75 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
     "p1": 1.34,
     "p2": 3.24,
     "src": "Marathon Bet"
-   },
-   "value": {
-    "name": "Zeynep Sonmez",
-    "odds": 1.34,
-    "edge": 0.1076,
-    "modelP": 0.815
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
@@ -5403,14 +4919,14 @@
     "rank": 127,
     "form": [
      "N",
-     "S",
+     "N",
      "N",
      "N",
      "N"
     ],
-    "elo": 1289,
+    "elo": 1241,
     "rankYearAgo": null,
-    "oppElo": 1663,
+    "oppElo": 1508,
     "onSurface": null,
     "favSurface": "Sand",
     "last7": 2,
@@ -5422,30 +4938,30 @@
     "form": [
      "S",
      "N",
-     "S",
      "N",
+     "S",
      "N"
     ],
-    "elo": 1620,
+    "elo": 1574,
     "rankYearAgo": 107,
-    "oppElo": 1629,
+    "oppElo": 1568,
     "onSurface": null,
     "favSurface": "Rasen",
     "last7": 0,
     "sets7": 0
    },
-   "pP1": 0.1297,
+   "pP1": 0.1496,
    "model": {
-    "n1": 20,
-    "n2": 96,
-    "elo1": 1289,
-    "elo2": 1620,
-    "pElo": 0.1297,
+    "n1": 18,
+    "n2": 104,
+    "elo1": 1241,
+    "elo2": 1574,
+    "pElo": 0.1278,
     "pRank": 0.3458,
-    "wElo": 1.0
+    "wElo": 0.9
    },
    "h2h": [],
-   "analysis": "Kayla Day (Weltrangliste #127) trifft auf Diane Parry (#60). Diane Parry befindet sich im Aufwind: vor rund einem Jahr noch um Platz 107, inzwischen #60. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Diane Parry mit 87 % vorn.",
+   "analysis": "Kayla Day (Weltrangliste #127) trifft auf Diane Parry (#60). Diane Parry befindet sich im Aufwind: vor rund einem Jahr noch um Platz 107, inzwischen #60. Die aktuelle Form spricht für Diane Parry: 2 Siege aus den letzten 5 Matches, Kayla Day holte nur 0. Wichtiger Formkontext: Diane Parry spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1568 vs. 1508). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Diane Parry mit 85 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -5462,13 +4978,13 @@
     "form": [
      "N",
      "S",
-     "N",
+     "S",
      "S",
      "N"
     ],
-    "elo": 1538,
+    "elo": 1737,
     "rankYearAgo": 44,
-    "oppElo": 1598,
+    "oppElo": 1645,
     "onSurface": null,
     "favSurface": "Rasen",
     "last7": 3,
@@ -5479,41 +4995,31 @@
     "rank": 62,
     "form": [
      "N",
-     "S",
      "N",
+     "S",
      "N",
      "N"
     ],
-    "elo": 1582,
+    "elo": 1483,
     "rankYearAgo": 73,
-    "oppElo": 1600,
+    "oppElo": 1620,
     "onSurface": null,
     "favSurface": "Sand",
     "last7": 1,
     "sets7": 3
    },
-   "pP1": 0.4371,
+   "pP1": 0.8114,
    "model": {
-    "n1": 72,
-    "n2": 64,
-    "elo1": 1538,
-    "elo2": 1582,
-    "pElo": 0.4371,
+    "n1": 55,
+    "n2": 41,
+    "elo1": 1737,
+    "elo2": 1483,
+    "pElo": 0.8114,
     "pRank": 0.4568,
     "wElo": 1.0
    },
-   "h2h": [
-    {
-     "year": "2026",
-     "tourney": "Nottingham Open",
-     "surface": "Rasen",
-     "winner": "Yuliia Starodubtseva",
-     "winnerIsP1": false,
-     "score": "6:7 7:5 6:4",
-     "rnd": "1st Round"
-    }
-   ],
-   "analysis": "Maya Joint (Weltrangliste #76) trifft auf Yuliia Starodubtseva (#62). Maya Joint hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 44 auf #76). Das bisher einzige Duell (2026, Nottingham Open) gewann Yuliia Starodubtseva mit 6:7 7:5 6:4. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Yuliia Starodubtseva mit 56 % vorn.",
+   "h2h": [],
+   "analysis": "Maya Joint (Weltrangliste #76) trifft auf Yuliia Starodubtseva (#62). Maya Joint hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 44 auf #76). Die aktuelle Form spricht für Maya Joint: 3 Siege aus den letzten 5 Matches, Yuliia Starodubtseva holte nur 1. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Maya Joint mit 81 % vorn. Bemerkenswert: Die Weltrangliste würde eher Yuliia Starodubtseva favorisieren – die Formkurve spricht aber dagegen.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -5529,14 +5035,14 @@
     "rank": 70,
     "form": [
      "S",
-     "N",
      "S",
+     "N",
      "S",
      "N"
     ],
-    "elo": 1655,
+    "elo": 1737,
     "rankYearAgo": 18,
-    "oppElo": 1719,
+    "oppElo": 1701,
     "onSurface": null,
     "favSurface": "Rasen",
     "last7": 3,
@@ -5546,51 +5052,32 @@
     "name": "Janice Tjen",
     "rank": 37,
     "form": [
-     "N",
-     "N",
-     "N",
      "S",
-     "N"
+     "S",
+     "S",
+     "S",
+     "S"
     ],
-    "elo": 1491,
+    "elo": 1767,
     "rankYearAgo": 149,
-    "oppElo": 1608,
+    "oppElo": 1544,
     "onSurface": null,
     "favSurface": "Hartplatz",
     "last7": 2,
     "sets7": 5
    },
-   "pP1": 0.72,
+   "pP1": 0.4265,
    "model": {
-    "n1": 192,
-    "n2": 39,
-    "elo1": 1655,
-    "elo2": 1491,
-    "pElo": 0.72,
+    "n1": 210,
+    "n2": 13,
+    "elo1": 1737,
+    "elo2": 1767,
+    "pElo": 0.4582,
     "pRank": 0.3677,
-    "wElo": 1.0
+    "wElo": 0.65
    },
-   "h2h": [
-    {
-     "year": "2026",
-     "tourney": "Mutua Madrid Open",
-     "surface": "Sand",
-     "winner": "Liudmila Samsonova",
-     "winnerIsP1": true,
-     "score": "6:2 6:1",
-     "rnd": "2nd Round"
-    },
-    {
-     "year": "2026",
-     "tourney": "Abu Dhabi WTA Women's Tennis Open",
-     "surface": "Hartplatz",
-     "winner": "Liudmila Samsonova",
-     "winnerIsP1": true,
-     "score": "6:2 6:2",
-     "rnd": "2nd Round"
-    }
-   ],
-   "analysis": "Liudmila Samsonova (Weltrangliste #70) trifft auf Janice Tjen (#37). Liudmila Samsonova hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 18 auf #70). Janice Tjen befindet sich im Aufwind: vor rund einem Jahr noch um Platz 149, inzwischen #37. Die aktuelle Form spricht für Liudmila Samsonova: 3 Siege aus den letzten 5 Matches, Janice Tjen holte nur 1. Wichtiger Formkontext: Liudmila Samsonova spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1719 vs. 1608). Den direkten Vergleich führt Liudmila Samsonova mit 2:0 aus den letzten 2 Duellen an. Zuletzt (2026, Mutua Madrid Open) gewann Liudmila Samsonova mit 6:2 6:1. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Liudmila Samsonova mit 72 % vorn. Bemerkenswert: Die Weltrangliste würde eher Janice Tjen favorisieren – die Formkurve spricht aber dagegen. Quoten-Hinweis: Das Modell hält Liudmila Samsonova (Quote 1,52) für 10 Prozentpunkte wahrscheinlicher als der Markt.",
+   "h2h": [],
+   "analysis": "Liudmila Samsonova (Weltrangliste #70) trifft auf Janice Tjen (#37). Liudmila Samsonova hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 18 auf #70). Janice Tjen befindet sich im Aufwind: vor rund einem Jahr noch um Platz 149, inzwischen #37. Die aktuelle Form spricht für Janice Tjen: 5 Siege aus den letzten 5 Matches, Liudmila Samsonova holte nur 3. Wichtiger Formkontext: Liudmila Samsonova spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1701 vs. 1544). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Janice Tjen mit 57 % vorn. Quoten-Hinweis: Das Modell hält Janice Tjen (Quote 2,52) für 20 Prozentpunkte wahrscheinlicher als der Markt.",
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
@@ -5599,10 +5086,10 @@
     "src": "Marathon Bet"
    },
    "value": {
-    "name": "Liudmila Samsonova",
-    "odds": 1.52,
-    "edge": 0.0962,
-    "modelP": 0.72
+    "name": "Janice Tjen",
+    "odds": 2.52,
+    "edge": 0.1973,
+    "modelP": 0.5735
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
@@ -5616,6 +5103,7 @@
     "name": "Kayla Cross",
     "rank": 172,
     "form": [
+     "N",
      "N"
     ],
     "elo": null,
@@ -5630,7 +5118,7 @@
     "name": "Katie Boulter",
     "rank": 69,
     "form": [
-     "S",
+     "N",
      "S",
      "N",
      "N",
@@ -5638,7 +5126,7 @@
     ],
     "elo": null,
     "rankYearAgo": 50,
-    "oppElo": 1707,
+    "oppElo": 1779,
     "onSurface": null,
     "favSurface": "Rasen",
     "last7": 1,
@@ -5646,8 +5134,8 @@
    },
    "pP1": 0.3151,
    "model": {
-    "n1": 1,
-    "n2": 127,
+    "n1": 2,
+    "n2": 115,
     "pRank": 0.3151
    },
    "h2h": [],
@@ -5671,17 +5159,17 @@
     "name": "Daria Kasatkina",
     "rank": 61,
     "form": [
-     "N",
-     "N",
      "S",
      "S",
+     "N",
+     "N",
      "N"
     ],
     "elo": null,
     "rankYearAgo": 17,
-    "oppElo": 1635,
+    "oppElo": 1670,
     "onSurface": null,
-    "favSurface": "Rasen",
+    "favSurface": "Sand",
     "last7": 2,
     "sets7": 5
    },
@@ -5699,7 +5187,7 @@
    },
    "pP1": 0.4214,
    "model": {
-    "n1": 191,
+    "n1": 231,
     "n2": 0,
     "pRank": 0.4214
    },
@@ -5720,14 +5208,14 @@
     "rank": 73,
     "form": [
      "S",
-     "S",
      "N",
+     "S",
      "S",
      "N"
     ],
-    "elo": 1700,
+    "elo": 1601,
     "rankYearAgo": 116,
-    "oppElo": 1655,
+    "oppElo": 1690,
     "onSurface": null,
     "favSurface": "Rasen",
     "last7": 3,
@@ -5738,31 +5226,31 @@
     "rank": 79,
     "form": [
      "S",
-     "S",
      "N",
-     "S",
+     "N",
+     "N",
      "N"
     ],
-    "elo": 1613,
+    "elo": 1499,
     "rankYearAgo": 41,
-    "oppElo": 1746,
+    "oppElo": 1552,
     "onSurface": null,
     "favSurface": "Rasen",
     "last7": 3,
     "sets7": 6
    },
-   "pP1": 0.6226,
+   "pP1": 0.6426,
    "model": {
-    "n1": 76,
-    "n2": 155,
-    "elo1": 1700,
-    "elo2": 1613,
-    "pElo": 0.6226,
+    "n1": 56,
+    "n2": 147,
+    "elo1": 1601,
+    "elo2": 1499,
+    "pElo": 0.6426,
     "pRank": 0.5168,
     "wElo": 1.0
    },
    "h2h": [],
-   "analysis": "Catherine McNally (Weltrangliste #73) trifft auf Tatjana Maria (#79). Catherine McNally befindet sich im Aufwind: vor rund einem Jahr noch um Platz 116, inzwischen #73. Tatjana Maria hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 41 auf #79). Wichtiger Formkontext: Tatjana Maria spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1746 vs. 1655). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Catherine McNally mit 62 % vorn.",
+   "analysis": "Catherine McNally (Weltrangliste #73) trifft auf Tatjana Maria (#79). Catherine McNally befindet sich im Aufwind: vor rund einem Jahr noch um Platz 116, inzwischen #73. Tatjana Maria hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 41 auf #79). Die aktuelle Form spricht für Catherine McNally: 3 Siege aus den letzten 5 Matches, Tatjana Maria holte nur 1. Wichtiger Formkontext: Catherine McNally spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1690 vs. 1552). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Catherine McNally mit 64 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -5778,14 +5266,14 @@
     "rank": 68,
     "form": [
      "N",
-     "S",
-     "S",
      "N",
+     "S",
+     "S",
      "N"
     ],
-    "elo": 1537,
+    "elo": 1508,
     "rankYearAgo": 71,
-    "oppElo": 1514,
+    "oppElo": 1567,
     "onSurface": null,
     "favSurface": "Hartplatz",
     "last7": 0,
@@ -5795,29 +5283,29 @@
     "name": "Victoria Jimenez Kasintseva",
     "rank": 120,
     "form": [
-     "N",
+     "S",
      "N",
      "N",
      "N",
      "N"
     ],
-    "elo": 1402,
+    "elo": 1441,
     "rankYearAgo": 130,
-    "oppElo": 1644,
+    "oppElo": 1682,
     "onSurface": null,
-    "favSurface": "Hartplatz",
+    "favSurface": "Sand",
     "last7": 1,
     "sets7": 3
    },
-   "pP1": 0.685,
+   "pP1": 0.6016,
    "model": {
-    "n1": 116,
-    "n2": 23,
-    "elo1": 1537,
-    "elo2": 1402,
-    "pElo": 0.685,
+    "n1": 92,
+    "n2": 14,
+    "elo1": 1508,
+    "elo2": 1441,
+    "pElo": 0.5944,
     "pRank": 0.6184,
-    "wElo": 1.0
+    "wElo": 0.7
    },
    "h2h": [
     {
@@ -5830,7 +5318,7 @@
      "rnd": "1st Round"
     }
    ],
-   "analysis": "Alycia Parks (Weltrangliste #68) trifft auf Victoria Jimenez Kasintseva (#120). Die aktuelle Form spricht für Alycia Parks: 2 Siege aus den letzten 5 Matches, Victoria Jimenez Kasintseva holte nur 0. Wichtiger Formkontext: Victoria Jimenez Kasintseva spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1644 vs. 1514). Das bisher einzige Duell (2025, Mutua Madrid Open) gewann Alycia Parks mit 6:3 6:3. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Alycia Parks mit 68 % vorn.",
+   "analysis": "Alycia Parks (Weltrangliste #68) trifft auf Victoria Jimenez Kasintseva (#120). Wichtiger Formkontext: Victoria Jimenez Kasintseva spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1682 vs. 1567). Das bisher einzige Duell (2025, Mutua Madrid Open) gewann Alycia Parks mit 6:3 6:3. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Alycia Parks mit 60 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -5863,7 +5351,7 @@
     ],
     "elo": null,
     "rankYearAgo": null,
-    "oppElo": 1494,
+    "oppElo": 1500,
     "onSurface": null,
     "favSurface": null,
     "last7": 0,
@@ -5892,18 +5380,18 @@
     "rank": 137,
     "form": [
      "N",
-     "N",
-     "N",
      "S",
+     "N",
+     "N",
      "N"
     ],
     "elo": null,
     "rankYearAgo": 252,
-    "oppElo": 1671,
+    "oppElo": 1698,
     "onSurface": {
-     "w": 6,
-     "l": 6,
-     "pct": 0.5
+     "w": 5,
+     "l": 4,
+     "pct": 0.556
     },
     "favSurface": "Sand",
     "last7": 0,
@@ -5925,12 +5413,12 @@
    },
    "pP1": 0.5612,
    "model": {
-    "n1": 13,
+    "n1": 10,
     "n2": 1,
     "pRank": 0.5612
    },
    "h2h": [],
-   "analysis": "Noma Noha Akugue (Weltrangliste #137) trifft auf Julia Avdeeva (#183). Noma Noha Akugue befindet sich im Aufwind: vor rund einem Jahr noch um Platz 252, inzwischen #137. Auf Sand liegt die Siegquote von Noma Noha Akugue zuletzt bei 50 % (6:6). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Noma Noha Akugue mit 56 % vorn.",
+   "analysis": "Noma Noha Akugue (Weltrangliste #137) trifft auf Julia Avdeeva (#183). Noma Noha Akugue befindet sich im Aufwind: vor rund einem Jahr noch um Platz 252, inzwischen #137. Auf Sand liegt die Siegquote von Noma Noha Akugue zuletzt bei 56 % (5:4). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Noma Noha Akugue mit 56 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -5944,32 +5432,19 @@
    "p1": {
     "name": "Veronika Podrez",
     "rank": 134,
-    "form": [
-     "S",
-     "S",
-     "S",
-     "N",
-     "N"
-    ],
+    "form": [],
     "elo": null,
     "rankYearAgo": null,
-    "oppElo": 1776,
-    "onSurface": {
-     "w": 4,
-     "l": 1,
-     "pct": 0.8
-    },
-    "favSurface": "Sand",
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
     "last7": 0,
     "sets7": 0
    },
    "p2": {
     "name": "Elena Micic",
     "rank": 269,
-    "form": [
-     "S",
-     "N"
-    ],
+    "form": [],
     "elo": null,
     "rankYearAgo": null,
     "oppElo": null,
@@ -5980,12 +5455,12 @@
    },
    "pP1": 0.6439,
    "model": {
-    "n1": 5,
-    "n2": 2,
+    "n1": 0,
+    "n2": 0,
     "pRank": 0.6439
    },
    "h2h": [],
-   "analysis": "Veronika Podrez (Weltrangliste #134) trifft auf Elena Micic (#269). Auf Sand liegt die Siegquote von Veronika Podrez zuletzt bei 80 % (4:1). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Veronika Podrez mit 64 % vorn.",
+   "analysis": "Veronika Podrez (Weltrangliste #134) trifft auf Elena Micic (#269). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Veronika Podrez mit 64 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -5999,7 +5474,9 @@
    "p1": {
     "name": "Weronika Falkowska",
     "rank": 330,
-    "form": [],
+    "form": [
+     "N"
+    ],
     "elo": null,
     "rankYearAgo": null,
     "oppElo": null,
@@ -6022,7 +5499,7 @@
    },
    "pP1": 0.69,
    "model": {
-    "n1": 0,
+    "n1": 1,
     "n2": 0,
     "pRank": 0.69
    },
@@ -6045,18 +5522,18 @@
      "N",
      "N",
      "N",
-     "N",
+     "S",
      "N"
     ],
-    "elo": 1364,
+    "elo": 1418,
     "rankYearAgo": 139,
-    "oppElo": 1602,
+    "oppElo": 1683,
     "onSurface": {
-     "w": 3,
+     "w": 4,
      "l": 12,
-     "pct": 0.2
+     "pct": 0.25
     },
-    "favSurface": "Rasen",
+    "favSurface": "Hartplatz",
     "last7": 1,
     "sets7": 2
    },
@@ -6064,36 +5541,36 @@
     "name": "Katarzyna Kawa",
     "rank": 131,
     "form": [
-     "S",
+     "N",
+     "N",
      "N",
      "S",
-     "N",
      "N"
     ],
-    "elo": 1518,
+    "elo": 1542,
     "rankYearAgo": 115,
-    "oppElo": 1578,
+    "oppElo": 1568,
     "onSurface": {
-     "w": 7,
-     "l": 6,
-     "pct": 0.538
+     "w": 4,
+     "l": 3,
+     "pct": 0.571
     },
     "favSurface": "Sand",
     "last7": 0,
     "sets7": 0
    },
-   "pP1": 0.2991,
+   "pP1": 0.3401,
    "model": {
-    "n1": 69,
-    "n2": 19,
-    "elo1": 1364,
-    "elo2": 1518,
-    "pElo": 0.2918,
+    "n1": 76,
+    "n2": 18,
+    "elo1": 1418,
+    "elo2": 1542,
+    "pElo": 0.3293,
     "pRank": 0.4376,
-    "wElo": 0.95
+    "wElo": 0.9
    },
    "h2h": [],
-   "analysis": "Linda Fruhvirtova (Weltrangliste #176) trifft auf Katarzyna Kawa (#131). Die aktuelle Form spricht für Katarzyna Kawa: 2 Siege aus den letzten 5 Matches, Linda Fruhvirtova holte nur 0. Auf Sand liegt die Siegquote von Linda Fruhvirtova zuletzt bei 20 % (3:12), Katarzyna Kawa kommt auf 54 % (7:6). Linda Fruhvirtovas stärkster Belag ist eigentlich Rasen. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Katarzyna Kawa mit 70 % vorn.",
+   "analysis": "Linda Fruhvirtova (Weltrangliste #176) trifft auf Katarzyna Kawa (#131). Wichtiger Formkontext: Linda Fruhvirtova spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1683 vs. 1568). Auf Sand liegt die Siegquote von Linda Fruhvirtova zuletzt bei 25 % (4:12), Katarzyna Kawa kommt auf 57 % (4:3). Linda Fruhvirtovas stärkster Belag ist eigentlich Hartplatz. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Katarzyna Kawa mit 66 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -6149,7 +5626,9 @@
    "p1": {
     "name": "Martyna Kubka",
     "rank": 187,
-    "form": [],
+    "form": [
+     "N"
+    ],
     "elo": null,
     "rankYearAgo": null,
     "oppElo": null,
@@ -6162,13 +5641,11 @@
     "name": "Teodora Kostovic",
     "rank": 146,
     "form": [
-     "N",
-     "N",
      "N"
     ],
     "elo": null,
     "rankYearAgo": null,
-    "oppElo": 1837,
+    "oppElo": null,
     "onSurface": null,
     "favSurface": null,
     "last7": 0,
@@ -6176,8 +5653,8 @@
    },
    "pP1": 0.4476,
    "model": {
-    "n1": 0,
-    "n2": 3,
+    "n1": 1,
+    "n2": 1,
     "pRank": 0.4476
    },
    "h2h": [],
@@ -6245,13 +5722,11 @@
     "rank": 215,
     "form": [
      "N",
-     "N",
-     "N",
      "N"
     ],
-    "elo": 1366,
+    "elo": null,
     "rankYearAgo": null,
-    "oppElo": 1543,
+    "oppElo": null,
     "onSurface": null,
     "favSurface": null,
     "last7": 0,
@@ -6261,32 +5736,24 @@
     "name": "Laura Samson",
     "rank": 153,
     "form": [
-     "N",
-     "S",
-     "S",
-     "N",
      "N"
     ],
-    "elo": 1519,
+    "elo": null,
     "rankYearAgo": 248,
-    "oppElo": 1595,
+    "oppElo": null,
     "onSurface": null,
     "favSurface": null,
     "last7": 5,
     "sets7": 11
    },
-   "pP1": 0.4011,
+   "pP1": 0.4282,
    "model": {
-    "n1": 4,
-    "n2": 5,
-    "elo1": 1366,
-    "elo2": 1519,
-    "pElo": 0.2927,
-    "pRank": 0.4282,
-    "wElo": 0.2
+    "n1": 2,
+    "n2": 1,
+    "pRank": 0.4282
    },
    "h2h": [],
-   "analysis": "Mona Barthel (Weltrangliste #215) trifft auf Laura Samson (#153). Laura Samson befindet sich im Aufwind: vor rund einem Jahr noch um Platz 248, inzwischen #153. Die aktuelle Form spricht für Laura Samson: 2 Siege aus den letzten 5 Matches, Mona Barthel holte nur 0. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Laura Samson mit 60 % vorn. Laura Samson hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 11 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Mona Barthel (Weltrangliste #215) trifft auf Laura Samson (#153). Laura Samson befindet sich im Aufwind: vor rund einem Jahr noch um Platz 248, inzwischen #153. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Laura Samson mit 57 % vorn. Laura Samson hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 11 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -6301,14 +5768,14 @@
     "name": "Susan Bandecchi",
     "rank": 164,
     "form": [
-     "N",
-     "N",
      "S",
+     "N",
+     "N",
      "N"
     ],
-    "elo": 1450,
+    "elo": 1445,
     "rankYearAgo": null,
-    "oppElo": 1524,
+    "oppElo": 1591,
     "onSurface": null,
     "favSurface": null,
     "last7": 0,
@@ -6324,21 +5791,21 @@
      "N",
      "N"
     ],
-    "elo": 1435,
+    "elo": 1455,
     "rankYearAgo": null,
-    "oppElo": 1648,
+    "oppElo": 1654,
     "onSurface": null,
     "favSurface": "Rasen",
     "last7": 0,
     "sets7": 0
    },
-   "pP1": 0.5614,
+   "pP1": 0.5543,
    "model": {
     "n1": 4,
     "n2": 17,
-    "elo1": 1450,
-    "elo2": 1435,
-    "pElo": 0.5215,
+    "elo1": 1445,
+    "elo2": 1455,
+    "pElo": 0.486,
     "pRank": 0.5714,
     "wElo": 0.2
    },
@@ -6353,7 +5820,7 @@
      "rnd": "1st Round"
     }
    ],
-   "analysis": "Susan Bandecchi (Weltrangliste #164) trifft auf Viktoria Hruncakova (#230). Wichtiger Formkontext: Viktoria Hruncakova spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1648 vs. 1524). Viktoria Hruncakovas stärkster Belag ist eigentlich Rasen. Das bisher einzige Duell (2023, Rosmalen Grass Court Championships) gewann Viktoria Hruncakova mit 6:4 6:2. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Susan Bandecchi mit 56 % vorn.",
+   "analysis": "Susan Bandecchi (Weltrangliste #164) trifft auf Viktoria Hruncakova (#230). Wichtiger Formkontext: Viktoria Hruncakova spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1654 vs. 1591). Viktoria Hruncakovas stärkster Belag ist eigentlich Rasen. Das bisher einzige Duell (2023, Rosmalen Grass Court Championships) gewann Viktoria Hruncakova mit 6:4 6:2. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Susan Bandecchi mit 55 % vorn. Bemerkenswert: Die Weltrangliste würde eher Susan Bandecchi favorisieren – die Formkurve spricht aber dagegen.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -6379,14 +5846,10 @@
    "p2": {
     "name": "Linda Klimovicova",
     "rank": 206,
-    "form": [
-     "S",
-     "N",
-     "N"
-    ],
+    "form": [],
     "elo": null,
     "rankYearAgo": null,
-    "oppElo": 1610,
+    "oppElo": null,
     "onSurface": null,
     "favSurface": null,
     "last7": 0,
@@ -6395,7 +5858,7 @@
    "pP1": 0.5194,
    "model": {
     "n1": 0,
-    "n2": 3,
+    "n2": 0,
     "pRank": 0.5194
    },
    "h2h": [],
@@ -6426,19 +5889,19 @@
     "name": "Elsa Jacquemot",
     "rank": 98,
     "form": [
-     "N",
+     "S",
+     "S",
      "S",
      "N",
-     "S",
      "N"
     ],
     "elo": null,
     "rankYearAgo": 98,
-    "oppElo": 1684,
+    "oppElo": 1611,
     "onSurface": {
-     "w": 6,
-     "l": 13,
-     "pct": 0.316
+     "w": 4,
+     "l": 8,
+     "pct": 0.333
     },
     "favSurface": "Hartplatz",
     "last7": 0,
@@ -6447,11 +5910,11 @@
    "pP1": 0.3948,
    "model": {
     "n1": 0,
-    "n2": 46,
+    "n2": 31,
     "pRank": 0.3948
    },
    "h2h": [],
-   "analysis": "Carol Young Suh Lee (Weltrangliste #162) trifft auf Elsa Jacquemot (#98). Auf Sand liegt die Siegquote von Elsa Jacquemot zuletzt bei 32 % (6:13). Elsa Jacquemots stärkster Belag ist eigentlich Hartplatz. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Elsa Jacquemot mit 61 % vorn.",
+   "analysis": "Carol Young Suh Lee (Weltrangliste #162) trifft auf Elsa Jacquemot (#98). Auf Sand liegt die Siegquote von Elsa Jacquemot zuletzt bei 33 % (4:8). Elsa Jacquemots stärkster Belag ist eigentlich Hartplatz. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Elsa Jacquemot mit 61 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -6465,9 +5928,7 @@
    "p1": {
     "name": "Vendula Valdmannova",
     "rank": 193,
-    "form": [
-     "N"
-    ],
+    "form": [],
     "elo": null,
     "rankYearAgo": null,
     "oppElo": null,
@@ -6490,7 +5951,7 @@
    },
    "pP1": 0.4136,
    "model": {
-    "n1": 1,
+    "n1": 0,
     "n2": 0,
     "pRank": 0.4136
    },
@@ -6510,21 +5971,21 @@
     "name": "Ella Seidel",
     "rank": 102,
     "form": [
+     "S",
+     "S",
      "N",
-     "N",
-     "N",
-     "N",
+     "S",
      "N"
     ],
-    "elo": 1419,
+    "elo": 1618,
     "rankYearAgo": 124,
-    "oppElo": 1724,
+    "oppElo": 1502,
     "onSurface": {
      "w": 5,
-     "l": 8,
-     "pct": 0.385
+     "l": 4,
+     "pct": 0.556
     },
-    "favSurface": "Hartplatz",
+    "favSurface": "Sand",
     "last7": 0,
     "sets7": 0
    },
@@ -6532,36 +5993,36 @@
     "name": "Dalma Galfi",
     "rank": 156,
     "form": [
+     "N",
+     "N",
      "S",
-     "N",
-     "N",
      "N",
      "N"
     ],
-    "elo": 1440,
+    "elo": 1496,
     "rankYearAgo": 99,
-    "oppElo": 1726,
+    "oppElo": 1719,
     "onSurface": {
-     "w": 5,
-     "l": 11,
-     "pct": 0.312
+     "w": 4,
+     "l": 9,
+     "pct": 0.308
     },
     "favSurface": "Rasen",
     "last7": 0,
     "sets7": 0
    },
-   "pP1": 0.4697,
+   "pP1": 0.668,
    "model": {
-    "n1": 47,
-    "n2": 56,
-    "elo1": 1419,
-    "elo2": 1440,
-    "pElo": 0.4697,
+    "n1": 32,
+    "n2": 57,
+    "elo1": 1618,
+    "elo2": 1496,
+    "pElo": 0.668,
     "pRank": 0.5893,
     "wElo": 1.0
    },
    "h2h": [],
-   "analysis": "Ella Seidel (Weltrangliste #102) trifft auf Dalma Galfi (#156). Dalma Galfi hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 99 auf #156). Auf Sand liegt die Siegquote von Ella Seidel zuletzt bei 38 % (5:8), Dalma Galfi kommt auf 31 % (5:11). Ella Seidels stärkster Belag ist eigentlich Hartplatz. Dalma Galfis stärkster Belag ist eigentlich Rasen. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Dalma Galfi mit 53 % vorn. Bemerkenswert: Die Weltrangliste würde eher Ella Seidel favorisieren – die Formkurve spricht aber dagegen.",
+   "analysis": "Ella Seidel (Weltrangliste #102) trifft auf Dalma Galfi (#156). Dalma Galfi hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 99 auf #156). Die aktuelle Form spricht für Ella Seidel: 3 Siege aus den letzten 5 Matches, Dalma Galfi holte nur 1. Wichtiger Formkontext: Dalma Galfi spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1719 vs. 1502). Auf Sand liegt die Siegquote von Ella Seidel zuletzt bei 56 % (5:4), Dalma Galfi kommt auf 31 % (4:9). Dalma Galfis stärkster Belag ist eigentlich Rasen. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Ella Seidel mit 67 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -6575,9 +6036,7 @@
    "p1": {
     "name": "Lia Karatancheva",
     "rank": 376,
-    "form": [
-     "N"
-    ],
+    "form": [],
     "elo": null,
     "rankYearAgo": null,
     "oppElo": null,
@@ -6600,7 +6059,7 @@
    },
    "pP1": 0.5184,
    "model": {
-    "n1": 1,
+    "n1": 0,
     "n2": 0,
     "pRank": 0.5184
    },
@@ -6663,49 +6122,37 @@
    "p1": {
     "name": "Sofia Costoulas",
     "rank": 158,
-    "form": [
-     "S",
-     "N",
-     "N",
-     "N",
-     "N"
-    ],
-    "elo": 1427,
+    "form": [],
+    "elo": null,
     "rankYearAgo": null,
-    "oppElo": 1618,
+    "oppElo": null,
     "onSurface": null,
-    "favSurface": "Hartplatz",
+    "favSurface": null,
     "last7": 2,
     "sets7": 4
    },
    "p2": {
     "name": "Gabriela Knutson",
-    "rank": 223,
+    "rank": null,
     "form": [
-     "N",
-     "N",
      "N"
     ],
-    "elo": 1366,
+    "elo": null,
     "rankYearAgo": null,
-    "oppElo": 1630,
+    "oppElo": null,
     "onSurface": null,
     "favSurface": null,
     "last7": 1,
     "sets7": 2
    },
-   "pP1": 0.5748,
+   "pP1": 0.5963,
    "model": {
-    "n1": 6,
-    "n2": 3,
-    "elo1": 1427,
-    "elo2": 1366,
-    "pElo": 0.5866,
-    "pRank": 0.5727,
-    "wElo": 0.15
+    "n1": 0,
+    "n2": 1,
+    "pRank": 0.5963
    },
    "h2h": [],
-   "analysis": "Sofia Costoulas (Weltrangliste #158) trifft auf Gabriela Knutson (#223). Sofia Costoulass stärkster Belag ist eigentlich Hartplatz. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Sofia Costoulas mit 57 % vorn.",
+   "analysis": "Sofia Costoulas (#158) trifft auf Gabriela Knutson, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Sofia Costoulas mit 60 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -6824,7 +6271,7 @@
   },
   "sackCounts": {
    "atp": 12410,
-   "wta": 9159
+   "wta": 9855
   }
  },
  "tennisFinished": [
@@ -6895,14 +6342,14 @@
  ],
  "stats": {
   "overall": {
-   "n": 608,
-   "correct": 368,
-   "pct": 0.6053
+   "n": 615,
+   "correct": 372,
+   "pct": 0.6049
   },
   "football": {
-   "n": 38,
-   "correct": 20,
-   "pct": 0.5263
+   "n": 45,
+   "correct": 24,
+   "pct": 0.5333
   },
   "tennis": {
    "n": 570,
@@ -6910,11 +6357,33 @@
    "pct": 0.6105
   },
   "exact": {
-   "n": 38,
-   "correct": 9
+   "n": 45,
+   "correct": 10
   },
-  "open": 254,
+  "open": 249,
   "recent": [
+   {
+    "date": "2026-08-02",
+    "comp": "Bundesliga (Österreich)",
+    "label": "Austria Lustenau – SV Josko Ried",
+    "tipName": "Austria Lustenau",
+    "tip": "1",
+    "prob": 0.5058,
+    "result": "1:1",
+    "correct": false,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-08-02",
+    "comp": "Bundesliga (Österreich)",
+    "label": "Wolfsberger – Austria Vienna",
+    "tipName": "Wolfsberger",
+    "tip": "1",
+    "prob": 0.4435,
+    "result": "3:0",
+    "correct": true,
+    "sport": "fb"
+   },
    {
     "date": "2026-08-02",
     "comp": "MLS (USA)",
@@ -7049,6 +6518,39 @@
    },
    {
     "date": "2026-08-02",
+    "comp": "Eliteserien (Norwegen)",
+    "label": "Aalesund – Tromso",
+    "tipName": "Tromso",
+    "tip": "2",
+    "prob": 0.5682,
+    "result": "2:6",
+    "correct": true,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-08-02",
+    "comp": "Eliteserien (Norwegen)",
+    "label": "KFUM Oslo – Kristiansund BK",
+    "tipName": "KFUM Oslo",
+    "tip": "1",
+    "prob": 0.5658,
+    "result": "2:1",
+    "correct": true,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-08-02",
+    "comp": "Eliteserien (Norwegen)",
+    "label": "Molde – Sarpsborg FK",
+    "tipName": "Molde",
+    "tip": "1",
+    "prob": 0.6191,
+    "result": "3:3",
+    "correct": false,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-08-02",
     "comp": "Allsvenskan (Schweden)",
     "label": "IF Brommapojkarna – Malmö FF",
     "tipName": "Malmö FF",
@@ -7067,6 +6569,17 @@
     "prob": 0.5247,
     "result": "2:0",
     "correct": true,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-08-02",
+    "comp": "Allsvenskan (Schweden)",
+    "label": "AIK – Örgryte IS",
+    "tipName": "AIK",
+    "tip": "1",
+    "prob": 0.6985,
+    "result": "0:3",
+    "correct": false,
     "sport": "fb"
    },
    {
@@ -7121,72 +6634,6 @@
     "tip": "P2",
     "prob": 0.5639,
     "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-08-02",
-    "comp": "ATP · National Bank Open presented by Rogers",
-    "label": "Nicolas Mejia – Marco Trungelliti",
-    "tipName": "Marco Trungelliti",
-    "tip": "P2",
-    "prob": 0.5815,
-    "result": "Sieger: P1",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-08-02",
-    "comp": "ATP · National Bank Open presented by Rogers",
-    "label": "Duncan Chan – Hugo Gaston",
-    "tipName": "Hugo Gaston",
-    "tip": "P2",
-    "prob": 0.834,
-    "result": "Sieger: P1",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-08-02",
-    "comp": "ATP · National Bank Open presented by Rogers",
-    "label": "Hugo Dellien – Benjamin Bonzi",
-    "tipName": "Benjamin Bonzi",
-    "tip": "P2",
-    "prob": 0.841,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-08-02",
-    "comp": "ATP · National Bank Open presented by Rogers",
-    "label": "Henrique Rocha – Martin Damm",
-    "tipName": "Martin Damm",
-    "tip": "P2",
-    "prob": 0.6463,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-08-02",
-    "comp": "ATP · National Bank Open presented by Rogers",
-    "label": "Thanasi Kokkinakis – Alexei Popyrin",
-    "tipName": "Thanasi Kokkinakis",
-    "tip": "P1",
-    "prob": 0.6665,
-    "result": "Sieger: P2",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-08-02",
-    "comp": "ATP · National Bank Open presented by Rogers",
-    "label": "Titouan Droguet – Dalibor Svrcina",
-    "tipName": "Titouan Droguet",
-    "tip": "P1",
-    "prob": 0.5829,
-    "result": "Sieger: P1",
     "correct": true,
     "sport": "tn"
    }
