@@ -8756,7 +8756,7 @@
    "awayKey": "sc rheindorf altach",
    "tip": "1",
    "tipName": "Rapid Vienna",
-   "prob": 0.3989,
+   "prob": 0.3988,
    "tipScore": "1:1",
    "pOver25": 0.3903,
    "status": "open",
@@ -9260,7 +9260,7 @@
    "awayKey": "rosenborg",
    "tip": "1",
    "tipName": "SK Brann",
-   "prob": 0.5393,
+   "prob": 0.5392,
    "tipScore": "2:1",
    "pOver25": 0.6926,
    "status": "open",
@@ -9281,10 +9281,10 @@
    "prob": 0.4304,
    "tipScore": "1:1",
    "pOver25": 0.6544,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "1:2",
+   "correct": true,
+   "exact": false
   },
   "fb|se1|2026-08-02|ifk goteborg|degerfors if": {
    "sport": "fb",
@@ -9299,10 +9299,10 @@
    "prob": 0.5247,
    "tipScore": "1:0",
    "pOver25": 0.4728,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:0",
+   "correct": true,
+   "exact": false
   },
   "fb|se1|2026-08-02|aik|orgryte is": {
    "sport": "fb",
@@ -9353,10 +9353,10 @@
    "prob": 0.6461,
    "tipScore": "2:1",
    "pOver25": 0.6606,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:1",
+   "correct": true,
+   "exact": true
   },
   "fb|dk1|2026-08-02|fc nordsjlland|randers fc": {
    "sport": "fb",
@@ -9494,9 +9494,9 @@
    "awayKey": "galway united",
    "tip": "1",
    "tipName": "Bohemians",
-   "prob": 0.6522,
+   "prob": 0.6523,
    "tipScore": "1:0",
-   "pOver25": 0.4613,
+   "pOver25": 0.4612,
    "status": "open",
    "result": null,
    "correct": null,
@@ -9708,9 +9708,9 @@
    "tip": "P2",
    "tipName": "Adolfo Daniel Vallejo",
    "prob": 0.7586,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-08-02|berrettini m|navone m": {
    "sport": "tn",
@@ -9721,7 +9721,7 @@
    "p2Key": "berrettini m",
    "tip": "P2",
    "tipName": "Matteo Berrettini",
-   "prob": 0.7616,
+   "prob": 0.6039,
    "status": "open",
    "result": null,
    "correct": null
@@ -9845,9 +9845,9 @@
    "label": "Corentin Moutet – Marton Fucsovics",
    "p1Key": "moutet c",
    "p2Key": "fucsovics m",
-   "tip": "P1",
-   "tipName": "Corentin Moutet",
-   "prob": 0.5534,
+   "tip": "P2",
+   "tipName": "Marton Fucsovics",
+   "prob": 0.5852,
    "status": "open",
    "result": null,
    "correct": null
@@ -9917,7 +9917,7 @@
    "p2Key": "rakhimova k",
    "tip": "P2",
    "tipName": "Kamilla Rakhimova",
-   "prob": 0.8426,
+   "prob": 0.822,
    "status": "open",
    "result": null,
    "correct": null
@@ -9945,7 +9945,7 @@
    "p2Key": "kessler m",
    "tip": "P2",
    "tipName": "McCartney Kessler",
-   "prob": 0.8049,
+   "prob": 0.8075,
    "status": "open",
    "result": null,
    "correct": null
@@ -10141,7 +10141,7 @@
    "p2Key": "gibson t",
    "tip": "P2",
    "tipName": "Talia Gibson",
-   "prob": 0.533,
+   "prob": 0.5348,
    "status": "open",
    "result": null,
    "correct": null
@@ -10398,9 +10398,9 @@
    "awayKey": "vasteras sk",
    "tip": "1",
    "tipName": "Djurgården",
-   "prob": 0.6924,
+   "prob": 0.6936,
    "tipScore": "2:1",
-   "pOver25": 0.7223,
+   "pOver25": 0.724,
    "status": "open",
    "result": null,
    "correct": null,
@@ -10416,9 +10416,9 @@
    "awayKey": "ik sirius",
    "tip": "2",
    "tipName": "IK Sirius",
-   "prob": 0.7871,
+   "prob": 0.787,
    "tipScore": "0:2",
-   "pOver25": 0.6992,
+   "pOver25": 0.7003,
    "status": "open",
    "result": null,
    "correct": null,
@@ -11091,10 +11091,10 @@
    "prob": 0.5715,
    "tipScore": "1:0",
    "pOver25": 0.447,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "1:0",
+   "correct": true,
+   "exact": true
   },
   "fb|dk1|2026-08-02|brondby|viborg ff": {
    "sport": "fb",
@@ -11142,9 +11142,9 @@
    "awayKey": "sonderjyske fodbold",
    "tip": "1",
    "tipName": "Odense Boldklub",
-   "prob": 0.4426,
+   "prob": 0.4468,
    "tipScore": "1:1",
-   "pOver25": 0.5967,
+   "pOver25": 0.6012,
    "status": "open",
    "result": null,
    "correct": null,
@@ -11318,9 +11318,9 @@
    "tip": "P2",
    "tipName": "Kaitlin Quevedo",
    "prob": 0.5634,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-08-03|barthel m|samson l": {
    "sport": "tn",
@@ -11429,7 +11429,7 @@
    "p2Key": "kawa k",
    "tip": "P2",
    "tipName": "Katarzyna Kawa",
-   "prob": 0.6959,
+   "prob": 0.7009,
    "status": "open",
    "result": null,
    "correct": null
@@ -11628,7 +11628,7 @@
    "tipName": "Bodo/Glimt",
    "prob": 0.5402,
    "tipScore": "1:1",
-   "pOver25": 0.5891,
+   "pOver25": 0.5889,
    "status": "open",
    "result": null,
    "correct": null,
@@ -11823,7 +11823,7 @@
    "p2Key": "pegula j",
    "tip": "P2",
    "tipName": "Jessica Pegula",
-   "prob": 0.8037,
+   "prob": 0.8077,
    "status": "open",
    "result": null,
    "correct": null
@@ -11865,7 +11865,7 @@
    "p2Key": "vukic a",
    "tip": "P1",
    "tipName": "Daniel Altmaier",
-   "prob": 0.5797,
+   "prob": 0.6237,
    "status": "open",
    "result": null,
    "correct": null
@@ -11879,7 +11879,7 @@
    "p2Key": "duckworth j",
    "tip": "P2",
    "tipName": "James Duckworth",
-   "prob": 0.5192,
+   "prob": 0.5084,
    "status": "open",
    "result": null,
    "correct": null
@@ -11893,7 +11893,7 @@
    "p2Key": "mejia n",
    "tip": "P1",
    "tipName": "Martin Landaluce",
-   "prob": 0.6507,
+   "prob": 0.6515,
    "status": "open",
    "result": null,
    "correct": null
@@ -11907,7 +11907,7 @@
    "p2Key": "uchijima m",
    "tip": "P1",
    "tipName": "Cristina Bucsa",
-   "prob": 0.7692,
+   "prob": 0.7696,
    "status": "open",
    "result": null,
    "correct": null
@@ -11921,7 +11921,7 @@
    "p2Key": "van assche l",
    "tip": "P2",
    "tipName": "Luca Van Assche",
-   "prob": 0.6087,
+   "prob": 0.5609,
    "status": "open",
    "result": null,
    "correct": null
@@ -11935,7 +11935,7 @@
    "p2Key": "frech m",
    "tip": "P2",
    "tipName": "Magdalena Frech",
-   "prob": 0.7122,
+   "prob": 0.7089,
    "status": "open",
    "result": null,
    "correct": null
@@ -11949,7 +11949,7 @@
    "p2Key": "boisson l",
    "tip": "P2",
    "tipName": "Lois Boisson",
-   "prob": 0.5844,
+   "prob": 0.5843,
    "status": "open",
    "result": null,
    "correct": null
@@ -11963,7 +11963,7 @@
    "p2Key": "ito a",
    "tip": "P2",
    "tipName": "Aoi Ito",
-   "prob": 0.504,
+   "prob": 0.509,
    "status": "open",
    "result": null,
    "correct": null
@@ -11991,7 +11991,7 @@
    "p2Key": "fritz t",
    "tip": "P2",
    "tipName": "Taylor Fritz",
-   "prob": 0.6779,
+   "prob": 0.6453,
    "status": "open",
    "result": null,
    "correct": null
@@ -12005,7 +12005,7 @@
    "p2Key": "sramkova r",
    "tip": "P1",
    "tipName": "Anna Blinkova",
-   "prob": 0.541,
+   "prob": 0.54,
    "status": "open",
    "result": null,
    "correct": null
@@ -12019,7 +12019,7 @@
    "p2Key": "jones e",
    "tip": "P1",
    "tipName": "Lanlana Tararudee",
-   "prob": 0.5963,
+   "prob": 0.6013,
    "status": "open",
    "result": null,
    "correct": null
@@ -12033,7 +12033,7 @@
    "p2Key": "shimabukuro s",
    "tip": "P1",
    "tipName": "Marin Cilic",
-   "prob": 0.5422,
+   "prob": 0.6587,
    "status": "open",
    "result": null,
    "correct": null
@@ -12061,7 +12061,7 @@
    "p2Key": "diallo g",
    "tip": "P2",
    "tipName": "Gabriel Diallo",
-   "prob": 0.5807,
+   "prob": 0.5928,
    "status": "open",
    "result": null,
    "correct": null
@@ -12075,7 +12075,7 @@
    "p2Key": "bartunkova n",
    "tip": "P2",
    "tipName": "Nikola Bartunkova",
-   "prob": 0.7015,
+   "prob": 0.7304,
    "status": "open",
    "result": null,
    "correct": null
@@ -12089,7 +12089,7 @@
    "p2Key": "bonzi b",
    "tip": "P1",
    "tipName": "Yannick Hanfmann",
-   "prob": 0.5464,
+   "prob": 0.5465,
    "status": "open",
    "result": null,
    "correct": null
@@ -12103,7 +12103,7 @@
    "p2Key": "galarneau a",
    "tip": "P1",
    "tipName": "Vit Kopriva",
-   "prob": 0.6343,
+   "prob": 0.6868,
    "status": "open",
    "result": null,
    "correct": null
@@ -12129,9 +12129,9 @@
    "label": "Denis Shapovalov – Zachary Svajda",
    "p1Key": "shapovalov d",
    "p2Key": "svajda z",
-   "tip": "P1",
-   "tipName": "Denis Shapovalov",
-   "prob": 0.7294,
+   "tip": "P2",
+   "tipName": "Zachary Svajda",
+   "prob": 0.5529,
    "status": "open",
    "result": null,
    "correct": null
@@ -12143,9 +12143,9 @@
    "label": "Tallon Griekspoor – Lorenzo Sonego",
    "p1Key": "griekspoor t",
    "p2Key": "sonego l",
-   "tip": "P1",
-   "tipName": "Tallon Griekspoor",
-   "prob": 0.5505,
+   "tip": "P2",
+   "tipName": "Lorenzo Sonego",
+   "prob": 0.5071,
    "status": "open",
    "result": null,
    "correct": null
@@ -12159,7 +12159,7 @@
    "p2Key": "mochizuki s",
    "tip": "P1",
    "tipName": "Fabian Marozsan",
-   "prob": 0.7764,
+   "prob": 0.602,
    "status": "open",
    "result": null,
    "correct": null
@@ -12187,7 +12187,7 @@
    "p2Key": "hurkacz h",
    "tip": "P2",
    "tipName": "Hubert Hurkacz",
-   "prob": 0.8002,
+   "prob": 0.6992,
    "status": "open",
    "result": null,
    "correct": null
@@ -12201,7 +12201,7 @@
    "p2Key": "atmane t",
    "tip": "P1",
    "tipName": "Jack Draper",
-   "prob": 0.9108,
+   "prob": 0.84,
    "status": "open",
    "result": null,
    "correct": null
@@ -12243,7 +12243,7 @@
    "p2Key": "majchrzak k",
    "tip": "P2",
    "tipName": "Kamil Majchrzak",
-   "prob": 0.5337,
+   "prob": 0.6783,
    "status": "open",
    "result": null,
    "correct": null
@@ -12255,9 +12255,9 @@
    "label": "Valentin Royer – Pablo Carreno Busta",
    "p1Key": "royer v",
    "p2Key": "carreno busta p",
-   "tip": "P1",
-   "tipName": "Valentin Royer",
-   "prob": 0.5286,
+   "tip": "P2",
+   "tipName": "Pablo Carreno Busta",
+   "prob": 0.75,
    "status": "open",
    "result": null,
    "correct": null
@@ -12297,9 +12297,9 @@
    "label": "Mattia Bellucci – Sebastian Baez",
    "p1Key": "bellucci m",
    "p2Key": "baez s",
-   "tip": "P1",
-   "tipName": "Mattia Bellucci",
-   "prob": 0.5506,
+   "tip": "P2",
+   "tipName": "Sebastian Baez",
+   "prob": 0.5309,
    "status": "open",
    "result": null,
    "correct": null
@@ -12313,7 +12313,7 @@
    "p2Key": "walton a",
    "tip": "P1",
    "tipName": "Jenson Brooksby",
-   "prob": 0.7513,
+   "prob": 0.6046,
    "status": "open",
    "result": null,
    "correct": null
@@ -12327,7 +12327,7 @@
    "p2Key": "fearnley j",
    "tip": "P1",
    "tipName": "Adrian Mannarino",
-   "prob": 0.667,
+   "prob": 0.6453,
    "status": "open",
    "result": null,
    "correct": null
@@ -12355,7 +12355,7 @@
    "p2Key": "damm m",
    "tip": "P1",
    "tipName": "Stefanos Tsitsipas",
-   "prob": 0.6339,
+   "prob": 0.6874,
    "status": "open",
    "result": null,
    "correct": null
@@ -12369,7 +12369,7 @@
    "p2Key": "ugo carabelli c",
    "tip": "P1",
    "tipName": "Cameron Norrie",
-   "prob": 0.8019,
+   "prob": 0.629,
    "status": "open",
    "result": null,
    "correct": null
@@ -12383,7 +12383,7 @@
    "p2Key": "zhao c",
    "tip": "P1",
    "tipName": "Magda Linette",
-   "prob": 0.8391,
+   "prob": 0.8394,
    "status": "open",
    "result": null,
    "correct": null
@@ -12397,7 +12397,7 @@
    "p2Key": "korneeva a",
    "tip": "P2",
    "tipName": "Alina Korneeva",
-   "prob": 0.688,
+   "prob": 0.6879,
    "status": "open",
    "result": null,
    "correct": null
@@ -12411,7 +12411,7 @@
    "p2Key": "valentova t",
    "tip": "P1",
    "tipName": "Taylor Townsend",
-   "prob": 0.5386,
+   "prob": 0.5317,
    "status": "open",
    "result": null,
    "correct": null
@@ -12425,7 +12425,7 @@
    "p2Key": "sierra s",
    "tip": "P2",
    "tipName": "Solana Sierra",
-   "prob": 0.7995,
+   "prob": 0.8229,
    "status": "open",
    "result": null,
    "correct": null
@@ -12439,7 +12439,7 @@
    "p2Key": "zarazua r",
    "tip": "P1",
    "tipName": "Tamara Korpatsch",
-   "prob": 0.7105,
+   "prob": 0.7214,
    "status": "open",
    "result": null,
    "correct": null
@@ -12453,7 +12453,7 @@
    "p2Key": "oliynykova o",
    "tip": "P1",
    "tipName": "Karolina Pliskova",
-   "prob": 0.687,
+   "prob": 0.6804,
    "status": "open",
    "result": null,
    "correct": null
@@ -12467,7 +12467,7 @@
    "p2Key": "udvardy p",
    "tip": "P1",
    "tipName": "Eva Lys",
-   "prob": 0.6017,
+   "prob": 0.5866,
    "status": "open",
    "result": null,
    "correct": null
@@ -12479,9 +12479,9 @@
    "label": "Anna Bondar – Anhelina Kalinina",
    "p1Key": "bondar a",
    "p2Key": "kalinina a",
-   "tip": "P2",
-   "tipName": "Anhelina Kalinina",
-   "prob": 0.5022,
+   "tip": "P1",
+   "tipName": "Anna Bondar",
+   "prob": 0.5254,
    "status": "open",
    "result": null,
    "correct": null
@@ -12495,7 +12495,7 @@
    "p2Key": "marino r",
    "tip": "P1",
    "tipName": "Zeynep Sonmez",
-   "prob": 0.7916,
+   "prob": 0.815,
    "status": "open",
    "result": null,
    "correct": null
@@ -12509,7 +12509,7 @@
    "p2Key": "parry d",
    "tip": "P2",
    "tipName": "Diane Parry",
-   "prob": 0.8716,
+   "prob": 0.8703,
    "status": "open",
    "result": null,
    "correct": null
@@ -12523,7 +12523,7 @@
    "p2Key": "starodubtseva y",
    "tip": "P2",
    "tipName": "Yuliia Starodubtseva",
-   "prob": 0.5622,
+   "prob": 0.5629,
    "status": "open",
    "result": null,
    "correct": null
@@ -12537,7 +12537,7 @@
    "p2Key": "tjen j",
    "tip": "P1",
    "tipName": "Liudmila Samsonova",
-   "prob": 0.7259,
+   "prob": 0.72,
    "status": "open",
    "result": null,
    "correct": null
@@ -12579,7 +12579,7 @@
    "p2Key": "maria t",
    "tip": "P1",
    "tipName": "Catherine McNally",
-   "prob": 0.6268,
+   "prob": 0.6226,
    "status": "open",
    "result": null,
    "correct": null
@@ -12593,7 +12593,7 @@
    "p2Key": "jimenez kasintseva v",
    "tip": "P1",
    "tipName": "Alycia Parks",
-   "prob": 0.6844,
+   "prob": 0.685,
    "status": "open",
    "result": null,
    "correct": null
@@ -12649,7 +12649,7 @@
    "p2Key": "samson l",
    "tip": "P2",
    "tipName": "Laura Samson",
-   "prob": 0.5978,
+   "prob": 0.5989,
    "status": "open",
    "result": null,
    "correct": null
@@ -12663,7 +12663,7 @@
    "p2Key": "hruncakova v",
    "tip": "P1",
    "tipName": "Susan Bandecchi",
-   "prob": 0.5574,
+   "prob": 0.5614,
    "status": "open",
    "result": null,
    "correct": null
@@ -12719,7 +12719,7 @@
    "p2Key": "galfi d",
    "tip": "P2",
    "tipName": "Dalma Galfi",
-   "prob": 0.5401,
+   "prob": 0.5303,
    "status": "open",
    "result": null,
    "correct": null
@@ -12761,7 +12761,21 @@
    "p2Key": "knutson g",
    "tip": "P1",
    "tipName": "Sofia Costoulas",
-   "prob": 0.5723,
+   "prob": 0.5748,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-08-04|juncheng s|rublev a": {
+   "sport": "tn",
+   "comp": "ATP · National Bank Open presented by Rogers",
+   "date": "2026-08-04",
+   "label": "Andrey Rublev – Shang Juncheng",
+   "p1Key": "rublev a",
+   "p2Key": "juncheng s",
+   "tip": "P1",
+   "tipName": "Andrey Rublev",
+   "prob": 0.9206,
    "status": "open",
    "result": null,
    "correct": null
