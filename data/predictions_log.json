@@ -10398,9 +10398,9 @@
    "awayKey": "vasteras sk",
    "tip": "1",
    "tipName": "Djurgården",
-   "prob": 0.6887,
+   "prob": 0.6886,
    "tipScore": "2:1",
-   "pOver25": 0.7222,
+   "pOver25": 0.722,
    "status": "open",
    "result": null,
    "correct": null,
@@ -10418,7 +10418,7 @@
    "tipName": "IK Sirius",
    "prob": 0.791,
    "tipScore": "0:2",
-   "pOver25": 0.7028,
+   "pOver25": 0.7029,
    "status": "open",
    "result": null,
    "correct": null,
@@ -11142,9 +11142,9 @@
    "awayKey": "sonderjyske fodbold",
    "tip": "1",
    "tipName": "Odense Boldklub",
-   "prob": 0.4444,
+   "prob": 0.4442,
    "tipScore": "1:1",
-   "pOver25": 0.603,
+   "pOver25": 0.6029,
    "status": "open",
    "result": null,
    "correct": null,
@@ -11360,9 +11360,9 @@
    "tip": "P1",
    "tipName": "Noma Noha Akugue",
    "prob": 0.5612,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-08-03|ewald w|mikulskyte j": {
    "sport": "tn",
@@ -11486,9 +11486,9 @@
    "tip": "P1",
    "tipName": "Weronika Falkowska",
    "prob": 0.69,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "fb|cl|2026-08-04|mjallby aif|slovan bratislava": {
    "sport": "fb",
@@ -12608,9 +12608,9 @@
    "tip": "P2",
    "tipName": "Aliona Falei",
    "prob": 0.7191,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-08-03|micic e|podrez v": {
    "sport": "tn",
@@ -12622,9 +12622,9 @@
    "tip": "P1",
    "tipName": "Veronika Podrez",
    "prob": 0.6439,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-08-03|smith a|yue y": {
    "sport": "tn",
@@ -13370,6 +13370,34 @@
    "tip": "P1",
    "tipName": "Thiago Agustin Tirante",
    "prob": 0.8711,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-08-04|podlinska m|valdmannova v": {
+   "sport": "tn",
+   "comp": "WTA · Warsaw T-Mobile Polish Open",
+   "date": "2026-08-04",
+   "label": "Vendula Valdmannova – Marcelina Podlinska",
+   "p1Key": "valdmannova v",
+   "p2Key": "podlinska m",
+   "tip": "P1",
+   "tipName": "Vendula Valdmannova",
+   "prob": 0.7381,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-08-05|falkowska w|noha akugue n": {
+   "sport": "tn",
+   "comp": "WTA · Warsaw T-Mobile Polish Open",
+   "date": "2026-08-05",
+   "label": "Noma Noha Akugue – Weronika Falkowska",
+   "p1Key": "noha akugue n",
+   "p2Key": "falkowska w",
+   "tip": "P1",
+   "tipName": "Noma Noha Akugue",
+   "prob": 0.6786,
    "status": "open",
    "result": null,
    "correct": null
