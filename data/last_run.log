@@ -1,29 +1,39 @@
 /tmp/tennisdata/atp_2022.xlsx: OK über http://www.tennis-data.co.uk (417917 Bytes)
 /tmp/tennisdata/wta_2022.xlsx: OK über http://www.tennis-data.co.uk (370069 Bytes)
 /tmp/tennisdata/atp_2023.xlsx: OK über http://www.tennis-data.co.uk (447088 Bytes)
-/tmp/tennisdata/wta_2023.xlsx: OK über http://www.tennis-data.co.uk (407251 Bytes)
+/tmp/tennisdata/wta_2023.xlsx: FEHLGESCHLAGEN (letzter Code 504); Antwort-Anfang:
+<html>
+<head>
+<title>The page is temporarily unavailable</title>
+<style>
+body { font-family: Tahoma, Verdana, Arial, sans-serif; }
+</style>
+</head>
+<body bgcolor="white" text="black">
+<table width="100%" height="100%">
+<tr>
+<td align="center" valign="middle">
+The page you are looking for is temporar
 /tmp/tennisdata/atp_2024.xlsx: OK über http://www.tennis-data.co.uk (445729 Bytes)
 /tmp/tennisdata/wta_2024.xlsx: OK über http://www.tennis-data.co.uk (406783 Bytes)
 /tmp/tennisdata/atp_2025.xlsx: OK über http://www.tennis-data.co.uk (426707 Bytes)
 /tmp/tennisdata/wta_2025.xlsx: OK über http://www.tennis-data.co.uk (399398 Bytes)
 /tmp/tennisdata/atp_2026.xlsx: OK über http://www.tennis-data.co.uk (277950 Bytes)
 /tmp/tennisdata/wta_2026.xlsx: OK über http://www.tennis-data.co.uk (264884 Bytes)
-total 3812
-drwxr-xr-x  2 runner runner   4096 Aug  2 22:52 .
-drwxrwxrwt 14 root   root    12288 Aug  2 22:52 ..
--rw-r--r--  1 runner runner 417917 Aug  2 22:52 atp_2022.xlsx
--rw-r--r--  1 runner runner 447088 Aug  2 22:52 atp_2023.xlsx
--rw-r--r--  1 runner runner 445729 Aug  2 22:52 atp_2024.xlsx
--rw-r--r--  1 runner runner 426707 Aug  2 22:52 atp_2025.xlsx
--rw-r--r--  1 runner runner 277950 Aug  2 22:52 atp_2026.xlsx
--rw-r--r--  1 runner runner 370069 Aug  2 22:52 wta_2022.xlsx
--rw-r--r--  1 runner runner 407251 Aug  2 22:52 wta_2023.xlsx
--rw-r--r--  1 runner runner 406783 Aug  2 22:52 wta_2024.xlsx
--rw-r--r--  1 runner runner 399398 Aug  2 22:52 wta_2025.xlsx
--rw-r--r--  1 runner runner 264884 Aug  2 22:52 wta_2026.xlsx
+total 3412
+drwxr-xr-x  2 runner runner   4096 Aug  3 06:51 .
+drwxrwxrwt 14 root   root    12288 Aug  3 06:49 ..
+-rw-r--r--  1 runner runner 417917 Aug  3 06:49 atp_2022.xlsx
+-rw-r--r--  1 runner runner 447088 Aug  3 06:49 atp_2023.xlsx
+-rw-r--r--  1 runner runner 445729 Aug  3 06:50 atp_2024.xlsx
+-rw-r--r--  1 runner runner 426707 Aug  3 06:50 atp_2025.xlsx
+-rw-r--r--  1 runner runner 277950 Aug  3 06:50 atp_2026.xlsx
+-rw-r--r--  1 runner runner 370069 Aug  3 06:49 wta_2022.xlsx
+-rw-r--r--  1 runner runner 406783 Aug  3 06:50 wta_2024.xlsx
+-rw-r--r--  1 runner runner 399398 Aug  3 06:50 wta_2025.xlsx
+-rw-r--r--  1 runner runner 264884 Aug  3 06:51 wta_2026.xlsx
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/uefa.champions/seasons/2026/types/1/leaders nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/uefa.champions/seasons/2026/types/2/leaders nicht erreichbar (HTTP Error 404: Not Found)
-  WARN api-football /fixtures: {'rateLimit': 'Too many requests. You have exceeded the limit of requests per minute of your subscription.'}
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/uefa.europa/seasons/2026/types/1/leaders nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/uefa.europa/seasons/2026/types/2/leaders nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/uefa.europa.conf/seasons/2026/types/1/leaders nicht erreichbar (HTTP Error 404: Not Found)
@@ -48,6 +58,7 @@ drwxrwxrwt 14 root   root    12288 Aug  2 22:52 ..
   WARN: https://www.football-data.co.uk/mmz4281/2627/P1.csv nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://www.football-data.co.uk/mmz4281/2627/T1.csv nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://www.football-data.co.uk/mmz4281/2627/SC0.csv nicht erreichbar (HTTP Error 404: Not Found)
+  WARN: https://www.tennis-data.co.uk/2023w/2023.xlsx nicht erreichbar (binaer)
 fixtures.csv: 21 Spiele mit Quoten
 == WM ==
   104 Ergebnisse geladen
@@ -58,7 +69,7 @@ fixtures.csv: 21 Spiele mit Quoten
 == Champions League ==
   189 Ergebnisse geladen
   10 Spiele in den naechsten 3 Tagen
-  8 Prognosen via Team-Historie-Fallback erstellt
+  9 Prognosen via Team-Historie-Fallback erstellt
 == Europa League ==
   189 Ergebnisse geladen
   3 Spiele in den naechsten 3 Tagen
@@ -139,17 +150,17 @@ fixtures.csv: 21 Spiele mit Quoten
 == Premier Division (Irland) ==
   66 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
-  Kicker-News: 29 Schlagzeilen geladen
+  Kicker-News: 28 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 896, WTA 894
-  Historie: ATP 12410 Matches, WTA 11528 Matches
+  Historie: ATP 12410 Matches, WTA 9037 Matches
   Elo ATP: 546 Spieler bewertet
-  Elo WTA: 572 Spieler bewertet
-  Belag-Zuordnung (MatchStat): 14 Turniere
-  Tennis-Quoten zugeordnet: 48
-  80 Tennis-Matches in den naechsten 3 Tagen
+  Elo WTA: 538 Spieler bewertet
+  Belag-Zuordnung (MatchStat): 19 Turniere
+  Tennis-Quoten zugeordnet: 54
+  86 Tennis-Matches in den naechsten 3 Tagen
   0 Tennis-Matches heute bereits beendet
-  Tipp-Log: 893 Eintraege, 628 ausgewertet, 381 richtig
-  Premium-Abrufe: Tennis 8, Fussball 169 (Tennis AKTIV, Fussball AKTIV)
+  Tipp-Log: 907 Eintraege, 628 ausgewertet, 381 richtig
+  Premium-Abrufe: Tennis 8, Fussball 170 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
