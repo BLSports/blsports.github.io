@@ -9,18 +9,18 @@
 /tmp/tennisdata/atp_2026.xlsx: OK über http://www.tennis-data.co.uk (286859 Bytes)
 /tmp/tennisdata/wta_2026.xlsx: OK über http://www.tennis-data.co.uk (273964 Bytes)
 total 3832
-drwxr-xr-x  2 runner runner   4096 Aug  3 20:58 .
-drwxrwxrwt 14 root   root    12288 Aug  3 20:58 ..
--rw-r--r--  1 runner runner 417917 Aug  3 20:58 atp_2022.xlsx
--rw-r--r--  1 runner runner 447088 Aug  3 20:58 atp_2023.xlsx
--rw-r--r--  1 runner runner 445729 Aug  3 20:58 atp_2024.xlsx
--rw-r--r--  1 runner runner 426707 Aug  3 20:58 atp_2025.xlsx
--rw-r--r--  1 runner runner 286859 Aug  3 20:58 atp_2026.xlsx
--rw-r--r--  1 runner runner 370069 Aug  3 20:58 wta_2022.xlsx
--rw-r--r--  1 runner runner 407251 Aug  3 20:58 wta_2023.xlsx
--rw-r--r--  1 runner runner 406783 Aug  3 20:58 wta_2024.xlsx
--rw-r--r--  1 runner runner 399398 Aug  3 20:58 wta_2025.xlsx
--rw-r--r--  1 runner runner 273964 Aug  3 20:58 wta_2026.xlsx
+drwxr-xr-x  2 runner runner   4096 Aug  3 22:56 .
+drwxrwxrwt 14 root   root    12288 Aug  3 22:56 ..
+-rw-r--r--  1 runner runner 417917 Aug  3 22:56 atp_2022.xlsx
+-rw-r--r--  1 runner runner 447088 Aug  3 22:56 atp_2023.xlsx
+-rw-r--r--  1 runner runner 445729 Aug  3 22:56 atp_2024.xlsx
+-rw-r--r--  1 runner runner 426707 Aug  3 22:56 atp_2025.xlsx
+-rw-r--r--  1 runner runner 286859 Aug  3 22:56 atp_2026.xlsx
+-rw-r--r--  1 runner runner 370069 Aug  3 22:56 wta_2022.xlsx
+-rw-r--r--  1 runner runner 407251 Aug  3 22:56 wta_2023.xlsx
+-rw-r--r--  1 runner runner 406783 Aug  3 22:56 wta_2024.xlsx
+-rw-r--r--  1 runner runner 399398 Aug  3 22:56 wta_2025.xlsx
+-rw-r--r--  1 runner runner 273964 Aug  3 22:56 wta_2026.xlsx
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/uefa.champions/seasons/2026/types/1/leaders nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/uefa.champions/seasons/2026/types/2/leaders nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/uefa.europa/seasons/2026/types/1/leaders nicht erreichbar (HTTP Error 404: Not Found)
@@ -29,8 +29,6 @@ drwxrwxrwt 14 root   root    12288 Aug  3 20:58 ..
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/uefa.europa.conf/seasons/2026/types/2/leaders nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://www.football-data.co.uk/mmz4281/2627/E0.csv nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://www.football-data.co.uk/mmz4281/2627/I1.csv nicht erreichbar (HTTP Error 404: Not Found)
-  WARN: https://www.football-data.co.uk/mmz4281/2627/SP1.csv nicht erreichbar (HTTP Error 404: Not Found)
-  WARN: https://www.football-data.co.uk/mmz4281/2627/SP2.csv nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://www.football-data.co.uk/mmz4281/2627/F1.csv nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://www.football-data.co.uk/mmz4281/2627/F2.csv nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://www.football-data.co.uk/mmz4281/2627/N1.csv nicht erreichbar (HTTP Error 404: Not Found)
@@ -39,14 +37,13 @@ drwxrwxrwt 14 root   root    12288 Aug  3 20:58 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260328-20260625&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
-  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260626-20260803&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
-  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260803 nicht erreichbar (HTTP Error 400: Bad Request)
+  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260626-20260804&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260804 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260805 nicht erreichbar (HTTP Error 400: Bad Request)
-  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260803-20261201&limit=50 nicht erreichbar (HTTP Error 400: Bad Request)
+  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260806 nicht erreichbar (HTTP Error 400: Bad Request)
+  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260804-20261202&limit=50 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://www.football-data.co.uk/mmz4281/2627/P1.csv nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://www.football-data.co.uk/mmz4281/2627/T1.csv nicht erreichbar (HTTP Error 404: Not Found)
-  WARN: https://www.football-data.co.uk/mmz4281/2627/SC0.csv nicht erreichbar (HTTP Error 404: Not Found)
 fixtures.csv: 21 Spiele mit Quoten
 == WM ==
   104 Ergebnisse geladen
@@ -60,12 +57,12 @@ fixtures.csv: 21 Spiele mit Quoten
   9 Prognosen via Team-Historie-Fallback erstellt
 == Europa League ==
   189 Ergebnisse geladen
-  3 Spiele in den naechsten 3 Tagen
-  3 Prognosen via Team-Historie-Fallback erstellt
+  13 Spiele in den naechsten 3 Tagen
+  13 Prognosen via Team-Historie-Fallback erstellt
 == Conference League ==
   153 Ergebnisse geladen
-  3 Spiele in den naechsten 3 Tagen
-  3 Prognosen via Team-Historie-Fallback erstellt
+  30 Spiele in den naechsten 3 Tagen
+  30 Prognosen via Team-Historie-Fallback erstellt
 == 1. Bundesliga ==
   306 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
@@ -82,10 +79,10 @@ fixtures.csv: 21 Spiele mit Quoten
   380 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
 == La Liga ==
-  380 Ergebnisse geladen
+  385 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
 == La Liga 2 ==
-  462 Ergebnisse geladen
+  467 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
 == Ligue 1 ==
   306 Ergebnisse geladen
@@ -118,7 +115,7 @@ fixtures.csv: 21 Spiele mit Quoten
   42 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
 == Premiership (Schottland) ==
-  228 Ergebnisse geladen
+  234 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
 == MLS (USA) ==
   519 Ergebnisse geladen
@@ -138,17 +135,17 @@ fixtures.csv: 21 Spiele mit Quoten
 == Premier Division (Irland) ==
   66 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
-  Kicker-News: 29 Schlagzeilen geladen
+  Kicker-News: 30 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 201, WTA 200
   Historie: ATP 12468 Matches, WTA 11586 Matches
   Elo ATP: 549 Spieler bewertet
   Elo WTA: 574 Spieler bewertet
-  Belag-Zuordnung (MatchStat): 22 Turniere
-  Tennis-Quoten zugeordnet: 31
+  Belag-Zuordnung (MatchStat): 21 Turniere
+  Tennis-Quoten zugeordnet: 38
   69 Tennis-Matches in den naechsten 3 Tagen
-  22 Tennis-Matches heute bereits beendet
-  Tipp-Log: 941 Eintraege, 666 ausgewertet, 404 richtig
-  Premium-Abrufe: Tennis 6, Fussball 154 (Tennis AKTIV, Fussball AKTIV)
+  0 Tennis-Matches heute bereits beendet
+  Tipp-Log: 995 Eintraege, 682 ausgewertet, 415 richtig
+  Premium-Abrufe: Tennis 6, Fussball 304 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
