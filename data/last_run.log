@@ -9,18 +9,18 @@
 /tmp/tennisdata/atp_2026.xlsx: OK über http://www.tennis-data.co.uk (286859 Bytes)
 /tmp/tennisdata/wta_2026.xlsx: OK über http://www.tennis-data.co.uk (273964 Bytes)
 total 3832
-drwxr-xr-x  2 runner runner   4096 Aug  4 08:31 .
-drwxrwxrwt 14 root   root    12288 Aug  4 08:30 ..
--rw-r--r--  1 runner runner 417917 Aug  4 08:30 atp_2022.xlsx
--rw-r--r--  1 runner runner 447088 Aug  4 08:30 atp_2023.xlsx
--rw-r--r--  1 runner runner 445729 Aug  4 08:30 atp_2024.xlsx
--rw-r--r--  1 runner runner 426707 Aug  4 08:30 atp_2025.xlsx
--rw-r--r--  1 runner runner 286859 Aug  4 08:30 atp_2026.xlsx
--rw-r--r--  1 runner runner 370069 Aug  4 08:30 wta_2022.xlsx
--rw-r--r--  1 runner runner 407251 Aug  4 08:30 wta_2023.xlsx
--rw-r--r--  1 runner runner 406783 Aug  4 08:30 wta_2024.xlsx
--rw-r--r--  1 runner runner 399398 Aug  4 08:30 wta_2025.xlsx
--rw-r--r--  1 runner runner 273964 Aug  4 08:31 wta_2026.xlsx
+drwxr-xr-x  2 runner runner   4096 Aug  4 12:00 .
+drwxrwxrwt 14 root   root    12288 Aug  4 12:00 ..
+-rw-r--r--  1 runner runner 417917 Aug  4 12:00 atp_2022.xlsx
+-rw-r--r--  1 runner runner 447088 Aug  4 12:00 atp_2023.xlsx
+-rw-r--r--  1 runner runner 445729 Aug  4 12:00 atp_2024.xlsx
+-rw-r--r--  1 runner runner 426707 Aug  4 12:00 atp_2025.xlsx
+-rw-r--r--  1 runner runner 286859 Aug  4 12:00 atp_2026.xlsx
+-rw-r--r--  1 runner runner 370069 Aug  4 12:00 wta_2022.xlsx
+-rw-r--r--  1 runner runner 407251 Aug  4 12:00 wta_2023.xlsx
+-rw-r--r--  1 runner runner 406783 Aug  4 12:00 wta_2024.xlsx
+-rw-r--r--  1 runner runner 399398 Aug  4 12:00 wta_2025.xlsx
+-rw-r--r--  1 runner runner 273964 Aug  4 12:00 wta_2026.xlsx
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/uefa.champions/seasons/2026/types/1/leaders nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/uefa.champions/seasons/2026/types/2/leaders nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/uefa.europa/seasons/2026/types/1/leaders nicht erreichbar (HTTP Error 404: Not Found)
@@ -135,7 +135,7 @@ fixtures.csv: 21 Spiele mit Quoten
 == Premier Division (Irland) ==
   66 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
-  Kicker-News: 30 Schlagzeilen geladen
+  Kicker-News: 28 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 201, WTA 200
@@ -144,8 +144,8 @@ fixtures.csv: 21 Spiele mit Quoten
   Elo WTA: 574 Spieler bewertet
   Belag-Zuordnung (MatchStat): 31 Turniere
   Tennis-Quoten zugeordnet: 28
-  78 Tennis-Matches in den naechsten 3 Tagen
-  10 Tennis-Matches heute bereits beendet
-  Tipp-Log: 1017 Eintraege, 727 ausgewertet, 439 richtig
-  Premium-Abrufe: Tennis 6, Fussball 304 (Tennis AKTIV, Fussball AKTIV)
+  75 Tennis-Matches in den naechsten 3 Tagen
+  14 Tennis-Matches heute bereits beendet
+  Tipp-Log: 1020 Eintraege, 735 ausgewertet, 443 richtig
+  Premium-Abrufe: Tennis 6, Fussball 313 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json

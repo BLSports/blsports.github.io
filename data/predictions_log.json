@@ -11374,9 +11374,9 @@
    "tip": "P1",
    "tipName": "Justina Mikulskyte",
    "prob": 0.6074,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-08-03|galfi d|seidel e": {
    "sport": "tn",
@@ -11388,9 +11388,9 @@
    "tip": "P2",
    "tipName": "Dalma Galfi",
    "prob": 0.5401,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-08-03|kostovic t|kubka m": {
    "sport": "tn",
@@ -11416,9 +11416,9 @@
    "tip": "P1",
    "tipName": "Susan Bandecchi",
    "prob": 0.5574,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-08-03|fruhvirtova l|kawa k": {
    "sport": "tn",
@@ -11458,9 +11458,9 @@
    "tip": "P2",
    "tipName": "Elsa Jacquemot",
    "prob": 0.6052,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-08-03|klimovicova l|yaneva e": {
    "sport": "tn",
@@ -11662,9 +11662,9 @@
    "awayKey": "saburtalo",
    "tip": "1",
    "tipName": "Larne",
-   "prob": 0.4339,
+   "prob": 0.4501,
    "tipScore": "1:1",
-   "pOver25": 0.5488,
+   "pOver25": 0.5713,
    "status": "open",
    "result": null,
    "correct": null,
@@ -12664,9 +12664,9 @@
    "tip": "P1",
    "tipName": "Susan Bandecchi",
    "prob": 0.5669,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-08-04|klimovicova l|yaneva e": {
    "sport": "tn",
@@ -12692,9 +12692,9 @@
    "tip": "P2",
    "tipName": "Elsa Jacquemot",
    "prob": 0.6028,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-08-04|valdmannova v|vandromme j": {
    "sport": "tn",
@@ -12720,9 +12720,9 @@
    "tip": "P2",
    "tipName": "Dalma Galfi",
    "prob": 0.5401,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-08-04|karatancheva l|pawlikowska z": {
    "sport": "tn",
@@ -12748,9 +12748,9 @@
    "tip": "P1",
    "tipName": "Justina Mikulskyte",
    "prob": 0.6074,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-08-04|costoulas s|knutson g": {
    "sport": "tn",
@@ -15058,6 +15058,48 @@
    "tip": "P2",
    "tipName": "Marie Bouzkova",
    "prob": 0.5815,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-08-05|bandecchi s|podrez v": {
+   "sport": "tn",
+   "comp": "WTA · Warsaw T-Mobile Polish Open",
+   "date": "2026-08-05",
+   "label": "Veronika Podrez – Susan Bandecchi",
+   "p1Key": "podrez v",
+   "p2Key": "bandecchi s",
+   "tip": "P1",
+   "tipName": "Veronika Podrez",
+   "prob": 0.5763,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-08-05|falei a|young suh lee c": {
+   "sport": "tn",
+   "comp": "WTA · Warsaw T-Mobile Polish Open",
+   "date": "2026-08-05",
+   "label": "Aliona Falei – Carol Young Suh Lee",
+   "p1Key": "falei a",
+   "p2Key": "young suh lee c",
+   "tip": "P2",
+   "tipName": "Carol Young Suh Lee",
+   "prob": 0.649,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-08-05|kawa k|mikulskyte j": {
+   "sport": "tn",
+   "comp": "WTA · Warsaw T-Mobile Polish Open",
+   "date": "2026-08-05",
+   "label": "Justina Mikulskyte – Katarzyna Kawa",
+   "p1Key": "mikulskyte j",
+   "p2Key": "kawa k",
+   "tip": "P2",
+   "tipName": "Katarzyna Kawa",
+   "prob": 0.6251,
    "status": "open",
    "result": null,
    "correct": null
