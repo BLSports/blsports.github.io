@@ -9,18 +9,18 @@
 /tmp/tennisdata/atp_2026.xlsx: OK über http://www.tennis-data.co.uk (286859 Bytes)
 /tmp/tennisdata/wta_2026.xlsx: OK über http://www.tennis-data.co.uk (273964 Bytes)
 total 3832
-drwxr-xr-x  2 runner runner   4096 Aug  4 22:59 .
-drwxrwxrwt 14 root   root    12288 Aug  4 22:59 ..
--rw-r--r--  1 runner runner 417917 Aug  4 22:59 atp_2022.xlsx
--rw-r--r--  1 runner runner 447088 Aug  4 22:59 atp_2023.xlsx
--rw-r--r--  1 runner runner 445729 Aug  4 22:59 atp_2024.xlsx
--rw-r--r--  1 runner runner 426707 Aug  4 22:59 atp_2025.xlsx
--rw-r--r--  1 runner runner 286859 Aug  4 22:59 atp_2026.xlsx
--rw-r--r--  1 runner runner 370069 Aug  4 22:59 wta_2022.xlsx
--rw-r--r--  1 runner runner 407251 Aug  4 22:59 wta_2023.xlsx
--rw-r--r--  1 runner runner 406783 Aug  4 22:59 wta_2024.xlsx
--rw-r--r--  1 runner runner 399398 Aug  4 22:59 wta_2025.xlsx
--rw-r--r--  1 runner runner 273964 Aug  4 22:59 wta_2026.xlsx
+drwxr-xr-x  2 runner runner   4096 Aug  5 06:16 .
+drwxrwxrwt 14 root   root    12288 Aug  5 06:16 ..
+-rw-r--r--  1 runner runner 417917 Aug  5 06:16 atp_2022.xlsx
+-rw-r--r--  1 runner runner 447088 Aug  5 06:16 atp_2023.xlsx
+-rw-r--r--  1 runner runner 445729 Aug  5 06:16 atp_2024.xlsx
+-rw-r--r--  1 runner runner 426707 Aug  5 06:16 atp_2025.xlsx
+-rw-r--r--  1 runner runner 286859 Aug  5 06:16 atp_2026.xlsx
+-rw-r--r--  1 runner runner 370069 Aug  5 06:16 wta_2022.xlsx
+-rw-r--r--  1 runner runner 407251 Aug  5 06:16 wta_2023.xlsx
+-rw-r--r--  1 runner runner 406783 Aug  5 06:16 wta_2024.xlsx
+-rw-r--r--  1 runner runner 399398 Aug  5 06:16 wta_2025.xlsx
+-rw-r--r--  1 runner runner 273964 Aug  5 06:16 wta_2026.xlsx
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
@@ -125,7 +125,6 @@ drwxrwxrwt 14 root   root    12288 Aug  4 22:59 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20260805-20261203&limit=50 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/bel.1/seasons/2026/types/1/leaders nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/bel.1/seasons/2026/types/2/leaders nicht erreichbar (HTTP Error 404: Not Found)
-  WARN: https://api.the-odds-api.com/v4/sports/soccer_belgium_pro_league/odds/?apiKey=8392ea7216723e341b1a7c2cea58bcb4&regions=eu&markets=h2h&oddsFormat=decimal nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
@@ -247,10 +246,6 @@ drwxrwxrwt 14 root   root    12288 Aug  4 22:59 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/tennis/wta/scoreboard?dates=20260731 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates=20260730 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/tennis/wta/scoreboard?dates=20260730 nicht erreichbar (HTTP Error 403: Forbidden)
-  WARN: https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates=20260725 nicht erreichbar (HTTP Error 403: Forbidden)
-  WARN: https://site.api.espn.com/apis/site/v2/sports/tennis/wta/scoreboard?dates=20260725 nicht erreichbar (HTTP Error 403: Forbidden)
-  WARN: https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates=20260726 nicht erreichbar (HTTP Error 403: Forbidden)
-  WARN: https://site.api.espn.com/apis/site/v2/sports/tennis/wta/scoreboard?dates=20260726 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates=20260727 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/tennis/wta/scoreboard?dates=20260727 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates=20260728 nicht erreichbar (HTTP Error 403: Forbidden)
@@ -375,7 +370,7 @@ fixtures.csv: 21 Spiele mit Quoten
   Historie: ATP 12468 Matches, WTA 11586 Matches
   Elo ATP: 549 Spieler bewertet
   Elo WTA: 574 Spieler bewertet
-  Belag-Zuordnung (MatchStat): 28 Turniere
+  Belag-Zuordnung (MatchStat): 32 Turniere
   Tennis-Quoten zugeordnet: 0
   0 Tennis-Matches in den naechsten 3 Tagen
   0 Tennis-Matches heute bereits beendet
