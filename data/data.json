@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-05T13:56:33.353218+02:00",
+ "generatedAt": "2026-08-05T16:07:34.889601+02:00",
  "windowDays": 3,
  "days": [
   "2026-08-05",
@@ -108,8 +108,20 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "3. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "S",
+      "S",
+      "S",
+      "S",
+      "U"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "S",
+      "S",
+      "U"
+     ],
      "formHomeH": [],
      "formAwayA": [],
      "load14Home": 0,
@@ -117,9 +129,32 @@
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "03.08.2017",
+       "home": "Fenerbahçe",
+       "away": "Sturm Graz",
+       "score": "1:1"
+      },
+      {
+       "date": "27.07.2017",
+       "home": "Sturm Graz",
+       "away": "Fenerbahçe",
+       "score": "1:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4314,
+      "pDraw": 0.2163,
+      "pAway": 0.3523,
+      "pOver25": 0.7083,
+      "pBtts": 0.7038,
+      "xgHome": 1.93,
+      "xgAway": 1.73,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.7038,
      "odds": {
       "h": 1.32,
       "d": 4.9,
@@ -148,8 +183,8 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "",
-     "basis": "Datenbasis: Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "analysis": "Zwischen Fenerbahçe und Sturm Graz deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Fenerbahçe 43 %, Unentschieden 22 %, Sieg Sturm Graz 35 %). Das letzte Duell (2017) endete 1:1 (Fenerbahçe – Sturm Graz). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,7; über 2,5 Tore: 71 %, beide Teams treffen zu 70 %). Gefährlichste Torschützen: bei Fenerbahçe Talisca (2 Tore) und bei Sturm Graz Luca Weinhandl (1 Tore).",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
    "seasonHasStarted": false,
@@ -319,21 +354,21 @@
      },
      "pBtts": 0.636,
      "odds": {
-      "h": 2.95,
+      "h": 2.94,
       "d": 3.35,
       "a": 2.32,
       "src": "10Bet"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.2029,
+      "edge": 0.2021,
       "modelP": 0.5201,
-      "odds": 2.95
+      "odds": 2.94
      },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Jagiellonia ist gegen Rangers leicht favorisiert (52 % zu 26 %). Die Form spricht für Jagiellonia: 5 Siege aus den letzten 5 Spielen, Rangers holte nur 2. Das Modell erwartet ein torreiches Spiel (xG 2,0:1,3; über 2,5 Tore: 64 %, beide Teams treffen zu 64 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,95) für 20 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Jagiellonia ist gegen Rangers leicht favorisiert (52 % zu 26 %). Die Form spricht für Jagiellonia: 5 Siege aus den letzten 5 Spielen, Rangers holte nur 2. Das Modell erwartet ein torreiches Spiel (xG 2,0:1,3; über 2,5 Tore: 64 %, beide Teams treffen zu 64 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,94) für 20 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -1369,13 +1404,7 @@
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
      "analysis": "Zwischen IFK Goteborg und Gent deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg IFK Goteborg 42 %, Unentschieden 23 %, Sieg Gent 35 %). Die Form spricht für IFK Goteborg: 3 Siege aus den letzten 5 Spielen, Gent holte nur 1. Das Modell erwartet ein torreiches Spiel (xG 1,7:1,6; über 2,5 Tore: 63 %, beide Teams treffen zu 64 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,20) für 13 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "Warum startet die 2. Liga eigentlich drei Wochen vor der Bundesliga?",
-       "link": "https://www.kicker.de/warum-startet-die-2-liga-eigentlich-drei-wochen-vor-der-bundesliga-1239958/video#omrss"
-      }
-     ]
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-06T19:00:00+02:00",
@@ -1694,8 +1723,20 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "3. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "U",
+      "S",
+      "N",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "U",
+      "U",
+      "N"
+     ],
      "formHomeH": [],
      "formAwayA": [],
      "load14Home": 0,
@@ -1704,20 +1745,35 @@
      "posAway": null,
      "nTeams": null,
      "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "prediction": {
+      "pHome": 0.5119,
+      "pDraw": 0.2149,
+      "pAway": 0.2731,
+      "pOver25": 0.6721,
+      "pBtts": 0.6619,
+      "xgHome": 2.02,
+      "xgAway": 1.44,
+      "tipScore": "2:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6619,
      "odds": {
       "h": 2.15,
       "d": 3.4,
       "a": 3.05,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.0841,
+      "modelP": 0.5119,
+      "odds": 2.15
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": "",
-     "basis": "Datenbasis: Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "analysis": "Raków Częstochowa ist gegen Hammarby FF leicht favorisiert (52 % zu 27 %). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,4; über 2,5 Tore: 67 %, beide Teams treffen zu 66 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,15) für 8 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-06T19:00:00+02:00",
@@ -1727,8 +1783,20 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "3. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "S",
+      "S",
+      "S",
+      "S",
+      "S"
+     ],
+     "formAway": [
+      "U",
+      "S",
+      "U",
+      "U",
+      "S"
+     ],
      "formHomeH": [],
      "formAwayA": [],
      "load14Home": 0,
@@ -1737,15 +1805,30 @@
      "posAway": null,
      "nTeams": null,
      "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "prediction": {
+      "pHome": 0.5306,
+      "pDraw": 0.2087,
+      "pAway": 0.2606,
+      "pOver25": 0.692,
+      "pBtts": 0.6734,
+      "xgHome": 2.12,
+      "xgAway": 1.45,
+      "tipScore": "2:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6734,
      "odds": {
       "h": 2.08,
       "d": 3.35,
       "a": 3.2,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.0902,
+      "modelP": 0.5306,
+      "odds": 2.08
+     },
      "scorersHome": [],
      "scorersAway": [
       {
@@ -1754,8 +1837,8 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "",
-     "basis": "Datenbasis: Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "analysis": "Riga ist gegen Gyori ETO FC leicht favorisiert (53 % zu 26 %). Die Form spricht für Riga: 5 Siege aus den letzten 5 Spielen, Gyori ETO FC holte nur 2. Das Modell erwartet ein torreiches Spiel (xG 2,1:1,4; über 2,5 Tore: 69 %, beide Teams treffen zu 67 %). Gefährlichste Torschützen: bei Gyori ETO FC N. Njie (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,08) für 9 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-06T19:30:00+02:00",
@@ -1765,8 +1848,20 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "3. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "U",
+      "S",
+      "U",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "S",
+      "S",
+      "N"
+     ],
      "formHomeH": [],
      "formAwayA": [],
      "load14Home": 0,
@@ -1775,20 +1870,35 @@
      "posAway": null,
      "nTeams": null,
      "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "prediction": {
+      "pHome": 0.3102,
+      "pDraw": 0.2681,
+      "pAway": 0.4217,
+      "pOver25": 0.4547,
+      "pBtts": 0.504,
+      "xgHome": 1.13,
+      "xgAway": 1.36,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.504,
      "odds": {
       "h": 2.28,
       "d": 3.3,
       "a": 2.88,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.1028,
+      "modelP": 0.4217,
+      "odds": 2.88
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": "",
-     "basis": "Datenbasis: Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "analysis": "Austria Vienna ist bei Beitar Jerusalem leicht favorisiert (42 % zu 31 %). Die Form spricht für Austria Vienna: 4 Siege aus den letzten 5 Spielen, Beitar Jerusalem holte nur 2. Das Modell erwartet eine offene Tor-Ausbeute (xG 1,1:1,4; über 2,5 Tore: 45 %, beide Teams treffen zu 50 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,88) für 10 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-06T20:00:00+02:00",
@@ -1798,8 +1908,20 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "3. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "S",
+      "S",
+      "S",
+      "S",
+      "S"
+     ],
+     "formAway": [
+      "U",
+      "U",
+      "S",
+      "N",
+      "N"
+     ],
      "formHomeH": [],
      "formAwayA": [],
      "load14Home": 0,
@@ -1808,8 +1930,18 @@
      "posAway": null,
      "nTeams": null,
      "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "prediction": {
+      "pHome": 0.5511,
+      "pDraw": 0.2319,
+      "pAway": 0.2169,
+      "pOver25": 0.5357,
+      "pBtts": 0.5363,
+      "xgHome": 1.79,
+      "xgAway": 1.03,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5363,
      "odds": {
       "h": 1.07,
       "d": 8.4,
@@ -1833,8 +1965,8 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "",
-     "basis": "Datenbasis: Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "analysis": "Ajax geht als klarer Favorit (55 %) in das Heimspiel gegen Shelbourne. Die Form spricht für Ajax: 5 Siege aus den letzten 5 Spielen, Shelbourne holte nur 1. Das Modell erwartet eine offene Tor-Ausbeute (xG 1,8:1,0; über 2,5 Tore: 54 %, beide Teams treffen zu 54 %). Gefährlichste Torschützen: bei Ajax O. Gloukh (4 Tore).",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-06T20:00:00+02:00",
@@ -2546,17 +2678,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4721,
-      "pDraw": 0.2504,
-      "pAway": 0.2775,
-      "pOver25": 0.5112,
-      "pBtts": 0.5408,
+      "pHome": 0.4719,
+      "pDraw": 0.2505,
+      "pAway": 0.2776,
+      "pOver25": 0.5108,
+      "pBtts": 0.5405,
       "xgHome": 1.57,
       "xgAway": 1.15,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5408,
+     "pBtts": 0.5405,
      "odds": {
       "h": 2.3,
       "d": 3.6,
@@ -2933,12 +3065,12 @@
      "odds": {
       "h": 2.38,
       "d": 3.7,
-      "a": 2.65,
+      "a": 2.62,
       "src": "10Bet"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.1281,
+      "edge": 0.1297,
       "modelP": 0.5216,
       "odds": 2.38
      },
@@ -3032,13 +3164,13 @@
      "pBtts": 0.6401,
      "odds": {
       "h": 2.85,
-      "d": 3.7,
+      "d": 3.65,
       "a": 2.25,
       "src": "10Bet"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.31,
+      "edge": 0.3112,
       "modelP": 0.6393,
       "odds": 2.85
      },
@@ -3127,16 +3259,16 @@
      },
      "pBtts": 0.6748,
      "odds": {
-      "h": 2.25,
+      "h": 2.3,
       "d": 3.8,
-      "a": 2.7,
+      "a": 2.75,
       "src": "10Bet"
      },
      "value": {
       "outcome": "2",
-      "edge": 0.0914,
+      "edge": 0.0925,
       "modelP": 0.435,
-      "odds": 2.7
+      "odds": 2.75
      },
      "scorersHome": [
       {
@@ -3151,7 +3283,7 @@
       }
      ],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Roda ist bei Emmen leicht favorisiert (44 % zu 34 %). Das letzte Duell (2026) endete 2:2 (Roda – Emmen). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,8; über 2,5 Tore: 67 %, beide Teams treffen zu 67 %). Gefährlichste Torschützen: bei Emmen Romano Postema (24 Tore) und bei Roda Anthony van der Hurk (16 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,70) für 9 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Roda ist bei Emmen leicht favorisiert (44 % zu 34 %). Das letzte Duell (2026) endete 2:2 (Roda – Emmen). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,8; über 2,5 Tore: 67 %, beide Teams treffen zu 67 %). Gefährlichste Torschützen: bei Emmen Romano Postema (24 Tore) und bei Roda Anthony van der Hurk (16 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,75) für 9 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -3230,7 +3362,7 @@
      "odds": {
       "h": 1.45,
       "d": 4.75,
-      "a": 6.0,
+      "a": 5.8,
       "src": "10Bet"
      },
      "value": null,
@@ -3315,13 +3447,13 @@
      "pBtts": 0.6812,
      "odds": {
       "h": 4.33,
-      "d": 4.1,
+      "d": 4.2,
       "a": 1.68,
       "src": "10Bet"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.2906,
+      "edge": 0.2894,
       "modelP": 0.5064,
       "odds": 4.33
      },
@@ -3529,9 +3661,9 @@
      },
      "pBtts": 0.5082,
      "odds": {
-      "h": 3.05,
-      "d": 3.3,
-      "a": 2.28,
+      "h": 2.95,
+      "d": 3.35,
+      "a": 2.32,
       "src": "10Bet"
      },
      "value": null,
@@ -3943,13 +4075,13 @@
      "pBtts": 0.5866,
      "odds": {
       "h": 2.95,
-      "d": 3.65,
+      "d": 3.6,
       "a": 2.2,
       "src": "10Bet"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.1212,
+      "edge": 0.1223,
       "modelP": 0.4387,
       "odds": 2.95
      },
@@ -4197,9 +4329,9 @@
      },
      "pBtts": 0.6123,
      "odds": {
-      "h": 2.0,
+      "h": 2.06,
       "d": 3.55,
-      "a": 3.45,
+      "a": 3.3,
       "src": "10Bet"
      },
      "value": null,
