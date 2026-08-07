@@ -9,18 +9,18 @@
 /tmp/tennisdata/atp_2026.xlsx: OK über http://www.tennis-data.co.uk (286859 Bytes)
 /tmp/tennisdata/wta_2026.xlsx: OK über http://www.tennis-data.co.uk (273964 Bytes)
 total 3832
-drwxr-xr-x  2 runner runner   4096 Aug  7 16:50 .
-drwxrwxrwt 14 root   root    12288 Aug  7 16:50 ..
--rw-r--r--  1 runner runner 417917 Aug  7 16:50 atp_2022.xlsx
--rw-r--r--  1 runner runner 447088 Aug  7 16:50 atp_2023.xlsx
--rw-r--r--  1 runner runner 445729 Aug  7 16:50 atp_2024.xlsx
--rw-r--r--  1 runner runner 426707 Aug  7 16:50 atp_2025.xlsx
--rw-r--r--  1 runner runner 286859 Aug  7 16:50 atp_2026.xlsx
--rw-r--r--  1 runner runner 370069 Aug  7 16:50 wta_2022.xlsx
--rw-r--r--  1 runner runner 407251 Aug  7 16:50 wta_2023.xlsx
--rw-r--r--  1 runner runner 406783 Aug  7 16:50 wta_2024.xlsx
--rw-r--r--  1 runner runner 399398 Aug  7 16:50 wta_2025.xlsx
--rw-r--r--  1 runner runner 273964 Aug  7 16:50 wta_2026.xlsx
+drwxr-xr-x  2 runner runner   4096 Aug  7 18:50 .
+drwxrwxrwt 14 root   root    12288 Aug  7 18:50 ..
+-rw-r--r--  1 runner runner 417917 Aug  7 18:50 atp_2022.xlsx
+-rw-r--r--  1 runner runner 447088 Aug  7 18:50 atp_2023.xlsx
+-rw-r--r--  1 runner runner 445729 Aug  7 18:50 atp_2024.xlsx
+-rw-r--r--  1 runner runner 426707 Aug  7 18:50 atp_2025.xlsx
+-rw-r--r--  1 runner runner 286859 Aug  7 18:50 atp_2026.xlsx
+-rw-r--r--  1 runner runner 370069 Aug  7 18:50 wta_2022.xlsx
+-rw-r--r--  1 runner runner 407251 Aug  7 18:50 wta_2023.xlsx
+-rw-r--r--  1 runner runner 406783 Aug  7 18:50 wta_2024.xlsx
+-rw-r--r--  1 runner runner 399398 Aug  7 18:50 wta_2025.xlsx
+-rw-r--r--  1 runner runner 273964 Aug  7 18:50 wta_2026.xlsx
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
@@ -166,6 +166,7 @@ drwxrwxrwt 14 root   root    12288 Aug  7 16:50 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/sco.1/scoreboard?dates=20260808 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/sco.1/scoreboard?dates=20260809 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/sco.1/scoreboard?dates=20260807-20261205&limit=50 nicht erreichbar (HTTP Error 403: Forbidden)
+  WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/sco.1/seasons/2026/athletes/319132?lang=en&region=us nicht erreichbar (HTTP Error 503: Backend fetch failed)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
@@ -310,16 +311,16 @@ fixtures.csv: 78 Spiele mit Quoten
   5 Prognosen via Team-Historie-Fallback erstellt
 == Eredivisie ==
   306 Ergebnisse geladen
-  9 Spiele in den naechsten 3 Tagen
-  3 Prognosen via Team-Historie-Fallback erstellt
+  8 Spiele in den naechsten 3 Tagen
+  2 Prognosen via Team-Historie-Fallback erstellt
 == Eerste Divisie ==
   0 Ergebnisse geladen
-  8 Spiele in den naechsten 3 Tagen
-  8 Prognosen via Team-Historie-Fallback erstellt
+  3 Spiele in den naechsten 3 Tagen
+  3 Prognosen via Team-Historie-Fallback erstellt
 == Pro League (Belgien) ==
   311 Ergebnisse geladen
-  9 Spiele in den naechsten 3 Tagen
-  4 Prognosen via Team-Historie-Fallback erstellt
+  8 Spiele in den naechsten 3 Tagen
+  3 Prognosen via Team-Historie-Fallback erstellt
 == Challenger Pro League (Belgien) ==
   0 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
@@ -332,8 +333,8 @@ fixtures.csv: 78 Spiele mit Quoten
   0 Spiele in den naechsten 3 Tagen
 == Bundesliga (Österreich) ==
   0 Ergebnisse geladen
-  6 Spiele in den naechsten 3 Tagen
-  6 Prognosen via Team-Historie-Fallback erstellt
+  5 Spiele in den naechsten 3 Tagen
+  5 Prognosen via Team-Historie-Fallback erstellt
 == Super League (Schweiz) ==
   0 Ergebnisse geladen
   6 Spiele in den naechsten 3 Tagen
@@ -364,9 +365,9 @@ fixtures.csv: 78 Spiele mit Quoten
   2 Prognosen via Team-Historie-Fallback erstellt
 == Premier Division (Irland) ==
   0 Ergebnisse geladen
-  5 Spiele in den naechsten 3 Tagen
-  5 Prognosen via Team-Historie-Fallback erstellt
-  Kicker-News: 34 Schlagzeilen geladen
+  2 Spiele in den naechsten 3 Tagen
+  2 Prognosen via Team-Historie-Fallback erstellt
+  Kicker-News: 30 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 201, WTA 200
@@ -378,5 +379,5 @@ fixtures.csv: 78 Spiele mit Quoten
   0 Tennis-Matches in den naechsten 3 Tagen
   0 Tennis-Matches heute bereits beendet
   Tipp-Log: 1131 Eintraege, 735 ausgewertet, 443 richtig
-  Premium-Abrufe: Tennis 6, Fussball 472 (Tennis AKTIV, Fussball AKTIV)
+  Premium-Abrufe: Tennis 6, Fussball 411 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
