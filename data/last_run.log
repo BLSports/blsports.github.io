@@ -9,18 +9,18 @@
 /tmp/tennisdata/atp_2026.xlsx: OK über http://www.tennis-data.co.uk (286859 Bytes)
 /tmp/tennisdata/wta_2026.xlsx: OK über http://www.tennis-data.co.uk (273964 Bytes)
 total 3832
-drwxr-xr-x  2 runner runner   4096 Aug  7 12:54 .
-drwxrwxrwt 14 root   root    12288 Aug  7 12:54 ..
--rw-r--r--  1 runner runner 417917 Aug  7 12:54 atp_2022.xlsx
--rw-r--r--  1 runner runner 447088 Aug  7 12:54 atp_2023.xlsx
--rw-r--r--  1 runner runner 445729 Aug  7 12:54 atp_2024.xlsx
--rw-r--r--  1 runner runner 426707 Aug  7 12:54 atp_2025.xlsx
--rw-r--r--  1 runner runner 286859 Aug  7 12:54 atp_2026.xlsx
--rw-r--r--  1 runner runner 370069 Aug  7 12:54 wta_2022.xlsx
--rw-r--r--  1 runner runner 407251 Aug  7 12:54 wta_2023.xlsx
--rw-r--r--  1 runner runner 406783 Aug  7 12:54 wta_2024.xlsx
--rw-r--r--  1 runner runner 399398 Aug  7 12:54 wta_2025.xlsx
--rw-r--r--  1 runner runner 273964 Aug  7 12:54 wta_2026.xlsx
+drwxr-xr-x  2 runner runner   4096 Aug  7 14:49 .
+drwxrwxrwt 14 root   root    12288 Aug  7 14:49 ..
+-rw-r--r--  1 runner runner 417917 Aug  7 14:49 atp_2022.xlsx
+-rw-r--r--  1 runner runner 447088 Aug  7 14:49 atp_2023.xlsx
+-rw-r--r--  1 runner runner 445729 Aug  7 14:49 atp_2024.xlsx
+-rw-r--r--  1 runner runner 426707 Aug  7 14:49 atp_2025.xlsx
+-rw-r--r--  1 runner runner 286859 Aug  7 14:49 atp_2026.xlsx
+-rw-r--r--  1 runner runner 370069 Aug  7 14:49 wta_2022.xlsx
+-rw-r--r--  1 runner runner 407251 Aug  7 14:49 wta_2023.xlsx
+-rw-r--r--  1 runner runner 406783 Aug  7 14:49 wta_2024.xlsx
+-rw-r--r--  1 runner runner 399398 Aug  7 14:49 wta_2025.xlsx
+-rw-r--r--  1 runner runner 273964 Aug  7 14:50 wta_2026.xlsx
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
@@ -162,8 +162,6 @@ drwxrwxrwt 14 root   root    12288 Aug  7 12:54 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/sui.1/scoreboard?dates=20260807-20261205&limit=50 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/sui.1/seasons/2026/types/1/leaders nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/sui.1/seasons/2026/types/2/leaders nicht erreichbar (HTTP Error 404: Not Found)
-  WARN api-football /fixtures: {'rateLimit': 'Too many requests. You have exceeded the limit of requests per minute of your subscription.'}
-  WARN api-football /fixtures/headtohead: {'rateLimit': 'Too many requests. You have exceeded the limit of requests per minute of your subscription.'}
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/sco.1/scoreboard?dates=20260807 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/sco.1/scoreboard?dates=20260808 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/sco.1/scoreboard?dates=20260809 nicht erreichbar (HTTP Error 403: Forbidden)
@@ -186,6 +184,9 @@ drwxrwxrwt 14 root   root    12288 Aug  7 12:54 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard?dates=20260808 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard?dates=20260809 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bra.1/scoreboard?dates=20260807-20261205&limit=50 nicht erreichbar (HTTP Error 403: Forbidden)
+  WARN api-football /fixtures/headtohead: {'rateLimit': 'Too many requests. You have exceeded the limit of requests per minute of your subscription.'}
+  WARN api-football /fixtures: {'rateLimit': 'Too many requests. You have exceeded the limit of requests per minute of your subscription.'}
+  WARN api-football /fixtures: {'rateLimit': 'Too many requests. You have exceeded the limit of requests per minute of your subscription.'}
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/nor.1/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/nor.1/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/nor.1/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
@@ -339,7 +340,7 @@ fixtures.csv: 78 Spiele mit Quoten
 == Super League (Schweiz) ==
   0 Ergebnisse geladen
   6 Spiele in den naechsten 3 Tagen
-  5 Prognosen via Team-Historie-Fallback erstellt
+  6 Prognosen via Team-Historie-Fallback erstellt
 == Premiership (Schottland) ==
   234 Ergebnisse geladen
   6 Spiele in den naechsten 3 Tagen
@@ -351,7 +352,7 @@ fixtures.csv: 78 Spiele mit Quoten
 == Série A (Brasilien) ==
   0 Ergebnisse geladen
   9 Spiele in den naechsten 3 Tagen
-  9 Prognosen via Team-Historie-Fallback erstellt
+  7 Prognosen via Team-Historie-Fallback erstellt
 == Eliteserien (Norwegen) ==
   0 Ergebnisse geladen
   7 Spiele in den naechsten 3 Tagen
