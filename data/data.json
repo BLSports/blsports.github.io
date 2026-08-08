@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-08T08:43:39.616364+02:00",
+ "generatedAt": "2026-08-08T12:27:28.419661+02:00",
  "windowDays": 3,
  "days": [
   "2026-08-08",
@@ -157,7 +157,47 @@
      "scorersAway": [],
      "scorersPeriod": "Saison",
      "analysis": "1. FC Heidenheim 1846 ist gegen VfL Osnabrück leicht favorisiert (48 % zu 30 %). In der Tabelle stehen sich Platz 3 und Platz 16 gegenüber. Das letzte Duell (2021) endete 1:2 (VfL Osnabruck – FC Heidenheim). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,5; über 2,5 Tore: 67 %, beide Teams treffen zu 67 %).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "lineups": {
+      "home": {
+       "formation": "4-4-2",
+       "xi": [
+        "Frank Feller",
+        "Oualid Mhamdi",
+        "Patrick Mainka",
+        "Tim Siersleben",
+        "Jonas Föhrenbach",
+        "Marcel Costly",
+        "Adrian Beck",
+        "Jan Schöppner",
+        "Mathias Honsak",
+        "Budu Zivzivadze",
+        "Marvin Pieringer"
+       ]
+      },
+      "away": {
+       "formation": "3-4-2-1",
+       "xi": [
+        "Jonas Krumrey",
+        "Robin Fabinski",
+        "Jannik Müller",
+        "Niklas Wiemann",
+        "Konrad Faber",
+        "Bjarke Jacobsen",
+        "Fridolin Wagner",
+        "Patrick Kammerbauer",
+        "David Kopacz",
+        "Ismail Badjie",
+        "Robin Meißner"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "news": [
+      {
+       "title": "LIVE! KSC gegen Bielefeld mit Egloff - Absteiger gegen Aufsteiger in Heidenheim",
+       "link": "https://www.kicker.de/live-ksc-gegen-bielefeld-mit-egloff-absteiger-gegen-aufsteiger-in-heidenheim-1240799/artikel#omrss"
+      }
+     ]
     },
     {
      "kickoff": "2026-08-08T13:00:00+02:00",
@@ -321,8 +361,42 @@
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen Karlsruher SC und DSC Arminia Bielefeld deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Karlsruher SC 40 %, Unentschieden 22 %, Sieg DSC Arminia Bielefeld 38 %). Heim-/Auswärtsbilanz: Karlsruher SC gewann 3 der letzten 5 Heimspiele, DSC Arminia Bielefeld 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 4:1 (Karlsruher SC – DSC Arminia Bielefeld). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,8; über 2,5 Tore: 70 %, beide Teams treffen zu 70 %).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "analysis": "Zwischen Karlsruher SC und DSC Arminia Bielefeld deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Karlsruher SC 40 %, Unentschieden 22 %, Sieg DSC Arminia Bielefeld 38 %). Heim-/Auswärtsbilanz: Karlsruher SC gewann 3 der letzten 5 Heimspiele, DSC Arminia Bielefeld 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 4:1 (Karlsruher SC – DSC Arminia Bielefeld). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,8; über 2,5 Tore: 70 %, beide Teams treffen zu 70 %). Die Aufstellungen sind offiziell (4-4-2 gegen 4-3-3).",
+     "lineups": {
+      "home": {
+       "formation": "4-4-2",
+       "xi": [
+        "Hans Christian Bernat",
+        "Sebastian Jung",
+        "Christoph Kobald",
+        "Marcel Franke",
+        "Deniz Ofli",
+        "Rafael Pinto Pedrosa",
+        "Lilian Egloff",
+        "Danyal Zor",
+        "Marvin Wanitzek",
+        "Moritz Broschinski",
+        "Noel Eichinger"
+       ]
+      },
+      "away": {
+       "formation": "4-3-3",
+       "xi": [
+        "Jonas Thomas Kersken",
+        "Henri Koudossou",
+        "Maximilian Großer",
+        "Maximilian Bauer",
+        "Tim Handwerker",
+        "Sam Schreck",
+        "Stefano Russo",
+        "Marius Wörl",
+        "Monju Momuluh",
+        "Joel Grodowski",
+        "Jannik Rochelt"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-08T13:00:00+02:00",
@@ -401,8 +475,42 @@
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "1. FC Magdeburg geht als klarer Favorit (58 %) in das Heimspiel gegen Eintracht Braunschweig. Heim-/Auswärtsbilanz: 1. FC Magdeburg gewann 3 der letzten 5 Heimspiele, Eintracht Braunschweig 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:3 (Eintracht Braunschweig – 1. FC Magdeburg). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,0; über 2,5 Tore: 56 %, beide Teams treffen zu 55 %).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "analysis": "1. FC Magdeburg geht als klarer Favorit (58 %) in das Heimspiel gegen Eintracht Braunschweig. Heim-/Auswärtsbilanz: 1. FC Magdeburg gewann 3 der letzten 5 Heimspiele, Eintracht Braunschweig 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:3 (Eintracht Braunschweig – 1. FC Magdeburg). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,0; über 2,5 Tore: 56 %, beide Teams treffen zu 55 %). Die Aufstellungen sind offiziell (4-3-3 gegen 4-3-3).",
+     "lineups": {
+      "home": {
+       "formation": "4-3-3",
+       "xi": [
+        "Dominik Reimann",
+        "Herbert Bockhorn",
+        "Anselmo Garcia McNulty",
+        "Paul Jaeckel",
+        "Alexander Nollenberger",
+        "Moritz Kwarteng",
+        "Luka Hyryläinen",
+        "Falko Michel",
+        "Emmanuel Iyoha",
+        "Mateusz Żukowski",
+        "Barış Atik"
+       ]
+      },
+      "away": {
+       "formation": "4-3-3",
+       "xi": [
+        "Ron Thorben Hoffmann",
+        "Mehmet Aydın",
+        "Kevin Ehlers",
+        "Lukas Frenkert",
+        "Fabio Di Michele Sanchez",
+        "Samuele Di Benedetto",
+        "Florian Flick",
+        "Max Marie",
+        "Aaron Opoku",
+        "Jan Urbich",
+        "Yann Sturm"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-08T20:30:00+02:00",
@@ -488,7 +596,13 @@
      "scorersAway": [],
      "scorersPeriod": "Saison",
      "analysis": "VfL Wolfsburg geht als klarer Favorit (55 %) in das Heimspiel gegen 1. FC Kaiserslautern. In der Tabelle stehen sich Platz 2 und Platz 7 gegenüber. Das letzte Duell (2012) endete 0:0 (FC Kaiserslautern – VfL Wolfsburg). Das Modell erwartet ein torreiches Spiel (xG 1,8:1,1; über 2,5 Tore: 56 %, beide Teams treffen zu 55 %).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "news": [
+      {
+       "title": "Wer übeträgt VfL Wolfsburg gegen 1. FC Kaiserslautern heute live im TV und Stream?",
+       "link": "https://www.kicker.de/wer-uebetraegt-vfl-wolfsburg-gegen-1-fc-kaiserslautern-heute-live-im-tv-und-stream-1241165/artikel#omrss"
+      }
+     ]
     },
     {
      "kickoff": "2026-08-09T13:30:00+02:00",
@@ -1273,13 +1387,7 @@
      ],
      "scorersPeriod": "Vorsaison",
      "analysis": "Zwischen TSV Havelse und VfB Stuttgart II deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg TSV Havelse 38 %, Unentschieden 20 %, Sieg VfB Stuttgart II 42 %). Heim-/Auswärtsbilanz: TSV Havelse gewann 4 der letzten 5 Heimspiele, VfB Stuttgart II 0 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:2 (TSV Havelse – VfB Stuttgart II). Das Modell erwartet ein torreiches Spiel (xG 2,0:2,1; über 2,5 Tore: 79 %, beide Teams treffen zu 77 %). Gefährlichste Torschützen: bei TSV Havelse J. Posselt (6 Tore) und bei VfB Stuttgart II M. Ouro-Tagba (5 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,20) für 9 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "Stuttgart jubelt zum Auftakt: Ulm verliert Lockl und den Faden",
-       "link": "https://www.kicker.de/stg-kickers-gegen-ulm-2026-regionalliga-suedwest-5238753/spielbericht#omrss"
-      }
-     ]
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-08T16:30:00+02:00",
@@ -1696,8 +1804,12 @@
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
       {
-       "title": "Stuttgart jubelt zum Auftakt: Ulm verliert Lockl und den Faden",
-       "link": "https://www.kicker.de/stg-kickers-gegen-ulm-2026-regionalliga-suedwest-5238753/spielbericht#omrss"
+       "title": "Erstmals verloren, aber dennoch viel gewonnen: Greifswald findet seine neue Identität",
+       "link": "https://www.kicker.de/erstmals-verloren-aber-dennoch-viel-gewonnen-greifswald-findet-seine-neue-identitaet-1241602/artikel#omrss"
+      },
+      {
+       "title": "Bayer Leverkusen verlängert mit Carro und Rolfes",
+       "link": "https://www.kicker.de/bayer-leverkusen-verlaengert-mit-carro-und-rolfes-1241590/artikel#omrss"
       },
       {
        "title": "Adduktorenverletzung: Mainz zum Auftakt wohl ohne Nebel",
@@ -1926,7 +2038,17 @@
      ],
      "scorersPeriod": "Vorsaison",
      "analysis": "Nantes ist gegen RED Star FC 93 leicht favorisiert (51 % zu 27 %). In der Tabelle stehen sich Platz 4 und Platz 18 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 1,9:1,3; über 2,5 Tore: 62 %, beide Teams treffen zu 62 %). Gefährlichste Torschützen: bei RED Star FC 93 Damien Durand (13 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "news": [
+      {
+       "title": "Auftakt im Südwesten: Wie starten der OFC und Sandhausen in die neue Spielzeit?",
+       "link": "https://www.kicker.de/auftakt-im-suedwesten-wie-starten-der-ofc-und-sandhausen-in-die-neue-spielzeit-1241457/artikel#omrss"
+      },
+      {
+       "title": "Holperstart in die Giesinger Freiheit",
+       "link": "https://www.kicker.de/holperstart-in-die-giesinger-freiheit-1241589/artikel#omrss"
+      }
+     ]
     },
     {
      "kickoff": "2026-08-08T20:45:00+02:00",
@@ -2658,7 +2780,7 @@
      "value": null,
      "scorersHome": [],
      "scorersAway": [],
-     "scorersPeriod": "Vorsaison",
+     "scorersPeriod": "Saison",
      "analysis": "NEC Nijmegen geht als klarer Favorit (64 %) in das Heimspiel gegen Telstar. Die Form spricht für Telstar: 3 Siege aus den letzten 5 Spielen, NEC Nijmegen holte nur 1. Heim-/Auswärtsbilanz: NEC Nijmegen gewann 2 der letzten 5 Heimspiele, Telstar 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:1 (Nijmegen – Telstar). Das Modell erwartet ein torreiches Spiel (xG 2,5:1,3; über 2,5 Tore: 73 %, beide Teams treffen zu 66 %). Personal: NEC Nijmegen fehlen 1 Spieler (u.a. P. Schuurs).",
      "injuriesHome": [
       {
@@ -2748,15 +2870,10 @@
       "src": "Marathon Bet"
      },
      "value": null,
-     "scorersHome": [
-      {
-       "name": "Mathis Suray",
-       "goals": 12
-      }
-     ],
+     "scorersHome": [],
      "scorersAway": [],
-     "scorersPeriod": "Vorsaison",
-     "analysis": "GO Ahead Eagles ist gegen Willem II leicht favorisiert (45 % zu 30 %). In der Tabelle stehen sich Platz 16 und Platz 14 gegenüber. Die Form spricht für Willem II: 3 Siege aus den letzten 5 Spielen, GO Ahead Eagles holte nur 0. Das letzte Duell (2025) endete 1:0 (GO Ahead Eagles – Willem II). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,5:1,2; über 2,5 Tore: 51 %, beide Teams treffen zu 54 %). Gefährlichste Torschützen: bei GO Ahead Eagles Mathis Suray (12 Tore). Personal: GO Ahead Eagles fehlen 3 Spieler (u.a. G. Nauber); Willem II fehlen 3 Spieler (u.a. A. Lachkar).",
+     "scorersPeriod": "Saison",
+     "analysis": "GO Ahead Eagles ist gegen Willem II leicht favorisiert (45 % zu 30 %). In der Tabelle stehen sich Platz 16 und Platz 14 gegenüber. Die Form spricht für Willem II: 3 Siege aus den letzten 5 Spielen, GO Ahead Eagles holte nur 0. Das letzte Duell (2025) endete 1:0 (GO Ahead Eagles – Willem II). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,5:1,2; über 2,5 Tore: 51 %, beide Teams treffen zu 54 %). Personal: GO Ahead Eagles fehlen 3 Spieler (u.a. G. Nauber); Willem II fehlen 3 Spieler (u.a. A. Lachkar).",
      "injuriesHome": [
       {
        "name": "G. Nauber",
@@ -2861,28 +2978,10 @@
       "src": "Marathon Bet"
      },
      "value": null,
-     "scorersHome": [
-      {
-       "name": "Ricardo Pepi",
-       "goals": 16
-      },
-      {
-       "name": "Ismael Saibari",
-       "goals": 15
-      },
-      {
-       "name": "Guus Til",
-       "goals": 14
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Kaj Sierhuis",
-       "goals": 12
-      }
-     ],
-     "scorersPeriod": "Vorsaison",
-     "analysis": "PSV Eindhoven geht als klarer Favorit (88 %) in das Heimspiel gegen Fortuna Sittard. Die Form spricht für PSV Eindhoven: 4 Siege aus den letzten 5 Spielen, Fortuna Sittard holte nur 1. Heim-/Auswärtsbilanz: PSV Eindhoven gewann 4 der letzten 5 Heimspiele, Fortuna Sittard 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:2 (For Sittard – PSV Eindhoven). Das Modell erwartet ein torreiches Spiel (xG 4,1:1,0; über 2,5 Tore: 88 %, beide Teams treffen zu 63 %). Gefährlichste Torschützen: bei PSV Eindhoven Ricardo Pepi (16 Tore) und bei Fortuna Sittard Kaj Sierhuis (12 Tore). Personal: PSV Eindhoven fehlen 1 Spieler (u.a. J. Schouten); Fortuna Sittard fehlen 3 Spieler (u.a. R. Bayram).",
+     "scorersHome": [],
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "PSV Eindhoven geht als klarer Favorit (88 %) in das Heimspiel gegen Fortuna Sittard. Die Form spricht für PSV Eindhoven: 4 Siege aus den letzten 5 Spielen, Fortuna Sittard holte nur 1. Heim-/Auswärtsbilanz: PSV Eindhoven gewann 4 der letzten 5 Heimspiele, Fortuna Sittard 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:2 (For Sittard – PSV Eindhoven). Das Modell erwartet ein torreiches Spiel (xG 4,1:1,0; über 2,5 Tore: 88 %, beide Teams treffen zu 63 %). Personal: PSV Eindhoven fehlen 1 Spieler (u.a. J. Schouten); Fortuna Sittard fehlen 3 Spieler (u.a. R. Bayram).",
      "injuriesHome": [
       {
        "name": "J. Schouten",
@@ -2991,15 +3090,10 @@
       "src": "Marathon Bet"
      },
      "value": null,
-     "scorersHome": [
-      {
-       "name": "Troy Parrott",
-       "goals": 16
-      }
-     ],
+     "scorersHome": [],
      "scorersAway": [],
-     "scorersPeriod": "Vorsaison",
-     "analysis": "Zwischen AZ Alkmaar und ADO Den Haag deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg AZ Alkmaar 36 %, Unentschieden 23 %, Sieg ADO Den Haag 41 %). In der Tabelle stehen sich Platz 12 und Platz 15 gegenüber. Die Form spricht für ADO Den Haag: 4 Siege aus den letzten 5 Spielen, AZ Alkmaar holte nur 1. Das letzte Duell (2021) endete 2:1 (AZ Alkmaar – ADO Den Haag). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,7; über 2,5 Tore: 65 %, beide Teams treffen zu 66 %). Gefährlichste Torschützen: bei AZ Alkmaar Troy Parrott (16 Tore). Personal: AZ Alkmaar fehlen 4 Spieler (u.a. J. Hornkamp).",
+     "scorersPeriod": "Saison",
+     "analysis": "Zwischen AZ Alkmaar und ADO Den Haag deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg AZ Alkmaar 36 %, Unentschieden 23 %, Sieg ADO Den Haag 41 %). In der Tabelle stehen sich Platz 12 und Platz 15 gegenüber. Die Form spricht für ADO Den Haag: 4 Siege aus den letzten 5 Spielen, AZ Alkmaar holte nur 1. Das letzte Duell (2021) endete 2:1 (AZ Alkmaar – ADO Den Haag). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,7; über 2,5 Tore: 65 %, beide Teams treffen zu 66 %). Personal: AZ Alkmaar fehlen 4 Spieler (u.a. J. Hornkamp).",
      "injuriesHome": [
       {
        "name": "J. Hornkamp",
@@ -3094,20 +3188,10 @@
       "src": "Marathon Bet"
      },
      "value": null,
-     "scorersHome": [
-      {
-       "name": "Tobias Lauritsen",
-       "goals": 12
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Ayase Ueda",
-       "goals": 25
-      }
-     ],
-     "scorersPeriod": "Vorsaison",
-     "analysis": "Feyenoord reist als klarer Favorit (58 %) zu Sparta Rotterdam. Die Form spricht für Feyenoord: 3 Siege aus den letzten 5 Spielen, Sparta Rotterdam holte nur 0. Heim-/Auswärtsbilanz: Sparta Rotterdam gewann 1 der letzten 5 Heimspiele, Feyenoord 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:4 (Feyenoord – Sparta Rotterdam). Das Modell erwartet ein torreiches Spiel (xG 1,1:2,0; über 2,5 Tore: 59 %, beide Teams treffen zu 57 %). Gefährlichste Torschützen: bei Sparta Rotterdam Tobias Lauritsen (12 Tore) und bei Feyenoord Ayase Ueda (25 Tore). Personal: Feyenoord fehlen 4 Spieler (u.a. T. Beelen).",
+     "scorersHome": [],
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "Feyenoord reist als klarer Favorit (58 %) zu Sparta Rotterdam. Die Form spricht für Feyenoord: 3 Siege aus den letzten 5 Spielen, Sparta Rotterdam holte nur 0. Heim-/Auswärtsbilanz: Sparta Rotterdam gewann 1 der letzten 5 Heimspiele, Feyenoord 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:4 (Feyenoord – Sparta Rotterdam). Das Modell erwartet ein torreiches Spiel (xG 1,1:2,0; über 2,5 Tore: 59 %, beide Teams treffen zu 57 %). Personal: Feyenoord fehlen 4 Spieler (u.a. T. Beelen).",
      "injuriesAway": [
       {
        "name": "T. Beelen",
@@ -3203,14 +3287,9 @@
      },
      "value": null,
      "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Mika Godts",
-       "goals": 17
-      }
-     ],
-     "scorersPeriod": "Vorsaison",
-     "analysis": "Ajax reist als klarer Favorit (59 %) zu PEC Zwolle. Heim-/Auswärtsbilanz: PEC Zwolle gewann 2 der letzten 5 Heimspiele, Ajax 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (Zwolle – Ajax). Das Modell erwartet ein torreiches Spiel (xG 1,1:2,1; über 2,5 Tore: 62 %, beide Teams treffen zu 59 %). Gefährlichste Torschützen: bei Ajax Mika Godts (17 Tore). Personal: PEC Zwolle fehlen 1 Spieler (u.a. Y. Namli); Ajax fehlen 2 Spieler (u.a. J. Faberski).",
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "Ajax reist als klarer Favorit (59 %) zu PEC Zwolle. Heim-/Auswärtsbilanz: PEC Zwolle gewann 2 der letzten 5 Heimspiele, Ajax 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (Zwolle – Ajax). Das Modell erwartet ein torreiches Spiel (xG 1,1:2,1; über 2,5 Tore: 62 %, beide Teams treffen zu 59 %). Personal: PEC Zwolle fehlen 1 Spieler (u.a. Y. Namli); Ajax fehlen 2 Spieler (u.a. J. Faberski).",
      "injuriesHome": [
       {
        "name": "Y. Namli",
@@ -3305,7 +3384,7 @@
      "value": null,
      "scorersHome": [],
      "scorersAway": [],
-     "scorersPeriod": "Vorsaison",
+     "scorersPeriod": "Saison",
      "analysis": "Zwischen Groningen und Utrecht deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Groningen 40 %, Unentschieden 27 %, Sieg Utrecht 33 %). Die Form spricht für Utrecht: 4 Siege aus den letzten 5 Spielen, Groningen holte nur 2. Heim-/Auswärtsbilanz: Groningen gewann 3 der letzten 5 Heimspiele, Utrecht 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:2 (Groningen – Utrecht). Das Modell erwartet eher wenige Tore (xG 1,3:1,2; über 2,5 Tore: 45 %, beide Teams treffen zu 50 %). Personal: Groningen fehlen 2 Spieler (u.a. M. Jeng); Utrecht fehlen 6 Spieler (u.a. O. Agougil).",
      "injuriesHome": [
       {
@@ -3424,15 +3503,10 @@
       "modelP": 0.3682,
       "odds": 3.0
      },
-     "scorersHome": [
-      {
-       "name": "Jacob Trenskow",
-       "goals": 13
-      }
-     ],
+     "scorersHome": [],
      "scorersAway": [],
-     "scorersPeriod": "Vorsaison",
-     "analysis": "Zwischen Heerenveen und Twente deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Heerenveen 37 %, Unentschieden 25 %, Sieg Twente 38 %). Heim-/Auswärtsbilanz: Heerenveen gewann 4 der letzten 5 Heimspiele, Twente 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 5:0 (Twente – Heerenveen). Das Modell erwartet ein torreiches Spiel (xG 1,4:1,5; über 2,5 Tore: 56 %, beide Teams treffen zu 59 %). Gefährlichste Torschützen: bei Heerenveen Jacob Trenskow (13 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,00) für 6 Prozentpunkte wahrscheinlicher als der Markt. Personal: Heerenveen fehlen 1 Spieler (u.a. L. Smans); Twente fehlen 1 Spieler (u.a. M. Hilgers).",
+     "scorersPeriod": "Saison",
+     "analysis": "Zwischen Heerenveen und Twente deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Heerenveen 37 %, Unentschieden 25 %, Sieg Twente 38 %). Heim-/Auswärtsbilanz: Heerenveen gewann 4 der letzten 5 Heimspiele, Twente 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 5:0 (Twente – Heerenveen). Das Modell erwartet ein torreiches Spiel (xG 1,4:1,5; über 2,5 Tore: 56 %, beide Teams treffen zu 59 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,00) für 6 Prozentpunkte wahrscheinlicher als der Markt. Personal: Heerenveen fehlen 1 Spieler (u.a. L. Smans); Twente fehlen 1 Spieler (u.a. M. Hilgers).",
      "injuriesHome": [
       {
        "name": "L. Smans",
@@ -3465,20 +3539,8 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "Regular Season - 1",
-     "formHome": [
-      "N",
-      "S",
-      "U",
-      "S",
-      "S"
-     ],
-     "formAway": [
-      "N",
-      "N",
-      "S",
-      "S",
-      "N"
-     ],
+     "formHome": [],
+     "formAway": [],
      "formHomeH": [],
      "formAwayA": [],
      "load14Home": 0,
@@ -3486,77 +3548,21 @@
      "posHome": 3,
      "posAway": 9,
      "nTeams": null,
-     "h2h": [
-      {
-       "date": "02.05.2026",
-       "home": "Almere City FC",
-       "away": "Den Bosch",
-       "score": "3:0"
-      },
-      {
-       "date": "29.04.2026",
-       "home": "Den Bosch",
-       "away": "Almere City FC",
-       "score": "2:3"
-      },
-      {
-       "date": "06.04.2026",
-       "home": "Almere City FC",
-       "away": "Den Bosch",
-       "score": "1:2"
-      },
-      {
-       "date": "21.11.2025",
-       "home": "Den Bosch",
-       "away": "Almere City FC",
-       "score": "5:2"
-      },
-      {
-       "date": "01.08.2025",
-       "home": "Almere City FC",
-       "away": "Den Bosch",
-       "score": "1:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.4514,
-      "pDraw": 0.2189,
-      "pAway": 0.3297,
-      "pOver25": 0.6872,
-      "pBtts": 0.6851,
-      "xgHome": 1.92,
-      "xgAway": 1.62,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.6851,
+     "h2h": [],
+     "prediction": null,
+     "pBtts": null,
      "odds": {
       "h": 2.88,
       "d": 3.95,
       "a": 2.15,
       "src": "10Bet"
      },
-     "value": {
-      "outcome": "1",
-      "edge": 0.1255,
-      "modelP": 0.4514,
-      "odds": 2.88
-     },
-     "scorersHome": [
-      {
-       "name": "Kévin Monzialo",
-       "goals": 16
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Julian Rijkhoff",
-       "goals": 17
-      }
-     ],
-     "scorersPeriod": "Vorsaison",
-     "analysis": "Den Bosch ist gegen Almere City FC leicht favorisiert (45 % zu 33 %). In der Tabelle stehen sich Platz 3 und Platz 9 gegenüber. Das letzte Duell (2026) endete 3:0 (Almere City FC – Den Bosch). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,6; über 2,5 Tore: 69 %, beide Teams treffen zu 69 %). Gefährlichste Torschützen: bei Den Bosch Kévin Monzialo (16 Tore) und bei Almere City FC Julian Rijkhoff (17 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,88) für 13 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "value": null,
+     "scorersHome": [],
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "",
+     "basis": "Datenbasis: Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-09T12:15:00+02:00",
@@ -3566,20 +3572,8 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "Regular Season - 1",
-     "formHome": [
-      "N",
-      "U",
-      "N",
-      "N",
-      "S"
-     ],
-     "formAway": [
-      "N",
-      "N",
-      "N",
-      "S",
-      "N"
-     ],
+     "formHome": [],
+     "formAway": [],
      "formHomeH": [],
      "formAwayA": [],
      "load14Home": 0,
@@ -3587,72 +3581,16 @@
      "posHome": 7,
      "posAway": 1,
      "nTeams": null,
-     "h2h": [
-      {
-       "date": "31.01.2026",
-       "home": "Helmond Sport",
-       "away": "De Graafschap",
-       "score": "0:0"
-      },
-      {
-       "date": "21.11.2025",
-       "home": "De Graafschap",
-       "away": "Helmond Sport",
-       "score": "3:1"
-      },
-      {
-       "date": "09.05.2025",
-       "home": "Helmond Sport",
-       "away": "De Graafschap",
-       "score": "1:4"
-      },
-      {
-       "date": "13.09.2024",
-       "home": "De Graafschap",
-       "away": "Helmond Sport",
-       "score": "2:3"
-      },
-      {
-       "date": "16.02.2024",
-       "home": "Helmond Sport",
-       "away": "De Graafschap",
-       "score": "3:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.4992,
-      "pDraw": 0.2128,
-      "pAway": 0.2879,
-      "pOver25": 0.6942,
-      "pBtts": 0.6827,
-      "xgHome": 2.05,
-      "xgAway": 1.53,
-      "tipScore": "2:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.6827,
-     "odds": {
-      "h": 3.1,
-      "d": 3.6,
-      "a": 2.1,
-      "src": "10Bet"
-     },
-     "value": {
-      "outcome": "1",
-      "edge": 0.1996,
-      "modelP": 0.4992,
-      "odds": 3.1
-     },
+     "h2h": [],
+     "prediction": null,
+     "pBtts": null,
+     "odds": null,
+     "value": null,
      "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Reuven Niemeijer",
-       "goals": 20
-      }
-     ],
-     "scorersPeriod": "Vorsaison",
-     "analysis": "Helmond Sport ist gegen De Graafschap leicht favorisiert (50 % zu 29 %). In der Tabelle stehen sich Platz 7 und Platz 1 gegenüber. Das letzte Duell (2026) endete 0:0 (Helmond Sport – De Graafschap). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,5; über 2,5 Tore: 69 %, beide Teams treffen zu 68 %). Gefährlichste Torschützen: bei De Graafschap Reuven Niemeijer (20 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,10) für 20 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "",
+     "basis": "Datenbasis: Tabelle. Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-09T16:45:00+02:00",
@@ -3741,8 +3679,99 @@
      },
      "scorersHome": [],
      "scorersAway": [],
-     "scorersPeriod": "Vorsaison",
+     "scorersPeriod": "Saison",
      "analysis": "MVV ist gegen Jong Utrecht leicht favorisiert (46 % zu 29 %). In der Tabelle stehen sich Platz 8 und Platz 20 gegenüber. Die Form spricht für Jong Utrecht: 2 Siege aus den letzten 5 Spielen, MVV holte nur 0. Das letzte Duell (2026) endete 2:2 (MVV – Jong Utrecht). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:1,2; über 2,5 Tore: 51 %, beide Teams treffen zu 55 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,50) für 8 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-08-10T20:00:00+02:00",
+     "home": "Jong PSV U21",
+     "away": "FC Volendam",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Regular Season - 1",
+     "formHome": [
+      "S",
+      "S",
+      "N",
+      "N",
+      "N"
+     ],
+     "formAway": [
+      "N",
+      "N",
+      "U",
+      "S",
+      "N"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 17,
+     "posAway": 11,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "04.04.2025",
+       "home": "FC Volendam",
+       "away": "Jong PSV U21",
+       "score": "4:0"
+      },
+      {
+       "date": "22.11.2024",
+       "home": "Jong PSV U21",
+       "away": "FC Volendam",
+       "score": "1:4"
+      },
+      {
+       "date": "04.04.2022",
+       "home": "Jong PSV U21",
+       "away": "FC Volendam",
+       "score": "2:2"
+      },
+      {
+       "date": "10.12.2021",
+       "home": "FC Volendam",
+       "away": "Jong PSV U21",
+       "score": "3:2"
+      },
+      {
+       "date": "07.05.2021",
+       "home": "Jong PSV U21",
+       "away": "FC Volendam",
+       "score": "0:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4193,
+      "pDraw": 0.2457,
+      "pAway": 0.335,
+      "pOver25": 0.5582,
+      "pBtts": 0.587,
+      "xgHome": 1.55,
+      "xgAway": 1.36,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.587,
+     "odds": {
+      "h": 3.5,
+      "d": 3.85,
+      "a": 1.9,
+      "src": "10Bet"
+     },
+     "value": {
+      "outcome": "1",
+      "edge": 0.1527,
+      "modelP": 0.4193,
+      "odds": 3.5
+     },
+     "scorersHome": [],
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "Jong PSV U21 ist gegen FC Volendam leicht favorisiert (41 % zu 34 %). In der Tabelle stehen sich Platz 17 und Platz 11 gegenüber. Das letzte Duell (2025) endete 4:0 (FC Volendam – Jong PSV U21). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,4; über 2,5 Tore: 56 %, beide Teams treffen zu 59 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,50) für 15 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -3832,104 +3861,8 @@
      },
      "scorersHome": [],
      "scorersAway": [],
-     "scorersPeriod": "Vorsaison",
+     "scorersPeriod": "Saison",
      "analysis": "Jong AZ geht als klarer Favorit (64 %) in das Heimspiel gegen FC Eindhoven. In der Tabelle stehen sich Platz 19 und Platz 5 gegenüber. Die Form spricht für Jong AZ: 5 Siege aus den letzten 5 Spielen, FC Eindhoven holte nur 0. Das letzte Duell (2025) endete 3:2 (FC Eindhoven – Jong AZ). Das Modell erwartet ein torreiches Spiel (xG 2,3:1,1; über 2,5 Tore: 68 %, beide Teams treffen zu 62 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,10) für 19 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-08-10T20:00:00+02:00",
-     "home": "Jong PSV U21",
-     "away": "FC Volendam",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 1",
-     "formHome": [
-      "S",
-      "S",
-      "N",
-      "N",
-      "N"
-     ],
-     "formAway": [
-      "N",
-      "N",
-      "U",
-      "S",
-      "N"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 17,
-     "posAway": 11,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "04.04.2025",
-       "home": "FC Volendam",
-       "away": "Jong PSV U21",
-       "score": "4:0"
-      },
-      {
-       "date": "22.11.2024",
-       "home": "Jong PSV U21",
-       "away": "FC Volendam",
-       "score": "1:4"
-      },
-      {
-       "date": "04.04.2022",
-       "home": "Jong PSV U21",
-       "away": "FC Volendam",
-       "score": "2:2"
-      },
-      {
-       "date": "10.12.2021",
-       "home": "FC Volendam",
-       "away": "Jong PSV U21",
-       "score": "3:2"
-      },
-      {
-       "date": "07.05.2021",
-       "home": "Jong PSV U21",
-       "away": "FC Volendam",
-       "score": "0:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.4193,
-      "pDraw": 0.2457,
-      "pAway": 0.335,
-      "pOver25": 0.5582,
-      "pBtts": 0.587,
-      "xgHome": 1.55,
-      "xgAway": 1.36,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.587,
-     "odds": {
-      "h": 3.5,
-      "d": 3.85,
-      "a": 1.9,
-      "src": "10Bet"
-     },
-     "value": {
-      "outcome": "1",
-      "edge": 0.1527,
-      "modelP": 0.4193,
-      "odds": 3.5
-     },
-     "scorersHome": [
-      {
-       "name": "Robin Van Duiven",
-       "goals": 14
-      }
-     ],
-     "scorersAway": [],
-     "scorersPeriod": "Vorsaison",
-     "analysis": "Jong PSV U21 ist gegen FC Volendam leicht favorisiert (41 % zu 34 %). In der Tabelle stehen sich Platz 17 und Platz 11 gegenüber. Das letzte Duell (2025) endete 4:0 (FC Volendam – Jong PSV U21). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,4; über 2,5 Tore: 56 %, beide Teams treffen zu 59 %). Gefährlichste Torschützen: bei Jong PSV U21 Robin Van Duiven (14 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,50) für 15 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
@@ -4018,7 +3951,7 @@
      "value": null,
      "scorersHome": [],
      "scorersAway": [],
-     "scorersPeriod": "Vorsaison",
+     "scorersPeriod": "Saison",
      "analysis": "Standard Liege ist gegen Cercle Brugge leicht favorisiert (45 % zu 30 %). Heim-/Auswärtsbilanz: Standard Liege gewann 1 der letzten 5 Heimspiele, Cercle Brugge 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2025) endete 1:2 (Cercle Brugge – Standard). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,5:1,2; über 2,5 Tore: 51 %, beide Teams treffen zu 55 %).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
@@ -4097,18 +4030,9 @@
      },
      "value": null,
      "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Promise David",
-       "goals": 9
-      },
-      {
-       "name": "Kevin Rodríguez",
-       "goals": 8
-      }
-     ],
-     "scorersPeriod": "Vorsaison",
-     "analysis": "Union St. Gilloise reist als klarer Favorit (58 %) zu KVC Westerlo. Heim-/Auswärtsbilanz: KVC Westerlo gewann 1 der letzten 5 Heimspiele, Union St. Gilloise 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (Westerlo – St. Gilloise). Das Modell erwartet eher wenige Tore (xG 0,7:1,6; über 2,5 Tore: 39 %, beide Teams treffen zu 40 %). Gefährlichste Torschützen: bei Union St. Gilloise Promise David (9 Tore).",
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "Union St. Gilloise reist als klarer Favorit (58 %) zu KVC Westerlo. Heim-/Auswärtsbilanz: KVC Westerlo gewann 1 der letzten 5 Heimspiele, Union St. Gilloise 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (Westerlo – St. Gilloise). Das Modell erwartet eher wenige Tore (xG 0,7:1,6; über 2,5 Tore: 39 %, beide Teams treffen zu 40 %).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -4175,7 +4099,7 @@
      "value": null,
      "scorersHome": [],
      "scorersAway": [],
-     "scorersPeriod": "Vorsaison",
+     "scorersPeriod": "Saison",
      "analysis": "St. Truiden ist gegen Lommel United leicht favorisiert (52 % zu 26 %). In der Tabelle stehen sich Platz 12 und Platz 4 gegenüber. Das letzte Duell (2020) endete 1:1 (St. Truiden – Lommel United). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,3; über 2,5 Tore: 61 %, beide Teams treffen zu 61 %).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
@@ -4265,15 +4189,10 @@
       "src": "10Bet"
      },
      "value": null,
-     "scorersHome": [
-      {
-       "name": "Wilfried Kanga",
-       "goals": 9
-      }
-     ],
+     "scorersHome": [],
      "scorersAway": [],
-     "scorersPeriod": "Vorsaison",
-     "analysis": "Gent ist gegen KV Mechelen leicht favorisiert (48 % zu 27 %). Heim-/Auswärtsbilanz: Gent gewann 0 der letzten 5 Heimspiele, KV Mechelen 0 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:0 (Mechelen – Gent). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:1,1; über 2,5 Tore: 52 %, beide Teams treffen zu 55 %). Gefährlichste Torschützen: bei Gent Wilfried Kanga (9 Tore).",
+     "scorersPeriod": "Saison",
+     "analysis": "Gent ist gegen KV Mechelen leicht favorisiert (48 % zu 27 %). Heim-/Auswärtsbilanz: Gent gewann 0 der letzten 5 Heimspiele, KV Mechelen 0 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:0 (Mechelen – Gent). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:1,1; über 2,5 Tore: 52 %, beide Teams treffen zu 55 %).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -4350,15 +4269,10 @@
       "src": "10Bet"
      },
      "value": null,
-     "scorersHome": [
-      {
-       "name": "Jeppe Erenbjerg",
-       "goals": 9
-      }
-     ],
+     "scorersHome": [],
      "scorersAway": [],
-     "scorersPeriod": "Vorsaison",
-     "analysis": "Zwischen Zulte Waregem und Genk deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Zulte Waregem 39 %, Unentschieden 25 %, Sieg Genk 36 %). Die Form spricht für Zulte Waregem: 5 Siege aus den letzten 5 Spielen, Genk holte nur 2. Heim-/Auswärtsbilanz: Zulte Waregem gewann 3 der letzten 5 Heimspiele, Genk 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:1 (Waregem – Genk). Das Modell erwartet ein torreiches Spiel (xG 1,5:1,4; über 2,5 Tore: 57 %, beide Teams treffen zu 59 %). Gefährlichste Torschützen: bei Zulte Waregem Jeppe Erenbjerg (9 Tore).",
+     "scorersPeriod": "Saison",
+     "analysis": "Zwischen Zulte Waregem und Genk deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Zulte Waregem 39 %, Unentschieden 25 %, Sieg Genk 36 %). Die Form spricht für Zulte Waregem: 5 Siege aus den letzten 5 Spielen, Genk holte nur 2. Heim-/Auswärtsbilanz: Zulte Waregem gewann 3 der letzten 5 Heimspiele, Genk 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:1 (Waregem – Genk). Das Modell erwartet ein torreiches Spiel (xG 1,5:1,4; über 2,5 Tore: 57 %, beide Teams treffen zu 59 %).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -4452,15 +4366,10 @@
       "modelP": 0.3243,
       "odds": 4.0
      },
-     "scorersHome": [
-      {
-       "name": "Parfait Guiagon",
-       "goals": 8
-      }
-     ],
+     "scorersHome": [],
      "scorersAway": [],
-     "scorersPeriod": "Vorsaison",
-     "analysis": "Charleroi ist gegen OH Leuven leicht favorisiert (46 % zu 32 %). In der Tabelle stehen sich Platz 7 und Platz 3 gegenüber. Das letzte Duell (2026) endete 1:1 (Charleroi – OH Leuven). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,6; über 2,5 Tore: 67 %, beide Teams treffen zu 67 %). Gefährlichste Torschützen: bei Charleroi Parfait Guiagon (8 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 4,00) für 9 Prozentpunkte wahrscheinlicher als der Markt.",
+     "scorersPeriod": "Saison",
+     "analysis": "Charleroi ist gegen OH Leuven leicht favorisiert (46 % zu 32 %). In der Tabelle stehen sich Platz 7 und Platz 3 gegenüber. Das letzte Duell (2026) endete 1:1 (Charleroi – OH Leuven). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,6; über 2,5 Tore: 67 %, beide Teams treffen zu 67 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 4,00) für 9 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -4537,15 +4446,10 @@
       "src": "10Bet"
      },
      "value": null,
-     "scorersHome": [
-      {
-       "name": "Thorgan Hazard",
-       "goals": 11
-      }
-     ],
+     "scorersHome": [],
      "scorersAway": [],
-     "scorersPeriod": "Vorsaison",
-     "analysis": "Anderlecht ist gegen RAAL La Louvière leicht favorisiert (50 % zu 26 %). Heim-/Auswärtsbilanz: Anderlecht gewann 2 der letzten 5 Heimspiele, RAAL La Louvière 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (Anderlecht – RAAL La Louviere). Das Modell erwartet ein torreiches Spiel (xG 1,7:1,2; über 2,5 Tore: 56 %, beide Teams treffen zu 57 %). Gefährlichste Torschützen: bei Anderlecht Thorgan Hazard (11 Tore).",
+     "scorersPeriod": "Saison",
+     "analysis": "Anderlecht ist gegen RAAL La Louvière leicht favorisiert (50 % zu 26 %). Heim-/Auswärtsbilanz: Anderlecht gewann 2 der letzten 5 Heimspiele, RAAL La Louvière 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (Anderlecht – RAAL La Louviere). Das Modell erwartet ein torreiches Spiel (xG 1,7:1,2; über 2,5 Tore: 56 %, beide Teams treffen zu 57 %).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -4628,16 +4532,21 @@
      },
      "pBtts": 0.6002,
      "odds": {
-      "h": 1.73,
-      "d": 3.55,
-      "a": 4.75,
+      "h": 1.83,
+      "d": 3.6,
+      "a": 4.0,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.1843,
+      "modelP": 0.417,
+      "odds": 4.0
+     },
      "scorersHome": [],
      "scorersAway": [],
-     "scorersPeriod": "Vorsaison",
-     "analysis": "Zwischen Antwerp und SK Beveren deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Antwerp 34 %, Unentschieden 24 %, Sieg SK Beveren 42 %). In der Tabelle stehen sich Platz 2 und Platz 16 gegenüber. Die Form spricht für SK Beveren: 3 Siege aus den letzten 5 Spielen, Antwerp holte nur 1. Das letzte Duell (2022) endete 2:2 (SK Beveren – Antwerp). Das Modell erwartet ein torreiches Spiel (xG 1,4:1,6; über 2,5 Tore: 57 %, beide Teams treffen zu 60 %).",
+     "scorersPeriod": "Saison",
+     "analysis": "Zwischen Antwerp und SK Beveren deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Antwerp 34 %, Unentschieden 24 %, Sieg SK Beveren 42 %). In der Tabelle stehen sich Platz 2 und Platz 16 gegenüber. Die Form spricht für SK Beveren: 3 Siege aus den letzten 5 Spielen, Antwerp holte nur 1. Das letzte Duell (2022) endete 2:2 (SK Beveren – Antwerp). Das Modell erwartet ein torreiches Spiel (xG 1,4:1,6; über 2,5 Tore: 57 %, beide Teams treffen zu 60 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 4,00) für 18 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
@@ -4740,7 +4649,7 @@
      },
      "scorersHome": [],
      "scorersAway": [],
-     "scorersPeriod": "Vorsaison",
+     "scorersPeriod": "Saison",
      "analysis": "Maritimo ist gegen Casa Pia leicht favorisiert (47 % zu 25 %). In der Tabelle stehen sich Platz 12 und Platz 16 gegenüber. Das letzte Duell (2023) endete 2:0 (Casa Pia – Maritimo). Das Modell erwartet eher wenige Tore (xG 1,4:0,9; über 2,5 Tore: 40 %, beide Teams treffen zu 45 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,40) für 8 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
@@ -4820,7 +4729,7 @@
      "value": null,
      "scorersHome": [],
      "scorersAway": [],
-     "scorersPeriod": "Vorsaison",
+     "scorersPeriod": "Saison",
      "analysis": "Guimaraes ist gegen Arouca leicht favorisiert (45 % zu 32 %). Heim-/Auswärtsbilanz: Guimaraes gewann 2 der letzten 5 Heimspiele, Arouca 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:2 (Arouca – Guimaraes). Das Modell erwartet ein torreiches Spiel (xG 1,7:1,4; über 2,5 Tore: 61 %, beide Teams treffen zu 63 %).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
@@ -4911,18 +4820,9 @@
      },
      "value": null,
      "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Luis Suárez",
-       "goals": 28
-      },
-      {
-       "name": "Pedro Gonçalves",
-       "goals": 13
-      }
-     ],
-     "scorersPeriod": "Vorsaison",
-     "analysis": "Sporting CP ist bei Estrela leicht favorisiert (45 % zu 32 %). In der Tabelle stehen sich Platz 3 und Platz 10 gegenüber. Die Form spricht für Sporting CP: 4 Siege aus den letzten 5 Spielen, Estrela holte nur 0. Das letzte Duell (2026) endete 0:1 (Estrela – Sporting CP). Das Modell erwartet ein torreiches Spiel (xG 1,5:1,8; über 2,5 Tore: 62 %, beide Teams treffen zu 63 %). Gefährlichste Torschützen: bei Sporting CP Luis Suárez (28 Tore).",
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "Sporting CP ist bei Estrela leicht favorisiert (45 % zu 32 %). In der Tabelle stehen sich Platz 3 und Platz 10 gegenüber. Die Form spricht für Sporting CP: 4 Siege aus den letzten 5 Spielen, Estrela holte nur 0. Das letzte Duell (2026) endete 0:1 (Estrela – Sporting CP). Das Modell erwartet ein torreiches Spiel (xG 1,5:1,8; über 2,5 Tore: 62 %, beide Teams treffen zu 63 %).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -4999,15 +4899,10 @@
       "src": "10Bet"
      },
      "value": null,
-     "scorersHome": [
-      {
-       "name": "Samu Aghehowa",
-       "goals": 13
-      }
-     ],
+     "scorersHome": [],
      "scorersAway": [],
-     "scorersPeriod": "Vorsaison",
-     "analysis": "FC Porto geht als klarer Favorit (81 %) in das Heimspiel gegen Alverca. Die Form spricht für FC Porto: 4 Siege aus den letzten 5 Spielen, Alverca holte nur 1. Heim-/Auswärtsbilanz: FC Porto gewann 4 der letzten 5 Heimspiele, Alverca 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:0 (Porto – Alverca). Das Modell erwartet eine offene Tor-Ausbeute (xG 2,4:0,4; über 2,5 Tore: 53 %, beide Teams treffen zu 30 %). Gefährlichste Torschützen: bei FC Porto Samu Aghehowa (13 Tore).",
+     "scorersPeriod": "Saison",
+     "analysis": "FC Porto geht als klarer Favorit (81 %) in das Heimspiel gegen Alverca. Die Form spricht für FC Porto: 4 Siege aus den letzten 5 Spielen, Alverca holte nur 1. Heim-/Auswärtsbilanz: FC Porto gewann 4 der letzten 5 Heimspiele, Alverca 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:0 (Porto – Alverca). Das Modell erwartet eine offene Tor-Ausbeute (xG 2,4:0,4; über 2,5 Tore: 53 %, beide Teams treffen zu 30 %).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -5059,21 +4954,16 @@
      },
      "pBtts": 0.5778,
      "odds": {
-      "h": 1.1,
-      "d": 7.9,
-      "a": 26.0,
+      "h": 1.11,
+      "d": 8.1,
+      "a": 24.0,
       "src": "10Bet"
      },
      "value": null,
-     "scorersHome": [
-      {
-       "name": "Vangelis Pavlidis",
-       "goals": 22
-      }
-     ],
+     "scorersHome": [],
      "scorersAway": [],
-     "scorersPeriod": "Vorsaison",
-     "analysis": "Benfica geht als klarer Favorit (62 %) in das Heimspiel gegen Academico Viseu. In der Tabelle stehen sich Platz 11 und Platz 17 gegenüber. Die Form spricht für Benfica: 3 Siege aus den letzten 5 Spielen, Academico Viseu holte nur 1. Das Modell erwartet ein torreiches Spiel (xG 2,1:1,1; über 2,5 Tore: 62 %, beide Teams treffen zu 58 %). Gefährlichste Torschützen: bei Benfica Vangelis Pavlidis (22 Tore).",
+     "scorersPeriod": "Saison",
+     "analysis": "Benfica geht als klarer Favorit (62 %) in das Heimspiel gegen Academico Viseu. In der Tabelle stehen sich Platz 11 und Platz 17 gegenüber. Die Form spricht für Benfica: 3 Siege aus den letzten 5 Spielen, Academico Viseu holte nur 1. Das Modell erwartet ein torreiches Spiel (xG 2,1:1,1; über 2,5 Tore: 62 %, beide Teams treffen zu 58 %).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -5144,29 +5034,16 @@
      },
      "pBtts": 0.5076,
      "odds": {
-      "h": 4.9,
-      "d": 3.65,
+      "h": 4.75,
+      "d": 3.7,
       "a": 1.69,
       "src": "10Bet"
      },
      "value": null,
      "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Rodrigo Zalazar",
-       "goals": 16
-      },
-      {
-       "name": "Ricardo Horta",
-       "goals": 14
-      },
-      {
-       "name": "Pau Víctor",
-       "goals": 10
-      }
-     ],
-     "scorersPeriod": "Vorsaison",
-     "analysis": "SC Braga reist als klarer Favorit (57 %) zu Moreirense. Heim-/Auswärtsbilanz: Moreirense gewann 2 der letzten 5 Heimspiele, SC Braga 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:1 (Moreirense – Sp Braga). Das Modell erwartet eine offene Tor-Ausbeute (xG 0,9:1,8; über 2,5 Tore: 51 %, beide Teams treffen zu 51 %). Gefährlichste Torschützen: bei SC Braga Rodrigo Zalazar (16 Tore).",
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "SC Braga reist als klarer Favorit (57 %) zu Moreirense. Heim-/Auswärtsbilanz: Moreirense gewann 2 der letzten 5 Heimspiele, SC Braga 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:1 (Moreirense – Sp Braga). Das Modell erwartet eine offene Tor-Ausbeute (xG 0,9:1,8; über 2,5 Tore: 51 %, beide Teams treffen zu 51 %).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -5243,15 +5120,10 @@
       "src": "10Bet"
      },
      "value": null,
-     "scorersHome": [
-      {
-       "name": "Murilo",
-       "goals": 11
-      }
-     ],
+     "scorersHome": [],
      "scorersAway": [],
-     "scorersPeriod": "Vorsaison",
-     "analysis": "GIL Vicente geht als klarer Favorit (64 %) in das Heimspiel gegen Rio Ave. Heim-/Auswärtsbilanz: GIL Vicente gewann 2 der letzten 5 Heimspiele, Rio Ave 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (Rio Ave – Gil Vicente). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,9:0,8; über 2,5 Tore: 51 %, beide Teams treffen zu 47 %). Gefährlichste Torschützen: bei GIL Vicente Murilo (11 Tore).",
+     "scorersPeriod": "Saison",
+     "analysis": "GIL Vicente geht als klarer Favorit (64 %) in das Heimspiel gegen Rio Ave. Heim-/Auswärtsbilanz: GIL Vicente gewann 2 der letzten 5 Heimspiele, Rio Ave 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (Rio Ave – Gil Vicente). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,9:0,8; über 2,5 Tore: 51 %, beide Teams treffen zu 47 %).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -5329,14 +5201,9 @@
      },
      "value": null,
      "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Jesús Ramírez",
-       "goals": 18
-      }
-     ],
-     "scorersPeriod": "Vorsaison",
-     "analysis": "Santa Clara ist gegen Nacional leicht favorisiert (40 % zu 29 %). Heim-/Auswärtsbilanz: Santa Clara gewann 4 der letzten 5 Heimspiele, Nacional 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:0 (Santa Clara – Nacional). Das Modell erwartet eher wenige Tore (xG 1,1:0,9; über 2,5 Tore: 30 %, beide Teams treffen zu 38 %). Gefährlichste Torschützen: bei Nacional Jesús Ramírez (18 Tore).",
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "Santa Clara ist gegen Nacional leicht favorisiert (40 % zu 29 %). Heim-/Auswärtsbilanz: Santa Clara gewann 4 der letzten 5 Heimspiele, Nacional 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:0 (Santa Clara – Nacional). Das Modell erwartet eher wenige Tore (xG 1,1:0,9; über 2,5 Tore: 30 %, beide Teams treffen zu 38 %).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
@@ -5732,18 +5599,18 @@
      },
      "scorersHome": [
       {
-       "name": "Yussef Nasrawe",
+       "name": "J. Nasrawe",
        "goals": 1
       }
      ],
      "scorersAway": [
       {
-       "name": "Petter Dahl",
+       "name": "P. Dahl",
        "goals": 1
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Rapid Vienna ist bei Ried leicht favorisiert (54 % zu 25 %). In der Tabelle stehen sich Platz 6 und Platz 4 gegenüber. Die Form spricht für Rapid Vienna: 5 Siege aus den letzten 5 Spielen, Ried holte nur 2. Das letzte Duell (2026) endete 3:0 (Rapid Vienna – Ried). Das Modell erwartet ein torreiches Spiel (xG 1,4:2,1; über 2,5 Tore: 67 %, beide Teams treffen zu 65 %). Gefährlichste Torschützen: bei Ried Yussef Nasrawe (1 Tore) und bei Rapid Vienna Petter Dahl (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,35) für 14 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Rapid Vienna ist bei Ried leicht favorisiert (54 % zu 25 %). In der Tabelle stehen sich Platz 6 und Platz 4 gegenüber. Die Form spricht für Rapid Vienna: 5 Siege aus den letzten 5 Spielen, Ried holte nur 2. Das letzte Duell (2026) endete 3:0 (Rapid Vienna – Ried). Das Modell erwartet ein torreiches Spiel (xG 1,4:2,1; über 2,5 Tore: 67 %, beide Teams treffen zu 65 %). Gefährlichste Torschützen: bei Ried J. Nasrawe (1 Tore) und bei Rapid Vienna P. Dahl (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,35) für 14 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
       {
@@ -6145,7 +6012,7 @@
      "odds": {
       "h": 1.53,
       "d": 4.33,
-      "a": 5.4,
+      "a": 5.5,
       "src": "10Bet"
      },
      "value": null,
@@ -7157,11 +7024,16 @@
      "pBtts": 0.5573,
      "odds": {
       "h": 2.4,
-      "d": 3.55,
-      "a": 2.7,
+      "d": 3.5,
+      "a": 2.72,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.0545,
+      "modelP": 0.3981,
+      "odds": 2.72
+     },
      "scorersHome": [],
      "scorersAway": [
       {
@@ -7170,7 +7042,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen New England Revolution und Houston Dynamo deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg New England Revolution 35 %, Unentschieden 26 %, Sieg Houston Dynamo 39 %). In der Tabelle stehen sich Platz 3 und Platz 4 gegenüber. Die Form spricht für Houston Dynamo: 4 Siege aus den letzten 5 Spielen, New England Revolution holte nur 2. Das letzte Duell (2026) endete 2:3 (New England Revolution – Houston Dynamo). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,3:1,4; über 2,5 Tore: 52 %, beide Teams treffen zu 56 %). Gefährlichste Torschützen: bei Houston Dynamo Guilherme (10 Tore). Personal: New England Revolution fehlen 6 Spieler (u.a. M. Fofana); Houston Dynamo fehlen 6 Spieler (u.a. Artur).",
+     "analysis": "Zwischen New England Revolution und Houston Dynamo deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg New England Revolution 35 %, Unentschieden 26 %, Sieg Houston Dynamo 39 %). In der Tabelle stehen sich Platz 3 und Platz 4 gegenüber. Die Form spricht für Houston Dynamo: 4 Siege aus den letzten 5 Spielen, New England Revolution holte nur 2. Das letzte Duell (2026) endete 2:3 (New England Revolution – Houston Dynamo). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,3:1,4; über 2,5 Tore: 52 %, beide Teams treffen zu 56 %). Gefährlichste Torschützen: bei Houston Dynamo Guilherme (10 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,72) für 5 Prozentpunkte wahrscheinlicher als der Markt. Personal: New England Revolution fehlen 6 Spieler (u.a. M. Fofana); Houston Dynamo fehlen 6 Spieler (u.a. Artur).",
      "injuriesHome": [
       {
        "name": "M. Fofana",
@@ -7417,26 +7289,7 @@
      "posHome": 19,
      "posAway": 10,
      "nTeams": null,
-     "h2h": [
-      {
-       "date": "11.02.2026",
-       "home": "Atletico-MG",
-       "away": "Remo",
-       "score": "3:3"
-      },
-      {
-       "date": "10.06.2021",
-       "home": "Atletico-MG",
-       "away": "Remo",
-       "score": "2:1"
-      },
-      {
-       "date": "02.06.2021",
-       "home": "Remo",
-       "away": "Atletico-MG",
-       "score": "0:2"
-      }
-     ],
+     "h2h": [],
      "prediction": {
       "pHome": 0.3573,
       "pDraw": 0.2991,
@@ -7464,7 +7317,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen Remo und Atletico-MG deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Remo 36 %, Unentschieden 30 %, Sieg Atletico-MG 34 %). In der Tabelle stehen sich Platz 19 und Platz 10 gegenüber. Die Form spricht für Atletico-MG: 3 Siege aus den letzten 5 Spielen, Remo holte nur 1. Das letzte Duell (2026) endete 3:3 (Atletico-MG – Remo). Das Modell erwartet eher wenige Tore (xG 1,1:1,0; über 2,5 Tore: 35 %, beide Teams treffen zu 42 %). Gefährlichste Torschützen: bei Remo Alef Manga (5 Tore). Personal: Remo fehlen 6 Spieler (u.a. Diego Hernandez); Atletico-MG fehlen 6 Spieler (u.a. Lyanco).",
+     "analysis": "Zwischen Remo und Atletico-MG deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Remo 36 %, Unentschieden 30 %, Sieg Atletico-MG 34 %). In der Tabelle stehen sich Platz 19 und Platz 10 gegenüber. Die Form spricht für Atletico-MG: 3 Siege aus den letzten 5 Spielen, Remo holte nur 1. Das Modell erwartet eher wenige Tore (xG 1,1:1,0; über 2,5 Tore: 35 %, beide Teams treffen zu 42 %). Gefährlichste Torschützen: bei Remo Alef Manga (5 Tore). Personal: Remo fehlen 6 Spieler (u.a. Diego Hernandez); Atletico-MG fehlen 6 Spieler (u.a. Lyanco).",
      "injuriesHome": [
       {
        "name": "Diego Hernandez",
@@ -7527,20 +7380,8 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "Regular Season - 22",
-     "formHome": [
-      "S",
-      "N",
-      "N",
-      "U",
-      "N"
-     ],
-     "formAway": [
-      "N",
-      "N",
-      "U",
-      "U",
-      "N"
-     ],
+     "formHome": [],
+     "formAway": [],
      "formHomeH": [],
      "formAwayA": [],
      "load14Home": 0,
@@ -7548,50 +7389,9 @@
      "posHome": 11,
      "posAway": 20,
      "nTeams": null,
-     "h2h": [
-      {
-       "date": "11.02.2026",
-       "home": "Chapecoense-sc",
-       "away": "Coritiba",
-       "score": "3:3"
-      },
-      {
-       "date": "09.08.2025",
-       "home": "Coritiba",
-       "away": "Chapecoense-sc",
-       "score": "0:0"
-      },
-      {
-       "date": "12.04.2025",
-       "home": "Chapecoense-sc",
-       "away": "Coritiba",
-       "score": "1:2"
-      },
-      {
-       "date": "17.11.2024",
-       "home": "Chapecoense-sc",
-       "away": "Coritiba",
-       "score": "2:1"
-      },
-      {
-       "date": "27.07.2024",
-       "home": "Coritiba",
-       "away": "Chapecoense-sc",
-       "score": "1:0"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.4827,
-      "pDraw": 0.2548,
-      "pAway": 0.2625,
-      "pOver25": 0.4833,
-      "pBtts": 0.5152,
-      "xgHome": 1.54,
-      "xgAway": 1.07,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.5152,
+     "h2h": [],
+     "prediction": null,
+     "pBtts": null,
      "odds": {
       "h": 1.64,
       "d": 3.7,
@@ -7607,7 +7407,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Coritiba ist gegen Chapecoense-sc leicht favorisiert (49 % zu 26 %). In der Tabelle stehen sich Platz 11 und Platz 20 gegenüber. Das letzte Duell (2026) endete 3:3 (Chapecoense-sc – Coritiba). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,5:1,1; über 2,5 Tore: 48 %, beide Teams treffen zu 52 %). Gefährlichste Torschützen: bei Coritiba Breno (8 Tore). Personal: Coritiba fehlen 6 Spieler (u.a. Lucas Crepaldi); Chapecoense-sc fehlen 6 Spieler (u.a. Bruno Matias).",
+     "analysis": "Gefährlichste Torschützen: bei Coritiba Breno (8 Tore). Personal: Coritiba fehlen 23 Spieler (u.a. Lucas Crepaldi); Chapecoense-sc fehlen 20 Spieler (u.a. Bruno Matias).",
      "injuriesHome": [
       {
        "name": "Lucas Crepaldi",
@@ -7660,7 +7460,7 @@
        "reason": "Inactive"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-09T02:00:00+02:00",
@@ -7670,20 +7470,8 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "Regular Season - 22",
-     "formHome": [
-      "S",
-      "N",
-      "S",
-      "U",
-      "S"
-     ],
-     "formAway": [
-      "U",
-      "U",
-      "U",
-      "U",
-      "N"
-     ],
+     "formHome": [],
+     "formAway": [],
      "formHomeH": [],
      "formAwayA": [],
      "load14Home": 0,
@@ -7691,54 +7479,13 @@
      "posHome": 8,
      "posAway": 4,
      "nTeams": null,
-     "h2h": [
-      {
-       "date": "12.02.2026",
-       "home": "Fluminense",
-       "away": "Botafogo",
-       "score": "1:0"
-      },
-      {
-       "date": "01.02.2026",
-       "home": "Botafogo",
-       "away": "Fluminense",
-       "score": "0:1"
-      },
-      {
-       "date": "28.09.2025",
-       "home": "Fluminense",
-       "away": "Botafogo",
-       "score": "2:0"
-      },
-      {
-       "date": "27.04.2025",
-       "home": "Botafogo",
-       "away": "Fluminense",
-       "score": "2:0"
-      },
-      {
-       "date": "30.01.2025",
-       "home": "Botafogo",
-       "away": "Fluminense",
-       "score": "2:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.4386,
-      "pDraw": 0.2668,
-      "pAway": 0.2946,
-      "pOver25": 0.4538,
-      "pBtts": 0.5006,
-      "xgHome": 1.4,
-      "xgAway": 1.09,
-      "tipScore": "1:1",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.5006,
+     "h2h": [],
+     "prediction": null,
+     "pBtts": null,
      "odds": {
-      "h": 2.34,
-      "d": 3.1,
-      "a": 3.15,
+      "h": 2.3,
+      "d": 3.2,
+      "a": 3.1,
       "src": "10Bet"
      },
      "value": null,
@@ -7759,7 +7506,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Botafogo ist gegen Fluminense leicht favorisiert (44 % zu 29 %). In der Tabelle stehen sich Platz 8 und Platz 4 gegenüber. Die Form spricht für Botafogo: 3 Siege aus den letzten 5 Spielen, Fluminense holte nur 0. Das letzte Duell (2026) endete 1:0 (Fluminense – Botafogo). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,4:1,1; über 2,5 Tore: 45 %, beide Teams treffen zu 50 %). Gefährlichste Torschützen: bei Botafogo Arthur Cabral (7 Tore) und bei Fluminense John Kennedy (9 Tore). Personal: Botafogo fehlen 6 Spieler (u.a. J. Correa); Fluminense fehlen 6 Spieler (u.a. G. Cano).",
+     "analysis": "Gefährlichste Torschützen: bei Botafogo Arthur Cabral (7 Tore) und bei Fluminense John Kennedy (9 Tore). Personal: Botafogo fehlen 23 Spieler (u.a. J. Correa); Fluminense fehlen 22 Spieler (u.a. G. Cano).",
      "injuriesHome": [
       {
        "name": "J. Correa",
@@ -7812,7 +7559,7 @@
        "reason": "Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-09T16:00:00+02:00",
@@ -7957,20 +7704,8 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "Regular Season - 22",
-     "formHome": [
-      "N",
-      "S",
-      "U",
-      "U",
-      "U"
-     ],
-     "formAway": [
-      "U",
-      "U",
-      "S",
-      "U",
-      "S"
-     ],
+     "formHome": [],
+     "formAway": [],
      "formHomeH": [],
      "formAwayA": [],
      "load14Home": 0,
@@ -7978,50 +7713,9 @@
      "posHome": 5,
      "posAway": 18,
      "nTeams": null,
-     "h2h": [
-      {
-       "date": "12.02.2026",
-       "home": "Vasco DA Gama",
-       "away": "Bahia",
-       "score": "0:1"
-      },
-      {
-       "date": "23.11.2025",
-       "home": "Bahia",
-       "away": "Vasco DA Gama",
-       "score": "1:0"
-      },
-      {
-       "date": "24.09.2025",
-       "home": "Vasco DA Gama",
-       "away": "Bahia",
-       "score": "3:1"
-      },
-      {
-       "date": "29.10.2024",
-       "home": "Vasco DA Gama",
-       "away": "Bahia",
-       "score": "3:2"
-      },
-      {
-       "date": "27.06.2024",
-       "home": "Bahia",
-       "away": "Vasco DA Gama",
-       "score": "2:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.5015,
-      "pDraw": 0.2473,
-      "pAway": 0.2512,
-      "pOver25": 0.5051,
-      "pBtts": 0.528,
-      "xgHome": 1.62,
-      "xgAway": 1.07,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.528,
+     "h2h": [],
+     "prediction": null,
+     "pBtts": null,
      "odds": {
       "h": 1.9,
       "d": 3.6,
@@ -8037,7 +7731,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Bahia ist gegen Vasco DA Gama leicht favorisiert (50 % zu 25 %). In der Tabelle stehen sich Platz 5 und Platz 18 gegenüber. Das letzte Duell (2026) endete 0:1 (Vasco DA Gama – Bahia). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:1,1; über 2,5 Tore: 51 %, beide Teams treffen zu 53 %). Gefährlichste Torschützen: bei Bahia Luciano Juba (7 Tore). Personal: Bahia fehlen 6 Spieler (u.a. Ruan Pablo); Vasco DA Gama fehlen 6 Spieler (u.a. Brenner).",
+     "analysis": "Gefährlichste Torschützen: bei Bahia Luciano Juba (7 Tore). Personal: Bahia fehlen 22 Spieler (u.a. Ruan Pablo); Vasco DA Gama fehlen 17 Spieler (u.a. Brenner).",
      "injuriesHome": [
       {
        "name": "Ruan Pablo",
@@ -8090,7 +7784,7 @@
        "reason": "Inactive"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-09T21:00:00+02:00",
@@ -8100,20 +7794,8 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "Regular Season - 22",
-     "formHome": [
-      "S",
-      "N",
-      "S",
-      "S",
-      "N"
-     ],
-     "formAway": [
-      "N",
-      "N",
-      "U",
-      "S",
-      "N"
-     ],
+     "formHome": [],
+     "formAway": [],
      "formHomeH": [],
      "formAwayA": [],
      "load14Home": 0,
@@ -8121,54 +7803,13 @@
      "posHome": 1,
      "posAway": 16,
      "nTeams": null,
-     "h2h": [
-      {
-       "date": "13.02.2026",
-       "home": "Internacional",
-       "away": "Palmeiras",
-       "score": "1:3"
-      },
-      {
-       "date": "13.09.2025",
-       "home": "Palmeiras",
-       "away": "Internacional",
-       "score": "4:1"
-      },
-      {
-       "date": "16.04.2025",
-       "home": "Internacional",
-       "away": "Palmeiras",
-       "score": "0:1"
-      },
-      {
-       "date": "04.08.2024",
-       "home": "Internacional",
-       "away": "Palmeiras",
-       "score": "1:1"
-      },
-      {
-       "date": "17.04.2024",
-       "home": "Palmeiras",
-       "away": "Internacional",
-       "score": "0:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.6149,
-      "pDraw": 0.2001,
-      "pAway": 0.1849,
-      "pOver25": 0.6348,
-      "pBtts": 0.5924,
-      "xgHome": 2.17,
-      "xgAway": 1.11,
-      "tipScore": "2:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.5924,
+     "h2h": [],
+     "prediction": null,
+     "pBtts": null,
      "odds": {
       "h": 1.58,
       "d": 3.75,
-      "a": 5.9,
+      "a": 6.0,
       "src": "10Bet"
      },
      "value": null,
@@ -8185,7 +7826,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Palmeiras geht als klarer Favorit (62 %) in das Heimspiel gegen Internacional. In der Tabelle stehen sich Platz 1 und Platz 16 gegenüber. Die Form spricht für Palmeiras: 3 Siege aus den letzten 5 Spielen, Internacional holte nur 1. Das letzte Duell (2026) endete 1:3 (Internacional – Palmeiras). Das Modell erwartet ein torreiches Spiel (xG 2,2:1,1; über 2,5 Tore: 63 %, beide Teams treffen zu 59 %). Gefährlichste Torschützen: bei Palmeiras J. López (6 Tore) und bei Internacional J. Carbonero (5 Tore). Personal: Palmeiras fehlen 6 Spieler (u.a. Felipe Anderson); Internacional fehlen 6 Spieler (u.a. Richard).",
+     "analysis": " Personal: Palmeiras fehlen 23 Spieler (u.a. Felipe Anderson); Internacional fehlen 18 Spieler (u.a. Richard).",
      "injuriesHome": [
       {
        "name": "Felipe Anderson",
@@ -8238,7 +7879,7 @@
        "reason": "Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-09T23:30:00+02:00",
@@ -8916,9 +8557,9 @@
      },
      "pBtts": 0.5598,
      "odds": {
-      "h": 1.35,
-      "d": 5.1,
-      "a": 7.25,
+      "h": 1.36,
+      "d": 5.0,
+      "a": 7.5,
       "src": "10Bet"
      },
      "value": null,
@@ -9059,21 +8700,21 @@
      },
      "pBtts": 0.6104,
      "odds": {
-      "h": 2.1,
+      "h": 2.15,
       "d": 3.55,
-      "a": 3.2,
+      "a": 3.1,
       "src": "10Bet"
      },
      "value": {
       "outcome": "2",
-      "edge": 0.1153,
+      "edge": 0.1056,
       "modelP": 0.4073,
-      "odds": 3.2
+      "odds": 3.1
      },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen Start und Fredrikstad deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Start 35 %, Unentschieden 24 %, Sieg Fredrikstad 41 %). In der Tabelle stehen sich Platz 16 und Platz 12 gegenüber. Das letzte Duell (2026) endete 2:1 (Fredrikstad – Start). Das Modell erwartet ein torreiches Spiel (xG 1,5:1,6; über 2,5 Tore: 59 %, beide Teams treffen zu 61 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,20) für 12 Prozentpunkte wahrscheinlicher als der Markt. Personal: Start fehlen 6 Spieler (u.a. A. F. Gurendal); Fredrikstad fehlen 6 Spieler (u.a. S. Kvile).",
+     "analysis": "Zwischen Start und Fredrikstad deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Start 35 %, Unentschieden 24 %, Sieg Fredrikstad 41 %). In der Tabelle stehen sich Platz 16 und Platz 12 gegenüber. Das letzte Duell (2026) endete 2:1 (Fredrikstad – Start). Das Modell erwartet ein torreiches Spiel (xG 1,5:1,6; über 2,5 Tore: 59 %, beide Teams treffen zu 61 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,10) für 11 Prozentpunkte wahrscheinlicher als der Markt. Personal: Start fehlen 6 Spieler (u.a. A. F. Gurendal); Fredrikstad fehlen 6 Spieler (u.a. S. Kvile).",
      "injuriesHome": [
       {
        "name": "A. F. Gurendal",
@@ -9126,7 +8767,17 @@
        "reason": "Leg Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "news": [
+      {
+       "title": "Auftakt im Südwesten: Wie starten der OFC und Sandhausen in die neue Spielzeit?",
+       "link": "https://www.kicker.de/auftakt-im-suedwesten-wie-starten-der-ofc-und-sandhausen-in-die-neue-spielzeit-1241457/artikel#omrss"
+      },
+      {
+       "title": "Holperstart in die Giesinger Freiheit",
+       "link": "https://www.kicker.de/holperstart-in-die-giesinger-freiheit-1241589/artikel#omrss"
+      }
+     ]
     },
     {
      "kickoff": "2026-08-09T14:30:00+02:00",
@@ -9803,12 +9454,12 @@
      "odds": {
       "h": 2.5,
       "d": 3.4,
-      "a": 2.65,
+      "a": 2.7,
       "src": "10Bet"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.0821,
+      "edge": 0.0796,
       "modelP": 0.4554,
       "odds": 2.5
      },
@@ -9950,8 +9601,8 @@
      "pBtts": 0.6291,
      "odds": {
       "h": 1.5,
-      "d": 4.75,
-      "a": 5.4,
+      "d": 4.5,
+      "a": 5.5,
       "src": "10Bet"
      },
      "value": null,
@@ -10963,12 +10614,12 @@
      "scorersHome": [],
      "scorersAway": [
       {
-       "name": "Bartosz Slisz",
+       "name": "B. Slisz",
        "goals": 1
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "AC Horsens ist gegen Brondby leicht favorisiert (45 % zu 31 %). In der Tabelle stehen sich Platz 9 und Platz 3 gegenüber. Die Form spricht für Brondby: 2 Siege aus den letzten 5 Spielen, AC Horsens holte nur 0. Das letzte Duell (2023) endete 5:2 (Brondby – AC Horsens). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,3; über 2,5 Tore: 55 %, beide Teams treffen zu 58 %). Gefährlichste Torschützen: bei Brondby Bartosz Slisz (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 4,40) für 23 Prozentpunkte wahrscheinlicher als der Markt. Personal: Brondby fehlen 1 Spieler (u.a. M. Divkovic).",
+     "analysis": "AC Horsens ist gegen Brondby leicht favorisiert (45 % zu 31 %). In der Tabelle stehen sich Platz 9 und Platz 3 gegenüber. Die Form spricht für Brondby: 2 Siege aus den letzten 5 Spielen, AC Horsens holte nur 0. Das letzte Duell (2023) endete 5:2 (Brondby – AC Horsens). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,3; über 2,5 Tore: 55 %, beide Teams treffen zu 58 %). Gefährlichste Torschützen: bei Brondby B. Slisz (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 4,40) für 23 Prozentpunkte wahrscheinlicher als der Markt. Personal: Brondby fehlen 1 Spieler (u.a. M. Divkovic).",
      "injuriesAway": [
       {
        "name": "M. Divkovic",
@@ -11330,10 +10981,6 @@
       {
        "name": "J. Martin",
        "goals": 6
-      },
-      {
-       "name": "D. Kelly",
-       "goals": 5
       }
      ],
      "scorersAway": [
