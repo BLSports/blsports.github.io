@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-09T18:29:13.187495+02:00",
+ "generatedAt": "2026-08-09T19:56:52.262251+02:00",
  "windowDays": 3,
  "days": [
   "2026-08-09",
@@ -178,8 +178,20 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "3. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "S",
+      "S",
+      "S",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "N",
+      "U",
+      "S",
+      "U",
+      "S"
+     ],
      "formHomeH": [],
      "formAwayA": [],
      "load14Home": 0,
@@ -187,16 +199,38 @@
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "05.08.2026",
+       "home": "Aarhus",
+       "away": "Sabah FA",
+       "score": "2:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3548,
+      "pDraw": 0.2462,
+      "pAway": 0.399,
+      "pOver25": 0.5596,
+      "pBtts": 0.5897,
+      "xgHome": 1.41,
+      "xgAway": 1.51,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5897,
      "odds": {
       "h": 1.97,
       "d": 3.55,
       "a": 3.55,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.136,
+      "modelP": 0.399,
+      "odds": 3.55
+     },
      "scorersHome": [
       {
        "name": "J. Mickels",
@@ -218,8 +252,8 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "",
-     "basis": "Datenbasis: Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "analysis": "Zwischen Sabah FA und Aarhus deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Sabah FA 35 %, Unentschieden 25 %, Sieg Aarhus 40 %). Die Form spricht für Sabah FA: 4 Siege aus den letzten 5 Spielen, Aarhus holte nur 2. Das letzte Duell (2026) endete 2:1 (Aarhus – Sabah FA). Das Modell erwartet ein torreiches Spiel (xG 1,4:1,5; über 2,5 Tore: 56 %, beide Teams treffen zu 59 %). Gefährlichste Torschützen: bei Sabah FA J. Mickels (1 Tore) und bei Aarhus J. Bogere (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,55) für 14 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-11T19:00:00+02:00",
@@ -1013,86 +1047,6 @@
    "espn": "ger.3",
    "matches": [
     {
-     "kickoff": "2026-08-09T16:30:00+02:00",
-     "home": "1. FC Saarbrücken",
-     "away": "Rot-Weiss Essen",
-     "homeIcon": "https://upload.wikimedia.org/wikipedia/de/thumb/f/ff/1._FC_Saarbr%C3%BCcken.svg/960px-1._FC_Saarbr%C3%BCcken.svg.png",
-     "awayIcon": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Rot-Weiss_Essen.png",
-     "matchday": 1,
-     "roundName": null,
-     "formHome": [
-      "U",
-      "S",
-      "S",
-      "N",
-      "N"
-     ],
-     "formAway": [
-      "N",
-      "N",
-      "N",
-      "S",
-      "S"
-     ],
-     "formHomeH": [
-      "S",
-      "U",
-      "U",
-      "S",
-      "N"
-     ],
-     "formAwayA": [
-      "S",
-      "S",
-      "N",
-      "N",
-      "S"
-     ],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 13,
-     "posAway": 10,
-     "nTeams": 16,
-     "h2h": [
-      {
-       "date": "26.04.2026",
-       "home": "Rot-Weiss Essen",
-       "away": "1. FC Saarbrücken",
-       "score": "1:2"
-      },
-      {
-       "date": "29.11.2025",
-       "home": "1. FC Saarbrücken",
-       "away": "Rot-Weiss Essen",
-       "score": "2:3"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.3556,
-      "pDraw": 0.2307,
-      "pAway": 0.4137,
-      "pOver25": 0.6355,
-      "pBtts": 0.648,
-      "xgHome": 1.57,
-      "xgAway": 1.71,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.648,
-     "odds": {
-      "h": 2.75,
-      "d": 3.7,
-      "a": 2.3,
-      "src": "Tipico"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen 1. FC Saarbrücken und Rot-Weiss Essen deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg 1. FC Saarbrücken 36 %, Unentschieden 23 %, Sieg Rot-Weiss Essen 41 %). Heim-/Auswärtsbilanz: 1. FC Saarbrücken gewann 2 der letzten 5 Heimspiele, Rot-Weiss Essen 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:2 (Rot-Weiss Essen – 1. FC Saarbrücken). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,7; über 2,5 Tore: 64 %, beide Teams treffen zu 65 %).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
      "kickoff": "2026-08-09T19:30:00+02:00",
      "home": "Alemannia Aachen",
      "away": "SC Verl",
@@ -1132,7 +1086,7 @@
      "load14Away": 0,
      "posHome": 12,
      "posAway": 11,
-     "nTeams": 16,
+     "nTeams": 18,
      "h2h": [
       {
        "date": "21.02.2026",
@@ -1148,17 +1102,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.402,
-      "pDraw": 0.2277,
-      "pAway": 0.3703,
-      "pOver25": 0.6529,
-      "pBtts": 0.6621,
+      "pHome": 0.4038,
+      "pDraw": 0.2283,
+      "pAway": 0.3678,
+      "pOver25": 0.6495,
+      "pBtts": 0.6593,
       "xgHome": 1.72,
-      "xgAway": 1.64,
+      "xgAway": 1.63,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6621,
+     "pBtts": 0.6593,
      "odds": {
       "h": 2.1,
       "d": 3.8,
@@ -1167,8 +1121,8 @@
      },
      "value": {
       "outcome": "2",
-      "edge": 0.0596,
-      "modelP": 0.3703,
+      "edge": 0.0571,
+      "modelP": 0.3678,
       "odds": 3.0
      },
      "scorersHome": [],
@@ -1178,16 +1132,16 @@
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
       {
+       "title": "LIVE! Vogler nutzt Fehler und bringt Verl in Führung",
+       "link": "https://www.kicker.de/live-vogler-nutzt-fehler-und-bringt-verl-in-fuehrung-1241941/artikel#omrss"
+      },
+      {
        "title": "Verletzung am Tag vor erstem Saisonspiel: Fortuna Köln muss lange auf Löffelsend verzichten",
        "link": "https://www.kicker.de/verletzung-am-tag-vor-erstem-saisonspiel-fortuna-koeln-muss-lange-auf-loeffelsend-verzichten-1241897/artikel#omrss"
       },
       {
        "title": "Muskelverletzung im Oberschenkel: Sebulonsen fehlt Köln vorerst",
        "link": "https://www.kicker.de/muskelverletzung-im-oberschenkel-sebulonsen-fehlt-koeln-vorerst-1241836/artikel#omrss"
-      },
-      {
-       "title": "Das Verletzungspech bleibt Stuttgarts Zagadou treu",
-       "link": "https://www.kicker.de/das-verletzungspech-bleibt-stuttgarts-zagadou-treu-1241818/artikel#omrss"
       }
      ]
     }
@@ -1455,105 +1409,7 @@
    "name": "Pro League (Belgien)",
    "flag": "🇧🇪",
    "espn": "bel.1",
-   "matches": [
-    {
-     "kickoff": "2026-08-09T19:15:00+02:00",
-     "home": "Antwerp",
-     "away": "SK Beveren",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 1",
-     "formHome": [
-      "N",
-      "N",
-      "N",
-      "U",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "N",
-      "S",
-      "S"
-     ],
-     "formHomeH": [
-      "N",
-      "S",
-      "N",
-      "N",
-      "S"
-     ],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 8,
-     "posAway": 14,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "10.11.2022",
-       "home": "SK Beveren",
-       "away": "Antwerp",
-       "score": "2:2"
-      },
-      {
-       "date": "29.01.2021",
-       "home": "Antwerp",
-       "away": "SK Beveren",
-       "score": "3:2"
-      },
-      {
-       "date": "20.12.2020",
-       "home": "SK Beveren",
-       "away": "Antwerp",
-       "score": "0:3"
-      },
-      {
-       "date": "06.12.2019",
-       "home": "SK Beveren",
-       "away": "Antwerp",
-       "score": "0:4"
-      },
-      {
-       "date": "04.08.2019",
-       "home": "Antwerp",
-       "away": "SK Beveren",
-       "score": "4:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.3405,
-      "pDraw": 0.2424,
-      "pAway": 0.417,
-      "pOver25": 0.5746,
-      "pBtts": 0.6002,
-      "xgHome": 1.41,
-      "xgAway": 1.58,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.6002,
-     "odds": {
-      "h": 1.9,
-      "d": 3.4,
-      "a": 4.0,
-      "src": "10Bet"
-     },
-     "value": {
-      "outcome": "2",
-      "edge": 0.1834,
-      "modelP": 0.417,
-      "odds": 4.0
-     },
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen Antwerp und SK Beveren deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Antwerp 34 %, Unentschieden 24 %, Sieg SK Beveren 42 %). In der Tabelle stehen sich Platz 8 und Platz 14 gegenüber. Die Form spricht für SK Beveren: 3 Siege aus den letzten 5 Spielen, Antwerp holte nur 1. Das letzte Duell (2022) endete 2:2 (SK Beveren – Antwerp). Das Modell erwartet ein torreiches Spiel (xG 1,4:1,6; über 2,5 Tore: 57 %, beide Teams treffen zu 60 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 4,00) für 18 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": false,
    "isCup": false
   },
@@ -1572,120 +1428,6 @@
    "flag": "🇵🇹",
    "espn": "por.1",
    "matches": [
-    {
-     "kickoff": "2026-08-09T19:00:00+02:00",
-     "home": "FC Porto",
-     "away": "Alverca",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 1",
-     "formHome": [
-      "S",
-      "S",
-      "S",
-      "N",
-      "S"
-     ],
-     "formAway": [
-      "N",
-      "S",
-      "N",
-      "U",
-      "N"
-     ],
-     "formHomeH": [
-      "S",
-      "U",
-      "S",
-      "S",
-      "S"
-     ],
-     "formAwayA": [
-      "U",
-      "S",
-      "N",
-      "N",
-      "N"
-     ],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 12,
-     "posAway": 18,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "02.05.2026",
-       "home": "Porto",
-       "away": "Alverca",
-       "score": "1:0"
-      },
-      {
-       "date": "22.12.2025",
-       "home": "Alverca",
-       "away": "Porto",
-       "score": "0:3"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.8171,
-      "pDraw": 0.1362,
-      "pAway": 0.0465,
-      "pOver25": 0.5287,
-      "pBtts": 0.3018,
-      "xgHome": 2.39,
-      "xgAway": 0.4,
-      "tipScore": "2:0",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.3018,
-     "odds": {
-      "h": 1.22,
-      "d": 6.2,
-      "a": 11.5,
-      "src": "10Bet"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "FC Porto geht als klarer Favorit (81 %) in das Heimspiel gegen Alverca. Die Form spricht für FC Porto: 4 Siege aus den letzten 5 Spielen, Alverca holte nur 1. Heim-/Auswärtsbilanz: FC Porto gewann 4 der letzten 5 Heimspiele, Alverca 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:0 (Porto – Alverca). Das Modell erwartet eine offene Tor-Ausbeute (xG 2,4:0,4; über 2,5 Tore: 53 %, beide Teams treffen zu 30 %). Die Aufstellungen sind offiziell (4-3-3 gegen 3-4-3).",
-     "lineups": {
-      "home": {
-       "formation": "4-3-3",
-       "xi": [
-        "Diogo Costa",
-        "Martim Fernandes",
-        "Jan Bednarek",
-        "Jakub Kiwior",
-        "Zaidu Sanusi",
-        "Victor Froholdt",
-        "Alan Varela",
-        "Gabri Veiga",
-        "William Gomes",
-        "André Silva",
-        "Pepê"
-       ]
-      },
-      "away": {
-       "formation": "3-4-3",
-       "xi": [
-        "Matheus Mendes",
-        "Steven Baseya",
-        "Yaya Bojang",
-        "Bastien Meupiyou",
-        "Nabil Touaizi",
-        "Davy Gui",
-        "Ian Luccas",
-        "Isaac James",
-        "Figueiredo",
-        "Vivaldo",
-        "Chiquinho"
-       ]
-      }
-     },
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-08-09T21:30:00+02:00",
      "home": "Benfica",
@@ -2005,138 +1747,7 @@
    "name": "Bundesliga (Österreich)",
    "flag": "🇦🇹",
    "espn": "aut.1",
-   "matches": [
-    {
-     "kickoff": "2026-08-09T19:00:00+02:00",
-     "home": "Austria Vienna",
-     "away": "Lask Linz",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 2",
-     "formHome": [
-      "S",
-      "S",
-      "S",
-      "N",
-      "S"
-     ],
-     "formAway": [
-      "N",
-      "N",
-      "S",
-      "S",
-      "S"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 12,
-     "posAway": 3,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "17.05.2026",
-       "home": "Austria Vienna",
-       "away": "Lask Linz",
-       "score": "0:3"
-      },
-      {
-       "date": "05.04.2026",
-       "home": "Lask Linz",
-       "away": "Austria Vienna",
-       "score": "4:1"
-      },
-      {
-       "date": "01.03.2026",
-       "home": "Austria Vienna",
-       "away": "Lask Linz",
-       "score": "2:2"
-      },
-      {
-       "date": "17.08.2025",
-       "home": "Lask Linz",
-       "away": "Austria Vienna",
-       "score": "2:1"
-      },
-      {
-       "date": "01.12.2024",
-       "home": "Lask Linz",
-       "away": "Austria Vienna",
-       "score": "1:3"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.3688,
-      "pDraw": 0.2269,
-      "pAway": 0.4042,
-      "pOver25": 0.6565,
-      "pBtts": 0.6648,
-      "xgHome": 1.65,
-      "xgAway": 1.73,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.6648,
-     "odds": {
-      "h": 3.6,
-      "d": 3.75,
-      "a": 1.9,
-      "src": "10Bet"
-     },
-     "value": {
-      "outcome": "1",
-      "edge": 0.1094,
-      "modelP": 0.3688,
-      "odds": 3.6
-     },
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Samuel Adeniran",
-       "goals": 2
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen Austria Vienna und Lask Linz deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Austria Vienna 37 %, Unentschieden 23 %, Sieg Lask Linz 40 %). In der Tabelle stehen sich Platz 12 und Platz 3 gegenüber. Das letzte Duell (2026) endete 0:3 (Austria Vienna – Lask Linz). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,7; über 2,5 Tore: 66 %, beide Teams treffen zu 66 %). Gefährlichste Torschützen: bei Lask Linz Samuel Adeniran (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,60) für 11 Prozentpunkte wahrscheinlicher als der Markt.",
-     "lineups": {
-      "home": {
-       "formation": "3-4-2-1",
-       "xi": [
-        "Samuel Sahin-Radlinger",
-        "Johannes Handl",
-        "Aleksandar Dragović",
-        "Buhari Ibrahim",
-        "Reinhold Ranftl",
-        "Lee Kang-hee",
-        "Florian Wustinger",
-        "Lee Tae-seok",
-        "Julian Hettwer",
-        "Sanel Saljic",
-        "Johannes Eggestein"
-       ]
-      },
-      "away": {
-       "formation": "3-4-1-2",
-       "xi": [
-        "Lukas Jungwirth",
-        "Xavier Mbuyamba",
-        "Alemão",
-        "Andrés Andrade",
-        "Kasper Jørgensen",
-        "Robert Ljubičić",
-        "Sascha Horvath",
-        "George Bello",
-        "Krystof Daněk",
-        "Christoph Lang",
-        "Samuel Adeniran"
-       ]
-      }
-     },
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": false,
    "isCup": false
   },
@@ -2199,7 +1810,7 @@
      "formAwayA": [],
      "load14Home": 0,
      "load14Away": 0,
-     "posHome": 5,
+     "posHome": 6,
      "posAway": 19,
      "nTeams": null,
      "h2h": [
@@ -2261,7 +1872,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Bahia ist gegen Vasco DA Gama leicht favorisiert (50 % zu 25 %). In der Tabelle stehen sich Platz 5 und Platz 19 gegenüber. Das letzte Duell (2026) endete 0:1 (Vasco DA Gama – Bahia). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:1,1; über 2,5 Tore: 51 %, beide Teams treffen zu 53 %). Gefährlichste Torschützen: bei Bahia Luciano Juba (7 Tore). Personal: Bahia fehlen 6 Spieler (u.a. Ruan Pablo); Vasco DA Gama fehlen 6 Spieler (u.a. Brenner).",
+     "analysis": "Bahia ist gegen Vasco DA Gama leicht favorisiert (50 % zu 25 %). In der Tabelle stehen sich Platz 6 und Platz 19 gegenüber. Das letzte Duell (2026) endete 0:1 (Vasco DA Gama – Bahia). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:1,1; über 2,5 Tore: 51 %, beide Teams treffen zu 53 %). Gefährlichste Torschützen: bei Bahia Luciano Juba (7 Tore). Personal: Bahia fehlen 6 Spieler (u.a. Ruan Pablo); Vasco DA Gama fehlen 6 Spieler (u.a. Brenner).",
      "injuriesHome": [
       {
        "name": "Ruan Pablo",
@@ -2643,7 +2254,7 @@
      "formAwayA": [],
      "load14Home": 0,
      "load14Away": 0,
-     "posHome": 6,
+     "posHome": 7,
      "posAway": 11,
      "nTeams": null,
      "h2h": [
@@ -2710,7 +2321,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "RB Bragantino ist gegen Corinthians leicht favorisiert (53 % zu 20 %). In der Tabelle stehen sich Platz 6 und Platz 11 gegenüber. Das letzte Duell (2026) endete 2:0 (Corinthians – RB Bragantino). Das Modell erwartet eher wenige Tore (xG 1,4:0,8; über 2,5 Tore: 38 %, beide Teams treffen zu 41 %). Gefährlichste Torschützen: bei RB Bragantino I. Pitta (6 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,16) für 10 Prozentpunkte wahrscheinlicher als der Markt. Personal: RB Bragantino fehlen 6 Spieler (u.a. Jhon Jhon); Corinthians fehlen 6 Spieler (u.a. J. Martinez).",
+     "analysis": "RB Bragantino ist gegen Corinthians leicht favorisiert (53 % zu 20 %). In der Tabelle stehen sich Platz 7 und Platz 11 gegenüber. Das letzte Duell (2026) endete 2:0 (Corinthians – RB Bragantino). Das Modell erwartet eher wenige Tore (xG 1,4:0,8; über 2,5 Tore: 38 %, beide Teams treffen zu 41 %). Gefährlichste Torschützen: bei RB Bragantino I. Pitta (6 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,16) für 10 Prozentpunkte wahrscheinlicher als der Markt. Personal: RB Bragantino fehlen 6 Spieler (u.a. Jhon Jhon); Corinthians fehlen 6 Spieler (u.a. J. Martinez).",
      "injuriesHome": [
       {
        "name": "Jhon Jhon",
@@ -2917,165 +2528,7 @@
    "name": "Eliteserien (Norwegen)",
    "flag": "🇳🇴",
    "espn": "nor.1",
-   "matches": [
-    {
-     "kickoff": "2026-08-09T19:15:00+02:00",
-     "home": "Kristiansund BK",
-     "away": "Molde",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 17",
-     "formHome": [
-      "S",
-      "N",
-      "U",
-      "N",
-      "N"
-     ],
-     "formAway": [
-      "N",
-      "U",
-      "N",
-      "S",
-      "U"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 15,
-     "posAway": 5,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "16.05.2026",
-       "home": "Molde",
-       "away": "Kristiansund BK",
-       "score": "1:0"
-      },
-      {
-       "date": "06.02.2026",
-       "home": "Molde",
-       "away": "Kristiansund BK",
-       "score": "0:0"
-      },
-      {
-       "date": "04.10.2025",
-       "home": "Kristiansund BK",
-       "away": "Molde",
-       "score": "2:1"
-      },
-      {
-       "date": "21.05.2025",
-       "home": "Molde",
-       "away": "Kristiansund BK",
-       "score": "3:4"
-      },
-      {
-       "date": "16.05.2025",
-       "home": "Molde",
-       "away": "Kristiansund BK",
-       "score": "0:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.3409,
-      "pDraw": 0.2421,
-      "pAway": 0.417,
-      "pOver25": 0.5764,
-      "pBtts": 0.6015,
-      "xgHome": 1.41,
-      "xgAway": 1.59,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.6015,
-     "odds": {
-      "h": 4.33,
-      "d": 4.2,
-      "a": 1.67,
-      "src": "10Bet"
-     },
-     "value": {
-      "outcome": "1",
-      "edge": 0.1246,
-      "modelP": 0.3409,
-      "odds": 4.33
-     },
-     "scorersHome": [
-      {
-       "name": "L. Alvheim",
-       "goals": 5
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Emil Breivik",
-       "goals": 7
-      },
-      {
-       "name": "Eirik Hestad",
-       "goals": 6
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen Kristiansund BK und Molde deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Kristiansund BK 34 %, Unentschieden 24 %, Sieg Molde 42 %). In der Tabelle stehen sich Platz 15 und Platz 5 gegenüber. Das letzte Duell (2026) endete 1:0 (Molde – Kristiansund BK). Das Modell erwartet ein torreiches Spiel (xG 1,4:1,6; über 2,5 Tore: 58 %, beide Teams treffen zu 60 %). Gefährlichste Torschützen: bei Kristiansund BK L. Alvheim (5 Tore) und bei Molde Emil Breivik (7 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 4,33) für 12 Prozentpunkte wahrscheinlicher als der Markt. Personal: Kristiansund BK fehlen 6 Spieler (u.a. L. Alvheim); Molde fehlen 6 Spieler (u.a. M. Daehli).",
-     "injuriesHome": [
-      {
-       "name": "L. Alvheim",
-       "reason": "Ankle Injury"
-      },
-      {
-       "name": "J. Isaksen",
-       "reason": "Thigh Injury"
-      },
-      {
-       "name": "N. Odegard",
-       "reason": "Ankle Injury"
-      },
-      {
-       "name": "H. Opsahl",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "D. Tufekcic",
-       "reason": "Thigh Injury"
-      },
-      {
-       "name": "M. Williamsen",
-       "reason": "Leg Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "M. Daehli",
-       "reason": "Muscle Injury"
-      },
-      {
-       "name": "D. Daga",
-       "reason": "Injury"
-      },
-      {
-       "name": "F. Dahl",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "M. Linnes",
-       "reason": "Injury"
-      },
-      {
-       "name": "O. Spiten-Nysaeter",
-       "reason": "Injury"
-      },
-      {
-       "name": "S. Kabini",
-       "reason": "Red Card"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": false,
    "isCup": false
   },
@@ -3112,7 +2565,7 @@
      "load14Home": 0,
      "load14Away": 0,
      "posHome": 1,
-     "posAway": 12,
+     "posAway": 13,
      "nTeams": null,
      "h2h": [
       {
@@ -3182,7 +2635,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Sirius geht als klarer Favorit (65 %) in das Heimspiel gegen IF Brommapojkarna. In der Tabelle stehen sich Platz 1 und Platz 12 gegenüber. Die Form spricht für Sirius: 4 Siege aus den letzten 5 Spielen, IF Brommapojkarna holte nur 0. Das letzte Duell (2026) endete 1:2 (IF Brommapojkarna – Sirius). Das Modell erwartet ein torreiches Spiel (xG 2,3:1,1; über 2,5 Tore: 66 %, beide Teams treffen zu 59 %). Gefährlichste Torschützen: bei Sirius Robbie Ure (15 Tore) und bei IF Brommapojkarna M. Hansen (4 Tore). Personal: Sirius fehlen 6 Spieler (u.a. N. Milleskog); IF Brommapojkarna fehlen 6 Spieler (u.a. D. E. Hedstrom J.).",
+     "analysis": "Sirius geht als klarer Favorit (65 %) in das Heimspiel gegen IF Brommapojkarna. In der Tabelle stehen sich Platz 1 und Platz 13 gegenüber. Die Form spricht für Sirius: 4 Siege aus den letzten 5 Spielen, IF Brommapojkarna holte nur 0. Das letzte Duell (2026) endete 1:2 (IF Brommapojkarna – Sirius). Das Modell erwartet ein torreiches Spiel (xG 2,3:1,1; über 2,5 Tore: 66 %, beide Teams treffen zu 59 %). Gefährlichste Torschützen: bei Sirius Robbie Ure (15 Tore) und bei IF Brommapojkarna M. Hansen (4 Tore). Personal: Sirius fehlen 6 Spieler (u.a. N. Milleskog); IF Brommapojkarna fehlen 6 Spieler (u.a. D. E. Hedstrom J.).",
      "injuriesHome": [
       {
        "name": "N. Milleskog",
@@ -3263,7 +2716,7 @@
      "formAwayA": [],
      "load14Home": 0,
      "load14Away": 0,
-     "posHome": 8,
+     "posHome": 9,
      "posAway": 3,
      "nTeams": null,
      "h2h": [
@@ -3330,7 +2783,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Djurgardens IF ist bei Vasteras SK FK leicht favorisiert (48 % zu 30 %). In der Tabelle stehen sich Platz 8 und Platz 3 gegenüber. Das letzte Duell (2026) endete 6:0 (Djurgardens IF – Vasteras SK FK). Das Modell erwartet ein torreiches Spiel (xG 1,5:1,9; über 2,5 Tore: 67 %, beide Teams treffen zu 67 %). Gefährlichste Torschützen: bei Vasteras SK FK Mikkel Ladefoged (9 Tore) und bei Djurgardens IF Kristian Stromland Lien (10 Tore). Personal: Vasteras SK FK fehlen 6 Spieler (u.a. M. Diallo); Djurgardens IF fehlen 6 Spieler (u.a. M. Anderson).",
+     "analysis": "Djurgardens IF ist bei Vasteras SK FK leicht favorisiert (48 % zu 30 %). In der Tabelle stehen sich Platz 9 und Platz 3 gegenüber. Das letzte Duell (2026) endete 6:0 (Djurgardens IF – Vasteras SK FK). Das Modell erwartet ein torreiches Spiel (xG 1,5:1,9; über 2,5 Tore: 67 %, beide Teams treffen zu 67 %). Gefährlichste Torschützen: bei Vasteras SK FK Mikkel Ladefoged (9 Tore) und bei Djurgardens IF Kristian Stromland Lien (10 Tore). Personal: Vasteras SK FK fehlen 6 Spieler (u.a. M. Diallo); Djurgardens IF fehlen 6 Spieler (u.a. M. Anderson).",
      "injuriesHome": [
       {
        "name": "M. Diallo",
@@ -3570,14 +3023,14 @@
  "tennisFinished": [],
  "stats": {
   "overall": {
-   "n": 752,
+   "n": 753,
    "correct": 449,
-   "pct": 0.5971
+   "pct": 0.5963
   },
   "football": {
-   "n": 73,
+   "n": 74,
    "correct": 38,
-   "pct": 0.5205
+   "pct": 0.5135
   },
   "tennis": {
    "n": 679,
@@ -3585,10 +3038,10 @@
    "pct": 0.6053
   },
   "exact": {
-   "n": 73,
+   "n": 74,
    "correct": 12
   },
-  "open": 384,
+  "open": 383,
   "recent": [
    {
     "date": "2026-08-09",
@@ -3632,6 +3085,17 @@
     "prob": 0.5411,
     "result": "2:3",
     "correct": true,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-08-09",
+    "comp": "3. Liga",
+    "label": "1. FC Saarbrücken – Rot-Weiss Essen",
+    "tipName": "Rot-Weiss Essen",
+    "tip": "2",
+    "prob": 0.4123,
+    "result": "5:2",
+    "correct": false,
     "sport": "fb"
    },
    {
@@ -3850,17 +3314,6 @@
     "tipName": "Wang Xinyu",
     "tip": "P2",
     "prob": 0.5786,
-    "result": "Sieger: P1",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-08-04",
-    "comp": "WTA · National Bank Open presented by Rogers",
-    "label": "Sloane Stephens – Solana Sierra",
-    "tipName": "Solana Sierra",
-    "tip": "P2",
-    "prob": 0.746,
     "result": "Sieger: P1",
     "correct": false,
     "sport": "tn"
