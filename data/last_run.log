@@ -9,18 +9,18 @@
 /tmp/tennisdata/atp_2026.xlsx: OK über http://www.tennis-data.co.uk (286859 Bytes)
 /tmp/tennisdata/wta_2026.xlsx: OK über http://www.tennis-data.co.uk (273964 Bytes)
 total 3832
-drwxr-xr-x  2 runner runner   4096 Aug  9 18:33 .
-drwxrwxrwt 14 root   root    12288 Aug  9 18:33 ..
--rw-r--r--  1 runner runner 417917 Aug  9 18:33 atp_2022.xlsx
--rw-r--r--  1 runner runner 447088 Aug  9 18:33 atp_2023.xlsx
--rw-r--r--  1 runner runner 445729 Aug  9 18:33 atp_2024.xlsx
--rw-r--r--  1 runner runner 426707 Aug  9 18:33 atp_2025.xlsx
--rw-r--r--  1 runner runner 286859 Aug  9 18:33 atp_2026.xlsx
--rw-r--r--  1 runner runner 370069 Aug  9 18:33 wta_2022.xlsx
--rw-r--r--  1 runner runner 407251 Aug  9 18:33 wta_2023.xlsx
--rw-r--r--  1 runner runner 406783 Aug  9 18:33 wta_2024.xlsx
--rw-r--r--  1 runner runner 399398 Aug  9 18:33 wta_2025.xlsx
--rw-r--r--  1 runner runner 273964 Aug  9 18:33 wta_2026.xlsx
+drwxr-xr-x  2 runner runner   4096 Aug  9 20:26 .
+drwxrwxrwt 14 root   root    12288 Aug  9 20:26 ..
+-rw-r--r--  1 runner runner 417917 Aug  9 20:26 atp_2022.xlsx
+-rw-r--r--  1 runner runner 447088 Aug  9 20:26 atp_2023.xlsx
+-rw-r--r--  1 runner runner 445729 Aug  9 20:26 atp_2024.xlsx
+-rw-r--r--  1 runner runner 426707 Aug  9 20:26 atp_2025.xlsx
+-rw-r--r--  1 runner runner 286859 Aug  9 20:26 atp_2026.xlsx
+-rw-r--r--  1 runner runner 370069 Aug  9 20:26 wta_2022.xlsx
+-rw-r--r--  1 runner runner 407251 Aug  9 20:26 wta_2023.xlsx
+-rw-r--r--  1 runner runner 406783 Aug  9 20:26 wta_2024.xlsx
+-rw-r--r--  1 runner runner 399398 Aug  9 20:26 wta_2025.xlsx
+-rw-r--r--  1 runner runner 273964 Aug  9 20:26 wta_2026.xlsx
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
@@ -272,8 +272,8 @@ fixtures.csv: 78 Spiele mit Quoten
   315 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
 == 3. Liga ==
-  389 Ergebnisse geladen
-  1 Spiele in den naechsten 3 Tagen
+  390 Ergebnisse geladen
+  0 Spiele in den naechsten 3 Tagen
 == Premier League ==
   380 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
@@ -307,8 +307,7 @@ fixtures.csv: 78 Spiele mit Quoten
   0 Spiele in den naechsten 3 Tagen
 == Primeira Liga (Portugal) ==
   306 Ergebnisse geladen
-  4 Spiele in den naechsten 3 Tagen
-  1 Prognosen via Team-Historie-Fallback erstellt
+  1 Spiele in den naechsten 3 Tagen
 == Süper Lig (Türkei) ==
   306 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
@@ -326,8 +325,8 @@ fixtures.csv: 78 Spiele mit Quoten
   0 Spiele in den naechsten 3 Tagen
 == Série A (Brasilien) ==
   0 Ergebnisse geladen
-  5 Spiele in den naechsten 3 Tagen
-  5 Prognosen via Team-Historie-Fallback erstellt
+  3 Spiele in den naechsten 3 Tagen
+  3 Prognosen via Team-Historie-Fallback erstellt
 == Eliteserien (Norwegen) ==
   0 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
@@ -342,7 +341,7 @@ fixtures.csv: 78 Spiele mit Quoten
 == Premier Division (Irland) ==
   0 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
-  Kicker-News: 34 Schlagzeilen geladen
+  Kicker-News: 36 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 201, WTA 200
@@ -353,6 +352,6 @@ fixtures.csv: 78 Spiele mit Quoten
   Tennis-Quoten zugeordnet: 0
   0 Tennis-Matches in den naechsten 3 Tagen
   0 Tennis-Matches heute bereits beendet
-  Tipp-Log: 1151 Eintraege, 753 ausgewertet, 449 richtig
-  Premium-Abrufe: Tennis 6, Fussball 223 (Tennis AKTIV, Fussball AKTIV)
+  Tipp-Log: 1151 Eintraege, 754 ausgewertet, 450 richtig
+  Premium-Abrufe: Tennis 6, Fussball 199 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json

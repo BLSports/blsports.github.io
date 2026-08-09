@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-09T20:33:57.879653+02:00",
+ "generatedAt": "2026-08-09T22:26:49.731067+02:00",
  "windowDays": 3,
  "days": [
   "2026-08-09",
@@ -1045,109 +1045,15 @@
    "name": "3. Liga",
    "flag": "🇩🇪",
    "espn": "ger.3",
-   "matches": [
-    {
-     "kickoff": "2026-08-09T19:30:00+02:00",
-     "home": "Alemannia Aachen",
-     "away": "SC Verl",
-     "homeIcon": "https://upload.wikimedia.org/wikipedia/commons/9/94/Alemannia_Aachen_2010.svg",
-     "awayIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/SC_Verl_Logo.svg/960px-SC_Verl_Logo.svg.png",
-     "matchday": 1,
-     "roundName": null,
-     "formHome": [
-      "S",
-      "S",
-      "U",
-      "S",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "S",
-      "N",
-      "S"
-     ],
-     "formHomeH": [
-      "S",
-      "S",
-      "S",
-      "U",
-      "S"
-     ],
-     "formAwayA": [
-      "S",
-      "N",
-      "U",
-      "N",
-      "N"
-     ],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 12,
-     "posAway": 11,
-     "nTeams": 18,
-     "h2h": [
-      {
-       "date": "21.02.2026",
-       "home": "Alemannia Aachen",
-       "away": "SC Verl",
-       "score": "3:1"
-      },
-      {
-       "date": "16.09.2025",
-       "home": "SC Verl",
-       "away": "Alemannia Aachen",
-       "score": "2:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.4036,
-      "pDraw": 0.2283,
-      "pAway": 0.368,
-      "pOver25": 0.6495,
-      "pBtts": 0.6593,
-      "xgHome": 1.71,
-      "xgAway": 1.63,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.6593,
-     "odds": {
-      "h": 2.1,
-      "d": 3.8,
-      "a": 3.0,
-      "src": "Tipico"
-     },
-     "value": {
-      "outcome": "2",
-      "edge": 0.0573,
-      "modelP": 0.368,
-      "odds": 3.0
-     },
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen Alemannia Aachen und SC Verl deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Alemannia Aachen 40 %, Unentschieden 23 %, Sieg SC Verl 37 %). Heim-/Auswärtsbilanz: Alemannia Aachen gewann 4 der letzten 5 Heimspiele, SC Verl 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:1 (Alemannia Aachen – SC Verl). Das Modell erwartet ein torreiches Spiel (xG 1,7:1,6; über 2,5 Tore: 65 %, beide Teams treffen zu 66 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,00) für 6 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "Verletzung am Tag vor erstem Saisonspiel: Fortuna Köln muss lange auf Löffelsend verzichten",
-       "link": "https://www.kicker.de/verletzung-am-tag-vor-erstem-saisonspiel-fortuna-koeln-muss-lange-auf-loeffelsend-verzichten-1241897/artikel#omrss"
-      },
-      {
-       "title": "Muskelverletzung im Oberschenkel: Sebulonsen fehlt Köln vorerst",
-       "link": "https://www.kicker.de/muskelverletzung-im-oberschenkel-sebulonsen-fehlt-koeln-vorerst-1241836/artikel#omrss"
-      },
-      {
-       "title": "Das Verletzungspech bleibt Stuttgarts Zagadou treu",
-       "link": "https://www.kicker.de/das-verletzungspech-bleibt-stuttgarts-zagadou-treu-1241818/artikel#omrss"
-      }
-     ]
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": true,
-   "isCup": false
+   "isCup": false,
+   "nextMatch": {
+    "kickoff": "2026-08-14T19:00:00+02:00",
+    "home": "Würzburger Kickers",
+    "away": "SV Wehen Wiesbaden",
+    "matchday": 2
+   }
   },
   {
    "id": "pl",
@@ -1429,227 +1335,6 @@
    "espn": "por.1",
    "matches": [
     {
-     "kickoff": "2026-08-09T21:30:00+02:00",
-     "home": "Benfica",
-     "away": "Academico Viseu",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 1",
-     "formHome": [
-      "S",
-      "S",
-      "U",
-      "U",
-      "S"
-     ],
-     "formAway": [
-      "U",
-      "S",
-      "U",
-      "N",
-      "U"
-     ],
-     "formHomeH": [
-      "U",
-      "S",
-      "S",
-      "S",
-      "U"
-     ],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 13,
-     "posAway": 17,
-     "nTeams": null,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.614,
-      "pDraw": 0.203,
-      "pAway": 0.1829,
-      "pOver25": 0.6175,
-      "pBtts": 0.5778,
-      "xgHome": 2.12,
-      "xgAway": 1.07,
-      "tipScore": "2:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.5778,
-     "odds": {
-      "h": 1.1,
-      "d": 8.3,
-      "a": 22.0,
-      "src": "10Bet"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Benfica geht als klarer Favorit (62 %) in das Heimspiel gegen Academico Viseu. In der Tabelle stehen sich Platz 13 und Platz 17 gegenüber. Die Form spricht für Benfica: 3 Siege aus den letzten 5 Spielen, Academico Viseu holte nur 1. Das Modell erwartet ein torreiches Spiel (xG 2,1:1,1; über 2,5 Tore: 62 %, beide Teams treffen zu 58 %).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-08-09T21:30:00+02:00",
-     "home": "Moreirense",
-     "away": "SC Braga",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 1",
-     "formHome": [
-      "S",
-      "N",
-      "S",
-      "N",
-      "U"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "U",
-      "U",
-      "U"
-     ],
-     "formHomeH": [
-      "N",
-      "N",
-      "S",
-      "S",
-      "U"
-     ],
-     "formAwayA": [
-      "S",
-      "S",
-      "S",
-      "N",
-      "U"
-     ],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 11,
-     "posAway": 14,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "04.04.2026",
-       "home": "Moreirense",
-       "away": "Sp Braga",
-       "score": "0:1"
-      },
-      {
-       "date": "09.11.2025",
-       "home": "Sp Braga",
-       "away": "Moreirense",
-       "score": "2:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.1983,
-      "pDraw": 0.2322,
-      "pAway": 0.5694,
-      "pOver25": 0.5113,
-      "pBtts": 0.5076,
-      "xgHome": 0.94,
-      "xgAway": 1.78,
-      "tipScore": "0:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.5076,
-     "odds": {
-      "h": 6.2,
-      "d": 3.75,
-      "a": 1.56,
-      "src": "10Bet"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "SC Braga reist als klarer Favorit (57 %) zu Moreirense. Heim-/Auswärtsbilanz: Moreirense gewann 2 der letzten 5 Heimspiele, SC Braga 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:1 (Moreirense – Sp Braga). Das Modell erwartet eine offene Tor-Ausbeute (xG 0,9:1,8; über 2,5 Tore: 51 %, beide Teams treffen zu 51 %).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-08-09T21:30:00+02:00",
-     "home": "GIL Vicente",
-     "away": "Rio Ave",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 1",
-     "formHome": [
-      "N",
-      "S",
-      "U",
-      "N",
-      "N"
-     ],
-     "formAway": [
-      "U",
-      "N",
-      "U",
-      "N",
-      "U"
-     ],
-     "formHomeH": [
-      "U",
-      "S",
-      "N",
-      "S",
-      "N"
-     ],
-     "formAwayA": [
-      "S",
-      "S",
-      "S",
-      "N",
-      "U"
-     ],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 8,
-     "posAway": 9,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "03.05.2026",
-       "home": "Rio Ave",
-       "away": "Gil Vicente",
-       "score": "0:0"
-      },
-      {
-       "date": "20.12.2025",
-       "home": "Gil Vicente",
-       "away": "Rio Ave",
-       "score": "2:2"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.6366,
-      "pDraw": 0.2135,
-      "pAway": 0.1498,
-      "pOver25": 0.5114,
-      "pBtts": 0.4708,
-      "xgHome": 1.92,
-      "xgAway": 0.8,
-      "tipScore": "1:0",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.4708,
-     "odds": {
-      "h": 1.9,
-      "d": 3.45,
-      "a": 3.95,
-      "src": "10Bet"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "GIL Vicente geht als klarer Favorit (64 %) in das Heimspiel gegen Rio Ave. Heim-/Auswärtsbilanz: GIL Vicente gewann 2 der letzten 5 Heimspiele, Rio Ave 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (Rio Ave – Gil Vicente). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,9:0,8; über 2,5 Tore: 51 %, beide Teams treffen zu 47 %).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
      "kickoff": "2026-08-10T21:15:00+02:00",
      "home": "Santa Clara",
      "away": "Nacional",
@@ -1687,7 +1372,7 @@
      ],
      "load14Home": 0,
      "load14Away": 0,
-     "posHome": 10,
+     "posHome": 11,
      "posAway": 15,
      "nTeams": null,
      "h2h": [
@@ -1784,365 +1469,6 @@
    "flag": "🇧🇷",
    "espn": "bra.1",
    "matches": [
-    {
-     "kickoff": "2026-08-09T21:00:00+02:00",
-     "home": "Bahia",
-     "away": "Vasco DA Gama",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 22",
-     "formHome": [
-      "N",
-      "S",
-      "U",
-      "U",
-      "U"
-     ],
-     "formAway": [
-      "U",
-      "U",
-      "S",
-      "U",
-      "S"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 6,
-     "posAway": 19,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "12.02.2026",
-       "home": "Vasco DA Gama",
-       "away": "Bahia",
-       "score": "0:1"
-      },
-      {
-       "date": "23.11.2025",
-       "home": "Bahia",
-       "away": "Vasco DA Gama",
-       "score": "1:0"
-      },
-      {
-       "date": "24.09.2025",
-       "home": "Vasco DA Gama",
-       "away": "Bahia",
-       "score": "3:1"
-      },
-      {
-       "date": "29.10.2024",
-       "home": "Vasco DA Gama",
-       "away": "Bahia",
-       "score": "3:2"
-      },
-      {
-       "date": "27.06.2024",
-       "home": "Bahia",
-       "away": "Vasco DA Gama",
-       "score": "2:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.5015,
-      "pDraw": 0.2473,
-      "pAway": 0.2512,
-      "pOver25": 0.5051,
-      "pBtts": 0.528,
-      "xgHome": 1.62,
-      "xgAway": 1.07,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.528,
-     "odds": {
-      "h": 1.97,
-      "d": 3.4,
-      "a": 3.75,
-      "src": "10Bet"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Luciano Juba",
-       "goals": 7
-      }
-     ],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Bahia ist gegen Vasco DA Gama leicht favorisiert (50 % zu 25 %). In der Tabelle stehen sich Platz 6 und Platz 19 gegenüber. Das letzte Duell (2026) endete 0:1 (Vasco DA Gama – Bahia). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:1,1; über 2,5 Tore: 51 %, beide Teams treffen zu 53 %). Gefährlichste Torschützen: bei Bahia Luciano Juba (7 Tore). Personal: Bahia fehlen 6 Spieler (u.a. Ruan Pablo); Vasco DA Gama fehlen 6 Spieler (u.a. Brenner).",
-     "injuriesHome": [
-      {
-       "name": "Ruan Pablo",
-       "reason": "Inactive"
-      },
-      {
-       "name": "M. Sanabria",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "Michel Araujo",
-       "reason": "Red Card"
-      },
-      {
-       "name": "Sidney Duarte",
-       "reason": "Injury"
-      },
-      {
-       "name": "Dell",
-       "reason": "Red Card"
-      },
-      {
-       "name": "Caio Alexandre",
-       "reason": "Muscle Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "Brenner",
-       "reason": "Inactive"
-      },
-      {
-       "name": "M. Hinestroza",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Jair",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "Paulo Henrique",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Cuiabano",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Hugo Moura",
-       "reason": "Inactive"
-      }
-     ],
-     "lineups": {
-      "home": {
-       "formation": "4-4-2",
-       "xi": [
-        "Ronaldo",
-        "Román Gómez",
-        "David Duarte",
-        "Santiago Ramos Mingo",
-        "Luciano Juba",
-        "Ademir",
-        "Nicolás Acevedo",
-        "Jean Lucas",
-        "Rodrigo Nestor",
-        "Willian José",
-        "Alejo Véliz"
-       ]
-      },
-      "away": {
-       "formation": "4-2-3-1",
-       "xi": [
-        "Léo Jardim",
-        "Paulo Henrique",
-        "Carlos Cuesta",
-        "Robert Renan",
-        "Cuiabano",
-        "Jair",
-        "Tchê Tchê",
-        "Adson",
-        "Thiago Mendes",
-        "Andrés Gómez",
-        "Brenner"
-       ]
-      }
-     },
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-08-09T21:00:00+02:00",
-     "home": "Palmeiras",
-     "away": "Internacional",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 22",
-     "formHome": [
-      "S",
-      "N",
-      "S",
-      "S",
-      "N"
-     ],
-     "formAway": [
-      "N",
-      "N",
-      "U",
-      "S",
-      "N"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 1,
-     "posAway": 17,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "13.02.2026",
-       "home": "Internacional",
-       "away": "Palmeiras",
-       "score": "1:3"
-      },
-      {
-       "date": "13.09.2025",
-       "home": "Palmeiras",
-       "away": "Internacional",
-       "score": "4:1"
-      },
-      {
-       "date": "16.04.2025",
-       "home": "Internacional",
-       "away": "Palmeiras",
-       "score": "0:1"
-      },
-      {
-       "date": "04.08.2024",
-       "home": "Internacional",
-       "away": "Palmeiras",
-       "score": "1:1"
-      },
-      {
-       "date": "17.04.2024",
-       "home": "Palmeiras",
-       "away": "Internacional",
-       "score": "0:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.6149,
-      "pDraw": 0.2001,
-      "pAway": 0.1849,
-      "pOver25": 0.6348,
-      "pBtts": 0.5924,
-      "xgHome": 2.17,
-      "xgAway": 1.11,
-      "tipScore": "2:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.5924,
-     "odds": {
-      "h": 1.59,
-      "d": 3.85,
-      "a": 5.5,
-      "src": "10Bet"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "J. López",
-       "goals": 6
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "J. Carbonero",
-       "goals": 5
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Palmeiras geht als klarer Favorit (62 %) in das Heimspiel gegen Internacional. In der Tabelle stehen sich Platz 1 und Platz 17 gegenüber. Die Form spricht für Palmeiras: 3 Siege aus den letzten 5 Spielen, Internacional holte nur 1. Das letzte Duell (2026) endete 1:3 (Internacional – Palmeiras). Das Modell erwartet ein torreiches Spiel (xG 2,2:1,1; über 2,5 Tore: 63 %, beide Teams treffen zu 59 %). Gefährlichste Torschützen: bei Palmeiras J. López (6 Tore) und bei Internacional J. Carbonero (5 Tore). Personal: Palmeiras fehlen 6 Spieler (u.a. Felipe Anderson); Internacional fehlen 6 Spieler (u.a. Richard).",
-     "injuriesHome": [
-      {
-       "name": "Felipe Anderson",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Figueiredo",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Lucas Evangelista",
-       "reason": "Hamstring Injury"
-      },
-      {
-       "name": "Paulinho",
-       "reason": "Leg Injury"
-      },
-      {
-       "name": "J. Arias",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Mauricio",
-       "reason": "Inactive"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "Richard",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Thiago Maia",
-       "reason": "Inactive"
-      },
-      {
-       "name": "A. Rodriguez",
-       "reason": "Injury"
-      },
-      {
-       "name": "B. Arhin",
-       "reason": "Injury"
-      },
-      {
-       "name": "Bruno Tabata",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Victor Gabriel",
-       "reason": "Injury"
-      }
-     ],
-     "lineups": {
-      "home": {
-       "formation": "3-4-2-1",
-       "xi": [
-        "Carlos Miguel",
-        "Emiliano Martínez",
-        "Murilo",
-        "Alexander Barboza",
-        "Allan",
-        "Andreas Pereira",
-        "Marlon Freitas",
-        "Joaquín Piquerez",
-        "Mauricio",
-        "Jhon Arias",
-        "Ramón Sosa"
-       ]
-      },
-      "away": {
-       "formation": "3-4-2-1",
-       "xi": [
-        "Matheus Cunha",
-        "Bruno Gomes",
-        "Guillermo Maripán",
-        "Félix Torres",
-        "Vitinho",
-        "Paulinho Paula",
-        "Bruno Henrique",
-        "Matheus Bahia",
-        "Johan Carbonero",
-        "Alexandro Bernabei",
-        "Alan Patrick"
-       ]
-      }
-     },
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-08-09T23:30:00+02:00",
      "home": "Santos",
@@ -2370,16 +1696,16 @@
      },
      "pBtts": 0.4075,
      "odds": {
-      "h": 2.16,
+      "h": 2.18,
       "d": 3.15,
-      "a": 3.45,
+      "a": 3.4,
       "src": "10Bet"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.0985,
+      "edge": 0.1025,
       "modelP": 0.5311,
-      "odds": 2.16
+      "odds": 2.18
      },
      "scorersHome": [
       {
@@ -2389,7 +1715,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "RB Bragantino ist gegen Corinthians leicht favorisiert (53 % zu 20 %). In der Tabelle stehen sich Platz 7 und Platz 11 gegenüber. Das letzte Duell (2026) endete 2:0 (Corinthians – RB Bragantino). Das Modell erwartet eher wenige Tore (xG 1,4:0,8; über 2,5 Tore: 38 %, beide Teams treffen zu 41 %). Gefährlichste Torschützen: bei RB Bragantino I. Pitta (6 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,16) für 10 Prozentpunkte wahrscheinlicher als der Markt. Personal: RB Bragantino fehlen 6 Spieler (u.a. Jhon Jhon); Corinthians fehlen 6 Spieler (u.a. J. Martinez).",
+     "analysis": "RB Bragantino ist gegen Corinthians leicht favorisiert (53 % zu 20 %). In der Tabelle stehen sich Platz 7 und Platz 11 gegenüber. Das letzte Duell (2026) endete 2:0 (Corinthians – RB Bragantino). Das Modell erwartet eher wenige Tore (xG 1,4:0,8; über 2,5 Tore: 38 %, beide Teams treffen zu 41 %). Gefährlichste Torschützen: bei RB Bragantino I. Pitta (6 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,18) für 10 Prozentpunkte wahrscheinlicher als der Markt. Personal: RB Bragantino fehlen 6 Spieler (u.a. Jhon Jhon); Corinthians fehlen 6 Spieler (u.a. J. Martinez).",
      "injuriesHome": [
       {
        "name": "Jhon Jhon",
@@ -2518,9 +1844,9 @@
      },
      "pBtts": 0.6064,
      "odds": {
-      "h": 1.22,
-      "d": 5.9,
-      "a": 12.5,
+      "h": 1.24,
+      "d": 5.5,
+      "a": 12.0,
       "src": "10Bet"
      },
      "value": null,
@@ -2682,7 +2008,7 @@
      "odds": {
       "h": 1.3,
       "d": 5.4,
-      "a": 8.6,
+      "a": 8.75,
       "src": "10Bet"
      },
      "value": null,
@@ -3091,14 +2417,14 @@
  "tennisFinished": [],
  "stats": {
   "overall": {
-   "n": 753,
-   "correct": 449,
-   "pct": 0.5963
+   "n": 754,
+   "correct": 450,
+   "pct": 0.5968
   },
   "football": {
-   "n": 74,
-   "correct": 38,
-   "pct": 0.5135
+   "n": 75,
+   "correct": 39,
+   "pct": 0.52
   },
   "tennis": {
    "n": 679,
@@ -3106,10 +2432,10 @@
    "pct": 0.6053
   },
   "exact": {
-   "n": 74,
+   "n": 75,
    "correct": 12
   },
-  "open": 383,
+  "open": 382,
   "recent": [
    {
     "date": "2026-08-09",
@@ -3164,6 +2490,17 @@
     "prob": 0.4123,
     "result": "5:2",
     "correct": false,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-08-09",
+    "comp": "3. Liga",
+    "label": "Alemannia Aachen – SC Verl",
+    "tipName": "Alemannia Aachen",
+    "tip": "1",
+    "prob": 0.402,
+    "result": "4:1",
+    "correct": true,
     "sport": "fb"
    },
    {
@@ -3373,17 +2710,6 @@
     "prob": 0.7674,
     "result": "Sieger: P1",
     "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-08-04",
-    "comp": "WTA · National Bank Open presented by Rogers",
-    "label": "Daria Kasatkina – Wang Xinyu",
-    "tipName": "Wang Xinyu",
-    "tip": "P2",
-    "prob": 0.5786,
-    "result": "Sieger: P1",
-    "correct": false,
     "sport": "tn"
    }
   ]
