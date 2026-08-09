@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-09T19:56:52.262251+02:00",
+ "generatedAt": "2026-08-09T20:33:57.879653+02:00",
  "windowDays": 3,
  "days": [
   "2026-08-09",
@@ -1102,12 +1102,12 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4038,
+      "pHome": 0.4036,
       "pDraw": 0.2283,
-      "pAway": 0.3678,
+      "pAway": 0.368,
       "pOver25": 0.6495,
       "pBtts": 0.6593,
-      "xgHome": 1.72,
+      "xgHome": 1.71,
       "xgAway": 1.63,
       "tipScore": "1:1",
       "confidence": "hoch"
@@ -1121,8 +1121,8 @@
      },
      "value": {
       "outcome": "2",
-      "edge": 0.0571,
-      "modelP": 0.3678,
+      "edge": 0.0573,
+      "modelP": 0.368,
       "odds": 3.0
      },
      "scorersHome": [],
@@ -1132,16 +1132,16 @@
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
       {
-       "title": "LIVE! Vogler nutzt Fehler und bringt Verl in Führung",
-       "link": "https://www.kicker.de/live-vogler-nutzt-fehler-und-bringt-verl-in-fuehrung-1241941/artikel#omrss"
-      },
-      {
        "title": "Verletzung am Tag vor erstem Saisonspiel: Fortuna Köln muss lange auf Löffelsend verzichten",
        "link": "https://www.kicker.de/verletzung-am-tag-vor-erstem-saisonspiel-fortuna-koeln-muss-lange-auf-loeffelsend-verzichten-1241897/artikel#omrss"
       },
       {
        "title": "Muskelverletzung im Oberschenkel: Sebulonsen fehlt Köln vorerst",
        "link": "https://www.kicker.de/muskelverletzung-im-oberschenkel-sebulonsen-fehlt-koeln-vorerst-1241836/artikel#omrss"
+      },
+      {
+       "title": "Das Verletzungspech bleibt Stuttgarts Zagadou treu",
+       "link": "https://www.kicker.de/das-verletzungspech-bleibt-stuttgarts-zagadou-treu-1241818/artikel#omrss"
       }
      ]
     }
@@ -1858,8 +1858,8 @@
      },
      "pBtts": 0.528,
      "odds": {
-      "h": 1.95,
-      "d": 3.45,
+      "h": 1.97,
+      "d": 3.4,
       "a": 3.75,
       "src": "10Bet"
      },
@@ -1925,7 +1925,41 @@
        "reason": "Inactive"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "lineups": {
+      "home": {
+       "formation": "4-4-2",
+       "xi": [
+        "Ronaldo",
+        "Román Gómez",
+        "David Duarte",
+        "Santiago Ramos Mingo",
+        "Luciano Juba",
+        "Ademir",
+        "Nicolás Acevedo",
+        "Jean Lucas",
+        "Rodrigo Nestor",
+        "Willian José",
+        "Alejo Véliz"
+       ]
+      },
+      "away": {
+       "formation": "4-2-3-1",
+       "xi": [
+        "Léo Jardim",
+        "Paulo Henrique",
+        "Carlos Cuesta",
+        "Robert Renan",
+        "Cuiabano",
+        "Jair",
+        "Tchê Tchê",
+        "Adson",
+        "Thiago Mendes",
+        "Andrés Gómez",
+        "Brenner"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-09T21:00:00+02:00",
@@ -2002,8 +2036,8 @@
      "pBtts": 0.5924,
      "odds": {
       "h": 1.59,
-      "d": 3.8,
-      "a": 5.7,
+      "d": 3.85,
+      "a": 5.5,
       "src": "10Bet"
      },
      "value": null,
@@ -2073,7 +2107,41 @@
        "reason": "Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "lineups": {
+      "home": {
+       "formation": "3-4-2-1",
+       "xi": [
+        "Carlos Miguel",
+        "Emiliano Martínez",
+        "Murilo",
+        "Alexander Barboza",
+        "Allan",
+        "Andreas Pereira",
+        "Marlon Freitas",
+        "Joaquín Piquerez",
+        "Mauricio",
+        "Jhon Arias",
+        "Ramón Sosa"
+       ]
+      },
+      "away": {
+       "formation": "3-4-2-1",
+       "xi": [
+        "Matheus Cunha",
+        "Bruno Gomes",
+        "Guillermo Maripán",
+        "Félix Torres",
+        "Vitinho",
+        "Paulinho Paula",
+        "Bruno Henrique",
+        "Matheus Bahia",
+        "Johan Carbonero",
+        "Alexandro Bernabei",
+        "Alan Patrick"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-09T23:30:00+02:00",
@@ -2149,16 +2217,16 @@
      },
      "pBtts": 0.4944,
      "odds": {
-      "h": 2.04,
+      "h": 2.0,
       "d": 3.2,
-      "a": 3.7,
+      "a": 3.85,
       "src": "10Bet"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.135,
+      "edge": 0.1256,
       "modelP": 0.5919,
-      "odds": 2.04
+      "odds": 2.0
      },
      "scorersHome": [
       {
@@ -2173,7 +2241,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Santos geht als klarer Favorit (59 %) in das Heimspiel gegen Atletico Paranaense. In der Tabelle stehen sich Platz 16 und Platz 3 gegenüber. Das letzte Duell (2026) endete 2:1 (Atletico Paranaense – Santos). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,8:0,9; über 2,5 Tore: 51 %, beide Teams treffen zu 49 %). Gefährlichste Torschützen: bei Santos Gabriel Barbosa (7 Tore) und bei Atletico Paranaense Kevin Viveros (12 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,04) für 14 Prozentpunkte wahrscheinlicher als der Markt. Personal: Santos fehlen 6 Spieler (u.a. A. Frias); Atletico Paranaense fehlen 6 Spieler (u.a. Felipinho).",
+     "analysis": "Santos geht als klarer Favorit (59 %) in das Heimspiel gegen Atletico Paranaense. In der Tabelle stehen sich Platz 16 und Platz 3 gegenüber. Das letzte Duell (2026) endete 2:1 (Atletico Paranaense – Santos). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,8:0,9; über 2,5 Tore: 51 %, beide Teams treffen zu 49 %). Gefährlichste Torschützen: bei Santos Gabriel Barbosa (7 Tore) und bei Atletico Paranaense Kevin Viveros (12 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,00) für 13 Prozentpunkte wahrscheinlicher als der Markt. Personal: Santos fehlen 6 Spieler (u.a. A. Frias); Atletico Paranaense fehlen 6 Spieler (u.a. Felipinho).",
      "injuriesHome": [
       {
        "name": "A. Frias",
@@ -2874,7 +2942,7 @@
      "formAwayA": [],
      "load14Home": 0,
      "load14Away": 0,
-     "posHome": 10,
+     "posHome": 9,
      "posAway": 7,
      "nTeams": null,
      "h2h": [
@@ -2946,7 +3014,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Silkeborg ist gegen Odense leicht favorisiert (54 % zu 25 %). In der Tabelle stehen sich Platz 10 und Platz 7 gegenüber. Das letzte Duell (2026) endete 2:3 (Odense – Silkeborg). Das Modell erwartet ein torreiches Spiel (xG 2,2:1,4; über 2,5 Tore: 70 %, beide Teams treffen zu 68 %). Gefährlichste Torschützen: bei Silkeborg Oliver Ross (2 Tore) und bei Odense Noah Ganaus (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,45) für 16 Prozentpunkte wahrscheinlicher als der Markt. Personal: Silkeborg fehlen 6 Spieler (u.a. A. Busch); Odense fehlen 3 Spieler (u.a. J. Grot).",
+     "analysis": "Silkeborg ist gegen Odense leicht favorisiert (54 % zu 25 %). In der Tabelle stehen sich Platz 9 und Platz 7 gegenüber. Das letzte Duell (2026) endete 2:3 (Odense – Silkeborg). Das Modell erwartet ein torreiches Spiel (xG 2,2:1,4; über 2,5 Tore: 70 %, beide Teams treffen zu 68 %). Gefährlichste Torschützen: bei Silkeborg Oliver Ross (2 Tore) und bei Odense Noah Ganaus (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,45) für 16 Prozentpunkte wahrscheinlicher als der Markt. Personal: Silkeborg fehlen 6 Spieler (u.a. A. Busch); Odense fehlen 3 Spieler (u.a. J. Grot).",
      "injuriesHome": [
       {
        "name": "A. Busch",
