@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-11T08:59:58.957365+02:00",
+ "generatedAt": "2026-08-11T14:54:40.274011+02:00",
  "windowDays": 3,
  "days": [
   "2026-08-11",
@@ -81,12 +81,17 @@
      },
      "pBtts": 0.6015,
      "odds": {
-      "h": 2.56,
-      "d": 3.15,
-      "a": 2.74,
+      "h": 2.76,
+      "d": 3.1,
+      "a": 2.62,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.0695,
+      "modelP": 0.4092,
+      "odds": 2.76
+     },
      "scorersHome": [],
      "scorersAway": [
       {
@@ -99,7 +104,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen Kairat Almaty und Levski Sofia deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Kairat Almaty 41 %, Unentschieden 24 %, Sieg Levski Sofia 35 %). Das letzte Duell (2026) endete 1:0 (Levski Sofia – Kairat Almaty). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,4; über 2,5 Tore: 58 %, beide Teams treffen zu 60 %). Gefährlichste Torschützen: bei Levski Sofia Reinaldo (2 Tore).",
+     "analysis": "Zwischen Kairat Almaty und Levski Sofia deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Kairat Almaty 41 %, Unentschieden 24 %, Sieg Levski Sofia 35 %). Das letzte Duell (2026) endete 1:0 (Levski Sofia – Kairat Almaty). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,4; über 2,5 Tore: 58 %, beide Teams treffen zu 60 %). Gefährlichste Torschützen: bei Levski Sofia Reinaldo (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,76) für 7 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -158,7 +163,7 @@
      },
      "pBtts": 0.7487,
      "odds": {
-      "h": 1.6,
+      "h": 1.61,
       "d": 4.3,
       "a": 4.7,
       "src": "10Bet"
@@ -220,16 +225,16 @@
      },
      "pBtts": 0.5897,
      "odds": {
-      "h": 2.06,
-      "d": 3.6,
-      "a": 3.25,
+      "h": 1.9,
+      "d": 3.7,
+      "a": 3.65,
       "src": "10Bet"
      },
      "value": {
       "outcome": "2",
-      "edge": 0.1117,
+      "edge": 0.1431,
       "modelP": 0.399,
-      "odds": 3.25
+      "odds": 3.65
      },
      "scorersHome": [
       {
@@ -252,7 +257,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen Sabah FA und Aarhus deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Sabah FA 35 %, Unentschieden 25 %, Sieg Aarhus 40 %). Die Form spricht für Sabah FA: 4 Siege aus den letzten 5 Spielen, Aarhus holte nur 2. Das letzte Duell (2026) endete 2:1 (Aarhus – Sabah FA). Das Modell erwartet ein torreiches Spiel (xG 1,4:1,5; über 2,5 Tore: 56 %, beide Teams treffen zu 59 %). Gefährlichste Torschützen: bei Sabah FA J. Mickels (1 Tore) und bei Aarhus J. Bogere (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,25) für 11 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Zwischen Sabah FA und Aarhus deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Sabah FA 35 %, Unentschieden 25 %, Sieg Aarhus 40 %). Die Form spricht für Sabah FA: 4 Siege aus den letzten 5 Spielen, Aarhus holte nur 2. Das letzte Duell (2026) endete 2:1 (Aarhus – Sabah FA). Das Modell erwartet ein torreiches Spiel (xG 1,4:1,5; über 2,5 Tore: 56 %, beide Teams treffen zu 59 %). Gefährlichste Torschützen: bei Sabah FA J. Mickels (1 Tore) und bei Aarhus J. Bogere (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,65) für 14 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -305,9 +310,9 @@
      },
      "pBtts": 0.5896,
      "odds": {
-      "h": 8.0,
-      "d": 4.65,
-      "a": 1.37,
+      "h": 7.75,
+      "d": 4.45,
+      "a": 1.39,
       "src": "10Bet"
      },
      "value": null,
@@ -383,21 +388,21 @@
      },
      "pBtts": 0.5561,
      "odds": {
-      "h": 2.62,
-      "d": 3.25,
-      "a": 2.62,
+      "h": 2.75,
+      "d": 3.35,
+      "a": 2.46,
       "src": "10Bet"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.1464,
+      "edge": 0.1625,
       "modelP": 0.5028,
-      "odds": 2.62
+      "odds": 2.75
      },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": "NEC Nijmegen ist gegen Olympiakos Piraeus leicht favorisiert (50 % zu 26 %). Das letzte Duell (2026) endete 0:0 (Olympiakos Piraeus – NEC Nijmegen). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,7:1,1; über 2,5 Tore: 54 %, beide Teams treffen zu 56 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,62) für 15 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "NEC Nijmegen ist gegen Olympiakos Piraeus leicht favorisiert (50 % zu 26 %). Das letzte Duell (2026) endete 0:0 (Olympiakos Piraeus – NEC Nijmegen). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,7:1,1; über 2,5 Tore: 54 %, beide Teams treffen zu 56 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,75) für 16 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -450,9 +455,9 @@
      },
      "pBtts": 0.6415,
      "odds": {
-      "h": 1.25,
-      "d": 5.9,
-      "a": 9.75,
+      "h": 1.22,
+      "d": 6.5,
+      "a": 10.25,
       "src": "10Bet"
      },
      "value": null,
@@ -512,21 +517,21 @@
      },
      "pBtts": 0.5441,
      "odds": {
-      "h": 1.85,
-      "d": 3.75,
-      "a": 3.8,
+      "h": 1.9,
+      "d": 3.65,
+      "a": 3.65,
       "src": "10Bet"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.089,
+      "edge": 0.1041,
       "modelP": 0.594,
-      "odds": 1.85
+      "odds": 1.9
      },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Slovan Bratislava geht als klarer Favorit (59 %) in das Heimspiel gegen Mjallby AIF. Die Form spricht für Slovan Bratislava: 4 Siege aus den letzten 5 Spielen, Mjallby AIF holte nur 1. Das letzte Duell (2026) endete 1:2 (Mjallby AIF – Slovan Bratislava). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,0; über 2,5 Tore: 57 %, beide Teams treffen zu 54 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 1,85) für 9 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Slovan Bratislava geht als klarer Favorit (59 %) in das Heimspiel gegen Mjallby AIF. Die Form spricht für Slovan Bratislava: 4 Siege aus den letzten 5 Spielen, Mjallby AIF holte nur 1. Das letzte Duell (2026) endete 1:2 (Mjallby AIF – Slovan Bratislava). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,0; über 2,5 Tore: 57 %, beide Teams treffen zu 54 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 1,90) für 10 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -585,8 +590,8 @@
      },
      "pBtts": 0.607,
      "odds": {
-      "h": 1.42,
-      "d": 4.4,
+      "h": 1.4,
+      "d": 4.55,
       "a": 7.3,
       "src": "10Bet"
      },
@@ -664,16 +669,16 @@
      },
      "pBtts": 0.6619,
      "odds": {
-      "h": 3.45,
-      "d": 3.8,
-      "a": 1.93,
+      "h": 4.1,
+      "d": 3.95,
+      "a": 1.74,
       "src": "10Bet"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.2413,
+      "edge": 0.2843,
       "modelP": 0.5119,
-      "odds": 3.45
+      "odds": 4.1
      },
      "scorersHome": [
       {
@@ -696,14 +701,8 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Sturm Graz ist gegen Fenerbahçe leicht favorisiert (52 % zu 27 %). Das letzte Duell (2026) endete 2:0 (Fenerbahçe – Sturm Graz). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,4; über 2,5 Tore: 67 %, beide Teams treffen zu 66 %). Gefährlichste Torschützen: bei Sturm Graz Luca Weinhandl (1 Tore) und bei Fenerbahçe Talisca (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,45) für 24 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "Bochum holt Sturm-Talent Ouro-Tagba vom 1. FC Köln",
-       "link": "https://www.kicker.de/bochum-holt-sturm-talent-ouro-tagba-vom-1-fc-koeln-1242137/artikel#omrss"
-      }
-     ]
+     "analysis": "Sturm Graz ist gegen Fenerbahçe leicht favorisiert (52 % zu 27 %). Das letzte Duell (2026) endete 2:0 (Fenerbahçe – Sturm Graz). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,4; über 2,5 Tore: 67 %, beide Teams treffen zu 66 %). Gefährlichste Torschützen: bei Sturm Graz Luca Weinhandl (1 Tore) und bei Fenerbahçe Talisca (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 4,10) für 28 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-11T21:00:00+02:00",
@@ -767,9 +766,9 @@
      },
      "pBtts": 0.6973,
      "odds": {
-      "h": 1.41,
-      "d": 4.75,
-      "a": 6.5,
+      "h": 1.38,
+      "d": 4.6,
+      "a": 7.75,
       "src": "10Bet"
      },
      "value": null,
@@ -844,9 +843,9 @@
      },
      "pBtts": 0.5448,
      "odds": {
-      "h": 1.63,
-      "d": 3.55,
-      "a": 5.6,
+      "h": 1.6,
+      "d": 3.65,
+      "a": 5.8,
       "src": "10Bet"
      },
      "value": null,
@@ -1030,9 +1029,9 @@
      },
      "pBtts": 0.6153,
      "odds": {
-      "h": 1.36,
-      "d": 4.35,
-      "a": 9.4,
+      "h": 1.37,
+      "d": 4.6,
+      "a": 8.1,
       "src": "10Bet"
      },
      "value": null,
@@ -1283,9 +1282,9 @@
      },
      "pBtts": 0.4985,
      "odds": {
-      "h": 6.2,
+      "h": 5.7,
       "d": 4.6,
-      "a": 1.45,
+      "a": 1.48,
       "src": "10Bet"
      },
      "value": null,
@@ -1412,9 +1411,9 @@
      },
      "pBtts": 0.5907,
      "odds": {
-      "h": 1.54,
+      "h": 1.58,
       "d": 4.1,
-      "a": 5.7,
+      "a": 5.25,
       "src": "10Bet"
      },
      "value": null,
@@ -1675,21 +1674,21 @@
      },
      "pBtts": 0.5868,
      "odds": {
-      "h": 2.25,
-      "d": 3.3,
-      "a": 2.92,
+      "h": 2.24,
+      "d": 3.45,
+      "a": 2.85,
       "src": "10Bet"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.1595,
+      "edge": 0.1567,
       "modelP": 0.5673,
-      "odds": 2.25
+      "odds": 2.24
      },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Apollon Limassol geht als klarer Favorit (56 %) in das Heimspiel gegen Brann. Die Form spricht für Apollon Limassol: 4 Siege aus den letzten 5 Spielen, Brann holte nur 2. Das letzte Duell (2026) endete 0:1 (Brann – Apollon Limassol). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,1; über 2,5 Tore: 60 %, beide Teams treffen zu 59 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,25) für 16 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Apollon Limassol geht als klarer Favorit (56 %) in das Heimspiel gegen Brann. Die Form spricht für Apollon Limassol: 4 Siege aus den letzten 5 Spielen, Brann holte nur 2. Das letzte Duell (2026) endete 0:1 (Brann – Apollon Limassol). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,1; über 2,5 Tore: 60 %, beide Teams treffen zu 59 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,24) für 16 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -1754,16 +1753,16 @@
      },
      "pBtts": 0.5367,
      "odds": {
-      "h": 4.1,
+      "h": 4.5,
       "d": 3.5,
-      "a": 1.78,
+      "a": 1.72,
       "src": "10Bet"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.272,
+      "edge": 0.2915,
       "modelP": 0.4955,
-      "odds": 4.1
+      "odds": 4.5
      },
      "scorersHome": [],
      "scorersAway": [
@@ -1773,7 +1772,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "CSKA 1948 ist gegen Panathinaikos leicht favorisiert (49 % zu 26 %). Das letzte Duell (2026) endete 1:1 (Panathinaikos – CSKA 1948). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:1,1; über 2,5 Tore: 51 %, beide Teams treffen zu 54 %). Gefährlichste Torschützen: bei Panathinaikos A. Jagusic (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 4,10) für 27 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "CSKA 1948 ist gegen Panathinaikos leicht favorisiert (49 % zu 26 %). Das letzte Duell (2026) endete 1:1 (Panathinaikos – CSKA 1948). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:1,1; über 2,5 Tore: 51 %, beide Teams treffen zu 54 %). Gefährlichste Torschützen: bei Panathinaikos A. Jagusic (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 4,50) für 29 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -2110,7 +2109,13 @@
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
      "analysis": "Qarabag ist gegen Dynamo Kyiv leicht favorisiert (49 % zu 27 %). Das letzte Duell (2026) endete 1:0 (Dynamo Kyiv – Qarabag). Das Modell erwartet ein torreiches Spiel (xG 1,7:1,2; über 2,5 Tore: 55 %, beide Teams treffen zu 57 %).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "news": [
+      {
+       "title": "Strafe ausgesetzt: Dynamo Dresden kann K-Block öffnen",
+       "link": "https://www.kicker.de/strafe-ausgesetzt-dynamo-dresden-kann-k-block-oeffnen-1242296/artikel#omrss"
+      }
+     ]
     },
     {
      "kickoff": "2026-08-13T18:00:00+02:00",
@@ -2163,20 +2168,20 @@
      "pBtts": 0.6495,
      "odds": {
       "h": 1.88,
-      "d": 3.7,
-      "a": 3.45,
+      "d": 3.55,
+      "a": 3.65,
       "src": "10Bet"
      },
      "value": {
       "outcome": "2",
-      "edge": 0.0791,
+      "edge": 0.0926,
       "modelP": 0.3445,
-      "odds": 3.45
+      "odds": 3.65
      },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Flora Tallinn ist gegen Inter Club d'Escaldes leicht favorisiert (43 % zu 34 %). Das letzte Duell (2026) endete 2:0 (Inter Club d'Escaldes – Flora Tallinn). Das Modell erwartet ein torreiches Spiel (xG 1,7:1,6; über 2,5 Tore: 64 %, beide Teams treffen zu 65 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,45) für 8 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Flora Tallinn ist gegen Inter Club d'Escaldes leicht favorisiert (43 % zu 34 %). Das letzte Duell (2026) endete 2:0 (Inter Club d'Escaldes – Flora Tallinn). Das Modell erwartet ein torreiches Spiel (xG 1,7:1,6; über 2,5 Tore: 64 %, beide Teams treffen zu 65 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,65) für 9 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -2425,9 +2430,9 @@
      },
      "pBtts": 0.6068,
      "odds": {
-      "h": 1.72,
-      "d": 3.55,
-      "a": 4.45,
+      "h": 1.68,
+      "d": 3.75,
+      "a": 4.35,
       "src": "10Bet"
      },
      "value": null,
@@ -2487,9 +2492,9 @@
      },
      "pBtts": 0.5521,
      "odds": {
-      "h": 9.25,
+      "h": 7.75,
       "d": 4.45,
-      "a": 1.32,
+      "a": 1.36,
       "src": "10Bet"
      },
      "value": null,
@@ -2612,8 +2617,8 @@
      "pBtts": 0.6094,
      "odds": {
       "h": 1.07,
-      "d": 9.6,
-      "a": 19.5,
+      "d": 9.5,
+      "a": 18.5,
       "src": "10Bet"
      },
      "value": null,
@@ -2806,16 +2811,16 @@
      },
      "pBtts": 0.524,
      "odds": {
-      "h": 1.79,
-      "d": 3.75,
-      "a": 3.8,
+      "h": 1.78,
+      "d": 3.6,
+      "a": 3.95,
       "src": "10Bet"
      },
      "value": {
       "outcome": "2",
-      "edge": 0.0727,
+      "edge": 0.0828,
       "modelP": 0.3145,
-      "odds": 3.8
+      "odds": 3.95
      },
      "scorersHome": [],
      "scorersAway": [
@@ -2829,7 +2834,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "FC Vaduz ist gegen Inter Turku leicht favorisiert (43 % zu 31 %). Die Form spricht für Inter Turku: 3 Siege aus den letzten 5 Spielen, FC Vaduz holte nur 1. Das letzte Duell (2026) endete 2:1 (Inter Turku – FC Vaduz). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,4:1,2; über 2,5 Tore: 48 %, beide Teams treffen zu 52 %). Gefährlichste Torschützen: bei Inter Turku C. Jephta (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,80) für 7 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "FC Vaduz ist gegen Inter Turku leicht favorisiert (43 % zu 31 %). Die Form spricht für Inter Turku: 3 Siege aus den letzten 5 Spielen, FC Vaduz holte nur 1. Das letzte Duell (2026) endete 2:1 (Inter Turku – FC Vaduz). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,4:1,2; über 2,5 Tore: 48 %, beide Teams treffen zu 52 %). Gefährlichste Torschützen: bei Inter Turku C. Jephta (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,95) für 8 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -3817,14 +3822,14 @@
  "tennisFinished": [],
  "stats": {
   "overall": {
-   "n": 775,
+   "n": 776,
    "correct": 462,
-   "pct": 0.5961
+   "pct": 0.5954
   },
   "football": {
-   "n": 96,
+   "n": 97,
    "correct": 51,
-   "pct": 0.5312
+   "pct": 0.5258
   },
   "tennis": {
    "n": 679,
@@ -3832,11 +3837,22 @@
    "pct": 0.6053
   },
   "exact": {
-   "n": 96,
+   "n": 97,
    "correct": 17
   },
-  "open": 346,
+  "open": 345,
   "recent": [
+   {
+    "date": "2026-08-10",
+    "comp": "Primeira Liga (Portugal)",
+    "label": "Santa Clara – Nacional",
+    "tipName": "Santa Clara",
+    "tip": "1",
+    "prob": 0.4015,
+    "result": "2:2",
+    "correct": false,
+    "sport": "fb"
+   },
    {
     "date": "2026-08-09",
     "comp": "2. Bundesliga",
@@ -4099,17 +4115,6 @@
     "prob": 0.4162,
     "result": "2:5",
     "correct": false,
-    "sport": "fb"
-   },
-   {
-    "date": "2026-08-08",
-    "comp": "3. Liga",
-    "label": "TSV Havelse – VfB Stuttgart II",
-    "tipName": "VfB Stuttgart II",
-    "tip": "2",
-    "prob": 0.4145,
-    "result": "2:3",
-    "correct": true,
     "sport": "fb"
    }
   ]
