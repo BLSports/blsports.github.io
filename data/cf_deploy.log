@@ -21,7 +21,7 @@ Getting User settings...
   If you think this is a bug, please open an issue at: [4mhttps://github.com/cloudflare/workers-sdk/issues/new/choose[0m
 
 
-🪵  Logs were written to "/home/runner/.config/.wrangler/logs/wrangler-2026-08-11_15-24-07_366.log"
+🪵  Logs were written to "/home/runner/.config/.wrangler/logs/wrangler-2026-08-11_17-23-23_892.log"
 --- deploy ---
 
  ⛅️ wrangler 4.120.1
@@ -29,10 +29,20 @@ Getting User settings...
 
 [31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mA request to the Cloudflare API (/accounts/66d04b9586a29a11ce2e3def068a7fb3/pages/projects/blsports-sport-radar) failed.[0m
 
-  Rate limited. Please wait and consider throttling your request speed [code: 10429]
+  Authentication error [code: 10000]
+
+
+📎 It looks like you are authenticating Wrangler via a custom API token set in an environment variable.
+Please ensure it has the correct permissions for this operation.
+
+Getting User settings...
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mA request to the Cloudflare API (/accounts) failed.[0m
+
+  Invalid access token [code: 9109]
   
   If you think this is a bug, please open an issue at: [4mhttps://github.com/cloudflare/workers-sdk/issues/new/choose[0m
 
 
-🪵  Logs were written to "/home/runner/.config/.wrangler/logs/wrangler-2026-08-11_15-24-10_139.log"
+🪵  Logs were written to "/home/runner/.config/.wrangler/logs/wrangler-2026-08-11_17-23-27_477.log"
 DEPLOY_FEHLER (Exit-Code 1)
