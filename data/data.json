@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-12T11:11:10.319799+02:00",
+ "generatedAt": "2026-08-12T12:57:48.465226+02:00",
  "windowDays": 3,
  "days": [
   "2026-08-12",
@@ -162,13 +162,7 @@
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
      "analysis": "Zwischen Beşiktaş und Hradec Králové deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Beşiktaş 37 %, Unentschieden 28 %, Sieg Hradec Králové 35 %). Das letzte Duell (2026) endete 0:1 (Hradec Králové – Beşiktaş). Das Modell erwartet eher wenige Tore (xG 1,2:1,2; über 2,5 Tore: 43 %, beide Teams treffen zu 49 %).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "Vlahovic angeblich mit Besiktas einig - Chelsea holt neuen Linksverteidiger",
-       "link": "https://www.kicker.de/transferticker-953155/artikel#omrss"
-      }
-     ]
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-13T19:00:00+02:00",
@@ -865,9 +859,9 @@
      },
      "pBtts": 0.5906,
      "odds": {
-      "h": 1.24,
+      "h": 1.23,
       "d": 5.6,
-      "a": 9.8,
+      "a": 10.25,
       "src": "10Bet"
      },
      "value": null,
@@ -1012,8 +1006,8 @@
      "pBtts": 0.5374,
      "odds": {
       "h": 1.98,
-      "d": 3.35,
-      "a": 3.45,
+      "d": 3.3,
+      "a": 3.5,
       "src": "10Bet"
      },
      "value": null,
@@ -1073,8 +1067,8 @@
      },
      "pBtts": 0.5532,
      "odds": {
-      "h": 2.8,
-      "d": 3.6,
+      "h": 2.84,
+      "d": 3.5,
       "a": 2.2,
       "src": "10Bet"
      },
@@ -1460,9 +1454,9 @@
      },
      "pBtts": 0.6068,
      "odds": {
-      "h": 1.68,
+      "h": 1.7,
       "d": 3.7,
-      "a": 4.45,
+      "a": 4.33,
       "src": "10Bet"
      },
      "value": null,
@@ -2537,8 +2531,20 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "3. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "S",
+      "N",
+      "N",
+      "S",
+      "U"
+     ],
+     "formAway": [
+      "S",
+      "N",
+      "S",
+      "S",
+      "N"
+     ],
      "formHomeH": [],
      "formAwayA": [],
      "load14Home": 0,
@@ -2546,9 +2552,26 @@
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "06.08.2026",
+       "home": "FK Zalgiris Vilnius",
+       "away": "HNK Hajduk Split",
+       "score": "2:5"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.512,
+      "pDraw": 0.2073,
+      "pAway": 0.2806,
+      "pOver25": 0.7163,
+      "pBtts": 0.6981,
+      "xgHome": 2.15,
+      "xgAway": 1.56,
+      "tipScore": "2:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6981,
      "odds": {
       "h": 1.26,
       "d": 5.6,
@@ -2559,8 +2582,8 @@
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": "",
-     "basis": "Datenbasis: Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "analysis": "HNK Hajduk Split ist gegen FK Zalgiris Vilnius leicht favorisiert (51 % zu 28 %). Das letzte Duell (2026) endete 2:5 (FK Zalgiris Vilnius – HNK Hajduk Split). Das Modell erwartet ein torreiches Spiel (xG 2,1:1,6; über 2,5 Tore: 72 %, beide Teams treffen zu 70 %).",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-13T21:00:00+02:00",
@@ -2570,8 +2593,20 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "3. Quali-Runde",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "N",
+      "S",
+      "U",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "S",
+      "S",
+      "S"
+     ],
      "formHomeH": [],
      "formAwayA": [],
      "load14Home": 0,
@@ -2579,16 +2614,33 @@
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "04.08.2026",
+       "home": "Auda",
+       "away": "Dinamo Tirana",
+       "score": "1:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4064,
+      "pDraw": 0.2712,
+      "pAway": 0.3224,
+      "pOver25": 0.4462,
+      "pBtts": 0.4989,
+      "xgHome": 1.32,
+      "xgAway": 1.14,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.4989,
      "odds": null,
      "value": null,
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": "",
-     "basis": "Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "analysis": "Dinamo Tirana ist gegen Auda leicht favorisiert (41 % zu 32 %). Die Form spricht für Auda: 5 Siege aus den letzten 5 Spielen, Dinamo Tirana holte nur 2. Das letzte Duell (2026) endete 1:0 (Auda – Dinamo Tirana). Das Modell erwartet eher wenige Tore (xG 1,3:1,1; über 2,5 Tore: 45 %, beide Teams treffen zu 50 %).",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
    "seasonHasStarted": false,
@@ -5515,8 +5567,8 @@
    "wta": 200
   },
   "sackCounts": {
-   "atp": 7121,
-   "wta": 9095
+   "atp": 12468,
+   "wta": 11586
   }
  },
  "tennisFinished": [],
