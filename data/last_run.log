@@ -1,26 +1,48 @@
-/tmp/tennisdata/atp_2022.xlsx: OK über http://www.tennis-data.co.uk (417917 Bytes)
+/tmp/tennisdata/atp_2022.xlsx: FEHLGESCHLAGEN (letzter Code 504); Antwort-Anfang:
+<html>
+<head>
+<title>The page is temporarily unavailable</title>
+<style>
+body { font-family: Tahoma, Verdana, Arial, sans-serif; }
+</style>
+</head>
+<body bgcolor="white" text="black">
+<table width="100%" height="100%">
+<tr>
+<td align="center" valign="middle">
+The page you are looking for is temporar
 /tmp/tennisdata/wta_2022.xlsx: OK über http://www.tennis-data.co.uk (370069 Bytes)
 /tmp/tennisdata/atp_2023.xlsx: OK über http://www.tennis-data.co.uk (447088 Bytes)
 /tmp/tennisdata/wta_2023.xlsx: OK über http://www.tennis-data.co.uk (407251 Bytes)
 /tmp/tennisdata/atp_2024.xlsx: OK über http://www.tennis-data.co.uk (445729 Bytes)
-/tmp/tennisdata/wta_2024.xlsx: OK über http://www.tennis-data.co.uk (406783 Bytes)
+/tmp/tennisdata/wta_2024.xlsx: FEHLGESCHLAGEN (letzter Code 504); Antwort-Anfang:
+<html>
+<head>
+<title>The page is temporarily unavailable</title>
+<style>
+body { font-family: Tahoma, Verdana, Arial, sans-serif; }
+</style>
+</head>
+<body bgcolor="white" text="black">
+<table width="100%" height="100%">
+<tr>
+<td align="center" valign="middle">
+The page you are looking for is temporar
 /tmp/tennisdata/atp_2025.xlsx: OK über http://www.tennis-data.co.uk (426707 Bytes)
 /tmp/tennisdata/wta_2025.xlsx: OK über http://www.tennis-data.co.uk (399398 Bytes)
 /tmp/tennisdata/atp_2026.xlsx: OK über http://www.tennis-data.co.uk (301307 Bytes)
 /tmp/tennisdata/wta_2026.xlsx: OK über http://www.tennis-data.co.uk (287973 Bytes)
-total 3860
-drwxr-xr-x  2 runner runner   4096 Aug 17 06:45 .
-drwxrwxrwt 14 root   root    12288 Aug 17 06:44 ..
--rw-r--r--  1 runner runner 417917 Aug 17 06:44 atp_2022.xlsx
--rw-r--r--  1 runner runner 447088 Aug 17 06:45 atp_2023.xlsx
--rw-r--r--  1 runner runner 445729 Aug 17 06:45 atp_2024.xlsx
--rw-r--r--  1 runner runner 426707 Aug 17 06:45 atp_2025.xlsx
--rw-r--r--  1 runner runner 301307 Aug 17 06:45 atp_2026.xlsx
--rw-r--r--  1 runner runner 370069 Aug 17 06:45 wta_2022.xlsx
--rw-r--r--  1 runner runner 407251 Aug 17 06:45 wta_2023.xlsx
--rw-r--r--  1 runner runner 406783 Aug 17 06:45 wta_2024.xlsx
--rw-r--r--  1 runner runner 399398 Aug 17 06:45 wta_2025.xlsx
--rw-r--r--  1 runner runner 287973 Aug 17 06:45 wta_2026.xlsx
+total 3048
+drwxr-xr-x  2 runner runner   4096 Aug 17 08:39 .
+drwxrwxrwt 14 root   root    12288 Aug 17 08:39 ..
+-rw-r--r--  1 runner runner 447088 Aug 17 08:38 atp_2023.xlsx
+-rw-r--r--  1 runner runner 445729 Aug 17 08:38 atp_2024.xlsx
+-rw-r--r--  1 runner runner 426707 Aug 17 08:39 atp_2025.xlsx
+-rw-r--r--  1 runner runner 301307 Aug 17 08:39 atp_2026.xlsx
+-rw-r--r--  1 runner runner 370069 Aug 17 08:38 wta_2022.xlsx
+-rw-r--r--  1 runner runner 407251 Aug 17 08:38 wta_2023.xlsx
+-rw-r--r--  1 runner runner 399398 Aug 17 08:39 wta_2025.xlsx
+-rw-r--r--  1 runner runner 287973 Aug 17 08:39 wta_2026.xlsx
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
@@ -209,6 +231,8 @@ drwxrwxrwt 14 root   root    12288 Aug 17 06:44 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/irl.1/scoreboard?dates=20260818 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/irl.1/scoreboard?dates=20260819 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/irl.1/scoreboard?dates=20260817-20261215&limit=50 nicht erreichbar (HTTP Error 403: Forbidden)
+  WARN: https://www.tennis-data.co.uk/2022/2022.xlsx nicht erreichbar (binaer)
+  WARN: https://www.tennis-data.co.uk/2024w/2024.xlsx nicht erreichbar (binaer)
   WARN: https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates=20260817 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/tennis/wta/scoreboard?dates=20260817 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates=20260818 nicht erreichbar (HTTP Error 403: Forbidden)
@@ -325,14 +349,14 @@ fixtures.csv: 127 Spiele mit Quoten
 == Premier Division (Irland) ==
   0 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
-  Kicker-News: 35 Schlagzeilen geladen
+  Kicker-News: 36 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 201, WTA 200
-  Historie: ATP 12563 Matches, WTA 11681 Matches
-  Elo ATP: 550 Spieler bewertet
-  Elo WTA: 574 Spieler bewertet
-  Belag-Zuordnung (MatchStat): 17 Turniere
+  Historie: ATP 9931 Matches, WTA 9191 Matches
+  Elo ATP: 487 Spieler bewertet
+  Elo WTA: 551 Spieler bewertet
+  Belag-Zuordnung (MatchStat): 18 Turniere
   Tennis-Quoten zugeordnet: 0
   0 Tennis-Matches in den naechsten 3 Tagen
   0 Tennis-Matches heute bereits beendet
