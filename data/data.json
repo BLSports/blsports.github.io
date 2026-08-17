@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-08-16T20:22:26.381100+02:00",
+ "generatedAt": "2026-08-17T06:28:55.940901+02:00",
  "windowDays": 3,
  "days": [
-  "2026-08-16",
   "2026-08-17",
-  "2026-08-18"
+  "2026-08-18",
+  "2026-08-19"
  ],
  "football": [
   {
@@ -81,16 +81,16 @@
      },
      "pBtts": 0.682,
      "odds": {
-      "h": 2.08,
+      "h": 2.04,
       "d": 3.7,
-      "a": 3.15,
+      "a": 3.25,
       "src": "10Bet"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.137,
+      "edge": 0.128,
       "modelP": 0.5869,
-      "odds": 2.08
+      "odds": 2.04
      },
      "scorersHome": [
       {
@@ -100,8 +100,48 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Fenerbahçe geht als klarer Favorit (59 %) in das Heimspiel gegen Lyon. Das letzte Duell (2025) endete 0:0 (Fenerbahçe – Lyon). Das Modell erwartet ein torreiches Spiel (xG 2,4:1,4; über 2,5 Tore: 72 %, beide Teams treffen zu 68 %). Gefährlichste Torschützen: bei Fenerbahçe Talisca (4 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,08) für 14 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "analysis": "Fenerbahçe geht als klarer Favorit (59 %) in das Heimspiel gegen Lyon. Das letzte Duell (2025) endete 0:0 (Fenerbahçe – Lyon). Das Modell erwartet ein torreiches Spiel (xG 2,4:1,4; über 2,5 Tore: 72 %, beide Teams treffen zu 68 %). Gefährlichste Torschützen: bei Fenerbahçe Talisca (4 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,04) für 13 Prozentpunkte wahrscheinlicher als der Markt. Personal: Fenerbahçe fehlen 6 Spieler (u.a. E. Demir); Lyon fehlen 3 Spieler (u.a. M. Bidstrup).",
+     "injuriesHome": [
+      {
+       "name": "E. Demir",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Diego Carlos",
+       "reason": "Inactive"
+      },
+      {
+       "name": "A. Diouf",
+       "reason": "Lacking Match Fitness"
+      },
+      {
+       "name": "O. Fayed",
+       "reason": "Inactive"
+      },
+      {
+       "name": "R. Lukaku",
+       "reason": "Inactive"
+      },
+      {
+       "name": "O. Mimovic",
+       "reason": "Inactive"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "M. Bidstrup",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "K. Merah",
+       "reason": "Ankle Injury"
+      },
+      {
+       "name": "P. Sulc",
+       "reason": "Knee Injury"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-18T21:00:00+02:00",
@@ -169,8 +209,32 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Dinamo Zagreb geht als klarer Favorit (62 %) in das Heimspiel gegen Viking. Die Form spricht für Dinamo Zagreb: 5 Siege aus den letzten 5 Spielen, Viking holte nur 3. Das Modell erwartet ein torreiches Spiel (xG 2,3:1,2; über 2,5 Tore: 66 %, beide Teams treffen zu 62 %). Gefährlichste Torschützen: bei Dinamo Zagreb M. Valinčić (1 Tore) und bei Viking D. Hafsteinsson (1 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "analysis": "Dinamo Zagreb geht als klarer Favorit (62 %) in das Heimspiel gegen Viking. Die Form spricht für Dinamo Zagreb: 5 Siege aus den letzten 5 Spielen, Viking holte nur 3. Das Modell erwartet ein torreiches Spiel (xG 2,3:1,2; über 2,5 Tore: 66 %, beide Teams treffen zu 62 %). Gefährlichste Torschützen: bei Dinamo Zagreb M. Valinčić (1 Tore) und bei Viking D. Hafsteinsson (1 Tore). Personal: Dinamo Zagreb fehlen 2 Spieler (u.a. I. Filipovic); Viking fehlen 3 Spieler (u.a. A. Baertelsen).",
+     "injuriesHome": [
+      {
+       "name": "I. Filipovic",
+       "reason": "Red Card"
+      },
+      {
+       "name": "K. Theophile-Catherine",
+       "reason": "Inactive"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "A. Baertelsen",
+       "reason": "Foot Injury"
+      },
+      {
+       "name": "V. Berisha",
+       "reason": "Thigh Injury"
+      },
+      {
+       "name": "M. Roseth",
+       "reason": "Knee Injury"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-18T21:00:00+02:00",
@@ -236,6 +300,336 @@
      "scorersPeriod": "Saison",
      "analysis": "Levski Sofia ist gegen AEK Athens FC leicht favorisiert (54 % zu 22 %). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,7:1,0; über 2,5 Tore: 50 %, beide Teams treffen zu 51 %). Gefährlichste Torschützen: bei Levski Sofia Reinaldo (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,92) für 22 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-08-19T21:00:00+02:00",
+     "home": "Celtic",
+     "away": "Lask Linz",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Play-offs",
+     "formHome": [
+      "U",
+      "U",
+      "S",
+      "S",
+      "S"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "S",
+      "S",
+      "S"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": null,
+     "posAway": null,
+     "nTeams": null,
+     "h2h": [],
+     "prediction": {
+      "pHome": 0.3696,
+      "pDraw": 0.2196,
+      "pAway": 0.4108,
+      "pOver25": 0.6947,
+      "pBtts": 0.6943,
+      "xgHome": 1.74,
+      "xgAway": 1.84,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6943,
+     "odds": {
+      "h": 1.57,
+      "d": 3.9,
+      "a": 5.6,
+      "src": "10Bet"
+     },
+     "value": null,
+     "scorersHome": [],
+     "scorersAway": [],
+     "scorersPeriod": "Vorsaison",
+     "analysis": "Zwischen Celtic und Lask Linz deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Celtic 37 %, Unentschieden 22 %, Sieg Lask Linz 41 %). Die Form spricht für Lask Linz: 5 Siege aus den letzten 5 Spielen, Celtic holte nur 3. Das Modell erwartet ein torreiches Spiel (xG 1,7:1,8; über 2,5 Tore: 69 %, beide Teams treffen zu 69 %). Personal: Celtic fehlen 1 Spieler (u.a. Jota); Lask Linz fehlen 2 Spieler (u.a. R. Harakate).",
+     "injuriesHome": [
+      {
+       "name": "Jota",
+       "reason": "Knee Injury"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "R. Harakate",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "A. Smakaj",
+       "reason": "Knee Injury"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-08-19T21:00:00+02:00",
+     "home": "NEC Nijmegen",
+     "away": "Bodo/Glimt",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Play-offs",
+     "formHome": [
+      "N",
+      "U",
+      "N",
+      "S",
+      "S"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "U",
+      "S",
+      "S"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": null,
+     "posAway": null,
+     "nTeams": null,
+     "h2h": [],
+     "prediction": {
+      "pHome": 0.3488,
+      "pDraw": 0.2221,
+      "pAway": 0.4291,
+      "pOver25": 0.6776,
+      "pBtts": 0.6797,
+      "xgHome": 1.65,
+      "xgAway": 1.84,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6797,
+     "odds": {
+      "h": 2.48,
+      "d": 3.85,
+      "a": 2.48,
+      "src": "10Bet"
+     },
+     "value": null,
+     "scorersHome": [],
+     "scorersAway": [
+      {
+       "name": "A. Helmersen",
+       "goals": 1
+      },
+      {
+       "name": "J. Hauge",
+       "goals": 1
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Bodo/Glimt ist bei NEC Nijmegen leicht favorisiert (43 % zu 35 %). Die Form spricht für Bodo/Glimt: 4 Siege aus den letzten 5 Spielen, NEC Nijmegen holte nur 2. Das Modell erwartet ein torreiches Spiel (xG 1,6:1,8; über 2,5 Tore: 68 %, beide Teams treffen zu 68 %). Gefährlichste Torschützen: bei Bodo/Glimt A. Helmersen (1 Tore). Personal: NEC Nijmegen fehlen 5 Spieler (u.a. Y. Moslih); Bodo/Glimt fehlen 4 Spieler (u.a. H. Evjen).",
+     "injuriesHome": [
+      {
+       "name": "Y. Moslih",
+       "reason": "Injury"
+      },
+      {
+       "name": "S. Ouaissa",
+       "reason": "Injury"
+      },
+      {
+       "name": "P. Sandler",
+       "reason": "Injury"
+      },
+      {
+       "name": "P. Schuurs",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "K. Ogawa",
+       "reason": "Injury"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "H. Evjen",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "A. Mikkelsen",
+       "reason": "Groin Injury"
+      },
+      {
+       "name": "I. Sjong",
+       "reason": "Injury"
+      },
+      {
+       "name": "J. Gundersen",
+       "reason": "Injury"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-08-19T21:00:00+02:00",
+     "home": "Hapoel Beer Sheva",
+     "away": "Sabah FA",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Play-offs",
+     "formHome": [
+      "N",
+      "S",
+      "S",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "N",
+      "S",
+      "S"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": null,
+     "posAway": null,
+     "nTeams": null,
+     "h2h": [],
+     "prediction": {
+      "pHome": 0.3208,
+      "pDraw": 0.2383,
+      "pAway": 0.4409,
+      "pOver25": 0.5878,
+      "pBtts": 0.6079,
+      "xgHome": 1.39,
+      "xgAway": 1.66,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6079,
+     "odds": {
+      "h": 2.32,
+      "d": 3.4,
+      "a": 2.92,
+      "src": "10Bet"
+     },
+     "value": {
+      "outcome": "2",
+      "edge": 0.1201,
+      "modelP": 0.4409,
+      "odds": 2.92
+     },
+     "scorersHome": [],
+     "scorersAway": [
+      {
+       "name": "J. Mickels",
+       "goals": 2
+      },
+      {
+       "name": "V. Simić",
+       "goals": 2
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Sabah FA ist bei Hapoel Beer Sheva leicht favorisiert (44 % zu 32 %). Das Modell erwartet ein torreiches Spiel (xG 1,4:1,7; über 2,5 Tore: 59 %, beide Teams treffen zu 61 %). Gefährlichste Torschützen: bei Sabah FA J. Mickels (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,92) für 12 Prozentpunkte wahrscheinlicher als der Markt. Personal: Hapoel Beer Sheva fehlen 1 Spieler (u.a. E. Almog).",
+     "injuriesHome": [
+      {
+       "name": "E. Almog",
+       "reason": "Inactive"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-08-19T21:00:00+02:00",
+     "home": "Slovan Bratislava",
+     "away": "Celje",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Play-offs",
+     "formHome": [
+      "U",
+      "S",
+      "S",
+      "S",
+      "S"
+     ],
+     "formAway": [
+      "U",
+      "N",
+      "S",
+      "S",
+      "S"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": null,
+     "posAway": null,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "30.07.2024",
+       "home": "Slovan Bratislava",
+       "away": "Celje",
+       "score": "5:0"
+      },
+      {
+       "date": "24.07.2024",
+       "home": "Celje",
+       "away": "Slovan Bratislava",
+       "score": "1:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5955,
+      "pDraw": 0.2126,
+      "pAway": 0.1919,
+      "pOver25": 0.5877,
+      "pBtts": 0.5611,
+      "xgHome": 2.0,
+      "xgAway": 1.05,
+      "tipScore": "2:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5611,
+     "odds": {
+      "h": 1.74,
+      "d": 3.75,
+      "a": 4.4,
+      "src": "10Bet"
+     },
+     "value": null,
+     "scorersHome": [],
+     "scorersAway": [],
+     "scorersPeriod": "Vorsaison",
+     "analysis": "Slovan Bratislava geht als klarer Favorit (60 %) in das Heimspiel gegen Celje. Das letzte Duell (2024) endete 5:0 (Slovan Bratislava – Celje). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,1; über 2,5 Tore: 59 %, beide Teams treffen zu 56 %). Personal: Slovan Bratislava fehlen 1 Spieler (u.a. N. Marcelli); Celje fehlen 1 Spieler (u.a. L. Bejger).",
+     "injuriesHome": [
+      {
+       "name": "N. Marcelli",
+       "reason": "Injury"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "L. Bejger",
+       "reason": "Injury"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
    "seasonHasStarted": false,
@@ -294,112 +688,15 @@
    "name": "3. Liga",
    "flag": "🇩🇪",
    "espn": "ger.3",
-   "matches": [
-    {
-     "kickoff": "2026-08-16T19:30:00+02:00",
-     "home": "VfB Stuttgart II",
-     "away": "Viktoria Köln",
-     "homeIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/VfB_Stuttgart_1893_Logo.svg/960px-VfB_Stuttgart_1893_Logo.svg.png",
-     "awayIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/FC_Viktoria_K%C3%B6ln_1904_Logo.svg/960px-FC_Viktoria_K%C3%B6ln_1904_Logo.svg.png",
-     "matchday": 2,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "S",
-      "N",
-      "N",
-      "S"
-     ],
-     "formAway": [
-      "N",
-      "S",
-      "N",
-      "U",
-      "N"
-     ],
-     "formHomeH": [
-      "S",
-      "U",
-      "U",
-      "S",
-      "N"
-     ],
-     "formAwayA": [
-      "S",
-      "S",
-      "N",
-      "S",
-      "U"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 10,
-     "posAway": 17,
-     "nTeams": 20,
-     "h2h": [
-      {
-       "date": "28.02.2026",
-       "home": "Viktoria Köln",
-       "away": "VfB Stuttgart II",
-       "score": "2:0"
-      },
-      {
-       "date": "20.09.2025",
-       "home": "VfB Stuttgart II",
-       "away": "Viktoria Köln",
-       "score": "2:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.4604,
-      "pDraw": 0.2305,
-      "pAway": 0.3091,
-      "pOver25": 0.6198,
-      "pBtts": 0.6303,
-      "xgHome": 1.78,
-      "xgAway": 1.42,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.6303,
-     "odds": {
-      "h": 2.23,
-      "d": 3.82,
-      "a": 2.9,
-      "src": "Pinnacle"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Alexander Groiß",
-       "goals": 1
-      },
-      {
-       "name": "Tim van der Leij",
-       "goals": 1
-      },
-      {
-       "name": "J. Malanga",
-       "goals": 1
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "N. Castelle",
-       "goals": 1
-      },
-      {
-       "name": "Noah Maboulou",
-       "goals": 1
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "VfB Stuttgart II ist gegen Viktoria Köln leicht favorisiert (46 % zu 31 %). In der Tabelle stehen sich Platz 9 und Platz 18 gegenüber. Heim-/Auswärtsbilanz: VfB Stuttgart II gewann 2 der letzten 5 Heimspiele, Viktoria Köln 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:0 (Viktoria Köln – VfB Stuttgart II). Das Modell erwartet ein torreiches Spiel (xG 1,8:1,4; über 2,5 Tore: 62 %, beide Teams treffen zu 63 %). Gefährlichste Torschützen: bei VfB Stuttgart II Alexander Groiß (1 Tore) und bei Viktoria Köln N. Castelle (1 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": true,
-   "isCup": false
+   "isCup": false,
+   "nextMatch": {
+    "kickoff": "2026-08-28T19:00:00+02:00",
+    "home": "Fortuna Düsseldorf",
+    "away": "VfB Stuttgart II",
+    "matchday": 3
+   }
   },
   {
    "id": "pl",
@@ -457,7 +754,7 @@
      ],
      "load14Home": 0,
      "load14Away": 0,
-     "posHome": 17,
+     "posHome": 16,
      "posAway": 14,
      "nTeams": 18,
      "h2h": [
@@ -505,47 +802,183 @@
      },
      "pBtts": 0.4687,
      "odds": {
-      "h": 2.4,
+      "h": 2.34,
       "d": 3.15,
-      "a": 3.65,
+      "a": 3.8,
       "src": "Betfair"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.0956,
+      "edge": 0.0849,
       "modelP": 0.5089,
-      "odds": 2.4
+      "odds": 2.34
      },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Deportivo La Coruna ist gegen Elche leicht favorisiert (51 % zu 23 %). In der Tabelle stehen sich Platz 17 und Platz 14 gegenüber. Das letzte Duell (2025) endete 0:4 (Deportivo La Coruna – Elche). Das Modell erwartet eher wenige Tore (xG 1,5:0,9; über 2,5 Tore: 44 %, beide Teams treffen zu 47 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,40) für 10 Prozentpunkte wahrscheinlicher als der Markt. Personal: Deportivo La Coruna fehlen 3 Spieler (u.a. A. Altimira); Elche fehlen 3 Spieler (u.a. A. Osorio).",
+     "analysis": "Deportivo La Coruna ist gegen Elche leicht favorisiert (51 % zu 23 %). In der Tabelle stehen sich Platz 16 und Platz 14 gegenüber. Das letzte Duell (2025) endete 0:4 (Deportivo La Coruna – Elche). Das Modell erwartet eher wenige Tore (xG 1,5:0,9; über 2,5 Tore: 44 %, beide Teams treffen zu 47 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,34) für 8 Prozentpunkte wahrscheinlicher als der Markt. Personal: Deportivo La Coruna fehlen 4 Spieler (u.a. N. Carrillo); Elche fehlen 4 Spieler (u.a. G. Diangana).",
      "injuriesHome": [
-      {
-       "name": "A. Altimira",
-       "reason": "Knee Injury"
-      },
       {
        "name": "N. Carrillo",
        "reason": "Injury"
       },
       {
-       "name": "J. Noriega",
+       "name": "Y. Hernandez",
+       "reason": "Groin Injury"
+      },
+      {
+       "name": "A. Altimira",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "J. Asp",
        "reason": "Injury"
       }
      ],
      "injuriesAway": [
       {
-       "name": "A. Osorio",
-       "reason": "Muscle Injury"
-      },
-      {
        "name": "G. Diangana",
        "reason": "Knee Injury"
       },
       {
+       "name": "A. Osorio",
+       "reason": "Muscle Injury"
+      },
+      {
        "name": "Y. Santiago",
        "reason": "Knee Injury"
+      },
+      {
+       "name": "A. Boayar",
+       "reason": "Muscle Injury"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-08-19T21:00:00+02:00",
+     "home": "Atletico Madrid",
+     "away": "Malaga",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Regular Season - 1",
+     "formHome": [
+      "S",
+      "N",
+      "S",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "U",
+      "U",
+      "S",
+      "N",
+      "U"
+     ],
+     "formHomeH": [
+      "S",
+      "N",
+      "S",
+      "N",
+      "S"
+     ],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 8,
+     "posAway": 17,
+     "nTeams": 18,
+     "h2h": [
+      {
+       "date": "10.02.2018",
+       "home": "Malaga",
+       "away": "Atletico Madrid",
+       "score": "0:1"
+      },
+      {
+       "date": "16.09.2017",
+       "home": "Atletico Madrid",
+       "away": "Malaga",
+       "score": "1:0"
+      },
+      {
+       "date": "01.04.2017",
+       "home": "Malaga",
+       "away": "Atletico Madrid",
+       "score": "0:2"
+      },
+      {
+       "date": "29.10.2016",
+       "home": "Atletico Madrid",
+       "away": "Malaga",
+       "score": "4:2"
+      },
+      {
+       "date": "23.04.2016",
+       "home": "Atletico Madrid",
+       "away": "Malaga",
+       "score": "1:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3891,
+      "pDraw": 0.24,
+      "pAway": 0.3709,
+      "pOver25": 0.5913,
+      "pBtts": 0.6147,
+      "xgHome": 1.55,
+      "xgAway": 1.51,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6147,
+     "odds": {
+      "h": 1.33,
+      "d": 5.8,
+      "a": 11.5,
+      "src": "Betfair"
+     },
+     "value": null,
+     "scorersHome": [],
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "Zwischen Atletico Madrid und Malaga deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Atletico Madrid 39 %, Unentschieden 24 %, Sieg Malaga 37 %). In der Tabelle stehen sich Platz 8 und Platz 17 gegenüber. Die Form spricht für Atletico Madrid: 3 Siege aus den letzten 5 Spielen, Malaga holte nur 1. Das letzte Duell (2018) endete 0:1 (Malaga – Atletico Madrid). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,5; über 2,5 Tore: 59 %, beide Teams treffen zu 61 %). Personal: Atletico Madrid fehlen 2 Spieler (u.a. A. Sorloth); Malaga fehlen 6 Spieler (u.a. F. Calero).",
+     "injuriesHome": [
+      {
+       "name": "A. Sorloth",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "C. Romero",
+       "reason": "Injury"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "F. Calero",
+       "reason": "Ribs Injury"
+      },
+      {
+       "name": "C. Dotor",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "D. Murillo",
+       "reason": "Injury"
+      },
+      {
+       "name": "M. Diarra",
+       "reason": "Calf Injury"
+      },
+      {
+       "name": "Juanpe",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "A. Nino",
+       "reason": "Injury"
       }
      ],
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -560,86 +993,6 @@
    "flag": "🇪🇸",
    "espn": "esp.2",
    "matches": [
-    {
-     "kickoff": "2026-08-16T21:30:00+02:00",
-     "home": "Las Palmas",
-     "away": "Albacete",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 1",
-     "formHome": [
-      "S",
-      "N",
-      "S",
-      "U",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "S",
-      "S",
-      "S",
-      "N"
-     ],
-     "formHomeH": [
-      "S",
-      "S",
-      "S",
-      "S",
-      "U"
-     ],
-     "formAwayA": [
-      "U",
-      "N",
-      "S",
-      "S",
-      "N"
-     ],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 11,
-     "posAway": 12,
-     "nTeams": 10,
-     "h2h": [
-      {
-       "date": "16.03.2026",
-       "home": "Albacete",
-       "away": "Las Palmas",
-       "score": "2:1"
-      },
-      {
-       "date": "21.11.2025",
-       "home": "Las Palmas",
-       "away": "Albacete",
-       "score": "2:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.4958,
-      "pDraw": 0.2632,
-      "pAway": 0.241,
-      "pOver25": 0.4354,
-      "pBtts": 0.471,
-      "xgHome": 1.48,
-      "xgAway": 0.94,
-      "tipScore": "1:0",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.471,
-     "odds": {
-      "h": 1.6,
-      "d": 3.55,
-      "a": 4.5,
-      "src": "Winamax (FR)"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Las Palmas ist gegen Albacete leicht favorisiert (50 % zu 24 %). Heim-/Auswärtsbilanz: Las Palmas gewann 4 der letzten 5 Heimspiele, Albacete 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:1 (Albacete – Las Palmas). Das Modell erwartet eher wenige Tore (xG 1,5:0,9; über 2,5 Tore: 44 %, beide Teams treffen zu 47 %).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-08-17T19:00:00+02:00",
      "home": "Sporting Gijon",
@@ -672,8 +1025,8 @@
      "formAwayA": [],
      "load14Home": 0,
      "load14Away": 0,
-     "posHome": 9,
-     "posAway": 17,
+     "posHome": 13,
+     "posAway": 15,
      "nTeams": 10,
      "h2h": [
       {
@@ -716,7 +1069,7 @@
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Sporting Gijon ist gegen Sabadell leicht favorisiert (44 % zu 32 %). In der Tabelle stehen sich Platz 9 und Platz 17 gegenüber. Das letzte Duell (2021) endete 1:1 (Sabadell – Sporting Gijon). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,4; über 2,5 Tore: 58 %, beide Teams treffen zu 60 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 4,10) für 10 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Sporting Gijon ist gegen Sabadell leicht favorisiert (44 % zu 32 %). In der Tabelle stehen sich Platz 13 und Platz 15 gegenüber. Das letzte Duell (2021) endete 1:1 (Sabadell – Sporting Gijon). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,4; über 2,5 Tore: 58 %, beide Teams treffen zu 60 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 4,10) für 10 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -752,7 +1105,7 @@
      "load14Home": 0,
      "load14Away": 0,
      "posHome": 14,
-     "posAway": 18,
+     "posAway": 16,
      "nTeams": 10,
      "h2h": [
       {
@@ -787,7 +1140,7 @@
      },
      "pBtts": 0.5417,
      "odds": {
-      "h": 1.26,
+      "h": 1.28,
       "d": 5.1,
       "a": 7.25,
       "src": "Winamax (FR)"
@@ -796,7 +1149,7 @@
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Almeria ist gegen Eldense leicht favorisiert (53 % zu 23 %). In der Tabelle stehen sich Platz 14 und Platz 18 gegenüber. Das letzte Duell (2025) endete 2:1 (Eldense – Almeria). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,7:1,1; über 2,5 Tore: 53 %, beide Teams treffen zu 54 %).",
+     "analysis": "Almeria ist gegen Eldense leicht favorisiert (53 % zu 23 %). In der Tabelle stehen sich Platz 14 und Platz 16 gegenüber. Das letzte Duell (2025) endete 2:1 (Eldense – Almeria). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,7:1,1; über 2,5 Tore: 53 %, beide Teams treffen zu 54 %).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
@@ -1001,21 +1354,21 @@
      },
      "pBtts": 0.6742,
      "odds": {
-      "h": 2.8,
-      "d": 3.8,
-      "a": 2.2,
+      "h": 2.88,
+      "d": 3.85,
+      "a": 2.15,
       "src": "10Bet"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.118,
+      "edge": 0.1264,
       "modelP": 0.4503,
-      "odds": 2.8
+      "odds": 2.88
      },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Jong Ajax ist gegen Emmen leicht favorisiert (45 % zu 33 %). In der Tabelle stehen sich Platz 18 und Platz 6 gegenüber. Das letzte Duell (2026) endete 0:0 (Emmen – Jong Ajax). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,6; über 2,5 Tore: 67 %, beide Teams treffen zu 67 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,80) für 12 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Jong Ajax ist gegen Emmen leicht favorisiert (45 % zu 33 %). In der Tabelle stehen sich Platz 18 und Platz 6 gegenüber. Das letzte Duell (2026) endete 0:0 (Emmen – Jong Ajax). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,6; über 2,5 Tore: 67 %, beide Teams treffen zu 67 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,88) für 13 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -1086,9 +1439,9 @@
      },
      "pBtts": 0.5768,
      "odds": {
-      "h": 3.25,
+      "h": 3.2,
       "d": 3.75,
-      "a": 2.0,
+      "a": 2.05,
       "src": "10Bet"
      },
      "value": null,
@@ -1219,63 +1572,6 @@
    "espn": "por.1",
    "matches": [
     {
-     "kickoff": "2026-08-16T21:30:00+02:00",
-     "home": "Famalicao",
-     "away": "Maritimo",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 2",
-     "formHome": [
-      "S",
-      "U",
-      "U",
-      "S",
-      "U"
-     ],
-     "formAway": [
-      "S"
-     ],
-     "formHomeH": [
-      "S",
-      "S",
-      "U",
-      "U",
-      "S"
-     ],
-     "formAwayA": [],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 13,
-     "posAway": 6,
-     "nTeams": 18,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.5171,
-      "pDraw": 0.2747,
-      "pAway": 0.2082,
-      "pOver25": 0.371,
-      "pBtts": 0.4069,
-      "xgHome": 1.4,
-      "xgAway": 0.78,
-      "tipScore": "1:0",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.4069,
-     "odds": {
-      "h": 1.74,
-      "d": 3.5,
-      "a": 4.8,
-      "src": "10Bet"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Famalicao ist gegen Maritimo leicht favorisiert (52 % zu 21 %). In der Tabelle stehen sich Platz 6 und Platz 2 gegenüber. Das Modell erwartet eher wenige Tore (xG 1,4:0,8; über 2,5 Tore: 37 %, beide Teams treffen zu 41 %).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
      "kickoff": "2026-08-17T21:15:00+02:00",
      "home": "Casa Pia",
      "away": "Benfica",
@@ -1314,7 +1610,7 @@
      "load14Home": 1,
      "load14Away": 1,
      "posHome": 16,
-     "posAway": 11,
+     "posAway": 9,
      "nTeams": 18,
      "h2h": [
       {
@@ -1343,9 +1639,9 @@
      },
      "pBtts": 0.4052,
      "odds": {
-      "h": 14.5,
+      "h": 14.0,
       "d": 5.6,
-      "a": 1.21,
+      "a": 1.22,
       "src": "10Bet"
      },
      "value": null,
@@ -1504,600 +1800,7 @@
    "name": "MLS (USA)",
    "flag": "🇺🇸",
    "espn": "usa.1",
-   "matches": [
-    {
-     "kickoff": "2026-08-17T00:00:00+02:00",
-     "home": "New York City FC",
-     "away": "Philadelphia Union",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 19",
-     "formHome": [
-      "S",
-      "U",
-      "S",
-      "N",
-      "N"
-     ],
-     "formAway": [
-      "S",
-      "S",
-      "N",
-      "S",
-      "N"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 7,
-     "posAway": 14,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "01.03.2026",
-       "home": "Philadelphia Union",
-       "away": "New York City FC",
-       "score": "1:2"
-      },
-      {
-       "date": "24.11.2025",
-       "home": "Philadelphia Union",
-       "away": "New York City FC",
-       "score": "0:1"
-      },
-      {
-       "date": "04.10.2025",
-       "home": "Philadelphia Union",
-       "away": "New York City FC",
-       "score": "1:0"
-      },
-      {
-       "date": "12.04.2025",
-       "home": "New York City FC",
-       "away": "Philadelphia Union",
-       "score": "1:0"
-      },
-      {
-       "date": "18.09.2024",
-       "home": "New York City FC",
-       "away": "Philadelphia Union",
-       "score": "1:5"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.5165,
-      "pDraw": 0.2323,
-      "pAway": 0.2512,
-      "pOver25": 0.5698,
-      "pBtts": 0.5769,
-      "xgHome": 1.79,
-      "xgAway": 1.18,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.5769,
-     "odds": {
-      "h": 2.5,
-      "d": 3.6,
-      "a": 2.55,
-      "src": "10Bet"
-     },
-     "value": {
-      "outcome": "1",
-      "edge": 0.1426,
-      "modelP": 0.5165,
-      "odds": 2.5
-     },
-     "scorersHome": [
-      {
-       "name": "Nicolás Fernández",
-       "goals": 13
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "M. Iloski",
-       "goals": 10
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "New York City FC ist gegen Philadelphia Union leicht favorisiert (52 % zu 25 %). In der Tabelle stehen sich Platz 7 und Platz 14 gegenüber. Das letzte Duell (2026) endete 1:2 (Philadelphia Union – New York City FC). Das Modell erwartet ein torreiches Spiel (xG 1,8:1,2; über 2,5 Tore: 57 %, beide Teams treffen zu 58 %). Gefährlichste Torschützen: bei New York City FC Nicolás Fernández (13 Tore) und bei Philadelphia Union M. Iloski (10 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,50) für 14 Prozentpunkte wahrscheinlicher als der Markt. Personal: New York City FC fehlen 6 Spieler (u.a. M. Jones); Philadelphia Union fehlen 6 Spieler (u.a. B. Bender).",
-     "injuriesHome": [
-      {
-       "name": "M. Jones",
-       "reason": "Broken Leg"
-      },
-      {
-       "name": "A. Martinez",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "A. Perea",
-       "reason": "Leg Injury"
-      },
-      {
-       "name": "D. Baiera",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "H. Wolf",
-       "reason": "Leg Injury"
-      },
-      {
-       "name": "T. Gray",
-       "reason": "Red Card"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "B. Bender",
-       "reason": "Groin Injury"
-      },
-      {
-       "name": "E. Davis III",
-       "reason": "Thigh Injury"
-      },
-      {
-       "name": "Q. Sullivan",
-       "reason": "Leg Injury"
-      },
-      {
-       "name": "E. Alladoh",
-       "reason": "Red Card"
-      },
-      {
-       "name": "O. Makhanya",
-       "reason": "Red Card"
-      },
-      {
-       "name": "A. Anello",
-       "reason": "Muscle Injury"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-08-17T00:00:00+02:00",
-     "home": "Chicago Fire",
-     "away": "Portland Timbers",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 19",
-     "formHome": [
-      "N",
-      "S",
-      "S",
-      "S",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "S",
-      "S",
-      "N",
-      "S"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 4,
-     "posAway": 10,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "14.02.2026",
-       "home": "Chicago Fire",
-       "away": "Portland Timbers",
-       "score": "3:4"
-      },
-      {
-       "date": "08.02.2025",
-       "home": "Portland Timbers",
-       "away": "Chicago Fire",
-       "score": "0:0"
-      },
-      {
-       "date": "17.02.2024",
-       "home": "Portland Timbers",
-       "away": "Chicago Fire",
-       "score": "1:2"
-      },
-      {
-       "date": "22.06.2023",
-       "home": "Portland Timbers",
-       "away": "Chicago Fire",
-       "score": "1:2"
-      },
-      {
-       "date": "15.08.2019",
-       "home": "Portland Timbers",
-       "away": "Chicago Fire",
-       "score": "3:2"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.4444,
-      "pDraw": 0.2115,
-      "pAway": 0.344,
-      "pOver25": 0.7301,
-      "pBtts": 0.72,
-      "xgHome": 2.02,
-      "xgAway": 1.77,
-      "tipScore": "2:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.72,
-     "odds": {
-      "h": 1.57,
-      "d": 4.65,
-      "a": 4.6,
-      "src": "10Bet"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Hugo Cuypers",
-       "goals": 13
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "K. Kelsy",
-       "goals": 9
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Chicago Fire ist gegen Portland Timbers leicht favorisiert (45 % zu 34 %). In der Tabelle stehen sich Platz 4 und Platz 10 gegenüber. Das letzte Duell (2026) endete 3:4 (Chicago Fire – Portland Timbers). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,8; über 2,5 Tore: 73 %, beide Teams treffen zu 72 %). Gefährlichste Torschützen: bei Chicago Fire Hugo Cuypers (13 Tore) und bei Portland Timbers K. Kelsy (9 Tore). Personal: Chicago Fire fehlen 6 Spieler (u.a. A. Franco); Portland Timbers fehlen 6 Spieler (u.a. D. Da Costa).",
-     "injuriesHome": [
-      {
-       "name": "A. Franco",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "A. Gutman",
-       "reason": "Inactive"
-      },
-      {
-       "name": "V. Radojevic",
-       "reason": "Lower-Body Injury"
-      },
-      {
-       "name": "J. Bamba",
-       "reason": "Lower-Body Injury"
-      },
-      {
-       "name": "S. Rogers",
-       "reason": "Lower-Body Injury"
-      },
-      {
-       "name": "J. Shokalook",
-       "reason": "Head Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "D. Da Costa",
-       "reason": "Shoulder Injury"
-      },
-      {
-       "name": "O. Fernandez",
-       "reason": "Foot Injury"
-      },
-      {
-       "name": "Z. McGraw",
-       "reason": "Back Injury"
-      },
-      {
-       "name": "J. Mosquera",
-       "reason": "Red Card"
-      },
-      {
-       "name": "J. Fory",
-       "reason": "Red Card"
-      },
-      {
-       "name": "A. Bonetig",
-       "reason": "Lower-Body Injury"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-08-17T02:30:00+02:00",
-     "home": "Austin",
-     "away": "FC Dallas",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 19",
-     "formHome": [
-      "N",
-      "N",
-      "S",
-      "S",
-      "U"
-     ],
-     "formAway": [
-      "N",
-      "U",
-      "S",
-      "S",
-      "N"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 14,
-     "posAway": 7,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "14.09.2025",
-       "home": "FC Dallas",
-       "away": "Austin",
-       "score": "2:0"
-      },
-      {
-       "date": "17.08.2025",
-       "home": "Austin",
-       "away": "FC Dallas",
-       "score": "1:1"
-      },
-      {
-       "date": "18.07.2024",
-       "home": "FC Dallas",
-       "away": "Austin",
-       "score": "3:1"
-      },
-      {
-       "date": "12.05.2024",
-       "home": "FC Dallas",
-       "away": "Austin",
-       "score": "2:1"
-      },
-      {
-       "date": "31.03.2024",
-       "home": "Austin",
-       "away": "FC Dallas",
-       "score": "2:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.3831,
-      "pDraw": 0.2522,
-      "pAway": 0.3646,
-      "pOver25": 0.5329,
-      "pBtts": 0.5693,
-      "xgHome": 1.43,
-      "xgAway": 1.38,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.5693,
-     "odds": {
-      "h": 2.8,
-      "d": 3.65,
-      "a": 2.28,
-      "src": "10Bet"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Petar Musa",
-       "goals": 13
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen Austin und FC Dallas deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Austin 39 %, Unentschieden 25 %, Sieg FC Dallas 36 %). In der Tabelle stehen sich Platz 14 und Platz 7 gegenüber. Das letzte Duell (2025) endete 2:0 (FC Dallas – Austin). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,4:1,4; über 2,5 Tore: 53 %, beide Teams treffen zu 57 %). Gefährlichste Torschützen: bei FC Dallas Petar Musa (13 Tore). Personal: Austin fehlen 6 Spieler (u.a. M. Desler); FC Dallas fehlen 6 Spieler (u.a. Geovane Jesus).",
-     "injuriesHome": [
-      {
-       "name": "M. Desler",
-       "reason": "Groin Injury"
-      },
-      {
-       "name": "B. Vazquez",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "O. Wolff",
-       "reason": "Groin Injury"
-      },
-      {
-       "name": "R. Taylor",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "Guilherme Biro",
-       "reason": "Red Card"
-      },
-      {
-       "name": "D. Pereira",
-       "reason": "Hamstring Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "Geovane Jesus",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "E. Newman",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "J. Sirois",
-       "reason": "Head Injury"
-      },
-      {
-       "name": "A. A. Julio Santos",
-       "reason": "Leg Injury"
-      },
-      {
-       "name": "B. Kamungo",
-       "reason": "Injury"
-      },
-      {
-       "name": "Ramiro",
-       "reason": "Injury"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-08-17T04:30:00+02:00",
-     "home": "Seattle Sounders",
-     "away": "Vancouver Whitecaps",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 19",
-     "formHome": [
-      "N",
-      "N",
-      "N",
-      "S",
-      "N"
-     ],
-     "formAway": [
-      "U",
-      "U",
-      "N",
-      "N",
-      "U"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 11,
-     "posAway": 2,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "19.03.2026",
-       "home": "Seattle Sounders",
-       "away": "Vancouver Whitecaps",
-       "score": "2:1"
-      },
-      {
-       "date": "13.03.2026",
-       "home": "Vancouver Whitecaps",
-       "away": "Seattle Sounders",
-       "score": "0:3"
-      },
-      {
-       "date": "28.09.2025",
-       "home": "Seattle Sounders",
-       "away": "Vancouver Whitecaps",
-       "score": "2:2"
-      },
-      {
-       "date": "09.06.2025",
-       "home": "Vancouver Whitecaps",
-       "away": "Seattle Sounders",
-       "score": "3:0"
-      },
-      {
-       "date": "03.10.2024",
-       "home": "Vancouver Whitecaps",
-       "away": "Seattle Sounders",
-       "score": "0:3"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.3478,
-      "pDraw": 0.2442,
-      "pAway": 0.408,
-      "pOver25": 0.568,
-      "pBtts": 0.5957,
-      "xgHome": 1.41,
-      "xgAway": 1.55,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.5957,
-     "odds": {
-      "h": 3.55,
-      "d": 3.85,
-      "a": 1.9,
-      "src": "10Bet"
-     },
-     "value": {
-      "outcome": "1",
-      "edge": 0.084,
-      "modelP": 0.3478,
-      "odds": 3.55
-     },
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "B. White",
-       "goals": 10
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen Seattle Sounders und Vancouver Whitecaps deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Seattle Sounders 35 %, Unentschieden 24 %, Sieg Vancouver Whitecaps 41 %). In der Tabelle stehen sich Platz 11 und Platz 2 gegenüber. Das letzte Duell (2026) endete 2:1 (Seattle Sounders – Vancouver Whitecaps). Das Modell erwartet ein torreiches Spiel (xG 1,4:1,6; über 2,5 Tore: 57 %, beide Teams treffen zu 60 %). Gefährlichste Torschützen: bei Vancouver Whitecaps B. White (10 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,55) für 8 Prozentpunkte wahrscheinlicher als der Markt. Personal: Seattle Sounders fehlen 6 Spieler (u.a. S. Hawkins); Vancouver Whitecaps fehlen 6 Spieler (u.a. S. Adekugbe).",
-     "injuriesHome": [
-      {
-       "name": "S. Hawkins",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Kim Kee-Hee",
-       "reason": "Calf Injury"
-      },
-      {
-       "name": "R. Sailor",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "P. de La Vega",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "J. Morris",
-       "reason": "Injury"
-      },
-      {
-       "name": "G. Minoungou",
-       "reason": "Foot Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "S. Adekugbe",
-       "reason": "Achilles Tendon Injury"
-      },
-      {
-       "name": "R. Gauld",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "B. Halbouni",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "R. Veselinovic",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "E. Sabbi",
-       "reason": "Suspended"
-      },
-      {
-       "name": "S. Schonlau",
-       "reason": "Calf Injury"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": false,
    "isCup": false
   },
@@ -2107,789 +1810,6 @@
    "flag": "🇧🇷",
    "espn": "bra.1",
    "matches": [
-    {
-     "kickoff": "2026-08-16T21:00:00+02:00",
-     "home": "Vasco DA Gama",
-     "away": "Santos",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 23",
-     "formHome": [
-      "S",
-      "U",
-      "S",
-      "U",
-      "U"
-     ],
-     "formAway": [
-      "S",
-      "U",
-      "S",
-      "N",
-      "S"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 18,
-     "posAway": 17,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "26.02.2026",
-       "home": "Santos",
-       "away": "Vasco DA Gama",
-       "score": "2:1"
-      },
-      {
-       "date": "17.08.2025",
-       "home": "Santos",
-       "away": "Vasco DA Gama",
-       "score": "0:6"
-      },
-      {
-       "date": "30.03.2025",
-       "home": "Vasco DA Gama",
-       "away": "Santos",
-       "score": "2:1"
-      },
-      {
-       "date": "01.10.2023",
-       "home": "Santos",
-       "away": "Vasco DA Gama",
-       "score": "4:1"
-      },
-      {
-       "date": "14.05.2023",
-       "home": "Vasco DA Gama",
-       "away": "Santos",
-       "score": "0:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.3341,
-      "pDraw": 0.2773,
-      "pAway": 0.3885,
-      "pOver25": 0.4256,
-      "pBtts": 0.4836,
-      "xgHome": 1.14,
-      "xgAway": 1.25,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.4836,
-     "odds": {
-      "h": 1.9,
-      "d": 3.4,
-      "a": 4.0,
-      "src": "10Bet"
-     },
-     "value": {
-      "outcome": "2",
-      "edge": 0.1549,
-      "modelP": 0.3885,
-      "odds": 4.0
-     },
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Gabriel Barbosa",
-       "goals": 7
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen Vasco DA Gama und Santos deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Vasco DA Gama 33 %, Unentschieden 28 %, Sieg Santos 39 %). In der Tabelle stehen sich Platz 18 und Platz 17 gegenüber. Das letzte Duell (2026) endete 2:1 (Santos – Vasco DA Gama). Das Modell erwartet eher wenige Tore (xG 1,1:1,2; über 2,5 Tore: 43 %, beide Teams treffen zu 48 %). Gefährlichste Torschützen: bei Santos Gabriel Barbosa (7 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 4,00) für 15 Prozentpunkte wahrscheinlicher als der Markt. Personal: Vasco DA Gama fehlen 6 Spieler (u.a. Brenner); Santos fehlen 6 Spieler (u.a. A. Frias).",
-     "injuriesHome": [
-      {
-       "name": "Brenner",
-       "reason": "Inactive"
-      },
-      {
-       "name": "M. Hinestroza",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Jair",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "Paulo Henrique",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Cuiabano",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Hugo Moura",
-       "reason": "Inactive"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "A. Frias",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Mayke",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Neymar",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "Thaciano",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Tiquinho Soares",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Willian Arao",
-       "reason": "Inactive"
-      }
-     ],
-     "lineups": {
-      "home": {
-       "formation": "4-2-3-1",
-       "xi": [
-        "Léo Jardim",
-        "Paulo Henrique",
-        "Carlos Cuesta",
-        "Robert Renan",
-        "Lucas Piton",
-        "Thiago Mendes",
-        "Jair",
-        "Andrés Gómez",
-        "Tchê Tchê",
-        "Claudio Spinelli",
-        "Facundo Colidio"
-       ]
-      },
-      "away": {
-       "formation": "4-2-3-1",
-       "xi": [
-        "Gabriel Brazão",
-        "Igor Vinícius",
-        "Willian Arão",
-        "Luan Peres",
-        "Gonzalo Escobar",
-        "Christian Oliva",
-        "João Schmidt",
-        "Gustavo Caballero",
-        "Neymar",
-        "Álvaro Barreal",
-        "Gabriel Barbosa"
-       ]
-      }
-     },
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-08-16T21:00:00+02:00",
-     "home": "Atletico-MG",
-     "away": "Gremio",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 23",
-     "formHome": [
-      "S",
-      "U",
-      "S",
-      "U",
-      "S"
-     ],
-     "formAway": [
-      "U",
-      "N",
-      "U",
-      "S",
-      "S"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 11,
-     "posAway": 14,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "26.02.2026",
-       "home": "Gremio",
-       "away": "Atletico-MG",
-       "score": "2:1"
-      },
-      {
-       "date": "17.08.2025",
-       "home": "Atletico-MG",
-       "away": "Gremio",
-       "score": "1:3"
-      },
-      {
-       "date": "29.03.2025",
-       "home": "Gremio",
-       "away": "Atletico-MG",
-       "score": "2:1"
-      },
-      {
-       "date": "09.10.2024",
-       "home": "Atletico-MG",
-       "away": "Gremio",
-       "score": "2:1"
-      },
-      {
-       "date": "01.09.2024",
-       "home": "Gremio",
-       "away": "Atletico-MG",
-       "score": "2:3"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.5372,
-      "pDraw": 0.2569,
-      "pAway": 0.2059,
-      "pOver25": 0.4265,
-      "pBtts": 0.4482,
-      "xgHome": 1.54,
-      "xgAway": 0.84,
-      "tipScore": "1:0",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.4482,
-     "odds": {
-      "h": 1.81,
-      "d": 3.5,
-      "a": 4.3,
-      "src": "10Bet"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Carlos Vinícius",
-       "goals": 10
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Atletico-MG ist gegen Gremio leicht favorisiert (53 % zu 21 %). In der Tabelle stehen sich Platz 11 und Platz 14 gegenüber. Das letzte Duell (2026) endete 2:1 (Gremio – Atletico-MG). Das Modell erwartet eher wenige Tore (xG 1,5:0,8; über 2,5 Tore: 43 %, beide Teams treffen zu 45 %). Gefährlichste Torschützen: bei Gremio Carlos Vinícius (10 Tore). Personal: Atletico-MG fehlen 6 Spieler (u.a. Lyanco); Gremio fehlen 6 Spieler (u.a. M. Braithwaite).",
-     "injuriesHome": [
-      {
-       "name": "Lyanco",
-       "reason": "Achilles Tendon Injury"
-      },
-      {
-       "name": "A. Preciado",
-       "reason": "Ankle Injury"
-      },
-      {
-       "name": "I. Roman",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Rony",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Alexsander",
-       "reason": "Injury"
-      },
-      {
-       "name": "M. Cassierra",
-       "reason": "Lacking Match Fitness"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "M. Braithwaite",
-       "reason": "Achilles Tendon Injury"
-      },
-      {
-       "name": "M. Villasanti",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "Walter Kannemann",
-       "reason": "Inactive"
-      },
-      {
-       "name": "M. Monsalve",
-       "reason": "Injury"
-      },
-      {
-       "name": "L. Perez",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Wagner Leonardo",
-       "reason": "Red Card"
-      }
-     ],
-     "lineups": {
-      "home": {
-       "formation": "4-2-3-1",
-       "xi": [
-        "Everson",
-        "Ángelo Preciado",
-        "Ruan",
-        "Vitor Hugo",
-        "Renan Lodi",
-        "Alan Franco",
-        "Mamady Cissé",
-        "Tomás Cuello",
-        "Victor Hugo",
-        "Igor Gomes",
-        "Mateo Cassierra"
-       ]
-      },
-      "away": {
-       "formation": "4-1-4-1",
-       "xi": [
-        "Weverton",
-        "Diego Caito",
-        "Gustavo Martins",
-        "Wallace",
-        "Pedro Gabriel",
-        "Erick Noriega",
-        "Cristian Pavón",
-        "Juan Nardoni",
-        "Dodi",
-        "Francis Amuzu",
-        "Carlos Vinícius"
-       ]
-      }
-     },
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-08-16T23:30:00+02:00",
-     "home": "Vitoria",
-     "away": "Botafogo",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 23",
-     "formHome": [
-      "N",
-      "N",
-      "N",
-      "S",
-      "N"
-     ],
-     "formAway": [
-      "S",
-      "U",
-      "S",
-      "U",
-      "N"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 13,
-     "posAway": 10,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "23.07.2026",
-       "home": "Botafogo",
-       "away": "Vitoria",
-       "score": "0:0"
-      },
-      {
-       "date": "09.11.2025",
-       "home": "Vitoria",
-       "away": "Botafogo",
-       "score": "0:0"
-      },
-      {
-       "date": "17.07.2025",
-       "home": "Botafogo",
-       "away": "Vitoria",
-       "score": "0:0"
-      },
-      {
-       "date": "23.11.2024",
-       "home": "Botafogo",
-       "away": "Vitoria",
-       "score": "1:1"
-      },
-      {
-       "date": "12.07.2024",
-       "home": "Vitoria",
-       "away": "Botafogo",
-       "score": "0:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.4207,
-      "pDraw": 0.2508,
-      "pAway": 0.3285,
-      "pOver25": 0.5328,
-      "pBtts": 0.5668,
-      "xgHome": 1.51,
-      "xgAway": 1.3,
-      "tipScore": "1:1",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.5668,
-     "odds": {
-      "h": 2.22,
-      "d": 3.35,
-      "a": 3.1,
-      "src": "10Bet"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Arthur Cabral",
-       "goals": 7
-      },
-      {
-       "name": "Danilo Santos",
-       "goals": 7
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Vitoria ist gegen Botafogo leicht favorisiert (42 % zu 33 %). In der Tabelle stehen sich Platz 13 und Platz 10 gegenüber. Das letzte Duell (2026) endete 0:0 (Botafogo – Vitoria). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,5:1,3; über 2,5 Tore: 53 %, beide Teams treffen zu 57 %). Gefährlichste Torschützen: bei Botafogo Arthur Cabral (7 Tore). Personal: Vitoria fehlen 6 Spieler (u.a. Claudinho); Botafogo fehlen 6 Spieler (u.a. J. Correa).",
-     "injuriesHome": [
-      {
-       "name": "Claudinho",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "Edu",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Fintelman",
-       "reason": "Hip Injury"
-      },
-      {
-       "name": "Kauan Vitor",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Lucas Arcanjo",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "R. Ramos",
-       "reason": "Knee Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "J. Correa",
-       "reason": "Inactive"
-      },
-      {
-       "name": "C. Ramos",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Marcal",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "Bastos",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Kaio Pantaleao",
-       "reason": "Inactive"
-      },
-      {
-       "name": "M. Ponte",
-       "reason": "Inactive"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-08-16T23:30:00+02:00",
-     "home": "Mirassol",
-     "away": "Flamengo",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 23",
-     "formHome": [
-      "S",
-      "U",
-      "N",
-      "N",
-      "U"
-     ],
-     "formAway": [
-      "S",
-      "U",
-      "U",
-      "S",
-      "U"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 15,
-     "posAway": 2,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "06.12.2025",
-       "home": "Mirassol",
-       "away": "Flamengo",
-       "score": "3:3"
-      },
-      {
-       "date": "09.08.2025",
-       "home": "Flamengo",
-       "away": "Mirassol",
-       "score": "2:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.2779,
-      "pDraw": 0.2603,
-      "pAway": 0.4617,
-      "pOver25": 0.4709,
-      "pBtts": 0.5101,
-      "xgHome": 1.08,
-      "xgAway": 1.47,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.5101,
-     "odds": {
-      "h": 4.1,
-      "d": 3.5,
-      "a": 1.87,
-      "src": "10Bet"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Pedro",
-       "goals": 12
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Flamengo ist bei Mirassol leicht favorisiert (46 % zu 28 %). In der Tabelle stehen sich Platz 15 und Platz 2 gegenüber. Das letzte Duell (2025) endete 3:3 (Mirassol – Flamengo). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,1:1,5; über 2,5 Tore: 47 %, beide Teams treffen zu 51 %). Gefährlichste Torschützen: bei Flamengo Pedro (12 Tore). Personal: Mirassol fehlen 6 Spieler (u.a. Andre Luis); Flamengo fehlen 6 Spieler (u.a. Danilo).",
-     "injuriesHome": [
-      {
-       "name": "Andre Luis",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Edson Carioca",
-       "reason": "Muscle Injury"
-      },
-      {
-       "name": "Felipe Jonatan",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Daniel Borges",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Renato Marques",
-       "reason": "Injury"
-      },
-      {
-       "name": "Eduardo",
-       "reason": "Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "Danilo",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Lucas Paqueta",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Luiz Araujo",
-       "reason": "Inactive"
-      },
-      {
-       "name": "S. Niguez",
-       "reason": "Inactive"
-      },
-      {
-       "name": "N. de la Cruz",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Jorginho",
-       "reason": "Red Card"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-08-17T00:30:00+02:00",
-     "home": "Corinthians",
-     "away": "Cruzeiro",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 23",
-     "formHome": [
-      "U",
-      "N",
-      "S",
-      "S",
-      "U"
-     ],
-     "formAway": [
-      "S",
-      "U",
-      "S",
-      "S",
-      "U"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 8,
-     "posAway": 6,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "25.02.2026",
-       "home": "Cruzeiro",
-       "away": "Corinthians",
-       "score": "1:1"
-      },
-      {
-       "date": "14.12.2025",
-       "home": "Corinthians",
-       "away": "Cruzeiro",
-       "score": "1:2"
-      },
-      {
-       "date": "11.12.2025",
-       "home": "Cruzeiro",
-       "away": "Corinthians",
-       "score": "0:1"
-      },
-      {
-       "date": "23.11.2025",
-       "home": "Cruzeiro",
-       "away": "Corinthians",
-       "score": "3:0"
-      },
-      {
-       "date": "23.07.2025",
-       "home": "Corinthians",
-       "away": "Cruzeiro",
-       "score": "0:0"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.3686,
-      "pDraw": 0.2981,
-      "pAway": 0.3333,
-      "pOver25": 0.3541,
-      "pBtts": 0.4253,
-      "xgHome": 1.09,
-      "xgAway": 1.02,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.4253,
-     "odds": {
-      "h": 2.26,
-      "d": 2.98,
-      "a": 3.4,
-      "src": "10Bet"
-     },
-     "value": {
-      "outcome": "2",
-      "edge": 0.059,
-      "modelP": 0.3333,
-      "odds": 3.4
-     },
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Kaio Jorge",
-       "goals": 6
-      },
-      {
-       "name": "Christian",
-       "goals": 5
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen Corinthians und Cruzeiro deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Corinthians 37 %, Unentschieden 30 %, Sieg Cruzeiro 33 %). In der Tabelle stehen sich Platz 8 und Platz 6 gegenüber. Das letzte Duell (2026) endete 1:1 (Cruzeiro – Corinthians). Das Modell erwartet eher wenige Tore (xG 1,1:1,0; über 2,5 Tore: 35 %, beide Teams treffen zu 43 %). Gefährlichste Torschützen: bei Cruzeiro Kaio Jorge (6 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,40) für 6 Prozentpunkte wahrscheinlicher als der Markt. Personal: Corinthians fehlen 6 Spieler (u.a. J. Martinez); Cruzeiro fehlen 6 Spieler (u.a. Marquinhos).",
-     "injuriesHome": [
-      {
-       "name": "J. Martinez",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Hugo",
-       "reason": "Injury"
-      },
-      {
-       "name": "Kaio Cesar",
-       "reason": "Injury"
-      },
-      {
-       "name": "Breno Bidon",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Yuri Alberto",
-       "reason": "Inactive"
-      },
-      {
-       "name": "M. Pereira",
-       "reason": "Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "Marquinhos",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "Matheus Cunha",
-       "reason": "Inactive"
-      },
-      {
-       "name": "L. Sinisterra",
-       "reason": "Injury"
-      },
-      {
-       "name": "L. Villalba",
-       "reason": "Ankle Injury"
-      },
-      {
-       "name": "Chico",
-       "reason": "Injury"
-      },
-      {
-       "name": "Jonathan Jesus",
-       "reason": "Inactive"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-08-18T01:00:00+02:00",
      "home": "Internacional",
@@ -2916,8 +1836,8 @@
      "formAwayA": [],
      "load14Home": 0,
      "load14Away": 0,
-     "posHome": 16,
-     "posAway": 19,
+     "posHome": 17,
+     "posAway": 18,
      "nTeams": null,
      "h2h": [
       {
@@ -2946,9 +1866,9 @@
      },
      "pBtts": 0.5392,
      "odds": {
-      "h": 1.56,
-      "d": 3.9,
-      "a": 5.9,
+      "h": 1.52,
+      "d": 3.95,
+      "a": 6.25,
       "src": "10Bet"
      },
      "value": null,
@@ -2969,7 +1889,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Internacional ist gegen Remo leicht favorisiert (45 % zu 30 %). In der Tabelle stehen sich Platz 16 und Platz 19 gegenüber. Das letzte Duell (2026) endete 1:1 (Remo – Internacional). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,5:1,2; über 2,5 Tore: 50 %, beide Teams treffen zu 54 %). Gefährlichste Torschützen: bei Internacional J. Carbonero (5 Tore) und bei Remo Jája Silva (6 Tore). Personal: Internacional fehlen 6 Spieler (u.a. Richard); Remo fehlen 6 Spieler (u.a. Diego Hernandez).",
+     "analysis": "Internacional ist gegen Remo leicht favorisiert (45 % zu 30 %). In der Tabelle stehen sich Platz 17 und Platz 18 gegenüber. Das letzte Duell (2026) endete 1:1 (Remo – Internacional). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,5:1,2; über 2,5 Tore: 50 %, beide Teams treffen zu 54 %). Gefährlichste Torschützen: bei Internacional J. Carbonero (5 Tore) und bei Remo Jája Silva (6 Tore). Personal: Internacional fehlen 6 Spieler (u.a. Richard); Remo fehlen 6 Spieler (u.a. Diego Hernandez).",
      "injuriesHome": [
       {
        "name": "Richard",
@@ -3262,9 +2182,9 @@
      },
      "pBtts": 0.6156,
      "odds": {
-      "h": 1.44,
+      "h": 1.4,
       "d": 4.5,
-      "a": 6.8,
+      "a": 7.5,
       "src": "10Bet"
      },
      "value": null,
@@ -3358,14 +2278,14 @@
  "tennisFinished": [],
  "stats": {
   "overall": {
-   "n": 794,
+   "n": 795,
    "correct": 469,
-   "pct": 0.5907
+   "pct": 0.5899
   },
   "football": {
-   "n": 115,
+   "n": 116,
    "correct": 58,
-   "pct": 0.5043
+   "pct": 0.5
   },
   "tennis": {
    "n": 679,
@@ -3373,10 +2293,10 @@
    "pct": 0.6053
   },
   "exact": {
-   "n": 115,
+   "n": 116,
    "correct": 19
   },
-  "open": 303,
+  "open": 270,
   "recent": [
    {
     "date": "2026-08-16",
@@ -3430,6 +2350,17 @@
     "tip": "1",
     "prob": 0.4699,
     "result": "0:1",
+    "correct": false,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-08-16",
+    "comp": "3. Liga",
+    "label": "VfB Stuttgart II – Viktoria Köln",
+    "tipName": "VfB Stuttgart II",
+    "tip": "1",
+    "prob": 0.4622,
+    "result": "1:3",
     "correct": false,
     "sport": "fb"
    },
@@ -3640,17 +2571,6 @@
     "prob": 0.4123,
     "result": "5:2",
     "correct": false,
-    "sport": "fb"
-   },
-   {
-    "date": "2026-08-09",
-    "comp": "3. Liga",
-    "label": "Alemannia Aachen – SC Verl",
-    "tipName": "Alemannia Aachen",
-    "tip": "1",
-    "prob": 0.402,
-    "result": "4:1",
-    "correct": true,
     "sport": "fb"
    }
   ]
