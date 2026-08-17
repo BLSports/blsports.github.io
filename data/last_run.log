@@ -9,18 +9,18 @@
 /tmp/tennisdata/atp_2026.xlsx: OK über http://www.tennis-data.co.uk (301307 Bytes)
 /tmp/tennisdata/wta_2026.xlsx: OK über http://www.tennis-data.co.uk (287973 Bytes)
 total 3860
-drwxr-xr-x  2 runner runner   4096 Aug 17 12:35 .
-drwxrwxrwt 14 root   root    12288 Aug 17 12:35 ..
--rw-r--r--  1 runner runner 417917 Aug 17 12:35 atp_2022.xlsx
--rw-r--r--  1 runner runner 447088 Aug 17 12:35 atp_2023.xlsx
--rw-r--r--  1 runner runner 445729 Aug 17 12:35 atp_2024.xlsx
--rw-r--r--  1 runner runner 426707 Aug 17 12:35 atp_2025.xlsx
--rw-r--r--  1 runner runner 301307 Aug 17 12:35 atp_2026.xlsx
--rw-r--r--  1 runner runner 370069 Aug 17 12:35 wta_2022.xlsx
--rw-r--r--  1 runner runner 407251 Aug 17 12:35 wta_2023.xlsx
--rw-r--r--  1 runner runner 406783 Aug 17 12:35 wta_2024.xlsx
--rw-r--r--  1 runner runner 399398 Aug 17 12:35 wta_2025.xlsx
--rw-r--r--  1 runner runner 287973 Aug 17 12:35 wta_2026.xlsx
+drwxr-xr-x  2 runner runner   4096 Aug 17 18:32 .
+drwxrwxrwt 14 root   root    12288 Aug 17 18:32 ..
+-rw-r--r--  1 runner runner 417917 Aug 17 18:32 atp_2022.xlsx
+-rw-r--r--  1 runner runner 447088 Aug 17 18:32 atp_2023.xlsx
+-rw-r--r--  1 runner runner 445729 Aug 17 18:32 atp_2024.xlsx
+-rw-r--r--  1 runner runner 426707 Aug 17 18:32 atp_2025.xlsx
+-rw-r--r--  1 runner runner 301307 Aug 17 18:32 atp_2026.xlsx
+-rw-r--r--  1 runner runner 370069 Aug 17 18:32 wta_2022.xlsx
+-rw-r--r--  1 runner runner 407251 Aug 17 18:32 wta_2023.xlsx
+-rw-r--r--  1 runner runner 406783 Aug 17 18:32 wta_2024.xlsx
+-rw-r--r--  1 runner runner 399398 Aug 17 18:32 wta_2025.xlsx
+-rw-r--r--  1 runner runner 287973 Aug 17 18:32 wta_2026.xlsx
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
@@ -120,10 +120,6 @@ drwxrwxrwt 14 root   root    12288 Aug 17 12:35 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260818 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260819 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260817-20261215&limit=50 nicht erreichbar (HTTP Error 403: Forbidden)
-  WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/bel.2/seasons/2026/types/1/leaders nicht erreichbar (HTTP Error 400: Bad Request)
-  WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/bel.2/seasons/2026/types/2/leaders nicht erreichbar (HTTP Error 400: Bad Request)
-  WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/bel.2/seasons/2025/types/1/leaders nicht erreichbar (HTTP Error 400: Bad Request)
-  WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/bel.2/seasons/2025/types/2/leaders nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20260817 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20260818 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/por.1/scoreboard?dates=20260819 nicht erreichbar (HTTP Error 403: Forbidden)
@@ -267,8 +263,8 @@ fixtures.csv: 127 Spiele mit Quoten
   2 Prognosen via Team-Historie-Fallback erstellt
 == La Liga 2 ==
   472 Ergebnisse geladen
-  2 Spiele in den naechsten 3 Tagen
-  2 Prognosen via Team-Historie-Fallback erstellt
+  1 Spiele in den naechsten 3 Tagen
+  1 Prognosen via Team-Historie-Fallback erstellt
 == Ligue 1 ==
   306 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
@@ -280,21 +276,19 @@ fixtures.csv: 127 Spiele mit Quoten
   0 Spiele in den naechsten 3 Tagen
 == Eerste Divisie ==
   0 Ergebnisse geladen
-  3 Spiele in den naechsten 3 Tagen
-  3 Prognosen via Team-Historie-Fallback erstellt
+  0 Spiele in den naechsten 3 Tagen
 == Pro League (Belgien) ==
   320 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
 == Challenger Pro League (Belgien) ==
   0 Ergebnisse geladen
-  1 Spiele in den naechsten 3 Tagen
-  1 Prognosen via Team-Historie-Fallback erstellt
+  0 Spiele in den naechsten 3 Tagen
 == Primeira Liga (Portugal) ==
   315 Ergebnisse geladen
   1 Spiele in den naechsten 3 Tagen
 == Süper Lig (Türkei) ==
   306 Ergebnisse geladen
-  1 Spiele in den naechsten 3 Tagen
+  0 Spiele in den naechsten 3 Tagen
 == Bundesliga (Österreich) ==
   0 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
@@ -316,26 +310,24 @@ fixtures.csv: 127 Spiele mit Quoten
   0 Spiele in den naechsten 3 Tagen
 == Allsvenskan (Schweden) ==
   0 Ergebnisse geladen
-  1 Spiele in den naechsten 3 Tagen
-  1 Prognosen via Team-Historie-Fallback erstellt
+  0 Spiele in den naechsten 3 Tagen
 == Superliga (Dänemark) ==
   0 Ergebnisse geladen
-  1 Spiele in den naechsten 3 Tagen
-  1 Prognosen via Team-Historie-Fallback erstellt
+  0 Spiele in den naechsten 3 Tagen
 == Premier Division (Irland) ==
   0 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
-  Kicker-News: 34 Schlagzeilen geladen
+  Kicker-News: 28 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 201, WTA 200
   Historie: ATP 12563 Matches, WTA 11681 Matches
   Elo ATP: 550 Spieler bewertet
   Elo WTA: 574 Spieler bewertet
-  Belag-Zuordnung (MatchStat): 18 Turniere
+  Belag-Zuordnung (MatchStat): 19 Turniere
   Tennis-Quoten zugeordnet: 0
   0 Tennis-Matches in den naechsten 3 Tagen
   0 Tennis-Matches heute bereits beendet
   Tipp-Log: 1350 Eintraege, 795 ausgewertet, 469 richtig
-  Premium-Abrufe: Tennis 6, Fussball 198 (Tennis AKTIV, Fussball AKTIV)
+  Premium-Abrufe: Tennis 6, Fussball 146 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
