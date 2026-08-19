@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-19T14:37:51.350259+02:00",
+ "generatedAt": "2026-08-19T20:28:19.248285+02:00",
  "windowDays": 3,
  "days": [
   "2026-08-19",
@@ -74,16 +74,21 @@
      },
      "pBtts": 0.6943,
      "odds": {
-      "h": 1.66,
+      "h": 1.71,
       "d": 3.95,
-      "a": 4.65,
+      "a": 4.3,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.1936,
+      "modelP": 0.4108,
+      "odds": 4.3
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Zwischen Celtic und Lask Linz deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Celtic 37 %, Unentschieden 22 %, Sieg Lask Linz 41 %). Die Form spricht für Lask Linz: 5 Siege aus den letzten 5 Spielen, Celtic holte nur 3. Das Modell erwartet ein torreiches Spiel (xG 1,7:1,8; über 2,5 Tore: 69 %, beide Teams treffen zu 69 %). Personal: Celtic fehlen 3 Spieler (u.a. A. Johnston); Lask Linz fehlen 2 Spieler (u.a. R. Harakate).",
+     "analysis": "Zwischen Celtic und Lask Linz deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Celtic 37 %, Unentschieden 22 %, Sieg Lask Linz 41 %). Die Form spricht für Lask Linz: 5 Siege aus den letzten 5 Spielen, Celtic holte nur 3. Das Modell erwartet ein torreiches Spiel (xG 1,7:1,8; über 2,5 Tore: 69 %, beide Teams treffen zu 69 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 4,30) für 19 Prozentpunkte wahrscheinlicher als der Markt. Personal: Celtic fehlen 3 Spieler (u.a. A. Johnston); Lask Linz fehlen 2 Spieler (u.a. R. Harakate).",
      "injuriesHome": [
       {
        "name": "A. Johnston",
@@ -108,7 +113,41 @@
        "reason": "Knee Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "lineups": {
+      "home": {
+       "formation": "4-3-3",
+       "xi": [
+        "Viljami Sinisalo",
+        "Colby Donovan",
+        "Cameron Carter-Vickers",
+        "Auston Trusty",
+        "Kieran Tierney",
+        "Callum McGregor",
+        "Benjamin Nygren",
+        "Mika Baur",
+        "Camilo Durán",
+        "Kasper Høgh",
+        "Yang Hyun-Jun"
+       ]
+      },
+      "away": {
+       "formation": "3-5-2",
+       "xi": [
+        "Lukas Jungwirth",
+        "Xavier Mbuyamba",
+        "Alemão",
+        "Andrés Andrade",
+        "Kasper Jørgensen",
+        "Krystof Daněk",
+        "Robert Ljubičić",
+        "Sascha Horvath",
+        "George Bello",
+        "Samuel Adeniran",
+        "Moses Usor"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-19T21:00:00+02:00",
@@ -162,12 +201,8 @@
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Bodo/Glimt ist bei NEC Nijmegen leicht favorisiert (43 % zu 35 %). Die Form spricht für Bodo/Glimt: 4 Siege aus den letzten 5 Spielen, NEC Nijmegen holte nur 2. Das Modell erwartet ein torreiches Spiel (xG 1,6:1,8; über 2,5 Tore: 68 %, beide Teams treffen zu 68 %). Personal: NEC Nijmegen fehlen 5 Spieler (u.a. Y. Moslih); Bodo/Glimt fehlen 4 Spieler (u.a. H. Evjen).",
+     "analysis": "Bodo/Glimt ist bei NEC Nijmegen leicht favorisiert (43 % zu 35 %). Die Form spricht für Bodo/Glimt: 4 Siege aus den letzten 5 Spielen, NEC Nijmegen holte nur 2. Das Modell erwartet ein torreiches Spiel (xG 1,6:1,8; über 2,5 Tore: 68 %, beide Teams treffen zu 68 %). Personal: NEC Nijmegen fehlen 4 Spieler (u.a. K. Ogawa); Bodo/Glimt fehlen 4 Spieler (u.a. H. Evjen).",
      "injuriesHome": [
-      {
-       "name": "Y. Moslih",
-       "reason": "Injury"
-      },
       {
        "name": "K. Ogawa",
        "reason": "Head Injury"
@@ -203,7 +238,41 @@
        "reason": "Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "lineups": {
+      "home": {
+       "formation": "3-4-2-1",
+       "xi": [
+        "Gonzalo Crettaz",
+        "Brayann Pereira",
+        "Tobias Storm",
+        "Deveron Fonville",
+        "Emre Mor",
+        "Darko Nejašmić",
+        "Noe Lebreton",
+        "Clement Bischoff",
+        "Tjaronn Chery",
+        "Dušan Tadić",
+        "Bryan Linssen"
+       ]
+      },
+      "away": {
+       "formation": "4-3-3",
+       "xi": [
+        "Nikita Haikin",
+        "Fredrik Sjøvold",
+        "Odin Luras Bjørtuft",
+        "Haitam Aleesami",
+        "Fredrik André Bjørkan",
+        "Sondre Auklend",
+        "Patrick Berg",
+        "Sondre Fet",
+        "Ole Didrik Blomberg",
+        "Andreas Helmersen",
+        "Jens Petter Hauge"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-19T21:00:00+02:00",
@@ -249,15 +318,15 @@
      "pBtts": 0.6079,
      "odds": {
       "h": 2.32,
-      "d": 3.4,
-      "a": 2.9,
+      "d": 3.35,
+      "a": 2.94,
       "src": "10Bet"
      },
      "value": {
       "outcome": "2",
-      "edge": 0.1186,
+      "edge": 0.1229,
       "modelP": 0.4409,
-      "odds": 2.9
+      "odds": 2.94
      },
      "scorersHome": [],
      "scorersAway": [
@@ -271,12 +340,8 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Sabah FA ist bei Hapoel Beer Sheva leicht favorisiert (44 % zu 32 %). Das Modell erwartet ein torreiches Spiel (xG 1,4:1,7; über 2,5 Tore: 59 %, beide Teams treffen zu 61 %). Gefährlichste Torschützen: bei Sabah FA J. Mickels (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,90) für 12 Prozentpunkte wahrscheinlicher als der Markt. Personal: Hapoel Beer Sheva fehlen 3 Spieler (u.a. E. Almog); Sabah FA fehlen 1 Spieler (u.a. K. Aliyev).",
+     "analysis": "Sabah FA ist bei Hapoel Beer Sheva leicht favorisiert (44 % zu 32 %). Das Modell erwartet ein torreiches Spiel (xG 1,4:1,7; über 2,5 Tore: 59 %, beide Teams treffen zu 61 %). Gefährlichste Torschützen: bei Sabah FA J. Mickels (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,94) für 12 Prozentpunkte wahrscheinlicher als der Markt. Personal: Hapoel Beer Sheva fehlen 2 Spieler (u.a. D. Biton); Sabah FA fehlen 1 Spieler (u.a. K. Aliyev).",
      "injuriesHome": [
-      {
-       "name": "E. Almog",
-       "reason": "Inactive"
-      },
       {
        "name": "D. Biton",
        "reason": "Heart Problems"
@@ -292,7 +357,41 @@
        "reason": "Tendon Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "lineups": {
+      "home": {
+       "formation": "4-3-3",
+       "xi": [
+        "Ofir Marciano",
+        "Guy Mizrahi",
+        "Miguel Vítor",
+        "Itay Rotman",
+        "Pedro Amador",
+        "Niv Yehoshua",
+        "Lucas Ventura",
+        "Eliel Peretz",
+        "Javon East",
+        "Igor Zlatanović",
+        "Zahi Ahmed"
+       ]
+      },
+      "away": {
+       "formation": "4-2-3-1",
+       "xi": [
+        "Stas Pokatilov",
+        "Akim Zedadka",
+        "Steve Solvet",
+        "Rahman Dashdamirov",
+        "Tymoteusz Puchacz",
+        "Umarali Rakhmonaliev",
+        "Ivan Lepinjica",
+        "Xander Severina",
+        "Aleksey Isayev",
+        "Veljko Simić",
+        "Joy Lance Mickels"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-19T21:00:00+02:00",
@@ -350,16 +449,21 @@
      },
      "pBtts": 0.5611,
      "odds": {
-      "h": 1.75,
-      "d": 3.8,
-      "a": 4.3,
+      "h": 1.84,
+      "d": 3.6,
+      "a": 4.0,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.0882,
+      "modelP": 0.5955,
+      "odds": 1.84
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Slovan Bratislava geht als klarer Favorit (60 %) in das Heimspiel gegen Celje. Das letzte Duell (2024) endete 5:0 (Slovan Bratislava – Celje). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,1; über 2,5 Tore: 59 %, beide Teams treffen zu 56 %). Personal: Slovan Bratislava fehlen 3 Spieler (u.a. M. Kukharevych); Celje fehlen 2 Spieler (u.a. L. Bejger).",
+     "analysis": "Slovan Bratislava geht als klarer Favorit (60 %) in das Heimspiel gegen Celje. Das letzte Duell (2024) endete 5:0 (Slovan Bratislava – Celje). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,1; über 2,5 Tore: 59 %, beide Teams treffen zu 56 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 1,84) für 9 Prozentpunkte wahrscheinlicher als der Markt. Personal: Slovan Bratislava fehlen 3 Spieler (u.a. M. Kukharevych); Celje fehlen 2 Spieler (u.a. L. Bejger).",
      "injuriesHome": [
       {
        "name": "M. Kukharevych",
@@ -384,7 +488,41 @@
        "reason": "Knee Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "lineups": {
+      "home": {
+       "formation": "4-3-3",
+       "xi": [
+        "Dominik Takáč",
+        "César Blackman",
+        "Kenan Bajrić",
+        "Svetozar Marković",
+        "Sandro Cruz",
+        "Cristian Martínez",
+        "Peter Pokorný",
+        "Alen Mustafić",
+        "Tigran Barseghyan",
+        "Roman Čerepkai",
+        "Suleiman Camara"
+       ]
+      },
+      "away": {
+       "formation": "4-3-3",
+       "xi": [
+        "Žan-Luk Leban",
+        "Matic Ivanšek",
+        "Darko Hrka",
+        "Artemijus Tutyškinas",
+        "Pijus Širvys",
+        "Mario Kvesić",
+        "Mark Zabukovnik",
+        "Papa Daniel",
+        "Svit Sešlar",
+        "Armandas Kučys",
+        "Milot Avdyli"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
    "seasonHasStarted": false,
@@ -542,17 +680,17 @@
      "nTeams": null,
      "h2h": [],
      "prediction": {
-      "pHome": 0.2813,
-      "pDraw": 0.2183,
-      "pAway": 0.5003,
-      "pOver25": 0.662,
-      "pBtts": 0.6564,
-      "xgHome": 1.44,
-      "xgAway": 1.97,
+      "pHome": 0.2846,
+      "pDraw": 0.2278,
+      "pAway": 0.4875,
+      "pOver25": 0.618,
+      "pBtts": 0.6237,
+      "xgHome": 1.36,
+      "xgAway": 1.83,
       "tipScore": "1:1",
       "confidence": "mittel"
      },
-     "pBtts": 0.6564,
+     "pBtts": 0.6237,
      "odds": {
       "h": 4.2,
       "d": 3.85,
@@ -563,7 +701,7 @@
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Red Bull Salzburg ist bei Mjallby AIF leicht favorisiert (50 % zu 28 %). Die Form spricht für Red Bull Salzburg: 3 Siege aus den letzten 5 Spielen, Mjallby AIF holte nur 1. Das Modell erwartet ein torreiches Spiel (xG 1,4:2,0; über 2,5 Tore: 66 %, beide Teams treffen zu 66 %).",
+     "analysis": "Red Bull Salzburg ist bei Mjallby AIF leicht favorisiert (49 % zu 28 %). Die Form spricht für Red Bull Salzburg: 3 Siege aus den letzten 5 Spielen, Mjallby AIF holte nur 1. Das Modell erwartet ein torreiches Spiel (xG 1,4:1,8; über 2,5 Tore: 62 %, beide Teams treffen zu 62 %).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -609,9 +747,9 @@
      },
      "pBtts": 0.6911,
      "odds": {
-      "h": 1.54,
+      "h": 1.57,
       "d": 4.1,
-      "a": 5.6,
+      "a": 5.3,
       "src": "10Bet"
      },
      "value": null,
@@ -664,9 +802,9 @@
      },
      "pBtts": 0.4587,
      "odds": {
-      "h": 1.12,
-      "d": 7.8,
-      "a": 20.0,
+      "h": 1.13,
+      "d": 7.25,
+      "a": 22.0,
       "src": "10Bet"
      },
      "value": null,
@@ -798,14 +936,14 @@
      "odds": {
       "h": 1.6,
       "d": 3.9,
-      "a": 4.4,
+      "a": 4.5,
       "src": "William Hill"
      },
      "value": {
       "outcome": "2",
-      "edge": 0.1913,
+      "edge": 0.1949,
       "modelP": 0.3963,
-      "odds": 4.4
+      "odds": 4.5
      },
      "scorersHome": [],
      "scorersAway": [
@@ -815,7 +953,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen Trabzonspor und Ferencvarosi TC deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Trabzonspor 32 %, Unentschieden 28 %, Sieg Ferencvarosi TC 40 %). Das letzte Duell (2022) endete 1:0 (Trabzonspor – Ferencvarosi TC). Das Modell erwartet eher wenige Tore (xG 1,1:1,2; über 2,5 Tore: 41 %, beide Teams treffen zu 47 %). Gefährlichste Torschützen: bei Ferencvarosi TC B. Yusuf (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 4,40) für 19 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Zwischen Trabzonspor und Ferencvarosi TC deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Trabzonspor 32 %, Unentschieden 28 %, Sieg Ferencvarosi TC 40 %). Das letzte Duell (2022) endete 1:0 (Trabzonspor – Ferencvarosi TC). Das Modell erwartet eher wenige Tore (xG 1,1:1,2; über 2,5 Tore: 41 %, beide Teams treffen zu 47 %). Gefährlichste Torschützen: bei Ferencvarosi TC B. Yusuf (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 4,50) für 19 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -861,21 +999,21 @@
      },
      "pBtts": 0.6428,
      "odds": {
-      "h": 3.55,
-      "d": 3.6,
-      "a": 1.97,
+      "h": 3.4,
+      "d": 3.55,
+      "a": 2.0,
       "src": "10Bet"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.38,
+      "edge": 0.3706,
       "modelP": 0.644,
-      "odds": 3.55
+      "odds": 3.4
      },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Egnatia Rrogozhinë geht als klarer Favorit (65 %) in das Heimspiel gegen Lillestrom. Das Modell erwartet ein torreiches Spiel (xG 2,5:1,2; über 2,5 Tore: 71 %, beide Teams treffen zu 64 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,55) für 38 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Egnatia Rrogozhinë geht als klarer Favorit (65 %) in das Heimspiel gegen Lillestrom. Das Modell erwartet ein torreiches Spiel (xG 2,5:1,2; über 2,5 Tore: 71 %, beide Teams treffen zu 64 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,40) für 37 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -923,7 +1061,7 @@
      "odds": {
       "h": 1.7,
       "d": 3.95,
-      "a": 4.4,
+      "a": 4.45,
       "src": "10Bet"
      },
      "value": null,
@@ -976,21 +1114,21 @@
      },
      "pBtts": 0.5478,
      "odds": {
-      "h": 1.87,
-      "d": 3.5,
-      "a": 4.0,
+      "h": 1.85,
+      "d": 3.55,
+      "a": 4.1,
       "src": "10Bet"
      },
      "value": {
       "outcome": "2",
-      "edge": 0.0733,
+      "edge": 0.078,
       "modelP": 0.3068,
-      "odds": 4.0
+      "odds": 4.1
      },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": "St. Truiden ist gegen Omonia Nicosia leicht favorisiert (44 % zu 31 %). Die Form spricht für Omonia Nicosia: 3 Siege aus den letzten 5 Spielen, St. Truiden holte nur 0. Das Modell erwartet eine offene Tor-Ausbeute (xG 1,5:1,2; über 2,5 Tore: 51 %, beide Teams treffen zu 55 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 4,00) für 7 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "St. Truiden ist gegen Omonia Nicosia leicht favorisiert (44 % zu 31 %). Die Form spricht für Omonia Nicosia: 3 Siege aus den letzten 5 Spielen, St. Truiden holte nur 0. Das Modell erwartet eine offene Tor-Ausbeute (xG 1,5:1,2; über 2,5 Tore: 51 %, beide Teams treffen zu 55 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 4,10) für 8 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -1036,16 +1174,16 @@
      },
      "pBtts": 0.6076,
      "odds": {
-      "h": 2.55,
+      "h": 2.58,
       "d": 3.25,
-      "a": 2.68,
+      "a": 2.65,
       "src": "10Bet"
      },
      "value": {
       "outcome": "2",
-      "edge": 0.1331,
+      "edge": 0.1291,
       "modelP": 0.4809,
-      "odds": 2.68
+      "odds": 2.65
      },
      "scorersHome": [],
      "scorersAway": [
@@ -1059,7 +1197,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "CSKA Sofia ist bei OFI leicht favorisiert (48 % zu 29 %). Die Form spricht für CSKA Sofia: 4 Siege aus den letzten 5 Spielen, OFI holte nur 1. Das Modell erwartet ein torreiches Spiel (xG 1,3:1,8; über 2,5 Tore: 60 %, beide Teams treffen zu 61 %). Gefährlichste Torschützen: bei CSKA Sofia Bruno Jordão (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,68) für 13 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "CSKA Sofia ist bei OFI leicht favorisiert (48 % zu 29 %). Die Form spricht für CSKA Sofia: 4 Siege aus den letzten 5 Spielen, OFI holte nur 1. Das Modell erwartet ein torreiches Spiel (xG 1,3:1,8; über 2,5 Tore: 60 %, beide Teams treffen zu 61 %). Gefährlichste Torschützen: bei CSKA Sofia Bruno Jordão (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,65) für 13 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -1105,7 +1243,7 @@
      },
      "pBtts": 0.6994,
      "odds": {
-      "h": 1.17,
+      "h": 1.18,
       "d": 6.8,
       "a": 13.5,
       "src": "10Bet"
@@ -1256,8 +1394,8 @@
      },
      "pBtts": 0.6672,
      "odds": {
-      "h": 6.5,
-      "d": 4.4,
+      "h": 6.75,
+      "d": 4.35,
       "a": 1.45,
       "src": "10Bet"
      },
@@ -1439,9 +1577,9 @@
      },
      "pBtts": 0.6829,
      "odds": {
-      "h": 1.68,
+      "h": 1.69,
       "d": 4.2,
-      "a": 4.2,
+      "a": 4.1,
       "src": "10Bet"
      },
      "value": null,
@@ -1512,9 +1650,9 @@
      },
      "pBtts": 0.5737,
      "odds": {
-      "h": 3.7,
-      "d": 3.85,
-      "a": 1.86,
+      "h": 3.55,
+      "d": 3.8,
+      "a": 1.9,
       "src": "10Bet"
      },
      "value": null,
@@ -1574,9 +1712,9 @@
      },
      "pBtts": 0.6928,
      "odds": {
-      "h": 1.74,
-      "d": 3.75,
-      "a": 4.33,
+      "h": 1.7,
+      "d": 3.8,
+      "a": 4.6,
       "src": "10Bet"
      },
      "value": null,
@@ -1706,13 +1844,7 @@
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
      "analysis": "Gornik Zabrze ist gegen Monaco leicht favorisiert (50 % zu 27 %). Das Modell erwartet ein torreiches Spiel (xG 1,8:1,3; über 2,5 Tore: 61 %, beide Teams treffen zu 61 %).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "Pogbas Monaco-Kapitel endet nach 115 Spielminuten vorzeitig",
-       "link": "https://www.kicker.de/pogbas-monaco-kapitel-endet-nach-115-spielminuten-vorzeitig-1244652/artikel#omrss"
-      }
-     ]
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-20T20:00:00+02:00",
@@ -1771,8 +1903,8 @@
      "pBtts": 0.6517,
      "odds": {
       "h": 1.63,
-      "d": 3.95,
-      "a": 4.9,
+      "d": 3.9,
+      "a": 5.0,
       "src": "10Bet"
      },
      "value": null,
@@ -1888,13 +2020,13 @@
      "pBtts": 0.7103,
      "odds": {
       "h": 4.1,
-      "d": 4.1,
-      "a": 1.72,
+      "d": 4.0,
+      "a": 1.75,
       "src": "10Bet"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.3786,
+      "edge": 0.3778,
       "modelP": 0.6067,
       "odds": 4.1
      },
@@ -1965,7 +2097,7 @@
      },
      "pBtts": 0.6078,
      "odds": {
-      "h": 7.0,
+      "h": 7.1,
       "d": 4.6,
       "a": 1.41,
       "src": "10Bet"
@@ -2081,16 +2213,16 @@
      },
      "pBtts": 0.6138,
      "odds": {
-      "h": 2.0,
-      "d": 3.5,
+      "h": 2.02,
+      "d": 3.45,
       "a": 3.5,
       "src": "10Bet"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.2096,
+      "edge": 0.2139,
       "modelP": 0.6763,
-      "odds": 2.0
+      "odds": 2.02
      },
      "scorersHome": [
       {
@@ -2100,7 +2232,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "FC Lugano geht als klarer Favorit (68 %) in das Heimspiel gegen Maccabi Tel Aviv. Das Modell erwartet ein torreiches Spiel (xG 2,5:1,1; über 2,5 Tore: 70 %, beide Teams treffen zu 61 %). Gefährlichste Torschützen: bei FC Lugano K. Behrens (5 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,00) für 21 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "FC Lugano geht als klarer Favorit (68 %) in das Heimspiel gegen Maccabi Tel Aviv. Das Modell erwartet ein torreiches Spiel (xG 2,5:1,1; über 2,5 Tore: 70 %, beide Teams treffen zu 61 %). Gefährlichste Torschützen: bei FC Lugano K. Behrens (5 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,02) für 21 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -2147,8 +2279,8 @@
      "pBtts": 0.5517,
      "odds": {
       "h": 1.47,
-      "d": 4.1,
-      "a": 6.8,
+      "d": 4.0,
+      "a": 7.1,
       "src": "10Bet"
      },
      "value": null,
@@ -2206,9 +2338,9 @@
      },
      "pBtts": 0.5404,
      "odds": {
-      "h": 1.55,
+      "h": 1.57,
       "d": 3.85,
-      "a": 6.2,
+      "a": 5.8,
       "src": "10Bet"
      },
      "value": null,
@@ -2263,14 +2395,14 @@
      "odds": {
       "h": 2.25,
       "d": 3.55,
-      "a": 2.92,
+      "a": 2.9,
       "src": "10Bet"
      },
      "value": {
       "outcome": "2",
-      "edge": 0.2608,
+      "edge": 0.2593,
       "modelP": 0.5813,
-      "odds": 2.92
+      "odds": 2.9
      },
      "scorersHome": [],
      "scorersAway": [
@@ -2288,7 +2420,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Rapid Vienna reist als klarer Favorit (58 %) zu Heart Of Midlothian. Die Form spricht für Rapid Vienna: 5 Siege aus den letzten 5 Spielen, Heart Of Midlothian holte nur 2. Das Modell erwartet ein torreiches Spiel (xG 1,4:2,3; über 2,5 Tore: 71 %, beide Teams treffen zu 67 %). Gefährlichste Torschützen: bei Rapid Vienna E. Kara (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,92) für 26 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Rapid Vienna reist als klarer Favorit (58 %) zu Heart Of Midlothian. Die Form spricht für Rapid Vienna: 5 Siege aus den letzten 5 Spielen, Heart Of Midlothian holte nur 2. Das Modell erwartet ein torreiches Spiel (xG 1,4:2,3; über 2,5 Tore: 71 %, beide Teams treffen zu 67 %). Gefährlichste Torschützen: bei Rapid Vienna E. Kara (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,90) für 26 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -2334,9 +2466,9 @@
      },
      "pBtts": 0.5502,
      "odds": {
-      "h": 1.37,
-      "d": 4.65,
-      "a": 7.8,
+      "h": 1.39,
+      "d": 4.45,
+      "a": 8.0,
       "src": "10Bet"
      },
      "value": null,
@@ -2390,8 +2522,8 @@
      "pBtts": 0.5713,
      "odds": {
       "h": 1.33,
-      "d": 5.5,
-      "a": 7.3,
+      "d": 5.1,
+      "a": 8.2,
       "src": "10Bet"
      },
      "value": null,
@@ -2449,9 +2581,9 @@
      },
      "pBtts": 0.4644,
      "odds": {
-      "h": 1.29,
-      "d": 4.6,
-      "a": 13.0,
+      "h": 1.32,
+      "d": 4.45,
+      "a": 11.0,
       "src": "10Bet"
      },
      "value": null,
@@ -2897,19 +3029,27 @@
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen Atletico Madrid und Malaga deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Atletico Madrid 39 %, Unentschieden 24 %, Sieg Malaga 37 %). In der Tabelle stehen sich Platz 10 und Platz 17 gegenüber. Die Form spricht für Atletico Madrid: 3 Siege aus den letzten 5 Spielen, Malaga holte nur 1. Das letzte Duell (2018) endete 0:1 (Malaga – Atletico Madrid). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,5; über 2,5 Tore: 59 %, beide Teams treffen zu 61 %). Personal: Atletico Madrid fehlen 3 Spieler (u.a. J. Alvarez); Malaga fehlen 6 Spieler (u.a. F. Calero).",
+     "analysis": "Zwischen Atletico Madrid und Malaga deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Atletico Madrid 39 %, Unentschieden 24 %, Sieg Malaga 37 %). In der Tabelle stehen sich Platz 10 und Platz 17 gegenüber. Die Form spricht für Atletico Madrid: 3 Siege aus den letzten 5 Spielen, Malaga holte nur 1. Das letzte Duell (2018) endete 0:1 (Malaga – Atletico Madrid). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,5; über 2,5 Tore: 59 %, beide Teams treffen zu 61 %). Personal: Atletico Madrid fehlen 5 Spieler (u.a. J. Alvarez); Malaga fehlen 6 Spieler (u.a. F. Calero).",
      "injuriesHome": [
       {
        "name": "J. Alvarez",
        "reason": "Lacking Match Fitness"
       },
       {
-       "name": "A. Sorloth",
-       "reason": "Muscle Injury"
+       "name": "T. Lemar",
+       "reason": "Injury"
       },
       {
        "name": "C. Romero",
        "reason": "Injury"
+      },
+      {
+       "name": "A. Sorloth",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "O. Vargas",
+       "reason": "Coach's decision"
       }
      ],
      "injuriesAway": [
@@ -2938,7 +3078,41 @@
        "reason": "Red Card"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "lineups": {
+      "home": {
+       "formation": "4-4-2",
+       "xi": [
+        "Jan Oblak",
+        "Jorge Domínguez",
+        "Robin Le Normand",
+        "Dávid Hancko",
+        "Dani Martinez",
+        "Carlos Martín",
+        "Koke",
+        "Pablo Barrios",
+        "Rodrigo Mendoza",
+        "Arnau Ortiz",
+        "Ademola Lookman"
+       ]
+      },
+      "away": {
+       "formation": "4-4-2",
+       "xi": [
+        "Alfonso Herrero",
+        "Carlos Puga",
+        "Ángel Recio",
+        "Einar Galilea",
+        "Rafa Garrido",
+        "David Larrubia",
+        "Dani Lorenzo",
+        "Izan Merino",
+        "Joaquín Muñoz",
+        "Chupete",
+        "Carlos Dotor"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-20T21:00:00+02:00",
@@ -3152,16 +3326,16 @@
        "reason": "Shoulder Injury"
       },
       {
-       "name": "G. Petit",
-       "reason": "Muscle Injury"
-      },
-      {
        "name": "A. Ruibal",
        "reason": "Knee Injury"
       },
       {
-       "name": "H. Bellerin",
-       "reason": "Injury"
+       "name": "G. Lo Celso",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "G. Petit",
+       "reason": "Muscle Injury"
       }
      ],
      "injuriesAway": [
@@ -3355,22 +3529,26 @@
       }
      ],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Marseille ist gegen Strasbourg leicht favorisiert (48 % zu 30 %). Heim-/Auswärtsbilanz: Marseille gewann 3 der letzten 5 Heimspiele, Strasbourg 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:2 (Marseille – Strasbourg). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,5; über 2,5 Tore: 68 %, beide Teams treffen zu 67 %). Gefährlichste Torschützen: bei Marseille Mason Greenwood (16 Tore) und bei Strasbourg Joaquín Panichelli (16 Tore). Personal: Marseille fehlen 2 Spieler (u.a. N. Aguerd); Strasbourg fehlen 3 Spieler (u.a. S. Coulibaly).",
+     "analysis": "Marseille ist gegen Strasbourg leicht favorisiert (48 % zu 30 %). Heim-/Auswärtsbilanz: Marseille gewann 3 der letzten 5 Heimspiele, Strasbourg 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:2 (Marseille – Strasbourg). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,5; über 2,5 Tore: 68 %, beide Teams treffen zu 67 %). Gefährlichste Torschützen: bei Marseille Mason Greenwood (16 Tore) und bei Strasbourg Joaquín Panichelli (16 Tore). Personal: Marseille fehlen 4 Spieler (u.a. Q. Timber); Strasbourg fehlen 2 Spieler (u.a. J. Panichelli).",
      "injuriesHome": [
+      {
+       "name": "Q. Timber",
+       "reason": "Yellow Cards"
+      },
       {
        "name": "N. Aguerd",
        "reason": "Groin Injury"
       },
       {
-       "name": "Q. Timber",
-       "reason": "Yellow Cards"
+       "name": "L. Balerdi",
+       "reason": "Calf Injury"
+      },
+      {
+       "name": "F. Moumbagna",
+       "reason": "Injury"
       }
      ],
      "injuriesAway": [
-      {
-       "name": "S. Coulibaly",
-       "reason": "Leg Injury"
-      },
       {
        "name": "J. Panichelli",
        "reason": "Knee Injury"
@@ -3721,7 +3899,13 @@
      "scorersAway": [],
      "scorersPeriod": "Saison",
      "analysis": "RED Star FC 93 ist bei Boulogne leicht favorisiert (50 % zu 22 %). In der Tabelle stehen sich Platz 12 und Platz 6 gegenüber. Die Form spricht für RED Star FC 93: 3 Siege aus den letzten 5 Spielen, Boulogne holte nur 0. Heim-/Auswärtsbilanz: Boulogne gewann 0 der letzten 5 Heimspiele, RED Star FC 93 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:2 (Red Star – Boulogne). Das Modell erwartet eher wenige Tore (xG 0,8:1,3; über 2,5 Tore: 35 %, beide Teams treffen zu 40 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,25) für 9 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "news": [
+      {
+       "title": "Ohne Top-Stars vor dem Auftakt: Barcala benötigt Liste als Gedankenstütze",
+       "link": "https://www.kicker.de/ohne-top-stars-vor-dem-auftakt-barcala-benoetigt-liste-als-gedankenstuetze-1245045/artikel#omrss"
+      }
+     ]
     },
     {
      "kickoff": "2026-08-21T20:00:00+02:00",
@@ -4005,16 +4189,16 @@
      },
      "pBtts": 0.7141,
      "odds": {
-      "h": 2.35,
-      "d": 3.8,
-      "a": 2.62,
+      "h": 2.38,
+      "d": 3.75,
+      "a": 2.6,
       "src": "10Bet"
      },
      "value": {
       "outcome": "2",
-      "edge": 0.129,
+      "edge": 0.1266,
       "modelP": 0.4856,
-      "odds": 2.62
+      "odds": 2.6
      },
      "scorersHome": [
       {
@@ -4033,7 +4217,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Jong AZ ist bei Emmen leicht favorisiert (48 % zu 31 %). In der Tabelle stehen sich Platz 6 und Platz 19 gegenüber. Das letzte Duell (2026) endete 2:3 (Jong AZ – Emmen). Das Modell erwartet ein torreiches Spiel (xG 1,7:2,1; über 2,5 Tore: 73 %, beide Teams treffen zu 71 %). Gefährlichste Torschützen: bei Emmen Freddy Quispel (3 Tore) und bei Jong AZ Ayoub Oufkir (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,62) für 13 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Jong AZ ist bei Emmen leicht favorisiert (48 % zu 31 %). In der Tabelle stehen sich Platz 6 und Platz 19 gegenüber. Das letzte Duell (2026) endete 2:3 (Jong AZ – Emmen). Das Modell erwartet ein torreiches Spiel (xG 1,7:2,1; über 2,5 Tore: 73 %, beide Teams treffen zu 71 %). Gefährlichste Torschützen: bei Emmen Freddy Quispel (3 Tore) und bei Jong AZ Ayoub Oufkir (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,60) für 13 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -4966,16 +5150,16 @@
      },
      "pBtts": 0.7035,
      "odds": {
-      "h": 2.95,
-      "d": 3.8,
-      "a": 2.14,
+      "h": 2.7,
+      "d": 3.95,
+      "a": 2.25,
       "src": "10Bet"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.1318,
+      "edge": 0.102,
       "modelP": 0.4488,
-      "odds": 2.95
+      "odds": 2.7
      },
      "scorersHome": [
       {
@@ -4990,7 +5174,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Orlando City SC ist gegen Chicago Fire leicht favorisiert (45 % zu 34 %). In der Tabelle stehen sich Platz 10 und Platz 3 gegenüber. Die Form spricht für Chicago Fire: 5 Siege aus den letzten 5 Spielen, Orlando City SC holte nur 1. Das letzte Duell (2025) endete 3:1 (Chicago Fire – Orlando City SC). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,7; über 2,5 Tore: 71 %, beide Teams treffen zu 70 %). Gefährlichste Torschützen: bei Orlando City SC M. Ojeda (11 Tore) und bei Chicago Fire Hugo Cuypers (13 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,95) für 13 Prozentpunkte wahrscheinlicher als der Markt. Personal: Orlando City SC fehlen 6 Spieler (u.a. R. Jansson); Chicago Fire fehlen 6 Spieler (u.a. A. Franco).",
+     "analysis": "Orlando City SC ist gegen Chicago Fire leicht favorisiert (45 % zu 34 %). In der Tabelle stehen sich Platz 10 und Platz 3 gegenüber. Die Form spricht für Chicago Fire: 5 Siege aus den letzten 5 Spielen, Orlando City SC holte nur 1. Das letzte Duell (2025) endete 3:1 (Chicago Fire – Orlando City SC). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,7; über 2,5 Tore: 71 %, beide Teams treffen zu 70 %). Gefährlichste Torschützen: bei Orlando City SC M. Ojeda (11 Tore) und bei Chicago Fire Hugo Cuypers (13 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,70) für 10 Prozentpunkte wahrscheinlicher als der Markt. Personal: Orlando City SC fehlen 6 Spieler (u.a. R. Jansson); Chicago Fire fehlen 6 Spieler (u.a. A. Franco).",
      "injuriesHome": [
       {
        "name": "R. Jansson",
@@ -5420,9 +5604,9 @@
      },
      "pBtts": 0.6457,
      "odds": {
-      "h": 2.8,
-      "d": 3.8,
-      "a": 2.22,
+      "h": 2.7,
+      "d": 3.85,
+      "a": 2.28,
       "src": "10Bet"
      },
      "value": null,
@@ -5569,11 +5753,16 @@
      "pBtts": 0.5866,
      "odds": {
       "h": 1.67,
-      "d": 3.95,
-      "a": 4.65,
+      "d": 4.1,
+      "a": 4.45,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.107,
+      "modelP": 0.3175,
+      "odds": 4.45
+     },
      "scorersHome": [],
      "scorersAway": [
       {
@@ -5582,7 +5771,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Columbus Crew ist gegen CF Montreal leicht favorisiert (44 % zu 32 %). In der Tabelle stehen sich Platz 11 und Platz 14 gegenüber. Die Form spricht für Columbus Crew: 2 Siege aus den letzten 5 Spielen, CF Montreal holte nur 0. Das letzte Duell (2025) endete 1:1 (CF Montreal – Columbus Crew). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,3; über 2,5 Tore: 56 %, beide Teams treffen zu 59 %). Gefährlichste Torschützen: bei CF Montreal P. Owusu (11 Tore). Personal: Columbus Crew fehlen 6 Spieler (u.a. M. Farsi); CF Montreal fehlen 6 Spieler (u.a. F. Herbers).",
+     "analysis": "Columbus Crew ist gegen CF Montreal leicht favorisiert (44 % zu 32 %). In der Tabelle stehen sich Platz 11 und Platz 14 gegenüber. Die Form spricht für Columbus Crew: 2 Siege aus den letzten 5 Spielen, CF Montreal holte nur 0. Das letzte Duell (2025) endete 1:1 (CF Montreal – Columbus Crew). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,3; über 2,5 Tore: 56 %, beide Teams treffen zu 59 %). Gefährlichste Torschützen: bei CF Montreal P. Owusu (11 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 4,45) für 11 Prozentpunkte wahrscheinlicher als der Markt. Personal: Columbus Crew fehlen 6 Spieler (u.a. M. Farsi); CF Montreal fehlen 6 Spieler (u.a. F. Herbers).",
      "injuriesHome": [
       {
        "name": "M. Farsi",
@@ -5711,16 +5900,16 @@
      },
      "pBtts": 0.6373,
      "odds": {
-      "h": 2.28,
+      "h": 2.5,
       "d": 3.6,
-      "a": 2.82,
+      "a": 2.56,
       "src": "10Bet"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.0921,
+      "edge": 0.1272,
       "modelP": 0.5016,
-      "odds": 2.28
+      "odds": 2.5
      },
      "scorersHome": [
       {
@@ -5730,7 +5919,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "DC United ist gegen New England Revolution leicht favorisiert (50 % zu 28 %). In der Tabelle stehen sich Platz 9 und Platz 4 gegenüber. Das letzte Duell (2026) endete 1:0 (New England Revolution – DC United). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,4; über 2,5 Tore: 64 %, beide Teams treffen zu 64 %). Gefährlichste Torschützen: bei DC United Tai Baribo (12 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,28) für 9 Prozentpunkte wahrscheinlicher als der Markt. Personal: DC United fehlen 6 Spieler (u.a. H. Karamoko); New England Revolution fehlen 6 Spieler (u.a. M. Fofana).",
+     "analysis": "DC United ist gegen New England Revolution leicht favorisiert (50 % zu 28 %). In der Tabelle stehen sich Platz 9 und Platz 4 gegenüber. Das letzte Duell (2026) endete 1:0 (New England Revolution – DC United). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,4; über 2,5 Tore: 64 %, beide Teams treffen zu 64 %). Gefährlichste Torschützen: bei DC United Tai Baribo (12 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,50) für 13 Prozentpunkte wahrscheinlicher als der Markt. Personal: DC United fehlen 6 Spieler (u.a. H. Karamoko); New England Revolution fehlen 6 Spieler (u.a. M. Fofana).",
      "injuriesHome": [
       {
        "name": "H. Karamoko",
@@ -5786,12 +5975,12 @@
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
       {
-       "title": "Regulas Zukunft hängt auch an El Mala - und England mischt mit",
-       "link": "https://www.kicker.de/regulas-zukunft-haengt-auch-an-el-mala-und-england-mischt-mit-1244608/artikel#omrss"
+       "title": "City \"vermöbeln\", Konstanz im Job: Gleich vier deutsche Trainer legen in England los",
+       "link": "https://www.kicker.de/city-vermoebeln-konstanz-im-job-gleich-vier-deutsche-trainer-legen-in-england-los-1245066/artikel#omrss"
       },
       {
-       "title": "Bewegung im Diaby-Poker - ManUnited will Baleba für 70 Millionen Euro - WM-Keeper Suzuki nach England",
-       "link": "https://www.kicker.de/transferticker-953155/artikel#omrss"
+       "title": "Regulas Zukunft hängt auch an El Mala - und England mischt mit",
+       "link": "https://www.kicker.de/regulas-zukunft-haengt-auch-an-el-mala-und-england-mischt-mit-1244608/artikel#omrss"
       }
      ]
     },
@@ -5869,9 +6058,9 @@
      },
      "pBtts": 0.7012,
      "odds": {
-      "h": 1.97,
-      "d": 3.9,
-      "a": 3.25,
+      "h": 1.9,
+      "d": 3.95,
+      "a": 3.4,
       "src": "10Bet"
      },
      "value": null,
@@ -6017,21 +6206,16 @@
      },
      "pBtts": 0.5677,
      "odds": {
-      "h": 3.4,
-      "d": 3.95,
-      "a": 1.9,
+      "h": 3.7,
+      "d": 3.85,
+      "a": 1.84,
       "src": "10Bet"
      },
-     "value": {
-      "outcome": "2",
-      "edge": 0.086,
-      "modelP": 0.5762,
-      "odds": 1.9
-     },
+     "value": null,
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "St. Louis City reist als klarer Favorit (57 %) zu Sporting Kansas City. In der Tabelle stehen sich Platz 15 und Platz 6 gegenüber. Die Form spricht für St. Louis City: 4 Siege aus den letzten 5 Spielen, Sporting Kansas City holte nur 1. Das letzte Duell (2026) endete 3:2 (St. Louis City – Sporting Kansas City). Das Modell erwartet ein torreiches Spiel (xG 1,1:1,9; über 2,5 Tore: 59 %, beide Teams treffen zu 57 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 1,90) für 9 Prozentpunkte wahrscheinlicher als der Markt. Personal: Sporting Kansas City fehlen 6 Spieler (u.a. J. Kortkamp); St. Louis City fehlen 6 Spieler (u.a. F. Fall).",
+     "analysis": "St. Louis City reist als klarer Favorit (57 %) zu Sporting Kansas City. In der Tabelle stehen sich Platz 15 und Platz 6 gegenüber. Die Form spricht für St. Louis City: 4 Siege aus den letzten 5 Spielen, Sporting Kansas City holte nur 1. Das letzte Duell (2026) endete 3:2 (St. Louis City – Sporting Kansas City). Das Modell erwartet ein torreiches Spiel (xG 1,1:1,9; über 2,5 Tore: 59 %, beide Teams treffen zu 57 %). Personal: Sporting Kansas City fehlen 6 Spieler (u.a. J. Kortkamp); St. Louis City fehlen 6 Spieler (u.a. F. Fall).",
      "injuriesHome": [
       {
        "name": "J. Kortkamp",
@@ -6160,9 +6344,9 @@
      },
      "pBtts": 0.5454,
      "odds": {
-      "h": 1.81,
-      "d": 3.9,
-      "a": 3.85,
+      "h": 1.63,
+      "d": 4.1,
+      "a": 4.7,
       "src": "10Bet"
      },
      "value": null,
@@ -6298,16 +6482,21 @@
      },
      "pBtts": 0.5495,
      "odds": {
-      "h": 1.67,
+      "h": 1.73,
       "d": 3.95,
-      "a": 4.65,
+      "a": 4.2,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.2076,
+      "modelP": 0.4303,
+      "odds": 4.2
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Austin ist bei Seattle Sounders leicht favorisiert (43 % zu 32 %). In der Tabelle stehen sich Platz 11 und Platz 14 gegenüber. Das letzte Duell (2026) endete 3:1 (Austin – Seattle Sounders). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,2:1,5; über 2,5 Tore: 51 %, beide Teams treffen zu 55 %). Personal: Seattle Sounders fehlen 6 Spieler (u.a. S. Hawkins); Austin fehlen 6 Spieler (u.a. M. Desler).",
+     "analysis": "Austin ist bei Seattle Sounders leicht favorisiert (43 % zu 32 %). In der Tabelle stehen sich Platz 11 und Platz 14 gegenüber. Das letzte Duell (2026) endete 3:1 (Austin – Seattle Sounders). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,2:1,5; über 2,5 Tore: 51 %, beide Teams treffen zu 55 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 4,20) für 21 Prozentpunkte wahrscheinlicher als der Markt. Personal: Seattle Sounders fehlen 6 Spieler (u.a. S. Hawkins); Austin fehlen 6 Spieler (u.a. M. Desler).",
      "injuriesHome": [
       {
        "name": "S. Hawkins",
@@ -6435,12 +6624,7 @@
       "confidence": "mittel"
      },
      "pBtts": 0.5894,
-     "odds": {
-      "h": 1.81,
-      "d": 3.95,
-      "a": 3.8,
-      "src": "10Bet"
-     },
+     "odds": null,
      "value": null,
      "scorersHome": [],
      "scorersAway": [
@@ -6503,7 +6687,7 @@
        "reason": "Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste. Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-20T03:30:00+02:00",
@@ -6579,9 +6763,9 @@
      },
      "pBtts": 0.4202,
      "odds": {
-      "h": 2.66,
+      "h": 2.5,
       "d": 3.6,
-      "a": 2.4,
+      "a": 2.56,
       "src": "10Bet"
      },
      "value": null,
@@ -6727,9 +6911,9 @@
      },
      "pBtts": 0.5679,
      "odds": {
-      "h": 1.52,
-      "d": 4.4,
-      "a": 5.4,
+      "h": 1.53,
+      "d": 4.2,
+      "a": 5.6,
       "src": "10Bet"
      },
      "value": null,
@@ -6875,16 +7059,16 @@
      },
      "pBtts": 0.5979,
      "odds": {
-      "h": 2.24,
-      "d": 3.75,
-      "a": 2.8,
+      "h": 2.25,
+      "d": 3.8,
+      "a": 2.78,
       "src": "10Bet"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.0634,
+      "edge": 0.0641,
       "modelP": 0.4805,
-      "odds": 2.24
+      "odds": 2.25
      },
      "scorersHome": [],
      "scorersAway": [
@@ -6894,7 +7078,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Los Angeles Galaxy ist gegen San Jose Earthquakes leicht favorisiert (48 % zu 28 %). In der Tabelle stehen sich Platz 13 und Platz 4 gegenüber. Das letzte Duell (2026) endete 1:1 (San Jose Earthquakes – Los Angeles Galaxy). Das Modell erwartet ein torreiches Spiel (xG 1,7:1,3; über 2,5 Tore: 58 %, beide Teams treffen zu 60 %). Gefährlichste Torschützen: bei San Jose Earthquakes Preston Judd (11 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,24) für 6 Prozentpunkte wahrscheinlicher als der Markt. Personal: Los Angeles Galaxy fehlen 6 Spieler (u.a. E. Cerrillo); San Jose Earthquakes fehlen 6 Spieler (u.a. E. Edwards).",
+     "analysis": "Los Angeles Galaxy ist gegen San Jose Earthquakes leicht favorisiert (48 % zu 28 %). In der Tabelle stehen sich Platz 13 und Platz 4 gegenüber. Das letzte Duell (2026) endete 1:1 (San Jose Earthquakes – Los Angeles Galaxy). Das Modell erwartet ein torreiches Spiel (xG 1,7:1,3; über 2,5 Tore: 58 %, beide Teams treffen zu 60 %). Gefährlichste Torschützen: bei San Jose Earthquakes Preston Judd (11 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,25) für 6 Prozentpunkte wahrscheinlicher als der Markt. Personal: Los Angeles Galaxy fehlen 6 Spieler (u.a. E. Cerrillo); San Jose Earthquakes fehlen 6 Spieler (u.a. E. Edwards).",
      "injuriesHome": [
       {
        "name": "E. Cerrillo",
@@ -7023,17 +7207,12 @@
      },
      "pBtts": 0.6941,
      "odds": {
-      "h": 2.02,
+      "h": 1.9,
       "d": 4.1,
-      "a": 3.0,
+      "a": 3.3,
       "src": "10Bet"
      },
-     "value": {
-      "outcome": "1",
-      "edge": 0.074,
-      "modelP": 0.5357,
-      "odds": 2.02
-     },
+     "value": null,
      "scorersHome": [
       {
        "name": "K. Kelsy",
@@ -7047,7 +7226,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Portland Timbers ist gegen San Diego leicht favorisiert (54 % zu 26 %). In der Tabelle stehen sich Platz 10 und Platz 12 gegenüber. Das letzte Duell (2026) endete 1:2 (San Diego – Portland Timbers). Das Modell erwartet ein torreiches Spiel (xG 2,2:1,5; über 2,5 Tore: 72 %, beide Teams treffen zu 69 %). Gefährlichste Torschützen: bei Portland Timbers K. Kelsy (9 Tore) und bei San Diego Marcus Ingvartsen (11 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,02) für 7 Prozentpunkte wahrscheinlicher als der Markt. Personal: Portland Timbers fehlen 6 Spieler (u.a. D. Da Costa); San Diego fehlen 6 Spieler (u.a. A. Alvarado Jr).",
+     "analysis": "Portland Timbers ist gegen San Diego leicht favorisiert (54 % zu 26 %). In der Tabelle stehen sich Platz 10 und Platz 12 gegenüber. Das letzte Duell (2026) endete 1:2 (San Diego – Portland Timbers). Das Modell erwartet ein torreiches Spiel (xG 2,2:1,5; über 2,5 Tore: 72 %, beide Teams treffen zu 69 %). Gefährlichste Torschützen: bei Portland Timbers K. Kelsy (9 Tore) und bei San Diego Marcus Ingvartsen (11 Tore). Personal: Portland Timbers fehlen 6 Spieler (u.a. D. Da Costa); San Diego fehlen 6 Spieler (u.a. A. Alvarado Jr).",
      "injuriesHome": [
       {
        "name": "D. Da Costa",
