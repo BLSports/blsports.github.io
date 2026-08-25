@@ -18249,7 +18249,7 @@
    "prob": 0.3903,
    "tipScore": "1:1",
    "pOver25": 0.4652,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -18267,7 +18267,7 @@
    "prob": 0.7126,
    "tipScore": "2:1",
    "pOver25": 0.6969,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -18357,7 +18357,7 @@
    "prob": 0.4509,
    "tipScore": "1:1",
    "pOver25": 0.4513,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -18393,7 +18393,7 @@
    "prob": 0.591,
    "tipScore": "1:0",
    "pOver25": 0.4793,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -18447,7 +18447,7 @@
    "prob": 0.4785,
    "tipScore": "1:1",
    "pOver25": 0.6839,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -18465,7 +18465,7 @@
    "prob": 0.3878,
    "tipScore": "1:1",
    "pOver25": 0.6296,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -18483,7 +18483,7 @@
    "prob": 0.6023,
    "tipScore": "1:0",
    "pOver25": 0.5366,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -18501,7 +18501,7 @@
    "prob": 0.4774,
    "tipScore": "1:1",
    "pOver25": 0.5519,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -18519,7 +18519,7 @@
    "prob": 0.5037,
    "tipScore": "1:1",
    "pOver25": 0.6198,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -18537,7 +18537,7 @@
    "prob": 0.3935,
    "tipScore": "1:1",
    "pOver25": 0.434,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -18573,7 +18573,7 @@
    "prob": 0.799,
    "tipScore": "2:0",
    "pOver25": 0.6781,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -18591,7 +18591,7 @@
    "prob": 0.5722,
    "tipScore": "1:2",
    "pOver25": 0.6093,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -18609,7 +18609,7 @@
    "prob": 0.5793,
    "tipScore": "2:1",
    "pOver25": 0.6364,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -18627,7 +18627,7 @@
    "prob": 0.4194,
    "tipScore": "1:1",
    "pOver25": 0.5176,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -18645,7 +18645,7 @@
    "prob": 0.7232,
    "tipScore": "2:0",
    "pOver25": 0.7025,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -18663,7 +18663,7 @@
    "prob": 0.3936,
    "tipScore": "1:1",
    "pOver25": 0.6305,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -18681,7 +18681,7 @@
    "prob": 0.4913,
    "tipScore": "1:1",
    "pOver25": 0.5284,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -18699,7 +18699,7 @@
    "prob": 0.408,
    "tipScore": "1:1",
    "pOver25": 0.568,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -18717,7 +18717,7 @@
    "prob": 0.5793,
    "tipScore": "2:1",
    "pOver25": 0.6364,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -20589,7 +20589,7 @@
    "prob": 0.4423,
    "tipScore": "1:1",
    "pOver25": 0.4521,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -20607,10 +20607,10 @@
    "prob": 0.5089,
    "tipScore": "1:0",
    "pOver25": 0.4377,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "1:1",
+   "correct": false,
+   "exact": false
   },
   "fb|ll2|2026-08-17|sp gijon|sabadell": {
    "sport": "fb",
@@ -21993,10 +21993,10 @@
    "prob": 0.3795,
    "tipScore": "1:1",
    "pOver25": 0.5046,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "3:0",
+   "correct": true,
+   "exact": false
   },
   "fb|ll1|2026-08-21|betis|sociedad": {
    "sport": "fb",
@@ -22011,10 +22011,10 @@
    "prob": 0.6007,
    "tipScore": "2:1",
    "pOver25": 0.6853,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "1:0",
+   "correct": true,
+   "exact": false
   },
   "fb|ll2|2026-08-21|cordoba|girona": {
    "sport": "fb",
@@ -22029,10 +22029,10 @@
    "prob": 0.4178,
    "tipScore": "1:1",
    "pOver25": 0.5646,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:1",
+   "correct": true,
+   "exact": false
   },
   "fb|fr1|2026-08-21|marseille|strasbourg": {
    "sport": "fb",
@@ -22047,10 +22047,10 @@
    "prob": 0.4857,
    "tipScore": "1:1",
    "pOver25": 0.6803,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "4:0",
+   "correct": true,
+   "exact": false
   },
   "fb|fr2|2026-08-21|clermont foot|dijon": {
    "sport": "fb",
@@ -22083,10 +22083,10 @@
    "prob": 0.4444,
    "tipScore": "1:1",
    "pOver25": 0.4534,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "1:0",
+   "correct": true,
+   "exact": false
   },
   "fb|fr2|2026-08-21|pau|nancy": {
    "sport": "fb",
@@ -22137,10 +22137,10 @@
    "prob": 0.4035,
    "tipScore": "1:1",
    "pOver25": 0.4815,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "0:1",
+   "correct": true,
+   "exact": false
   },
   "fb|nl2|2026-08-21|vitesse|almere city fc": {
    "sport": "fb",
@@ -22461,10 +22461,10 @@
    "prob": 0.4926,
    "tipScore": "1:0",
    "pOver25": 0.4385,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:0",
+   "correct": true,
+   "exact": false
   },
   "fb|pl|2026-08-22|ipswich|sunderland": {
    "sport": "fb",
@@ -22479,10 +22479,10 @@
    "prob": 0.5023,
    "tipScore": "1:1",
    "pOver25": 0.6046,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:1",
+   "correct": true,
+   "exact": false
   },
   "fb|pl|2026-08-22|nott'm forest|leeds": {
    "sport": "fb",
@@ -22497,10 +22497,10 @@
    "prob": 0.4811,
    "tipScore": "1:1",
    "pOver25": 0.4958,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "0:1",
+   "correct": false,
+   "exact": false
   },
   "fb|pl|2026-08-22|brentford|tottenham": {
    "sport": "fb",
@@ -22515,10 +22515,10 @@
    "prob": 0.5404,
    "tipScore": "1:1",
    "pOver25": 0.5403,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "3:0",
+   "correct": true,
+   "exact": false
   },
   "fb|sa|2026-08-22|udinese|como": {
    "sport": "fb",
@@ -22533,10 +22533,10 @@
    "prob": 0.5762,
    "tipScore": "0:1",
    "pOver25": 0.4403,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "1:1",
+   "correct": false,
+   "exact": false
   },
   "fb|sa|2026-08-22|inter|monza": {
    "sport": "fb",
@@ -22551,10 +22551,10 @@
    "prob": 0.5257,
    "tipScore": "1:1",
    "pOver25": 0.6415,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "4:1",
+   "correct": true,
+   "exact": false
   },
   "fb|sa|2026-08-22|genoa|napoli": {
    "sport": "fb",
@@ -22569,10 +22569,10 @@
    "prob": 0.537,
    "tipScore": "0:1",
    "pOver25": 0.439,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "0:2",
+   "correct": true,
+   "exact": false
   },
   "fb|sa|2026-08-22|parma|cagliari": {
    "sport": "fb",
@@ -22587,10 +22587,10 @@
    "prob": 0.3657,
    "tipScore": "0:0",
    "pOver25": 0.2983,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "0:1",
+   "correct": true,
+   "exact": false
   },
   "fb|ll1|2026-08-22|ath bilbao|sevilla": {
    "sport": "fb",
@@ -22605,10 +22605,10 @@
    "prob": 0.4684,
    "tipScore": "1:1",
    "pOver25": 0.519,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "1:3",
+   "correct": false,
+   "exact": false
   },
   "fb|ll1|2026-08-22|valencia|celta": {
    "sport": "fb",
@@ -22623,10 +22623,10 @@
    "prob": 0.4224,
    "tipScore": "1:1",
    "pOver25": 0.504,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "0:0",
+   "correct": false,
+   "exact": false
   },
   "fb|ll1|2026-08-22|espanol|real madrid": {
    "sport": "fb",
@@ -22641,10 +22641,10 @@
    "prob": 0.5473,
    "tipScore": "0:1",
    "pOver25": 0.5072,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "1:2",
+   "correct": true,
+   "exact": false
   },
   "fb|ll2|2026-08-22|oviedo|leganes": {
    "sport": "fb",
@@ -22659,10 +22659,10 @@
    "prob": 0.4908,
    "tipScore": "1:0",
    "pOver25": 0.4088,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "0:1",
+   "correct": false,
+   "exact": false
   },
   "fb|ll2|2026-08-22|albacete|real sociedad ii": {
    "sport": "fb",
@@ -22713,10 +22713,10 @@
    "prob": 0.5746,
    "tipScore": "1:0",
    "pOver25": 0.455,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "2:2",
+   "correct": false,
+   "exact": false
   },
   "fb|fr1|2026-08-22|lens|auxerre": {
    "sport": "fb",
@@ -22731,10 +22731,10 @@
    "prob": 0.6551,
    "tipScore": "1:0",
    "pOver25": 0.5057,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "5:2",
+   "correct": true,
+   "exact": false
   },
   "fb|fr1|2026-08-22|nice|lorient": {
    "sport": "fb",
@@ -22749,10 +22749,10 @@
    "prob": 0.4748,
    "tipScore": "1:1",
    "pOver25": 0.5239,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "0:0",
+   "correct": false,
+   "exact": false
   },
   "fb|fr1|2026-08-22|toulouse|lyon": {
    "sport": "fb",
@@ -22767,10 +22767,10 @@
    "prob": 0.3835,
    "tipScore": "1:1",
    "pOver25": 0.5095,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "0:2",
+   "correct": true,
+   "exact": false
   },
   "fb|fr1|2026-08-22|estac troyes|paris fc": {
    "sport": "fb",
@@ -22821,10 +22821,10 @@
    "prob": 0.4015,
    "tipScore": "1:1",
    "pOver25": 0.4617,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:5",
+   "correct": true,
+   "exact": false
   },
   "fb|fr2|2026-08-22|metz|laval": {
    "sport": "fb",
@@ -22839,10 +22839,10 @@
    "prob": 0.5183,
    "tipScore": "1:0",
    "pOver25": 0.4519,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "1:1",
+   "correct": false,
+   "exact": false
   },
   "fb|fr2|2026-08-22|saint etienne|grenoble": {
    "sport": "fb",
@@ -22893,10 +22893,10 @@
    "prob": 0.4559,
    "tipScore": "1:1",
    "pOver25": 0.5085,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "3:3",
+   "correct": false,
+   "exact": false
   },
   "fb|nl1|2026-08-22|heerenveen|pec zwolle": {
    "sport": "fb",
@@ -22983,10 +22983,10 @@
    "prob": 0.3687,
    "tipScore": "1:1",
    "pOver25": 0.4276,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "4:4",
+   "correct": false,
+   "exact": false
   },
   "fb|pt1|2026-08-22|maritimo|academico viseu": {
    "sport": "fb",
@@ -23001,10 +23001,10 @@
    "prob": 0.4427,
    "tipScore": "1:1",
    "pOver25": 0.5116,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "2:2",
+   "correct": false,
+   "exact": false
   },
   "fb|pt1|2026-08-22|estoril|rio ave": {
    "sport": "fb",
@@ -23019,10 +23019,10 @@
    "prob": 0.5935,
    "tipScore": "1:0",
    "pOver25": 0.5583,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "0:2",
+   "correct": false,
+   "exact": false
   },
   "fb|pt1|2026-08-22|sporting cp|alverca": {
    "sport": "fb",
@@ -23055,10 +23055,10 @@
    "prob": 0.4375,
    "tipScore": "1:1",
    "pOver25": 0.6142,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "0:2",
+   "correct": false,
+   "exact": false
   },
   "fb|tr1|2026-08-22|corum fk|kasmpasa": {
    "sport": "fb",
@@ -23091,10 +23091,10 @@
    "prob": 0.7409,
    "tipScore": "2:0",
    "pOver25": 0.7014,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "4:2",
+   "correct": true,
+   "exact": false
   },
   "fb|at1|2026-08-22|scr altach|tsv hartberg": {
    "sport": "fb",
@@ -23307,10 +23307,10 @@
    "prob": 0.664,
    "tipScore": "2:0",
    "pOver25": 0.5985,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:1",
+   "correct": true,
+   "exact": false
   },
   "fb|pl|2026-08-23|brighton|aston villa": {
    "sport": "fb",
@@ -23325,10 +23325,10 @@
    "prob": 0.4422,
    "tipScore": "1:1",
    "pOver25": 0.4983,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "4:0",
+   "correct": true,
+   "exact": false
   },
   "fb|pl|2026-08-23|newcastle|liverpool": {
    "sport": "fb",
@@ -23343,10 +23343,10 @@
    "prob": 0.3842,
    "tipScore": "1:1",
    "pOver25": 0.6234,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "2:2",
+   "correct": false,
+   "exact": false
   },
   "fb|sa|2026-08-23|frosinone|juventus": {
    "sport": "fb",
@@ -23361,10 +23361,10 @@
    "prob": 0.5342,
    "tipScore": "1:0",
    "pOver25": 0.3864,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "0:1",
+   "correct": false,
+   "exact": false
   },
   "fb|sa|2026-08-23|venezia|lecce": {
    "sport": "fb",
@@ -23379,10 +23379,10 @@
    "prob": 0.6334,
    "tipScore": "2:1",
    "pOver25": 0.6536,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "0:2",
+   "correct": false,
+   "exact": false
   },
   "fb|sa|2026-08-23|atalanta|sassuolo": {
    "sport": "fb",
@@ -23397,10 +23397,10 @@
    "prob": 0.516,
    "tipScore": "1:0",
    "pOver25": 0.4352,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:1",
+   "correct": true,
+   "exact": false
   },
   "fb|sa|2026-08-23|torino|milan": {
    "sport": "fb",
@@ -23415,10 +23415,10 @@
    "prob": 0.5385,
    "tipScore": "1:1",
    "pOver25": 0.5132,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "1:2",
+   "correct": true,
+   "exact": false
   },
   "fb|ll1|2026-08-23|ath madrid|villarreal": {
    "sport": "fb",
@@ -23433,10 +23433,10 @@
    "prob": 0.4689,
    "tipScore": "1:1",
    "pOver25": 0.6371,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "2:2",
+   "correct": false,
+   "exact": false
   },
   "fb|ll1|2026-08-23|getafe|santander": {
    "sport": "fb",
@@ -23451,10 +23451,10 @@
    "prob": 0.3626,
    "tipScore": "0:0",
    "pOver25": 0.2763,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "1:0",
+   "correct": true,
+   "exact": false
   },
   "fb|ll1|2026-08-23|elche|barcelona": {
    "sport": "fb",
@@ -23469,10 +23469,10 @@
    "prob": 0.6406,
    "tipScore": "1:2",
    "pOver25": 0.6354,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "0:5",
+   "correct": true,
+   "exact": false
   },
   "fb|ll2|2026-08-23|eibar|valladolid": {
    "sport": "fb",
@@ -23487,10 +23487,10 @@
    "prob": 0.5867,
    "tipScore": "1:0",
    "pOver25": 0.3826,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "1:0",
+   "correct": true,
+   "exact": true
   },
   "fb|ll2|2026-08-23|sp gijon|burgos": {
    "sport": "fb",
@@ -23505,10 +23505,10 @@
    "prob": 0.3547,
    "tipScore": "0:0",
    "pOver25": 0.3032,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "1:0",
+   "correct": false,
+   "exact": false
   },
   "fb|ll2|2026-08-23|castellon|sabadell": {
    "sport": "fb",
@@ -23523,10 +23523,10 @@
    "prob": 0.5658,
    "tipScore": "1:1",
    "pOver25": 0.5543,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "0:0",
+   "correct": false,
+   "exact": false
   },
   "fb|ll2|2026-08-23|tenerife|almeria": {
    "sport": "fb",
@@ -23541,10 +23541,10 @@
    "prob": 0.4134,
    "tipScore": "1:1",
    "pOver25": 0.6572,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "1:0",
+   "correct": false,
+   "exact": false
   },
   "fb|fr1|2026-08-23|angers|lille": {
    "sport": "fb",
@@ -23559,10 +23559,10 @@
    "prob": 0.5328,
    "tipScore": "0:1",
    "pOver25": 0.3282,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "0:2",
+   "correct": true,
+   "exact": false
   },
   "fb|fr1|2026-08-23|le havre|monaco": {
    "sport": "fb",
@@ -23577,10 +23577,10 @@
    "prob": 0.4249,
    "tipScore": "1:1",
    "pOver25": 0.4988,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "0:1",
+   "correct": true,
+   "exact": false
   },
   "fb|fr1|2026-08-23|paris saint germain|rennes": {
    "sport": "fb",
@@ -23631,10 +23631,10 @@
    "prob": 0.6697,
    "tipScore": "2:1",
    "pOver25": 0.7338,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "5:1",
+   "correct": true,
+   "exact": false
   },
   "fb|nl1|2026-08-23|cambuur|feyenoord": {
    "sport": "fb",
@@ -23649,10 +23649,10 @@
    "prob": 0.4483,
    "tipScore": "1:1",
    "pOver25": 0.6037,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:5",
+   "correct": true,
+   "exact": false
   },
   "fb|nl2|2026-08-23|vvv venlo|de graafschap": {
    "sport": "fb",
@@ -23775,10 +23775,10 @@
    "prob": 0.3767,
    "tipScore": "0:0",
    "pOver25": 0.259,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "1:0",
+   "correct": false,
+   "exact": false
   },
   "fb|pt1|2026-08-23|fc porto|arouca": {
    "sport": "fb",
@@ -23865,10 +23865,10 @@
    "prob": 0.4209,
    "tipScore": "1:1",
    "pOver25": 0.4604,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "1:0",
+   "correct": false,
+   "exact": false
   },
   "fb|ch1|2026-08-23|bsc young boys|fc vaduz": {
    "sport": "fb",
@@ -24441,10 +24441,10 @@
    "prob": 0.4124,
    "tipScore": "1:1",
    "pOver25": 0.4914,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "2:3",
+   "correct": false,
+   "exact": false
   },
   "fb|sa|2026-08-24|bologna|lazio": {
    "sport": "fb",
@@ -24459,10 +24459,10 @@
    "prob": 0.3944,
    "tipScore": "1:1",
    "pOver25": 0.3943,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "0:1",
+   "correct": false,
+   "exact": false
   },
   "fb|sa|2026-08-24|roma|fiorentina": {
    "sport": "fb",
@@ -24477,10 +24477,10 @@
    "prob": 0.6251,
    "tipScore": "1:0",
    "pOver25": 0.4578,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "4:0",
+   "correct": true,
+   "exact": false
   },
   "fb|ll1|2026-08-24|osasuna|levante": {
    "sport": "fb",
@@ -24495,10 +24495,10 @@
    "prob": 0.5379,
    "tipScore": "1:1",
    "pOver25": 0.5122,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "0:0",
+   "correct": false,
+   "exact": false
   },
   "fb|ll1|2026-08-24|malaga|la coruna": {
    "sport": "fb",
@@ -24513,10 +24513,10 @@
    "prob": 0.3855,
    "tipScore": "1:1",
    "pOver25": 0.4436,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "1:1",
+   "correct": false,
+   "exact": true
   },
   "fb|ll2|2026-08-24|celta de vigo ii|andorra": {
    "sport": "fb",
@@ -24549,10 +24549,10 @@
    "prob": 0.3927,
    "tipScore": "1:1",
    "pOver25": 0.4432,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:0",
+   "correct": true,
+   "exact": false
   },
   "fb|fr2|2026-08-24|reims|annecy": {
    "sport": "fb",
@@ -24567,10 +24567,10 @@
    "prob": 0.3934,
    "tipScore": "1:1",
    "pOver25": 0.4731,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "3:1",
+   "correct": true,
+   "exact": false
   },
   "fb|nl2|2026-08-24|jong psv u21|fc oss": {
    "sport": "fb",
@@ -24621,10 +24621,10 @@
    "prob": 0.7134,
    "tipScore": "2:0",
    "pOver25": 0.4966,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:0",
+   "correct": true,
+   "exact": true
   },
   "fb|tr1|2026-08-24|kocaelispor|amed": {
    "sport": "fb",
@@ -24780,9 +24780,9 @@
    "awayKey": "betis",
    "tip": "1",
    "tipName": "Valencia",
-   "prob": 0.3973,
+   "prob": 0.371,
    "tipScore": "1:1",
-   "pOver25": 0.53,
+   "pOver25": 0.4816,
    "status": "open",
    "result": null,
    "correct": null,
@@ -24924,9 +24924,675 @@
    "awayKey": "sociedad",
    "tip": "1",
    "tipName": "Real Madrid",
-   "prob": 0.7781,
+   "prob": 0.7712,
    "tipScore": "2:0",
-   "pOver25": 0.7361,
+   "pOver25": 0.7203,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|el|2026-08-27|fc iberia 1999|jagiellonia": {
+   "sport": "fb",
+   "comp": "Europa League",
+   "compId": "el",
+   "date": "2026-08-27",
+   "label": "FC Iberia 1999 – Jagiellonia",
+   "homeKey": "fc iberia 1999",
+   "awayKey": "jagiellonia",
+   "tip": "2",
+   "tipName": "Jagiellonia",
+   "prob": 0.4112,
+   "tipScore": "1:1",
+   "pOver25": 0.4687,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|el|2026-08-27|ararat-armenia|universitatea craiova": {
+   "sport": "fb",
+   "comp": "Europa League",
+   "compId": "el",
+   "date": "2026-08-27",
+   "label": "Ararat-Armenia – Universitatea Craiova",
+   "homeKey": "ararat-armenia",
+   "awayKey": "universitatea craiova",
+   "tip": "1",
+   "tipName": "Ararat-Armenia",
+   "prob": 0.4467,
+   "tipScore": "1:1",
+   "pOver25": 0.552,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|el|2026-08-27|lillestrom|egnatia rrogozhine": {
+   "sport": "fb",
+   "comp": "Europa League",
+   "compId": "el",
+   "date": "2026-08-27",
+   "label": "Lillestrom – Egnatia Rrogozhinë",
+   "homeKey": "lillestrom",
+   "awayKey": "egnatia rrogozhine",
+   "tip": "2",
+   "tipName": "Egnatia Rrogozhinë",
+   "prob": 0.5406,
+   "tipScore": "1:1",
+   "pOver25": 0.5709,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|el|2026-08-27|plzen|fk crvena zvezda": {
+   "sport": "fb",
+   "comp": "Europa League",
+   "compId": "el",
+   "date": "2026-08-27",
+   "label": "Plzen – FK Crvena Zvezda",
+   "homeKey": "plzen",
+   "awayKey": "fk crvena zvezda",
+   "tip": "2",
+   "tipName": "FK Crvena Zvezda",
+   "prob": 0.5012,
+   "tipScore": "1:2",
+   "pOver25": 0.7266,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|el|2026-08-27|red bull salzburg|mjallby aif": {
+   "sport": "fb",
+   "comp": "Europa League",
+   "compId": "el",
+   "date": "2026-08-27",
+   "label": "Red Bull Salzburg – Mjallby AIF",
+   "homeKey": "red bull salzburg",
+   "awayKey": "mjallby aif",
+   "tip": "1",
+   "tipName": "Red Bull Salzburg",
+   "prob": 0.6655,
+   "tipScore": "2:0",
+   "pOver25": 0.6252,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|el|2026-08-27|omonia nicosia|st truiden": {
+   "sport": "fb",
+   "comp": "Europa League",
+   "compId": "el",
+   "date": "2026-08-27",
+   "label": "Omonia Nicosia – St. Truiden",
+   "homeKey": "omonia nicosia",
+   "awayKey": "st truiden",
+   "tip": "1",
+   "tipName": "Omonia Nicosia",
+   "prob": 0.3903,
+   "tipScore": "1:1",
+   "pOver25": 0.4652,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|el|2026-08-27|kauno zalgiris|besiktas": {
+   "sport": "fb",
+   "comp": "Europa League",
+   "compId": "el",
+   "date": "2026-08-27",
+   "label": "Kauno Žalgiris – Beşiktaş",
+   "homeKey": "kauno zalgiris",
+   "awayKey": "besiktas",
+   "tip": "1",
+   "tipName": "Kauno Žalgiris",
+   "prob": 0.3872,
+   "tipScore": "1:1",
+   "pOver25": 0.3981,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|el|2026-08-27|aarhus|benfica": {
+   "sport": "fb",
+   "comp": "Europa League",
+   "compId": "el",
+   "date": "2026-08-27",
+   "label": "Aarhus – Benfica",
+   "homeKey": "aarhus",
+   "awayKey": "benfica",
+   "tip": "2",
+   "tipName": "Benfica",
+   "prob": 0.5193,
+   "tipScore": "1:2",
+   "pOver25": 0.7194,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|el|2026-08-27|cska sofia|ofi": {
+   "sport": "fb",
+   "comp": "Europa League",
+   "compId": "el",
+   "date": "2026-08-27",
+   "label": "CSKA Sofia – OFI",
+   "homeKey": "cska sofia",
+   "awayKey": "ofi",
+   "tip": "1",
+   "tipName": "CSKA Sofia",
+   "prob": 0.5669,
+   "tipScore": "2:1",
+   "pOver25": 0.6176,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|el|2026-08-27|fc thun|lech poznan": {
+   "sport": "fb",
+   "comp": "Europa League",
+   "compId": "el",
+   "date": "2026-08-27",
+   "label": "FC Thun – Lech Poznan",
+   "homeKey": "fc thun",
+   "awayKey": "lech poznan",
+   "tip": "2",
+   "tipName": "Lech Poznan",
+   "prob": 0.5905,
+   "tipScore": "1:2",
+   "pOver25": 0.7391,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|el|2026-08-27|anderlecht|kairat almaty": {
+   "sport": "fb",
+   "comp": "Europa League",
+   "compId": "el",
+   "date": "2026-08-27",
+   "label": "Anderlecht – Kairat Almaty",
+   "homeKey": "anderlecht",
+   "awayKey": "kairat almaty",
+   "tip": "1",
+   "tipName": "Anderlecht",
+   "prob": 0.4543,
+   "tipScore": "1:1",
+   "pOver25": 0.4891,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|el|2026-08-27|ferencvarosi tc|trabzonspor": {
+   "sport": "fb",
+   "comp": "Europa League",
+   "compId": "el",
+   "date": "2026-08-27",
+   "label": "Ferencvarosi TC – Trabzonspor",
+   "homeKey": "ferencvarosi tc",
+   "awayKey": "trabzonspor",
+   "tip": "1",
+   "tipName": "Ferencvarosi TC",
+   "prob": 0.5396,
+   "tipScore": "1:0",
+   "pOver25": 0.4308,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|ecl|2026-08-27|kups|shamrock rovers": {
+   "sport": "fb",
+   "comp": "Conference League",
+   "compId": "ecl",
+   "date": "2026-08-27",
+   "label": "KuPS – Shamrock Rovers",
+   "homeKey": "kups",
+   "awayKey": "shamrock rovers",
+   "tip": "1",
+   "tipName": "KuPS",
+   "prob": 0.4388,
+   "tipScore": "1:1",
+   "pOver25": 0.6202,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|ecl|2026-08-27|qarabag|twente": {
+   "sport": "fb",
+   "comp": "Conference League",
+   "compId": "ecl",
+   "date": "2026-08-27",
+   "label": "Qarabag – Twente",
+   "homeKey": "qarabag",
+   "awayKey": "twente",
+   "tip": "1",
+   "tipName": "Qarabag",
+   "prob": 0.4619,
+   "tipScore": "1:1",
+   "pOver25": 0.595,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|ecl|2026-08-27|maccabi tel aviv|fc lugano": {
+   "sport": "fb",
+   "comp": "Conference League",
+   "compId": "ecl",
+   "date": "2026-08-27",
+   "label": "Maccabi Tel Aviv – FC Lugano",
+   "homeKey": "maccabi tel aviv",
+   "awayKey": "fc lugano",
+   "tip": "2",
+   "tipName": "FC Lugano",
+   "prob": 0.4644,
+   "tipScore": "1:1",
+   "pOver25": 0.6737,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|ecl|2026-08-27|fk jablonec|rangers": {
+   "sport": "fb",
+   "comp": "Conference League",
+   "compId": "ecl",
+   "date": "2026-08-27",
+   "label": "FK Jablonec – Rangers",
+   "homeKey": "fk jablonec",
+   "awayKey": "rangers",
+   "tip": "1",
+   "tipName": "FK Jablonec",
+   "prob": 0.4399,
+   "tipScore": "1:1",
+   "pOver25": 0.4714,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|ecl|2026-08-27|monaco|gornik zabrze": {
+   "sport": "fb",
+   "comp": "Conference League",
+   "compId": "ecl",
+   "date": "2026-08-27",
+   "label": "Monaco – Gornik Zabrze",
+   "homeKey": "monaco",
+   "awayKey": "gornik zabrze",
+   "tip": "1",
+   "tipName": "Monaco",
+   "prob": 0.4834,
+   "tipScore": "1:1",
+   "pOver25": 0.6024,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|ecl|2026-08-27|sc freiburg|motherwell": {
+   "sport": "fb",
+   "comp": "Conference League",
+   "compId": "ecl",
+   "date": "2026-08-27",
+   "label": "SC Freiburg – Motherwell",
+   "homeKey": "sc freiburg",
+   "awayKey": "motherwell",
+   "tip": "1",
+   "tipName": "SC Freiburg",
+   "prob": 0.554,
+   "tipScore": "2:1",
+   "pOver25": 0.6529,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|ecl|2026-08-27|brann|paok": {
+   "sport": "fb",
+   "comp": "Conference League",
+   "compId": "ecl",
+   "date": "2026-08-27",
+   "label": "Brann – PAOK",
+   "homeKey": "brann",
+   "awayKey": "paok",
+   "tip": "1",
+   "tipName": "Brann",
+   "prob": 0.4736,
+   "tipScore": "2:1",
+   "pOver25": 0.7054,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|ecl|2026-08-27|fc copenhagen|inter turku": {
+   "sport": "fb",
+   "comp": "Conference League",
+   "compId": "ecl",
+   "date": "2026-08-27",
+   "label": "FC Copenhagen – Inter Turku",
+   "homeKey": "fc copenhagen",
+   "awayKey": "inter turku",
+   "tip": "1",
+   "tipName": "FC Copenhagen",
+   "prob": 0.5336,
+   "tipScore": "1:1",
+   "pOver25": 0.5529,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|ecl|2026-08-27|inter club descaldes|drita": {
+   "sport": "fb",
+   "comp": "Conference League",
+   "compId": "ecl",
+   "date": "2026-08-27",
+   "label": "Inter Club d'Escaldes – Drita",
+   "homeKey": "inter club descaldes",
+   "awayKey": "drita",
+   "tip": "1",
+   "tipName": "Inter Club d'Escaldes",
+   "prob": 0.5169,
+   "tipScore": "2:1",
+   "pOver25": 0.7622,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|ecl|2026-08-27|pafos|dinamo tirana": {
+   "sport": "fb",
+   "comp": "Conference League",
+   "compId": "ecl",
+   "date": "2026-08-27",
+   "label": "Pafos – Dinamo Tirana",
+   "homeKey": "pafos",
+   "awayKey": "dinamo tirana",
+   "tip": "1",
+   "tipName": "Pafos",
+   "prob": 0.3903,
+   "tipScore": "1:1",
+   "pOver25": 0.4652,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|ecl|2026-08-27|rakow czestochowa|hnk hajduk split": {
+   "sport": "fb",
+   "comp": "Conference League",
+   "compId": "ecl",
+   "date": "2026-08-27",
+   "label": "Raków Częstochowa – HNK Hajduk Split",
+   "homeKey": "rakow czestochowa",
+   "awayKey": "hnk hajduk split",
+   "tip": "2",
+   "tipName": "HNK Hajduk Split",
+   "prob": 0.4058,
+   "tipScore": "1:1",
+   "pOver25": 0.6228,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|ecl|2026-08-27|hradec kralove|panathinaikos": {
+   "sport": "fb",
+   "comp": "Conference League",
+   "compId": "ecl",
+   "date": "2026-08-27",
+   "label": "Hradec Králové – Panathinaikos",
+   "homeKey": "hradec kralove",
+   "awayKey": "panathinaikos",
+   "tip": "1",
+   "tipName": "Hradec Králové",
+   "prob": 0.449,
+   "tipScore": "1:1",
+   "pOver25": 0.5703,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|ecl|2026-08-27|riga|ki klaksvik": {
+   "sport": "fb",
+   "comp": "Conference League",
+   "compId": "ecl",
+   "date": "2026-08-27",
+   "label": "Riga – KI Klaksvik",
+   "homeKey": "riga",
+   "awayKey": "ki klaksvik",
+   "tip": "1",
+   "tipName": "Riga",
+   "prob": 0.6759,
+   "tipScore": "2:0",
+   "pOver25": 0.6503,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|ecl|2026-08-27|ajax|fc sion": {
+   "sport": "fb",
+   "comp": "Conference League",
+   "compId": "ecl",
+   "date": "2026-08-27",
+   "label": "Ajax – FC Sion",
+   "homeKey": "ajax",
+   "awayKey": "fc sion",
+   "tip": "1",
+   "tipName": "Ajax",
+   "prob": 0.4834,
+   "tipScore": "2:1",
+   "pOver25": 0.7592,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|ecl|2026-08-27|fc st gallen|fc nordsjaelland": {
+   "sport": "fb",
+   "comp": "Conference League",
+   "compId": "ecl",
+   "date": "2026-08-27",
+   "label": "FC ST. Gallen – FC Nordsjaelland",
+   "homeKey": "fc st gallen",
+   "awayKey": "fc nordsjaelland",
+   "tip": "2",
+   "tipName": "FC Nordsjaelland",
+   "prob": 0.4758,
+   "tipScore": "1:1",
+   "pOver25": 0.6485,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|ecl|2026-08-27|hapoel tel aviv|atalanta": {
+   "sport": "fb",
+   "comp": "Conference League",
+   "compId": "ecl",
+   "date": "2026-08-27",
+   "label": "Hapoel Tel Aviv – Atalanta",
+   "homeKey": "hapoel tel aviv",
+   "awayKey": "atalanta",
+   "tip": "1",
+   "tipName": "Hapoel Tel Aviv",
+   "prob": 0.4609,
+   "tipScore": "1:1",
+   "pOver25": 0.4636,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|ecl|2026-08-27|brighton|tromso": {
+   "sport": "fb",
+   "comp": "Conference League",
+   "compId": "ecl",
+   "date": "2026-08-27",
+   "label": "Brighton – Tromso",
+   "homeKey": "brighton",
+   "awayKey": "tromso",
+   "tip": "2",
+   "tipName": "Tromso",
+   "prob": 0.3974,
+   "tipScore": "1:1",
+   "pOver25": 0.6491,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|ecl|2026-08-27|austria vienna|sc braga": {
+   "sport": "fb",
+   "comp": "Conference League",
+   "compId": "ecl",
+   "date": "2026-08-27",
+   "label": "Austria Vienna – SC Braga",
+   "homeKey": "austria vienna",
+   "awayKey": "sc braga",
+   "tip": "2",
+   "tipName": "SC Braga",
+   "prob": 0.406,
+   "tipScore": "1:1",
+   "pOver25": 0.4932,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|ecl|2026-08-27|borac banja luka|vikingur reykjavik": {
+   "sport": "fb",
+   "comp": "Conference League",
+   "compId": "ecl",
+   "date": "2026-08-27",
+   "label": "Borac Banja Luka – Vikingur Reykjavik",
+   "homeKey": "borac banja luka",
+   "awayKey": "vikingur reykjavik",
+   "tip": "1",
+   "tipName": "Borac Banja Luka",
+   "prob": 0.4874,
+   "tipScore": "1:1",
+   "pOver25": 0.6695,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|ecl|2026-08-27|hnk rijeka|fc midtjylland": {
+   "sport": "fb",
+   "comp": "Conference League",
+   "compId": "ecl",
+   "date": "2026-08-27",
+   "label": "HNK Rijeka – FC Midtjylland",
+   "homeKey": "hnk rijeka",
+   "awayKey": "fc midtjylland",
+   "tip": "1",
+   "tipName": "HNK Rijeka",
+   "prob": 0.3795,
+   "tipScore": "1:1",
+   "pOver25": 0.5164,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|ecl|2026-08-27|hibernian|gent": {
+   "sport": "fb",
+   "comp": "Conference League",
+   "compId": "ecl",
+   "date": "2026-08-27",
+   "label": "Hibernian – Gent",
+   "homeKey": "hibernian",
+   "awayKey": "gent",
+   "tip": "1",
+   "tipName": "Hibernian",
+   "prob": 0.3777,
+   "tipScore": "1:1",
+   "pOver25": 0.4531,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|ecl|2026-08-27|fk partizan|getafe": {
+   "sport": "fb",
+   "comp": "Conference League",
+   "compId": "ecl",
+   "date": "2026-08-27",
+   "label": "FK Partizan – Getafe",
+   "homeKey": "fk partizan",
+   "awayKey": "getafe",
+   "tip": "1",
+   "tipName": "FK Partizan",
+   "prob": 0.5377,
+   "tipScore": "1:1",
+   "pOver25": 0.5268,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|ecl|2026-08-27|larne|lincoln red imps fc": {
+   "sport": "fb",
+   "comp": "Conference League",
+   "compId": "ecl",
+   "date": "2026-08-27",
+   "label": "Larne – Lincoln Red Imps FC",
+   "homeKey": "larne",
+   "awayKey": "lincoln red imps fc",
+   "tip": "2",
+   "tipName": "Lincoln Red Imps FC",
+   "prob": 0.3743,
+   "tipScore": "1:1",
+   "pOver25": 0.3837,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|ll1|2026-08-27|celta|osasuna": {
+   "sport": "fb",
+   "comp": "La Liga",
+   "compId": "ll1",
+   "date": "2026-08-27",
+   "label": "Celta Vigo – Osasuna",
+   "homeKey": "celta",
+   "awayKey": "osasuna",
+   "tip": "1",
+   "tipName": "Celta Vigo",
+   "prob": 0.5341,
+   "tipScore": "1:0",
+   "pOver25": 0.4349,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|ll1|2026-08-27|barcelona|ath bilbao": {
+   "sport": "fb",
+   "comp": "La Liga",
+   "compId": "ll1",
+   "date": "2026-08-27",
+   "label": "Barcelona – Athletic Club",
+   "homeKey": "barcelona",
+   "awayKey": "ath bilbao",
+   "tip": "1",
+   "tipName": "Barcelona",
+   "prob": 0.8974,
+   "tipScore": "3:0",
+   "pOver25": 0.8015,
    "status": "open",
    "result": null,
    "correct": null,
