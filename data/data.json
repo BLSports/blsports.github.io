@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-26T06:28:14.692276+02:00",
+ "generatedAt": "2026-08-26T08:41:36.329687+02:00",
  "windowDays": 3,
  "days": [
   "2026-08-26",
@@ -1451,8 +1451,20 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "Playoff round",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "U",
+      "N",
+      "S",
+      "S",
+      "S"
+     ],
+     "formAway": [
+      "S",
+      "N",
+      "U",
+      "S",
+      "N"
+     ],
      "formHomeH": [],
      "formAwayA": [],
      "load14Home": 0,
@@ -1460,16 +1472,50 @@
      "posHome": null,
      "posAway": null,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "20.08.2026",
+       "home": "Twente",
+       "away": "Qarabag",
+       "score": "0:1"
+      },
+      {
+       "date": "28.08.2014",
+       "home": "Twente",
+       "away": "Qarabag",
+       "score": "1:1"
+      },
+      {
+       "date": "21.08.2014",
+       "home": "Qarabag",
+       "away": "Twente",
+       "score": "0:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4619,
+      "pDraw": 0.235,
+      "pAway": 0.3031,
+      "pOver25": 0.595,
+      "pBtts": 0.6104,
+      "xgHome": 1.72,
+      "xgAway": 1.36,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6104,
      "odds": {
       "h": 3.1,
       "d": 3.4,
       "a": 2.2,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.1608,
+      "modelP": 0.4619,
+      "odds": 3.1
+     },
      "scorersHome": [],
      "scorersAway": [
       {
@@ -1478,8 +1524,8 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "",
-     "basis": "Datenbasis: Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "analysis": "Qarabag ist gegen Twente leicht favorisiert (46 % zu 30 %). Das letzte Duell (2026) endete 0:1 (Twente – Qarabag). Das Modell erwartet ein torreiches Spiel (xG 1,7:1,4; über 2,5 Tore: 60 %, beide Teams treffen zu 61 %). Gefährlichste Torschützen: bei Twente M. Pjaca (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,10) für 16 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-27T18:00:00+02:00",
@@ -2697,17 +2743,12 @@
      },
      "pBtts": 0.5565,
      "odds": {
-      "h": 2.9,
+      "h": 2.72,
       "d": 3.4,
-      "a": 2.2,
-      "src": "Bet365"
+      "a": 2.44,
+      "src": "10Bet"
      },
-     "value": {
-      "outcome": "1",
-      "edge": 0.0642,
-      "modelP": 0.3795,
-      "odds": 2.9
-     },
+     "value": null,
      "scorersHome": [
       {
        "name": "Toni Fruk",
@@ -2716,7 +2757,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Zwischen HNK Rijeka und FC Midtjylland deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg HNK Rijeka 38 %, Unentschieden 26 %, Sieg FC Midtjylland 36 %). Die Form spricht für FC Midtjylland: 4 Siege aus den letzten 5 Spielen, HNK Rijeka holte nur 2. Das letzte Duell (2026) endete 2:0 (FC Midtjylland – HNK Rijeka). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,4:1,4; über 2,5 Tore: 52 %, beide Teams treffen zu 56 %). Gefährlichste Torschützen: bei HNK Rijeka Toni Fruk (5 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,90) für 6 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Zwischen HNK Rijeka und FC Midtjylland deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg HNK Rijeka 38 %, Unentschieden 26 %, Sieg FC Midtjylland 36 %). Die Form spricht für FC Midtjylland: 4 Siege aus den letzten 5 Spielen, HNK Rijeka holte nur 2. Das letzte Duell (2026) endete 2:0 (FC Midtjylland – HNK Rijeka). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,4:1,4; über 2,5 Tore: 52 %, beide Teams treffen zu 56 %). Gefährlichste Torschützen: bei HNK Rijeka Toni Fruk (5 Tore).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -2769,10 +2810,10 @@
      },
      "pBtts": 0.5064,
      "odds": {
-      "h": 2.62,
-      "d": 3.1,
+      "h": 2.7,
+      "d": 3.25,
       "a": 2.55,
-      "src": "Bet365"
+      "src": "10Bet"
      },
      "value": null,
      "scorersHome": [],
@@ -2831,21 +2872,21 @@
      },
      "pBtts": 0.534,
      "odds": {
-      "h": 3.3,
-      "d": 3.2,
-      "a": 2.1,
-      "src": "Bet365"
+      "h": 3.25,
+      "d": 3.3,
+      "a": 2.18,
+      "src": "10Bet"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.2601,
+      "edge": 0.25,
       "modelP": 0.5377,
-      "odds": 3.3
+      "odds": 3.25
      },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": "FK Partizan ist gegen Getafe leicht favorisiert (53 % zu 23 %). Das letzte Duell (2026) endete 3:1 (Getafe – FK Partizan). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,7:1,0; über 2,5 Tore: 53 %, beide Teams treffen zu 53 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,30) für 26 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "FK Partizan ist gegen Getafe leicht favorisiert (53 % zu 23 %). Das letzte Duell (2026) endete 3:1 (Getafe – FK Partizan). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,7:1,0; über 2,5 Tore: 53 %, beide Teams treffen zu 53 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,25) für 25 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -2910,21 +2951,21 @@
      },
      "pBtts": 0.4499,
      "odds": {
-      "h": 1.95,
+      "h": 2.02,
       "d": 3.7,
-      "a": 3.3,
-      "src": "Bet365"
+      "a": 3.35,
+      "src": "10Bet"
      },
      "value": {
       "outcome": "2",
-      "edge": 0.0953,
+      "edge": 0.0937,
       "modelP": 0.3743,
-      "odds": 3.3
+      "odds": 3.35
      },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Zwischen Larne und Lincoln Red Imps FC deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Larne 34 %, Unentschieden 29 %, Sieg Lincoln Red Imps FC 37 %). Das letzte Duell (2026) endete 0:2 (Lincoln Red Imps FC – Larne). Das Modell erwartet eher wenige Tore (xG 1,1:1,1; über 2,5 Tore: 38 %, beide Teams treffen zu 45 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,30) für 10 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Zwischen Larne und Lincoln Red Imps FC deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Larne 34 %, Unentschieden 29 %, Sieg Lincoln Red Imps FC 37 %). Das letzte Duell (2026) endete 0:2 (Lincoln Red Imps FC – Larne). Das Modell erwartet eher wenige Tore (xG 1,1:1,1; über 2,5 Tore: 38 %, beide Teams treffen zu 45 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,35) für 9 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
@@ -3090,10 +3131,6 @@
       {
        "title": "Memmingen springt auf Platz 1 und verschärft die Misere der Bayern-Amateure",
        "link": "https://www.kicker.de/bayern-ii-gegen-memmingen-2026-regionalliga-bayern-5234565/spielbericht#omrss"
-      },
-      {
-       "title": "Talent Mike vor Wechsel nach Belgien - Bayern winken weitere Millionen",
-       "link": "https://www.kicker.de/talent-mike-vor-wechsel-nach-belgien-bayern-winken-weitere-millionen-1246564/artikel#omrss"
       }
      ]
     }
@@ -3475,7 +3512,13 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Manchester City reist als klarer Favorit (63 %) zu Crystal Palace. In der Tabelle stehen sich Platz 17 und Platz 8 gegenüber. Die Form spricht für Manchester City: 3 Siege aus den letzten 5 Spielen, Crystal Palace holte nur 0. Heim-/Auswärtsbilanz: Crystal Palace gewann 1 der letzten 5 Heimspiele, Manchester City 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:0 (Man City – Crystal Palace). Das Modell erwartet eine offene Tor-Ausbeute (xG 0,8:1,9; über 2,5 Tore: 49 %, beide Teams treffen zu 45 %). Gefährlichste Torschützen: bei Manchester City Josko Gvardiol (1 Tore). Personal: Manchester City fehlen 2 Spieler (u.a. J. Doku).",
+     "analysis": "Manchester City reist als klarer Favorit (63 %) zu Crystal Palace. In der Tabelle stehen sich Platz 17 und Platz 8 gegenüber. Die Form spricht für Manchester City: 3 Siege aus den letzten 5 Spielen, Crystal Palace holte nur 0. Heim-/Auswärtsbilanz: Crystal Palace gewann 1 der letzten 5 Heimspiele, Manchester City 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:0 (Man City – Crystal Palace). Das Modell erwartet eine offene Tor-Ausbeute (xG 0,8:1,9; über 2,5 Tore: 49 %, beide Teams treffen zu 45 %). Gefährlichste Torschützen: bei Manchester City Josko Gvardiol (1 Tore). Personal: Crystal Palace fehlen 1 Spieler (u.a. C. Riad); Manchester City fehlen 3 Spieler (u.a. J. Doku).",
+     "injuriesHome": [
+      {
+       "name": "C. Riad",
+       "reason": "Injury"
+      }
+     ],
      "injuriesAway": [
       {
        "name": "J. Doku",
@@ -3484,6 +3527,10 @@
       {
        "name": "Savinho",
        "reason": "Transfer negotiations"
+      },
+      {
+       "name": "E. Anderson",
+       "reason": "Injury"
       }
      ],
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
