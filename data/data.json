@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-08-28T17:43:20.731884+02:00",
+ "generatedAt": "2026-08-28T20:11:24.550831+02:00",
  "windowDays": 3,
  "days": [
   "2026-08-28",
@@ -114,17 +114,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.7789,
+      "pHome": 0.7788,
       "pDraw": 0.1161,
       "pAway": 0.1013,
       "pOver25": 0.8647,
-      "pBtts": 0.7175,
+      "pBtts": 0.7176,
       "xgHome": 3.57,
       "xgAway": 1.35,
       "tipScore": "3:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.7175,
+     "pBtts": 0.7176,
      "odds": {
       "h": 1.28,
       "d": 7.2,
@@ -161,7 +161,7 @@
       }
      ],
      "scorersPeriod": "Vorsaison",
-     "analysis": "FC Bayern München geht als klarer Favorit (78 %) in das Heimspiel gegen VfB Stuttgart. Die Form spricht für FC Bayern München: 4 Siege aus den letzten 5 Spielen, VfB Stuttgart holte nur 1. Heim-/Auswärtsbilanz: FC Bayern München gewann 4 der letzten 5 Heimspiele, VfB Stuttgart 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 4:2 (FC Bayern München – VfB Stuttgart). Das Modell erwartet ein torreiches Spiel (xG 3,6:1,4; über 2,5 Tore: 86 %, beide Teams treffen zu 72 %). Gefährlichste Torschützen: bei FC Bayern München H. Kane (36 Tore) und bei VfB Stuttgart D. Undav (19 Tore). Personal: FC Bayern München fehlen 3 Spieler (u.a. T. Buchmann); VfB Stuttgart fehlen 9 Spieler (u.a. J. Arevalo).",
+     "analysis": "FC Bayern München geht als klarer Favorit (78 %) in das Heimspiel gegen VfB Stuttgart. Die Form spricht für FC Bayern München: 4 Siege aus den letzten 5 Spielen, VfB Stuttgart holte nur 1. Heim-/Auswärtsbilanz: FC Bayern München gewann 4 der letzten 5 Heimspiele, VfB Stuttgart 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 4:2 (FC Bayern München – VfB Stuttgart). Das Modell erwartet ein torreiches Spiel (xG 3,6:1,4; über 2,5 Tore: 86 %, beide Teams treffen zu 72 %). Gefährlichste Torschützen: bei FC Bayern München H. Kane (36 Tore) und bei VfB Stuttgart D. Undav (19 Tore). Die Aufstellungen sind offiziell (4-2-3-1 gegen 3-4-2-1). Personal: FC Bayern München fehlen 3 Spieler (u.a. T. Buchmann); VfB Stuttgart fehlen 9 Spieler (u.a. J. Arevalo).",
      "injuriesHome": [
       {
        "name": "T. Buchmann",
@@ -202,15 +202,49 @@
        "reason": "Muscle Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "lineups": {
+      "home": {
+       "formation": "4-2-3-1",
+       "xi": [
+        "Manuel Neuer",
+        "Konrad Laimer",
+        "Dayot Upamecano",
+        "Kim Min-jae",
+        "Alphonso Davies",
+        "Joshua Kimmich",
+        "Aleksandar Pavlović",
+        "Michael Olise",
+        "Nathaniel Brown",
+        "Luis Díaz",
+        "Harry Kane"
+       ]
+      },
+      "away": {
+       "formation": "3-4-2-1",
+       "xi": [
+        "Fabian Bredlow",
+        "Finn Jeltsch",
+        "Jeff Chabot",
+        "Ramon Hendriks",
+        "Josha Vagnoman",
+        "Grischa Prömel",
+        "Angelo Stiller",
+        "Maximilian Mittelstädt",
+        "Tiago Tomás",
+        "Deniz Undav",
+        "Dženan Pejčinović"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
+      {
+       "title": "LIVE! Start der 64. Bundesliga-Saison: Bayern wieder mit Zehner Brown - VfB mit Vagnoman",
+       "link": "https://www.kicker.de/live-start-der-64-bundesliga-saison-bayern-wieder-mit-zehner-brown-vfb-mit-vagnoman-1247051/artikel#omrss"
+      },
       {
        "title": "Wer überträgt Bayern München gegen VfB Stuttgart heute live im Free-TV &amp; Stream?",
        "link": "https://www.kicker.de/wer-uebertraegt-bayern-muenchen-gegen-vfb-stuttgart-heute-live-im-free-tv-stream-1246462/artikel#omrss"
-      },
-      {
-       "title": "Leihe mit Kaufoption: Bayern gibt Zaragoza an Espanyol ab",
-       "link": "https://www.kicker.de/leihe-mit-kaufoption-bayern-gibt-zaragoza-an-espanyol-ab-1246368/artikel#omrss"
       }
      ]
     },
@@ -270,17 +304,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.61,
+      "pHome": 0.6101,
       "pDraw": 0.2105,
-      "pAway": 0.1795,
-      "pOver25": 0.5771,
-      "pBtts": 0.5446,
+      "pAway": 0.1794,
+      "pOver25": 0.577,
+      "pBtts": 0.5444,
       "xgHome": 2.01,
       "xgAway": 0.99,
       "tipScore": "2:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.5446,
+     "pBtts": 0.5444,
      "odds": {
       "h": 1.63,
       "d": 4.62,
@@ -515,10 +549,6 @@
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
       {
-       "title": "\"Vorsicht geboten\": Kehren Gwinn und Oberdorf gegen Mainz zurück?",
-       "link": "https://www.kicker.de/vorsicht-geboten-kehren-gwinn-und-oberdorf-gegen-mainz-zurueck-1247586/artikel#omrss"
-      },
-      {
        "title": "Diaby beim Medizincheck - Nürnberg schlägt in Mainz zu - Wird Frankfurt Theate los?",
        "link": "https://www.kicker.de/transferticker-953155/artikel#omrss"
       }
@@ -580,17 +610,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.3988,
+      "pHome": 0.3987,
       "pDraw": 0.2291,
       "pAway": 0.3721,
-      "pOver25": 0.6459,
-      "pBtts": 0.6567,
-      "xgHome": 1.7,
+      "pOver25": 0.6458,
+      "pBtts": 0.6566,
+      "xgHome": 1.69,
       "xgAway": 1.63,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6567,
+     "pBtts": 0.6566,
      "odds": {
       "h": 2.68,
       "d": 3.76,
@@ -818,12 +848,12 @@
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
       {
-       "title": "Offiziell: Hoffenheims Geiger wechselt nach Nijmegen",
-       "link": "https://www.kicker.de/offiziell-hoffenheims-geiger-wechselt-nach-nijmegen-1247451/artikel#omrss"
+       "title": "Bogenlampe ins Glück: Köln schlägt Hoffenheim",
+       "link": "https://www.kicker.de/koeln-gegen-hoffenheim-2026-frauen-bundesliga-5243442/spielbericht#omrss"
       },
       {
-       "title": "Leverkusen empfängt Besiktas in der Europa League - Hoffenheim bei Crystal Palace",
-       "link": "https://www.kicker.de/leverkusen-empfaengt-besiktas-in-der-europa-league-hoffenheim-bei-crystal-palace-1247394/artikel#omrss"
+       "title": "Offiziell: Hoffenheims Geiger wechselt nach Nijmegen",
+       "link": "https://www.kicker.de/offiziell-hoffenheims-geiger-wechselt-nach-nijmegen-1247451/artikel#omrss"
       }
      ]
     },
@@ -943,12 +973,12 @@
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
       {
-       "title": "Wer überträgt Bayern München gegen VfB Stuttgart heute live im Free-TV &amp; Stream?",
-       "link": "https://www.kicker.de/wer-uebertraegt-bayern-muenchen-gegen-vfb-stuttgart-heute-live-im-free-tv-stream-1246462/artikel#omrss"
+       "title": "LIVE! Start der 64. Bundesliga-Saison: Bayern wieder mit Zehner Brown - VfB mit Vagnoman",
+       "link": "https://www.kicker.de/live-start-der-64-bundesliga-saison-bayern-wieder-mit-zehner-brown-vfb-mit-vagnoman-1247051/artikel#omrss"
       },
       {
-       "title": "Leihe mit Kaufoption: Bayern gibt Zaragoza an Espanyol ab",
-       "link": "https://www.kicker.de/leihe-mit-kaufoption-bayern-gibt-zaragoza-an-espanyol-ab-1246368/artikel#omrss"
+       "title": "Wer überträgt Bayern München gegen VfB Stuttgart heute live im Free-TV &amp; Stream?",
+       "link": "https://www.kicker.de/wer-uebertraegt-bayern-muenchen-gegen-vfb-stuttgart-heute-live-im-free-tv-stream-1246462/artikel#omrss"
       }
      ]
     },
@@ -1012,13 +1042,13 @@
       "pDraw": 0.1702,
       "pAway": 0.0966,
       "pOver25": 0.569,
-      "pBtts": 0.4469,
+      "pBtts": 0.4468,
       "xgHome": 2.28,
       "xgAway": 0.69,
       "tipScore": "2:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.4469,
+     "pBtts": 0.4468,
      "odds": {
       "h": 1.35,
       "d": 5.84,
@@ -1146,17 +1176,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5608,
-      "pDraw": 0.2322,
-      "pAway": 0.207,
-      "pOver25": 0.5224,
-      "pBtts": 0.521,
+      "pHome": 0.561,
+      "pDraw": 0.2321,
+      "pAway": 0.2069,
+      "pOver25": 0.5226,
+      "pBtts": 0.5211,
       "xgHome": 1.78,
       "xgAway": 0.98,
       "tipScore": "1:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.521,
+     "pBtts": 0.5211,
      "odds": {
       "h": 1.99,
       "d": 3.64,
@@ -1165,8 +1195,8 @@
      },
      "value": {
       "outcome": "1",
-      "edge": 0.0756,
-      "modelP": 0.5608,
+      "edge": 0.0758,
+      "modelP": 0.561,
       "odds": 1.99
      },
      "scorersHome": [
@@ -1221,6 +1251,10 @@
      ],
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
+      {
+       "title": "Dinkci mit Werder nach Freiburg: Rückkehrer vor spezieller Rückkehr",
+       "link": "https://www.kicker.de/dinkci-mit-werder-nach-freiburg-rueckkehrer-vor-spezieller-rueckkehr-1247581/artikel#omrss"
+      },
       {
        "title": "Keine Werder-Überraschung bei Hein - Füllkrugs \"überraschend guter Zustand\"",
        "link": "https://www.kicker.de/keine-werder-ueberraschung-bei-hein-fuellkrugs-ueberraschend-guter-zustand-1247566/artikel#omrss"
@@ -1406,7 +1440,7 @@
      "formAwayA": [
       "N"
      ],
-     "load14Home": 1,
+     "load14Home": 0,
      "load14Away": 1,
      "posHome": 7,
      "posAway": 18,
@@ -1416,7 +1450,7 @@
       "pHome": 0.465,
       "pDraw": 0.2526,
       "pAway": 0.2824,
-      "pOver25": 0.5047,
+      "pOver25": 0.5048,
       "pBtts": 0.5371,
       "xgHome": 1.55,
       "xgAway": 1.15,
@@ -1453,13 +1487,7 @@
      ],
      "scorersPeriod": "Saison",
      "analysis": "VfL Bochum ist gegen VfL Osnabrück leicht favorisiert (47 % zu 28 %). In der Tabelle stehen sich Platz 7 und Platz 18 gegenüber. Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:1,1; über 2,5 Tore: 50 %, beide Teams treffen zu 54 %). Gefährlichste Torschützen: bei VfL Bochum P. Hoffmann (1 Tore) und bei VfL Osnabrück N. Wiemann (1 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "LIVE! Vergoldet Hertha in Braunschweig den Saisonstart? - Bochum empfängt Osnabrück",
-       "link": "https://www.kicker.de/live-vergoldet-hertha-in-braunschweig-den-saisonstart-bochum-empfaengt-osnabrueck-1247056/artikel#omrss"
-      }
-     ]
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-28T18:30:00+02:00",
@@ -1497,7 +1525,7 @@
       "N",
       "S"
      ],
-     "load14Home": 1,
+     "load14Home": 0,
      "load14Away": 1,
      "posHome": 5,
      "posAway": 2,
@@ -1518,16 +1546,16 @@
      ],
      "prediction": {
       "pHome": 0.337,
-      "pDraw": 0.2654,
+      "pDraw": 0.2653,
       "pAway": 0.3977,
       "pOver25": 0.4727,
-      "pBtts": 0.521,
+      "pBtts": 0.5211,
       "xgHome": 1.22,
       "xgAway": 1.35,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.521,
+     "pBtts": 0.5211,
      "odds": {
       "h": 2.55,
       "d": 3.55,
@@ -1568,8 +1596,8 @@
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
       {
-       "title": "LIVE! Vergoldet Hertha in Braunschweig den Saisonstart? - Bochum empfängt Osnabrück",
-       "link": "https://www.kicker.de/live-vergoldet-hertha-in-braunschweig-den-saisonstart-bochum-empfaengt-osnabrueck-1247056/artikel#omrss"
+       "title": "Brekalo aus knapp 40 Metern: Hertha dreht furiose Partie in Braunschweig - Erste Punkte für Osnabrück",
+       "link": "https://www.kicker.de/brekalo-aus-knapp-40-metern-hertha-dreht-furiose-partie-in-braunschweig-erste-punkte-fuer-osnabrueck-1247056/artikel#omrss"
       }
      ]
     },
@@ -1610,16 +1638,16 @@
      "h2h": [],
      "prediction": {
       "pHome": 0.4492,
-      "pDraw": 0.24,
-      "pAway": 0.3107,
-      "pOver25": 0.5753,
-      "pBtts": 0.5968,
+      "pDraw": 0.2401,
+      "pAway": 0.3108,
+      "pOver25": 0.5752,
+      "pBtts": 0.5967,
       "xgHome": 1.65,
       "xgAway": 1.34,
       "tipScore": "1:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.5968,
+     "pBtts": 0.5967,
      "odds": {
       "h": 2.23,
       "d": 3.53,
@@ -1687,17 +1715,17 @@
      "nTeams": 18,
      "h2h": [],
      "prediction": {
-      "pHome": 0.4102,
+      "pHome": 0.4101,
       "pDraw": 0.2303,
       "pAway": 0.3595,
-      "pOver25": 0.638,
-      "pBtts": 0.6501,
+      "pOver25": 0.6379,
+      "pBtts": 0.65,
       "xgHome": 1.7,
       "xgAway": 1.58,
       "tipScore": "1:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.6501,
+     "pBtts": 0.65,
      "odds": {
       "h": 3.3,
       "d": 4.0,
@@ -1706,8 +1734,8 @@
      },
      "value": {
       "outcome": "1",
-      "edge": 0.1211,
-      "modelP": 0.4102,
+      "edge": 0.121,
+      "modelP": 0.4101,
       "odds": 3.3
      },
      "scorersHome": [
@@ -1765,7 +1793,7 @@
       "pHome": 0.5791,
       "pDraw": 0.2036,
       "pAway": 0.2173,
-      "pOver25": 0.6676,
+      "pOver25": 0.6675,
       "pBtts": 0.6367,
       "xgHome": 2.17,
       "xgAway": 1.27,
@@ -1861,9 +1889,9 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5214,
+      "pHome": 0.5212,
       "pDraw": 0.2271,
-      "pAway": 0.2515,
+      "pAway": 0.2516,
       "pOver25": 0.5941,
       "pBtts": 0.5954,
       "xgHome": 1.85,
@@ -1880,8 +1908,8 @@
      },
      "value": {
       "outcome": "1",
-      "edge": 0.0957,
-      "modelP": 0.5214,
+      "edge": 0.0955,
+      "modelP": 0.5212,
       "odds": 2.15
      },
      "scorersHome": [
@@ -1941,17 +1969,17 @@
       "S",
       "U"
      ],
-     "load14Home": 1,
+     "load14Home": 0,
      "load14Away": 1,
      "posHome": 13,
      "posAway": 14,
      "nTeams": 18,
      "h2h": [],
      "prediction": {
-      "pHome": 0.4234,
+      "pHome": 0.4233,
       "pDraw": 0.2627,
-      "pAway": 0.3139,
-      "pOver25": 0.4778,
+      "pAway": 0.314,
+      "pOver25": 0.4777,
       "pBtts": 0.5224,
       "xgHome": 1.41,
       "xgAway": 1.18,
@@ -1967,8 +1995,8 @@
      },
      "value": {
       "outcome": "2",
-      "edge": 0.0666,
-      "modelP": 0.3139,
+      "edge": 0.0667,
+      "modelP": 0.314,
       "odds": 3.85
      },
      "scorersHome": [
@@ -2055,7 +2083,7 @@
       "pHome": 0.4305,
       "pDraw": 0.2391,
       "pAway": 0.3304,
-      "pOver25": 0.5874,
+      "pOver25": 0.5875,
       "pBtts": 0.6089,
       "xgHome": 1.64,
       "xgAway": 1.41,
@@ -2132,7 +2160,7 @@
       "U"
      ],
      "load14Home": 1,
-     "load14Away": 1,
+     "load14Away": 0,
      "posHome": 10,
      "posAway": 12,
      "nTeams": 18,
@@ -2151,17 +2179,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4622,
+      "pHome": 0.4623,
       "pDraw": 0.2248,
       "pAway": 0.3129,
-      "pOver25": 0.6498,
-      "pBtts": 0.6539,
+      "pOver25": 0.6497,
+      "pBtts": 0.6538,
       "xgHome": 1.85,
       "xgAway": 1.49,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6539,
+     "pBtts": 0.6538,
      "odds": {
       "h": 2.2,
       "d": 3.85,
@@ -2248,16 +2276,16 @@
      "h2h": [],
      "prediction": {
       "pHome": 0.5367,
-      "pDraw": 0.2055,
+      "pDraw": 0.2054,
       "pAway": 0.2578,
-      "pOver25": 0.7054,
-      "pBtts": 0.6828,
+      "pOver25": 0.7055,
+      "pBtts": 0.6829,
       "xgHome": 2.18,
       "xgAway": 1.47,
       "tipScore": "2:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.6828,
+     "pBtts": 0.6829,
      "odds": {
       "h": 1.7,
       "d": 4.2,
@@ -2325,23 +2353,23 @@
       "U"
      ],
      "load14Home": 1,
-     "load14Away": 1,
+     "load14Away": 0,
      "posHome": 1,
      "posAway": 3,
      "nTeams": 20,
      "h2h": [],
      "prediction": {
-      "pHome": 0.5767,
+      "pHome": 0.5768,
       "pDraw": 0.2111,
-      "pAway": 0.2121,
-      "pOver25": 0.6237,
-      "pBtts": 0.6003,
+      "pAway": 0.212,
+      "pOver25": 0.6239,
+      "pBtts": 0.6004,
       "xgHome": 2.05,
       "xgAway": 1.17,
       "tipScore": "2:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.6003,
+     "pBtts": 0.6004,
      "odds": {
       "h": 1.45,
       "d": 4.5,
@@ -2417,17 +2445,17 @@
      "nTeams": 20,
      "h2h": [],
      "prediction": {
-      "pHome": 0.6299,
-      "pDraw": 0.186,
-      "pAway": 0.1839,
+      "pHome": 0.6298,
+      "pDraw": 0.1861,
+      "pAway": 0.184,
       "pOver25": 0.7027,
-      "pBtts": 0.6449,
+      "pBtts": 0.645,
       "xgHome": 2.39,
       "xgAway": 1.24,
       "tipScore": "2:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.6449,
+     "pBtts": 0.645,
      "odds": {
       "h": 1.45,
       "d": 4.8,
@@ -2499,17 +2527,17 @@
      "nTeams": 20,
      "h2h": [],
      "prediction": {
-      "pHome": 0.5899,
-      "pDraw": 0.1973,
-      "pAway": 0.2127,
+      "pHome": 0.5901,
+      "pDraw": 0.1972,
+      "pAway": 0.2126,
       "pOver25": 0.6924,
-      "pBtts": 0.6538,
+      "pBtts": 0.6537,
       "xgHome": 2.27,
       "xgAway": 1.31,
       "tipScore": "2:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.6538,
+     "pBtts": 0.6537,
      "odds": {
       "h": 1.8,
       "d": 4.1,
@@ -2583,7 +2611,7 @@
       "S",
       "N"
      ],
-     "load14Home": 1,
+     "load14Home": 0,
      "load14Away": 1,
      "posHome": 20,
      "posAway": 14,
@@ -2603,12 +2631,12 @@
       }
      ],
      "prediction": {
-      "pHome": 0.3649,
-      "pDraw": 0.2238,
-      "pAway": 0.4113,
+      "pHome": 0.3651,
+      "pDraw": 0.2239,
+      "pAway": 0.411,
       "pOver25": 0.6719,
       "pBtts": 0.6765,
-      "xgHome": 1.67,
+      "xgHome": 1.68,
       "xgAway": 1.79,
       "tipScore": "1:1",
       "confidence": "hoch"
@@ -2622,8 +2650,8 @@
      },
      "value": {
       "outcome": "1",
-      "edge": 0.0509,
-      "modelP": 0.3649,
+      "edge": 0.0511,
+      "modelP": 0.3651,
       "odds": 3.0
      },
      "scorersHome": [
@@ -2643,7 +2671,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen SV Wehen Wiesbaden und Rot-Weiss Essen deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg SV Wehen Wiesbaden 36 %, Unentschieden 22 %, Sieg Rot-Weiss Essen 42 %). In der Tabelle stehen sich Platz 20 und Platz 14 gegenüber. Die Form spricht für Rot-Weiss Essen: 3 Siege aus den letzten 5 Spielen, SV Wehen Wiesbaden holte nur 1. Heim-/Auswärtsbilanz: SV Wehen Wiesbaden gewann 1 der letzten 5 Heimspiele, Rot-Weiss Essen 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:1 (Rot-Weiss Essen – SV Wehen Wiesbaden). Das Modell erwartet ein torreiches Spiel (xG 1,7:1,8; über 2,5 Tore: 67 %, beide Teams treffen zu 68 %). Gefährlichste Torschützen: bei SV Wehen Wiesbaden M. Flotho (1 Tore) und bei Rot-Weiss Essen S. Telalovic (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,00) für 5 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Zwischen SV Wehen Wiesbaden und Rot-Weiss Essen deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg SV Wehen Wiesbaden 37 %, Unentschieden 22 %, Sieg Rot-Weiss Essen 41 %). In der Tabelle stehen sich Platz 20 und Platz 14 gegenüber. Die Form spricht für Rot-Weiss Essen: 3 Siege aus den letzten 5 Spielen, SV Wehen Wiesbaden holte nur 1. Heim-/Auswärtsbilanz: SV Wehen Wiesbaden gewann 1 der letzten 5 Heimspiele, Rot-Weiss Essen 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:1 (Rot-Weiss Essen – SV Wehen Wiesbaden). Das Modell erwartet ein torreiches Spiel (xG 1,7:1,8; über 2,5 Tore: 67 %, beide Teams treffen zu 68 %). Gefährlichste Torschützen: bei SV Wehen Wiesbaden M. Flotho (1 Tore) und bei Rot-Weiss Essen S. Telalovic (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,00) für 5 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -2684,15 +2712,15 @@
      "prediction": {
       "pHome": 0.3948,
       "pDraw": 0.2357,
-      "pAway": 0.3694,
-      "pOver25": 0.6122,
-      "pBtts": 0.6307,
+      "pAway": 0.3695,
+      "pOver25": 0.6121,
+      "pBtts": 0.6306,
       "xgHome": 1.61,
       "xgAway": 1.55,
       "tipScore": "1:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.6307,
+     "pBtts": 0.6306,
      "odds": {
       "h": 2.9,
       "d": 3.7,
@@ -2785,17 +2813,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.3999,
+      "pHome": 0.3998,
       "pDraw": 0.2297,
-      "pAway": 0.3703,
-      "pOver25": 0.6426,
-      "pBtts": 0.6541,
+      "pAway": 0.3705,
+      "pOver25": 0.6427,
+      "pBtts": 0.6542,
       "xgHome": 1.69,
       "xgAway": 1.62,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6541,
+     "pBtts": 0.6542,
      "odds": {
       "h": 2.75,
       "d": 3.8,
@@ -2804,8 +2832,8 @@
      },
      "value": {
       "outcome": "1",
-      "edge": 0.0574,
-      "modelP": 0.3999,
+      "edge": 0.0573,
+      "modelP": 0.3998,
       "odds": 2.75
      },
      "scorersHome": [
@@ -2897,16 +2925,16 @@
      ],
      "prediction": {
       "pHome": 0.3232,
-      "pDraw": 0.2328,
+      "pDraw": 0.2327,
       "pAway": 0.444,
       "pOver25": 0.6155,
-      "pBtts": 0.6293,
+      "pBtts": 0.6294,
       "xgHome": 1.45,
       "xgAway": 1.73,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6293,
+     "pBtts": 0.6294,
      "odds": {
       "h": 2.6,
       "d": 3.4,
@@ -3056,13 +3084,7 @@
      ],
      "scorersPeriod": "Saison",
      "analysis": "Zwischen TSV Havelse und SV Waldhof Mannheim deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg TSV Havelse 38 %, Unentschieden 20 %, Sieg SV Waldhof Mannheim 42 %). In der Tabelle stehen sich Platz 17 und Platz 6 gegenüber. Heim-/Auswärtsbilanz: TSV Havelse gewann 3 der letzten 5 Heimspiele, SV Waldhof Mannheim 0 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:1 (SV Waldhof Mannheim – TSV Havelse). Das Modell erwartet ein torreiches Spiel (xG 2,0:2,1; über 2,5 Tore: 77 %, beide Teams treffen zu 76 %). Gefährlichste Torschützen: bei TSV Havelse Tauer (1 Tore) und bei SV Waldhof Mannheim Sébastien Thill (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 4,00) für 14 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "Havelse leiht Wardak und Kiels Neuzugang Grzywacz aus",
-       "link": "https://www.kicker.de/havelse-leiht-wardak-und-kiels-neuzugang-grzywacz-aus-1247530/artikel#omrss"
-      }
-     ]
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-30T19:30:00+02:00",
@@ -3100,10 +3122,10 @@
      "nTeams": 20,
      "h2h": [],
      "prediction": {
-      "pHome": 0.4097,
+      "pHome": 0.4096,
       "pDraw": 0.2434,
-      "pAway": 0.3469,
-      "pOver25": 0.5716,
+      "pAway": 0.347,
+      "pOver25": 0.5717,
       "pBtts": 0.5984,
       "xgHome": 1.56,
       "xgAway": 1.42,
@@ -3275,13 +3297,7 @@
        "reason": "Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "Leverkusen empfängt Besiktas in der Europa League - Hoffenheim bei Crystal Palace",
-       "link": "https://www.kicker.de/leverkusen-empfaengt-besiktas-in-der-europa-league-hoffenheim-bei-crystal-palace-1247394/artikel#omrss"
-      }
-     ]
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-29T13:30:00+02:00",
@@ -5214,104 +5230,6 @@
    "espn": "esp.1",
    "matches": [
     {
-     "kickoff": "2026-08-28T19:00:00+02:00",
-     "home": "Racing Santander",
-     "away": "Elche",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 3",
-     "formHome": [
-      "U",
-      "N"
-     ],
-     "formAway": [
-      "N",
-      "S",
-      "U",
-      "U",
-      "N"
-     ],
-     "formHomeH": [
-      "U"
-     ],
-     "formAwayA": [
-      "S",
-      "N",
-      "N",
-      "U",
-      "U"
-     ],
-     "load14Home": 2,
-     "load14Away": 2,
-     "posHome": 12,
-     "posAway": 18,
-     "nTeams": 20,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.5924,
-      "pDraw": 0.2152,
-      "pAway": 0.1923,
-      "pOver25": 0.5762,
-      "pBtts": 0.5526,
-      "xgHome": 1.97,
-      "xgAway": 1.03,
-      "tipScore": "1:1",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.5526,
-     "odds": {
-      "h": 2.1,
-      "d": 3.4,
-      "a": 3.4,
-      "src": "Unibet (FR)"
-     },
-     "value": {
-      "outcome": "1",
-      "edge": 0.145,
-      "modelP": 0.5924,
-      "odds": 2.1
-     },
-     "scorersHome": [
-      {
-       "name": "Andrés Martín",
-       "goals": 1
-      }
-     ],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Racing Santander geht als klarer Favorit (59 %) in das Heimspiel gegen Elche. In der Tabelle stehen sich Platz 13 und Platz 18 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 2,0:1,0; über 2,5 Tore: 58 %, beide Teams treffen zu 55 %). Gefährlichste Torschützen: bei Racing Santander Andrés Martín (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,10) für 14 Prozentpunkte wahrscheinlicher als der Markt. Personal: Racing Santander fehlen 2 Spieler (u.a. G. Guliashvili); Elche fehlen 4 Spieler (u.a. A. Boayar).",
-     "injuriesHome": [
-      {
-       "name": "G. Guliashvili",
-       "reason": "Leg Injury"
-      },
-      {
-       "name": "Pedro Felipe",
-       "reason": "Hamstring Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "A. Boayar",
-       "reason": "Muscle Injury"
-      },
-      {
-       "name": "Y. Santiago",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "G. Diangana",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "A. Osorio",
-       "reason": "Muscle Injury"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
      "kickoff": "2026-08-28T21:30:00+02:00",
      "home": "Alaves",
      "away": "Villarreal",
@@ -5824,7 +5742,13 @@
        "reason": "Illness"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "news": [
+      {
+       "title": "Zweitklassig, aber Madrid: Morata ist zurück in Spanien",
+       "link": "https://www.kicker.de/zweitklassig-aber-madrid-morata-ist-zurueck-in-spanien-1247602/artikel#omrss"
+      }
+     ]
     },
     {
      "kickoff": "2026-08-30T17:00:00+02:00",
@@ -5946,7 +5870,13 @@
        "reason": "Muscle Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "news": [
+      {
+       "title": "Zweitklassig, aber Madrid: Morata ist zurück in Spanien",
+       "link": "https://www.kicker.de/zweitklassig-aber-madrid-morata-ist-zurueck-in-spanien-1247602/artikel#omrss"
+      }
+     ]
     },
     {
      "kickoff": "2026-08-30T19:30:00+02:00",
@@ -7846,13 +7776,7 @@
        "reason": "Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "Nach Outmans Diagnose: Sandhausen gelingt Christiansen-Verpflichtung",
-       "link": "https://www.kicker.de/nach-outmans-diagnose-sandhausen-gelingt-christiansen-verpflichtung-1247570/artikel#omrss"
-      }
-     ]
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-30T20:45:00+02:00",
@@ -7999,458 +7923,6 @@
    "espn": "fra.2",
    "matches": [
     {
-     "kickoff": "2026-08-28T20:00:00+02:00",
-     "home": "Montpellier",
-     "away": "Boulogne",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 4",
-     "formHome": [
-      "N",
-      "U",
-      "U",
-      "S",
-      "S"
-     ],
-     "formAway": [
-      "N",
-      "N",
-      "U",
-      "N",
-      "U"
-     ],
-     "formHomeH": [
-      "S",
-      "U",
-      "S",
-      "N",
-      "U"
-     ],
-     "formAwayA": [
-      "S",
-      "U",
-      "N",
-      "N",
-      "N"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 2,
-     "posAway": 15,
-     "nTeams": 18,
-     "h2h": [
-      {
-       "date": "16.01.2026",
-       "home": "Boulogne",
-       "away": "Montpellier",
-       "score": "1:0"
-      },
-      {
-       "date": "23.09.2025",
-       "home": "Montpellier",
-       "away": "Boulogne",
-       "score": "1:3"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.559,
-      "pDraw": 0.286,
-      "pAway": 0.155,
-      "pOver25": 0.2929,
-      "pBtts": 0.3137,
-      "xgHome": 1.33,
-      "xgAway": 0.56,
-      "tipScore": "1:0",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.3137,
-     "odds": {
-      "h": 1.72,
-      "d": 3.6,
-      "a": 4.8,
-      "src": "BetOnline.ag"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Y. Issoufou",
-       "goals": 1
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Abdel Hbouch",
-       "goals": 1
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Montpellier geht als klarer Favorit (55 %) in das Heimspiel gegen Boulogne. In der Tabelle stehen sich Platz 2 und Platz 14 gegenüber. Die Form spricht für Montpellier: 2 Siege aus den letzten 5 Spielen, Boulogne holte nur 0. Heim-/Auswärtsbilanz: Montpellier gewann 2 der letzten 5 Heimspiele, Boulogne 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:0 (Boulogne – Montpellier). Das Modell erwartet eher wenige Tore (xG 1,3:0,6; über 2,5 Tore: 29 %, beide Teams treffen zu 31 %). Gefährlichste Torschützen: bei Boulogne Abdel Hbouch (1 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-08-28T20:00:00+02:00",
-     "home": "Clermont Foot",
-     "away": "Sochaux",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 4",
-     "formHome": [
-      "S",
-      "S",
-      "U",
-      "N",
-      "U"
-     ],
-     "formAway": [
-      "N",
-      "U",
-      "S"
-     ],
-     "formHomeH": [
-      "U",
-      "U",
-      "S",
-      "U",
-      "U"
-     ],
-     "formAwayA": [
-      "U"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 16,
-     "posAway": 11,
-     "nTeams": 18,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.4723,
-      "pDraw": 0.3923,
-      "pAway": 0.1355,
-      "pOver25": 0.1225,
-      "pBtts": 0.1656,
-      "xgHome": 0.88,
-      "xgAway": 0.33,
-      "tipScore": "0:0",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.1656,
-     "odds": {
-      "h": 2.8,
-      "d": 2.98,
-      "a": 2.72,
-      "src": "BetOnline.ag"
-     },
-     "value": {
-      "outcome": "1",
-      "edge": 0.1355,
-      "modelP": 0.4723,
-      "odds": 2.8
-     },
-     "scorersHome": [
-      {
-       "name": "O. Diop",
-       "goals": 1
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "B. Fofana",
-       "goals": 1
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Clermont Foot ist gegen Sochaux leicht favorisiert (47 % zu 14 %). In der Tabelle stehen sich Platz 16 und Platz 11 gegenüber. Das Modell erwartet eher wenige Tore (xG 0,9:0,3; über 2,5 Tore: 12 %, beide Teams treffen zu 17 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,80) für 14 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-08-28T20:00:00+02:00",
-     "home": "Nancy",
-     "away": "Dunkerque",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 4",
-     "formHome": [
-      "S",
-      "S",
-      "U",
-      "N",
-      "S"
-     ],
-     "formAway": [
-      "N",
-      "N",
-      "S",
-      "U",
-      "N"
-     ],
-     "formHomeH": [
-      "N",
-      "U",
-      "N",
-      "S",
-      "N"
-     ],
-     "formAwayA": [
-      "N",
-      "N",
-      "S",
-      "N",
-      "U"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 9,
-     "posAway": 8,
-     "nTeams": 18,
-     "h2h": [
-      {
-       "date": "09.05.2026",
-       "home": "Nancy",
-       "away": "Dunkerque",
-       "score": "3:2"
-      },
-      {
-       "date": "22.08.2025",
-       "home": "Dunkerque",
-       "away": "Nancy",
-       "score": "1:3"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.259,
-      "pDraw": 0.2353,
-      "pAway": 0.5056,
-      "pOver25": 0.5631,
-      "pBtts": 0.5746,
-      "xgHome": 1.19,
-      "xgAway": 1.75,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.5746,
-     "odds": {
-      "h": 2.48,
-      "d": 3.25,
-      "a": 2.82,
-      "src": "BetOnline.ag"
-     },
-     "value": {
-      "outcome": "2",
-      "edge": 0.1728,
-      "modelP": 0.5056,
-      "odds": 2.82
-     },
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Egor Prutsev",
-       "goals": 2
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Dunkerque ist bei Nancy leicht favorisiert (50 % zu 26 %). In der Tabelle stehen sich Platz 9 und Platz 8 gegenüber. Die Form spricht für Nancy: 3 Siege aus den letzten 5 Spielen, Dunkerque holte nur 1. Heim-/Auswärtsbilanz: Nancy gewann 1 der letzten 5 Heimspiele, Dunkerque 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:2 (Nancy – Dunkerque). Das Modell erwartet ein torreiches Spiel (xG 1,2:1,8; über 2,5 Tore: 56 %, beide Teams treffen zu 57 %). Gefährlichste Torschützen: bei Dunkerque Egor Prutsev (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,82) für 17 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-08-28T20:00:00+02:00",
-     "home": "Laval",
-     "away": "Grenoble",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 4",
-     "formHome": [
-      "N",
-      "S",
-      "N",
-      "S",
-      "U"
-     ],
-     "formAway": [
-      "S",
-      "S",
-      "N",
-      "U",
-      "N"
-     ],
-     "formHomeH": [
-      "S",
-      "U",
-      "U",
-      "S",
-      "S"
-     ],
-     "formAwayA": [
-      "U",
-      "N",
-      "S",
-      "N",
-      "N"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 10,
-     "posAway": 17,
-     "nTeams": 18,
-     "h2h": [
-      {
-       "date": "20.03.2026",
-       "home": "Laval",
-       "away": "Grenoble",
-       "score": "3:2"
-      },
-      {
-       "date": "15.08.2025",
-       "home": "Grenoble",
-       "away": "Laval",
-       "score": "1:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.3686,
-      "pDraw": 0.3003,
-      "pAway": 0.3312,
-      "pOver25": 0.3472,
-      "pBtts": 0.4195,
-      "xgHome": 1.08,
-      "xgAway": 1.01,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.4195,
-     "odds": {
-      "h": 2.14,
-      "d": 2.98,
-      "a": 4.13,
-      "src": "Pinnacle"
-     },
-     "value": {
-      "outcome": "2",
-      "edge": 0.0995,
-      "modelP": 0.3312,
-      "odds": 4.13
-     },
-     "scorersHome": [
-      {
-       "name": "E. Clavreul",
-       "goals": 1
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Yadaly Diaby",
-       "goals": 2
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen Laval und Grenoble deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Laval 37 %, Unentschieden 30 %, Sieg Grenoble 33 %). In der Tabelle stehen sich Platz 10 und Platz 17 gegenüber. Heim-/Auswärtsbilanz: Laval gewann 3 der letzten 5 Heimspiele, Grenoble 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:2 (Laval – Grenoble). Das Modell erwartet eher wenige Tore (xG 1,1:1,0; über 2,5 Tore: 35 %, beide Teams treffen zu 42 %). Gefährlichste Torschützen: bei Grenoble Yadaly Diaby (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 4,13) für 10 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-08-28T20:00:00+02:00",
-     "home": "Rodez",
-     "away": "PAU",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 4",
-     "formHome": [
-      "S",
-      "S",
-      "S",
-      "N",
-      "S"
-     ],
-     "formAway": [
-      "N",
-      "N",
-      "N",
-      "S",
-      "N"
-     ],
-     "formHomeH": [
-      "U",
-      "S",
-      "S",
-      "S",
-      "S"
-     ],
-     "formAwayA": [],
-     "load14Home": 1,
-     "load14Away": 0,
-     "posHome": 3,
-     "posAway": 13,
-     "nTeams": 18,
-     "h2h": [
-      {
-       "date": "03.01.2026",
-       "home": "PAU",
-       "away": "Rodez",
-       "score": "3:3"
-      },
-      {
-       "date": "26.09.2025",
-       "home": "Rodez",
-       "away": "PAU",
-       "score": "1:2"
-      },
-      {
-       "date": "14.02.2025",
-       "home": "PAU",
-       "away": "Rodez",
-       "score": "0:5"
-      },
-      {
-       "date": "06.12.2024",
-       "home": "Rodez",
-       "away": "PAU",
-       "score": "1:0"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.667,
-      "pDraw": 0.1744,
-      "pAway": 0.1583,
-      "pOver25": 0.7114,
-      "pBtts": 0.6328,
-      "xgHome": 2.52,
-      "xgAway": 1.17,
-      "tipScore": "2:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.6328,
-     "odds": {
-      "h": 1.8,
-      "d": 3.7,
-      "a": 4.1,
-      "src": "10Bet"
-     },
-     "value": {
-      "outcome": "1",
-      "edge": 0.1477,
-      "modelP": 0.667,
-      "odds": 1.8
-     },
-     "scorersHome": [
-      {
-       "name": "Ibrahima Baldé",
-       "goals": 4
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "B. Leye",
-       "goals": 1
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Rodez geht als klarer Favorit (67 %) in das Heimspiel gegen PAU. In der Tabelle stehen sich Platz 3 und Platz 13 gegenüber. Die Form spricht für Rodez: 4 Siege aus den letzten 5 Spielen, PAU holte nur 1. Das letzte Duell (2026) endete 3:3 (PAU – Rodez). Das Modell erwartet ein torreiches Spiel (xG 2,5:1,2; über 2,5 Tore: 71 %, beide Teams treffen zu 63 %). Gefährlichste Torschützen: bei Rodez Ibrahima Baldé (4 Tore) und bei PAU B. Leye (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 1,80) für 15 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
      "kickoff": "2026-08-29T14:00:00+02:00",
      "home": "RED Star FC 93",
      "away": "Reims",
@@ -8541,8 +8013,8 @@
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
       {
-       "title": "LIVE! Vergoldet Hertha in Braunschweig den Saisonstart? - Bochum empfängt Osnabrück",
-       "link": "https://www.kicker.de/live-vergoldet-hertha-in-braunschweig-den-saisonstart-bochum-empfaengt-osnabrueck-1247056/artikel#omrss"
+       "title": "LIVE! Start der 64. Bundesliga-Saison: Bayern wieder mit Zehner Brown - VfB mit Vagnoman",
+       "link": "https://www.kicker.de/live-start-der-64-bundesliga-saison-bayern-wieder-mit-zehner-brown-vfb-mit-vagnoman-1247051/artikel#omrss"
       }
      ]
     },
@@ -8698,143 +8170,6 @@
    "flag": "🇳🇱",
    "espn": "ned.1",
    "matches": [
-    {
-     "kickoff": "2026-08-28T20:00:00+02:00",
-     "home": "Groningen",
-     "away": "Fortuna Sittard",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 4",
-     "formHome": [
-      "S",
-      "S",
-      "S",
-      "S",
-      "N"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "U",
-      "S",
-      "N"
-     ],
-     "formHomeH": [
-      "S",
-      "U",
-      "N",
-      "S",
-      "S"
-     ],
-     "formAwayA": [
-      "S",
-      "N",
-      "N",
-      "N",
-      "U"
-     ],
-     "load14Home": 2,
-     "load14Away": 2,
-     "posHome": 5,
-     "posAway": 8,
-     "nTeams": 18,
-     "h2h": [
-      {
-       "date": "25.01.2026",
-       "home": "Groningen",
-       "away": "For Sittard",
-       "score": "1:2"
-      },
-      {
-       "date": "25.10.2025",
-       "home": "For Sittard",
-       "away": "Groningen",
-       "score": "1:2"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.5628,
-      "pDraw": 0.215,
-      "pAway": 0.2222,
-      "pOver25": 0.6186,
-      "pBtts": 0.6016,
-      "xgHome": 2.0,
-      "xgAway": 1.19,
-      "tipScore": "2:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.6016,
-     "odds": {
-      "h": 1.55,
-      "d": 4.6,
-      "a": 5.0,
-      "src": "Codere (IT)"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Brynjólfur Willumsson",
-       "goals": 3
-      },
-      {
-       "name": "Thom Van Bergen",
-       "goals": 2
-      }
-     ],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Groningen geht als klarer Favorit (56 %) in das Heimspiel gegen Fortuna Sittard. In der Tabelle stehen sich Platz 5 und Platz 8 gegenüber. Die Form spricht für Groningen: 4 Siege aus den letzten 5 Spielen, Fortuna Sittard holte nur 2. Heim-/Auswärtsbilanz: Groningen gewann 3 der letzten 5 Heimspiele, Fortuna Sittard 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:2 (Groningen – For Sittard). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,2; über 2,5 Tore: 62 %, beide Teams treffen zu 60 %). Gefährlichste Torschützen: bei Groningen Brynjólfur Willumsson (3 Tore). Personal: Groningen fehlen 6 Spieler (u.a. M. Jeng); Fortuna Sittard fehlen 5 Spieler (u.a. R. Bayram).",
-     "injuriesHome": [
-      {
-       "name": "M. Jeng",
-       "reason": "Leg Injury"
-      },
-      {
-       "name": "T. Mercera",
-       "reason": "Injury"
-      },
-      {
-       "name": "R. Metu",
-       "reason": "Injury"
-      },
-      {
-       "name": "M. Rente",
-       "reason": "Injury"
-      },
-      {
-       "name": "S. Resink",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "O. Zawada",
-       "reason": "Knock"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "R. Bayram",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "I. Marquez",
-       "reason": "Injury"
-      },
-      {
-       "name": "S. Simons",
-       "reason": "Hamstring Injury"
-      },
-      {
-       "name": "K. Peterson",
-       "reason": "Inactive"
-      },
-      {
-       "name": "O. Romeny",
-       "reason": "Red Card"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-08-29T16:30:00+02:00",
      "home": "Excelsior",
@@ -9794,669 +9129,6 @@
    "flag": "🇳🇱",
    "espn": "ned.2",
    "matches": [
-    {
-     "kickoff": "2026-08-28T20:00:00+02:00",
-     "home": "Roda",
-     "away": "NAC Breda",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 4",
-     "formHome": [
-      "S",
-      "N",
-      "N",
-      "S",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "S",
-      "N",
-      "S"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 14,
-     "posAway": 13,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "17.05.2024",
-       "home": "Roda",
-       "away": "NAC Breda",
-       "score": "0:5"
-      },
-      {
-       "date": "13.05.2024",
-       "home": "NAC Breda",
-       "away": "Roda",
-       "score": "3:1"
-      },
-      {
-       "date": "23.03.2024",
-       "home": "Roda",
-       "away": "NAC Breda",
-       "score": "3:1"
-      },
-      {
-       "date": "09.09.2023",
-       "home": "NAC Breda",
-       "away": "Roda",
-       "score": "1:3"
-      },
-      {
-       "date": "29.04.2023",
-       "home": "NAC Breda",
-       "away": "Roda",
-       "score": "4:2"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.5554,
-      "pDraw": 0.2179,
-      "pAway": 0.2267,
-      "pOver25": 0.6107,
-      "pBtts": 0.5977,
-      "xgHome": 1.97,
-      "xgAway": 1.19,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.5977,
-     "odds": {
-      "h": 2.9,
-      "d": 3.6,
-      "a": 2.25,
-      "src": "10Bet"
-     },
-     "value": {
-      "outcome": "1",
-      "edge": 0.2322,
-      "modelP": 0.5554,
-      "odds": 2.9
-     },
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "P. Reulen",
-       "goals": 2
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Roda geht als klarer Favorit (55 %) in das Heimspiel gegen NAC Breda. In der Tabelle stehen sich Platz 14 und Platz 13 gegenüber. Das letzte Duell (2024) endete 0:5 (Roda – NAC Breda). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,2; über 2,5 Tore: 61 %, beide Teams treffen zu 60 %). Gefährlichste Torschützen: bei NAC Breda P. Reulen (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,90) für 23 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-08-28T20:00:00+02:00",
-     "home": "FC Volendam",
-     "away": "Dordrecht",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 4",
-     "formHome": [
-      "S",
-      "N",
-      "N",
-      "S",
-      "N"
-     ],
-     "formAway": [
-      "U",
-      "N",
-      "S",
-      "U",
-      "N"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 11,
-     "posAway": 4,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "09.05.2025",
-       "home": "Dordrecht",
-       "away": "FC Volendam",
-       "score": "4:1"
-      },
-      {
-       "date": "17.09.2024",
-       "home": "FC Volendam",
-       "away": "Dordrecht",
-       "score": "2:0"
-      },
-      {
-       "date": "29.04.2022",
-       "home": "Dordrecht",
-       "away": "FC Volendam",
-       "score": "3:2"
-      },
-      {
-       "date": "29.10.2021",
-       "home": "FC Volendam",
-       "away": "Dordrecht",
-       "score": "4:2"
-      },
-      {
-       "date": "15.01.2021",
-       "home": "Dordrecht",
-       "away": "FC Volendam",
-       "score": "0:0"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.5064,
-      "pDraw": 0.2119,
-      "pAway": 0.2817,
-      "pOver25": 0.6942,
-      "pBtts": 0.6812,
-      "xgHome": 2.07,
-      "xgAway": 1.51,
-      "tipScore": "2:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.6812,
-     "odds": {
-      "h": 1.85,
-      "d": 3.8,
-      "a": 3.8,
-      "src": "10Bet"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "H. Veerman",
-       "goals": 2
-      },
-      {
-       "name": "A. Plat",
-       "goals": 2
-      }
-     ],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "FC Volendam ist gegen Dordrecht leicht favorisiert (51 % zu 28 %). In der Tabelle stehen sich Platz 11 und Platz 4 gegenüber. Das letzte Duell (2025) endete 4:1 (Dordrecht – FC Volendam). Das Modell erwartet ein torreiches Spiel (xG 2,1:1,5; über 2,5 Tore: 69 %, beide Teams treffen zu 68 %). Gefährlichste Torschützen: bei FC Volendam H. Veerman (2 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-08-28T20:00:00+02:00",
-     "home": "Waalwijk",
-     "away": "Jong PSV U21",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 4",
-     "formHome": [
-      "N",
-      "S",
-      "U",
-      "U",
-      "U"
-     ],
-     "formAway": [
-      "N",
-      "S",
-      "N",
-      "U",
-      "S"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 12,
-     "posAway": 17,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "24.04.2026",
-       "home": "Waalwijk",
-       "away": "Jong PSV U21",
-       "score": "4:1"
-      },
-      {
-       "date": "01.12.2025",
-       "home": "Jong PSV U21",
-       "away": "Waalwijk",
-       "score": "3:1"
-      },
-      {
-       "date": "29.03.2019",
-       "home": "Jong PSV U21",
-       "away": "Waalwijk",
-       "score": "2:1"
-      },
-      {
-       "date": "09.11.2018",
-       "home": "Waalwijk",
-       "away": "Jong PSV U21",
-       "score": "3:5"
-      },
-      {
-       "date": "09.03.2018",
-       "home": "Waalwijk",
-       "away": "Jong PSV U21",
-       "score": "3:2"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.513,
-      "pDraw": 0.2529,
-      "pAway": 0.234,
-      "pOver25": 0.4679,
-      "pBtts": 0.4931,
-      "xgHome": 1.57,
-      "xgAway": 0.97,
-      "tipScore": "1:0",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.4931,
-     "odds": {
-      "h": 1.73,
-      "d": 4.1,
-      "a": 4.1,
-      "src": "10Bet"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "J. van den Berg",
-       "goals": 2
-      },
-      {
-       "name": "F. Kluit",
-       "goals": 2
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Waalwijk ist gegen Jong PSV U21 leicht favorisiert (52 % zu 23 %). In der Tabelle stehen sich Platz 12 und Platz 17 gegenüber. Das letzte Duell (2026) endete 4:1 (Waalwijk – Jong PSV U21). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:1,0; über 2,5 Tore: 47 %, beide Teams treffen zu 49 %). Gefährlichste Torschützen: bei Jong PSV U21 J. van den Berg (2 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-08-28T20:00:00+02:00",
-     "home": "Jong AZ",
-     "away": "MVV",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 4",
-     "formHome": [
-      "S",
-      "S",
-      "N",
-      "S",
-      "N"
-     ],
-     "formAway": [
-      "U",
-      "S",
-      "S",
-      "S",
-      "N"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 19,
-     "posAway": 8,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "16.03.2026",
-       "home": "Jong AZ",
-       "away": "MVV",
-       "score": "1:1"
-      },
-      {
-       "date": "21.11.2025",
-       "home": "MVV",
-       "away": "Jong AZ",
-       "score": "1:3"
-      },
-      {
-       "date": "14.03.2025",
-       "home": "MVV",
-       "away": "Jong AZ",
-       "score": "0:1"
-      },
-      {
-       "date": "02.12.2024",
-       "home": "Jong AZ",
-       "away": "MVV",
-       "score": "2:3"
-      },
-      {
-       "date": "03.05.2024",
-       "home": "Jong AZ",
-       "away": "MVV",
-       "score": "2:3"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.6797,
-      "pDraw": 0.1694,
-      "pAway": 0.1506,
-      "pOver25": 0.7206,
-      "pBtts": 0.6336,
-      "xgHome": 2.58,
-      "xgAway": 1.16,
-      "tipScore": "2:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.6336,
-     "odds": {
-      "h": 1.77,
-      "d": 4.2,
-      "a": 3.8,
-      "src": "10Bet"
-     },
-     "value": {
-      "outcome": "1",
-      "edge": 0.1498,
-      "modelP": 0.6797,
-      "odds": 1.77
-     },
-     "scorersHome": [
-      {
-       "name": "A. Oufkir",
-       "goals": 2
-      }
-     ],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Jong AZ geht als klarer Favorit (68 %) in das Heimspiel gegen MVV. In der Tabelle stehen sich Platz 19 und Platz 8 gegenüber. Das letzte Duell (2026) endete 1:1 (Jong AZ – MVV). Das Modell erwartet ein torreiches Spiel (xG 2,6:1,2; über 2,5 Tore: 72 %, beide Teams treffen zu 63 %). Gefährlichste Torschützen: bei Jong AZ A. Oufkir (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 1,77) für 15 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-08-28T20:00:00+02:00",
-     "home": "Den Bosch",
-     "away": "Vitesse",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 4",
-     "formHome": [
-      "S",
-      "S",
-      "U",
-      "N",
-      "S"
-     ],
-     "formAway": [
-      "U",
-      "N",
-      "U",
-      "S",
-      "N"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 3,
-     "posAway": 15,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "21.12.2025",
-       "home": "Den Bosch",
-       "away": "Vitesse",
-       "score": "2:0"
-      },
-      {
-       "date": "06.10.2025",
-       "home": "Vitesse",
-       "away": "Den Bosch",
-       "score": "1:2"
-      },
-      {
-       "date": "09.05.2025",
-       "home": "Vitesse",
-       "away": "Den Bosch",
-       "score": "3:1"
-      },
-      {
-       "date": "18.10.2024",
-       "home": "Den Bosch",
-       "away": "Vitesse",
-       "score": "4:2"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.4041,
-      "pDraw": 0.2341,
-      "pAway": 0.3617,
-      "pOver25": 0.6194,
-      "pBtts": 0.6359,
-      "xgHome": 1.65,
-      "xgAway": 1.55,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.6359,
-     "odds": {
-      "h": 2.45,
-      "d": 3.9,
-      "a": 2.45,
-      "src": "10Bet"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Sebastian Karlsson Grach",
-       "goals": 4
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Naoufal Bannis",
-       "goals": 3
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen Den Bosch und Vitesse deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Den Bosch 41 %, Unentschieden 23 %, Sieg Vitesse 36 %). In der Tabelle stehen sich Platz 3 und Platz 15 gegenüber. Die Form spricht für Den Bosch: 3 Siege aus den letzten 5 Spielen, Vitesse holte nur 1. Das letzte Duell (2025) endete 2:0 (Den Bosch – Vitesse). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,6; über 2,5 Tore: 62 %, beide Teams treffen zu 64 %). Gefährlichste Torschützen: bei Den Bosch Sebastian Karlsson Grach (4 Tore) und bei Vitesse Naoufal Bannis (3 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-08-28T20:00:00+02:00",
-     "home": "FC OSS",
-     "away": "Jong Utrecht",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 4",
-     "formHome": [
-      "N",
-      "N",
-      "N",
-      "N",
-      "N"
-     ],
-     "formAway": [
-      "N",
-      "N",
-      "N",
-      "N",
-      "N"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 10,
-     "posAway": 20,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "06.04.2026",
-       "home": "FC OSS",
-       "away": "Jong Utrecht",
-       "score": "3:1"
-      },
-      {
-       "date": "24.10.2025",
-       "home": "Jong Utrecht",
-       "away": "FC OSS",
-       "score": "0:0"
-      },
-      {
-       "date": "03.03.2025",
-       "home": "Jong Utrecht",
-       "away": "FC OSS",
-       "score": "1:1"
-      },
-      {
-       "date": "05.01.2025",
-       "home": "FC OSS",
-       "away": "Jong Utrecht",
-       "score": "1:1"
-      },
-      {
-       "date": "30.11.2024",
-       "home": "FC OSS",
-       "away": "Jong Utrecht",
-       "score": "1:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.5353,
-      "pDraw": 0.1938,
-      "pAway": 0.2707,
-      "pOver25": 0.7756,
-      "pBtts": 0.7424,
-      "xgHome": 2.4,
-      "xgAway": 1.7,
-      "tipScore": "2:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.7424,
-     "odds": {
-      "h": 2.0,
-      "d": 3.75,
-      "a": 3.25,
-      "src": "10Bet"
-     },
-     "value": {
-      "outcome": "1",
-      "edge": 0.0699,
-      "modelP": 0.5353,
-      "odds": 2.0
-     },
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Bjorn Menzo",
-       "goals": 2
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "FC OSS ist gegen Jong Utrecht leicht favorisiert (54 % zu 27 %). In der Tabelle stehen sich Platz 10 und Platz 20 gegenüber. Das letzte Duell (2026) endete 3:1 (FC OSS – Jong Utrecht). Das Modell erwartet ein torreiches Spiel (xG 2,4:1,7; über 2,5 Tore: 78 %, beide Teams treffen zu 74 %). Gefährlichste Torschützen: bei Jong Utrecht Bjorn Menzo (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,00) für 7 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-08-28T20:00:00+02:00",
-     "home": "Jong Ajax",
-     "away": "Helmond Sport",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 4",
-     "formHome": [
-      "N",
-      "N",
-      "N",
-      "N",
-      "N"
-     ],
-     "formAway": [
-      "N",
-      "S",
-      "U",
-      "N",
-      "U"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 18,
-     "posAway": 7,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "27.02.2026",
-       "home": "Jong Ajax",
-       "away": "Helmond Sport",
-       "score": "5:1"
-      },
-      {
-       "date": "24.11.2025",
-       "home": "Helmond Sport",
-       "away": "Jong Ajax",
-       "score": "2:1"
-      },
-      {
-       "date": "28.04.2025",
-       "home": "Jong Ajax",
-       "away": "Helmond Sport",
-       "score": "1:0"
-      },
-      {
-       "date": "04.10.2024",
-       "home": "Helmond Sport",
-       "away": "Jong Ajax",
-       "score": "1:1"
-      },
-      {
-       "date": "19.04.2024",
-       "home": "Helmond Sport",
-       "away": "Jong Ajax",
-       "score": "3:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.3963,
-      "pDraw": 0.2394,
-      "pAway": 0.3644,
-      "pOver25": 0.5938,
-      "pBtts": 0.6164,
-      "xgHome": 1.58,
-      "xgAway": 1.5,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.6164,
-     "odds": {
-      "h": 2.15,
-      "d": 3.8,
-      "a": 2.9,
-      "src": "10Bet"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Diego Pugno",
-       "goals": 3
-      },
-      {
-       "name": "Emre Ünüvar",
-       "goals": 3
-      }
-     ],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen Jong Ajax und Helmond Sport deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Jong Ajax 40 %, Unentschieden 24 %, Sieg Helmond Sport 36 %). In der Tabelle stehen sich Platz 18 und Platz 7 gegenüber. Das letzte Duell (2026) endete 5:1 (Jong Ajax – Helmond Sport). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,5; über 2,5 Tore: 59 %, beide Teams treffen zu 62 %). Gefährlichste Torschützen: bei Jong Ajax Diego Pugno (3 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-08-29T16:30:00+02:00",
      "home": "De Graafschap",
@@ -11570,159 +10242,6 @@
    "espn": "bel.2",
    "matches": [
     {
-     "kickoff": "2026-08-28T20:00:00+02:00",
-     "home": "Sporting Hasselt",
-     "away": "KAA Gent II",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 3",
-     "formHome": [
-      "S",
-      "U",
-      "S",
-      "S",
-      "S"
-     ],
-     "formAway": [
-      "U",
-      "S",
-      "S",
-      "N",
-      "N"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 3,
-     "posAway": 15,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "14.12.2024",
-       "home": "Sporting Hasselt",
-       "away": "KAA Gent II",
-       "score": "0:3"
-      },
-      {
-       "date": "14.09.2024",
-       "home": "KAA Gent II",
-       "away": "Sporting Hasselt",
-       "score": "1:2"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.7547,
-      "pDraw": 0.1532,
-      "pAway": 0.0918,
-      "pOver25": 0.6349,
-      "pBtts": 0.4894,
-      "xgHome": 2.51,
-      "xgAway": 0.76,
-      "tipScore": "2:0",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.4894,
-     "odds": {
-      "h": 1.9,
-      "d": 3.65,
-      "a": 3.5,
-      "src": "10Bet"
-     },
-     "value": {
-      "outcome": "1",
-      "edge": 0.2701,
-      "modelP": 0.7547,
-      "odds": 1.9
-     },
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Vorsaison",
-     "analysis": "Sporting Hasselt geht als klarer Favorit (76 %) in das Heimspiel gegen KAA Gent II. In der Tabelle stehen sich Platz 3 und Platz 15 gegenüber. Die Form spricht für Sporting Hasselt: 4 Siege aus den letzten 5 Spielen, KAA Gent II holte nur 2. Das letzte Duell (2024) endete 0:3 (Sporting Hasselt – KAA Gent II). Das Modell erwartet ein torreiches Spiel (xG 2,5:0,8; über 2,5 Tore: 63 %, beide Teams treffen zu 49 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 1,90) für 27 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-08-28T20:00:00+02:00",
-     "home": "Lokeren-Temse",
-     "away": "KRC Genk II",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 3",
-     "formHome": [
-      "N",
-      "S",
-      "S",
-      "S",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "U",
-      "N",
-      "S"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 2,
-     "posAway": 14,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "03.04.2026",
-       "home": "KRC Genk II",
-       "away": "Lokeren-Temse",
-       "score": "2:2"
-      },
-      {
-       "date": "14.12.2025",
-       "home": "Lokeren-Temse",
-       "away": "KRC Genk II",
-       "score": "2:2"
-      },
-      {
-       "date": "02.03.2025",
-       "home": "KRC Genk II",
-       "away": "Lokeren-Temse",
-       "score": "1:2"
-      },
-      {
-       "date": "03.11.2024",
-       "home": "Lokeren-Temse",
-       "away": "KRC Genk II",
-       "score": "4:0"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.5707,
-      "pDraw": 0.1837,
-      "pAway": 0.2453,
-      "pOver25": 0.8005,
-      "pBtts": 0.755,
-      "xgHome": 2.59,
-      "xgAway": 1.7,
-      "tipScore": "2:1",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.755,
-     "odds": {
-      "h": 1.73,
-      "d": 3.8,
-      "a": 4.1,
-      "src": "10Bet"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Vorsaison",
-     "analysis": "Lokeren-Temse geht als klarer Favorit (57 %) in das Heimspiel gegen KRC Genk II. In der Tabelle stehen sich Platz 2 und Platz 14 gegenüber. Die Form spricht für Lokeren-Temse: 4 Siege aus den letzten 5 Spielen, KRC Genk II holte nur 2. Das letzte Duell (2026) endete 2:2 (KRC Genk II – Lokeren-Temse). Das Modell erwartet ein torreiches Spiel (xG 2,6:1,7; über 2,5 Tore: 80 %, beide Teams treffen zu 76 %).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
      "kickoff": "2026-08-29T16:00:00+02:00",
      "home": "Liège",
      "away": "Dender",
@@ -12412,7 +10931,21 @@
      ],
      "scorersPeriod": "Saison",
      "analysis": "Zwischen Alverca und Santa Clara deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Alverca 32 %, Unentschieden 30 %, Sieg Santa Clara 38 %). In der Tabelle stehen sich Platz 16 und Platz 4 gegenüber. Die Form spricht für Santa Clara: 3 Siege aus den letzten 5 Spielen, Alverca holte nur 0. Heim-/Auswärtsbilanz: Alverca gewann 2 der letzten 5 Heimspiele, Santa Clara 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:1 (Alverca – Santa Clara). Das Modell erwartet eher wenige Tore (xG 1,0:1,1; über 2,5 Tore: 34 %, beide Teams treffen zu 41 %). Gefährlichste Torschützen: bei Santa Clara Gonçalo Paciência (4 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "news": [
+      {
+       "title": "Santander - Elche: Tor zum 3:0 durch Zabiri in der 36. Minute",
+       "link": "https://www.kicker.de/santander-elche-tor-zum-3-0-durch-zabiri-in-der-36-minute-1247619/video#omrss"
+      },
+      {
+       "title": "Santander - Elche: Tor zum 2:0 durch Zabiri in der 21. Minute",
+       "link": "https://www.kicker.de/santander-elche-tor-zum-2-0-durch-zabiri-in-der-21-minute-1247617/video#omrss"
+      },
+      {
+       "title": "Santander - Elche: Tor zum 1:0 durch Zabiri in der 15. Minute",
+       "link": "https://www.kicker.de/santander-elche-tor-zum-1-0-durch-zabiri-in-der-15-minute-1247615/video#omrss"
+      }
+     ]
     },
     {
      "kickoff": "2026-08-29T19:00:00+02:00",
@@ -13531,95 +12064,6 @@
    "espn": "aut.1",
    "matches": [
     {
-     "kickoff": "2026-08-28T19:30:00+02:00",
-     "home": "Austria Lustenau",
-     "away": "WSG Wattens",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 5",
-     "formHome": [
-      "S",
-      "U",
-      "N",
-      "S",
-      "U"
-     ],
-     "formAway": [
-      "N",
-      "S",
-      "U",
-      "N",
-      "N"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 5,
-     "posAway": 12,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "31.01.2026",
-       "home": "Austria Lustenau",
-       "away": "WSG Wattens",
-       "score": "0:6"
-      },
-      {
-       "date": "27.04.2024",
-       "home": "WSG Wattens",
-       "away": "Austria Lustenau",
-       "score": "0:0"
-      },
-      {
-       "date": "30.03.2024",
-       "home": "Austria Lustenau",
-       "away": "WSG Wattens",
-       "score": "1:2"
-      },
-      {
-       "date": "11.02.2024",
-       "home": "WSG Wattens",
-       "away": "Austria Lustenau",
-       "score": "0:2"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.4092,
-      "pDraw": 0.2401,
-      "pAway": 0.3507,
-      "pOver25": 0.588,
-      "pBtts": 0.6112,
-      "xgHome": 1.59,
-      "xgAway": 1.46,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.6112,
-     "odds": {
-      "h": 2.25,
-      "d": 3.5,
-      "a": 2.95,
-      "src": "10Bet"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Dominik Weixelbraun",
-       "goals": 2
-      },
-      {
-       "name": "Antonio Verinac",
-       "goals": 2
-      }
-     ],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen Austria Lustenau und WSG Wattens deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Austria Lustenau 41 %, Unentschieden 24 %, Sieg WSG Wattens 35 %). In der Tabelle stehen sich Platz 5 und Platz 12 gegenüber. Das letzte Duell (2026) endete 0:6 (Austria Lustenau – WSG Wattens). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,5; über 2,5 Tore: 59 %, beide Teams treffen zu 61 %). Gefährlichste Torschützen: bei Austria Lustenau Dominik Weixelbraun (2 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
      "kickoff": "2026-08-29T17:00:00+02:00",
      "home": "Grazer AK",
      "away": "Wolfsberger AC",
@@ -14496,16 +12940,16 @@
      },
      "pBtts": 0.7721,
      "odds": {
-      "h": 2.2,
+      "h": 2.15,
       "d": 3.55,
-      "a": 3.0,
+      "a": 3.1,
       "src": "10Bet"
      },
      "value": {
       "outcome": "2",
-      "edge": 0.0845,
+      "edge": 0.0945,
       "modelP": 0.3962,
-      "odds": 3.0
+      "odds": 3.1
      },
      "scorersHome": [
       {
@@ -14532,7 +12976,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen FC Sion und FC Lugano deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg FC Sion 40 %, Unentschieden 20 %, Sieg FC Lugano 40 %). In der Tabelle stehen sich Platz 5 und Platz 2 gegenüber. Das letzte Duell (2026) endete 2:2 (FC Sion – FC Lugano). Das Modell erwartet ein torreiches Spiel (xG 2,1:2,1; über 2,5 Tore: 79 %, beide Teams treffen zu 77 %). Gefährlichste Torschützen: bei FC Sion Rilind Nivokazi (3 Tore) und bei FC Lugano K. Behrens (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,00) für 8 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Zwischen FC Sion und FC Lugano deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg FC Sion 40 %, Unentschieden 20 %, Sieg FC Lugano 40 %). In der Tabelle stehen sich Platz 5 und Platz 2 gegenüber. Das letzte Duell (2026) endete 2:2 (FC Sion – FC Lugano). Das Modell erwartet ein torreiches Spiel (xG 2,1:2,1; über 2,5 Tore: 79 %, beide Teams treffen zu 77 %). Gefährlichste Torschützen: bei FC Sion Rilind Nivokazi (3 Tore) und bei FC Lugano K. Behrens (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,10) für 9 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -14708,8 +13152,8 @@
      },
      "pBtts": 0.7829,
      "odds": {
-      "h": 1.64,
-      "d": 4.2,
+      "h": 1.62,
+      "d": 4.33,
       "a": 4.5,
       "src": "10Bet"
      },
@@ -19062,8 +17506,20 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "Regular Season - 19",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "S",
+      "N",
+      "U",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "S",
+      "U",
+      "N",
+      "N",
+      "S"
+     ],
      "formHomeH": [],
      "formAwayA": [],
      "load14Home": 0,
@@ -19071,9 +17527,50 @@
      "posHome": 3,
      "posAway": 9,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "19.04.2026",
+       "home": "Sarpsborg 08 FF",
+       "away": "Tromso",
+       "score": "0:1"
+      },
+      {
+       "date": "02.11.2025",
+       "home": "Tromso",
+       "away": "Sarpsborg 08 FF",
+       "score": "4:0"
+      },
+      {
+       "date": "25.05.2025",
+       "home": "Sarpsborg 08 FF",
+       "away": "Tromso",
+       "score": "0:1"
+      },
+      {
+       "date": "13.02.2025",
+       "home": "Sarpsborg 08 FF",
+       "away": "Tromso",
+       "score": "3:3"
+      },
+      {
+       "date": "01.12.2024",
+       "home": "Sarpsborg 08 FF",
+       "away": "Tromso",
+       "score": "2:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.6173,
+      "pDraw": 0.1912,
+      "pAway": 0.1913,
+      "pOver25": 0.6896,
+      "pBtts": 0.6393,
+      "xgHome": 2.32,
+      "xgAway": 1.23,
+      "tipScore": "2:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6393,
      "odds": {
       "h": 1.6,
       "d": 4.0,
@@ -19098,7 +17595,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Gefährlichste Torschützen: bei Tromso Heine Larsen (8 Tore). Personal: Tromso fehlen 7 Spieler (u.a. J. Grundt); Sarpsborg 08 FF fehlen 12 Spieler (u.a. Camil Mmaee).",
+     "analysis": "Tromso geht als klarer Favorit (62 %) in das Heimspiel gegen Sarpsborg 08 FF. In der Tabelle stehen sich Platz 3 und Platz 9 gegenüber. Das letzte Duell (2026) endete 0:1 (Sarpsborg 08 FF – Tromso). Das Modell erwartet ein torreiches Spiel (xG 2,3:1,2; über 2,5 Tore: 69 %, beide Teams treffen zu 64 %). Gefährlichste Torschützen: bei Tromso Heine Larsen (8 Tore) und bei Sarpsborg 08 FF D. Karlsbakk (6 Tore). Personal: Tromso fehlen 6 Spieler (u.a. J. Grundt); Sarpsborg 08 FF fehlen 6 Spieler (u.a. Camil Mmaee).",
      "injuriesHome": [
       {
        "name": "J. Grundt",
@@ -19151,7 +17648,7 @@
        "reason": "Ankle Injury"
       }
      ],
-     "basis": "Datenbasis: Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-30T17:00:00+02:00",
@@ -19161,8 +17658,20 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "Regular Season - 19",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "N",
+      "N",
+      "N",
+      "S",
+      "S"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "U",
+      "S",
+      "S"
+     ],
      "formHomeH": [],
      "formAwayA": [],
      "load14Home": 0,
@@ -19170,16 +17679,62 @@
      "posHome": 13,
      "posAway": 6,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "12.04.2026",
+       "home": "Brann",
+       "away": "Sandefjord",
+       "score": "0:1"
+      },
+      {
+       "date": "20.09.2025",
+       "home": "Sandefjord",
+       "away": "Brann",
+       "score": "0:3"
+      },
+      {
+       "date": "30.06.2025",
+       "home": "Brann",
+       "away": "Sandefjord",
+       "score": "1:0"
+      },
+      {
+       "date": "15.09.2024",
+       "home": "Sandefjord",
+       "away": "Brann",
+       "score": "2:2"
+      },
+      {
+       "date": "16.05.2024",
+       "home": "Brann",
+       "away": "Sandefjord",
+       "score": "2:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4561,
+      "pDraw": 0.2156,
+      "pAway": 0.3283,
+      "pOver25": 0.7037,
+      "pBtts": 0.6976,
+      "xgHome": 1.98,
+      "xgAway": 1.66,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6976,
      "odds": {
       "h": 2.95,
       "d": 3.75,
       "a": 2.15,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "1",
+      "edge": 0.1395,
+      "modelP": 0.4561,
+      "odds": 2.95
+     },
      "scorersHome": [],
      "scorersAway": [
       {
@@ -19188,7 +17743,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Gefährlichste Torschützen: bei Brann Noah Holm (6 Tore). Personal: Sandefjord fehlen 10 Spieler (u.a. J. Swift); Brann fehlen 15 Spieler (u.a. N. Castro).",
+     "analysis": "Sandefjord ist gegen Brann leicht favorisiert (45 % zu 33 %). In der Tabelle stehen sich Platz 13 und Platz 6 gegenüber. Die Form spricht für Brann: 4 Siege aus den letzten 5 Spielen, Sandefjord holte nur 2. Das letzte Duell (2026) endete 0:1 (Brann – Sandefjord). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,7; über 2,5 Tore: 70 %, beide Teams treffen zu 70 %). Gefährlichste Torschützen: bei Brann Noah Holm (6 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,95) für 14 Prozentpunkte wahrscheinlicher als der Markt. Personal: Sandefjord fehlen 6 Spieler (u.a. J. Swift); Brann fehlen 6 Spieler (u.a. N. Castro).",
      "injuriesHome": [
       {
        "name": "J. Swift",
@@ -19241,7 +17796,7 @@
        "reason": "Groin Injury"
       }
      ],
-     "basis": "Datenbasis: Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-30T17:00:00+02:00",
@@ -19251,8 +17806,20 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "Regular Season - 19",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "N",
+      "S",
+      "N",
+      "N",
+      "S"
+     ],
+     "formAway": [
+      "N",
+      "S",
+      "S",
+      "U",
+      "S"
+     ],
      "formHomeH": [],
      "formAwayA": [],
      "load14Home": 0,
@@ -19260,20 +17827,66 @@
      "posHome": 16,
      "posAway": 12,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "15.03.2026",
+       "home": "KFUM Oslo",
+       "away": "Start",
+       "score": "2:0"
+      },
+      {
+       "date": "12.11.2023",
+       "home": "Start",
+       "away": "KFUM Oslo",
+       "score": "1:1"
+      },
+      {
+       "date": "03.05.2023",
+       "home": "KFUM Oslo",
+       "away": "Start",
+       "score": "2:2"
+      },
+      {
+       "date": "16.02.2023",
+       "home": "Start",
+       "away": "KFUM Oslo",
+       "score": "5:4"
+      },
+      {
+       "date": "16.02.2023",
+       "home": "KFUM Oslo",
+       "away": "Start",
+       "score": "4:5"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3636,
+      "pDraw": 0.2387,
+      "pAway": 0.3978,
+      "pOver25": 0.5971,
+      "pBtts": 0.6189,
+      "xgHome": 1.51,
+      "xgAway": 1.59,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6189,
      "odds": {
       "h": 2.25,
       "d": 3.55,
       "a": 2.95,
       "src": "10Bet"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.0795,
+      "modelP": 0.3978,
+      "odds": 2.95
+     },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": " Personal: Start fehlen 14 Spieler (u.a. A. F. Gurendal); KFUM Oslo fehlen 20 Spieler (u.a. A. Aleesami).",
+     "analysis": "Zwischen Start und KFUM Oslo deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Start 36 %, Unentschieden 24 %, Sieg KFUM Oslo 40 %). In der Tabelle stehen sich Platz 16 und Platz 12 gegenüber. Das letzte Duell (2026) endete 2:0 (KFUM Oslo – Start). Das Modell erwartet ein torreiches Spiel (xG 1,5:1,6; über 2,5 Tore: 60 %, beide Teams treffen zu 62 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,95) für 8 Prozentpunkte wahrscheinlicher als der Markt. Personal: Start fehlen 6 Spieler (u.a. A. F. Gurendal); KFUM Oslo fehlen 6 Spieler (u.a. A. Aleesami).",
      "injuriesHome": [
       {
        "name": "A. F. Gurendal",
@@ -19326,11 +17939,11 @@
        "reason": "Injury"
       }
      ],
-     "basis": "Datenbasis: Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
       {
-       "title": "LIVE! Vergoldet Hertha in Braunschweig den Saisonstart? - Bochum empfängt Osnabrück",
-       "link": "https://www.kicker.de/live-vergoldet-hertha-in-braunschweig-den-saisonstart-bochum-empfaengt-osnabrueck-1247056/artikel#omrss"
+       "title": "LIVE! Start der 64. Bundesliga-Saison: Bayern wieder mit Zehner Brown - VfB mit Vagnoman",
+       "link": "https://www.kicker.de/live-start-der-64-bundesliga-saison-bayern-wieder-mit-zehner-brown-vfb-mit-vagnoman-1247051/artikel#omrss"
       }
      ]
     },
@@ -19342,8 +17955,20 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "Regular Season - 19",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "N",
+      "S",
+      "U",
+      "N",
+      "S"
+     ],
+     "formAway": [
+      "N",
+      "N",
+      "S",
+      "N",
+      "S"
+     ],
      "formHomeH": [],
      "formAwayA": [],
      "load14Home": 0,
@@ -19351,9 +17976,50 @@
      "posHome": 10,
      "posAway": 14,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "03.05.2026",
+       "home": "Kristiansund BK",
+       "away": "Ham-Kam",
+       "score": "1:1"
+      },
+      {
+       "date": "18.02.2026",
+       "home": "Kristiansund BK",
+       "away": "Ham-Kam",
+       "score": "2:1"
+      },
+      {
+       "date": "26.10.2025",
+       "home": "Kristiansund BK",
+       "away": "Ham-Kam",
+       "score": "1:3"
+      },
+      {
+       "date": "30.03.2025",
+       "home": "Ham-Kam",
+       "away": "Kristiansund BK",
+       "score": "2:1"
+      },
+      {
+       "date": "27.10.2024",
+       "home": "Ham-Kam",
+       "away": "Kristiansund BK",
+       "score": "1:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5081,
+      "pDraw": 0.2322,
+      "pAway": 0.2597,
+      "pOver25": 0.5781,
+      "pBtts": 0.5862,
+      "xgHome": 1.79,
+      "xgAway": 1.22,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5862,
      "odds": {
       "h": 1.85,
       "d": 3.7,
@@ -19374,7 +18040,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": " Personal: Ham-Kam fehlen 8 Spieler (u.a. N. Alexandersson); Kristiansund BK fehlen 15 Spieler (u.a. L. Alvheim).",
+     "analysis": "Ham-Kam ist gegen Kristiansund BK leicht favorisiert (51 % zu 26 %). In der Tabelle stehen sich Platz 10 und Platz 14 gegenüber. Das letzte Duell (2026) endete 1:1 (Kristiansund BK – Ham-Kam). Das Modell erwartet ein torreiches Spiel (xG 1,8:1,2; über 2,5 Tore: 58 %, beide Teams treffen zu 59 %). Gefährlichste Torschützen: bei Ham-Kam M. Niang (6 Tore) und bei Kristiansund BK L. Alvheim (6 Tore). Personal: Ham-Kam fehlen 6 Spieler (u.a. N. Alexandersson); Kristiansund BK fehlen 6 Spieler (u.a. L. Alvheim).",
      "injuriesHome": [
       {
        "name": "N. Alexandersson",
@@ -19427,7 +18093,7 @@
        "reason": "Leg Injury"
       }
      ],
-     "basis": "Datenbasis: Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-08-30T19:15:00+02:00",
@@ -19437,8 +18103,20 @@
      "awayIcon": null,
      "matchday": null,
      "roundName": "Regular Season - 19",
-     "formHome": [],
-     "formAway": [],
+     "formHome": [
+      "N",
+      "N",
+      "U",
+      "U",
+      "S"
+     ],
+     "formAway": [
+      "N",
+      "S",
+      "S",
+      "S",
+      "S"
+     ],
      "formHomeH": [],
      "formAwayA": [],
      "load14Home": 0,
@@ -19446,9 +18124,50 @@
      "posHome": 5,
      "posAway": 8,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "11.07.2026",
+       "home": "Fredrikstad",
+       "away": "Lillestrom",
+       "score": "0:2"
+      },
+      {
+       "date": "31.01.2026",
+       "home": "Lillestrom",
+       "away": "Fredrikstad",
+       "score": "2:2"
+      },
+      {
+       "date": "21.05.2025",
+       "home": "Lillestrom",
+       "away": "Fredrikstad",
+       "score": "1:1"
+      },
+      {
+       "date": "22.03.2025",
+       "home": "Fredrikstad",
+       "away": "Lillestrom",
+       "score": "1:0"
+      },
+      {
+       "date": "20.10.2024",
+       "home": "Fredrikstad",
+       "away": "Lillestrom",
+       "score": "2:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3777,
+      "pDraw": 0.2707,
+      "pAway": 0.3517,
+      "pOver25": 0.4531,
+      "pBtts": 0.5064,
+      "xgHome": 1.27,
+      "xgAway": 1.22,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5064,
      "odds": {
       "h": 1.67,
       "d": 3.9,
@@ -19459,7 +18178,7 @@
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": " Personal: Lillestrom fehlen 16 Spieler (u.a. F. Elkaer); Fredrikstad fehlen 11 Spieler (u.a. S. Kvile).",
+     "analysis": "Zwischen Lillestrom und Fredrikstad deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Lillestrom 38 %, Unentschieden 27 %, Sieg Fredrikstad 35 %). In der Tabelle stehen sich Platz 5 und Platz 8 gegenüber. Die Form spricht für Fredrikstad: 4 Siege aus den letzten 5 Spielen, Lillestrom holte nur 1. Das letzte Duell (2026) endete 0:2 (Fredrikstad – Lillestrom). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,3:1,2; über 2,5 Tore: 45 %, beide Teams treffen zu 51 %). Personal: Lillestrom fehlen 6 Spieler (u.a. F. Elkaer); Fredrikstad fehlen 6 Spieler (u.a. S. Kvile).",
      "injuriesHome": [
       {
        "name": "F. Elkaer",
@@ -19512,7 +18231,7 @@
        "reason": "Leg Injury"
       }
      ],
-     "basis": "Datenbasis: Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
    "seasonHasStarted": false,
@@ -19523,7 +18242,699 @@
    "name": "Allsvenskan (Schweden)",
    "flag": "🇸🇪",
    "espn": "swe.1",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-08-29T15:00:00+02:00",
+     "home": "BK Hacken",
+     "away": "Vasteras SK FK",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Regular Season - 19",
+     "formHome": [
+      "U",
+      "N",
+      "S",
+      "S",
+      "S"
+     ],
+     "formAway": [
+      "N",
+      "S",
+      "N",
+      "S",
+      "U"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 3,
+     "posAway": 8,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "22.04.2026",
+       "home": "Vasteras SK FK",
+       "away": "BK Hacken",
+       "score": "3:3"
+      },
+      {
+       "date": "01.03.2026",
+       "home": "BK Hacken",
+       "away": "Vasteras SK FK",
+       "score": "4:1"
+      },
+      {
+       "date": "28.07.2024",
+       "home": "BK Hacken",
+       "away": "Vasteras SK FK",
+       "score": "4:0"
+      },
+      {
+       "date": "08.07.2024",
+       "home": "Vasteras SK FK",
+       "away": "BK Hacken",
+       "score": "1:2"
+      },
+      {
+       "date": "20.03.2021",
+       "home": "BK Hacken",
+       "away": "Vasteras SK FK",
+       "score": "3:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4809,
+      "pDraw": 0.2238,
+      "pAway": 0.2953,
+      "pOver25": 0.6448,
+      "pBtts": 0.6466,
+      "xgHome": 1.88,
+      "xgAway": 1.44,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6466,
+     "odds": {
+      "h": 1.5,
+      "d": 4.4,
+      "a": 5.6,
+      "src": "10Bet"
+     },
+     "value": null,
+     "scorersHome": [
+      {
+       "name": "Gustav Lindgren",
+       "goals": 9
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "Mikkel Ladefoged",
+       "goals": 9
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "BK Hacken ist gegen Vasteras SK FK leicht favorisiert (48 % zu 30 %). In der Tabelle stehen sich Platz 3 und Platz 8 gegenüber. Das letzte Duell (2026) endete 3:3 (Vasteras SK FK – BK Hacken). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,4; über 2,5 Tore: 64 %, beide Teams treffen zu 65 %). Gefährlichste Torschützen: bei BK Hacken Gustav Lindgren (9 Tore) und bei Vasteras SK FK Mikkel Ladefoged (9 Tore). Personal: BK Hacken fehlen 6 Spieler (u.a. E. Berisha); Vasteras SK FK fehlen 6 Spieler (u.a. M. Diallo).",
+     "injuriesHome": [
+      {
+       "name": "E. Berisha",
+       "reason": "Inactive"
+      },
+      {
+       "name": "S. Kondo",
+       "reason": "Inactive"
+      },
+      {
+       "name": "J. Laursen",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "L. Vaisanen",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "D. Seger",
+       "reason": "Inactive"
+      },
+      {
+       "name": "A. Linde",
+       "reason": "Injury"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "M. Diallo",
+       "reason": "Injury"
+      },
+      {
+       "name": "J. Ring",
+       "reason": "Red Card"
+      },
+      {
+       "name": "M. Baggesen",
+       "reason": "Inactive"
+      },
+      {
+       "name": "I. Lushaku",
+       "reason": "Inactive"
+      },
+      {
+       "name": "A. Boudah",
+       "reason": "Lacking Match Fitness"
+      },
+      {
+       "name": "J. Tagesson",
+       "reason": "Inactive"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-08-29T15:00:00+02:00",
+     "home": "IF Elfsborg",
+     "away": "Degerfors IF",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Regular Season - 19",
+     "formHome": [
+      "S",
+      "S",
+      "S",
+      "S",
+      "U"
+     ],
+     "formAway": [
+      "N",
+      "S",
+      "S",
+      "S",
+      "N"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 5,
+     "posAway": 14,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "17.04.2026",
+       "home": "Degerfors IF",
+       "away": "IF Elfsborg",
+       "score": "0:1"
+      },
+      {
+       "date": "27.09.2025",
+       "home": "IF Elfsborg",
+       "away": "Degerfors IF",
+       "score": "1:2"
+      },
+      {
+       "date": "19.04.2025",
+       "home": "Degerfors IF",
+       "away": "IF Elfsborg",
+       "score": "0:1"
+      },
+      {
+       "date": "15.03.2025",
+       "home": "IF Elfsborg",
+       "away": "Degerfors IF",
+       "score": "4:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5401,
+      "pDraw": 0.2363,
+      "pAway": 0.2235,
+      "pOver25": 0.5244,
+      "pBtts": 0.5311,
+      "xgHome": 1.74,
+      "xgAway": 1.03,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5311,
+     "odds": {
+      "h": 1.55,
+      "d": 3.9,
+      "a": 6.0,
+      "src": "10Bet"
+     },
+     "value": null,
+     "scorersHome": [
+      {
+       "name": "L. Ãstman",
+       "goals": 5
+      }
+     ],
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "IF Elfsborg ist gegen Degerfors IF leicht favorisiert (54 % zu 22 %). In der Tabelle stehen sich Platz 5 und Platz 14 gegenüber. Das letzte Duell (2026) endete 0:1 (Degerfors IF – IF Elfsborg). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,7:1,0; über 2,5 Tore: 52 %, beide Teams treffen zu 53 %). Gefährlichste Torschützen: bei IF Elfsborg L. Ãstman (5 Tore). Personal: IF Elfsborg fehlen 6 Spieler (u.a. J. Beck); Degerfors IF fehlen 6 Spieler (u.a. A. Berisson).",
+     "injuriesHome": [
+      {
+       "name": "J. Beck",
+       "reason": "Thigh Injury"
+      },
+      {
+       "name": "P. Frick",
+       "reason": "Broken ankle"
+      },
+      {
+       "name": "A. Zeneli",
+       "reason": "Thigh Injury"
+      },
+      {
+       "name": "L. Hagg",
+       "reason": "Inactive"
+      },
+      {
+       "name": "L. Richtner",
+       "reason": "Elbow Injury"
+      },
+      {
+       "name": "R. Wikstrom",
+       "reason": "Injury"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "A. Berisson",
+       "reason": "Inactive"
+      },
+      {
+       "name": "M. Diaby",
+       "reason": "Injury"
+      },
+      {
+       "name": "J. Hernandez",
+       "reason": "Injury"
+      },
+      {
+       "name": "W. Jakobsson",
+       "reason": "Inactive"
+      },
+      {
+       "name": "S. Ohlsson",
+       "reason": "Injury"
+      },
+      {
+       "name": "B. Hussein",
+       "reason": "Inactive"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-08-29T17:30:00+02:00",
+     "home": "Halmstad",
+     "away": "Kalmar FF",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Regular Season - 19",
+     "formHome": [
+      "N",
+      "N",
+      "N",
+      "U",
+      "S"
+     ],
+     "formAway": [
+      "U",
+      "N",
+      "N",
+      "S",
+      "U"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 16,
+     "posAway": 13,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "10.05.2026",
+       "home": "Kalmar FF",
+       "away": "Halmstad",
+       "score": "2:0"
+      },
+      {
+       "date": "13.03.2026",
+       "home": "Halmstad",
+       "away": "Kalmar FF",
+       "score": "0:4"
+      },
+      {
+       "date": "21.03.2025",
+       "home": "Kalmar FF",
+       "away": "Halmstad",
+       "score": "0:1"
+      },
+      {
+       "date": "26.09.2024",
+       "home": "Halmstad",
+       "away": "Kalmar FF",
+       "score": "2:2"
+      },
+      {
+       "date": "04.05.2024",
+       "home": "Kalmar FF",
+       "away": "Halmstad",
+       "score": "5:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.2875,
+      "pDraw": 0.2386,
+      "pAway": 0.4739,
+      "pOver25": 0.5695,
+      "pBtts": 0.5876,
+      "xgHome": 1.27,
+      "xgAway": 1.7,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5876,
+     "odds": {
+      "h": 3.3,
+      "d": 3.5,
+      "a": 2.05,
+      "src": "10Bet"
+     },
+     "value": null,
+     "scorersHome": [],
+     "scorersAway": [
+      {
+       "name": "Charlie Rosenquist",
+       "goals": 7
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Kalmar FF ist bei Halmstad leicht favorisiert (47 % zu 29 %). In der Tabelle stehen sich Platz 16 und Platz 13 gegenüber. Das letzte Duell (2026) endete 2:0 (Kalmar FF – Halmstad). Das Modell erwartet ein torreiches Spiel (xG 1,3:1,7; über 2,5 Tore: 57 %, beide Teams treffen zu 59 %). Gefährlichste Torschützen: bei Kalmar FF Charlie Rosenquist (7 Tore). Personal: Halmstad fehlen 4 Spieler (u.a. P. Gregor); Kalmar FF fehlen 6 Spieler (u.a. A. Keita).",
+     "injuriesHome": [
+      {
+       "name": "P. Gregor",
+       "reason": "Suspended"
+      },
+      {
+       "name": "R. Kaib",
+       "reason": "Yellow Cards"
+      },
+      {
+       "name": "A. Boman",
+       "reason": "Red Card"
+      },
+      {
+       "name": "R. Ascone",
+       "reason": "Yellow Cards"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "A. Keita",
+       "reason": "Achilles Tendon Injury"
+      },
+      {
+       "name": "S. Lawal",
+       "reason": "Inactive"
+      },
+      {
+       "name": "A. Magashy",
+       "reason": "Inactive"
+      },
+      {
+       "name": "M. Stolt",
+       "reason": "Inactive"
+      },
+      {
+       "name": "C. Gustafsson",
+       "reason": "Inactive"
+      },
+      {
+       "name": "A. Sabriye",
+       "reason": "Inactive"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-08-30T14:00:00+02:00",
+     "home": "AIK Stockholm",
+     "away": "Hammarby FF",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Regular Season - 19",
+     "formHome": [
+      "U",
+      "N",
+      "S",
+      "S",
+      "S"
+     ],
+     "formAway": [
+      "S",
+      "N",
+      "S",
+      "S",
+      "S"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 6,
+     "posAway": 2,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "24.05.2026",
+       "home": "Hammarby FF",
+       "away": "AIK Stockholm",
+       "score": "1:2"
+      },
+      {
+       "date": "19.10.2025",
+       "home": "Hammarby FF",
+       "away": "AIK Stockholm",
+       "score": "2:1"
+      },
+      {
+       "date": "18.05.2025",
+       "home": "AIK Stockholm",
+       "away": "Hammarby FF",
+       "score": "0:0"
+      },
+      {
+       "date": "29.09.2024",
+       "home": "AIK Stockholm",
+       "away": "Hammarby FF",
+       "score": "1:0"
+      },
+      {
+       "date": "19.05.2024",
+       "home": "Hammarby FF",
+       "away": "AIK Stockholm",
+       "score": "2:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3383,
+      "pDraw": 0.2523,
+      "pAway": 0.4094,
+      "pOver25": 0.5289,
+      "pBtts": 0.5648,
+      "xgHome": 1.32,
+      "xgAway": 1.47,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5648,
+     "odds": {
+      "h": 5.1,
+      "d": 4.2,
+      "a": 1.57,
+      "src": "10Bet"
+     },
+     "value": null,
+     "scorersHome": [],
+     "scorersAway": [
+      {
+       "name": "Paulos Abraham",
+       "goals": 11
+      },
+      {
+       "name": "Victor Lind",
+       "goals": 8
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Zwischen AIK Stockholm und Hammarby FF deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg AIK Stockholm 34 %, Unentschieden 25 %, Sieg Hammarby FF 41 %). In der Tabelle stehen sich Platz 6 und Platz 2 gegenüber. Das letzte Duell (2026) endete 1:2 (Hammarby FF – AIK Stockholm). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,3:1,5; über 2,5 Tore: 53 %, beide Teams treffen zu 56 %). Gefährlichste Torschützen: bei Hammarby FF Paulos Abraham (11 Tore). Personal: AIK Stockholm fehlen 6 Spieler (u.a. E. Edh); Hammarby FF fehlen 6 Spieler (u.a. D. Collander).",
+     "injuriesHome": [
+      {
+       "name": "E. Edh",
+       "reason": "Injury"
+      },
+      {
+       "name": "M. Ellingsen",
+       "reason": "Leg Injury"
+      },
+      {
+       "name": "F. Nissen",
+       "reason": "Inactive"
+      },
+      {
+       "name": "A. Redkin",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "M. Thychosen",
+       "reason": "Inactive"
+      },
+      {
+       "name": "A. Helm",
+       "reason": "Inactive"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "D. Collander",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "T. Tekie",
+       "reason": "Inactive"
+      },
+      {
+       "name": "S. Kone",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "H. Skoglund",
+       "reason": "Red Card"
+      },
+      {
+       "name": "V. Eriksson",
+       "reason": "Yellow Cards"
+      },
+      {
+       "name": "F. Adjei",
+       "reason": "Yellow Cards"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-08-30T16:30:00+02:00",
+     "home": "IFK Goteborg",
+     "away": "Orgryte IS",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Regular Season - 19",
+     "formHome": [
+      "N",
+      "S",
+      "U",
+      "N",
+      "U"
+     ],
+     "formAway": [
+      "S",
+      "N",
+      "N",
+      "U",
+      "S"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 12,
+     "posAway": 15,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "19.05.2026",
+       "home": "Orgryte IS",
+       "away": "IFK Goteborg",
+       "score": "2:3"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4732,
+      "pDraw": 0.2233,
+      "pAway": 0.3035,
+      "pOver25": 0.6521,
+      "pBtts": 0.6539,
+      "xgHome": 1.88,
+      "xgAway": 1.47,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6539,
+     "odds": {
+      "h": 1.57,
+      "d": 4.33,
+      "a": 5.1,
+      "src": "10Bet"
+     },
+     "value": null,
+     "scorersHome": [
+      {
+       "name": "T. Heintz",
+       "goals": 6
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "Noah Christofferson",
+       "goals": 8
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "IFK Goteborg ist gegen Orgryte IS leicht favorisiert (48 % zu 30 %). In der Tabelle stehen sich Platz 12 und Platz 15 gegenüber. Das letzte Duell (2026) endete 2:3 (Orgryte IS – IFK Goteborg). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,5; über 2,5 Tore: 65 %, beide Teams treffen zu 65 %). Gefährlichste Torschützen: bei IFK Goteborg T. Heintz (6 Tore) und bei Orgryte IS Noah Christofferson (8 Tore). Personal: IFK Goteborg fehlen 6 Spieler (u.a. V. Andersson); Orgryte IS fehlen 6 Spieler (u.a. A. Abukar).",
+     "injuriesHome": [
+      {
+       "name": "V. Andersson",
+       "reason": "Inactive"
+      },
+      {
+       "name": "L. Kahed",
+       "reason": "Hip Injury"
+      },
+      {
+       "name": "R. Lundqvist",
+       "reason": "Health problems"
+      },
+      {
+       "name": "A. Mucolli",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "J. Rasheed",
+       "reason": "Inactive"
+      },
+      {
+       "name": "N. Tolf",
+       "reason": "Inactive"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "A. Abukar",
+       "reason": "Inactive"
+      },
+      {
+       "name": "M. Nilsson",
+       "reason": "Inactive"
+      },
+      {
+       "name": "C. Vindehall",
+       "reason": "Inactive"
+      },
+      {
+       "name": "R. Alm",
+       "reason": "Injury"
+      },
+      {
+       "name": "S. Lagerlund",
+       "reason": "Inactive"
+      },
+      {
+       "name": "J. Tibbling",
+       "reason": "Yellow Cards"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": false,
    "isCup": false
   },
@@ -19532,7 +18943,573 @@
    "name": "Superliga (Dänemark)",
    "flag": "🇩🇰",
    "espn": "den.1",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-08-30T14:00:00+02:00",
+     "home": "Lyngby",
+     "away": "Odense",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Regular Season - 5",
+     "formHome": [
+      "U",
+      "N",
+      "U",
+      "N",
+      "S"
+     ],
+     "formAway": [
+      "S",
+      "N",
+      "N",
+      "U",
+      "S"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 11,
+     "posAway": 7,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "10.05.2024",
+       "home": "Odense",
+       "away": "Lyngby",
+       "score": "1:2"
+      },
+      {
+       "date": "05.04.2024",
+       "home": "Lyngby",
+       "away": "Odense",
+       "score": "0:0"
+      },
+      {
+       "date": "04.11.2023",
+       "home": "Lyngby",
+       "away": "Odense",
+       "score": "2:2"
+      },
+      {
+       "date": "02.10.2023",
+       "home": "Odense",
+       "away": "Lyngby",
+       "score": "1:2"
+      },
+      {
+       "date": "21.05.2023",
+       "home": "Lyngby",
+       "away": "Odense",
+       "score": "0:4"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5465,
+      "pDraw": 0.2245,
+      "pAway": 0.229,
+      "pOver25": 0.5827,
+      "pBtts": 0.5775,
+      "xgHome": 1.88,
+      "xgAway": 1.14,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5775,
+     "odds": {
+      "h": 2.1,
+      "d": 3.65,
+      "a": 3.1,
+      "src": "10Bet"
+     },
+     "value": {
+      "outcome": "1",
+      "edge": 0.1026,
+      "modelP": 0.5465,
+      "odds": 2.1
+     },
+     "scorersHome": [],
+     "scorersAway": [
+      {
+       "name": "J. Arp",
+       "goals": 2
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Lyngby ist gegen Odense leicht favorisiert (55 % zu 23 %). In der Tabelle stehen sich Platz 11 und Platz 7 gegenüber. Das letzte Duell (2024) endete 1:2 (Odense – Lyngby). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,1; über 2,5 Tore: 58 %, beide Teams treffen zu 58 %). Gefährlichste Torschützen: bei Odense J. Arp (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,10) für 10 Prozentpunkte wahrscheinlicher als der Markt. Personal: Lyngby fehlen 1 Spieler (u.a. O. Snorre); Odense fehlen 6 Spieler (u.a. J. Grot).",
+     "injuriesHome": [
+      {
+       "name": "O. Snorre",
+       "reason": "Knee Injury"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "J. Grot",
+       "reason": "Injury"
+      },
+      {
+       "name": "W. Martin",
+       "reason": "Injury"
+      },
+      {
+       "name": "V. Myhra",
+       "reason": "Red Card"
+      },
+      {
+       "name": "J. Niemiec",
+       "reason": "Inactive"
+      },
+      {
+       "name": "A. Suhonen",
+       "reason": "Inactive"
+      },
+      {
+       "name": "F. Arp",
+       "reason": "Inactive"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-08-30T14:00:00+02:00",
+     "home": "Silkeborg",
+     "away": "FC Midtjylland",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Regular Season - 6",
+     "formHome": [
+      "N",
+      "S",
+      "N",
+      "N",
+      "N"
+     ],
+     "formAway": [
+      "S",
+      "U",
+      "S",
+      "S",
+      "S"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 8,
+     "posAway": 4,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "04.07.2026",
+       "home": "FC Midtjylland",
+       "away": "Silkeborg",
+       "score": "4:2"
+      },
+      {
+       "date": "22.02.2026",
+       "home": "Silkeborg",
+       "away": "FC Midtjylland",
+       "score": "0:4"
+      },
+      {
+       "date": "30.10.2025",
+       "home": "FC Midtjylland",
+       "away": "Silkeborg",
+       "score": "4:0"
+      },
+      {
+       "date": "24.08.2025",
+       "home": "FC Midtjylland",
+       "away": "Silkeborg",
+       "score": "4:2"
+      },
+      {
+       "date": "27.06.2025",
+       "home": "FC Midtjylland",
+       "away": "Silkeborg",
+       "score": "2:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3514,
+      "pDraw": 0.2267,
+      "pAway": 0.4219,
+      "pOver25": 0.6546,
+      "pBtts": 0.6623,
+      "xgHome": 1.6,
+      "xgAway": 1.77,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6623,
+     "odds": {
+      "h": 6.4,
+      "d": 4.6,
+      "a": 1.44,
+      "src": "10Bet"
+     },
+     "value": null,
+     "scorersHome": [
+      {
+       "name": "Callum McCowatt",
+       "goals": 2
+      },
+      {
+       "name": "Oliver Ross",
+       "goals": 2
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "V. Byskov",
+       "goals": 1
+      },
+      {
+       "name": "D. Osorio",
+       "goals": 1
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Zwischen Silkeborg und FC Midtjylland deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Silkeborg 35 %, Unentschieden 23 %, Sieg FC Midtjylland 42 %). In der Tabelle stehen sich Platz 8 und Platz 4 gegenüber. Die Form spricht für FC Midtjylland: 4 Siege aus den letzten 5 Spielen, Silkeborg holte nur 1. Das letzte Duell (2026) endete 4:2 (FC Midtjylland – Silkeborg). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,8; über 2,5 Tore: 65 %, beide Teams treffen zu 66 %). Gefährlichste Torschützen: bei Silkeborg Callum McCowatt (2 Tore) und bei FC Midtjylland V. Byskov (1 Tore). Personal: Silkeborg fehlen 6 Spieler (u.a. A. Busch); FC Midtjylland fehlen 6 Spieler (u.a. O. Diao).",
+     "injuriesHome": [
+      {
+       "name": "A. Busch",
+       "reason": "Ankle Injury"
+      },
+      {
+       "name": "M. Freundlich",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "P. Ganchas",
+       "reason": "Inactive"
+      },
+      {
+       "name": "M. Oxenberg",
+       "reason": "Injury"
+      },
+      {
+       "name": "A. Poulsen",
+       "reason": "Inactive"
+      },
+      {
+       "name": "P. Rodin",
+       "reason": "Knee Injury"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "O. Diao",
+       "reason": "Foot Injury"
+      },
+      {
+       "name": "M. Gogorza",
+       "reason": "Hip Injury"
+      },
+      {
+       "name": "Junior Brumado",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "Lee Han-Beom",
+       "reason": "Inactive"
+      },
+      {
+       "name": "V. Bak",
+       "reason": "Inactive"
+      },
+      {
+       "name": "E. Chilufya",
+       "reason": "Inactive"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-08-30T16:00:00+02:00",
+     "home": "Randers FC",
+     "away": "Aarhus",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Regular Season - 6",
+     "formHome": [
+      "N",
+      "S",
+      "N",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "N",
+      "N",
+      "N",
+      "U",
+      "N"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 9,
+     "posAway": 10,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "07.12.2025",
+       "home": "Randers FC",
+       "away": "Aarhus",
+       "score": "1:2"
+      },
+      {
+       "date": "25.07.2025",
+       "home": "Aarhus",
+       "away": "Randers FC",
+       "score": "1:2"
+      },
+      {
+       "date": "11.05.2025",
+       "home": "Aarhus",
+       "away": "Randers FC",
+       "score": "1:3"
+      },
+      {
+       "date": "17.04.2025",
+       "home": "Randers FC",
+       "away": "Aarhus",
+       "score": "3:1"
+      },
+      {
+       "date": "28.02.2025",
+       "home": "Randers FC",
+       "away": "Aarhus",
+       "score": "1:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4939,
+      "pDraw": 0.2177,
+      "pAway": 0.2883,
+      "pOver25": 0.6702,
+      "pBtts": 0.6644,
+      "xgHome": 1.98,
+      "xgAway": 1.47,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6644,
+     "odds": {
+      "h": 3.2,
+      "d": 3.6,
+      "a": 2.1,
+      "src": "10Bet"
+     },
+     "value": {
+      "outcome": "1",
+      "edge": 0.2009,
+      "modelP": 0.4939,
+      "odds": 3.2
+     },
+     "scorersHome": [],
+     "scorersAway": [
+      {
+       "name": "Kristian Malt Arnstad",
+       "goals": 2
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Randers FC ist gegen Aarhus leicht favorisiert (49 % zu 29 %). In der Tabelle stehen sich Platz 9 und Platz 10 gegenüber. Die Form spricht für Randers FC: 2 Siege aus den letzten 5 Spielen, Aarhus holte nur 0. Das letzte Duell (2025) endete 1:2 (Randers FC – Aarhus). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,5; über 2,5 Tore: 67 %, beide Teams treffen zu 66 %). Gefährlichste Torschützen: bei Aarhus Kristian Malt Arnstad (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,20) für 20 Prozentpunkte wahrscheinlicher als der Markt. Personal: Randers FC fehlen 6 Spieler (u.a. W. Caddy); Aarhus fehlen 6 Spieler (u.a. L. Callo).",
+     "injuriesHome": [
+      {
+       "name": "W. Caddy",
+       "reason": "Injury"
+      },
+      {
+       "name": "P. Izzo",
+       "reason": "Transfer negotiations"
+      },
+      {
+       "name": "O. Seck",
+       "reason": "Inactive"
+      },
+      {
+       "name": "J. Bjorkengren",
+       "reason": "Injury"
+      },
+      {
+       "name": "L. Lissens",
+       "reason": "Injury"
+      },
+      {
+       "name": "B. Orn",
+       "reason": "Injury"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "L. Callo",
+       "reason": "Injury"
+      },
+      {
+       "name": "R. Gyamfi",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "T. Molgaard",
+       "reason": "Injury"
+      },
+      {
+       "name": "N. Poulsen",
+       "reason": "Achilles Tendon Injury"
+      },
+      {
+       "name": "J. Andersen",
+       "reason": "Inactive"
+      },
+      {
+       "name": "G. Links",
+       "reason": "Inactive"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-08-30T18:00:00+02:00",
+     "home": "FC Nordsjaelland",
+     "away": "Brondby",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Regular Season - 6",
+     "formHome": [
+      "S",
+      "S",
+      "S",
+      "S",
+      "S"
+     ],
+     "formAway": [
+      "U",
+      "S",
+      "S",
+      "S",
+      "S"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 3,
+     "posAway": 1,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "04.07.2026",
+       "home": "Brondby",
+       "away": "FC Nordsjaelland",
+       "score": "3:3"
+      },
+      {
+       "date": "01.05.2026",
+       "home": "Brondby",
+       "away": "FC Nordsjaelland",
+       "score": "1:1"
+      },
+      {
+       "date": "07.04.2026",
+       "home": "FC Nordsjaelland",
+       "away": "Brondby",
+       "score": "2:1"
+      },
+      {
+       "date": "09.11.2025",
+       "home": "Brondby",
+       "away": "FC Nordsjaelland",
+       "score": "2:0"
+      },
+      {
+       "date": "30.10.2025",
+       "home": "FC Nordsjaelland",
+       "away": "Brondby",
+       "score": "4:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5198,
+      "pDraw": 0.215,
+      "pAway": 0.2652,
+      "pOver25": 0.6651,
+      "pBtts": 0.6541,
+      "xgHome": 2.02,
+      "xgAway": 1.4,
+      "tipScore": "2:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6541,
+     "odds": {
+      "h": 2.1,
+      "d": 3.75,
+      "a": 3.0,
+      "src": "10Bet"
+     },
+     "value": {
+      "outcome": "1",
+      "edge": 0.0773,
+      "modelP": 0.5198,
+      "odds": 2.1
+     },
+     "scorersHome": [
+      {
+       "name": "M. Walker",
+       "goals": 2
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "Mads Frökjaer",
+       "goals": 2
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "FC Nordsjaelland ist gegen Brondby leicht favorisiert (51 % zu 27 %). In der Tabelle stehen sich Platz 3 und Platz 1 gegenüber. Das letzte Duell (2026) endete 3:3 (Brondby – FC Nordsjaelland). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,4; über 2,5 Tore: 67 %, beide Teams treffen zu 65 %). Gefährlichste Torschützen: bei FC Nordsjaelland M. Walker (2 Tore) und bei Brondby Mads Frökjaer (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,10) für 8 Prozentpunkte wahrscheinlicher als der Markt. Personal: FC Nordsjaelland fehlen 3 Spieler (u.a. S. Alio); Brondby fehlen 4 Spieler (u.a. J. Ambaek).",
+     "injuriesHome": [
+      {
+       "name": "S. Alio",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "A. Lind",
+       "reason": "Injury"
+      },
+      {
+       "name": "A. Mohammed",
+       "reason": "Knee Injury"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "J. Ambaek",
+       "reason": "Injury"
+      },
+      {
+       "name": "F. Alves",
+       "reason": "Injury"
+      },
+      {
+       "name": "M. Divkovic",
+       "reason": "Injury"
+      },
+      {
+       "name": "G. Beavers",
+       "reason": "Groin Injury"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": false,
    "isCup": false
   },
@@ -19541,7 +19518,148 @@
    "name": "Premier Division (Irland)",
    "flag": "🇮🇪",
    "espn": "irl.1",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-08-28T20:45:00+02:00",
+     "home": "Bohemians",
+     "away": "Sligo Rovers",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Regular Season - 29",
+     "formHome": [],
+     "formAway": [],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": null,
+     "posAway": null,
+     "nTeams": null,
+     "h2h": [],
+     "prediction": null,
+     "pBtts": null,
+     "odds": null,
+     "value": null,
+     "scorersHome": [],
+     "scorersAway": [],
+     "scorersPeriod": "Vorsaison",
+     "analysis": "",
+     "basis": "Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-08-28T20:45:00+02:00",
+     "home": "St Patrick's Athl.",
+     "away": "Waterford",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Regular Season - 29",
+     "formHome": [],
+     "formAway": [],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": null,
+     "posAway": null,
+     "nTeams": null,
+     "h2h": [],
+     "prediction": null,
+     "pBtts": null,
+     "odds": null,
+     "value": null,
+     "scorersHome": [],
+     "scorersAway": [],
+     "scorersPeriod": "Vorsaison",
+     "analysis": "",
+     "basis": "Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-08-28T20:45:00+02:00",
+     "home": "Galway United",
+     "away": "Shelbourne",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Regular Season - 29",
+     "formHome": [],
+     "formAway": [],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": null,
+     "posAway": null,
+     "nTeams": null,
+     "h2h": [],
+     "prediction": null,
+     "pBtts": null,
+     "odds": null,
+     "value": null,
+     "scorersHome": [],
+     "scorersAway": [],
+     "scorersPeriod": "Vorsaison",
+     "analysis": "",
+     "basis": "Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-08-28T21:00:00+02:00",
+     "home": "Drogheda United",
+     "away": "Dundalk",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Regular Season - 29",
+     "formHome": [],
+     "formAway": [],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": null,
+     "posAway": null,
+     "nTeams": null,
+     "h2h": [],
+     "prediction": null,
+     "pBtts": null,
+     "odds": null,
+     "value": null,
+     "scorersHome": [],
+     "scorersAway": [],
+     "scorersPeriod": "Vorsaison",
+     "analysis": "",
+     "basis": "Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-08-30T17:00:00+02:00",
+     "home": "Derry City",
+     "away": "Shamrock Rovers",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Regular Season - 29",
+     "formHome": [],
+     "formAway": [],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": null,
+     "posAway": null,
+     "nTeams": null,
+     "h2h": [],
+     "prediction": null,
+     "pBtts": null,
+     "odds": null,
+     "value": null,
+     "scorersHome": [],
+     "scorersAway": [],
+     "scorersPeriod": "Vorsaison",
+     "analysis": "",
+     "basis": "Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": false,
    "isCup": false
   }
@@ -19560,7 +19678,7 @@
   },
   "sackCounts": {
    "atp": 12658,
-   "wta": 11776
+   "wta": 9855
   }
  },
  "tennisFinished": [],
@@ -19584,7 +19702,7 @@
    "n": 215,
    "correct": 25
   },
-  "open": 382,
+  "open": 388,
   "recent": [
    {
     "date": "2026-08-27",
