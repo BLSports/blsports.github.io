@@ -9,18 +9,18 @@
 /tmp/tennisdata/atp_2026.xlsx: OK über http://www.tennis-data.co.uk (315559 Bytes)
 /tmp/tennisdata/wta_2026.xlsx: OK über http://www.tennis-data.co.uk (302805 Bytes)
 total 3880
-drwxr-xr-x  2 runner runner   4096 Aug 28 01:35 .
-drwxrwxrwt 14 root   root     4096 Aug 28 01:35 ..
--rw-r--r--  1 runner runner 417917 Aug 28 01:34 atp_2022.xlsx
--rw-r--r--  1 runner runner 447088 Aug 28 01:35 atp_2023.xlsx
--rw-r--r--  1 runner runner 445729 Aug 28 01:35 atp_2024.xlsx
--rw-r--r--  1 runner runner 426707 Aug 28 01:35 atp_2025.xlsx
--rw-r--r--  1 runner runner 315559 Aug 28 01:35 atp_2026.xlsx
--rw-r--r--  1 runner runner 370069 Aug 28 01:34 wta_2022.xlsx
--rw-r--r--  1 runner runner 407251 Aug 28 01:35 wta_2023.xlsx
--rw-r--r--  1 runner runner 406783 Aug 28 01:35 wta_2024.xlsx
--rw-r--r--  1 runner runner 399398 Aug 28 01:35 wta_2025.xlsx
--rw-r--r--  1 runner runner 302805 Aug 28 01:35 wta_2026.xlsx
+drwxr-xr-x  2 runner runner   4096 Aug 28 15:43 .
+drwxrwxrwt 14 root   root     4096 Aug 28 15:42 ..
+-rw-r--r--  1 runner runner 417917 Aug 28 15:42 atp_2022.xlsx
+-rw-r--r--  1 runner runner 447088 Aug 28 15:42 atp_2023.xlsx
+-rw-r--r--  1 runner runner 445729 Aug 28 15:43 atp_2024.xlsx
+-rw-r--r--  1 runner runner 426707 Aug 28 15:43 atp_2025.xlsx
+-rw-r--r--  1 runner runner 315559 Aug 28 15:43 atp_2026.xlsx
+-rw-r--r--  1 runner runner 370069 Aug 28 15:42 wta_2022.xlsx
+-rw-r--r--  1 runner runner 407251 Aug 28 15:42 wta_2023.xlsx
+-rw-r--r--  1 runner runner 406783 Aug 28 15:43 wta_2024.xlsx
+-rw-r--r--  1 runner runner 399398 Aug 28 15:43 wta_2025.xlsx
+-rw-r--r--  1 runner runner 302805 Aug 28 15:43 wta_2026.xlsx
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
@@ -107,7 +107,6 @@ drwxrwxrwt 14 root   root     4096 Aug 28 01:35 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20260829 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20260830 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20260828-20261226&limit=50 nicht erreichbar (HTTP Error 403: Forbidden)
-  WARN: https://api.the-odds-api.com/v4/sports/soccer_belgium_pro_league/odds/?apiKey=8392ea7216723e341b1a7c2cea58bcb4&regions=eu&markets=h2h&oddsFormat=decimal nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
@@ -180,6 +179,11 @@ drwxrwxrwt 14 root   root     4096 Aug 28 01:35 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/nor.1/scoreboard?dates=20260829 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/nor.1/scoreboard?dates=20260830 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/nor.1/scoreboard?dates=20260828-20261226&limit=50 nicht erreichbar (HTTP Error 403: Forbidden)
+  WARN fallback no1: 'NoneType' object is not iterable
+  WARN fallback no1: 'NoneType' object is not iterable
+  WARN fallback no1: 'NoneType' object is not iterable
+  WARN fallback no1: 'NoneType' object is not iterable
+  WARN fallback no1: 'NoneType' object is not iterable
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
@@ -189,11 +193,7 @@ drwxrwxrwt 14 root   root     4096 Aug 28 01:35 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard?dates=20260829 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard?dates=20260830 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard?dates=20260828-20261226&limit=50 nicht erreichbar (HTTP Error 403: Forbidden)
-  WARN fallback se1: 'NoneType' object is not iterable
-  WARN fallback se1: 'NoneType' object is not iterable
-  WARN fallback se1: 'NoneType' object is not iterable
-  WARN fallback se1: 'NoneType' object is not iterable
-  WARN fallback se1: 'NoneType' object is not iterable
+  WARN foot_fixtures se1: 'NoneType' object is not iterable
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/den.1/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/den.1/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/den.1/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
@@ -234,7 +234,7 @@ drwxrwxrwt 14 root   root     4096 Aug 28 01:35 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/tennis/wta/scoreboard?dates=20260823 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/tennis/atp/scoreboard?dates=20260822 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/tennis/wta/scoreboard?dates=20260822 nicht erreichbar (HTTP Error 403: Forbidden)
-fixtures.csv: 5 Spiele mit Quoten
+fixtures.csv: 197 Spiele mit Quoten
 == WM ==
   0 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
@@ -326,24 +326,24 @@ fixtures.csv: 5 Spiele mit Quoten
 == Eliteserien (Norwegen) ==
   0 Ergebnisse geladen
   8 Spiele in den naechsten 3 Tagen
-  8 Prognosen via Team-Historie-Fallback erstellt
+  3 Prognosen via Team-Historie-Fallback erstellt
 == Allsvenskan (Schweden) ==
   0 Ergebnisse geladen
-  5 Spiele in den naechsten 3 Tagen
+  0 Spiele in den naechsten 3 Tagen
 == Superliga (Dänemark) ==
   0 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
 == Premier Division (Irland) ==
   0 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
-  Kicker-News: 38 Schlagzeilen geladen
+  Kicker-News: 35 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 201, WTA 200
   Historie: ATP 12658 Matches, WTA 11776 Matches
   Elo ATP: 550 Spieler bewertet
   Elo WTA: 574 Spieler bewertet
-  Belag-Zuordnung (MatchStat): 33 Turniere
+  Belag-Zuordnung (MatchStat): 35 Turniere
   Tennis-Quoten zugeordnet: 0
   0 Tennis-Matches in den naechsten 3 Tagen
   0 Tennis-Matches heute bereits beendet
