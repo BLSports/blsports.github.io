@@ -9,18 +9,18 @@
 /tmp/tennisdata/atp_2026.xlsx: OK über http://www.tennis-data.co.uk (322763 Bytes)
 /tmp/tennisdata/wta_2026.xlsx: OK über http://www.tennis-data.co.uk (306902 Bytes)
 total 3888
-drwxr-xr-x  2 runner runner   4096 Aug 31 10:23 .
-drwxrwxrwt 14 root   root     4096 Aug 31 10:22 ..
--rw-r--r--  1 runner runner 417917 Aug 31 10:22 atp_2022.xlsx
--rw-r--r--  1 runner runner 447088 Aug 31 10:22 atp_2023.xlsx
--rw-r--r--  1 runner runner 445729 Aug 31 10:22 atp_2024.xlsx
--rw-r--r--  1 runner runner 426707 Aug 31 10:23 atp_2025.xlsx
--rw-r--r--  1 runner runner 322763 Aug 31 10:23 atp_2026.xlsx
--rw-r--r--  1 runner runner 370069 Aug 31 10:22 wta_2022.xlsx
--rw-r--r--  1 runner runner 407251 Aug 31 10:22 wta_2023.xlsx
--rw-r--r--  1 runner runner 406783 Aug 31 10:22 wta_2024.xlsx
--rw-r--r--  1 runner runner 399398 Aug 31 10:23 wta_2025.xlsx
--rw-r--r--  1 runner runner 306902 Aug 31 10:23 wta_2026.xlsx
+drwxr-xr-x  2 runner runner   4096 Aug 31 11:52 .
+drwxrwxrwt 14 root   root     4096 Aug 31 11:51 ..
+-rw-r--r--  1 runner runner 417917 Aug 31 11:51 atp_2022.xlsx
+-rw-r--r--  1 runner runner 447088 Aug 31 11:51 atp_2023.xlsx
+-rw-r--r--  1 runner runner 445729 Aug 31 11:52 atp_2024.xlsx
+-rw-r--r--  1 runner runner 426707 Aug 31 11:52 atp_2025.xlsx
+-rw-r--r--  1 runner runner 322763 Aug 31 11:52 atp_2026.xlsx
+-rw-r--r--  1 runner runner 370069 Aug 31 11:51 wta_2022.xlsx
+-rw-r--r--  1 runner runner 407251 Aug 31 11:51 wta_2023.xlsx
+-rw-r--r--  1 runner runner 406783 Aug 31 11:52 wta_2024.xlsx
+-rw-r--r--  1 runner runner 399398 Aug 31 11:52 wta_2025.xlsx
+-rw-r--r--  1 runner runner 306902 Aug 31 11:52 wta_2026.xlsx
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
@@ -107,7 +107,6 @@ drwxrwxrwt 14 root   root     4096 Aug 31 10:22 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20260901 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20260902 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.1/scoreboard?dates=20260831-20261229&limit=50 nicht erreichbar (HTTP Error 403: Forbidden)
-  WARN: https://api.the-odds-api.com/v4/sports/soccer_belgium_pro_league/odds/?apiKey=8392ea7216723e341b1a7c2cea58bcb4&regions=eu&markets=h2h&oddsFormat=decimal nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 403: Forbidden)
@@ -319,7 +318,7 @@ fixtures.csv: 209 Spiele mit Quoten
 == Premier Division (Irland) ==
   0 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
-  Kicker-News: 35 Schlagzeilen geladen
+  Kicker-News: 33 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 201, WTA 200
@@ -331,5 +330,5 @@ fixtures.csv: 209 Spiele mit Quoten
   0 Tennis-Matches in den naechsten 3 Tagen
   0 Tennis-Matches heute bereits beendet
   Tipp-Log: 1831 Eintraege, 922 ausgewertet, 535 richtig
-  Premium-Abrufe: Tennis 6, Fussball 223 (Tennis AKTIV, Fussball AKTIV)
+  Premium-Abrufe: Tennis 6, Fussball 231 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
