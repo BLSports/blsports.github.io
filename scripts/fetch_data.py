@@ -56,7 +56,7 @@ def http_get(url, retries=3, timeout=25, as_json=True):
     last_err = None
     for attempt in range(retries):
         try:
-            req = Request(url, headers=UA)
+            req = Request(url.replace("https://site.api.espn.com/", "https://site.web.api.espn.com/"), headers=UA)
             with urlopen(req, timeout=timeout) as resp:
                 raw = resp.read()
             if as_json:
@@ -997,7 +997,7 @@ def load_sackmann(tour, years_back=4):
 def http_get_bytes(url, retries=2, timeout=40):
     for attempt in range(retries):
         try:
-            req = Request(url, headers=UA)
+            req = Request(url.replace("https://site.api.espn.com/", "https://site.web.api.espn.com/"), headers=UA)
             with urlopen(req, timeout=timeout) as resp:
                 return resp.read()
         except Exception:
