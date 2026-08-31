@@ -135,6 +135,6 @@ jobs:
             echo "Keine Änderungen."
           else
             git commit -m "Tägliches Update $(date -u +%F)"
-            git push
+            for i in 1 2 3 4 5; do git pull --rebase -X theirs origin main && git push && break || sleep 30; done
           fi
 
