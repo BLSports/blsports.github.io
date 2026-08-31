@@ -40,7 +40,7 @@ try:
 except Exception:
     TZ = timezone(timedelta(hours=2))
 
-UA = {"User-Agent": "Mozilla/5.0 (SportDashboard/1.0; private hobby project)"}
+UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36", "Accept": "application/json, text/plain, */*", "Accept-Language": "de-DE,de;q=0.9,en;q=0.8", "Referer": "https://www.espn.com/"}
 DAYS_AHEAD = 3
 ODDS_API_KEY = os.environ.get("ODDS_API_KEY", "").strip()
 
