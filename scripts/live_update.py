@@ -158,7 +158,7 @@ def main():
         seen_pairs = set()
         for tour in ("atp", "wta"):
             url = (f"https://site.api.espn.com/apis/site/v2/sports/tennis/{tour}/scoreboard")
-            with urlopen(Request(url, headers={"User-Agent": "Mozilla/5.0"}), timeout=20) as r:
+            with urlopen(Request(url, headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36", "Accept": "application/json, text/plain, */*", "Referer": "https://www.espn.com/"}), timeout=20) as r:
                 d = json.loads(r.read().decode("utf-8", "replace"))
             for ev in d.get("events", []):
                 comps = []
