@@ -29481,10 +29481,10 @@
    "prob": 0.3842,
    "tipScore": "1:1",
    "pOver25": 0.4927,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "2:3",
+   "correct": false,
+   "exact": false
   },
   "fb|be1|2026-09-02|st truiden|union st gilloise": {
    "sport": "fb",
@@ -30474,9 +30474,9 @@
    "tip": "P2",
    "tipName": "Grigor Dimitrov",
    "prob": 0.7913,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-08-31|berrettini m|wawrinka s": {
    "sport": "tn",
@@ -30502,9 +30502,9 @@
    "tip": "P1",
    "tipName": "Marco Trungelliti",
    "prob": 0.7651,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-08-31|andres burruchaga r|khachanov k": {
    "sport": "tn",
@@ -30544,9 +30544,9 @@
    "tip": "P2",
    "tipName": "Jakub Mensik",
    "prob": 0.9073,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-08-31|hanfmann y|tabilo a": {
    "sport": "tn",
@@ -30572,9 +30572,9 @@
    "tip": "P1",
    "tipName": "Learner Tien",
    "prob": 0.809,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-08-31|auger aliassime f|hijikata r": {
    "sport": "tn",
@@ -30586,9 +30586,9 @@
    "tip": "P2",
    "tipName": "Felix Auger-Aliassime",
    "prob": 0.9579,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-08-31|joint m|samsonova l": {
    "sport": "tn",
@@ -30614,9 +30614,9 @@
    "tip": "P1",
    "tipName": "Facundo Diaz Acosta",
    "prob": 0.6124,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-09-01|cocciaretto e|siniakova k": {
    "sport": "tn",
@@ -30628,9 +30628,9 @@
    "tip": "P1",
    "tipName": "Katerina Siniakova",
    "prob": 0.5866,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-09-01|griekspoor t|shelton b": {
    "sport": "tn",
@@ -30642,9 +30642,9 @@
    "tip": "P2",
    "tipName": "Ben Shelton",
    "prob": 0.7904,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-09-01|swiatek i|xiyu w": {
    "sport": "tn",
@@ -30656,9 +30656,9 @@
    "tip": "P2",
    "tipName": "Iga Swiatek",
    "prob": 0.8762,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-09-01|damm m|tiafoe f": {
    "sport": "tn",
@@ -30670,9 +30670,9 @@
    "tip": "P1",
    "tipName": "Frances Tiafoe",
    "prob": 0.8549,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-09-01|osaka n|zakharova a": {
    "sport": "tn",
@@ -30684,9 +30684,9 @@
    "tip": "P2",
    "tipName": "Naomi Osaka",
    "prob": 0.8747,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-09-01|bellucci m|piros z": {
    "sport": "tn",
@@ -30767,7 +30767,7 @@
    "p2Key": "sakkari m",
    "tip": "P2",
    "tipName": "Maria Sakkari",
-   "prob": 0.6974,
+   "prob": 0.664,
    "status": "open",
    "result": null,
    "correct": null
@@ -30779,9 +30779,9 @@
    "label": "Ella Seidel – Yuliia Starodubtseva",
    "p1Key": "seidel e",
    "p2Key": "starodubtseva y",
-   "tip": "P2",
-   "tipName": "Yuliia Starodubtseva",
-   "prob": 0.6579,
+   "tip": "P1",
+   "tipName": "Ella Seidel",
+   "prob": 0.7415,
    "status": "open",
    "result": null,
    "correct": null
@@ -30809,7 +30809,7 @@
    "p2Key": "putintseva y",
    "tip": "P1",
    "tipName": "Belinda Bencic",
-   "prob": 0.8471,
+   "prob": 0.864,
    "status": "open",
    "result": null,
    "correct": null
@@ -30823,7 +30823,7 @@
    "p2Key": "knutson g",
    "tip": "P1",
    "tipName": "Eva Lys",
-   "prob": 0.6851,
+   "prob": 0.6891,
    "status": "open",
    "result": null,
    "correct": null
@@ -30837,7 +30837,7 @@
    "p2Key": "keys m",
    "tip": "P2",
    "tipName": "Madison Keys",
-   "prob": 0.7021,
+   "prob": 0.8117,
    "status": "open",
    "result": null,
    "correct": null
@@ -30893,7 +30893,7 @@
    "p2Key": "havlickova l",
    "tip": "P1",
    "tipName": "Anna Bondar",
-   "prob": 0.6387,
+   "prob": 0.67,
    "status": "open",
    "result": null,
    "correct": null
@@ -30907,7 +30907,7 @@
    "p2Key": "kasatkina d",
    "tip": "P1",
    "tipName": "Paula Badosa",
-   "prob": 0.6065,
+   "prob": 0.7149,
    "status": "open",
    "result": null,
    "correct": null
@@ -30947,9 +30947,9 @@
    "label": "Jessica Bouzas Maneiro – Darja Vidmanova",
    "p1Key": "bouzas maneiro j",
    "p2Key": "vidmanova d",
-   "tip": "P1",
-   "tipName": "Jessica Bouzas Maneiro",
-   "prob": 0.5062,
+   "tip": "P2",
+   "tipName": "Darja Vidmanova",
+   "prob": 0.571,
    "status": "open",
    "result": null,
    "correct": null
@@ -30963,7 +30963,7 @@
    "p2Key": "andreeva m",
    "tip": "P2",
    "tipName": "Mirra Andreeva",
-   "prob": 0.879,
+   "prob": 0.6779,
    "status": "open",
    "result": null,
    "correct": null
@@ -30977,7 +30977,7 @@
    "p2Key": "maria t",
    "tip": "P1",
    "tipName": "Jelena Ostapenko",
-   "prob": 0.6718,
+   "prob": 0.6795,
    "status": "open",
    "result": null,
    "correct": null
@@ -31075,7 +31075,7 @@
    "p2Key": "quevedo k",
    "tip": "P1",
    "tipName": "Elise Mertens",
-   "prob": 0.8147,
+   "prob": 0.8062,
    "status": "open",
    "result": null,
    "correct": null
@@ -31089,7 +31089,7 @@
    "p2Key": "jovic i",
    "tip": "P2",
    "tipName": "Iva Jovic",
-   "prob": 0.6797,
+   "prob": 0.6368,
    "status": "open",
    "result": null,
    "correct": null
@@ -31103,7 +31103,7 @@
    "p2Key": "rus a",
    "tip": "P2",
    "tipName": "Arantxa Rus",
-   "prob": 0.6435,
+   "prob": 0.6699,
    "status": "open",
    "result": null,
    "correct": null
@@ -31117,7 +31117,7 @@
    "p2Key": "bartunkova n",
    "tip": "P2",
    "tipName": "Nikola Bartunkova",
-   "prob": 0.8387,
+   "prob": 0.6482,
    "status": "open",
    "result": null,
    "correct": null
@@ -31145,7 +31145,7 @@
    "p2Key": "linette m",
    "tip": "P2",
    "tipName": "Magda Linette",
-   "prob": 0.8027,
+   "prob": 0.7073,
    "status": "open",
    "result": null,
    "correct": null
@@ -31173,7 +31173,7 @@
    "p2Key": "oliynykova o",
    "tip": "P2",
    "tipName": "Oleksandra Oliynykova",
-   "prob": 0.8812,
+   "prob": 0.8083,
    "status": "open",
    "result": null,
    "correct": null
@@ -31187,7 +31187,7 @@
    "p2Key": "guerrieri a",
    "tip": "P1",
    "tipName": "Alex de Minaur",
-   "prob": 0.9753,
+   "prob": 0.9824,
    "status": "open",
    "result": null,
    "correct": null
@@ -31215,7 +31215,7 @@
    "p2Key": "sonmez z",
    "tip": "P1",
    "tipName": "Coco Gauff",
-   "prob": 0.9117,
+   "prob": 0.9005,
    "status": "open",
    "result": null,
    "correct": null
@@ -31243,7 +31243,7 @@
    "p2Key": "stoiana m",
    "tip": "P1",
    "tipName": "Alexandra Eala",
-   "prob": 0.8584,
+   "prob": 0.8357,
    "status": "open",
    "result": null,
    "correct": null
@@ -31313,7 +31313,7 @@
    "p2Key": "pegula j",
    "tip": "P2",
    "tipName": "Jessica Pegula",
-   "prob": 0.9371,
+   "prob": 0.8531,
    "status": "open",
    "result": null,
    "correct": null
@@ -31327,7 +31327,7 @@
    "p2Key": "paolini j",
    "tip": "P2",
    "tipName": "Jasmine Paolini",
-   "prob": 0.8598,
+   "prob": 0.9159,
    "status": "open",
    "result": null,
    "correct": null
@@ -31342,9 +31342,9 @@
    "tip": "P1",
    "tipName": "Katerina Siniakova",
    "prob": 0.6877,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-09-02|majchrzak k|vacherot v": {
    "sport": "tn",
@@ -31425,7 +31425,7 @@
    "p2Key": "boulter k",
    "tip": "P1",
    "tipName": "Karolina Muchova",
-   "prob": 0.8823,
+   "prob": 0.8291,
    "status": "open",
    "result": null,
    "correct": null
@@ -31439,7 +31439,7 @@
    "p2Key": "dart h",
    "tip": "P1",
    "tipName": "Marie Bouzkova",
-   "prob": 0.854,
+   "prob": 0.8434,
    "status": "open",
    "result": null,
    "correct": null
@@ -31453,7 +31453,7 @@
    "p2Key": "sabalenka a",
    "tip": "P2",
    "tipName": "Aryna Sabalenka",
-   "prob": 0.9826,
+   "prob": 0.9838,
    "status": "open",
    "result": null,
    "correct": null
@@ -31481,7 +31481,7 @@
    "p2Key": "sawangkaew m",
    "tip": "P1",
    "tipName": "Leylah Fernandez",
-   "prob": 0.6402,
+   "prob": 0.7201,
    "status": "open",
    "result": null,
    "correct": null
@@ -31495,7 +31495,7 @@
    "p2Key": "bucsa c",
    "tip": "P2",
    "tipName": "Cristina Bucsa",
-   "prob": 0.6437,
+   "prob": 0.7096,
    "status": "open",
    "result": null,
    "correct": null
@@ -31509,7 +31509,7 @@
    "p2Key": "townsend t",
    "tip": "P2",
    "tipName": "Taylor Townsend",
-   "prob": 0.6589,
+   "prob": 0.6574,
    "status": "open",
    "result": null,
    "correct": null
@@ -31523,7 +31523,7 @@
    "p2Key": "selekhmeteva o",
    "tip": "P1",
    "tipName": "Kamilla Rakhimova",
-   "prob": 0.5636,
+   "prob": 0.5039,
    "status": "open",
    "result": null,
    "correct": null
@@ -31537,7 +31537,7 @@
    "p2Key": "tagger l",
    "tip": "P1",
    "tipName": "Amanda Anisimova",
-   "prob": 0.8242,
+   "prob": 0.8152,
    "status": "open",
    "result": null,
    "correct": null
@@ -31551,7 +31551,7 @@
    "p2Key": "birrell k",
    "tip": "P1",
    "tipName": "Ekaterina Alexandrova",
-   "prob": 0.7453,
+   "prob": 0.7852,
    "status": "open",
    "result": null,
    "correct": null
@@ -31566,9 +31566,9 @@
    "tip": "P2",
    "tipName": "Quentin Halys",
    "prob": 0.7284,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-09-01|mensik j|mochizuki s": {
    "sport": "tn",
@@ -31580,9 +31580,9 @@
    "tip": "P2",
    "tipName": "Jakub Mensik",
    "prob": 0.8901,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-09-01|dimitrov g|popyrin a": {
    "sport": "tn",
@@ -31594,9 +31594,9 @@
    "tip": "P2",
    "tipName": "Grigor Dimitrov",
    "prob": 0.6664,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-09-01|auger aliassime f|hijikata r": {
    "sport": "tn",
@@ -31608,9 +31608,9 @@
    "tip": "P2",
    "tipName": "Felix Auger-Aliassime",
    "prob": 0.8725,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-09-01|borges n|tien l": {
    "sport": "tn",
@@ -31622,9 +31622,9 @@
    "tip": "P1",
    "tipName": "Learner Tien",
    "prob": 0.693,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-09-02|fearnley j|martin etcheverry t": {
    "sport": "tn",
@@ -31689,9 +31689,9 @@
    "label": "Catherine McNally – Emma Navarro",
    "p1Key": "mcnally c",
    "p2Key": "navarro e",
-   "tip": "P1",
-   "tipName": "Catherine McNally",
-   "prob": 0.5165,
+   "tip": "P2",
+   "tipName": "Emma Navarro",
+   "prob": 0.7017,
    "status": "open",
    "result": null,
    "correct": null
@@ -31705,7 +31705,7 @@
    "p2Key": "tararudee l",
    "tip": "P1",
    "tipName": "Linda Noskova",
-   "prob": 0.8142,
+   "prob": 0.8579,
    "status": "open",
    "result": null,
    "correct": null
@@ -31719,7 +31719,7 @@
    "p2Key": "pliskova k",
    "tip": "P1",
    "tipName": "Diana Shnaider",
-   "prob": 0.6405,
+   "prob": 0.6014,
    "status": "open",
    "result": null,
    "correct": null
@@ -31860,9 +31860,9 @@
    "awayKey": "mirassol",
    "tip": "1",
    "tipName": "Flamengo",
-   "prob": 0.7534,
+   "prob": 0.7514,
    "tipScore": "2:0",
-   "pOver25": 0.6259,
+   "pOver25": 0.6228,
    "status": "open",
    "result": null,
    "correct": null,
@@ -31941,7 +31941,7 @@
    "p2Key": "parry d",
    "tip": "P1",
    "tipName": "Sorana Cirstea",
-   "prob": 0.6602,
+   "prob": 0.7369,
    "status": "open",
    "result": null,
    "correct": null
@@ -31955,7 +31955,7 @@
    "p2Key": "svitolina e",
    "tip": "P2",
    "tipName": "Elina Svitolina",
-   "prob": 0.9115,
+   "prob": 0.6495,
    "status": "open",
    "result": null,
    "correct": null
@@ -31969,7 +31969,7 @@
    "p2Key": "kostyuk m",
    "tip": "P2",
    "tipName": "Marta Kostyuk",
-   "prob": 0.9277,
+   "prob": 0.8707,
    "status": "open",
    "result": null,
    "correct": null
@@ -31983,7 +31983,133 @@
    "p2Key": "li a",
    "tip": "P2",
    "tipName": "Ann Li",
-   "prob": 0.58,
+   "prob": 0.6212,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-01|potapova a|semenistaja d": {
+   "sport": "tn",
+   "comp": "WTA · US Open",
+   "date": "2026-09-01",
+   "label": "Darja Semenistaja – Anastasia Potapova",
+   "p1Key": "semenistaja d",
+   "p2Key": "potapova a",
+   "tip": "P2",
+   "tipName": "Anastasia Potapova",
+   "prob": 0.7989,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-09-02|auger aliassime f|khachanov k": {
+   "sport": "tn",
+   "comp": "ATP · US Open",
+   "date": "2026-09-02",
+   "label": "Karen Khachanov – Felix Auger-Aliassime",
+   "p1Key": "khachanov k",
+   "p2Key": "auger aliassime f",
+   "tip": "P2",
+   "tipName": "Felix Auger-Aliassime",
+   "prob": 0.8571,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-09-02|popyrin a|tabilo a": {
+   "sport": "tn",
+   "comp": "ATP · US Open",
+   "date": "2026-09-02",
+   "label": "Alejandro Tabilo – Alexei Popyrin",
+   "p1Key": "tabilo a",
+   "p2Key": "popyrin a",
+   "tip": "P1",
+   "tipName": "Alejandro Tabilo",
+   "prob": 0.5952,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-09-02|blockx a|trungelliti m": {
+   "sport": "tn",
+   "comp": "ATP · US Open",
+   "date": "2026-09-02",
+   "label": "Marco Trungelliti – Alexander Blockx",
+   "p1Key": "trungelliti m",
+   "p2Key": "blockx a",
+   "tip": "P2",
+   "tipName": "Alexander Blockx",
+   "prob": 0.6858,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-09-02|hurkacz h|shelton b": {
+   "sport": "tn",
+   "comp": "ATP · US Open",
+   "date": "2026-09-02",
+   "label": "Hubert Hurkacz – Ben Shelton",
+   "p1Key": "hurkacz h",
+   "p2Key": "shelton b",
+   "tip": "P2",
+   "tipName": "Ben Shelton",
+   "prob": 0.7808,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-09-02|sakamoto r|tiafoe f": {
+   "sport": "tn",
+   "comp": "ATP · US Open",
+   "date": "2026-09-02",
+   "label": "Frances Tiafoe – Rei Sakamoto",
+   "p1Key": "tiafoe f",
+   "p2Key": "sakamoto r",
+   "tip": "P1",
+   "tipName": "Frances Tiafoe",
+   "prob": 0.9486,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-09-02|mensik j|rodionov j": {
+   "sport": "tn",
+   "comp": "ATP · US Open",
+   "date": "2026-09-02",
+   "label": "Jurij Rodionov – Jakub Mensik",
+   "p1Key": "rodionov j",
+   "p2Key": "mensik j",
+   "tip": "P2",
+   "tipName": "Jakub Mensik",
+   "prob": 0.9145,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-02|podoroska n|swiatek i": {
+   "sport": "tn",
+   "comp": "WTA · US Open",
+   "date": "2026-09-02",
+   "label": "Nadia Podoroska – Iga Swiatek",
+   "p1Key": "podoroska n",
+   "p2Key": "swiatek i",
+   "tip": "P2",
+   "tipName": "Iga Swiatek",
+   "prob": 0.9583,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-02|osaka n|siniakova k": {
+   "sport": "tn",
+   "comp": "WTA · US Open",
+   "date": "2026-09-02",
+   "label": "Katerina Siniakova – Naomi Osaka",
+   "p1Key": "siniakova k",
+   "p2Key": "osaka n",
+   "tip": "P2",
+   "tipName": "Naomi Osaka",
+   "prob": 0.7413,
    "status": "open",
    "result": null,
    "correct": null
