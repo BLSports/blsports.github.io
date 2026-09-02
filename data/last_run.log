@@ -9,18 +9,18 @@
 /tmp/tennisdata/atp_2026.xlsx: OK über http://www.tennis-data.co.uk (322763 Bytes)
 /tmp/tennisdata/wta_2026.xlsx: OK über http://www.tennis-data.co.uk (306902 Bytes)
 total 3888
-drwxr-xr-x  2 runner runner   4096 Sep  2 10:31 .
-drwxrwxrwt 14 root   root     4096 Sep  2 10:31 ..
--rw-r--r--  1 runner runner 417917 Sep  2 10:31 atp_2022.xlsx
--rw-r--r--  1 runner runner 447088 Sep  2 10:31 atp_2023.xlsx
--rw-r--r--  1 runner runner 445729 Sep  2 10:31 atp_2024.xlsx
--rw-r--r--  1 runner runner 426707 Sep  2 10:31 atp_2025.xlsx
--rw-r--r--  1 runner runner 322763 Sep  2 10:31 atp_2026.xlsx
--rw-r--r--  1 runner runner 370069 Sep  2 10:31 wta_2022.xlsx
--rw-r--r--  1 runner runner 407251 Sep  2 10:31 wta_2023.xlsx
--rw-r--r--  1 runner runner 406783 Sep  2 10:31 wta_2024.xlsx
--rw-r--r--  1 runner runner 399398 Sep  2 10:31 wta_2025.xlsx
--rw-r--r--  1 runner runner 306902 Sep  2 10:31 wta_2026.xlsx
+drwxr-xr-x  2 runner runner   4096 Sep  2 15:53 .
+drwxrwxrwt 14 root   root     4096 Sep  2 15:53 ..
+-rw-r--r--  1 runner runner 417917 Sep  2 15:53 atp_2022.xlsx
+-rw-r--r--  1 runner runner 447088 Sep  2 15:53 atp_2023.xlsx
+-rw-r--r--  1 runner runner 445729 Sep  2 15:53 atp_2024.xlsx
+-rw-r--r--  1 runner runner 426707 Sep  2 15:53 atp_2025.xlsx
+-rw-r--r--  1 runner runner 322763 Sep  2 15:53 atp_2026.xlsx
+-rw-r--r--  1 runner runner 370069 Sep  2 15:53 wta_2022.xlsx
+-rw-r--r--  1 runner runner 407251 Sep  2 15:53 wta_2023.xlsx
+-rw-r--r--  1 runner runner 406783 Sep  2 15:53 wta_2024.xlsx
+-rw-r--r--  1 runner runner 399398 Sep  2 15:53 wta_2025.xlsx
+-rw-r--r--  1 runner runner 306902 Sep  2 15:53 wta_2026.xlsx
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -131,7 +131,7 @@ fixtures.csv: 48 Spiele mit Quoten
 == Premier Division (Irland) ==
   66 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
-  Kicker-News: 32 Schlagzeilen geladen
+  Kicker-News: 33 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 201, WTA 200
@@ -139,9 +139,9 @@ fixtures.csv: 48 Spiele mit Quoten
   Elo ATP: 553 Spieler bewertet
   Elo WTA: 574 Spieler bewertet
   Belag-Zuordnung (MatchStat): 36 Turniere
-  Tennis-Quoten zugeordnet: 55
-  102 Tennis-Matches in den naechsten 3 Tagen
-  2 Tennis-Matches heute bereits beendet
-  Tipp-Log: 2082 Eintraege, 1126 ausgewertet, 670 richtig
-  Premium-Abrufe: Tennis 6, Fussball 229 (Tennis AKTIV, Fussball AKTIV)
+  Tennis-Quoten zugeordnet: 46
+  92 Tennis-Matches in den naechsten 3 Tagen
+  3 Tennis-Matches heute bereits beendet
+  Tipp-Log: 2082 Eintraege, 1127 ausgewertet, 671 richtig
+  Premium-Abrufe: Tennis 6, Fussball 238 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
