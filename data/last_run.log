@@ -1,20 +1,9 @@
 /tmp/tennisdata/atp_2022.xlsx: OK über http://www.tennis-data.co.uk (417917 Bytes)
-/tmp/tennisdata/wta_2022.xlsx: FEHLGESCHLAGEN (letzter Code 504); Antwort-Anfang:
-<html>
-<head>
-<title>The page is temporarily unavailable</title>
-<style>
-body { font-family: Tahoma, Verdana, Arial, sans-serif; }
-</style>
-</head>
-<body bgcolor="white" text="black">
-<table width="100%" height="100%">
-<tr>
-<td align="center" valign="middle">
-The page you are looking for is temporar
+/tmp/tennisdata/wta_2022.xlsx: OK über http://www.tennis-data.co.uk (370069 Bytes)
 /tmp/tennisdata/atp_2023.xlsx: OK über http://www.tennis-data.co.uk (447088 Bytes)
 /tmp/tennisdata/wta_2023.xlsx: OK über http://www.tennis-data.co.uk (407251 Bytes)
-/tmp/tennisdata/atp_2024.xlsx: FEHLGESCHLAGEN (letzter Code 504); Antwort-Anfang:
+/tmp/tennisdata/atp_2024.xlsx: OK über http://www.tennis-data.co.uk (445729 Bytes)
+/tmp/tennisdata/wta_2024.xlsx: FEHLGESCHLAGEN (letzter Code 504); Antwort-Anfang:
 <html>
 <head>
 <title>The page is temporarily unavailable</title>
@@ -27,21 +16,8 @@ body { font-family: Tahoma, Verdana, Arial, sans-serif; }
 <tr>
 <td align="center" valign="middle">
 The page you are looking for is temporar
-/tmp/tennisdata/wta_2024.xlsx: OK über http://www.tennis-data.co.uk (406783 Bytes)
-/tmp/tennisdata/atp_2025.xlsx: FEHLGESCHLAGEN (letzter Code 504); Antwort-Anfang:
-<html>
-<head>
-<title>The page is temporarily unavailable</title>
-<style>
-body { font-family: Tahoma, Verdana, Arial, sans-serif; }
-</style>
-</head>
-<body bgcolor="white" text="black">
-<table width="100%" height="100%">
-<tr>
-<td align="center" valign="middle">
-The page you are looking for is temporar
-/tmp/tennisdata/wta_2025.xlsx: FEHLGESCHLAGEN (letzter Code 502); Antwort-Anfang:
+/tmp/tennisdata/atp_2025.xlsx: OK über http://www.tennis-data.co.uk (426707 Bytes)
+/tmp/tennisdata/wta_2025.xlsx: FEHLGESCHLAGEN (letzter Code 504); Antwort-Anfang:
 <html>
 <head>
 <title>The page is temporarily unavailable</title>
@@ -56,15 +32,17 @@ body { font-family: Tahoma, Verdana, Arial, sans-serif; }
 The page you are looking for is temporar
 /tmp/tennisdata/atp_2026.xlsx: OK über http://www.tennis-data.co.uk (322763 Bytes)
 /tmp/tennisdata/wta_2026.xlsx: OK über http://www.tennis-data.co.uk (306902 Bytes)
-total 2276
-drwxr-xr-x  2 runner runner   4096 Sep  4 15:46 .
-drwxrwxrwt 14 root   root     4096 Sep  4 15:41 ..
--rw-r--r--  1 runner runner 417917 Sep  4 15:41 atp_2022.xlsx
--rw-r--r--  1 runner runner 447088 Sep  4 15:42 atp_2023.xlsx
--rw-r--r--  1 runner runner 322763 Sep  4 15:46 atp_2026.xlsx
--rw-r--r--  1 runner runner 407251 Sep  4 15:42 wta_2023.xlsx
--rw-r--r--  1 runner runner 406783 Sep  4 15:43 wta_2024.xlsx
--rw-r--r--  1 runner runner 306902 Sep  4 15:46 wta_2026.xlsx
+total 3096
+drwxr-xr-x  2 runner runner   4096 Sep  4 18:49 .
+drwxrwxrwt 14 root   root     4096 Sep  4 18:46 ..
+-rw-r--r--  1 runner runner 417917 Sep  4 18:46 atp_2022.xlsx
+-rw-r--r--  1 runner runner 447088 Sep  4 18:46 atp_2023.xlsx
+-rw-r--r--  1 runner runner 445729 Sep  4 18:46 atp_2024.xlsx
+-rw-r--r--  1 runner runner 426707 Sep  4 18:48 atp_2025.xlsx
+-rw-r--r--  1 runner runner 322763 Sep  4 18:49 atp_2026.xlsx
+-rw-r--r--  1 runner runner 370069 Sep  4 18:46 wta_2022.xlsx
+-rw-r--r--  1 runner runner 407251 Sep  4 18:46 wta_2023.xlsx
+-rw-r--r--  1 runner runner 306902 Sep  4 18:49 wta_2026.xlsx
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -84,9 +62,7 @@ drwxrwxrwt 14 root   root     4096 Sep  4 15:41 ..
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/irl.1/seasons/2026/types/2/leaders nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/irl.1/seasons/2025/types/1/leaders nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/irl.1/seasons/2025/types/2/leaders nicht erreichbar (HTTP Error 404: Not Found)
-  WARN: https://www.tennis-data.co.uk/2024/2024.xlsx nicht erreichbar (binaer)
-  WARN: https://www.tennis-data.co.uk/2025/2025.xlsx nicht erreichbar (binaer)
-  WARN: https://www.tennis-data.co.uk/2022w/2022.xlsx nicht erreichbar (binaer)
+  WARN: https://www.tennis-data.co.uk/2024w/2024.xlsx nicht erreichbar (binaer)
   WARN: https://www.tennis-data.co.uk/2025w/2025.xlsx nicht erreichbar (binaer)
 fixtures.csv: 198 Spiele mit Quoten
 == WM ==
@@ -108,8 +84,8 @@ fixtures.csv: 198 Spiele mit Quoten
   315 Ergebnisse geladen
   9 Spiele in den naechsten 3 Tagen
 == 2. Bundesliga ==
-  333 Ergebnisse geladen
-  9 Spiele in den naechsten 3 Tagen
+  335 Ergebnisse geladen
+  7 Spiele in den naechsten 3 Tagen
 == 3. Liga ==
   410 Ergebnisse geladen
   10 Spiele in den naechsten 3 Tagen
@@ -118,44 +94,44 @@ fixtures.csv: 198 Spiele mit Quoten
   10 Spiele in den naechsten 3 Tagen
 == Serie A ==
   400 Ergebnisse geladen
-  8 Spiele in den naechsten 3 Tagen
+  7 Spiele in den naechsten 3 Tagen
 == La Liga ==
   411 Ergebnisse geladen
   8 Spiele in den naechsten 3 Tagen
 == La Liga 2 ==
   495 Ergebnisse geladen
-  10 Spiele in den naechsten 3 Tagen
+  9 Spiele in den naechsten 3 Tagen
   1 Prognosen via Team-Historie-Fallback erstellt
 == Ligue 1 ==
   325 Ergebnisse geladen
-  8 Spiele in den naechsten 3 Tagen
+  7 Spiele in den naechsten 3 Tagen
   1 Prognosen via Team-Historie-Fallback erstellt
 == Ligue 2 ==
   341 Ergebnisse geladen
-  8 Spiele in den naechsten 3 Tagen
-  2 Prognosen via Team-Historie-Fallback erstellt
+  3 Spiele in den naechsten 3 Tagen
+  1 Prognosen via Team-Historie-Fallback erstellt
 == Eredivisie ==
   339 Ergebnisse geladen
-  9 Spiele in den naechsten 3 Tagen
+  8 Spiele in den naechsten 3 Tagen
 == Eerste Divisie ==
   422 Ergebnisse geladen
-  8 Spiele in den naechsten 3 Tagen
+  2 Spiele in den naechsten 3 Tagen
 == Pro League (Belgien) ==
   347 Ergebnisse geladen
-  9 Spiele in den naechsten 3 Tagen
+  8 Spiele in den naechsten 3 Tagen
   1 Prognosen via Team-Historie-Fallback erstellt
 == Challenger Pro League (Belgien) ==
   0 Ergebnisse geladen
-  7 Spiele in den naechsten 3 Tagen
-  7 Prognosen via Team-Historie-Fallback erstellt
+  5 Spiele in den naechsten 3 Tagen
+  5 Prognosen via Team-Historie-Fallback erstellt
 == Primeira Liga (Portugal) ==
   339 Ergebnisse geladen
   8 Spiele in den naechsten 3 Tagen
   1 Prognosen via Team-Historie-Fallback erstellt
 == Süper Lig (Türkei) ==
   333 Ergebnisse geladen
-  7 Spiele in den naechsten 3 Tagen
-  2 Prognosen via Team-Historie-Fallback erstellt
+  6 Spiele in den naechsten 3 Tagen
+  1 Prognosen via Team-Historie-Fallback erstellt
 == Bundesliga (Österreich) ==
   225 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
@@ -174,28 +150,28 @@ fixtures.csv: 198 Spiele mit Quoten
   510 Ergebnisse geladen
   8 Spiele in den naechsten 3 Tagen
 == Eliteserien (Norwegen) ==
-  290 Ergebnisse geladen
-  8 Spiele in den naechsten 3 Tagen
+  291 Ergebnisse geladen
+  6 Spiele in den naechsten 3 Tagen
 == Allsvenskan (Schweden) ==
   285 Ergebnisse geladen
   5 Spiele in den naechsten 3 Tagen
 == Superliga (Dänemark) ==
-  229 Ergebnisse geladen
-  5 Spiele in den naechsten 3 Tagen
+  230 Ergebnisse geladen
+  4 Spiele in den naechsten 3 Tagen
 == Premier Division (Irland) ==
   66 Ergebnisse geladen
   1 Spiele in den naechsten 3 Tagen
-  Kicker-News: 35 Schlagzeilen geladen
+  Kicker-News: 34 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 201, WTA 200
-  Historie: ATP 7358 Matches, WTA 6929 Matches
-  Elo ATP: 503 Spieler bewertet
-  Elo WTA: 476 Spieler bewertet
+  Historie: ATP 12705 Matches, WTA 6808 Matches
+  Elo ATP: 553 Spieler bewertet
+  Elo WTA: 490 Spieler bewertet
   Belag-Zuordnung (MatchStat): 39 Turniere
-  Tennis-Quoten zugeordnet: 15
-  78 Tennis-Matches in den naechsten 3 Tagen
-  2 Tennis-Matches heute bereits beendet
-  Tipp-Log: 2286 Eintraege, 1270 ausgewertet, 782 richtig
-  Premium-Abrufe: Tennis 6, Fussball 372 (Tennis AKTIV, Fussball AKTIV)
+  Tennis-Quoten zugeordnet: 11
+  75 Tennis-Matches in den naechsten 3 Tagen
+  7 Tennis-Matches heute bereits beendet
+  Tipp-Log: 2291 Eintraege, 1279 ausgewertet, 788 richtig
+  Premium-Abrufe: Tennis 6, Fussball 315 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
