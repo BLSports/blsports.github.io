@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-05T11:56:01.818169+02:00",
+ "generatedAt": "2026-09-05T15:16:08.939867+02:00",
  "windowDays": 3,
  "days": [
   "2026-09-05",
@@ -206,6 +206,10 @@
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
       {
+       "title": "LIVE! BVB in Hoffenheim - Leipzig mit Nkunku - Medina startet bei Bayer, Diaby auf der Bank",
+       "link": "https://www.kicker.de/live-bvb-in-hoffenheim-leipzig-mit-nkunku-medina-startet-bei-bayer-diaby-auf-der-bank-1249083/artikel#omrss"
+      },
+      {
        "title": "Mit möglicher Kaufpflicht: Hoffenheim verleiht Chaves",
        "link": "https://www.kicker.de/mit-moeglicher-kaufpflicht-hoffenheim-verleiht-chaves-1249796/artikel#omrss"
       }
@@ -310,7 +314,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Bayer 04 Leverkusen geht als klarer Favorit (67 %) in das Heimspiel gegen 1. FC Union Berlin. In der Tabelle stehen sich Platz 14 und Platz 11 gegenüber. Heim-/Auswärtsbilanz: Bayer 04 Leverkusen gewann 2 der letzten 5 Heimspiele, 1. FC Union Berlin 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:0 (1. FC Union Berlin – Bayer 04 Leverkusen). Das Modell erwartet ein torreiches Spiel (xG 2,5:1,1; über 2,5 Tore: 69 %, beide Teams treffen zu 61 %). Gefährlichste Torschützen: bei Bayer 04 Leverkusen P. Schick (1 Tore) und bei 1. FC Union Berlin Emmanuel Latte Lath (1 Tore). Personal: Bayer 04 Leverkusen fehlen 6 Spieler (u.a. E. Ben Seghir); 1. FC Union Berlin fehlen 6 Spieler (u.a. O. Burke).",
+     "analysis": "Bayer 04 Leverkusen geht als klarer Favorit (67 %) in das Heimspiel gegen 1. FC Union Berlin. In der Tabelle stehen sich Platz 14 und Platz 11 gegenüber. Heim-/Auswärtsbilanz: Bayer 04 Leverkusen gewann 2 der letzten 5 Heimspiele, 1. FC Union Berlin 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:0 (1. FC Union Berlin – Bayer 04 Leverkusen). Das Modell erwartet ein torreiches Spiel (xG 2,5:1,1; über 2,5 Tore: 69 %, beide Teams treffen zu 61 %). Gefährlichste Torschützen: bei Bayer 04 Leverkusen P. Schick (1 Tore) und bei 1. FC Union Berlin Emmanuel Latte Lath (1 Tore). Die Aufstellungen sind offiziell (4-2-3-1 gegen 4-1-2-1-2). Personal: Bayer 04 Leverkusen fehlen 6 Spieler (u.a. E. Ben Seghir); 1. FC Union Berlin fehlen 6 Spieler (u.a. O. Burke).",
      "injuriesHome": [
       {
        "name": "E. Ben Seghir",
@@ -363,19 +367,53 @@
        "reason": "Muscle Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "lineups": {
+      "home": {
+       "formation": "4-2-3-1",
+       "xi": [
+        "M. Flekken",
+        "J. Quansah",
+        "F. Medina",
+        "E. Tapsoba",
+        "Miguel Gutiérrez",
+        "E. Fernández",
+        "Aleix García",
+        "I. Maza",
+        "M. Tillman",
+        "Afonso Moreira",
+        "P. Schick"
+       ]
+      },
+      "away": {
+       "formation": "4-1-2-1-2",
+       "xi": [
+        "F. Rønnow",
+        "J. Juranović",
+        "F. Uduokhai",
+        "Z. Van Den Bosch",
+        "T. Rothe",
+        "A. Kemlein",
+        "M. Aebischer",
+        "Livan Burcu",
+        "R. Khedira",
+        "M. LjubiÄiÄ",
+        "E. Latte Lath"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
+      {
+       "title": "LIVE! BVB in Hoffenheim - Leipzig mit Nkunku - Medina startet bei Bayer, Diaby auf der Bank",
+       "link": "https://www.kicker.de/live-bvb-in-hoffenheim-leipzig-mit-nkunku-medina-startet-bei-bayer-diaby-auf-der-bank-1249083/artikel#omrss"
+      },
+      {
+       "title": "Bayern startet gegen ManCity: Der Spielplan der Champions League",
+       "link": "https://www.kicker.de/bayern-startet-gegen-mancity-der-spielplan-der-champions-league-1249876/artikel#omrss"
+      },
       {
        "title": "Wer überträgt Schalke 04 gegen Bayern München live im TV und Stream?",
        "link": "https://www.kicker.de/wer-uebertraegt-schalke-04-gegen-bayern-muenchen-live-im-tv-und-stream-1248993/artikel#omrss"
-      },
-      {
-       "title": "Musiala reist mit den Bayern nach Gelsenkirchen",
-       "link": "https://www.kicker.de/musiala-reist-mit-den-bayern-nach-gelsenkirchen-1249780/artikel#omrss"
-      },
-      {
-       "title": "5:1-Packung: Als Schalke sich an den Bayern rächte",
-       "link": "https://www.kicker.de/5-1-packung-als-schalke-sich-an-den-bayern-raechte-1249088/video#omrss"
       }
      ]
     },
@@ -451,7 +489,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen Borussia Mönchengladbach und SV 07 Elversberg deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Borussia Mönchengladbach 36 %, Unentschieden 26 %, Sieg SV 07 Elversberg 38 %). In der Tabelle stehen sich Platz 16 und Platz 6 gegenüber. Das Modell erwartet eine offene Tor-Ausbeute (xG 1,4:1,4; über 2,5 Tore: 52 %, beide Teams treffen zu 56 %). Gefährlichste Torschützen: bei SV 07 Elversberg L. Petkov (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,80) für 13 Prozentpunkte wahrscheinlicher als der Markt. Personal: Borussia Mönchengladbach fehlen 7 Spieler (u.a. J. Castrop); SV 07 Elversberg fehlen 2 Spieler (u.a. L. Seifert).",
+     "analysis": "Zwischen Borussia Mönchengladbach und SV 07 Elversberg deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Borussia Mönchengladbach 36 %, Unentschieden 26 %, Sieg SV 07 Elversberg 38 %). In der Tabelle stehen sich Platz 16 und Platz 6 gegenüber. Das Modell erwartet eine offene Tor-Ausbeute (xG 1,4:1,4; über 2,5 Tore: 52 %, beide Teams treffen zu 56 %). Gefährlichste Torschützen: bei SV 07 Elversberg L. Petkov (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,80) für 13 Prozentpunkte wahrscheinlicher als der Markt. Die Aufstellungen sind offiziell (4-2-3-1 gegen 4-2-3-1). Personal: Borussia Mönchengladbach fehlen 7 Spieler (u.a. J. Castrop); SV 07 Elversberg fehlen 2 Spieler (u.a. L. Seifert).",
      "injuriesHome": [
       {
        "name": "J. Castrop",
@@ -488,7 +526,41 @@
        "reason": "Back Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "lineups": {
+      "home": {
+       "formation": "4-2-3-1",
+       "xi": [
+        "M. Nicolas",
+        "J. Scally",
+        "K. Itakura",
+        "K. Diks",
+        "L. Ullrich",
+        "P. Sander",
+        "M. Nguefack",
+        "F. Honorat",
+        "W. Mohya",
+        "H. Bolin",
+        "T. Kleindienst"
+       ]
+      },
+      "away": {
+       "formation": "4-2-3-1",
+       "xi": [
+        "N. Kristof",
+        "J. Gyamerah",
+        "L. Pinckert",
+        "M. Rohr",
+        "L. Günther",
+        "F. Keidel",
+        "Ł. Poręba",
+        "L. Petkov",
+        "Francis-Ikechukwu Onyeka",
+        "William Cole Campbell",
+        "D. Mokwa"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-09-05T15:30:00+02:00",
@@ -585,7 +657,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "RB Leipzig reist als klarer Favorit (61 %) zu SV Werder Bremen. In der Tabelle stehen sich Platz 17 und Platz 2 gegenüber. Die Form spricht für RB Leipzig: 3 Siege aus den letzten 5 Spielen, SV Werder Bremen holte nur 0. Heim-/Auswärtsbilanz: SV Werder Bremen gewann 1 der letzten 5 Heimspiele, RB Leipzig 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:2 (SV Werder Bremen – RB Leipzig). Das Modell erwartet ein torreiches Spiel (xG 1,0:2,0; über 2,5 Tore: 57 %, beide Teams treffen zu 54 %). Gefährlichste Torschützen: bei SV Werder Bremen D. Stalmach (1 Tore) und bei RB Leipzig R. Baku (1 Tore). Personal: SV Werder Bremen fehlen 6 Spieler (u.a. F. Agu); RB Leipzig fehlen 7 Spieler (u.a. C. Baumgartner).",
+     "analysis": "RB Leipzig reist als klarer Favorit (61 %) zu SV Werder Bremen. In der Tabelle stehen sich Platz 17 und Platz 2 gegenüber. Die Form spricht für RB Leipzig: 3 Siege aus den letzten 5 Spielen, SV Werder Bremen holte nur 0. Heim-/Auswärtsbilanz: SV Werder Bremen gewann 1 der letzten 5 Heimspiele, RB Leipzig 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:2 (SV Werder Bremen – RB Leipzig). Das Modell erwartet ein torreiches Spiel (xG 1,0:2,0; über 2,5 Tore: 57 %, beide Teams treffen zu 54 %). Gefährlichste Torschützen: bei SV Werder Bremen D. Stalmach (1 Tore) und bei RB Leipzig R. Baku (1 Tore). Die Aufstellungen sind offiziell (4-1-4-1 gegen 4-3-3). Personal: SV Werder Bremen fehlen 6 Spieler (u.a. F. Agu); RB Leipzig fehlen 7 Spieler (u.a. C. Baumgartner).",
      "injuriesHome": [
       {
        "name": "F. Agu",
@@ -638,8 +710,46 @@
        "reason": "Knee Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "lineups": {
+      "home": {
+       "formation": "4-1-4-1",
+       "xi": [
+        "K. Hein",
+        "Arthur",
+        "A. Pieper",
+        "M. Friedl",
+        "O. Deman",
+        "Y. Regeer",
+        "E. Dinkçi",
+        "Chuky San José",
+        "L. Reis",
+        "M. Grüll",
+        "N. Füllkrug"
+       ]
+      },
+      "away": {
+       "formation": "4-3-3",
+       "xi": [
+        "M. Vandevoordt",
+        "R. Baku",
+        "W. Orbán",
+        "M. Estève",
+        "D. Raum",
+        "N. El Aynaoui",
+        "N. Seiwald",
+        "E. Banzuzi",
+        "J. Bakayoko",
+        "C. Nkunku",
+        "A. Nusa"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
+      {
+       "title": "LIVE! BVB in Hoffenheim - Leipzig mit Nkunku - Medina startet bei Bayer, Diaby auf der Bank",
+       "link": "https://www.kicker.de/live-bvb-in-hoffenheim-leipzig-mit-nkunku-medina-startet-bei-bayer-diaby-auf-der-bank-1249083/artikel#omrss"
+      },
       {
        "title": "Leipzig muss in Bremen auf Gruda verzichten",
        "link": "https://www.kicker.de/leipzig-muss-in-bremen-auf-gruda-verzichten-1249761/artikel#omrss"
@@ -714,7 +824,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "SC Paderborn 07 ist gegen SC Freiburg leicht favorisiert (48 % zu 30 %). In der Tabelle stehen sich Platz 10 und Platz 3 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 1,9:1,4; über 2,5 Tore: 64 %, beide Teams treffen zu 65 %). Gefährlichste Torschützen: bei SC Freiburg Y. Suzuki (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,68) für 21 Prozentpunkte wahrscheinlicher als der Markt. Personal: SC Paderborn 07 fehlen 5 Spieler (u.a. N. Awortwie-Grant); SC Freiburg fehlen 3 Spieler (u.a. F. Muslija).",
+     "analysis": "SC Paderborn 07 ist gegen SC Freiburg leicht favorisiert (48 % zu 30 %). In der Tabelle stehen sich Platz 10 und Platz 3 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 1,9:1,4; über 2,5 Tore: 64 %, beide Teams treffen zu 65 %). Gefährlichste Torschützen: bei SC Freiburg Y. Suzuki (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,68) für 21 Prozentpunkte wahrscheinlicher als der Markt. Die Aufstellungen sind offiziell (3-5-2 gegen 4-2-3-1). Personal: SC Paderborn 07 fehlen 5 Spieler (u.a. N. Awortwie-Grant); SC Freiburg fehlen 3 Spieler (u.a. F. Muslija).",
      "injuriesHome": [
       {
        "name": "N. Awortwie-Grant",
@@ -751,7 +861,41 @@
        "reason": "Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "lineups": {
+      "home": {
+       "formation": "3-5-2",
+       "xi": [
+        "N. Noll",
+        "J. ter Horst",
+        "T. Scheller",
+        "M. Hansen",
+        "L. Curda",
+        "L. Ulrich",
+        "S. Castañeda",
+        "G. Vidović",
+        "R. Obermair",
+        "M. Pieringer",
+        "R. Philippe"
+       ]
+      },
+      "away": {
+       "formation": "4-2-3-1",
+       "xi": [
+        "M. Backhaus",
+        "P. Treu",
+        "M. Ginter",
+        "P. Lienhart",
+        "J. Makengo",
+        "M. Eggestein",
+        "Y. Engelhardt",
+        "J. Beste",
+        "Y. Suzuki",
+        "D. Scherhant",
+        "I. Matanović"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-09-05T18:30:00+02:00",
@@ -1148,301 +1292,6 @@
    "espn": "ger.2",
    "matches": [
     {
-     "kickoff": "2026-09-05T13:00:00+02:00",
-     "home": "VfL Wolfsburg",
-     "away": "Energie Cottbus",
-     "homeIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-     "awayIcon": "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Energie_Cottbus.svg",
-     "matchday": 4,
-     "roundName": null,
-     "formHome": [
-      "U",
-      "S",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "N"
-     ],
-     "formHomeH": [
-      "U"
-     ],
-     "formAwayA": [
-      "N"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 3,
-     "posAway": 14,
-     "nTeams": 18,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.8929,
-      "pDraw": 0.0651,
-      "pAway": 0.0337,
-      "pOver25": 0.8517,
-      "pBtts": 0.5422,
-      "xgHome": 4.01,
-      "xgAway": 0.81,
-      "tipScore": "4:0",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.5422,
-     "odds": {
-      "h": 1.28,
-      "d": 5.35,
-      "a": 8.0,
-      "src": "Betsson"
-     },
-     "value": {
-      "outcome": "1",
-      "edge": 0.1782,
-      "modelP": 0.8929,
-      "odds": 1.28
-     },
-     "scorersHome": [
-      {
-       "name": "F. Reese",
-       "goals": 3
-      },
-      {
-       "name": "A. Bernhardsson",
-       "goals": 1
-      },
-      {
-       "name": "Vinicius Souza",
-       "goals": 1
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Tolcay Cigerci",
-       "goals": 3
-      },
-      {
-       "name": "J. Butler",
-       "goals": 1
-      },
-      {
-       "name": "Lucas Copado",
-       "goals": 1
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "VfL Wolfsburg geht als klarer Favorit (90 %) in das Heimspiel gegen Energie Cottbus. In der Tabelle stehen sich Platz 3 und Platz 14 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 4,0:0,8; über 2,5 Tore: 85 %, beide Teams treffen zu 54 %). Gefährlichste Torschützen: bei VfL Wolfsburg F. Reese (3 Tore) und bei Energie Cottbus Tolcay Cigerci (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 1,28) für 18 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-09-05T13:00:00+02:00",
-     "home": "1. FC Kaiserslautern",
-     "away": "SV Darmstadt 98",
-     "homeIcon": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
-     "awayIcon": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
-     "matchday": 4,
-     "roundName": null,
-     "formHome": [
-      "S",
-      "S",
-      "U",
-      "U",
-      "S"
-     ],
-     "formAway": [
-      "U",
-      "N",
-      "U",
-      "N",
-      "N"
-     ],
-     "formHomeH": [
-      "S",
-      "S",
-      "N",
-      "S",
-      "U"
-     ],
-     "formAwayA": [
-      "N",
-      "N",
-      "N",
-      "U",
-      "N"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 6,
-     "posAway": 18,
-     "nTeams": 18,
-     "h2h": [
-      {
-       "date": "07.02.2026",
-       "home": "SV Darmstadt 98",
-       "away": "1. FC Kaiserslautern",
-       "score": "4:0"
-      },
-      {
-       "date": "31.08.2025",
-       "home": "1. FC Kaiserslautern",
-       "away": "SV Darmstadt 98",
-       "score": "3:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.4364,
-      "pDraw": 0.2679,
-      "pAway": 0.2957,
-      "pOver25": 0.4502,
-      "pBtts": 0.498,
-      "xgHome": 1.39,
-      "xgAway": 1.09,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.498,
-     "odds": {
-      "h": 2.25,
-      "d": 3.61,
-      "a": 3.16,
-      "src": "Pinnacle"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Erencan Yardimci",
-       "goals": 1
-      },
-      {
-       "name": "Thierry Tazemeta",
-       "goals": 1
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Ho-jae Lee",
-       "goals": 1
-      },
-      {
-       "name": "A. Vukotic",
-       "goals": 1
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "1. FC Kaiserslautern ist gegen SV Darmstadt 98 leicht favorisiert (43 % zu 30 %). In der Tabelle stehen sich Platz 6 und Platz 18 gegenüber. Die Form spricht für 1. FC Kaiserslautern: 3 Siege aus den letzten 5 Spielen, SV Darmstadt 98 holte nur 0. Heim-/Auswärtsbilanz: 1. FC Kaiserslautern gewann 3 der letzten 5 Heimspiele, SV Darmstadt 98 0 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 4:0 (SV Darmstadt 98 – 1. FC Kaiserslautern). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,4:1,1; über 2,5 Tore: 45 %, beide Teams treffen zu 50 %). Gefährlichste Torschützen: bei 1. FC Kaiserslautern Erencan Yardimci (1 Tore) und bei SV Darmstadt 98 Ho-jae Lee (1 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-09-05T13:00:00+02:00",
-     "home": "Holstein Kiel",
-     "away": "1. FC Nürnberg",
-     "homeIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/330px-Holstein_Kiel_Logo.svg.png",
-     "awayIcon": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_Nürnberg_logo.svg",
-     "matchday": 4,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "N",
-      "U",
-      "U",
-      "N"
-     ],
-     "formAway": [
-      "S",
-      "U",
-      "S",
-      "S",
-      "S"
-     ],
-     "formHomeH": [
-      "U",
-      "S",
-      "S",
-      "N",
-      "U"
-     ],
-     "formAwayA": [
-      "U",
-      "U",
-      "U",
-      "U",
-      "S"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 17,
-     "posAway": 1,
-     "nTeams": 18,
-     "h2h": [
-      {
-       "date": "14.03.2026",
-       "home": "Holstein Kiel",
-       "away": "1. FC Nürnberg",
-       "score": "2:3"
-      },
-      {
-       "date": "19.10.2025",
-       "home": "1. FC Nürnberg",
-       "away": "Holstein Kiel",
-       "score": "1:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.2938,
-      "pDraw": 0.2482,
-      "pAway": 0.458,
-      "pOver25": 0.5298,
-      "pBtts": 0.5589,
-      "xgHome": 1.22,
-      "xgAway": 1.58,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.5589,
-     "odds": {
-      "h": 2.43,
-      "d": 3.66,
-      "a": 2.83,
-      "src": "Pinnacle"
-     },
-     "value": {
-      "outcome": "2",
-      "edge": 0.1176,
-      "modelP": 0.458,
-      "odds": 2.83
-     },
-     "scorersHome": [
-      {
-       "name": "G. Balzi",
-       "goals": 1
-      },
-      {
-       "name": "Phil Harres",
-       "goals": 1
-      },
-      {
-       "name": "P. Harres",
-       "goals": 1
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Mohamed Alì Zoma",
-       "goals": 4
-      },
-      {
-       "name": "P. Scobel",
-       "goals": 2
-      },
-      {
-       "name": "J. Justvan",
-       "goals": 2
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "1. FC Nürnberg ist bei Holstein Kiel leicht favorisiert (46 % zu 29 %). In der Tabelle stehen sich Platz 17 und Platz 1 gegenüber. Die Form spricht für 1. FC Nürnberg: 4 Siege aus den letzten 5 Spielen, Holstein Kiel holte nur 0. Heim-/Auswärtsbilanz: Holstein Kiel gewann 2 der letzten 5 Heimspiele, 1. FC Nürnberg 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:3 (Holstein Kiel – 1. FC Nürnberg). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,2:1,6; über 2,5 Tore: 53 %, beide Teams treffen zu 56 %). Gefährlichste Torschützen: bei Holstein Kiel G. Balzi (1 Tore) und bei 1. FC Nürnberg Mohamed Alì Zoma (4 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,83) für 12 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
      "kickoff": "2026-09-05T20:30:00+02:00",
      "home": "Dynamo Dresden",
      "away": "VfL Bochum",
@@ -1498,17 +1347,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4179,
-      "pDraw": 0.2551,
-      "pAway": 0.327,
-      "pOver25": 0.5134,
-      "pBtts": 0.5517,
-      "xgHome": 1.46,
-      "xgAway": 1.27,
+      "pHome": 0.4185,
+      "pDraw": 0.2566,
+      "pAway": 0.3249,
+      "pOver25": 0.5066,
+      "pBtts": 0.5462,
+      "xgHome": 1.45,
+      "xgAway": 1.25,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5517,
+     "pBtts": 0.5462,
      "odds": {
       "h": 2.13,
       "d": 3.76,
@@ -1537,7 +1386,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Dynamo Dresden ist gegen VfL Bochum leicht favorisiert (41 % zu 33 %). In der Tabelle stehen sich Platz 16 und Platz 12 gegenüber. Heim-/Auswärtsbilanz: Dynamo Dresden gewann 4 der letzten 5 Heimspiele, VfL Bochum 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:0 (Dynamo Dresden – VfL Bochum). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,5:1,3; über 2,5 Tore: 51 %, beide Teams treffen zu 55 %). Gefährlichste Torschützen: bei Dynamo Dresden J. Sterner (2 Tore) und bei VfL Bochum P. Hoffmann (1 Tore).",
+     "analysis": "Dynamo Dresden ist gegen VfL Bochum leicht favorisiert (42 % zu 32 %). In der Tabelle stehen sich Platz 17 und Platz 13 gegenüber. Heim-/Auswärtsbilanz: Dynamo Dresden gewann 4 der letzten 5 Heimspiele, VfL Bochum 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:0 (Dynamo Dresden – VfL Bochum). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,4:1,2; über 2,5 Tore: 51 %, beide Teams treffen zu 55 %). Gefährlichste Torschützen: bei Dynamo Dresden J. Sterner (2 Tore) und bei VfL Bochum P. Hoffmann (1 Tore).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
       {
@@ -1602,17 +1451,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5389,
-      "pDraw": 0.2118,
-      "pAway": 0.2492,
-      "pOver25": 0.665,
-      "pBtts": 0.6485,
-      "xgHome": 2.07,
-      "xgAway": 1.36,
+      "pHome": 0.5394,
+      "pDraw": 0.2128,
+      "pAway": 0.2478,
+      "pOver25": 0.6587,
+      "pBtts": 0.6432,
+      "xgHome": 2.05,
+      "xgAway": 1.34,
       "tipScore": "2:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6485,
+     "pBtts": 0.6432,
      "odds": {
       "h": 1.91,
       "d": 3.6,
@@ -1649,7 +1498,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Hertha BSC ist gegen 1. FC Magdeburg leicht favorisiert (54 % zu 25 %). In der Tabelle stehen sich Platz 2 und Platz 5 gegenüber. Heim-/Auswärtsbilanz: Hertha BSC gewann 2 der letzten 5 Heimspiele, 1. FC Magdeburg 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:0 (1. FC Magdeburg – Hertha BSC). Das Modell erwartet ein torreiches Spiel (xG 2,1:1,4; über 2,5 Tore: 66 %, beide Teams treffen zu 65 %). Gefährlichste Torschützen: bei Hertha BSC Oluwaseun Victor Adewumi (2 Tore) und bei 1. FC Magdeburg M. Zukowski (2 Tore).",
+     "analysis": "Hertha BSC ist gegen 1. FC Magdeburg leicht favorisiert (54 % zu 25 %). In der Tabelle stehen sich Platz 2 und Platz 6 gegenüber. Heim-/Auswärtsbilanz: Hertha BSC gewann 2 der letzten 5 Heimspiele, 1. FC Magdeburg 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:0 (1. FC Magdeburg – Hertha BSC). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,3; über 2,5 Tore: 66 %, beide Teams treffen zu 64 %). Gefährlichste Torschützen: bei Hertha BSC Oluwaseun Victor Adewumi (2 Tore) und bei 1. FC Magdeburg M. Zukowski (2 Tore).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -1689,17 +1538,17 @@
      "nTeams": 18,
      "h2h": [],
      "prediction": {
-      "pHome": 0.3995,
-      "pDraw": 0.1464,
-      "pAway": 0.4418,
-      "pOver25": 0.9698,
-      "pBtts": 0.945,
-      "xgHome": 3.76,
-      "xgAway": 3.91,
+      "pHome": 0.4024,
+      "pDraw": 0.1472,
+      "pAway": 0.4389,
+      "pOver25": 0.9696,
+      "pBtts": 0.9442,
+      "xgHome": 3.73,
+      "xgAway": 3.86,
       "tipScore": "3:3",
       "confidence": "niedrig"
      },
-     "pBtts": 0.945,
+     "pBtts": 0.9442,
      "odds": {
       "h": 2.63,
       "d": 3.55,
@@ -1708,8 +1557,8 @@
      },
      "value": {
       "outcome": "1",
-      "edge": 0.0571,
-      "modelP": 0.3995,
+      "edge": 0.06,
+      "modelP": 0.4024,
       "odds": 2.63
      },
      "scorersHome": [
@@ -1741,7 +1590,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen SpVgg Greuther Fürth und 1. FC Heidenheim 1846 deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg SpVgg Greuther Fürth 40 %, Unentschieden 15 %, Sieg 1. FC Heidenheim 1846 45 %). In der Tabelle stehen sich Platz 9 und Platz 4 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 3,8:3,9; über 2,5 Tore: 97 %, beide Teams treffen zu 94 %). Gefährlichste Torschützen: bei SpVgg Greuther Fürth F. Klaus (5 Tore) und bei 1. FC Heidenheim 1846 J. Schöppner (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,63) für 6 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Zwischen SpVgg Greuther Fürth und 1. FC Heidenheim 1846 deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg SpVgg Greuther Fürth 40 %, Unentschieden 15 %, Sieg 1. FC Heidenheim 1846 45 %). In der Tabelle stehen sich Platz 9 und Platz 5 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 3,7:3,9; über 2,5 Tore: 97 %, beide Teams treffen zu 94 %). Gefährlichste Torschützen: bei SpVgg Greuther Fürth F. Klaus (5 Tore) und bei 1. FC Heidenheim 1846 J. Schöppner (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,63) für 6 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -1781,17 +1630,17 @@
      "nTeams": 18,
      "h2h": [],
      "prediction": {
-      "pHome": 0.3468,
-      "pDraw": 0.2266,
-      "pAway": 0.4266,
-      "pOver25": 0.6542,
-      "pBtts": 0.6616,
-      "xgHome": 1.59,
-      "xgAway": 1.78,
+      "pHome": 0.3484,
+      "pDraw": 0.2281,
+      "pAway": 0.4235,
+      "pOver25": 0.6469,
+      "pBtts": 0.6562,
+      "xgHome": 1.58,
+      "xgAway": 1.76,
       "tipScore": "1:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.6616,
+     "pBtts": 0.6562,
      "odds": {
       "h": 2.2,
       "d": 3.15,
@@ -1800,8 +1649,8 @@
      },
      "value": {
       "outcome": "2",
-      "edge": 0.1064,
-      "modelP": 0.4266,
+      "edge": 0.1033,
+      "modelP": 0.4235,
       "odds": 2.75
      },
      "scorersHome": [
@@ -1833,7 +1682,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen VfL Osnabrück und Eintracht Braunschweig deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg VfL Osnabrück 35 %, Unentschieden 23 %, Sieg Eintracht Braunschweig 42 %). In der Tabelle stehen sich Platz 15 und Platz 11 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 1,6:1,8; über 2,5 Tore: 65 %, beide Teams treffen zu 66 %). Gefährlichste Torschützen: bei VfL Osnabrück N. Wiemann (1 Tore) und bei Eintracht Braunschweig J. Urbich (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,75) für 11 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Zwischen VfL Osnabrück und Eintracht Braunschweig deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg VfL Osnabrück 35 %, Unentschieden 23 %, Sieg Eintracht Braunschweig 42 %). In der Tabelle stehen sich Platz 16 und Platz 12 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 1,6:1,8; über 2,5 Tore: 65 %, beide Teams treffen zu 66 %). Gefährlichste Torschützen: bei VfL Osnabrück N. Wiemann (1 Tore) und bei Eintracht Braunschweig J. Urbich (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,75) für 10 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
@@ -1902,12 +1751,12 @@
       }
      ],
      "prediction": {
-      "pHome": 0.6512,
-      "pDraw": 0.1867,
-      "pAway": 0.162,
-      "pOver25": 0.6575,
+      "pHome": 0.6515,
+      "pDraw": 0.1866,
+      "pAway": 0.1618,
+      "pOver25": 0.6577,
       "pBtts": 0.5927,
-      "xgHome": 2.31,
+      "xgHome": 2.32,
       "xgAway": 1.07,
       "tipScore": "2:1",
       "confidence": "hoch"
@@ -1921,8 +1770,8 @@
      },
      "value": {
       "outcome": "1",
-      "edge": 0.0916,
-      "modelP": 0.6512,
+      "edge": 0.0919,
+      "modelP": 0.6515,
       "odds": 1.67
      },
      "scorersHome": [
@@ -1986,17 +1835,17 @@
      "nTeams": 20,
      "h2h": [],
      "prediction": {
-      "pHome": 0.5576,
-      "pDraw": 0.184,
-      "pAway": 0.258,
-      "pOver25": 0.8117,
-      "pBtts": 0.7686,
+      "pHome": 0.5569,
+      "pDraw": 0.1841,
+      "pAway": 0.2587,
+      "pOver25": 0.8119,
+      "pBtts": 0.7689,
       "xgHome": 2.6,
-      "xgAway": 1.77,
+      "xgAway": 1.78,
       "tipScore": "2:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.7686,
+     "pBtts": 0.7689,
      "odds": {
       "h": 1.55,
       "d": 4.4,
@@ -2092,10 +1941,10 @@
       }
      ],
      "prediction": {
-      "pHome": 0.2739,
+      "pHome": 0.2741,
       "pDraw": 0.2025,
-      "pAway": 0.5234,
-      "pOver25": 0.735,
+      "pAway": 0.5232,
+      "pOver25": 0.7349,
       "pBtts": 0.7109,
       "xgHome": 1.59,
       "xgAway": 2.23,
@@ -2111,8 +1960,8 @@
      },
      "value": {
       "outcome": "2",
-      "edge": 0.195,
-      "modelP": 0.5234,
+      "edge": 0.1948,
+      "modelP": 0.5232,
       "odds": 2.85
      },
      "scorersHome": [
@@ -2144,16 +1993,12 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "SC Verl ist bei SV Waldhof Mannheim leicht favorisiert (53 % zu 27 %). In der Tabelle stehen sich Platz 10 und Platz 20 gegenüber. Heim-/Auswärtsbilanz: SV Waldhof Mannheim gewann 2 der letzten 5 Heimspiele, SC Verl 0 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 5:2 (SC Verl – SV Waldhof Mannheim). Das Modell erwartet ein torreiches Spiel (xG 1,6:2,2; über 2,5 Tore: 74 %, beide Teams treffen zu 71 %). Gefährlichste Torschützen: bei SV Waldhof Mannheim Sébastien Thill (1 Tore) und bei SC Verl F. Vogler (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,85) für 20 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "SC Verl ist bei SV Waldhof Mannheim leicht favorisiert (53 % zu 27 %). In der Tabelle stehen sich Platz 10 und Platz 20 gegenüber. Heim-/Auswärtsbilanz: SV Waldhof Mannheim gewann 2 der letzten 5 Heimspiele, SC Verl 0 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 5:2 (SC Verl – SV Waldhof Mannheim). Das Modell erwartet ein torreiches Spiel (xG 1,6:2,2; über 2,5 Tore: 73 %, beide Teams treffen zu 71 %). Gefährlichste Torschützen: bei SV Waldhof Mannheim Sébastien Thill (1 Tore) und bei SC Verl F. Vogler (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,85) für 19 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
       {
        "title": "Iraola über Doppelpacker Isak: \"Werde andere Dinge von ihm verlangen\"",
        "link": "https://www.kicker.de/iraola-ueber-doppelpacker-isak-werde-andere-dinge-von-ihm-verlangen-1249857/video#omrss"
-      },
-      {
-       "title": "Party nur vor dem Anstoß: PSG verlängert mit Luis Enrique und Spieler-Quintett",
-       "link": "https://www.kicker.de/party-nur-vor-dem-anstoss-psg-verlaengert-mit-luis-enrique-und-spieler-quintett-1249821/artikel#omrss"
       },
       {
        "title": "Mit möglicher Kaufpflicht: Hoffenheim verleiht Chaves",
@@ -2217,17 +2062,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.2705,
+      "pHome": 0.2703,
       "pDraw": 0.2336,
-      "pAway": 0.496,
-      "pOver25": 0.5805,
-      "pBtts": 0.5914,
+      "pAway": 0.4961,
+      "pOver25": 0.5804,
+      "pBtts": 0.5912,
       "xgHome": 1.25,
       "xgAway": 1.77,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5914,
+     "pBtts": 0.5912,
      "odds": {
       "h": 4.0,
       "d": 3.6,
@@ -2305,8 +2150,8 @@
      "h2h": [],
      "prediction": {
       "pHome": 0.6073,
-      "pDraw": 0.2286,
-      "pAway": 0.164,
+      "pDraw": 0.2287,
+      "pAway": 0.1641,
       "pOver25": 0.4762,
       "pBtts": 0.4572,
       "xgHome": 1.78,
@@ -2415,10 +2260,10 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4873,
-      "pDraw": 0.2182,
-      "pAway": 0.2944,
-      "pOver25": 0.6717,
+      "pHome": 0.487,
+      "pDraw": 0.2183,
+      "pAway": 0.2947,
+      "pOver25": 0.6716,
       "pBtts": 0.667,
       "xgHome": 1.97,
       "xgAway": 1.49,
@@ -2498,17 +2343,17 @@
      "nTeams": 20,
      "h2h": [],
      "prediction": {
-      "pHome": 0.613,
-      "pDraw": 0.1814,
-      "pAway": 0.2052,
-      "pOver25": 0.7608,
-      "pBtts": 0.7048,
+      "pHome": 0.6137,
+      "pDraw": 0.1813,
+      "pAway": 0.2047,
+      "pOver25": 0.7609,
+      "pBtts": 0.7046,
       "xgHome": 2.55,
       "xgAway": 1.45,
       "tipScore": "2:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.7048,
+     "pBtts": 0.7046,
      "odds": {
       "h": 2.2,
       "d": 3.7,
@@ -2517,8 +2362,8 @@
      },
      "value": {
       "outcome": "1",
-      "edge": 0.1834,
-      "modelP": 0.613,
+      "edge": 0.1841,
+      "modelP": 0.6137,
       "odds": 2.2
      },
      "scorersHome": [
@@ -2550,12 +2395,16 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Würzburger Kickers geht als klarer Favorit (61 %) in das Heimspiel gegen VfB Stuttgart II. In der Tabelle stehen sich Platz 9 und Platz 17 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 2,5:1,4; über 2,5 Tore: 76 %, beide Teams treffen zu 70 %). Gefährlichste Torschützen: bei Würzburger Kickers Ivan Franjic (2 Tore) und bei VfB Stuttgart II Alexander Groiß (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,20) für 18 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Würzburger Kickers geht als klarer Favorit (62 %) in das Heimspiel gegen VfB Stuttgart II. In der Tabelle stehen sich Platz 9 und Platz 17 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 2,5:1,4; über 2,5 Tore: 76 %, beide Teams treffen zu 70 %). Gefährlichste Torschützen: bei Würzburger Kickers Ivan Franjic (2 Tore) und bei VfB Stuttgart II Alexander Groiß (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,20) für 18 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
       {
-       "title": "Wer überträgt VfB Stuttgart gegen 1. FC Köln heute live im TV und Stream?",
-       "link": "https://www.kicker.de/wer-uebertraegt-vfb-stuttgart-gegen-1-fc-koeln-heute-live-im-tv-und-stream-1248953/artikel#omrss"
+       "title": "Ein Hauch von Messi in Stuttgart - Undav ist \"nicht hundertprozentig frei\"",
+       "link": "https://www.kicker.de/ein-hauch-von-messi-in-stuttgart-undav-ist-nicht-hundertprozentig-frei-1249873/artikel#omrss"
+      },
+      {
+       "title": "LIVE! Fünfter Sieg? OFC ist im Derby gefordert - Stuttgarter Kickers lauern",
+       "link": "https://www.kicker.de/live-fuenfter-sieg-ofc-ist-im-derby-gefordert-stuttgarter-kickers-lauern-1241457/artikel#omrss"
       }
      ]
     },
@@ -2597,17 +2446,17 @@
      "nTeams": 20,
      "h2h": [],
      "prediction": {
-      "pHome": 0.11,
-      "pDraw": 0.2804,
-      "pAway": 0.6095,
-      "pOver25": 0.2585,
-      "pBtts": 0.2471,
+      "pHome": 0.1103,
+      "pDraw": 0.2806,
+      "pAway": 0.609,
+      "pOver25": 0.2584,
+      "pBtts": 0.2474,
       "xgHome": 0.41,
       "xgAway": 1.35,
       "tipScore": "0:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.2471,
+     "pBtts": 0.2474,
      "odds": {
       "h": 2.15,
       "d": 4.0,
@@ -2616,8 +2465,8 @@
      },
      "value": {
       "outcome": "2",
-      "edge": 0.2842,
-      "modelP": 0.6095,
+      "edge": 0.2837,
+      "modelP": 0.609,
       "odds": 2.9
      },
      "scorersHome": [
@@ -2675,12 +2524,12 @@
      "nTeams": 20,
      "h2h": [],
      "prediction": {
-      "pHome": 0.4695,
-      "pDraw": 0.3834,
-      "pAway": 0.1471,
-      "pOver25": 0.1353,
+      "pHome": 0.4689,
+      "pDraw": 0.3837,
+      "pAway": 0.1474,
+      "pOver25": 0.1351,
       "pBtts": 0.1833,
-      "xgHome": 0.9,
+      "xgHome": 0.89,
       "xgAway": 0.37,
       "tipScore": "0:0",
       "confidence": "niedrig"
@@ -2694,8 +2543,8 @@
      },
      "value": {
       "outcome": "1",
-      "edge": 0.1756,
-      "modelP": 0.4695,
+      "edge": 0.175,
+      "modelP": 0.4689,
       "odds": 3.2
      },
      "scorersHome": [
@@ -2732,135 +2581,6 @@
    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
    "espn": "eng.1",
    "matches": [
-    {
-     "kickoff": "2026-09-05T13:30:00+02:00",
-     "home": "Newcastle United",
-     "away": "AFC Bournemouth",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "U",
-      "S",
-      "N",
-      "U",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "U",
-      "U",
-      "N",
-      "U"
-     ],
-     "formHomeH": [
-      "N",
-      "N",
-      "S",
-      "S",
-      "U"
-     ],
-     "formAwayA": [
-      "S",
-      "S",
-      "S",
-      "U",
-      "N"
-     ],
-     "load14Home": 2,
-     "load14Away": 2,
-     "posHome": 7,
-     "posAway": 14,
-     "nTeams": 20,
-     "h2h": [
-      {
-       "date": "18.04.2026",
-       "home": "Newcastle",
-       "away": "Bournemouth",
-       "score": "1:2"
-      },
-      {
-       "date": "21.09.2025",
-       "home": "Bournemouth",
-       "away": "Newcastle",
-       "score": "0:0"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.4354,
-      "pDraw": 0.243,
-      "pAway": 0.3216,
-      "pOver25": 0.5661,
-      "pBtts": 0.5914,
-      "xgHome": 1.6,
-      "xgAway": 1.35,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.5914,
-     "odds": {
-      "h": 2.21,
-      "d": 3.76,
-      "a": 3.38,
-      "src": "1xBet"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Anthony Elanga",
-       "goals": 2
-      }
-     ],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Newcastle United ist gegen AFC Bournemouth leicht favorisiert (44 % zu 32 %). In der Tabelle stehen sich Platz 7 und Platz 15 gegenüber. Heim-/Auswärtsbilanz: Newcastle United gewann 2 der letzten 5 Heimspiele, AFC Bournemouth 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:2 (Newcastle – Bournemouth). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,4; über 2,5 Tore: 57 %, beide Teams treffen zu 59 %). Gefährlichste Torschützen: bei Newcastle United Anthony Elanga (2 Tore). Personal: Newcastle United fehlen 4 Spieler (u.a. D. Burn); AFC Bournemouth fehlen 6 Spieler (u.a. A. Adli).",
-     "injuriesHome": [
-      {
-       "name": "D. Burn",
-       "reason": "Ankle Injury"
-      },
-      {
-       "name": "Joelinton",
-       "reason": "Injury"
-      },
-      {
-       "name": "V. Livramento",
-       "reason": "Hamstring Injury"
-      },
-      {
-       "name": "W. Osula",
-       "reason": "Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "A. Adli",
-       "reason": "Injury"
-      },
-      {
-       "name": "J. Araujo",
-       "reason": "Thigh Injury"
-      },
-      {
-       "name": "E. J. Kroupi",
-       "reason": "Foot Injury"
-      },
-      {
-       "name": "V. Milosavljevic",
-       "reason": "Injury"
-      },
-      {
-       "name": "R. Christie",
-       "reason": "Red Card"
-      },
-      {
-       "name": "J. Soler",
-       "reason": "Lacking Match Fitness"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-09-05T16:00:00+02:00",
      "home": "Brentford",
@@ -3885,139 +3605,6 @@
    "espn": "ita.1",
    "matches": [
     {
-     "kickoff": "2026-09-05T15:00:00+02:00",
-     "home": "Fiorentina",
-     "away": "Torino",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "U",
-      "S",
-      "U",
-      "N",
-      "N"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "U",
-      "N",
-      "N"
-     ],
-     "formHomeH": [
-      "S",
-      "U",
-      "U",
-      "U",
-      "N"
-     ],
-     "formAwayA": [
-      "S",
-      "U",
-      "N",
-      "N",
-      "N"
-     ],
-     "load14Home": 2,
-     "load14Away": 2,
-     "posHome": 19,
-     "posAway": 14,
-     "nTeams": 20,
-     "h2h": [
-      {
-       "date": "07.02.2026",
-       "home": "Fiorentina",
-       "away": "Torino",
-       "score": "2:2"
-      },
-      {
-       "date": "31.08.2025",
-       "home": "Torino",
-       "away": "Fiorentina",
-       "score": "0:0"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.3821,
-      "pDraw": 0.2548,
-      "pAway": 0.3631,
-      "pOver25": 0.5212,
-      "pBtts": 0.5602,
-      "xgHome": 1.4,
-      "xgAway": 1.36,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.5602,
-     "odds": {
-      "h": 1.91,
-      "d": 3.37,
-      "a": 4.2,
-      "src": "Betclic (FR)"
-     },
-     "value": {
-      "outcome": "2",
-      "edge": 0.1381,
-      "modelP": 0.3631,
-      "odds": 4.2
-     },
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen Fiorentina und Torino deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Fiorentina 39 %, Unentschieden 25 %, Sieg Torino 36 %). In der Tabelle stehen sich Platz 20 und Platz 14 gegenüber. Heim-/Auswärtsbilanz: Fiorentina gewann 1 der letzten 5 Heimspiele, Torino 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:2 (Fiorentina – Torino). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,4:1,4; über 2,5 Tore: 52 %, beide Teams treffen zu 56 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 4,20) für 14 Prozentpunkte wahrscheinlicher als der Markt. Personal: Fiorentina fehlen 5 Spieler (u.a. M. Kean); Torino fehlen 6 Spieler (u.a. C. Biraghi).",
-     "injuriesHome": [
-      {
-       "name": "M. Kean",
-       "reason": "Transfer negotiations"
-      },
-      {
-       "name": "F. Parisi",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "R. Sottil",
-       "reason": "Back Injury"
-      },
-      {
-       "name": "A. Atta",
-       "reason": "Injury"
-      },
-      {
-       "name": "Dodo",
-       "reason": "Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "C. Biraghi",
-       "reason": "Illness"
-      },
-      {
-       "name": "C. Casadei",
-       "reason": "Rest"
-      },
-      {
-       "name": "F. Israel",
-       "reason": "Shoulder Injury"
-      },
-      {
-       "name": "P. Pellegri",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "F. Anjorin",
-       "reason": "Hip Injury"
-      },
-      {
-       "name": "E. Comert",
-       "reason": "Red Card"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
      "kickoff": "2026-09-05T18:00:00+02:00",
      "home": "Internazionale",
      "away": "Napoli",
@@ -4275,13 +3862,7 @@
        "reason": "Knee Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "\"Besser, ich schweige\": Zaragoza über seine Zeit bei den Bayern und der Roma",
-       "link": "https://www.kicker.de/besser-ich-schweige-zaragoza-ueber-seine-zeit-bei-den-bayern-und-der-roma-1249551/video#omrss"
-      }
-     ]
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-09-06T15:00:00+02:00",
@@ -4825,12 +4406,7 @@
      },
      "value": null,
      "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Tiago Gabriel",
-       "goals": 1
-      }
-     ],
+     "scorersAway": [],
      "scorersPeriod": "Saison",
      "analysis": "Cagliari ist gegen Lecce leicht favorisiert (44 % zu 26 %). In der Tabelle stehen sich Platz 11 und Platz 13 gegenüber. Heim-/Auswärtsbilanz: Cagliari gewann 3 der letzten 5 Heimspiele, Lecce 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:2 (Cagliari – Lecce). Das Modell erwartet eher wenige Tore (xG 1,2:0,8; über 2,5 Tore: 32 %, beide Teams treffen zu 38 %). Personal: Cagliari fehlen 5 Spieler (u.a. R. Idrissi); Lecce fehlen 3 Spieler (u.a. W. Geubbels).",
      "injuriesHome": [
@@ -5163,13 +4739,7 @@
        "reason": "Red Card"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "Traumtor zählt nicht, Mbappé vergibt Elfmeter: Real Madrid unterliegt Betis",
-       "link": "https://www.kicker.de/traumtor-zaehlt-nicht-mbapp-vergibt-elfmeter-real-madrid-unterliegt-betis-1249823/video#omrss"
-      }
-     ]
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-09-05T18:30:00+02:00",
@@ -6125,89 +5695,6 @@
    "flag": "🇪🇸",
    "espn": "esp.2",
    "matches": [
-    {
-     "kickoff": "2026-09-05T14:00:00+02:00",
-     "home": "Real Sociedad II",
-     "away": "Tenerife",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/20983.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/245.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "N",
-      "N",
-      "S",
-      "U"
-     ],
-     "formAway": [
-      "S",
-      "S",
-      "N"
-     ],
-     "formHomeH": [],
-     "formAwayA": [
-      "S"
-     ],
-     "load14Home": 0,
-     "load14Away": 2,
-     "posHome": 13,
-     "posAway": 7,
-     "nTeams": 22,
-     "h2h": [
-      {
-       "date": "09.04.2022",
-       "home": "Real Sociedad II",
-       "away": "Tenerife",
-       "score": "1:2"
-      },
-      {
-       "date": "28.11.2021",
-       "home": "Tenerife",
-       "away": "Real Sociedad II",
-       "score": "2:0"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.313,
-      "pDraw": 0.2491,
-      "pAway": 0.438,
-      "pOver25": 0.5353,
-      "pBtts": 0.5666,
-      "xgHome": 1.27,
-      "xgAway": 1.55,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.5666,
-     "odds": {
-      "h": 2.45,
-      "d": 3.0,
-      "a": 2.8,
-      "src": "William Hill"
-     },
-     "value": {
-      "outcome": "2",
-      "edge": 0.1129,
-      "modelP": 0.438,
-      "odds": 2.8
-     },
-     "scorersHome": [
-      {
-       "name": "Gorka Gorosabel",
-       "goals": 2
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Enric Gallego",
-       "goals": 2
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Tenerife ist bei Real Sociedad II leicht favorisiert (44 % zu 31 %). In der Tabelle stehen sich Platz 13 und Platz 7 gegenüber. Das letzte Duell (2022) endete 1:2 (Real Sociedad II – Tenerife). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,3:1,6; über 2,5 Tore: 54 %, beide Teams treffen zu 57 %). Gefährlichste Torschützen: bei Real Sociedad II Gorka Gorosabel (2 Tore) und bei Tenerife Enric Gallego (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,80) für 11 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-09-05T16:15:00+02:00",
      "home": "Sporting Gijón",
@@ -7564,13 +7051,7 @@
        "reason": "Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "Paris SG - Monaco: Tor zum 1:2 durch Idumbo in der 72. Minute",
-       "link": "https://www.kicker.de/paris-sg-monaco-tor-zum-1-2-durch-idumbo-in-der-72-minute-1249810/video#omrss"
-      }
-     ]
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
    "seasonHasStarted": true,
@@ -7582,169 +7063,6 @@
    "flag": "🇫🇷",
    "espn": "fra.2",
    "matches": [
-    {
-     "kickoff": "2026-09-05T14:00:00+02:00",
-     "home": "Metz",
-     "away": "Rodez Aveyron",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/177.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/7719.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "S",
-      "U",
-      "U",
-      "U"
-     ],
-     "formAway": [
-      "S",
-      "S",
-      "N",
-      "S",
-      "U"
-     ],
-     "formHomeH": [
-      "S",
-      "U"
-     ],
-     "formAwayA": [
-      "U",
-      "U",
-      "S",
-      "N",
-      "S"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 8,
-     "posAway": 6,
-     "nTeams": 18,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.3601,
-      "pDraw": 0.3183,
-      "pAway": 0.3216,
-      "pOver25": 0.2953,
-      "pBtts": 0.3747,
-      "xgHome": 0.98,
-      "xgAway": 0.91,
-      "tipScore": "0:0",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.3747,
-     "odds": {
-      "h": 2.05,
-      "d": 3.3,
-      "a": 3.3,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Pape Fall",
-       "goals": 2
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Ibrahima Baldé",
-       "goals": 5
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen Metz und Rodez Aveyron deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Metz 36 %, Unentschieden 32 %, Sieg Rodez Aveyron 32 %). In der Tabelle stehen sich Platz 7 und Platz 4 gegenüber. Die Form spricht für Rodez Aveyron: 3 Siege aus den letzten 5 Spielen, Metz holte nur 1. Das Modell erwartet eher wenige Tore (xG 1,0:0,9; über 2,5 Tore: 30 %, beide Teams treffen zu 37 %). Gefährlichste Torschützen: bei Metz Pape Fall (2 Tore) und bei Rodez Aveyron Ibrahima Baldé (5 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-09-05T14:00:00+02:00",
-     "home": "Stade de Reims",
-     "away": "Guingamp",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3243.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "S",
-      "U",
-      "U",
-      "S",
-      "S"
-     ],
-     "formAway": [
-      "N",
-      "N",
-      "S",
-      "N",
-      "U"
-     ],
-     "formHomeH": [
-      "S",
-      "U",
-      "S",
-      "U",
-      "S"
-     ],
-     "formAwayA": [
-      "N",
-      "N",
-      "N",
-      "N",
-      "N"
-     ],
-     "load14Home": 2,
-     "load14Away": 1,
-     "posHome": 3,
-     "posAway": 12,
-     "nTeams": 18,
-     "h2h": [
-      {
-       "date": "21.03.2026",
-       "home": "Guingamp",
-       "away": "Reims",
-       "score": "0:2"
-      },
-      {
-       "date": "16.08.2025",
-       "home": "Reims",
-       "away": "Guingamp",
-       "score": "1:0"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.6155,
-      "pDraw": 0.2122,
-      "pAway": 0.1722,
-      "pOver25": 0.5573,
-      "pBtts": 0.5242,
-      "xgHome": 1.98,
-      "xgAway": 0.94,
-      "tipScore": "1:0",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.5242,
-     "odds": {
-      "h": 1.78,
-      "d": 3.66,
-      "a": 4.72,
-      "src": "Pinnacle"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Yaya Fofana",
-       "goals": 2
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "D. Gomis",
-       "goals": 2
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Stade de Reims geht als klarer Favorit (62 %) in das Heimspiel gegen Guingamp. In der Tabelle stehen sich Platz 2 und Platz 11 gegenüber. Die Form spricht für Stade de Reims: 3 Siege aus den letzten 5 Spielen, Guingamp holte nur 1. Heim-/Auswärtsbilanz: Stade de Reims gewann 3 der letzten 5 Heimspiele, Guingamp 0 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:2 (Guingamp – Reims). Das Modell erwartet ein torreiches Spiel (xG 2,0:0,9; über 2,5 Tore: 56 %, beide Teams treffen zu 52 %). Gefährlichste Torschützen: bei Stade de Reims Yaya Fofana (2 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-09-05T20:00:00+02:00",
      "home": "Saint-Étienne",
@@ -7916,10 +7234,6 @@
       {
        "name": "K. Corredor",
        "goals": 2
-      },
-      {
-       "name": "Bahereba Guirassy",
-       "goals": 1
       }
      ],
      "scorersAway": [
@@ -9022,10 +8336,10 @@
       }
      ],
      "prediction": {
-      "pHome": 0.3911,
+      "pHome": 0.391,
       "pDraw": 0.2368,
       "pAway": 0.3721,
-      "pOver25": 0.607,
+      "pOver25": 0.6071,
       "pBtts": 0.6268,
       "xgHome": 1.59,
       "xgAway": 1.55,
@@ -9034,9 +8348,9 @@
      },
      "pBtts": 0.6268,
      "odds": {
-      "h": 2.15,
+      "h": 2.25,
       "d": 3.6,
-      "a": 2.88,
+      "a": 2.7,
       "src": "William Hill"
      },
      "value": null,
@@ -9110,14 +8424,14 @@
       "pHome": 0.2787,
       "pDraw": 0.2638,
       "pAway": 0.4575,
-      "pOver25": 0.4579,
-      "pBtts": 0.5002,
+      "pOver25": 0.458,
+      "pBtts": 0.5003,
       "xgHome": 1.06,
       "xgAway": 1.44,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5002,
+     "pBtts": 0.5003,
      "odds": null,
      "value": null,
      "scorersHome": [],
@@ -9182,7 +8496,7 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4654,
+      "pHome": 0.4653,
       "pDraw": 0.2278,
       "pAway": 0.3068,
       "pOver25": 0.6319,
@@ -9267,9 +8581,9 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4823,
+      "pHome": 0.4824,
       "pDraw": 0.2124,
-      "pAway": 0.3052,
+      "pAway": 0.3051,
       "pOver25": 0.7077,
       "pBtts": 0.697,
       "xgHome": 2.05,
@@ -9391,16 +8705,16 @@
      },
      "pBtts": 0.6857,
      "odds": {
-      "h": 3.2,
-      "d": 3.3,
-      "a": 2.05,
+      "h": 3.5,
+      "d": 3.4,
+      "a": 1.95,
       "src": "William Hill"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.1173,
+      "edge": 0.139,
       "modelP": 0.4005,
-      "odds": 3.2
+      "odds": 3.5
      },
      "scorersHome": [
       {
@@ -9419,7 +8733,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen Royal Charleroi SC und Union St.-Gilloise deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Royal Charleroi SC 40 %, Unentschieden 22 %, Sieg Union St.-Gilloise 38 %). In der Tabelle stehen sich Platz 1 und Platz 4 gegenüber. Die Form spricht für Royal Charleroi SC: 5 Siege aus den letzten 5 Spielen, Union St.-Gilloise holte nur 3. Das letzte Duell (2026) endete 4:1 (Union St. Gilloise – Charleroi). Das Modell erwartet ein torreiches Spiel (xG 1,8:1,7; über 2,5 Tore: 68 %, beide Teams treffen zu 69 %). Gefährlichste Torschützen: bei Royal Charleroi SC K. Van Den Kerkhof (2 Tore) und bei Union St.-Gilloise R. Mofokeng (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,20) für 12 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Zwischen Royal Charleroi SC und Union St.-Gilloise deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Royal Charleroi SC 40 %, Unentschieden 22 %, Sieg Union St.-Gilloise 38 %). In der Tabelle stehen sich Platz 1 und Platz 4 gegenüber. Die Form spricht für Royal Charleroi SC: 5 Siege aus den letzten 5 Spielen, Union St.-Gilloise holte nur 3. Das letzte Duell (2026) endete 4:1 (Union St. Gilloise – Charleroi). Das Modell erwartet ein torreiches Spiel (xG 1,8:1,7; über 2,5 Tore: 68 %, beide Teams treffen zu 69 %). Gefährlichste Torschützen: bei Royal Charleroi SC K. Van Den Kerkhof (2 Tore) und bei Union St.-Gilloise R. Mofokeng (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,50) für 14 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -9490,9 +8804,9 @@
      },
      "pBtts": 0.6015,
      "odds": {
-      "h": 2.05,
+      "h": 2.0,
       "d": 3.3,
-      "a": 3.25,
+      "a": 3.4,
       "src": "William Hill"
      },
      "value": null,
@@ -9632,9 +8946,9 @@
      },
      "pBtts": 0.4851,
      "odds": {
-      "h": 2.1,
-      "d": 3.3,
-      "a": 3.2,
+      "h": 2.05,
+      "d": 3.4,
+      "a": 3.25,
       "src": "William Hill"
      },
      "value": null,
@@ -9962,84 +9276,6 @@
    "espn": "bel.2",
    "matches": [
     {
-     "kickoff": "2026-09-05T13:30:00+02:00",
-     "home": "KAA Gent II",
-     "away": "RSC Anderlecht II",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 4",
-     "formHome": [
-      "S",
-      "S",
-      "N",
-      "N",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "S",
-      "N",
-      "N",
-      "N"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 12,
-     "posAway": 15,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "17.01.2026",
-       "home": "RSC Anderlecht II",
-       "away": "KAA Gent II",
-       "score": "1:2"
-      },
-      {
-       "date": "16.08.2025",
-       "home": "KAA Gent II",
-       "away": "RSC Anderlecht II",
-       "score": "0:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.3819,
-      "pDraw": 0.2384,
-      "pAway": 0.3797,
-      "pOver25": 0.5994,
-      "pBtts": 0.6209,
-      "xgHome": 1.55,
-      "xgAway": 1.55,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.6209,
-     "odds": {
-      "h": 2.05,
-      "d": 3.4,
-      "a": 2.9,
-      "src": "William Hill"
-     },
-     "value": {
-      "outcome": "2",
-      "edge": 0.0737,
-      "modelP": 0.3797,
-      "odds": 2.9
-     },
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Gassimou Sylla",
-       "goals": 0
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen KAA Gent II und RSC Anderlecht II deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg KAA Gent II 38 %, Unentschieden 24 %, Sieg RSC Anderlecht II 38 %). In der Tabelle stehen sich Platz 12 und Platz 15 gegenüber. Das letzte Duell (2026) endete 1:2 (RSC Anderlecht II – KAA Gent II). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,6; über 2,5 Tore: 60 %, beide Teams treffen zu 62 %). Gefährlichste Torschützen: bei RSC Anderlecht II Gassimou Sylla (0 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,90) für 7 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
      "kickoff": "2026-09-05T16:00:00+02:00",
      "home": "Club Brugge II",
      "away": "AS Eupen",
@@ -10107,12 +9343,17 @@
      },
      "pBtts": 0.6671,
      "odds": {
-      "h": 2.9,
-      "d": 3.1,
-      "a": 2.15,
+      "h": 2.8,
+      "d": 3.2,
+      "a": 2.25,
       "src": "William Hill"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.0622,
+      "modelP": 0.4611,
+      "odds": 2.25
+     },
      "scorersHome": [
       {
        "name": "N. Amengai",
@@ -10130,7 +9371,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "AS Eupen ist bei Club Brugge II leicht favorisiert (46 % zu 32 %). In der Tabelle stehen sich Platz 4 und Platz 9 gegenüber. Das letzte Duell (2026) endete 0:1 (Club Brugge II – AS Eupen). Das Modell erwartet ein torreiches Spiel (xG 1,5:1,9; über 2,5 Tore: 67 %, beide Teams treffen zu 67 %). Gefährlichste Torschützen: bei Club Brugge II N. Amengai (1 Tore) und bei AS Eupen Sandro Vidigal (1 Tore).",
+     "analysis": "AS Eupen ist bei Club Brugge II leicht favorisiert (46 % zu 32 %). In der Tabelle stehen sich Platz 4 und Platz 9 gegenüber. Das letzte Duell (2026) endete 0:1 (Club Brugge II – AS Eupen). Das Modell erwartet ein torreiches Spiel (xG 1,5:1,9; über 2,5 Tore: 67 %, beide Teams treffen zu 67 %). Gefährlichste Torschützen: bei Club Brugge II N. Amengai (1 Tore) und bei AS Eupen Sandro Vidigal (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,25) für 6 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -10183,21 +9424,21 @@
      },
      "pBtts": 0.739,
      "odds": {
-      "h": 2.8,
-      "d": 3.6,
+      "h": 2.75,
+      "d": 3.7,
       "a": 2.1,
       "src": "William Hill"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.2009,
+      "edge": 0.1947,
       "modelP": 0.5223,
-      "odds": 2.8
+      "odds": 2.75
      },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": "KRC Genk II ist gegen Sporting Hasselt leicht favorisiert (52 % zu 28 %). In der Tabelle stehen sich Platz 11 und Platz 7 gegenüber. Das letzte Duell (2023) endete 0:2 (Sporting Hasselt – KRC Genk II). Das Modell erwartet ein torreiches Spiel (xG 2,3:1,7; über 2,5 Tore: 77 %, beide Teams treffen zu 74 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,80) für 20 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "KRC Genk II ist gegen Sporting Hasselt leicht favorisiert (52 % zu 28 %). In der Tabelle stehen sich Platz 11 und Platz 7 gegenüber. Das letzte Duell (2023) endete 0:2 (Sporting Hasselt – KRC Genk II). Das Modell erwartet ein torreiches Spiel (xG 2,3:1,7; über 2,5 Tore: 77 %, beide Teams treffen zu 74 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,75) für 19 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -10551,8 +9792,8 @@
      },
      "pBtts": 0.5122,
      "odds": {
-      "h": 4.5,
-      "d": 3.3,
+      "h": 4.6,
+      "d": 3.25,
       "a": 1.8,
       "src": "William Hill"
      },
@@ -10806,9 +10047,9 @@
      },
      "pBtts": 0.3776,
      "odds": {
-      "h": 1.8,
-      "d": 3.3,
-      "a": 4.5,
+      "h": 1.85,
+      "d": 3.2,
+      "a": 4.4,
       "src": "William Hill"
      },
      "value": null,
@@ -10818,12 +10059,7 @@
        "goals": 4
       }
      ],
-     "scorersAway": [
-      {
-       "name": "J. Blesa",
-       "goals": 1
-      }
-     ],
+     "scorersAway": [],
      "scorersPeriod": "Saison",
      "analysis": "Santa Clara ist gegen Rio Ave leicht favorisiert (55 % zu 18 %). In der Tabelle stehen sich Platz 4 und Platz 13 gegenüber. Heim-/Auswärtsbilanz: Santa Clara gewann 3 der letzten 5 Heimspiele, Rio Ave 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:2 (Santa Clara – Rio Ave). Das Modell erwartet eher wenige Tore (xG 1,4:0,7; über 2,5 Tore: 35 %, beide Teams treffen zu 38 %). Gefährlichste Torschützen: bei Santa Clara Gonçalo Paciência (4 Tore).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -12024,18 +11260,18 @@
      "prediction": {
       "pHome": 0.5311,
       "pDraw": 0.2202,
-      "pAway": 0.2486,
-      "pOver25": 0.6236,
-      "pBtts": 0.6167,
+      "pAway": 0.2487,
+      "pOver25": 0.6237,
+      "pBtts": 0.6168,
       "xgHome": 1.95,
       "xgAway": 1.27,
       "tipScore": "1:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.6167,
+     "pBtts": 0.6168,
      "odds": {
       "h": 1.44,
-      "d": 4.6,
+      "d": 4.75,
       "a": 5.0,
       "src": "William Hill"
      },
@@ -12139,17 +11375,12 @@
      },
      "pBtts": 0.6539,
      "odds": {
-      "h": 2.4,
-      "d": 3.5,
-      "a": 2.5,
+      "h": 2.15,
+      "d": 3.6,
+      "a": 2.88,
       "src": "William Hill"
      },
-     "value": {
-      "outcome": "1",
-      "edge": 0.0952,
-      "modelP": 0.4732,
-      "odds": 2.4
-     },
+     "value": null,
      "scorersHome": [
       {
        "name": "Juan Cabrera",
@@ -12166,7 +11397,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "FC Vaduz ist gegen Lausanne leicht favorisiert (48 % zu 30 %). In der Tabelle stehen sich Platz 12 und Platz 8 gegenüber. Das letzte Duell (2023) endete 1:1 (FC Vaduz – Lausanne). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,5; über 2,5 Tore: 65 %, beide Teams treffen zu 65 %). Gefährlichste Torschützen: bei FC Vaduz Juan Cabrera (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,40) für 10 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "FC Vaduz ist gegen Lausanne leicht favorisiert (48 % zu 30 %). In der Tabelle stehen sich Platz 12 und Platz 8 gegenüber. Das letzte Duell (2023) endete 1:1 (FC Vaduz – Lausanne). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,5; über 2,5 Tore: 65 %, beide Teams treffen zu 65 %). Gefährlichste Torschützen: bei FC Vaduz Juan Cabrera (3 Tore).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -12212,13 +11443,13 @@
       "pDraw": 0.2195,
       "pAway": 0.3974,
       "pOver25": 0.6961,
-      "pBtts": 0.6958,
+      "pBtts": 0.6957,
       "xgHome": 1.78,
       "xgAway": 1.81,
       "tipScore": "1:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.6958,
+     "pBtts": 0.6957,
      "odds": {
       "h": 2.6,
       "d": 3.4,
@@ -12292,7 +11523,7 @@
       "pHome": 0.2349,
       "pDraw": 0.2199,
       "pAway": 0.5452,
-      "pOver25": 0.6104,
+      "pOver25": 0.6105,
       "pBtts": 0.6012,
       "xgHome": 1.21,
       "xgAway": 1.95,
@@ -12376,14 +11607,14 @@
       "pHome": 0.6722,
       "pDraw": 0.1865,
       "pAway": 0.1412,
-      "pOver25": 0.613,
-      "pBtts": 0.5388,
+      "pOver25": 0.6131,
+      "pBtts": 0.5389,
       "xgHome": 2.24,
       "xgAway": 0.92,
       "tipScore": "2:0",
       "confidence": "niedrig"
      },
-     "pBtts": 0.5388,
+     "pBtts": 0.5389,
      "odds": {
       "h": 2.6,
       "d": 3.3,
@@ -12452,17 +11683,17 @@
      "nTeams": null,
      "h2h": [],
      "prediction": {
-      "pHome": 0.4549,
-      "pDraw": 0.2571,
-      "pAway": 0.288,
-      "pOver25": 0.4893,
-      "pBtts": 0.5266,
-      "xgHome": 1.5,
+      "pHome": 0.4547,
+      "pDraw": 0.2572,
+      "pAway": 0.2881,
+      "pOver25": 0.4891,
+      "pBtts": 0.5265,
+      "xgHome": 1.49,
       "xgAway": 1.14,
       "tipScore": "1:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.5266,
+     "pBtts": 0.5265,
      "odds": {
       "h": 1.7,
       "d": 3.8,
@@ -12580,8 +11811,8 @@
      },
      "pBtts": 0.5753,
      "odds": {
-      "h": 1.7,
-      "d": 3.7,
+      "h": 1.67,
+      "d": 3.8,
       "a": 4.4,
       "src": "William Hill"
      },
@@ -12775,9 +12006,9 @@
      },
      "pBtts": 0.5574,
      "odds": {
-      "h": 1.5,
-      "d": 4.2,
-      "a": 5.8,
+      "h": 1.44,
+      "d": 4.4,
+      "a": 6.0,
       "src": "William Hill"
      },
      "value": null,
@@ -12913,7 +12144,13 @@
      "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/261.png",
      "matchday": null,
      "roundName": null,
-     "formHome": [],
+     "formHome": [
+      "S",
+      "U",
+      "U",
+      "S",
+      "S"
+     ],
      "formAway": [
       "N",
       "S",
@@ -12934,9 +12171,50 @@
      "posHome": 3,
      "posAway": 5,
      "nTeams": 12,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
+     "h2h": [
+      {
+       "date": "21.03.2026",
+       "home": "Heart Of Midlothian",
+       "away": "Dundee",
+       "score": "1:0"
+      },
+      {
+       "date": "11.01.2026",
+       "home": "Dundee",
+       "away": "Heart Of Midlothian",
+       "score": "0:1"
+      },
+      {
+       "date": "01.11.2025",
+       "home": "Heart Of Midlothian",
+       "away": "Dundee",
+       "score": "4:0"
+      },
+      {
+       "date": "26.04.2025",
+       "home": "Heart Of Midlothian",
+       "away": "Dundee",
+       "score": "0:1"
+      },
+      {
+       "date": "07.03.2025",
+       "home": "Heart Of Midlothian",
+       "away": "Dundee",
+       "score": "3:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4186,
+      "pDraw": 0.2285,
+      "pAway": 0.3529,
+      "pOver25": 0.6461,
+      "pBtts": 0.6559,
+      "xgHome": 1.74,
+      "xgAway": 1.59,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6559,
      "odds": {
       "h": 1.5,
       "d": 4.2,
@@ -12957,8 +12235,8 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Belastung beachten: Dundee (4 Ligaspiele in 14 Tagen) steckt mitten in einer englischen Woche. Gefährlichste Torschützen: bei Heart of Midlothian Joshua McPake (2 Tore) und bei Dundee Joe Westley (2 Tore).",
-     "basis": "Datenbasis: Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "analysis": "Zwischen Heart of Midlothian und Dundee deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Heart of Midlothian 42 %, Unentschieden 23 %, Sieg Dundee 35 %). In der Tabelle stehen sich Platz 3 und Platz 5 gegenüber. Die Form spricht für Heart of Midlothian: 3 Siege aus den letzten 5 Spielen, Dundee holte nur 1. Belastung beachten: Dundee (4 Ligaspiele in 14 Tagen) steckt mitten in einer englischen Woche. Das letzte Duell (2026) endete 1:0 (Heart Of Midlothian – Dundee). Das Modell erwartet ein torreiches Spiel (xG 1,7:1,6; über 2,5 Tore: 65 %, beide Teams treffen zu 66 %). Gefährlichste Torschützen: bei Heart of Midlothian Joshua McPake (2 Tore) und bei Dundee Joe Westley (2 Tore).",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-09-06T16:00:00+02:00",
@@ -13492,7 +12770,7 @@
      "odds": {
       "h": 1.29,
       "d": 6.0,
-      "a": 7.0,
+      "a": 7.5,
       "src": "William Hill"
      },
      "value": null,
@@ -13756,9 +13034,9 @@
      },
      "pBtts": 0.6148,
      "odds": {
-      "h": 1.44,
+      "h": 1.42,
       "d": 5.0,
-      "a": 6.5,
+      "a": 7.0,
       "src": "Bet365"
      },
      "value": null,
@@ -14040,12 +13318,7 @@
       "confidence": "hoch"
      },
      "pBtts": 0.6523,
-     "odds": {
-      "h": 2.15,
-      "d": 3.75,
-      "a": 2.8,
-      "src": "William Hill"
-     },
+     "odds": null,
      "value": null,
      "scorersHome": [],
      "scorersAway": [
@@ -14108,7 +13381,7 @@
        "reason": "Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste. Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-09-06T02:30:00+02:00",
@@ -14596,12 +13869,7 @@
       "confidence": "hoch"
      },
      "pBtts": 0.5937,
-     "odds": {
-      "h": 2.15,
-      "d": 3.8,
-      "a": 2.75,
-      "src": "William Hill"
-     },
+     "odds": null,
      "value": null,
      "scorersHome": [],
      "scorersAway": [
@@ -14664,7 +13932,7 @@
        "reason": "Lower-Body Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste. Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-09-06T04:30:00+02:00",
@@ -14727,12 +13995,7 @@
       "confidence": "hoch"
      },
      "pBtts": 0.5395,
-     "odds": {
-      "h": 1.44,
-      "d": 4.6,
-      "a": 5.0,
-      "src": "William Hill"
-     },
+     "odds": null,
      "value": null,
      "scorersHome": [
       {
@@ -14795,7 +14058,7 @@
        "reason": "Ankle Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste. Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
    "seasonHasStarted": true,
@@ -16056,7 +15319,7 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5555,
+      "pHome": 0.5554,
       "pDraw": 0.2178,
       "pAway": 0.2267,
       "pOver25": 0.6108,
@@ -16149,10 +15412,10 @@
      "nTeams": 16,
      "h2h": [],
      "prediction": {
-      "pHome": 0.6262,
-      "pDraw": 0.1998,
-      "pAway": 0.174,
-      "pOver25": 0.6174,
+      "pHome": 0.6265,
+      "pDraw": 0.1996,
+      "pAway": 0.1738,
+      "pOver25": 0.6176,
       "pBtts": 0.5712,
       "xgHome": 2.15,
       "xgAway": 1.04,
@@ -16161,9 +15424,9 @@
      },
      "pBtts": 0.5712,
      "odds": {
-      "h": 1.73,
-      "d": 4.0,
-      "a": 3.9,
+      "h": 1.7,
+      "d": 3.9,
+      "a": 4.0,
       "src": "William Hill"
      },
      "value": null,
@@ -16292,7 +15555,7 @@
      "prediction": {
       "pHome": 0.6568,
       "pDraw": 0.1863,
-      "pAway": 0.1567,
+      "pAway": 0.1568,
       "pOver25": 0.6486,
       "pBtts": 0.5813,
       "xgHome": 2.3,
@@ -16433,15 +15696,15 @@
      "prediction": {
       "pHome": 0.5051,
       "pDraw": 0.2176,
-      "pAway": 0.2773,
-      "pOver25": 0.6623,
-      "pBtts": 0.6555,
+      "pAway": 0.2772,
+      "pOver25": 0.6622,
+      "pBtts": 0.6554,
       "xgHome": 1.98,
       "xgAway": 1.43,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6555,
+     "pBtts": 0.6554,
      "odds": null,
      "value": null,
      "scorersHome": [],
@@ -16634,272 +15897,6 @@
    "espn": "swe.1",
    "matches": [
     {
-     "kickoff": "2026-09-05T15:00:00+02:00",
-     "home": "Degerfors IF",
-     "away": "Halmstads BK",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/20856.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3017.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "S",
-      "S",
-      "N",
-      "N"
-     ],
-     "formAway": [
-      "N",
-      "N",
-      "N",
-      "U",
-      "S"
-     ],
-     "formHomeH": [
-      "N",
-      "U",
-      "N",
-      "N",
-      "S"
-     ],
-     "formAwayA": [
-      "N",
-      "N",
-      "U",
-      "N",
-      "U"
-     ],
-     "load14Home": 2,
-     "load14Away": 2,
-     "posHome": 14,
-     "posAway": 16,
-     "nTeams": 16,
-     "h2h": [
-      {
-       "date": "12.04.2026",
-       "home": "Halmstads BK",
-       "away": "Degerfors IF",
-       "score": "0:3"
-      },
-      {
-       "date": "20.10.2025",
-       "home": "Degerfors IF",
-       "away": "Halmstads BK",
-       "score": "0:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.4627,
-      "pDraw": 0.3173,
-      "pAway": 0.22,
-      "pOver25": 0.2682,
-      "pBtts": 0.3306,
-      "xgHome": 1.12,
-      "xgAway": 0.67,
-      "tipScore": "1:0",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.3306,
-     "odds": {
-      "h": 1.91,
-      "d": 3.25,
-      "a": 3.8,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Degerfors IF ist gegen Halmstads BK leicht favorisiert (46 % zu 22 %). In der Tabelle stehen sich Platz 14 und Platz 16 gegenüber. Heim-/Auswärtsbilanz: Degerfors IF gewann 1 der letzten 5 Heimspiele, Halmstads BK 0 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:3 (Halmstads BK – Degerfors IF). Das Modell erwartet eher wenige Tore (xG 1,1:0,7; über 2,5 Tore: 27 %, beide Teams treffen zu 33 %). Personal: Degerfors IF fehlen 17 Spieler (u.a. A. Berisson); Halmstads BK fehlen 4 Spieler (u.a. P. Gregor).",
-     "injuriesHome": [
-      {
-       "name": "A. Berisson",
-       "reason": "Inactive"
-      },
-      {
-       "name": "M. Diaby",
-       "reason": "Injury"
-      },
-      {
-       "name": "J. Hernandez",
-       "reason": "Injury"
-      },
-      {
-       "name": "W. Jakobsson",
-       "reason": "Inactive"
-      },
-      {
-       "name": "S. Ohlsson",
-       "reason": "Injury"
-      },
-      {
-       "name": "B. Hussein",
-       "reason": "Inactive"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "P. Gregor",
-       "reason": "Suspended"
-      },
-      {
-       "name": "R. Kaib",
-       "reason": "Yellow Cards"
-      },
-      {
-       "name": "A. Boman",
-       "reason": "Red Card"
-      },
-      {
-       "name": "R. Ascone",
-       "reason": "Yellow Cards"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-09-05T15:00:00+02:00",
-     "home": "GAIS",
-     "away": "BK Häcken",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/8222.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/7834.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "U",
-      "S",
-      "N",
-      "N",
-      "S"
-     ],
-     "formAway": [
-      "U",
-      "N",
-      "S",
-      "S",
-      "N"
-     ],
-     "formHomeH": [
-      "S",
-      "S",
-      "U",
-      "N",
-      "S"
-     ],
-     "formAwayA": [
-      "U",
-      "N",
-      "S",
-      "N",
-      "S"
-     ],
-     "load14Home": 2,
-     "load14Away": 1,
-     "posHome": 9,
-     "posAway": 5,
-     "nTeams": 16,
-     "h2h": [
-      {
-       "date": "19.04.2026",
-       "home": "BK Häcken",
-       "away": "GAIS",
-       "score": "2:1"
-      },
-      {
-       "date": "31.08.2025",
-       "home": "GAIS",
-       "away": "BK Häcken",
-       "score": "2:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.5193,
-      "pDraw": 0.2517,
-      "pAway": 0.2289,
-      "pOver25": 0.468,
-      "pBtts": 0.4909,
-      "xgHome": 1.59,
-      "xgAway": 0.96,
-      "tipScore": "1:0",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.4909,
-     "odds": {
-      "h": 2.25,
-      "d": 3.3,
-      "a": 2.8,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "S. Salter",
-       "goals": 6
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Gustav Lindgren",
-       "goals": 9
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "GAIS ist gegen BK Häcken leicht favorisiert (52 % zu 23 %). In der Tabelle stehen sich Platz 9 und Platz 10 gegenüber. Heim-/Auswärtsbilanz: GAIS gewann 3 der letzten 5 Heimspiele, BK Häcken 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:1 (BK Häcken – GAIS). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:1,0; über 2,5 Tore: 47 %, beide Teams treffen zu 49 %). Gefährlichste Torschützen: bei BK Häcken Gustav Lindgren (9 Tore). Personal: GAIS fehlen 21 Spieler (u.a. F. Beckman); BK Häcken fehlen 17 Spieler (u.a. E. Berisha).",
-     "injuriesHome": [
-      {
-       "name": "F. Beckman",
-       "reason": "Illness"
-      },
-      {
-       "name": "L. Hedlund",
-       "reason": "Inactive"
-      },
-      {
-       "name": "M. Krasniqi",
-       "reason": "Injury"
-      },
-      {
-       "name": "K. Holmen",
-       "reason": "Injury"
-      },
-      {
-       "name": "G. Lundgren",
-       "reason": "Injury"
-      },
-      {
-       "name": "D. Bengtsson",
-       "reason": "Inactive"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "E. Berisha",
-       "reason": "Inactive"
-      },
-      {
-       "name": "S. Kondo",
-       "reason": "Inactive"
-      },
-      {
-       "name": "J. Laursen",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "L. Vaisanen",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "D. Seger",
-       "reason": "Inactive"
-      },
-      {
-       "name": "A. Linde",
-       "reason": "Injury"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
      "kickoff": "2026-09-05T17:30:00+02:00",
      "home": "Västerås SK",
      "away": "IK Sirius",
@@ -16952,18 +15949,18 @@
       "pHome": 0.2668,
       "pDraw": 0.1948,
       "pAway": 0.5381,
-      "pOver25": 0.767,
-      "pBtts": 0.7344,
+      "pOver25": 0.7669,
+      "pBtts": 0.7343,
       "xgHome": 1.66,
       "xgAway": 2.38,
       "tipScore": "1:2",
       "confidence": "hoch"
      },
-     "pBtts": 0.7344,
+     "pBtts": 0.7343,
      "odds": {
       "h": 3.6,
-      "d": 3.8,
-      "a": 1.83,
+      "d": 3.7,
+      "a": 1.85,
       "src": "William Hill"
      },
      "value": null,
@@ -17075,7 +16072,7 @@
       "S",
       "N"
      ],
-     "load14Home": 2,
+     "load14Home": 1,
      "load14Away": 2,
      "posHome": 15,
      "posAway": 2,
@@ -17090,16 +16087,16 @@
      ],
      "prediction": {
       "pHome": 0.0769,
-      "pDraw": 0.1282,
-      "pAway": 0.7941,
-      "pOver25": 0.7095,
-      "pBtts": 0.5223,
+      "pDraw": 0.1283,
+      "pAway": 0.794,
+      "pOver25": 0.7092,
+      "pBtts": 0.5221,
       "xgHome": 0.81,
       "xgAway": 2.87,
       "tipScore": "0:2",
       "confidence": "hoch"
      },
-     "pBtts": 0.5223,
+     "pBtts": 0.5221,
      "odds": {
       "h": 10.0,
       "d": 6.0,
@@ -17235,13 +16232,13 @@
       }
      ],
      "prediction": {
-      "pHome": 0.3748,
+      "pHome": 0.3747,
       "pDraw": 0.2661,
-      "pAway": 0.3591,
+      "pAway": 0.3592,
       "pOver25": 0.4722,
       "pBtts": 0.5217,
       "xgHome": 1.3,
-      "xgAway": 1.26,
+      "xgAway": 1.27,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
@@ -17371,10 +16368,10 @@
       }
      ],
      "prediction": {
-      "pHome": 0.1191,
-      "pDraw": 0.1831,
-      "pAway": 0.6977,
-      "pOver25": 0.5746,
+      "pHome": 0.119,
+      "pDraw": 0.1829,
+      "pAway": 0.698,
+      "pOver25": 0.5748,
       "pBtts": 0.484,
       "xgHome": 0.79,
       "xgAway": 2.21,
@@ -17508,16 +16505,16 @@
      ],
      "prediction": {
       "pHome": 0.4802,
-      "pDraw": 0.2284,
+      "pDraw": 0.2285,
       "pAway": 0.2913,
-      "pOver25": 0.6196,
-      "pBtts": 0.6265,
+      "pOver25": 0.6194,
+      "pBtts": 0.6264,
       "xgHome": 1.82,
       "xgAway": 1.38,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6265,
+     "pBtts": 0.6264,
      "odds": null,
      "value": null,
      "scorersHome": [
@@ -17613,10 +16610,10 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5529,
-      "pDraw": 0.2291,
-      "pAway": 0.2179,
-      "pOver25": 0.5489,
+      "pHome": 0.5526,
+      "pDraw": 0.2292,
+      "pAway": 0.2182,
+      "pOver25": 0.5487,
       "pBtts": 0.5467,
       "xgHome": 1.82,
       "xgAway": 1.06,
@@ -17765,20 +16762,20 @@
       }
      ],
      "prediction": {
-      "pHome": 0.7153,
-      "pDraw": 0.1666,
-      "pAway": 0.1179,
-      "pOver25": 0.6504,
-      "pBtts": 0.5411,
+      "pHome": 0.7154,
+      "pDraw": 0.1665,
+      "pAway": 0.1178,
+      "pOver25": 0.6505,
+      "pBtts": 0.541,
       "xgHome": 2.45,
       "xgAway": 0.9,
       "tipScore": "2:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.5411,
+     "pBtts": 0.541,
      "odds": {
       "h": 1.5,
-      "d": 4.5,
+      "d": 4.4,
       "a": 5.0,
       "src": "William Hill"
      },
@@ -17890,17 +16887,17 @@
      "nTeams": 12,
      "h2h": [],
      "prediction": {
-      "pHome": 0.3681,
+      "pHome": 0.3683,
       "pDraw": 0.2482,
-      "pAway": 0.3836,
-      "pOver25": 0.5517,
-      "pBtts": 0.584,
+      "pAway": 0.3835,
+      "pOver25": 0.5516,
+      "pBtts": 0.5839,
       "xgHome": 1.43,
       "xgAway": 1.46,
       "tipScore": "1:1",
       "confidence": "mittel"
      },
-     "pBtts": 0.584,
+     "pBtts": 0.5839,
      "odds": {
       "h": 2.2,
       "d": 3.2,
@@ -18024,9 +17021,9 @@
       }
      ],
      "prediction": {
-      "pHome": 0.2026,
+      "pHome": 0.2025,
       "pDraw": 0.1917,
-      "pAway": 0.6056,
+      "pAway": 0.6057,
       "pOver25": 0.7053,
       "pBtts": 0.6584,
       "xgHome": 1.3,
@@ -18170,17 +17167,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5675,
-      "pDraw": 0.2557,
-      "pAway": 0.1768,
+      "pHome": 0.5673,
+      "pDraw": 0.2558,
+      "pAway": 0.1769,
       "pOver25": 0.3987,
-      "pBtts": 0.4092,
+      "pBtts": 0.4093,
       "xgHome": 1.55,
       "xgAway": 0.73,
       "tipScore": "1:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.4092,
+     "pBtts": 0.4093,
      "odds": {
       "h": 1.53,
       "d": 4.2,
@@ -18320,17 +17317,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5215,
-      "pDraw": 0.2447,
-      "pAway": 0.2338,
-      "pOver25": 0.5003,
-      "pBtts": 0.5175,
+      "pHome": 0.5218,
+      "pDraw": 0.2446,
+      "pAway": 0.2336,
+      "pOver25": 0.5006,
+      "pBtts": 0.5176,
       "xgHome": 1.65,
       "xgAway": 1.02,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5175,
+     "pBtts": 0.5176,
      "odds": {
       "h": 2.0,
       "d": 3.5,
@@ -18523,19 +17520,19 @@
     "name": "Amanda Anisimova",
     "rank": 10,
     "form": [
-     "N",
      "S",
+     "N",
      "S",
      "S",
      "N"
     ],
-    "elo": 1909,
+    "elo": 1986,
     "rankYearAgo": 9,
-    "oppElo": 1875,
+    "oppElo": 1970,
     "onSurface": {
-     "w": 76,
-     "l": 41,
-     "pct": 0.65
+     "w": 59,
+     "l": 33,
+     "pct": 0.641
     },
     "favSurface": "Rasen",
     "last7": 2,
@@ -18545,36 +17542,36 @@
     "name": "Anastasia Potapova",
     "rank": 25,
     "form": [
-     "S",
      "N",
      "S",
-     "N",
+     "S",
+     "S",
      "N"
     ],
-    "elo": 1695,
+    "elo": 1710,
     "rankYearAgo": 59,
-    "oppElo": 1642,
+    "oppElo": 1760,
     "onSurface": {
-     "w": 71,
-     "l": 62,
-     "pct": 0.534
+     "w": 63,
+     "l": 53,
+     "pct": 0.543
     },
     "favSurface": "Sand",
     "last7": 2,
     "sets7": 5
    },
-   "pP1": 0.7741,
+   "pP1": 0.8304,
    "model": {
-    "n1": 176,
-    "n2": 215,
-    "elo1": 1909,
-    "elo2": 1695,
-    "pElo": 0.7741,
+    "n1": 145,
+    "n2": 176,
+    "elo1": 1986,
+    "elo2": 1710,
+    "pElo": 0.8304,
     "pRank": 0.6854,
     "wElo": 1.0
    },
    "h2h": [],
-   "analysis": "Amanda Anisimova (Weltrangliste #10) trifft auf Anastasia Potapova (#25). Anastasia Potapova befindet sich im Aufwind: vor rund einem Jahr noch um Platz 59, inzwischen #25. Wichtiger Formkontext: Amanda Anisimova spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1875 vs. 1642). Auf Hartplatz liegt die Siegquote von Amanda Anisimova zuletzt bei 65 % (76:41), Anastasia Potapova kommt auf 53 % (71:62). Amanda Anisimovas stärkster Belag ist eigentlich Rasen. Anastasia Potapovas stärkster Belag ist eigentlich Sand. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Amanda Anisimova mit 77 % vorn.",
+   "analysis": "Amanda Anisimova (Weltrangliste #10) trifft auf Anastasia Potapova (#25). Anastasia Potapova befindet sich im Aufwind: vor rund einem Jahr noch um Platz 59, inzwischen #25. Wichtiger Formkontext: Amanda Anisimova spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1970 vs. 1760). Auf Hartplatz liegt die Siegquote von Amanda Anisimova zuletzt bei 64 % (59:33), Anastasia Potapova kommt auf 54 % (63:53). Amanda Anisimovas stärkster Belag ist eigentlich Rasen. Anastasia Potapovas stärkster Belag ist eigentlich Sand. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Amanda Anisimova mit 83 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
@@ -18606,19 +17603,19 @@
     "name": "Madison Keys",
     "rank": 24,
     "form": [
+     "S",
      "N",
-     "S",
-     "S",
-     "S",
+     "N",
+     "N",
      "N"
     ],
     "elo": null,
     "rankYearAgo": 6,
-    "oppElo": 1755,
+    "oppElo": 1849,
     "onSurface": {
-     "w": 82,
-     "l": 48,
-     "pct": 0.631
+     "w": 70,
+     "l": 40,
+     "pct": 0.636
     },
     "favSurface": "Rasen",
     "last7": 2,
@@ -18627,11 +17624,11 @@
    "pP1": 0.2018,
    "model": {
     "n1": 0,
-    "n2": 222,
+    "n2": 180,
     "pRank": 0.2018
    },
    "h2h": [],
-   "analysis": "Zheng Qinwen (Weltrangliste #121) trifft auf Madison Keys (#24). Madison Keys hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 6 auf #24). Auf Hartplatz liegt die Siegquote von Madison Keys zuletzt bei 63 % (82:48). Madison Keyss stärkster Belag ist eigentlich Rasen. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Madison Keys mit 80 % vorn.",
+   "analysis": "Zheng Qinwen (Weltrangliste #121) trifft auf Madison Keys (#24). Madison Keys hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 6 auf #24). Auf Hartplatz liegt die Siegquote von Madison Keys zuletzt bei 64 % (70:40). Madison Keyss stärkster Belag ist eigentlich Rasen. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Madison Keys mit 80 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -18702,13 +17699,13 @@
      "N",
      "N"
     ],
-    "elo": 1697,
-    "rankYearAgo": 21,
-    "oppElo": 1649,
+    "elo": 1688,
+    "rankYearAgo": null,
+    "oppElo": 1644,
     "onSurface": {
-     "w": 41,
+     "w": 38,
      "l": 41,
-     "pct": 0.5
+     "pct": 0.481
     },
     "favSurface": "Sand",
     "last7": 2,
@@ -18724,25 +17721,25 @@
      "S",
      "N"
     ],
-    "elo": 1859,
-    "rankYearAgo": 4,
-    "oppElo": 1722,
+    "elo": 1872,
+    "rankYearAgo": null,
+    "oppElo": 1728,
     "onSurface": {
-     "w": 100,
-     "l": 47,
-     "pct": 0.68
+     "w": 105,
+     "l": 45,
+     "pct": 0.7
     },
     "favSurface": "Rasen",
     "last7": 2,
     "sets7": 6
    },
-   "pP1": 0.2355,
+   "pP1": 0.2079,
    "model": {
-    "n1": 202,
-    "n2": 235,
-    "elo1": 1697,
-    "elo2": 1859,
-    "pElo": 0.282,
+    "n1": 203,
+    "n2": 239,
+    "elo1": 1688,
+    "elo2": 1872,
+    "pElo": 0.2575,
     "pRank": 0.3146,
     "wElo": 1.0,
     "bo5": true
@@ -18756,9 +17753,18 @@
      "winnerIsP1": false,
      "score": "6:1 3:6 6:3",
      "rnd": "Quarterfinals"
+    },
+    {
+     "year": "2023",
+     "tourney": "French Open",
+     "surface": "Sand",
+     "winner": "Francisco Cerundolo",
+     "winnerIsP1": true,
+     "score": "3:6 6:3 6:4 7:5",
+     "rnd": "3rd Round"
     }
    ],
-   "analysis": "Francisco Cerundolo (Weltrangliste #25) trifft auf Taylor Fritz (#10). Die aktuelle Form spricht für Taylor Fritz: 3 Siege aus den letzten 5 Matches, Francisco Cerundolo holte nur 1. Wichtiger Formkontext: Taylor Fritz spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1722 vs. 1649). Auf Hartplatz liegt die Siegquote von Francisco Cerundolo zuletzt bei 50 % (41:41), Taylor Fritz kommt auf 68 % (100:47). Francisco Cerundolos stärkster Belag ist eigentlich Sand. Taylor Fritzs stärkster Belag ist eigentlich Rasen. Das bisher einzige Duell (2024, Mutua Madrid Open) gewann Taylor Fritz mit 6:1 3:6 6:3. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Taylor Fritz mit 76 % vorn. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet.",
+   "analysis": "Francisco Cerundolo (Weltrangliste #25) trifft auf Taylor Fritz (#10). Die aktuelle Form spricht für Taylor Fritz: 3 Siege aus den letzten 5 Matches, Francisco Cerundolo holte nur 1. Wichtiger Formkontext: Taylor Fritz spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1728 vs. 1644). Auf Hartplatz liegt die Siegquote von Francisco Cerundolo zuletzt bei 48 % (38:41), Taylor Fritz kommt auf 70 % (105:45). Francisco Cerundolos stärkster Belag ist eigentlich Sand. Taylor Fritzs stärkster Belag ist eigentlich Rasen. Der direkte Vergleich der letzten 2 Duelle ist mit 1:1 ausgeglichen. Zuletzt (2024, Mutua Madrid Open) gewann Taylor Fritz mit 6:1 3:6 6:3. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Taylor Fritz mit 79 % vorn. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet.",
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
@@ -18784,13 +17790,13 @@
      "S",
      "N"
     ],
-    "elo": 1758,
-    "rankYearAgo": 25,
-    "oppElo": 1787,
+    "elo": 1778,
+    "rankYearAgo": null,
+    "oppElo": 1783,
     "onSurface": {
-     "w": 42,
-     "l": 41,
-     "pct": 0.506
+     "w": 34,
+     "l": 25,
+     "pct": 0.576
     },
     "favSurface": "Sand",
     "last7": 2,
@@ -18806,25 +17812,25 @@
      "S",
      "N"
     ],
-    "elo": 1596,
-    "rankYearAgo": 119,
-    "oppElo": 1684,
+    "elo": 1585,
+    "rankYearAgo": null,
+    "oppElo": 1665,
     "onSurface": {
-     "w": 4,
-     "l": 8,
-     "pct": 0.333
+     "w": 2,
+     "l": 5,
+     "pct": 0.286
     },
     "favSurface": "Sand",
     "last7": 2,
     "sets7": 7
    },
-   "pP1": 0.7644,
+   "pP1": 0.804,
    "model": {
-    "n1": 164,
-    "n2": 33,
-    "elo1": 1758,
-    "elo2": 1596,
-    "pElo": 0.7179,
+    "n1": 119,
+    "n2": 27,
+    "elo1": 1778,
+    "elo2": 1585,
+    "pElo": 0.7533,
     "pRank": 0.8137,
     "wElo": 1.0,
     "bo5": true
@@ -18849,7 +17855,7 @@
      "rnd": "2nd Round"
     }
    ],
-   "analysis": "Flavio Cobolli (Weltrangliste #6) trifft auf Alexander Blockx (#34). Flavio Cobolli befindet sich im Aufwind: vor rund einem Jahr noch um Platz 25, inzwischen #6. Alexander Blockx befindet sich im Aufwind: vor rund einem Jahr noch um Platz 119, inzwischen #34. Die aktuelle Form spricht für Flavio Cobolli: 4 Siege aus den letzten 5 Matches, Alexander Blockx holte nur 2. Wichtiger Formkontext: Flavio Cobolli spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1787 vs. 1684). Auf Hartplatz liegt die Siegquote von Flavio Cobolli zuletzt bei 51 % (42:41), Alexander Blockx kommt auf 33 % (4:8). Flavio Cobollis stärkster Belag ist eigentlich Sand. Alexander Blockxs stärkster Belag ist eigentlich Sand. Der direkte Vergleich der letzten 2 Duelle ist mit 1:1 ausgeglichen. Zuletzt (2026, Western & Southern Financial Group Masters) gewann Flavio Cobolli mit 7:5 4:6 7:5. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Flavio Cobolli mit 76 % vorn. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet. Quoten-Hinweis: Das Modell hält Flavio Cobolli (Quote 1,96) für 26 Prozentpunkte wahrscheinlicher als der Markt.",
+   "analysis": "Flavio Cobolli (Weltrangliste #6) trifft auf Alexander Blockx (#34). Die aktuelle Form spricht für Flavio Cobolli: 4 Siege aus den letzten 5 Matches, Alexander Blockx holte nur 2. Wichtiger Formkontext: Flavio Cobolli spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1783 vs. 1665). Auf Hartplatz liegt die Siegquote von Flavio Cobolli zuletzt bei 58 % (34:25), Alexander Blockx kommt auf 29 % (2:5). Flavio Cobollis stärkster Belag ist eigentlich Sand. Alexander Blockxs stärkster Belag ist eigentlich Sand. Der direkte Vergleich der letzten 2 Duelle ist mit 1:1 ausgeglichen. Zuletzt (2026, Western & Southern Financial Group Masters) gewann Flavio Cobolli mit 7:5 4:6 7:5. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Flavio Cobolli mit 80 % vorn. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet. Quoten-Hinweis: Das Modell hält Flavio Cobolli (Quote 1,96) für 30 Prozentpunkte wahrscheinlicher als der Markt.",
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
@@ -18860,8 +17866,8 @@
    "value": {
     "name": "Flavio Cobolli",
     "odds": 1.96,
-    "edge": 0.2569,
-    "modelP": 0.7644
+    "edge": 0.2965,
+    "modelP": 0.804
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
@@ -18950,19 +17956,19 @@
     "name": "Nikola Bartunkova",
     "rank": 34,
     "form": [
+     "S",
+     "S",
      "N",
-     "S",
-     "S",
-     "S",
+     "N",
      "N"
     ],
-    "elo": 1702,
+    "elo": 1482,
     "rankYearAgo": 228,
-    "oppElo": 1611,
+    "oppElo": 1623,
     "onSurface": {
-     "w": 16,
-     "l": 11,
-     "pct": 0.593
+     "w": 4,
+     "l": 4,
+     "pct": 0.5
     },
     "favSurface": "Hartplatz",
     "last7": 2,
@@ -18973,35 +17979,35 @@
     "rank": 5,
     "form": [
      "S",
+     "S",
      "N",
-     "S",
-     "S",
+     "N",
      "N"
     ],
-    "elo": 1886,
+    "elo": 1825,
     "rankYearAgo": 5,
-    "oppElo": 1714,
+    "oppElo": 1639,
     "onSurface": {
-     "w": 66,
-     "l": 31,
-     "pct": 0.68
+     "w": 48,
+     "l": 23,
+     "pct": 0.676
     },
     "favSurface": "Sand",
     "last7": 2,
     "sets7": 4
    },
-   "pP1": 0.2579,
+   "pP1": 0.1449,
    "model": {
-    "n1": 39,
-    "n2": 181,
-    "elo1": 1702,
-    "elo2": 1886,
-    "pElo": 0.2579,
+    "n1": 9,
+    "n2": 128,
+    "elo1": 1482,
+    "elo2": 1825,
+    "pElo": 0.1217,
     "pRank": 0.1639,
-    "wElo": 1.0
+    "wElo": 0.45
    },
    "h2h": [],
-   "analysis": "Nikola Bartunkova (Weltrangliste #34) trifft auf Mirra Andreeva (#5). Nikola Bartunkova befindet sich im Aufwind: vor rund einem Jahr noch um Platz 228, inzwischen #34. Wichtiger Formkontext: Mirra Andreeva spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1714 vs. 1611). Auf Hartplatz liegt die Siegquote von Nikola Bartunkova zuletzt bei 59 % (16:11), Mirra Andreeva kommt auf 68 % (66:31). Mirra Andreevas stärkster Belag ist eigentlich Sand. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Mirra Andreeva mit 74 % vorn.",
+   "analysis": "Nikola Bartunkova (Weltrangliste #34) trifft auf Mirra Andreeva (#5). Nikola Bartunkova befindet sich im Aufwind: vor rund einem Jahr noch um Platz 228, inzwischen #34. Auf Hartplatz liegt die Siegquote von Nikola Bartunkova zuletzt bei 50 % (4:4), Mirra Andreeva kommt auf 68 % (48:23). Mirra Andreevas stärkster Belag ist eigentlich Sand. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Mirra Andreeva mit 86 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
@@ -19022,18 +18028,18 @@
     "rank": 26,
     "form": [
      "N",
-     "N",
      "S",
+     "N",
      "S",
      "N"
     ],
-    "elo": 1701,
+    "elo": 1700,
     "rankYearAgo": 52,
-    "oppElo": 1735,
+    "oppElo": 1717,
     "onSurface": {
-     "w": 82,
-     "l": 63,
-     "pct": 0.566
+     "w": 73,
+     "l": 52,
+     "pct": 0.584
     },
     "favSurface": "Sand",
     "last7": 2,
@@ -19044,43 +18050,34 @@
     "rank": 8,
     "form": [
      "S",
+     "N",
      "S",
-     "S",
-     "S",
+     "N",
      "N"
     ],
     "elo": 2010,
     "rankYearAgo": 2,
-    "oppElo": 1785,
+    "oppElo": 1931,
     "onSurface": {
-     "w": 165,
-     "l": 36,
-     "pct": 0.821
+     "w": 146,
+     "l": 31,
+     "pct": 0.825
     },
     "favSurface": "Sand",
     "last7": 2,
     "sets7": 4
    },
-   "pP1": 0.1442,
+   "pP1": 0.1433,
    "model": {
-    "n1": 220,
-    "n2": 321,
-    "elo1": 1701,
+    "n1": 176,
+    "n2": 280,
+    "elo1": 1700,
     "elo2": 2010,
-    "pElo": 0.1442,
+    "pElo": 0.1433,
     "pRank": 0.2686,
     "wElo": 1.0
    },
    "h2h": [
-    {
-     "year": "2026",
-     "tourney": "Australian Open",
-     "surface": "Hartplatz",
-     "winner": "Iga Swiatek",
-     "winnerIsP1": false,
-     "score": "6:2 6:3",
-     "rnd": "2nd Round"
-    },
     {
      "year": "2025",
      "tourney": "Wuhan Open",
@@ -19100,7 +18097,7 @@
      "rnd": "3rd Round"
     }
    ],
-   "analysis": "Marie Bouzkova (Weltrangliste #26) trifft auf Iga Swiatek (#8). Marie Bouzkova befindet sich im Aufwind: vor rund einem Jahr noch um Platz 52, inzwischen #26. Die aktuelle Form spricht für Iga Swiatek: 4 Siege aus den letzten 5 Matches, Marie Bouzkova holte nur 2. Auf Hartplatz liegt die Siegquote von Marie Bouzkova zuletzt bei 57 % (82:63), Iga Swiatek kommt auf 82 % (165:36). Marie Bouzkovas stärkster Belag ist eigentlich Sand. Iga Swiateks stärkster Belag ist eigentlich Sand. Den direkten Vergleich führt Iga Swiatek mit 3:0 aus den letzten 3 Duellen an. Zuletzt (2026, Australian Open) gewann Iga Swiatek mit 6:2 6:3. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Iga Swiatek mit 86 % vorn.",
+   "analysis": "Marie Bouzkova (Weltrangliste #26) trifft auf Iga Swiatek (#8). Marie Bouzkova befindet sich im Aufwind: vor rund einem Jahr noch um Platz 52, inzwischen #26. Wichtiger Formkontext: Iga Swiatek spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1931 vs. 1717). Auf Hartplatz liegt die Siegquote von Marie Bouzkova zuletzt bei 58 % (73:52), Iga Swiatek kommt auf 82 % (146:31). Marie Bouzkovas stärkster Belag ist eigentlich Sand. Iga Swiateks stärkster Belag ist eigentlich Sand. Den direkten Vergleich führt Iga Swiatek mit 2:0 aus den letzten 2 Duellen an. Zuletzt (2025, Wuhan Open) gewann Iga Swiatek mit 6:1 6:1. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Iga Swiatek mit 86 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
@@ -19222,17 +18219,17 @@
     "form": [
      "S",
      "S",
+     "N",
      "S",
-     "S",
-     "S"
+     "N"
     ],
-    "elo": 2019,
+    "elo": 1972,
     "rankYearAgo": 3,
-    "oppElo": 1839,
+    "oppElo": 1947,
     "onSurface": {
-     "w": 147,
-     "l": 52,
-     "pct": 0.739
+     "w": 124,
+     "l": 46,
+     "pct": 0.729
     },
     "favSurface": "Sand",
     "last7": 2,
@@ -19244,29 +18241,29 @@
     "form": [
      "N",
      "S",
-     "N",
+     "S",
      "S",
      "N"
     ],
-    "elo": 1537,
+    "elo": 1615,
     "rankYearAgo": 95,
-    "oppElo": 1552,
+    "oppElo": 1698,
     "onSurface": {
-     "w": 39,
-     "l": 53,
-     "pct": 0.424
+     "w": 30,
+     "l": 42,
+     "pct": 0.417
     },
     "favSurface": "Hartplatz",
     "last7": 2,
     "sets7": 6
    },
-   "pP1": 0.9414,
+   "pP1": 0.8867,
    "model": {
-    "n1": 302,
-    "n2": 135,
-    "elo1": 2019,
-    "elo2": 1537,
-    "pElo": 0.9414,
+    "n1": 253,
+    "n2": 111,
+    "elo1": 1972,
+    "elo2": 1615,
+    "pElo": 0.8867,
     "pRank": 0.8762,
     "wElo": 1.0
    },
@@ -19281,7 +18278,7 @@
      "rnd": "2nd Round"
     }
    ],
-   "analysis": "Coco Gauff (Weltrangliste #4) trifft auf Cristina Bucsa (#40). Cristina Bucsa befindet sich im Aufwind: vor rund einem Jahr noch um Platz 95, inzwischen #40. Die aktuelle Form spricht für Coco Gauff: 5 Siege aus den letzten 5 Matches, Cristina Bucsa holte nur 2. Wichtiger Formkontext: Coco Gauff spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1839 vs. 1552). Auf Hartplatz liegt die Siegquote von Coco Gauff zuletzt bei 74 % (147:52), Cristina Bucsa kommt auf 42 % (39:53). Coco Gauffs stärkster Belag ist eigentlich Sand. Das bisher einzige Duell (2023, BNP Paribas Open) gewann Coco Gauff mit 6:2 6:4. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Coco Gauff mit 94 % vorn.",
+   "analysis": "Coco Gauff (Weltrangliste #4) trifft auf Cristina Bucsa (#40). Cristina Bucsa befindet sich im Aufwind: vor rund einem Jahr noch um Platz 95, inzwischen #40. Wichtiger Formkontext: Coco Gauff spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1947 vs. 1698). Auf Hartplatz liegt die Siegquote von Coco Gauff zuletzt bei 73 % (124:46), Cristina Bucsa kommt auf 42 % (30:42). Coco Gauffs stärkster Belag ist eigentlich Sand. Das bisher einzige Duell (2023, BNP Paribas Open) gewann Coco Gauff mit 6:2 6:4. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Coco Gauff mit 89 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
@@ -19307,13 +18304,13 @@
      "S",
      "N"
     ],
-    "elo": 1638,
-    "rankYearAgo": 47,
-    "oppElo": 1647,
+    "elo": 1627,
+    "rankYearAgo": null,
+    "oppElo": 1648,
     "onSurface": {
-     "w": 33,
-     "l": 38,
-     "pct": 0.465
+     "w": 34,
+     "l": 34,
+     "pct": 0.5
     },
     "favSurface": "Rasen",
     "last7": 2,
@@ -19329,25 +18326,25 @@
      "N",
      "N"
     ],
-    "elo": 1590,
-    "rankYearAgo": 10,
-    "oppElo": 1649,
+    "elo": 1619,
+    "rankYearAgo": null,
+    "oppElo": 1656,
     "onSurface": {
-     "w": 73,
-     "l": 56,
-     "pct": 0.566
+     "w": 82,
+     "l": 54,
+     "pct": 0.603
     },
-    "favSurface": "Rasen",
+    "favSurface": "Sand",
     "last7": 2,
     "sets7": 7
    },
-   "pP1": 0.5856,
+   "pP1": 0.5147,
    "model": {
-    "n1": 104,
-    "n2": 210,
-    "elo1": 1638,
-    "elo2": 1590,
-    "pElo": 0.5687,
+    "n1": 100,
+    "n2": 206,
+    "elo1": 1627,
+    "elo2": 1619,
+    "pElo": 0.5118,
     "pRank": 0.3628,
     "wElo": 1.0,
     "bo5": true
@@ -19363,7 +18360,7 @@
      "rnd": "2nd Round"
     }
    ],
-   "analysis": "Benjamin Bonzi (Weltrangliste #97) trifft auf Karen Khachanov (#50). Benjamin Bonzi hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 47 auf #97). Karen Khachanov hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 10 auf #50). Die aktuelle Form spricht für Benjamin Bonzi: 4 Siege aus den letzten 5 Matches, Karen Khachanov holte nur 1. Auf Hartplatz liegt die Siegquote von Benjamin Bonzi zuletzt bei 46 % (33:38), Karen Khachanov kommt auf 57 % (73:56). Benjamin Bonzis stärkster Belag ist eigentlich Rasen. Karen Khachanovs stärkster Belag ist eigentlich Rasen. Das bisher einzige Duell (2022, Australian Open) gewann Karen Khachanov mit 6:4 6:0 7:5. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Benjamin Bonzi mit 59 % vorn. Bemerkenswert: Die Weltrangliste würde eher Karen Khachanov favorisieren – die Formkurve spricht aber dagegen. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet. Quoten-Hinweis: Das Modell hält Benjamin Bonzi (Quote 2,61) für 23 Prozentpunkte wahrscheinlicher als der Markt.",
+   "analysis": "Benjamin Bonzi (Weltrangliste #97) trifft auf Karen Khachanov (#50). Die aktuelle Form spricht für Benjamin Bonzi: 4 Siege aus den letzten 5 Matches, Karen Khachanov holte nur 1. Auf Hartplatz liegt die Siegquote von Benjamin Bonzi zuletzt bei 50 % (34:34), Karen Khachanov kommt auf 60 % (82:54). Benjamin Bonzis stärkster Belag ist eigentlich Rasen. Karen Khachanovs stärkster Belag ist eigentlich Sand. Das bisher einzige Duell (2022, Australian Open) gewann Karen Khachanov mit 6:4 6:0 7:5. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Benjamin Bonzi mit 51 % vorn. Bemerkenswert: Die Weltrangliste würde eher Karen Khachanov favorisieren – die Formkurve spricht aber dagegen. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet. Quoten-Hinweis: Das Modell hält Benjamin Bonzi (Quote 2,61) für 15 Prozentpunkte wahrscheinlicher als der Markt.",
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
@@ -19374,8 +18371,8 @@
    "value": {
     "name": "Benjamin Bonzi",
     "odds": 2.61,
-    "edge": 0.2253,
-    "modelP": 0.5856
+    "edge": 0.1544,
+    "modelP": 0.5147
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
@@ -19395,11 +18392,15 @@
      "N",
      "N"
     ],
-    "elo": 1456,
+    "elo": 1460,
     "rankYearAgo": null,
-    "oppElo": 1653,
-    "onSurface": null,
-    "favSurface": null,
+    "oppElo": 1663,
+    "onSurface": {
+     "w": 2,
+     "l": 5,
+     "pct": 0.286
+    },
+    "favSurface": "Hartplatz",
     "last7": 2,
     "sets7": 7
    },
@@ -19414,30 +18415,30 @@
      "N"
     ],
     "elo": 1611,
-    "rankYearAgo": 30,
-    "oppElo": 1662,
+    "rankYearAgo": null,
+    "oppElo": 1664,
     "onSurface": {
-     "w": 16,
-     "l": 35,
-     "pct": 0.314
+     "w": 10,
+     "l": 21,
+     "pct": 0.323
     },
     "favSurface": "Sand",
     "last7": 2,
     "sets7": 8
    },
-   "pP1": 0.1609,
+   "pP1": 0.1791,
    "model": {
-    "n1": 5,
-    "n2": 157,
-    "elo1": 1456,
+    "n1": 8,
+    "n2": 104,
+    "elo1": 1460,
     "elo2": 1611,
-    "pElo": 0.2915,
+    "pElo": 0.2959,
     "pRank": 0.188,
-    "wElo": 0.25,
+    "wElo": 0.4,
     "bo5": true
    },
    "h2h": [],
-   "analysis": "Dane Sweeny (Weltrangliste #123) trifft auf Luciano Darderi (#22). Auf Hartplatz liegt die Siegquote von Luciano Darderi zuletzt bei 31 % (16:35). Luciano Darderis stärkster Belag ist eigentlich Sand. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Luciano Darderi mit 84 % vorn. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet.",
+   "analysis": "Dane Sweeny (Weltrangliste #123) trifft auf Luciano Darderi (#22). Auf Hartplatz liegt die Siegquote von Dane Sweeny zuletzt bei 29 % (2:5), Luciano Darderi kommt auf 32 % (10:21). Luciano Darderis stärkster Belag ist eigentlich Sand. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Luciano Darderi mit 82 % vorn. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet.",
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
@@ -19463,13 +18464,13 @@
      "S",
      "S"
     ],
-    "elo": 1752,
+    "elo": 1787,
     "rankYearAgo": null,
-    "oppElo": 1591,
+    "oppElo": 1598,
     "onSurface": {
      "w": 8,
-     "l": 3,
-     "pct": 0.727
+     "l": 2,
+     "pct": 0.8
     },
     "favSurface": "Hartplatz",
     "last7": 2,
@@ -19485,9 +18486,9 @@
      "S",
      "N"
     ],
-    "elo": 1579,
+    "elo": 1575,
     "rankYearAgo": null,
-    "oppElo": 1673,
+    "oppElo": 1675,
     "onSurface": {
      "w": 4,
      "l": 6,
@@ -19497,15 +18498,15 @@
     "last7": 2,
     "sets7": 7
    },
-   "pP1": 0.7029,
+   "pP1": 0.7213,
    "model": {
-    "n1": 13,
+    "n1": 12,
     "n2": 14,
-    "elo1": 1752,
-    "elo2": 1579,
-    "pElo": 0.7302,
+    "elo1": 1787,
+    "elo2": 1575,
+    "pElo": 0.7718,
     "pRank": 0.5439,
-    "wElo": 0.65,
+    "wElo": 0.6,
     "bo5": true
    },
    "h2h": [
@@ -19519,7 +18520,7 @@
      "rnd": "2nd Round"
     }
    ],
-   "analysis": "Arthur Gea (Weltrangliste #87) trifft auf Michael Zheng (#107). Die aktuelle Form spricht für Arthur Gea: 5 Siege aus den letzten 5 Matches, Michael Zheng holte nur 2. Wichtiger Formkontext: Michael Zheng spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1673 vs. 1591). Auf Hartplatz liegt die Siegquote von Arthur Gea zuletzt bei 73 % (8:3), Michael Zheng kommt auf 40 % (4:6). Das bisher einzige Duell (2026, Los Cabos Open) gewann Arthur Gea mit 0:6 6:4 6:0. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Arthur Gea mit 70 % vorn. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet. Quoten-Hinweis: Das Modell hält Arthur Gea (Quote 2,2) für 27 Prozentpunkte wahrscheinlicher als der Markt.",
+   "analysis": "Arthur Gea (Weltrangliste #87) trifft auf Michael Zheng (#107). Die aktuelle Form spricht für Arthur Gea: 5 Siege aus den letzten 5 Matches, Michael Zheng holte nur 2. Wichtiger Formkontext: Michael Zheng spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1675 vs. 1598). Auf Hartplatz liegt die Siegquote von Arthur Gea zuletzt bei 80 % (8:2), Michael Zheng kommt auf 40 % (4:6). Das bisher einzige Duell (2026, Los Cabos Open) gewann Arthur Gea mit 0:6 6:4 6:0. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Arthur Gea mit 72 % vorn. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet. Quoten-Hinweis: Das Modell hält Arthur Gea (Quote 2,2) für 29 Prozentpunkte wahrscheinlicher als der Markt.",
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
@@ -19530,8 +18531,8 @@
    "value": {
     "name": "Arthur Gea",
     "odds": 2.2,
-    "edge": 0.2714,
-    "modelP": 0.7029
+    "edge": 0.2898,
+    "modelP": 0.7213
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
@@ -19776,13 +18777,13 @@
      "S",
      "N"
     ],
-    "elo": 1656,
-    "rankYearAgo": 83,
-    "oppElo": 1652,
+    "elo": 1663,
+    "rankYearAgo": null,
+    "oppElo": 1644,
     "onSurface": {
-     "w": 48,
-     "l": 53,
-     "pct": 0.475
+     "w": 53,
+     "l": 55,
+     "pct": 0.491
     },
     "favSurface": "Sand",
     "last7": 2,
@@ -19798,31 +18799,31 @@
      "N",
      "N"
     ],
-    "elo": 1630,
-    "rankYearAgo": 46,
-    "oppElo": 1764,
+    "elo": 1609,
+    "rankYearAgo": null,
+    "oppElo": 1766,
     "onSurface": {
-     "w": 36,
-     "l": 36,
-     "pct": 0.5
+     "w": 14,
+     "l": 23,
+     "pct": 0.378
     },
     "favSurface": "Rasen",
     "last7": 2,
     "sets7": 8
    },
-   "pP1": 0.5463,
+   "pP1": 0.5957,
    "model": {
-    "n1": 173,
-    "n2": 115,
-    "elo1": 1656,
-    "elo2": 1630,
-    "pElo": 0.5371,
+    "n1": 181,
+    "n2": 71,
+    "elo1": 1663,
+    "elo2": 1609,
+    "pElo": 0.5768,
     "pRank": 0.3677,
     "wElo": 1.0,
     "bo5": true
    },
    "h2h": [],
-   "analysis": "Botic Van De Zandschulp (Weltrangliste #70) trifft auf Zizou Bergs (#37). Die aktuelle Form spricht für Botic Van De Zandschulp: 3 Siege aus den letzten 5 Matches, Zizou Bergs holte nur 1. Wichtiger Formkontext: Zizou Bergs spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1764 vs. 1652). Auf Hartplatz liegt die Siegquote von Botic Van De Zandschulp zuletzt bei 48 % (48:53), Zizou Bergs kommt auf 50 % (36:36). Botic Van De Zandschulps stärkster Belag ist eigentlich Sand. Zizou Bergss stärkster Belag ist eigentlich Rasen. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Botic Van De Zandschulp mit 55 % vorn. Bemerkenswert: Die Weltrangliste würde eher Zizou Bergs favorisieren – die Formkurve spricht aber dagegen. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet. Quoten-Hinweis: Das Modell hält Zizou Bergs (Quote 2,73) für 11 Prozentpunkte wahrscheinlicher als der Markt.",
+   "analysis": "Botic Van De Zandschulp (Weltrangliste #70) trifft auf Zizou Bergs (#37). Die aktuelle Form spricht für Botic Van De Zandschulp: 3 Siege aus den letzten 5 Matches, Zizou Bergs holte nur 1. Wichtiger Formkontext: Zizou Bergs spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1766 vs. 1644). Auf Hartplatz liegt die Siegquote von Botic Van De Zandschulp zuletzt bei 49 % (53:55), Zizou Bergs kommt auf 38 % (14:23). Botic Van De Zandschulps stärkster Belag ist eigentlich Sand. Zizou Bergss stärkster Belag ist eigentlich Rasen. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Botic Van De Zandschulp mit 60 % vorn. Bemerkenswert: Die Weltrangliste würde eher Zizou Bergs favorisieren – die Formkurve spricht aber dagegen. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet. Quoten-Hinweis: Das Modell hält Zizou Bergs (Quote 2,73) für 6 Prozentpunkte wahrscheinlicher als der Markt.",
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
@@ -19833,8 +18834,8 @@
    "value": {
     "name": "Zizou Bergs",
     "odds": 2.73,
-    "edge": 0.1068,
-    "modelP": 0.4537
+    "edge": 0.0574,
+    "modelP": 0.4043
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
@@ -19873,19 +18874,19 @@
     "name": "Elena Rybakina",
     "rank": 2,
     "form": [
-     "N",
      "S",
      "S",
      "S",
-     "N"
+     "S",
+     "S"
     ],
-    "elo": 2030,
+    "elo": 2040,
     "rankYearAgo": 10,
-    "oppElo": 1843,
+    "oppElo": 1980,
     "onSurface": {
-     "w": 147,
-     "l": 56,
-     "pct": 0.724
+     "w": 118,
+     "l": 49,
+     "pct": 0.707
     },
     "favSurface": "Sand",
     "last7": 2,
@@ -19898,43 +18899,33 @@
      "N",
      "N",
      "S",
-     "S",
+     "N",
      "N"
     ],
-    "elo": 1525,
+    "elo": 1445,
     "rankYearAgo": 86,
-    "oppElo": 1635,
+    "oppElo": 1620,
     "onSurface": {
-     "w": 13,
-     "l": 25,
-     "pct": 0.342
+     "w": 9,
+     "l": 18,
+     "pct": 0.333
     },
     "favSurface": "Sand",
     "last7": 2,
     "sets7": 5
    },
-   "pP1": 0.9484,
+   "pP1": 0.9686,
    "model": {
-    "n1": 296,
-    "n2": 70,
-    "elo1": 2030,
-    "elo2": 1525,
-    "pElo": 0.9484,
+    "n1": 241,
+    "n2": 41,
+    "elo1": 2040,
+    "elo2": 1445,
+    "pElo": 0.9686,
     "pRank": 0.9459,
     "wElo": 1.0
    },
-   "h2h": [
-    {
-     "year": "2026",
-     "tourney": "French Open",
-     "surface": "Sand",
-     "winner": "Yuliia Starodubtseva",
-     "winnerIsP1": false,
-     "score": "3:6 6:1 7:6",
-     "rnd": "2nd Round"
-    }
-   ],
-   "analysis": "Elena Rybakina (Weltrangliste #2) trifft auf Yuliia Starodubtseva (#58). Wichtiger Formkontext: Elena Rybakina spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1843 vs. 1635). Auf Hartplatz liegt die Siegquote von Elena Rybakina zuletzt bei 72 % (147:56), Yuliia Starodubtseva kommt auf 34 % (13:25). Elena Rybakinas stärkster Belag ist eigentlich Sand. Yuliia Starodubtsevas stärkster Belag ist eigentlich Sand. Das bisher einzige Duell (2026, French Open) gewann Yuliia Starodubtseva mit 3:6 6:1 7:6. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Elena Rybakina mit 95 % vorn.",
+   "h2h": [],
+   "analysis": "Elena Rybakina (Weltrangliste #2) trifft auf Yuliia Starodubtseva (#58). Die aktuelle Form spricht für Elena Rybakina: 5 Siege aus den letzten 5 Matches, Yuliia Starodubtseva holte nur 1. Wichtiger Formkontext: Elena Rybakina spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1980 vs. 1620). Auf Hartplatz liegt die Siegquote von Elena Rybakina zuletzt bei 71 % (118:49), Yuliia Starodubtseva kommt auf 33 % (9:18). Elena Rybakinas stärkster Belag ist eigentlich Sand. Yuliia Starodubtsevas stärkster Belag ist eigentlich Sand. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Elena Rybakina mit 97 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
@@ -19980,20 +18971,20 @@
     "rank": 20,
     "form": [
      "N",
-     "S",
+     "N",
      "S",
      "S",
      "N"
     ],
-    "elo": 1730,
+    "elo": 1728,
     "rankYearAgo": 22,
-    "oppElo": 1671,
+    "oppElo": 1690,
     "onSurface": {
-     "w": 91,
-     "l": 67,
-     "pct": 0.576
+     "w": 79,
+     "l": 59,
+     "pct": 0.572
     },
-    "favSurface": "Rasen",
+    "favSurface": "Hartplatz",
     "last7": 2,
     "sets7": 4
    },
@@ -20003,51 +18994,33 @@
     "form": [
      "N",
      "S",
+     "N",
      "S",
-     "S",
-     "N"
+     "S"
     ],
-    "elo": 1917,
+    "elo": 1850,
     "rankYearAgo": 24,
-    "oppElo": 1788,
+    "oppElo": 1687,
     "onSurface": {
-     "w": 60,
-     "l": 33,
-     "pct": 0.645
+     "w": 51,
+     "l": 28,
+     "pct": 0.646
     },
-    "favSurface": "Rasen",
+    "favSurface": "Hartplatz",
     "last7": 2,
     "sets7": 5
    },
-   "pP1": 0.2541,
+   "pP1": 0.3314,
    "model": {
-    "n1": 243,
-    "n2": 137,
-    "elo1": 1730,
-    "elo2": 1917,
-    "pElo": 0.2541,
+    "n1": 203,
+    "n2": 104,
+    "elo1": 1728,
+    "elo2": 1850,
+    "pElo": 0.3314,
     "pRank": 0.4095,
     "wElo": 1.0
    },
    "h2h": [
-    {
-     "year": "2026",
-     "tourney": "Canadian Open",
-     "surface": "Hartplatz",
-     "winner": "Naomi Osaka",
-     "winnerIsP1": false,
-     "score": "6:1 6:2",
-     "rnd": "3rd Round"
-    },
-    {
-     "year": "2026",
-     "tourney": "Bad Homburg Open",
-     "surface": "Rasen",
-     "winner": "Naomi Osaka",
-     "winnerIsP1": false,
-     "score": "6:3 6:3",
-     "rnd": "2nd Round"
-    },
     {
      "year": "2024",
      "tourney": "Canadian Open",
@@ -20076,7 +19049,7 @@
      "rnd": "3rd Round"
     }
    ],
-   "analysis": "Elise Mertens (Weltrangliste #20) trifft auf Naomi Osaka (#13). Wichtiger Formkontext: Naomi Osaka spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1788 vs. 1671). Auf Hartplatz liegt die Siegquote von Elise Mertens zuletzt bei 58 % (91:67), Naomi Osaka kommt auf 64 % (60:33). Elise Mertenss stärkster Belag ist eigentlich Rasen. Naomi Osakas stärkster Belag ist eigentlich Rasen. Den direkten Vergleich führt Naomi Osaka mit 3:2 aus den letzten 5 Duellen an. Zuletzt (2026, Canadian Open) gewann Naomi Osaka mit 6:1 6:2. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Naomi Osaka mit 75 % vorn.",
+   "analysis": "Elise Mertens (Weltrangliste #20) trifft auf Naomi Osaka (#13). Auf Hartplatz liegt die Siegquote von Elise Mertens zuletzt bei 57 % (79:59), Naomi Osaka kommt auf 65 % (51:28). Den direkten Vergleich führt Elise Mertens mit 2:1 aus den letzten 3 Duellen an. Zuletzt (2024, Canadian Open) gewann Elise Mertens mit 6:3 6:4. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Naomi Osaka mit 67 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
@@ -20096,19 +19069,19 @@
     "name": "Alexandra Eala",
     "rank": 18,
     "form": [
-     "S",
-     "S",
+     "N",
+     "N",
      "N",
      "S",
      "N"
     ],
-    "elo": 1852,
+    "elo": 1546,
     "rankYearAgo": 61,
-    "oppElo": 1753,
+    "oppElo": 1704,
     "onSurface": {
-     "w": 29,
-     "l": 27,
-     "pct": 0.518
+     "w": 9,
+     "l": 18,
+     "pct": 0.333
     },
     "favSurface": "Rasen",
     "last7": 2,
@@ -20118,55 +19091,36 @@
     "name": "Iva Jovic",
     "rank": 14,
     "form": [
-     "N",
+     "S",
      "S",
      "N",
      "S",
      "N"
     ],
-    "elo": 1772,
+    "elo": 1714,
     "rankYearAgo": 73,
-    "oppElo": 1750,
+    "oppElo": 1631,
     "onSurface": {
-     "w": 30,
-     "l": 17,
-     "pct": 0.638
+     "w": 13,
+     "l": 8,
+     "pct": 0.619
     },
-    "favSurface": "Rasen",
+    "favSurface": "Hartplatz",
     "last7": 2,
     "sets7": 4
    },
-   "pP1": 0.6137,
+   "pP1": 0.2764,
    "model": {
-    "n1": 90,
-    "n2": 73,
-    "elo1": 1852,
-    "elo2": 1772,
-    "pElo": 0.6137,
+    "n1": 40,
+    "n2": 26,
+    "elo1": 1546,
+    "elo2": 1714,
+    "pElo": 0.2764,
     "pRank": 0.4468,
     "wElo": 1.0
    },
-   "h2h": [
-    {
-     "year": "2026",
-     "tourney": "Queen's Club Championships",
-     "surface": "Rasen",
-     "winner": "Iva Jovic",
-     "winnerIsP1": false,
-     "score": "6:2 6:2",
-     "rnd": "2nd Round"
-    },
-    {
-     "year": "2026",
-     "tourney": "French Open",
-     "surface": "Sand",
-     "winner": "Iva Jovic",
-     "winnerIsP1": false,
-     "score": "6:4 6:2",
-     "rnd": "1st Round"
-    }
-   ],
-   "analysis": "Alexandra Eala (Weltrangliste #18) trifft auf Iva Jovic (#14). Alexandra Eala befindet sich im Aufwind: vor rund einem Jahr noch um Platz 61, inzwischen #18. Iva Jovic befindet sich im Aufwind: vor rund einem Jahr noch um Platz 73, inzwischen #14. Auf Hartplatz liegt die Siegquote von Alexandra Eala zuletzt bei 52 % (29:27), Iva Jovic kommt auf 64 % (30:17). Alexandra Ealas stärkster Belag ist eigentlich Rasen. Iva Jovics stärkster Belag ist eigentlich Rasen. Den direkten Vergleich führt Iva Jovic mit 2:0 aus den letzten 2 Duellen an. Zuletzt (2026, Queen's Club Championships) gewann Iva Jovic mit 6:2 6:2. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Alexandra Eala mit 61 % vorn. Bemerkenswert: Die Weltrangliste würde eher Iva Jovic favorisieren – die Formkurve spricht aber dagegen. Quoten-Hinweis: Das Modell hält Alexandra Eala (Quote 2,0) für 14 Prozentpunkte wahrscheinlicher als der Markt.",
+   "h2h": [],
+   "analysis": "Alexandra Eala (Weltrangliste #18) trifft auf Iva Jovic (#14). Alexandra Eala befindet sich im Aufwind: vor rund einem Jahr noch um Platz 61, inzwischen #18. Iva Jovic befindet sich im Aufwind: vor rund einem Jahr noch um Platz 73, inzwischen #14. Die aktuelle Form spricht für Iva Jovic: 3 Siege aus den letzten 5 Matches, Alexandra Eala holte nur 1. Wichtiger Formkontext: Alexandra Eala spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1704 vs. 1631). Auf Hartplatz liegt die Siegquote von Alexandra Eala zuletzt bei 33 % (9:18), Iva Jovic kommt auf 62 % (13:8). Alexandra Ealas stärkster Belag ist eigentlich Rasen. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Iva Jovic mit 72 % vorn. Quoten-Hinweis: Das Modell hält Iva Jovic (Quote 1,8) für 20 Prozentpunkte wahrscheinlicher als der Markt.",
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
@@ -20175,10 +19129,10 @@
     "src": "888sport"
    },
    "value": {
-    "name": "Alexandra Eala",
-    "odds": 2.0,
-    "edge": 0.14,
-    "modelP": 0.6137
+    "name": "Iva Jovic",
+    "odds": 1.8,
+    "edge": 0.1973,
+    "modelP": 0.7236
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
@@ -20198,13 +19152,13 @@
      "S",
      "N"
     ],
-    "elo": 1621,
-    "rankYearAgo": 112,
+    "elo": 1635,
+    "rankYearAgo": null,
     "oppElo": 1788,
     "onSurface": {
-     "w": 33,
-     "l": 34,
-     "pct": 0.493
+     "w": 27,
+     "l": 25,
+     "pct": 0.519
     },
     "favSurface": "Sand",
     "last7": 2,
@@ -20220,39 +19174,30 @@
      "S",
      "N"
     ],
-    "elo": 1949,
-    "rankYearAgo": 3,
-    "oppElo": 1806,
+    "elo": 1964,
+    "rankYearAgo": null,
+    "oppElo": 1803,
     "onSurface": {
-     "w": 91,
-     "l": 35,
-     "pct": 0.722
+     "w": 90,
+     "l": 37,
+     "pct": 0.709
     },
     "favSurface": "Sand",
     "last7": 2,
     "sets7": 10
    },
-   "pP1": 0.0811,
+   "pP1": 0.0804,
    "model": {
-    "n1": 151,
-    "n2": 246,
-    "elo1": 1621,
-    "elo2": 1949,
-    "pElo": 0.1316,
+    "n1": 129,
+    "n2": 248,
+    "elo1": 1635,
+    "elo2": 1964,
+    "pElo": 0.1308,
     "pRank": 0.0959,
     "wElo": 1.0,
     "bo5": true
    },
    "h2h": [
-    {
-     "year": "2025",
-     "tourney": "US Open",
-     "surface": "Hartplatz",
-     "winner": "Alexander Zverev",
-     "winnerIsP1": false,
-     "score": "6:2 7:6 6:4",
-     "rnd": "1st Round"
-    },
     {
      "year": "2024",
      "tourney": "Internazionali BNL d'Italia",
@@ -20263,7 +19208,7 @@
      "rnd": "Semifinals"
     }
    ],
-   "analysis": "Alejandro Tabilo (Weltrangliste #28) trifft auf Alexander Zverev (#2). Alejandro Tabilo befindet sich im Aufwind: vor rund einem Jahr noch um Platz 112, inzwischen #28. Auf Hartplatz liegt die Siegquote von Alejandro Tabilo zuletzt bei 49 % (33:34), Alexander Zverev kommt auf 72 % (91:35). Alejandro Tabilos stärkster Belag ist eigentlich Sand. Alexander Zverevs stärkster Belag ist eigentlich Sand. Den direkten Vergleich führt Alexander Zverev mit 2:0 aus den letzten 2 Duellen an. Zuletzt (2025, US Open) gewann Alexander Zverev mit 6:2 7:6 6:4. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Alexander Zverev mit 92 % vorn. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet.",
+   "analysis": "Alejandro Tabilo (Weltrangliste #28) trifft auf Alexander Zverev (#2). Auf Hartplatz liegt die Siegquote von Alejandro Tabilo zuletzt bei 52 % (27:25), Alexander Zverev kommt auf 71 % (90:37). Alejandro Tabilos stärkster Belag ist eigentlich Sand. Alexander Zverevs stärkster Belag ist eigentlich Sand. Das bisher einzige Duell (2024, Internazionali BNL d'Italia) gewann Alexander Zverev mit 1:6 7:6 6:2. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Alexander Zverev mit 92 % vorn. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet.",
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
@@ -20289,15 +19234,15 @@
      "S",
      "N"
     ],
-    "elo": 1793,
-    "rankYearAgo": 54,
+    "elo": 1769,
+    "rankYearAgo": null,
     "oppElo": 1766,
     "onSurface": {
-     "w": 45,
-     "l": 26,
-     "pct": 0.634
+     "w": 18,
+     "l": 13,
+     "pct": 0.581
     },
-    "favSurface": "Hartplatz",
+    "favSurface": "Sand",
     "last7": 2,
     "sets7": 6
    },
@@ -20311,37 +19256,43 @@
      "S",
      "N"
     ],
-    "elo": 1769,
-    "rankYearAgo": 19,
-    "oppElo": 1686,
+    "elo": 1787,
+    "rankYearAgo": null,
+    "oppElo": 1687,
     "onSurface": {
-     "w": 56,
-     "l": 28,
-     "pct": 0.667
+     "w": 37,
+     "l": 17,
+     "pct": 0.685
     },
     "favSurface": "Hartplatz",
     "last7": 2,
     "sets7": 7
    },
-   "pP1": 0.5416,
+   "pP1": 0.4676,
    "model": {
-    "n1": 102,
-    "n2": 127,
-    "elo1": 1793,
-    "elo2": 1769,
-    "pElo": 0.5333,
+    "n1": 48,
+    "n2": 82,
+    "elo1": 1769,
+    "elo2": 1787,
+    "pElo": 0.4741,
     "pRank": 0.5387,
     "wElo": 1.0,
     "bo5": true
    },
    "h2h": [],
-   "analysis": "Learner Tien (Weltrangliste #15) trifft auf Jakub Mensik (#18). Learner Tien befindet sich im Aufwind: vor rund einem Jahr noch um Platz 54, inzwischen #15. Wichtiger Formkontext: Learner Tien spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1766 vs. 1686). Auf Hartplatz liegt die Siegquote von Learner Tien zuletzt bei 63 % (45:26), Jakub Mensik kommt auf 67 % (56:28). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Learner Tien mit 54 % vorn. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet.",
+   "analysis": "Learner Tien (Weltrangliste #15) trifft auf Jakub Mensik (#18). Wichtiger Formkontext: Learner Tien spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1766 vs. 1687). Auf Hartplatz liegt die Siegquote von Learner Tien zuletzt bei 58 % (18:13), Jakub Mensik kommt auf 68 % (37:17). Learner Tiens stärkster Belag ist eigentlich Sand. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Jakub Mensik mit 53 % vorn. Bemerkenswert: Die Weltrangliste würde eher Learner Tien favorisieren – die Formkurve spricht aber dagegen. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet. Quoten-Hinweis: Das Modell hält Jakub Mensik (Quote 2,1) für 8 Prozentpunkte wahrscheinlicher als der Markt.",
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
     "p1": 1.73,
     "p2": 2.1,
     "src": "William Hill"
+   },
+   "value": {
+    "name": "Jakub Mensik",
+    "odds": 2.1,
+    "edge": 0.0807,
+    "modelP": 0.5324
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
@@ -20374,12 +19325,12 @@
      "N"
     ],
     "elo": null,
-    "rankYearAgo": 32,
-    "oppElo": 1699,
+    "rankYearAgo": null,
+    "oppElo": 1691,
     "onSurface": {
-     "w": 57,
-     "l": 45,
-     "pct": 0.559
+     "w": 43,
+     "l": 31,
+     "pct": 0.581
     },
     "favSurface": "Hartplatz",
     "last7": 3,
@@ -20388,12 +19339,12 @@
    "pP1": 0.5953,
    "model": {
     "n1": 0,
-    "n2": 150,
+    "n2": 112,
     "pRank": 0.5765,
     "bo5": true
    },
    "h2h": [],
-   "analysis": "Tomas Martin Etcheverry (Weltrangliste #32) trifft auf Alex Michelsen (#46). Auf Hartplatz liegt die Siegquote von Alex Michelsen zuletzt bei 56 % (57:45). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Tomas Martin Etcheverry mit 60 % vorn. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet.",
+   "analysis": "Tomas Martin Etcheverry (Weltrangliste #32) trifft auf Alex Michelsen (#46). Auf Hartplatz liegt die Siegquote von Alex Michelsen zuletzt bei 58 % (43:31). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Tomas Martin Etcheverry mit 60 % vorn. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -20414,13 +19365,13 @@
      "S",
      "N"
     ],
-    "elo": 1665,
-    "rankYearAgo": 28,
-    "oppElo": 1639,
+    "elo": 1698,
+    "rankYearAgo": null,
+    "oppElo": 1617,
     "onSurface": {
-     "w": 71,
-     "l": 48,
-     "pct": 0.597
+     "w": 83,
+     "l": 53,
+     "pct": 0.61
     },
     "favSurface": "Sand",
     "last7": 3,
@@ -20436,31 +19387,41 @@
      "S",
      "N"
     ],
-    "elo": 1845,
-    "rankYearAgo": 6,
+    "elo": 1833,
+    "rankYearAgo": null,
     "oppElo": 1760,
     "onSurface": {
-     "w": 78,
-     "l": 40,
-     "pct": 0.661
+     "w": 72,
+     "l": 39,
+     "pct": 0.649
     },
     "favSurface": "Hartplatz",
     "last7": 3,
     "sets7": 12
    },
-   "pP1": 0.2127,
+   "pP1": 0.2724,
    "model": {
-    "n1": 213,
-    "n2": 181,
-    "elo1": 1665,
-    "elo2": 1845,
-    "pElo": 0.2618,
+    "n1": 244,
+    "n2": 166,
+    "elo1": 1698,
+    "elo2": 1833,
+    "pElo": 0.314,
     "pRank": 0.1814,
     "wElo": 1.0,
     "bo5": true
    },
-   "h2h": [],
-   "analysis": "Stefanos Tsitsipas (Weltrangliste #53) trifft auf Ben Shelton (#9). Stefanos Tsitsipas hat über die letzten zwölf Monate deutlich an Boden verloren (von etwa Platz 28 auf #53). Die aktuelle Form spricht für Ben Shelton: 4 Siege aus den letzten 5 Matches, Stefanos Tsitsipas holte nur 2. Wichtiger Formkontext: Ben Shelton spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1760 vs. 1639). Auf Hartplatz liegt die Siegquote von Stefanos Tsitsipas zuletzt bei 60 % (71:48), Ben Shelton kommt auf 66 % (78:40). Stefanos Tsitsipass stärkster Belag ist eigentlich Sand. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Ben Shelton mit 79 % vorn. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet.",
+   "h2h": [
+    {
+     "year": "2023",
+     "tourney": "Western & Southern Financial Group Masters",
+     "surface": "Hartplatz",
+     "winner": "Stefanos Tsitsipas",
+     "winnerIsP1": true,
+     "score": "7:6 7:6",
+     "rnd": "2nd Round"
+    }
+   ],
+   "analysis": "Stefanos Tsitsipas (Weltrangliste #53) trifft auf Ben Shelton (#9). Die aktuelle Form spricht für Ben Shelton: 4 Siege aus den letzten 5 Matches, Stefanos Tsitsipas holte nur 2. Wichtiger Formkontext: Ben Shelton spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1760 vs. 1617). Auf Hartplatz liegt die Siegquote von Stefanos Tsitsipas zuletzt bei 61 % (83:53), Ben Shelton kommt auf 65 % (72:39). Stefanos Tsitsipass stärkster Belag ist eigentlich Sand. Das bisher einzige Duell (2023, Western & Southern Financial Group Masters) gewann Stefanos Tsitsipas mit 7:6 7:6. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Ben Shelton mit 73 % vorn. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -20481,13 +19442,13 @@
      "N",
      "S"
     ],
-    "elo": 2153,
-    "rankYearAgo": 2,
-    "oppElo": 1765,
+    "elo": 2066,
+    "rankYearAgo": null,
+    "oppElo": 1738,
     "onSurface": {
-     "w": 104,
-     "l": 23,
-     "pct": 0.819
+     "w": 95,
+     "l": 26,
+     "pct": 0.785
     },
     "favSurface": "Rasen",
     "last7": 3,
@@ -20503,25 +19464,25 @@
      "S",
      "N"
     ],
-    "elo": 1795,
-    "rankYearAgo": 14,
-    "oppElo": 1764,
+    "elo": 1788,
+    "rankYearAgo": null,
+    "oppElo": 1765,
     "onSurface": {
-     "w": 86,
-     "l": 47,
-     "pct": 0.647
+     "w": 101,
+     "l": 54,
+     "pct": 0.652
     },
     "favSurface": "Rasen",
     "last7": 3,
     "sets7": 13
    },
-   "pP1": 0.9347,
+   "pP1": 0.8851,
    "model": {
-    "n1": 226,
-    "n2": 215,
-    "elo1": 2153,
-    "elo2": 1795,
-    "pElo": 0.8869,
+    "n1": 225,
+    "n2": 238,
+    "elo1": 2066,
+    "elo2": 1788,
+    "pElo": 0.8318,
     "pRank": 0.8394,
     "wElo": 1.0,
     "bo5": true
@@ -20537,15 +19498,6 @@
      "rnd": "4th Round"
     },
     {
-     "year": "2025",
-     "tourney": "French Open",
-     "surface": "Sand",
-     "winner": "Carlos Alcaraz",
-     "winnerIsP1": true,
-     "score": "6:0 6:1 6:4",
-     "rnd": "Quarterfinals"
-    },
-    {
      "year": "2024",
      "tourney": "Wimbledon",
      "surface": "Rasen",
@@ -20555,16 +19507,34 @@
      "rnd": "Quarterfinals"
     },
     {
-     "year": "2022",
+     "year": "2023",
+     "tourney": "Western & Southern Financial Group Masters",
+     "surface": "Hartplatz",
+     "winner": "Carlos Alcaraz",
+     "winnerIsP1": true,
+     "score": "7:6 6:7 6:3",
+     "rnd": "3rd Round"
+    },
+    {
+     "year": "2023",
      "tourney": "Canadian Open",
      "surface": "Hartplatz",
      "winner": "Tommy Paul",
      "winnerIsP1": false,
-     "score": "6:7 7:6 6:3",
-     "rnd": "2nd Round"
+     "score": "6:3 4:6 6:3",
+     "rnd": "Quarterfinals"
+    },
+    {
+     "year": "2023",
+     "tourney": "Miami Open",
+     "surface": "Hartplatz",
+     "winner": "Carlos Alcaraz",
+     "winnerIsP1": true,
+     "score": "6:4 6:4",
+     "rnd": "4th Round"
     }
    ],
-   "analysis": "Carlos Alcaraz (Weltrangliste #3) trifft auf Tommy Paul (#21). Auf Hartplatz liegt die Siegquote von Carlos Alcaraz zuletzt bei 82 % (104:23), Tommy Paul kommt auf 65 % (86:47). Carlos Alcarazs stärkster Belag ist eigentlich Rasen. Tommy Pauls stärkster Belag ist eigentlich Rasen. Den direkten Vergleich führt Carlos Alcaraz mit 3:1 aus den letzten 4 Duellen an. Zuletzt (2026, Australian Open) gewann Carlos Alcaraz mit 7:6 6:4 7:5. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Carlos Alcaraz mit 93 % vorn. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet. Quoten-Hinweis: Das Modell hält Carlos Alcaraz (Quote 1,29) für 20 Prozentpunkte wahrscheinlicher als der Markt.",
+   "analysis": "Carlos Alcaraz (Weltrangliste #3) trifft auf Tommy Paul (#21). Auf Hartplatz liegt die Siegquote von Carlos Alcaraz zuletzt bei 78 % (95:26), Tommy Paul kommt auf 65 % (101:54). Carlos Alcarazs stärkster Belag ist eigentlich Rasen. Tommy Pauls stärkster Belag ist eigentlich Rasen. Den direkten Vergleich führt Carlos Alcaraz mit 4:1 aus den letzten 5 Duellen an. Zuletzt (2026, Australian Open) gewann Carlos Alcaraz mit 7:6 6:4 7:5. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Carlos Alcaraz mit 89 % vorn. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet. Quoten-Hinweis: Das Modell hält Carlos Alcaraz (Quote 1,29) für 15 Prozentpunkte wahrscheinlicher als der Markt.",
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
@@ -20575,8 +19545,8 @@
    "value": {
     "name": "Carlos Alcaraz",
     "odds": 1.29,
-    "edge": 0.1985,
-    "modelP": 0.9347
+    "edge": 0.1489,
+    "modelP": 0.8851
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
@@ -20596,13 +19566,13 @@
      "S",
      "N"
     ],
-    "elo": 1813,
-    "rankYearAgo": 29,
-    "oppElo": 1842,
+    "elo": 1804,
+    "rankYearAgo": null,
+    "oppElo": 1821,
     "onSurface": {
-     "w": 82,
-     "l": 53,
-     "pct": 0.607
+     "w": 87,
+     "l": 54,
+     "pct": 0.617
     },
     "favSurface": "Rasen",
     "last7": 3,
@@ -20618,25 +19588,25 @@
      "N",
      "N"
     ],
-    "elo": 1791,
-    "rankYearAgo": 18,
+    "elo": 1831,
+    "rankYearAgo": null,
     "oppElo": 1635,
     "onSurface": {
-     "w": 112,
-     "l": 49,
-     "pct": 0.696
+     "w": 131,
+     "l": 45,
+     "pct": 0.744
     },
     "favSurface": "Hartplatz",
     "last7": 3,
     "sets7": 9
    },
-   "pP1": 0.5396,
+   "pP1": 0.4514,
    "model": {
-    "n1": 214,
-    "n2": 232,
-    "elo1": 1813,
-    "elo2": 1791,
-    "pElo": 0.5317,
+    "n1": 220,
+    "n2": 252,
+    "elo1": 1804,
+    "elo2": 1831,
+    "pElo": 0.4611,
     "pRank": 0.4147,
     "wElo": 1.0,
     "bo5": true
@@ -20650,9 +19620,18 @@
      "winnerIsP1": false,
      "score": "6:3 6:2",
      "rnd": "2nd Round"
+    },
+    {
+     "year": "2023",
+     "tourney": "BNP Paribas Open",
+     "surface": "Hartplatz",
+     "winner": "Daniil Medvedev",
+     "winnerIsP1": false,
+     "score": "7:5 7:6",
+     "rnd": "Semifinals"
     }
    ],
-   "analysis": "Frances Tiafoe (Weltrangliste #12) trifft auf Daniil Medvedev (#8). Frances Tiafoe befindet sich im Aufwind: vor rund einem Jahr noch um Platz 29, inzwischen #12. Die aktuelle Form spricht für Frances Tiafoe: 4 Siege aus den letzten 5 Matches, Daniil Medvedev holte nur 1. Wichtiger Formkontext: Frances Tiafoe spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1842 vs. 1635). Auf Hartplatz liegt die Siegquote von Frances Tiafoe zuletzt bei 61 % (82:53), Daniil Medvedev kommt auf 70 % (112:49). Frances Tiafoes stärkster Belag ist eigentlich Rasen. Das bisher einzige Duell (2026, Brisbane International) gewann Daniil Medvedev mit 6:3 6:2. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Frances Tiafoe mit 54 % vorn. Bemerkenswert: Die Weltrangliste würde eher Daniil Medvedev favorisieren – die Formkurve spricht aber dagegen. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet.",
+   "analysis": "Frances Tiafoe (Weltrangliste #12) trifft auf Daniil Medvedev (#8). Die aktuelle Form spricht für Frances Tiafoe: 4 Siege aus den letzten 5 Matches, Daniil Medvedev holte nur 1. Wichtiger Formkontext: Frances Tiafoe spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1821 vs. 1635). Auf Hartplatz liegt die Siegquote von Frances Tiafoe zuletzt bei 62 % (87:54), Daniil Medvedev kommt auf 74 % (131:45). Frances Tiafoes stärkster Belag ist eigentlich Rasen. Den direkten Vergleich führt Daniil Medvedev mit 2:0 aus den letzten 2 Duellen an. Zuletzt (2026, Brisbane International) gewann Daniil Medvedev mit 6:3 6:2. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Daniil Medvedev mit 55 % vorn. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -20892,19 +19871,19 @@
     "name": "Taylor Townsend",
     "rank": 96,
     "form": [
-     "S",
-     "S",
      "N",
+     "S",
+     "S",
      "S",
      "N"
     ],
-    "elo": 1745,
+    "elo": 1738,
     "rankYearAgo": 139,
-    "oppElo": 1787,
+    "oppElo": 1708,
     "onSurface": {
-     "w": 38,
-     "l": 30,
-     "pct": 0.559
+     "w": 29,
+     "l": 24,
+     "pct": 0.547
     },
     "favSurface": "Hartplatz",
     "last7": 3,
@@ -20915,35 +19894,35 @@
     "rank": 1,
     "form": [
      "S",
-     "N",
+     "S",
      "S",
      "S",
      "N"
     ],
-    "elo": 2092,
+    "elo": 2094,
     "rankYearAgo": 1,
-    "oppElo": 1682,
+    "oppElo": 1969,
     "onSurface": {
-     "w": 163,
-     "l": 43,
-     "pct": 0.791
+     "w": 136,
+     "l": 40,
+     "pct": 0.773
     },
-    "favSurface": "Hartplatz",
+    "favSurface": "Sand",
     "last7": 3,
     "sets7": 6
    },
-   "pP1": 0.1198,
+   "pP1": 0.1141,
    "model": {
-    "n1": 89,
-    "n2": 317,
-    "elo1": 1745,
-    "elo2": 2092,
-    "pElo": 0.1198,
+    "n1": 68,
+    "n2": 269,
+    "elo1": 1738,
+    "elo2": 2094,
+    "pElo": 0.1141,
     "pRank": 0.0202,
     "wElo": 1.0
    },
    "h2h": [],
-   "analysis": "Taylor Townsend (Weltrangliste #96) trifft auf Aryna Sabalenka (#1). Wichtiger Formkontext: Taylor Townsend spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1787 vs. 1682). Auf Hartplatz liegt die Siegquote von Taylor Townsend zuletzt bei 56 % (38:30), Aryna Sabalenka kommt auf 79 % (163:43). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Aryna Sabalenka mit 88 % vorn.",
+   "analysis": "Taylor Townsend (Weltrangliste #96) trifft auf Aryna Sabalenka (#1). Wichtiger Formkontext: Aryna Sabalenka spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1969 vs. 1708). Auf Hartplatz liegt die Siegquote von Taylor Townsend zuletzt bei 55 % (29:24), Aryna Sabalenka kommt auf 77 % (136:40). Aryna Sabalenkas stärkster Belag ist eigentlich Sand. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Aryna Sabalenka mit 89 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
@@ -20963,21 +19942,21 @@
     "name": "Linda Noskova",
     "rank": 6,
     "form": [
-     "S",
+     "N",
      "N",
      "S",
      "S",
      "N"
     ],
-    "elo": 1855,
+    "elo": 1814,
     "rankYearAgo": 27,
-    "oppElo": 1782,
+    "oppElo": 1808,
     "onSurface": {
-     "w": 77,
-     "l": 47,
-     "pct": 0.621
+     "w": 66,
+     "l": 39,
+     "pct": 0.629
     },
-    "favSurface": "Rasen",
+    "favSurface": "Hartplatz",
     "last7": 3,
     "sets7": 7
    },
@@ -20988,52 +19967,33 @@
      "N",
      "S",
      "S",
-     "S",
+     "N",
      "N"
     ],
-    "elo": 1914,
+    "elo": 1771,
     "rankYearAgo": 28,
-    "oppElo": 1803,
+    "oppElo": 1765,
     "onSurface": {
-     "w": 88,
-     "l": 61,
-     "pct": 0.591
+     "w": 77,
+     "l": 55,
+     "pct": 0.583
     },
-    "favSurface": "Sand",
+    "favSurface": "Hartplatz",
     "last7": 3,
     "sets7": 6
    },
-   "pP1": 0.4155,
+   "pP1": 0.5627,
    "model": {
-    "n1": 193,
-    "n2": 212,
-    "elo1": 1855,
-    "elo2": 1914,
-    "pElo": 0.4155,
+    "n1": 151,
+    "n2": 172,
+    "elo1": 1814,
+    "elo2": 1771,
+    "pElo": 0.5627,
     "pRank": 0.626,
     "wElo": 1.0
    },
-   "h2h": [
-    {
-     "year": "2026",
-     "tourney": "Wimbledon",
-     "surface": "Rasen",
-     "winner": "Linda Noskova",
-     "winnerIsP1": true,
-     "score": "6:4 6:4",
-     "rnd": "Semifinals"
-    },
-    {
-     "year": "2026",
-     "tourney": "Mutua Madrid Open",
-     "surface": "Sand",
-     "winner": "Marta Kostyuk",
-     "winnerIsP1": false,
-     "score": "7:6 6:0",
-     "rnd": "Quarterfinals"
-    }
-   ],
-   "analysis": "Linda Noskova (Weltrangliste #6) trifft auf Marta Kostyuk (#11). Linda Noskova befindet sich im Aufwind: vor rund einem Jahr noch um Platz 27, inzwischen #6. Marta Kostyuk befindet sich im Aufwind: vor rund einem Jahr noch um Platz 28, inzwischen #11. Auf Hartplatz liegt die Siegquote von Linda Noskova zuletzt bei 62 % (77:47), Marta Kostyuk kommt auf 59 % (88:61). Linda Noskovas stärkster Belag ist eigentlich Rasen. Marta Kostyuks stärkster Belag ist eigentlich Sand. Der direkte Vergleich der letzten 2 Duelle ist mit 1:1 ausgeglichen. Zuletzt (2026, Wimbledon) gewann Linda Noskova mit 6:4 6:4. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Marta Kostyuk mit 58 % vorn. Bemerkenswert: Die Weltrangliste würde eher Linda Noskova favorisieren – die Formkurve spricht aber dagegen.",
+   "h2h": [],
+   "analysis": "Linda Noskova (Weltrangliste #6) trifft auf Marta Kostyuk (#11). Linda Noskova befindet sich im Aufwind: vor rund einem Jahr noch um Platz 27, inzwischen #6. Marta Kostyuk befindet sich im Aufwind: vor rund einem Jahr noch um Platz 28, inzwischen #11. Auf Hartplatz liegt die Siegquote von Linda Noskova zuletzt bei 63 % (66:39), Marta Kostyuk kommt auf 58 % (77:55). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Linda Noskova mit 56 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -21048,19 +20008,19 @@
     "name": "Sorana Cirstea",
     "rank": 17,
     "form": [
-     "N",
+     "S",
      "N",
      "S",
      "S",
      "N"
     ],
-    "elo": 1825,
+    "elo": 1735,
     "rankYearAgo": 66,
-    "oppElo": 1794,
+    "oppElo": 1667,
     "onSurface": {
-     "w": 84,
-     "l": 56,
-     "pct": 0.6
+     "w": 67,
+     "l": 49,
+     "pct": 0.578
     },
     "favSurface": "Hartplatz",
     "last7": 3,
@@ -21070,46 +20030,36 @@
     "name": "Jessica Pegula",
     "rank": 3,
     "form": [
+     "N",
      "S",
-     "S",
-     "S",
+     "N",
      "S",
      "N"
     ],
-    "elo": 2000,
+    "elo": 1924,
     "rankYearAgo": 4,
-    "oppElo": 1903,
+    "oppElo": 2001,
     "onSurface": {
-     "w": 160,
-     "l": 58,
-     "pct": 0.734
+     "w": 131,
+     "l": 51,
+     "pct": 0.72
     },
     "favSurface": "Hartplatz",
     "last7": 3,
     "sets7": 7
    },
-   "pP1": 0.2674,
+   "pP1": 0.2522,
    "model": {
-    "n1": 208,
-    "n2": 310,
-    "elo1": 1825,
-    "elo2": 2000,
-    "pElo": 0.2674,
+    "n1": 161,
+    "n2": 253,
+    "elo1": 1735,
+    "elo2": 1924,
+    "pElo": 0.2522,
     "pRank": 0.1863,
     "wElo": 1.0
    },
-   "h2h": [
-    {
-     "year": "2026",
-     "tourney": "Western & Southern Financial Group Women's Open",
-     "surface": "Hartplatz",
-     "winner": "Jessica Pegula",
-     "winnerIsP1": false,
-     "score": "6:2 4:6 7:5",
-     "rnd": "4th Round"
-    }
-   ],
-   "analysis": "Sorana Cirstea (Weltrangliste #17) trifft auf Jessica Pegula (#3). Sorana Cirstea befindet sich im Aufwind: vor rund einem Jahr noch um Platz 66, inzwischen #17. Die aktuelle Form spricht für Jessica Pegula: 4 Siege aus den letzten 5 Matches, Sorana Cirstea holte nur 2. Wichtiger Formkontext: Jessica Pegula spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1903 vs. 1794). Auf Hartplatz liegt die Siegquote von Sorana Cirstea zuletzt bei 60 % (84:56), Jessica Pegula kommt auf 73 % (160:58). Das bisher einzige Duell (2026, Western & Southern Financial Group Women's Open) gewann Jessica Pegula mit 6:2 4:6 7:5. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Jessica Pegula mit 73 % vorn.",
+   "h2h": [],
+   "analysis": "Sorana Cirstea (Weltrangliste #17) trifft auf Jessica Pegula (#3). Sorana Cirstea befindet sich im Aufwind: vor rund einem Jahr noch um Platz 66, inzwischen #17. Wichtiger Formkontext: Jessica Pegula spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 2001 vs. 1667). Auf Hartplatz liegt die Siegquote von Sorana Cirstea zuletzt bei 58 % (67:49), Jessica Pegula kommt auf 72 % (131:51). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Jessica Pegula mit 75 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
@@ -21130,18 +20080,18 @@
     "rank": 27,
     "form": [
      "S",
-     "N",
-     "N",
      "S",
+     "S",
+     "N",
      "N"
     ],
-    "elo": 1658,
+    "elo": 1715,
     "rankYearAgo": 17,
-    "oppElo": 1689,
+    "oppElo": 1781,
     "onSurface": {
-     "w": 60,
-     "l": 47,
-     "pct": 0.561
+     "w": 54,
+     "l": 36,
+     "pct": 0.6
     },
     "favSurface": "Rasen",
     "last7": 3,
@@ -21151,46 +20101,36 @@
     "name": "Anna Kalinskaya",
     "rank": 23,
     "form": [
-     "N",
      "S",
      "N",
+     "S",
      "S",
      "N"
     ],
-    "elo": 1772,
+    "elo": 1757,
     "rankYearAgo": 29,
-    "oppElo": 1808,
+    "oppElo": 1716,
     "onSurface": {
-     "w": 79,
-     "l": 56,
-     "pct": 0.585
+     "w": 66,
+     "l": 46,
+     "pct": 0.589
     },
     "favSurface": "Rasen",
     "last7": 3,
     "sets7": 8
    },
-   "pP1": 0.3413,
+   "pP1": 0.4399,
    "model": {
-    "n1": 189,
-    "n2": 197,
-    "elo1": 1658,
-    "elo2": 1772,
-    "pElo": 0.3413,
+    "n1": 152,
+    "n2": 156,
+    "elo1": 1715,
+    "elo2": 1757,
+    "pElo": 0.4399,
     "pRank": 0.466,
     "wElo": 1.0
    },
-   "h2h": [
-    {
-     "year": "2026",
-     "tourney": "Qatar Open",
-     "surface": "Hartplatz",
-     "winner": "Anna Kalinskaya",
-     "winnerIsP1": false,
-     "score": "7:5 2:6 6:2",
-     "rnd": "2nd Round"
-    }
-   ],
-   "analysis": "Emma Navarro (Weltrangliste #27) trifft auf Anna Kalinskaya (#23). Wichtiger Formkontext: Anna Kalinskaya spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1808 vs. 1689). Auf Hartplatz liegt die Siegquote von Emma Navarro zuletzt bei 56 % (60:47), Anna Kalinskaya kommt auf 58 % (79:56). Emma Navarros stärkster Belag ist eigentlich Rasen. Anna Kalinskayas stärkster Belag ist eigentlich Rasen. Das bisher einzige Duell (2026, Qatar Open) gewann Anna Kalinskaya mit 7:5 2:6 6:2. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Anna Kalinskaya mit 66 % vorn.",
+   "h2h": [],
+   "analysis": "Emma Navarro (Weltrangliste #27) trifft auf Anna Kalinskaya (#23). Wichtiger Formkontext: Emma Navarro spielte zuletzt gegen das deutlich stärkere Gegnerfeld (Ø-Elo 1781 vs. 1716). Auf Hartplatz liegt die Siegquote von Emma Navarro zuletzt bei 60 % (54:36), Anna Kalinskaya kommt auf 59 % (66:46). Emma Navarros stärkster Belag ist eigentlich Rasen. Anna Kalinskayas stärkster Belag ist eigentlich Rasen. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Das Formmodell (Elo aus Ergebnissen, Gegnerstärke, Belag und Head-to-Head) sieht Anna Kalinskaya mit 56 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -21408,8 +20348,8 @@
    "wta": 200
   },
   "sackCounts": {
-   "atp": 10002,
-   "wta": 11803
+   "atp": 10061,
+   "wta": 9855
   }
  },
  "tennisFinished": [
@@ -21432,14 +20372,14 @@
  ],
  "stats": {
   "overall": {
-   "n": 1305,
-   "correct": 801,
-   "pct": 0.6138
+   "n": 1308,
+   "correct": 802,
+   "pct": 0.6131
   },
   "football": {
-   "n": 386,
-   "correct": 206,
-   "pct": 0.5337
+   "n": 389,
+   "correct": 207,
+   "pct": 0.5321
   },
   "tennis": {
    "n": 919,
@@ -21447,11 +20387,44 @@
    "pct": 0.6474
   },
   "exact": {
-   "n": 386,
+   "n": 389,
    "correct": 39
   },
-  "open": 358,
+  "open": 355,
   "recent": [
+   {
+    "date": "2026-09-05",
+    "comp": "2. Bundesliga",
+    "label": "VfL Wolfsburg – Energie Cottbus",
+    "tipName": "VfL Wolfsburg",
+    "tip": "1",
+    "prob": 0.8929,
+    "result": "4:4",
+    "correct": false,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-09-05",
+    "comp": "2. Bundesliga",
+    "label": "1. FC Kaiserslautern – SV Darmstadt 98",
+    "tipName": "1. FC Kaiserslautern",
+    "tip": "1",
+    "prob": 0.4364,
+    "result": "3:0",
+    "correct": true,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-09-05",
+    "comp": "2. Bundesliga",
+    "label": "Holstein Kiel – 1. FC Nürnberg",
+    "tipName": "1. FC Nürnberg",
+    "tip": "2",
+    "prob": 0.458,
+    "result": "2:2",
+    "correct": false,
+    "sport": "fb"
+   },
    {
     "date": "2026-09-05",
     "comp": "MLS (USA)",
@@ -21692,39 +20665,6 @@
     "prob": 0.934,
     "result": "Sieger: P2",
     "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-04",
-    "comp": "WTA · US Open",
-    "label": "Elena Rybakina – Jessica Bouzas Maneiro",
-    "tipName": "Elena Rybakina",
-    "tip": "P1",
-    "prob": 0.9379,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-04",
-    "comp": "ATP · US Open",
-    "label": "Arthur Rinderknech – Daniil Medvedev",
-    "tipName": "Daniil Medvedev",
-    "tip": "P2",
-    "prob": 0.8787,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-04",
-    "comp": "ATP · US Open",
-    "label": "Daniel Merida – Alex Michelsen",
-    "tipName": "Daniel Merida",
-    "tip": "P1",
-    "prob": 0.5437,
-    "result": "Sieger: P2",
-    "correct": false,
     "sport": "tn"
    }
   ]
