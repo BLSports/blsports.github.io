@@ -129,9 +129,11 @@ body { font-family: Tahoma, Verdana, Arial, sans-serif; }
 <td align="center" valign="middle">
 The page you are looking for is temporar
 total 8
-drwxr-xr-x  2 runner runner 4096 Sep  5 21:52 .
-drwxrwxrwt 14 root   root   4096 Sep  5 21:52 ..
+drwxr-xr-x  2 runner runner 4096 Sep  5 23:30 .
+drwxrwxrwt 14 root   root   4096 Sep  5 23:30 ..
   WARN: https://www.football-data.co.uk/fixtures.csv nicht erreichbar (HTTP Error 503: Service Temporarily Unavailable)
+  WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/uefa.champions/seasons/2026/types/1/leaders nicht erreichbar (HTTP Error 404: Not Found)
+  WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/uefa.champions/seasons/2026/types/2/leaders nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://www.football-data.co.uk/mmz4281/2526/E0.csv nicht erreichbar (HTTP Error 503: Service Temporarily Unavailable)
   WARN: https://www.football-data.co.uk/mmz4281/2627/E0.csv nicht erreichbar (HTTP Error 503: Service Temporarily Unavailable)
   WARN: https://www.football-data.co.uk/mmz4281/2526/I1.csv nicht erreichbar (HTTP Error 503: Service Temporarily Unavailable)
@@ -148,15 +150,16 @@ drwxrwxrwt 14 root   root   4096 Sep  5 21:52 ..
   WARN: https://www.football-data.co.uk/mmz4281/2627/N1.csv nicht erreichbar (HTTP Error 503: Service Temporarily Unavailable)
   WARN: https://www.football-data.co.uk/mmz4281/2526/B1.csv nicht erreichbar (HTTP Error 503: Service Temporarily Unavailable)
   WARN: https://www.football-data.co.uk/mmz4281/2627/B1.csv nicht erreichbar (HTTP Error 503: Service Temporarily Unavailable)
+  WARN: https://api.the-odds-api.com/v4/sports/soccer_belgium_pro_league/odds/?apiKey=8392ea7216723e341b1a7c2cea58bcb4&regions=eu&markets=h2h&oddsFormat=decimal nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260328-20260625&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
-  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260626-20260905&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
-  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260905 nicht erreichbar (HTTP Error 400: Bad Request)
+  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260626-20260906&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260906 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260907 nicht erreichbar (HTTP Error 400: Bad Request)
-  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260905-20270103&limit=50 nicht erreichbar (HTTP Error 400: Bad Request)
+  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260908 nicht erreichbar (HTTP Error 400: Bad Request)
+  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260906-20270104&limit=50 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/bel.2/seasons/2026/types/1/leaders nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/bel.2/seasons/2026/types/2/leaders nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/bel.2/seasons/2025/types/1/leaders nicht erreichbar (HTTP Error 400: Bad Request)
@@ -188,7 +191,8 @@ fixtures.csv: 0 Spiele mit Quoten
   0 Spiele in den naechsten 3 Tagen
 == Champions League ==
   189 Ergebnisse geladen
-  0 Spiele in den naechsten 3 Tagen
+  6 Spiele in den naechsten 3 Tagen
+  4 Prognosen via Team-Historie-Fallback erstellt
 == Europa League ==
   189 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
@@ -208,35 +212,35 @@ fixtures.csv: 0 Spiele mit Quoten
   408 Ergebnisse geladen
   2 Spiele in den naechsten 3 Tagen
 == Serie A ==
-  403 Ergebnisse geladen
+  404 Ergebnisse geladen
   6 Spiele in den naechsten 3 Tagen
 == La Liga ==
-  414 Ergebnisse geladen
+  415 Ergebnisse geladen
   6 Spiele in den naechsten 3 Tagen
 == La Liga 2 ==
-  506 Ergebnisse geladen
+  507 Ergebnisse geladen
   5 Spiele in den naechsten 3 Tagen
 == Ligue 1 ==
-  327 Ergebnisse geladen
+  329 Ergebnisse geladen
   3 Spiele in den naechsten 3 Tagen
 == Ligue 2 ==
-  349 Ergebnisse geladen
+  350 Ergebnisse geladen
   1 Spiele in den naechsten 3 Tagen
 == Eredivisie ==
-  344 Ergebnisse geladen
-  4 Spiele in den naechsten 3 Tagen
+  346 Ergebnisse geladen
+  5 Spiele in den naechsten 3 Tagen
 == Eerste Divisie ==
   429 Ergebnisse geladen
   3 Spiele in den naechsten 3 Tagen
 == Pro League (Belgien) ==
-  352 Ergebnisse geladen
+  354 Ergebnisse geladen
   4 Spiele in den naechsten 3 Tagen
 == Challenger Pro League (Belgien) ==
   0 Ergebnisse geladen
   2 Spiele in den naechsten 3 Tagen
   2 Prognosen via Team-Historie-Fallback erstellt
 == Primeira Liga (Portugal) ==
-  343 Ergebnisse geladen
+  344 Ergebnisse geladen
   4 Spiele in den naechsten 3 Tagen
 == Süper Lig (Türkei) ==
   336 Ergebnisse geladen
@@ -248,14 +252,15 @@ fixtures.csv: 0 Spiele mit Quoten
   42 Ergebnisse geladen
   3 Spiele in den naechsten 3 Tagen
 == Premiership (Schottland) ==
-  256 Ergebnisse geladen
+  257 Ergebnisse geladen
   2 Spiele in den naechsten 3 Tagen
 == MLS (USA) ==
   581 Ergebnisse geladen
   14 Spiele in den naechsten 3 Tagen
+  3 Prognosen via Team-Historie-Fallback erstellt
 == Série A (Brasilien) ==
-  510 Ergebnisse geladen
-  7 Spiele in den naechsten 3 Tagen
+  512 Ergebnisse geladen
+  8 Spiele in den naechsten 3 Tagen
 == Eliteserien (Norwegen) ==
   295 Ergebnisse geladen
   3 Spiele in den naechsten 3 Tagen
@@ -275,10 +280,10 @@ fixtures.csv: 0 Spiele mit Quoten
   Historie: ATP 0 Matches, WTA 0 Matches
   Elo ATP: 0 Spieler bewertet
   Elo WTA: 0 Spieler bewertet
-  Belag-Zuordnung (MatchStat): 35 Turniere
-  Tennis-Quoten zugeordnet: 8
-  72 Tennis-Matches in den naechsten 3 Tagen
-  11 Tennis-Matches heute bereits beendet
-  Tipp-Log: 2338 Eintraege, 1395 ausgewertet, 838 richtig
-  Premium-Abrufe: Tennis 6, Fussball 243 (Tennis AKTIV, Fussball AKTIV)
+  Belag-Zuordnung (MatchStat): 16 Turniere
+  Tennis-Quoten zugeordnet: 13
+  71 Tennis-Matches in den naechsten 3 Tagen
+  0 Tennis-Matches heute bereits beendet
+  Tipp-Log: 2355 Eintraege, 1409 ausgewertet, 847 richtig
+  Premium-Abrufe: Tennis 6, Fussball 270 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
