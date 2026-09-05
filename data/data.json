@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-05T21:51:59.331490+02:00",
+ "generatedAt": "2026-09-05T23:52:43.279579+02:00",
  "windowDays": 3,
  "days": [
   "2026-09-05",
@@ -328,7 +328,13 @@
        "reason": "Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "news": [
+      {
+       "title": "BVB schlägt RWE klar - Frankfurt trifft siebenmal - Derby in Berlin",
+       "link": "https://www.kicker.de/bvb-schlaegt-rwe-klar-frankfurt-trifft-siebenmal-derby-in-berlin-1241394/artikel#omrss"
+      }
+     ]
     }
    ],
    "seasonHasStarted": true,
@@ -340,104 +346,6 @@
    "flag": "🇩🇪",
    "espn": "ger.2",
    "matches": [
-    {
-     "kickoff": "2026-09-05T20:30:00+02:00",
-     "home": "Dynamo Dresden",
-     "away": "VfL Bochum",
-     "homeIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Logo_SG_Dynamo_Dresden_neu.svg/960px-Logo_SG_Dynamo_Dresden_neu.svg.png",
-     "awayIcon": "https://i.imgur.com/5jy3Gfr.png",
-     "matchday": 4,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "S",
-      "N",
-      "S",
-      "N"
-     ],
-     "formAway": [
-      "U",
-      "S",
-      "N",
-      "S",
-      "N"
-     ],
-     "formHomeH": [
-      "N",
-      "S",
-      "S",
-      "S",
-      "S"
-     ],
-     "formAwayA": [
-      "N",
-      "N",
-      "U",
-      "S",
-      "S"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 17,
-     "posAway": 14,
-     "nTeams": 18,
-     "h2h": [
-      {
-       "date": "18.04.2026",
-       "home": "Dynamo Dresden",
-       "away": "VfL Bochum",
-       "score": "2:0"
-      },
-      {
-       "date": "21.11.2025",
-       "home": "VfL Bochum",
-       "away": "Dynamo Dresden",
-       "score": "1:2"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.4185,
-      "pDraw": 0.2565,
-      "pAway": 0.325,
-      "pOver25": 0.5068,
-      "pBtts": 0.5463,
-      "xgHome": 1.45,
-      "xgAway": 1.25,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.5463,
-     "odds": {
-      "h": 2.13,
-      "d": 3.76,
-      "a": 3.3,
-      "src": "Pinnacle"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "J. Sterner",
-       "goals": 2
-      },
-      {
-       "name": "V. Vermeij",
-       "goals": 1
-      },
-      {
-       "name": "R. Wagner",
-       "goals": 1
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "P. Hoffmann",
-       "goals": 1
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Dynamo Dresden ist gegen VfL Bochum leicht favorisiert (42 % zu 32 %). In der Tabelle stehen sich Platz 17 und Platz 13 gegenüber. Heim-/Auswärtsbilanz: Dynamo Dresden gewann 4 der letzten 5 Heimspiele, VfL Bochum 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:0 (Dynamo Dresden – VfL Bochum). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,4:1,2; über 2,5 Tore: 51 %, beide Teams treffen zu 55 %). Gefährlichste Torschützen: bei Dynamo Dresden J. Sterner (2 Tore) und bei VfL Bochum P. Hoffmann (1 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-09-06T13:30:00+02:00",
      "home": "Hertha BSC",
@@ -494,17 +402,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5393,
-      "pDraw": 0.2128,
-      "pAway": 0.2478,
-      "pOver25": 0.6586,
-      "pBtts": 0.6431,
+      "pHome": 0.5377,
+      "pDraw": 0.2132,
+      "pAway": 0.2491,
+      "pOver25": 0.6584,
+      "pBtts": 0.6435,
       "xgHome": 2.05,
       "xgAway": 1.34,
       "tipScore": "2:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6431,
+     "pBtts": 0.6435,
      "odds": {
       "h": 1.91,
       "d": 3.6,
@@ -541,7 +449,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Hertha BSC ist gegen 1. FC Magdeburg leicht favorisiert (54 % zu 25 %). In der Tabelle stehen sich Platz 2 und Platz 6 gegenüber. Heim-/Auswärtsbilanz: Hertha BSC gewann 2 der letzten 5 Heimspiele, 1. FC Magdeburg 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:0 (1. FC Magdeburg – Hertha BSC). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,3; über 2,5 Tore: 66 %, beide Teams treffen zu 64 %). Gefährlichste Torschützen: bei Hertha BSC Oluwaseun Victor Adewumi (2 Tore) und bei 1. FC Magdeburg M. Zukowski (2 Tore).",
+     "analysis": "Hertha BSC ist gegen 1. FC Magdeburg leicht favorisiert (54 % zu 25 %). In der Tabelle stehen sich Platz 2 und Platz 7 gegenüber. Heim-/Auswärtsbilanz: Hertha BSC gewann 2 der letzten 5 Heimspiele, 1. FC Magdeburg 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:0 (1. FC Magdeburg – Hertha BSC). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,3; über 2,5 Tore: 66 %, beide Teams treffen zu 64 %). Gefährlichste Torschützen: bei Hertha BSC Oluwaseun Victor Adewumi (2 Tore) und bei 1. FC Magdeburg M. Zukowski (2 Tore).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -581,13 +489,13 @@
      "nTeams": 18,
      "h2h": [],
      "prediction": {
-      "pHome": 0.4022,
+      "pHome": 0.3998,
       "pDraw": 0.1472,
-      "pAway": 0.4391,
-      "pOver25": 0.9696,
+      "pAway": 0.4415,
+      "pOver25": 0.9695,
       "pBtts": 0.9441,
-      "xgHome": 3.73,
-      "xgAway": 3.86,
+      "xgHome": 3.72,
+      "xgAway": 3.87,
       "tipScore": "3:3",
       "confidence": "niedrig"
      },
@@ -600,8 +508,8 @@
      },
      "value": {
       "outcome": "1",
-      "edge": 0.0598,
-      "modelP": 0.4022,
+      "edge": 0.0574,
+      "modelP": 0.3998,
       "odds": 2.63
      },
      "scorersHome": [
@@ -633,7 +541,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen SpVgg Greuther Fürth und 1. FC Heidenheim 1846 deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg SpVgg Greuther Fürth 40 %, Unentschieden 15 %, Sieg 1. FC Heidenheim 1846 45 %). In der Tabelle stehen sich Platz 9 und Platz 5 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 3,7:3,9; über 2,5 Tore: 97 %, beide Teams treffen zu 94 %). Gefährlichste Torschützen: bei SpVgg Greuther Fürth F. Klaus (5 Tore) und bei 1. FC Heidenheim 1846 J. Schöppner (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,63) für 6 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Zwischen SpVgg Greuther Fürth und 1. FC Heidenheim 1846 deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg SpVgg Greuther Fürth 40 %, Unentschieden 15 %, Sieg 1. FC Heidenheim 1846 45 %). In der Tabelle stehen sich Platz 10 und Platz 6 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 3,7:3,9; über 2,5 Tore: 97 %, beide Teams treffen zu 94 %). Gefährlichste Torschützen: bei SpVgg Greuther Fürth F. Klaus (5 Tore) und bei 1. FC Heidenheim 1846 J. Schöppner (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,63) für 6 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -673,17 +581,17 @@
      "nTeams": 18,
      "h2h": [],
      "prediction": {
-      "pHome": 0.3481,
-      "pDraw": 0.228,
-      "pAway": 0.4239,
-      "pOver25": 0.6473,
-      "pBtts": 0.6564,
-      "xgHome": 1.58,
+      "pHome": 0.3465,
+      "pDraw": 0.2279,
+      "pAway": 0.4256,
+      "pOver25": 0.6475,
+      "pBtts": 0.6565,
+      "xgHome": 1.57,
       "xgAway": 1.76,
       "tipScore": "1:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.6564,
+     "pBtts": 0.6565,
      "odds": {
       "h": 2.2,
       "d": 3.15,
@@ -692,8 +600,8 @@
      },
      "value": {
       "outcome": "2",
-      "edge": 0.1037,
-      "modelP": 0.4239,
+      "edge": 0.1054,
+      "modelP": 0.4256,
       "odds": 2.75
      },
      "scorersHome": [
@@ -725,7 +633,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen VfL Osnabrück und Eintracht Braunschweig deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg VfL Osnabrück 35 %, Unentschieden 23 %, Sieg Eintracht Braunschweig 42 %). In der Tabelle stehen sich Platz 16 und Platz 12 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 1,6:1,8; über 2,5 Tore: 65 %, beide Teams treffen zu 66 %). Gefährlichste Torschützen: bei VfL Osnabrück N. Wiemann (1 Tore) und bei Eintracht Braunschweig J. Urbich (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,75) für 10 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Zwischen VfL Osnabrück und Eintracht Braunschweig deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg VfL Osnabrück 35 %, Unentschieden 23 %, Sieg Eintracht Braunschweig 42 %). In der Tabelle stehen sich Platz 16 und Platz 13 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 1,6:1,8; über 2,5 Tore: 65 %, beide Teams treffen zu 66 %). Gefährlichste Torschützen: bei VfL Osnabrück N. Wiemann (1 Tore) und bei Eintracht Braunschweig J. Urbich (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,75) für 11 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
@@ -828,13 +736,7 @@
      ],
      "scorersPeriod": "Saison",
      "analysis": "Würzburger Kickers geht als klarer Favorit (61 %) in das Heimspiel gegen VfB Stuttgart II. In der Tabelle stehen sich Platz 11 und Platz 16 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 2,5:1,5; über 2,5 Tore: 76 %, beide Teams treffen zu 71 %). Gefährlichste Torschützen: bei Würzburger Kickers Ivan Franjic (2 Tore) und bei VfB Stuttgart II Alexander Groiß (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,20) für 18 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "Ein Hauch von Messi in Stuttgart - Undav ist \"nicht hundertprozentig frei\"",
-       "link": "https://www.kicker.de/ein-hauch-von-messi-in-stuttgart-undav-ist-nicht-hundertprozentig-frei-1249873/artikel#omrss"
-      }
-     ]
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-09-06T16:30:00+02:00",
@@ -1068,14 +970,14 @@
       "pHome": 0.3318,
       "pDraw": 0.2411,
       "pAway": 0.4271,
-      "pOver25": 0.5785,
-      "pBtts": 0.6022,
+      "pOver25": 0.5786,
+      "pBtts": 0.6023,
       "xgHome": 1.4,
       "xgAway": 1.61,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6022,
+     "pBtts": 0.6023,
      "odds": {
       "h": 3.3,
       "d": 3.6,
@@ -1190,13 +1092,13 @@
       "pDraw": 0.1657,
       "pAway": 0.0945,
       "pOver25": 0.583,
-      "pBtts": 0.454,
+      "pBtts": 0.4539,
       "xgHome": 2.33,
       "xgAway": 0.7,
       "tipScore": "2:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.454,
+     "pBtts": 0.4539,
      "odds": {
       "h": 1.67,
       "d": 3.8,
@@ -1917,7 +1819,7 @@
      "load14Home": 1,
      "load14Away": 2,
      "posHome": 8,
-     "posAway": 7,
+     "posAway": 6,
      "nTeams": 20,
      "h2h": [
       {
@@ -2088,8 +1990,8 @@
      "prediction": {
       "pHome": 0.1381,
       "pDraw": 0.1857,
-      "pAway": 0.676,
-      "pOver25": 0.6094,
+      "pAway": 0.6761,
+      "pOver25": 0.6095,
       "pBtts": 0.5328,
       "xgHome": 0.91,
       "xgAway": 2.24,
@@ -2209,8 +2111,8 @@
      ],
      "load14Home": 1,
      "load14Away": 3,
-     "posHome": 4,
-     "posAway": 5,
+     "posHome": 5,
+     "posAway": 6,
      "nTeams": 20,
      "h2h": [
       {
@@ -2227,7 +2129,7 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4641,
+      "pHome": 0.4642,
       "pDraw": 0.2717,
       "pAway": 0.2642,
       "pOver25": 0.4207,
@@ -2334,17 +2236,17 @@
      "nTeams": 20,
      "h2h": [],
      "prediction": {
-      "pHome": 0.0823,
-      "pDraw": 0.1989,
+      "pHome": 0.0824,
+      "pDraw": 0.199,
       "pAway": 0.7187,
       "pOver25": 0.4169,
-      "pBtts": 0.3145,
+      "pBtts": 0.3146,
       "xgHome": 0.46,
       "xgAway": 1.89,
       "tipScore": "0:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.3145,
+     "pBtts": 0.3146,
      "odds": {
       "h": 2.37,
       "d": 3.28,
@@ -2447,7 +2349,7 @@
      "load14Home": 1,
      "load14Away": 1,
      "posHome": 14,
-     "posAway": 8,
+     "posAway": 9,
      "nTeams": 20,
      "h2h": [
       {
@@ -2467,14 +2369,14 @@
       "pHome": 0.488,
       "pDraw": 0.2467,
       "pAway": 0.2652,
-      "pOver25": 0.5183,
-      "pBtts": 0.5427,
+      "pOver25": 0.5182,
+      "pBtts": 0.5426,
       "xgHome": 1.62,
       "xgAway": 1.13,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5427,
+     "pBtts": 0.5426,
      "odds": {
       "h": 2.35,
       "d": 3.33,
@@ -2596,16 +2498,16 @@
      ],
      "prediction": {
       "pHome": 0.3508,
-      "pDraw": 0.3546,
+      "pDraw": 0.3547,
       "pAway": 0.2946,
-      "pOver25": 0.2129,
-      "pBtts": 0.2986,
+      "pOver25": 0.2128,
+      "pBtts": 0.2985,
       "xgHome": 0.84,
       "xgAway": 0.74,
       "tipScore": "0:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.2986,
+     "pBtts": 0.2985,
      "odds": {
       "h": 2.53,
       "d": 2.99,
@@ -2723,9 +2625,9 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4405,
+      "pHome": 0.4406,
       "pDraw": 0.2275,
-      "pAway": 0.332,
+      "pAway": 0.3319,
       "pOver25": 0.645,
       "pBtts": 0.653,
       "xgHome": 1.79,
@@ -2742,8 +2644,8 @@
      },
      "value": {
       "outcome": "1",
-      "edge": 0.12,
-      "modelP": 0.4405,
+      "edge": 0.1201,
+      "modelP": 0.4406,
       "odds": 3.07
      },
      "scorersHome": [],
@@ -2866,17 +2768,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4904,
+      "pHome": 0.4905,
       "pDraw": 0.2828,
-      "pAway": 0.2268,
+      "pAway": 0.2267,
       "pOver25": 0.3609,
-      "pBtts": 0.4078,
+      "pBtts": 0.4077,
       "xgHome": 1.33,
       "xgAway": 0.81,
       "tipScore": "1:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.4078,
+     "pBtts": 0.4077,
      "odds": {
       "h": 2.07,
       "d": 3.35,
@@ -3018,10 +2920,10 @@
       }
      ],
      "prediction": {
-      "pHome": 0.551,
+      "pHome": 0.5511,
       "pDraw": 0.2327,
       "pAway": 0.2163,
-      "pOver25": 0.5316,
+      "pOver25": 0.5317,
       "pBtts": 0.5329,
       "xgHome": 1.78,
       "xgAway": 1.02,
@@ -3107,13 +3009,13 @@
       "pDraw": 0.1877,
       "pAway": 0.1448,
       "pOver25": 0.6157,
-      "pBtts": 0.5446,
+      "pBtts": 0.5445,
       "xgHome": 2.24,
       "xgAway": 0.94,
       "tipScore": "2:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.5446,
+     "pBtts": 0.5445,
      "odds": {
       "h": 1.51,
       "d": 4.34,
@@ -3243,14 +3145,14 @@
      ],
      "load14Home": 1,
      "load14Away": 1,
-     "posHome": 6,
-     "posAway": 11,
+     "posHome": 7,
+     "posAway": 12,
      "nTeams": 18,
      "h2h": [],
      "prediction": {
-      "pHome": 0.4277,
+      "pHome": 0.4278,
       "pDraw": 0.2327,
-      "pAway": 0.3396,
+      "pAway": 0.3395,
       "pOver25": 0.6215,
       "pBtts": 0.6359,
       "xgHome": 1.71,
@@ -3267,8 +3169,8 @@
      },
      "value": {
       "outcome": "1",
-      "edge": 0.1119,
-      "modelP": 0.4277,
+      "edge": 0.112,
+      "modelP": 0.4278,
       "odds": 2.95
      },
      "scorersHome": [],
@@ -3364,7 +3266,7 @@
      ],
      "load14Home": 2,
      "load14Away": 2,
-     "posHome": 10,
+     "posHome": 11,
      "posAway": 6,
      "nTeams": 18,
      "h2h": [
@@ -3382,17 +3284,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.2365,
+      "pHome": 0.2364,
       "pDraw": 0.2372,
-      "pAway": 0.5262,
-      "pOver25": 0.5342,
-      "pBtts": 0.5442,
+      "pAway": 0.5263,
+      "pOver25": 0.5341,
+      "pBtts": 0.5441,
       "xgHome": 1.08,
       "xgAway": 1.73,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5442,
+     "pBtts": 0.5441,
      "odds": null,
      "value": null,
      "scorersHome": [
@@ -3459,8 +3361,8 @@
      ],
      "load14Home": 1,
      "load14Away": 1,
-     "posHome": 8,
-     "posAway": 4,
+     "posHome": 9,
+     "posAway": 5,
      "nTeams": 18,
      "h2h": [
       {
@@ -3477,10 +3379,10 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4938,
+      "pHome": 0.4935,
       "pDraw": 0.237,
-      "pAway": 0.2693,
-      "pOver25": 0.564,
+      "pAway": 0.2694,
+      "pOver25": 0.5639,
       "pBtts": 0.5785,
       "xgHome": 1.73,
       "xgAway": 1.22,
@@ -3712,17 +3614,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.2739,
+      "pHome": 0.274,
       "pDraw": 0.2457,
       "pAway": 0.4803,
-      "pOver25": 0.5287,
-      "pBtts": 0.5531,
+      "pOver25": 0.5288,
+      "pBtts": 0.5532,
       "xgHome": 1.17,
       "xgAway": 1.63,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5531,
+     "pBtts": 0.5532,
      "odds": {
       "h": 3.33,
       "d": 3.81,
@@ -3824,7 +3726,7 @@
      "load14Home": 1,
      "load14Away": 1,
      "posHome": 11,
-     "posAway": 1,
+     "posAway": 2,
      "nTeams": 18,
      "h2h": [
       {
@@ -3845,13 +3747,13 @@
       "pDraw": 0.2341,
       "pAway": 0.4494,
       "pOver25": 0.6063,
-      "pBtts": 0.6214,
+      "pBtts": 0.6213,
       "xgHome": 1.41,
       "xgAway": 1.72,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6214,
+     "pBtts": 0.6213,
      "odds": {
       "h": 3.6,
       "d": 4.0,
@@ -4277,17 +4179,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.461,
+      "pHome": 0.4611,
       "pDraw": 0.2292,
       "pAway": 0.3097,
       "pOver25": 0.6266,
-      "pBtts": 0.6356,
+      "pBtts": 0.6357,
       "xgHome": 1.79,
       "xgAway": 1.44,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6356,
+     "pBtts": 0.6357,
      "odds": {
       "h": 2.4,
       "d": 3.4,
@@ -4497,7 +4399,13 @@
      ],
      "scorersPeriod": "Saison",
      "analysis": "Zwischen Cercle Brugge KSV und KAA Gent deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Cercle Brugge KSV 37 %, Unentschieden 25 %, Sieg KAA Gent 38 %). In der Tabelle stehen sich Platz 14 und Platz 4 gegenüber. Die Form spricht für KAA Gent: 4 Siege aus den letzten 5 Spielen, Cercle Brugge KSV holte nur 0. Heim-/Auswärtsbilanz: Cercle Brugge KSV gewann 2 der letzten 5 Heimspiele, KAA Gent 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:1 (KAA Gent – Cercle Brugge KSV). Das Modell erwartet ein torreiches Spiel (xG 1,4:1,5; über 2,5 Tore: 55 %, beide Teams treffen zu 58 %).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "news": [
+      {
+       "title": "Villarreal - A Coruna: Eigentor zum 2:1 durch Adama in der 76. Minute",
+       "link": "https://www.kicker.de/villarreal-a-coruna-eigentor-zum-2-1-durch-adama-in-der-76-minute-1250075/video#omrss"
+      }
+     ]
     },
     {
      "kickoff": "2026-09-06T16:00:00+02:00",
@@ -4534,7 +4442,7 @@
      "load14Home": 2,
      "load14Away": 1,
      "posHome": 18,
-     "posAway": 5,
+     "posAway": 6,
      "nTeams": 18,
      "h2h": [],
      "prediction": {
@@ -4609,8 +4517,8 @@
      ],
      "load14Home": 2,
      "load14Away": 1,
-     "posHome": 10,
-     "posAway": 7,
+     "posHome": 11,
+     "posAway": 8,
      "nTeams": 18,
      "h2h": [
       {
@@ -4700,7 +4608,7 @@
      "prediction": {
       "pHome": 0.1377,
       "pDraw": 0.2462,
-      "pAway": 0.616,
+      "pAway": 0.6161,
       "pOver25": 0.3766,
       "pBtts": 0.3604,
       "xgHome": 0.6,
@@ -4753,8 +4661,8 @@
      "formAwayA": [],
      "load14Home": 0,
      "load14Away": 0,
-     "posHome": 10,
-     "posAway": 11,
+     "posHome": 11,
+     "posAway": 12,
      "nTeams": null,
      "h2h": [
       {
@@ -4815,7 +4723,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen K. Lierse S.K. und Liège deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg K. Lierse S.K. 39 %, Unentschieden 24 %, Sieg Liège 37 %). In der Tabelle stehen sich Platz 10 und Platz 11 gegenüber. Das letzte Duell (2026) endete 2:1 (Liège – K. Lierse S.K.). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,5; über 2,5 Tore: 59 %, beide Teams treffen zu 61 %). Gefährlichste Torschützen: bei Liège S. Paulet (1 Tore).",
+     "analysis": "Zwischen K. Lierse S.K. und Liège deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg K. Lierse S.K. 39 %, Unentschieden 24 %, Sieg Liège 37 %). In der Tabelle stehen sich Platz 11 und Platz 12 gegenüber. Das letzte Duell (2026) endete 2:1 (Liège – K. Lierse S.K.). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,5; über 2,5 Tore: 59 %, beide Teams treffen zu 61 %). Gefährlichste Torschützen: bei Liège S. Paulet (1 Tore).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -4844,8 +4752,8 @@
      "formAwayA": [],
      "load14Home": 0,
      "load14Away": 0,
-     "posHome": 7,
-     "posAway": 5,
+     "posHome": 8,
+     "posAway": 6,
      "nTeams": null,
      "h2h": [
       {
@@ -4908,7 +4816,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Francs Borains ist gegen Lokeren-Temse leicht favorisiert (47 % zu 32 %). In der Tabelle stehen sich Platz 7 und Platz 5 gegenüber. Das letzte Duell (2026) endete 1:0 (Francs Borains – Lokeren-Temse). Das Modell erwartet ein torreiches Spiel (xG 2,1:1,7; über 2,5 Tore: 72 %, beide Teams treffen zu 71 %). Gefährlichste Torschützen: bei Lokeren-Temse R. Van Den Bergh (1 Tore).",
+     "analysis": "Francs Borains ist gegen Lokeren-Temse leicht favorisiert (47 % zu 32 %). In der Tabelle stehen sich Platz 8 und Platz 6 gegenüber. Das letzte Duell (2026) endete 1:0 (Francs Borains – Lokeren-Temse). Das Modell erwartet ein torreiches Spiel (xG 2,1:1,7; über 2,5 Tore: 72 %, beide Teams treffen zu 71 %). Gefährlichste Torschützen: bei Lokeren-Temse R. Van Den Bergh (1 Tore).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
@@ -4959,7 +4867,7 @@
      ],
      "load14Home": 2,
      "load14Away": 1,
-     "posHome": 4,
+     "posHome": 5,
      "posAway": 14,
      "nTeams": 18,
      "h2h": [
@@ -4977,17 +4885,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5438,
+      "pHome": 0.5437,
       "pDraw": 0.2738,
-      "pAway": 0.1824,
-      "pOver25": 0.3501,
-      "pBtts": 0.3763,
+      "pAway": 0.1825,
+      "pOver25": 0.3502,
+      "pBtts": 0.3764,
       "xgHome": 1.41,
       "xgAway": 0.69,
       "tipScore": "1:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.3763,
+     "pBtts": 0.3764,
      "odds": {
       "h": 1.85,
       "d": 3.2,
@@ -5062,17 +4970,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5877,
+      "pHome": 0.5876,
       "pDraw": 0.2482,
-      "pAway": 0.1641,
-      "pOver25": 0.4074,
-      "pBtts": 0.4063,
+      "pAway": 0.1642,
+      "pOver25": 0.4071,
+      "pBtts": 0.4062,
       "xgHome": 1.6,
       "xgAway": 0.71,
       "tipScore": "1:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.4063,
+     "pBtts": 0.4062,
      "odds": null,
      "value": null,
      "scorersHome": [],
@@ -5122,8 +5030,8 @@
      "prediction": {
       "pHome": 0.709,
       "pDraw": 0.1829,
-      "pAway": 0.1081,
-      "pOver25": 0.5458,
+      "pAway": 0.108,
+      "pOver25": 0.5459,
       "pBtts": 0.4474,
       "xgHome": 2.16,
       "xgAway": 0.7,
@@ -5193,7 +5101,7 @@
      "load14Home": 1,
      "load14Away": 2,
      "posHome": 17,
-     "posAway": 3,
+     "posAway": 4,
      "nTeams": 18,
      "h2h": [
       {
@@ -5210,17 +5118,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.3883,
-      "pDraw": 0.2248,
-      "pAway": 0.3869,
-      "pOver25": 0.6685,
-      "pBtts": 0.6744,
+      "pHome": 0.388,
+      "pDraw": 0.2249,
+      "pAway": 0.3871,
+      "pOver25": 0.6684,
+      "pBtts": 0.6743,
       "xgHome": 1.72,
       "xgAway": 1.72,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6744,
+     "pBtts": 0.6743,
      "odds": {
       "h": 2.3,
       "d": 3.25,
@@ -6450,7 +6358,7 @@
      "nTeams": 32,
      "h2h": [],
      "prediction": {
-      "pHome": 0.4984,
+      "pHome": 0.4985,
       "pDraw": 0.2599,
       "pAway": 0.2417,
       "pOver25": 0.4482,
@@ -6581,7 +6489,7 @@
      "prediction": {
       "pHome": 0.394,
       "pDraw": 0.2542,
-      "pAway": 0.3518,
+      "pAway": 0.3517,
       "pOver25": 0.5226,
       "pBtts": 0.5609,
       "xgHome": 1.43,
@@ -6841,15 +6749,15 @@
      "prediction": {
       "pHome": 0.7966,
       "pDraw": 0.1164,
-      "pAway": 0.0848,
-      "pOver25": 0.809,
-      "pBtts": 0.6318,
+      "pAway": 0.0849,
+      "pOver25": 0.8091,
+      "pBtts": 0.6319,
       "xgHome": 3.3,
       "xgAway": 1.07,
       "tipScore": "3:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6318,
+     "pBtts": 0.6319,
      "odds": {
       "h": 1.25,
       "d": 6.0,
@@ -6966,7 +6874,7 @@
       "pHome": 0.3012,
       "pDraw": 0.204,
       "pAway": 0.4947,
-      "pOver25": 0.7475,
+      "pOver25": 0.7476,
       "pBtts": 0.7273,
       "xgHome": 1.7,
       "xgAway": 2.2,
@@ -7105,10 +7013,10 @@
       }
      ],
      "prediction": {
-      "pHome": 0.6388,
+      "pHome": 0.6389,
       "pDraw": 0.1878,
       "pAway": 0.1732,
-      "pOver25": 0.6742,
+      "pOver25": 0.6743,
       "pBtts": 0.6148,
       "xgHome": 2.33,
       "xgAway": 1.14,
@@ -7247,17 +7155,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.3356,
+      "pHome": 0.3355,
       "pDraw": 0.2372,
       "pAway": 0.4272,
       "pOver25": 0.5983,
-      "pBtts": 0.6177,
+      "pBtts": 0.6178,
       "xgHome": 1.44,
       "xgAway": 1.65,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6177,
+     "pBtts": 0.6178,
      "odds": {
       "h": 2.88,
       "d": 3.4,
@@ -7390,9 +7298,9 @@
       }
      ],
      "prediction": {
-      "pHome": 0.3954,
+      "pHome": 0.3953,
       "pDraw": 0.2303,
-      "pAway": 0.3743,
+      "pAway": 0.3744,
       "pOver25": 0.6401,
       "pBtts": 0.6523,
       "xgHome": 1.67,
@@ -7517,7 +7425,7 @@
       "pHome": 0.8084,
       "pDraw": 0.1182,
       "pAway": 0.0721,
-      "pOver25": 0.7452,
+      "pOver25": 0.7451,
       "pBtts": 0.5439,
       "xgHome": 3.05,
       "xgAway": 0.85,
@@ -7528,7 +7436,7 @@
      "odds": {
       "h": 1.36,
       "d": 5.0,
-      "a": 6.0,
+      "a": 6.5,
       "src": "William Hill"
      },
      "value": null,
@@ -7638,17 +7546,17 @@
      "nTeams": 32,
      "h2h": [],
      "prediction": {
-      "pHome": 0.565,
+      "pHome": 0.5649,
       "pDraw": 0.2184,
-      "pAway": 0.2166,
-      "pOver25": 0.5958,
-      "pBtts": 0.5815,
+      "pAway": 0.2167,
+      "pOver25": 0.5957,
+      "pBtts": 0.5814,
       "xgHome": 1.95,
       "xgAway": 1.13,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5815,
+     "pBtts": 0.5814,
      "odds": null,
      "value": null,
      "scorersHome": [],
@@ -7726,7 +7634,7 @@
      "nTeams": 32,
      "h2h": [],
      "prediction": {
-      "pHome": 0.3572,
+      "pHome": 0.3573,
       "pDraw": 0.2619,
       "pAway": 0.3808,
       "pOver25": 0.4896,
@@ -7833,9 +7741,9 @@
       }
      ],
      "prediction": {
-      "pHome": 0.2518,
-      "pDraw": 0.2552,
-      "pAway": 0.493,
+      "pHome": 0.2517,
+      "pDraw": 0.2551,
+      "pAway": 0.4931,
       "pOver25": 0.4739,
       "pBtts": 0.5045,
       "xgHome": 1.03,
@@ -7940,10 +7848,10 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4314,
+      "pHome": 0.4313,
       "pDraw": 0.2428,
-      "pAway": 0.3257,
-      "pOver25": 0.5683,
+      "pAway": 0.3258,
+      "pOver25": 0.5684,
       "pBtts": 0.5937,
       "xgHome": 1.6,
       "xgAway": 1.36,
@@ -7952,9 +7860,9 @@
      },
      "pBtts": 0.5937,
      "odds": {
-      "h": 2.2,
-      "d": 3.75,
-      "a": 2.7,
+      "h": 2.25,
+      "d": 3.8,
+      "a": 2.6,
       "src": "William Hill"
      },
      "value": null,
@@ -8071,10 +7979,10 @@
       }
      ],
      "prediction": {
-      "pHome": 0.6846,
-      "pDraw": 0.1809,
+      "pHome": 0.6845,
+      "pDraw": 0.181,
       "pAway": 0.1344,
-      "pOver25": 0.6234,
+      "pOver25": 0.6233,
       "pBtts": 0.5395,
       "xgHome": 2.3,
       "xgAway": 0.92,
@@ -8163,147 +8071,6 @@
    "espn": "bra.1",
    "matches": [
     {
-     "kickoff": "2026-09-05T23:30:00+02:00",
-     "home": "São Paulo",
-     "away": "Atlético-MG",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "U",
-      "N",
-      "U",
-      "N",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "U",
-      "S",
-      "U",
-      "S"
-     ],
-     "formHomeH": [
-      "U",
-      "U",
-      "N",
-      "U",
-      "S"
-     ],
-     "formAwayA": [
-      "N",
-      "S",
-      "S",
-      "U",
-      "U"
-     ],
-     "load14Home": 2,
-     "load14Away": 2,
-     "posHome": 11,
-     "posAway": 8,
-     "nTeams": 20,
-     "h2h": [
-      {
-       "date": "18.03.2026",
-       "home": "Atlético-MG",
-       "away": "São Paulo",
-       "score": "1:0"
-      },
-      {
-       "date": "24.08.2025",
-       "home": "São Paulo",
-       "away": "Atlético-MG",
-       "score": "2:0"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.4107,
-      "pDraw": 0.2817,
-      "pAway": 0.3076,
-      "pOver25": 0.404,
-      "pBtts": 0.4636,
-      "xgHome": 1.25,
-      "xgAway": 1.05,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.4636,
-     "odds": {
-      "h": 2.0,
-      "d": 3.1,
-      "a": 3.7,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Luciano",
-       "goals": 7
-      },
-      {
-       "name": "J. Calleri",
-       "goals": 7
-      }
-     ],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "São Paulo ist gegen Atlético-MG leicht favorisiert (41 % zu 31 %). In der Tabelle stehen sich Platz 16 und Platz 5 gegenüber. Die Form spricht für Atlético-MG: 3 Siege aus den letzten 5 Spielen, São Paulo holte nur 1. Heim-/Auswärtsbilanz: São Paulo gewann 1 der letzten 5 Heimspiele, Atlético-MG 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:0 (Atlético-MG – São Paulo). Das Modell erwartet eher wenige Tore (xG 1,2:1,1; über 2,5 Tore: 40 %, beide Teams treffen zu 46 %). Personal: São Paulo fehlen 26 Spieler (u.a. Andre Silva); Atlético-MG fehlen 27 Spieler (u.a. Lyanco).",
-     "injuriesHome": [
-      {
-       "name": "Andre Silva",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "Ryan Francisco",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "Alisson",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Danielzinho",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Lucca Marques",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Lucas Ramon",
-       "reason": "Inactive"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "Lyanco",
-       "reason": "Achilles Tendon Injury"
-      },
-      {
-       "name": "A. Preciado",
-       "reason": "Ankle Injury"
-      },
-      {
-       "name": "I. Roman",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Rony",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Alexsander",
-       "reason": "Injury"
-      },
-      {
-       "name": "M. Cassierra",
-       "reason": "Lacking Match Fitness"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
      "kickoff": "2026-09-06T02:00:00+02:00",
      "home": "Fluminense",
      "away": "Vasco da Gama",
@@ -8360,7 +8127,7 @@
      ],
      "prediction": {
       "pHome": 0.6597,
-      "pDraw": 0.1913,
+      "pDraw": 0.1912,
       "pAway": 0.1489,
       "pOver25": 0.6078,
       "pBtts": 0.5425,
@@ -8371,9 +8138,9 @@
      },
      "pBtts": 0.5425,
      "odds": {
-      "h": 2.15,
+      "h": 2.2,
       "d": 3.1,
-      "a": 3.25,
+      "a": 3.1,
       "src": "William Hill"
      },
      "value": null,
@@ -8493,7 +8260,7 @@
       "pHome": 0.5012,
       "pDraw": 0.2444,
       "pAway": 0.2544,
-      "pOver25": 0.5196,
+      "pOver25": 0.5197,
       "pBtts": 0.5401,
       "xgHome": 1.65,
       "xgAway": 1.1,
@@ -8625,10 +8392,10 @@
       }
      ],
      "prediction": {
-      "pHome": 0.3841,
+      "pHome": 0.3842,
       "pDraw": 0.2714,
-      "pAway": 0.3445,
-      "pOver25": 0.4494,
+      "pAway": 0.3444,
+      "pOver25": 0.4495,
       "pBtts": 0.5032,
       "xgHome": 1.28,
       "xgAway": 1.2,
@@ -8711,7 +8478,7 @@
       "S",
       "S"
      ],
-     "load14Home": 2,
+     "load14Home": 1,
      "load14Away": 2,
      "posHome": 18,
      "posAway": 14,
@@ -8737,13 +8504,13 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4043,
+      "pHome": 0.4042,
       "pDraw": 0.2639,
-      "pAway": 0.3318,
-      "pOver25": 0.4777,
+      "pAway": 0.3319,
+      "pOver25": 0.4776,
       "pBtts": 0.5245,
       "xgHome": 1.37,
-      "xgAway": 1.21,
+      "xgAway": 1.22,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
@@ -8876,14 +8643,14 @@
       "pHome": 0.1412,
       "pDraw": 0.1886,
       "pAway": 0.6701,
-      "pOver25": 0.6033,
-      "pBtts": 0.5313,
+      "pOver25": 0.6031,
+      "pBtts": 0.5312,
       "xgHome": 0.91,
       "xgAway": 2.21,
       "tipScore": "0:2",
       "confidence": "hoch"
      },
-     "pBtts": 0.5313,
+     "pBtts": 0.5312,
      "odds": {
       "h": 6.0,
       "d": 4.2,
@@ -9019,17 +8786,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.2581,
-      "pDraw": 0.2344,
-      "pAway": 0.5075,
-      "pOver25": 0.5666,
-      "pBtts": 0.5769,
+      "pHome": 0.258,
+      "pDraw": 0.2343,
+      "pAway": 0.5076,
+      "pOver25": 0.5669,
+      "pBtts": 0.5771,
       "xgHome": 1.19,
       "xgAway": 1.76,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5769,
+     "pBtts": 0.5771,
      "odds": {
       "h": 3.1,
       "d": 3.3,
@@ -9163,17 +8930,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.6734,
-      "pDraw": 0.2013,
-      "pAway": 0.1252,
-      "pOver25": 0.5107,
-      "pBtts": 0.444,
+      "pHome": 0.6733,
+      "pDraw": 0.2014,
+      "pAway": 0.1253,
+      "pOver25": 0.5106,
+      "pBtts": 0.4441,
       "xgHome": 2.0,
       "xgAway": 0.72,
       "tipScore": "1:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.444,
+     "pBtts": 0.4441,
      "odds": {
       "h": 1.36,
       "d": 4.33,
@@ -9308,7 +9075,7 @@
       "pHome": 0.6591,
       "pDraw": 0.1856,
       "pAway": 0.1552,
-      "pOver25": 0.6486,
+      "pOver25": 0.6487,
       "pBtts": 0.5799,
       "xgHome": 2.31,
       "xgAway": 1.03,
@@ -9448,15 +9215,15 @@
      "prediction": {
       "pHome": 0.5077,
       "pDraw": 0.2173,
-      "pAway": 0.2749,
+      "pAway": 0.275,
       "pOver25": 0.6618,
-      "pBtts": 0.6545,
+      "pBtts": 0.6544,
       "xgHome": 1.99,
       "xgAway": 1.42,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6545,
+     "pBtts": 0.6544,
      "odds": null,
      "value": null,
      "scorersHome": [],
@@ -9467,7 +9234,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Sarpsborg FK ist gegen Vålerenga leicht favorisiert (51 % zu 27 %). In der Tabelle stehen sich Platz 9 und Platz 10 gegenüber. Heim-/Auswärtsbilanz: Sarpsborg FK gewann 4 der letzten 5 Heimspiele, Vålerenga 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:2 (Vålerenga – Sarpsborg FK). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,4; über 2,5 Tore: 66 %, beide Teams treffen zu 65 %). Gefährlichste Torschützen: bei Vålerenga Lucas Haren (8 Tore). Personal: Vålerenga fehlen 14 Spieler (u.a. F. Ambina).",
+     "analysis": "Sarpsborg FK ist gegen Vålerenga leicht favorisiert (50 % zu 28 %). In der Tabelle stehen sich Platz 9 und Platz 10 gegenüber. Heim-/Auswärtsbilanz: Sarpsborg FK gewann 4 der letzten 5 Heimspiele, Vålerenga 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:2 (Vålerenga – Sarpsborg FK). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,4; über 2,5 Tore: 66 %, beide Teams treffen zu 65 %). Gefährlichste Torschützen: bei Vålerenga Lucas Haren (8 Tore). Personal: Vålerenga fehlen 14 Spieler (u.a. F. Ambina).",
      "injuriesAway": [
       {
        "name": "F. Ambina",
@@ -9555,7 +9322,7 @@
       "pHome": 0.1782,
       "pDraw": 0.2368,
       "pAway": 0.585,
-      "pOver25": 0.4662,
+      "pOver25": 0.4663,
       "pBtts": 0.4607,
       "xgHome": 0.83,
       "xgAway": 1.71,
@@ -10504,7 +10271,7 @@
      },
      "pBtts": 0.657,
      "odds": {
-      "h": 3.7,
+      "h": 3.8,
       "d": 3.5,
       "a": 1.85,
       "src": "William Hill"
@@ -10882,178 +10649,7 @@
  ],
  "tennis": [
   {
-   "start": "2026-09-05T22:15:00+02:00",
-   "tour": "ATP",
-   "tournament": "US Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Mac Kiger / Aleksandar Kovacevic",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Jenson Brooksby / Marcos Giron",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-09-05T22:15:00+02:00",
-   "tour": "ATP",
-   "tournament": "US Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Adam Pavlasek / Patrik Rikl",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Andrey Golubev / Aleksandr Nedovyesov",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-09-05T22:15:00+02:00",
-   "tour": "WTA",
-   "tournament": "US Open",
-   "round": "2. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Gabriela Dabrowski / Luisa Stefani",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Sara Errani / Lilli Tagger",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-09-05T22:20:00+02:00",
-   "tour": "ATP",
-   "tournament": "US Open",
-   "round": "3. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Arthur Gea",
-    "rank": 87,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 9
-   },
-   "p2": {
-    "name": "Michael Zheng",
-    "rank": 107,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 7
-   },
-   "pP1": 0.5548,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.5439,
-    "bo5": true
-   },
-   "h2h": [],
-   "analysis": "Arthur Gea (Weltrangliste #87) trifft auf Michael Zheng (#107). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Arthur Gea mit 55 % vorn. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 2.2,
-    "p2": 1.67,
-    "src": "888sport"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-05T22:30:00+02:00",
-   "tour": "ATP",
-   "tournament": "US Open",
-   "round": "3. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Botic Van De Zandschulp",
-    "rank": 70,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 6
-   },
-   "p2": {
-    "name": "Zizou Bergs",
-    "rank": 37,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 8
-   },
-   "pP1": 0.3364,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.3677,
-    "bo5": true
-   },
-   "h2h": [],
-   "analysis": "Botic Van De Zandschulp (Weltrangliste #70) trifft auf Zizou Bergs (#37). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Zizou Bergs mit 66 % vorn. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 1.45,
-    "p2": 2.73,
-    "src": "Marathon Bet"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-05T23:00:00+02:00",
+   "start": "2026-09-06T00:30:00+02:00",
    "tour": "ATP",
    "tournament": "US Open",
    "round": "1. Runde",
@@ -11078,7 +10674,7 @@
    "timeTBD": false
   },
   {
-   "start": "2026-09-05T23:30:00+02:00",
+   "start": "2026-09-06T00:30:00+02:00",
    "tour": "ATP",
    "tournament": "US Open",
    "round": "1. Runde",
@@ -11103,7 +10699,7 @@
    "timeTBD": false
   },
   {
-   "start": "2026-09-05T23:30:00+02:00",
+   "start": "2026-09-06T00:30:00+02:00",
    "tour": "WTA",
    "tournament": "US Open",
    "round": "3. Runde",
@@ -11397,7 +10993,7 @@
    "surface": null,
    "doubles": true,
    "p1": {
-    "name": "TBD / TBD",
+    "name": "Francisco Cabral / JJ Tracy",
     "rank": null,
     "last7": 0,
     "sets7": 0
@@ -11478,7 +11074,7 @@
     "sets7": 0
    },
    "p2": {
-    "name": "TBD / TBD",
+    "name": "Arthur Fery / Joshua Paris",
     "rank": null,
     "last7": 0,
     "sets7": 0
@@ -11597,13 +11193,13 @@
    "surface": null,
    "doubles": true,
    "p1": {
-    "name": "Guido Andreozzi / Manuel Guinard",
+    "name": "Marcelo Arevalo / Mate Pavic",
     "rank": null,
     "last7": 0,
     "sets7": 0
    },
    "p2": {
-    "name": "Alexander Bublik / Shang Juncheng",
+    "name": "Mac Kiger / Aleksandar Kovacevic",
     "rank": null,
     "last7": 0,
     "sets7": 0
@@ -11678,7 +11274,7 @@
     "sets7": 0
    },
    "p2": {
-    "name": "TBD / TBD",
+    "name": "Sadio Doumbia / Fabien Reboul",
     "rank": null,
     "last7": 0,
     "sets7": 0
@@ -12916,6 +12512,48 @@
    "start": "2026-09-07T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "US Open",
+   "round": "4. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Zheng Qinwen",
+    "rank": 121,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 9
+   },
+   "p2": {
+    "name": "Iga Swiatek",
+    "rank": 8,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 6
+   },
+   "pP1": 0.0904,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.0904
+   },
+   "h2h": [],
+   "analysis": "Zheng Qinwen (Weltrangliste #121) trifft auf Iga Swiatek (#8). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Iga Swiatek mit 91 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-07T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "US Open",
    "round": "3. Runde",
    "surface": null,
    "doubles": true,
@@ -12945,13 +12583,38 @@
    "surface": null,
    "doubles": true,
    "p1": {
-    "name": "TBD / TBD",
+    "name": "Storm Hunter / Desirae Krawczyk",
     "rank": null,
     "last7": 0,
     "sets7": 0
    },
    "p2": {
     "name": "Katerina Siniakova / Taylor Townsend",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-09-07T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "US Open",
+   "round": "3. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "TBD / TBD",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Ashlyn Krueger / Robin Montgomery",
     "rank": null,
     "last7": 0,
     "sets7": 0
@@ -13559,6 +13222,22 @@
    "score": "7:6 3:6 0:6 3:6"
   },
   {
+   "tour": "ATP",
+   "tournament": "US Open",
+   "p1": "Benjamin Bonzi",
+   "p2": "Karen Khachanov",
+   "winner": "Karen Khachanov",
+   "score": "3:6 2:6 4:6"
+  },
+  {
+   "tour": "ATP",
+   "tournament": "US Open",
+   "p1": "Dane Sweeny",
+   "p2": "Luciano Darderi",
+   "winner": "Luciano Darderi",
+   "score": "4:6 3:6 3:6"
+  },
+  {
    "tour": "WTA",
    "tournament": "US Open",
    "p1": "Anna Kalinskaya",
@@ -13589,29 +13268,45 @@
    "p2": "Mirra Andreeva",
    "winner": "Mirra Andreeva",
    "score": "2:6 6:7"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "US Open",
+   "p1": "Marie Bouzkova",
+   "p2": "Iga Swiatek",
+   "winner": "Iga Swiatek",
+   "score": "6:7 6:7"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "US Open",
+   "p1": "Coco Gauff",
+   "p2": "Cristina Bucsa",
+   "winner": "Coco Gauff",
+   "score": "6:3 6:4"
   }
  ],
  "stats": {
   "overall": {
-   "n": 1390,
-   "correct": 834,
-   "pct": 0.6
+   "n": 1395,
+   "correct": 838,
+   "pct": 0.6007
   },
   "football": {
-   "n": 466,
+   "n": 467,
    "correct": 238,
-   "pct": 0.5107
+   "pct": 0.5096
   },
   "tennis": {
-   "n": 924,
-   "correct": 596,
-   "pct": 0.645
+   "n": 928,
+   "correct": 600,
+   "pct": 0.6466
   },
   "exact": {
-   "n": 466,
+   "n": 467,
    "correct": 46
   },
-  "open": 294,
+  "open": 291,
   "recent": [
    {
     "date": "2026-09-05",
@@ -13709,6 +13404,17 @@
     "tip": "2",
     "prob": 0.458,
     "result": "2:2",
+    "correct": false,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-09-05",
+    "comp": "2. Bundesliga",
+    "label": "Dynamo Dresden – VfL Bochum",
+    "tipName": "Dynamo Dresden",
+    "tip": "1",
+    "prob": 0.4186,
+    "result": "1:2",
     "correct": false,
     "sport": "fb"
    },
@@ -13875,17 +13581,6 @@
     "prob": 0.5682,
     "result": "3:2",
     "correct": true,
-    "sport": "fb"
-   },
-   {
-    "date": "2026-09-05",
-    "comp": "La Liga",
-    "label": "Athletic Club – Atlético Madrid",
-    "tipName": "Atlético Madrid",
-    "tip": "2",
-    "prob": 0.4789,
-    "result": "3:0",
-    "correct": false,
     "sport": "fb"
    }
   ]
