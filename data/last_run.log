@@ -129,8 +129,8 @@ body { font-family: Tahoma, Verdana, Arial, sans-serif; }
 <td align="center" valign="middle">
 The page you are looking for is temporar
 total 8
-drwxr-xr-x  2 runner runner 4096 Sep  5 23:30 .
-drwxrwxrwt 14 root   root   4096 Sep  5 23:30 ..
+drwxr-xr-x  2 runner runner 4096 Sep  6 08:09 .
+drwxrwxrwt 15 root   root   4096 Sep  6 08:09 ..
   WARN: https://www.football-data.co.uk/fixtures.csv nicht erreichbar (HTTP Error 503: Service Temporarily Unavailable)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/uefa.champions/seasons/2026/types/1/leaders nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/uefa.champions/seasons/2026/types/2/leaders nicht erreichbar (HTTP Error 404: Not Found)
@@ -150,7 +150,6 @@ drwxrwxrwt 14 root   root   4096 Sep  5 23:30 ..
   WARN: https://www.football-data.co.uk/mmz4281/2627/N1.csv nicht erreichbar (HTTP Error 503: Service Temporarily Unavailable)
   WARN: https://www.football-data.co.uk/mmz4281/2526/B1.csv nicht erreichbar (HTTP Error 503: Service Temporarily Unavailable)
   WARN: https://www.football-data.co.uk/mmz4281/2627/B1.csv nicht erreichbar (HTTP Error 503: Service Temporarily Unavailable)
-  WARN: https://api.the-odds-api.com/v4/sports/soccer_belgium_pro_league/odds/?apiKey=8392ea7216723e341b1a7c2cea58bcb4&regions=eu&markets=h2h&oddsFormat=decimal nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -255,12 +254,11 @@ fixtures.csv: 0 Spiele mit Quoten
   257 Ergebnisse geladen
   2 Spiele in den naechsten 3 Tagen
 == MLS (USA) ==
-  581 Ergebnisse geladen
-  14 Spiele in den naechsten 3 Tagen
-  3 Prognosen via Team-Historie-Fallback erstellt
+  594 Ergebnisse geladen
+  0 Spiele in den naechsten 3 Tagen
 == Série A (Brasilien) ==
-  512 Ergebnisse geladen
-  8 Spiele in den naechsten 3 Tagen
+  513 Ergebnisse geladen
+  7 Spiele in den naechsten 3 Tagen
 == Eliteserien (Norwegen) ==
   295 Ergebnisse geladen
   3 Spiele in den naechsten 3 Tagen
@@ -280,10 +278,10 @@ fixtures.csv: 0 Spiele mit Quoten
   Historie: ATP 0 Matches, WTA 0 Matches
   Elo ATP: 0 Spieler bewertet
   Elo WTA: 0 Spieler bewertet
-  Belag-Zuordnung (MatchStat): 16 Turniere
-  Tennis-Quoten zugeordnet: 13
-  71 Tennis-Matches in den naechsten 3 Tagen
-  0 Tennis-Matches heute bereits beendet
-  Tipp-Log: 2355 Eintraege, 1409 ausgewertet, 847 richtig
-  Premium-Abrufe: Tennis 6, Fussball 270 (Tennis AKTIV, Fussball AKTIV)
+  Belag-Zuordnung (MatchStat): 48 Turniere
+  Tennis-Quoten zugeordnet: 10
+  72 Tennis-Matches in den naechsten 3 Tagen
+  3 Tennis-Matches heute bereits beendet
+  Tipp-Log: 2360 Eintraege, 1435 ausgewertet, 862 richtig
+  Premium-Abrufe: Tennis 6, Fussball 259 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
