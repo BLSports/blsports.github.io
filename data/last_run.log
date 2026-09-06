@@ -129,8 +129,8 @@ body { font-family: Tahoma, Verdana, Arial, sans-serif; }
 <td align="center" valign="middle">
 The page you are looking for is temporar
 total 8
-drwxr-xr-x  2 runner runner 4096 Sep  6 20:14 .
-drwxrwxrwt 14 root   root   4096 Sep  6 20:14 ..
+drwxr-xr-x  2 runner runner 4096 Sep  6 23:26 .
+drwxrwxrwt 14 root   root   4096 Sep  6 23:26 ..
   WARN: https://www.football-data.co.uk/fixtures.csv nicht erreichbar (HTTP Error 503: Service Temporarily Unavailable)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/uefa.champions/seasons/2026/types/1/leaders nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/uefa.champions/seasons/2026/types/2/leaders nicht erreichbar (HTTP Error 404: Not Found)
@@ -154,11 +154,11 @@ drwxrwxrwt 14 root   root   4096 Sep  6 20:14 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260328-20260625&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
-  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260626-20260906&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
-  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260906 nicht erreichbar (HTTP Error 400: Bad Request)
+  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260626-20260907&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260907 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260908 nicht erreichbar (HTTP Error 400: Bad Request)
-  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260906-20270104&limit=50 nicht erreichbar (HTTP Error 400: Bad Request)
+  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260909 nicht erreichbar (HTTP Error 400: Bad Request)
+  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20260907-20270105&limit=50 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://www.football-data.co.uk/mmz4281/2526/P1.csv nicht erreichbar (HTTP Error 503: Service Temporarily Unavailable)
   WARN: https://www.football-data.co.uk/mmz4281/2627/P1.csv nicht erreichbar (HTTP Error 503: Service Temporarily Unavailable)
   WARN: https://www.football-data.co.uk/mmz4281/2526/T1.csv nicht erreichbar (HTTP Error 503: Service Temporarily Unavailable)
@@ -184,8 +184,8 @@ fixtures.csv: 0 Spiele mit Quoten
   0 Spiele in den naechsten 3 Tagen
 == Champions League ==
   189 Ergebnisse geladen
-  6 Spiele in den naechsten 3 Tagen
-  4 Prognosen via Team-Historie-Fallback erstellt
+  12 Spiele in den naechsten 3 Tagen
+  7 Prognosen via Team-Historie-Fallback erstellt
 == Europa League ==
   189 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
@@ -205,23 +205,23 @@ fixtures.csv: 0 Spiele mit Quoten
   410 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
 == Serie A ==
-  407 Ergebnisse geladen
+  408 Ergebnisse geladen
   2 Spiele in den naechsten 3 Tagen
 == La Liga ==
-  418 Ergebnisse geladen
+  419 Ergebnisse geladen
   2 Spiele in den naechsten 3 Tagen
 == La Liga 2 ==
-  510 Ergebnisse geladen
+  511 Ergebnisse geladen
   1 Spiele in den naechsten 3 Tagen
 == Ligue 1 ==
-  331 Ergebnisse geladen
+  332 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
 == Ligue 2 ==
   350 Ergebnisse geladen
   1 Spiele in den naechsten 3 Tagen
 == Eredivisie ==
   350 Ergebnisse geladen
-  1 Spiele in den naechsten 3 Tagen
+  2 Spiele in den naechsten 3 Tagen
 == Eerste Divisie ==
   430 Ergebnisse geladen
   2 Spiele in den naechsten 3 Tagen
@@ -232,8 +232,8 @@ fixtures.csv: 0 Spiele mit Quoten
   0 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
 == Primeira Liga (Portugal) ==
-  346 Ergebnisse geladen
-  1 Spiele in den naechsten 3 Tagen
+  347 Ergebnisse geladen
+  2 Spiele in den naechsten 3 Tagen
 == Süper Lig (Türkei) ==
   340 Ergebnisse geladen
   2 Spiele in den naechsten 3 Tagen
@@ -245,13 +245,13 @@ fixtures.csv: 0 Spiele mit Quoten
   0 Spiele in den naechsten 3 Tagen
 == Premiership (Schottland) ==
   259 Ergebnisse geladen
-  0 Spiele in den naechsten 3 Tagen
+  2 Spiele in den naechsten 3 Tagen
 == MLS (USA) ==
   594 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
 == Série A (Brasilien) ==
-  514 Ergebnisse geladen
-  3 Spiele in den naechsten 3 Tagen
+  518 Ergebnisse geladen
+  1 Spiele in den naechsten 3 Tagen
 == Eliteserien (Norwegen) ==
   298 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
@@ -264,17 +264,17 @@ fixtures.csv: 0 Spiele mit Quoten
 == Premier Division (Irland) ==
   66 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
-  Kicker-News: 35 Schlagzeilen geladen
+  Kicker-News: 36 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 201, WTA 200
   Historie: ATP 0 Matches, WTA 0 Matches
   Elo ATP: 0 Spieler bewertet
   Elo WTA: 0 Spieler bewertet
-  Belag-Zuordnung (MatchStat): 40 Turniere
-  Tennis-Quoten zugeordnet: 5
-  75 Tennis-Matches in den naechsten 3 Tagen
-  21 Tennis-Matches heute bereits beendet
-  Tipp-Log: 2377 Eintraege, 1484 ausgewertet, 884 richtig
-  Premium-Abrufe: Tennis 6, Fussball 154 (Tennis AKTIV, Fussball AKTIV)
+  Belag-Zuordnung (MatchStat): 20 Turniere
+  Tennis-Quoten zugeordnet: 10
+  89 Tennis-Matches in den naechsten 3 Tagen
+  0 Tennis-Matches heute bereits beendet
+  Tipp-Log: 2399 Eintraege, 1496 ausgewertet, 888 richtig
+  Premium-Abrufe: Tennis 6, Fussball 168 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
