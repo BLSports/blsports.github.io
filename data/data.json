@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-06T12:11:27.868726+02:00",
+ "generatedAt": "2026-09-06T16:51:29.784366+02:00",
  "windowDays": 3,
  "days": [
   "2026-09-06",
@@ -328,10 +328,6 @@
       {
        "title": "Löcher in der Kette: Dortmunds Sorgen ganz hinten",
        "link": "https://www.kicker.de/loecher-in-der-kette-dortmunds-sorgen-ganz-hinten-1250124/artikel#omrss"
-      },
-      {
-       "title": "Villarreal - DEP: Tor in der 88. Minute",
-       "link": "https://www.kicker.de/villarreal-dep-tor-in-der-88-minute-1250079/video#omrss"
       }
      ]
     },
@@ -614,7 +610,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Real Madrid geht als klarer Favorit (58 %) in das Heimspiel gegen Internazionale. Die Form spricht für Real Madrid: 3 Siege aus den letzten 5 Spielen, Internazionale holte nur 1. Heim-/Auswärtsbilanz: Real Madrid gewann 3 der letzten 5 Heimspiele, Internazionale 3 der letzten 5 Auswärtsspiele. Das Modell erwartet ein torreiches Spiel (xG 2,1:1,2; über 2,5 Tore: 64 %, beide Teams treffen zu 61 %). Gefährlichste Torschützen: bei Real Madrid Kylian Mbappé (15 Tore). Personal: Real Madrid fehlen 10 Spieler (u.a. R. Asencio); Internazionale fehlen 1 Spieler (u.a. D. Spence).",
+     "analysis": "Real Madrid geht als klarer Favorit (58 %) in das Heimspiel gegen Internazionale. Die Form spricht für Real Madrid: 3 Siege aus den letzten 5 Spielen, Internazionale holte nur 1. Heim-/Auswärtsbilanz: Real Madrid gewann 3 der letzten 5 Heimspiele, Internazionale 3 der letzten 5 Auswärtsspiele. Das Modell erwartet ein torreiches Spiel (xG 2,1:1,2; über 2,5 Tore: 64 %, beide Teams treffen zu 61 %). Gefährlichste Torschützen: bei Real Madrid Kylian Mbappé (15 Tore). Personal: Real Madrid fehlen 10 Spieler (u.a. R. Asencio); Internazionale fehlen 2 Spieler (u.a. D. Spence).",
      "injuriesHome": [
       {
        "name": "R. Asencio",
@@ -644,6 +640,10 @@
      "injuriesAway": [
       {
        "name": "D. Spence",
+       "reason": "Inactive"
+      },
+      {
+       "name": "M. Spinacce",
        "reason": "Inactive"
       }
      ],
@@ -745,17 +745,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.3684,
+      "pHome": 0.3685,
       "pDraw": 0.2856,
-      "pAway": 0.346,
-      "pOver25": 0.3967,
-      "pBtts": 0.4609,
+      "pAway": 0.3459,
+      "pOver25": 0.3966,
+      "pBtts": 0.4608,
       "xgHome": 1.16,
       "xgAway": 1.11,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.4609,
+     "pBtts": 0.4608,
      "odds": {
       "h": 2.78,
       "d": 3.47,
@@ -803,7 +803,13 @@
        "reason": "Foot Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "news": [
+      {
+       "title": "LIVE! Fabio Vieira ist zurück - Mainzer Blitzstart in Hälfte zwei",
+       "link": "https://www.kicker.de/live-fabio-vieira-ist-zurueck-mainzer-blitzstart-in-haelfte-zwei-1249131/artikel#omrss"
+      }
+     ]
     },
     {
      "kickoff": "2026-09-06T17:30:00+02:00",
@@ -861,17 +867,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5111,
+      "pHome": 0.511,
       "pDraw": 0.2125,
-      "pAway": 0.2763,
-      "pOver25": 0.6867,
-      "pBtts": 0.674,
+      "pAway": 0.2764,
+      "pOver25": 0.6869,
+      "pBtts": 0.6741,
       "xgHome": 2.06,
       "xgAway": 1.48,
       "tipScore": "2:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.674,
+     "pBtts": 0.6741,
      "odds": {
       "h": 1.93,
       "d": 3.9,
@@ -952,300 +958,15 @@
    "name": "2. Bundesliga",
    "flag": "🇩🇪",
    "espn": "ger.2",
-   "matches": [
-    {
-     "kickoff": "2026-09-06T13:30:00+02:00",
-     "home": "Hertha BSC",
-     "away": "1. FC Magdeburg",
-     "homeIcon": "https://i.imgur.com/apFwbYZ.png",
-     "awayIcon": "https://upload.wikimedia.org/wikipedia/commons/8/84/1._FC_Magdeburg.svg",
-     "matchday": 4,
-     "roundName": null,
-     "formHome": [
-      "S",
-      "N",
-      "S",
-      "S",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "N",
-      "S",
-      "S"
-     ],
-     "formHomeH": [
-      "U",
-      "N",
-      "N",
-      "S",
-      "S"
-     ],
-     "formAwayA": [
-      "S",
-      "N",
-      "N",
-      "S",
-      "S"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 2,
-     "posAway": 6,
-     "nTeams": 18,
-     "h2h": [
-      {
-       "date": "03.05.2026",
-       "home": "1. FC Magdeburg",
-       "away": "Hertha BSC",
-       "score": "1:0"
-      },
-      {
-       "date": "07.12.2025",
-       "home": "Hertha BSC",
-       "away": "1. FC Magdeburg",
-       "score": "0:2"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.5377,
-      "pDraw": 0.2132,
-      "pAway": 0.2491,
-      "pOver25": 0.6584,
-      "pBtts": 0.6435,
-      "xgHome": 2.05,
-      "xgAway": 1.34,
-      "tipScore": "2:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.6435,
-     "odds": {
-      "h": 1.85,
-      "d": 3.75,
-      "a": 3.4,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Oluwaseun Victor Adewumi",
-       "goals": 2
-      },
-      {
-       "name": "J. Brekalo",
-       "goals": 2
-      },
-      {
-       "name": "Sebastian Grönning",
-       "goals": 1
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "M. Zukowski",
-       "goals": 2
-      },
-      {
-       "name": "A. Nollenberg",
-       "goals": 1
-      },
-      {
-       "name": "E. Iyoha",
-       "goals": 1
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Hertha BSC ist gegen 1. FC Magdeburg leicht favorisiert (54 % zu 25 %). In der Tabelle stehen sich Platz 2 und Platz 7 gegenüber. Heim-/Auswärtsbilanz: Hertha BSC gewann 2 der letzten 5 Heimspiele, 1. FC Magdeburg 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:0 (1. FC Magdeburg – Hertha BSC). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,3; über 2,5 Tore: 66 %, beide Teams treffen zu 64 %). Gefährlichste Torschützen: bei Hertha BSC Oluwaseun Victor Adewumi (2 Tore) und bei 1. FC Magdeburg M. Zukowski (2 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-09-06T13:30:00+02:00",
-     "home": "SpVgg Greuther Fürth",
-     "away": "1. FC Heidenheim 1846",
-     "homeIcon": "https://i.imgur.com/pwuVbKr.png",
-     "awayIcon": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
-     "matchday": 4,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "S",
-      "U",
-      "N",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "S"
-     ],
-     "formHomeH": [
-      "N",
-      "S",
-      "U",
-      "S",
-      "N"
-     ],
-     "formAwayA": [
-      "N"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 9,
-     "posAway": 5,
-     "nTeams": 18,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.3998,
-      "pDraw": 0.1472,
-      "pAway": 0.4415,
-      "pOver25": 0.9695,
-      "pBtts": 0.9441,
-      "xgHome": 3.72,
-      "xgAway": 3.87,
-      "tipScore": "3:3",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.9441,
-     "odds": {
-      "h": 2.63,
-      "d": 3.55,
-      "a": 2.23,
-      "src": "LeoVegas (SE)"
-     },
-     "value": {
-      "outcome": "1",
-      "edge": 0.0574,
-      "modelP": 0.3998,
-      "odds": 2.63
-     },
-     "scorersHome": [
-      {
-       "name": "F. Klaus",
-       "goals": 5
-      },
-      {
-       "name": "Fousseny Doumbia",
-       "goals": 1
-      },
-      {
-       "name": "O. Pohlmann",
-       "goals": 1
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "J. Schöppner",
-       "goals": 3
-      },
-      {
-       "name": "B. Zivzivadze",
-       "goals": 1
-      },
-      {
-       "name": "M. Costly",
-       "goals": 1
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen SpVgg Greuther Fürth und 1. FC Heidenheim 1846 deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg SpVgg Greuther Fürth 40 %, Unentschieden 15 %, Sieg 1. FC Heidenheim 1846 45 %). In der Tabelle stehen sich Platz 10 und Platz 6 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 3,7:3,9; über 2,5 Tore: 97 %, beide Teams treffen zu 94 %). Gefährlichste Torschützen: bei SpVgg Greuther Fürth F. Klaus (5 Tore) und bei 1. FC Heidenheim 1846 J. Schöppner (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,63) für 6 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-09-06T13:30:00+02:00",
-     "home": "VfL Osnabrück",
-     "away": "Eintracht Braunschweig",
-     "homeIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/VfL_Osnabrueck_Logo_2021%E2%80%93.svg/960px-VfL_Osnabrueck_Logo_2021%E2%80%93.svg.png",
-     "awayIcon": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
-     "matchday": 4,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "N",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "S",
-      "N",
-      "N"
-     ],
-     "formHomeH": [
-      "N"
-     ],
-     "formAwayA": [
-      "N",
-      "S",
-      "N",
-      "N",
-      "S"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 16,
-     "posAway": 13,
-     "nTeams": 18,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.3465,
-      "pDraw": 0.2279,
-      "pAway": 0.4256,
-      "pOver25": 0.6475,
-      "pBtts": 0.6565,
-      "xgHome": 1.57,
-      "xgAway": 1.76,
-      "tipScore": "1:1",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.6565,
-     "odds": {
-      "h": 2.18,
-      "d": 3.2,
-      "a": 2.8,
-      "src": "PMU (FR)"
-     },
-     "value": {
-      "outcome": "2",
-      "edge": 0.1091,
-      "modelP": 0.4256,
-      "odds": 2.8
-     },
-     "scorersHome": [
-      {
-       "name": "N. Wiemann",
-       "goals": 1
-      },
-      {
-       "name": "D. Kopacz",
-       "goals": 1
-      },
-      {
-       "name": "R. Meißner",
-       "goals": 1
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "J. Urbich",
-       "goals": 3
-      },
-      {
-       "name": "A. Opoku",
-       "goals": 1
-      },
-      {
-       "name": "Mehmet Can Aydin",
-       "goals": 1
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen VfL Osnabrück und Eintracht Braunschweig deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg VfL Osnabrück 35 %, Unentschieden 23 %, Sieg Eintracht Braunschweig 42 %). In der Tabelle stehen sich Platz 16 und Platz 13 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 1,6:1,8; über 2,5 Tore: 65 %, beide Teams treffen zu 66 %). Gefährlichste Torschützen: bei VfL Osnabrück N. Wiemann (1 Tore) und bei Eintracht Braunschweig J. Urbich (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,80) für 11 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": true,
-   "isCup": false
+   "isCup": false,
+   "nextMatch": {
+    "kickoff": "2026-09-11T18:30:00+02:00",
+    "home": "SV Darmstadt 98",
+    "away": "DSC Arminia Bielefeld",
+    "matchday": 5
+   }
   },
   {
    "id": "bl3",
@@ -1253,98 +974,6 @@
    "flag": "🇩🇪",
    "espn": "ger.3",
    "matches": [
-    {
-     "kickoff": "2026-09-06T13:30:00+02:00",
-     "home": "Würzburger Kickers",
-     "away": "VfB Stuttgart II",
-     "homeIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Würzburger_Kickers_Logo.svg/250px-Würzburger_Kickers_Logo.svg.png",
-     "awayIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/VfB_Stuttgart_1893_Logo.svg/960px-VfB_Stuttgart_1893_Logo.svg.png",
-     "matchday": 4,
-     "roundName": null,
-     "formHome": [
-      "U",
-      "S",
-      "N"
-     ],
-     "formAway": [
-      "N",
-      "N",
-      "S",
-      "N",
-      "N"
-     ],
-     "formHomeH": [
-      "S"
-     ],
-     "formAwayA": [
-      "N",
-      "N",
-      "N",
-      "S",
-      "N"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 11,
-     "posAway": 15,
-     "nTeams": 20,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.6054,
-      "pDraw": 0.1832,
-      "pAway": 0.2111,
-      "pOver25": 0.7605,
-      "pBtts": 0.7075,
-      "xgHome": 2.53,
-      "xgAway": 1.47,
-      "tipScore": "2:1",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.7075,
-     "odds": {
-      "h": 2.3,
-      "d": 3.6,
-      "a": 2.8,
-      "src": "Tipico"
-     },
-     "value": {
-      "outcome": "1",
-      "edge": 0.1989,
-      "modelP": 0.6054,
-      "odds": 2.3
-     },
-     "scorersHome": [
-      {
-       "name": "Ivan Franjic",
-       "goals": 2
-      },
-      {
-       "name": "Tarsis Bonga",
-       "goals": 1
-      },
-      {
-       "name": "Liam Omore",
-       "goals": 1
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Alexander Groiß",
-       "goals": 1
-      },
-      {
-       "name": "Tim van der Leij",
-       "goals": 1
-      },
-      {
-       "name": "J. Malanga",
-       "goals": 1
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Würzburger Kickers geht als klarer Favorit (61 %) in das Heimspiel gegen VfB Stuttgart II. In der Tabelle stehen sich Platz 11 und Platz 16 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 2,5:1,5; über 2,5 Tore: 76 %, beide Teams treffen zu 71 %). Gefährlichste Torschützen: bei Würzburger Kickers Ivan Franjic (2 Tore) und bei VfB Stuttgart II Alexander Groiß (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,30) für 20 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-09-06T16:30:00+02:00",
      "home": "SG Sonnenhof Großaspach",
@@ -1383,17 +1012,17 @@
      "nTeams": 20,
      "h2h": [],
      "prediction": {
-      "pHome": 0.1076,
-      "pDraw": 0.2771,
-      "pAway": 0.6154,
-      "pOver25": 0.2622,
-      "pBtts": 0.2469,
+      "pHome": 0.1075,
+      "pDraw": 0.2766,
+      "pAway": 0.6159,
+      "pOver25": 0.2631,
+      "pBtts": 0.2475,
       "xgHome": 0.4,
       "xgAway": 1.37,
       "tipScore": "0:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.2469,
+     "pBtts": 0.2475,
      "odds": {
       "h": 2.1,
       "d": 3.7,
@@ -1402,8 +1031,8 @@
      },
      "value": {
       "outcome": "2",
-      "edge": 0.3137,
-      "modelP": 0.6154,
+      "edge": 0.3142,
+      "modelP": 0.6159,
       "odds": 3.1
      },
      "scorersHome": [
@@ -1456,22 +1085,22 @@
      ],
      "load14Home": 1,
      "load14Away": 1,
-     "posHome": 12,
+     "posHome": 13,
      "posAway": 16,
      "nTeams": 20,
      "h2h": [],
      "prediction": {
       "pHome": 0.4653,
-      "pDraw": 0.3849,
-      "pAway": 0.1499,
-      "pOver25": 0.1347,
-      "pBtts": 0.1843,
+      "pDraw": 0.3845,
+      "pAway": 0.1502,
+      "pOver25": 0.1352,
+      "pBtts": 0.1848,
       "xgHome": 0.89,
       "xgAway": 0.38,
       "tipScore": "0:0",
       "confidence": "niedrig"
      },
-     "pBtts": 0.1843,
+     "pBtts": 0.1848,
      "odds": {
       "h": 3.3,
       "d": 3.2,
@@ -1505,7 +1134,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Fortuna Köln ist gegen Fortuna Düsseldorf leicht favorisiert (47 % zu 15 %). In der Tabelle stehen sich Platz 12 und Platz 14 gegenüber. Das Modell erwartet eher wenige Tore (xG 0,9:0,4; über 2,5 Tore: 13 %, beide Teams treffen zu 18 %). Gefährlichste Torschützen: bei Fortuna Köln R. Aigbekaen (2 Tore) und bei Fortuna Düsseldorf Schleusener (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,30) für 18 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Fortuna Köln ist gegen Fortuna Düsseldorf leicht favorisiert (47 % zu 15 %). In der Tabelle stehen sich Platz 13 und Platz 15 gegenüber. Das Modell erwartet eher wenige Tore (xG 0,9:0,4; über 2,5 Tore: 14 %, beide Teams treffen zu 18 %). Gefährlichste Torschützen: bei Fortuna Köln R. Aigbekaen (2 Tore) und bei Fortuna Düsseldorf Schleusener (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,30) für 18 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
@@ -1518,127 +1147,6 @@
    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
    "espn": "eng.1",
    "matches": [
-    {
-     "kickoff": "2026-09-06T15:00:00+02:00",
-     "home": "Everton",
-     "away": "Manchester United",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "U",
-      "N",
-      "N",
-      "S",
-      "U"
-     ],
-     "formAway": [
-      "U",
-      "S",
-      "S",
-      "N",
-      "S"
-     ],
-     "formHomeH": [
-      "S",
-      "N",
-      "U",
-      "N",
-      "S"
-     ],
-     "formAwayA": [
-      "U",
-      "S",
-      "U",
-      "S",
-      "N"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 10,
-     "posAway": 12,
-     "nTeams": 20,
-     "h2h": [
-      {
-       "date": "23.02.2026",
-       "home": "Everton",
-       "away": "Manchester United",
-       "score": "0:1"
-      },
-      {
-       "date": "24.11.2025",
-       "home": "Manchester United",
-       "away": "Everton",
-       "score": "0:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.3318,
-      "pDraw": 0.2411,
-      "pAway": 0.4271,
-      "pOver25": 0.5786,
-      "pBtts": 0.6023,
-      "xgHome": 1.4,
-      "xgAway": 1.61,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.6023,
-     "odds": {
-      "h": 3.3,
-      "d": 3.6,
-      "a": 2.05,
-      "src": "Unibet (FR)"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Bruno Fernandes",
-       "goals": 3
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Manchester United ist bei Everton leicht favorisiert (43 % zu 33 %). In der Tabelle stehen sich Platz 10 und Platz 12 gegenüber. Die Form spricht für Manchester United: 3 Siege aus den letzten 5 Spielen, Everton holte nur 1. Heim-/Auswärtsbilanz: Everton gewann 2 der letzten 5 Heimspiele, Manchester United 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:1 (Everton – Manchester United). Das Modell erwartet ein torreiches Spiel (xG 1,4:1,6; über 2,5 Tore: 58 %, beide Teams treffen zu 60 %). Gefährlichste Torschützen: bei Manchester United Bruno Fernandes (3 Tore). Personal: Everton fehlen 2 Spieler (u.a. T. Iroegbunam); Manchester United fehlen 6 Spieler (u.a. T. Heaton).",
-     "injuriesHome": [
-      {
-       "name": "T. Iroegbunam",
-       "reason": "Muscle Injury"
-      },
-      {
-       "name": "C. Norgaard",
-       "reason": "Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "T. Heaton",
-       "reason": "Injury"
-      },
-      {
-       "name": "M. Mount",
-       "reason": "Foot Injury"
-      },
-      {
-       "name": "M. Ugarte",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "M. de Ligt",
-       "reason": "Back Injury"
-      },
-      {
-       "name": "C. Baleba",
-       "reason": "Ankle Injury"
-      },
-      {
-       "name": "A. Diallo",
-       "reason": "Injury"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-09-06T17:30:00+02:00",
      "home": "Arsenal",
@@ -1698,14 +1206,14 @@
       "pHome": 0.7396,
       "pDraw": 0.1657,
       "pAway": 0.0945,
-      "pOver25": 0.583,
-      "pBtts": 0.4539,
+      "pOver25": 0.5829,
+      "pBtts": 0.4538,
       "xgHome": 2.33,
       "xgAway": 0.7,
       "tipScore": "2:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.4539,
+     "pBtts": 0.4538,
      "odds": {
       "h": 1.7,
       "d": 3.9,
@@ -1784,7 +1292,13 @@
        "reason": "Hamstring Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "news": [
+      {
+       "title": "LIVE! Mit Havertz ins London-Derby: Meister Arsenal empfängt Chelsea",
+       "link": "https://www.kicker.de/arsenal-gegen-chelsea-2026-premier-league-5213290/spielbericht#omrss"
+      }
+     ]
     }
    ],
    "seasonHasStarted": true,
@@ -1796,218 +1310,6 @@
    "flag": "🇮🇹",
    "espn": "ita.1",
    "matches": [
-    {
-     "kickoff": "2026-09-06T15:00:00+02:00",
-     "home": "Frosinone",
-     "away": "Venezia",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "S"
-     ],
-     "formAway": [
-      "N",
-      "N"
-     ],
-     "formHomeH": [
-      "N"
-     ],
-     "formAwayA": [
-      "N"
-     ],
-     "load14Home": 2,
-     "load14Away": 2,
-     "posHome": 9,
-     "posAway": 18,
-     "nTeams": 20,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.3834,
-      "pDraw": 0.2718,
-      "pAway": 0.3449,
-      "pOver25": 0.4482,
-      "pBtts": 0.5022,
-      "xgHome": 1.27,
-      "xgAway": 1.19,
-      "tipScore": "1:1",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.5022,
-     "odds": {
-      "h": 2.75,
-      "d": 3.35,
-      "a": 2.6,
-      "src": "Codere (IT)"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "A. Raimondo",
-       "goals": 2
-      },
-      {
-       "name": "G. Bracaglia",
-       "goals": 1
-      }
-     ],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen Frosinone und Venezia deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Frosinone 39 %, Unentschieden 27 %, Sieg Venezia 34 %). In der Tabelle stehen sich Platz 9 und Platz 18 gegenüber. Das Modell erwartet eher wenige Tore (xG 1,3:1,2; über 2,5 Tore: 45 %, beide Teams treffen zu 50 %). Personal: Frosinone fehlen 1 Spieler (u.a. F. Ghedjemis); Venezia fehlen 6 Spieler (u.a. A. Adorante).",
-     "injuriesHome": [
-      {
-       "name": "F. Ghedjemis",
-       "reason": "Calf Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "A. Adorante",
-       "reason": "Hernia"
-      },
-      {
-       "name": "A. Duncan",
-       "reason": "Injury"
-      },
-      {
-       "name": "M. Moreno",
-       "reason": "Health problems"
-      },
-      {
-       "name": "M. Sverko",
-       "reason": "Hip Injury"
-      },
-      {
-       "name": "T. Basic",
-       "reason": "Foot Injury"
-      },
-      {
-       "name": "B. Franjic",
-       "reason": "Injury"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-09-06T15:00:00+02:00",
-     "home": "Parma",
-     "away": "Monza",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "N",
-      "S",
-      "N",
-      "N"
-     ],
-     "formAway": [
-      "N",
-      "N"
-     ],
-     "formHomeH": [
-      "U",
-      "S",
-      "N",
-      "S",
-      "N"
-     ],
-     "formAwayA": [
-      "N"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 16,
-     "posAway": 17,
-     "nTeams": 20,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.2195,
-      "pDraw": 0.3045,
-      "pAway": 0.4759,
-      "pOver25": 0.2976,
-      "pBtts": 0.3544,
-      "xgHome": 0.71,
-      "xgAway": 1.2,
-      "tipScore": "0:1",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.3544,
-     "odds": {
-      "h": 2.55,
-      "d": 3.05,
-      "a": 2.85,
-      "src": "Winamax (DE)"
-     },
-     "value": {
-      "outcome": "2",
-      "edge": 0.1483,
-      "modelP": 0.4759,
-      "odds": 2.85
-     },
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Gustavo Varela",
-       "goals": 2
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Monza ist bei Parma leicht favorisiert (48 % zu 22 %). In der Tabelle stehen sich Platz 16 und Platz 17 gegenüber. Das Modell erwartet eher wenige Tore (xG 0,7:1,2; über 2,5 Tore: 30 %, beide Teams treffen zu 35 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,85) für 15 Prozentpunkte wahrscheinlicher als der Markt. Personal: Parma fehlen 5 Spieler (u.a. S. Britschgi); Monza fehlen 9 Spieler (u.a. E. Akinsanmiro).",
-     "injuriesHome": [
-      {
-       "name": "S. Britschgi",
-       "reason": "Yellow Cards"
-      },
-      {
-       "name": "A. Joujou",
-       "reason": "Inactive"
-      },
-      {
-       "name": "H. Nicolussi Caviglia",
-       "reason": "Groin Injury"
-      },
-      {
-       "name": "A. Bernabe",
-       "reason": "Inactive"
-      },
-      {
-       "name": "O. Diallo",
-       "reason": "Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "E. Akinsanmiro",
-       "reason": "Muscle Injury"
-      },
-      {
-       "name": "P. Ciurria",
-       "reason": "Inactive"
-      },
-      {
-       "name": "L. Colombo",
-       "reason": "Injury"
-      },
-      {
-       "name": "D. Mota",
-       "reason": "Suspended"
-      },
-      {
-       "name": "M. Pessina",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "D. Thiam",
-       "reason": "Yellow Cards"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-09-06T18:00:00+02:00",
      "home": "Bologna",
@@ -2064,17 +1366,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.389,
-      "pDraw": 0.2713,
-      "pAway": 0.3398,
+      "pHome": 0.3891,
+      "pDraw": 0.2712,
+      "pAway": 0.3397,
       "pOver25": 0.4496,
-      "pBtts": 0.503,
+      "pBtts": 0.5031,
       "xgHome": 1.29,
       "xgAway": 1.19,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.503,
+     "pBtts": 0.5031,
      "odds": {
       "h": 2.08,
       "d": 3.35,
@@ -2083,8 +1385,8 @@
      },
      "value": {
       "outcome": "2",
-      "edge": 0.0823,
-      "modelP": 0.3398,
+      "edge": 0.0822,
+      "modelP": 0.3397,
       "odds": 3.7
      },
      "scorersHome": [],
@@ -2193,17 +1495,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.444,
+      "pHome": 0.4441,
       "pDraw": 0.2904,
-      "pAway": 0.2656,
+      "pAway": 0.2655,
       "pOver25": 0.36,
-      "pBtts": 0.42,
+      "pBtts": 0.4199,
       "xgHome": 1.24,
       "xgAway": 0.89,
       "tipScore": "1:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.42,
+     "pBtts": 0.4199,
      "odds": {
       "h": 2.0,
       "d": 3.2,
@@ -2211,12 +1513,7 @@
       "src": "Unibet (FR)"
      },
      "value": null,
-     "scorersHome": [
-      {
-       "name": "T. Koopmeiners",
-       "goals": 1
-      }
-     ],
+     "scorersHome": [],
      "scorersAway": [
       {
        "name": "A. Rabiot",
@@ -2224,7 +1521,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Juventus ist gegen AC Milan leicht favorisiert (44 % zu 27 %). In der Tabelle stehen sich Platz 4 und Platz 5 gegenüber. Heim-/Auswärtsbilanz: Juventus gewann 3 der letzten 5 Heimspiele, AC Milan 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (AC Milan – Juventus). Das Modell erwartet eher wenige Tore (xG 1,2:0,9; über 2,5 Tore: 36 %, beide Teams treffen zu 42 %). Personal: Juventus fehlen 9 Spieler (u.a. W. McKennie); AC Milan fehlen 6 Spieler (u.a. Y. Fofana).",
+     "analysis": "Juventus ist gegen AC Milan leicht favorisiert (44 % zu 27 %). In der Tabelle stehen sich Platz 4 und Platz 5 gegenüber. Heim-/Auswärtsbilanz: Juventus gewann 3 der letzten 5 Heimspiele, AC Milan 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (AC Milan – Juventus). Das Modell erwartet eher wenige Tore (xG 1,2:0,9; über 2,5 Tore: 36 %, beide Teams treffen zu 42 %). Personal: Juventus fehlen 10 Spieler (u.a. W. McKennie); AC Milan fehlen 6 Spieler (u.a. Y. Fofana).",
      "injuriesHome": [
       {
        "name": "W. McKennie",
@@ -2247,8 +1544,8 @@
        "reason": "Thigh Injury"
       },
       {
-       "name": "J. Ekhator",
-       "reason": "Muscle Injury"
+       "name": "A. Cambiaso",
+       "reason": "Ankle Injury"
       }
      ],
      "injuriesAway": [
@@ -2336,16 +1633,16 @@
      ],
      "prediction": {
       "pHome": 0.4365,
-      "pDraw": 0.3058,
-      "pAway": 0.2576,
-      "pOver25": 0.3128,
-      "pBtts": 0.3796,
+      "pDraw": 0.3059,
+      "pAway": 0.2577,
+      "pOver25": 0.3127,
+      "pBtts": 0.3795,
       "xgHome": 1.15,
       "xgAway": 0.81,
       "tipScore": "1:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.3796,
+     "pBtts": 0.3795,
      "odds": {
       "h": 2.04,
       "d": 3.15,
@@ -2548,147 +1845,6 @@
    "espn": "esp.1",
    "matches": [
     {
-     "kickoff": "2026-09-06T16:15:00+02:00",
-     "home": "Valencia",
-     "away": "Barcelona",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "S",
-      "S",
-      "U",
-      "N",
-      "N"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "S",
-      "S",
-      "S"
-     ],
-     "formHomeH": [
-      "N",
-      "U",
-      "S",
-      "U",
-      "N"
-     ],
-     "formAwayA": [
-      "S",
-      "S",
-      "N",
-      "N",
-      "S"
-     ],
-     "load14Home": 2,
-     "load14Away": 3,
-     "posHome": 18,
-     "posAway": 1,
-     "nTeams": 20,
-     "h2h": [
-      {
-       "date": "23.05.2026",
-       "home": "Valencia",
-       "away": "Barcelona",
-       "score": "3:1"
-      },
-      {
-       "date": "14.09.2025",
-       "home": "Barcelona",
-       "away": "Valencia",
-       "score": "6:0"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.1371,
-      "pDraw": 0.1855,
-      "pAway": 0.6773,
-      "pOver25": 0.6079,
-      "pBtts": 0.5305,
-      "xgHome": 0.9,
-      "xgAway": 2.24,
-      "tipScore": "0:2",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.5305,
-     "odds": {
-      "h": 10.0,
-      "d": 6.3,
-      "a": 1.32,
-      "src": "1xBet"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Raphinha",
-       "goals": 5
-      },
-      {
-       "name": "Fermín López",
-       "goals": 3
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Barcelona reist als klarer Favorit (67 %) zu Valencia. In der Tabelle stehen sich Platz 18 und Platz 1 gegenüber. Die Form spricht für Barcelona: 4 Siege aus den letzten 5 Spielen, Valencia holte nur 2. Heim-/Auswärtsbilanz: Valencia gewann 1 der letzten 5 Heimspiele, Barcelona 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:1 (Valencia – Barcelona). Das Modell erwartet ein torreiches Spiel (xG 0,9:2,2; über 2,5 Tore: 61 %, beide Teams treffen zu 53 %). Gefährlichste Torschützen: bei Barcelona Raphinha (5 Tore). Personal: Valencia fehlen 10 Spieler (u.a. S. Canos); Barcelona fehlen 9 Spieler (u.a. A. Balde).",
-     "injuriesHome": [
-      {
-       "name": "S. Canos",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "J. Copete",
-       "reason": "Ankle Injury"
-      },
-      {
-       "name": "D. Foulquier",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "D. Lopez",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "A. Mari",
-       "reason": "Leg Injury"
-      },
-      {
-       "name": "L. Rioja",
-       "reason": "Muscle Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "A. Balde",
-       "reason": "Coach's decision"
-      },
-      {
-       "name": "R. Bardghji",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "J. Bisiwu",
-       "reason": "Inactive"
-      },
-      {
-       "name": "M. Casado",
-       "reason": "Coach's decision"
-      },
-      {
-       "name": "H. Fort",
-       "reason": "Coach's decision"
-      },
-      {
-       "name": "Rodri",
-       "reason": "Lacking Match Fitness"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
      "kickoff": "2026-09-06T18:30:00+02:00",
      "home": "Alavés",
      "away": "Osasuna",
@@ -2744,17 +1900,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4617,
-      "pDraw": 0.2726,
+      "pHome": 0.4618,
+      "pDraw": 0.2727,
       "pAway": 0.2656,
-      "pOver25": 0.4181,
-      "pBtts": 0.4659,
+      "pOver25": 0.418,
+      "pBtts": 0.4658,
       "xgHome": 1.38,
       "xgAway": 0.97,
       "tipScore": "1:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.4659,
+     "pBtts": 0.4658,
      "odds": {
       "h": 2.35,
       "d": 3.19,
@@ -2854,14 +2010,14 @@
       "pHome": 0.0818,
       "pDraw": 0.1988,
       "pAway": 0.7193,
-      "pOver25": 0.4159,
-      "pBtts": 0.3129,
+      "pOver25": 0.4158,
+      "pBtts": 0.3128,
       "xgHome": 0.46,
       "xgAway": 1.88,
       "tipScore": "0:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.3129,
+     "pBtts": 0.3128,
      "odds": {
       "h": 2.37,
       "d": 3.27,
@@ -2981,9 +2137,9 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4855,
-      "pDraw": 0.2477,
-      "pAway": 0.2669,
+      "pHome": 0.4856,
+      "pDraw": 0.2476,
+      "pAway": 0.2668,
       "pOver25": 0.5155,
       "pBtts": 0.541,
       "xgHome": 1.61,
@@ -3000,8 +2156,8 @@
      },
      "value": {
       "outcome": "1",
-      "edge": 0.0662,
-      "modelP": 0.4855,
+      "edge": 0.0663,
+      "modelP": 0.4856,
       "odds": 2.35
      },
      "scorersHome": [
@@ -3010,12 +2166,7 @@
        "goals": 3
       }
      ],
-     "scorersAway": [
-      {
-       "name": "Isaac",
-       "goals": 1
-      }
-     ],
+     "scorersAway": [],
      "scorersPeriod": "Saison",
      "analysis": "Espanyol ist gegen Sevilla leicht favorisiert (48 % zu 27 %). In der Tabelle stehen sich Platz 14 und Platz 8 gegenüber. Heim-/Auswärtsbilanz: Espanyol gewann 2 der letzten 5 Heimspiele, Sevilla 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:1 (Sevilla – Espanyol). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:1,1; über 2,5 Tore: 52 %, beide Teams treffen zu 54 %). Gefährlichste Torschützen: bei Espanyol Roberto Fernández (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,35) für 7 Prozentpunkte wahrscheinlicher als der Markt. Personal: Espanyol fehlen 4 Spieler (u.a. K. Garcia); Sevilla fehlen 4 Spieler (u.a. A. Gonzalez).",
      "injuriesHome": [
@@ -3112,10 +2263,10 @@
       }
      ],
      "prediction": {
-      "pHome": 0.3489,
-      "pDraw": 0.3555,
-      "pAway": 0.2956,
-      "pOver25": 0.2113,
+      "pHome": 0.349,
+      "pDraw": 0.3556,
+      "pAway": 0.2955,
+      "pOver25": 0.2112,
       "pBtts": 0.2971,
       "xgHome": 0.84,
       "xgAway": 0.74,
@@ -3242,15 +2393,15 @@
      "prediction": {
       "pHome": 0.438,
       "pDraw": 0.2281,
-      "pAway": 0.3338,
-      "pOver25": 0.6425,
-      "pBtts": 0.6513,
+      "pAway": 0.3339,
+      "pOver25": 0.6424,
+      "pBtts": 0.6512,
       "xgHome": 1.78,
       "xgAway": 1.53,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6513,
+     "pBtts": 0.6512,
      "odds": {
       "h": 3.09,
       "d": 3.5,
@@ -3328,158 +2479,6 @@
    "espn": "esp.2",
    "matches": [
     {
-     "kickoff": "2026-09-06T14:00:00+02:00",
-     "home": "Eibar",
-     "away": "Granada",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3752.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3747.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "S",
-      "N",
-      "N",
-      "S",
-      "S"
-     ],
-     "formAway": [
-      "N",
-      "N",
-      "U",
-      "S",
-      "S"
-     ],
-     "formHomeH": [
-      "S",
-      "N",
-      "S",
-      "N",
-      "S"
-     ],
-     "formAwayA": [
-      "S",
-      "N",
-      "N",
-      "U",
-      "S"
-     ],
-     "load14Home": 2,
-     "load14Away": 2,
-     "posHome": 10,
-     "posAway": 3,
-     "nTeams": 22,
-     "h2h": [
-      {
-       "date": "19.01.2026",
-       "home": "Granada",
-       "away": "Eibar",
-       "score": "0:0"
-      },
-      {
-       "date": "22.08.2025",
-       "home": "Eibar",
-       "away": "Granada",
-       "score": "3:0"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.4911,
-      "pDraw": 0.2821,
-      "pAway": 0.2268,
-      "pOver25": 0.3629,
-      "pBtts": 0.4093,
-      "xgHome": 1.34,
-      "xgAway": 0.81,
-      "tipScore": "1:0",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.4093,
-     "odds": {
-      "h": 2.11,
-      "d": 3.37,
-      "a": 3.71,
-      "src": "Pinnacle"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Eibar ist gegen Granada leicht favorisiert (49 % zu 23 %). In der Tabelle stehen sich Platz 10 und Platz 2 gegenüber. Heim-/Auswärtsbilanz: Eibar gewann 3 der letzten 5 Heimspiele, Granada 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (Granada – Eibar). Das Modell erwartet eher wenige Tore (xG 1,3:0,8; über 2,5 Tore: 36 %, beide Teams treffen zu 41 %).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-09-06T16:15:00+02:00",
-     "home": "Real Oviedo",
-     "away": "Burgos",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/92.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/12597.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "U",
-      "N",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "S",
-      "S",
-      "N",
-      "U"
-     ],
-     "formHomeH": [
-      "U",
-      "N"
-     ],
-     "formAwayA": [
-      "N",
-      "U",
-      "S",
-      "S",
-      "N"
-     ],
-     "load14Home": 1,
-     "load14Away": 2,
-     "posHome": 14,
-     "posAway": 13,
-     "nTeams": 22,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.1721,
-      "pDraw": 0.6348,
-      "pAway": 0.1931,
-      "pOver25": 0.016,
-      "pBtts": 0.0525,
-      "xgHome": 0.25,
-      "xgAway": 0.27,
-      "tipScore": "0:0",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.0525,
-     "odds": {
-      "h": 1.92,
-      "d": 3.05,
-      "a": 4.0,
-      "src": "Betsson"
-     },
-     "value": {
-      "outcome": "X",
-      "edge": 0.3364,
-      "modelP": 0.6348,
-      "odds": 3.05
-     },
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Alex Fores",
-       "goals": 2
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen Real Oviedo und Burgos deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Real Oviedo 17 %, Unentschieden 64 %, Sieg Burgos 19 %). In der Tabelle stehen sich Platz 13 und Platz 14 gegenüber. Die Form spricht für Burgos: 3 Siege aus den letzten 5 Spielen, Real Oviedo holte nur 1. Das Modell erwartet eher wenige Tore (xG 0,2:0,3; über 2,5 Tore: 2 %, beide Teams treffen zu 5 %). Gefährlichste Torschützen: bei Burgos Alex Fores (2 Tore). Quoten-Hinweis: Das Modell hält Tipp X (Quote 3,05) für 34 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
      "kickoff": "2026-09-06T18:30:00+02:00",
      "home": "Castellón",
      "away": "Albacete",
@@ -3535,17 +2534,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5517,
-      "pDraw": 0.2321,
-      "pAway": 0.2162,
-      "pOver25": 0.5341,
-      "pBtts": 0.5347,
+      "pHome": 0.5541,
+      "pDraw": 0.2315,
+      "pAway": 0.2144,
+      "pOver25": 0.5345,
+      "pBtts": 0.5341,
       "xgHome": 1.79,
-      "xgAway": 1.03,
+      "xgAway": 1.02,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5347,
+     "pBtts": 0.5341,
      "odds": {
       "h": 1.46,
       "d": 3.95,
@@ -3561,7 +2560,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Castellón geht als klarer Favorit (55 %) in das Heimspiel gegen Albacete. In der Tabelle stehen sich Platz 6 und Platz 21 gegenüber. Heim-/Auswärtsbilanz: Castellón gewann 1 der letzten 5 Heimspiele, Albacete 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:1 (Albacete – Castellón). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,8:1,0; über 2,5 Tore: 53 %, beide Teams treffen zu 53 %).",
+     "analysis": "Castellón geht als klarer Favorit (56 %) in das Heimspiel gegen Albacete. In der Tabelle stehen sich Platz 6 und Platz 21 gegenüber. Heim-/Auswärtsbilanz: Castellón gewann 1 der letzten 5 Heimspiele, Albacete 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:1 (Albacete – Castellón). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,8:1,0; über 2,5 Tore: 53 %, beide Teams treffen zu 53 %).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -3620,17 +2619,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.6681,
-      "pDraw": 0.1871,
-      "pAway": 0.1447,
-      "pOver25": 0.6181,
-      "pBtts": 0.5462,
+      "pHome": 0.6703,
+      "pDraw": 0.1863,
+      "pAway": 0.1433,
+      "pOver25": 0.6187,
+      "pBtts": 0.5453,
       "xgHome": 2.25,
       "xgAway": 0.94,
       "tipScore": "2:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.5462,
+     "pBtts": 0.5453,
      "odds": {
       "h": 1.53,
       "d": 4.34,
@@ -3686,17 +2685,17 @@
      "nTeams": 22,
      "h2h": [],
      "prediction": {
-      "pHome": 0.3431,
-      "pDraw": 0.5957,
-      "pAway": 0.0612,
-      "pOver25": 0.0197,
-      "pBtts": 0.0353,
-      "xgHome": 0.46,
+      "pHome": 0.344,
+      "pDraw": 0.5949,
+      "pAway": 0.0611,
+      "pOver25": 0.0198,
+      "pBtts": 0.0354,
+      "xgHome": 0.47,
       "xgAway": 0.1,
       "tipScore": "0:0",
       "confidence": "niedrig"
      },
-     "pBtts": 0.0353,
+     "pBtts": 0.0354,
      "odds": {
       "h": 2.2,
       "d": 3.0,
@@ -3729,120 +2728,6 @@
    "flag": "🇫🇷",
    "espn": "fra.1",
    "matches": [
-    {
-     "kickoff": "2026-09-06T15:00:00+02:00",
-     "home": "Troyes",
-     "away": "Strasbourg",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "U",
-      "S"
-     ],
-     "formAway": [
-      "U",
-      "S",
-      "S",
-      "N",
-      "S"
-     ],
-     "formHomeH": [
-      "U"
-     ],
-     "formAwayA": [
-      "S",
-      "S",
-      "U",
-      "S",
-      "N"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 7,
-     "posAway": 12,
-     "nTeams": 18,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.4257,
-      "pDraw": 0.2328,
-      "pAway": 0.3415,
-      "pOver25": 0.6214,
-      "pBtts": 0.636,
-      "xgHome": 1.7,
-      "xgAway": 1.5,
-      "tipScore": "1:1",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.636,
-     "odds": {
-      "h": 2.85,
-      "d": 3.45,
-      "a": 2.35,
-      "src": "Winamax (DE)"
-     },
-     "value": {
-      "outcome": "1",
-      "edge": 0.0966,
-      "modelP": 0.4257,
-      "odds": 2.85
-     },
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Gessime Yassine",
-       "goals": 2
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Troyes ist gegen Strasbourg leicht favorisiert (43 % zu 34 %). In der Tabelle stehen sich Platz 6 und Platz 12 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 1,7:1,5; über 2,5 Tore: 62 %, beide Teams treffen zu 64 %). Gefährlichste Torschützen: bei Strasbourg Gessime Yassine (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,85) für 10 Prozentpunkte wahrscheinlicher als der Markt. Personal: Troyes fehlen 4 Spieler (u.a. I. Boura); Strasbourg fehlen 6 Spieler (u.a. B. Chilwell).",
-     "injuriesHome": [
-      {
-       "name": "I. Boura",
-       "reason": "Injury"
-      },
-      {
-       "name": "A. Fatah",
-       "reason": "Hamstring Injury"
-      },
-      {
-       "name": "Y. Titi",
-       "reason": "Injury"
-      },
-      {
-       "name": "P. Gozzi",
-       "reason": "Muscle Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "B. Chilwell",
-       "reason": "Hamstring Injury"
-      },
-      {
-       "name": "I. Doukoure",
-       "reason": "Injury"
-      },
-      {
-       "name": "M. Godo",
-       "reason": "Muscle Injury"
-      },
-      {
-       "name": "J. Panichelli",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "S. El Mourabet",
-       "reason": "Red Card"
-      },
-      {
-       "name": "M. Oyedele",
-       "reason": "Injury"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-09-06T17:15:00+02:00",
      "home": "Angers",
@@ -3879,7 +2764,7 @@
       "N",
       "N"
      ],
-     "load14Home": 2,
+     "load14Home": 1,
      "load14Away": 2,
      "posHome": 11,
      "posAway": 7,
@@ -3902,14 +2787,14 @@
       "pHome": 0.2349,
       "pDraw": 0.2365,
       "pAway": 0.5285,
-      "pOver25": 0.5354,
-      "pBtts": 0.5445,
+      "pOver25": 0.5355,
+      "pBtts": 0.5446,
       "xgHome": 1.08,
       "xgAway": 1.74,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5445,
+     "pBtts": 0.5446,
      "odds": null,
      "value": null,
      "scorersHome": [
@@ -3994,10 +2879,10 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4916,
+      "pHome": 0.4918,
       "pDraw": 0.2372,
-      "pAway": 0.2712,
-      "pOver25": 0.5644,
+      "pAway": 0.271,
+      "pOver25": 0.5645,
       "pBtts": 0.5794,
       "xgHome": 1.72,
       "xgAway": 1.22,
@@ -4120,17 +3005,17 @@
      "nTeams": 18,
      "h2h": [],
      "prediction": {
-      "pHome": 0.3036,
+      "pHome": 0.3038,
       "pDraw": 0.2079,
-      "pAway": 0.4884,
-      "pOver25": 0.7298,
-      "pBtts": 0.7138,
+      "pAway": 0.4882,
+      "pOver25": 0.7295,
+      "pBtts": 0.7136,
       "xgHome": 1.66,
       "xgAway": 2.13,
       "tipScore": "1:2",
       "confidence": "niedrig"
      },
-     "pBtts": 0.7138,
+     "pBtts": 0.7136,
      "odds": {
       "h": 1.82,
       "d": 3.2,
@@ -4139,17 +3024,13 @@
      },
      "value": {
       "outcome": "2",
-      "edge": 0.2497,
-      "modelP": 0.4884,
+      "edge": 0.2495,
+      "modelP": 0.4882,
       "odds": 3.7
      },
      "scorersHome": [
       {
        "name": "W. Younoussa",
-       "goals": 2
-      },
-      {
-       "name": "K. Corredor",
        "goals": 2
       }
      ],
@@ -4173,480 +3054,6 @@
    "flag": "🇳🇱",
    "espn": "ned.1",
    "matches": [
-    {
-     "kickoff": "2026-09-06T12:15:00+02:00",
-     "home": "FC Groningen",
-     "away": "FC Twente",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/145.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/152.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "S",
-      "S",
-      "N",
-      "N"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "N",
-      "S",
-      "S"
-     ],
-     "formHomeH": [
-      "U",
-      "N",
-      "S",
-      "S",
-      "N"
-     ],
-     "formAwayA": [
-      "S",
-      "U",
-      "N",
-      "N",
-      "S"
-     ],
-     "load14Home": 2,
-     "load14Away": 1,
-     "posHome": 10,
-     "posAway": 8,
-     "nTeams": 18,
-     "h2h": [
-      {
-       "date": "22.02.2026",
-       "home": "FC Twente",
-       "away": "FC Groningen",
-       "score": "2:1"
-      },
-      {
-       "date": "02.11.2025",
-       "home": "FC Groningen",
-       "away": "FC Twente",
-       "score": "1:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.2691,
-      "pDraw": 0.2448,
-      "pAway": 0.4861,
-      "pOver25": 0.5294,
-      "pBtts": 0.5522,
-      "xgHome": 1.16,
-      "xgAway": 1.64,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.5522,
-     "odds": {
-      "h": 3.33,
-      "d": 3.81,
-      "a": 2.09,
-      "src": "1xBet"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "B. Willumsson",
-       "goals": 3
-      },
-      {
-       "name": "T. van Bergen",
-       "goals": 2
-      }
-     ],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "FC Twente ist bei FC Groningen leicht favorisiert (49 % zu 27 %). In der Tabelle stehen sich Platz 10 und Platz 8 gegenüber. Heim-/Auswärtsbilanz: FC Groningen gewann 2 der letzten 5 Heimspiele, FC Twente 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:1 (FC Twente – FC Groningen). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,2:1,6; über 2,5 Tore: 53 %, beide Teams treffen zu 55 %). Personal: FC Groningen fehlen 6 Spieler (u.a. M. Jeng); FC Twente fehlen 4 Spieler (u.a. M. Hilgers).",
-     "injuriesHome": [
-      {
-       "name": "M. Jeng",
-       "reason": "Leg Injury"
-      },
-      {
-       "name": "S. Resink",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "O. Zawada",
-       "reason": "Knock"
-      },
-      {
-       "name": "T. Mercera",
-       "reason": "Injury"
-      },
-      {
-       "name": "R. Metu",
-       "reason": "Injury"
-      },
-      {
-       "name": "M. Rente",
-       "reason": "Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "M. Hilgers",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "S. Lemkin",
-       "reason": "Injury"
-      },
-      {
-       "name": "K. Hlynsson",
-       "reason": "Inactive"
-      },
-      {
-       "name": "S. Lammers",
-       "reason": "Inactive"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-09-06T14:30:00+02:00",
-     "home": "Heerenveen",
-     "away": "AZ Alkmaar",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/146.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/140.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "S",
-      "U",
-      "N",
-      "U"
-     ],
-     "formAway": [
-      "U",
-      "S",
-      "S",
-      "S",
-      "S"
-     ],
-     "formHomeH": [
-      "S",
-      "S",
-      "U",
-      "S",
-      "N"
-     ],
-     "formAwayA": [
-      "N",
-      "U",
-      "U",
-      "S",
-      "S"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 11,
-     "posAway": 2,
-     "nTeams": 18,
-     "h2h": [
-      {
-       "date": "12.04.2026",
-       "home": "AZ Alkmaar",
-       "away": "Heerenveen",
-       "score": "3:0"
-      },
-      {
-       "date": "23.11.2025",
-       "home": "Heerenveen",
-       "away": "AZ Alkmaar",
-       "score": "3:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.311,
-      "pDraw": 0.2335,
-      "pAway": 0.4555,
-      "pOver25": 0.6065,
-      "pBtts": 0.6206,
-      "xgHome": 1.4,
-      "xgAway": 1.74,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.6206,
-     "odds": {
-      "h": 3.65,
-      "d": 4.0,
-      "a": 1.74,
-      "src": "Winamax (DE)"
-     },
-     "value": {
-      "outcome": "1",
-      "edge": 0.0616,
-      "modelP": 0.311,
-      "odds": 3.65
-     },
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Ro-Zangelo Daal",
-       "goals": 3
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "AZ Alkmaar ist bei Heerenveen leicht favorisiert (46 % zu 31 %). In der Tabelle stehen sich Platz 12 und Platz 2 gegenüber. Die Form spricht für AZ Alkmaar: 4 Siege aus den letzten 5 Spielen, Heerenveen holte nur 1. Heim-/Auswärtsbilanz: Heerenveen gewann 3 der letzten 5 Heimspiele, AZ Alkmaar 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:0 (AZ Alkmaar – Heerenveen). Das Modell erwartet ein torreiches Spiel (xG 1,4:1,7; über 2,5 Tore: 61 %, beide Teams treffen zu 62 %). Gefährlichste Torschützen: bei AZ Alkmaar Ro-Zangelo Daal (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,65) für 6 Prozentpunkte wahrscheinlicher als der Markt. Personal: Heerenveen fehlen 4 Spieler (u.a. O. Braude); AZ Alkmaar fehlen 8 Spieler (u.a. J. Clasie).",
-     "injuriesHome": [
-      {
-       "name": "O. Braude",
-       "reason": "Injury"
-      },
-      {
-       "name": "M. Egbring",
-       "reason": "Injury"
-      },
-      {
-       "name": "M. Linday",
-       "reason": "Inactive"
-      },
-      {
-       "name": "M. Hilgers",
-       "reason": "Knee Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "J. Clasie",
-       "reason": "Injury"
-      },
-      {
-       "name": "J. Hornkamp",
-       "reason": "Ankle Injury"
-      },
-      {
-       "name": "D. Kasius",
-       "reason": "Groin Injury"
-      },
-      {
-       "name": "A. Natali",
-       "reason": "Inactive"
-      },
-      {
-       "name": "R. Robbemond",
-       "reason": "Inactive"
-      },
-      {
-       "name": "M. Sin",
-       "reason": "Injury"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-09-06T14:30:00+02:00",
-     "home": "Telstar",
-     "away": "SC Cambuur",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3735.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3736.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "S",
-      "S",
-      "S",
-      "N",
-      "N"
-     ],
-     "formAway": [
-      "N",
-      "N",
-      "N",
-      "N"
-     ],
-     "formHomeH": [
-      "N",
-      "S",
-      "S",
-      "N",
-      "N"
-     ],
-     "formAwayA": [
-      "N"
-     ],
-     "load14Home": 1,
-     "load14Away": 2,
-     "posHome": 14,
-     "posAway": 18,
-     "nTeams": 18,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.8506,
-      "pDraw": 0.088,
-      "pAway": 0.0562,
-      "pOver25": 0.8458,
-      "pBtts": 0.612,
-      "xgHome": 3.74,
-      "xgAway": 1.0,
-      "tipScore": "3:0",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.612,
-     "odds": {
-      "h": 1.58,
-      "d": 4.2,
-      "a": 4.2,
-      "src": "Winamax (FR)"
-     },
-     "value": {
-      "outcome": "1",
-      "edge": 0.2799,
-      "modelP": 0.8506,
-      "odds": 1.58
-     },
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Rafik El Arguioui",
-       "goals": 3
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Telstar geht als klarer Favorit (85 %) in das Heimspiel gegen SC Cambuur. In der Tabelle stehen sich Platz 14 und Platz 18 gegenüber. Die Form spricht für Telstar: 3 Siege aus den letzten 5 Spielen, SC Cambuur holte nur 0. Das Modell erwartet ein torreiches Spiel (xG 3,7:1,0; über 2,5 Tore: 85 %, beide Teams treffen zu 61 %). Gefährlichste Torschützen: bei SC Cambuur Rafik El Arguioui (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 1,58) für 28 Prozentpunkte wahrscheinlicher als der Markt. Personal: Telstar fehlen 1 Spieler (u.a. M. Peersman); SC Cambuur fehlen 5 Spieler (u.a. W. Kooistra).",
-     "injuriesHome": [
-      {
-       "name": "M. Peersman",
-       "reason": "Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "W. Kooistra",
-       "reason": "Injury"
-      },
-      {
-       "name": "D. Visser",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "R. van de Pavert",
-       "reason": "Personal Reasons"
-      },
-      {
-       "name": "W. Asselman",
-       "reason": "Inactive"
-      },
-      {
-       "name": "J. Berkhout",
-       "reason": "Injury"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-09-06T16:45:00+02:00",
-     "home": "ADO Den Haag",
-     "away": "Fortuna Sittard",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/2726.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/143.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "N",
-      "N",
-      "U"
-     ],
-     "formAway": [
-      "N",
-      "U",
-      "S",
-      "N",
-      "S"
-     ],
-     "formHomeH": [
-      "N"
-     ],
-     "formAwayA": [
-      "N",
-      "N",
-      "N",
-      "U",
-      "S"
-     ],
-     "load14Home": 2,
-     "load14Away": 1,
-     "posHome": 15,
-     "posAway": 7,
-     "nTeams": 18,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.185,
-      "pDraw": 0.1881,
-      "pAway": 0.6267,
-      "pOver25": 0.6943,
-      "pBtts": 0.639,
-      "xgHome": 1.22,
-      "xgAway": 2.36,
-      "tipScore": "1:2",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.639,
-     "odds": {
-      "h": 2.09,
-      "d": 4.0,
-      "a": 3.19,
-      "src": "1xBet"
-     },
-     "value": {
-      "outcome": "2",
-      "edge": 0.3258,
-      "modelP": 0.6267,
-      "odds": 3.19
-     },
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Fortuna Sittard reist als klarer Favorit (63 %) zu ADO Den Haag. In der Tabelle stehen sich Platz 15 und Platz 7 gegenüber. Die Form spricht für Fortuna Sittard: 2 Siege aus den letzten 5 Spielen, ADO Den Haag holte nur 0. Das Modell erwartet ein torreiches Spiel (xG 1,2:2,4; über 2,5 Tore: 69 %, beide Teams treffen zu 64 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,19) für 33 Prozentpunkte wahrscheinlicher als der Markt. Personal: ADO Den Haag fehlen 4 Spieler (u.a. D. Barany); Fortuna Sittard fehlen 5 Spieler (u.a. R. Bayram).",
-     "injuriesHome": [
-      {
-       "name": "D. Barany",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "C. Peupion",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "J. Hawkins",
-       "reason": "Hamstring Injury"
-      },
-      {
-       "name": "M. Sin",
-       "reason": "Inactive"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "R. Bayram",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "I. Marquez",
-       "reason": "Injury"
-      },
-      {
-       "name": "S. Simons",
-       "reason": "Hamstring Injury"
-      },
-      {
-       "name": "K. Peterson",
-       "reason": "Inactive"
-      },
-      {
-       "name": "O. Romeny",
-       "reason": "Red Card"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-09-08T18:45:00+02:00",
      "home": "NEC Nijmegen",
@@ -4685,7 +3092,7 @@
      ],
      "load14Home": 2,
      "load14Away": 2,
-     "posHome": 9,
+     "posHome": 10,
      "posAway": 4,
      "nTeams": 18,
      "h2h": [
@@ -4703,17 +3110,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5247,
-      "pDraw": 0.2145,
-      "pAway": 0.2608,
-      "pOver25": 0.6634,
-      "pBtts": 0.6514,
-      "xgHome": 2.03,
-      "xgAway": 1.39,
+      "pHome": 0.5219,
+      "pDraw": 0.2155,
+      "pAway": 0.2625,
+      "pOver25": 0.6598,
+      "pBtts": 0.6492,
+      "xgHome": 2.02,
+      "xgAway": 1.38,
       "tipScore": "2:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6514,
+     "pBtts": 0.6492,
      "odds": {
       "h": 1.48,
       "d": 4.15,
@@ -4734,7 +3141,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "NEC Nijmegen ist gegen Excelsior leicht favorisiert (53 % zu 26 %). In der Tabelle stehen sich Platz 9 und Platz 4 gegenüber. Heim-/Auswärtsbilanz: NEC Nijmegen gewann 1 der letzten 5 Heimspiele, Excelsior 4 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:2 (Excelsior – NEC Nijmegen). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,4; über 2,5 Tore: 66 %, beide Teams treffen zu 65 %). Gefährlichste Torschützen: bei NEC Nijmegen Tjaronn Chery (3 Tore). Personal: NEC Nijmegen fehlen 9 Spieler (u.a. Y. Moslih); Excelsior fehlen 2 Spieler (u.a. K. Bos).",
+     "analysis": "NEC Nijmegen ist gegen Excelsior leicht favorisiert (52 % zu 26 %). In der Tabelle stehen sich Platz 10 und Platz 4 gegenüber. Heim-/Auswärtsbilanz: NEC Nijmegen gewann 1 der letzten 5 Heimspiele, Excelsior 4 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:2 (Excelsior – NEC Nijmegen). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,4; über 2,5 Tore: 66 %, beide Teams treffen zu 65 %). Gefährlichste Torschützen: bei NEC Nijmegen Tjaronn Chery (3 Tore). Personal: NEC Nijmegen fehlen 9 Spieler (u.a. Y. Moslih); Excelsior fehlen 2 Spieler (u.a. K. Bos).",
      "injuriesHome": [
       {
        "name": "Y. Moslih",
@@ -4783,81 +3190,6 @@
    "flag": "🇳🇱",
    "espn": "ned.2",
    "matches": [
-    {
-     "kickoff": "2026-09-06T16:45:00+02:00",
-     "home": "MVV Maastricht",
-     "away": "Roda JC Kerkrade",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3730.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/149.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "S",
-      "S",
-      "S",
-      "S"
-     ],
-     "formAway": [
-      "N",
-      "N",
-      "S",
-      "S",
-      "U"
-     ],
-     "formHomeH": [
-      "N",
-      "U",
-      "N",
-      "S",
-      "S"
-     ],
-     "formAwayA": [
-      "S",
-      "S",
-      "N",
-      "N",
-      "S"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 2,
-     "posAway": 14,
-     "nTeams": 20,
-     "h2h": [
-      {
-       "date": "22.02.2026",
-       "home": "Roda JC Kerkrade",
-       "away": "MVV Maastricht",
-       "score": "2:0"
-      },
-      {
-       "date": "30.11.2025",
-       "home": "MVV Maastricht",
-       "away": "Roda JC Kerkrade",
-       "score": "0:0"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.2759,
-      "pDraw": 0.2645,
-      "pAway": 0.4596,
-      "pOver25": 0.4536,
-      "pBtts": 0.4962,
-      "xgHome": 1.05,
-      "xgAway": 1.44,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.4962,
-     "odds": null,
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Roda JC Kerkrade ist bei MVV Maastricht leicht favorisiert (46 % zu 28 %). In der Tabelle stehen sich Platz 2 und Platz 10 gegenüber. Die Form spricht für MVV Maastricht: 4 Siege aus den letzten 5 Spielen, Roda JC Kerkrade holte nur 2. Heim-/Auswärtsbilanz: MVV Maastricht gewann 2 der letzten 5 Heimspiele, Roda JC Kerkrade 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:0 (Roda JC Kerkrade – MVV Maastricht). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,1:1,4; über 2,5 Tore: 45 %, beide Teams treffen zu 50 %).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle. Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-09-07T20:00:00+02:00",
      "home": "Jong FC Utrecht",
@@ -4914,9 +3246,9 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4611,
+      "pHome": 0.461,
       "pDraw": 0.2292,
-      "pAway": 0.3097,
+      "pAway": 0.3098,
       "pOver25": 0.6266,
       "pBtts": 0.6357,
       "xgHome": 1.79,
@@ -4926,8 +3258,8 @@
      },
      "pBtts": 0.6357,
      "odds": {
-      "h": 2.4,
-      "d": 3.4,
+      "h": 2.3,
+      "d": 3.5,
       "a": 2.62,
       "src": "William Hill"
      },
@@ -4994,10 +3326,10 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4778,
+      "pHome": 0.4779,
       "pDraw": 0.2138,
       "pAway": 0.3083,
-      "pOver25": 0.7027,
+      "pOver25": 0.7028,
       "pBtts": 0.6937,
       "xgHome": 2.03,
       "xgAway": 1.6,
@@ -5033,181 +3365,6 @@
    "flag": "🇧🇪",
    "espn": "bel.1",
    "matches": [
-    {
-     "kickoff": "2026-09-06T13:30:00+02:00",
-     "home": "Cercle Brugge KSV",
-     "away": "KAA Gent",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3610.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3611.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "U",
-      "U",
-      "N",
-      "N"
-     ],
-     "formAway": [
-      "U",
-      "S",
-      "S",
-      "S",
-      "S"
-     ],
-     "formHomeH": [
-      "S",
-      "S",
-      "N",
-      "U",
-      "N"
-     ],
-     "formAwayA": [
-      "U",
-      "N",
-      "U",
-      "N",
-      "S"
-     ],
-     "load14Home": 2,
-     "load14Away": 2,
-     "posHome": 14,
-     "posAway": 4,
-     "nTeams": 18,
-     "h2h": [
-      {
-       "date": "20.02.2026",
-       "home": "KAA Gent",
-       "away": "Cercle Brugge KSV",
-       "score": "0:1"
-      },
-      {
-       "date": "28.09.2025",
-       "home": "Cercle Brugge KSV",
-       "away": "KAA Gent",
-       "score": "2:4"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.3765,
-      "pDraw": 0.2479,
-      "pAway": 0.3755,
-      "pOver25": 0.5533,
-      "pBtts": 0.5853,
-      "xgHome": 1.45,
-      "xgAway": 1.45,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.5853,
-     "odds": {
-      "h": 2.8,
-      "d": 3.3,
-      "a": 2.3,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Tiago Araújo",
-       "goals": 2
-      },
-      {
-       "name": "J. Y. Vergara Ortega",
-       "goals": 2
-      },
-      {
-       "name": "I. Cisse",
-       "goals": 2
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen Cercle Brugge KSV und KAA Gent deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Cercle Brugge KSV 37 %, Unentschieden 25 %, Sieg KAA Gent 38 %). In der Tabelle stehen sich Platz 14 und Platz 4 gegenüber. Die Form spricht für KAA Gent: 4 Siege aus den letzten 5 Spielen, Cercle Brugge KSV holte nur 0. Heim-/Auswärtsbilanz: Cercle Brugge KSV gewann 2 der letzten 5 Heimspiele, KAA Gent 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:1 (KAA Gent – Cercle Brugge KSV). Das Modell erwartet ein torreiches Spiel (xG 1,4:1,4; über 2,5 Tore: 55 %, beide Teams treffen zu 59 %).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "Acht-Tore-Spektakel: Sargent stiehlt Lewandowski die Show",
-       "link": "https://www.kicker.de/acht-tore-spektakel-sargent-stiehlt-lewandowski-die-show-1250145/video#omrss"
-      },
-      {
-       "title": "Dort, wo er eigentlich immer hingehörte: Doppelpacker Miyoshi glänzt auf der Zehn",
-       "link": "https://www.kicker.de/dort-wo-er-eigentlich-immer-hingehoerte-doppelpacker-miyoshi-glaenzt-auf-der-zehn-1250109/artikel#omrss"
-      }
-     ]
-    },
-    {
-     "kickoff": "2026-09-06T16:00:00+02:00",
-     "home": "KV Kortrijk",
-     "away": "Zulte-Waregem",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/5786.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/4691.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "N",
-      "N",
-      "N"
-     ],
-     "formAway": [
-      "S",
-      "S",
-      "U",
-      "S",
-      "U"
-     ],
-     "formHomeH": [
-      "N",
-      "N"
-     ],
-     "formAwayA": [
-      "S",
-      "S",
-      "S",
-      "U",
-      "U"
-     ],
-     "load14Home": 2,
-     "load14Away": 1,
-     "posHome": 18,
-     "posAway": 6,
-     "nTeams": 18,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.0222,
-      "pDraw": 0.0987,
-      "pAway": 0.8787,
-      "pOver25": 0.5573,
-      "pBtts": 0.2136,
-      "xgHome": 0.26,
-      "xgAway": 2.65,
-      "tipScore": "0:2",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.2136,
-     "odds": {
-      "h": 2.88,
-      "d": 3.25,
-      "a": 2.3,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "T. Hedl",
-       "goals": 2
-      },
-      {
-       "name": "Á. Zalán",
-       "goals": 2
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Zulte-Waregem reist als klarer Favorit (88 %) zu KV Kortrijk. In der Tabelle stehen sich Platz 18 und Platz 6 gegenüber. Die Form spricht für Zulte-Waregem: 3 Siege aus den letzten 5 Spielen, KV Kortrijk holte nur 0. Das Modell erwartet ein torreiches Spiel (xG 0,3:2,6; über 2,5 Tore: 56 %, beide Teams treffen zu 21 %).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-09-06T18:30:00+02:00",
      "home": "Anderlecht",
@@ -5264,21 +3421,21 @@
       }
      ],
      "prediction": {
-      "pHome": 0.3132,
-      "pDraw": 0.2306,
-      "pAway": 0.4562,
-      "pOver25": 0.6217,
-      "pBtts": 0.6325,
-      "xgHome": 1.44,
-      "xgAway": 1.77,
+      "pHome": 0.3095,
+      "pDraw": 0.2301,
+      "pAway": 0.4603,
+      "pOver25": 0.6219,
+      "pBtts": 0.632,
+      "xgHome": 1.43,
+      "xgAway": 1.78,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6325,
+     "pBtts": 0.632,
      "odds": {
-      "h": 2.25,
+      "h": 2.2,
       "d": 3.4,
-      "a": 2.8,
+      "a": 2.9,
       "src": "William Hill"
      },
      "value": null,
@@ -5331,17 +3488,17 @@
      "nTeams": 18,
      "h2h": [],
      "prediction": {
-      "pHome": 0.1404,
-      "pDraw": 0.2481,
-      "pAway": 0.6115,
-      "pOver25": 0.375,
-      "pBtts": 0.3618,
-      "xgHome": 0.61,
-      "xgAway": 1.58,
+      "pHome": 0.1385,
+      "pDraw": 0.2466,
+      "pAway": 0.6149,
+      "pOver25": 0.3764,
+      "pBtts": 0.361,
+      "xgHome": 0.6,
+      "xgAway": 1.59,
       "tipScore": "0:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.3618,
+     "pBtts": 0.361,
      "odds": null,
      "value": null,
      "scorersHome": [],
@@ -5360,97 +3517,6 @@
    "flag": "🇧🇪",
    "espn": "bel.2",
    "matches": [
-    {
-     "kickoff": "2026-09-06T16:00:00+02:00",
-     "home": "K. Lierse S.K.",
-     "away": "Liège",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 4",
-     "formHome": [
-      "S",
-      "U",
-      "N",
-      "S",
-      "U"
-     ],
-     "formAway": [
-      "S",
-      "U",
-      "N",
-      "S",
-      "N"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 11,
-     "posAway": 12,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "06.02.2026",
-       "home": "Liège",
-       "away": "K. Lierse S.K.",
-       "score": "2:1"
-      },
-      {
-       "date": "19.10.2025",
-       "home": "K. Lierse S.K.",
-       "away": "Liège",
-       "score": "1:2"
-      },
-      {
-       "date": "23.02.2025",
-       "home": "Liège",
-       "away": "K. Lierse S.K.",
-       "score": "2:1"
-      },
-      {
-       "date": "06.12.2024",
-       "home": "K. Lierse S.K.",
-       "away": "Liège",
-       "score": "2:1"
-      },
-      {
-       "date": "16.03.2024",
-       "home": "K. Lierse S.K.",
-       "away": "Liège",
-       "score": "3:2"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.3891,
-      "pDraw": 0.24,
-      "pAway": 0.3709,
-      "pOver25": 0.5913,
-      "pBtts": 0.6147,
-      "xgHome": 1.55,
-      "xgAway": 1.51,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.6147,
-     "odds": {
-      "h": 2.45,
-      "d": 3.1,
-      "a": 2.5,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "S. Paulet",
-       "goals": 1
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen K. Lierse S.K. und Liège deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg K. Lierse S.K. 39 %, Unentschieden 24 %, Sieg Liège 37 %). In der Tabelle stehen sich Platz 11 und Platz 12 gegenüber. Das letzte Duell (2026) endete 2:1 (Liège – K. Lierse S.K.). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,5; über 2,5 Tore: 59 %, beide Teams treffen zu 61 %). Gefährlichste Torschützen: bei Liège S. Paulet (1 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-09-06T19:15:00+02:00",
      "home": "Francs Borains",
@@ -5519,9 +3585,9 @@
      },
      "pBtts": 0.7127,
      "odds": {
-      "h": 2.45,
-      "d": 3.25,
-      "a": 2.5,
+      "h": 2.2,
+      "d": 3.4,
+      "a": 2.75,
       "src": "William Hill"
      },
      "value": null,
@@ -5534,10 +3600,6 @@
       {
        "name": "M. Lloci",
        "goals": 1
-      },
-      {
-       "name": "J. Vervaque",
-       "goals": 0
       }
      ],
      "scorersPeriod": "Saison",
@@ -5554,91 +3616,6 @@
    "flag": "🇵🇹",
    "espn": "por.1",
    "matches": [
-    {
-     "kickoff": "2026-09-06T16:30:00+02:00",
-     "home": "Santa Clara",
-     "away": "Rio Ave",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/12215.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3822.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "U",
-      "S",
-      "S",
-      "U"
-     ],
-     "formAway": [
-      "U",
-      "N",
-      "N",
-      "S",
-      "N"
-     ],
-     "formHomeH": [
-      "N",
-      "S",
-      "S",
-      "U",
-      "S"
-     ],
-     "formAwayA": [
-      "S",
-      "N",
-      "U",
-      "N",
-      "S"
-     ],
-     "load14Home": 2,
-     "load14Away": 1,
-     "posHome": 5,
-     "posAway": 14,
-     "nTeams": 18,
-     "h2h": [
-      {
-       "date": "11.04.2026",
-       "home": "Santa Clara",
-       "away": "Rio Ave",
-       "score": "0:2"
-      },
-      {
-       "date": "30.11.2025",
-       "home": "Rio Ave",
-       "away": "Santa Clara",
-       "score": "1:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.546,
-      "pDraw": 0.2729,
-      "pAway": 0.1811,
-      "pOver25": 0.3517,
-      "pBtts": 0.3767,
-      "xgHome": 1.42,
-      "xgAway": 0.69,
-      "tipScore": "1:0",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.3767,
-     "odds": {
-      "h": 1.91,
-      "d": 3.0,
-      "a": 4.2,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Gonçalo Paciência",
-       "goals": 4
-      }
-     ],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Santa Clara ist gegen Rio Ave leicht favorisiert (55 % zu 18 %). In der Tabelle stehen sich Platz 5 und Platz 14 gegenüber. Heim-/Auswärtsbilanz: Santa Clara gewann 3 der letzten 5 Heimspiele, Rio Ave 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:2 (Santa Clara – Rio Ave). Das Modell erwartet eher wenige Tore (xG 1,4:0,7; über 2,5 Tore: 35 %, beide Teams treffen zu 38 %). Gefährlichste Torschützen: bei Santa Clara Gonçalo Paciência (4 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-09-06T19:00:00+02:00",
      "home": "Vitória de Guimaraes",
@@ -5675,7 +3652,7 @@
       "N",
       "N"
      ],
-     "load14Home": 2,
+     "load14Home": 1,
      "load14Away": 2,
      "posHome": 13,
      "posAway": 18,
@@ -5698,14 +3675,14 @@
       "pHome": 0.5899,
       "pDraw": 0.2472,
       "pAway": 0.1629,
-      "pOver25": 0.4088,
-      "pBtts": 0.4063,
+      "pOver25": 0.4089,
+      "pBtts": 0.4064,
       "xgHome": 1.61,
       "xgAway": 0.71,
       "tipScore": "1:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.4063,
+     "pBtts": 0.4064,
      "odds": null,
      "value": null,
      "scorersHome": [],
@@ -5756,18 +3733,18 @@
       "pHome": 0.7113,
       "pDraw": 0.1817,
       "pAway": 0.1069,
-      "pOver25": 0.548,
-      "pBtts": 0.4473,
+      "pOver25": 0.5478,
+      "pBtts": 0.4471,
       "xgHome": 2.17,
       "xgAway": 0.7,
       "tipScore": "2:0",
       "confidence": "niedrig"
      },
-     "pBtts": 0.4473,
+     "pBtts": 0.4471,
      "odds": {
-      "h": 2.15,
+      "h": 2.3,
       "d": 2.9,
-      "a": 3.5,
+      "a": 3.3,
       "src": "William Hill"
      },
      "value": null,
@@ -5843,9 +3820,9 @@
       }
      ],
      "prediction": {
-      "pHome": 0.3906,
+      "pHome": 0.3907,
       "pDraw": 0.2247,
-      "pAway": 0.3847,
+      "pAway": 0.3846,
       "pOver25": 0.6693,
       "pBtts": 0.675,
       "xgHome": 1.73,
@@ -5887,182 +3864,6 @@
    "flag": "🇹🇷",
    "espn": "tur.1",
    "matches": [
-    {
-     "kickoff": "2026-09-06T16:00:00+02:00",
-     "home": "Çorum FK",
-     "away": "Eyupspor",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/20729.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "U",
-      "N",
-      "N"
-     ],
-     "formAway": [
-      "S",
-      "U",
-      "N",
-      "N",
-      "S"
-     ],
-     "formHomeH": [
-      "N"
-     ],
-     "formAwayA": [
-      "N",
-      "S",
-      "U",
-      "U",
-      "N"
-     ],
-     "load14Home": 1,
-     "load14Away": 2,
-     "posHome": 17,
-     "posAway": 15,
-     "nTeams": 18,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.275,
-      "pDraw": 0.2123,
-      "pAway": 0.5127,
-      "pOver25": 0.6869,
-      "pBtts": 0.6737,
-      "xgHome": 1.48,
-      "xgAway": 2.07,
-      "tipScore": "1:2",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.6737,
-     "odds": {
-      "h": 1.7,
-      "d": 3.5,
-      "a": 4.6,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Eyupspor ist bei Çorum FK leicht favorisiert (51 % zu 28 %). In der Tabelle stehen sich Platz 17 und Platz 15 gegenüber. Die Form spricht für Eyupspor: 2 Siege aus den letzten 5 Spielen, Çorum FK holte nur 0. Das Modell erwartet ein torreiches Spiel (xG 1,5:2,1; über 2,5 Tore: 69 %, beide Teams treffen zu 67 %). Personal: Çorum FK fehlen 2 Spieler (u.a. S. Osmanoglu); Eyupspor fehlen 2 Spieler (u.a. A. Abdullahi).",
-     "injuriesHome": [
-      {
-       "name": "S. Osmanoglu",
-       "reason": "Injury"
-      },
-      {
-       "name": "A. Kyziridis",
-       "reason": "Red Card"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "A. Abdullahi",
-       "reason": "Injury"
-      },
-      {
-       "name": "D. Costa",
-       "reason": "Red Card"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-09-06T16:00:00+02:00",
-     "home": "Kasimpasa",
-     "away": "Amed SFK",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/6870.png",
-     "awayIcon": "",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "S",
-      "U",
-      "S",
-      "U"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "S"
-     ],
-     "formHomeH": [
-      "S",
-      "S",
-      "U",
-      "S",
-      "U"
-     ],
-     "formAwayA": [
-      "N"
-     ],
-     "load14Home": 1,
-     "load14Away": 2,
-     "posHome": 8,
-     "posAway": 5,
-     "nTeams": 18,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.2105,
-      "pDraw": 0.2634,
-      "pAway": 0.5261,
-      "pOver25": 0.409,
-      "pBtts": 0.4373,
-      "xgHome": 0.83,
-      "xgAway": 1.49,
-      "tipScore": "0:1",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.4373,
-     "odds": {
-      "h": 2.4,
-      "d": 3.0,
-      "a": 2.9,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "A. Benedyczak",
-       "goals": 2
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "D. Sabia",
-       "goals": 2
-      },
-      {
-       "name": "G. Orban",
-       "goals": 1
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Amed SFK ist bei Kasimpasa leicht favorisiert (53 % zu 21 %). In der Tabelle stehen sich Platz 8 und Platz 5 gegenüber. Das Modell erwartet eher wenige Tore (xG 0,8:1,5; über 2,5 Tore: 41 %, beide Teams treffen zu 44 %). Personal: Kasimpasa fehlen 1 Spieler (u.a. K. Corekci); Amed SFK fehlen 3 Spieler (u.a. M. Yildirim).",
-     "injuriesHome": [
-      {
-       "name": "K. Corekci",
-       "reason": "Achilles Tendon Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "M. Yildirim",
-       "reason": "Inactive"
-      },
-      {
-       "name": "D. Bates",
-       "reason": "Injury"
-      },
-      {
-       "name": "Y. Sor",
-       "reason": "Injury"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-09-06T19:00:00+02:00",
      "home": "Kocaelispor",
@@ -6120,20 +3921,20 @@
      ],
      "prediction": {
       "pHome": 0.3226,
-      "pDraw": 0.3068,
+      "pDraw": 0.3069,
       "pAway": 0.3706,
-      "pOver25": 0.327,
-      "pBtts": 0.4019,
+      "pOver25": 0.3268,
+      "pBtts": 0.4018,
       "xgHome": 0.96,
       "xgAway": 1.05,
       "tipScore": "0:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.4019,
+     "pBtts": 0.4018,
      "odds": {
       "h": 2.25,
-      "d": 3.0,
-      "a": 3.1,
+      "d": 2.88,
+      "a": 3.4,
       "src": "William Hill"
      },
      "value": null,
@@ -6145,7 +3946,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen Kocaelispor und Samsunspor deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Kocaelispor 32 %, Unentschieden 31 %, Sieg Samsunspor 37 %). In der Tabelle stehen sich Platz 6 und Platz 13 gegenüber. Heim-/Auswärtsbilanz: Kocaelispor gewann 1 der letzten 5 Heimspiele, Samsunspor 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (Samsunspor – Kocaelispor). Das Modell erwartet eher wenige Tore (xG 1,0:1,1; über 2,5 Tore: 33 %, beide Teams treffen zu 40 %). Personal: Kocaelispor fehlen 5 Spieler (u.a. A. Jovanovic); Samsunspor fehlen 10 Spieler (u.a. J. Assoumou).",
+     "analysis": "Zwischen Kocaelispor und Samsunspor deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Kocaelispor 32 %, Unentschieden 31 %, Sieg Samsunspor 37 %). In der Tabelle stehen sich Platz 6 und Platz 13 gegenüber. Heim-/Auswärtsbilanz: Kocaelispor gewann 1 der letzten 5 Heimspiele, Samsunspor 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (Samsunspor – Kocaelispor). Das Modell erwartet eher wenige Tore (xG 1,0:1,1; über 2,5 Tore: 33 %, beide Teams treffen zu 40 %). Personal: Kocaelispor fehlen 4 Spieler (u.a. A. Jovanovic); Samsunspor fehlen 10 Spieler (u.a. J. Assoumou).",
      "injuriesHome": [
       {
        "name": "A. Jovanovic",
@@ -6161,10 +3962,6 @@
       },
       {
        "name": "R. Rivas",
-       "reason": "Inactive"
-      },
-      {
-       "name": "T. Gulliksen",
        "reason": "Inactive"
       }
      ],
@@ -6252,7 +4049,7 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5804,
+      "pHome": 0.5803,
       "pDraw": 0.2329,
       "pAway": 0.1867,
       "pOver25": 0.4931,
@@ -6264,9 +4061,9 @@
      },
      "pBtts": 0.4866,
      "odds": {
-      "h": 1.5,
-      "d": 4.0,
-      "a": 5.5,
+      "h": 1.44,
+      "d": 4.2,
+      "a": 6.0,
       "src": "William Hill"
      },
      "value": null,
@@ -6393,14 +4190,14 @@
       "pHome": 0.3998,
       "pDraw": 0.2668,
       "pAway": 0.3334,
-      "pOver25": 0.4663,
-      "pBtts": 0.5157,
+      "pOver25": 0.4661,
+      "pBtts": 0.5156,
       "xgHome": 1.34,
       "xgAway": 1.2,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5157,
+     "pBtts": 0.5156,
      "odds": {
       "h": 1.85,
       "d": 3.2,
@@ -6586,252 +4383,7 @@
    "name": "Super League (Schweiz)",
    "flag": "🇨🇭",
    "espn": "sui.1",
-   "matches": [
-    {
-     "kickoff": "2026-09-06T14:00:00+02:00",
-     "home": "Servette FC",
-     "away": "FC ST. Gallen",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 7",
-     "formHome": [
-      "U",
-      "U",
-      "N",
-      "S",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "S",
-      "S",
-      "N"
-     ],
-     "formHomeH": [
-      "N",
-      "U",
-      "U",
-      "S"
-     ],
-     "formAwayA": [
-      "S",
-      "S",
-      "N"
-     ],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 12,
-     "posAway": 6,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "02.08.2025",
-       "home": "Servette",
-       "away": "St. Gallen",
-       "score": "1:4"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.2349,
-      "pDraw": 0.2199,
-      "pAway": 0.5452,
-      "pOver25": 0.6104,
-      "pBtts": 0.6012,
-      "xgHome": 1.21,
-      "xgAway": 1.95,
-      "tipScore": "1:1",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.6012,
-     "odds": {
-      "h": 2.1,
-      "d": 3.6,
-      "a": 2.9,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Miroslav Stevanovic",
-       "goals": 3
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Alessandro Vogt",
-       "goals": 5
-      },
-      {
-       "name": "Carlo Boukhalfa",
-       "goals": 3
-      }
-     ],
-     "scorersPeriod": "Vorsaison",
-     "analysis": "FC ST. Gallen ist bei Servette FC leicht favorisiert (55 % zu 23 %). Heim-/Auswärtsbilanz: Servette FC gewann 1 der letzten 4 Heimspiele, FC ST. Gallen 2 der letzten 3 Auswärtsspiele. Das letzte Duell (2025) endete 1:4 (Servette – St. Gallen). Das Modell erwartet ein torreiches Spiel (xG 1,2:1,9; über 2,5 Tore: 61 %, beide Teams treffen zu 60 %). Gefährlichste Torschützen: bei Servette FC Miroslav Stevanovic (3 Tore) und bei FC ST. Gallen Alessandro Vogt (5 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-09-06T16:30:00+02:00",
-     "home": "FC Basel 1893",
-     "away": "FC Lugano",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 7",
-     "formHome": [
-      "S",
-      "N",
-      "S",
-      "S",
-      "N"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "N",
-      "U",
-      "S"
-     ],
-     "formHomeH": [
-      "S",
-      "S",
-      "N"
-     ],
-     "formAwayA": [
-      "N",
-      "N",
-      "N"
-     ],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 3,
-     "posAway": 2,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "10.08.2025",
-       "home": "FC Lugano",
-       "away": "FC Basel",
-       "score": "3:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.6722,
-      "pDraw": 0.1865,
-      "pAway": 0.1412,
-      "pOver25": 0.613,
-      "pBtts": 0.5388,
-      "xgHome": 2.24,
-      "xgAway": 0.92,
-      "tipScore": "2:0",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.5388,
-     "odds": {
-      "h": 2.75,
-      "d": 3.4,
-      "a": 2.3,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Xherdan Shaqiri",
-       "goals": 4
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "D. Moncada",
-       "goals": 3
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "FC Basel 1893 geht als klarer Favorit (67 %) in das Heimspiel gegen FC Lugano. Heim-/Auswärtsbilanz: FC Basel 1893 gewann 2 der letzten 3 Heimspiele, FC Lugano 0 der letzten 3 Auswärtsspiele. Das letzte Duell (2025) endete 3:1 (FC Lugano – FC Basel). Das Modell erwartet ein torreiches Spiel (xG 2,2:0,9; über 2,5 Tore: 61 %, beide Teams treffen zu 54 %). Gefährlichste Torschützen: bei FC Basel 1893 Xherdan Shaqiri (4 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-09-06T16:30:00+02:00",
-     "home": "FC Sion",
-     "away": "FC Thun",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 7",
-     "formHome": [
-      "U",
-      "N",
-      "S",
-      "N",
-      "U"
-     ],
-     "formAway": [
-      "S",
-      "S",
-      "U",
-      "N",
-      "N"
-     ],
-     "formHomeH": [
-      "S",
-      "N",
-      "N",
-      "U"
-     ],
-     "formAwayA": [
-      "S",
-      "S",
-      "S",
-      "N"
-     ],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 4,
-     "posAway": 7,
-     "nTeams": null,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.4549,
-      "pDraw": 0.2571,
-      "pAway": 0.288,
-      "pOver25": 0.4893,
-      "pBtts": 0.5266,
-      "xgHome": 1.5,
-      "xgAway": 1.14,
-      "tipScore": "1:1",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.5266,
-     "odds": {
-      "h": 1.67,
-      "d": 3.9,
-      "a": 4.2,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Rilind Nivokazi",
-       "goals": 3
-      },
-      {
-       "name": "Josias Lukembila",
-       "goals": 3
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Christopher Ibayi",
-       "goals": 5
-      }
-     ],
-     "scorersPeriod": "Vorsaison",
-     "analysis": "FC Sion ist gegen FC Thun leicht favorisiert (45 % zu 29 %). Heim-/Auswärtsbilanz: FC Sion gewann 1 der letzten 4 Heimspiele, FC Thun 3 der letzten 4 Auswärtsspiele. Das Modell erwartet eine offene Tor-Ausbeute (xG 1,5:1,1; über 2,5 Tore: 49 %, beide Teams treffen zu 53 %). Gefährlichste Torschützen: bei FC Sion Rilind Nivokazi (3 Tore) und bei FC Thun Christopher Ibayi (5 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": false,
    "isCup": false
   },
@@ -6840,190 +4392,15 @@
    "name": "Premiership (Schottland)",
    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
    "espn": "sco.1",
-   "matches": [
-    {
-     "kickoff": "2026-09-06T16:00:00+02:00",
-     "home": "Heart of Midlothian",
-     "away": "Dundee",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/262.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/261.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "N",
-      "S",
-      "S",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "U",
-      "N",
-      "U"
-     ],
-     "formHomeH": [
-      "S",
-      "S",
-      "S",
-      "S",
-      "S"
-     ],
-     "formAwayA": [
-      "N",
-      "N",
-      "S",
-      "S",
-      "N"
-     ],
-     "load14Home": 2,
-     "load14Away": 5,
-     "posHome": 4,
-     "posAway": 6,
-     "nTeams": 12,
-     "h2h": [
-      {
-       "date": "09.08.2026",
-       "home": "Heart of Midlothian",
-       "away": "Dundee United",
-       "score": "4:0"
-      },
-      {
-       "date": "21.03.2026",
-       "home": "Heart of Midlothian",
-       "away": "Dundee",
-       "score": "1:0"
-      },
-      {
-       "date": "31.01.2026",
-       "home": "Dundee United",
-       "away": "Heart of Midlothian",
-       "score": "0:3"
-      },
-      {
-       "date": "11.01.2026",
-       "home": "Dundee",
-       "away": "Heart of Midlothian",
-       "score": "0:1"
-      },
-      {
-       "date": "09.11.2025",
-       "home": "Heart of Midlothian",
-       "away": "Dundee United",
-       "score": "1:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.7034,
-      "pDraw": 0.186,
-      "pAway": 0.1106,
-      "pOver25": 0.5393,
-      "pBtts": 0.4461,
-      "xgHome": 2.13,
-      "xgAway": 0.71,
-      "tipScore": "2:0",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.4461,
-     "odds": {
-      "h": 1.44,
-      "d": 4.33,
-      "a": 5.8,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Joshua McPake",
-       "goals": 2
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Joe Westley",
-       "goals": 2
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Heart of Midlothian geht als klarer Favorit (70 %) in das Heimspiel gegen Dundee. In der Tabelle stehen sich Platz 4 und Platz 6 gegenüber. Die Form spricht für Heart of Midlothian: 3 Siege aus den letzten 5 Spielen, Dundee holte nur 1. Heim-/Auswärtsbilanz: Heart of Midlothian gewann 5 der letzten 5 Heimspiele, Dundee 2 der letzten 5 Auswärtsspiele. Belastung beachten: Dundee (5 Ligaspiele in 14 Tagen) steckt mitten in einer englischen Woche. Das letzte Duell (2026) endete 4:0 (Heart of Midlothian – Dundee United). Das Modell erwartet eine offene Tor-Ausbeute (xG 2,1:0,7; über 2,5 Tore: 54 %, beide Teams treffen zu 45 %). Gefährlichste Torschützen: bei Heart of Midlothian Joshua McPake (2 Tore) und bei Dundee Joe Westley (2 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-09-06T16:00:00+02:00",
-     "home": "St Johnstone",
-     "away": "Hibernian",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/267.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/258.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "S",
-      "N",
-      "N",
-      "U"
-     ],
-     "formAway": [
-      "N",
-      "N",
-      "S",
-      "S",
-      "N"
-     ],
-     "formHomeH": [
-      "S"
-     ],
-     "formAwayA": [
-      "N",
-      "S",
-      "S",
-      "S",
-      "S"
-     ],
-     "load14Home": 2,
-     "load14Away": 2,
-     "posHome": 9,
-     "posAway": 7,
-     "nTeams": 12,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.344,
-      "pDraw": 0.2363,
-      "pAway": 0.4198,
-      "pOver25": 0.6053,
-      "pBtts": 0.6239,
-      "xgHome": 1.48,
-      "xgAway": 1.65,
-      "tipScore": "1:1",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.6239,
-     "odds": {
-      "h": 2.75,
-      "d": 3.1,
-      "a": 2.45,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Josh Fowler",
-       "goals": 2
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Martin Boyle",
-       "goals": 2
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen St Johnstone und Hibernian deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg St Johnstone 34 %, Unentschieden 24 %, Sieg Hibernian 42 %). In der Tabelle stehen sich Platz 9 und Platz 7 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 1,5:1,6; über 2,5 Tore: 61 %, beide Teams treffen zu 62 %). Gefährlichste Torschützen: bei St Johnstone Josh Fowler (2 Tore) und bei Hibernian Martin Boyle (2 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": true,
-   "isCup": false
+   "isCup": false,
+   "nextMatch": {
+    "kickoff": "2026-09-09T20:45:00+02:00",
+    "home": "Rangers",
+    "away": "St Mirren",
+    "matchday": null
+   }
   },
   {
    "id": "us1",
@@ -7046,137 +4423,6 @@
    "flag": "🇧🇷",
    "espn": "bra.1",
    "matches": [
-    {
-     "kickoff": "2026-09-06T16:00:00+02:00",
-     "home": "Coritiba",
-     "away": "Mirassol",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "S",
-      "U",
-      "S",
-      "S"
-     ],
-     "formAway": [
-      "N",
-      "N",
-      "U",
-      "U",
-      "N"
-     ],
-     "formHomeH": [
-      "S",
-      "N",
-      "N",
-      "S",
-      "S"
-     ],
-     "formAwayA": [
-      "N",
-      "U",
-      "N",
-      "U",
-      "N"
-     ],
-     "load14Home": 2,
-     "load14Away": 3,
-     "posHome": 7,
-     "posAway": 16,
-     "nTeams": 20,
-     "h2h": [
-      {
-       "date": "18.03.2026",
-       "home": "Mirassol",
-       "away": "Coritiba",
-       "score": "0:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.5018,
-      "pDraw": 0.2443,
-      "pAway": 0.2538,
-      "pOver25": 0.5197,
-      "pBtts": 0.54,
-      "xgHome": 1.65,
-      "xgAway": 1.1,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.54,
-     "odds": {
-      "h": 2.3,
-      "d": 3.0,
-      "a": 3.0,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Breno",
-       "goals": 8
-      }
-     ],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Coritiba ist gegen Mirassol leicht favorisiert (51 % zu 25 %). In der Tabelle stehen sich Platz 8 und Platz 9 gegenüber. Die Form spricht für Coritiba: 3 Siege aus den letzten 5 Spielen, Mirassol holte nur 0. Heim-/Auswärtsbilanz: Coritiba gewann 3 der letzten 5 Heimspiele, Mirassol 0 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:1 (Mirassol – Coritiba). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:1,1; über 2,5 Tore: 52 %, beide Teams treffen zu 54 %). Gefährlichste Torschützen: bei Coritiba Breno (8 Tore). Personal: Coritiba fehlen 26 Spieler (u.a. Lucas Crepaldi); Mirassol fehlen 19 Spieler (u.a. Andre Luis).",
-     "injuriesHome": [
-      {
-       "name": "Lucas Crepaldi",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Rodrigo Rodrigues",
-       "reason": "Ankle Injury"
-      },
-      {
-       "name": "Josue",
-       "reason": "Red Card"
-      },
-      {
-       "name": "Wallisson",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Benassi",
-       "reason": "Inactive"
-      },
-      {
-       "name": "S. Gomez",
-       "reason": "Inactive"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "Andre Luis",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Edson Carioca",
-       "reason": "Muscle Injury"
-      },
-      {
-       "name": "Felipe Jonatan",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Daniel Borges",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Renato Marques",
-       "reason": "Injury"
-      },
-      {
-       "name": "Eduardo",
-       "reason": "Injury"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-09-06T21:00:00+02:00",
      "home": "Cruzeiro",
@@ -7230,14 +4476,14 @@
       "pHome": 0.3847,
       "pDraw": 0.2714,
       "pAway": 0.3439,
-      "pOver25": 0.4495,
-      "pBtts": 0.5032,
+      "pOver25": 0.4494,
+      "pBtts": 0.5031,
       "xgHome": 1.28,
       "xgAway": 1.19,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5032,
+     "pBtts": 0.5031,
      "odds": null,
      "value": null,
      "scorersHome": [
@@ -7339,7 +4585,7 @@
       }
      ],
      "prediction": {
-      "pHome": 0.405,
+      "pHome": 0.4049,
       "pDraw": 0.2639,
       "pAway": 0.3312,
       "pOver25": 0.4776,
@@ -7351,8 +4597,8 @@
      },
      "pBtts": 0.5244,
      "odds": {
-      "h": 1.91,
-      "d": 3.3,
+      "h": 1.95,
+      "d": 3.2,
       "a": 3.7,
       "src": "William Hill"
      },
@@ -7624,7 +4870,7 @@
       "pHome": 0.2587,
       "pDraw": 0.2345,
       "pAway": 0.5068,
-      "pOver25": 0.5664,
+      "pOver25": 0.5665,
       "pBtts": 0.577,
       "xgHome": 1.19,
       "xgAway": 1.76,
@@ -7633,9 +4879,9 @@
      },
      "pBtts": 0.577,
      "odds": {
-      "h": 3.1,
+      "h": 3.3,
       "d": 3.3,
-      "a": 2.15,
+      "a": 2.05,
       "src": "William Hill"
      },
      "value": null,
@@ -7761,7 +5007,7 @@
       }
      ],
      "prediction": {
-      "pHome": 0.6739,
+      "pHome": 0.674,
       "pDraw": 0.2011,
       "pAway": 0.1249,
       "pOver25": 0.5109,
@@ -7773,9 +5019,9 @@
      },
      "pBtts": 0.4438,
      "odds": {
-      "h": 1.36,
-      "d": 4.4,
-      "a": 7.5,
+      "h": 1.4,
+      "d": 4.2,
+      "a": 7.0,
       "src": "William Hill"
      },
      "value": null,
@@ -7893,7 +5139,7 @@
       }
      ],
      "prediction": {
-      "pHome": 0.3455,
+      "pHome": 0.3456,
       "pDraw": 0.2874,
       "pAway": 0.367,
       "pOver25": 0.3904,
@@ -8040,20 +5286,20 @@
       }
      ],
      "prediction": {
-      "pHome": 0.6591,
+      "pHome": 0.659,
       "pDraw": 0.1856,
       "pAway": 0.1552,
       "pOver25": 0.6487,
-      "pBtts": 0.5799,
+      "pBtts": 0.58,
       "xgHome": 2.31,
       "xgAway": 1.03,
       "tipScore": "2:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5799,
+     "pBtts": 0.58,
      "odds": {
       "h": 1.3,
-      "d": 5.0,
+      "d": 5.5,
       "a": 7.5,
       "src": "William Hill"
      },
@@ -8070,7 +5316,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Molde geht als klarer Favorit (65 %) in das Heimspiel gegen KFUM Oslo. In der Tabelle stehen sich Platz 6 und Platz 11 gegenüber. Heim-/Auswärtsbilanz: Molde gewann 3 der letzten 5 Heimspiele, KFUM Oslo 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:4 (KFUM Oslo – Molde). Das Modell erwartet ein torreiches Spiel (xG 2,3:1,0; über 2,5 Tore: 65 %, beide Teams treffen zu 58 %). Gefährlichste Torschützen: bei Molde Eirik Hestad (8 Tore). Personal: Molde fehlen 17 Spieler (u.a. M. Daehli); KFUM Oslo fehlen 21 Spieler (u.a. A. Aleesami).",
+     "analysis": "Molde geht als klarer Favorit (65 %) in das Heimspiel gegen KFUM Oslo. In der Tabelle stehen sich Platz 6 und Platz 11 gegenüber. Heim-/Auswärtsbilanz: Molde gewann 3 der letzten 5 Heimspiele, KFUM Oslo 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:4 (KFUM Oslo – Molde). Das Modell erwartet ein torreiches Spiel (xG 2,3:1,0; über 2,5 Tore: 65 %, beide Teams treffen zu 58 %). Gefährlichste Torschützen: bei Molde Eirik Hestad (8 Tore). Die Aufstellungen sind offiziell (4-2-3-1 gegen 3-4-3). Personal: Molde fehlen 18 Spieler (u.a. M. Daehli); KFUM Oslo fehlen 22 Spieler (u.a. A. Aleesami).",
      "injuriesHome": [
       {
        "name": "M. Daehli",
@@ -8123,7 +5369,41 @@
        "reason": "Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "lineups": {
+      "home": {
+       "formation": "4-2-3-1",
+       "xi": [
+        "A. Posiadała",
+        "E. Haugan",
+        "B. Risa",
+        "N. Ødegård",
+        "M. Linnes",
+        "D. Daga",
+        "S. Kabini",
+        "E. Breivik",
+        "C. Zady Sery",
+        "O. Spiten-Nysæter",
+        "J. Abdulai"
+       ]
+      },
+      "away": {
+       "formation": "3-4-3",
+       "xi": [
+        "E. Ødegaard",
+        "H. Røsten",
+        "F. Berglie",
+        "B. Skaret",
+        "H. Hoseth",
+        "E. Saunes",
+        "J. Flaten",
+        "J. Hjorth",
+        "R. Vinge",
+        "B. Kristensen",
+        "M. Vinjor"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-09-06T17:00:00+02:00",
@@ -8181,9 +5461,9 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5077,
+      "pHome": 0.5078,
       "pDraw": 0.2173,
-      "pAway": 0.275,
+      "pAway": 0.2749,
       "pOver25": 0.6618,
       "pBtts": 0.6544,
       "xgHome": 1.99,
@@ -8202,7 +5482,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Sarpsborg FK ist gegen Vålerenga leicht favorisiert (50 % zu 28 %). In der Tabelle stehen sich Platz 9 und Platz 10 gegenüber. Heim-/Auswärtsbilanz: Sarpsborg FK gewann 4 der letzten 5 Heimspiele, Vålerenga 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:2 (Vålerenga – Sarpsborg FK). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,4; über 2,5 Tore: 66 %, beide Teams treffen zu 65 %). Gefährlichste Torschützen: bei Vålerenga Lucas Haren (8 Tore). Personal: Vålerenga fehlen 14 Spieler (u.a. F. Ambina).",
+     "analysis": "Sarpsborg FK ist gegen Vålerenga leicht favorisiert (51 % zu 27 %). In der Tabelle stehen sich Platz 9 und Platz 10 gegenüber. Heim-/Auswärtsbilanz: Sarpsborg FK gewann 4 der letzten 5 Heimspiele, Vålerenga 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:2 (Vålerenga – Sarpsborg FK). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,4; über 2,5 Tore: 66 %, beide Teams treffen zu 65 %). Gefährlichste Torschützen: bei Vålerenga Lucas Haren (8 Tore). Personal: Vålerenga fehlen 14 Spieler (u.a. F. Ambina).",
      "injuriesAway": [
       {
        "name": "F. Ambina",
@@ -8299,7 +5579,7 @@
      },
      "pBtts": 0.4607,
      "odds": {
-      "h": 4.2,
+      "h": 4.0,
       "d": 3.6,
       "a": 1.75,
       "src": "William Hill"
@@ -8318,7 +5598,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Tromso reist als klarer Favorit (58 %) zu Kristiansund BK. In der Tabelle stehen sich Platz 16 und Platz 7 gegenüber. Die Form spricht für Tromso: 3 Siege aus den letzten 5 Spielen, Kristiansund BK holte nur 1. Heim-/Auswärtsbilanz: Kristiansund BK gewann 1 der letzten 5 Heimspiele, Tromso 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:0 (Tromso – Kristiansund BK). Das Modell erwartet eine offene Tor-Ausbeute (xG 0,8:1,7; über 2,5 Tore: 47 %, beide Teams treffen zu 46 %). Gefährlichste Torschützen: bei Kristiansund BK Leander Alvheim (7 Tore) und bei Tromso Heine Larsen (8 Tore). Personal: Kristiansund BK fehlen 15 Spieler (u.a. L. Alvheim); Tromso fehlen 7 Spieler (u.a. J. Grundt).",
+     "analysis": "Tromso reist als klarer Favorit (58 %) zu Kristiansund BK. In der Tabelle stehen sich Platz 16 und Platz 7 gegenüber. Die Form spricht für Tromso: 3 Siege aus den letzten 5 Spielen, Kristiansund BK holte nur 1. Heim-/Auswärtsbilanz: Kristiansund BK gewann 1 der letzten 5 Heimspiele, Tromso 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:0 (Tromso – Kristiansund BK). Das Modell erwartet eine offene Tor-Ausbeute (xG 0,8:1,7; über 2,5 Tore: 47 %, beide Teams treffen zu 46 %). Gefährlichste Torschützen: bei Kristiansund BK Leander Alvheim (7 Tore) und bei Tromso Heine Larsen (8 Tore). Personal: Kristiansund BK fehlen 16 Spieler (u.a. L. Alvheim); Tromso fehlen 9 Spieler (u.a. J. Grundt).",
      "injuriesHome": [
       {
        "name": "L. Alvheim",
@@ -8384,288 +5664,6 @@
    "espn": "swe.1",
    "matches": [
     {
-     "kickoff": "2026-09-06T14:00:00+02:00",
-     "home": "Örgryte IS",
-     "away": "Hammarby IF",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/131552.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/2495.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "S",
-      "N",
-      "N",
-      "U",
-      "N"
-     ],
-     "formAway": [
-      "U",
-      "S",
-      "S",
-      "S",
-      "N"
-     ],
-     "formHomeH": [
-      "U",
-      "S",
-      "U",
-      "N",
-      "U"
-     ],
-     "formAwayA": [
-      "N",
-      "S",
-      "U",
-      "S",
-      "N"
-     ],
-     "load14Home": 1,
-     "load14Away": 2,
-     "posHome": 15,
-     "posAway": 2,
-     "nTeams": 16,
-     "h2h": [
-      {
-       "date": "18.04.2026",
-       "home": "Hammarby IF",
-       "away": "Örgryte IS",
-       "score": "8:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.0766,
-      "pDraw": 0.1268,
-      "pAway": 0.7958,
-      "pOver25": 0.7163,
-      "pBtts": 0.5276,
-      "xgHome": 0.82,
-      "xgAway": 2.9,
-      "tipScore": "0:2",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.5276,
-     "odds": {
-      "h": 11.0,
-      "d": 6.5,
-      "a": 1.2,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Noah Christofferson",
-       "goals": 8
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Paulos Abraham",
-       "goals": 12
-      },
-      {
-       "name": "Victor Lind",
-       "goals": 8
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Hammarby IF reist als klarer Favorit (79 %) zu Örgryte IS. In der Tabelle stehen sich Platz 14 und Platz 2 gegenüber. Die Form spricht für Hammarby IF: 3 Siege aus den letzten 5 Spielen, Örgryte IS holte nur 1. Heim-/Auswärtsbilanz: Örgryte IS gewann 1 der letzten 5 Heimspiele, Hammarby IF 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 8:1 (Hammarby IF – Örgryte IS). Das Modell erwartet ein torreiches Spiel (xG 0,8:2,9; über 2,5 Tore: 72 %, beide Teams treffen zu 53 %). Gefährlichste Torschützen: bei Örgryte IS Noah Christofferson (8 Tore) und bei Hammarby IF Paulos Abraham (12 Tore). Personal: Örgryte IS fehlen 11 Spieler (u.a. A. Abukar); Hammarby IF fehlen 6 Spieler (u.a. D. Collander).",
-     "injuriesHome": [
-      {
-       "name": "A. Abukar",
-       "reason": "Inactive"
-      },
-      {
-       "name": "M. Nilsson",
-       "reason": "Inactive"
-      },
-      {
-       "name": "C. Vindehall",
-       "reason": "Inactive"
-      },
-      {
-       "name": "R. Alm",
-       "reason": "Injury"
-      },
-      {
-       "name": "S. Lagerlund",
-       "reason": "Inactive"
-      },
-      {
-       "name": "J. Tibbling",
-       "reason": "Yellow Cards"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "D. Collander",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "T. Tekie",
-       "reason": "Inactive"
-      },
-      {
-       "name": "S. Kone",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "H. Skoglund",
-       "reason": "Red Card"
-      },
-      {
-       "name": "V. Eriksson",
-       "reason": "Yellow Cards"
-      },
-      {
-       "name": "F. Adjei",
-       "reason": "Yellow Cards"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-09-06T16:30:00+02:00",
-     "home": "IF Brommapojkarna",
-     "away": "IF Elfsborg",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/8221.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/529.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "U",
-      "S",
-      "S",
-      "N"
-     ],
-     "formAway": [
-      "S",
-      "S",
-      "S",
-      "U",
-      "S"
-     ],
-     "formHomeH": [
-      "N",
-      "U",
-      "N",
-      "S",
-      "S"
-     ],
-     "formAwayA": [
-      "U",
-      "N",
-      "S",
-      "S",
-      "U"
-     ],
-     "load14Home": 2,
-     "load14Away": 2,
-     "posHome": 10,
-     "posAway": 5,
-     "nTeams": 16,
-     "h2h": [
-      {
-       "date": "08.05.2026",
-       "home": "IF Elfsborg",
-       "away": "IF Brommapojkarna",
-       "score": "2:0"
-      },
-      {
-       "date": "30.08.2025",
-       "home": "IF Brommapojkarna",
-       "away": "IF Elfsborg",
-       "score": "3:0"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.3767,
-      "pDraw": 0.2643,
-      "pAway": 0.3591,
-      "pOver25": 0.4798,
-      "pBtts": 0.5277,
-      "xgHome": 1.32,
-      "xgAway": 1.28,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.5277,
-     "odds": {
-      "h": 3.3,
-      "d": 3.4,
-      "a": 2.05,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "M. Hansen",
-       "goals": 6
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "L. Ãstman",
-       "goals": 6
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen IF Brommapojkarna und IF Elfsborg deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg IF Brommapojkarna 38 %, Unentschieden 26 %, Sieg IF Elfsborg 36 %). In der Tabelle stehen sich Platz 11 und Platz 7 gegenüber. Die Form spricht für IF Elfsborg: 4 Siege aus den letzten 5 Spielen, IF Brommapojkarna holte nur 2. Heim-/Auswärtsbilanz: IF Brommapojkarna gewann 2 der letzten 5 Heimspiele, IF Elfsborg 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:0 (IF Elfsborg – IF Brommapojkarna). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,3:1,3; über 2,5 Tore: 48 %, beide Teams treffen zu 53 %). Personal: IF Brommapojkarna fehlen 11 Spieler (u.a. D. E. Hedstrom J.); IF Elfsborg fehlen 11 Spieler (u.a. J. Beck).",
-     "injuriesHome": [
-      {
-       "name": "D. E. Hedstrom J.",
-       "reason": "Inactive"
-      },
-      {
-       "name": "A. Kurochkin",
-       "reason": "Inactive"
-      },
-      {
-       "name": "S. Ngouali",
-       "reason": "Inactive"
-      },
-      {
-       "name": "O. Okeke",
-       "reason": "Injury"
-      },
-      {
-       "name": "J. Simpson",
-       "reason": "Inactive"
-      },
-      {
-       "name": "M. Hansen",
-       "reason": "Red Card"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "J. Beck",
-       "reason": "Thigh Injury"
-      },
-      {
-       "name": "P. Frick",
-       "reason": "Broken ankle"
-      },
-      {
-       "name": "A. Zeneli",
-       "reason": "Thigh Injury"
-      },
-      {
-       "name": "L. Hagg",
-       "reason": "Inactive"
-      },
-      {
-       "name": "L. Richtner",
-       "reason": "Elbow Injury"
-      },
-      {
-       "name": "R. Wikstrom",
-       "reason": "Injury"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
      "kickoff": "2026-09-07T19:00:00+02:00",
      "home": "Kalmar FF",
      "away": "Djurgården",
@@ -8701,7 +5699,7 @@
       "S",
       "S"
      ],
-     "load14Home": 2,
+     "load14Home": 1,
      "load14Away": 3,
      "posHome": 13,
      "posAway": 3,
@@ -8715,17 +5713,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.119,
-      "pDraw": 0.1814,
-      "pAway": 0.6994,
-      "pOver25": 0.5821,
-      "pBtts": 0.4895,
+      "pHome": 0.1188,
+      "pDraw": 0.181,
+      "pAway": 0.7001,
+      "pOver25": 0.5835,
+      "pBtts": 0.4903,
       "xgHome": 0.8,
       "xgAway": 2.23,
       "tipScore": "0:2",
       "confidence": "hoch"
      },
-     "pBtts": 0.4895,
+     "pBtts": 0.4903,
      "odds": {
       "h": 4.0,
       "d": 3.5,
@@ -8851,17 +5849,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4826,
-      "pDraw": 0.2267,
-      "pAway": 0.2907,
-      "pOver25": 0.6276,
-      "pBtts": 0.6324,
+      "pHome": 0.4825,
+      "pDraw": 0.2265,
+      "pAway": 0.2909,
+      "pOver25": 0.6287,
+      "pBtts": 0.6333,
       "xgHome": 1.85,
       "xgAway": 1.39,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6324,
+     "pBtts": 0.6333,
      "odds": null,
      "value": null,
      "scorersHome": [
@@ -8938,7 +5936,7 @@
       "N"
      ],
      "load14Home": 2,
-     "load14Away": 2,
+     "load14Away": 1,
      "posHome": 12,
      "posAway": 11,
      "nTeams": 16,
@@ -8957,17 +5955,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5558,
-      "pDraw": 0.2271,
-      "pAway": 0.2171,
-      "pOver25": 0.5571,
-      "pBtts": 0.5525,
+      "pHome": 0.5557,
+      "pDraw": 0.2269,
+      "pAway": 0.2174,
+      "pOver25": 0.5581,
+      "pBtts": 0.5534,
       "xgHome": 1.85,
       "xgAway": 1.07,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5525,
+     "pBtts": 0.5534,
      "odds": {
       "h": 2.3,
       "d": 3.3,
@@ -9054,270 +6052,6 @@
    "espn": "den.1",
    "matches": [
     {
-     "kickoff": "2026-09-06T14:00:00+02:00",
-     "home": "Sønderjyske Fodbold",
-     "away": "AC Horsens",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/8118.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3585.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "U",
-      "N",
-      "N",
-      "N"
-     ],
-     "formAway": [
-      "N",
-      "N",
-      "S",
-      "S",
-      "N"
-     ],
-     "formHomeH": [
-      "S",
-      "N",
-      "N",
-      "U",
-      "N"
-     ],
-     "formAwayA": [
-      "N",
-      "S"
-     ],
-     "load14Home": 1,
-     "load14Away": 2,
-     "posHome": 12,
-     "posAway": 6,
-     "nTeams": 12,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.3676,
-      "pDraw": 0.2486,
-      "pAway": 0.3839,
-      "pOver25": 0.5499,
-      "pBtts": 0.5826,
-      "xgHome": 1.42,
-      "xgAway": 1.46,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.5826,
-     "odds": {
-      "h": 2.2,
-      "d": 3.25,
-      "a": 3.1,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "M. Haidara",
-       "goals": 2
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Kelvin Ehibhatiomhan",
-       "goals": 3
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen Sønderjyske Fodbold und AC Horsens deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Sønderjyske Fodbold 37 %, Unentschieden 25 %, Sieg AC Horsens 38 %). In der Tabelle stehen sich Platz 12 und Platz 6 gegenüber. Die Form spricht für AC Horsens: 2 Siege aus den letzten 5 Spielen, Sønderjyske Fodbold holte nur 0. Das Modell erwartet eine offene Tor-Ausbeute (xG 1,4:1,5; über 2,5 Tore: 55 %, beide Teams treffen zu 58 %). Gefährlichste Torschützen: bei AC Horsens Kelvin Ehibhatiomhan (3 Tore). Personal: Sønderjyske Fodbold fehlen 7 Spieler (u.a. T. Klysner); AC Horsens fehlen 1 Spieler (u.a. C. Vestergaard).",
-     "injuriesHome": [
-      {
-       "name": "T. Klysner",
-       "reason": "Inactive"
-      },
-      {
-       "name": "P. Kristensen",
-       "reason": "Inactive"
-      },
-      {
-       "name": "A. Oggesen",
-       "reason": "Inactive"
-      },
-      {
-       "name": "D. L. Gretarsson",
-       "reason": "Inactive"
-      },
-      {
-       "name": "M. Olesen",
-       "reason": "Injury"
-      },
-      {
-       "name": "R. Vinderslev",
-       "reason": "Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "C. Vestergaard",
-       "reason": "Knee Injury"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-09-06T16:00:00+02:00",
-     "home": "Odense Boldklub",
-     "away": "F.C. København",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/11550.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/909.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "S",
-      "N",
-      "N",
-      "U",
-      "U"
-     ],
-     "formAway": [
-      "S",
-      "S",
-      "N",
-      "S",
-      "S"
-     ],
-     "formHomeH": [
-      "S",
-      "N",
-      "N",
-      "S",
-      "N"
-     ],
-     "formAwayA": [
-      "S",
-      "S",
-      "S",
-      "S",
-      "N"
-     ],
-     "load14Home": 2,
-     "load14Away": 3,
-     "posHome": 10,
-     "posAway": 1,
-     "nTeams": 12,
-     "h2h": [
-      {
-       "date": "22.04.2026",
-       "home": "F.C. København",
-       "away": "Odense Boldklub",
-       "score": "2:1"
-      },
-      {
-       "date": "15.03.2026",
-       "home": "Odense Boldklub",
-       "away": "F.C. København",
-       "score": "2:1"
-      },
-      {
-       "date": "21.02.2026",
-       "home": "Odense Boldklub",
-       "away": "F.C. København",
-       "score": "2:2"
-      },
-      {
-       "date": "23.08.2025",
-       "home": "F.C. København",
-       "away": "Odense Boldklub",
-       "score": "1:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.2023,
-      "pDraw": 0.1919,
-      "pAway": 0.6057,
-      "pOver25": 0.7037,
-      "pBtts": 0.657,
-      "xgHome": 1.3,
-      "xgAway": 2.34,
-      "tipScore": "1:2",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.657,
-     "odds": {
-      "h": 3.9,
-      "d": 3.6,
-      "a": 1.8,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "J. Arp",
-       "goals": 2
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Mohamed Elyounoussi",
-       "goals": 6
-      },
-      {
-       "name": "Birger Meling",
-       "goals": 4
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "F.C. København reist als klarer Favorit (61 %) zu Odense Boldklub. In der Tabelle stehen sich Platz 10 und Platz 1 gegenüber. Die Form spricht für F.C. København: 4 Siege aus den letzten 5 Spielen, Odense Boldklub holte nur 1. Heim-/Auswärtsbilanz: Odense Boldklub gewann 2 der letzten 5 Heimspiele, F.C. København 4 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:1 (F.C. København – Odense Boldklub). Das Modell erwartet ein torreiches Spiel (xG 1,3:2,3; über 2,5 Tore: 70 %, beide Teams treffen zu 66 %). Gefährlichste Torschützen: bei F.C. København Mohamed Elyounoussi (6 Tore). Personal: Odense Boldklub fehlen 7 Spieler (u.a. J. Grot); F.C. København fehlen 7 Spieler (u.a. V. Dadason).",
-     "injuriesHome": [
-      {
-       "name": "J. Grot",
-       "reason": "Injury"
-      },
-      {
-       "name": "W. Martin",
-       "reason": "Injury"
-      },
-      {
-       "name": "V. Myhra",
-       "reason": "Red Card"
-      },
-      {
-       "name": "F. Arp",
-       "reason": "Inactive"
-      },
-      {
-       "name": "J. Niemiec",
-       "reason": "Inactive"
-      },
-      {
-       "name": "A. Suhonen",
-       "reason": "Inactive"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "V. Dadason",
-       "reason": "Hamstring Injury"
-      },
-      {
-       "name": "R. Huescas",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "M. Mattsson",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "H. Nemeth",
-       "reason": "Injury"
-      },
-      {
-       "name": "D. Sarapata",
-       "reason": "Shoulder Injury"
-      },
-      {
-       "name": "A. Cornelius",
-       "reason": "Injury"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
      "kickoff": "2026-09-06T18:00:00+02:00",
      "home": "Brøndby IF",
      "away": "Randers FC",
@@ -9354,7 +6088,7 @@
       "N"
      ],
      "load14Home": 2,
-     "load14Away": 2,
+     "load14Away": 1,
      "posHome": 4,
      "posAway": 7,
      "nTeams": 12,
@@ -9373,21 +6107,21 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5665,
-      "pDraw": 0.2564,
-      "pAway": 0.1771,
-      "pOver25": 0.3969,
-      "pBtts": 0.4081,
-      "xgHome": 1.54,
+      "pHome": 0.5592,
+      "pDraw": 0.2602,
+      "pAway": 0.1806,
+      "pOver25": 0.389,
+      "pBtts": 0.4045,
+      "xgHome": 1.51,
       "xgAway": 0.73,
       "tipScore": "1:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.4081,
+     "pBtts": 0.4045,
      "odds": {
       "h": 1.5,
       "d": 4.2,
-      "a": 5.5,
+      "a": 5.0,
       "src": "William Hill"
      },
      "value": null,
@@ -9408,7 +6142,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Brøndby IF geht als klarer Favorit (56 %) in das Heimspiel gegen Randers FC. In der Tabelle stehen sich Platz 5 und Platz 7 gegenüber. Die Form spricht für Brøndby IF: 4 Siege aus den letzten 5 Spielen, Randers FC holte nur 2. Heim-/Auswärtsbilanz: Brøndby IF gewann 3 der letzten 5 Heimspiele, Randers FC 0 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (Brøndby IF – Randers FC). Das Modell erwartet eher wenige Tore (xG 1,5:0,7; über 2,5 Tore: 40 %, beide Teams treffen zu 41 %). Personal: Brøndby IF fehlen 5 Spieler (u.a. M. Divkovic); Randers FC fehlen 9 Spieler (u.a. W. Caddy).",
+     "analysis": "Brøndby IF geht als klarer Favorit (56 %) in das Heimspiel gegen Randers FC. In der Tabelle stehen sich Platz 5 und Platz 7 gegenüber. Die Form spricht für Brøndby IF: 4 Siege aus den letzten 5 Spielen, Randers FC holte nur 2. Heim-/Auswärtsbilanz: Brøndby IF gewann 3 der letzten 5 Heimspiele, Randers FC 0 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (Brøndby IF – Randers FC). Das Modell erwartet eher wenige Tore (xG 1,5:0,7; über 2,5 Tore: 39 %, beide Teams treffen zu 40 %). Personal: Brøndby IF fehlen 5 Spieler (u.a. M. Divkovic); Randers FC fehlen 9 Spieler (u.a. W. Caddy).",
      "injuriesHome": [
       {
        "name": "M. Divkovic",
@@ -9495,7 +6229,7 @@
       "S",
       "N"
      ],
-     "load14Home": 3,
+     "load14Home": 2,
      "load14Away": 2,
      "posHome": 2,
      "posAway": 3,
@@ -9527,17 +6261,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5206,
-      "pDraw": 0.2452,
-      "pAway": 0.2341,
-      "pOver25": 0.4985,
-      "pBtts": 0.5163,
-      "xgHome": 1.65,
+      "pHome": 0.5135,
+      "pDraw": 0.2481,
+      "pAway": 0.2384,
+      "pOver25": 0.4907,
+      "pBtts": 0.5121,
+      "xgHome": 1.62,
       "xgAway": 1.02,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5163,
+     "pBtts": 0.5121,
      "odds": {
       "h": 2.0,
       "d": 3.5,
@@ -9562,7 +6296,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "FC Midtjylland ist gegen FC Nordsjælland leicht favorisiert (52 % zu 23 %). In der Tabelle stehen sich Platz 2 und Platz 3 gegenüber. Heim-/Auswärtsbilanz: FC Midtjylland gewann 3 der letzten 5 Heimspiele, FC Nordsjælland 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (FC Nordsjælland – FC Midtjylland). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:1,0; über 2,5 Tore: 50 %, beide Teams treffen zu 52 %). Personal: FC Midtjylland fehlen 10 Spieler (u.a. O. Diao); FC Nordsjælland fehlen 3 Spieler (u.a. S. Alio).",
+     "analysis": "FC Midtjylland ist gegen FC Nordsjælland leicht favorisiert (51 % zu 24 %). In der Tabelle stehen sich Platz 2 und Platz 3 gegenüber. Heim-/Auswärtsbilanz: FC Midtjylland gewann 3 der letzten 5 Heimspiele, FC Nordsjælland 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (FC Nordsjælland – FC Midtjylland). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:1,0; über 2,5 Tore: 49 %, beide Teams treffen zu 51 %). Personal: FC Midtjylland fehlen 10 Spieler (u.a. O. Diao); FC Nordsjælland fehlen 3 Spieler (u.a. S. Alio).",
      "injuriesHome": [
       {
        "name": "O. Diao",
@@ -9621,412 +6355,7 @@
  ],
  "tennis": [
   {
-   "start": "2026-09-06T06:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "US Open",
-   "round": "2. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Marcel Granollers / Horacio Zeballos",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Arthur Fery / Joshua Paris",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-09-06T12:20:00+02:00",
-   "tour": "WTA",
-   "tournament": "ATIK Antalya Open",
-   "round": "Qualifying 1st Round",
-   "surface": "Sand",
-   "p1": {
-    "name": "Adelina Lacinova",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Rositsa Dencheva",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "model": {},
-   "h2h": [],
-   "analysis": "Adelina Lacinova trifft auf Rositsa Dencheva; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-06T12:25:00+02:00",
-   "tour": "WTA",
-   "tournament": "ATIK Antalya Open",
-   "round": "Qualifying 1st Round",
-   "surface": "Sand",
-   "p1": {
-    "name": "Adrienn Nagy",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Samira De Stefano",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "model": {},
-   "h2h": [],
-   "analysis": "Adrienn Nagy trifft auf Samira De Stefano; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-06T12:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "Montreux Nestlé Open",
-   "round": "Qualifying 1st Round",
-   "surface": null,
-   "p1": {
-    "name": "Dalila Spiteri",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Tatiana Pieri",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "model": {},
-   "h2h": [],
-   "analysis": "Dalila Spiteri trifft auf Tatiana Pieri; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-06T12:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "Montreux Nestlé Open",
-   "round": "Qualifying 1st Round",
-   "surface": null,
-   "p1": {
-    "name": "Madison Sieg",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Noelia Manta",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "model": {},
-   "h2h": [],
-   "analysis": "Madison Sieg trifft auf Noelia Manta; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-06T13:15:00+02:00",
-   "tour": "WTA",
-   "tournament": "ATIK Antalya Open",
-   "round": "Qualifying 1st Round",
-   "surface": "Sand",
-   "p1": {
-    "name": "Tena Lukas",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Aya Akan",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "model": {},
-   "h2h": [],
-   "analysis": "Tena Lukas trifft auf Aya Akan; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-06T13:45:00+02:00",
-   "tour": "WTA",
-   "tournament": "ATIK Antalya Open",
-   "round": "Qualifying 1st Round",
-   "surface": "Sand",
-   "p1": {
-    "name": "Miriana Tona",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Denislava Glushkova",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "model": {},
-   "h2h": [],
-   "analysis": "Miriana Tona trifft auf Denislava Glushkova; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-06T14:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Montreux Nestlé Open",
-   "round": "Qualifying 1st Round",
-   "surface": null,
-   "p1": {
-    "name": "Diana Martynov",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Deborah Chiesa",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "model": {},
-   "h2h": [],
-   "analysis": "Diana Martynov trifft auf Deborah Chiesa; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-06T14:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Montreux Nestlé Open",
-   "round": "Qualifying 1st Round",
-   "surface": null,
-   "p1": {
-    "name": "Yelyzaveta Kotliar",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Elsa Bonelli",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "model": {},
-   "h2h": [],
-   "analysis": "Yelyzaveta Kotliar trifft auf Elsa Bonelli; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-06T15:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "Montreux Nestlé Open",
-   "round": "Qualifying 1st Round",
-   "surface": null,
-   "p1": {
-    "name": "Katerina Tsygourova",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Lisa Zaar",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "model": {},
-   "h2h": [],
-   "analysis": "Katerina Tsygourova trifft auf Lisa Zaar; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-06T15:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "Montreux Nestlé Open",
-   "round": "Qualifying 1st Round",
-   "surface": null,
-   "p1": {
-    "name": "Julia Stusek",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Martina Trevisan",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "model": {},
-   "h2h": [],
-   "analysis": "Julia Stusek trifft auf Martina Trevisan; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-06T17:00:00+02:00",
+   "start": "2026-09-06T17:05:00+02:00",
    "tour": "ATP",
    "tournament": "US Open",
    "round": "2. Runde",
@@ -10051,7 +6380,7 @@
    "timeTBD": false
   },
   {
-   "start": "2026-09-06T17:00:00+02:00",
+   "start": "2026-09-06T17:05:00+02:00",
    "tour": "ATP",
    "tournament": "US Open",
    "round": "2. Runde",
@@ -10076,7 +6405,7 @@
    "timeTBD": false
   },
   {
-   "start": "2026-09-06T17:00:00+02:00",
+   "start": "2026-09-06T17:05:00+02:00",
    "tour": "ATP",
    "tournament": "US Open",
    "round": "2. Runde",
@@ -10146,6 +6475,44 @@
     "src": "Betfair"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-06T18:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Montreux Nestlé Open",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Katerina Tsygourova",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Lisa Zaar",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "model": {},
+   "h2h": [],
+   "analysis": "Katerina Tsygourova trifft auf Lisa Zaar; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-06T18:30:00+02:00",
@@ -10997,6 +7364,31 @@
    },
    "p2": {
     "name": "Nathaniel Lammons / Jackson Withrow",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-09-07T06:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "US Open",
+   "round": "2. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Marcel Granollers / Horacio Zeballos",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Arthur Fery / Joshua Paris",
     "rank": null,
     "last7": 0,
     "sets7": 0
@@ -11935,132 +8327,361 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-09-07T06:00:00+02:00",
+   "start": "2026-09-07T09:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
+   "round": "Qualifying Final",
+   "surface": "Sand",
+   "p1": {
+    "name": "Tena Lukas",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Nastasja Schunk",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": null,
+   "model": {},
+   "h2h": [],
+   "analysis": "Tena Lukas trifft auf Nastasja Schunk; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-07T09:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
+   "round": "Qualifying Final",
+   "surface": "Sand",
+   "p1": {
+    "name": "Ipek Oz",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Rada Zolotareva",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": null,
+   "model": {},
+   "h2h": [],
+   "analysis": "Ipek Oz trifft auf Rada Zolotareva; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-07T09:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
+   "round": "Qualifying Final",
+   "surface": "Sand",
+   "p1": {
+    "name": "Ilay Yoruk",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Samira De Stefano",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": null,
+   "model": {},
+   "h2h": [],
+   "analysis": "Ilay Yoruk trifft auf Samira De Stefano; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-07T10:30:00+02:00",
    "tour": "WTA",
    "tournament": "ATIK Antalya Open",
    "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
+   "surface": "Sand",
    "p1": {
-    "name": "Berfu Cengiz / Ipek Oz",
+    "name": "Irene Burillo",
     "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
     "last7": 0,
     "sets7": 0
    },
    "p2": {
-    "name": "Oana Gavrila / Adrienn Nagy",
-    "rank": null,
+    "name": "Lucia Bronzetti",
+    "rank": 135,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
     "last7": 0,
     "sets7": 0
    },
-   "pP1": null,
+   "pP1": 0.372,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.372
+   },
    "h2h": [],
-   "analysis": "",
+   "analysis": "Irene Burillo – aktuell ohne Top-Ranking – trifft auf Lucia Bronzetti (#135). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Lucia Bronzetti mit 63 % vorn.",
    "unconfirmed": false,
-   "timeTBD": true
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-09-07T06:00:00+02:00",
+   "start": "2026-09-07T10:30:00+02:00",
    "tour": "WTA",
    "tournament": "ATIK Antalya Open",
    "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
+   "surface": "Sand",
    "p1": {
-    "name": "Alevtina Ibragimova / Ksenia Zaytseva",
+    "name": "Zhibek Kulambayeva",
     "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
     "last7": 0,
     "sets7": 0
    },
    "p2": {
-    "name": "Mana Ayukawa / Emily Webley-Smith",
+    "name": "Radka Zelnickova",
     "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
     "last7": 0,
     "sets7": 0
    },
    "pP1": null,
+   "model": {},
    "h2h": [],
-   "analysis": "",
+   "analysis": "Zhibek Kulambayeva trifft auf Radka Zelnickova; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
    "unconfirmed": false,
-   "timeTBD": true
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-09-07T06:00:00+02:00",
+   "start": "2026-09-07T11:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
+   "round": "Qualifying Final",
+   "surface": "Sand",
+   "p1": {
+    "name": "Miriana Tona",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Rositsa Dencheva",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": null,
+   "model": {},
+   "h2h": [],
+   "analysis": "Miriana Tona trifft auf Rositsa Dencheva; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-07T12:00:00+02:00",
    "tour": "WTA",
    "tournament": "ATIK Antalya Open",
    "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
+   "surface": "Sand",
    "p1": {
-    "name": "Rutuja Bhosale / Zhibek Kulambayeva",
-    "rank": null,
+    "name": "Elizara Yaneva",
+    "rank": 166,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
     "last7": 0,
     "sets7": 0
    },
    "p2": {
-    "name": "Gina Feistel / Raluka Serban",
+    "name": "Weronika Falkowska",
     "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
     "last7": 0,
     "sets7": 0
    },
-   "pP1": null,
+   "pP1": 0.5861,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.5861
+   },
    "h2h": [],
-   "analysis": "",
+   "analysis": "Elizara Yaneva (#166) trifft auf Weronika Falkowska, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Elizara Yaneva mit 59 % vorn.",
    "unconfirmed": false,
-   "timeTBD": true
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-09-07T06:00:00+02:00",
+   "start": "2026-09-07T12:00:00+02:00",
    "tour": "WTA",
    "tournament": "ATIK Antalya Open",
    "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
+   "surface": "Sand",
    "p1": {
-    "name": "Irene Burillo / Leyre Romero Gormaz",
+    "name": "Lina Gjorcheska",
     "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
     "last7": 0,
     "sets7": 0
    },
    "p2": {
-    "name": "Lucia Bronzetti / Samira De Stefano",
-    "rank": null,
+    "name": "Mia Ristic",
+    "rank": 195,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
     "last7": 0,
     "sets7": 0
    },
-   "pP1": null,
+   "pP1": 0.4474,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4474
+   },
    "h2h": [],
-   "analysis": "",
+   "analysis": "Lina Gjorcheska – aktuell ohne Top-Ranking – trifft auf Mia Ristic (#195). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Mia Ristic mit 55 % vorn.",
    "unconfirmed": false,
-   "timeTBD": true
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-09-07T06:00:00+02:00",
+   "start": "2026-09-07T12:30:00+02:00",
    "tour": "WTA",
    "tournament": "ATIK Antalya Open",
    "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
+   "surface": "Sand",
    "p1": {
-    "name": "Rositsa Dencheva / Mariana Drazic",
+    "name": "Aurora Zantedeschi",
     "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
     "last7": 0,
     "sets7": 0
    },
    "p2": {
-    "name": "Federica Urgesi / Aurora Zantedeschi",
+    "name": "Sofya Lansere",
     "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
     "last7": 0,
     "sets7": 0
    },
    "pP1": null,
+   "model": {},
    "h2h": [],
-   "analysis": "",
+   "analysis": "Aurora Zantedeschi trifft auf Sofya Lansere; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
    "unconfirmed": false,
-   "timeTBD": true
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-09-07T06:00:00+02:00",
+   "start": "2026-09-07T14:00:00+02:00",
    "tour": "WTA",
    "tournament": "ATIK Antalya Open",
    "round": "1. Runde",
@@ -12082,10 +8703,355 @@
    "h2h": [],
    "analysis": "",
    "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-09-07T15:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
+   "round": "1. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Leyre Romero Gormaz",
+    "rank": 145,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Berfu Cengiz",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.6137,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6137
+   },
+   "h2h": [],
+   "analysis": "Leyre Romero Gormaz (#145) trifft auf Berfu Cengiz, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Leyre Romero Gormaz mit 61 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-08T06:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "US Open",
+   "round": "3. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Guido Andreozzi / Manuel Guinard",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "TBD / TBD",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
    "timeTBD": true
   },
   {
-   "start": "2026-09-07T06:00:00+02:00",
+   "start": "2026-09-08T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
+   "round": "1. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Katarzyna Kawa",
+    "rank": 129,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Eva Bennemann",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.637,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.637
+   },
+   "h2h": [],
+   "analysis": "Katarzyna Kawa (#129) trifft auf Eva Bennemann, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Katarzyna Kawa mit 64 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-08T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
+   "round": "1. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Alevtina Ibragimova",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Julie Struplova",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "model": {},
+   "h2h": [],
+   "analysis": "Alevtina Ibragimova trifft auf Julie Struplova; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-08T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
+   "round": "1. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Cagla Buyukakcay",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Yasmine Kabbaj",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "model": {},
+   "h2h": [],
+   "analysis": "Cagla Buyukakcay trifft auf Yasmine Kabbaj; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-08T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
+   "round": "1. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Gina Feistel",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Maria Lourdes Carle",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "model": {},
+   "h2h": [],
+   "analysis": "Gina Feistel trifft auf Maria Lourdes Carle; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-08T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
+   "round": "1. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Miriam Bulgaru",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Federica Urgesi",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "model": {},
+   "h2h": [],
+   "analysis": "Miriam Bulgaru trifft auf Federica Urgesi; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-08T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
+   "round": "1. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Ane Mintegi Del Olmo",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Elena Pridankina",
+    "rank": 186,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.4375,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4375
+   },
+   "h2h": [],
+   "analysis": "Ane Mintegi Del Olmo – aktuell ohne Top-Ranking – trifft auf Elena Pridankina (#186). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Elena Pridankina mit 56 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-08T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
+   "round": "1. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Raluka Serban",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Francesca Jones",
+    "rank": 104,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 5
+   },
+   "pP1": 0.3218,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3218
+   },
+   "h2h": [],
+   "analysis": "Raluka Serban – aktuell ohne Top-Ranking – trifft auf Francesca Jones (#104). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Francesca Jones mit 68 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-08T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "ATIK Antalya Open",
    "round": "1. Runde",
@@ -12111,19 +9077,144 @@
   },
   {
    "start": "2026-09-08T06:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "US Open",
-   "round": "3. Runde",
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
+   "round": "1. Runde",
    "surface": null,
    "doubles": true,
    "p1": {
-    "name": "Guido Andreozzi / Manuel Guinard",
+    "name": "Sofya Lansere / Elena Pridankina",
     "rank": null,
     "last7": 0,
     "sets7": 0
    },
    "p2": {
-    "name": "TBD / TBD",
+    "name": "Maria Lourdes Carle / Alicia Herrero Linana",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-09-08T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Rositsa Dencheva / Mariana Drazic",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Federica Urgesi / Aurora Zantedeschi",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-09-08T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Irene Burillo / Leyre Romero Gormaz",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Lucia Bronzetti / Samira De Stefano",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-09-08T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Rutuja Bhosale / Zhibek Kulambayeva",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Gina Feistel / Raluka Serban",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-09-08T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Alevtina Ibragimova / Ksenia Zaytseva",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Mana Ayukawa / Emily Webley-Smith",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-09-08T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Berfu Cengiz / Ipek Oz",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Oana Gavrila / Adrienn Nagy",
     "rank": null,
     "last7": 0,
     "sets7": 0
@@ -12178,6 +9269,46 @@
   },
   {
    "tour": "WTA",
+   "tournament": "Montreux Nestlé Open",
+   "p1": "Lucija Ciric Bagaric",
+   "p2": "Jule Niemeier",
+   "winner": "Lucija Ciric Bagaric",
+   "score": "7:6 6:3"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Montreux Nestlé Open",
+   "p1": "Lucie Nguyen Tan",
+   "p2": "Amandine Monnot",
+   "winner": "Lucie Nguyen Tan",
+   "score": "1:6 6:3 7:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Montreux Nestlé Open",
+   "p1": "Dalila Spiteri",
+   "p2": "Tatiana Pieri",
+   "winner": "Dalila Spiteri",
+   "score": "6:2"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Montreux Nestlé Open",
+   "p1": "Madison Sieg",
+   "p2": "Noelia Manta",
+   "winner": "Madison Sieg",
+   "score": "3:6 6:4 6:3"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Montreux Nestlé Open",
+   "p1": "Diana Martynov",
+   "p2": "Deborah Chiesa",
+   "winner": "Deborah Chiesa",
+   "score": "3:6 3:6"
+  },
+  {
+   "tour": "WTA",
    "tournament": "ATIK Antalya Open",
    "p1": "Aneta Laboutkova",
    "p2": "Rada Zolotareva",
@@ -12199,18 +9330,58 @@
    "p2": "Ipek Oz",
    "winner": "Ipek Oz",
    "score": "2:6 0:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
+   "p1": "OZ Ceylin",
+   "p2": "Nastasja Schunk",
+   "winner": "Nastasja Schunk",
+   "score": "2:6 0:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
+   "p1": "Adelina Lacinova",
+   "p2": "Rositsa Dencheva",
+   "winner": "Rositsa Dencheva",
+   "score": "4:6 0:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
+   "p1": "Adrienn Nagy",
+   "p2": "Samira De Stefano",
+   "winner": "Samira De Stefano",
+   "score": "2:6 1:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
+   "p1": "Tena Lukas",
+   "p2": "Aya Akan",
+   "winner": "Tena Lukas",
+   "score": "6:0 6:0"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
+   "p1": "Miriana Tona",
+   "p2": "Denislava Glushkova",
+   "winner": "Miriana Tona",
+   "score": "6:3 6:1"
   }
  ],
  "stats": {
   "overall": {
-   "n": 1435,
-   "correct": 862,
-   "pct": 0.6007
+   "n": 1446,
+   "correct": 867,
+   "pct": 0.5996
   },
   "football": {
-   "n": 495,
-   "correct": 252,
-   "pct": 0.5091
+   "n": 506,
+   "correct": 257,
+   "pct": 0.5079
   },
   "tennis": {
    "n": 940,
@@ -12218,11 +9389,110 @@
    "pct": 0.6489
   },
   "exact": {
-   "n": 495,
-   "correct": 49
+   "n": 506,
+   "correct": 50
   },
-  "open": 268,
+  "open": 264,
   "recent": [
+   {
+    "date": "2026-09-06",
+    "comp": "2. Bundesliga",
+    "label": "Hertha BSC – 1. FC Magdeburg",
+    "tipName": "Hertha BSC",
+    "tip": "1",
+    "prob": 0.5377,
+    "result": "2:1",
+    "correct": true,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-09-06",
+    "comp": "2. Bundesliga",
+    "label": "SpVgg Greuther Fürth – 1. FC Heidenheim 1846",
+    "tipName": "1. FC Heidenheim 1846",
+    "tip": "2",
+    "prob": 0.4415,
+    "result": "0:1",
+    "correct": true,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-09-06",
+    "comp": "2. Bundesliga",
+    "label": "VfL Osnabrück – Eintracht Braunschweig",
+    "tipName": "Eintracht Braunschweig",
+    "tip": "2",
+    "prob": 0.4256,
+    "result": "3:1",
+    "correct": false,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-09-06",
+    "comp": "3. Liga",
+    "label": "Würzburger Kickers – VfB Stuttgart II",
+    "tipName": "Würzburger Kickers",
+    "tip": "1",
+    "prob": 0.6054,
+    "result": "1:2",
+    "correct": false,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-09-06",
+    "comp": "La Liga 2",
+    "label": "Eibar – Granada",
+    "tipName": "Eibar",
+    "tip": "1",
+    "prob": 0.4911,
+    "result": "3:0",
+    "correct": true,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-09-06",
+    "comp": "Eredivisie",
+    "label": "FC Groningen – FC Twente",
+    "tipName": "FC Twente",
+    "tip": "2",
+    "prob": 0.4861,
+    "result": "2:2",
+    "correct": false,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-09-06",
+    "comp": "Eredivisie",
+    "label": "Heerenveen – AZ Alkmaar",
+    "tipName": "AZ Alkmaar",
+    "tip": "2",
+    "prob": 0.4555,
+    "result": "2:3",
+    "correct": true,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-09-06",
+    "comp": "Eredivisie",
+    "label": "Telstar – SC Cambuur",
+    "tipName": "Telstar",
+    "tip": "1",
+    "prob": 0.8506,
+    "result": "2:2",
+    "correct": false,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-09-06",
+    "comp": "Pro League (Belgien)",
+    "label": "Cercle Brugge KSV – KAA Gent",
+    "tipName": "Cercle Brugge KSV",
+    "tip": "1",
+    "prob": 0.3765,
+    "result": "0:3",
+    "correct": false,
+    "sport": "fb"
+   },
    {
     "date": "2026-09-06",
     "comp": "MLS (USA)",
@@ -12379,123 +9649,24 @@
    },
    {
     "date": "2026-09-06",
-    "comp": "WTA · US Open",
-    "label": "Elise Mertens – Naomi Osaka",
-    "tipName": "Naomi Osaka",
-    "tip": "P2",
-    "prob": 0.5905,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-06",
-    "comp": "WTA · US Open",
-    "label": "Alexandra Eala – Iva Jovic",
-    "tipName": "Iva Jovic",
-    "tip": "P2",
-    "prob": 0.5532,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-06",
-    "comp": "ATP · US Open",
-    "label": "Alejandro Tabilo – Alexander Zverev",
-    "tipName": "Alexander Zverev",
-    "tip": "P2",
-    "prob": 0.9485,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-06",
-    "comp": "ATP · US Open",
-    "label": "Learner Tien – Jakub Mensik",
-    "tipName": "Learner Tien",
-    "tip": "P1",
-    "prob": 0.5483,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-06",
-    "comp": "WTA · US Open",
-    "label": "Elena Rybakina – Yuliia Starodubtseva",
-    "tipName": "Elena Rybakina",
-    "tip": "P1",
-    "prob": 0.9459,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-05",
-    "comp": "1. Bundesliga",
-    "label": "TSG Hoffenheim – Borussia Dortmund",
-    "tipName": "Borussia Dortmund",
+    "comp": "Allsvenskan (Schweden)",
+    "label": "Örgryte IS – Hammarby IF",
+    "tipName": "Hammarby IF",
     "tip": "2",
-    "prob": 0.5068,
-    "result": "2:3",
-    "correct": true,
-    "sport": "fb"
-   },
-   {
-    "date": "2026-09-05",
-    "comp": "1. Bundesliga",
-    "label": "Bayer 04 Leverkusen – 1. FC Union Berlin",
-    "tipName": "Bayer 04 Leverkusen",
-    "tip": "1",
-    "prob": 0.6677,
-    "result": "4:0",
-    "correct": true,
-    "sport": "fb"
-   },
-   {
-    "date": "2026-09-05",
-    "comp": "1. Bundesliga",
-    "label": "Borussia Mönchengladbach – SV 07 Elversberg",
-    "tipName": "SV 07 Elversberg",
-    "tip": "2",
-    "prob": 0.3808,
-    "result": "3:4",
-    "correct": true,
-    "sport": "fb"
-   },
-   {
-    "date": "2026-09-05",
-    "comp": "1. Bundesliga",
-    "label": "SV Werder Bremen – RB Leipzig",
-    "tipName": "RB Leipzig",
-    "tip": "2",
-    "prob": 0.6062,
-    "result": "3:1",
+    "prob": 0.7958,
+    "result": "1:1",
     "correct": false,
     "sport": "fb"
    },
    {
-    "date": "2026-09-05",
-    "comp": "1. Bundesliga",
-    "label": "SC Paderborn 07 – SC Freiburg",
-    "tipName": "SC Paderborn 07",
-    "tip": "1",
-    "prob": 0.4793,
-    "result": "0:1",
-    "correct": false,
-    "sport": "fb"
-   },
-   {
-    "date": "2026-09-05",
-    "comp": "1. Bundesliga",
-    "label": "FC Schalke 04 – FC Bayern München",
-    "tipName": "FC Bayern München",
+    "date": "2026-09-06",
+    "comp": "Superliga (Dänemark)",
+    "label": "Sønderjyske Fodbold – AC Horsens",
+    "tipName": "AC Horsens",
     "tip": "2",
-    "prob": 0.7455,
-    "result": "0:0",
-    "correct": false,
+    "prob": 0.3839,
+    "result": "2:5",
+    "correct": true,
     "sport": "fb"
    }
   ]
