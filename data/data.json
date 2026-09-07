@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-07T01:26:48.046560+02:00",
+ "generatedAt": "2026-09-07T10:40:13.754922+02:00",
  "windowDays": 3,
  "days": [
   "2026-09-07",
@@ -630,16 +630,16 @@
        "reason": "Hamstring Injury"
       },
       {
-       "name": "Endrick",
-       "reason": "Muscle Injury"
-      },
-      {
        "name": "A. Guler",
        "reason": "Red Card"
       },
       {
        "name": "F. Mendy",
        "reason": "Hip Injury"
+      },
+      {
+       "name": "Rodrygo",
+       "reason": "Knee Injury"
       }
      ],
      "injuriesAway": [
@@ -652,13 +652,7 @@
        "reason": "Inactive"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "Vogel vergleicht den FCH mit Atletico Madrid",
-       "link": "https://www.kicker.de/vogel-vergleicht-den-fch-mit-atletico-madrid-1250342/artikel#omrss"
-      }
-     ]
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-09-09T18:45:00+02:00",
@@ -833,6 +827,10 @@
        "reason": "Muscle Injury"
       },
       {
+       "name": "S. Drljaca",
+       "reason": "Off the roster"
+      },
+      {
        "name": "L. Jaquez",
        "reason": "Muscle Injury"
       },
@@ -843,10 +841,6 @@
       {
        "name": "D. Seimen",
        "reason": "Thigh Injury"
-      },
-      {
-       "name": "T. Tomas",
-       "reason": "Muscle Injury"
       }
      ],
      "injuriesAway": [
@@ -867,11 +861,11 @@
        "reason": "Injury"
       },
       {
-       "name": "S. Bjorshol",
-       "reason": "Injury"
+       "name": "K. Frimpong",
+       "reason": "Off the roster"
       },
       {
-       "name": "H. Falchener",
+       "name": "S. Bjorshol",
        "reason": "Injury"
       }
      ],
@@ -953,14 +947,48 @@
       }
      ],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Liverpool geht als klarer Favorit (61 %) in das Heimspiel gegen Atlético Madrid. Heim-/Auswärtsbilanz: Liverpool gewann 3 der letzten 5 Heimspiele, Atlético Madrid 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2025) endete 3:2 (Liverpool – Atlético Madrid). Das Modell erwartet ein torreiches Spiel (xG 2,2:1,1; über 2,5 Tore: 64 %, beide Teams treffen zu 60 %). Gefährlichste Torschützen: bei Atlético Madrid Julián Álvarez (10 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
+     "analysis": "Liverpool geht als klarer Favorit (61 %) in das Heimspiel gegen Atlético Madrid. Heim-/Auswärtsbilanz: Liverpool gewann 3 der letzten 5 Heimspiele, Atlético Madrid 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2025) endete 3:2 (Liverpool – Atlético Madrid). Das Modell erwartet ein torreiches Spiel (xG 2,2:1,1; über 2,5 Tore: 64 %, beide Teams treffen zu 60 %). Gefährlichste Torschützen: bei Atlético Madrid Julián Álvarez (10 Tore). Personal: Liverpool fehlen 6 Spieler (u.a. C. Bradley); Atlético Madrid fehlen 3 Spieler (u.a. A. Ortiz).",
+     "injuriesHome": [
       {
-       "title": "Vogel vergleicht den FCH mit Atletico Madrid",
-       "link": "https://www.kicker.de/vogel-vergleicht-den-fch-mit-atletico-madrid-1250342/artikel#omrss"
+       "name": "C. Bradley",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "F. Chiesa",
+       "reason": "Back Injury"
+      },
+      {
+       "name": "H. Ekitike",
+       "reason": "Achilles Tendon Injury"
+      },
+      {
+       "name": "W. Endo",
+       "reason": "Off the roster"
+      },
+      {
+       "name": "J. Gomez",
+       "reason": "Injury"
+      },
+      {
+       "name": "G. Leoni",
+       "reason": "Knee Injury"
       }
-     ]
+     ],
+     "injuriesAway": [
+      {
+       "name": "A. Ortiz",
+       "reason": "Red Card"
+      },
+      {
+       "name": "A. Sorloth",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "O. Vargas",
+       "reason": "Coach's decision"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-09-09T21:00:00+02:00",
@@ -1030,8 +1058,46 @@
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Arsenal reist als klarer Favorit (70 %) zu Napoli. Heim-/Auswärtsbilanz: Napoli gewann 2 der letzten 4 Heimspiele, Arsenal 2 der letzten 5 Auswärtsspiele. Das Modell erwartet eher wenige Tore (xG 0,4:1,7; über 2,5 Tore: 34 %, beide Teams treffen zu 26 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 1,81) für 16 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "analysis": "Arsenal reist als klarer Favorit (70 %) zu Napoli. Heim-/Auswärtsbilanz: Napoli gewann 2 der letzten 4 Heimspiele, Arsenal 2 der letzten 5 Auswärtsspiele. Das Modell erwartet eher wenige Tore (xG 0,4:1,7; über 2,5 Tore: 34 %, beide Teams treffen zu 26 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 1,81) für 16 Prozentpunkte wahrscheinlicher als der Markt. Personal: Napoli fehlen 4 Spieler (u.a. A. Buongiorno); Arsenal fehlen 3 Spieler (u.a. W. Saliba).",
+     "injuriesHome": [
+      {
+       "name": "A. Buongiorno",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "Giovane",
+       "reason": "Off the roster"
+      },
+      {
+       "name": "L. Marianucci",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "S. McTominay",
+       "reason": "Heart Problems"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "W. Saliba",
+       "reason": "Back Injury"
+      },
+      {
+       "name": "C. Mosquera",
+       "reason": "Injury"
+      },
+      {
+       "name": "J. Timber",
+       "reason": "Ankle Injury"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "news": [
+      {
+       "title": "Traumdebüt für Arsenals Frauen: Baum widmet Siegtor ihrem verstorbenen Bruder",
+       "link": "https://www.kicker.de/traumdebuet-fuer-arsenals-frauen-baum-widmet-siegtor-ihrem-verstorbenen-bruder-1250484/artikel#omrss"
+      }
+     ]
     },
     {
      "kickoff": "2026-09-09T21:00:00+02:00",
@@ -1104,7 +1170,13 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Slovan Bratislava ist bei Paris Saint-Germain leicht favorisiert (51 % zu 25 %). In der Tabelle stehen sich Platz 23 und Platz 29 gegenüber. Das Modell erwartet eine offene Tor-Ausbeute (xG 1,1:1,7; über 2,5 Tore: 53 %, beide Teams treffen zu 55 %). Gefährlichste Torschützen: bei Paris Saint-Germain Khvicha Kvaratskhelia (10 Tore). Personal: Slovan Bratislava fehlen 2 Spieler (u.a. M. Kukharevych).",
+     "analysis": "Slovan Bratislava ist bei Paris Saint-Germain leicht favorisiert (51 % zu 25 %). In der Tabelle stehen sich Platz 23 und Platz 29 gegenüber. Das Modell erwartet eine offene Tor-Ausbeute (xG 1,1:1,7; über 2,5 Tore: 53 %, beide Teams treffen zu 55 %). Gefährlichste Torschützen: bei Paris Saint-Germain Khvicha Kvaratskhelia (10 Tore). Personal: Paris Saint-Germain fehlen 1 Spieler (u.a. L. Digne); Slovan Bratislava fehlen 4 Spieler (u.a. M. Kukharevych).",
+     "injuriesHome": [
+      {
+       "name": "L. Digne",
+       "reason": "Inactive"
+      }
+     ],
      "injuriesAway": [
       {
        "name": "M. Kukharevych",
@@ -1113,6 +1185,14 @@
       {
        "name": "N. Marcelli",
        "reason": "Injury"
+      },
+      {
+       "name": "A. Griger",
+       "reason": "Off the roster"
+      },
+      {
+       "name": "M. Kianga",
+       "reason": "Off the roster"
       }
      ],
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
@@ -1120,10 +1200,6 @@
       {
        "title": "Marseille geht leer aus: Sinayoko schießt Paris im Alleingang zum Sieg",
        "link": "https://www.kicker.de/marseille-geht-leer-aus-sinayoko-schiesst-paris-im-alleingang-zum-sieg-1250425/video#omrss"
-      },
-      {
-       "title": "Marseille - FC Paris: Tor zum 2:2 durch Gouiri in der 53. Minute",
-       "link": "https://www.kicker.de/marseille-fc-paris-tor-zum-2-2-durch-gouiri-in-der-53-minute-1250398/video#omrss"
       }
      ]
     },
@@ -1182,9 +1258,9 @@
      },
      "pBtts": 0.4955,
      "odds": {
-      "h": 1.91,
+      "h": 1.85,
       "d": 3.6,
-      "a": 3.8,
+      "a": 3.9,
       "src": "William Hill"
      },
      "value": null,
@@ -1196,8 +1272,44 @@
       }
      ],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Sporting CP geht als klarer Favorit (64 %) in das Heimspiel gegen Galatasaray. Heim-/Auswärtsbilanz: Sporting CP gewann 4 der letzten 5 Heimspiele, Galatasaray 1 der letzten 5 Auswärtsspiele. Das Modell erwartet eine offene Tor-Ausbeute (xG 2,0:0,8; über 2,5 Tore: 54 %, beide Teams treffen zu 50 %). Gefährlichste Torschützen: bei Galatasaray Victor Osimhen (7 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "analysis": "Sporting CP geht als klarer Favorit (64 %) in das Heimspiel gegen Galatasaray. Heim-/Auswärtsbilanz: Sporting CP gewann 4 der letzten 5 Heimspiele, Galatasaray 1 der letzten 5 Auswärtsspiele. Das Modell erwartet eine offene Tor-Ausbeute (xG 2,0:0,8; über 2,5 Tore: 54 %, beide Teams treffen zu 50 %). Gefährlichste Torschützen: bei Galatasaray Victor Osimhen (7 Tore). Personal: Sporting CP fehlen 2 Spieler (u.a. N. Santos); Galatasaray fehlen 9 Spieler (u.a. E. Aydin).",
+     "injuriesHome": [
+      {
+       "name": "N. Santos",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "J. Simoes",
+       "reason": "Foot Injury"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "E. Aydin",
+       "reason": "Off the roster"
+      },
+      {
+       "name": "K. Ayhan",
+       "reason": "Off the roster"
+      },
+      {
+       "name": "A. Guner",
+       "reason": "Off the roster"
+      },
+      {
+       "name": "G. Guvenc",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "K. Karatas",
+       "reason": "Off the roster"
+      },
+      {
+       "name": "S. Nas",
+       "reason": "Off the roster"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
    "seasonHasStarted": false,
@@ -1376,7 +1488,7 @@
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Cagliari ist gegen Lecce leicht favorisiert (43 % zu 26 %). In der Tabelle stehen sich Platz 12 und Platz 14 gegenüber. Heim-/Auswärtsbilanz: Cagliari gewann 3 der letzten 5 Heimspiele, Lecce 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:2 (Cagliari – Lecce). Das Modell erwartet eher wenige Tore (xG 1,1:0,8; über 2,5 Tore: 31 %, beide Teams treffen zu 38 %). Personal: Cagliari fehlen 5 Spieler (u.a. A. Albarracin); Lecce fehlen 3 Spieler (u.a. L. Banda).",
+     "analysis": "Cagliari ist gegen Lecce leicht favorisiert (43 % zu 26 %). In der Tabelle stehen sich Platz 12 und Platz 14 gegenüber. Heim-/Auswärtsbilanz: Cagliari gewann 3 der letzten 5 Heimspiele, Lecce 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:2 (Cagliari – Lecce). Das Modell erwartet eher wenige Tore (xG 1,1:0,8; über 2,5 Tore: 31 %, beide Teams treffen zu 38 %). Personal: Cagliari fehlen 8 Spieler (u.a. A. Albarracin); Lecce fehlen 3 Spieler (u.a. L. Banda).",
      "injuriesHome": [
       {
        "name": "A. Albarracin",
@@ -1393,6 +1505,10 @@
       {
        "name": "Y. Trepy",
        "reason": "Injury"
+      },
+      {
+       "name": "Kevin",
+       "reason": "Personal Reasons"
       },
       {
        "name": "Y. Mina",
@@ -1491,8 +1607,12 @@
      "value": null,
      "scorersHome": [
       {
-       "name": "Hassane Kamara",
+       "name": "H. Kamara",
        "goals": 2
+      },
+      {
+       "name": "J. Ekkelenkamp",
+       "goals": 1
       }
      ],
      "scorersAway": [
@@ -1502,7 +1622,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen Udinese und Lazio deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Udinese 36 %, Unentschieden 30 %, Sieg Lazio 34 %). In der Tabelle stehen sich Platz 9 und Platz 7 gegenüber. Heim-/Auswärtsbilanz: Udinese gewann 1 der letzten 5 Heimspiele, Lazio 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:3 (Lazio – Udinese). Das Modell erwartet eher wenige Tore (xG 1,1:1,0; über 2,5 Tore: 35 %, beide Teams treffen zu 42 %). Gefährlichste Torschützen: bei Udinese Hassane Kamara (2 Tore). Personal: Udinese fehlen 6 Spieler (u.a. A. Buksa); Lazio fehlen 8 Spieler (u.a. D. Cataldi).",
+     "analysis": "Zwischen Udinese und Lazio deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Udinese 36 %, Unentschieden 30 %, Sieg Lazio 34 %). In der Tabelle stehen sich Platz 9 und Platz 7 gegenüber. Heim-/Auswärtsbilanz: Udinese gewann 1 der letzten 5 Heimspiele, Lazio 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:3 (Lazio – Udinese). Das Modell erwartet eher wenige Tore (xG 1,1:1,0; über 2,5 Tore: 35 %, beide Teams treffen zu 42 %). Personal: Udinese fehlen 7 Spieler (u.a. A. Buksa); Lazio fehlen 8 Spieler (u.a. D. Cataldi).",
      "injuriesHome": [
       {
        "name": "A. Buksa",
@@ -1535,10 +1655,6 @@
        "reason": "Groin Injury"
       },
       {
-       "name": "F. Dele-Bashiru",
-       "reason": "Muscle Injury"
-      },
-      {
        "name": "A. Furlanetto",
        "reason": "Knee Injury"
       },
@@ -1547,12 +1663,16 @@
        "reason": "Inactive"
       },
       {
-       "name": "A. Marusic",
+       "name": "Patric",
+       "reason": "Ankle Injury"
+      },
+      {
+       "name": "F. Dele-Bashiru",
        "reason": "Muscle Injury"
       },
       {
-       "name": "Patric",
-       "reason": "Ankle Injury"
+       "name": "A. Marusic",
+       "reason": "Muscle Injury"
       }
      ],
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1644,7 +1764,7 @@
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen Getafe und Celta Vigo deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Getafe 34 %, Unentschieden 36 %, Sieg Celta Vigo 30 %). In der Tabelle stehen sich Platz 15 und Platz 17 gegenüber. Heim-/Auswärtsbilanz: Getafe gewann 3 der letzten 5 Heimspiele, Celta Vigo 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (Getafe – Celta Vigo). Das Modell erwartet eher wenige Tore (xG 0,8:0,8; über 2,5 Tore: 21 %, beide Teams treffen zu 30 %). Personal: Getafe fehlen 6 Spieler (u.a. Juanmi); Celta Vigo fehlen 5 Spieler (u.a. C. Perez).",
+     "analysis": "Zwischen Getafe und Celta Vigo deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Getafe 34 %, Unentschieden 36 %, Sieg Celta Vigo 30 %). In der Tabelle stehen sich Platz 15 und Platz 17 gegenüber. Heim-/Auswärtsbilanz: Getafe gewann 3 der letzten 5 Heimspiele, Celta Vigo 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (Getafe – Celta Vigo). Das Modell erwartet eher wenige Tore (xG 0,8:0,8; über 2,5 Tore: 21 %, beide Teams treffen zu 30 %). Personal: Getafe fehlen 5 Spieler (u.a. Juanmi); Celta Vigo fehlen 5 Spieler (u.a. C. Perez).",
      "injuriesHome": [
       {
        "name": "Juanmi",
@@ -1665,10 +1785,6 @@
       {
        "name": "A. Abqar",
        "reason": "Injury"
-      },
-      {
-       "name": "A. Garcia",
-       "reason": "Injury"
       }
      ],
      "injuriesAway": [
@@ -1681,12 +1797,12 @@
        "reason": "Knee Injury"
       },
       {
-       "name": "A. Febas",
-       "reason": "Ribs Injury"
-      },
-      {
        "name": "B. Iglesias",
        "reason": "Muscle Injury"
+      },
+      {
+       "name": "A. Febas",
+       "reason": "Ribs Injury"
       },
       {
        "name": "M. Alonso",
@@ -1777,7 +1893,7 @@
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Elche ist gegen Real Sociedad leicht favorisiert (43 % zu 34 %). In der Tabelle stehen sich Platz 19 und Platz 14 gegenüber. Heim-/Auswärtsbilanz: Elche gewann 3 der letzten 5 Heimspiele, Real Sociedad 0 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:1 (Real Sociedad – Elche). Das Modell erwartet ein torreiches Spiel (xG 1,8:1,5; über 2,5 Tore: 64 %, beide Teams treffen zu 65 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,25) für 13 Prozentpunkte wahrscheinlicher als der Markt. Personal: Elche fehlen 5 Spieler (u.a. A. Boayar); Real Sociedad fehlen 6 Spieler (u.a. J. Gorrotxategi).",
+     "analysis": "Elche ist gegen Real Sociedad leicht favorisiert (43 % zu 34 %). In der Tabelle stehen sich Platz 19 und Platz 14 gegenüber. Heim-/Auswärtsbilanz: Elche gewann 3 der letzten 5 Heimspiele, Real Sociedad 0 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:1 (Real Sociedad – Elche). Das Modell erwartet ein torreiches Spiel (xG 1,8:1,5; über 2,5 Tore: 64 %, beide Teams treffen zu 65 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,25) für 13 Prozentpunkte wahrscheinlicher als der Markt. Personal: Elche fehlen 4 Spieler (u.a. A. Boayar); Real Sociedad fehlen 6 Spieler (u.a. J. Gorrotxategi).",
      "injuriesHome": [
       {
        "name": "A. Boayar",
@@ -1794,10 +1910,6 @@
       {
        "name": "Y. Santiago",
        "reason": "Knee Injury"
-      },
-      {
-       "name": "T. Lemar",
-       "reason": "Coach's decision"
       }
      ],
      "injuriesAway": [
@@ -1826,7 +1938,13 @@
        "reason": "Coach's decision"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "news": [
+      {
+       "title": "Spalletti sitzt im \"Kolo-Muani-Zug\": Welche Rolle nimmt Woltemade bei Juve ein?",
+       "link": "https://www.kicker.de/spalletti-sitzt-im-kolo-muani-zug-welche-rolle-nimmt-woltemade-bei-juve-ein-1250448/artikel#omrss"
+      }
+     ]
     }
    ],
    "seasonHasStarted": true,
@@ -2097,7 +2215,7 @@
      "value": null,
      "scorersHome": [
       {
-       "name": "Tjaronn Chery",
+       "name": "T. Chery",
        "goals": 3
       }
      ],
@@ -2108,7 +2226,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "NEC Nijmegen ist gegen Excelsior leicht favorisiert (52 % zu 26 %). In der Tabelle stehen sich Platz 10 und Platz 5 gegenüber. Heim-/Auswärtsbilanz: NEC Nijmegen gewann 1 der letzten 5 Heimspiele, Excelsior 4 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:2 (Excelsior – NEC Nijmegen). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,4; über 2,5 Tore: 66 %, beide Teams treffen zu 65 %). Gefährlichste Torschützen: bei NEC Nijmegen Tjaronn Chery (3 Tore). Personal: NEC Nijmegen fehlen 9 Spieler (u.a. Y. Moslih); Excelsior fehlen 2 Spieler (u.a. K. Bos).",
+     "analysis": "NEC Nijmegen ist gegen Excelsior leicht favorisiert (52 % zu 26 %). In der Tabelle stehen sich Platz 10 und Platz 5 gegenüber. Heim-/Auswärtsbilanz: NEC Nijmegen gewann 1 der letzten 5 Heimspiele, Excelsior 4 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:2 (Excelsior – NEC Nijmegen). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,4; über 2,5 Tore: 66 %, beide Teams treffen zu 65 %). Personal: NEC Nijmegen fehlen 9 Spieler (u.a. Y. Moslih); Excelsior fehlen 2 Spieler (u.a. K. Bos).",
      "injuriesHome": [
       {
        "name": "Y. Moslih",
@@ -2330,7 +2448,7 @@
      "pBtts": 0.6366,
      "odds": {
       "h": 2.3,
-      "d": 3.5,
+      "d": 3.6,
       "a": 2.62,
       "src": "William Hill"
      },
@@ -2618,7 +2736,7 @@
      },
      "pBtts": 0.4429,
      "odds": {
-      "h": 15.0,
+      "h": 17.0,
       "d": 7.0,
       "a": 1.17,
       "src": "William Hill"
@@ -2829,12 +2947,12 @@
      "scorersHome": [],
      "scorersAway": [
       {
-       "name": "Deian Sorescu",
+       "name": "D. Sorescu",
        "goals": 2
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Goztepe geht als klarer Favorit (55 %) in das Heimspiel gegen Gaziantep FK. In der Tabelle stehen sich Platz 17 und Platz 10 gegenüber. Heim-/Auswärtsbilanz: Goztepe gewann 2 der letzten 5 Heimspiele, Gaziantep FK 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:1 (Goztepe – Gaziantep FK). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,7:1,0; über 2,5 Tore: 51 %, beide Teams treffen zu 51 %). Gefährlichste Torschützen: bei Gaziantep FK Deian Sorescu (2 Tore). Personal: Goztepe fehlen 5 Spieler (u.a. Allan Godoi); Gaziantep FK fehlen 4 Spieler (u.a. B. Ndiaye).",
+     "analysis": "Goztepe geht als klarer Favorit (55 %) in das Heimspiel gegen Gaziantep FK. In der Tabelle stehen sich Platz 17 und Platz 10 gegenüber. Heim-/Auswärtsbilanz: Goztepe gewann 2 der letzten 5 Heimspiele, Gaziantep FK 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:1 (Goztepe – Gaziantep FK). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,7:1,0; über 2,5 Tore: 51 %, beide Teams treffen zu 51 %). Personal: Goztepe fehlen 5 Spieler (u.a. Allan Godoi); Gaziantep FK fehlen 4 Spieler (u.a. B. Ndiaye).",
      "injuriesHome": [
       {
        "name": "Allan Godoi",
@@ -2987,7 +3105,7 @@
      "odds": {
       "h": 1.3,
       "d": 5.0,
-      "a": 9.0,
+      "a": 8.0,
       "src": "William Hill"
      },
      "value": null,
@@ -3059,16 +3177,16 @@
      },
      "pBtts": 0.6381,
      "odds": {
-      "h": 7.5,
-      "d": 4.5,
-      "a": 1.36,
+      "h": 5.5,
+      "d": 4.2,
+      "a": 1.5,
       "src": "William Hill"
      },
      "value": null,
      "scorersHome": [
       {
        "name": "Josh Fowler",
-       "goals": 2
+       "goals": 4
       }
      ],
      "scorersAway": [
@@ -3086,7 +3204,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Celtic reist als klarer Favorit (56 %) zu St Johnstone. In der Tabelle stehen sich Platz 7 und Platz 1 gegenüber. Die Form spricht für Celtic: 5 Siege aus den letzten 5 Spielen, St Johnstone holte nur 2. Das Modell erwartet ein torreiches Spiel (xG 1,3:2,1; über 2,5 Tore: 66 %, beide Teams treffen zu 64 %). Gefährlichste Torschützen: bei St Johnstone Josh Fowler (2 Tore) und bei Celtic Benjamin Nygren (3 Tore).",
+     "analysis": "Celtic reist als klarer Favorit (56 %) zu St Johnstone. In der Tabelle stehen sich Platz 7 und Platz 1 gegenüber. Die Form spricht für Celtic: 5 Siege aus den letzten 5 Spielen, St Johnstone holte nur 2. Das Modell erwartet ein torreiches Spiel (xG 1,3:2,1; über 2,5 Tore: 66 %, beide Teams treffen zu 64 %). Gefährlichste Torschützen: bei St Johnstone Josh Fowler (4 Tore) und bei Celtic Benjamin Nygren (3 Tore).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
@@ -3170,17 +3288,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.3431,
-      "pDraw": 0.2873,
-      "pAway": 0.3696,
-      "pOver25": 0.3907,
-      "pBtts": 0.4559,
+      "pHome": 0.3421,
+      "pDraw": 0.2874,
+      "pAway": 0.3706,
+      "pOver25": 0.3904,
+      "pBtts": 0.4556,
       "xgHome": 1.1,
       "xgAway": 1.15,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.4559,
+     "pBtts": 0.4556,
      "odds": {
       "h": 2.05,
       "d": 3.2,
@@ -3196,7 +3314,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen Vitória und Grêmio deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Vitória 34 %, Unentschieden 29 %, Sieg Grêmio 37 %). In der Tabelle stehen sich Platz 15 und Platz 14 gegenüber. Heim-/Auswärtsbilanz: Vitória gewann 3 der letzten 5 Heimspiele, Grêmio 0 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:0 (Grêmio – Vitória). Das Modell erwartet eher wenige Tore (xG 1,1:1,1; über 2,5 Tore: 39 %, beide Teams treffen zu 46 %). Gefährlichste Torschützen: bei Grêmio Carlos Vinícius (10 Tore). Personal: Vitória fehlen 33 Spieler (u.a. Claudinho); Grêmio fehlen 31 Spieler (u.a. M. Braithwaite).",
+     "analysis": "Zwischen Vitória und Grêmio deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Vitória 34 %, Unentschieden 29 %, Sieg Grêmio 37 %). In der Tabelle stehen sich Platz 16 und Platz 15 gegenüber. Heim-/Auswärtsbilanz: Vitória gewann 3 der letzten 5 Heimspiele, Grêmio 0 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:0 (Grêmio – Vitória). Das Modell erwartet eher wenige Tore (xG 1,1:1,1; über 2,5 Tore: 39 %, beide Teams treffen zu 46 %). Gefährlichste Torschützen: bei Grêmio Carlos Vinícius (10 Tore). Personal: Vitória fehlen 33 Spieler (u.a. Claudinho); Grêmio fehlen 31 Spieler (u.a. M. Braithwaite).",
      "injuriesHome": [
       {
        "name": "Claudinho",
@@ -3338,10 +3456,10 @@
      },
      "pBtts": 0.4905,
      "odds": {
-      "h": 4.0,
-      "d": 3.5,
-      "a": 1.8,
-      "src": "William Hill"
+      "h": 4.5,
+      "d": 3.85,
+      "a": 1.7,
+      "src": "10Bet"
      },
      "value": null,
      "scorersHome": [
@@ -3744,9 +3862,9 @@
      },
      "pBtts": 0.5113,
      "odds": {
-      "h": 1.95,
+      "h": 1.91,
       "d": 3.6,
-      "a": 3.3,
+      "a": 3.5,
       "src": "William Hill"
      },
      "value": null,
@@ -3754,18 +3872,9 @@
       {
        "name": "F. Etim",
        "goals": 2
-      },
-      {
-       "name": "S. Iheanacho",
-       "goals": 2
       }
      ],
-     "scorersAway": [
-      {
-       "name": "M. Walker",
-       "goals": 2
-      }
-     ],
+     "scorersAway": [],
      "scorersPeriod": "Saison",
      "analysis": "FC Midtjylland ist gegen FC Nordsjælland leicht favorisiert (50 % zu 25 %). In der Tabelle stehen sich Platz 2 und Platz 3 gegenüber. Heim-/Auswärtsbilanz: FC Midtjylland gewann 3 der letzten 5 Heimspiele, FC Nordsjælland 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (FC Nordsjælland – FC Midtjylland). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:1,0; über 2,5 Tore: 48 %, beide Teams treffen zu 51 %). Personal: FC Midtjylland fehlen 10 Spieler (u.a. O. Diao); FC Nordsjælland fehlen 3 Spieler (u.a. S. Alio).",
      "injuriesHome": [
@@ -3826,210 +3935,7 @@
  ],
  "tennis": [
   {
-   "start": "2026-09-07T03:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "US Open",
-   "round": "4. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Emma Navarro",
-    "rank": 27,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 8
-   },
-   "p2": {
-    "name": "Anna Kalinskaya",
-    "rank": 23,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 8
-   },
-   "pP1": 0.466,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.466
-   },
-   "h2h": [],
-   "analysis": "Emma Navarro (Weltrangliste #27) trifft auf Anna Kalinskaya (#23). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Anna Kalinskaya mit 53 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 2.05,
-    "p2": 1.82,
-    "src": "Betclic (FR)"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-07T09:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "ATIK Antalya Open",
-   "round": "Qualifying Final",
-   "surface": "Sand",
-   "p1": {
-    "name": "Tena Lukas",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "p2": {
-    "name": "Nastasja Schunk",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": null,
-   "model": {},
-   "h2h": [],
-   "analysis": "Tena Lukas trifft auf Nastasja Schunk; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-07T09:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "ATIK Antalya Open",
-   "round": "Qualifying Final",
-   "surface": "Sand",
-   "p1": {
-    "name": "Ipek Oz",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "p2": {
-    "name": "Rada Zolotareva",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": null,
-   "model": {},
-   "h2h": [],
-   "analysis": "Ipek Oz trifft auf Rada Zolotareva; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-07T09:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "ATIK Antalya Open",
-   "round": "Qualifying Final",
-   "surface": "Sand",
-   "p1": {
-    "name": "Ilay Yoruk",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "p2": {
-    "name": "Samira De Stefano",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": null,
-   "model": {},
-   "h2h": [],
-   "analysis": "Ilay Yoruk trifft auf Samira De Stefano; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-07T10:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "ATIK Antalya Open",
-   "round": "1. Runde",
-   "surface": "Sand",
-   "p1": {
-    "name": "Irene Burillo",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Lucia Bronzetti",
-    "rank": 135,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.372,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.372
-   },
-   "h2h": [],
-   "analysis": "Irene Burillo – aktuell ohne Top-Ranking – trifft auf Lucia Bronzetti (#135). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Lucia Bronzetti mit 63 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-07T10:30:00+02:00",
+   "start": "2026-09-07T10:50:00+02:00",
    "tour": "WTA",
    "tournament": "ATIK Antalya Open",
    "round": "1. Runde",
@@ -4184,6 +4090,48 @@
    "start": "2026-09-07T11:00:00+02:00",
    "tour": "WTA",
    "tournament": "ATIK Antalya Open",
+   "round": "1. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Irene Burillo",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Lucia Bronzetti",
+    "rank": 135,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.372,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.372
+   },
+   "h2h": [],
+   "analysis": "Irene Burillo – aktuell ohne Top-Ranking – trifft auf Lucia Bronzetti (#135). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Lucia Bronzetti mit 63 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-07T11:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
    "round": "Qualifying Final",
    "surface": "Sand",
    "p1": {
@@ -4219,49 +4167,7 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-09-07T12:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "ATIK Antalya Open",
-   "round": "1. Runde",
-   "surface": "Sand",
-   "p1": {
-    "name": "Elizara Yaneva",
-    "rank": 166,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Weronika Falkowska",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.5861,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.5861
-   },
-   "h2h": [],
-   "analysis": "Elizara Yaneva (#166) trifft auf Weronika Falkowska, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Elizara Yaneva mit 59 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-07T12:00:00+02:00",
+   "start": "2026-09-07T12:15:00+02:00",
    "tour": "WTA",
    "tournament": "ATIK Antalya Open",
    "round": "1. Runde",
@@ -4378,6 +4284,48 @@
    },
    "h2h": [],
    "analysis": "Despina Papamichail (#188) trifft auf Anastasia Zolotareva, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Despina Papamichail mit 56 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-07T12:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
+   "round": "1. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Elizara Yaneva",
+    "rank": 166,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Weronika Falkowska",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.5861,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.5861
+   },
+   "h2h": [],
+   "analysis": "Elizara Yaneva (#166) trifft auf Weronika Falkowska, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Elizara Yaneva mit 59 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -4690,7 +4638,7 @@
    "tour": "WTA",
    "tournament": "Kia Open",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Laura Valentina Villamil Arias",
     "rank": null,
@@ -4728,7 +4676,7 @@
    "tour": "WTA",
    "tournament": "Kia Open",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Ekaterina Ovcharenko",
     "rank": null,
@@ -4770,7 +4718,7 @@
    "tour": "WTA",
    "tournament": "Kia Open",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Anna Rogers",
     "rank": null,
@@ -4967,7 +4915,7 @@
    "tour": "WTA",
    "tournament": "Kia Open",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Antonia Vergara Rivera",
     "rank": null,
@@ -5005,7 +4953,7 @@
    "tour": "WTA",
    "tournament": "Kia Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Suzan Lamens",
     "rank": 164,
@@ -5047,7 +4995,7 @@
    "tour": "WTA",
    "tournament": "Kia Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Darja Semenistaja",
     "rank": 109,
@@ -5262,7 +5210,7 @@
    "tour": "WTA",
    "tournament": "Kia Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Carol Young Suh Lee",
     "rank": 143,
@@ -5401,7 +5349,7 @@
    "tour": "WTA",
    "tournament": "Kia Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Varvara Lepchenko",
     "rank": 181,
@@ -5589,7 +5537,7 @@
    "tour": "WTA",
    "tournament": "Kia Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Maria Camila Torres Murcia",
     "rank": null,
@@ -5724,7 +5672,7 @@
    "tour": "WTA",
    "tournament": "Kia Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Lucrezia Stefanini",
     "rank": 119,
@@ -5861,6 +5809,49 @@
    "start": "2026-09-08T06:00:00+02:00",
    "tour": "ATP",
    "tournament": "US Open",
+   "round": "Viertelfinale",
+   "surface": null,
+   "p1": {
+    "name": "Carlos Alcaraz",
+    "rank": 3,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 4,
+    "sets7": 13
+   },
+   "p2": {
+    "name": "Ben Shelton",
+    "rank": 9,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 4,
+    "sets7": 15
+   },
+   "pP1": 0.7643,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.7178,
+    "bo5": true
+   },
+   "h2h": [],
+   "analysis": "Carlos Alcaraz (Weltrangliste #3) trifft auf Ben Shelton (#9). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Carlos Alcaraz mit 76 % vorn. Grand-Slam-Kontext: Hier wird über Best-of-5 gespielt – das längere Format begünstigt statistisch den stärkeren Spieler, die Wahrscheinlichkeit ist entsprechend umgerechnet.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-08T06:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "US Open",
    "round": "3. Runde",
    "surface": null,
    "doubles": true,
@@ -5940,7 +5931,7 @@
    "surface": null,
    "doubles": true,
    "p1": {
-    "name": "TBD / TBD",
+    "name": "Rajeev Ram / Joe Salisbury",
     "rank": null,
     "last7": 0,
     "sets7": 0
@@ -5972,6 +5963,31 @@
    },
    "p2": {
     "name": "Harri Heliovaara / Henry Patten",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-09-08T06:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "US Open",
+   "round": "3. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "TBD / TBD",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Simone Bolelli / Andrea Vavassori",
     "rank": null,
     "last7": 0,
     "sets7": 0
@@ -6053,6 +6069,48 @@
     "src": "Matchbook"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-08T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "US Open",
+   "round": "Viertelfinale",
+   "surface": null,
+   "p1": {
+    "name": "Emma Navarro",
+    "rank": 27,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 4,
+    "sets7": 10
+   },
+   "p2": {
+    "name": "Jessica Pegula",
+    "rank": 3,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 7
+   },
+   "pP1": 0.1338,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.1338
+   },
+   "h2h": [],
+   "analysis": "Emma Navarro (Weltrangliste #27) trifft auf Jessica Pegula (#3). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Jessica Pegula mit 87 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-08T06:00:00+02:00",
@@ -6806,7 +6864,7 @@
    "tour": "WTA",
    "tournament": "Kia Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Maria Paulina Perez Garcia",
     "rank": null,
@@ -6848,7 +6906,7 @@
    "tour": "WTA",
    "tournament": "Kia Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Mary Stoiana",
     "rank": 122,
@@ -6890,7 +6948,7 @@
    "tour": "WTA",
    "tournament": "Kia Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Claire Liu",
     "rank": 111,
@@ -6932,7 +6990,7 @@
    "tour": "WTA",
    "tournament": "Kia Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Julia Riera",
     "rank": 147,
@@ -6974,7 +7032,7 @@
    "tour": "WTA",
    "tournament": "Kia Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Anna Blinkova",
     "rank": 95,
@@ -7016,7 +7074,7 @@
    "tour": "WTA",
    "tournament": "Kia Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Sara Sorribes Tormo",
     "rank": null,
@@ -7066,29 +7124,79 @@
    "wta": 0
   }
  },
- "tennisFinished": [],
+ "tennisFinished": [
+  {
+   "tour": "WTA",
+   "tournament": "US Open",
+   "p1": "Emma Navarro",
+   "p2": "Anna Kalinskaya",
+   "winner": "Emma Navarro",
+   "score": "6:4 6:2"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "ATIK Antalya Open",
+   "p1": "Ilay Yoruk",
+   "p2": "Samira De Stefano",
+   "winner": "Samira De Stefano",
+   "score": "1:6 0:6"
+  }
+ ],
  "stats": {
   "overall": {
-   "n": 1496,
-   "correct": 888,
-   "pct": 0.5936
+   "n": 1502,
+   "correct": 891,
+   "pct": 0.5932
   },
   "football": {
-   "n": 551,
+   "n": 552,
    "correct": 275,
-   "pct": 0.4991
+   "pct": 0.4982
   },
   "tennis": {
-   "n": 945,
-   "correct": 613,
-   "pct": 0.6487
+   "n": 950,
+   "correct": 616,
+   "pct": 0.6484
   },
   "exact": {
-   "n": 551,
+   "n": 552,
    "correct": 55
   },
-  "open": 211,
+  "open": 207,
   "recent": [
+   {
+    "date": "2026-09-07",
+    "comp": "Série A (Brasilien)",
+    "label": "Corinthians – Chapecoense",
+    "tipName": "Corinthians",
+    "tip": "1",
+    "prob": 0.6727,
+    "result": "1:2",
+    "correct": false,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-09-07",
+    "comp": "ATP · US Open",
+    "label": "Stefanos Tsitsipas – Ben Shelton",
+    "tipName": "Ben Shelton",
+    "tip": "P2",
+    "prob": 0.8722,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-07",
+    "comp": "WTA · US Open",
+    "label": "Emma Navarro – Anna Kalinskaya",
+    "tipName": "Anna Kalinskaya",
+    "tip": "P2",
+    "prob": 0.534,
+    "result": "Sieger: P1",
+    "correct": false,
+    "sport": "tn"
+   },
    {
     "date": "2026-09-06",
     "comp": "1. Bundesliga",
@@ -7329,39 +7437,6 @@
     "prob": 0.6704,
     "result": "3:2",
     "correct": true,
-    "sport": "fb"
-   },
-   {
-    "date": "2026-09-06",
-    "comp": "Ligue 1",
-    "label": "Troyes – Strasbourg",
-    "tipName": "Troyes",
-    "tip": "1",
-    "prob": 0.4257,
-    "result": "2:6",
-    "correct": false,
-    "sport": "fb"
-   },
-   {
-    "date": "2026-09-06",
-    "comp": "Ligue 1",
-    "label": "Marseille – Paris FC",
-    "tipName": "Marseille",
-    "tip": "1",
-    "prob": 0.492,
-    "result": "2:3",
-    "correct": false,
-    "sport": "fb"
-   },
-   {
-    "date": "2026-09-06",
-    "comp": "Eredivisie",
-    "label": "FC Groningen – FC Twente",
-    "tipName": "FC Twente",
-    "tip": "2",
-    "prob": 0.4861,
-    "result": "2:2",
-    "correct": false,
     "sport": "fb"
    }
   ]

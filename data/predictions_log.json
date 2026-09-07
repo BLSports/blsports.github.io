@@ -36930,9 +36930,9 @@
    "tip": "P2",
    "tipName": "Jessica Pegula",
    "prob": 0.8137,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-09-06|sabalenka a|townsend t": {
    "sport": "tn",
@@ -37159,10 +37159,10 @@
    "prob": 0.6727,
    "tipScore": "1:0",
    "pOver25": 0.51,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "1:2",
+   "correct": false,
+   "exact": false
   },
   "fb|se1|2026-09-07|kalmar ff|djurgarden": {
    "sport": "fb",
@@ -37288,9 +37288,9 @@
    "tip": "P2",
    "tipName": "Ben Shelton",
    "prob": 0.7276,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-09-06|medvedev d|tiafoe f": {
    "sport": "tn",
@@ -37330,9 +37330,9 @@
    "tip": "P2",
    "tipName": "Anna Kalinskaya",
    "prob": 0.5601,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "fb|ll1|2026-09-05|villarreal|deportivo": {
    "sport": "fb",
@@ -37434,9 +37434,9 @@
    "tip": "P2",
    "tipName": "Ben Shelton",
    "prob": 0.8722,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-09-07|kalinskaya a|navarro e": {
    "sport": "tn",
@@ -37448,9 +37448,9 @@
    "tip": "P2",
    "tipName": "Anna Kalinskaya",
    "prob": 0.534,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-09-07|andreeva m|potapova a": {
    "sport": "tn",
@@ -37974,9 +37974,9 @@
    "awayKey": "gremio",
    "tip": "2",
    "tipName": "Grêmio",
-   "prob": 0.3696,
+   "prob": 0.3706,
    "tipScore": "1:1",
-   "pOver25": 0.3907,
+   "pOver25": 0.3904,
    "status": "open",
    "result": null,
    "correct": null,
@@ -38634,6 +38634,34 @@
    "tip": "P1",
    "tipName": "Anna Blinkova",
    "prob": 0.6948,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-09-08|alcaraz c|shelton b": {
+   "sport": "tn",
+   "comp": "ATP · US Open",
+   "date": "2026-09-08",
+   "label": "Carlos Alcaraz – Ben Shelton",
+   "p1Key": "alcaraz c",
+   "p2Key": "shelton b",
+   "tip": "P1",
+   "tipName": "Carlos Alcaraz",
+   "prob": 0.7643,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-08|navarro e|pegula j": {
+   "sport": "tn",
+   "comp": "WTA · US Open",
+   "date": "2026-09-08",
+   "label": "Emma Navarro – Jessica Pegula",
+   "p1Key": "navarro e",
+   "p2Key": "pegula j",
+   "tip": "P2",
+   "tipName": "Jessica Pegula",
+   "prob": 0.8662,
    "status": "open",
    "result": null,
    "correct": null
