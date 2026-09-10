@@ -129,8 +129,8 @@ body { font-family: Tahoma, Verdana, Arial, sans-serif; }
 <td align="center" valign="middle">
 The page you are looking for is temporar
 total 8
-drwxr-xr-x  2 runner runner 4096 Sep 10 08:26 .
-drwxrwxrwt 14 root   root   4096 Sep 10 08:26 ..
+drwxr-xr-x  2 runner runner 4096 Sep 10 10:30 .
+drwxrwxrwt 15 root   root   4096 Sep 10 10:30 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -254,7 +254,7 @@ fixtures.csv: 18 Spiele mit Quoten
   66 Ergebnisse geladen
   5 Spiele in den naechsten 3 Tagen
   1 Prognosen via Team-Historie-Fallback erstellt
-  Kicker-News: 39 Schlagzeilen geladen
+  Kicker-News: 36 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 896, WTA 893
@@ -263,8 +263,8 @@ fixtures.csv: 18 Spiele mit Quoten
   Elo WTA: 0 Spieler bewertet
   Belag-Zuordnung (MatchStat): 36 Turniere
   Tennis-Quoten zugeordnet: 3
-  32 Tennis-Matches in den naechsten 3 Tagen
-  3 Tennis-Matches heute bereits beendet
-  Tipp-Log: 2592 Eintraege, 1628 ausgewertet, 967 richtig
+  30 Tennis-Matches in den naechsten 3 Tagen
+  4 Tennis-Matches heute bereits beendet
+  Tipp-Log: 2592 Eintraege, 1629 ausgewertet, 968 richtig
   Premium-Abrufe: Tennis 8, Fussball 272 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
