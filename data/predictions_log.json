@@ -45023,10 +45023,10 @@
    "prob": 0.6544,
    "tipScore": "2:0",
    "pOver25": 0.6034,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:1",
+   "correct": true,
+   "exact": false
   },
   "tn|wta|2026-09-13|bosio v|xiaodi y": {
    "sport": "tn",
@@ -45136,9 +45136,9 @@
    "tip": "P1",
    "tipName": "Liudmila Samsonova",
    "prob": 0.6799,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-09-13|mikulskyte j|paquet c": {
    "sport": "tn",
@@ -45934,9 +45934,9 @@
    "tip": "P2",
    "tipName": "Zeynep Sonmez",
    "prob": 0.7483,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-09-14|dolehide c|zarazua r": {
    "sport": "tn",
@@ -45962,9 +45962,9 @@
    "tip": "P2",
    "tipName": "Magdalena Frech",
    "prob": 0.7647,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-09-14|monnet c|stephens s": {
    "sport": "tn",
@@ -46514,9 +46514,9 @@
    "tip": "P2",
    "tipName": "Zeynep Sonmez",
    "prob": 0.7387,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-09-15|jacquemot e|samsonova l": {
    "sport": "tn",
@@ -46528,9 +46528,9 @@
    "tip": "P1",
    "tipName": "Liudmila Samsonova",
    "prob": 0.7246,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-09-15|bucsa c|udvardy p": {
    "sport": "tn",
@@ -46640,9 +46640,9 @@
    "tip": "P2",
    "tipName": "Mona Barthel",
    "prob": 0.6042,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-09-15|ciric bagaric l|samson l": {
    "sport": "tn",
@@ -46808,9 +46808,9 @@
    "tip": "P2",
    "tipName": "Magdalena Frech",
    "prob": 0.7432,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-09-15|stephens s|tjen j": {
    "sport": "tn",
@@ -47128,9 +47128,9 @@
    "awayKey": "gremio",
    "tip": "1",
    "tipName": "Botafogo",
-   "prob": 0.5345,
+   "prob": 0.5349,
    "tipScore": "1:1",
-   "pOver25": 0.5277,
+   "pOver25": 0.5274,
    "status": "open",
    "result": null,
    "correct": null,
@@ -47174,6 +47174,48 @@
    "tip": "P2",
    "tipName": "Marta Kostyuk",
    "prob": 0.8744,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-16|jovic i|sonmez z": {
+   "sport": "tn",
+   "comp": "WTA · Guadalajara Open presentado por Santander",
+   "date": "2026-09-16",
+   "label": "Iva Jovic – Zeynep Sonmez",
+   "p1Key": "jovic i",
+   "p2Key": "sonmez z",
+   "tip": "P1",
+   "tipName": "Iva Jovic",
+   "prob": 0.7493,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-16|day k|samsonova l": {
+   "sport": "tn",
+   "comp": "WTA · Guadalajara Open presentado por Santander",
+   "date": "2026-09-16",
+   "label": "Liudmila Samsonova – Kayla Day",
+   "p1Key": "samsonova l",
+   "p2Key": "day k",
+   "tip": "P1",
+   "tipName": "Liudmila Samsonova",
+   "prob": 0.6825,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-16|dolehide c|frech m": {
+   "sport": "tn",
+   "comp": "WTA · Guadalajara Open presentado por Santander",
+   "date": "2026-09-16",
+   "label": "Caroline Dolehide – Magdalena Frech",
+   "p1Key": "dolehide c",
+   "p2Key": "frech m",
+   "tip": "P2",
+   "tipName": "Magdalena Frech",
+   "prob": 0.7761,
    "status": "open",
    "result": null,
    "correct": null
