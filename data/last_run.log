@@ -129,8 +129,8 @@ body { font-family: Tahoma, Verdana, Arial, sans-serif; }
 <td align="center" valign="middle">
 The page you are looking for is temporar
 total 8
-drwxr-xr-x  2 runner runner 4096 Sep 15 23:56 .
-drwxrwxrwt 14 root   root   4096 Sep 15 23:56 ..
+drwxr-xr-x  2 runner runner 4096 Sep 16 08:52 .
+drwxrwxrwt 14 root   root   4096 Sep 16 08:52 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -167,7 +167,6 @@ drwxrwxrwt 14 root   root   4096 Sep 15 23:56 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20260328-20260625&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20260626-20260916&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
-  WARN: https://api.the-odds-api.com/v4/sports/soccer_belgium_pro_league/odds/?apiKey=8392ea7216723e341b1a7c2cea58bcb4&regions=eu&markets=h2h&oddsFormat=decimal nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -338,17 +337,17 @@ fixtures.csv: 30 Spiele mit Quoten
   0 Ergebnisse geladen
   4 Spiele in den naechsten 3 Tagen
   4 Prognosen via Team-Historie-Fallback erstellt
-  Kicker-News: 36 Schlagzeilen geladen
+  Kicker-News: 37 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 896, WTA 892
   Historie: ATP 0 Matches, WTA 0 Matches
   Elo ATP: 0 Spieler bewertet
   Elo WTA: 0 Spieler bewertet
-  Belag-Zuordnung (MatchStat): 27 Turniere
-  Tennis-Quoten zugeordnet: 5
-  70 Tennis-Matches in den naechsten 3 Tagen
-  0 Tennis-Matches heute bereits beendet
-  Tipp-Log: 3002 Eintraege, 1955 ausgewertet, 1149 richtig
+  Belag-Zuordnung (MatchStat): 29 Turniere
+  Tennis-Quoten zugeordnet: 4
+  66 Tennis-Matches in den naechsten 3 Tagen
+  1 Tennis-Matches heute bereits beendet
+  Tipp-Log: 3003 Eintraege, 1959 ausgewertet, 1149 richtig
   Premium-Abrufe: Tennis 8, Fussball 285 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
