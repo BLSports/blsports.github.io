@@ -1,4 +1,8 @@
-/tmp/tennisdata/atp_2022.xlsx: FEHLGESCHLAGEN (letzter Code 504); Antwort-Anfang:
+/tmp/tennisdata/atp_2022.xlsx: FEHLGESCHLAGEN (letzter Code err); Antwort-Anfang:
+
+/tmp/tennisdata/wta_2022.xlsx: FEHLGESCHLAGEN (letzter Code err); Antwort-Anfang:
+
+/tmp/tennisdata/atp_2023.xlsx: FEHLGESCHLAGEN (letzter Code 504); Antwort-Anfang:
 <html>
 <head>
 <title>The page is temporarily unavailable</title>
@@ -11,18 +15,25 @@ body { font-family: Tahoma, Verdana, Arial, sans-serif; }
 <tr>
 <td align="center" valign="middle">
 The page you are looking for is temporar
-/tmp/tennisdata/wta_2022.xlsx: FEHLGESCHLAGEN (letzter Code err); Antwort-Anfang:
-
-/tmp/tennisdata/atp_2023.xlsx: FEHLGESCHLAGEN (letzter Code err); Antwort-Anfang:
-
 /tmp/tennisdata/wta_2023.xlsx: FEHLGESCHLAGEN (letzter Code err); Antwort-Anfang:
 
 /tmp/tennisdata/atp_2024.xlsx: FEHLGESCHLAGEN (letzter Code err); Antwort-Anfang:
 
 /tmp/tennisdata/wta_2024.xlsx: FEHLGESCHLAGEN (letzter Code err); Antwort-Anfang:
 
-/tmp/tennisdata/atp_2025.xlsx: FEHLGESCHLAGEN (letzter Code err); Antwort-Anfang:
-
+/tmp/tennisdata/atp_2025.xlsx: FEHLGESCHLAGEN (letzter Code 504); Antwort-Anfang:
+<html>
+<head>
+<title>The page is temporarily unavailable</title>
+<style>
+body { font-family: Tahoma, Verdana, Arial, sans-serif; }
+</style>
+</head>
+<body bgcolor="white" text="black">
+<table width="100%" height="100%">
+<tr>
+<td align="center" valign="middle">
+The page you are looking for is temporar
 /tmp/tennisdata/wta_2025.xlsx: FEHLGESCHLAGEN (letzter Code err); Antwort-Anfang:
 
 /tmp/tennisdata/atp_2026.xlsx: FEHLGESCHLAGEN (letzter Code err); Antwort-Anfang:
@@ -30,8 +41,8 @@ The page you are looking for is temporar
 /tmp/tennisdata/wta_2026.xlsx: FEHLGESCHLAGEN (letzter Code err); Antwort-Anfang:
 
 total 8
-drwxr-xr-x  2 runner runner 4096 Sep 17 08:57 .
-drwxrwxrwt 14 root   root   4096 Sep 17 08:57 ..
+drwxr-xr-x  2 runner runner 4096 Sep 17 10:56 .
+drwxrwxrwt 14 root   root   4096 Sep 17 10:52 ..
   WARN: https://www.football-data.co.uk/fixtures.csv nicht erreichbar (<urlopen error [Errno 111] Connection refused>)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -323,7 +334,7 @@ fixtures.csv: 0 Spiele mit Quoten
 == Premier Division (Irland) ==
   0 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
-  Kicker-News: 35 Schlagzeilen geladen
+  Kicker-News: 37 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 896, WTA 892
@@ -332,7 +343,7 @@ fixtures.csv: 0 Spiele mit Quoten
   Elo WTA: 0 Spieler bewertet
   Belag-Zuordnung (MatchStat): 29 Turniere
   Tennis-Quoten zugeordnet: 3
-  46 Tennis-Matches in den naechsten 3 Tagen
+  45 Tennis-Matches in den naechsten 3 Tagen
   2 Tennis-Matches heute bereits beendet
   Tipp-Log: 3095 Eintraege, 2010 ausgewertet, 1184 richtig
   Premium-Abrufe: Tennis 8, Fussball 500 (Tennis AKTIV, Fussball AKTIV)
