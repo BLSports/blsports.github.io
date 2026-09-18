@@ -48376,9 +48376,9 @@
    "tip": "P1",
    "tipName": "Laura Samson",
    "prob": 0.5899,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-09-17|barthel m|ristic m": {
    "sport": "tn",
@@ -48390,9 +48390,9 @@
    "tip": "P1",
    "tipName": "Mia Ristic",
    "prob": 0.535,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-09-17|de stefano s|tubello a": {
    "sport": "tn",
@@ -48418,9 +48418,9 @@
    "tip": "P1",
    "tipName": "Ekaterine Gorgodze",
    "prob": 0.6248,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-09-18|lazaro garcia a|lilly sophie steur j": {
    "sport": "tn",
@@ -49970,9 +49970,9 @@
    "tip": "P1",
    "tipName": "Laura Samson",
    "prob": 0.5899,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-09-18|barthel m|ristic m": {
    "sport": "tn",
@@ -49984,9 +49984,9 @@
    "tip": "P1",
    "tipName": "Mia Ristic",
    "prob": 0.535,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-09-18|basiletti n|gorgodze e": {
    "sport": "tn",
@@ -49998,9 +49998,9 @@
    "tip": "P1",
    "tipName": "Ekaterine Gorgodze",
    "prob": 0.6248,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-09-18|de stefano s|tubello a": {
    "sport": "tn",
@@ -51744,6 +51744,132 @@
    "tip": "P2",
    "tipName": "Alevtina Ibragimova",
    "prob": 0.6079,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-19|krawczyk d|lena friedsam a": {
+   "sport": "tn",
+   "comp": "WTA · Singapore Tennis Open presented by BNP Paribas",
+   "date": "2026-09-19",
+   "label": "Desirae Krawczyk – Anna-Lena Friedsam",
+   "p1Key": "krawczyk d",
+   "p2Key": "lena friedsam a",
+   "tip": "P1",
+   "tipName": "Desirae Krawczyk",
+   "prob": 0.5124,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-19|jiaqi w|kulikova a": {
+   "sport": "tn",
+   "comp": "WTA · Singapore Tennis Open presented by BNP Paribas",
+   "date": "2026-09-19",
+   "label": "Anastasia Kulikova – Wang Jiaqi",
+   "p1Key": "kulikova a",
+   "p2Key": "jiaqi w",
+   "tip": "P2",
+   "tipName": "Wang Jiaqi",
+   "prob": 0.5463,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-19|barthel m|basiletti n": {
+   "sport": "tn",
+   "comp": "WTA · Zavarovalnica Triglav Ljubljana",
+   "date": "2026-09-19",
+   "label": "Noemi Basiletti – Mona Barthel",
+   "p1Key": "basiletti n",
+   "p2Key": "barthel m",
+   "tip": "P2",
+   "tipName": "Mona Barthel",
+   "prob": 0.5517,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-19|hibino n|ning chanya ng k": {
+   "sport": "tn",
+   "comp": "WTA · Singapore Tennis Open presented by BNP Paribas",
+   "date": "2026-09-19",
+   "label": "Kai Ning Chanya Ng – Nao Hibino",
+   "p1Key": "ning chanya ng k",
+   "p2Key": "hibino n",
+   "tip": "P2",
+   "tipName": "Nao Hibino",
+   "prob": 0.5483,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-19|ito a|lansere s": {
+   "sport": "tn",
+   "comp": "WTA · Singapore Tennis Open presented by BNP Paribas",
+   "date": "2026-09-19",
+   "label": "Sofya Lansere – Aoi Ito",
+   "p1Key": "lansere s",
+   "p2Key": "ito a",
+   "tip": "P1",
+   "tipName": "Sofya Lansere",
+   "prob": 0.5708,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-19|garland j|perez e": {
+   "sport": "tn",
+   "comp": "WTA · Singapore Tennis Open presented by BNP Paribas",
+   "date": "2026-09-19",
+   "label": "Ellen Perez – Joanna Garland",
+   "p1Key": "perez e",
+   "p2Key": "garland j",
+   "tip": "P2",
+   "tipName": "Joanna Garland",
+   "prob": 0.5837,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-19|morvayova v|radisic n": {
+   "sport": "tn",
+   "comp": "WTA · Singapore Tennis Open presented by BNP Paribas",
+   "date": "2026-09-19",
+   "label": "Viktoria Morvayova – Nika Radisic",
+   "p1Key": "morvayova v",
+   "p2Key": "radisic n",
+   "tip": "P1",
+   "tipName": "Viktoria Morvayova",
+   "prob": 0.7213,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-19|marie desvignes e|okamura k": {
+   "sport": "tn",
+   "comp": "WTA · Singapore Tennis Open presented by BNP Paribas",
+   "date": "2026-09-19",
+   "label": "Kyoka Okamura – Eva Marie Desvignes",
+   "p1Key": "okamura k",
+   "p2Key": "marie desvignes e",
+   "tip": "P1",
+   "tipName": "Kyoka Okamura",
+   "prob": 0.7083,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-19|eikeri u|yamaguchi m": {
+   "sport": "tn",
+   "comp": "WTA · Singapore Tennis Open presented by BNP Paribas",
+   "date": "2026-09-19",
+   "label": "Ulrikke Eikeri – Mei Yamaguchi",
+   "p1Key": "eikeri u",
+   "p2Key": "yamaguchi m",
+   "tip": "P1",
+   "tipName": "Ulrikke Eikeri",
+   "prob": 0.5025,
    "status": "open",
    "result": null,
    "correct": null
