@@ -26,24 +26,23 @@
                 border:0;
                 outline:0;
                 font-
-/tmp/tennisdata/atp_2023.xlsx: FEHLGESCHLAGEN (letzter Code 503); Antwort-Anfang:
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html><head>
-<title>503 Service Unavailable</title>
-</head><body>
-<h1>Service Unavailable</h1>
-<p>The server is temporarily unable to service your
-request due to maintenance downtime or capacity
-problems. Plea
-/tmp/tennisdata/wta_2023.xlsx: FEHLGESCHLAGEN (letzter Code 503); Antwort-Anfang:
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html><head>
-<title>503 Service Unavailable</title>
-</head><body>
-<h1>Service Unavailable</h1>
-<p>The server is temporarily unable to service your
-request due to maintenance downtime or capacity
-problems. Plea
+/tmp/tennisdata/atp_2023.xlsx: FEHLGESCHLAGEN (letzter Code 404); Antwort-Anfang:
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <style type="text/css">
+   html, body, #partner, iframe {
+                height:100%;
+                width:100%;
+                margin:0;
+                padding:0;
+                border:0;
+                outline:0;
+                font-
+/tmp/tennisdata/wta_2023.xlsx: FEHLGESCHLAGEN (letzter Code 504); Antwort-Anfang:
+error code: 504
+
 /tmp/tennisdata/atp_2024.xlsx: FEHLGESCHLAGEN (letzter Code 404); Antwort-Anfang:
 <!DOCTYPE html>
 <html>
@@ -58,15 +57,20 @@ problems. Plea
                 border:0;
                 outline:0;
                 font-
-/tmp/tennisdata/wta_2024.xlsx: FEHLGESCHLAGEN (letzter Code 503); Antwort-Anfang:
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html><head>
-<title>503 Service Unavailable</title>
-</head><body>
-<h1>Service Unavailable</h1>
-<p>The server is temporarily unable to service your
-request due to maintenance downtime or capacity
-problems. Plea
+/tmp/tennisdata/wta_2024.xlsx: FEHLGESCHLAGEN (letzter Code 404); Antwort-Anfang:
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <style type="text/css">
+   html, body, #partner, iframe {
+                height:100%;
+                width:100%;
+                margin:0;
+                padding:0;
+                border:0;
+                outline:0;
+                font-
 /tmp/tennisdata/atp_2025.xlsx: FEHLGESCHLAGEN (letzter Code 404); Antwort-Anfang:
 <!DOCTYPE html>
 <html>
@@ -124,8 +128,8 @@ problems. Plea
                 outline:0;
                 font-
 total 8
-drwxr-xr-x  2 runner runner 4096 Sep 17 23:53 .
-drwxrwxrwt 14 root   root   4096 Sep 17 23:52 ..
+drwxr-xr-x  2 runner runner 4096 Sep 18 08:42 .
+drwxrwxrwt 14 root   root   4096 Sep 18 08:39 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -161,7 +165,6 @@ drwxrwxrwt 14 root   root   4096 Sep 17 23:52 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20260328-20260625&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20260626-20260918&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
-  WARN: https://api.the-odds-api.com/v4/sports/soccer_belgium_pro_league/odds/?apiKey=8392ea7216723e341b1a7c2cea58bcb4&regions=eu&markets=h2h&oddsFormat=decimal nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -339,17 +342,17 @@ fixtures.csv: 30 Spiele mit Quoten
 == Premier Division (Irland) ==
   0 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
-  Kicker-News: 38 Schlagzeilen geladen
+  Kicker-News: 36 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 896, WTA 892
   Historie: ATP 0 Matches, WTA 0 Matches
   Elo ATP: 0 Spieler bewertet
   Elo WTA: 0 Spieler bewertet
-  Belag-Zuordnung (MatchStat): 32 Turniere
-  Tennis-Quoten zugeordnet: 1
-  30 Tennis-Matches in den naechsten 3 Tagen
-  0 Tennis-Matches heute bereits beendet
-  Tipp-Log: 3191 Eintraege, 2040 ausgewertet, 1198 richtig
+  Belag-Zuordnung (MatchStat): 33 Turniere
+  Tennis-Quoten zugeordnet: 0
+  36 Tennis-Matches in den naechsten 3 Tagen
+  1 Tennis-Matches heute bereits beendet
+  Tipp-Log: 3200 Eintraege, 2043 ausgewertet, 1200 richtig
   Premium-Abrufe: Tennis 8, Fussball 500 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
