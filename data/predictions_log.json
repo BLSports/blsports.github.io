@@ -51716,9 +51716,9 @@
    "tip": "P1",
    "tipName": "Priscilla Hon",
    "prob": 0.5252,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-09-19|saito s|shuo liang e": {
    "sport": "tn",
@@ -51856,9 +51856,9 @@
    "tip": "P1",
    "tipName": "Kyoka Okamura",
    "prob": 0.7083,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-09-19|eikeri u|yamaguchi m": {
    "sport": "tn",
@@ -51870,9 +51870,9 @@
    "tip": "P1",
    "tipName": "Ulrikke Eikeri",
    "prob": 0.5025,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-09-19|knutson g|pohankova m": {
    "sport": "tn",
@@ -52300,6 +52300,76 @@
    "tip": "P2",
    "tipName": "Anna-Lena Friedsam",
    "prob": 0.534,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-20|kuramochi m|xinxin y": {
+   "sport": "tn",
+   "comp": "WTA · Korea Open",
+   "date": "2026-09-20",
+   "label": "Yao Xinxin – Miho Kuramochi",
+   "p1Key": "xinxin y",
+   "p2Key": "kuramochi m",
+   "tip": "P1",
+   "tipName": "Yao Xinxin",
+   "prob": 0.578,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-20|kulikova a|lena friedsam a": {
+   "sport": "tn",
+   "comp": "WTA · Singapore Tennis Open presented by BNP Paribas",
+   "date": "2026-09-20",
+   "label": "Anastasia Kulikova – Anna-Lena Friedsam",
+   "p1Key": "kulikova a",
+   "p2Key": "lena friedsam a",
+   "tip": "P2",
+   "tipName": "Anna-Lena Friedsam",
+   "prob": 0.534,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-20|hibino n|ito a": {
+   "sport": "tn",
+   "comp": "WTA · Singapore Tennis Open presented by BNP Paribas",
+   "date": "2026-09-20",
+   "label": "Aoi Ito – Nao Hibino",
+   "p1Key": "ito a",
+   "p2Key": "hibino n",
+   "tip": "P2",
+   "tipName": "Nao Hibino",
+   "prob": 0.6299,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-20|garland j|morvayova v": {
+   "sport": "tn",
+   "comp": "WTA · Singapore Tennis Open presented by BNP Paribas",
+   "date": "2026-09-20",
+   "label": "Viktoria Morvayova – Joanna Garland",
+   "p1Key": "morvayova v",
+   "p2Key": "garland j",
+   "tip": "P2",
+   "tipName": "Joanna Garland",
+   "prob": 0.6154,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-20|okamura k|yamaguchi m": {
+   "sport": "tn",
+   "comp": "WTA · Singapore Tennis Open presented by BNP Paribas",
+   "date": "2026-09-20",
+   "label": "Kyoka Okamura – Mei Yamaguchi",
+   "p1Key": "okamura k",
+   "p2Key": "yamaguchi m",
+   "tip": "P2",
+   "tipName": "Mei Yamaguchi",
+   "prob": 0.541,
    "status": "open",
    "result": null,
    "correct": null
