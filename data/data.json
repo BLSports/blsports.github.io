@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-20T20:27:18.971957+02:00",
+ "generatedAt": "2026-09-20T21:35:11.496029+02:00",
  "windowDays": 3,
  "days": [
   "2026-09-20",
@@ -57,115 +57,15 @@
    "name": "1. Bundesliga",
    "flag": "🇩🇪",
    "espn": "ger.1",
-   "matches": [
-    {
-     "kickoff": "2026-09-20T19:30:00+02:00",
-     "home": "SC Paderborn 07",
-     "away": "TSG Hoffenheim",
-     "homeIcon": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
-     "awayIcon": "https://i.imgur.com/gF0PfEl.png",
-     "matchday": 4,
-     "roundName": null,
-     "formHome": [
-      "U",
-      "N",
-      "N"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "N",
-      "N",
-      "S"
-     ],
-     "formHomeH": [
-      "N"
-     ],
-     "formAwayA": [
-      "N",
-      "U",
-      "S",
-      "N",
-      "N"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 16,
-     "posAway": 13,
-     "nTeams": 18,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.0402,
-      "pDraw": 0.2735,
-      "pAway": 0.6863,
-      "pOver25": 0.1881,
-      "pBtts": 0.1027,
-      "xgHome": 0.15,
-      "xgAway": 1.34,
-      "tipScore": "0:1",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.1027,
-     "odds": {
-      "h": 4.54,
-      "d": 4.46,
-      "a": 1.69,
-      "src": "Pinnacle"
-     },
-     "value": {
-      "outcome": "2",
-      "edge": 0.1153,
-      "modelP": 0.6863,
-      "odds": 1.69
-     },
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "A. Hložek",
-       "goals": 2
-      },
-      {
-       "name": "A. Daghim",
-       "goals": 1
-      },
-      {
-       "name": "O. Kabak",
-       "goals": 1
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "TSG Hoffenheim reist als klarer Favorit (69 %) zu SC Paderborn 07. In der Tabelle stehen sich Platz 16 und Platz 13 gegenüber. Die Form spricht für TSG Hoffenheim: 2 Siege aus den letzten 5 Spielen, SC Paderborn 07 holte nur 0. Das Modell erwartet eher wenige Tore (xG 0,1:1,3; über 2,5 Tore: 19 %, beide Teams treffen zu 10 %). Gefährlichste Torschützen: bei TSG Hoffenheim A. Hložek (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 1,69) für 12 Prozentpunkte wahrscheinlicher als der Markt. Personal: SC Paderborn 07 fehlen 6 Spieler (u.a. N. Awortwie-Grant).",
-     "injuriesHome": [
-      {
-       "name": "N. Awortwie-Grant",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "L. Eickel",
-       "reason": "Back Injury"
-      },
-      {
-       "name": "T. Gayret",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "S. Michel",
-       "reason": "Muscle Injury"
-      },
-      {
-       "name": "F. Gotze",
-       "reason": "Concussion"
-      },
-      {
-       "name": "S. Klaas",
-       "reason": "Muscle Injury"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": true,
-   "isCup": false
+   "isCup": false,
+   "nextMatch": {
+    "kickoff": "2026-10-09T20:30:00+02:00",
+    "home": "Borussia Dortmund",
+    "away": "SV Werder Bremen",
+    "matchday": 5
+   }
   },
   {
    "id": "bl2",
@@ -187,108 +87,15 @@
    "name": "3. Liga",
    "flag": "🇩🇪",
    "espn": "ger.3",
-   "matches": [
-    {
-     "kickoff": "2026-09-20T19:30:00+02:00",
-     "home": "SV Wehen Wiesbaden",
-     "away": "MSV Duisburg",
-     "homeIcon": "https://upload.wikimedia.org/wikipedia/de/thumb/3/3d/Logo_SV_Wehen_Wiesbaden.svg/250px-Logo_SV_Wehen_Wiesbaden.svg.png",
-     "awayIcon": "https://upload.wikimedia.org/wikipedia/en/c/c8/Msv_duisburg%28new%29.svg",
-     "matchday": 7,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "U",
-      "U",
-      "N",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "S",
-      "S",
-      "N",
-      "S"
-     ],
-     "formHomeH": [
-      "N",
-      "S",
-      "N",
-      "U",
-      "N"
-     ],
-     "formAwayA": [
-      "N",
-      "U",
-      "S",
-      "S",
-      "N"
-     ],
-     "load14Home": 2,
-     "load14Away": 2,
-     "posHome": 19,
-     "posAway": 2,
-     "nTeams": 20,
-     "h2h": [
-      {
-       "date": "14.02.2026",
-       "home": "SV Wehen Wiesbaden",
-       "away": "MSV Duisburg",
-       "score": "6:1"
-      },
-      {
-       "date": "13.09.2025",
-       "home": "MSV Duisburg",
-       "away": "SV Wehen Wiesbaden",
-       "score": "3:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.2626,
-      "pDraw": 0.2563,
-      "pAway": 0.4811,
-      "pOver25": 0.4772,
-      "pBtts": 0.5105,
-      "xgHome": 1.06,
-      "xgAway": 1.53,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.5105,
-     "odds": {
-      "h": 3.2,
-      "d": 3.3,
-      "a": 2.2,
-      "src": "Tipico"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "M. Flotho",
-       "goals": 1
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "L. Lobinger",
-       "goals": 4
-      },
-      {
-       "name": "F. Krüger",
-       "goals": 2
-      },
-      {
-       "name": "Schlicke",
-       "goals": 1
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "MSV Duisburg ist bei SV Wehen Wiesbaden leicht favorisiert (48 % zu 26 %). In der Tabelle stehen sich Platz 19 und Platz 2 gegenüber. Die Form spricht für MSV Duisburg: 4 Siege aus den letzten 5 Spielen, SV Wehen Wiesbaden holte nur 1. Heim-/Auswärtsbilanz: SV Wehen Wiesbaden gewann 1 der letzten 5 Heimspiele, MSV Duisburg 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 6:1 (SV Wehen Wiesbaden – MSV Duisburg). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,1:1,5; über 2,5 Tore: 48 %, beide Teams treffen zu 51 %). Gefährlichste Torschützen: bei SV Wehen Wiesbaden M. Flotho (1 Tore) und bei MSV Duisburg L. Lobinger (4 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": true,
-   "isCup": false
+   "isCup": false,
+   "nextMatch": {
+    "kickoff": "2026-09-25T19:00:00+02:00",
+    "home": "TSV Havelse",
+    "away": "Fortuna Köln",
+    "matchday": 7
+   }
   },
   {
    "id": "pl",
@@ -304,171 +111,7 @@
    "name": "Serie A",
    "flag": "🇮🇹",
    "espn": "ita.1",
-   "matches": [
-    {
-     "kickoff": "2026-09-20T20:45:00+02:00",
-     "home": "AC Milan",
-     "away": "Lecce",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "S",
-      "S",
-      "U",
-      "U"
-     ],
-     "formAway": [
-      "S",
-      "S",
-      "N",
-      "N",
-      "S"
-     ],
-     "formHomeH": [
-      "N",
-      "U",
-      "N",
-      "N",
-      "S"
-     ],
-     "formAwayA": [
-      "U",
-      "S",
-      "S",
-      "S",
-      "N"
-     ],
-     "load14Home": 1,
-     "load14Away": 2,
-     "posHome": 8,
-     "posAway": 11,
-     "nTeams": 20,
-     "h2h": [
-      {
-       "date": "18.01.2026",
-       "home": "Milan",
-       "away": "Lecce",
-       "score": "1:0"
-      },
-      {
-       "date": "29.08.2025",
-       "home": "Lecce",
-       "away": "Milan",
-       "score": "0:2"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.6029,
-      "pDraw": 0.2495,
-      "pAway": 0.1476,
-      "pOver25": 0.3808,
-      "pBtts": 0.3727,
-      "xgHome": 1.58,
-      "xgAway": 0.63,
-      "tipScore": "1:0",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.3727,
-     "odds": {
-      "h": 1.25,
-      "d": 6.0,
-      "a": 10.0,
-      "src": "Winamax (DE)"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "L. Coulibaly",
-       "goals": 2
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "AC Milan geht als klarer Favorit (60 %) in das Heimspiel gegen Lecce. In der Tabelle stehen sich Platz 6 und Platz 12 gegenüber. Heim-/Auswärtsbilanz: AC Milan gewann 1 der letzten 5 Heimspiele, Lecce 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:0 (Milan – Lecce). Das Modell erwartet eher wenige Tore (xG 1,6:0,6; über 2,5 Tore: 38 %, beide Teams treffen zu 37 %). Die Aufstellungen sind offiziell (3-4-2-1 gegen 4-3-3). Personal: AC Milan fehlen 6 Spieler (u.a. Y. Fofana); Lecce fehlen 4 Spieler (u.a. L. Banda).",
-     "injuriesHome": [
-      {
-       "name": "Y. Fofana",
-       "reason": "Transfer negotiations"
-      },
-      {
-       "name": "S. Gimenez",
-       "reason": "Ankle Injury"
-      },
-      {
-       "name": "R. Leao",
-       "reason": "Muscle Injury"
-      },
-      {
-       "name": "C. Nkunku",
-       "reason": "Inactive"
-      },
-      {
-       "name": "F. Tomori",
-       "reason": "Transfer negotiations"
-      },
-      {
-       "name": "M. Gabbia",
-       "reason": "Ankle Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "L. Banda",
-       "reason": "Inactive"
-      },
-      {
-       "name": "M. Berisha",
-       "reason": "Thigh Injury"
-      },
-      {
-       "name": "O. Gandelman",
-       "reason": "Inactive"
-      },
-      {
-       "name": "W. Geubbels",
-       "reason": "Ankle Injury"
-      }
-     ],
-     "lineups": {
-      "home": {
-       "formation": "3-4-2-1",
-       "xi": [
-        "Mike Maignan",
-        "Mario Gila",
-        "Koni De Winter",
-        "Strahinja Pavlović",
-        "Samuel Chukwueze",
-        "Luka Modrić",
-        "Adrien Rabiot",
-        "Pervis Estupiñán",
-        "Christian Pulišić",
-        "Alexis Saelemaekers",
-        "Gonçalo Ramos"
-       ]
-      },
-      "away": {
-       "formation": "4-3-3",
-       "xi": [
-        "Wladimiro Falcone",
-        "Danilo Veiga",
-        "Kialonda Gaspar",
-        "Jamil Siebert",
-        "Antonino Gallo",
-        "Lassana Coulibaly",
-        "Ivan Ilić",
-        "Youssef Maleh",
-        "Santiago Pierotti",
-        "Nikola Štulić",
-        "Joël Monteiro"
-       ]
-      }
-     },
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": true,
    "isCup": false
   },
@@ -477,179 +120,7 @@
    "name": "La Liga",
    "flag": "🇪🇸",
    "espn": "esp.1",
-   "matches": [
-    {
-     "kickoff": "2026-09-20T21:00:00+02:00",
-     "home": "Valencia",
-     "away": "Real Sociedad",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "N",
-      "N",
-      "N",
-      "S"
-     ],
-     "formAway": [
-      "N",
-      "S",
-      "U",
-      "S",
-      "N"
-     ],
-     "formHomeH": [
-      "U",
-      "S",
-      "U",
-      "N",
-      "N"
-     ],
-     "formAwayA": [
-      "U",
-      "U",
-      "N",
-      "N",
-      "S"
-     ],
-     "load14Home": 2,
-     "load14Away": 2,
-     "posHome": 19,
-     "posAway": 14,
-     "nTeams": 20,
-     "h2h": [
-      {
-       "date": "17.05.2026",
-       "home": "Sociedad",
-       "away": "Valencia",
-       "score": "3:4"
-      },
-      {
-       "date": "16.08.2025",
-       "home": "Valencia",
-       "away": "Sociedad",
-       "score": "1:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.4171,
-      "pDraw": 0.2503,
-      "pAway": 0.3326,
-      "pOver25": 0.5364,
-      "pBtts": 0.5701,
-      "xgHome": 1.51,
-      "xgAway": 1.32,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.5701,
-     "odds": {
-      "h": 2.77,
-      "d": 3.42,
-      "a": 2.63,
-      "src": "Pinnacle"
-     },
-     "value": {
-      "outcome": "1",
-      "edge": 0.0678,
-      "modelP": 0.4171,
-      "odds": 2.77
-     },
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Valencia ist gegen Real Sociedad leicht favorisiert (42 % zu 33 %). In der Tabelle stehen sich Platz 18 und Platz 12 gegenüber. Heim-/Auswärtsbilanz: Valencia gewann 1 der letzten 5 Heimspiele, Real Sociedad 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:4 (Sociedad – Valencia). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,5:1,3; über 2,5 Tore: 54 %, beide Teams treffen zu 57 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,77) für 7 Prozentpunkte wahrscheinlicher als der Markt. Die Aufstellungen sind offiziell (4-4-2 gegen 4-4-2). Personal: Valencia fehlen 12 Spieler (u.a. S. Canos); Real Sociedad fehlen 8 Spieler (u.a. J. Gorrotxategi).",
-     "injuriesHome": [
-      {
-       "name": "S. Canos",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "J. Copete",
-       "reason": "Ankle Injury"
-      },
-      {
-       "name": "D. Foulquier",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "D. Lopez",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "A. Mari",
-       "reason": "Leg Injury"
-      },
-      {
-       "name": "L. Rioja",
-       "reason": "Muscle Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "J. Gorrotxategi",
-       "reason": "Groin Injury"
-      },
-      {
-       "name": "G. Guedes",
-       "reason": "Injury"
-      },
-      {
-       "name": "P. Marin",
-       "reason": "Injury"
-      },
-      {
-       "name": "A. Odriozola",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "H. Fort",
-       "reason": "Coach's decision"
-      },
-      {
-       "name": "J. Pacheco",
-       "reason": "Coach's decision"
-      }
-     ],
-     "lineups": {
-      "home": {
-       "formation": "4-4-2",
-       "xi": [
-        "S. Dimitrievski",
-        "Pablo Maffeo",
-        "Pepelu",
-        "J. de Haas",
-        "José Gayà",
-        "Aaron Mayol",
-        "F. Ugrinic",
-        "G. Rodríguez",
-        "A. Danjuma",
-        "Javi Guerra",
-        "Hugo Duro"
-       ]
-      },
-      "away": {
-       "formation": "4-4-2",
-       "xi": [
-        "Álex Remiro",
-        "J. Aramburu",
-        "Luken Beitia",
-        "Jon Martín",
-        "Sergio Gómez",
-        "Gonçalo Guedes",
-        "Jon Gorrotxategi",
-        "Carlos Soler",
-        "J. Ochieng",
-        "L. Sučić",
-        "Mikel Oyarzabal"
-       ]
-      }
-     },
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": true,
    "isCup": false
   },
@@ -658,127 +129,7 @@
    "name": "La Liga 2",
    "flag": "🇪🇸",
    "espn": "esp.2",
-   "matches": [
-    {
-     "kickoff": "2026-09-20T21:00:00+02:00",
-     "home": "Leganés",
-     "away": "Granada",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/17534.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3747.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "U",
-      "S",
-      "S",
-      "U",
-      "N"
-     ],
-     "formAway": [
-      "U",
-      "S",
-      "S",
-      "N",
-      "U"
-     ],
-     "formHomeH": [
-      "N",
-      "N",
-      "U",
-      "S",
-      "S"
-     ],
-     "formAwayA": [
-      "N",
-      "N",
-      "U",
-      "S",
-      "N"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 14,
-     "posAway": 12,
-     "nTeams": 22,
-     "h2h": [
-      {
-       "date": "06.02.2026",
-       "home": "Leganes",
-       "away": "Granada",
-       "score": "1:0"
-      },
-      {
-       "date": "14.09.2025",
-       "home": "Granada",
-       "away": "Leganes",
-       "score": "0:2"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.3648,
-      "pDraw": 0.3087,
-      "pAway": 0.3265,
-      "pOver25": 0.3218,
-      "pBtts": 0.3978,
-      "xgHome": 1.03,
-      "xgAway": 0.96,
-      "tipScore": "1:0",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.3978,
-     "odds": {
-      "h": 2.06,
-      "d": 3.3,
-      "a": 3.6,
-      "src": "Unibet (SE)"
-     },
-     "value": {
-      "outcome": "2",
-      "edge": 0.066,
-      "modelP": 0.3265,
-      "odds": 3.6
-     },
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen Leganés und Granada deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Leganés 36 %, Unentschieden 31 %, Sieg Granada 33 %). In der Tabelle stehen sich Platz 11 und Platz 10 gegenüber. Heim-/Auswärtsbilanz: Leganés gewann 2 der letzten 5 Heimspiele, Granada 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:0 (Leganes – Granada). Das Modell erwartet eher wenige Tore (xG 1,0:1,0; über 2,5 Tore: 32 %, beide Teams treffen zu 40 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,60) für 7 Prozentpunkte wahrscheinlicher als der Markt. Die Aufstellungen sind offiziell (3-2-4-1 gegen 4-3-3).",
-     "lineups": {
-      "home": {
-       "formation": "3-2-4-1",
-       "xi": [
-        "L. Zidane",
-        "Lalo Aguilar",
-        "Ignasi Miquel",
-        "Marvel",
-        "Z. Buurmeester",
-        "Miguel Atienza",
-        "Naim García",
-        "Ismaël Gharbi",
-        "Y. Kechta",
-        "Álex Sancris",
-        "P. Soko"
-       ]
-      },
-      "away": {
-       "formation": "4-3-3",
-       "xi": [
-        "Raúl Lizoain",
-        "Sergio López",
-        "Manu Lama",
-        "B. Gimber",
-        "Diego Pampín",
-        "Gumbau",
-        "Rubén Alcaraz",
-        "Jorge Pascual",
-        "O. M. Chukwuemeka",
-        "Alejandro Marqués",
-        "José Arnáiz"
-       ]
-      }
-     },
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": true,
    "isCup": false
   },
@@ -787,196 +138,7 @@
    "name": "Ligue 1",
    "flag": "🇫🇷",
    "espn": "fra.1",
-   "matches": [
-    {
-     "kickoff": "2026-09-20T20:45:00+02:00",
-     "home": "Marseille",
-     "away": "Paris Saint-Germain",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "S",
-      "S",
-      "N",
-      "N",
-      "N"
-     ],
-     "formAway": [
-      "U",
-      "U",
-      "N",
-      "S",
-      "S"
-     ],
-     "formHomeH": [
-      "S",
-      "U",
-      "S",
-      "S",
-      "N"
-     ],
-     "formAwayA": [],
-     "load14Home": 1,
-     "load14Away": 0,
-     "posHome": 17,
-     "posAway": 10,
-     "nTeams": 18,
-     "h2h": [
-      {
-       "date": "08.02.2026",
-       "home": "Paris Saint Germain",
-       "away": "Marseille",
-       "score": "5:0"
-      },
-      {
-       "date": "08.01.2026",
-       "home": "Paris Saint Germain",
-       "away": "Marseille",
-       "score": "2:2"
-      },
-      {
-       "date": "22.09.2025",
-       "home": "Marseille",
-       "away": "Paris Saint Germain",
-       "score": "1:0"
-      },
-      {
-       "date": "16.03.2025",
-       "home": "Paris Saint Germain",
-       "away": "Marseille",
-       "score": "3:1"
-      },
-      {
-       "date": "27.10.2024",
-       "home": "Marseille",
-       "away": "Paris Saint Germain",
-       "score": "0:3"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.3965,
-      "pDraw": 0.2415,
-      "pAway": 0.362,
-      "pOver25": 0.5832,
-      "pBtts": 0.6081,
-      "xgHome": 1.55,
-      "xgAway": 1.47,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.6081,
-     "odds": {
-      "h": 7.8,
-      "d": 5.58,
-      "a": 1.41,
-      "src": "1xBet"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Amine Gouiri",
-       "goals": 4
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Ferran Torres",
-       "goals": 3
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen Marseille und Paris Saint-Germain deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Marseille 40 %, Unentschieden 24 %, Sieg Paris Saint-Germain 36 %). In der Tabelle stehen sich Platz 17 und Platz 10 gegenüber. Das letzte Duell (2026) endete 5:0 (Paris Saint Germain – Marseille). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,5; über 2,5 Tore: 58 %, beide Teams treffen zu 61 %). Gefährlichste Torschützen: bei Marseille Amine Gouiri (4 Tore) und bei Paris Saint-Germain Ferran Torres (3 Tore). Personal: Marseille fehlen 6 Spieler (u.a. L. Balerdi); Paris Saint-Germain fehlen 6 Spieler (u.a. B. Barcola).",
-     "injuriesHome": [
-      {
-       "name": "L. Balerdi",
-       "reason": "Calf Injury"
-      },
-      {
-       "name": "F. Moumbagna",
-       "reason": "Injury"
-      },
-      {
-       "name": "Q. Timber",
-       "reason": "Yellow Cards"
-      },
-      {
-       "name": "I. Paixao",
-       "reason": "Muscle Injury"
-      },
-      {
-       "name": "G. Kondogbia",
-       "reason": "Injury"
-      },
-      {
-       "name": "A. Koum Mbondo",
-       "reason": "Inactive"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "B. Barcola",
-       "reason": "Inactive"
-      },
-      {
-       "name": "I. Mbaye",
-       "reason": "Inactive"
-      },
-      {
-       "name": "N. Mendes",
-       "reason": "Red Card"
-      },
-      {
-       "name": "O. Dembele",
-       "reason": "Rest"
-      },
-      {
-       "name": "J. Neves",
-       "reason": "Illness"
-      },
-      {
-       "name": "L. Digne",
-       "reason": "Inactive"
-      }
-     ],
-     "lineups": {
-      "home": {
-       "formation": "4-2-3-1",
-       "xi": [
-        "J. de Lange",
-        "T. Weah",
-        "C. Egan-Riley",
-        "N. Aguerd",
-        "Emerson",
-        "H. Abdelli",
-        "P. Højbjerg",
-        "A. Harit",
-        "A. Gouiri",
-        "Igor Paixão",
-        "N. Maupay"
-       ]
-      },
-      "away": {
-       "formation": "4-3-3",
-       "xi": [
-        "M. Safonov",
-        "W. Zaïre-Emery",
-        "Marquinhos",
-        "W. Pacho",
-        "Nuno Mendes",
-        "João Neves",
-        "Vitinha",
-        "Fabián Ruiz",
-        "D. Doué",
-        "O. Dembélé",
-        "K. Kvaratskhelia"
-       ]
-      }
-     },
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": true,
    "isCup": false
   },
@@ -1030,102 +192,7 @@
    "name": "Primeira Liga (Portugal)",
    "flag": "🇵🇹",
    "espn": "por.1",
-   "matches": [
-    {
-     "kickoff": "2026-09-20T21:30:00+02:00",
-     "home": "FC Porto",
-     "away": "Benfica",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "S",
-      "S",
-      "S",
-      "S",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "S",
-      "S",
-      "S",
-      "S"
-     ],
-     "formHomeH": [
-      "S",
-      "S",
-      "S",
-      "S",
-      "S"
-     ],
-     "formAwayA": [
-      "U",
-      "S",
-      "S",
-      "S",
-      "S"
-     ],
-     "load14Home": 1,
-     "load14Away": 2,
-     "posHome": 1,
-     "posAway": 2,
-     "nTeams": 18,
-     "h2h": [
-      {
-       "date": "08.03.2026",
-       "home": "Benfica",
-       "away": "Porto",
-       "score": "2:2"
-      },
-      {
-       "date": "05.10.2025",
-       "home": "Porto",
-       "away": "Benfica",
-       "score": "0:0"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.4396,
-      "pDraw": 0.2884,
-      "pAway": 0.2719,
-      "pOver25": 0.3688,
-      "pBtts": 0.4287,
-      "xgHome": 1.25,
-      "xgAway": 0.92,
-      "tipScore": "1:0",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.4287,
-     "odds": {
-      "h": 2.9,
-      "d": 3.1,
-      "a": 2.4,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Gabri Veiga",
-       "goals": 3
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Vangelis Pavlidis",
-       "goals": 8
-      },
-      {
-       "name": "Gianluca Prestianni",
-       "goals": 5
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "FC Porto ist gegen Benfica leicht favorisiert (44 % zu 27 %). In der Tabelle stehen sich Platz 1 und Platz 2 gegenüber. Heim-/Auswärtsbilanz: FC Porto gewann 5 der letzten 5 Heimspiele, Benfica 4 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:2 (Benfica – Porto). Das Modell erwartet eher wenige Tore (xG 1,2:0,9; über 2,5 Tore: 37 %, beide Teams treffen zu 43 %). Gefährlichste Torschützen: bei FC Porto Gabri Veiga (3 Tore) und bei Benfica Vangelis Pavlidis (8 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": true,
    "isCup": false
   },
@@ -1299,370 +366,6 @@
    "espn": "bra.1",
    "matches": [
     {
-     "kickoff": "2026-09-20T21:00:00+02:00",
-     "home": "Corinthians",
-     "away": "Fluminense",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "N",
-      "U",
-      "N",
-      "N"
-     ],
-     "formAway": [
-      "U",
-      "S",
-      "S",
-      "N",
-      "N"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 14,
-     "posAway": 5,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "02.04.2026",
-       "home": "Fluminense",
-       "away": "Corinthians",
-       "score": "3:1"
-      },
-      {
-       "date": "14.09.2025",
-       "home": "Fluminense",
-       "away": "Corinthians",
-       "score": "0:1"
-      },
-      {
-       "date": "16.04.2025",
-       "home": "Corinthians",
-       "away": "Fluminense",
-       "score": "0:2"
-      },
-      {
-       "date": "18.08.2024",
-       "home": "Fluminense",
-       "away": "Corinthians",
-       "score": "0:0"
-      },
-      {
-       "date": "28.04.2024",
-       "home": "Corinthians",
-       "away": "Fluminense",
-       "score": "3:0"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.3885,
-      "pDraw": 0.2809,
-      "pAway": 0.3306,
-      "pOver25": 0.412,
-      "pBtts": 0.4724,
-      "xgHome": 1.22,
-      "xgAway": 1.11,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.4724,
-     "odds": {
-      "h": 2.1,
-      "d": 3.0,
-      "a": 3.6,
-      "src": "William Hill"
-     },
-     "value": {
-      "outcome": "2",
-      "edge": 0.0751,
-      "modelP": 0.3306,
-      "odds": 3.6
-     },
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "John Kennedy",
-       "goals": 9
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen Corinthians und Fluminense deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Corinthians 39 %, Unentschieden 28 %, Sieg Fluminense 33 %). In der Tabelle stehen sich Platz 14 und Platz 5 gegenüber. Die Form spricht für Fluminense: 2 Siege aus den letzten 5 Spielen, Corinthians holte nur 0. Das letzte Duell (2026) endete 3:1 (Fluminense – Corinthians). Das Modell erwartet eher wenige Tore (xG 1,2:1,1; über 2,5 Tore: 41 %, beide Teams treffen zu 47 %). Gefährlichste Torschützen: bei Fluminense John Kennedy (9 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,60) für 8 Prozentpunkte wahrscheinlicher als der Markt. Personal: Corinthians fehlen 6 Spieler (u.a. J. Martinez); Fluminense fehlen 6 Spieler (u.a. G. Cano).",
-     "injuriesHome": [
-      {
-       "name": "J. Martinez",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Hugo",
-       "reason": "Injury"
-      },
-      {
-       "name": "Kaio Cesar",
-       "reason": "Injury"
-      },
-      {
-       "name": "Breno Bidon",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Yuri Alberto",
-       "reason": "Inactive"
-      },
-      {
-       "name": "M. Pereira",
-       "reason": "Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "G. Cano",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Hercules",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Y. Soteldo",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Everaldo",
-       "reason": "Inactive"
-      },
-      {
-       "name": "J. Savarino",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Nonato",
-       "reason": "Injury"
-      }
-     ],
-     "lineups": {
-      "home": {
-       "formation": "4-2-3-1",
-       "xi": [
-        "Hugo Souza",
-        "Matheuzinho",
-        "I. Machado",
-        "Gustavo Henrique",
-        "Matheus Bidu",
-        "Andre",
-        "Raniele",
-        "Kaio César",
-        "R. Garro",
-        "Breno",
-        "M. Depay"
-       ]
-      },
-      "away": {
-       "formation": "4-2-3-1",
-       "xi": [
-        "Fábio",
-        "Samuel Xavier",
-        "Thiago Silva",
-        "J. Millán",
-        "Renê",
-        "Nonato",
-        "Martinelli",
-        "A. Canobbio",
-        "L. Acosta",
-        "K. Serna",
-        "Hulk"
-       ]
-      }
-     },
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-09-20T21:00:00+02:00",
-     "home": "Vitória",
-     "away": "Cruzeiro",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "N",
-      "N",
-      "S",
-      "U"
-     ],
-     "formAway": [
-      "U",
-      "N",
-      "N",
-      "S",
-      "N"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 13,
-     "posAway": 6,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "01.04.2026",
-       "home": "Cruzeiro",
-       "away": "Vitoria",
-       "score": "3:0"
-      },
-      {
-       "date": "01.11.2025",
-       "home": "Cruzeiro",
-       "away": "Vitoria",
-       "score": "3:1"
-      },
-      {
-       "date": "12.06.2025",
-       "home": "Vitoria",
-       "away": "Cruzeiro",
-       "score": "0:0"
-      },
-      {
-       "date": "19.08.2024",
-       "home": "Vitoria",
-       "away": "Cruzeiro",
-       "score": "2:2"
-      },
-      {
-       "date": "28.04.2024",
-       "home": "Cruzeiro",
-       "away": "Vitoria",
-       "score": "3:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.3102,
-      "pDraw": 0.2681,
-      "pAway": 0.4217,
-      "pOver25": 0.4547,
-      "pBtts": 0.504,
-      "xgHome": 1.13,
-      "xgAway": 1.36,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.504,
-     "odds": {
-      "h": 2.88,
-      "d": 3.25,
-      "a": 2.3,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Rene",
-       "goals": 8
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Matheus Pereira",
-       "goals": 8
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Cruzeiro ist bei Vitória leicht favorisiert (42 % zu 31 %). In der Tabelle stehen sich Platz 13 und Platz 6 gegenüber. Das letzte Duell (2026) endete 3:0 (Cruzeiro – Vitoria). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,1:1,4; über 2,5 Tore: 45 %, beide Teams treffen zu 50 %). Gefährlichste Torschützen: bei Vitória Rene (8 Tore) und bei Cruzeiro Matheus Pereira (8 Tore). Personal: Vitória fehlen 6 Spieler (u.a. Claudinho); Cruzeiro fehlen 6 Spieler (u.a. Marquinhos).",
-     "injuriesHome": [
-      {
-       "name": "Claudinho",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "Edu",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Fintelman",
-       "reason": "Hip Injury"
-      },
-      {
-       "name": "Kauan Vitor",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Lucas Arcanjo",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "R. Ramos",
-       "reason": "Knee Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "Marquinhos",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "Matheus Cunha",
-       "reason": "Inactive"
-      },
-      {
-       "name": "L. Sinisterra",
-       "reason": "Injury"
-      },
-      {
-       "name": "L. Villalba",
-       "reason": "Ankle Injury"
-      },
-      {
-       "name": "Chico",
-       "reason": "Injury"
-      },
-      {
-       "name": "Jonathan Jesus",
-       "reason": "Inactive"
-      }
-     ],
-     "lineups": {
-      "home": {
-       "formation": "4-2-3-1",
-       "xi": [
-        "Lucas Arcanjo",
-        "Mateusinho",
-        "Cacá",
-        "Luan Cândido",
-        "Jamerson",
-        "E. Martínez",
-        "Caíque",
-        "Erick",
-        "Matheuzinho",
-        "D. Tarzia",
-        "Rene"
-       ]
-      },
-      "away": {
-       "formation": "4-2-3-1",
-       "xi": [
-        "Otávio Eleodoro Rezende Costa",
-        "Fágner",
-        "João Marcelo",
-        "Jonathan",
-        "G. Rojas",
-        "Gerson",
-        "Zé Lucas",
-        "K. Arroyo",
-        "Matheus Pereira",
-        "Wesley Gassova",
-        "Kaio Jorge"
-       ]
-      }
-     },
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
      "kickoff": "2026-09-20T23:30:00+02:00",
      "home": "Flamengo",
      "away": "Red Bull Bragantino",
@@ -1827,7 +530,7 @@
  ],
  "tennis": [
   {
-   "start": "2026-09-20T21:50:00+02:00",
+   "start": "2026-09-20T23:30:00+02:00",
    "tour": "WTA",
    "tournament": "SP Open",
    "round": "Finale",
@@ -6107,14 +4810,14 @@
  ],
  "stats": {
   "overall": {
-   "n": 2144,
-   "correct": 1249,
-   "pct": 0.5826
+   "n": 2146,
+   "correct": 1250,
+   "pct": 0.5825
   },
   "football": {
-   "n": 794,
-   "correct": 391,
-   "pct": 0.4924
+   "n": 796,
+   "correct": 392,
+   "pct": 0.4925
   },
   "tennis": {
    "n": 1350,
@@ -6122,10 +4825,10 @@
    "pct": 0.6356
   },
   "exact": {
-   "n": 794,
+   "n": 796,
    "correct": 89
   },
-  "open": 405,
+  "open": 403,
   "recent": [
    {
     "date": "2026-09-20",
@@ -6146,6 +4849,17 @@
     "tip": "2",
     "prob": 0.4334,
     "result": "0:0",
+    "correct": false,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-09-20",
+    "comp": "1. Bundesliga",
+    "label": "SC Paderborn 07 – TSG Hoffenheim",
+    "tipName": "TSG Hoffenheim",
+    "tip": "2",
+    "prob": 0.6845,
+    "result": "3:1",
     "correct": false,
     "sport": "fb"
    },
@@ -6202,6 +4916,17 @@
     "prob": 0.4469,
     "result": "2:0",
     "correct": false,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-09-20",
+    "comp": "3. Liga",
+    "label": "SV Wehen Wiesbaden – MSV Duisburg",
+    "tipName": "MSV Duisburg",
+    "tip": "2",
+    "prob": 0.4825,
+    "result": "1:4",
+    "correct": true,
     "sport": "fb"
    },
    {
@@ -6376,28 +5101,6 @@
     "tipName": "Semra Aksu",
     "tip": "P2",
     "prob": 0.6463,
-    "result": "Sieger: P1",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-20",
-    "comp": "WTA · Turk Telekom Ankara Open",
-    "label": "Ilay Yoruk – Sude Ulueren",
-    "tipName": "Sude Ulueren",
-    "tip": "P2",
-    "prob": 0.7261,
-    "result": "Sieger: P1",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-20",
-    "comp": "WTA · Zavarovalnica Triglav Ljubljana",
-    "label": "Samira De Stefano – Mona Barthel",
-    "tipName": "Mona Barthel",
-    "tip": "P2",
-    "prob": 0.5359,
     "result": "Sieger: P1",
     "correct": false,
     "sport": "tn"
