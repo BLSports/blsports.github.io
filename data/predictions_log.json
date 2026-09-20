@@ -38867,7 +38867,7 @@
    "prob": 0.5922,
    "tipScore": "1:2",
    "pOver25": 0.6458,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -39137,7 +39137,7 @@
    "prob": 0.556,
    "tipScore": "1:0",
    "pOver25": 0.4858,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -41429,7 +41429,7 @@
    "prob": 0.5386,
    "tipScore": "1:1",
    "pOver25": 0.5627,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -41447,7 +41447,7 @@
    "prob": 0.4928,
    "tipScore": "1:0",
    "pOver25": 0.4432,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -41465,7 +41465,7 @@
    "prob": 0.4177,
    "tipScore": "2:2",
    "pOver25": 0.8509,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -41483,7 +41483,7 @@
    "prob": 0.3842,
    "tipScore": "1:1",
    "pOver25": 0.4852,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -41501,7 +41501,7 @@
    "prob": 0.556,
    "tipScore": "1:0",
    "pOver25": 0.4858,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -41519,7 +41519,7 @@
    "prob": 0.4063,
    "tipScore": "1:1",
    "pOver25": 0.6688,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -41537,7 +41537,7 @@
    "prob": 0.5869,
    "tipScore": "2:1",
    "pOver25": 0.6372,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -52286,9 +52286,9 @@
    "tip": "P2",
    "tipName": "Nao Hibino",
    "prob": 0.6299,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-09-21|kulikova a|lena friedsam a": {
    "sport": "tn",
@@ -52300,9 +52300,9 @@
    "tip": "P2",
    "tipName": "Anna-Lena Friedsam",
    "prob": 0.534,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-09-20|kuramochi m|xinxin y": {
    "sport": "tn",
@@ -54113,6 +54113,42 @@
    "status": "open",
    "result": null,
    "correct": null
+  },
+  "fb|us1|2026-09-21|inter miami|san diego": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-09-21",
+   "label": "Inter Miami – San Diego",
+   "homeKey": "inter miami",
+   "awayKey": "san diego",
+   "tip": "1",
+   "tipName": "Inter Miami",
+   "prob": 0.5338,
+   "tipScore": "2:1",
+   "pOver25": 0.7043,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|br1|2026-09-21|atletico paranaense|bahia": {
+   "sport": "fb",
+   "comp": "Série A (Brasilien)",
+   "compId": "br1",
+   "date": "2026-09-21",
+   "label": "Atletico Paranaense – Bahia",
+   "homeKey": "atletico paranaense",
+   "awayKey": "bahia",
+   "tip": "1",
+   "tipName": "Atletico Paranaense",
+   "prob": 0.3965,
+   "tipScore": "1:1",
+   "pOver25": 0.5832,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
   }
  }
 }

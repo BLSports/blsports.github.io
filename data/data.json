@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-09-20T21:35:11.496029+02:00",
+ "generatedAt": "2026-09-21T00:08:54.855492+02:00",
  "windowDays": 3,
  "days": [
-  "2026-09-20",
   "2026-09-21",
-  "2026-09-22"
+  "2026-09-22",
+  "2026-09-23"
  ],
  "football": [
   {
@@ -240,12 +240,12 @@
    "matches": [
     {
      "kickoff": "2026-09-21T01:00:00+02:00",
-     "home": "Inter Miami CF",
-     "away": "San Diego FC",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/22529.png",
+     "home": "Inter Miami",
+     "away": "San Diego",
+     "homeIcon": null,
+     "awayIcon": null,
      "matchday": null,
-     "roundName": null,
+     "roundName": "Regular Season - 26",
      "formHome": [
       "S",
       "U",
@@ -300,7 +300,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Inter Miami CF ist gegen San Diego FC leicht favorisiert (53 % zu 26 %). In der Tabelle stehen sich Platz 3 und Platz 10 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 2,2:1,5; über 2,5 Tore: 70 %, beide Teams treffen zu 68 %). Gefährlichste Torschützen: bei Inter Miami CF Lionel Messi (19 Tore) und bei San Diego FC M. Ingvartsen (11 Tore). Personal: Inter Miami CF fehlen 6 Spieler (u.a. S. Reguilon); San Diego FC fehlen 6 Spieler (u.a. A. Alvarado Jr).",
+     "analysis": "Inter Miami ist gegen San Diego leicht favorisiert (53 % zu 26 %). In der Tabelle stehen sich Platz 3 und Platz 10 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 2,2:1,5; über 2,5 Tore: 70 %, beide Teams treffen zu 68 %). Gefährlichste Torschützen: bei Inter Miami Lionel Messi (19 Tore) und bei San Diego M. Ingvartsen (11 Tore). Personal: Inter Miami fehlen 6 Spieler (u.a. S. Reguilon); San Diego fehlen 6 Spieler (u.a. A. Alvarado Jr).",
      "injuriesHome": [
       {
        "name": "S. Reguilon",
@@ -353,7 +353,13 @@
        "reason": "Red Card"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "news": [
+      {
+       "title": "Milan - Lecce: Tor zum 3:0 durch Diego Moreira in der 73. Minute",
+       "link": "https://www.kicker.de/milan-lecce-tor-zum-3-0-durch-diego-moreira-in-der-73-minute-1254686/video#omrss"
+      }
+     ]
     }
    ],
    "seasonHasStarted": false,
@@ -366,91 +372,96 @@
    "espn": "bra.1",
    "matches": [
     {
-     "kickoff": "2026-09-20T23:30:00+02:00",
-     "home": "Flamengo",
-     "away": "Red Bull Bragantino",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [],
-     "formAway": [],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 1,
-     "posAway": null,
-     "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
-     "odds": null,
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Pedro",
-       "goals": 15
-      },
-      {
-       "name": "Samuel Lino",
-       "goals": 9
-      }
-     ],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Gefährlichste Torschützen: bei Flamengo Pedro (15 Tore). Personal: Flamengo fehlen 23 Spieler (u.a. Danilo).",
-     "injuriesHome": [
-      {
-       "name": "Danilo",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Lucas Paqueta",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Luiz Araujo",
-       "reason": "Inactive"
-      },
-      {
-       "name": "S. Niguez",
-       "reason": "Inactive"
-      },
-      {
-       "name": "N. de la Cruz",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Jorginho",
-       "reason": "Red Card"
-      }
-     ],
-     "basis": "Datenbasis: Tabelle, Verletztenliste. Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
      "kickoff": "2026-09-21T00:30:00+02:00",
-     "home": "Athletico-PR",
+     "home": "Atletico Paranaense",
      "away": "Bahia",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+     "homeIcon": null,
+     "awayIcon": null,
      "matchday": null,
-     "roundName": null,
-     "formHome": [],
-     "formAway": [],
+     "roundName": "Regular Season - 28",
+     "formHome": [
+      "U",
+      "S",
+      "U",
+      "N",
+      "U"
+     ],
+     "formAway": [
+      "U",
+      "S",
+      "S",
+      "S",
+      "S"
+     ],
      "formHomeH": [],
      "formAwayA": [],
      "load14Home": 0,
      "load14Away": 0,
-     "posHome": null,
+     "posHome": 3,
      "posAway": 4,
      "nTeams": null,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
-     "odds": null,
-     "value": null,
-     "scorersHome": [],
+     "h2h": [
+      {
+       "date": "01.04.2026",
+       "home": "Bahia",
+       "away": "Atletico Paranaense",
+       "score": "3:0"
+      },
+      {
+       "date": "24.11.2024",
+       "home": "Bahia",
+       "away": "Atletico Paranaense",
+       "score": "1:1"
+      },
+      {
+       "date": "10.07.2024",
+       "home": "Atletico Paranaense",
+       "away": "Bahia",
+       "score": "1:3"
+      },
+      {
+       "date": "12.11.2023",
+       "home": "Bahia",
+       "away": "Atletico Paranaense",
+       "score": "1:1"
+      },
+      {
+       "date": "16.07.2023",
+       "home": "Atletico Paranaense",
+       "away": "Bahia",
+       "score": "2:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3965,
+      "pDraw": 0.2415,
+      "pAway": 0.362,
+      "pOver25": 0.5832,
+      "pBtts": 0.6081,
+      "xgHome": 1.55,
+      "xgAway": 1.47,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6081,
+     "odds": {
+      "h": 2.15,
+      "d": 3.2,
+      "a": 3.1,
+      "src": "William Hill"
+     },
+     "value": {
+      "outcome": "2",
+      "edge": 0.0688,
+      "modelP": 0.362,
+      "odds": 3.1
+     },
+     "scorersHome": [
+      {
+       "name": "Kevin Viveros",
+       "goals": 18
+      }
+     ],
      "scorersAway": [
       {
        "name": "Luciano Juba",
@@ -458,7 +469,33 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Gefährlichste Torschützen: bei Bahia Luciano Juba (9 Tore). Personal: Bahia fehlen 25 Spieler (u.a. Ruan Pablo).",
+     "analysis": "Zwischen Atletico Paranaense und Bahia deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Atletico Paranaense 40 %, Unentschieden 24 %, Sieg Bahia 36 %). In der Tabelle stehen sich Platz 3 und Platz 4 gegenüber. Die Form spricht für Bahia: 4 Siege aus den letzten 5 Spielen, Atletico Paranaense holte nur 1. Das letzte Duell (2026) endete 3:0 (Bahia – Atletico Paranaense). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,5; über 2,5 Tore: 58 %, beide Teams treffen zu 61 %). Gefährlichste Torschützen: bei Atletico Paranaense Kevin Viveros (18 Tore) und bei Bahia Luciano Juba (9 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,10) für 7 Prozentpunkte wahrscheinlicher als der Markt. Personal: Atletico Paranaense fehlen 6 Spieler (u.a. Felipinho); Bahia fehlen 6 Spieler (u.a. Ruan Pablo).",
+     "injuriesHome": [
+      {
+       "name": "Felipinho",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Luiz Gustavo",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Renan Peixoto",
+       "reason": "Injury"
+      },
+      {
+       "name": "A. Garcia Castillo",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Renan Viana",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Isaac",
+       "reason": "Inactive"
+      }
+     ],
      "injuriesAway": [
       {
        "name": "Ruan Pablo",
@@ -485,7 +522,41 @@
        "reason": "Muscle Injury"
       }
      ],
-     "basis": "Datenbasis: Verletztenliste. Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "lineups": {
+      "home": {
+       "formation": "3-4-2-1",
+       "xi": [
+        "Mycael",
+        "Dantas",
+        "J. Aguirre",
+        "Arthur Dias",
+        "Gilberto",
+        "Jádson",
+        "Luiz Gustavo",
+        "L. Esquivel",
+        "Leozinho",
+        "S. Mendoza",
+        "K. Vargas"
+       ]
+      },
+      "away": {
+       "formation": "4-3-3",
+       "xi": [
+        "Ronaldo",
+        "Marcos Victor",
+        "David Duarte",
+        "Kanu",
+        "Luciano Juba",
+        "Erick",
+        "N. Acevedo",
+        "Rodrigo Nestor",
+        "Ademir",
+        "A. Véliz",
+        "Erick Pulga"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
    "seasonHasStarted": false,
@@ -529,48 +600,6 @@
   }
  ],
  "tennis": [
-  {
-   "start": "2026-09-20T23:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "SP Open",
-   "round": "Finale",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Nadia Podoroska",
-    "rank": 317,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4,
-    "sets7": 9
-   },
-   "p2": {
-    "name": "Kaitlin Quevedo",
-    "rank": 105,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4,
-    "sets7": 9
-   },
-   "pP1": 0.2811,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.2811
-   },
-   "h2h": [],
-   "analysis": "Nadia Podoroska (Weltrangliste #317) trifft auf Kaitlin Quevedo (#105). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Kaitlin Quevedo mit 72 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
   {
    "start": "2026-09-21T05:00:00+02:00",
    "tour": "WTA",
@@ -738,8 +767,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 2.4,
-    "p2": 1.68,
+    "p1": 2.36,
+    "p2": 1.71,
     "src": "Betfair"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -843,8 +872,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 9
+    "last7": 3,
+    "sets7": 7
    },
    "p2": {
     "name": "Kristina Mladenovic",
@@ -865,12 +894,12 @@
     "pRank": 0.7699
    },
    "h2h": [],
-   "analysis": "Nao Hibino (Weltrangliste #199) trifft auf Kristina Mladenovic (#824). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Nao Hibino mit 77 % vorn. Nao Hibino hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 9 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Nao Hibino (Weltrangliste #199) trifft auf Kristina Mladenovic (#824). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Nao Hibino mit 77 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 1.23,
-    "p2": 4.8,
+    "p1": 1.25,
+    "p2": 4.1,
     "src": "Betfair"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1008,8 +1037,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 1.54,
-    "p2": 2.74,
+    "p1": 1.53,
+    "p2": 2.84,
     "src": "Betfair"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1055,8 +1084,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 2.12,
-    "p2": 1.81,
+    "p1": 2.42,
+    "p2": 1.69,
     "src": "Betfair"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1180,8 +1209,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 7
+    "last7": 2,
+    "sets7": 4
    },
    "pP1": 0.5886,
    "model": {
@@ -1294,8 +1323,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 4
+    "last7": 1,
+    "sets7": 2
    },
    "p2": {
     "name": "Marie Vogt",
@@ -1415,8 +1444,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 4
+    "last7": 1,
+    "sets7": 2
    },
    "pP1": 0.4431,
    "model": {
@@ -1613,8 +1642,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 9
+    "last7": 3,
+    "sets7": 7
    },
    "p2": {
     "name": "Angelina Voloshchuk",
@@ -1625,8 +1654,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 9
+    "last7": 3,
+    "sets7": 7
    },
    "pP1": 0.4878,
    "model": {
@@ -1667,8 +1696,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 6,
-    "sets7": 11
+    "last7": 5,
+    "sets7": 9
    },
    "pP1": 0.4794,
    "model": {
@@ -1677,7 +1706,7 @@
     "pRank": 0.4794
    },
    "h2h": [],
-   "analysis": "Valentina Steiner (Weltrangliste #401) trifft auf Kylie Collins (#364). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Kylie Collins mit 52 % vorn. Kylie Collins hat allerdings eine intensive Woche in den Beinen (6 Matches in den letzten 7 Tagen und 11 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Valentina Steiner (Weltrangliste #401) trifft auf Kylie Collins (#364). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Kylie Collins mit 52 % vorn. Kylie Collins hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 9 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1697,8 +1726,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 7
+    "last7": 2,
+    "sets7": 4
    },
    "p2": {
     "name": "Sofia Johnson",
@@ -1709,8 +1738,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 6
+    "last7": 2,
+    "sets7": 4
    },
    "pP1": 0.4917,
    "model": {
@@ -1765,8 +1794,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 1.02,
-    "p2": 10.0,
+    "p1": 1.03,
+    "p2": 17.5,
     "src": "Betfair"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2047,8 +2076,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 2.06,
-    "p2": 1.69,
+    "p1": 2.02,
+    "p2": 1.8,
     "src": "Betfair"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2244,8 +2273,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 3
+    "last7": 0,
+    "sets7": 0
    },
    "p2": {
     "name": "Aysegul Mert",
@@ -2269,7 +2298,7 @@
    "analysis": "Isabella Shinikova (#365) trifft auf Aysegul Mert, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Aysegul Mert mit 58 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-21T16:30:00+02:00",
@@ -2336,8 +2365,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 3
+    "last7": 0,
+    "sets7": 0
    },
    "p2": {
     "name": "Susan Bandecchi",
@@ -3033,8 +3062,8 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 1.36,
-    "p2": 3.1,
+    "p1": 1.3,
+    "p2": 3.5,
     "src": "888sport"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -3080,8 +3109,8 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 3.5,
-    "p2": 1.3,
+    "p1": 3.6,
+    "p2": 1.29,
     "src": "888sport"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -3169,8 +3198,8 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 2.2,
-    "p2": 1.67,
+    "p1": 2.3,
+    "p2": 1.61,
     "src": "888sport"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -3681,8 +3710,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 10
+    "last7": 3,
+    "sets7": 8
    },
    "p2": {
     "name": "Mina Hodzic",
@@ -3703,7 +3732,7 @@
     "pRank": 0.4764
    },
    "h2h": [],
-   "analysis": "Elena Malygina (Weltrangliste #304) trifft auf Mina Hodzic (#272). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Mina Hodzic mit 52 % vorn. Elena Malygina hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Elena Malygina (Weltrangliste #304) trifft auf Mina Hodzic (#272). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Mina Hodzic mit 52 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -4251,8 +4280,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 6
+    "last7": 1,
+    "sets7": 2
    },
    "pP1": 0.5527,
    "model": {
@@ -4281,8 +4310,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 5
+    "last7": 1,
+    "sets7": 2
    },
    "p2": {
     "name": "Fiona Crawley",
@@ -4542,277 +4571,12 @@
    "wta": 0
   }
  },
- "tennisFinished": [
-  {
-   "tour": "WTA",
-   "tournament": "BBVA Open Internacional De Valencia",
-   "p1": "Clara Burel",
-   "p2": "Alicia Herrero Linana",
-   "winner": "Clara Burel",
-   "score": "4:6 6:0 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Caldas da Rainha Ladies Open",
-   "p1": "Lisa Pigato",
-   "p2": "Gabriela Knutson",
-   "winner": "Lisa Pigato",
-   "score": "6:4 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Zavarovalnica Triglav Ljubljana",
-   "p1": "Samira De Stefano",
-   "p2": "Mona Barthel",
-   "winner": "Samira De Stefano",
-   "score": "3:6 6:1 7:5"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Korea Open",
-   "p1": "Ma YeXin",
-   "p2": "Eunhye Lee",
-   "winner": "Ma YeXin",
-   "score": "6:3 6:1"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Korea Open",
-   "p1": "Darya Astakhova",
-   "p2": "Alexandra Shubladze",
-   "winner": "Darya Astakhova",
-   "score": "6:4 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Korea Open",
-   "p1": "Yao Xinxin",
-   "p2": "Miho Kuramochi",
-   "winner": "Yao Xinxin",
-   "score": "6:1 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Korea Open",
-   "p1": "Sara Saito",
-   "p2": "Alevtina Ibragimova",
-   "winner": "Alevtina Ibragimova",
-   "score": "5:7 2:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Singapore Tennis Open presented by BNP Paribas",
-   "p1": "Anastasia Kulikova",
-   "p2": "Anna-Lena Friedsam",
-   "winner": "Anna-Lena Friedsam",
-   "score": "4:6 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Singapore Tennis Open presented by BNP Paribas",
-   "p1": "Aoi Ito",
-   "p2": "Nao Hibino",
-   "winner": "Nao Hibino",
-   "score": "2:6 6:2 6:7"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Singapore Tennis Open presented by BNP Paribas",
-   "p1": "Viktoria Morvayova",
-   "p2": "Joanna Garland",
-   "winner": "Joanna Garland",
-   "score": "4:6 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Singapore Tennis Open presented by BNP Paribas",
-   "p1": "Kyoka Okamura",
-   "p2": "Mei Yamaguchi",
-   "winner": "Kyoka Okamura",
-   "score": "6:1 6:1"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Iva Primorac Pavicic",
-   "p2": "Jamilah Snells",
-   "winner": "Iva Primorac Pavicic",
-   "score": "6:2 2:6 6:3"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Yana Morderger",
-   "p2": "Jessica Pieri",
-   "winner": "Jessica Pieri",
-   "score": "5:7 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Arianna Ovarelli",
-   "p2": "Lisa Zaar",
-   "winner": "Lisa Zaar",
-   "score": "2:6 1:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Katerina Tsygourova",
-   "p2": "Tayisiya Morderger",
-   "winner": "Katerina Tsygourova",
-   "score": "6:3 6:3"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Enola Chiesa",
-   "p2": "Alja Senica",
-   "winner": "Enola Chiesa",
-   "score": "4:6 6:4 6:3"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Laura Bohner",
-   "p2": "Dalila Spiteri",
-   "winner": "Dalila Spiteri",
-   "score": "4:6 2:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Aneta Kucmova",
-   "p2": "Silvia Dalle Molle",
-   "winner": "Aneta Kucmova",
-   "score": "6:1 6:3"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Maria Toma",
-   "p2": "Aneta Laboutkova",
-   "winner": "Aneta Laboutkova",
-   "score": "2:6 1:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Raphaelle Lacasse",
-   "p2": "Angelina Voloshchuk",
-   "winner": "Angelina Voloshchuk",
-   "score": "7:5 3:6 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Ariana Arseneault",
-   "p2": "Catarina Gomes",
-   "winner": "Ariana Arseneault",
-   "score": "6:0 6:0"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Jessica Hinojosa Gomez",
-   "p2": "Kylie Collins",
-   "winner": "Kylie Collins",
-   "score": "3:6 0:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Reese Brantmeier",
-   "p2": "Jasmijn Gimbrere",
-   "winner": "Reese Brantmeier",
-   "score": "6:1 6:0"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Ivana Sebestova",
-   "p2": "Sofia Johnson",
-   "winner": "Sofia Johnson",
-   "score": "2:6 2:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Naiktha Bains",
-   "p2": "Madalena Santos",
-   "winner": "Naiktha Bains",
-   "score": "6:1 6:1"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Valentina Steiner",
-   "p2": "Gabriella Da Silva Fick",
-   "winner": "Valentina Steiner",
-   "score": "4:6 1:1"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Maria Martinez Vaquero",
-   "p2": "Sahaja Yamalapalli",
-   "winner": "Sahaja Yamalapalli",
-   "score": "0:6 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Ekaterina Yashina",
-   "p2": "Semra Aksu",
-   "winner": "Ekaterina Yashina",
-   "score": "6:2 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Ilay Yoruk",
-   "p2": "Sude Ulueren",
-   "winner": "Ilay Yoruk",
-   "score": "6:1 6:0"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Ashmitha Easwaramurthi",
-   "p2": "Marie Vogt",
-   "winner": "Marie Vogt",
-   "score": "1:6 0:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Melisa Ercan",
-   "p2": "Giulia Alessia Monteleone",
-   "winner": "Melisa Ercan",
-   "score": "6:2 6:0"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Naoko Eto",
-   "p2": "Ksenia Zaytseva",
-   "winner": "Ksenia Zaytseva",
-   "score": "0:6 0:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Alana Smith",
-   "p2": "Duru Arslan",
-   "winner": "Alana Smith",
-   "score": "6:3 6:2"
-  }
- ],
+ "tennisFinished": [],
  "stats": {
   "overall": {
-   "n": 2146,
-   "correct": 1250,
-   "pct": 0.5825
+   "n": 2148,
+   "correct": 1252,
+   "pct": 0.5829
   },
   "football": {
    "n": 796,
@@ -4820,16 +4584,38 @@
    "pct": 0.4925
   },
   "tennis": {
-   "n": 1350,
-   "correct": 858,
-   "pct": 0.6356
+   "n": 1352,
+   "correct": 860,
+   "pct": 0.6361
   },
   "exact": {
    "n": 796,
    "correct": 89
   },
-  "open": 403,
+  "open": 394,
   "recent": [
+   {
+    "date": "2026-09-21",
+    "comp": "WTA · Singapore Tennis Open presented by BNP Paribas",
+    "label": "Aoi Ito – Nao Hibino",
+    "tipName": "Nao Hibino",
+    "tip": "P2",
+    "prob": 0.6299,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-21",
+    "comp": "WTA · Singapore Tennis Open presented by BNP Paribas",
+    "label": "Anastasia Kulikova – Anna-Lena Friedsam",
+    "tipName": "Anna-Lena Friedsam",
+    "tip": "P2",
+    "prob": 0.534,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
    {
     "date": "2026-09-20",
     "comp": "1. Bundesliga",
@@ -5080,28 +4866,6 @@
     "tip": "P1",
     "prob": 0.5365,
     "result": "Sieger: P2",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-20",
-    "comp": "WTA · Korea Open",
-    "label": "Sara Saito – Alevtina Ibragimova",
-    "tipName": "Alevtina Ibragimova",
-    "tip": "P2",
-    "prob": 0.5837,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-20",
-    "comp": "WTA · Turk Telekom Ankara Open",
-    "label": "Ekaterina Yashina – Semra Aksu",
-    "tipName": "Semra Aksu",
-    "tip": "P2",
-    "prob": 0.6463,
-    "result": "Sieger: P1",
     "correct": false,
     "sport": "tn"
    }
