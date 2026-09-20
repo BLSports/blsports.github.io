@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-20T17:20:46.007553+02:00",
+ "generatedAt": "2026-09-20T20:27:18.971957+02:00",
  "windowDays": 3,
  "days": [
   "2026-09-20",
@@ -59,340 +59,6 @@
    "espn": "ger.1",
    "matches": [
     {
-     "kickoff": "2026-09-20T15:30:00+02:00",
-     "home": "Bayer 04 Leverkusen",
-     "away": "RB Leipzig",
-     "homeIcon": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-     "awayIcon": "https://i.imgur.com/Rpwsjz1.png",
-     "matchday": 4,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "U",
-      "N",
-      "S",
-      "U"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "S",
-      "N",
-      "S"
-     ],
-     "formHomeH": [
-      "S",
-      "N",
-      "S",
-      "U",
-      "S"
-     ],
-     "formAwayA": [
-      "S",
-      "S",
-      "N",
-      "N",
-      "N"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 10,
-     "posAway": 7,
-     "nTeams": 18,
-     "h2h": [
-      {
-       "date": "02.05.2026",
-       "home": "Bayer 04 Leverkusen",
-       "away": "RB Leipzig",
-       "score": "4:1"
-      },
-      {
-       "date": "20.12.2025",
-       "home": "RB Leipzig",
-       "away": "Bayer 04 Leverkusen",
-       "score": "1:3"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.4599,
-      "pDraw": 0.2207,
-      "pAway": 0.3193,
-      "pOver25": 0.6734,
-      "pBtts": 0.6729,
-      "xgHome": 1.91,
-      "xgAway": 1.56,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.6729,
-     "odds": {
-      "h": 2.03,
-      "d": 4.1,
-      "a": 3.2,
-      "src": "Codere (IT)"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "P. Schick",
-       "goals": 3
-      },
-      {
-       "name": "C. Kofane",
-       "goals": 2
-      },
-      {
-       "name": "E. Fernández",
-       "goals": 1
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "R. Baku",
-       "goals": 2
-      },
-      {
-       "name": "A. Nusa",
-       "goals": 2
-      },
-      {
-       "name": "R. Reitz",
-       "goals": 1
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Bayer 04 Leverkusen ist gegen RB Leipzig leicht favorisiert (46 % zu 32 %). In der Tabelle stehen sich Platz 10 und Platz 7 gegenüber. Die Form spricht für RB Leipzig: 3 Siege aus den letzten 5 Spielen, Bayer 04 Leverkusen holte nur 1. Heim-/Auswärtsbilanz: Bayer 04 Leverkusen gewann 3 der letzten 5 Heimspiele, RB Leipzig 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 4:1 (Bayer 04 Leverkusen – RB Leipzig). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,6; über 2,5 Tore: 67 %, beide Teams treffen zu 67 %). Gefährlichste Torschützen: bei Bayer 04 Leverkusen P. Schick (3 Tore) und bei RB Leipzig R. Baku (2 Tore). Personal: Bayer 04 Leverkusen fehlen 6 Spieler (u.a. E. Ben Seghir); RB Leipzig fehlen 8 Spieler (u.a. C. Baumgartner).",
-     "injuriesHome": [
-      {
-       "name": "E. Ben Seghir",
-       "reason": "Thigh Injury"
-      },
-      {
-       "name": "M. Culbreath",
-       "reason": "Injury"
-      },
-      {
-       "name": "K. Eichhorn",
-       "reason": "Illness"
-      },
-      {
-       "name": "M. Terrier",
-       "reason": "Muscle Injury"
-      },
-      {
-       "name": "N. Tella",
-       "reason": "Injury"
-      },
-      {
-       "name": "G. Doue",
-       "reason": "Muscle Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "C. Baumgartner",
-       "reason": "Thigh Injury"
-      },
-      {
-       "name": "O. Nyland",
-       "reason": "Foot Injury"
-      },
-      {
-       "name": "A. Ouedraogo",
-       "reason": "Shoulder Injury"
-      },
-      {
-       "name": "Romulo Cardoso",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "V. Gebel",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "B. Gruda",
-       "reason": "Ankle Injury"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "Unbeeindruckt von Steins Roter Karte: Lok Leipzig beendet in Jena die Negativ-Serie",
-       "link": "https://www.kicker.de/jena-gegen-lok-leipzig-2026-regionalliga-nordost-5233673/spielbericht#omrss"
-      }
-     ]
-    },
-    {
-     "kickoff": "2026-09-20T17:30:00+02:00",
-     "home": "FC Schalke 04",
-     "away": "SV 07 Elversberg",
-     "homeIcon": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-     "awayIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/SV_Elversberg_Logo.svg/500px-SV_Elversberg_Logo.svg.png",
-     "matchday": 4,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "U",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "S",
-      "N"
-     ],
-     "formHomeH": [
-      "U"
-     ],
-     "formAwayA": [
-      "S"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 11,
-     "posAway": 8,
-     "nTeams": 18,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.3424,
-      "pDraw": 0.2242,
-      "pAway": 0.4334,
-      "pOver25": 0.6651,
-      "pBtts": 0.6696,
-      "xgHome": 1.6,
-      "xgAway": 1.82,
-      "tipScore": "1:1",
-      "confidence": "niedrig"
-     },
-     "pBtts": 0.6696,
-     "odds": {
-      "h": 2.0,
-      "d": 3.5,
-      "a": 3.3,
-      "src": "888sport"
-     },
-     "value": {
-      "outcome": "2",
-      "edge": 0.1551,
-      "modelP": 0.4334,
-      "odds": 3.3
-     },
-     "scorersHome": [
-      {
-       "name": "R. Gosens",
-       "goals": 1
-      },
-      {
-       "name": "A. Aouchiche",
-       "goals": 1
-      },
-      {
-       "name": "M. Wöber",
-       "goals": 1
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "M. Krattenmacher",
-       "goals": 3
-      },
-      {
-       "name": "L. Petkov",
-       "goals": 1
-      },
-      {
-       "name": "Cole Campbell",
-       "goals": 1
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "SV 07 Elversberg ist bei FC Schalke 04 leicht favorisiert (44 % zu 34 %). In der Tabelle stehen sich Platz 11 und Platz 8 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 1,6:1,8; über 2,5 Tore: 67 %, beide Teams treffen zu 67 %). Gefährlichste Torschützen: bei FC Schalke 04 R. Gosens (1 Tore) und bei SV 07 Elversberg M. Krattenmacher (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,30) für 16 Prozentpunkte wahrscheinlicher als der Markt. Die Aufstellungen sind offiziell (3-4-2-1 gegen 4-2-3-1). Personal: FC Schalke 04 fehlen 7 Spieler (u.a. E. Hojlund); SV 07 Elversberg fehlen 4 Spieler (u.a. L. Seifert).",
-     "injuriesHome": [
-      {
-       "name": "E. Hojlund",
-       "reason": "Heel Injury"
-      },
-      {
-       "name": "T. Kalas",
-       "reason": "Lacking Match Fitness"
-      },
-      {
-       "name": "K. Karaman",
-       "reason": "Hip Injury"
-      },
-      {
-       "name": "R. Schallenberg",
-       "reason": "Red Card"
-      },
-      {
-       "name": "D. Ljubicic",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "A. Gantenbein",
-       "reason": "Ankle Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "L. Seifert",
-       "reason": "Ankle Injury"
-      },
-      {
-       "name": "T. Zimmerschied",
-       "reason": "Back Injury"
-      },
-      {
-       "name": "F. Onyeka",
-       "reason": "Injury"
-      },
-      {
-       "name": "L. Schnellbacher",
-       "reason": "Illness"
-      }
-     ],
-     "lineups": {
-      "home": {
-       "formation": "3-4-2-1",
-       "xi": [
-        "L. Karius",
-        "T. Becker",
-        "N. Katić",
-        "H. Kuruçay",
-        "J. Dina Ebimbe",
-        "S. El-Faouzi",
-        "S. Tanaka",
-        "R. Gosens",
-        "K. Karaman",
-        "A. Aouchiche",
-        "E. Džeko"
-       ]
-      },
-      "away": {
-       "formation": "4-2-3-1",
-       "xi": [
-        "N. Kristof",
-        "J. Gyamerah",
-        "L. Pinckert",
-        "M. Rohr",
-        "L. Günther",
-        "F. Keidel",
-        "Ł. Poręba",
-        "L. Petkov",
-        "Noah Darvich",
-        "William Cole Campbell",
-        "D. Mokwa"
-       ]
-      }
-     },
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "LIVE! Schalke startet mit Dzeko im Aufsteigerduell - Startelfdebüt für Elversbergs Darvich",
-       "link": "https://www.kicker.de/live-schalke-startet-mit-dzeko-im-aufsteigerduell-startelfdebuet-fuer-elversbergs-darvich-1253564/artikel#omrss"
-      }
-     ]
-    },
-    {
      "kickoff": "2026-09-20T19:30:00+02:00",
      "home": "SC Paderborn 07",
      "away": "TSG Hoffenheim",
@@ -429,17 +95,17 @@
      "nTeams": 18,
      "h2h": [],
      "prediction": {
-      "pHome": 0.0405,
-      "pDraw": 0.275,
-      "pAway": 0.6845,
-      "pOver25": 0.1866,
-      "pBtts": 0.1025,
+      "pHome": 0.0402,
+      "pDraw": 0.2735,
+      "pAway": 0.6863,
+      "pOver25": 0.1881,
+      "pBtts": 0.1027,
       "xgHome": 0.15,
-      "xgAway": 1.33,
+      "xgAway": 1.34,
       "tipScore": "0:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.1025,
+     "pBtts": 0.1027,
      "odds": {
       "h": 4.54,
       "d": 4.46,
@@ -448,8 +114,8 @@
      },
      "value": {
       "outcome": "2",
-      "edge": 0.1135,
-      "modelP": 0.6845,
+      "edge": 0.1153,
+      "modelP": 0.6863,
       "odds": 1.69
      },
      "scorersHome": [],
@@ -468,7 +134,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "TSG Hoffenheim reist als klarer Favorit (68 %) zu SC Paderborn 07. In der Tabelle stehen sich Platz 16 und Platz 13 gegenüber. Die Form spricht für TSG Hoffenheim: 2 Siege aus den letzten 5 Spielen, SC Paderborn 07 holte nur 0. Das Modell erwartet eher wenige Tore (xG 0,1:1,3; über 2,5 Tore: 19 %, beide Teams treffen zu 10 %). Gefährlichste Torschützen: bei TSG Hoffenheim A. Hložek (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 1,69) für 11 Prozentpunkte wahrscheinlicher als der Markt. Personal: SC Paderborn 07 fehlen 6 Spieler (u.a. N. Awortwie-Grant).",
+     "analysis": "TSG Hoffenheim reist als klarer Favorit (69 %) zu SC Paderborn 07. In der Tabelle stehen sich Platz 16 und Platz 13 gegenüber. Die Form spricht für TSG Hoffenheim: 2 Siege aus den letzten 5 Spielen, SC Paderborn 07 holte nur 0. Das Modell erwartet eher wenige Tore (xG 0,1:1,3; über 2,5 Tore: 19 %, beide Teams treffen zu 10 %). Gefährlichste Torschützen: bei TSG Hoffenheim A. Hložek (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 1,69) für 12 Prozentpunkte wahrscheinlicher als der Markt. Personal: SC Paderborn 07 fehlen 6 Spieler (u.a. N. Awortwie-Grant).",
      "injuriesHome": [
       {
        "name": "N. Awortwie-Grant",
@@ -522,102 +188,6 @@
    "flag": "🇩🇪",
    "espn": "ger.3",
    "matches": [
-    {
-     "kickoff": "2026-09-20T16:30:00+02:00",
-     "home": "SV Waldhof Mannheim",
-     "away": "Preußen Münster",
-     "homeIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Svwaldhof.svg/960px-Svwaldhof.svg.png",
-     "awayIcon": "https://upload.wikimedia.org/wikipedia/de/7/7e/SC_Preussen_Muenster_Logo_2018.svg",
-     "matchday": 7,
-     "roundName": null,
-     "formHome": [
-      "U",
-      "N",
-      "N",
-      "S",
-      "N"
-     ],
-     "formAway": [
-      "U",
-      "N",
-      "S",
-      "S",
-      "U"
-     ],
-     "formHomeH": [
-      "U",
-      "S",
-      "S",
-      "N",
-      "N"
-     ],
-     "formAwayA": [
-      "S",
-      "N",
-      "S"
-     ],
-     "load14Home": 2,
-     "load14Away": 2,
-     "posHome": 13,
-     "posAway": 8,
-     "nTeams": 20,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.3479,
-      "pDraw": 0.2051,
-      "pAway": 0.4469,
-      "pOver25": 0.7639,
-      "pBtts": 0.747,
-      "xgHome": 1.88,
-      "xgAway": 2.14,
-      "tipScore": "1:2",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.747,
-     "odds": {
-      "h": 2.05,
-      "d": 3.7,
-      "a": 3.2,
-      "src": "Tipico"
-     },
-     "value": {
-      "outcome": "2",
-      "edge": 0.155,
-      "modelP": 0.4469,
-      "odds": 3.2
-     },
-     "scorersHome": [
-      {
-       "name": "Sébastien Thill",
-       "goals": 1
-      },
-      {
-       "name": "Tobias Ulbricht",
-       "goals": 1
-      },
-      {
-       "name": "Julian Ulbricht",
-       "goals": 1
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Montell Ndikom",
-       "goals": 3
-      },
-      {
-       "name": "M. Schulz",
-       "goals": 3
-      },
-      {
-       "name": "R. Johansson",
-       "goals": 1
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Preußen Münster ist bei SV Waldhof Mannheim leicht favorisiert (44 % zu 35 %). In der Tabelle stehen sich Platz 13 und Platz 8 gegenüber. Heim-/Auswärtsbilanz: SV Waldhof Mannheim gewann 2 der letzten 5 Heimspiele, Preußen Münster 2 der letzten 3 Auswärtsspiele. Das Modell erwartet ein torreiches Spiel (xG 1,9:2,1; über 2,5 Tore: 76 %, beide Teams treffen zu 75 %). Gefährlichste Torschützen: bei SV Waldhof Mannheim Sébastien Thill (1 Tore) und bei Preußen Münster Montell Ndikom (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,20) für 16 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-09-20T19:30:00+02:00",
      "home": "SV Wehen Wiesbaden",
@@ -674,17 +244,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.2612,
+      "pHome": 0.2626,
       "pDraw": 0.2563,
-      "pAway": 0.4825,
-      "pOver25": 0.4764,
-      "pBtts": 0.5095,
-      "xgHome": 1.05,
+      "pAway": 0.4811,
+      "pOver25": 0.4772,
+      "pBtts": 0.5105,
+      "xgHome": 1.06,
       "xgAway": 1.53,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5095,
+     "pBtts": 0.5105,
      "odds": {
       "h": 3.2,
       "d": 3.3,
@@ -725,175 +295,7 @@
    "name": "Premier League",
    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
    "espn": "eng.1",
-   "matches": [
-    {
-     "kickoff": "2026-09-20T17:30:00+02:00",
-     "home": "Fulham",
-     "away": "Manchester United",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "S",
-      "N",
-      "N",
-      "N",
-      "U"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "S",
-      "U",
-      "N"
-     ],
-     "formHomeH": [
-      "S",
-      "N",
-      "S",
-      "N",
-      "N"
-     ],
-     "formAwayA": [
-      "S",
-      "U",
-      "S",
-      "N",
-      "U"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 20,
-     "posAway": 13,
-     "nTeams": 20,
-     "h2h": [
-      {
-       "date": "01.02.2026",
-       "home": "Man United",
-       "away": "Fulham",
-       "score": "3:2"
-      },
-      {
-       "date": "24.08.2025",
-       "home": "Fulham",
-       "away": "Man United",
-       "score": "1:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.2896,
-      "pDraw": 0.2423,
-      "pAway": 0.468,
-      "pOver25": 0.5538,
-      "pBtts": 0.5762,
-      "xgHome": 1.25,
-      "xgAway": 1.65,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.5762,
-     "odds": {
-      "h": 3.63,
-      "d": 3.88,
-      "a": 2.07,
-      "src": "1xBet"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Bruno Fernandes",
-       "goals": 3
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Manchester United ist bei Fulham leicht favorisiert (47 % zu 29 %). In der Tabelle stehen sich Platz 18 und Platz 13 gegenüber. Heim-/Auswärtsbilanz: Fulham gewann 2 der letzten 5 Heimspiele, Manchester United 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:2 (Man United – Fulham). Das Modell erwartet ein torreiches Spiel (xG 1,2:1,6; über 2,5 Tore: 55 %, beide Teams treffen zu 58 %). Gefährlichste Torschützen: bei Manchester United Bruno Fernandes (3 Tore). Die Aufstellungen sind offiziell (4-2-3-1 gegen 4-2-3-1). Personal: Fulham fehlen 5 Spieler (u.a. J. Andersen); Manchester United fehlen 7 Spieler (u.a. T. Heaton).",
-     "injuriesHome": [
-      {
-       "name": "J. Andersen",
-       "reason": "Red Card"
-      },
-      {
-       "name": "T. Cairney",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "L. De Fougerolles",
-       "reason": "Injury"
-      },
-      {
-       "name": "K. Tete",
-       "reason": "Concussion"
-      },
-      {
-       "name": "R. Sessegnon",
-       "reason": "Groin Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "T. Heaton",
-       "reason": "Injury"
-      },
-      {
-       "name": "M. Mount",
-       "reason": "Foot Injury"
-      },
-      {
-       "name": "M. Ugarte",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "M. de Ligt",
-       "reason": "Back Injury"
-      },
-      {
-       "name": "C. Baleba",
-       "reason": "Ankle Injury"
-      },
-      {
-       "name": "A. Diallo",
-       "reason": "Injury"
-      }
-     ],
-     "lineups": {
-      "home": {
-       "formation": "4-2-3-1",
-       "xi": [
-        "B. Leno",
-        "T. Castagne",
-        "D. Affengruber",
-        "C. Bassey",
-        "A. Robinson",
-        "S. Berge",
-        "S. Charles",
-        "Oscar Bobb",
-        "Joshua King",
-        "A. Iwobi",
-        "Gonzalo García"
-       ]
-      },
-      "away": {
-       "formation": "4-2-3-1",
-       "xi": [
-        "S. Lammens",
-        "Diogo Dalot",
-        "H. Maguire",
-        "Lisandro Martínez",
-        "L. Shaw",
-        "Y. Tielemans",
-        "K. Mainoo",
-        "B. Mbeumo",
-        "Bruno Fernandes",
-        "M. Rashford",
-        "Matheus Cunha"
-       ]
-      }
-     },
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": true,
    "isCup": false
   },
@@ -903,138 +305,6 @@
    "flag": "🇮🇹",
    "espn": "ita.1",
    "matches": [
-    {
-     "kickoff": "2026-09-20T18:00:00+02:00",
-     "home": "Juventus",
-     "away": "Atalanta",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "U",
-      "S",
-      "S",
-      "U",
-      "N"
-     ],
-     "formAway": [
-      "U",
-      "S",
-      "S",
-      "N",
-      "N"
-     ],
-     "formHomeH": [
-      "S",
-      "U",
-      "N",
-      "S",
-      "U"
-     ],
-     "formAwayA": [
-      "U",
-      "N",
-      "S",
-      "U",
-      "N"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 8,
-     "posAway": 11,
-     "nTeams": 20,
-     "h2h": [
-      {
-       "date": "11.04.2026",
-       "home": "Atalanta",
-       "away": "Juventus",
-       "score": "0:1"
-      },
-      {
-       "date": "27.09.2025",
-       "home": "Juventus",
-       "away": "Atalanta",
-       "score": "1:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.4515,
-      "pDraw": 0.2832,
-      "pAway": 0.2653,
-      "pOver25": 0.3825,
-      "pBtts": 0.4378,
-      "xgHome": 1.3,
-      "xgAway": 0.92,
-      "tipScore": "1:0",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.4378,
-     "odds": {
-      "h": 1.71,
-      "d": 3.8,
-      "a": 4.9,
-      "src": "Codere (IT)"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Juventus ist gegen Atalanta leicht favorisiert (45 % zu 27 %). In der Tabelle stehen sich Platz 8 und Platz 11 gegenüber. Heim-/Auswärtsbilanz: Juventus gewann 2 der letzten 5 Heimspiele, Atalanta 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:1 (Atalanta – Juventus). Das Modell erwartet eher wenige Tore (xG 1,3:0,9; über 2,5 Tore: 38 %, beide Teams treffen zu 44 %). Personal: Juventus fehlen 14 Spieler (u.a. M. Di Gregorio); Atalanta fehlen 6 Spieler (u.a. H. Ahanor).",
-     "injuriesHome": [
-      {
-       "name": "M. Di Gregorio",
-       "reason": "Transfer negotiations"
-      },
-      {
-       "name": "J. Ekhator",
-       "reason": "Muscle Injury"
-      },
-      {
-       "name": "F. Gatti",
-       "reason": "Injury"
-      },
-      {
-       "name": "W. McKennie",
-       "reason": "Muscle Injury"
-      },
-      {
-       "name": "K. Thuram",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "K. Yildiz",
-       "reason": "Foot Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "H. Ahanor",
-       "reason": "Muscle Injury"
-      },
-      {
-       "name": "I. Hien",
-       "reason": "Muscle Injury"
-      },
-      {
-       "name": "T. Kristensen",
-       "reason": "Ankle Injury"
-      },
-      {
-       "name": "K. Sulemana",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "G. Gaetano",
-       "reason": "Red Card"
-      },
-      {
-       "name": "O. Kossounou",
-       "reason": "Thigh Injury"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-09-20T20:45:00+02:00",
      "home": "AC Milan",
@@ -1073,8 +343,8 @@
      ],
      "load14Home": 1,
      "load14Away": 2,
-     "posHome": 6,
-     "posAway": 12,
+     "posHome": 8,
+     "posAway": 11,
      "nTeams": 20,
      "h2h": [
       {
@@ -1117,7 +387,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "AC Milan geht als klarer Favorit (60 %) in das Heimspiel gegen Lecce. In der Tabelle stehen sich Platz 6 und Platz 12 gegenüber. Heim-/Auswärtsbilanz: AC Milan gewann 1 der letzten 5 Heimspiele, Lecce 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:0 (Milan – Lecce). Das Modell erwartet eher wenige Tore (xG 1,6:0,6; über 2,5 Tore: 38 %, beide Teams treffen zu 37 %). Personal: AC Milan fehlen 6 Spieler (u.a. Y. Fofana); Lecce fehlen 4 Spieler (u.a. L. Banda).",
+     "analysis": "AC Milan geht als klarer Favorit (60 %) in das Heimspiel gegen Lecce. In der Tabelle stehen sich Platz 6 und Platz 12 gegenüber. Heim-/Auswärtsbilanz: AC Milan gewann 1 der letzten 5 Heimspiele, Lecce 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:0 (Milan – Lecce). Das Modell erwartet eher wenige Tore (xG 1,6:0,6; über 2,5 Tore: 38 %, beide Teams treffen zu 37 %). Die Aufstellungen sind offiziell (3-4-2-1 gegen 4-3-3). Personal: AC Milan fehlen 6 Spieler (u.a. Y. Fofana); Lecce fehlen 4 Spieler (u.a. L. Banda).",
      "injuriesHome": [
       {
        "name": "Y. Fofana",
@@ -1162,7 +432,41 @@
        "reason": "Ankle Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "lineups": {
+      "home": {
+       "formation": "3-4-2-1",
+       "xi": [
+        "Mike Maignan",
+        "Mario Gila",
+        "Koni De Winter",
+        "Strahinja Pavlović",
+        "Samuel Chukwueze",
+        "Luka Modrić",
+        "Adrien Rabiot",
+        "Pervis Estupiñán",
+        "Christian Pulišić",
+        "Alexis Saelemaekers",
+        "Gonçalo Ramos"
+       ]
+      },
+      "away": {
+       "formation": "4-3-3",
+       "xi": [
+        "Wladimiro Falcone",
+        "Danilo Veiga",
+        "Kialonda Gaspar",
+        "Jamil Siebert",
+        "Antonino Gallo",
+        "Lassana Coulibaly",
+        "Ivan Ilić",
+        "Youssef Maleh",
+        "Santiago Pierotti",
+        "Nikola Štulić",
+        "Joël Monteiro"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
    "seasonHasStarted": true,
@@ -1174,203 +478,6 @@
    "flag": "🇪🇸",
    "espn": "esp.1",
    "matches": [
-    {
-     "kickoff": "2026-09-20T18:30:00+02:00",
-     "home": "Deportivo",
-     "away": "Real Betis",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [],
-     "formAway": [
-      "S",
-      "N",
-      "S",
-      "S",
-      "S"
-     ],
-     "formHomeH": [],
-     "formAwayA": [
-      "U",
-      "N",
-      "S",
-      "N",
-      "S"
-     ],
-     "load14Home": 0,
-     "load14Away": 2,
-     "posHome": null,
-     "posAway": 3,
-     "nTeams": 20,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
-     "odds": null,
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Pierre-Emerick Aubameyang",
-       "goals": 5
-      }
-     ],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Gefährlichste Torschützen: bei Deportivo Pierre-Emerick Aubameyang (5 Tore). Personal: Real Betis fehlen 10 Spieler (u.a. D. Conde).",
-     "injuriesAway": [
-      {
-       "name": "D. Conde",
-       "reason": "Shoulder Injury"
-      },
-      {
-       "name": "A. Ezzalzouli",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "G. Lo Celso",
-       "reason": "Muscle Injury"
-      },
-      {
-       "name": "J. Morante",
-       "reason": "Injury"
-      },
-      {
-       "name": "T. Parrott",
-       "reason": "Inactive"
-      },
-      {
-       "name": "G. Petit",
-       "reason": "Muscle Injury"
-      }
-     ],
-     "basis": "Datenbasis: Heim/Auswärts-Form, Verletztenliste. Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-09-20T18:30:00+02:00",
-     "home": "Villarreal",
-     "away": "Levante",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "U",
-      "N",
-      "N",
-      "N",
-      "S"
-     ],
-     "formAway": [
-      "N",
-      "U",
-      "S",
-      "U",
-      "N"
-     ],
-     "formHomeH": [
-      "S",
-      "N",
-      "S",
-      "N",
-      "N"
-     ],
-     "formAwayA": [
-      "S",
-      "N",
-      "N",
-      "U",
-      "U"
-     ],
-     "load14Home": 2,
-     "load14Away": 1,
-     "posHome": 16,
-     "posAway": 17,
-     "nTeams": 20,
-     "h2h": [
-      {
-       "date": "02.05.2026",
-       "home": "Villarreal",
-       "away": "Levante",
-       "score": "5:1"
-      },
-      {
-       "date": "18.02.2026",
-       "home": "Levante",
-       "away": "Villarreal",
-       "score": "0:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.6805,
-      "pDraw": 0.1719,
-      "pAway": 0.1473,
-      "pOver25": 0.6998,
-      "pBtts": 0.6135,
-      "xgHome": 2.51,
-      "xgAway": 1.1,
-      "tipScore": "2:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.6135,
-     "odds": {
-      "h": 1.51,
-      "d": 4.86,
-      "a": 5.88,
-      "src": "Pinnacle"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "P. Gueye",
-       "goals": 3
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Brugui",
-       "goals": 3
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Villarreal geht als klarer Favorit (68 %) in das Heimspiel gegen Levante. In der Tabelle stehen sich Platz 14 und Platz 15 gegenüber. Heim-/Auswärtsbilanz: Villarreal gewann 2 der letzten 5 Heimspiele, Levante 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 5:1 (Villarreal – Levante). Das Modell erwartet ein torreiches Spiel (xG 2,5:1,1; über 2,5 Tore: 70 %, beide Teams treffen zu 61 %). Personal: Villarreal fehlen 4 Spieler (u.a. A. Diatta); Levante fehlen 4 Spieler (u.a. R. Brugue).",
-     "injuriesHome": [
-      {
-       "name": "A. Diatta",
-       "reason": "Red Card"
-      },
-      {
-       "name": "W. Kambwala",
-       "reason": "Transfer negotiations"
-      },
-      {
-       "name": "J. Foyth",
-       "reason": "Achilles Tendon Injury"
-      },
-      {
-       "name": "S. Comesana",
-       "reason": "Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "R. Brugue",
-       "reason": "Red Card"
-      },
-      {
-       "name": "A. Primo",
-       "reason": "Shoulder Injury"
-      },
-      {
-       "name": "K. Etta Eyong",
-       "reason": "Injury"
-      },
-      {
-       "name": "H. Sotelo",
-       "reason": "Knee Injury"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-09-20T21:00:00+02:00",
      "home": "Valencia",
@@ -1453,7 +560,7 @@
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Valencia ist gegen Real Sociedad leicht favorisiert (42 % zu 33 %). In der Tabelle stehen sich Platz 18 und Platz 12 gegenüber. Heim-/Auswärtsbilanz: Valencia gewann 1 der letzten 5 Heimspiele, Real Sociedad 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:4 (Sociedad – Valencia). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,5:1,3; über 2,5 Tore: 54 %, beide Teams treffen zu 57 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,77) für 7 Prozentpunkte wahrscheinlicher als der Markt. Personal: Valencia fehlen 12 Spieler (u.a. S. Canos); Real Sociedad fehlen 8 Spieler (u.a. J. Gorrotxategi).",
+     "analysis": "Valencia ist gegen Real Sociedad leicht favorisiert (42 % zu 33 %). In der Tabelle stehen sich Platz 18 und Platz 12 gegenüber. Heim-/Auswärtsbilanz: Valencia gewann 1 der letzten 5 Heimspiele, Real Sociedad 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:4 (Sociedad – Valencia). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,5:1,3; über 2,5 Tore: 54 %, beide Teams treffen zu 57 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,77) für 7 Prozentpunkte wahrscheinlicher als der Markt. Die Aufstellungen sind offiziell (4-4-2 gegen 4-4-2). Personal: Valencia fehlen 12 Spieler (u.a. S. Canos); Real Sociedad fehlen 8 Spieler (u.a. J. Gorrotxategi).",
      "injuriesHome": [
       {
        "name": "S. Canos",
@@ -1506,7 +613,41 @@
        "reason": "Coach's decision"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "lineups": {
+      "home": {
+       "formation": "4-4-2",
+       "xi": [
+        "S. Dimitrievski",
+        "Pablo Maffeo",
+        "Pepelu",
+        "J. de Haas",
+        "José Gayà",
+        "Aaron Mayol",
+        "F. Ugrinic",
+        "G. Rodríguez",
+        "A. Danjuma",
+        "Javi Guerra",
+        "Hugo Duro"
+       ]
+      },
+      "away": {
+       "formation": "4-4-2",
+       "xi": [
+        "Álex Remiro",
+        "J. Aramburu",
+        "Luken Beitia",
+        "Jon Martín",
+        "Sergio Gómez",
+        "Gonçalo Guedes",
+        "Jon Gorrotxategi",
+        "Carlos Soler",
+        "J. Ochieng",
+        "L. Sučić",
+        "Mikel Oyarzabal"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
    "seasonHasStarted": true,
@@ -1518,146 +659,6 @@
    "flag": "🇪🇸",
    "espn": "esp.2",
    "matches": [
-    {
-     "kickoff": "2026-09-20T18:30:00+02:00",
-     "home": "Almería",
-     "away": "RC Celta Fortuna",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/6832.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/131858.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "S",
-      "N",
-      "N",
-      "S",
-      "S"
-     ],
-     "formAway": [],
-     "formHomeH": [
-      "S",
-      "N",
-      "S",
-      "S",
-      "S"
-     ],
-     "formAwayA": [],
-     "load14Home": 1,
-     "load14Away": 0,
-     "posHome": 8,
-     "posAway": null,
-     "nTeams": 22,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
-     "odds": {
-      "h": 1.33,
-      "d": 4.5,
-      "a": 7.0,
-      "src": "LeoVegas (SE)"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "",
-     "basis": "Datenbasis: Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-09-20T18:30:00+02:00",
-     "home": "Las Palmas",
-     "away": "Burgos",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/98.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/12597.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "S",
-      "S",
-      "N",
-      "U",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "U",
-      "U",
-      "S"
-     ],
-     "formHomeH": [
-      "S",
-      "S",
-      "U",
-      "S",
-      "U"
-     ],
-     "formAwayA": [
-      "U",
-      "S",
-      "S",
-      "N",
-      "U"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 5,
-     "posAway": 10,
-     "nTeams": 22,
-     "h2h": [
-      {
-       "date": "07.02.2026",
-       "home": "Las Palmas",
-       "away": "Burgos",
-       "score": "0:0"
-      },
-      {
-       "date": "07.09.2025",
-       "home": "Burgos",
-       "away": "Las Palmas",
-       "score": "0:0"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.364,
-      "pDraw": 0.3215,
-      "pAway": 0.3145,
-      "pOver25": 0.2866,
-      "pBtts": 0.3667,
-      "xgHome": 0.98,
-      "xgAway": 0.89,
-      "tipScore": "0:0",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.3667,
-     "odds": {
-      "h": 2.0,
-      "d": 3.3,
-      "a": 3.8,
-      "src": "Unibet (NL)"
-     },
-     "value": {
-      "outcome": "2",
-      "edge": 0.0677,
-      "modelP": 0.3145,
-      "odds": 3.8
-     },
-     "scorersHome": [
-      {
-       "name": "T. Miyashiro",
-       "goals": 2
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Álex Forés",
-       "goals": 2
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen Las Palmas und Burgos deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Las Palmas 37 %, Unentschieden 32 %, Sieg Burgos 31 %). In der Tabelle stehen sich Platz 5 und Platz 9 gegenüber. Heim-/Auswärtsbilanz: Las Palmas gewann 3 der letzten 5 Heimspiele, Burgos 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (Las Palmas – Burgos). Das Modell erwartet eher wenige Tore (xG 1,0:0,9; über 2,5 Tore: 29 %, beide Teams treffen zu 37 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,80) für 7 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-09-20T21:00:00+02:00",
      "home": "Leganés",
@@ -1740,8 +741,42 @@
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen Leganés und Granada deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Leganés 36 %, Unentschieden 31 %, Sieg Granada 33 %). In der Tabelle stehen sich Platz 11 und Platz 10 gegenüber. Heim-/Auswärtsbilanz: Leganés gewann 2 der letzten 5 Heimspiele, Granada 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:0 (Leganes – Granada). Das Modell erwartet eher wenige Tore (xG 1,0:1,0; über 2,5 Tore: 32 %, beide Teams treffen zu 40 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,60) für 7 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "analysis": "Zwischen Leganés und Granada deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Leganés 36 %, Unentschieden 31 %, Sieg Granada 33 %). In der Tabelle stehen sich Platz 11 und Platz 10 gegenüber. Heim-/Auswärtsbilanz: Leganés gewann 2 der letzten 5 Heimspiele, Granada 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:0 (Leganes – Granada). Das Modell erwartet eher wenige Tore (xG 1,0:1,0; über 2,5 Tore: 32 %, beide Teams treffen zu 40 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,60) für 7 Prozentpunkte wahrscheinlicher als der Markt. Die Aufstellungen sind offiziell (3-2-4-1 gegen 4-3-3).",
+     "lineups": {
+      "home": {
+       "formation": "3-2-4-1",
+       "xi": [
+        "L. Zidane",
+        "Lalo Aguilar",
+        "Ignasi Miquel",
+        "Marvel",
+        "Z. Buurmeester",
+        "Miguel Atienza",
+        "Naim García",
+        "Ismaël Gharbi",
+        "Y. Kechta",
+        "Álex Sancris",
+        "P. Soko"
+       ]
+      },
+      "away": {
+       "formation": "4-3-3",
+       "xi": [
+        "Raúl Lizoain",
+        "Sergio López",
+        "Manu Lama",
+        "B. Gimber",
+        "Diego Pampín",
+        "Gumbau",
+        "Rubén Alcaraz",
+        "Jorge Pascual",
+        "O. M. Chukwuemeka",
+        "Alejandro Marqués",
+        "José Arnáiz"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
    "seasonHasStarted": true,
@@ -1785,7 +820,7 @@
      "formAwayA": [],
      "load14Home": 1,
      "load14Away": 0,
-     "posHome": 16,
+     "posHome": 17,
      "posAway": 10,
      "nTeams": 18,
      "h2h": [
@@ -1852,7 +887,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen Marseille und Paris Saint-Germain deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Marseille 40 %, Unentschieden 24 %, Sieg Paris Saint-Germain 36 %). In der Tabelle stehen sich Platz 16 und Platz 10 gegenüber. Das letzte Duell (2026) endete 5:0 (Paris Saint Germain – Marseille). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,5; über 2,5 Tore: 58 %, beide Teams treffen zu 61 %). Gefährlichste Torschützen: bei Marseille Amine Gouiri (4 Tore) und bei Paris Saint-Germain Ferran Torres (3 Tore). Personal: Marseille fehlen 6 Spieler (u.a. L. Balerdi); Paris Saint-Germain fehlen 6 Spieler (u.a. B. Barcola).",
+     "analysis": "Zwischen Marseille und Paris Saint-Germain deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Marseille 40 %, Unentschieden 24 %, Sieg Paris Saint-Germain 36 %). In der Tabelle stehen sich Platz 17 und Platz 10 gegenüber. Das letzte Duell (2026) endete 5:0 (Paris Saint Germain – Marseille). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,5; über 2,5 Tore: 58 %, beide Teams treffen zu 61 %). Gefährlichste Torschützen: bei Marseille Amine Gouiri (4 Tore) und bei Paris Saint-Germain Ferran Torres (3 Tore). Personal: Marseille fehlen 6 Spieler (u.a. L. Balerdi); Paris Saint-Germain fehlen 6 Spieler (u.a. B. Barcola).",
      "injuriesHome": [
       {
        "name": "L. Balerdi",
@@ -1905,7 +940,41 @@
        "reason": "Inactive"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "lineups": {
+      "home": {
+       "formation": "4-2-3-1",
+       "xi": [
+        "J. de Lange",
+        "T. Weah",
+        "C. Egan-Riley",
+        "N. Aguerd",
+        "Emerson",
+        "H. Abdelli",
+        "P. Højbjerg",
+        "A. Harit",
+        "A. Gouiri",
+        "Igor Paixão",
+        "N. Maupay"
+       ]
+      },
+      "away": {
+       "formation": "4-3-3",
+       "xi": [
+        "M. Safonov",
+        "W. Zaïre-Emery",
+        "Marquinhos",
+        "W. Pacho",
+        "Nuno Mendes",
+        "João Neves",
+        "Vitinha",
+        "Fabián Ruiz",
+        "D. Doué",
+        "O. Dembélé",
+        "K. Kvaratskhelia"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
    "seasonHasStarted": true,
@@ -1943,160 +1012,7 @@
    "name": "Pro League (Belgien)",
    "flag": "🇧🇪",
    "espn": "bel.1",
-   "matches": [
-    {
-     "kickoff": "2026-09-20T18:30:00+02:00",
-     "home": "Club Brugge",
-     "away": "Racing Genk",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/938.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "S",
-      "S",
-      "N",
-      "S",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "U",
-      "S",
-      "U",
-      "U"
-     ],
-     "formHomeH": [
-      "S",
-      "S",
-      "S",
-      "S",
-      "S"
-     ],
-     "formAwayA": [
-      "U",
-      "S",
-      "N",
-      "U",
-      "U"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 4,
-     "posAway": 9,
-     "nTeams": 18,
-     "h2h": [
-      {
-       "date": "26.12.2025",
-       "home": "Genk",
-       "away": "Club Brugge",
-       "score": "3:5"
-      },
-      {
-       "date": "27.07.2025",
-       "home": "Club Brugge",
-       "away": "Genk",
-       "score": "2:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.6777,
-      "pDraw": 0.1777,
-      "pAway": 0.1444,
-      "pOver25": 0.6635,
-      "pBtts": 0.5815,
-      "xgHome": 2.4,
-      "xgAway": 1.02,
-      "tipScore": "2:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.5815,
-     "odds": {
-      "h": 1.57,
-      "d": 4.0,
-      "a": 4.8,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "N. Tresoldi",
-       "goals": 3
-      },
-      {
-       "name": "H. Vetlesen",
-       "goals": 3
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Rafiu Durosinmi",
-       "goals": 5
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Club Brugge geht als klarer Favorit (68 %) in das Heimspiel gegen Racing Genk. In der Tabelle stehen sich Platz 3 und Platz 8 gegenüber. Die Form spricht für Club Brugge: 4 Siege aus den letzten 5 Spielen, Racing Genk holte nur 2. Heim-/Auswärtsbilanz: Club Brugge gewann 5 der letzten 5 Heimspiele, Racing Genk 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2025) endete 3:5 (Genk – Club Brugge). Das Modell erwartet ein torreiches Spiel (xG 2,4:1,0; über 2,5 Tore: 66 %, beide Teams treffen zu 58 %). Gefährlichste Torschützen: bei Racing Genk Rafiu Durosinmi (5 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-09-20T19:15:00+02:00",
-     "home": "KV Kortrijk",
-     "away": "Waasland-Beveren",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/5786.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/13450.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "N",
-      "N",
-      "N",
-      "N"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "N",
-      "S",
-      "S"
-     ],
-     "formHomeH": [
-      "N",
-      "N",
-      "N"
-     ],
-     "formAwayA": [
-      "N",
-      "N",
-      "N"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 18,
-     "posAway": 9,
-     "nTeams": 18,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.0339,
-      "pDraw": 0.1697,
-      "pAway": 0.7963,
-      "pOver25": 0.3649,
-      "pBtts": 0.1659,
-      "xgHome": 0.22,
-      "xgAway": 1.94,
-      "tipScore": "0:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.1659,
-     "odds": null,
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Waasland-Beveren reist als klarer Favorit (80 %) zu KV Kortrijk. In der Tabelle stehen sich Platz 18 und Platz 9 gegenüber. Die Form spricht für Waasland-Beveren: 3 Siege aus den letzten 5 Spielen, KV Kortrijk holte nur 0. Heim-/Auswärtsbilanz: KV Kortrijk gewann 0 der letzten 3 Heimspiele, Waasland-Beveren 0 der letzten 3 Auswärtsspiele. Das Modell erwartet eher wenige Tore (xG 0,2:1,9; über 2,5 Tore: 36 %, beide Teams treffen zu 17 %).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle. Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": true,
    "isCup": false
   },
@@ -2105,98 +1021,7 @@
    "name": "Challenger Pro League (Belgien)",
    "flag": "🇧🇪",
    "espn": "bel.2",
-   "matches": [
-    {
-     "kickoff": "2026-09-20T19:15:00+02:00",
-     "home": "Dender",
-     "away": "Patro Eisden",
-     "homeIcon": null,
-     "awayIcon": null,
-     "matchday": null,
-     "roundName": "Regular Season - 6",
-     "formHome": [
-      "N",
-      "S",
-      "S",
-      "S",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "N",
-      "N",
-      "N"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 4,
-     "posAway": 13,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "27.01.2024",
-       "home": "Dender",
-       "away": "Patro Eisden",
-       "score": "0:0"
-      },
-      {
-       "date": "22.09.2023",
-       "home": "Patro Eisden",
-       "away": "Dender",
-       "score": "1:1"
-      },
-      {
-       "date": "05.03.2022",
-       "home": "Dender",
-       "away": "Patro Eisden",
-       "score": "3:0"
-      },
-      {
-       "date": "04.12.2021",
-       "home": "Patro Eisden",
-       "away": "Dender",
-       "score": "1:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.4871,
-      "pDraw": 0.2512,
-      "pAway": 0.2618,
-      "pOver25": 0.4972,
-      "pBtts": 0.5256,
-      "xgHome": 1.58,
-      "xgAway": 1.09,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.5256,
-     "odds": {
-      "h": 1.67,
-      "d": 3.5,
-      "a": 4.4,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "M. Viltard",
-       "goals": 2
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "T. Kasayanagi",
-       "goals": 1
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Dender ist gegen Patro Eisden leicht favorisiert (49 % zu 26 %). In der Tabelle stehen sich Platz 4 und Platz 13 gegenüber. Die Form spricht für Dender: 4 Siege aus den letzten 5 Spielen, Patro Eisden holte nur 1. Das letzte Duell (2024) endete 0:0 (Dender – Patro Eisden). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:1,1; über 2,5 Tore: 50 %, beide Teams treffen zu 53 %). Gefährlichste Torschützen: bei Dender M. Viltard (2 Tore) und bei Patro Eisden T. Kasayanagi (1 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": false,
    "isCup": false
   },
@@ -2206,176 +1031,6 @@
    "flag": "🇵🇹",
    "espn": "por.1",
    "matches": [
-    {
-     "kickoff": "2026-09-20T19:00:00+02:00",
-     "home": "Estoril",
-     "away": "Casa Pia",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/12216.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/21581.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "N",
-      "N",
-      "U",
-      "N"
-     ],
-     "formAway": [
-      "N",
-      "N",
-      "N",
-      "U",
-      "N"
-     ],
-     "formHomeH": [
-      "N",
-      "N",
-      "U",
-      "N",
-      "U"
-     ],
-     "formAwayA": [
-      "N",
-      "S",
-      "N",
-      "N",
-      "U"
-     ],
-     "load14Home": 2,
-     "load14Away": 1,
-     "posHome": 17,
-     "posAway": 18,
-     "nTeams": 18,
-     "h2h": [
-      {
-       "date": "07.03.2026",
-       "home": "Estoril",
-       "away": "Casa Pia",
-       "score": "0:0"
-      },
-      {
-       "date": "03.10.2025",
-       "home": "Casa Pia",
-       "away": "Estoril",
-       "score": "2:2"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.6263,
-      "pDraw": 0.2237,
-      "pAway": 0.1499,
-      "pOver25": 0.4715,
-      "pBtts": 0.4414,
-      "xgHome": 1.81,
-      "xgAway": 0.75,
-      "tipScore": "1:0",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.4414,
-     "odds": {
-      "h": 1.7,
-      "d": 3.6,
-      "a": 4.6,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [],
-     "scorersPeriod": "Saison",
-     "analysis": "Estoril geht als klarer Favorit (63 %) in das Heimspiel gegen Casa Pia. In der Tabelle stehen sich Platz 17 und Platz 18 gegenüber. Heim-/Auswärtsbilanz: Estoril gewann 0 der letzten 5 Heimspiele, Casa Pia 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (Estoril – Casa Pia). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,8:0,8; über 2,5 Tore: 47 %, beide Teams treffen zu 44 %).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-09-20T19:00:00+02:00",
-     "home": "Santa Clara",
-     "away": "Braga",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/12215.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/2994.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "S",
-      "S",
-      "U",
-      "S",
-      "S"
-     ],
-     "formAway": [
-      "U",
-      "S",
-      "S",
-      "N",
-      "S"
-     ],
-     "formHomeH": [
-      "S",
-      "S",
-      "U",
-      "S",
-      "S"
-     ],
-     "formAwayA": [
-      "N",
-      "U",
-      "U",
-      "S",
-      "N"
-     ],
-     "load14Home": 1,
-     "load14Away": 2,
-     "posHome": 4,
-     "posAway": 7,
-     "nTeams": 18,
-     "h2h": [
-      {
-       "date": "26.04.2026",
-       "home": "Santa Clara",
-       "away": "Sp Braga",
-       "score": "2:1"
-      },
-      {
-       "date": "15.12.2025",
-       "home": "Sp Braga",
-       "away": "Santa Clara",
-       "score": "1:0"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.3039,
-      "pDraw": 0.2806,
-      "pAway": 0.4155,
-      "pOver25": 0.4067,
-      "pBtts": 0.4651,
-      "xgHome": 1.04,
-      "xgAway": 1.27,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.4651,
-     "odds": {
-      "h": 3.5,
-      "d": 3.0,
-      "a": 2.15,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Gonçalo Paciência",
-       "goals": 5
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Pau Victor",
-       "goals": 3
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Braga ist bei Santa Clara leicht favorisiert (42 % zu 30 %). In der Tabelle stehen sich Platz 4 und Platz 7 gegenüber. Heim-/Auswärtsbilanz: Santa Clara gewann 4 der letzten 5 Heimspiele, Braga 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:1 (Santa Clara – Sp Braga). Das Modell erwartet eher wenige Tore (xG 1,0:1,3; über 2,5 Tore: 41 %, beide Teams treffen zu 47 %). Gefährlichste Torschützen: bei Santa Clara Gonçalo Paciência (5 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-09-20T21:30:00+02:00",
      "home": "FC Porto",
@@ -2479,250 +1134,7 @@
    "name": "Süper Lig (Türkei)",
    "flag": "🇹🇷",
    "espn": "tur.1",
-   "matches": [
-    {
-     "kickoff": "2026-09-20T19:00:00+02:00",
-     "home": "Amed SFK",
-     "away": "Besiktas",
-     "homeIcon": "",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/1895.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "S",
-      "N",
-      "S",
-      "U",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "S",
-      "S",
-      "S"
-     ],
-     "formHomeH": [],
-     "formAwayA": [
-      "N",
-      "S",
-      "U",
-      "N",
-      "S"
-     ],
-     "load14Home": 0,
-     "load14Away": 1,
-     "posHome": 6,
-     "posAway": 2,
-     "nTeams": 18,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.404,
-      "pDraw": 0.2429,
-      "pAway": 0.3531,
-      "pOver25": 0.575,
-      "pBtts": 0.6013,
-      "xgHome": 1.55,
-      "xgAway": 1.44,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.6013,
-     "odds": {
-      "h": 3.75,
-      "d": 3.6,
-      "a": 1.85,
-      "src": "William Hill"
-     },
-     "value": {
-      "outcome": "1",
-      "edge": 0.1582,
-      "modelP": 0.404,
-      "odds": 3.75
-     },
-     "scorersHome": [
-      {
-       "name": "Gift Orban",
-       "goals": 6
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Dusan Vlahovic",
-       "goals": 4
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen Amed SFK und Besiktas deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Amed SFK 41 %, Unentschieden 24 %, Sieg Besiktas 35 %). In der Tabelle stehen sich Platz 6 und Platz 2 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 1,6:1,4; über 2,5 Tore: 57 %, beide Teams treffen zu 60 %). Gefährlichste Torschützen: bei Amed SFK Gift Orban (6 Tore) und bei Besiktas Dusan Vlahovic (4 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,75) für 16 Prozentpunkte wahrscheinlicher als der Markt. Personal: Amed SFK fehlen 3 Spieler (u.a. M. Yildirim); Besiktas fehlen 4 Spieler (u.a. L. Trossard).",
-     "injuriesHome": [
-      {
-       "name": "M. Yildirim",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Y. Sor",
-       "reason": "Injury"
-      },
-      {
-       "name": "D. Demir",
-       "reason": "Knee Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "L. Trossard",
-       "reason": "Injury"
-      },
-      {
-       "name": "E. Ricardo",
-       "reason": "Off the roster"
-      },
-      {
-       "name": "D. Vlahovic",
-       "reason": "Suspended"
-      },
-      {
-       "name": "R. Yilmaz",
-       "reason": "Inactive"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-09-20T19:00:00+02:00",
-     "home": "Goztepe",
-     "away": "Caykur Rizespor",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/789.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/7656.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "U",
-      "N",
-      "N",
-      "N",
-      "U"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "S",
-      "N",
-      "S"
-     ],
-     "formHomeH": [
-      "U",
-      "S",
-      "S",
-      "N",
-      "N"
-     ],
-     "formAwayA": [
-      "N",
-      "N",
-      "S",
-      "S",
-      "S"
-     ],
-     "load14Home": 2,
-     "load14Away": 2,
-     "posHome": 18,
-     "posAway": 8,
-     "nTeams": 18,
-     "h2h": [
-      {
-       "date": "19.01.2026",
-       "home": "Goztep",
-       "away": "Rizespor",
-       "score": "3:1"
-      },
-      {
-       "date": "10.08.2025",
-       "home": "Rizespor",
-       "away": "Goztep",
-       "score": "0:3"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.454,
-      "pDraw": 0.2503,
-      "pAway": 0.2957,
-      "pOver25": 0.522,
-      "pBtts": 0.5533,
-      "xgHome": 1.56,
-      "xgAway": 1.21,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.5533,
-     "odds": {
-      "h": 2.5,
-      "d": 3.25,
-      "a": 2.5,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Juan",
-       "goals": 4
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "E. Bulut",
-       "goals": 2
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Goztepe ist gegen Caykur Rizespor leicht favorisiert (45 % zu 30 %). In der Tabelle stehen sich Platz 18 und Platz 5 gegenüber. Die Form spricht für Caykur Rizespor: 3 Siege aus den letzten 5 Spielen, Goztepe holte nur 0. Heim-/Auswärtsbilanz: Goztepe gewann 2 der letzten 5 Heimspiele, Caykur Rizespor 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:1 (Goztep – Rizespor). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:1,2; über 2,5 Tore: 52 %, beide Teams treffen zu 55 %). Gefährlichste Torschützen: bei Goztepe Juan (4 Tore). Personal: Goztepe fehlen 9 Spieler (u.a. N. Sonko Sundberg); Caykur Rizespor fehlen 4 Spieler (u.a. K. Alikulov).",
-     "injuriesHome": [
-      {
-       "name": "N. Sonko Sundberg",
-       "reason": "Inactive"
-      },
-      {
-       "name": "Allan Godoi",
-       "reason": "Injury"
-      },
-      {
-       "name": "A. Antunes",
-       "reason": "Inactive"
-      },
-      {
-       "name": "F. Bayir",
-       "reason": "Inactive"
-      },
-      {
-       "name": "I. Sabra",
-       "reason": "Ankle Injury"
-      },
-      {
-       "name": "O. Bayrak",
-       "reason": "Red Card"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "K. Alikulov",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "F. Orak",
-       "reason": "Inactive"
-      },
-      {
-       "name": "M. Diakite",
-       "reason": "Inactive"
-      },
-      {
-       "name": "V. Mihaila",
-       "reason": "Inactive"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": true,
    "isCup": false
   },
@@ -3032,7 +1444,41 @@
        "reason": "Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "lineups": {
+      "home": {
+       "formation": "4-2-3-1",
+       "xi": [
+        "Hugo Souza",
+        "Matheuzinho",
+        "I. Machado",
+        "Gustavo Henrique",
+        "Matheus Bidu",
+        "Andre",
+        "Raniele",
+        "Kaio César",
+        "R. Garro",
+        "Breno",
+        "M. Depay"
+       ]
+      },
+      "away": {
+       "formation": "4-2-3-1",
+       "xi": [
+        "Fábio",
+        "Samuel Xavier",
+        "Thiago Silva",
+        "J. Millán",
+        "Renê",
+        "Nonato",
+        "Martinelli",
+        "A. Canobbio",
+        "L. Acosta",
+        "K. Serna",
+        "Hulk"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-09-20T21:00:00+02:00",
@@ -3108,8 +1554,8 @@
      },
      "pBtts": 0.504,
      "odds": {
-      "h": 2.9,
-      "d": 3.1,
+      "h": 2.88,
+      "d": 3.25,
       "a": 2.3,
       "src": "William Hill"
      },
@@ -3180,7 +1626,41 @@
        "reason": "Inactive"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "lineups": {
+      "home": {
+       "formation": "4-2-3-1",
+       "xi": [
+        "Lucas Arcanjo",
+        "Mateusinho",
+        "Cacá",
+        "Luan Cândido",
+        "Jamerson",
+        "E. Martínez",
+        "Caíque",
+        "Erick",
+        "Matheuzinho",
+        "D. Tarzia",
+        "Rene"
+       ]
+      },
+      "away": {
+       "formation": "4-2-3-1",
+       "xi": [
+        "Otávio Eleodoro Rezende Costa",
+        "Fágner",
+        "João Marcelo",
+        "Jonathan",
+        "G. Rojas",
+        "Gerson",
+        "Zé Lucas",
+        "K. Arroyo",
+        "Matheus Pereira",
+        "Wesley Gassova",
+        "Kaio Jorge"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-09-20T23:30:00+02:00",
@@ -3313,161 +1793,7 @@
    "name": "Eliteserien (Norwegen)",
    "flag": "🇳🇴",
    "espn": "nor.1",
-   "matches": [
-    {
-     "kickoff": "2026-09-20T19:15:00+02:00",
-     "home": "SK Brann",
-     "away": "Bodo/Glimt",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/620.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "S",
-      "U",
-      "N",
-      "N",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "S",
-      "S",
-      "N",
-      "S"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 8,
-     "posAway": 1,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "24.05.2026",
-       "home": "Bodo/Glimt",
-       "away": "Brann",
-       "score": "3:1"
-      },
-      {
-       "date": "09.05.2026",
-       "home": "Bodo/Glimt",
-       "away": "Brann",
-       "score": "2:2"
-      },
-      {
-       "date": "29.10.2025",
-       "home": "Brann",
-       "away": "Bodo/Glimt",
-       "score": "1:2"
-      },
-      {
-       "date": "21.06.2025",
-       "home": "Bodo/Glimt",
-       "away": "Brann",
-       "score": "3:0"
-      },
-      {
-       "date": "22.09.2024",
-       "home": "Brann",
-       "away": "Bodo/Glimt",
-       "score": "4:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.4173,
-      "pDraw": 0.2145,
-      "pAway": 0.3681,
-      "pOver25": 0.7208,
-      "pBtts": 0.7145,
-      "xgHome": 1.93,
-      "xgAway": 1.81,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.7145,
-     "odds": {
-      "h": 4.4,
-      "d": 4.4,
-      "a": 1.57,
-      "src": "William Hill"
-     },
-     "value": {
-      "outcome": "1",
-      "edge": 0.2091,
-      "modelP": 0.4173,
-      "odds": 4.4
-     },
-     "scorersHome": [
-      {
-       "name": "N. Holm",
-       "goals": 6
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Andreas Helmersen",
-       "goals": 10
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen SK Brann und Bodo/Glimt deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg SK Brann 42 %, Unentschieden 21 %, Sieg Bodo/Glimt 37 %). In der Tabelle stehen sich Platz 8 und Platz 1 gegenüber. Die Form spricht für Bodo/Glimt: 4 Siege aus den letzten 5 Spielen, SK Brann holte nur 2. Das letzte Duell (2026) endete 3:1 (Bodo/Glimt – Brann). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,8; über 2,5 Tore: 72 %, beide Teams treffen zu 71 %). Gefährlichste Torschützen: bei SK Brann N. Holm (6 Tore) und bei Bodo/Glimt Andreas Helmersen (10 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 4,40) für 21 Prozentpunkte wahrscheinlicher als der Markt. Personal: SK Brann fehlen 6 Spieler (u.a. N. Castro); Bodo/Glimt fehlen 6 Spieler (u.a. D. Bassi).",
-     "injuriesHome": [
-      {
-       "name": "N. Castro",
-       "reason": "Achilles Tendon Injury"
-      },
-      {
-       "name": "E. Gudmundsson",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "K. M. Ingason",
-       "reason": "Groin Injury"
-      },
-      {
-       "name": "S. Magnusson",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "S. Opsahl",
-       "reason": "Foot Injury"
-      },
-      {
-       "name": "J. Torsvik",
-       "reason": "Groin Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "D. Bassi",
-       "reason": "Illness"
-      },
-      {
-       "name": "O. Brynhildsen",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "A. Helmersen",
-       "reason": "Inactive"
-      },
-      {
-       "name": "M. Riisnaes",
-       "reason": "Illness"
-      },
-      {
-       "name": "U. Saltnes",
-       "reason": "Injury"
-      },
-      {
-       "name": "P. Berg",
-       "reason": "International duty"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": false,
    "isCup": false
   },
@@ -3485,182 +1811,7 @@
    "name": "Superliga (Dänemark)",
    "flag": "🇩🇰",
    "espn": "den.1",
-   "matches": [
-    {
-     "kickoff": "2026-09-20T18:00:00+02:00",
-     "home": "Viborg FF",
-     "away": "FC Nordsjælland",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3153.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3101.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "S",
-      "S",
-      "N",
-      "U",
-      "N"
-     ],
-     "formAway": [
-      "S",
-      "N",
-      "U",
-      "S",
-      "S"
-     ],
-     "formHomeH": [],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 4,
-     "posAway": 3,
-     "nTeams": null,
-     "h2h": [
-      {
-       "date": "26.04.2026",
-       "home": "Viborg",
-       "away": "FC Nordsjaelland",
-       "score": "1:0"
-      },
-      {
-       "date": "19.04.2026",
-       "home": "FC Nordsjaelland",
-       "away": "Viborg",
-       "score": "2:1"
-      },
-      {
-       "date": "01.03.2026",
-       "home": "Viborg",
-       "away": "FC Nordsjaelland",
-       "score": "2:1"
-      },
-      {
-       "date": "25.08.2025",
-       "home": "FC Nordsjaelland",
-       "away": "Viborg",
-       "score": "1:0"
-      },
-      {
-       "date": "03.11.2024",
-       "home": "FC Nordsjaelland",
-       "away": "Viborg",
-       "score": "2:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.2975,
-      "pDraw": 0.2701,
-      "pAway": 0.4324,
-      "pOver25": 0.4426,
-      "pBtts": 0.4924,
-      "xgHome": 1.08,
-      "xgAway": 1.36,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.4924,
-     "odds": {
-      "h": 2.9,
-      "d": 3.5,
-      "a": 2.1,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Asker Bech",
-       "goals": 3
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "H. Boe Rasmussen",
-       "goals": 3
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "FC Nordsjælland ist bei Viborg FF leicht favorisiert (43 % zu 30 %). In der Tabelle stehen sich Platz 4 und Platz 3 gegenüber. Das letzte Duell (2026) endete 1:0 (Viborg – FC Nordsjaelland). Das Modell erwartet eher wenige Tore (xG 1,1:1,4; über 2,5 Tore: 44 %, beide Teams treffen zu 49 %). Gefährlichste Torschützen: bei Viborg FF Asker Bech (3 Tore) und bei FC Nordsjælland H. Boe Rasmussen (3 Tore). Personal: Viborg FF fehlen 6 Spieler (u.a. H. Bidstrup); FC Nordsjælland fehlen 4 Spieler (u.a. S. Alio).",
-     "injuriesHome": [
-      {
-       "name": "H. Bidstrup",
-       "reason": "Injury"
-      },
-      {
-       "name": "T. Freriks",
-       "reason": "Knock"
-      },
-      {
-       "name": "Y. Njoh",
-       "reason": "Injury"
-      },
-      {
-       "name": "M. Riahi",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "M. Sondergaard",
-       "reason": "Foot Injury"
-      },
-      {
-       "name": "M. Hoedemakers",
-       "reason": "Inactive"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "S. Alio",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "A. Lind",
-       "reason": "Injury"
-      },
-      {
-       "name": "A. Mohammed",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "T. Salquist",
-       "reason": "Inactive"
-      }
-     ],
-     "lineups": {
-      "home": {
-       "formation": "4-3-3",
-       "xi": [
-        "K. Kiilerich",
-        "Hjalte Bidstrup",
-        "L. Kirkegaard",
-        "D. Anyembe",
-        "O. Bundgaard",
-        "A. Beck",
-        "J. Grønning",
-        "M. Søndergaard",
-        "S. Jalal",
-        "Dorian Hanza",
-        "C. Nouck"
-       ]
-      },
-      "away": {
-       "formation": "3-4-3",
-       "xi": [
-        "A. Hansen",
-        "P. Ankersen",
-        "V. Nelsson",
-        "Noah Markmann",
-        "R. Norheim",
-        "Justin Janssen",
-        "M. Brink",
-        "J. LÃ¤hteenmÃ¤ki",
-        "H. Boe Rasmussen",
-        "A. Lind",
-        "P. Amoako"
-       ]
-      }
-     },
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": false,
    "isCup": false
   },
@@ -3676,74 +1827,7 @@
  ],
  "tennis": [
   {
-   "start": "2026-09-20T17:35:00+02:00",
-   "tour": "WTA",
-   "tournament": "BBVA Open Internacional De Valencia",
-   "round": "Finale",
-   "surface": null,
-   "p1": {
-    "name": "Clara Burel",
-    "rank": 301,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4,
-    "sets7": 6
-   },
-   "p2": {
-    "name": "Alicia Herrero Linana",
-    "rank": 263,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4,
-    "sets7": 9
-   },
-   "pP1": 0.4714,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.4714
-   },
-   "h2h": [],
-   "analysis": "Clara Burel (Weltrangliste #301) trifft auf Alicia Herrero Linana (#263). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alicia Herrero Linana mit 53 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-20T18:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "SP Open",
-   "round": "Finale",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Anna Rogers / Allura Zamarripa",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Gabriela Dabrowski / Luisa Stefani",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-09-20T20:30:00+02:00",
+   "start": "2026-09-20T21:50:00+02:00",
    "tour": "WTA",
    "tournament": "SP Open",
    "round": "Finale",
@@ -3956,552 +2040,6 @@
     "src": "Betfair"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-21T06:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Laura Pigossi",
-    "rank": 218,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "p2": {
-    "name": "Ekaterine Gorgodze",
-    "rank": 152,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 8
-   },
-   "pP1": 0.424,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.424
-   },
-   "h2h": [],
-   "analysis": "Laura Pigossi (Weltrangliste #218) trifft auf Ekaterine Gorgodze (#152). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Ekaterine Gorgodze mit 58 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-21T06:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Leyre Romero Gormaz",
-    "rank": 145,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "p2": {
-    "name": "Polona Hercog",
-    "rank": 225,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": 0.5923,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.5923
-   },
-   "h2h": [],
-   "analysis": "Leyre Romero Gormaz (Weltrangliste #145) trifft auf Polona Hercog (#225). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Leyre Romero Gormaz mit 59 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-21T06:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "round": "Qualifying Final",
-   "surface": null,
-   "p1": {
-    "name": "Enola Chiesa",
-    "rank": 541,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "p2": {
-    "name": "Lisa Zaar",
-    "rank": 297,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": 0.3753,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.3753
-   },
-   "h2h": [],
-   "analysis": "Enola Chiesa (Weltrangliste #541) trifft auf Lisa Zaar (#297). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Lisa Zaar mit 62 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-21T06:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "round": "Qualifying Final",
-   "surface": null,
-   "p1": {
-    "name": "Iva Primorac Pavicic",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "p2": {
-    "name": "Dalila Spiteri",
-    "rank": 381,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 7
-   },
-   "pP1": 0.5886,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.5886
-   },
-   "h2h": [],
-   "analysis": "Iva Primorac Pavicic – aktuell ohne Top-Ranking – trifft auf Dalila Spiteri (#381). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Iva Primorac Pavicic mit 59 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-21T06:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Alicia Herrero Linana",
-    "rank": 263,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4,
-    "sets7": 9
-   },
-   "p2": {
-    "name": "Barbora Palicova",
-    "rank": 198,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 4
-   },
-   "pP1": 0.44,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.44
-   },
-   "h2h": [],
-   "analysis": "Alicia Herrero Linana (Weltrangliste #263) trifft auf Barbora Palicova (#198). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Barbora Palicova mit 56 % vorn. Alicia Herrero Linana hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 9 Sätzen) – die physische Frische ist ein Fragezeichen.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-21T06:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Maria Lourdes Carle",
-    "rank": 213,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "p2": {
-    "name": "Nuria Brancaccio",
-    "rank": 185,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": 0.4701,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.4701
-   },
-   "h2h": [],
-   "analysis": "Maria Lourdes Carle (Weltrangliste #213) trifft auf Nuria Brancaccio (#185). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Nuria Brancaccio mit 53 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-21T06:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Noemi Basiletti",
-    "rank": 277,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4,
-    "sets7": 8
-   },
-   "p2": {
-    "name": "Laura Samson",
-    "rank": 118,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4,
-    "sets7": 10
-   },
-   "pP1": 0.3262,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.3262
-   },
-   "h2h": [],
-   "analysis": "Noemi Basiletti (Weltrangliste #277) trifft auf Laura Samson (#118). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Laura Samson mit 67 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-21T06:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Julia Grabher",
-    "rank": 111,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Jennifer Ruggeri",
-    "rank": 232,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 6
-   },
-   "pP1": 0.6517,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6517
-   },
-   "h2h": [],
-   "analysis": "Julia Grabher (Weltrangliste #111) trifft auf Jennifer Ruggeri (#232). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Julia Grabher mit 65 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-21T06:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Despina Papamichail",
-    "rank": 194,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 7
-   },
-   "p2": {
-    "name": "Guiomar Maristany Zuleta De Reales",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 7
-   },
-   "pP1": 0.5537,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.5537
-   },
-   "h2h": [],
-   "analysis": "Despina Papamichail (#194) trifft auf Guiomar Maristany Zuleta De Reales, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Despina Papamichail mit 55 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-21T06:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Samira De Stefano",
-    "rank": 257,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 5,
-    "sets7": 14
-   },
-   "p2": {
-    "name": "Julie Struplova",
-    "rank": 224,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 4
-   },
-   "pP1": 0.4708,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.4708
-   },
-   "h2h": [],
-   "analysis": "Samira De Stefano (Weltrangliste #257) trifft auf Julie Struplova (#224). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Julie Struplova mit 53 % vorn. Samira De Stefano hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 14 Sätzen) – die physische Frische ist ein Fragezeichen.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-21T06:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Oksana Selekhmeteva",
-    "rank": 101,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "p2": {
-    "name": "Federica Urgesi",
-    "rank": 260,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.6908,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6908
-   },
-   "h2h": [],
-   "analysis": "Oksana Selekhmeteva (Weltrangliste #101) trifft auf Federica Urgesi (#260). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Oksana Selekhmeteva mit 69 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-21T06:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Arantxa Rus",
-    "rank": 220,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "p2": {
-    "name": "Mia Ristic",
-    "rank": 184,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 6
-   },
-   "pP1": 0.4621,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.4621
-   },
-   "h2h": [],
-   "analysis": "Arantxa Rus (Weltrangliste #220) trifft auf Mia Ristic (#184). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Mia Ristic mit 54 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-09-21T06:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Marta Lombardini",
-    "rank": 679,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Aurora Zantedeschi",
-    "rank": 264,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": 0.3094,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.3094
-   },
-   "h2h": [],
-   "analysis": "Marta Lombardini (Weltrangliste #679) trifft auf Aurora Zantedeschi (#264). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Aurora Zantedeschi mit 69 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-21T06:30:00+02:00",
@@ -4915,6 +2453,90 @@
   {
    "start": "2026-09-21T10:00:00+02:00",
    "tour": "WTA",
+   "tournament": "Delta Motors Tolentino Open",
+   "round": "Qualifying Final",
+   "surface": null,
+   "p1": {
+    "name": "Iva Primorac Pavicic",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "p2": {
+    "name": "Dalila Spiteri",
+    "rank": 381,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 7
+   },
+   "pP1": 0.5886,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.5886
+   },
+   "h2h": [],
+   "analysis": "Iva Primorac Pavicic – aktuell ohne Top-Ranking – trifft auf Dalila Spiteri (#381). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Iva Primorac Pavicic mit 59 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-21T10:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Delta Motors Tolentino Open",
+   "round": "Qualifying Final",
+   "surface": null,
+   "p1": {
+    "name": "Enola Chiesa",
+    "rank": 541,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "p2": {
+    "name": "Lisa Zaar",
+    "rank": 297,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.3753,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3753
+   },
+   "h2h": [],
+   "analysis": "Enola Chiesa (Weltrangliste #541) trifft auf Lisa Zaar (#297). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Lisa Zaar mit 62 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-21T10:00:00+02:00",
+   "tour": "WTA",
    "tournament": "Turk Telekom Ankara Open",
    "round": "Qualifying Final",
    "surface": null,
@@ -5062,6 +2684,90 @@
    "analysis": "",
    "unconfirmed": false,
    "timeTBD": false
+  },
+  {
+   "start": "2026-09-21T11:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "Delta Motors Tolentino Open",
+   "round": "Qualifying Final",
+   "surface": null,
+   "p1": {
+    "name": "Aneta Kucmova",
+    "rank": 505,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Jessica Pieri",
+    "rank": 386,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
+   },
+   "pP1": 0.4431,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4431
+   },
+   "h2h": [],
+   "analysis": "Aneta Kucmova (Weltrangliste #505) trifft auf Jessica Pieri (#386). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Jessica Pieri mit 56 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-21T11:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "Delta Motors Tolentino Open",
+   "round": "Qualifying Final",
+   "surface": null,
+   "p1": {
+    "name": "Katerina Tsygourova",
+    "rank": 423,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Aneta Laboutkova",
+    "rank": 404,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.4902,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4902
+   },
+   "h2h": [],
+   "analysis": "Katerina Tsygourova (Weltrangliste #423) trifft auf Aneta Laboutkova (#404). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Aneta Laboutkova mit 51 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-21T11:30:00+02:00",
@@ -5361,6 +3067,90 @@
     "src": "Betfair"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-21T13:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Delta Motors Tolentino Open",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Arantxa Rus",
+    "rank": 220,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "p2": {
+    "name": "Mia Ristic",
+    "rank": 184,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 6
+   },
+   "pP1": 0.4621,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4621
+   },
+   "h2h": [],
+   "analysis": "Arantxa Rus (Weltrangliste #220) trifft auf Mia Ristic (#184). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Mia Ristic mit 54 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-21T13:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Delta Motors Tolentino Open",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Despina Papamichail",
+    "rank": 194,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 7
+   },
+   "p2": {
+    "name": "Guiomar Maristany Zuleta De Reales",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 7
+   },
+   "pP1": 0.5537,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.5537
+   },
+   "h2h": [],
+   "analysis": "Despina Papamichail (#194) trifft auf Guiomar Maristany Zuleta De Reales, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Despina Papamichail mit 55 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-21T13:00:00+02:00",
@@ -5695,6 +3485,48 @@
    "timeTBD": false
   },
   {
+   "start": "2026-09-21T15:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "Delta Motors Tolentino Open",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Leyre Romero Gormaz",
+    "rank": 145,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "p2": {
+    "name": "Polona Hercog",
+    "rank": 225,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.5923,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.5923
+   },
+   "h2h": [],
+   "analysis": "Leyre Romero Gormaz (Weltrangliste #145) trifft auf Polona Hercog (#225). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Leyre Romero Gormaz mit 59 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
    "start": "2026-09-21T16:00:00+02:00",
    "tour": "WTA",
    "tournament": "Turk Telekom Ankara Open",
@@ -5831,6 +3663,48 @@
   {
    "start": "2026-09-21T18:00:00+02:00",
    "tour": "WTA",
+   "tournament": "Delta Motors Tolentino Open",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Oksana Selekhmeteva",
+    "rank": 101,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Federica Urgesi",
+    "rank": 260,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.6908,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6908
+   },
+   "h2h": [],
+   "analysis": "Oksana Selekhmeteva (Weltrangliste #101) trifft auf Federica Urgesi (#260). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Oksana Selekhmeteva mit 69 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-21T18:00:00+02:00",
+   "tour": "WTA",
    "tournament": "Turk Telekom Ankara Open",
    "round": "1. Runde",
    "surface": null,
@@ -5866,6 +3740,48 @@
    },
    "h2h": [],
    "analysis": "Ayla Aksu (Weltrangliste #203) trifft auf Lina Gjorcheska (#327). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Ayla Aksu mit 60 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-21T20:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Delta Motors Tolentino Open",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Noemi Basiletti",
+    "rank": 277,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 4,
+    "sets7": 8
+   },
+   "p2": {
+    "name": "Laura Samson",
+    "rank": 118,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 4,
+    "sets7": 10
+   },
+   "pP1": 0.3262,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3262
+   },
+   "h2h": [],
+   "analysis": "Noemi Basiletti (Weltrangliste #277) trifft auf Laura Samson (#118). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Laura Samson mit 67 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -6752,6 +4668,258 @@
    "analysis": "",
    "unconfirmed": false,
    "timeTBD": true
+  },
+  {
+   "start": "2026-09-22T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Delta Motors Tolentino Open",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Marta Lombardini",
+    "rank": 679,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Aurora Zantedeschi",
+    "rank": 264,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.3094,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3094
+   },
+   "h2h": [],
+   "analysis": "Marta Lombardini (Weltrangliste #679) trifft auf Aurora Zantedeschi (#264). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Aurora Zantedeschi mit 69 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-22T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Delta Motors Tolentino Open",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Julia Grabher",
+    "rank": 111,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Jennifer Ruggeri",
+    "rank": 232,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 6
+   },
+   "pP1": 0.6517,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6517
+   },
+   "h2h": [],
+   "analysis": "Julia Grabher (Weltrangliste #111) trifft auf Jennifer Ruggeri (#232). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Julia Grabher mit 65 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-22T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Delta Motors Tolentino Open",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Maria Lourdes Carle",
+    "rank": 213,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "p2": {
+    "name": "Nuria Brancaccio",
+    "rank": 185,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.4701,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4701
+   },
+   "h2h": [],
+   "analysis": "Maria Lourdes Carle (Weltrangliste #213) trifft auf Nuria Brancaccio (#185). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Nuria Brancaccio mit 53 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-22T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Delta Motors Tolentino Open",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Samira De Stefano",
+    "rank": 257,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 5,
+    "sets7": 14
+   },
+   "p2": {
+    "name": "Julie Struplova",
+    "rank": 224,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
+   },
+   "pP1": 0.4708,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4708
+   },
+   "h2h": [],
+   "analysis": "Samira De Stefano (Weltrangliste #257) trifft auf Julie Struplova (#224). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Julie Struplova mit 53 % vorn. Samira De Stefano hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 14 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-22T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Delta Motors Tolentino Open",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Alicia Herrero Linana",
+    "rank": 263,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 5,
+    "sets7": 12
+   },
+   "p2": {
+    "name": "Barbora Palicova",
+    "rank": 198,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
+   },
+   "pP1": 0.44,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.44
+   },
+   "h2h": [],
+   "analysis": "Alicia Herrero Linana (Weltrangliste #263) trifft auf Barbora Palicova (#198). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Barbora Palicova mit 56 % vorn. Alicia Herrero Linana hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 12 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-22T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Delta Motors Tolentino Open",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Laura Pigossi",
+    "rank": 218,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "p2": {
+    "name": "Ekaterine Gorgodze",
+    "rank": 152,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 8
+   },
+   "pP1": 0.424,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.424
+   },
+   "h2h": [],
+   "analysis": "Laura Pigossi (Weltrangliste #218) trifft auf Ekaterine Gorgodze (#152). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Ekaterine Gorgodze mit 58 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-22T06:00:00+02:00",
@@ -7674,6 +5842,14 @@
  "tennisFinished": [
   {
    "tour": "WTA",
+   "tournament": "BBVA Open Internacional De Valencia",
+   "p1": "Clara Burel",
+   "p2": "Alicia Herrero Linana",
+   "winner": "Clara Burel",
+   "score": "4:6 6:0 6:2"
+  },
+  {
+   "tour": "WTA",
    "tournament": "Caldas da Rainha Ladies Open",
    "p1": "Lisa Pigato",
    "p2": "Gabriela Knutson",
@@ -7810,6 +5986,14 @@
   },
   {
    "tour": "WTA",
+   "tournament": "Delta Motors Tolentino Open",
+   "p1": "Maria Toma",
+   "p2": "Aneta Laboutkova",
+   "winner": "Aneta Laboutkova",
+   "score": "2:6 1:6"
+  },
+  {
+   "tour": "WTA",
    "tournament": "Eupago Porto Open",
    "p1": "Raphaelle Lacasse",
    "p2": "Angelina Voloshchuk",
@@ -7923,26 +6107,48 @@
  ],
  "stats": {
   "overall": {
-   "n": 2139,
-   "correct": 1247,
-   "pct": 0.583
+   "n": 2144,
+   "correct": 1249,
+   "pct": 0.5826
   },
   "football": {
-   "n": 791,
-   "correct": 390,
-   "pct": 0.493
+   "n": 794,
+   "correct": 391,
+   "pct": 0.4924
   },
   "tennis": {
-   "n": 1348,
-   "correct": 857,
-   "pct": 0.6358
+   "n": 1350,
+   "correct": 858,
+   "pct": 0.6356
   },
   "exact": {
-   "n": 791,
+   "n": 794,
    "correct": 89
   },
-  "open": 402,
+  "open": 405,
   "recent": [
+   {
+    "date": "2026-09-20",
+    "comp": "1. Bundesliga",
+    "label": "Bayer 04 Leverkusen – RB Leipzig",
+    "tipName": "Bayer 04 Leverkusen",
+    "tip": "1",
+    "prob": 0.4598,
+    "result": "2:0",
+    "correct": true,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-09-20",
+    "comp": "1. Bundesliga",
+    "label": "FC Schalke 04 – SV 07 Elversberg",
+    "tipName": "SV 07 Elversberg",
+    "tip": "2",
+    "prob": 0.4334,
+    "result": "0:0",
+    "correct": false,
+    "sport": "fb"
+   },
    {
     "date": "2026-09-20",
     "comp": "2. Bundesliga",
@@ -7984,6 +6190,17 @@
     "tip": "1",
     "prob": 0.4378,
     "result": "1:1",
+    "correct": false,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-09-20",
+    "comp": "3. Liga",
+    "label": "SV Waldhof Mannheim – Preußen Münster",
+    "tipName": "Preußen Münster",
+    "tip": "2",
+    "prob": 0.4469,
+    "result": "2:0",
     "correct": false,
     "sport": "fb"
    },
@@ -8073,6 +6290,17 @@
     "prob": 0.6451,
     "result": "Sieger: P1",
     "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-20",
+    "comp": "WTA · Delta Motors Tolentino Open",
+    "label": "Maria Toma – Aneta Laboutkova",
+    "tipName": "Aneta Laboutkova",
+    "tip": "P2",
+    "prob": 0.6521,
+    "result": "Sieger: P2",
+    "correct": true,
     "sport": "tn"
    },
    {
@@ -8170,50 +6398,6 @@
     "tipName": "Mona Barthel",
     "tip": "P2",
     "prob": 0.5359,
-    "result": "Sieger: P1",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-20",
-    "comp": "WTA · Turk Telekom Ankara Open",
-    "label": "Ashmitha Easwaramurthi – Marie Vogt",
-    "tipName": "Ashmitha Easwaramurthi",
-    "tip": "P1",
-    "prob": 0.6246,
-    "result": "Sieger: P2",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-20",
-    "comp": "WTA · Turk Telekom Ankara Open",
-    "label": "Melisa Ercan – Giulia Alessia Monteleone",
-    "tipName": "Giulia Alessia Monteleone",
-    "tip": "P2",
-    "prob": 0.6988,
-    "result": "Sieger: P1",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-20",
-    "comp": "WTA · Turk Telekom Ankara Open",
-    "label": "Naoko Eto – Ksenia Zaytseva",
-    "tipName": "Naoko Eto",
-    "tip": "P1",
-    "prob": 0.617,
-    "result": "Sieger: P2",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-20",
-    "comp": "WTA · Turk Telekom Ankara Open",
-    "label": "Alana Smith – Duru Arslan",
-    "tipName": "Duru Arslan",
-    "tip": "P2",
-    "prob": 0.6368,
     "result": "Sieger: P1",
     "correct": false,
     "sport": "tn"

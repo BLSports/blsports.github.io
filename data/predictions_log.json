@@ -50221,10 +50221,10 @@
    "prob": 0.4598,
    "tipScore": "1:1",
    "pOver25": 0.6733,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:0",
+   "correct": true,
+   "exact": false
   },
   "fb|bl1|2026-09-20|fc schalke 04|sv 07 elversberg": {
    "sport": "fb",
@@ -50239,10 +50239,10 @@
    "prob": 0.4334,
    "tipScore": "1:1",
    "pOver25": 0.6651,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "0:0",
+   "correct": false,
+   "exact": false
   },
   "fb|bl1|2026-09-20|sc paderborn 07|tsg hoffenheim": {
    "sport": "fb",
@@ -50347,10 +50347,10 @@
    "prob": 0.4469,
    "tipScore": "1:2",
    "pOver25": 0.7627,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "2:0",
+   "correct": false,
+   "exact": false
   },
   "fb|bl3|2026-09-20|sv wehen wiesbaden|msv duisburg": {
    "sport": "fb",
@@ -52398,9 +52398,9 @@
    "tip": "P2",
    "tipName": "Aneta Laboutkova",
    "prob": 0.6521,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-09-20|primorac i|snells j": {
    "sport": "tn",
@@ -52846,9 +52846,9 @@
    "tip": "P2",
    "tipName": "Alicia Herrero Linana",
    "prob": 0.5286,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "fb|us1|2026-09-20|san jose earthquakes|los angeles fc": {
    "sport": "fb",
@@ -53998,6 +53998,118 @@
    "tip": "P2",
    "tipName": "Katarina Kuzmova",
    "prob": 0.5775,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-21|kucmova a|pieri j": {
+   "sport": "tn",
+   "comp": "WTA · Delta Motors Tolentino Open",
+   "date": "2026-09-21",
+   "label": "Aneta Kucmova – Jessica Pieri",
+   "p1Key": "kucmova a",
+   "p2Key": "pieri j",
+   "tip": "P2",
+   "tipName": "Jessica Pieri",
+   "prob": 0.5569,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-21|laboutkova a|tsygourova k": {
+   "sport": "tn",
+   "comp": "WTA · Delta Motors Tolentino Open",
+   "date": "2026-09-21",
+   "label": "Katerina Tsygourova – Aneta Laboutkova",
+   "p1Key": "tsygourova k",
+   "p2Key": "laboutkova a",
+   "tip": "P2",
+   "tipName": "Aneta Laboutkova",
+   "prob": 0.5098,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-22|lombardini m|zantedeschi a": {
+   "sport": "tn",
+   "comp": "WTA · Delta Motors Tolentino Open",
+   "date": "2026-09-22",
+   "label": "Marta Lombardini – Aurora Zantedeschi",
+   "p1Key": "lombardini m",
+   "p2Key": "zantedeschi a",
+   "tip": "P2",
+   "tipName": "Aurora Zantedeschi",
+   "prob": 0.6906,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-22|grabher j|ruggeri j": {
+   "sport": "tn",
+   "comp": "WTA · Delta Motors Tolentino Open",
+   "date": "2026-09-22",
+   "label": "Julia Grabher – Jennifer Ruggeri",
+   "p1Key": "grabher j",
+   "p2Key": "ruggeri j",
+   "tip": "P1",
+   "tipName": "Julia Grabher",
+   "prob": 0.6517,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-22|brancaccio n|lourdes carle m": {
+   "sport": "tn",
+   "comp": "WTA · Delta Motors Tolentino Open",
+   "date": "2026-09-22",
+   "label": "Maria Lourdes Carle – Nuria Brancaccio",
+   "p1Key": "lourdes carle m",
+   "p2Key": "brancaccio n",
+   "tip": "P2",
+   "tipName": "Nuria Brancaccio",
+   "prob": 0.5299,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-22|de stefano s|struplova j": {
+   "sport": "tn",
+   "comp": "WTA · Delta Motors Tolentino Open",
+   "date": "2026-09-22",
+   "label": "Samira De Stefano – Julie Struplova",
+   "p1Key": "de stefano s",
+   "p2Key": "struplova j",
+   "tip": "P2",
+   "tipName": "Julie Struplova",
+   "prob": 0.5292,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-22|herrero linana a|palicova b": {
+   "sport": "tn",
+   "comp": "WTA · Delta Motors Tolentino Open",
+   "date": "2026-09-22",
+   "label": "Alicia Herrero Linana – Barbora Palicova",
+   "p1Key": "herrero linana a",
+   "p2Key": "palicova b",
+   "tip": "P2",
+   "tipName": "Barbora Palicova",
+   "prob": 0.56,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-22|gorgodze e|pigossi l": {
+   "sport": "tn",
+   "comp": "WTA · Delta Motors Tolentino Open",
+   "date": "2026-09-22",
+   "label": "Laura Pigossi – Ekaterine Gorgodze",
+   "p1Key": "pigossi l",
+   "p2Key": "gorgodze e",
+   "tip": "P2",
+   "tipName": "Ekaterine Gorgodze",
+   "prob": 0.576,
    "status": "open",
    "result": null,
    "correct": null
