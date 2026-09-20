@@ -59,8 +59,8 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!
 total 8
-drwxr-xr-x  2 runner runner 4096 Sep 20 10:32 .
-drwxrwxrwt 15 root   root   4096 Sep 20 10:32 ..
+drwxr-xr-x  2 runner runner 4096 Sep 20 15:20 .
+drwxrwxrwt 15 root   root   4096 Sep 20 15:20 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -92,11 +92,13 @@ drwxrwxrwt 15 root   root   4096 Sep 20 10:32 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20260626-20260920&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20260920-20270118&limit=50 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/scoreboard?dates=20260920-20270118&limit=50 nicht erreichbar (HTTP Error 400: Bad Request)
+  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20260920-20270118&limit=50 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20260328-20260625&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20260626-20260920&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
+  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20260920-20270118&limit=50 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -115,14 +117,14 @@ drwxrwxrwt 15 root   root   4096 Sep 20 10:32 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/aut.1/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/aut.1/scoreboard?dates=20260328-20260625&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/aut.1/scoreboard?dates=20260626-20260920&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
+  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/aut.1/scoreboard?dates=20260920-20270118&limit=50 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/sui.1/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/sui.1/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/sui.1/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/sui.1/scoreboard?dates=20260328-20260625&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/sui.1/scoreboard?dates=20260626-20260920&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/sui.1/scoreboard?dates=20260920-20270118&limit=50 nicht erreichbar (HTTP Error 400: Bad Request)
-  WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/sui.1/seasons/2026/types/1/leaders nicht erreichbar (HTTP Error 404: Not Found)
-  WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/sui.1/seasons/2026/types/2/leaders nicht erreichbar (HTTP Error 404: Not Found)
+  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/sco.1/scoreboard?dates=20260920-20270118&limit=50 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/usa.1/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -143,6 +145,7 @@ drwxrwxrwt 15 root   root   4096 Sep 20 10:32 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard?dates=20260328-20260625&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard?dates=20260626-20260920&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
+  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/swe.1/scoreboard?dates=20260920-20270118&limit=50 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/den.1/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/den.1/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/den.1/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -184,97 +187,92 @@ fixtures.csv: 198 Spiele mit Quoten
   339 Ergebnisse geladen
   3 Spiele in den naechsten 3 Tagen
 == 2. Bundesliga ==
-  357 Ergebnisse geladen
-  3 Spiele in den naechsten 3 Tagen
+  360 Ergebnisse geladen
+  0 Spiele in den naechsten 3 Tagen
 == 3. Liga ==
-  446 Ergebnisse geladen
-  3 Spiele in den naechsten 3 Tagen
+  447 Ergebnisse geladen
+  2 Spiele in den naechsten 3 Tagen
 == Premier League ==
   420 Ergebnisse geladen
-  4 Spiele in den naechsten 3 Tagen
+  1 Spiele in den naechsten 3 Tagen
 == Serie A ==
   420 Ergebnisse geladen
-  4 Spiele in den naechsten 3 Tagen
+  2 Spiele in den naechsten 3 Tagen
 == La Liga ==
   439 Ergebnisse geladen
-  5 Spiele in den naechsten 3 Tagen
+  3 Spiele in den naechsten 3 Tagen
 == La Liga 2 ==
   517 Ergebnisse geladen
-  5 Spiele in den naechsten 3 Tagen
+  3 Spiele in den naechsten 3 Tagen
 == Ligue 1 ==
   342 Ergebnisse geladen
-  3 Spiele in den naechsten 3 Tagen
+  1 Spiele in den naechsten 3 Tagen
   1 Prognosen via Team-Historie-Fallback erstellt
 == Ligue 2 ==
   359 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
 == Eredivisie ==
   360 Ergebnisse geladen
-  3 Spiele in den naechsten 3 Tagen
+  0 Spiele in den naechsten 3 Tagen
 == Eerste Divisie ==
+  0 Ergebnisse geladen
+  0 Spiele in den naechsten 3 Tagen
+== Pro League (Belgien) ==
+  365 Ergebnisse geladen
+  2 Spiele in den naechsten 3 Tagen
+== Challenger Pro League (Belgien) ==
   0 Ergebnisse geladen
   1 Spiele in den naechsten 3 Tagen
   1 Prognosen via Team-Historie-Fallback erstellt
-== Pro League (Belgien) ==
-  365 Ergebnisse geladen
-  4 Spiele in den naechsten 3 Tagen
-  1 Prognosen via Team-Historie-Fallback erstellt
-== Challenger Pro League (Belgien) ==
-  0 Ergebnisse geladen
-  2 Spiele in den naechsten 3 Tagen
-  2 Prognosen via Team-Historie-Fallback erstellt
 == Primeira Liga (Portugal) ==
   359 Ergebnisse geladen
-  5 Spiele in den naechsten 3 Tagen
+  3 Spiele in den naechsten 3 Tagen
 == Süper Lig (Türkei) ==
   351 Ergebnisse geladen
-  4 Spiele in den naechsten 3 Tagen
+  2 Spiele in den naechsten 3 Tagen
   1 Prognosen via Team-Historie-Fallback erstellt
 == Bundesliga (Österreich) ==
   0 Ergebnisse geladen
-  3 Spiele in den naechsten 3 Tagen
-  2 Prognosen via Team-Historie-Fallback erstellt
+  0 Spiele in den naechsten 3 Tagen
 == Super League (Schweiz) ==
   0 Ergebnisse geladen
-  3 Spiele in den naechsten 3 Tagen
-  3 Prognosen via Team-Historie-Fallback erstellt
+  0 Spiele in den naechsten 3 Tagen
 == Premiership (Schottland) ==
   264 Ergebnisse geladen
-  1 Spiele in den naechsten 3 Tagen
+  0 Spiele in den naechsten 3 Tagen
 == MLS (USA) ==
   0 Ergebnisse geladen
   1 Spiele in den naechsten 3 Tagen
   1 Prognosen via Team-Historie-Fallback erstellt
 == Série A (Brasilien) ==
   0 Ergebnisse geladen
-  5 Spiele in den naechsten 3 Tagen
-  3 Prognosen via Team-Historie-Fallback erstellt
+  4 Spiele in den naechsten 3 Tagen
+  2 Prognosen via Team-Historie-Fallback erstellt
 == Eliteserien (Norwegen) ==
   0 Ergebnisse geladen
-  5 Spiele in den naechsten 3 Tagen
-  4 Prognosen via Team-Historie-Fallback erstellt
+  1 Spiele in den naechsten 3 Tagen
+  1 Prognosen via Team-Historie-Fallback erstellt
 == Allsvenskan (Schweden) ==
   0 Ergebnisse geladen
-  5 Spiele in den naechsten 3 Tagen
-  4 Prognosen via Team-Historie-Fallback erstellt
+  0 Spiele in den naechsten 3 Tagen
 == Superliga (Dänemark) ==
   0 Ergebnisse geladen
-  4 Spiele in den naechsten 3 Tagen
-  4 Prognosen via Team-Historie-Fallback erstellt
+  1 Spiele in den naechsten 3 Tagen
+  1 Prognosen via Team-Historie-Fallback erstellt
 == Premier Division (Irland) ==
   0 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
-  Kicker-News: 33 Schlagzeilen geladen
+  Kicker-News: 38 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 896, WTA 892
   Historie: ATP 0 Matches, WTA 0 Matches
   Elo ATP: 0 Spieler bewertet
   Elo WTA: 0 Spieler bewertet
-  Belag-Zuordnung (MatchStat): 41 Turniere
-  Tennis-Quoten zugeordnet: 0
-  74 Tennis-Matches in den naechsten 3 Tagen
-  12 Tennis-Matches heute bereits beendet
-  Tipp-Log: 3318 Eintraege, 2117 ausgewertet, 1239 richtig
-  Premium-Abrufe: Tennis 8, Fussball 332 (Tennis AKTIV, Fussball AKTIV)
+  Belag-Zuordnung (MatchStat): 38 Turniere
+  Tennis-Quoten zugeordnet: 10
+  107 Tennis-Matches in den naechsten 3 Tagen
+  31 Tennis-Matches heute bereits beendet
+  Tipp-Log: 3357 Eintraege, 2139 ausgewertet, 1247 richtig
+  Premium-Abrufe: Tennis 8, Fussball 196 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
