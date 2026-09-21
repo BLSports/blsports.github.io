@@ -59,8 +59,8 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!
 total 8
-drwxr-xr-x  2 runner runner 4096 Sep 20 22:08 .
-drwxrwxrwt 15 root   root   4096 Sep 20 22:08 ..
+drwxr-xr-x  2 runner runner 4096 Sep 21 09:20 .
+drwxrwxrwt 15 root   root   4096 Sep 21 09:20 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -247,12 +247,10 @@ fixtures.csv: 198 Spiele mit Quoten
   0 Spiele in den naechsten 3 Tagen
 == MLS (USA) ==
   0 Ergebnisse geladen
-  1 Spiele in den naechsten 3 Tagen
-  1 Prognosen via Team-Historie-Fallback erstellt
+  0 Spiele in den naechsten 3 Tagen
 == Série A (Brasilien) ==
   0 Ergebnisse geladen
-  1 Spiele in den naechsten 3 Tagen
-  1 Prognosen via Team-Historie-Fallback erstellt
+  0 Spiele in den naechsten 3 Tagen
 == Eliteserien (Norwegen) ==
   0 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
@@ -272,10 +270,10 @@ fixtures.csv: 198 Spiele mit Quoten
   Historie: ATP 0 Matches, WTA 0 Matches
   Elo ATP: 0 Spieler bewertet
   Elo WTA: 0 Spieler bewertet
-  Belag-Zuordnung (MatchStat): 19 Turniere
-  Tennis-Quoten zugeordnet: 10
-  106 Tennis-Matches in den naechsten 3 Tagen
-  0 Tennis-Matches heute bereits beendet
-  Tipp-Log: 3367 Eintraege, 2148 ausgewertet, 1252 richtig
-  Premium-Abrufe: Tennis 8, Fussball 96 (Tennis AKTIV, Fussball AKTIV)
+  Belag-Zuordnung (MatchStat): 21 Turniere
+  Tennis-Quoten zugeordnet: 6
+  118 Tennis-Matches in den naechsten 3 Tagen
+  11 Tennis-Matches heute bereits beendet
+  Tipp-Log: 3390 Eintraege, 2159 ausgewertet, 1261 richtig
+  Premium-Abrufe: Tennis 8, Fussball 78 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
