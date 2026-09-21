@@ -59,8 +59,8 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!
 total 8
-drwxr-xr-x  2 runner runner 4096 Sep 21 17:46 .
-drwxrwxrwt 14 root   root   4096 Sep 21 17:46 ..
+drwxr-xr-x  2 runner runner 4096 Sep 21 21:09 .
+drwxrwxrwt 14 root   root   4096 Sep 21 21:09 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -201,16 +201,16 @@ fixtures.csv: 198 Spiele mit Quoten
   449 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
 == Premier League ==
-  420 Ergebnisse geladen
+  430 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
 == Serie A ==
-  420 Ergebnisse geladen
+  430 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
 == La Liga ==
-  439 Ergebnisse geladen
+  449 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
 == La Liga 2 ==
-  517 Ergebnisse geladen
+  528 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
 == Ligue 1 ==
   351 Ergebnisse geladen
@@ -263,17 +263,17 @@ fixtures.csv: 198 Spiele mit Quoten
 == Premier Division (Irland) ==
   0 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
-  Kicker-News: 35 Schlagzeilen geladen
+  Kicker-News: 36 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 896, WTA 892
   Historie: ATP 0 Matches, WTA 0 Matches
   Elo ATP: 0 Spieler bewertet
   Elo WTA: 0 Spieler bewertet
-  Belag-Zuordnung (MatchStat): 21 Turniere
+  Belag-Zuordnung (MatchStat): 20 Turniere
   Tennis-Quoten zugeordnet: 4
   141 Tennis-Matches in den naechsten 3 Tagen
-  37 Tennis-Matches heute bereits beendet
-  Tipp-Log: 3422 Eintraege, 2204 ausgewertet, 1282 richtig
+  40 Tennis-Matches heute bereits beendet
+  Tipp-Log: 3423 Eintraege, 2241 ausgewertet, 1297 richtig
   Premium-Abrufe: Tennis 8, Fussball 78 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json

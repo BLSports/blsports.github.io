@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-21T19:46:50.204478+02:00",
+ "generatedAt": "2026-09-21T23:09:41.057638+02:00",
  "windowDays": 3,
  "days": [
   "2026-09-21",
@@ -288,48 +288,6 @@
   }
  ],
  "tennis": [
-  {
-   "start": "2026-09-21T20:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Noemi Basiletti",
-    "rank": 246,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4,
-    "sets7": 8
-   },
-   "p2": {
-    "name": "Laura Samson",
-    "rank": 118,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4,
-    "sets7": 10
-   },
-   "pP1": 0.3488,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.3488
-   },
-   "h2h": [],
-   "analysis": "Noemi Basiletti (Weltrangliste #246) trifft auf Laura Samson (#118). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Laura Samson mit 65 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
   {
    "start": "2026-09-22T05:00:00+02:00",
    "tour": "WTA",
@@ -4837,6 +4795,48 @@
    "start": "2026-09-23T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "Delta Motors Tolentino Open",
+   "round": "2. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Mia Ristic",
+    "rank": 191,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 4,
+    "sets7": 9
+   },
+   "p2": {
+    "name": "Noemi Basiletti",
+    "rank": 246,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 5,
+    "sets7": 10
+   },
+   "pP1": 0.5536,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.5536
+   },
+   "h2h": [],
+   "analysis": "Mia Ristic (Weltrangliste #191) trifft auf Noemi Basiletti (#246). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Mia Ristic mit 55 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-09-23T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Delta Motors Tolentino Open",
    "round": "1. Runde",
    "surface": null,
    "doubles": true,
@@ -5496,6 +5496,22 @@
   },
   {
    "tour": "WTA",
+   "tournament": "Delta Motors Tolentino Open",
+   "p1": "Oksana Selekhmeteva",
+   "p2": "Federica Urgesi",
+   "winner": "Oksana Selekhmeteva",
+   "score": "7:5 0:6 7:5"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Delta Motors Tolentino Open",
+   "p1": "Noemi Basiletti",
+   "p2": "Laura Samson",
+   "winner": "Noemi Basiletti",
+   "score": "6:3 6:4"
+  },
+  {
+   "tour": "WTA",
    "tournament": "Eupago Porto Open",
    "p1": "Ariana Arseneault",
    "p2": "Angelina Voloshchuk",
@@ -5621,29 +5637,37 @@
    "p2": "Aysegul Mert",
    "winner": "Aysegul Mert",
    "score": "6:4 1:6 3:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Turk Telekom Ankara Open",
+   "p1": "Ayla Aksu",
+   "p2": "Yuki Naito",
+   "winner": "Ayla Aksu",
+   "score": "6:1 7:6"
   }
  ],
  "stats": {
   "overall": {
-   "n": 2204,
-   "correct": 1282,
-   "pct": 0.5817
+   "n": 2241,
+   "correct": 1297,
+   "pct": 0.5788
   },
   "football": {
-   "n": 814,
-   "correct": 399,
-   "pct": 0.4902
+   "n": 848,
+   "correct": 412,
+   "pct": 0.4858
   },
   "tennis": {
-   "n": 1390,
-   "correct": 883,
+   "n": 1393,
+   "correct": 885,
    "pct": 0.6353
   },
   "exact": {
-   "n": 814,
-   "correct": 90
+   "n": 848,
+   "correct": 97
   },
-  "open": 393,
+  "open": 357,
   "recent": [
    {
     "date": "2026-09-21",
@@ -5879,6 +5903,17 @@
    {
     "date": "2026-09-21",
     "comp": "WTA · Delta Motors Tolentino Open",
+    "label": "Noemi Basiletti – Laura Samson",
+    "tipName": "Laura Samson",
+    "tip": "P2",
+    "prob": 0.6512,
+    "result": "Sieger: P1",
+    "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-21",
+    "comp": "WTA · Delta Motors Tolentino Open",
     "label": "Despina Papamichail – Guiomar Maristany Zuleta De Reales",
     "tipName": "Despina Papamichail",
     "tip": "P1",
@@ -5890,32 +5925,21 @@
    {
     "date": "2026-09-21",
     "comp": "WTA · Delta Motors Tolentino Open",
+    "label": "Oksana Selekhmeteva – Federica Urgesi",
+    "tipName": "Oksana Selekhmeteva",
+    "tip": "P1",
+    "prob": 0.6929,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-21",
+    "comp": "WTA · Delta Motors Tolentino Open",
     "label": "Arantxa Rus – Mia Ristic",
     "tipName": "Mia Ristic",
     "tip": "P2",
     "prob": 0.5595,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-21",
-    "comp": "WTA · Turk Telekom Ankara Open",
-    "label": "Melisa Ercan – Daria Egorova",
-    "tipName": "Daria Egorova",
-    "tip": "P2",
-    "prob": 0.6338,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-21",
-    "comp": "WTA · Turk Telekom Ankara Open",
-    "label": "Ekaterina Yashina – Marie Vogt",
-    "tipName": "Marie Vogt",
-    "tip": "P2",
-    "prob": 0.5234,
     "result": "Sieger: P2",
     "correct": true,
     "sport": "tn"
