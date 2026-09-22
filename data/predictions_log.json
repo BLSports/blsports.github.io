@@ -52202,9 +52202,9 @@
    "tip": "P2",
    "tipName": "Jelena Ostapenko",
    "prob": 0.7392,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-09-21|gabriela ruse e|lys e": {
    "sport": "tn",
@@ -53144,9 +53144,9 @@
    "tip": "P1",
    "tipName": "Anastasia Gasanova",
    "prob": 0.5527,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-09-21|falei a|fangran t": {
    "sport": "tn",
@@ -53298,9 +53298,9 @@
    "tip": "P2",
    "tipName": "Jelena Ostapenko",
    "prob": 0.7392,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-09-22|gabriela ruse e|lys e": {
    "sport": "tn",
@@ -53970,9 +53970,9 @@
    "tip": "P1",
    "tipName": "Anastasia Gasanova",
    "prob": 0.5526,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-09-22|crawley f|monnet c": {
    "sport": "tn",
@@ -54566,9 +54566,9 @@
    "tip": "P2",
    "tipName": "Weronika Falkowska",
    "prob": 0.6896,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-09-22|bar biryukov p|ilagan a": {
    "sport": "tn",
@@ -54678,9 +54678,9 @@
    "tip": "P2",
    "tipName": "Shintaro Mochizuki",
    "prob": 0.6432,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-09-22|castelnuovo l|kotov p": {
    "sport": "tn",
@@ -54692,9 +54692,9 @@
    "tip": "P1",
    "tipName": "Pavel Kotov",
    "prob": 0.6432,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-09-22|dellavedova m|fajing s": {
    "sport": "tn",
@@ -54734,9 +54734,9 @@
    "tip": "P1",
    "tipName": "Federico Cina",
    "prob": 0.6379,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-09-22|basilashvili n|lu h": {
    "sport": "tn",
@@ -54790,9 +54790,9 @@
    "tip": "P2",
    "tipName": "Alice Tubello",
    "prob": 0.604,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-09-22|erjavec v|tsygourova k": {
    "sport": "tn",
@@ -54846,9 +54846,9 @@
    "tip": "P1",
    "tipName": "Teresa Franco Dias",
    "prob": 0.5728,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-09-22|johnson s|timofeeva m": {
    "sport": "tn",
@@ -55298,6 +55298,76 @@
    "tip": "P1",
    "tipName": "Kimberly Birrell",
    "prob": 0.7708,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-23|falkowska w|iatcenko p": {
+   "sport": "tn",
+   "comp": "WTA · Turk Telekom Ankara Open",
+   "date": "2026-09-23",
+   "label": "Polina Iatcenko – Weronika Falkowska",
+   "p1Key": "iatcenko p",
+   "p2Key": "falkowska w",
+   "tip": "P1",
+   "tipName": "Polina Iatcenko",
+   "prob": 0.6158,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-24|ostapenko j|preston t": {
+   "sport": "tn",
+   "comp": "WTA · Korea Open",
+   "date": "2026-09-24",
+   "label": "Taylah Preston – Jelena Ostapenko",
+   "p1Key": "preston t",
+   "p2Key": "ostapenko j",
+   "tip": "P2",
+   "tipName": "Jelena Ostapenko",
+   "prob": 0.7142,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-24|garland j|xinyu w": {
+   "sport": "tn",
+   "comp": "WTA · Singapore Tennis Open presented by BNP Paribas",
+   "date": "2026-09-24",
+   "label": "Joanna Garland – Wang Xinyu",
+   "p1Key": "garland j",
+   "p2Key": "xinyu w",
+   "tip": "P2",
+   "tipName": "Wang Xinyu",
+   "prob": 0.772,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-24|gibson t|morvayova v": {
+   "sport": "tn",
+   "comp": "WTA · Singapore Tennis Open presented by BNP Paribas",
+   "date": "2026-09-24",
+   "label": "Viktoria Morvayova – Talia Gibson",
+   "p1Key": "morvayova v",
+   "p2Key": "gibson t",
+   "tip": "P2",
+   "tipName": "Talia Gibson",
+   "prob": 0.7884,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-24|eala a|prozorova t": {
+   "sport": "tn",
+   "comp": "WTA · Singapore Tennis Open presented by BNP Paribas",
+   "date": "2026-09-24",
+   "label": "Alexandra Eala – Tatiana Prozorova",
+   "p1Key": "eala a",
+   "p2Key": "prozorova t",
+   "tip": "P1",
+   "tipName": "Alexandra Eala",
+   "prob": 0.8762,
    "status": "open",
    "result": null,
    "correct": null
