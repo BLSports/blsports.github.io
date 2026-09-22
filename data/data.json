@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-09-21T23:38:53.330730+02:00",
+ "generatedAt": "2026-09-22T02:32:55.876090+02:00",
  "windowDays": 3,
  "days": [
-  "2026-09-21",
   "2026-09-22",
-  "2026-09-23"
+  "2026-09-23",
+  "2026-09-24"
  ],
  "football": [
   {
@@ -237,7 +237,146 @@
    "name": "MLS (USA)",
    "flag": "🇺🇸",
    "espn": "usa.1",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-09-24T03:30:00+02:00",
+     "home": "Seattle Sounders FC",
+     "away": "Real Salt Lake",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "U",
+      "U",
+      "U",
+      "U",
+      "U"
+     ],
+     "formAway": [
+      "N",
+      "U",
+      "N",
+      "N",
+      "N"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 13,
+     "posAway": 12,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "01.03.2026",
+       "home": "Real Salt Lake",
+       "away": "Seattle Sounders",
+       "score": "2:1"
+      },
+      {
+       "date": "12.10.2025",
+       "home": "Seattle Sounders",
+       "away": "Real Salt Lake",
+       "score": "1:0"
+      },
+      {
+       "date": "01.03.2025",
+       "home": "Real Salt Lake",
+       "away": "Seattle Sounders",
+       "score": "2:0"
+      },
+      {
+       "date": "30.05.2024",
+       "home": "Seattle Sounders",
+       "away": "Real Salt Lake",
+       "score": "1:1"
+      },
+      {
+       "date": "16.05.2024",
+       "home": "Real Salt Lake",
+       "away": "Seattle Sounders",
+       "score": "2:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4467,
+      "pDraw": 0.2449,
+      "pAway": 0.3085,
+      "pOver25": 0.552,
+      "pBtts": 0.5786,
+      "xgHome": 1.6,
+      "xgAway": 1.29,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5786,
+     "odds": {
+      "h": 1.91,
+      "d": 3.6,
+      "a": 3.5,
+      "src": "William Hill"
+     },
+     "value": null,
+     "scorersHome": [],
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "Seattle Sounders FC ist gegen Real Salt Lake leicht favorisiert (45 % zu 31 %). In der Tabelle stehen sich Platz 13 und Platz 12 gegenüber. Das letzte Duell (2026) endete 2:1 (Real Salt Lake – Seattle Sounders). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,3; über 2,5 Tore: 55 %, beide Teams treffen zu 58 %). Personal: Seattle Sounders FC fehlen 6 Spieler (u.a. S. Hawkins); Real Salt Lake fehlen 6 Spieler (u.a. E. Eneli).",
+     "injuriesHome": [
+      {
+       "name": "S. Hawkins",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Kim Kee-Hee",
+       "reason": "Calf Injury"
+      },
+      {
+       "name": "R. Sailor",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "P. de La Vega",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "J. Morris",
+       "reason": "Injury"
+      },
+      {
+       "name": "G. Minoungou",
+       "reason": "Foot Injury"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "E. Eneli",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "K. Henry",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "D. Luna",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "V. Olatunji",
+       "reason": "Eye injury"
+      },
+      {
+       "name": "D. Yedlin",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "J. J. Arias",
+       "reason": "Inactive"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": false,
    "isCup": false
   },
@@ -296,7 +435,7 @@
    "surface": "Hartplatz",
    "p1": {
     "name": "Himeno Sakatsume",
-    "rank": 115,
+    "rank": 119,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -308,7 +447,7 @@
    },
    "p2": {
     "name": "Taylah Preston",
-    "rank": 92,
+    "rank": 94,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -318,14 +457,14 @@
     "last7": 0,
     "sets7": 0
    },
-   "pP1": 0.4527,
+   "pP1": 0.4501,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.4527
+    "pRank": 0.4501
    },
    "h2h": [],
-   "analysis": "Himeno Sakatsume (Weltrangliste #115) trifft auf Taylah Preston (#92). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Taylah Preston mit 55 % vorn.",
+   "analysis": "Himeno Sakatsume (Weltrangliste #119) trifft auf Taylah Preston (#94). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Taylah Preston mit 55 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -338,7 +477,7 @@
    "surface": "Hartplatz",
    "p1": {
     "name": "Elena-Gabriela Ruse",
-    "rank": 65,
+    "rank": 66,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -350,7 +489,7 @@
    },
    "p2": {
     "name": "Eva Lys",
-    "rank": 99,
+    "rank": 100,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -360,14 +499,14 @@
     "last7": 2,
     "sets7": 5
    },
-   "pP1": 0.5885,
+   "pP1": 0.5874,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.5885
+    "pRank": 0.5874
    },
    "h2h": [],
-   "analysis": "Elena-Gabriela Ruse (Weltrangliste #65) trifft auf Eva Lys (#99). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Elena-Gabriela Ruse mit 59 % vorn.",
+   "analysis": "Elena-Gabriela Ruse (Weltrangliste #66) trifft auf Eva Lys (#100). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Elena-Gabriela Ruse mit 59 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -380,7 +519,7 @@
    "surface": null,
    "p1": {
     "name": "Oleksandra Oliynykova",
-    "rank": 41,
+    "rank": 47,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -402,14 +541,14 @@
     "last7": 1,
     "sets7": 2
    },
-   "pP1": 0.8179,
+   "pP1": 0.7999,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.8179
+    "pRank": 0.7999
    },
    "h2h": [],
-   "analysis": "Oleksandra Oliynykova (Weltrangliste #41) trifft auf Vivian Wolff (#240). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Oleksandra Oliynykova mit 82 % vorn.",
+   "analysis": "Oleksandra Oliynykova (Weltrangliste #47) trifft auf Vivian Wolff (#240). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Oleksandra Oliynykova mit 80 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
@@ -620,15 +759,15 @@
    "surface": "Hartplatz",
    "p1": {
     "name": "Renata Zarazua",
-    "rank": 91,
+    "rank": 92,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 3
+    "last7": 0,
+    "sets7": 0
    },
    "p2": {
     "name": "Anna Bondar",
@@ -642,17 +781,17 @@
     "last7": 0,
     "sets7": 0
    },
-   "pP1": 0.4415,
+   "pP1": 0.4392,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.4415
+    "pRank": 0.4392
    },
    "h2h": [],
-   "analysis": "Renata Zarazua (Weltrangliste #91) trifft auf Anna Bondar (#69). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Anna Bondar mit 56 % vorn.",
+   "analysis": "Renata Zarazua (Weltrangliste #92) trifft auf Anna Bondar (#69). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Anna Bondar mit 56 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-22T06:30:00+02:00",
@@ -674,7 +813,7 @@
    },
    "p2": {
     "name": "Emerson Jones",
-    "rank": 131,
+    "rank": 133,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -684,14 +823,14 @@
     "last7": 0,
     "sets7": 0
    },
-   "pP1": 0.366,
+   "pP1": 0.369,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.366
+    "pRank": 0.369
    },
    "h2h": [],
-   "analysis": "Ma YeXin – aktuell ohne Top-Ranking – trifft auf Emerson Jones (#131). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Emerson Jones mit 63 % vorn.",
+   "analysis": "Ma YeXin – aktuell ohne Top-Ranking – trifft auf Emerson Jones (#133). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Emerson Jones mit 63 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -716,7 +855,7 @@
    },
    "p2": {
     "name": "Alycia Parks",
-    "rank": 72,
+    "rank": 70,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -726,24 +865,29 @@
     "last7": 1,
     "sets7": 2
    },
-   "pP1": 0.252,
+   "pP1": 0.2475,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.252
+    "pRank": 0.2475
    },
    "h2h": [],
-   "analysis": "Mei Yamaguchi (Weltrangliste #259) trifft auf Alycia Parks (#72). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alycia Parks mit 75 % vorn.",
+   "analysis": "Mei Yamaguchi (Weltrangliste #259) trifft auf Alycia Parks (#70). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alycia Parks mit 75 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 4.35,
+    "p2": 1.25,
+    "src": "Pinnacle"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-22T07:00:00+02:00",
    "tour": "ATP",
    "tournament": "Chengdu Open",
    "round": "Qualifying 1st Round",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Andre Ilagan",
     "rank": 184,
@@ -785,7 +929,7 @@
    "tour": "ATP",
    "tournament": "Chengdu Open",
    "round": "Qualifying 1st Round",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Alexis Galarneau",
     "rank": 179,
@@ -827,7 +971,7 @@
    "tour": "ATP",
    "tournament": "Chengdu Open",
    "round": "Qualifying 1st Round",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Luka Pavlovic",
     "rank": 201,
@@ -1040,7 +1184,7 @@
    "surface": null,
    "p1": {
     "name": "Sofia Costoulas",
-    "rank": 150,
+    "rank": 152,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -1062,14 +1206,14 @@
     "last7": 0,
     "sets7": 0
    },
-   "pP1": 0.5387,
+   "pP1": 0.5359,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.5387
+    "pRank": 0.5359
    },
    "h2h": [],
-   "analysis": "Sofia Costoulas (Weltrangliste #150) trifft auf Tatiana Prozorova (#180). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Sofia Costoulas mit 54 % vorn.",
+   "analysis": "Sofia Costoulas (Weltrangliste #152) trifft auf Tatiana Prozorova (#180). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Sofia Costoulas mit 54 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
@@ -1087,7 +1231,7 @@
    "surface": "Hartplatz",
    "p1": {
     "name": "Kimberly Birrell",
-    "rank": 56,
+    "rank": 60,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -1099,7 +1243,7 @@
    },
    "p2": {
     "name": "Tamara Zidansek",
-    "rank": 135,
+    "rank": 140,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -1109,14 +1253,14 @@
     "last7": 0,
     "sets7": 0
    },
-   "pP1": 0.6787,
+   "pP1": 0.6727,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.6787
+    "pRank": 0.6727
    },
    "h2h": [],
-   "analysis": "Kimberly Birrell (Weltrangliste #56) trifft auf Tamara Zidansek (#135). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Kimberly Birrell mit 68 % vorn.",
+   "analysis": "Kimberly Birrell (Weltrangliste #60) trifft auf Tamara Zidansek (#140). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Kimberly Birrell mit 67 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1166,7 +1310,7 @@
    },
    "p2": {
     "name": "Donna Vekic",
-    "rank": 37,
+    "rank": 38,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -1176,14 +1320,14 @@
     "last7": 0,
     "sets7": 0
    },
-   "pP1": 0.4834,
+   "pP1": 0.4891,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.4834
+    "pRank": 0.4891
    },
    "h2h": [],
-   "analysis": "Wang Xinyu (Weltrangliste #40) trifft auf Donna Vekic (#37). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Donna Vekic mit 52 % vorn.",
+   "analysis": "Wang Xinyu (Weltrangliste #40) trifft auf Donna Vekic (#38). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Donna Vekic mit 51 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1193,7 +1337,7 @@
    "tour": "ATP",
    "tournament": "Chengdu Open",
    "round": "Qualifying 1st Round",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Kenta Miyoshi",
     "rank": 447,
@@ -1235,7 +1379,7 @@
    "tour": "ATP",
    "tournament": "Chengdu Open",
    "round": "Qualifying 1st Round",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Xiao Linang",
     "rank": null,
@@ -1277,7 +1421,7 @@
    "tour": "ATP",
    "tournament": "Chengdu Open",
    "round": "Qualifying 1st Round",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Pavel Kotov",
     "rank": 188,
@@ -1495,7 +1639,7 @@
    "tour": "ATP",
    "tournament": "Chengdu Open",
    "round": "Qualifying 1st Round",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Federico Cina",
     "rank": 170,
@@ -1537,7 +1681,7 @@
    "tour": "ATP",
    "tournament": "Chengdu Open",
    "round": "Qualifying 1st Round",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Hanlei Lu",
     "rank": null,
@@ -1708,7 +1852,7 @@
    "surface": "Hartplatz",
    "p1": {
     "name": "Sofia Kenin",
-    "rank": 100,
+    "rank": 106,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -1720,7 +1864,7 @@
    },
    "p2": {
     "name": "Alina Charaeva",
-    "rank": 133,
+    "rank": 121,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -1730,14 +1874,14 @@
     "last7": 3,
     "sets7": 7
    },
-   "pP1": 0.5603,
+   "pP1": 0.5281,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.5603
+    "pRank": 0.5281
    },
    "h2h": [],
-   "analysis": "Sofia Kenin (Weltrangliste #100) trifft auf Alina Charaeva (#133). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Sofia Kenin mit 56 % vorn.",
+   "analysis": "Sofia Kenin (Weltrangliste #106) trifft auf Alina Charaeva (#121). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Sofia Kenin mit 53 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1799,8 +1943,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 6
+    "last7": 2,
+    "sets7": 4
    },
    "p2": {
     "name": "Alice Tubello",
@@ -1859,7 +2003,7 @@
    "surface": null,
    "p1": {
     "name": "Julia Riera",
-    "rank": 144,
+    "rank": 142,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -1881,14 +2025,14 @@
     "last7": 1,
     "sets7": 3
    },
-   "pP1": 0.6411,
+   "pP1": 0.6439,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.6411
+    "pRank": 0.6439
    },
    "h2h": [],
-   "analysis": "Julia Riera (Weltrangliste #144) trifft auf Elena Micic (#285). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Julia Riera mit 64 % vorn.",
+   "analysis": "Julia Riera (Weltrangliste #142) trifft auf Elena Micic (#285). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Julia Riera mit 64 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1950,8 +2094,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 2
+    "last7": 0,
+    "sets7": 0
    },
    "p2": {
     "name": "Fiona Crawley",
@@ -1975,7 +2119,7 @@
    "analysis": "Carole Monnet (Weltrangliste #206) trifft auf Fiona Crawley (#227). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Carole Monnet mit 52 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-22T12:00:00+02:00",
@@ -1997,24 +2141,24 @@
    },
    "p2": {
     "name": "Veronika Erjavec",
-    "rank": 147,
+    "rank": 149,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 3
+    "last7": 0,
+    "sets7": 0
    },
-   "pP1": 0.289,
+   "pP1": 0.2913,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.289
+    "pRank": 0.2913
    },
    "h2h": [],
-   "analysis": "Katerina Tsygourova (Weltrangliste #424) trifft auf Veronika Erjavec (#147). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Veronika Erjavec mit 71 % vorn.",
+   "analysis": "Katerina Tsygourova (Weltrangliste #424) trifft auf Veronika Erjavec (#149). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Veronika Erjavec mit 71 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2088,8 +2232,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 2
+    "last7": 0,
+    "sets7": 0
    },
    "pP1": 0.5076,
    "model": {
@@ -2160,8 +2304,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 8
+    "last7": 2,
+    "sets7": 6
    },
    "p2": {
     "name": "Mina Hodzic",
@@ -2214,8 +2358,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 9
+    "last7": 3,
+    "sets7": 7
    },
    "pP1": 0.5728,
    "model": {
@@ -2224,7 +2368,7 @@
     "pRank": 0.5728
    },
    "h2h": [],
-   "analysis": "Teresa Franco Dias – aktuell ohne Top-Ranking – trifft auf Angelina Voloshchuk (#353). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Teresa Franco Dias mit 57 % vorn. Angelina Voloshchuk hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 9 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Teresa Franco Dias – aktuell ohne Top-Ranking – trifft auf Angelina Voloshchuk (#353). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Teresa Franco Dias mit 57 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2249,7 +2393,7 @@
    },
    "p2": {
     "name": "Barbora Krejcikova",
-    "rank": 38,
+    "rank": 44,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -2259,19 +2403,19 @@
     "last7": 0,
     "sets7": 0
    },
-   "pP1": 0.1606,
+   "pP1": 0.1781,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.1606
+    "pRank": 0.1781
    },
    "h2h": [],
-   "analysis": "Anna-Lena Friedsam (Weltrangliste #266) trifft auf Barbora Krejcikova (#38). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Barbora Krejcikova mit 84 % vorn.",
+   "analysis": "Anna-Lena Friedsam (Weltrangliste #266) trifft auf Barbora Krejcikova (#44). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Barbora Krejcikova mit 82 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 5.5,
-    "p2": 1.14,
+    "p1": 7.0,
+    "p2": 1.1,
     "src": "888sport"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2471,8 +2615,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 4
+    "last7": 1,
+    "sets7": 2
    },
    "pP1": 0.4737,
    "model": {
@@ -2501,12 +2645,12 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 6
+    "last7": 2,
+    "sets7": 4
    },
    "p2": {
     "name": "Maria Timofeeva",
-    "rank": 87,
+    "rank": 88,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -2516,14 +2660,14 @@
     "last7": 0,
     "sets7": 0
    },
-   "pP1": 0.2273,
+   "pP1": 0.229,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.2273
+    "pRank": 0.229
    },
    "h2h": [],
-   "analysis": "Sofia Johnson (Weltrangliste #367) trifft auf Maria Timofeeva (#87). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Maria Timofeeva mit 77 % vorn.",
+   "analysis": "Sofia Johnson (Weltrangliste #367) trifft auf Maria Timofeeva (#88). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Maria Timofeeva mit 77 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2611,8 +2755,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 3.6,
-    "p2": 1.29,
+    "p1": 4.2,
+    "p2": 1.22,
     "src": "888sport"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2755,7 +2899,7 @@
    "surface": "Hartplatz",
    "p1": {
     "name": "Carol Young Suh Lee",
-    "rank": 136,
+    "rank": 143,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -2777,14 +2921,14 @@
     "last7": 0,
     "sets7": 0
    },
-   "pP1": 0.615,
+   "pP1": 0.6049,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.615
+    "pRank": 0.6049
    },
    "h2h": [],
-   "analysis": "Carol Young Suh Lee (Weltrangliste #136) trifft auf Harmony Tan (#236). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Carol Young Suh Lee mit 62 % vorn.",
+   "analysis": "Carol Young Suh Lee (Weltrangliste #143) trifft auf Harmony Tan (#236). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Carol Young Suh Lee mit 60 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2846,8 +2990,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 5,
-    "sets7": 14
+    "last7": 4,
+    "sets7": 11
    },
    "p2": {
     "name": "Julie Struplova",
@@ -2858,8 +3002,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 4
+    "last7": 1,
+    "sets7": 2
    },
    "pP1": 0.5326,
    "model": {
@@ -2868,7 +3012,7 @@
     "pRank": 0.5326
    },
    "h2h": [],
-   "analysis": "Samira De Stefano (Weltrangliste #193) trifft auf Julie Struplova (#225). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Samira De Stefano mit 53 % vorn. Samira De Stefano hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 14 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Samira De Stefano (Weltrangliste #193) trifft auf Julie Struplova (#225). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Samira De Stefano mit 53 % vorn. Samira De Stefano hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 11 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2888,8 +3032,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 9
+    "last7": 3,
+    "sets7": 7
    },
    "p2": {
     "name": "Francisca Jorge",
@@ -2972,8 +3116,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 6
+    "last7": 2,
+    "sets7": 4
    },
    "p2": {
     "name": "Erika Andreeva",
@@ -2984,8 +3128,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 3
+    "last7": 0,
+    "sets7": 0
    },
    "pP1": 0.3749,
    "model": {
@@ -3086,7 +3230,7 @@
    },
    "p2": {
     "name": "Veronika Podrez",
-    "rank": 126,
+    "rank": 125,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -3096,14 +3240,14 @@
     "last7": 0,
     "sets7": 0
    },
-   "pP1": 0.3584,
+   "pP1": 0.3568,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.3584
+    "pRank": 0.3568
    },
    "h2h": [],
-   "analysis": "Madalena Matias – aktuell ohne Top-Ranking – trifft auf Veronika Podrez (#126). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Veronika Podrez mit 64 % vorn.",
+   "analysis": "Madalena Matias – aktuell ohne Top-Ranking – trifft auf Veronika Podrez (#125). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Veronika Podrez mit 64 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -3170,7 +3314,7 @@
    },
    "p2": {
     "name": "Solana Sierra",
-    "rank": 90,
+    "rank": 91,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -3180,14 +3324,14 @@
     "last7": 2,
     "sets7": 5
    },
-   "pP1": 0.1368,
+   "pP1": 0.1379,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.1368
+    "pRank": 0.1379
    },
    "h2h": [],
-   "analysis": "Deniz Dilek (Weltrangliste #786) trifft auf Solana Sierra (#90). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Solana Sierra mit 86 % vorn.",
+   "analysis": "Deniz Dilek (Weltrangliste #786) trifft auf Solana Sierra (#91). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Solana Sierra mit 86 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -3239,7 +3383,7 @@
    "tour": "ATP",
    "tournament": "Chengdu Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Hubert Hurkacz",
     "rank": 46,
@@ -3281,7 +3425,7 @@
    "tour": "ATP",
    "tournament": "Chengdu Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Zhou Yi",
     "rank": null,
@@ -3323,7 +3467,7 @@
    "tour": "ATP",
    "tournament": "Chengdu Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Camilo Ugo Carabelli",
     "rank": 75,
@@ -3365,7 +3509,7 @@
    "tour": "ATP",
    "tournament": "Chengdu Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Hu Jia",
     "rank": null,
@@ -3407,7 +3551,7 @@
    "tour": "ATP",
    "tournament": "Chengdu Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Adrian Mannarino",
     "rank": 78,
@@ -3449,7 +3593,7 @@
    "tour": "ATP",
    "tournament": "Chengdu Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Lorenzo Sonego",
     "rank": 86,
@@ -3491,7 +3635,7 @@
    "tour": "ATP",
    "tournament": "Chengdu Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Jenson Brooksby",
     "rank": 77,
@@ -3533,7 +3677,7 @@
    "tour": "ATP",
    "tournament": "Chengdu Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Denis Shapovalov",
     "rank": 50,
@@ -4314,7 +4458,7 @@
    "surface": "Hartplatz",
    "p1": {
     "name": "Maya Joint",
-    "rank": 68,
+    "rank": 99,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -4336,14 +4480,14 @@
     "last7": 1,
     "sets7": 3
    },
-   "pP1": 0.7647,
+   "pP1": 0.7025,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.7647
+    "pRank": 0.7025
    },
    "h2h": [],
-   "analysis": "Maya Joint (Weltrangliste #68) trifft auf Dayeon Back (#272). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Maya Joint mit 76 % vorn.",
+   "analysis": "Maya Joint (Weltrangliste #99) trifft auf Dayeon Back (#272). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Maya Joint mit 70 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -4368,7 +4512,7 @@
    },
    "p2": {
     "name": "Alina Korneeva",
-    "rank": 81,
+    "rank": 82,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -4378,14 +4522,14 @@
     "last7": 1,
     "sets7": 2
    },
-   "pP1": 0.3141,
+   "pP1": 0.3164,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.3141
+    "pRank": 0.3164
    },
    "h2h": [],
-   "analysis": "Darya Astakhova (Weltrangliste #203) trifft auf Alina Korneeva (#81). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alina Korneeva mit 69 % vorn.",
+   "analysis": "Darya Astakhova (Weltrangliste #203) trifft auf Alina Korneeva (#82). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alina Korneeva mit 68 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -4398,7 +4542,7 @@
    "surface": "Hartplatz",
    "p1": {
     "name": "Katie Volynets",
-    "rank": 77,
+    "rank": 78,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -4410,7 +4554,7 @@
    },
    "p2": {
     "name": "Kamilla Rakhimova",
-    "rank": 76,
+    "rank": 77,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -4420,14 +4564,14 @@
     "last7": 1,
     "sets7": 3
    },
-   "pP1": 0.4972,
+   "pP1": 0.4973,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.4972
+    "pRank": 0.4973
    },
    "h2h": [],
-   "analysis": "Katie Volynets (Weltrangliste #77) trifft auf Kamilla Rakhimova (#76). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Kamilla Rakhimova mit 50 % vorn.",
+   "analysis": "Katie Volynets (Weltrangliste #78) trifft auf Kamilla Rakhimova (#77). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Kamilla Rakhimova mit 50 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -4577,7 +4721,7 @@
    },
    "p2": {
     "name": "Talia Gibson",
-    "rank": 62,
+    "rank": 63,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -4587,17 +4731,22 @@
     "last7": 1,
     "sets7": 2
    },
-   "pP1": 0.813,
+   "pP1": 0.8151,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.813
+    "pRank": 0.8151
    },
    "h2h": [],
-   "analysis": "Amanda Anisimova (Weltrangliste #11) trifft auf Talia Gibson (#62). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Amanda Anisimova mit 81 % vorn.",
+   "analysis": "Amanda Anisimova (Weltrangliste #11) trifft auf Talia Gibson (#63). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Amanda Anisimova mit 82 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 1.15,
+    "p2": 4.0,
+    "src": "Winamax (FR)"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-23T06:00:00+02:00",
@@ -4607,7 +4756,7 @@
    "surface": null,
    "p1": {
     "name": "Aliaksandra Sasnovich",
-    "rank": 130,
+    "rank": 132,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -4629,17 +4778,22 @@
     "last7": 0,
     "sets7": 0
    },
-   "pP1": 0.059,
+   "pP1": 0.0583,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.059
+    "pRank": 0.0583
    },
    "h2h": [],
-   "analysis": "Aliaksandra Sasnovich (Weltrangliste #130) trifft auf Mirra Andreeva (#5). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Mirra Andreeva mit 94 % vorn.",
+   "analysis": "Aliaksandra Sasnovich (Weltrangliste #132) trifft auf Mirra Andreeva (#5). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Mirra Andreeva mit 94 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 6.5,
+    "p2": 1.11,
+    "src": "William Hill"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-23T06:00:00+02:00",
@@ -4818,8 +4972,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 5,
-    "sets7": 10
+    "last7": 4,
+    "sets7": 8
    },
    "pP1": 0.5536,
    "model": {
@@ -5325,328 +5479,7 @@
    "wta": 0
   }
  },
- "tennisFinished": [
-  {
-   "tour": "WTA",
-   "tournament": "SP Open",
-   "p1": "Nadia Podoroska",
-   "p2": "Kaitlin Quevedo",
-   "winner": "Kaitlin Quevedo",
-   "score": "6:4 4:6 2:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Korea Open",
-   "p1": "Elvina Kalieva",
-   "p2": "Katie Volynets",
-   "winner": "Katie Volynets",
-   "score": "3:6 0:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Korea Open",
-   "p1": "Moyuka Uchijima",
-   "p2": "Lanlana Tararudee",
-   "winner": "Lanlana Tararudee",
-   "score": "4:6 7:6 2:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Korea Open",
-   "p1": "Maya Joint",
-   "p2": "Yao Xinxin",
-   "winner": "Maya Joint",
-   "score": "2:6 7:6 6:3"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Korea Open",
-   "p1": "Mananchaya Sawangkaew",
-   "p2": "Alina Korneeva",
-   "winner": "Alina Korneeva",
-   "score": "4:6 2:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Korea Open",
-   "p1": "Polina Kudermetova",
-   "p2": "Kamilla Rakhimova",
-   "winner": "Kamilla Rakhimova",
-   "score": "6:7 6:4 5:7"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Korea Open",
-   "p1": "Dayeon Back",
-   "p2": "Yuan Yue",
-   "winner": "Dayeon Back",
-   "score": "6:3 4:6 6:1"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Korea Open",
-   "p1": "Magda Linette",
-   "p2": "Darya Astakhova",
-   "winner": "Darya Astakhova",
-   "score": "6:3 1:6 6:7"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Singapore Tennis Open presented by BNP Paribas",
-   "p1": "Aliaksandra Sasnovich",
-   "p2": "Daria Kasatkina",
-   "winner": "Aliaksandra Sasnovich",
-   "score": "7:5 6:0"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Singapore Tennis Open presented by BNP Paribas",
-   "p1": "Nao Hibino",
-   "p2": "Kristina Mladenovic",
-   "winner": "Nao Hibino",
-   "score": "7:5 3:6 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Singapore Tennis Open presented by BNP Paribas",
-   "p1": "Fiona Ferro",
-   "p2": "Talia Gibson",
-   "winner": "Talia Gibson",
-   "score": "3:6 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Singapore Tennis Open presented by BNP Paribas",
-   "p1": "Maja Chwalinska",
-   "p2": "Rebecca Sramkova",
-   "winner": "Maja Chwalinska",
-   "score": "6:4 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Singapore Tennis Open presented by BNP Paribas",
-   "p1": "Leylah Fernandez",
-   "p2": "Kyoka Okamura",
-   "winner": "Leylah Fernandez",
-   "score": "6:2 6:3"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Singapore Tennis Open presented by BNP Paribas",
-   "p1": "Joanna Garland",
-   "p2": "Storm Hunter",
-   "winner": "Joanna Garland",
-   "score": "6:3 5:7 6:1"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Iva Primorac Pavicic",
-   "p2": "Dalila Spiteri",
-   "winner": "Dalila Spiteri",
-   "score": "3:6 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Enola Chiesa",
-   "p2": "Lisa Zaar",
-   "winner": "Lisa Zaar",
-   "score": "6:3 3:6 6:7"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Aneta Kucmova",
-   "p2": "Jessica Pieri",
-   "winner": "Jessica Pieri",
-   "score": "0:6 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Katerina Tsygourova",
-   "p2": "Aneta Laboutkova",
-   "winner": "Katerina Tsygourova",
-   "score": "6:2 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Despina Papamichail",
-   "p2": "Guiomar Maristany Zuleta De Reales",
-   "winner": "Guiomar Maristany Zuleta De Reales",
-   "score": "3:6 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Arantxa Rus",
-   "p2": "Mia Ristic",
-   "winner": "Mia Ristic",
-   "score": "6:4 0:6 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Leyre Romero Gormaz",
-   "p2": "Polona Hercog",
-   "winner": "Leyre Romero Gormaz",
-   "score": "6:7 6:1 7:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Oksana Selekhmeteva",
-   "p2": "Federica Urgesi",
-   "winner": "Oksana Selekhmeteva",
-   "score": "7:5 0:6 7:5"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Noemi Basiletti",
-   "p2": "Laura Samson",
-   "winner": "Noemi Basiletti",
-   "score": "6:3 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Ariana Arseneault",
-   "p2": "Angelina Voloshchuk",
-   "winner": "Angelina Voloshchuk",
-   "score": "3:6 5:7"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Reese Brantmeier",
-   "p2": "Sofia Johnson",
-   "winner": "Reese Brantmeier",
-   "score": "6:3 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Valentina Steiner",
-   "p2": "Kylie Collins",
-   "winner": "Valentina Steiner",
-   "score": "6:4 1:6 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Naiktha Bains",
-   "p2": "Sahaja Yamalapalli",
-   "winner": "Naiktha Bains",
-   "score": "6:2 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Ayana Akli",
-   "p2": "Anouk Koevermans",
-   "winner": "Ayana Akli",
-   "score": "6:4 6:1"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Sinja Kraus",
-   "p2": "Lizette Cabrera",
-   "winner": "Sinja Kraus",
-   "score": "6:1 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Carla Tomai",
-   "p2": "Kajsa Rinaldo Persson",
-   "winner": "Kajsa Rinaldo Persson",
-   "score": "0:6 0:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Oceane Dodin",
-   "p2": "Susan Bandecchi",
-   "winner": "Oceane Dodin",
-   "score": "1:6 6:3 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Melisa Ercan",
-   "p2": "Daria Egorova",
-   "winner": "Daria Egorova",
-   "score": "5:7 1:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Ekaterina Yashina",
-   "p2": "Marie Vogt",
-   "winner": "Marie Vogt",
-   "score": "4:6 2:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Ilay Yoruk",
-   "p2": "Ksenia Zaytseva",
-   "winner": "Ilay Yoruk",
-   "score": "2:6 6:4 7:5"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Alana Smith",
-   "p2": "Weronika Falkowska",
-   "winner": "Weronika Falkowska",
-   "score": "3:6 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Polina Iatcenko",
-   "p2": "Viktoria Hruncakova",
-   "winner": "Polina Iatcenko",
-   "score": "4:6 6:3 6:3"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Tian Fangran",
-   "p2": "Aliona Falei",
-   "winner": "Tian Fangran",
-   "score": "6:2 7:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Ksenia Zaytseva",
-   "p2": "Lina Gjorcheska",
-   "winner": "Ksenia Zaytseva",
-   "score": "5:7 6:3 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Isabella Shinikova",
-   "p2": "Aysegul Mert",
-   "winner": "Aysegul Mert",
-   "score": "6:4 1:6 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Ayla Aksu",
-   "p2": "Yuki Naito",
-   "winner": "Ayla Aksu",
-   "score": "6:1 7:6"
-  }
- ],
+ "tennisFinished": [],
  "stats": {
   "overall": {
    "n": 2241,
@@ -5667,7 +5500,7 @@
    "n": 848,
    "correct": 97
   },
-  "open": 357,
+  "open": 343,
   "recent": [
    {
     "date": "2026-09-21",
