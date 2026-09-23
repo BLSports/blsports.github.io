@@ -55396,9 +55396,9 @@
    "tip": "P2",
    "tipName": "Guiomar Maristany Zuleta De Reales",
    "prob": 0.6785,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-09-23|brancaccio n|erjavec v": {
    "sport": "tn",
@@ -55578,9 +55578,9 @@
    "tip": "P1",
    "tipName": "Ayla Aksu",
    "prob": 0.531,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-09-24|bondar a|charaeva a": {
    "sport": "tn",
@@ -55802,9 +55802,9 @@
    "awayKey": "fortuna koln",
    "tip": "1",
    "tipName": "TSV Havelse",
-   "prob": 0.3905,
+   "prob": 0.3902,
    "tipScore": "1:1",
-   "pOver25": 0.4099,
+   "pOver25": 0.4098,
    "status": "open",
    "result": null,
    "correct": null,
@@ -56098,6 +56098,34 @@
    "tip": "P1",
    "tipName": "Polina Iatcenko",
    "prob": 0.6842,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-25|maristany zuleta de reales g|masarova r": {
+   "sport": "tn",
+   "comp": "WTA · Delta Motors Tolentino Open",
+   "date": "2026-09-25",
+   "label": "Rebeka Masarova – Guiomar Maristany Zuleta De Reales",
+   "p1Key": "masarova r",
+   "p2Key": "maristany zuleta de reales g",
+   "tip": "P1",
+   "tipName": "Rebeka Masarova",
+   "prob": 0.5776,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-25|cengiz b|han s": {
+   "sport": "tn",
+   "comp": "WTA · Turk Telekom Ankara Open",
+   "date": "2026-09-25",
+   "label": "Shi Han – Berfu Cengiz",
+   "p1Key": "han s",
+   "p2Key": "cengiz b",
+   "tip": "P1",
+   "tipName": "Shi Han",
+   "prob": 0.5435,
    "status": "open",
    "result": null,
    "correct": null
