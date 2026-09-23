@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-09-22T22:49:05.381844+02:00",
+ "generatedAt": "2026-09-23T01:58:01.946778+02:00",
  "windowDays": 3,
  "days": [
-  "2026-09-22",
   "2026-09-23",
-  "2026-09-24"
+  "2026-09-24",
+  "2026-09-25"
  ],
  "football": [
   {
@@ -87,15 +87,106 @@
    "name": "3. Liga",
    "flag": "🇩🇪",
    "espn": "ger.3",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-09-25T19:00:00+02:00",
+     "home": "TSV Havelse",
+     "away": "Fortuna Köln",
+     "homeIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/TSV_Havelse_logo.svg/120px-TSV_Havelse_logo.svg.png",
+     "awayIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/SC_Fortuna_Koeln_Logo_2013–2019%2C_2026–.svg/250px-SC_Fortuna_Koeln_Logo_2013–2019%2C_2026–.svg.png",
+     "matchday": 7,
+     "roundName": null,
+     "formHome": [
+      "N",
+      "S",
+      "N",
+      "U",
+      "N"
+     ],
+     "formAway": [
+      "U",
+      "S",
+      "U",
+      "U",
+      "N"
+     ],
+     "formHomeH": [
+      "S",
+      "S",
+      "N",
+      "S",
+      "U"
+     ],
+     "formAwayA": [
+      "N",
+      "S",
+      "U"
+     ],
+     "load14Home": 2,
+     "load14Away": 2,
+     "posHome": 20,
+     "posAway": 16,
+     "nTeams": 20,
+     "h2h": [],
+     "prediction": {
+      "pHome": 0.3902,
+      "pDraw": 0.2814,
+      "pAway": 0.3284,
+      "pOver25": 0.4098,
+      "pBtts": 0.4705,
+      "xgHome": 1.22,
+      "xgAway": 1.1,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.4705,
+     "odds": {
+      "h": 2.85,
+      "d": 3.6,
+      "a": 2.3,
+      "src": "Tipico"
+     },
+     "value": {
+      "outcome": "1",
+      "edge": 0.0603,
+      "modelP": 0.3902,
+      "odds": 2.85
+     },
+     "scorersHome": [
+      {
+       "name": "Tauer",
+       "goals": 1
+      },
+      {
+       "name": "Jesse Tugbenyo",
+       "goals": 1
+      },
+      {
+       "name": "A. Guiddir",
+       "goals": 1
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "R. Aigbekaen",
+       "goals": 2
+      },
+      {
+       "name": "T. Bornemann",
+       "goals": 1
+      },
+      {
+       "name": "Hamadi Al Ghaddioui",
+       "goals": 1
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Zwischen TSV Havelse und Fortuna Köln deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg TSV Havelse 39 %, Unentschieden 28 %, Sieg Fortuna Köln 33 %). In der Tabelle stehen sich Platz 20 und Platz 16 gegenüber. Heim-/Auswärtsbilanz: TSV Havelse gewann 3 der letzten 5 Heimspiele, Fortuna Köln 1 der letzten 3 Auswärtsspiele. Das Modell erwartet eher wenige Tore (xG 1,2:1,1; über 2,5 Tore: 41 %, beide Teams treffen zu 47 %). Gefährlichste Torschützen: bei TSV Havelse Tauer (1 Tore) und bei Fortuna Köln R. Aigbekaen (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,85) für 6 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": true,
-   "isCup": false,
-   "nextMatch": {
-    "kickoff": "2026-09-25T19:00:00+02:00",
-    "home": "TSV Havelse",
-    "away": "Fortuna Köln",
-    "matchday": 7
-   }
+   "isCup": false
   },
   {
    "id": "pl",
@@ -129,7 +220,78 @@
    "name": "La Liga 2",
    "flag": "🇪🇸",
    "espn": "esp.2",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-09-25T20:30:00+02:00",
+     "home": "Girona",
+     "away": "Albacete",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/2737.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "N",
+      "S",
+      "S",
+      "N",
+      "S"
+     ],
+     "formAway": [
+      "N",
+      "N",
+      "N",
+      "U",
+      "N"
+     ],
+     "formHomeH": [
+      "U",
+      "S",
+      "N"
+     ],
+     "formAwayA": [
+      "S",
+      "N",
+      "N",
+      "N",
+      "U"
+     ],
+     "load14Home": 2,
+     "load14Away": 2,
+     "posHome": 8,
+     "posAway": 21,
+     "nTeams": 22,
+     "h2h": [],
+     "prediction": {
+      "pHome": 0.6346,
+      "pDraw": 0.1921,
+      "pAway": 0.1733,
+      "pOver25": 0.6532,
+      "pBtts": 0.5983,
+      "xgHome": 2.26,
+      "xgAway": 1.1,
+      "tipScore": "2:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5983,
+     "odds": {
+      "h": 1.4,
+      "d": 3.85,
+      "a": 5.2,
+      "src": "PMU (FR)"
+     },
+     "value": null,
+     "scorersHome": [
+      {
+       "name": "Yáser Asprilla",
+       "goals": 4
+      }
+     ],
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "Girona geht als klarer Favorit (64 %) in das Heimspiel gegen Albacete. In der Tabelle stehen sich Platz 8 und Platz 21 gegenüber. Die Form spricht für Girona: 3 Siege aus den letzten 5 Spielen, Albacete holte nur 0. Heim-/Auswärtsbilanz: Girona gewann 1 der letzten 3 Heimspiele, Albacete 1 der letzten 5 Auswärtsspiele. Das Modell erwartet ein torreiches Spiel (xG 2,3:1,1; über 2,5 Tore: 65 %, beide Teams treffen zu 60 %). Gefährlichste Torschützen: bei Girona Yáser Asprilla (4 Tore).",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": true,
    "isCup": false
   },
@@ -165,7 +327,99 @@
    "name": "Eerste Divisie",
    "flag": "🇳🇱",
    "espn": "ned.2",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-09-25T21:00:00+02:00",
+     "home": "FC Dordrecht",
+     "away": "Almere City",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/4426.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/5291.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "N",
+      "N",
+      "N",
+      "N",
+      "N"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "N",
+      "S",
+      "S"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 4,
+     "posAway": 9,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "17.04.2026",
+       "home": "Almere City FC",
+       "away": "Dordrecht",
+       "score": "4:1"
+      },
+      {
+       "date": "03.11.2025",
+       "home": "Dordrecht",
+       "away": "Almere City FC",
+       "score": "0:1"
+      },
+      {
+       "date": "03.03.2023",
+       "home": "Dordrecht",
+       "away": "Almere City FC",
+       "score": "0:1"
+      },
+      {
+       "date": "13.11.2022",
+       "home": "Almere City FC",
+       "away": "Dordrecht",
+       "score": "2:1"
+      },
+      {
+       "date": "22.07.2022",
+       "home": "Almere City FC",
+       "away": "Dordrecht",
+       "score": "1:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3314,
+      "pDraw": 0.2102,
+      "pAway": 0.4583,
+      "pOver25": 0.7322,
+      "pBtts": 0.7202,
+      "xgHome": 1.74,
+      "xgAway": 2.06,
+      "tipScore": "1:2",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.7202,
+     "odds": {
+      "h": 3.0,
+      "d": 3.6,
+      "a": 2.05,
+      "src": "William Hill"
+     },
+     "value": null,
+     "scorersHome": [],
+     "scorersAway": [
+      {
+       "name": "Ferdy Druijf",
+       "goals": 6
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Almere City ist bei FC Dordrecht leicht favorisiert (46 % zu 33 %). In der Tabelle stehen sich Platz 4 und Platz 9 gegenüber. Die Form spricht für Almere City: 4 Siege aus den letzten 5 Spielen, FC Dordrecht holte nur 0. Das letzte Duell (2026) endete 4:1 (Almere City FC – Dordrecht). Das Modell erwartet ein torreiches Spiel (xG 1,7:2,1; über 2,5 Tore: 73 %, beide Teams treffen zu 72 %). Gefährlichste Torschützen: bei Almere City Ferdy Druijf (6 Tore).",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": false,
    "isCup": false
   },
@@ -426,7 +680,117 @@
    "name": "Premier Division (Irland)",
    "flag": "🇮🇪",
    "espn": "irl.1",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-09-25T20:45:00+02:00",
+     "home": "Galway United",
+     "away": "Shelbourne",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Regular Season - 11",
+     "formHome": [
+      "U",
+      "S",
+      "N",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "U",
+      "U",
+      "N",
+      "N",
+      "S"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 7,
+     "posAway": 6,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "28.08.2026",
+       "home": "Galway United",
+       "away": "Shelbourne",
+       "score": "1:1"
+      },
+      {
+       "date": "29.05.2026",
+       "home": "Shelbourne",
+       "away": "Galway United",
+       "score": "1:1"
+      },
+      {
+       "date": "20.02.2026",
+       "home": "Shelbourne",
+       "away": "Galway United",
+       "score": "1:1"
+      },
+      {
+       "date": "07.09.2025",
+       "home": "Shelbourne",
+       "away": "Galway United",
+       "score": "1:0"
+      },
+      {
+       "date": "27.06.2025",
+       "home": "Galway United",
+       "away": "Shelbourne",
+       "score": "1:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5532,
+      "pDraw": 0.2279,
+      "pAway": 0.2189,
+      "pOver25": 0.5553,
+      "pBtts": 0.552,
+      "xgHome": 1.84,
+      "xgAway": 1.07,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.552,
+     "odds": {
+      "h": 2.62,
+      "d": 3.3,
+      "a": 2.4,
+      "src": "William Hill"
+     },
+     "value": {
+      "outcome": "1",
+      "edge": 0.2067,
+      "modelP": 0.5532,
+      "odds": 2.62
+     },
+     "scorersHome": [
+      {
+       "name": "K. Twardek",
+       "goals": 8
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "H. Wood",
+       "goals": 7
+      },
+      {
+       "name": "J. Martin",
+       "goals": 6
+      },
+      {
+       "name": "D. Kelly",
+       "goals": 6
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Galway United geht als klarer Favorit (55 %) in das Heimspiel gegen Shelbourne. In der Tabelle stehen sich Platz 7 und Platz 6 gegenüber. Das letzte Duell (2026) endete 1:1 (Galway United – Shelbourne). Das Modell erwartet ein torreiches Spiel (xG 1,8:1,1; über 2,5 Tore: 56 %, beide Teams treffen zu 55 %). Gefährlichste Torschützen: bei Galway United K. Twardek (8 Tore) und bei Shelbourne H. Wood (7 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,62) für 21 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": false,
    "isCup": false
   }
@@ -858,7 +1222,12 @@
    "analysis": "Maja Chwalinska (Weltrangliste #25) trifft auf Oleksandra Oliynykova (#47). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Maja Chwalinska mit 63 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 1.46,
+    "p2": 2.93,
+    "src": "Pinnacle"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-23T07:30:00+02:00",
@@ -1202,7 +1571,12 @@
    "analysis": "Barbora Krejcikova (Weltrangliste #44) trifft auf Elise Mertens (#19). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Elise Mertens mit 67 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 2.6,
+    "p2": 1.4,
+    "src": "Unibet (FR)"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-23T09:30:00+02:00",
@@ -1428,8 +1802,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 7
+    "last7": 2,
+    "sets7": 5
    },
    "p2": {
     "name": "Isabella Maria Serban",
@@ -1495,8 +1869,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 9
+    "last7": 2,
+    "sets7": 6
    },
    "p2": {
     "name": "Oceane Dodin",
@@ -1574,8 +1948,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 10
+    "last7": 3,
+    "sets7": 7
    },
    "pP1": 0.6158,
    "model": {
@@ -1584,7 +1958,7 @@
     "pRank": 0.6158
    },
    "h2h": [],
-   "analysis": "Polina Iatcenko (Weltrangliste #178) trifft auf Weronika Falkowska (#310). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Polina Iatcenko mit 62 % vorn. Weronika Falkowska hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Polina Iatcenko (Weltrangliste #178) trifft auf Weronika Falkowska (#310). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Polina Iatcenko mit 62 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1680,8 +2054,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 6.5,
-    "p2": 1.11,
+    "p1": 7.0,
+    "p2": 1.1,
     "src": "William Hill"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1768,8 +2142,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 6,
-    "sets7": 14
+    "last7": 5,
+    "sets7": 12
    },
    "p2": {
     "name": "Ayana Akli",
@@ -1780,8 +2154,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 4
+    "last7": 1,
+    "sets7": 2
    },
    "pP1": 0.5308,
    "model": {
@@ -1790,7 +2164,7 @@
     "pRank": 0.5308
    },
    "h2h": [],
-   "analysis": "Gabriela Knutson – aktuell ohne Top-Ranking – trifft auf Ayana Akli (#289). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Gabriela Knutson mit 53 % vorn. Gabriela Knutson hat allerdings eine intensive Woche in den Beinen (6 Matches in den letzten 7 Tagen und 14 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Gabriela Knutson – aktuell ohne Top-Ranking – trifft auf Ayana Akli (#289). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Gabriela Knutson mit 53 % vorn. Gabriela Knutson hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 12 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1864,8 +2238,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 4
+    "last7": 1,
+    "sets7": 2
    },
    "pP1": 0.6665,
    "model": {
@@ -1877,7 +2251,12 @@
    "analysis": "Leylah Fernandez (Weltrangliste #31) trifft auf Alycia Parks (#70). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Leylah Fernandez mit 67 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 1.25,
+    "p2": 3.6,
+    "src": "Tipico"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-23T14:00:00+02:00",
@@ -1906,8 +2285,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 7
+    "last7": 2,
+    "sets7": 4
    },
    "pP1": 0.6983,
    "model": {
@@ -1961,8 +2340,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 6
+    "last7": 1,
+    "sets7": 3
    },
    "p2": {
     "name": "Jessica Pieri",
@@ -2040,8 +2419,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 4
+    "last7": 1,
+    "sets7": 2
    },
    "pP1": 0.5435,
    "model": {
@@ -2095,8 +2474,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 7
+    "last7": 2,
+    "sets7": 5
    },
    "p2": {
     "name": "Maria Timofeeva",
@@ -2162,8 +2541,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 5
+    "last7": 1,
+    "sets7": 2
    },
    "p2": {
     "name": "Shi Han",
@@ -2266,8 +2645,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 9
+    "last7": 3,
+    "sets7": 7
    },
    "pP1": 0.3215,
    "model": {
@@ -2276,7 +2655,7 @@
     "pRank": 0.3215
    },
    "h2h": [],
-   "analysis": "Marta Lombardini (#602) trifft auf Guiomar Maristany Zuleta De Reales, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Guiomar Maristany Zuleta De Reales mit 68 % vorn. Guiomar Maristany Zuleta De Reales hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 9 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Marta Lombardini (#602) trifft auf Guiomar Maristany Zuleta De Reales, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Guiomar Maristany Zuleta De Reales mit 68 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2321,8 +2700,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 9
+    "last7": 3,
+    "sets7": 7
    },
    "p2": {
     "name": "Noemi Basiletti",
@@ -3527,7 +3906,12 @@
    "analysis": "Alexandra Eala (Weltrangliste #18) trifft auf Tatiana Prozorova (#180). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alexandra Eala mit 88 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 1.17,
+    "p2": 3.8,
+    "src": "Winamax (FR)"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-24T06:00:00+02:00",
@@ -3569,7 +3953,12 @@
    "analysis": "Nao Hibino (Weltrangliste #190) trifft auf Maria Sakkari (#33). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Maria Sakkari mit 82 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 5.1,
+    "p2": 1.17,
+    "src": "Betfair"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-24T06:00:00+02:00",
@@ -3611,7 +4000,12 @@
    "analysis": "Viktoria Morvayova (Weltrangliste #296) trifft auf Talia Gibson (#63). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Talia Gibson mit 79 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 9.2,
+    "p2": 1.03,
+    "src": "Betfair"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-24T06:00:00+02:00",
@@ -3703,8 +4097,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 5
+    "last7": 1,
+    "sets7": 3
    },
    "p2": {
     "name": "Samira De Stefano",
@@ -3757,8 +4151,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 11
+    "last7": 3,
+    "sets7": 8
    },
    "pP1": 0.4479,
    "model": {
@@ -3767,7 +4161,7 @@
     "pRank": 0.4479
    },
    "h2h": [],
-   "analysis": "Barbora Palicova (Weltrangliste #197) trifft auf Ekaterine Gorgodze (#154). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Ekaterine Gorgodze mit 55 % vorn. Ekaterine Gorgodze hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 11 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Barbora Palicova (Weltrangliste #197) trifft auf Ekaterine Gorgodze (#154). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Ekaterine Gorgodze mit 55 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -3799,8 +4193,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 9
+    "last7": 3,
+    "sets7": 7
    },
    "pP1": 0.6501,
    "model": {
@@ -3809,7 +4203,7 @@
     "pRank": 0.6501
    },
    "h2h": [],
-   "analysis": "Julia Grabher (Weltrangliste #111) trifft auf Alice Tubello (#230). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Julia Grabher mit 65 % vorn. Alice Tubello hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 9 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Julia Grabher (Weltrangliste #111) trifft auf Alice Tubello (#230). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Julia Grabher mit 65 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -3933,8 +4327,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 9
+    "last7": 3,
+    "sets7": 7
    },
    "pP1": 0.5847,
    "model": {
@@ -3943,7 +4337,7 @@
     "pRank": 0.5847
    },
    "h2h": [],
-   "analysis": "Harmony Tan (Weltrangliste #236) trifft auf Angelina Voloshchuk (#353). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Harmony Tan mit 58 % vorn. Angelina Voloshchuk hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 9 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Harmony Tan (Weltrangliste #236) trifft auf Angelina Voloshchuk (#353). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Harmony Tan mit 58 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -4164,8 +4558,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 5
+    "last7": 1,
+    "sets7": 2
    },
    "p2": {
     "name": "Carole Monnet",
@@ -4206,8 +4600,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 5
+    "last7": 1,
+    "sets7": 2
    },
    "p2": {
     "name": "Tian Fangran",
@@ -4260,8 +4654,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 8
+    "last7": 3,
+    "sets7": 6
    },
    "pP1": 0.3806,
    "model": {
@@ -4270,7 +4664,7 @@
     "pRank": 0.3806
    },
    "h2h": [],
-   "analysis": "Elena Ruxandra Bertea (Weltrangliste #282) trifft auf Teodora Kostovic (#159). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Teodora Kostovic mit 62 % vorn. Teodora Kostovic hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 8 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Elena Ruxandra Bertea (Weltrangliste #282) trifft auf Teodora Kostovic (#159). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Teodora Kostovic mit 62 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -4367,520 +4761,7 @@
    "wta": 0
   }
  },
- "tennisFinished": [
-  {
-   "tour": "ATP",
-   "tournament": "Chengdu Open",
-   "p1": "Luka Pavlovic",
-   "p2": "Alexandre Muller",
-   "winner": "Alexandre Muller",
-   "score": "4:6 7:6 3:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Chengdu Open",
-   "p1": "Andre Ilagan",
-   "p2": "Petr Bar Biryukov",
-   "winner": "Petr Bar Biryukov",
-   "score": "6:7 6:7"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Chengdu Open",
-   "p1": "Alexis Galarneau",
-   "p2": "Elias Ymer",
-   "winner": "Alexis Galarneau",
-   "score": "7:5 7:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Chengdu Open",
-   "p1": "Pavel Kotov",
-   "p2": "Luca Castelnuovo",
-   "winner": "Pavel Kotov",
-   "score": "6:7 7:5 7:5"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Chengdu Open",
-   "p1": "Xiao Linang",
-   "p2": "Shintaro Mochizuki",
-   "winner": "Shintaro Mochizuki",
-   "score": "5:7 6:4 5:7"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Chengdu Open",
-   "p1": "Kenta Miyoshi",
-   "p2": "Lloyd Harris",
-   "winner": "Lloyd Harris",
-   "score": "3:6 5:7"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Chengdu Open",
-   "p1": "Hanlei Lu",
-   "p2": "Nikoloz Basilashvili",
-   "winner": "Nikoloz Basilashvili",
-   "score": "2:6 0:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Chengdu Open",
-   "p1": "Federico Cina",
-   "p2": "Kaichi Uchida",
-   "winner": "Federico Cina",
-   "score": "6:1 6:2"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "AITO Hangzhou Open",
-   "p1": "Omar Jasika",
-   "p2": "Alex Bolt",
-   "winner": "Alex Bolt",
-   "score": "4:6 3:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "AITO Hangzhou Open",
-   "p1": "Jake Delaney",
-   "p2": "Taro Daniel",
-   "winner": "Taro Daniel",
-   "score": "3:6 4:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "AITO Hangzhou Open",
-   "p1": "Akira Santillan",
-   "p2": "Kaigaoge Kang",
-   "winner": "Akira Santillan",
-   "score": "6:3 6:0"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "AITO Hangzhou Open",
-   "p1": "Philip Sekulic",
-   "p2": "Dalibor Svrcina",
-   "winner": "Dalibor Svrcina",
-   "score": "3:6 2:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "AITO Hangzhou Open",
-   "p1": "Hayato Matsuoka",
-   "p2": "Arthur Weber",
-   "winner": "Hayato Matsuoka",
-   "score": "6:4 7:5"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "AITO Hangzhou Open",
-   "p1": "Te Rigele",
-   "p2": "Bernard Tomic",
-   "winner": "Bernard Tomic",
-   "score": "7:6 4:6 5:7"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "AITO Hangzhou Open",
-   "p1": "Rio Noguchi",
-   "p2": "Masamichi Imamura",
-   "winner": "Rio Noguchi",
-   "score": "6:1 6:4"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "AITO Hangzhou Open",
-   "p1": "Matthew Dellavedova",
-   "p2": "Sun Fajing",
-   "winner": "Sun Fajing",
-   "score": "6:3 1:6 6:7"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Korea Open",
-   "p1": "Himeno Sakatsume",
-   "p2": "Taylah Preston",
-   "winner": "Taylah Preston",
-   "score": "2:6 6:3 2:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Korea Open",
-   "p1": "Elena-Gabriela Ruse",
-   "p2": "Eva Lys",
-   "winner": "Elena-Gabriela Ruse",
-   "score": "6:1 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Korea Open",
-   "p1": "Robin Montgomery",
-   "p2": "Sohyun Park",
-   "winner": "Sohyun Park",
-   "score": "6:7 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Korea Open",
-   "p1": "Renata Zarazua",
-   "p2": "Anna Bondar",
-   "winner": "Anna Bondar",
-   "score": "6:2 3:6 1:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Korea Open",
-   "p1": "Ma YeXin",
-   "p2": "Emerson Jones",
-   "winner": "Ma YeXin",
-   "score": "3:6 6:0 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Korea Open",
-   "p1": "Yeonwoo Ku",
-   "p2": "Alevtina Ibragimova",
-   "winner": "Yeonwoo Ku",
-   "score": "6:3 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Korea Open",
-   "p1": "Kimberly Birrell",
-   "p2": "Tamara Zidansek",
-   "winner": "Kimberly Birrell",
-   "score": "7:6 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Korea Open",
-   "p1": "Anastasia Zakharova",
-   "p2": "Jelena Ostapenko",
-   "winner": "Jelena Ostapenko",
-   "score": "4:6 1:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Korea Open",
-   "p1": "Sofia Kenin",
-   "p2": "Alina Charaeva",
-   "winner": "Alina Charaeva",
-   "score": "6:3 6:7 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Singapore Tennis Open presented by BNP Paribas",
-   "p1": "Oleksandra Oliynykova",
-   "p2": "Vivian Wolff",
-   "winner": "Oleksandra Oliynykova",
-   "score": "6:1 7:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Singapore Tennis Open presented by BNP Paribas",
-   "p1": "Mei Yamaguchi",
-   "p2": "Alycia Parks",
-   "winner": "Alycia Parks",
-   "score": "4:6 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Singapore Tennis Open presented by BNP Paribas",
-   "p1": "Sofia Costoulas",
-   "p2": "Tatiana Prozorova",
-   "winner": "Tatiana Prozorova",
-   "score": "7:5 6:7 2:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Singapore Tennis Open presented by BNP Paribas",
-   "p1": "Wang Xinyu",
-   "p2": "Donna Vekic",
-   "winner": "Wang Xinyu",
-   "score": "6:1 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Singapore Tennis Open presented by BNP Paribas",
-   "p1": "Anna-Lena Friedsam",
-   "p2": "Barbora Krejcikova",
-   "winner": "Barbora Krejcikova",
-   "score": "0:6 7:5 6:7"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Singapore Tennis Open presented by BNP Paribas",
-   "p1": "Linda Fruhvirtova",
-   "p2": "Maria Sakkari",
-   "winner": "Maria Sakkari",
-   "score": "4:6 1:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Rebeka Masarova",
-   "p2": "Lisa Zaar",
-   "winner": "Rebeka Masarova",
-   "score": "5:7 6:1 7:5"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Dalila Spiteri",
-   "p2": "Alice Tubello",
-   "winner": "Alice Tubello",
-   "score": "2:6 2:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Aneta Laboutkova",
-   "p2": "Isabella Maria Serban",
-   "winner": "Isabella Maria Serban",
-   "score": "3:6 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Maria Lourdes Carle",
-   "p2": "Nuria Brancaccio",
-   "winner": "Nuria Brancaccio",
-   "score": "3:6 6:4 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Katerina Tsygourova",
-   "p2": "Veronika Erjavec",
-   "winner": "Veronika Erjavec",
-   "score": "6:4 3:6 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Alicia Herrero Linana",
-   "p2": "Barbora Palicova",
-   "winner": "Barbora Palicova",
-   "score": "7:6 1:6 5:7"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Marta Lombardini",
-   "p2": "Aurora Zantedeschi",
-   "winner": "Marta Lombardini",
-   "score": "4:6 6:2 6:3"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Laura Pigossi",
-   "p2": "Ekaterine Gorgodze",
-   "winner": "Ekaterine Gorgodze",
-   "score": "1:6 7:5 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Samira De Stefano",
-   "p2": "Julie Struplova",
-   "winner": "Samira De Stefano",
-   "score": "6:0 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Ginevra De Angelis",
-   "p2": "Jessica Pieri",
-   "winner": "Jessica Pieri",
-   "score": "2:6 0:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Julia Grabher",
-   "p2": "Jennifer Ruggeri",
-   "winner": "Julia Grabher",
-   "score": "4:6 7:5 6:3"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Katie Swan",
-   "p2": "Sahaja Yamalapalli",
-   "winner": "Katie Swan",
-   "score": "6:1 6:0"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Elena Malygina",
-   "p2": "Mina Hodzic",
-   "winner": "Elena Malygina",
-   "score": "6:4 5:7 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Teresa Franco Dias",
-   "p2": "Angelina Voloshchuk",
-   "winner": "Angelina Voloshchuk",
-   "score": "0:6 2:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Sofia Johnson",
-   "p2": "Maria Timofeeva",
-   "winner": "Maria Timofeeva",
-   "score": "4:6 2:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Celia Cervino Ruiz",
-   "p2": "Matilde Jorge",
-   "winner": "Matilde Jorge",
-   "score": "3:6 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Carol Young Suh Lee",
-   "p2": "Harmony Tan",
-   "winner": "Harmony Tan",
-   "score": "3:6 5:7"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Gabriela Knutson",
-   "p2": "Katherine Sebov",
-   "winner": "Gabriela Knutson",
-   "score": "6:4 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Mia Pohankova",
-   "p2": "Francisca Jorge",
-   "winner": "Mia Pohankova",
-   "score": "6:2 6:1"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Caroline Werner",
-   "p2": "Valentina Steiner",
-   "winner": "Valentina Steiner",
-   "score": "2:6 5:7"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Naiktha Bains",
-   "p2": "Victoria Jimenez Kasintseva",
-   "winner": "Naiktha Bains",
-   "score": "5:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Madalena Matias",
-   "p2": "Veronika Podrez",
-   "winner": "Veronika Podrez",
-   "score": "6:4 1:6 2:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Reese Brantmeier",
-   "p2": "Erika Andreeva",
-   "winner": "Reese Brantmeier",
-   "score": "6:3 7:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Ilay Yoruk",
-   "p2": "Weronika Falkowska",
-   "winner": "Weronika Falkowska",
-   "score": "2:6 0:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Anastasia Gasanova",
-   "p2": "Anastasia Tikhonova",
-   "winner": "Anastasia Gasanova",
-   "score": "6:2 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Daria Egorova",
-   "p2": "Elena Pridankina",
-   "winner": "Elena Pridankina",
-   "score": "6:7 6:1 5:7"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Berfu Cengiz",
-   "p2": "Martyna Kubka",
-   "winner": "Berfu Cengiz",
-   "score": "6:2 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Julia Riera",
-   "p2": "Elena Micic",
-   "winner": "Elena Micic",
-   "score": "1:6 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Carole Monnet",
-   "p2": "Fiona Crawley",
-   "winner": "Carole Monnet",
-   "score": "6:1 7:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Carolyn Ansari",
-   "p2": "Teodora Kostovic",
-   "winner": "Teodora Kostovic",
-   "score": "3:6 1:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Shi Han",
-   "p2": "Alya Naz Altinel",
-   "winner": "Shi Han",
-   "score": "6:1 6:1"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Elena Ruxandra Bertea",
-   "p2": "Marie Vogt",
-   "winner": "Elena Ruxandra Bertea",
-   "score": "6:1 2:6 7:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Cagla Buyukakcay",
-   "p2": "Katarina Kuzmova",
-   "winner": "Cagla Buyukakcay",
-   "score": "2:6 6:4 6:4"
-  }
- ],
+ "tennisFinished": [],
  "stats": {
   "overall": {
    "n": 2327,
@@ -4901,7 +4782,7 @@
    "n": 848,
    "correct": 97
   },
-  "open": 317,
+  "open": 290,
   "recent": [
    {
     "date": "2026-09-22",
