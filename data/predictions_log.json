@@ -55410,9 +55410,9 @@
    "tip": "P2",
    "tipName": "Veronika Erjavec",
    "prob": 0.5903,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-09-23|de stefano s|selekhmeteva o": {
    "sport": "tn",
@@ -55424,9 +55424,9 @@
    "tip": "P1",
    "tipName": "Oksana Selekhmeteva",
    "prob": 0.6342,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-09-23|fajing s|tomic b": {
    "sport": "tn",
@@ -55704,9 +55704,9 @@
    "tip": "P1",
    "tipName": "Oksana Selekhmeteva",
    "prob": 0.6342,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-09-24|gorgodze e|palicova b": {
    "sport": "tn",
@@ -55746,9 +55746,9 @@
    "tip": "P2",
    "tipName": "Veronika Erjavec",
    "prob": 0.5903,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-09-24|bains n|brantmeier r": {
    "sport": "tn",
@@ -55802,9 +55802,9 @@
    "awayKey": "fortuna koln",
    "tip": "1",
    "tipName": "TSV Havelse",
-   "prob": 0.3905,
+   "prob": 0.3902,
    "tipScore": "1:1",
-   "pOver25": 0.4099,
+   "pOver25": 0.4098,
    "status": "open",
    "result": null,
    "correct": null,
@@ -56634,6 +56634,34 @@
    "tip": "P1",
    "tipName": "Adolfo Daniel Vallejo",
    "prob": 0.6291,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-25|gorgodze e|selekhmeteva o": {
+   "sport": "tn",
+   "comp": "WTA · Delta Motors Tolentino Open",
+   "date": "2026-09-25",
+   "label": "Oksana Selekhmeteva – Ekaterine Gorgodze",
+   "p1Key": "selekhmeteva o",
+   "p2Key": "gorgodze e",
+   "tip": "P1",
+   "tipName": "Oksana Selekhmeteva",
+   "prob": 0.5887,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-25|brancaccio n|grabher j": {
+   "sport": "tn",
+   "comp": "WTA · Delta Motors Tolentino Open",
+   "date": "2026-09-25",
+   "label": "Julia Grabher – Nuria Brancaccio",
+   "p1Key": "grabher j",
+   "p2Key": "brancaccio n",
+   "tip": "P1",
+   "tipName": "Julia Grabher",
+   "prob": 0.6492,
    "status": "open",
    "result": null,
    "correct": null
