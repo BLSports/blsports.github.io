@@ -55802,9 +55802,9 @@
    "awayKey": "fortuna koln",
    "tip": "1",
    "tipName": "TSV Havelse",
-   "prob": 0.3902,
+   "prob": 0.3905,
    "tipScore": "1:1",
-   "pOver25": 0.4098,
+   "pOver25": 0.4099,
    "status": "open",
    "result": null,
    "correct": null,
@@ -56056,9 +56056,9 @@
    "tip": "P2",
    "tipName": "Mirra Andreeva",
    "prob": 0.825,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-09-25|knutson g|timofeeva m": {
    "sport": "tn",
@@ -56070,9 +56070,9 @@
    "tip": "P2",
    "tipName": "Maria Timofeeva",
    "prob": 0.7084,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-09-25|kraus s|malygina e": {
    "sport": "tn",
@@ -56084,9 +56084,9 @@
    "tip": "P1",
    "tipName": "Sinja Kraus",
    "prob": 0.7191,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-09-25|iatcenko p|zaytseva k": {
    "sport": "tn",
@@ -56112,9 +56112,9 @@
    "tip": "P1",
    "tipName": "Rebeka Masarova",
    "prob": 0.5776,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-09-25|cengiz b|han s": {
    "sport": "tn",
@@ -56126,9 +56126,9 @@
    "tip": "P1",
    "tipName": "Shi Han",
    "prob": 0.5435,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "fb|ll2|2026-09-26|ceuta|real sociedad ii": {
    "sport": "fb",
@@ -56284,9 +56284,9 @@
    "tip": "P2",
    "tipName": "Mia Ristic",
    "prob": 0.6437,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-09-25|birrell k|volynets k": {
    "sport": "tn",
@@ -56368,9 +56368,9 @@
    "tip": "P2",
    "tipName": "Jaime Faria",
    "prob": 0.5749,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-09-26|medvedev d|royer v": {
    "sport": "tn",
@@ -56466,9 +56466,9 @@
    "tip": "P1",
    "tipName": "Andrey Rublev",
    "prob": 0.733,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-09-26|majchrzak k|yunchaokete b": {
    "sport": "tn",
@@ -56508,9 +56508,9 @@
    "tip": "P2",
    "tipName": "Maria Sakkari",
    "prob": 0.6341,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-09-25|brantmeier r|voloshchuk a": {
    "sport": "tn",
@@ -56522,9 +56522,9 @@
    "tip": "P1",
    "tipName": "Angelina Voloshchuk",
    "prob": 0.5184,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-09-25|pohankova m|swan k": {
    "sport": "tn",
@@ -56550,9 +56550,9 @@
    "tip": "P1",
    "tipName": "Anastasia Gasanova",
    "prob": 0.7658,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|atp|2026-09-26|davidovich fokina a|manuel cerundolo j": {
    "sport": "tn",
@@ -57248,6 +57248,76 @@
    "tip": "P2",
    "tipName": "Fabian Marozsan",
    "prob": 0.6239,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-26|maristany zuleta de reales g|pieri j": {
+   "sport": "tn",
+   "comp": "WTA · Delta Motors Tolentino Open",
+   "date": "2026-09-26",
+   "label": "Jessica Pieri – Guiomar Maristany Zuleta De Reales",
+   "p1Key": "pieri j",
+   "p2Key": "maristany zuleta de reales g",
+   "tip": "P2",
+   "tipName": "Guiomar Maristany Zuleta De Reales",
+   "prob": 0.5897,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-26|chwalinska m|fernandez l": {
+   "sport": "tn",
+   "comp": "WTA · Singapore Tennis Open presented by BNP Paribas",
+   "date": "2026-09-26",
+   "label": "Maja Chwalinska – Leylah Fernandez",
+   "p1Key": "chwalinska m",
+   "p2Key": "fernandez l",
+   "tip": "P1",
+   "tipName": "Maja Chwalinska",
+   "prob": 0.5456,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-26|brantmeier r|kraus s": {
+   "sport": "tn",
+   "comp": "WTA · Eupago Porto Open",
+   "date": "2026-09-26",
+   "label": "Sinja Kraus – Reese Brantmeier",
+   "p1Key": "kraus s",
+   "p2Key": "brantmeier r",
+   "tip": "P1",
+   "tipName": "Sinja Kraus",
+   "prob": 0.7666,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-26|cengiz b|dilek d": {
+   "sport": "tn",
+   "comp": "WTA · Turk Telekom Ankara Open",
+   "date": "2026-09-26",
+   "label": "Berfu Cengiz – Deniz Dilek",
+   "p1Key": "cengiz b",
+   "p2Key": "dilek d",
+   "tip": "P1",
+   "tipName": "Berfu Cengiz",
+   "prob": 0.6898,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-09-27|gaston h|rublev a": {
+   "sport": "tn",
+   "comp": "ATP · AITO Hangzhou Open",
+   "date": "2026-09-27",
+   "label": "Andrey Rublev – Hugo Gaston",
+   "p1Key": "rublev a",
+   "p2Key": "gaston h",
+   "tip": "P1",
+   "tipName": "Andrey Rublev",
+   "prob": 0.76,
    "status": "open",
    "result": null,
    "correct": null
