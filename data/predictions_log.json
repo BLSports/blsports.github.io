@@ -56098,9 +56098,9 @@
    "tip": "P1",
    "tipName": "Polina Iatcenko",
    "prob": 0.6842,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-09-25|maristany zuleta de reales g|masarova r": {
    "sport": "tn",
@@ -56354,9 +56354,9 @@
    "tip": "P2",
    "tipName": "Fabian Marozsan",
    "prob": 0.7325,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-09-25|faria j|gaston h": {
    "sport": "tn",
@@ -56438,9 +56438,9 @@
    "tip": "P1",
    "tipName": "Botic Van De Zandschulp",
    "prob": 0.7493,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-09-25|fangran t|kostovic t": {
    "sport": "tn",
@@ -56452,9 +56452,9 @@
    "tip": "P2",
    "tipName": "Teodora Kostovic",
    "prob": 0.595,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-09-25|hijikata r|rublev a": {
    "sport": "tn",
@@ -56494,9 +56494,9 @@
    "tip": "P2",
    "tipName": "Wang Xinyu",
    "prob": 0.7822,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-09-25|gibson t|sakkari m": {
    "sport": "tn",
@@ -57122,6 +57122,132 @@
    "tip": "P1",
    "tipName": "Hiroko Kuwata",
    "prob": 0.5944,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-26|sagandykova a|sidorova k": {
+   "sport": "tn",
+   "comp": "WTA · Jingshan Tennis Open",
+   "date": "2026-09-26",
+   "label": "Aruzhan  Sagandykova – Kristiana Sidorova",
+   "p1Key": "sagandykova a",
+   "p2Key": "sidorova k",
+   "tip": "P1",
+   "tipName": "Aruzhan  Sagandykova",
+   "prob": 0.6026,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-26|radisic n|yuan c": {
+   "sport": "tn",
+   "comp": "WTA · Jingshan Tennis Open",
+   "date": "2026-09-26",
+   "label": "Chengyiyi Yuan – Nika Radisic",
+   "p1Key": "yuan c",
+   "p2Key": "radisic n",
+   "tip": "P1",
+   "tipName": "Chengyiyi Yuan",
+   "prob": 0.6502,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-26|kuwata h|rajecki a": {
+   "sport": "tn",
+   "comp": "WTA · Jingshan Tennis Open",
+   "date": "2026-09-26",
+   "label": "Hiroko Kuwata – Amelia Rajecki",
+   "p1Key": "kuwata h",
+   "p2Key": "rajecki a",
+   "tip": "P1",
+   "tipName": "Hiroko Kuwata",
+   "prob": 0.5944,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-26|iatcenko p|kostovic t": {
+   "sport": "tn",
+   "comp": "WTA · Turk Telekom Ankara Open",
+   "date": "2026-09-26",
+   "label": "Polina Iatcenko – Teodora Kostovic",
+   "p1Key": "iatcenko p",
+   "p2Key": "kostovic t",
+   "tip": "P2",
+   "tipName": "Teodora Kostovic",
+   "prob": 0.524,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-26|kawaguchi n|meiqi g": {
+   "sport": "tn",
+   "comp": "WTA · Jingshan Tennis Open",
+   "date": "2026-09-26",
+   "label": "Natsumi Kawaguchi – Guo Meiqi",
+   "p1Key": "kawaguchi n",
+   "p2Key": "meiqi g",
+   "tip": "P2",
+   "tipName": "Guo Meiqi",
+   "prob": 0.6041,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-26|huang y|yashina e": {
+   "sport": "tn",
+   "comp": "WTA · Jingshan Tennis Open",
+   "date": "2026-09-26",
+   "label": "Yujia Huang – Ekaterina Yashina",
+   "p1Key": "huang y",
+   "p2Key": "yashina e",
+   "tip": "P1",
+   "tipName": "Yujia Huang",
+   "prob": 0.6519,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-26|leykina p|wushuang z": {
+   "sport": "tn",
+   "comp": "WTA · Jingshan Tennis Open",
+   "date": "2026-09-26",
+   "label": "Zheng Wushuang – Polina Leykina",
+   "p1Key": "wushuang z",
+   "p2Key": "leykina p",
+   "tip": "P1",
+   "tipName": "Zheng Wushuang",
+   "prob": 0.6763,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-09-27|basilashvili n|brooksby j": {
+   "sport": "tn",
+   "comp": "ATP · Chengdu Open",
+   "date": "2026-09-27",
+   "label": "Nikoloz Basilashvili – Jenson Brooksby",
+   "p1Key": "basilashvili n",
+   "p2Key": "brooksby j",
+   "tip": "P2",
+   "tipName": "Jenson Brooksby",
+   "prob": 0.6313,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-09-27|jacquet k|marozsan f": {
+   "sport": "tn",
+   "comp": "ATP · AITO Hangzhou Open",
+   "date": "2026-09-27",
+   "label": "Kyrian Jacquet – Fabian Marozsan",
+   "p1Key": "jacquet k",
+   "p2Key": "marozsan f",
+   "tip": "P2",
+   "tipName": "Fabian Marozsan",
+   "prob": 0.6239,
    "status": "open",
    "result": null,
    "correct": null
