@@ -56606,9 +56606,9 @@
    "tip": "P2",
    "tipName": "Valentin Vacherot",
    "prob": 0.842,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-09-26|halys q|safiullin r": {
    "sport": "tn",
@@ -57374,9 +57374,9 @@
    "tip": "P2",
    "tipName": "Erika Andreeva",
    "prob": 0.755,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-09-26|mert a|tikhonova a": {
    "sport": "tn",
@@ -57388,9 +57388,9 @@
    "tip": "P1",
    "tipName": "Anastasia Tikhonova",
    "prob": 0.5,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-09-26|crawley f|lacinova a": {
    "sport": "tn",
@@ -57508,9 +57508,9 @@
    "tip": "P2",
    "tipName": "Alina Korneeva",
    "prob": 0.5399,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-09-27|rajecki a|yuan c": {
    "sport": "tn",
@@ -57564,6 +57564,34 @@
    "tip": "P1",
    "tipName": "Alejandro Davidovich Fokina",
    "prob": 0.7871,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-27|birrell k|joint m": {
+   "sport": "tn",
+   "comp": "WTA · Korea Open",
+   "date": "2026-09-27",
+   "label": "Kimberly Birrell – Maya Joint",
+   "p1Key": "birrell k",
+   "p2Key": "joint m",
+   "tip": "P1",
+   "tipName": "Kimberly Birrell",
+   "prob": 0.6048,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-09-27|harris l|hurkacz h": {
+   "sport": "tn",
+   "comp": "ATP · Chengdu Open",
+   "date": "2026-09-27",
+   "label": "Hubert Hurkacz – Lloyd Harris",
+   "p1Key": "hurkacz h",
+   "p2Key": "harris l",
+   "tip": "P1",
+   "tipName": "Hubert Hurkacz",
+   "prob": 0.7153,
    "status": "open",
    "result": null,
    "correct": null
