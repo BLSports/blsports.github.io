@@ -45993,7 +45993,7 @@
    "prob": 0.4442,
    "tipScore": "1:0",
    "pOver25": 0.3202,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -46011,7 +46011,7 @@
    "prob": 0.6057,
    "tipScore": "1:2",
    "pOver25": 0.7107,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -46029,7 +46029,7 @@
    "prob": 0.5089,
    "tipScore": "1:0",
    "pOver25": 0.4377,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -46047,7 +46047,7 @@
    "prob": 0.702,
    "tipScore": "2:0",
    "pOver25": 0.6659,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -46065,7 +46065,7 @@
    "prob": 0.4767,
    "tipScore": "1:1",
    "pOver25": 0.6703,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -46083,7 +46083,7 @@
    "prob": 0.4358,
    "tipScore": "1:1",
    "pOver25": 0.5741,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -46227,7 +46227,7 @@
    "prob": 0.479,
    "tipScore": "1:1",
    "pOver25": 0.545,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -46245,7 +46245,7 @@
    "prob": 0.7205,
    "tipScore": "2:1",
    "pOver25": 0.7914,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -46263,7 +46263,7 @@
    "prob": 0.4209,
    "tipScore": "1:1",
    "pOver25": 0.6707,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -46317,7 +46317,7 @@
    "prob": 0.4222,
    "tipScore": "1:1",
    "pOver25": 0.5409,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -47468,7 +47468,7 @@
    "tip": "P1",
    "tipName": "Kaitlin Quevedo",
    "prob": 0.6696,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null
   },
@@ -56797,11 +56797,11 @@
    "comp": "MLS (USA)",
    "compId": "us1",
    "date": "2026-09-27",
-   "label": "CF Montréal – FC Cincinnati",
+   "label": "CF Montreal – FC Cincinnati",
    "homeKey": "cf montreal",
    "awayKey": "fc cincinnati",
    "tip": "1",
-   "tipName": "CF Montréal",
+   "tipName": "CF Montreal",
    "prob": 0.4078,
    "tipScore": "1:1",
    "pOver25": 0.6366,
@@ -56959,7 +56959,7 @@
    "comp": "MLS (USA)",
    "compId": "us1",
    "date": "2026-09-27",
-   "label": "Vancouver Whitecaps – D.C. United",
+   "label": "Vancouver Whitecaps – DC United",
    "homeKey": "vancouver whitecaps",
    "awayKey": "dc united",
    "tip": "1",
@@ -57052,9 +57052,9 @@
    "tip": "P1",
    "tipName": "Zheng Wushuang",
    "prob": 0.6763,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-09-27|sagandykova a|sidorova k": {
    "sport": "tn",
@@ -57066,9 +57066,9 @@
    "tip": "P1",
    "tipName": "Aruzhan  Sagandykova",
    "prob": 0.6026,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-09-27|radisic n|yuan c": {
    "sport": "tn",
@@ -57080,9 +57080,9 @@
    "tip": "P1",
    "tipName": "Chengyiyi Yuan",
    "prob": 0.6502,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-09-27|kawaguchi n|meiqi g": {
    "sport": "tn",
@@ -57094,9 +57094,9 @@
    "tip": "P2",
    "tipName": "Guo Meiqi",
    "prob": 0.6041,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-09-27|huang y|yashina e": {
    "sport": "tn",
@@ -57108,9 +57108,9 @@
    "tip": "P1",
    "tipName": "Yujia Huang",
    "prob": 0.6519,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-09-27|kuwata h|rajecki a": {
    "sport": "tn",
@@ -57122,9 +57122,9 @@
    "tip": "P1",
    "tipName": "Hiroko Kuwata",
    "prob": 0.5944,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-09-26|sagandykova a|sidorova k": {
    "sport": "tn",
@@ -57536,9 +57536,9 @@
    "tip": "P1",
    "tipName": "Elena Ruxandra Bertea",
    "prob": 0.5295,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-09-27|meiqi g|sidorova k": {
    "sport": "tn",
@@ -57721,6 +57721,114 @@
    "status": "open",
    "result": null,
    "correct": null
+  },
+  "fb|us1|2026-09-27|charlotte|chicago fire": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-09-27",
+   "label": "Charlotte – Chicago Fire",
+   "homeKey": "charlotte",
+   "awayKey": "chicago fire",
+   "tip": "1",
+   "tipName": "Charlotte",
+   "prob": 0.5522,
+   "tipScore": "2:1",
+   "pOver25": 0.6361,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|us1|2026-09-27|seattle sounders|minnesota united fc": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-09-27",
+   "label": "Seattle Sounders – Minnesota United FC",
+   "homeKey": "seattle sounders",
+   "awayKey": "minnesota united fc",
+   "tip": "1",
+   "tipName": "Seattle Sounders",
+   "prob": 0.4579,
+   "tipScore": "1:1",
+   "pOver25": 0.6664,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|us1|2026-09-27|fc dallas|los angeles fc": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-09-27",
+   "label": "FC Dallas – Los Angeles FC",
+   "homeKey": "fc dallas",
+   "awayKey": "los angeles fc",
+   "tip": "1",
+   "tipName": "FC Dallas",
+   "prob": 0.4713,
+   "tipScore": "1:1",
+   "pOver25": 0.5259,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|us1|2026-09-27|houston dynamo|sporting kansas city": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-09-27",
+   "label": "Houston Dynamo – Sporting Kansas City",
+   "homeKey": "houston dynamo",
+   "awayKey": "sporting kansas city",
+   "tip": "1",
+   "tipName": "Houston Dynamo",
+   "prob": 0.657,
+   "tipScore": "2:0",
+   "pOver25": 0.5585,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|us1|2026-09-27|austin|san diego": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-09-27",
+   "label": "Austin – San Diego",
+   "homeKey": "austin",
+   "awayKey": "san diego",
+   "tip": "1",
+   "tipName": "Austin",
+   "prob": 0.5313,
+   "tipScore": "1:1",
+   "pOver25": 0.5332,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|us1|2026-09-27|los angeles galaxy|colorado rapids": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-09-27",
+   "label": "Los Angeles Galaxy – Colorado Rapids",
+   "homeKey": "los angeles galaxy",
+   "awayKey": "colorado rapids",
+   "tip": "1",
+   "tipName": "Los Angeles Galaxy",
+   "prob": 0.3805,
+   "tipScore": "1:1",
+   "pOver25": 0.4217,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
   }
  }
 }
