@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-09-25T23:02:39.025536+02:00",
+ "generatedAt": "2026-09-26T02:20:05.703102+02:00",
  "windowDays": 3,
  "days": [
-  "2026-09-25",
   "2026-09-26",
-  "2026-09-27"
+  "2026-09-27",
+  "2026-09-28"
  ],
  "football": [
   {
@@ -192,9 +192,9 @@
      },
      "pBtts": 0.5565,
      "odds": {
-      "h": 2.35,
-      "d": 3.5,
-      "a": 2.9,
+      "h": 2.45,
+      "d": 3.4,
+      "a": 2.7,
       "src": "Bet365"
      },
      "value": null,
@@ -250,8 +250,8 @@
       "N",
       "N"
      ],
-     "load14Home": 2,
-     "load14Away": 2,
+     "load14Home": 1,
+     "load14Away": 1,
      "posHome": 14,
      "posAway": 20,
      "nTeams": 22,
@@ -324,7 +324,7 @@
      "load14Home": 0,
      "load14Away": 2,
      "posHome": null,
-     "posAway": 6,
+     "posAway": 7,
      "nTeams": 22,
      "h2h": [],
      "prediction": null,
@@ -377,7 +377,7 @@
       "N"
      ],
      "load14Home": 2,
-     "load14Away": 2,
+     "load14Away": 1,
      "posHome": 11,
      "posAway": 19,
      "nTeams": 22,
@@ -395,9 +395,9 @@
      },
      "pBtts": 0.4672,
      "odds": {
-      "h": 1.68,
-      "d": 3.1,
-      "a": 4.1,
+      "h": 1.7,
+      "d": 3.05,
+      "a": 3.95,
       "src": "PMU (FR)"
      },
      "value": null,
@@ -449,7 +449,7 @@
       "S"
      ],
      "load14Home": 2,
-     "load14Away": 2,
+     "load14Away": 1,
      "posHome": 18,
      "posAway": 16,
      "nTeams": 22,
@@ -537,9 +537,9 @@
       "S"
      ],
      "load14Home": 2,
-     "load14Away": 2,
-     "posHome": 3,
-     "posAway": 4,
+     "load14Away": 1,
+     "posHome": 4,
+     "posAway": 5,
      "nTeams": 22,
      "h2h": [],
      "prediction": {
@@ -622,7 +622,7 @@
      ],
      "load14Home": 1,
      "load14Away": 2,
-     "posHome": 5,
+     "posHome": 6,
      "posAway": 17,
      "nTeams": 22,
      "h2h": [],
@@ -702,7 +702,7 @@
       "S"
      ],
      "load14Home": 2,
-     "load14Away": 2,
+     "load14Away": 1,
      "posHome": 2,
      "posAway": 10,
      "nTeams": 22,
@@ -823,6 +823,105 @@
      "scorersAway": [],
      "scorersPeriod": "Saison",
      "analysis": "Real Oviedo ist gegen Sporting Gijón leicht favorisiert (37 % zu 26 %). In der Tabelle stehen sich Platz 13 und Platz 9 gegenüber. Heim-/Auswärtsbilanz: Real Oviedo gewann 0 der letzten 3 Heimspiele, Sporting Gijón 4 der letzten 5 Auswärtsspiele. Das Modell erwartet eher wenige Tore (xG 0,8:0,6; über 2,5 Tore: 18 %, beide Teams treffen zu 27 %). Quoten-Hinweis: Das Modell hält Tipp X (Quote 3,20) für 8 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-09-28T20:30:00+02:00",
+     "home": "Leganés",
+     "away": "Castellón",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/17534.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/4438.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "S",
+      "S",
+      "U",
+      "N",
+      "S"
+     ],
+     "formAway": [
+      "U",
+      "S",
+      "S",
+      "S",
+      "S"
+     ],
+     "formHomeH": [
+      "N",
+      "U",
+      "S",
+      "S",
+      "S"
+     ],
+     "formAwayA": [
+      "U",
+      "S",
+      "S",
+      "S",
+      "S"
+     ],
+     "load14Home": 2,
+     "load14Away": 1,
+     "posHome": 8,
+     "posAway": 1,
+     "nTeams": 22,
+     "h2h": [
+      {
+       "date": "16.01.2026",
+       "home": "Castellon",
+       "away": "Leganes",
+       "score": "2:0"
+      },
+      {
+       "date": "29.09.2025",
+       "home": "Leganes",
+       "away": "Castellon",
+       "score": "0:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.2287,
+      "pDraw": 0.2678,
+      "pAway": 0.5035,
+      "pOver25": 0.4099,
+      "pBtts": 0.4465,
+      "xgHome": 0.88,
+      "xgAway": 1.44,
+      "tipScore": "0:1",
+      "confidence": "hoch"
+     },
+     "pBtts": 0.4465,
+     "odds": {
+      "h": 2.85,
+      "d": 3.25,
+      "a": 2.32,
+      "src": "Betsson"
+     },
+     "value": {
+      "outcome": "2",
+      "edge": 0.1079,
+      "modelP": 0.5035,
+      "odds": 2.32
+     },
+     "scorersHome": [
+      {
+       "name": "Ismaël Gharbi",
+       "goals": 2
+      },
+      {
+       "name": "Naim García",
+       "goals": 2
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "Ousmane Camara",
+       "goals": 4
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Castellón ist bei Leganés leicht favorisiert (50 % zu 23 %). In der Tabelle stehen sich Platz 7 und Platz 1 gegenüber. Heim-/Auswärtsbilanz: Leganés gewann 3 der letzten 5 Heimspiele, Castellón 4 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:0 (Castellon – Leganes). Das Modell erwartet eher wenige Tore (xG 0,9:1,4; über 2,5 Tore: 41 %, beide Teams treffen zu 45 %). Gefährlichste Torschützen: bei Castellón Ousmane Camara (4 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,32) für 11 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
@@ -3024,16 +3123,16 @@
      },
      "pBtts": 0.6797,
      "odds": {
-      "h": 2.1,
-      "d": 3.8,
-      "a": 3.1,
+      "h": 1.95,
+      "d": 3.9,
+      "a": 3.5,
       "src": "Bet365"
      },
      "value": {
       "outcome": "2",
-      "edge": 0.1253,
+      "edge": 0.1583,
       "modelP": 0.4291,
-      "odds": 3.1
+      "odds": 3.5
      },
      "scorersHome": [
       {
@@ -3043,7 +3142,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Portland Timbers ist bei San Jose Earthquakes leicht favorisiert (43 % zu 35 %). In der Tabelle stehen sich Platz 5 und Platz 9 gegenüber. Das letzte Duell (2026) endete 1:3 (Portland Timbers – San Jose Earthquakes). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,8; über 2,5 Tore: 68 %, beide Teams treffen zu 68 %). Gefährlichste Torschützen: bei San Jose Earthquakes P. Judd (13 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,10) für 13 Prozentpunkte wahrscheinlicher als der Markt. Personal: San Jose Earthquakes fehlen 6 Spieler (u.a. E. Edwards); Portland Timbers fehlen 6 Spieler (u.a. D. Da Costa).",
+     "analysis": "Portland Timbers ist bei San Jose Earthquakes leicht favorisiert (43 % zu 35 %). In der Tabelle stehen sich Platz 5 und Platz 9 gegenüber. Das letzte Duell (2026) endete 1:3 (Portland Timbers – San Jose Earthquakes). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,8; über 2,5 Tore: 68 %, beide Teams treffen zu 68 %). Gefährlichste Torschützen: bei San Jose Earthquakes P. Judd (13 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,50) für 16 Prozentpunkte wahrscheinlicher als der Markt. Personal: San Jose Earthquakes fehlen 6 Spieler (u.a. E. Edwards); Portland Timbers fehlen 6 Spieler (u.a. D. Da Costa).",
      "injuriesHome": [
       {
        "name": "E. Edwards",
@@ -3239,6 +3338,154 @@
       }
      ],
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-09-28T01:00:00+02:00",
+     "home": "Columbus Crew",
+     "away": "Inter Miami CF",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/183.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/20232.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "S",
+      "N",
+      "N",
+      "S",
+      "S"
+     ],
+     "formAway": [
+      "U",
+      "U",
+      "U",
+      "S",
+      "U"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 13,
+     "posAway": 3,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "01.08.2026",
+       "home": "Inter Miami",
+       "away": "Columbus Crew",
+       "score": "2:2"
+      },
+      {
+       "date": "31.05.2025",
+       "home": "Inter Miami",
+       "away": "Columbus Crew",
+       "score": "5:1"
+      },
+      {
+       "date": "19.04.2025",
+       "home": "Columbus Crew",
+       "away": "Inter Miami",
+       "score": "0:1"
+      },
+      {
+       "date": "02.10.2024",
+       "home": "Columbus Crew",
+       "away": "Inter Miami",
+       "score": "2:3"
+      },
+      {
+       "date": "13.08.2024",
+       "home": "Columbus Crew",
+       "away": "Inter Miami",
+       "score": "3:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.418,
+      "pDraw": 0.2211,
+      "pAway": 0.3608,
+      "pOver25": 0.6851,
+      "pBtts": 0.6864,
+      "xgHome": 1.84,
+      "xgAway": 1.7,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6864,
+     "odds": {
+      "h": 2.88,
+      "d": 4.0,
+      "a": 2.2,
+      "src": "Bet365"
+     },
+     "value": {
+      "outcome": "1",
+      "edge": 0.0879,
+      "modelP": 0.418,
+      "odds": 2.88
+     },
+     "scorersHome": [],
+     "scorersAway": [
+      {
+       "name": "Lionel Messi",
+       "goals": 20
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Zwischen Columbus Crew und Inter Miami CF deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Columbus Crew 42 %, Unentschieden 22 %, Sieg Inter Miami CF 36 %). In der Tabelle stehen sich Platz 13 und Platz 3 gegenüber. Die Form spricht für Columbus Crew: 3 Siege aus den letzten 5 Spielen, Inter Miami CF holte nur 1. Das letzte Duell (2026) endete 2:2 (Inter Miami – Columbus Crew). Das Modell erwartet ein torreiches Spiel (xG 1,8:1,7; über 2,5 Tore: 69 %, beide Teams treffen zu 69 %). Gefährlichste Torschützen: bei Inter Miami CF Lionel Messi (20 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,88) für 9 Prozentpunkte wahrscheinlicher als der Markt. Personal: Columbus Crew fehlen 6 Spieler (u.a. M. Farsi); Inter Miami CF fehlen 6 Spieler (u.a. S. Reguilon).",
+     "injuriesHome": [
+      {
+       "name": "M. Farsi",
+       "reason": "Pelvis Injury"
+      },
+      {
+       "name": "I. Aliyu",
+       "reason": "Ankle Injury"
+      },
+      {
+       "name": "D. Chambost",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "Y. Cheberko",
+       "reason": "Thigh Injury"
+      },
+      {
+       "name": "W. Abou Ali",
+       "reason": "Injury"
+      },
+      {
+       "name": "A. Gomes",
+       "reason": "Leg Injury"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "S. Reguilon",
+       "reason": "Injury"
+      },
+      {
+       "name": "L. Suarez",
+       "reason": "Leg Injury"
+      },
+      {
+       "name": "M. Falcon",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "R. de Paul",
+       "reason": "Leg Injury"
+      },
+      {
+       "name": "T. Allende",
+       "reason": "Hamstring Injury"
+      },
+      {
+       "name": "D. Ayala",
+       "reason": "Groin Injury"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
    "seasonHasStarted": false,
@@ -3296,7 +3543,7 @@
    "tour": "WTA",
    "tournament": "Korea Open",
    "round": "Viertelfinale",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Elena-Gabriela Ruse",
     "rank": 66,
@@ -3338,7 +3585,7 @@
    "tour": "WTA",
    "tournament": "Korea Open",
    "round": "Viertelfinale",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Kimberly Birrell",
     "rank": 60,
@@ -3380,7 +3627,7 @@
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "Qualifying 1st Round",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Aruzhan  Sagandykova",
     "rank": null,
@@ -3422,7 +3669,7 @@
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "Qualifying 1st Round",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Chengyiyi Yuan",
     "rank": 432,
@@ -3464,7 +3711,7 @@
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "Qualifying 1st Round",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Hiroko Kuwata",
     "rank": null,
@@ -3506,7 +3753,7 @@
    "tour": "WTA",
    "tournament": "Korea Open",
    "round": "Viertelfinale",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Alina Korneeva",
     "rank": 82,
@@ -3548,7 +3795,7 @@
    "tour": "WTA",
    "tournament": "Korea Open",
    "round": "Viertelfinale",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Maya Joint",
     "rank": 99,
@@ -3615,7 +3862,7 @@
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "Qualifying 1st Round",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Zhang Ying",
     "rank": null,
@@ -3653,7 +3900,7 @@
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "Qualifying 1st Round",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Natsumi Kawaguchi",
     "rank": 411,
@@ -3695,7 +3942,7 @@
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "Qualifying 1st Round",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Yujia Huang",
     "rank": null,
@@ -3896,7 +4143,7 @@
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "Qualifying 1st Round",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Zheng Wushuang",
     "rank": null,
@@ -4610,7 +4857,12 @@
    "analysis": "Maja Chwalinska (Weltrangliste #25) trifft auf Leylah Fernandez (#31). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Maja Chwalinska mit 55 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 2.2,
+    "p2": 1.56,
+    "src": "Unibet (FR)"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-26T12:00:00+02:00",
@@ -4681,8 +4933,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 8
+    "last7": 3,
+    "sets7": 6
    },
    "pP1": 0.476,
    "model": {
@@ -4795,8 +5047,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 5,
-    "sets7": 12
+    "last7": 4,
+    "sets7": 10
    },
    "p2": {
     "name": "Maria Timofeeva",
@@ -4817,7 +5069,7 @@
     "pRank": 0.3214
    },
    "h2h": [],
-   "analysis": "Mia Pohankova (Weltrangliste #212) trifft auf Maria Timofeeva (#88). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Maria Timofeeva mit 68 % vorn. Mia Pohankova hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 12 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Mia Pohankova (Weltrangliste #212) trifft auf Maria Timofeeva (#88). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Maria Timofeeva mit 68 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -5008,8 +5260,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 8
+    "last7": 3,
+    "sets7": 6
    },
    "pP1": 0.4103,
    "model": {
@@ -5018,7 +5270,7 @@
     "pRank": 0.4103
    },
    "h2h": [],
-   "analysis": "Jessica Pieri (#383) trifft auf Guiomar Maristany Zuleta De Reales, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Guiomar Maristany Zuleta De Reales mit 59 % vorn.",
+   "analysis": "Jessica Pieri (#383) trifft auf Guiomar Maristany Zuleta De Reales, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Guiomar Maristany Zuleta De Reales mit 59 % vorn. Jessica Pieri hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 11 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -5300,200 +5552,7 @@
    "wta": 0
   }
  },
- "tennisFinished": [
-  {
-   "tour": "ATP",
-   "tournament": "Chengdu Open",
-   "p1": "Denis Shapovalov",
-   "p2": "Vit Kopriva",
-   "winner": "Denis Shapovalov",
-   "score": "6:2 6:3"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Chengdu Open",
-   "p1": "Lorenzo Sonego",
-   "p2": "Jenson Brooksby",
-   "winner": "Jenson Brooksby",
-   "score": "7:5 5:7 2:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Chengdu Open",
-   "p1": "Adrian Mannarino",
-   "p2": "Alejandro Tabilo",
-   "winner": "Adrian Mannarino",
-   "score": "6:4 6:4"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Chengdu Open",
-   "p1": "Botic Van De Zandschulp",
-   "p2": "Nikoloz Basilashvili",
-   "winner": "Nikoloz Basilashvili",
-   "score": "4:6 5:7"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "AITO Hangzhou Open",
-   "p1": "Tomas Martin Etcheverry",
-   "p2": "Kyrian Jacquet",
-   "winner": "Kyrian Jacquet",
-   "score": "2:6 3:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "AITO Hangzhou Open",
-   "p1": "Taro Daniel",
-   "p2": "Fabian Marozsan",
-   "winner": "Fabian Marozsan",
-   "score": "7:6 5:7 6:7"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "AITO Hangzhou Open",
-   "p1": "Andrey Rublev",
-   "p2": "Rinky Hijikata",
-   "winner": "Andrey Rublev",
-   "score": "6:3 6:3"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "AITO Hangzhou Open",
-   "p1": "Hugo Gaston",
-   "p2": "Jaime Faria",
-   "winner": "Hugo Gaston",
-   "score": "4:6 7:6 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Singapore Tennis Open presented by BNP Paribas",
-   "p1": "Maja Chwalinska",
-   "p2": "Elise Mertens",
-   "winner": "Maja Chwalinska",
-   "score": "6:2 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Singapore Tennis Open presented by BNP Paribas",
-   "p1": "Tatiana Prozorova",
-   "p2": "Wang Xinyu",
-   "winner": "Tatiana Prozorova",
-   "score": "3:6 7:5 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Singapore Tennis Open presented by BNP Paribas",
-   "p1": "Leylah Fernandez",
-   "p2": "Mirra Andreeva",
-   "winner": "Leylah Fernandez",
-   "score": "6:2 7:5"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Singapore Tennis Open presented by BNP Paribas",
-   "p1": "Talia Gibson",
-   "p2": "Maria Sakkari",
-   "winner": "Talia Gibson",
-   "score": "6:1 4:6 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Rebeka Masarova",
-   "p2": "Guiomar Maristany Zuleta De Reales",
-   "winner": "Guiomar Maristany Zuleta De Reales",
-   "score": "4:6 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Jessica Pieri",
-   "p2": "Mia Ristic",
-   "winner": "Jessica Pieri",
-   "score": "6:4 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Oksana Selekhmeteva",
-   "p2": "Ekaterine Gorgodze",
-   "winner": "Oksana Selekhmeteva",
-   "score": "6:1 2:6 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Delta Motors Tolentino Open",
-   "p1": "Julia Grabher",
-   "p2": "Nuria Brancaccio",
-   "winner": "Julia Grabher",
-   "score": "2:6 6:1 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Angelina Voloshchuk",
-   "p2": "Reese Brantmeier",
-   "winner": "Reese Brantmeier",
-   "score": "3:6 2:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Sinja Kraus",
-   "p2": "Elena Malygina",
-   "winner": "Sinja Kraus",
-   "score": "6:7 6:3 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Gabriela Knutson",
-   "p2": "Maria Timofeeva",
-   "winner": "Maria Timofeeva",
-   "score": "1:6 2:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Eupago Porto Open",
-   "p1": "Katie Swan",
-   "p2": "Mia Pohankova",
-   "winner": "Mia Pohankova",
-   "score": "6:3 5:7 1:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Polina Iatcenko",
-   "p2": "Ksenia Zaytseva",
-   "winner": "Polina Iatcenko",
-   "score": "6:3 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Tian Fangran",
-   "p2": "Teodora Kostovic",
-   "winner": "Teodora Kostovic",
-   "score": "0:6 5:7"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Shi Han",
-   "p2": "Berfu Cengiz",
-   "winner": "Berfu Cengiz",
-   "score": "3:6 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Turk Telekom Ankara Open",
-   "p1": "Anastasia Gasanova",
-   "p2": "Deniz Dilek",
-   "winner": "Deniz Dilek",
-   "score": "6:4 2:6 5:7"
-  }
- ],
+ "tennisFinished": [],
  "stats": {
   "overall": {
    "n": 2441,
@@ -5514,7 +5573,7 @@
    "n": 849,
    "correct": 97
   },
-  "open": 240,
+  "open": 236,
   "recent": [
    {
     "date": "2026-09-25",
