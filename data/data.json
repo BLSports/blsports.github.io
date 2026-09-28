@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-09-28T22:21:28.274458+02:00",
+ "generatedAt": "2026-09-29T00:35:43.696046+02:00",
  "windowDays": 3,
  "days": [
-  "2026-09-28",
   "2026-09-29",
-  "2026-09-30"
+  "2026-09-30",
+  "2026-10-01"
  ],
  "football": [
   {
@@ -237,7 +237,67 @@
    "name": "MLS (USA)",
    "flag": "🇺🇸",
    "espn": "usa.1",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-10-01T01:30:00+02:00",
+     "home": "Red Bull New York",
+     "away": "St. Louis CITY SC",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/190.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/21812.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [],
+     "formAway": [],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": null,
+     "posAway": 5,
+     "nTeams": null,
+     "h2h": [],
+     "prediction": null,
+     "pBtts": null,
+     "odds": null,
+     "value": null,
+     "scorersHome": [],
+     "scorersAway": [
+      {
+       "name": "Rafael Navarro",
+       "goals": 14
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": " Personal: St. Louis CITY SC fehlen 20 Spieler (u.a. F. Fall).",
+     "injuriesAway": [
+      {
+       "name": "F. Fall",
+       "reason": "Leg Injury"
+      },
+      {
+       "name": "E. Lowen",
+       "reason": "Personal Reasons"
+      },
+      {
+       "name": "T. Ostrak",
+       "reason": "Leg Injury"
+      },
+      {
+       "name": "T. Pearce",
+       "reason": "Inactive"
+      },
+      {
+       "name": "T. Totland",
+       "reason": "Injury"
+      },
+      {
+       "name": "C. Teuchert",
+       "reason": "Ankle Injury"
+      }
+     ],
+     "basis": "Datenbasis: Verletztenliste. Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": false,
    "isCup": false
   },
@@ -377,7 +437,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Arthur Gea",
     "rank": 61,
@@ -419,7 +479,7 @@
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Sofia Costoulas",
     "rank": 159,
@@ -441,8 +501,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 3
+    "last7": 0,
+    "sets7": 0
    },
    "pP1": 0.8021,
    "model": {
@@ -461,7 +521,7 @@
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Aliona Falei",
     "rank": 220,
@@ -471,8 +531,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 2
+    "last7": 0,
+    "sets7": 0
    },
    "p2": {
     "name": "Tyra Caterina Grant",
@@ -496,14 +556,14 @@
    "analysis": "Aliona Falei (Weltrangliste #220) trifft auf Tyra Caterina Grant (#156). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Tyra Caterina Grant mit 57 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-29T05:00:00+02:00",
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Rina Saigo",
     "rank": 288,
@@ -545,7 +605,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Vivian Wolff",
     "rank": 245,
@@ -587,7 +647,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Bai Zhuoxuan",
     "rank": null,
@@ -629,7 +689,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Valeria Savinykh",
     "rank": 652,
@@ -671,7 +731,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Ma YeXin",
     "rank": null,
@@ -755,7 +815,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Alex Molcan",
     "rank": 96,
@@ -847,7 +907,7 @@
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Ru Xi Wu",
     "rank": 813,
@@ -869,8 +929,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 2
+    "last7": 0,
+    "sets7": 0
    },
    "pP1": 0.3018,
    "model": {
@@ -882,14 +942,14 @@
    "analysis": "Ru Xi Wu (Weltrangliste #813) trifft auf Kyoka Okamura (#303). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Kyoka Okamura mit 70 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-29T06:30:00+02:00",
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Daria Egorova",
     "rank": 351,
@@ -899,8 +959,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 5
+    "last7": 1,
+    "sets7": 3
    },
    "p2": {
     "name": "Kristiana Sidorova",
@@ -931,7 +991,7 @@
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Sara Sorribes Tormo",
     "rank": 194,
@@ -973,7 +1033,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Linda Fruhvirtova",
     "rank": 181,
@@ -1015,7 +1075,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Varvara Lepchenko",
     "rank": 189,
@@ -1037,8 +1097,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 6
+    "last7": 2,
+    "sets7": 4
    },
    "pP1": 0.4064,
    "model": {
@@ -1057,7 +1117,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "You Xiaodi",
     "rank": null,
@@ -1099,7 +1159,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Shi Han",
     "rank": null,
@@ -1121,8 +1181,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 4
+    "last7": 1,
+    "sets7": 2
    },
    "pP1": 0.344,
    "model": {
@@ -1183,7 +1243,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Pablo Carreno Busta",
     "rank": 69,
@@ -1225,7 +1285,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Cui Jie",
     "rank": null,
@@ -1292,7 +1352,7 @@
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Darya Khamutsianskaya",
     "rank": null,
@@ -1359,7 +1419,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Storm Hunter",
     "rank": 182,
@@ -1369,8 +1429,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 6
+    "last7": 1,
+    "sets7": 3
    },
    "p2": {
     "name": "Ksenia Zaytseva",
@@ -1381,8 +1441,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 5,
-    "sets7": 13
+    "last7": 3,
+    "sets7": 7
    },
    "pP1": 0.6594,
    "model": {
@@ -1391,7 +1451,7 @@
     "pRank": 0.6594
    },
    "h2h": [],
-   "analysis": "Storm Hunter (Weltrangliste #182) trifft auf Ksenia Zaytseva (#396). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Storm Hunter mit 66 % vorn. Ksenia Zaytseva hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 13 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Storm Hunter (Weltrangliste #182) trifft auf Ksenia Zaytseva (#396). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Storm Hunter mit 66 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1401,7 +1461,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Mai Hontama",
     "rank": 177,
@@ -1443,7 +1503,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Darya Astakhova",
     "rank": 187,
@@ -1453,8 +1513,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 8
+    "last7": 2,
+    "sets7": 5
    },
    "p2": {
     "name": "Maddison Inglis",
@@ -1485,7 +1545,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Anna-Lena Friedsam",
     "rank": 260,
@@ -1577,7 +1637,7 @@
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Wang Yuhan",
     "rank": null,
@@ -1619,7 +1679,7 @@
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Sofya Lansere",
     "rank": 281,
@@ -1711,7 +1771,7 @@
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Tian Fangran",
     "rank": null,
@@ -1721,8 +1781,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 6
+    "last7": 2,
+    "sets7": 4
    },
    "p2": {
     "name": "Jessica Bouzas Maneiro",
@@ -1813,8 +1873,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 5
+    "last7": 1,
+    "sets7": 3
    },
    "p2": {
     "name": "Elena Pridankina",
@@ -1939,8 +1999,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 2
+    "last7": 0,
+    "sets7": 0
    },
    "p2": {
     "name": "Lola Radivojevic",
@@ -1964,7 +2024,7 @@
    "analysis": "Melisa Ercan (Weltrangliste #655) trifft auf Lola Radivojevic (#178). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Lola Radivojevic mit 75 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-29T12:30:00+02:00",
@@ -2035,8 +2095,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 9
+    "last7": 3,
+    "sets7": 6
    },
    "pP1": 0.4395,
    "model": {
@@ -2055,7 +2115,7 @@
    "tour": "ATP",
    "tournament": "Chengdu Open",
    "round": "Finale",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Alejandro Davidovich Fokina",
     "rank": 29,
@@ -3094,7 +3154,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Hubert Hurkacz",
     "rank": 46,
@@ -3130,8 +3190,8 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 2.46,
-    "p2": 1.54,
+    "p1": 2.39,
+    "p2": 1.57,
     "src": "Marathon Bet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -3141,7 +3201,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Cameron Norrie",
     "rank": 39,
@@ -3188,7 +3248,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Flavio Cobolli",
     "rank": 7,
@@ -3235,7 +3295,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Andrey Rublev",
     "rank": 25,
@@ -3282,7 +3342,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Quentin Halys",
     "rank": 49,
@@ -3329,7 +3389,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Felix Auger-Aliassime",
     "rank": 5,
@@ -3376,7 +3436,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Novak Djokovic",
     "rank": 12,
@@ -3423,7 +3483,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Bu Yunchaokete",
     "rank": 111,
@@ -3470,7 +3530,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Sebastian Baez",
     "rank": 51,
@@ -3512,7 +3572,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Mariano Navone",
     "rank": 45,
@@ -3548,8 +3608,8 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 5.25,
-    "p2": 1.16,
+    "p1": 4.95,
+    "p2": 1.17,
     "src": "Marathon Bet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -3559,7 +3619,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Jakub Mensik",
     "rank": 15,
@@ -3595,8 +3655,8 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 1.55,
-    "p2": 2.43,
+    "p1": 1.56,
+    "p2": 2.41,
     "src": "Marathon Bet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -3606,7 +3666,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Thiago Agustin Tirante",
     "rank": 52,
@@ -3853,7 +3913,7 @@
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "2. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Fiona Ferro",
     "rank": 108,
@@ -3863,8 +3923,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 5
+    "last7": 1,
+    "sets7": 3
    },
    "p2": {
     "name": "Wei Sijia",
@@ -3895,7 +3955,7 @@
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "2. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Emerson Jones",
     "rank": 134,
@@ -4126,8 +4186,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 8
+    "last7": 3,
+    "sets7": 5
    },
    "pP1": 0.6756,
    "model": {
@@ -4136,7 +4196,7 @@
     "pRank": 0.6756
    },
    "h2h": [],
-   "analysis": "Anna Blinkova (Weltrangliste #89) trifft auf Viktoria Hruncakova (#211). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Anna Blinkova mit 68 % vorn. Viktoria Hruncakova hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 8 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Anna Blinkova (Weltrangliste #89) trifft auf Viktoria Hruncakova (#211). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Anna Blinkova mit 68 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -4196,7 +4256,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Maria Timofeeva",
     "rank": 68,
@@ -4232,8 +4292,8 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 1.65,
-    "p2": 2.22,
+    "p1": 1.59,
+    "p2": 2.34,
     "src": "Marathon Bet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -4243,7 +4303,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Sinja Kraus",
     "rank": 95,
@@ -4253,8 +4313,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 9
+    "last7": 3,
+    "sets7": 7
    },
    "p2": {
     "name": "Maya Joint",
@@ -4265,8 +4325,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 5,
-    "sets7": 11
+    "last7": 4,
+    "sets7": 8
    },
    "pP1": 0.4499,
    "model": {
@@ -4290,7 +4350,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Dayana Yastremska",
     "rank": 111,
@@ -4326,8 +4386,8 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 2.52,
-    "p2": 1.53,
+    "p1": 2.55,
+    "p2": 1.52,
     "src": "Coolbet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -4337,7 +4397,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Anhelina Kalinina",
     "rank": 50,
@@ -4384,7 +4444,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Tamara Korpatsch",
     "rank": 53,
@@ -4420,8 +4480,8 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 2.66,
-    "p2": 1.47,
+    "p1": 2.69,
+    "p2": 1.46,
     "src": "Marathon Bet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -4431,7 +4491,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Yuan Yue",
     "rank": 135,
@@ -4441,8 +4501,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 3
+    "last7": 0,
+    "sets7": 0
    },
    "p2": {
     "name": "Oleksandra Oliynykova",
@@ -4473,7 +4533,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Polina Kudermetova",
     "rank": 104,
@@ -4483,8 +4543,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 3
+    "last7": 0,
+    "sets7": 0
    },
    "p2": {
     "name": "Mayar Sherif",
@@ -4509,18 +4569,18 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 1.54,
-    "p2": 2.46,
+    "p1": 1.52,
+    "p2": 2.51,
     "src": "Marathon Bet"
    },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-30T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Lilli Tagger",
     "rank": 61,
@@ -4567,7 +4627,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Alina Korneeva",
     "rank": 69,
@@ -4577,8 +4637,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 9
+    "last7": 3,
+    "sets7": 7
    },
    "p2": {
     "name": "Viktorija Golubic",
@@ -4599,12 +4659,12 @@
     "pRank": 0.4937
    },
    "h2h": [],
-   "analysis": "Alina Korneeva (Weltrangliste #69) trifft auf Viktorija Golubic (#67). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Viktorija Golubic mit 51 % vorn. Alina Korneeva hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 9 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Alina Korneeva (Weltrangliste #69) trifft auf Viktorija Golubic (#67). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Viktorija Golubic mit 51 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 1.52,
-    "p2": 2.51,
+    "p1": 1.48,
+    "p2": 2.62,
     "src": "Marathon Bet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -4614,7 +4674,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Renata Zarazua",
     "rank": 94,
@@ -4661,7 +4721,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Magdalena Frech",
     "rank": 48,
@@ -4702,6 +4762,451 @@
     "src": "Marathon Bet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-01T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Camila Osorio",
+    "rank": 66,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Lanlana Tararudee",
+    "rank": 63,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
+   },
+   "pP1": 0.4901,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4901
+   },
+   "h2h": [],
+   "analysis": "Camila Osorio (Weltrangliste #66) trifft auf Lanlana Tararudee (#63). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Lanlana Tararudee mit 51 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-01T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Daria Kasatkina",
+    "rank": 87,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Paula Badosa",
+    "rank": 59,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.4182,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4182
+   },
+   "h2h": [],
+   "analysis": "Daria Kasatkina (Weltrangliste #87) trifft auf Paula Badosa (#59). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Paula Badosa mit 58 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "odds": {
+    "p1": 2.95,
+    "p2": 1.41,
+    "src": "Betsson"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-01T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Xinran Sun",
+    "rank": 582,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Eva Lys",
+    "rank": 102,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.1854,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.1854
+   },
+   "h2h": [],
+   "analysis": "Xinran Sun (Weltrangliste #582) trifft auf Eva Lys (#102). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Eva Lys mit 81 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-01T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Kimberly Birrell",
+    "rank": 41,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 5,
+    "sets7": 12
+   },
+   "p2": {
+    "name": "Aoi Ito",
+    "rank": 361,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.864,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.864
+   },
+   "h2h": [],
+   "analysis": "Kimberly Birrell (Weltrangliste #41) trifft auf Aoi Ito (#361). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Kimberly Birrell mit 86 % vorn. Kimberly Birrell hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 12 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "odds": {
+    "p1": 1.23,
+    "p2": 4.1,
+    "src": "Marathon Bet"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-01T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Ashlyn Krueger",
+    "rank": 73,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Sofia Kenin",
+    "rank": 107,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "pP1": 0.5805,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.5805
+   },
+   "h2h": [],
+   "analysis": "Ashlyn Krueger (Weltrangliste #73) trifft auf Sofia Kenin (#107). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Ashlyn Krueger mit 58 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "odds": {
+    "p1": 1.6,
+    "p2": 2.33,
+    "src": "LeoVegas (SE)"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-01T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Anastasia Zakharova",
+    "rank": 110,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Shao Yushan",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.6677,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6677
+   },
+   "h2h": [],
+   "analysis": "Anastasia Zakharova (#110) trifft auf Shao Yushan, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Anastasia Zakharova mit 67 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-01T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Katerina Siniakova",
+    "rank": 55,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Magda Linette",
+    "rank": 80,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.579,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.579
+   },
+   "h2h": [],
+   "analysis": "Katerina Siniakova (Weltrangliste #55) trifft auf Magda Linette (#80). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Katerina Siniakova mit 58 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "odds": {
+    "p1": 1.54,
+    "p2": 2.46,
+    "src": "Marathon Bet"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-01T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Zhu Lin",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Alycia Parks",
+    "rank": 70,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
+   },
+   "pP1": 0.2531,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.2531
+   },
+   "h2h": [],
+   "analysis": "Zhu Lin – aktuell ohne Top-Ranking – trifft auf Alycia Parks (#70). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alycia Parks mit 75 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-01T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Panna Udvardy",
+    "rank": 79,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Gao Xinyu",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.727,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.727
+   },
+   "h2h": [],
+   "analysis": "Panna Udvardy (#79) trifft auf Gao Xinyu, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Panna Udvardy mit 73 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-01T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Alina Charaeva",
+    "rank": 118,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 6
+   },
+   "p2": {
+    "name": "Yuliia Starodubtseva",
+    "rank": 45,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.3059,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3059
+   },
+   "h2h": [],
+   "analysis": "Alina Charaeva (Weltrangliste #118) trifft auf Yuliia Starodubtseva (#45). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Yuliia Starodubtseva mit 69 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "odds": {
+    "p1": 2.48,
+    "p2": 1.54,
+    "src": "LeoVegas (SE)"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   }
  ],
  "meta": {
@@ -4720,469 +5225,12 @@
    "wta": 0
   }
  },
- "tennisFinished": [
-  {
-   "tour": "ATP",
-   "tournament": "Chengdu Open",
-   "p1": "Alejandro Davidovich Fokina",
-   "p2": "Nikoloz Basilashvili",
-   "winner": "Alejandro Davidovich Fokina",
-   "score": "4:6 6:4 6:3"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Chengdu Open",
-   "p1": "Denis Shapovalov",
-   "p2": "Hubert Hurkacz",
-   "winner": "Hubert Hurkacz",
-   "score": "7:6 3:6 3:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "AITO Hangzhou Open",
-   "p1": "Andrey Rublev",
-   "p2": "Kyrian Jacquet",
-   "winner": "Andrey Rublev",
-   "score": "7:6 6:1"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "AITO Hangzhou Open",
-   "p1": "Roman Safiullin",
-   "p2": "Daniil Medvedev",
-   "winner": "Daniil Medvedev",
-   "score": "5:7 4:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Kinoshita Group Japan Open Tennis Championships",
-   "p1": "Yoshihito Nishioka",
-   "p2": "Stefanos Tsitsipas",
-   "winner": "Stefanos Tsitsipas",
-   "score": "5:7 2:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Kinoshita Group Japan Open Tennis Championships",
-   "p1": "Camilo Ugo Carabelli",
-   "p2": "Rinky Hijikata",
-   "winner": "Rinky Hijikata",
-   "score": "2:6 3:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Kinoshita Group Japan Open Tennis Championships",
-   "p1": "Aleksandar Kovacevic",
-   "p2": "Zachary Svajda",
-   "winner": "Aleksandar Kovacevic",
-   "score": "6:7 6:2 6:4"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Kinoshita Group Japan Open Tennis Championships",
-   "p1": "Martin Damm",
-   "p2": "Arthur Fils",
-   "winner": "Arthur Fils",
-   "score": "6:2 1:6 1:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Kinoshita Group Japan Open Tennis Championships",
-   "p1": "Marcos Giron",
-   "p2": "Jaume Munar",
-   "winner": "Jaume Munar",
-   "score": "7:5 1:6 4:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Kinoshita Group Japan Open Tennis Championships",
-   "p1": "Jaime Faria",
-   "p2": "Shintaro Mochizuki",
-   "winner": "Jaime Faria",
-   "score": "6:2 6:4"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Kinoshita Group Japan Open Tennis Championships",
-   "p1": "Kamil Majchrzak",
-   "p2": "Lorenzo Sonego",
-   "winner": "Kamil Majchrzak",
-   "score": "7:5 6:2"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Kinoshita Group Japan Open Tennis Championships",
-   "p1": "Taro Daniel",
-   "p2": "Adolfo Daniel Vallejo",
-   "winner": "Adolfo Daniel Vallejo",
-   "score": "3:6 2:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "China Open",
-   "p1": "Arthur Gea",
-   "p2": "Te Rigele",
-   "winner": "Arthur Gea",
-   "score": "6:2 6:3"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "China Open",
-   "p1": "Tomas Machac",
-   "p2": "Yannick Hanfmann",
-   "winner": "Tomas Machac",
-   "score": "7:6 6:7 6:4"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "China Open",
-   "p1": "Vit Kopriva",
-   "p2": "Alex Molcan",
-   "winner": "Alex Molcan",
-   "score": "6:7 6:2 6:7"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "China Open",
-   "p1": "Marco Trungelliti",
-   "p2": "Martin Landaluce",
-   "winner": "Marco Trungelliti",
-   "score": "6:1 6:7 7:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "China Open",
-   "p1": "Pablo Carreno Busta",
-   "p2": "Zhou Yi",
-   "winner": "Pablo Carreno Busta",
-   "score": "7:5 6:3"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "China Open",
-   "p1": "Daniel Altmaier",
-   "p2": "Cui Jie",
-   "winner": "Cui Jie",
-   "score": "4:6 1:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "China Open",
-   "p1": "Adrian Mannarino",
-   "p2": "Miomir Kecmanovic",
-   "winner": "Adrian Mannarino",
-   "score": "7:6 3:6 7:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "China Open",
-   "p1": "Valentin Royer",
-   "p2": "Botic Van De Zandschulp",
-   "winner": "Botic Van De Zandschulp",
-   "score": "6:4 2:6 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Jingshan Tennis Open",
-   "p1": "Chenting Zhu",
-   "p2": "Sara Saito",
-   "winner": "Chenting Zhu",
-   "score": "6:2 6:3"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Jingshan Tennis Open",
-   "p1": "Fiona Ferro",
-   "p2": "Yang Yidi",
-   "winner": "Fiona Ferro",
-   "score": "6:4 2:6 6:1"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Jingshan Tennis Open",
-   "p1": "Zheng Wushuang",
-   "p2": "Mei Yamaguchi",
-   "winner": "Zheng Wushuang",
-   "score": "6:1 6:3"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Jingshan Tennis Open",
-   "p1": "Yujia Huang",
-   "p2": "Wei Sijia",
-   "winner": "Wei Sijia",
-   "score": "3:6 6:1 6:7"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Jingshan Tennis Open",
-   "p1": "Hayu Kinoshita",
-   "p2": "Lu Jia-Jing",
-   "winner": "Lu Jia-Jing",
-   "score": "4:6 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Jingshan Tennis Open",
-   "p1": "Emerson Jones",
-   "p2": "Haruka Kaji",
-   "winner": "Emerson Jones",
-   "score": "6:2 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Adana Open",
-   "p1": "Vendula Valdmannova",
-   "p2": "Antonia Ruzic",
-   "winner": "Antonia Ruzic",
-   "score": "4:6 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Adana Open",
-   "p1": "Anna Blinkova",
-   "p2": "Emiliana Arango",
-   "winner": "Anna Blinkova",
-   "score": "7:6 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Adana Open",
-   "p1": "Anna Siskova",
-   "p2": "Julia Riera",
-   "winner": "Julia Riera",
-   "score": "5:7 2:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Adana Open",
-   "p1": "Lucrezia Stefanini",
-   "p2": "Elena Ruxandra Bertea",
-   "winner": "Lucrezia Stefanini",
-   "score": "3:6 6:4 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Adana Open",
-   "p1": "Suzan Lamens",
-   "p2": "Leolia Jeanjean",
-   "winner": "Leolia Jeanjean",
-   "score": "6:4 3:6 2:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Adana Open",
-   "p1": "Fiona Crawley",
-   "p2": "Noma Noha Akugue",
-   "winner": "Fiona Crawley",
-   "score": "6:3 6:1"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Adana Open",
-   "p1": "Anastasia Gasanova",
-   "p2": "Viktoria Hruncakova",
-   "winner": "Viktoria Hruncakova",
-   "score": "2:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Vivian Wolff",
-   "p2": "Carol Zhao",
-   "winner": "Vivian Wolff",
-   "score": "6:1 6:1"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Bai Zhuoxuan",
-   "p2": "Mina Hodzic",
-   "winner": "Bai Zhuoxuan",
-   "score": "6:4 6:3"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Tiphanie Lemaitre",
-   "p2": "Harriet Dart",
-   "winner": "Harriet Dart",
-   "score": "2:6 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Ma YeXin",
-   "p2": "Ren Yufei",
-   "winner": "Ma YeXin",
-   "score": "4:6 6:1 6:3"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Jiayi Wang",
-   "p2": "Quinn Gleason",
-   "winner": "Jiayi Wang",
-   "score": "6:2 7:5"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Tian Jialin",
-   "p2": "Andrea Lazaro Garcia",
-   "winner": "Andrea Lazaro Garcia",
-   "score": "6:1 4:6 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "You Xiaodi",
-   "p2": "Dang Yiming",
-   "winner": "You Xiaodi",
-   "score": "6:2 6:3"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Irene Burillo",
-   "p2": "Valeria Savinykh",
-   "winner": "Valeria Savinykh",
-   "score": "4:6 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Li Zongyu",
-   "p2": "Elsa Jacquemot",
-   "winner": "Elsa Jacquemot",
-   "score": "4:6 0:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Rinko Matsuda",
-   "p2": "Katarzyna Kawa",
-   "winner": "Katarzyna Kawa",
-   "score": "6:7 6:2 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Linda Fruhvirtova",
-   "p2": "Ye Shiyu",
-   "winner": "Linda Fruhvirtova",
-   "score": "5:7 6:3 7:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Ellen Perez",
-   "p2": "Elvina Kalieva",
-   "winner": "Elvina Kalieva",
-   "score": "2:6 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Olivia Nicholls",
-   "p2": "Marina Bassols Ribera",
-   "winner": "Marina Bassols Ribera",
-   "score": "1:6 1:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Junhan Zhang",
-   "p2": "Aliaksandra Sasnovich",
-   "winner": "Aliaksandra Sasnovich",
-   "score": "2:6 0:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Storm Hunter",
-   "p2": "Zhang Ruien",
-   "winner": "Storm Hunter",
-   "score": "3:6 6:3 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Ksenia Zaytseva",
-   "p2": "Tamara Zidansek",
-   "winner": "Ksenia Zaytseva",
-   "score": "6:4 7:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Aran Teixido Garcia",
-   "p2": "Robin Montgomery",
-   "winner": "Robin Montgomery",
-   "score": "1:6 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Shi Han",
-   "p2": "Tereza Mihalikova",
-   "winner": "Shi Han",
-   "score": "6:0 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Jodie Burrage",
-   "p2": "Rebecca Sramkova",
-   "winner": "Jodie Burrage",
-   "score": "6:4 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Varvara Lepchenko",
-   "p2": "Ulrikke Eikeri",
-   "winner": "Varvara Lepchenko",
-   "score": "6:2 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Mai Hontama",
-   "p2": "Alexandra Panova",
-   "winner": "Mai Hontama",
-   "score": "7:5 6:1"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Darya Astakhova",
-   "p2": "Desirae Krawczyk",
-   "winner": "Darya Astakhova",
-   "score": "6:2 6:1"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Anna-Lena Friedsam",
-   "p2": "Anastasia Kulikova",
-   "winner": "Anna-Lena Friedsam",
-   "score": "6:4 7:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Yao Xinxin",
-   "p2": "Maddison Inglis",
-   "winner": "Maddison Inglis",
-   "score": "1:6 5:7"
-  }
- ],
+ "tennisFinished": [],
  "stats": {
   "overall": {
-   "n": 2564,
-   "correct": 1506,
-   "pct": 0.5874
+   "n": 2592,
+   "correct": 1530,
+   "pct": 0.5903
   },
   "football": {
    "n": 857,
@@ -5190,161 +5238,18 @@
    "pct": 0.4854
   },
   "tennis": {
-   "n": 1707,
-   "correct": 1090,
-   "pct": 0.6385
+   "n": 1735,
+   "correct": 1114,
+   "pct": 0.6421
   },
   "exact": {
    "n": 857,
    "correct": 98
   },
-  "open": 291,
+  "open": 251,
   "recent": [
    {
-    "date": "2026-09-28",
-    "comp": "WTA · Jingshan Tennis Open",
-    "label": "Chenting Zhu – Sara Saito",
-    "tipName": "Chenting Zhu",
-    "tip": "P1",
-    "prob": 0.5034,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-28",
-    "comp": "WTA · Jingshan Tennis Open",
-    "label": "Fiona Ferro – Yang Yidi",
-    "tipName": "Fiona Ferro",
-    "tip": "P1",
-    "prob": 0.6729,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-28",
-    "comp": "WTA · Jingshan Tennis Open",
-    "label": "Zheng Wushuang – Mei Yamaguchi",
-    "tipName": "Zheng Wushuang",
-    "tip": "P1",
-    "prob": 0.5075,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-28",
-    "comp": "WTA · Jingshan Tennis Open",
-    "label": "Hayu Kinoshita – Lu Jia-Jing",
-    "tipName": "Hayu Kinoshita",
-    "tip": "P1",
-    "prob": 0.532,
-    "result": "Sieger: P2",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-28",
-    "comp": "WTA · Jingshan Tennis Open",
-    "label": "Emerson Jones – Haruka Kaji",
-    "tipName": "Emerson Jones",
-    "tip": "P1",
-    "prob": 0.6364,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-28",
-    "comp": "ATP · Chengdu Open",
-    "label": "Alejandro Davidovich Fokina – Nikoloz Basilashvili",
-    "tipName": "Alejandro Davidovich Fokina",
-    "tip": "P1",
-    "prob": 0.7971,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-28",
-    "comp": "WTA · China Open",
-    "label": "Tiphanie Lemaitre – Harriet Dart",
-    "tipName": "Harriet Dart",
-    "tip": "P2",
-    "prob": 0.7581,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-28",
-    "comp": "WTA · China Open",
-    "label": "Vivian Wolff – Carol Zhao",
-    "tipName": "Vivian Wolff",
-    "tip": "P1",
-    "prob": 0.7286,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-28",
-    "comp": "WTA · China Open",
-    "label": "Bai Zhuoxuan – Mina Hodzic",
-    "tipName": "Bai Zhuoxuan",
-    "tip": "P1",
-    "prob": 0.5225,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-28",
-    "comp": "WTA · China Open",
-    "label": "Rinko Matsuda – Katarzyna Kawa",
-    "tipName": "Katarzyna Kawa",
-    "tip": "P2",
-    "prob": 0.7476,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-28",
-    "comp": "WTA · China Open",
-    "label": "Irene Burillo – Valeria Savinykh",
-    "tipName": "Irene Burillo",
-    "tip": "P1",
-    "prob": 0.7255,
-    "result": "Sieger: P2",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-28",
-    "comp": "WTA · China Open",
-    "label": "Li Zongyu – Elsa Jacquemot",
-    "tipName": "Elsa Jacquemot",
-    "tip": "P2",
-    "prob": 0.5989,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-28",
-    "comp": "WTA · China Open",
-    "label": "Tian Jialin – Andrea Lazaro Garcia",
-    "tipName": "Andrea Lazaro Garcia",
-    "tip": "P2",
-    "prob": 0.7805,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-28",
+    "date": "2026-09-29",
     "comp": "WTA · China Open",
     "label": "Junhan Zhang – Aliaksandra Sasnovich",
     "tipName": "Aliaksandra Sasnovich",
@@ -5355,95 +5260,7 @@
     "sport": "tn"
    },
    {
-    "date": "2026-09-28",
-    "comp": "WTA · China Open",
-    "label": "Ellen Perez – Elvina Kalieva",
-    "tipName": "Elvina Kalieva",
-    "tip": "P2",
-    "prob": 0.6576,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-28",
-    "comp": "WTA · China Open",
-    "label": "Olivia Nicholls – Marina Bassols Ribera",
-    "tipName": "Marina Bassols Ribera",
-    "tip": "P2",
-    "prob": 0.637,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-28",
-    "comp": "WTA · China Open",
-    "label": "Ksenia Zaytseva – Tamara Zidansek",
-    "tipName": "Tamara Zidansek",
-    "tip": "P2",
-    "prob": 0.7266,
-    "result": "Sieger: P1",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-28",
-    "comp": "WTA · China Open",
-    "label": "Linda Fruhvirtova – Ye Shiyu",
-    "tipName": "Linda Fruhvirtova",
-    "tip": "P1",
-    "prob": 0.5729,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-28",
-    "comp": "WTA · China Open",
-    "label": "Aran Teixido Garcia – Robin Montgomery",
-    "tipName": "Robin Montgomery",
-    "tip": "P2",
-    "prob": 0.6531,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-28",
-    "comp": "WTA · China Open",
-    "label": "Storm Hunter – Zhang Ruien",
-    "tipName": "Storm Hunter",
-    "tip": "P1",
-    "prob": 0.5705,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-28",
-    "comp": "WTA · China Open",
-    "label": "Jodie Burrage – Rebecca Sramkova",
-    "tipName": "Rebecca Sramkova",
-    "tip": "P2",
-    "prob": 0.6123,
-    "result": "Sieger: P1",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-28",
-    "comp": "WTA · China Open",
-    "label": "Varvara Lepchenko – Ulrikke Eikeri",
-    "tipName": "Varvara Lepchenko",
-    "tip": "P1",
-    "prob": 0.5648,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-09-28",
+    "date": "2026-09-29",
     "comp": "WTA · China Open",
     "label": "Darya Astakhova – Desirae Krawczyk",
     "tipName": "Darya Astakhova",
@@ -5454,24 +5271,255 @@
     "sport": "tn"
    },
    {
-    "date": "2026-09-28",
+    "date": "2026-09-29",
     "comp": "WTA · China Open",
-    "label": "Yao Xinxin – Maddison Inglis",
-    "tipName": "Maddison Inglis",
+    "label": "Ellen Perez – Elvina Kalieva",
+    "tipName": "Elvina Kalieva",
     "tip": "P2",
-    "prob": 0.6208,
+    "prob": 0.6576,
     "result": "Sieger: P2",
     "correct": true,
     "sport": "tn"
    },
    {
-    "date": "2026-09-28",
+    "date": "2026-09-29",
+    "comp": "WTA · China Open",
+    "label": "Tiphanie Lemaitre – Harriet Dart",
+    "tipName": "Harriet Dart",
+    "tip": "P2",
+    "prob": 0.7581,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-29",
+    "comp": "WTA · China Open",
+    "label": "Rinko Matsuda – Katarzyna Kawa",
+    "tipName": "Katarzyna Kawa",
+    "tip": "P2",
+    "prob": 0.7476,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-29",
+    "comp": "WTA · China Open",
+    "label": "Olivia Nicholls – Marina Bassols Ribera",
+    "tipName": "Marina Bassols Ribera",
+    "tip": "P2",
+    "prob": 0.637,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-29",
+    "comp": "WTA · China Open",
+    "label": "Irene Burillo – Valeria Savinykh",
+    "tipName": "Irene Burillo",
+    "tip": "P1",
+    "prob": 0.7255,
+    "result": "Sieger: P2",
+    "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-29",
+    "comp": "WTA · China Open",
+    "label": "Aran Teixido Garcia – Robin Montgomery",
+    "tipName": "Robin Montgomery",
+    "tip": "P2",
+    "prob": 0.6531,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-29",
+    "comp": "WTA · China Open",
+    "label": "Li Zongyu – Elsa Jacquemot",
+    "tipName": "Elsa Jacquemot",
+    "tip": "P2",
+    "prob": 0.5989,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-29",
+    "comp": "WTA · China Open",
+    "label": "Vivian Wolff – Carol Zhao",
+    "tipName": "Vivian Wolff",
+    "tip": "P1",
+    "prob": 0.7286,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-29",
+    "comp": "WTA · China Open",
+    "label": "Ksenia Zaytseva – Tamara Zidansek",
+    "tipName": "Tamara Zidansek",
+    "tip": "P2",
+    "prob": 0.7266,
+    "result": "Sieger: P1",
+    "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-29",
+    "comp": "WTA · China Open",
+    "label": "Storm Hunter – Zhang Ruien",
+    "tipName": "Storm Hunter",
+    "tip": "P1",
+    "prob": 0.5705,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-29",
+    "comp": "WTA · China Open",
+    "label": "Jodie Burrage – Rebecca Sramkova",
+    "tipName": "Rebecca Sramkova",
+    "tip": "P2",
+    "prob": 0.6123,
+    "result": "Sieger: P1",
+    "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-29",
+    "comp": "WTA · China Open",
+    "label": "Yao Xinxin – Maddison Inglis",
+    "tipName": "Maddison Inglis",
+    "tip": "P2",
+    "prob": 0.6237,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-29",
+    "comp": "WTA · China Open",
+    "label": "Bai Zhuoxuan – Mina Hodzic",
+    "tipName": "Bai Zhuoxuan",
+    "tip": "P1",
+    "prob": 0.5225,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-29",
+    "comp": "WTA · China Open",
+    "label": "Linda Fruhvirtova – Ye Shiyu",
+    "tipName": "Linda Fruhvirtova",
+    "tip": "P1",
+    "prob": 0.5729,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-29",
     "comp": "WTA · China Open",
     "label": "Anna-Lena Friedsam – Anastasia Kulikova",
     "tipName": "Anna-Lena Friedsam",
     "tip": "P1",
     "prob": 0.5352,
     "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-29",
+    "comp": "WTA · China Open",
+    "label": "Mai Hontama – Alexandra Panova",
+    "tipName": "Mai Hontama",
+    "tip": "P1",
+    "prob": 0.58,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-29",
+    "comp": "WTA · China Open",
+    "label": "Tian Jialin – Andrea Lazaro Garcia",
+    "tipName": "Andrea Lazaro Garcia",
+    "tip": "P2",
+    "prob": 0.7805,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-29",
+    "comp": "WTA · China Open",
+    "label": "Varvara Lepchenko – Ulrikke Eikeri",
+    "tipName": "Varvara Lepchenko",
+    "tip": "P1",
+    "prob": 0.5648,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-29",
+    "comp": "ATP · Kinoshita Group Japan Open Tennis Championships",
+    "label": "Aleksandar Kovacevic – Zachary Svajda",
+    "tipName": "Aleksandar Kovacevic",
+    "tip": "P1",
+    "prob": 0.5026,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-29",
+    "comp": "ATP · Kinoshita Group Japan Open Tennis Championships",
+    "label": "Yoshihito Nishioka – Stefanos Tsitsipas",
+    "tipName": "Stefanos Tsitsipas",
+    "tip": "P2",
+    "prob": 0.7906,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-29",
+    "comp": "ATP · Kinoshita Group Japan Open Tennis Championships",
+    "label": "Taro Daniel – Adolfo Daniel Vallejo",
+    "tipName": "Adolfo Daniel Vallejo",
+    "tip": "P2",
+    "prob": 0.7353,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-29",
+    "comp": "ATP · Kinoshita Group Japan Open Tennis Championships",
+    "label": "Jaime Faria – Shintaro Mochizuki",
+    "tipName": "Jaime Faria",
+    "tip": "P1",
+    "prob": 0.6266,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-09-29",
+    "comp": "ATP · Kinoshita Group Japan Open Tennis Championships",
+    "label": "Marcos Giron – Jaume Munar",
+    "tipName": "Jaume Munar",
+    "tip": "P2",
+    "prob": 0.5536,
+    "result": "Sieger: P2",
     "correct": true,
     "sport": "tn"
    }
