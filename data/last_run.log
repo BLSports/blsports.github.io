@@ -59,8 +59,8 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!
 total 8
-drwxr-xr-x  2 runner runner 4096 Sep 28 12:47 .
-drwxrwxrwt 15 root   root   4096 Sep 28 12:47 ..
+drwxr-xr-x  2 runner runner 4096 Sep 28 20:21 .
+drwxrwxrwt 15 root   root   4096 Sep 28 20:21 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -99,6 +99,7 @@ drwxrwxrwt 15 root   root   4096 Sep 28 12:47 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard?dates=20260928-20270126&limit=50 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ita.1/scoreboard?dates=20260928-20270126&limit=50 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/esp.1/scoreboard?dates=20260928-20270126&limit=50 nicht erreichbar (HTTP Error 400: Bad Request)
+  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/esp.2/scoreboard?dates=20260928-20270126&limit=50 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fra.1/scoreboard?dates=20260928-20270126&limit=50 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fra.2/scoreboard?dates=20260928-20270126&limit=50 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/scoreboard?dates=20260928-20270126&limit=50 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -225,7 +226,7 @@ fixtures.csv: 41 Spiele mit Quoten
   0 Spiele in den naechsten 3 Tagen
 == La Liga 2 ==
   538 Ergebnisse geladen
-  1 Spiele in den naechsten 3 Tagen
+  0 Spiele in den naechsten 3 Tagen
 == Ligue 1 ==
   351 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
@@ -277,17 +278,17 @@ fixtures.csv: 41 Spiele mit Quoten
 == Premier Division (Irland) ==
   0 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
-  Kicker-News: 39 Schlagzeilen geladen
+  Kicker-News: 36 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 896, WTA 892
   Historie: ATP 0 Matches, WTA 0 Matches
   Elo ATP: 0 Spieler bewertet
   Elo WTA: 0 Spieler bewertet
-  Belag-Zuordnung (MatchStat): 20 Turniere
-  Tennis-Quoten zugeordnet: 0
-  116 Tennis-Matches in den naechsten 3 Tagen
-  51 Tennis-Matches heute bereits beendet
-  Tipp-Log: 3790 Eintraege, 2559 ausgewertet, 1502 richtig
-  Premium-Abrufe: Tennis 8, Fussball 83 (Tennis AKTIV, Fussball AKTIV)
+  Belag-Zuordnung (MatchStat): 7 Turniere
+  Tennis-Quoten zugeordnet: 21
+  118 Tennis-Matches in den naechsten 3 Tagen
+  57 Tennis-Matches heute bereits beendet
+  Tipp-Log: 3795 Eintraege, 2564 ausgewertet, 1506 richtig
+  Premium-Abrufe: Tennis 8, Fussball 78 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json

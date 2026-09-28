@@ -59044,9 +59044,9 @@
    "tip": "P2",
    "tipName": "Leolia Jeanjean",
    "prob": 0.6405,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-09-28|hurkacz h|shapovalov d": {
    "sport": "tn",
@@ -59058,9 +59058,9 @@
    "tip": "P2",
    "tipName": "Hubert Hurkacz",
    "prob": 0.5177,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-09-28|medvedev d|safiullin r": {
    "sport": "tn",
@@ -59072,9 +59072,9 @@
    "tip": "P2",
    "tipName": "Daniil Medvedev",
    "prob": 0.9175,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-09-28|efremova k|kubka m": {
    "sport": "tn",
@@ -59184,9 +59184,9 @@
    "tip": "P1",
    "tipName": "Lucrezia Stefanini",
    "prob": 0.6595,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-09-28|crawley f|noha akugue n": {
    "sport": "tn",
@@ -59212,9 +59212,9 @@
    "tip": "P1",
    "tipName": "Anastasia Gasanova",
    "prob": 0.5245,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-09-29|boisson l|bronzetti l": {
    "sport": "tn",
@@ -60220,6 +60220,76 @@
    "tip": "P2",
    "tipName": "Antonia Ruzic",
    "prob": 0.6191,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-09-29|carreno busta p|mannarino a": {
+   "sport": "tn",
+   "comp": "ATP · China Open",
+   "date": "2026-09-29",
+   "label": "Pablo Carreno Busta – Adrian Mannarino",
+   "p1Key": "carreno busta p",
+   "p2Key": "mannarino a",
+   "tip": "P1",
+   "tipName": "Pablo Carreno Busta",
+   "prob": 0.526,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-09-29|davidovich fokina a|hurkacz h": {
+   "sport": "tn",
+   "comp": "ATP · Chengdu Open",
+   "date": "2026-09-29",
+   "label": "Alejandro Davidovich Fokina – Hubert Hurkacz",
+   "p1Key": "davidovich fokina a",
+   "p2Key": "hurkacz h",
+   "tip": "P1",
+   "tipName": "Alejandro Davidovich Fokina",
+   "prob": 0.5968,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-29|efremova k|kubka m": {
+   "sport": "tn",
+   "comp": "WTA · Adana Open",
+   "date": "2026-09-29",
+   "label": "Martyna Kubka – Ksenia Efremova",
+   "p1Key": "kubka m",
+   "p2Key": "efremova k",
+   "tip": "P1",
+   "tipName": "Martyna Kubka",
+   "prob": 0.7357,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-09-29|medvedev d|rublev a": {
+   "sport": "tn",
+   "comp": "ATP · AITO Hangzhou Open",
+   "date": "2026-09-29",
+   "label": "Andrey Rublev – Daniil Medvedev",
+   "p1Key": "rublev a",
+   "p2Key": "medvedev d",
+   "tip": "P2",
+   "tipName": "Daniil Medvedev",
+   "prob": 0.7708,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-09-30|blinkova a|hruncakova v": {
+   "sport": "tn",
+   "comp": "WTA · Adana Open",
+   "date": "2026-09-30",
+   "label": "Anna Blinkova – Viktoria Hruncakova",
+   "p1Key": "blinkova a",
+   "p2Key": "hruncakova v",
+   "tip": "P1",
+   "tipName": "Anna Blinkova",
+   "prob": 0.6756,
    "status": "open",
    "result": null,
    "correct": null
