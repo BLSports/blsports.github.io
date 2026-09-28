@@ -46951,7 +46951,7 @@
    "prob": 0.4782,
    "tipScore": "1:1",
    "pOver25": 0.6278,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -46969,7 +46969,7 @@
    "prob": 0.5994,
    "tipScore": "1:0",
    "pOver25": 0.5317,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -46987,7 +46987,7 @@
    "prob": 0.404,
    "tipScore": "1:1",
    "pOver25": 0.575,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -47005,7 +47005,7 @@
    "prob": 0.4775,
    "tipScore": "1:1",
    "pOver25": 0.6317,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -47023,7 +47023,7 @@
    "prob": 0.5672,
    "tipScore": "1:0",
    "pOver25": 0.4975,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -47041,7 +47041,7 @@
    "prob": 0.4407,
    "tipScore": "1:1",
    "pOver25": 0.4649,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -47059,7 +47059,7 @@
    "prob": 0.4962,
    "tipScore": "1:2",
    "pOver25": 0.7005,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -47077,7 +47077,7 @@
    "prob": 0.4119,
    "tipScore": "2:2",
    "pOver25": 0.791,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -47131,7 +47131,7 @@
    "prob": 0.3557,
    "tipScore": "1:1",
    "pOver25": 0.3667,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -55823,10 +55823,10 @@
    "prob": 0.6346,
    "tipScore": "2:1",
    "pOver25": 0.6532,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:0",
+   "correct": true,
+   "exact": false
   },
   "fb|nl2|2026-09-25|fc dordrecht|almere city": {
    "sport": "fb",
@@ -56161,10 +56161,10 @@
    "prob": 0.3926,
    "tipScore": "1:1",
    "pOver25": 0.565,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "2:3",
+   "correct": false,
+   "exact": false
   },
   "fb|ll2|2026-09-26|tenerife|cadiz": {
    "sport": "fb",
@@ -56179,10 +56179,10 @@
    "prob": 0.5087,
    "tipScore": "1:0",
    "pOver25": 0.4358,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "1:1",
+   "correct": false,
+   "exact": false
   },
   "fb|nl2|2026-09-26|heracles almelo|vitesse": {
    "sport": "fb",
@@ -56679,10 +56679,10 @@
    "prob": 0.3887,
    "tipScore": "1:1",
    "pOver25": 0.4834,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "3:1",
+   "correct": false,
+   "exact": false
   },
   "fb|ll2|2026-09-27|mallorca|almeria": {
    "sport": "fb",
@@ -56697,10 +56697,10 @@
    "prob": 0.6435,
    "tipScore": "1:0",
    "pOver25": 0.3008,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "0:1",
+   "correct": false,
+   "exact": false
   },
   "fb|ll2|2026-09-27|burgos|eldense": {
    "sport": "fb",
@@ -56715,10 +56715,10 @@
    "prob": 0.6218,
    "tipScore": "1:0",
    "pOver25": 0.2572,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "1:0",
+   "correct": true,
+   "exact": true
   },
   "fb|ll2|2026-09-27|eibar|las palmas": {
    "sport": "fb",
@@ -56733,10 +56733,10 @@
    "prob": 0.4851,
    "tipScore": "1:0",
    "pOver25": 0.3657,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "3:2",
+   "correct": true,
+   "exact": false
   },
   "fb|ll2|2026-09-27|oviedo|sp gijon": {
    "sport": "fb",
@@ -56751,10 +56751,10 @@
    "prob": 0.3734,
    "tipScore": "0:0",
    "pOver25": 0.1827,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:0",
+   "correct": true,
+   "exact": false
   },
   "fb|nl2|2026-09-27|de graafschap|fc den bosch": {
    "sport": "fb",
@@ -57472,9 +57472,9 @@
    "awayKey": "castellon",
    "tip": "2",
    "tipName": "Castellón",
-   "prob": 0.5035,
+   "prob": 0.499,
    "tipScore": "0:1",
-   "pOver25": 0.4099,
+   "pOver25": 0.4075,
    "status": "open",
    "result": null,
    "correct": null,
