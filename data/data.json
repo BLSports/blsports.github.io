@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-09-29T23:28:45.056852+02:00",
+ "generatedAt": "2026-09-30T01:23:53.685735+02:00",
  "windowDays": 3,
  "days": [
-  "2026-09-29",
   "2026-09-30",
-  "2026-10-01"
+  "2026-10-01",
+  "2026-10-02"
  ],
  "football": [
   {
@@ -129,7 +129,76 @@
    "name": "La Liga 2",
    "flag": "🇪🇸",
    "espn": "esp.2",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-10-02T20:30:00+02:00",
+     "home": "Eldense",
+     "away": "Real Oviedo",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/7320.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/92.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "N",
+      "U",
+      "S",
+      "N",
+      "N"
+     ],
+     "formAway": [
+      "S",
+      "U",
+      "S",
+      "N",
+      "S"
+     ],
+     "formHomeH": [
+      "U",
+      "U",
+      "N"
+     ],
+     "formAwayA": [
+      "S",
+      "S",
+      "N"
+     ],
+     "load14Home": 2,
+     "load14Away": 2,
+     "posHome": 19,
+     "posAway": 8,
+     "nTeams": 22,
+     "h2h": [],
+     "prediction": {
+      "pHome": 0.1124,
+      "pDraw": 0.3908,
+      "pAway": 0.4969,
+      "pOver25": 0.1156,
+      "pBtts": 0.1449,
+      "xgHome": 0.28,
+      "xgAway": 0.9,
+      "tipScore": "0:0",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.1449,
+     "odds": {
+      "h": 2.6,
+      "d": 2.95,
+      "a": 2.48,
+      "src": "LeoVegas (SE)"
+     },
+     "value": {
+      "outcome": "2",
+      "edge": 0.1391,
+      "modelP": 0.4969,
+      "odds": 2.48
+     },
+     "scorersHome": [],
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "Real Oviedo ist bei Eldense leicht favorisiert (50 % zu 11 %). In der Tabelle stehen sich Platz 19 und Platz 8 gegenüber. Die Form spricht für Real Oviedo: 3 Siege aus den letzten 5 Spielen, Eldense holte nur 1. Heim-/Auswärtsbilanz: Eldense gewann 0 der letzten 3 Heimspiele, Real Oviedo 2 der letzten 3 Auswärtsspiele. Das Modell erwartet eher wenige Tore (xG 0,3:0,9; über 2,5 Tore: 12 %, beide Teams treffen zu 14 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,48) für 14 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": true,
    "isCup": false
   },
@@ -165,7 +234,91 @@
    "name": "Eerste Divisie",
    "flag": "🇳🇱",
    "espn": "ned.2",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-10-02T21:00:00+02:00",
+     "home": "Helmond Sport",
+     "away": "Heracles Almelo",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3775.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3708.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "N",
+      "S",
+      "S",
+      "N",
+      "N"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "S",
+      "N",
+      "S"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 7,
+     "posAway": 16,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "05.08.2023",
+       "home": "Heracles",
+       "away": "Helmond Sport",
+       "score": "2:0"
+      },
+      {
+       "date": "21.04.2023",
+       "home": "Helmond Sport",
+       "away": "Heracles",
+       "score": "0:1"
+      },
+      {
+       "date": "23.09.2022",
+       "home": "Heracles",
+       "away": "Helmond Sport",
+       "score": "2:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.2919,
+      "pDraw": 0.2144,
+      "pAway": 0.4937,
+      "pOver25": 0.6893,
+      "pBtts": 0.68,
+      "xgHome": 1.53,
+      "xgAway": 2.03,
+      "tipScore": "1:2",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.68,
+     "odds": {
+      "h": 6.0,
+      "d": 4.6,
+      "a": 1.4,
+      "src": "William Hill"
+     },
+     "value": null,
+     "scorersHome": [],
+     "scorersAway": [
+      {
+       "name": "Jean-Paul N'Djoli",
+       "goals": 11
+      },
+      {
+       "name": "Tristan Van Gilst",
+       "goals": 6
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Heracles Almelo ist bei Helmond Sport leicht favorisiert (50 % zu 29 %). In der Tabelle stehen sich Platz 7 und Platz 16 gegenüber. Die Form spricht für Heracles Almelo: 4 Siege aus den letzten 5 Spielen, Helmond Sport holte nur 2. Das letzte Duell (2023) endete 2:0 (Heracles – Helmond Sport). Das Modell erwartet ein torreiches Spiel (xG 1,5:2,0; über 2,5 Tore: 69 %, beide Teams treffen zu 68 %). Gefährlichste Torschützen: bei Heracles Almelo Jean-Paul N'Djoli (11 Tore).",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": false,
    "isCup": false
   },
@@ -296,6 +449,144 @@
       }
      ],
      "basis": "Datenbasis: Verletztenliste. Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-10-02T03:30:00+02:00",
+     "home": "Seattle Sounders FC",
+     "away": "Sporting Kansas City",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/186.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "U",
+      "U",
+      "U",
+      "S",
+      "S"
+     ],
+     "formAway": [
+      "N",
+      "N",
+      "S",
+      "N",
+      "S"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 9,
+     "posAway": 15,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "02.05.2026",
+       "home": "Sporting Kansas City",
+       "away": "Seattle Sounders",
+       "score": "1:1"
+      },
+      {
+       "date": "25.08.2025",
+       "home": "Seattle Sounders",
+       "away": "Sporting Kansas City",
+       "score": "5:2"
+      },
+      {
+       "date": "13.07.2025",
+       "home": "Sporting Kansas City",
+       "away": "Seattle Sounders",
+       "score": "2:3"
+      },
+      {
+       "date": "15.09.2024",
+       "home": "Seattle Sounders",
+       "away": "Sporting Kansas City",
+       "score": "2:0"
+      },
+      {
+       "date": "09.06.2024",
+       "home": "Sporting Kansas City",
+       "away": "Seattle Sounders",
+       "score": "2:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5622,
+      "pDraw": 0.2107,
+      "pAway": 0.2271,
+      "pOver25": 0.6456,
+      "pBtts": 0.6245,
+      "xgHome": 2.07,
+      "xgAway": 1.25,
+      "tipScore": "2:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6245,
+     "odds": {
+      "h": 1.44,
+      "d": 4.5,
+      "a": 5.0,
+      "src": "William Hill"
+     },
+     "value": null,
+     "scorersHome": [],
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "Seattle Sounders FC geht als klarer Favorit (56 %) in das Heimspiel gegen Sporting Kansas City. In der Tabelle stehen sich Platz 9 und Platz 15 gegenüber. Das letzte Duell (2026) endete 1:1 (Sporting Kansas City – Seattle Sounders). Das Modell erwartet ein torreiches Spiel (xG 2,1:1,2; über 2,5 Tore: 65 %, beide Teams treffen zu 62 %). Personal: Seattle Sounders FC fehlen 6 Spieler (u.a. S. Hawkins); Sporting Kansas City fehlen 6 Spieler (u.a. J. Kortkamp).",
+     "injuriesHome": [
+      {
+       "name": "S. Hawkins",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Kim Kee-Hee",
+       "reason": "Calf Injury"
+      },
+      {
+       "name": "R. Sailor",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "P. de La Vega",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "J. Morris",
+       "reason": "Injury"
+      },
+      {
+       "name": "G. Minoungou",
+       "reason": "Foot Injury"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "J. Kortkamp",
+       "reason": "Ankle Injury"
+      },
+      {
+       "name": "R. Schewe",
+       "reason": "Hand Injury"
+      },
+      {
+       "name": "S. Afrifa",
+       "reason": "Hamstring Injury"
+      },
+      {
+       "name": "Z. Bassong",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "J. Reynolds",
+       "reason": "Injury"
+      },
+      {
+       "name": "I. James",
+       "reason": "Injury"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
    "seasonHasStarted": false,
@@ -342,7 +633,117 @@
    "name": "Premier Division (Irland)",
    "flag": "🇮🇪",
    "espn": "irl.1",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-10-02T20:45:00+02:00",
+     "home": "Dundalk",
+     "away": "Bohemians",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Regular Season - 33",
+     "formHome": [
+      "S",
+      "N",
+      "U",
+      "N",
+      "N"
+     ],
+     "formAway": [
+      "S",
+      "U",
+      "S",
+      "S",
+      "U"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 5,
+     "posAway": 3,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "19.06.2026",
+       "home": "Bohemians",
+       "away": "Dundalk",
+       "score": "1:2"
+      },
+      {
+       "date": "08.05.2026",
+       "home": "Dundalk",
+       "away": "Bohemians",
+       "score": "1:3"
+      },
+      {
+       "date": "20.03.2026",
+       "home": "Bohemians",
+       "away": "Dundalk",
+       "score": "1:1"
+      },
+      {
+       "date": "27.09.2024",
+       "home": "Dundalk",
+       "away": "Bohemians",
+       "score": "0:2"
+      },
+      {
+       "date": "26.07.2024",
+       "home": "Bohemians",
+       "away": "Dundalk",
+       "score": "1:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4543,
+      "pDraw": 0.2095,
+      "pAway": 0.3361,
+      "pOver25": 0.7377,
+      "pBtts": 0.7251,
+      "xgHome": 2.07,
+      "xgAway": 1.77,
+      "tipScore": "2:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.7251,
+     "odds": {
+      "h": 3.0,
+      "d": 3.5,
+      "a": 2.1,
+      "src": "Bet365"
+     },
+     "value": {
+      "outcome": "1",
+      "edge": 0.15,
+      "modelP": 0.4543,
+      "odds": 3.0
+     },
+     "scorersHome": [
+      {
+       "name": "D. Horgan",
+       "goals": 10
+      },
+      {
+       "name": "G. Arubi",
+       "goals": 7
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "C. Whelan",
+       "goals": 12
+      },
+      {
+       "name": "R. Tierney",
+       "goals": 9
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Dundalk ist gegen Bohemians leicht favorisiert (45 % zu 34 %). In der Tabelle stehen sich Platz 5 und Platz 3 gegenüber. Die Form spricht für Bohemians: 3 Siege aus den letzten 5 Spielen, Dundalk holte nur 1. Das letzte Duell (2026) endete 1:2 (Bohemians – Dundalk). Das Modell erwartet ein torreiches Spiel (xG 2,1:1,8; über 2,5 Tore: 74 %, beide Teams treffen zu 73 %). Gefährlichste Torschützen: bei Dundalk D. Horgan (10 Tore) und bei Bohemians C. Whelan (12 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,00) für 15 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": false,
    "isCup": false
   }
@@ -389,8 +790,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 3.35,
-    "p2": 1.41,
+    "p1": 3.55,
+    "p2": 1.38,
     "src": "Betfair"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -436,8 +837,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 1.76,
-    "p2": 2.24,
+    "p1": 1.74,
+    "p2": 2.32,
     "src": "Matchbook"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -447,7 +848,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Felix Auger-Aliassime",
     "rank": 5,
@@ -483,8 +884,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 1.59,
-    "p2": 2.34,
+    "p1": 1.62,
+    "p2": 2.28,
     "src": "Marathon Bet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -494,7 +895,7 @@
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "2. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Lu Jia-Jing",
     "rank": null,
@@ -536,7 +937,7 @@
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "2. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Emerson Jones",
     "rank": 134,
@@ -546,8 +947,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 5
+    "last7": 1,
+    "sets7": 2
    },
    "p2": {
     "name": "Chenting Zhu",
@@ -578,7 +979,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Maria Timofeeva",
     "rank": 68,
@@ -588,8 +989,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 5,
-    "sets7": 11
+    "last7": 4,
+    "sets7": 9
    },
    "p2": {
     "name": "Darja Vidmanova",
@@ -610,12 +1011,12 @@
     "pRank": 0.5546
    },
    "h2h": [],
-   "analysis": "Maria Timofeeva (Weltrangliste #68) trifft auf Darja Vidmanova (#88). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Maria Timofeeva mit 55 % vorn. Maria Timofeeva hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 11 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Maria Timofeeva (Weltrangliste #68) trifft auf Darja Vidmanova (#88). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Maria Timofeeva mit 55 % vorn. Maria Timofeeva hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 9 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 1.59,
-    "p2": 2.34,
+    "p1": 1.69,
+    "p2": 2.15,
     "src": "Marathon Bet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -625,7 +1026,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Sinja Kraus",
     "rank": 95,
@@ -661,8 +1062,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 3.72,
-    "p2": 1.27,
+    "p1": 3.34,
+    "p2": 1.32,
     "src": "Marathon Bet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -672,7 +1073,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Dayana Yastremska",
     "rank": 111,
@@ -708,8 +1109,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 2.55,
-    "p2": 1.52,
+    "p1": 2.85,
+    "p2": 1.43,
     "src": "Coolbet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -719,7 +1120,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Anhelina Kalinina",
     "rank": 50,
@@ -755,8 +1156,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 1.94,
-    "p2": 1.85,
+    "p1": 1.91,
+    "p2": 1.88,
     "src": "Marathon Bet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -766,7 +1167,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Lilli Tagger",
     "rank": 61,
@@ -788,8 +1189,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 8
+    "last7": 2,
+    "sets7": 6
    },
    "pP1": 0.5035,
    "model": {
@@ -802,8 +1203,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 1.87,
-    "p2": 1.92,
+    "p1": 1.81,
+    "p2": 1.99,
     "src": "Marathon Bet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -849,8 +1250,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 1.29,
-    "p2": 3.6,
+    "p1": 1.36,
+    "p2": 3.1,
     "src": "William Hill"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -896,8 +1297,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 1.34,
-    "p2": 3.55,
+    "p1": 1.4,
+    "p2": 3.4,
     "src": "Matchbook"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -943,8 +1344,8 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 4.0,
-    "p2": 1.25,
+    "p1": 5.5,
+    "p2": 1.14,
     "src": "William Hill"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1104,7 +1505,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Katarzyna Kawa",
     "rank": 133,
@@ -1139,14 +1540,19 @@
    "analysis": "Katarzyna Kawa (Weltrangliste #133) trifft auf Daria Snigur (#46). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Daria Snigur mit 71 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 6.0,
+    "p2": 1.12,
+    "src": "William Hill"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-30T06:30:00+02:00",
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Polina Kudermetova",
     "rank": 104,
@@ -1182,8 +1588,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 1.52,
-    "p2": 2.51,
+    "p1": 1.48,
+    "p2": 2.62,
     "src": "Marathon Bet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1193,7 +1599,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Talia Gibson",
     "rank": 37,
@@ -1228,14 +1634,19 @@
    "analysis": "Talia Gibson (Weltrangliste #37) trifft auf Aliaksandra Sasnovich (#121). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Talia Gibson mit 73 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 1.8,
+    "p2": 2.0,
+    "src": "888sport"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-30T06:30:00+02:00",
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Elvina Kalieva",
     "rank": 117,
@@ -1270,7 +1681,12 @@
    "analysis": "Elvina Kalieva (Weltrangliste #117) trifft auf Viktorija Golubic (#67). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Viktorija Golubic mit 62 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 2.74,
+    "p2": 1.56,
+    "src": "Betfair"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-30T07:00:00+02:00",
@@ -1302,7 +1718,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Thiago Agustin Tirante",
     "rank": 52,
@@ -1338,8 +1754,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 1.65,
-    "p2": 2.22,
+    "p1": 1.53,
+    "p2": 2.48,
     "src": "Marathon Bet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1374,7 +1790,7 @@
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "2. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Sara Sorribes Tormo",
     "rank": 194,
@@ -1466,7 +1882,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Linda Fruhvirtova",
     "rank": 181,
@@ -1476,8 +1892,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 7
+    "last7": 2,
+    "sets7": 5
    },
    "p2": {
     "name": "Bai Zhuoxuan",
@@ -1508,7 +1924,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Zeynep Sonmez",
     "rank": 58,
@@ -1543,14 +1959,19 @@
    "analysis": "Zeynep Sonmez (Weltrangliste #58) trifft auf Maddison Inglis (#140). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Zeynep Sonmez mit 68 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 1.45,
+    "p2": 2.78,
+    "src": "Coolbet"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-30T08:00:00+02:00",
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Yuan Yue",
     "rank": 135,
@@ -1572,8 +1993,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 4
+    "last7": 1,
+    "sets7": 2
    },
    "pP1": 0.2897,
    "model": {
@@ -1592,7 +2013,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Bu Yunchaokete",
     "rank": 104,
@@ -1628,8 +2049,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 1.54,
-    "p2": 2.38,
+    "p1": 1.64,
+    "p2": 2.37,
     "src": "GTbets"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1639,7 +2060,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Katie Boulter",
     "rank": 56,
@@ -1674,14 +2095,19 @@
    "analysis": "Katie Boulter (Weltrangliste #56) trifft auf Mai Hontama (#177). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Katie Boulter mit 73 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 1.4,
+    "p2": 2.95,
+    "src": "1xBet"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-30T09:30:00+02:00",
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "2. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Fiona Ferro",
     "rank": 108,
@@ -1759,8 +2185,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 1.76,
-    "p2": 2.18,
+    "p1": 1.77,
+    "p2": 2.28,
     "src": "Matchbook"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1770,7 +2196,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Tamara Korpatsch",
     "rank": 53,
@@ -1792,8 +2218,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 7
+    "last7": 2,
+    "sets7": 4
    },
    "pP1": 0.6129,
    "model": {
@@ -1806,8 +2232,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 2.69,
-    "p2": 1.46,
+    "p1": 2.8,
+    "p2": 1.43,
     "src": "Marathon Bet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1817,7 +2243,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Arthur Gea",
     "rank": 58,
@@ -1859,7 +2285,7 @@
    "tour": "WTA",
    "tournament": "Adana Open",
    "round": "2. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Simona Waltert",
     "rank": 98,
@@ -1881,8 +2307,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 9
+    "last7": 3,
+    "sets7": 7
    },
    "pP1": 0.6592,
    "model": {
@@ -1891,7 +2317,7 @@
     "pRank": 0.6592
    },
    "h2h": [],
-   "analysis": "Simona Waltert (Weltrangliste #98) trifft auf Erika Andreeva (#213). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Simona Waltert mit 66 % vorn. Erika Andreeva hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 9 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Simona Waltert (Weltrangliste #98) trifft auf Erika Andreeva (#213). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Simona Waltert mit 66 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1901,7 +2327,7 @@
    "tour": "WTA",
    "tournament": "Adana Open",
    "round": "2. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Julia Riera",
     "rank": 147,
@@ -1911,8 +2337,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 4
+    "last7": 1,
+    "sets7": 2
    },
    "p2": {
     "name": "Antonia Ruzic",
@@ -1943,7 +2369,7 @@
    "tour": "WTA",
    "tournament": "Adana Open",
    "round": "2. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Martyna Kubka",
     "rank": 173,
@@ -1953,8 +2379,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 5
+    "last7": 1,
+    "sets7": 3
    },
    "p2": {
     "name": "Lois Boisson",
@@ -1985,7 +2411,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Novak Djokovic",
     "rank": 11,
@@ -2021,8 +2447,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 1.42,
-    "p2": 2.84,
+    "p1": 1.4,
+    "p2": 2.92,
     "src": "Marathon Bet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2032,7 +2458,7 @@
    "tour": "WTA",
    "tournament": "Adana Open",
    "round": "2. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Anna Blinkova",
     "rank": 89,
@@ -2074,7 +2500,7 @@
    "tour": "WTA",
    "tournament": "Adana Open",
    "round": "2. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Elena Pridankina",
     "rank": 196,
@@ -2084,8 +2510,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 8
+    "last7": 2,
+    "sets7": 5
    },
    "p2": {
     "name": "Fiona Crawley",
@@ -2096,8 +2522,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 10
+    "last7": 3,
+    "sets7": 8
    },
    "pP1": 0.5376,
    "model": {
@@ -2116,7 +2542,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Magdalena Frech",
     "rank": 48,
@@ -2151,14 +2577,19 @@
    "analysis": "Magdalena Frech (Weltrangliste #48) trifft auf Elsa Jacquemot (#165). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Magdalena Frech mit 74 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 1.44,
+    "p2": 3.2,
+    "src": "Betfair"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-09-30T14:00:00+02:00",
    "tour": "WTA",
    "tournament": "Adana Open",
    "round": "2. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Dalma Galfi",
     "rank": 150,
@@ -2180,8 +2611,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 6,
-    "sets7": 12
+    "last7": 5,
+    "sets7": 10
    },
    "pP1": 0.4838,
    "model": {
@@ -2190,7 +2621,7 @@
     "pRank": 0.4838
    },
    "h2h": [],
-   "analysis": "Dalma Galfi (Weltrangliste #150) trifft auf Teodora Kostovic (#139). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Teodora Kostovic mit 52 % vorn. Teodora Kostovic hat allerdings eine intensive Woche in den Beinen (6 Matches in den letzten 7 Tagen und 12 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Dalma Galfi (Weltrangliste #150) trifft auf Teodora Kostovic (#139). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Teodora Kostovic mit 52 % vorn. Teodora Kostovic hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2250,7 +2681,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Renata Zarazua",
     "rank": 94,
@@ -2260,8 +2691,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 3
+    "last7": 0,
+    "sets7": 0
    },
    "p2": {
     "name": "Anna Bondar",
@@ -2272,8 +2703,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 12
+    "last7": 3,
+    "sets7": 9
    },
    "pP1": 0.419,
    "model": {
@@ -2282,12 +2713,12 @@
     "pRank": 0.419
    },
    "h2h": [],
-   "analysis": "Renata Zarazua (Weltrangliste #94) trifft auf Anna Bondar (#64). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Anna Bondar mit 58 % vorn. Anna Bondar hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 12 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Renata Zarazua (Weltrangliste #94) trifft auf Anna Bondar (#64). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Anna Bondar mit 58 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 2.73,
-    "p2": 1.45,
+    "p1": 2.76,
+    "p2": 1.44,
     "src": "Marathon Bet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2297,7 +2728,7 @@
    "tour": "WTA",
    "tournament": "Adana Open",
    "round": "2. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Melisa Ercan",
     "rank": 655,
@@ -2339,7 +2770,7 @@
    "tour": "WTA",
    "tournament": "Adana Open",
    "round": "2. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Lucrezia Stefanini",
     "rank": 125,
@@ -2361,8 +2792,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 9
+    "last7": 2,
+    "sets7": 6
    },
    "pP1": 0.7397,
    "model": {
@@ -2442,8 +2873,8 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 3.0,
-    "p2": 1.48,
+    "p1": 3.05,
+    "p2": 1.41,
     "src": "Matchbook"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2489,8 +2920,8 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 2.6,
-    "p2": 1.58,
+    "p1": 2.58,
+    "p2": 1.55,
     "src": "Matchbook"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2535,7 +2966,12 @@
    "analysis": "Jaume Munar (Weltrangliste #64) trifft auf Taylor Fritz (#12). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Taylor Fritz mit 81 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 4.2,
+    "p2": 1.22,
+    "src": "William Hill"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-01T06:00:00+02:00",
@@ -2578,8 +3014,8 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 1.21,
-    "p2": 4.9,
+    "p1": 1.22,
+    "p2": 4.7,
     "src": "Matchbook"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2625,8 +3061,8 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 3.15,
-    "p2": 1.4,
+    "p1": 3.25,
+    "p2": 1.39,
     "src": "Matchbook"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2672,7 +3108,7 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 1.46,
+    "p1": 1.45,
     "p2": 3.05,
     "src": "Matchbook"
    },
@@ -2719,8 +3155,8 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 4.0,
-    "p2": 1.28,
+    "p1": 3.9,
+    "p2": 1.3,
     "src": "Matchbook"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2812,7 +3248,12 @@
    "analysis": "Rafael Jodar (Weltrangliste #13) trifft auf Adolfo Daniel Vallejo (#56). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Rafael Jodar mit 78 % vorn. Adolfo Daniel Vallejo hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 11 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 1.17,
+    "p2": 5.0,
+    "src": "William Hill"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-01T06:00:00+02:00",
@@ -2856,7 +3297,7 @@
    "timeTBD": true,
    "odds": {
     "p1": 2.28,
-    "p2": 1.69,
+    "p2": 1.68,
     "src": "Matchbook"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2991,7 +3432,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Hubert Hurkacz",
     "rank": 39,
@@ -3027,8 +3468,8 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 2.39,
-    "p2": 1.57,
+    "p1": 2.43,
+    "p2": 1.55,
     "src": "Marathon Bet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -3038,7 +3479,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Cameron Norrie",
     "rank": 40,
@@ -3074,8 +3515,8 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 6.1,
-    "p2": 1.12,
+    "p1": 6.95,
+    "p2": 1.1,
     "src": "Marathon Bet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -3085,7 +3526,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Flavio Cobolli",
     "rank": 7,
@@ -3121,7 +3562,7 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 1.76,
+    "p1": 1.77,
     "p2": 2.06,
     "src": "Unibet (NL)"
    },
@@ -3132,7 +3573,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Andrey Rublev",
     "rank": 24,
@@ -3168,8 +3609,8 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 1.48,
-    "p2": 2.65,
+    "p1": 1.53,
+    "p2": 2.48,
     "src": "Unibet (NL)"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -3179,7 +3620,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Quentin Halys",
     "rank": 50,
@@ -3215,8 +3656,8 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 1.65,
-    "p2": 2.22,
+    "p1": 1.77,
+    "p2": 2.04,
     "src": "Marathon Bet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -3226,7 +3667,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Arthur Rinderknech",
     "rank": 33,
@@ -3261,14 +3702,19 @@
    "analysis": "Arthur Rinderknech (Weltrangliste #33) trifft auf Alex Molcan (#96). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Arthur Rinderknech mit 71 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 1.6,
+    "p2": 2.29,
+    "src": "Nordic Bet"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-01T06:00:00+02:00",
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Pablo Carreno Busta",
     "rank": 66,
@@ -3303,14 +3749,19 @@
    "analysis": "Pablo Carreno Busta (Weltrangliste #66) trifft auf Daniil Medvedev (#6). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Daniil Medvedev mit 88 % vorn. Daniil Medvedev hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 9 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 4.3,
+    "p2": 1.29,
+    "src": "Betfair"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-01T06:00:00+02:00",
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Sebastian Baez",
     "rank": 51,
@@ -3352,7 +3803,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Mariano Navone",
     "rank": 45,
@@ -3388,8 +3839,8 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 4.95,
-    "p2": 1.17,
+    "p1": 4.35,
+    "p2": 1.21,
     "src": "Marathon Bet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -3399,7 +3850,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Jakub Mensik",
     "rank": 14,
@@ -3435,8 +3886,8 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 1.56,
-    "p2": 2.41,
+    "p1": 1.58,
+    "p2": 2.36,
     "src": "Marathon Bet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -3446,7 +3897,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Francisco Cerundolo",
     "rank": 22,
@@ -3481,7 +3932,12 @@
    "analysis": "Francisco Cerundolo (Weltrangliste #22) trifft auf Botic Van De Zandschulp (#41). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Francisco Cerundolo mit 63 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 1.71,
+    "p2": 2.3,
+    "src": "Betfair"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-01T06:00:00+02:00",
@@ -3663,7 +4119,7 @@
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "2. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Wang Yuhan",
     "rank": null,
@@ -3705,7 +4161,7 @@
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "2. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Kristiana Sidorova",
     "rank": 358,
@@ -3747,7 +4203,7 @@
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "2. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Sofia Costoulas",
     "rank": 159,
@@ -3757,8 +4213,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 5
+    "last7": 1,
+    "sets7": 2
    },
    "p2": {
     "name": "Sofya Lansere",
@@ -3789,7 +4245,7 @@
    "tour": "WTA",
    "tournament": "Jingshan Tennis Open",
    "round": "2. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Kyoka Okamura",
     "rank": 303,
@@ -3811,8 +4267,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 5
+    "last7": 1,
+    "sets7": 3
    },
    "pP1": 0.3772,
    "model": {
@@ -3956,7 +4412,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Camila Osorio",
     "rank": 66,
@@ -3998,7 +4454,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Daria Kasatkina",
     "rank": 87,
@@ -4034,9 +4490,9 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 2.95,
-    "p2": 1.41,
-    "src": "Betsson"
+    "p1": 2.85,
+    "p2": 1.43,
+    "src": "LeoVegas (SE)"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
@@ -4045,7 +4501,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Xinran Sun",
     "rank": 582,
@@ -4067,8 +4523,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 2
+    "last7": 0,
+    "sets7": 0
    },
    "pP1": 0.1854,
    "model": {
@@ -4080,14 +4536,14 @@
    "analysis": "Xinran Sun (Weltrangliste #582) trifft auf Eva Lys (#102). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Eva Lys mit 81 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-01T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Qu Yihan",
     "rank": null,
@@ -4129,7 +4585,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Robin Montgomery",
     "rank": 171,
@@ -4139,8 +4595,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 6
+    "last7": 2,
+    "sets7": 4
    },
    "p2": {
     "name": "Katie Volynets",
@@ -4164,14 +4620,19 @@
    "analysis": "Robin Montgomery (Weltrangliste #171) trifft auf Katie Volynets (#74). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Katie Volynets mit 67 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 2.04,
+    "p2": 1.57,
+    "src": "Betfair"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-01T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Shi Han",
     "rank": null,
@@ -4181,8 +4642,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 5,
-    "sets7": 12
+    "last7": 4,
+    "sets7": 10
    },
    "p2": {
     "name": "Zheng Qinwen",
@@ -4203,7 +4664,7 @@
     "pRank": 0.2137
    },
    "h2h": [],
-   "analysis": "Shi Han – aktuell ohne Top-Ranking – trifft auf Zheng Qinwen (#54). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Zheng Qinwen mit 79 % vorn. Shi Han hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 12 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Shi Han – aktuell ohne Top-Ranking – trifft auf Zheng Qinwen (#54). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Zheng Qinwen mit 79 % vorn. Shi Han hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -4213,7 +4674,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Kimberly Birrell",
     "rank": 41,
@@ -4223,8 +4684,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 5,
-    "sets7": 12
+    "last7": 4,
+    "sets7": 10
    },
    "p2": {
     "name": "Aoi Ito",
@@ -4245,12 +4706,12 @@
     "pRank": 0.864
    },
    "h2h": [],
-   "analysis": "Kimberly Birrell (Weltrangliste #41) trifft auf Aoi Ito (#361). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Kimberly Birrell mit 86 % vorn. Kimberly Birrell hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 12 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Kimberly Birrell (Weltrangliste #41) trifft auf Aoi Ito (#361). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Kimberly Birrell mit 86 % vorn. Kimberly Birrell hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 1.23,
-    "p2": 4.1,
+    "p1": 1.3,
+    "p2": 3.48,
     "src": "Marathon Bet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -4260,7 +4721,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Ashlyn Krueger",
     "rank": 73,
@@ -4282,8 +4743,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 3
+    "last7": 0,
+    "sets7": 0
    },
    "pP1": 0.5805,
    "model": {
@@ -4300,14 +4761,14 @@
     "p2": 2.33,
     "src": "LeoVegas (SE)"
    },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-01T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Anastasia Zakharova",
     "rank": 110,
@@ -4317,8 +4778,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 2
+    "last7": 0,
+    "sets7": 0
    },
    "p2": {
     "name": "Shao Yushan",
@@ -4342,14 +4803,14 @@
    "analysis": "Anastasia Zakharova (#110) trifft auf Shao Yushan, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Anastasia Zakharova mit 67 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-01T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Katerina Siniakova",
     "rank": 55,
@@ -4385,8 +4846,8 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 1.54,
-    "p2": 2.46,
+    "p1": 1.48,
+    "p2": 2.62,
     "src": "Marathon Bet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -4396,7 +4857,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Storm Hunter",
     "rank": 182,
@@ -4431,14 +4892,19 @@
    "analysis": "Storm Hunter (#182) trifft auf Yu Jun Lin, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Storm Hunter mit 57 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 1.04,
+    "p2": 10.8,
+    "src": "GTbets"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-01T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Zhu Lin",
     "rank": null,
@@ -4460,8 +4926,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 4
+    "last7": 1,
+    "sets7": 2
    },
    "pP1": 0.2531,
    "model": {
@@ -4480,7 +4946,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Panna Udvardy",
     "rank": 79,
@@ -4522,7 +4988,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Andrea Lazaro Garcia",
     "rank": 137,
@@ -4557,14 +5023,19 @@
    "analysis": "Andrea Lazaro Garcia (Weltrangliste #137) trifft auf Sonay Kartal (#129). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Sonay Kartal mit 51 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 2.92,
+    "p2": 1.28,
+    "src": "Betfair"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-01T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Alina Charaeva",
     "rank": 118,
@@ -4574,8 +5045,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 6
+    "last7": 1,
+    "sets7": 3
    },
    "p2": {
     "name": "Yuliia Starodubtseva",
@@ -4600,8 +5071,8 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 2.48,
-    "p2": 1.54,
+    "p1": 2.38,
+    "p2": 1.57,
     "src": "LeoVegas (SE)"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -4611,7 +5082,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Kamilla Rakhimova",
     "rank": 76,
@@ -4646,7 +5117,12 @@
    "analysis": "Kamilla Rakhimova (Weltrangliste #76) trifft auf Marina Bassols Ribera (#131). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Kamilla Rakhimova mit 61 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 1.34,
+    "p2": 2.8,
+    "src": "Betfair"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   }
  ],
  "meta": {
@@ -4665,336 +5141,7 @@
    "wta": 0
   }
  },
- "tennisFinished": [
-  {
-   "tour": "ATP",
-   "tournament": "Chengdu Open",
-   "p1": "Alejandro Davidovich Fokina",
-   "p2": "Hubert Hurkacz",
-   "winner": "Alejandro Davidovich Fokina",
-   "score": "6:4 7:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "AITO Hangzhou Open",
-   "p1": "Andrey Rublev",
-   "p2": "Daniil Medvedev",
-   "winner": "Daniil Medvedev",
-   "score": "5:7 4:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Kinoshita Group Japan Open Tennis Championships",
-   "p1": "Rinky Hijikata",
-   "p2": "Stefanos Tsitsipas",
-   "winner": "Stefanos Tsitsipas",
-   "score": "4:6 3:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Kinoshita Group Japan Open Tennis Championships",
-   "p1": "Aleksandar Kovacevic",
-   "p2": "Jaume Munar",
-   "winner": "Jaume Munar",
-   "score": "2:6 3:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Kinoshita Group Japan Open Tennis Championships",
-   "p1": "Kamil Majchrzak",
-   "p2": "Arthur Fils",
-   "winner": "Arthur Fils",
-   "score": "2:6 6:3 1:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Kinoshita Group Japan Open Tennis Championships",
-   "p1": "Jaime Faria",
-   "p2": "Adolfo Daniel Vallejo",
-   "winner": "Adolfo Daniel Vallejo",
-   "score": "4:6 7:5 5:7"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "China Open",
-   "p1": "Arthur Gea",
-   "p2": "Tomas Machac",
-   "winner": "Arthur Gea",
-   "score": "6:3 6:4"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "China Open",
-   "p1": "Alex Molcan",
-   "p2": "Marco Trungelliti",
-   "winner": "Alex Molcan",
-   "score": "6:4 7:5"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "China Open",
-   "p1": "Pablo Carreno Busta",
-   "p2": "Adrian Mannarino",
-   "winner": "Pablo Carreno Busta",
-   "score": "6:3 6:4"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "China Open",
-   "p1": "Cui Jie",
-   "p2": "Botic Van De Zandschulp",
-   "winner": "Botic Van De Zandschulp",
-   "score": "4:6 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Jingshan Tennis Open",
-   "p1": "Sofia Costoulas",
-   "p2": "Kristina Mladenovic",
-   "winner": "Sofia Costoulas",
-   "score": "6:2 7:5"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Jingshan Tennis Open",
-   "p1": "Aliona Falei",
-   "p2": "Tyra Caterina Grant",
-   "winner": "Aliona Falei",
-   "score": "6:4 6:1"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Jingshan Tennis Open",
-   "p1": "Rina Saigo",
-   "p2": "Alexandra Shubladze",
-   "winner": "Alexandra Shubladze",
-   "score": "5:7 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Jingshan Tennis Open",
-   "p1": "Sara Sorribes Tormo",
-   "p2": "Viktoria Morvayova",
-   "winner": "Sara Sorribes Tormo",
-   "score": "6:0 2:6 7:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Jingshan Tennis Open",
-   "p1": "Ru Xi Wu",
-   "p2": "Kyoka Okamura",
-   "winner": "Kyoka Okamura",
-   "score": "2:6 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Jingshan Tennis Open",
-   "p1": "Daria Egorova",
-   "p2": "Kristiana Sidorova",
-   "winner": "Kristiana Sidorova",
-   "score": "3:6 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Jingshan Tennis Open",
-   "p1": "Darya Khamutsianskaya",
-   "p2": "Alevtina Ibragimova",
-   "winner": "Alevtina Ibragimova",
-   "score": "6:3 4:6 5:7"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Jingshan Tennis Open",
-   "p1": "Sofya Lansere",
-   "p2": "Katarina Zavatska",
-   "winner": "Sofya Lansere",
-   "score": "6:3 6:0"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Jingshan Tennis Open",
-   "p1": "Wang Yuhan",
-   "p2": "Amelia Rajecki",
-   "winner": "Wang Yuhan",
-   "score": "6:4 3:6 7:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Jingshan Tennis Open",
-   "p1": "Tian Fangran",
-   "p2": "Jessica Bouzas Maneiro",
-   "winner": "Jessica Bouzas Maneiro",
-   "score": "3:6 1:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Adana Open",
-   "p1": "Simona Waltert",
-   "p2": "Anastasia Tikhonova",
-   "winner": "Simona Waltert",
-   "score": "3:6 7:6 6:3"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Adana Open",
-   "p1": "Elena Micic",
-   "p2": "Dalma Galfi",
-   "winner": "Dalma Galfi",
-   "score": "5:7 0:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Adana Open",
-   "p1": "Ayla Aksu",
-   "p2": "Elena Pridankina",
-   "winner": "Elena Pridankina",
-   "score": "3:6 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Adana Open",
-   "p1": "Lois Boisson",
-   "p2": "Lucia Bronzetti",
-   "winner": "Lois Boisson",
-   "score": "6:1 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Adana Open",
-   "p1": "Melisa Ercan",
-   "p2": "Lola Radivojevic",
-   "winner": "Melisa Ercan",
-   "score": "6:2 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Adana Open",
-   "p1": "Erika Andreeva",
-   "p2": "Polina Iatcenko",
-   "winner": "Erika Andreeva",
-   "score": "6:3 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Adana Open",
-   "p1": "Martyna Kubka",
-   "p2": "Ksenia Efremova",
-   "winner": "Martyna Kubka",
-   "score": "6:3 4:6 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Adana Open",
-   "p1": "Cagla Buyukakcay",
-   "p2": "Carole Monnet",
-   "winner": "Cagla Buyukakcay",
-   "score": "2:6 6:3 7:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Adana Open",
-   "p1": "Berfu Cengiz",
-   "p2": "Teodora Kostovic",
-   "winner": "Teodora Kostovic",
-   "score": "1:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Vivian Wolff",
-   "p2": "Elsa Jacquemot",
-   "winner": "Elsa Jacquemot",
-   "score": "3:6 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Valeria Savinykh",
-   "p2": "Katarzyna Kawa",
-   "winner": "Katarzyna Kawa",
-   "score": "3:6 5:7"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Bai Zhuoxuan",
-   "p2": "Jiayi Wang",
-   "winner": "Bai Zhuoxuan",
-   "score": "6:1 6:0"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Ma YeXin",
-   "p2": "Harriet Dart",
-   "winner": "Harriet Dart",
-   "score": "3:6 2:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "You Xiaodi",
-   "p2": "Marina Bassols Ribera",
-   "winner": "Marina Bassols Ribera",
-   "score": "4:6 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Linda Fruhvirtova",
-   "p2": "Andrea Lazaro Garcia",
-   "winner": "Andrea Lazaro Garcia",
-   "score": "1:6 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Shi Han",
-   "p2": "Elvina Kalieva",
-   "winner": "Shi Han",
-   "score": "6:7 7:5 6:3"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Varvara Lepchenko",
-   "p2": "Aliaksandra Sasnovich",
-   "winner": "Aliaksandra Sasnovich",
-   "score": "4:6 1:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Anna-Lena Friedsam",
-   "p2": "Robin Montgomery",
-   "winner": "Robin Montgomery",
-   "score": "3:6 2:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Darya Astakhova",
-   "p2": "Maddison Inglis",
-   "winner": "Maddison Inglis",
-   "score": "2:6 5:7"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Mai Hontama",
-   "p2": "Jodie Burrage",
-   "winner": "Mai Hontama",
-   "score": "2:6 6:1 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Storm Hunter",
-   "p2": "Ksenia Zaytseva",
-   "winner": "Storm Hunter",
-   "score": "6:0 6:1"
-  }
- ],
+ "tennisFinished": [],
  "stats": {
   "overall": {
    "n": 2635,
@@ -5015,7 +5162,7 @@
    "n": 858,
    "correct": 98
   },
-  "open": 257,
+  "open": 220,
   "recent": [
    {
     "date": "2026-09-29",
