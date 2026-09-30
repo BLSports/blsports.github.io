@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-09-30T19:31:28.446252+02:00",
+ "generatedAt": "2026-09-30T23:28:39.422085+02:00",
  "windowDays": 3,
  "days": [
   "2026-09-30",
@@ -749,48 +749,6 @@
   }
  ],
  "tennis": [
-  {
-   "start": "2026-09-30T19:45:00+02:00",
-   "tour": "WTA",
-   "tournament": "Adana Open",
-   "round": "2. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Lucrezia Stefanini",
-    "rank": 125,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "p2": {
-    "name": "Cagla Buyukakcay",
-    "rank": 427,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 6
-   },
-   "pP1": 0.7397,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.7397
-   },
-   "h2h": [],
-   "analysis": "Lucrezia Stefanini (Weltrangliste #125) trifft auf Cagla Buyukakcay (#427). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Lucrezia Stefanini mit 74 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
   {
    "start": "2026-10-01T04:00:00+02:00",
    "tour": "ATP",
@@ -3560,6 +3518,48 @@
   {
    "start": "2026-10-02T06:00:00+02:00",
    "tour": "WTA",
+   "tournament": "Adana Open",
+   "round": "Viertelfinale",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Lucrezia Stefanini",
+    "rank": 125,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 6
+   },
+   "p2": {
+    "name": "Leolia Jeanjean",
+    "rank": 109,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 6
+   },
+   "pP1": 0.4709,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4709
+   },
+   "h2h": [],
+   "analysis": "Lucrezia Stefanini (Weltrangliste #125) trifft auf Leolia Jeanjean (#109). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Leolia Jeanjean mit 53 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-02T06:00:00+02:00",
+   "tour": "WTA",
    "tournament": "China Open",
    "round": "2. Runde",
    "surface": null,
@@ -4401,6 +4401,22 @@
   },
   {
    "tour": "WTA",
+   "tournament": "Adana Open",
+   "p1": "Melisa Ercan",
+   "p2": "Leolia Jeanjean",
+   "winner": "Leolia Jeanjean",
+   "score": "6:3 5:7 4:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Adana Open",
+   "p1": "Lucrezia Stefanini",
+   "p2": "Cagla Buyukakcay",
+   "winner": "Lucrezia Stefanini",
+   "score": "6:7 6:3 6:3"
+  },
+  {
+   "tour": "WTA",
    "tournament": "China Open",
    "p1": "Dayana Yastremska",
    "p2": "Catherine McNally",
@@ -4530,9 +4546,9 @@
  ],
  "stats": {
   "overall": {
-   "n": 2669,
-   "correct": 1583,
-   "pct": 0.5931
+   "n": 2671,
+   "correct": 1585,
+   "pct": 0.5934
   },
   "football": {
    "n": 858,
@@ -4540,15 +4556,15 @@
    "pct": 0.486
   },
   "tennis": {
-   "n": 1811,
-   "correct": 1166,
-   "pct": 0.6438
+   "n": 1813,
+   "correct": 1168,
+   "pct": 0.6442
   },
   "exact": {
    "n": 858,
    "correct": 98
   },
-  "open": 211,
+  "open": 210,
   "recent": [
    {
     "date": "2026-09-30",
