@@ -59506,9 +59506,9 @@
    "tip": "P2",
    "tipName": "Matteo Arnaldi",
    "prob": 0.7526,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-09-30|shapovalov d|shimabukuro s": {
    "sport": "tn",
@@ -59772,9 +59772,9 @@
    "tip": "P1",
    "tipName": "Fiona Ferro",
    "prob": 0.6712,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-09-30|jones e|zhu c": {
    "sport": "tn",
@@ -59912,9 +59912,9 @@
    "tip": "P1",
    "tipName": "Tamara Korpatsch",
    "prob": 0.6129,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-09-30|oliynykova o|yue y": {
    "sport": "tn",
@@ -59926,9 +59926,9 @@
    "tip": "P2",
    "tipName": "Oleksandra Oliynykova",
    "prob": 0.7103,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-09-30|kudermetova p|sherif m": {
    "sport": "tn",
@@ -60220,9 +60220,9 @@
    "tip": "P2",
    "tipName": "Antonia Ruzic",
    "prob": 0.6191,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-09-29|carreno busta p|mannarino a": {
    "sport": "tn",
@@ -60570,9 +60570,9 @@
    "tip": "P1",
    "tipName": "Katie Boulter",
    "prob": 0.7267,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-09-30|gea a|zhizhen z": {
    "sport": "tn",
@@ -60584,9 +60584,9 @@
    "tip": "P1",
    "tipName": "Arthur Gea",
    "prob": 0.7759,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-09-30|frech m|jacquemot e": {
    "sport": "tn",
@@ -61046,9 +61046,9 @@
    "tip": "P1",
    "tipName": "Simona Waltert",
    "prob": 0.6592,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-09-30|boisson l|kubka m": {
    "sport": "tn",
@@ -61060,9 +61060,9 @@
    "tip": "P1",
    "tipName": "Martyna Kubka",
    "prob": 0.5965,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-09-30|galfi d|kostovic t": {
    "sport": "tn",
@@ -61384,6 +61384,76 @@
    "tip": "P2",
    "tipName": "Linda Noskova",
    "prob": 0.8792,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-02|carreno busta p|medvedev d": {
+   "sport": "tn",
+   "comp": "ATP · China Open",
+   "date": "2026-10-02",
+   "label": "Pablo Carreno Busta – Daniil Medvedev",
+   "p1Key": "carreno busta p",
+   "p2Key": "medvedev d",
+   "tip": "P2",
+   "tipName": "Daniil Medvedev",
+   "prob": 0.8848,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-02|shubladze a|sijia w": {
+   "sport": "tn",
+   "comp": "WTA · Jingshan Tennis Open",
+   "date": "2026-10-02",
+   "label": "Wei Sijia – Alexandra Shubladze",
+   "p1Key": "sijia w",
+   "p2Key": "shubladze a",
+   "tip": "P2",
+   "tipName": "Alexandra Shubladze",
+   "prob": 0.5899,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-02|andreeva m|yue y": {
+   "sport": "tn",
+   "comp": "WTA · China Open",
+   "date": "2026-10-02",
+   "label": "Mirra Andreeva – Yuan Yue",
+   "p1Key": "andreeva m",
+   "p2Key": "yue y",
+   "tip": "P1",
+   "tipName": "Mirra Andreeva",
+   "prob": 0.9428,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-02|parry d|preston t": {
+   "sport": "tn",
+   "comp": "WTA · China Open",
+   "date": "2026-10-02",
+   "label": "Diane Parry – Taylah Preston",
+   "p1Key": "parry d",
+   "p2Key": "preston t",
+   "tip": "P1",
+   "tipName": "Diane Parry",
+   "prob": 0.7141,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-02|boulter k|muchova k": {
+   "sport": "tn",
+   "comp": "WTA · China Open",
+   "date": "2026-10-02",
+   "label": "Katie Boulter – Karolina Muchova",
+   "p1Key": "boulter k",
+   "p2Key": "muchova k",
+   "tip": "P2",
+   "tipName": "Karolina Muchova",
+   "prob": 0.8394,
    "status": "open",
    "result": null,
    "correct": null
