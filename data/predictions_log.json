@@ -59688,9 +59688,9 @@
    "tip": "P1",
    "tipName": "Novak Djokovic",
    "prob": 0.7807,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-09-30|manuel cerundolo j|yunchaokete b": {
    "sport": "tn",
@@ -60066,9 +60066,9 @@
    "tip": "P2",
    "tipName": "Anna Bondar",
    "prob": 0.581,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-09-30|frech m|marcinko p": {
    "sport": "tn",
@@ -60290,9 +60290,9 @@
    "tip": "P1",
    "tipName": "Anna Blinkova",
    "prob": 0.6756,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-01|osorio c|tararudee l": {
    "sport": "tn",
@@ -60598,9 +60598,9 @@
    "tip": "P1",
    "tipName": "Magdalena Frech",
    "prob": 0.7407,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-10-01|fery a|musetti l": {
    "sport": "tn",
@@ -61032,9 +61032,9 @@
    "tip": "P1",
    "tipName": "Elena Pridankina",
    "prob": 0.5376,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-09-30|andreeva e|waltert s": {
    "sport": "tn",
@@ -61074,9 +61074,9 @@
    "tip": "P2",
    "tipName": "Teodora Kostovic",
    "prob": 0.5162,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-09-30|ercan m|jeanjean l": {
    "sport": "tn",
@@ -61454,6 +61454,90 @@
    "tip": "P2",
    "tipName": "Karolina Muchova",
    "prob": 0.8394,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-01|blinkova a|boisson l": {
+   "sport": "tn",
+   "comp": "WTA · Adana Open",
+   "date": "2026-10-01",
+   "label": "Anna Blinkova – Lois Boisson",
+   "p1Key": "blinkova a",
+   "p2Key": "boisson l",
+   "tip": "P1",
+   "tipName": "Anna Blinkova",
+   "prob": 0.7223,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-02|djokovic n|yunchaokete b": {
+   "sport": "tn",
+   "comp": "ATP · China Open",
+   "date": "2026-10-02",
+   "label": "Novak Djokovic – Bu Yunchaokete",
+   "p1Key": "djokovic n",
+   "p2Key": "yunchaokete b",
+   "tip": "P1",
+   "tipName": "Novak Djokovic",
+   "prob": 0.871,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-02|andreeva e|pridankina e": {
+   "sport": "tn",
+   "comp": "WTA · Adana Open",
+   "date": "2026-10-02",
+   "label": "Erika Andreeva – Elena Pridankina",
+   "p1Key": "andreeva e",
+   "p2Key": "pridankina e",
+   "tip": "P2",
+   "tipName": "Elena Pridankina",
+   "prob": 0.5177,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-02|kostovic t|ruzic a": {
+   "sport": "tn",
+   "comp": "WTA · Adana Open",
+   "date": "2026-10-02",
+   "label": "Teodora Kostovic – Antonia Ruzic",
+   "p1Key": "kostovic t",
+   "p2Key": "ruzic a",
+   "tip": "P2",
+   "tipName": "Antonia Ruzic",
+   "prob": 0.6079,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-02|sabalenka a|zarazua r": {
+   "sport": "tn",
+   "comp": "WTA · China Open",
+   "date": "2026-10-02",
+   "label": "Aryna Sabalenka – Renata Zarazua",
+   "p1Key": "sabalenka a",
+   "p2Key": "zarazua r",
+   "tip": "P1",
+   "tipName": "Aryna Sabalenka",
+   "prob": 0.9635,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-02|bartunkova n|frech m": {
+   "sport": "tn",
+   "comp": "WTA · China Open",
+   "date": "2026-10-02",
+   "label": "Magdalena Frech – Nikola Bartunkova",
+   "p1Key": "frech m",
+   "p2Key": "bartunkova n",
+   "tip": "P2",
+   "tipName": "Nikola Bartunkova",
+   "prob": 0.5728,
    "status": "open",
    "result": null,
    "correct": null
