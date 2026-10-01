@@ -60906,9 +60906,9 @@
    "tip": "P2",
    "tipName": "Aliona Falei",
    "prob": 0.602,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-01|costoulas s|lansere s": {
    "sport": "tn",
@@ -61136,7 +61136,14 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null
+   "exact": null,
+   "value": {
+    "pick": "2",
+    "odds": 2.55,
+    "edge": 0.1478,
+    "modelP": 0.4969,
+    "won": null
+   }
   },
   "fb|nl2|2026-10-02|helmond sport|heracles almelo": {
    "sport": "fb",
@@ -61190,7 +61197,14 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 3.3,
+    "edge": 0.176,
+    "modelP": 0.4543,
+    "won": null
+   }
   },
   "tn|atp|2026-10-01|faria j|fery a": {
    "sport": "tn",
@@ -61572,7 +61586,14 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null
+   "exact": null,
+   "value": {
+    "pick": "2",
+    "odds": 2.48,
+    "edge": 0.1443,
+    "modelP": 0.4896,
+    "won": null
+   }
   },
   "fb|ll2|2026-10-03|almeria|burgos": {
    "sport": "fb",
@@ -61644,7 +61665,14 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 2.75,
+    "edge": 0.1638,
+    "modelP": 0.4968,
+    "won": null
+   }
   },
   "fb|nl2|2026-10-03|fc oss|mvv": {
    "sport": "fb",
@@ -61662,7 +61690,14 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 2.25,
+    "edge": 0.0818,
+    "modelP": 0.4887,
+    "won": null
+   }
   },
   "fb|nl2|2026-10-03|almere city|fc volendam": {
    "sport": "fb",
@@ -61680,7 +61715,14 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 1.95,
+    "edge": 0.0747,
+    "modelP": 0.5443,
+    "won": null
+   }
   },
   "fb|nl2|2026-10-03|fc den bosch|fc dordrecht": {
    "sport": "fb",
@@ -61716,7 +61758,14 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 2.88,
+    "edge": 0.235,
+    "modelP": 0.5535,
+    "won": null
+   }
   },
   "fb|nl2|2026-10-03|rkc waalwijk|fc emmen": {
    "sport": "fb",
@@ -61734,7 +61783,14 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 2.0,
+    "edge": 0.1008,
+    "modelP": 0.5594,
+    "won": null
+   }
   },
   "fb|br1|2026-10-03|sao paulo|santos": {
    "sport": "fb",
@@ -61752,7 +61808,14 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null
+   "exact": null,
+   "value": {
+    "pick": "2",
+    "odds": 3.5,
+    "edge": 0.0704,
+    "modelP": 0.3306,
+    "won": null
+   }
   },
   "tn|atp|2026-10-02|faria j|munar j": {
    "sport": "tn",
@@ -62072,6 +62135,48 @@
    "tip": "P2",
    "tipName": "Belinda Bencic",
    "prob": 0.868,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-02|falei a|sorribes tormo s": {
+   "sport": "tn",
+   "comp": "WTA · Jingshan Tennis Open",
+   "date": "2026-10-02",
+   "label": "Sara Sorribes Tormo – Aliona Falei",
+   "p1Key": "sorribes tormo s",
+   "p2Key": "falei a",
+   "tip": "P1",
+   "tipName": "Sara Sorribes Tormo",
+   "prob": 0.5267,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-03|juncheng s|zverev a": {
+   "sport": "tn",
+   "comp": "ATP · China Open",
+   "date": "2026-10-03",
+   "label": "Shang Juncheng – Alexander Zverev",
+   "p1Key": "juncheng s",
+   "p2Key": "zverev a",
+   "tip": "P2",
+   "tipName": "Alexander Zverev",
+   "prob": 0.9838,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-03|de minaur a|halys q": {
+   "sport": "tn",
+   "comp": "ATP · China Open",
+   "date": "2026-10-03",
+   "label": "Quentin Halys – Alex de Minaur",
+   "p1Key": "halys q",
+   "p2Key": "de minaur a",
+   "tip": "P2",
+   "tipName": "Alex de Minaur",
+   "prob": 0.7971,
    "status": "open",
    "result": null,
    "correct": null

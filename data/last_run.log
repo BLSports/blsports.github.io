@@ -59,8 +59,8 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!
 total 8
-drwxr-xr-x  2 runner runner 4096 Oct  1 10:29 .
-drwxrwxrwt 14 root   root   4096 Oct  1 10:29 ..
+drwxr-xr-x  2 runner runner 4096 Oct  1 10:47 .
+drwxrwxrwt 15 root   root   4096 Oct  1 10:47 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -292,7 +292,7 @@ fixtures.csv: 12 Spiele mit Quoten
   Belag-Zuordnung (MatchStat): 30 Turniere
   Tennis-Quoten zugeordnet: 19
   71 Tennis-Matches in den naechsten 3 Tagen
-  31 Tennis-Matches heute bereits beendet
-  Tipp-Log: 3918 Eintraege, 2720 ausgewertet, 1617 richtig
+  32 Tennis-Matches heute bereits beendet
+  Tipp-Log: 3921 Eintraege, 2721 ausgewertet, 1618 richtig
   Premium-Abrufe: Tennis 8, Fussball 141 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
