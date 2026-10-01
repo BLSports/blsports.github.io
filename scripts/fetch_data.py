@@ -1250,6 +1250,16 @@ def espn_tennis_results(tour, day):
     return out
 
 
+def value_stats(resolved):
+    """Bilanz der protokollierten Value-Signale (hypothetisch 1 Einheit je Signal)."""
+    vs = [e["value"] for e in resolved
+          if e.get("value") and e["value"].get("won") is not None]
+    won = sum(1 for v in vs if v["won"])
+    units = sum((v["odds"] - 1) if v["won"] else -1 for v in vs)
+    return {"n": len(vs), "correct": won, "units": round(units, 2),
+            "avgOdds": round(sum(v["odds"] for v in vs) / len(vs), 2) if vs else None}
+
+
 def update_prediction_log(out, results_by_league, log_path):
     """Tipps protokollieren, vergangene aufloesen, Trefferquote berechnen."""
     try:
@@ -1290,6 +1300,11 @@ def update_prediction_log(out, results_by_league, log_path):
                 "tipScore": pred.get("tipScore"), "pOver25": pred.get("pOver25"),
                 "status": "open", "result": None, "correct": None, "exact": None,
             }
+            v = m.get("value")
+            if v and v.get("odds"):
+                entries[key]["value"] = {"pick": v["outcome"], "odds": v["odds"],
+                                         "edge": v.get("edge"), "modelP": v.get("modelP"),
+                                         "won": None}
 
     # --- 2) Aktuelle Tennis-Tipps einloggen ---
     for t in out["tennis"]:
@@ -1319,6 +1334,11 @@ def update_prediction_log(out, results_by_league, log_path):
             "prob": round(max(t["pP1"], 1 - t["pP1"]), 4),
             "status": "open", "result": None, "correct": None,
         }
+        v = t.get("value")
+        if v and v.get("odds") and v.get("name") in (t["p1"]["name"], t["p2"]["name"]):
+            entries[key]["value"] = {"pick": "P1" if v["name"] == t["p1"]["name"] else "P2",
+                                     "odds": v["odds"], "edge": v.get("edge"),
+                                     "modelP": v.get("modelP"), "won": None}
 
     # --- 3) Offene Fussball-Tipps aufloesen (inkl. heute bereits beendeter Spiele) ---
     for e in entries.values():
@@ -1337,6 +1357,8 @@ def update_prediction_log(out, results_by_league, log_path):
                 e["correct"] = (outcome == e["tip"])
                 e["exact"] = (e["result"] == e.get("tipScore"))
                 e["status"] = "correct" if e["correct"] else "wrong"
+                if e.get("value"):
+                    e["value"]["won"] = (outcome == e["value"]["pick"])
                 found = True
                 break
         if not found and (TODAY - e_date).days > 10:
@@ -1370,8 +1392,11 @@ def update_prediction_log(out, results_by_league, log_path):
             if hit:
                 tip_key = e["p1Key"] if e["tip"] == "P1" else e["p2Key"]
                 e["correct"] = (hit["winner"] == tip_key)
-                e["result"] = f'Sieger: {"P1" if hit["winner"] == e["p1Key"] else "P2"}'
+                win_side = "P1" if hit["winner"] == e["p1Key"] else "P2"
+                e["result"] = f'Sieger: {win_side}'
                 e["status"] = "correct" if e["correct"] else "wrong"
+                if e.get("value"):
+                    e["value"]["won"] = (win_side == e["value"]["pick"])
             elif (TODAY - e_date).days > 10:
                 e["status"] = "void"
 
@@ -1391,6 +1416,7 @@ def update_prediction_log(out, results_by_league, log_path):
         "exact": {"n": len(fb_res),
                   "correct": sum(1 for e in fb_res if e.get("exact"))},
         "open": sum(1 for e in entries.values() if e["status"] == "open"),
+        "value": value_stats(resolved),
         "recent": [
             {"date": e["date"], "comp": e["comp"], "label": e["label"],
              "tipName": e["tipName"], "tip": e["tip"], "prob": e["prob"],
