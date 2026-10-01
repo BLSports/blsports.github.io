@@ -59604,9 +59604,9 @@
    "tip": "P2",
    "tipName": "Learner Tien",
    "prob": 0.7454,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-09-30|norrie c|zverev a": {
    "sport": "tn",
@@ -59744,9 +59744,9 @@
    "tip": "P1",
    "tipName": "Jakub Mensik",
    "prob": 0.571,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-09-30|agustin tirante t|lennard struff j": {
    "sport": "tn",
@@ -60024,9 +60024,9 @@
    "tip": "P1",
    "tipName": "Panna Udvardy",
    "prob": 0.727,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-09-30|golubic v|korneeva a": {
    "sport": "tn",
@@ -60416,9 +60416,9 @@
    "tip": "P1",
    "tipName": "Panna Udvardy",
    "prob": 0.727,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-01|charaeva a|starodubtseva y": {
    "sport": "tn",
@@ -60752,9 +60752,9 @@
    "tip": "P2",
    "tipName": "Learner Tien",
    "prob": 0.6926,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-10-01|norrie c|zverev a": {
    "sport": "tn",
@@ -60878,9 +60878,9 @@
    "tip": "P1",
    "tipName": "Jakub Mensik",
    "prob": 0.5752,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-10-01|cerundolo f|van de zandschulp b": {
    "sport": "tn",
@@ -61200,8 +61200,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 3.3,
-    "edge": 0.176,
+    "odds": 3.4,
+    "edge": 0.1851,
     "modelP": 0.4543,
     "won": null
    }
@@ -62261,6 +62261,48 @@
    "tip": "P2",
    "tipName": "Iva Jovic",
    "prob": 0.8653,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-02|gea a|hurkacz h": {
+   "sport": "tn",
+   "comp": "ATP · China Open",
+   "date": "2026-10-02",
+   "label": "Arthur Gea – Hubert Hurkacz",
+   "p1Key": "gea a",
+   "p2Key": "hurkacz h",
+   "tip": "P2",
+   "tipName": "Hubert Hurkacz",
+   "prob": 0.5835,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-03|cerundolo f|mensik j": {
+   "sport": "tn",
+   "comp": "ATP · China Open",
+   "date": "2026-10-03",
+   "label": "Jakub Mensik – Francisco Cerundolo",
+   "p1Key": "mensik j",
+   "p2Key": "cerundolo f",
+   "tip": "P1",
+   "tipName": "Jakub Mensik",
+   "prob": 0.5949,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-03|swiatek i|xinyu g": {
+   "sport": "tn",
+   "comp": "WTA · China Open",
+   "date": "2026-10-03",
+   "label": "Iga Swiatek – Gao Xinyu",
+   "p1Key": "swiatek i",
+   "p2Key": "xinyu g",
+   "tip": "P1",
+   "tipName": "Iga Swiatek",
+   "prob": 0.944,
    "status": "open",
    "result": null,
    "correct": null
