@@ -59,8 +59,8 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!
 total 8
-drwxr-xr-x  2 runner runner 4096 Oct  1 23:39 .
-drwxrwxrwt 14 root   root   4096 Oct  1 23:39 ..
+drwxr-xr-x  2 runner runner 4096 Oct  2 10:05 .
+drwxrwxrwt 14 root   root   4096 Oct  2 10:05 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -191,7 +191,7 @@ drwxrwxrwt 14 root   root   4096 Oct  1 23:39 ..
   WARN: https://www.tennis-data.co.uk/2024w/2024.xlsx nicht erreichbar (binaer)
   WARN: https://www.tennis-data.co.uk/2025w/2025.xlsx nicht erreichbar (binaer)
   WARN: https://www.tennis-data.co.uk/2026w/2026.xlsx nicht erreichbar (binaer)
-fixtures.csv: 12 Spiele mit Quoten
+fixtures.csv: 46 Spiele mit Quoten
 == WM ==
   0 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
@@ -265,8 +265,7 @@ fixtures.csv: 12 Spiele mit Quoten
   0 Spiele in den naechsten 3 Tagen
 == MLS (USA) ==
   0 Ergebnisse geladen
-  1 Spiele in den naechsten 3 Tagen
-  1 Prognosen via Team-Historie-Fallback erstellt
+  0 Spiele in den naechsten 3 Tagen
 == Série A (Brasilien) ==
   0 Ergebnisse geladen
   2 Spiele in den naechsten 3 Tagen
@@ -291,10 +290,10 @@ fixtures.csv: 12 Spiele mit Quoten
   Historie: ATP 0 Matches, WTA 0 Matches
   Elo ATP: 0 Spieler bewertet
   Elo WTA: 0 Spieler bewertet
-  Belag-Zuordnung (MatchStat): 27 Turniere
-  Tennis-Quoten zugeordnet: 40
-  74 Tennis-Matches in den naechsten 3 Tagen
-  0 Tennis-Matches heute bereits beendet
-  Tipp-Log: 3936 Eintraege, 2740 ausgewertet, 1623 richtig
-  Premium-Abrufe: Tennis 8, Fussball 152 (Tennis AKTIV, Fussball AKTIV)
+  Belag-Zuordnung (MatchStat): 30 Turniere
+  Tennis-Quoten zugeordnet: 20
+  70 Tennis-Matches in den naechsten 3 Tagen
+  22 Tennis-Matches heute bereits beendet
+  Tipp-Log: 3946 Eintraege, 2763 ausgewertet, 1637 richtig
+  Premium-Abrufe: Tennis 8, Fussball 143 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
