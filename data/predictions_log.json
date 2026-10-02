@@ -61200,8 +61200,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 3.7,
-    "edge": 0.206,
+    "odds": 4.0,
+    "edge": 0.2268,
     "modelP": 0.4543,
     "won": null
    }
@@ -61496,9 +61496,9 @@
    "tip": "P1",
    "tipName": "Novak Djokovic",
    "prob": 0.871,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-02|andreeva e|pridankina e": {
    "sport": "tn",
@@ -61510,9 +61510,9 @@
    "tip": "P2",
    "tipName": "Elena Pridankina",
    "prob": 0.5177,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-02|kostovic t|ruzic a": {
    "sport": "tn",
@@ -61538,9 +61538,9 @@
    "tip": "P1",
    "tipName": "Aryna Sabalenka",
    "prob": 0.9635,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-02|bartunkova n|frech m": {
    "sport": "tn",
@@ -61811,8 +61811,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 3.6,
-    "edge": 0.0782,
+    "odds": 3.9,
+    "edge": 0.098,
     "modelP": 0.3306,
     "won": null
    }
@@ -62275,9 +62275,9 @@
    "tip": "P2",
    "tipName": "Hubert Hurkacz",
    "prob": 0.5835,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-10-03|cerundolo f|mensik j": {
    "sport": "tn",
@@ -62600,6 +62600,132 @@
    "tip": "P1",
    "tipName": "Naomi Osaka",
    "prob": 0.6116,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-03|han s|yuan c": {
+   "sport": "tn",
+   "comp": "WTA · Suzhou Open",
+   "date": "2026-10-03",
+   "label": "Chengyiyi Yuan – Shi Han",
+   "p1Key": "yuan c",
+   "p2Key": "han s",
+   "tip": "P2",
+   "tipName": "Shi Han",
+   "prob": 0.6188,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-03|saigo r|yidi y": {
+   "sport": "tn",
+   "comp": "WTA · Suzhou Open",
+   "date": "2026-10-03",
+   "label": "Rina Saigo – Yang Yidi",
+   "p1Key": "saigo r",
+   "p2Key": "yidi y",
+   "tip": "P2",
+   "tipName": "Yang Yidi",
+   "prob": 0.53,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-03|andreeva e|boisson l": {
+   "sport": "tn",
+   "comp": "WTA · Adana Open",
+   "date": "2026-10-03",
+   "label": "Lois Boisson – Erika Andreeva",
+   "p1Key": "boisson l",
+   "p2Key": "andreeva e",
+   "tip": "P2",
+   "tipName": "Erika Andreeva",
+   "prob": 0.5533,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-03|sidorova k|zavatska k": {
+   "sport": "tn",
+   "comp": "WTA · Suzhou Open",
+   "date": "2026-10-03",
+   "label": "Kristiana Sidorova – Katarina Zavatska",
+   "p1Key": "sidorova k",
+   "p2Key": "zavatska k",
+   "tip": "P2",
+   "tipName": "Katarina Zavatska",
+   "prob": 0.5628,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-03|nugroho p|okamura k": {
+   "sport": "tn",
+   "comp": "WTA · Suzhou Open",
+   "date": "2026-10-03",
+   "label": "Kyoka Okamura – Priska Nugroho",
+   "p1Key": "okamura k",
+   "p2Key": "nugroho p",
+   "tip": "P2",
+   "tipName": "Priska Nugroho",
+   "prob": 0.5408,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-03|astakhova d|sijia w": {
+   "sport": "tn",
+   "comp": "WTA · Suzhou Open",
+   "date": "2026-10-03",
+   "label": "Wei Sijia – Darya Astakhova",
+   "p1Key": "sijia w",
+   "p2Key": "astakhova d",
+   "tip": "P2",
+   "tipName": "Darya Astakhova",
+   "prob": 0.5614,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-03|lansere s|yihan q": {
+   "sport": "tn",
+   "comp": "WTA · Suzhou Open",
+   "date": "2026-10-03",
+   "label": "Qu Yihan – Sofya Lansere",
+   "p1Key": "yihan q",
+   "p2Key": "lansere s",
+   "tip": "P1",
+   "tipName": "Qu Yihan",
+   "prob": 0.5248,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-04|hurkacz h|khachanov k": {
+   "sport": "tn",
+   "comp": "ATP · China Open",
+   "date": "2026-10-04",
+   "label": "Karen Khachanov – Hubert Hurkacz",
+   "p1Key": "khachanov k",
+   "p2Key": "hurkacz h",
+   "tip": "P1",
+   "tipName": "Karen Khachanov",
+   "prob": 0.5775,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-04|bartunkova n|sabalenka a": {
+   "sport": "tn",
+   "comp": "WTA · China Open",
+   "date": "2026-10-04",
+   "label": "Aryna Sabalenka – Nikola Bartunkova",
+   "p1Key": "sabalenka a",
+   "p2Key": "bartunkova n",
+   "tip": "P1",
+   "tipName": "Aryna Sabalenka",
+   "prob": 0.9175,
    "status": "open",
    "result": null,
    "correct": null
