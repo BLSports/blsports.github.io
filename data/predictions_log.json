@@ -61668,8 +61668,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 2.88,
-    "edge": 0.1787,
+    "odds": 2.9,
+    "edge": 0.1831,
     "modelP": 0.4968,
     "won": null
    }
@@ -62016,9 +62016,9 @@
    "tip": "P1",
    "tipName": "Leylah Fernandez",
    "prob": 0.7134,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-03|mertens e|volynets k": {
    "sport": "tn",
@@ -62100,9 +62100,9 @@
    "tip": "P1",
    "tipName": "Anna Kalinskaya",
    "prob": 0.6821,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-03|krueger a|li a": {
    "sport": "tn",
@@ -62128,9 +62128,9 @@
    "tip": "P2",
    "tipName": "Belinda Bencic",
    "prob": 0.868,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-02|falei a|sorribes tormo s": {
    "sport": "tn",
@@ -62912,6 +62912,20 @@
    "tip": "P1",
    "tipName": "Iga Swiatek",
    "prob": 0.7804,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-05|bencic b|li a": {
+   "sport": "tn",
+   "comp": "WTA · China Open",
+   "date": "2026-10-05",
+   "label": "Ann Li – Belinda Bencic",
+   "p1Key": "li a",
+   "p2Key": "bencic b",
+   "tip": "P2",
+   "tipName": "Belinda Bencic",
+   "prob": 0.6854,
    "status": "open",
    "result": null,
    "correct": null
