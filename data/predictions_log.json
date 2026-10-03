@@ -61755,7 +61755,7 @@
    "value": {
     "pick": "1",
     "odds": 2.75,
-    "edge": 0.2217,
+    "edge": 0.221,
     "modelP": 0.5535,
     "won": null
    }
@@ -61862,9 +61862,9 @@
    "tip": "P2",
    "tipName": "Alexander Zverev",
    "prob": 0.9838,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-10-02|de minaur a|halys q": {
    "sport": "tn",
@@ -61974,9 +61974,9 @@
    "tip": "P1",
    "tipName": "Jiri Lehecka",
    "prob": 0.5697,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-03|siniakova k|svitolina e": {
    "sport": "tn",
@@ -62058,9 +62058,9 @@
    "tip": "P2",
    "tipName": "Marie Bouzkova",
    "prob": 0.5878,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-03|kartal s|xinyu w": {
    "sport": "tn",
@@ -62072,9 +62072,9 @@
    "tip": "P1",
    "tipName": "Wang Xinyu",
    "prob": 0.7386,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-03|charaeva a|rybakina e": {
    "sport": "tn",
@@ -62086,9 +62086,9 @@
    "tip": "P2",
    "tipName": "Elena Rybakina",
    "prob": 0.983,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-03|kalinskaya a|qinwen z": {
    "sport": "tn",
@@ -62156,9 +62156,9 @@
    "tip": "P2",
    "tipName": "Alexander Zverev",
    "prob": 0.9838,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-10-03|de minaur a|halys q": {
    "sport": "tn",
@@ -62226,9 +62226,9 @@
    "tip": "P1",
    "tipName": "Cristina Bucsa",
    "prob": 0.916,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-03|gauff c|osorio c": {
    "sport": "tn",
@@ -62254,9 +62254,9 @@
    "tip": "P2",
    "tipName": "Iva Jovic",
    "prob": 0.8653,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-10-02|gea a|hurkacz h": {
    "sport": "tn",
@@ -62282,9 +62282,9 @@
    "tip": "P1",
    "tipName": "Jakub Mensik",
    "prob": 0.5949,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-03|swiatek i|xinyu g": {
    "sport": "tn",
@@ -62467,9 +62467,9 @@
    "tip": "P2",
    "tipName": "Daniil Medvedev",
    "prob": 0.8747,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-10-04|jacquet k|munar j": {
    "sport": "tn",
@@ -62635,9 +62635,9 @@
    "tip": "P2",
    "tipName": "Erika Andreeva",
    "prob": 0.5533,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-03|sidorova k|zavatska k": {
    "sport": "tn",
@@ -62926,6 +62926,216 @@
    "tip": "P2",
    "tipName": "Belinda Bencic",
    "prob": 0.6854,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-04|daniel vallejo a|lehecka j": {
+   "sport": "tn",
+   "comp": "ATP · Kinoshita Group Japan Open Tennis Championships",
+   "date": "2026-10-04",
+   "label": "Adolfo Daniel Vallejo – Jiri Lehecka",
+   "p1Key": "daniel vallejo a",
+   "p2Key": "lehecka j",
+   "tip": "P2",
+   "tipName": "Jiri Lehecka",
+   "prob": 0.6806,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-04|cerundolo f|medvedev d": {
+   "sport": "tn",
+   "comp": "ATP · China Open",
+   "date": "2026-10-04",
+   "label": "Francisco Cerundolo – Daniil Medvedev",
+   "p1Key": "cerundolo f",
+   "p2Key": "medvedev d",
+   "tip": "P2",
+   "tipName": "Daniil Medvedev",
+   "prob": 0.7511,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-04|golovina m|micic e": {
+   "sport": "tn",
+   "comp": "WTA · Samsun Open",
+   "date": "2026-10-04",
+   "label": "Elena Micic – Mariia Golovina",
+   "p1Key": "micic e",
+   "p2Key": "golovina m",
+   "tip": "P1",
+   "tipName": "Elena Micic",
+   "prob": 0.5887,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-04|noha akugue n|yoruk i": {
+   "sport": "tn",
+   "comp": "WTA · Samsun Open",
+   "date": "2026-10-04",
+   "label": "Ilay Yoruk – Noma Noha Akugue",
+   "p1Key": "yoruk i",
+   "p2Key": "noha akugue n",
+   "tip": "P2",
+   "tipName": "Noma Noha Akugue",
+   "prob": 0.8172,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-04|tikhonova a|tkacheva m": {
+   "sport": "tn",
+   "comp": "WTA · Samsun Open",
+   "date": "2026-10-04",
+   "label": "Mariia Tkacheva – Anastasia Tikhonova",
+   "p1Key": "tkacheva m",
+   "p2Key": "tikhonova a",
+   "tip": "P2",
+   "tipName": "Anastasia Tikhonova",
+   "prob": 0.6919,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-04|djokovic n|zverev a": {
+   "sport": "tn",
+   "comp": "ATP · China Open",
+   "date": "2026-10-04",
+   "label": "Novak Djokovic – Alexander Zverev",
+   "p1Key": "djokovic n",
+   "p2Key": "zverev a",
+   "tip": "P2",
+   "tipName": "Alexander Zverev",
+   "prob": 0.8099,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-04|crawley f|smith a": {
+   "sport": "tn",
+   "comp": "WTA · Samsun Open",
+   "date": "2026-10-04",
+   "label": "Alana Smith – Fiona Crawley",
+   "p1Key": "smith a",
+   "p2Key": "crawley f",
+   "tip": "P2",
+   "tipName": "Fiona Crawley",
+   "prob": 0.6513,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-04|falkowska w|turkmen d": {
+   "sport": "tn",
+   "comp": "WTA · Samsun Open",
+   "date": "2026-10-04",
+   "label": "Weronika Falkowska – Doga Turkmen",
+   "p1Key": "falkowska w",
+   "p2Key": "turkmen d",
+   "tip": "P2",
+   "tipName": "Doga Turkmen",
+   "prob": 0.5387,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-04|ciric bagaric l|jakupovic d": {
+   "sport": "tn",
+   "comp": "WTA · Samsun Open",
+   "date": "2026-10-04",
+   "label": "Lucija Ciric Bagaric – Dalila Jakupovic",
+   "p1Key": "ciric bagaric l",
+   "p2Key": "jakupovic d",
+   "tip": "P1",
+   "tipName": "Lucija Ciric Bagaric",
+   "prob": 0.5184,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-04|kulambayeva z|werner c": {
+   "sport": "tn",
+   "comp": "WTA · Samsun Open",
+   "date": "2026-10-04",
+   "label": "Zhibek Kulambayeva – Caroline Werner",
+   "p1Key": "kulambayeva z",
+   "p2Key": "werner c",
+   "tip": "P2",
+   "tipName": "Caroline Werner",
+   "prob": 0.6193,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-04|bolkvadze m|naz altinel a": {
+   "sport": "tn",
+   "comp": "WTA · Samsun Open",
+   "date": "2026-10-04",
+   "label": "Mariam Bolkvadze – Alya Naz Altinel",
+   "p1Key": "bolkvadze m",
+   "p2Key": "naz altinel a",
+   "tip": "P2",
+   "tipName": "Alya Naz Altinel",
+   "prob": 0.5825,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-05|bouzkova m|qinwen z": {
+   "sport": "tn",
+   "comp": "WTA · China Open",
+   "date": "2026-10-05",
+   "label": "Zheng Qinwen – Marie Bouzkova",
+   "p1Key": "qinwen z",
+   "p2Key": "bouzkova m",
+   "tip": "P2",
+   "tipName": "Marie Bouzkova",
+   "prob": 0.6432,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-05|charaeva a|kartal s": {
+   "sport": "tn",
+   "comp": "WTA · China Open",
+   "date": "2026-10-05",
+   "label": "Sonay Kartal – Alina Charaeva",
+   "p1Key": "kartal s",
+   "p2Key": "charaeva a",
+   "tip": "P2",
+   "tipName": "Alina Charaeva",
+   "prob": 0.5189,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-05|jovic i|rakhimova k": {
+   "sport": "tn",
+   "comp": "WTA · China Open",
+   "date": "2026-10-05",
+   "label": "Kamilla Rakhimova – Iva Jovic",
+   "p1Key": "rakhimova k",
+   "p2Key": "jovic i",
+   "tip": "P2",
+   "tipName": "Iva Jovic",
+   "prob": 0.8177,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-05|gauff c|sun x": {
+   "sport": "tn",
+   "comp": "WTA · China Open",
+   "date": "2026-10-05",
+   "label": "Xinran Sun – Coco Gauff",
+   "p1Key": "sun x",
+   "p2Key": "gauff c",
+   "tip": "P2",
+   "tipName": "Coco Gauff",
+   "prob": 0.9857,
    "status": "open",
    "result": null,
    "correct": null
