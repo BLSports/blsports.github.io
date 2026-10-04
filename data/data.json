@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-04T00:38:32.456416+02:00",
+ "generatedAt": "2026-10-04T12:14:34.480162+02:00",
  "windowDays": 3,
  "days": [
   "2026-10-04",
@@ -192,21 +192,21 @@
      },
      "pBtts": 0.552,
      "odds": {
-      "h": 2.5,
-      "d": 3.1,
-      "a": 2.6,
+      "h": 2.4,
+      "d": 3.0,
+      "a": 2.8,
       "src": "William Hill"
      },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Gorka Gorosabel",
-       "goals": 2
-      }
-     ],
+     "value": {
+      "outcome": "2",
+      "edge": 0.068,
+      "modelP": 0.3906,
+      "odds": 2.8
+     },
+     "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen Real Sociedad II und Granada deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Real Sociedad II 35 %, Unentschieden 26 %, Sieg Granada 39 %). In der Tabelle stehen sich Platz 14 und Platz 13 gegenüber. Das letzte Duell (2026) endete 0:2 (Real Sociedad II – Granada CF). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,3:1,4; über 2,5 Tore: 51 %, beide Teams treffen zu 55 %). Gefährlichste Torschützen: bei Real Sociedad II Gorka Gorosabel (2 Tore).",
+     "analysis": "Zwischen Real Sociedad II und Granada deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Real Sociedad II 35 %, Unentschieden 26 %, Sieg Granada 39 %). In der Tabelle stehen sich Platz 14 und Platz 13 gegenüber. Das letzte Duell (2026) endete 0:2 (Real Sociedad II – Granada CF). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,3:1,4; über 2,5 Tore: 51 %, beide Teams treffen zu 55 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,80) für 7 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -249,14 +249,9 @@
      },
      "value": null,
      "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "Alvaro Marin",
-       "goals": 3
-      }
-     ],
+     "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Gefährlichste Torschützen: bei RC Celta Fortuna Alvaro Marin (3 Tore).",
+     "analysis": "",
      "basis": "Datenbasis: Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -441,6 +436,76 @@
     },
     {
      "kickoff": "2026-10-04T21:00:00+02:00",
+     "home": "CD Sabadell",
+     "away": "FC Andorra",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/11487.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/20179.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "S",
+      "S",
+      "N",
+      "S",
+      "U"
+     ],
+     "formAway": [
+      "N",
+      "N",
+      "N",
+      "N",
+      "S"
+     ],
+     "formHomeH": [
+      "S",
+      "S",
+      "S"
+     ],
+     "formAwayA": [
+      "N",
+      "N",
+      "N",
+      "N",
+      "S"
+     ],
+     "load14Home": 1,
+     "load14Away": 1,
+     "posHome": 7,
+     "posAway": 19,
+     "nTeams": 22,
+     "h2h": [],
+     "prediction": {
+      "pHome": 0.4878,
+      "pDraw": 0.2651,
+      "pAway": 0.2471,
+      "pOver25": 0.4332,
+      "pBtts": 0.4716,
+      "xgHome": 1.46,
+      "xgAway": 0.95,
+      "tipScore": "1:0",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.4716,
+     "odds": null,
+     "value": null,
+     "scorersHome": [
+      {
+       "name": "N. Gioacchini",
+       "goals": 3
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "Jordi Cano",
+       "goals": 4
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "CD Sabadell ist gegen FC Andorra leicht favorisiert (48 % zu 25 %). In der Tabelle stehen sich Platz 7 und Platz 17 gegenüber. Die Form spricht für CD Sabadell: 3 Siege aus den letzten 5 Spielen, FC Andorra holte nur 1. Heim-/Auswärtsbilanz: CD Sabadell gewann 3 der letzten 3 Heimspiele, FC Andorra 1 der letzten 5 Auswärtsspiele. Das Modell erwartet eher wenige Tore (xG 1,5:0,9; über 2,5 Tore: 43 %, beide Teams treffen zu 47 %). Gefährlichste Torschützen: bei FC Andorra Jordi Cano (4 Tore).",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle. Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-10-04T21:00:00+02:00",
      "home": "Girona",
      "away": "Mallorca",
      "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
@@ -582,12 +647,7 @@
       "modelP": 0.3239,
       "odds": 3.6
      },
-     "scorersHome": [
-      {
-       "name": "Percan",
-       "goals": 2
-      }
-     ],
+     "scorersHome": [],
      "scorersAway": [
       {
        "name": "Enric Gallego",
@@ -709,16 +769,16 @@
      },
      "pBtts": 0.6404,
      "odds": {
-      "h": 2.38,
-      "d": 3.5,
-      "a": 2.62,
+      "h": 2.4,
+      "d": 3.6,
+      "a": 2.5,
       "src": "William Hill"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.1011,
+      "edge": 0.1067,
       "modelP": 0.4874,
-      "odds": 2.38
+      "odds": 2.4
      },
      "scorersHome": [
       {
@@ -728,7 +788,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "VVV-Venlo ist gegen Roda JC Kerkrade leicht favorisiert (49 % zu 29 %). In der Tabelle stehen sich Platz 2 und Platz 14 gegenüber. Das letzte Duell (2026) endete 2:2 (Roda – VVV Venlo). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,4; über 2,5 Tore: 64 %, beide Teams treffen zu 64 %). Gefährlichste Torschützen: bei VVV-Venlo D. Zandbergen (4 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,38) für 10 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "VVV-Venlo ist gegen Roda JC Kerkrade leicht favorisiert (49 % zu 29 %). In der Tabelle stehen sich Platz 2 und Platz 14 gegenüber. Das letzte Duell (2026) endete 2:2 (Roda – VVV Venlo). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,4; über 2,5 Tore: 64 %, beide Teams treffen zu 64 %). Gefährlichste Torschützen: bei VVV-Venlo D. Zandbergen (4 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,40) für 11 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
@@ -854,1317 +914,6 @@
   }
  ],
  "tennis": [
-  {
-   "start": "2026-10-04T04:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "Kinoshita Group Japan Open Tennis Championships",
-   "round": "Viertelfinale",
-   "surface": null,
-   "p1": {
-    "name": "Kyrian Jacquet",
-    "rank": 86,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4,
-    "sets7": 8
-   },
-   "p2": {
-    "name": "Jaume Munar",
-    "rank": 64,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4,
-    "sets7": 10
-   },
-   "pP1": 0.4375,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.4375
-   },
-   "h2h": [],
-   "analysis": "Kyrian Jacquet (Weltrangliste #86) trifft auf Jaume Munar (#64). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Jaume Munar mit 56 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 2.24,
-    "p2": 1.63,
-    "src": "Nordic Bet"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-04T04:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "round": "Qualifying 1st Round",
-   "surface": null,
-   "p1": {
-    "name": "Li Zongyu",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "p2": {
-    "name": "Lu Jia-Jing",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 4
-   },
-   "pP1": null,
-   "model": {},
-   "h2h": [],
-   "analysis": "Li Zongyu trifft auf Lu Jia-Jing; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-04T04:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "round": "Qualifying 1st Round",
-   "surface": null,
-   "p1": {
-    "name": "Qu Yihan",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "p2": {
-    "name": "Zheng Wushuang",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 7
-   },
-   "pP1": null,
-   "model": {},
-   "h2h": [],
-   "analysis": "Qu Yihan trifft auf Zheng Wushuang; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-04T04:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "round": "Qualifying 1st Round",
-   "surface": null,
-   "p1": {
-    "name": "Darya Khamutsianskaya",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "p2": {
-    "name": "Yujia Huang",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 5
-   },
-   "pP1": null,
-   "model": {},
-   "h2h": [],
-   "analysis": "Darya Khamutsianskaya trifft auf Yujia Huang; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-04T05:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "China Open",
-   "round": "3. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Aryna Sabalenka",
-    "rank": 2,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "p2": {
-    "name": "Nikola Bartunkova",
-    "rank": 34,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": 0.9175,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.9175
-   },
-   "h2h": [],
-   "analysis": "Aryna Sabalenka (Weltrangliste #2) trifft auf Nikola Bartunkova (#34). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Aryna Sabalenka mit 92 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 1.14,
-    "p2": 5.6,
-    "src": "Marathon Bet"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-04T05:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "China Open",
-   "round": "3. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Dayana Yastremska",
-    "rank": 111,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 4
-   },
-   "p2": {
-    "name": "Sinja Kraus",
-    "rank": 95,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 4
-   },
-   "pP1": 0.467,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.467
-   },
-   "h2h": [],
-   "analysis": "Dayana Yastremska (Weltrangliste #111) trifft auf Sinja Kraus (#95). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Sinja Kraus mit 53 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 1.36,
-    "p2": 3.1,
-    "src": "888sport"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-04T05:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "China Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Gabriela Dabrowski / Luisa Stefani",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Tang Qianhui / Xu Yifan",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-10-04T05:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "China Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Lyudmyla Kichenok / Asia Muhammad",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Mariia Kozyreva / Vera Zvonareva",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-10-04T05:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "round": "Qualifying 1st Round",
-   "surface": null,
-   "p1": {
-    "name": "Chengyiyi Yuan",
-    "rank": 442,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "p2": {
-    "name": "Shi Han",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 8
-   },
-   "pP1": 0.3812,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.3812
-   },
-   "h2h": [],
-   "analysis": "Chengyiyi Yuan (#442) trifft auf Shi Han, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Shi Han mit 62 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-04T05:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "round": "Qualifying 1st Round",
-   "surface": null,
-   "p1": {
-    "name": "Kristiana Sidorova",
-    "rank": 358,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 7
-   },
-   "p2": {
-    "name": "Katarina Zavatska",
-    "rank": 266,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": 0.4372,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.4372
-   },
-   "h2h": [],
-   "analysis": "Kristiana Sidorova (Weltrangliste #358) trifft auf Katarina Zavatska (#266). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Katarina Zavatska mit 56 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-04T05:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "round": "Qualifying 1st Round",
-   "surface": null,
-   "p1": {
-    "name": "Rina Saigo",
-    "rank": 288,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "p2": {
-    "name": "Yang Yidi",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "pP1": 0.47,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.47
-   },
-   "h2h": [],
-   "analysis": "Rina Saigo (#288) trifft auf Yang Yidi, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Yang Yidi mit 53 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-04T06:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "Kinoshita Group Japan Open Tennis Championships",
-   "round": "Viertelfinale",
-   "surface": null,
-   "p1": {
-    "name": "Denis Shapovalov",
-    "rank": 46,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4,
-    "sets7": 11
-   },
-   "p2": {
-    "name": "Carlos Alcaraz",
-    "rank": 3,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 5
-   },
-   "pP1": 0.0894,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.0894
-   },
-   "h2h": [],
-   "analysis": "Denis Shapovalov (Weltrangliste #46) trifft auf Carlos Alcaraz (#3). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Carlos Alcaraz mit 91 % vorn. Denis Shapovalov hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 11 Sätzen) – die physische Frische ist ein Fragezeichen.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 7.4,
-    "p2": 1.14,
-    "src": "Betfair"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-04T06:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "Jingshan Tennis Open",
-   "round": "Finale",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Alexandra Shubladze",
-    "rank": 163,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4,
-    "sets7": 9
-   },
-   "p2": {
-    "name": "Jessica Bouzas Maneiro",
-    "rank": 96,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4,
-    "sets7": 8
-   },
-   "pP1": 0.3894,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.3894
-   },
-   "h2h": [],
-   "analysis": "Alexandra Shubladze (Weltrangliste #163) trifft auf Jessica Bouzas Maneiro (#96). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Jessica Bouzas Maneiro mit 61 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-04T06:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "China Open",
-   "round": "3. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Diana Shnaider",
-    "rank": 14,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "p2": {
-    "name": "Ekaterina Alexandrova",
-    "rank": 28,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": 0.6432,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6432
-   },
-   "h2h": [],
-   "analysis": "Diana Shnaider (Weltrangliste #14) trifft auf Ekaterina Alexandrova (#28). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Diana Shnaider mit 64 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 1.5,
-    "p2": 2.94,
-    "src": "Betfair"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-04T06:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "China Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Ellen Perez / Demi  Schuurs",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "TBD / TBD",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-10-04T07:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "China Open",
-   "round": "Viertelfinale",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Karen Khachanov",
-    "rank": 27,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 4
-   },
-   "p2": {
-    "name": "Hubert Hurkacz",
-    "rank": 39,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 5,
-    "sets7": 13
-   },
-   "pP1": 0.5775,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.5775
-   },
-   "h2h": [],
-   "analysis": "Karen Khachanov (Weltrangliste #27) trifft auf Hubert Hurkacz (#39). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Karen Khachanov mit 58 % vorn. Hubert Hurkacz hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 13 Sätzen) – die physische Frische ist ein Fragezeichen.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 1.66,
-    "p2": 2.3,
-    "src": "1xBet"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-04T07:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "China Open",
-   "round": "3. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Mirra Andreeva",
-    "rank": 5,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "p2": {
-    "name": "Polina Kudermetova",
-    "rank": 104,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 6
-   },
-   "pP1": 0.9295,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.9295
-   },
-   "h2h": [],
-   "analysis": "Mirra Andreeva (Weltrangliste #5) trifft auf Polina Kudermetova (#104). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Mirra Andreeva mit 93 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 1.06,
-    "p2": 8.8,
-    "src": "1xBet"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-04T07:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "round": "Qualifying 1st Round",
-   "surface": null,
-   "p1": {
-    "name": "Wei Sijia",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 8
-   },
-   "p2": {
-    "name": "Rinko Matsuda",
-    "rank": 445,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "pP1": 0.6201,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6201
-   },
-   "h2h": [],
-   "analysis": "Wei Sijia – aktuell ohne Top-Ranking – trifft auf Rinko Matsuda (#445). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Wei Sijia mit 62 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-04T07:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "round": "Qualifying 1st Round",
-   "surface": null,
-   "p1": {
-    "name": "Kyoka Okamura",
-    "rank": 303,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 7
-   },
-   "p2": {
-    "name": "Priska Nugroho",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": 0.4592,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.4592
-   },
-   "h2h": [],
-   "analysis": "Kyoka Okamura (#303) trifft auf Priska Nugroho, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Priska Nugroho mit 54 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-04T07:30:00+02:00",
-   "tour": "ATP",
-   "tournament": "Kinoshita Group Japan Open Tennis Championships",
-   "round": "Halbfinale",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Theo Arribage / Albano Olivetti",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Rinky Hijikata / Kaito Uesugi",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-10-04T08:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "China Open",
-   "round": "3. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Taylah Preston",
-    "rank": 91,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 4
-   },
-   "p2": {
-    "name": "Daria Snigur",
-    "rank": 46,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 6
-   },
-   "pP1": 0.359,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.359
-   },
-   "h2h": [],
-   "analysis": "Taylah Preston (Weltrangliste #91) trifft auf Daria Snigur (#46). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Daria Snigur mit 64 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 2.64,
-    "p2": 1.6,
-    "src": "Betfair"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-04T08:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "China Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Storm Hunter / Kristina Mladenovic",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Marie Bouzkova / Ann Li",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-10-04T08:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "China Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Nikola Bartunkova / Maja Chwalinska",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Catherine McNally / Janice Tjen",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-10-04T08:30:00+02:00",
-   "tour": "ATP",
-   "tournament": "China Open",
-   "round": "Viertelfinale",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Andrey Rublev",
-    "rank": 24,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 5,
-    "sets7": 13
-   },
-   "p2": {
-    "name": "Alex de Minaur",
-    "rank": 10,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 5
-   },
-   "pP1": 0.3221,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.3221
-   },
-   "h2h": [],
-   "analysis": "Andrey Rublev (Weltrangliste #24) trifft auf Alex de Minaur (#10). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alex de Minaur mit 68 % vorn. Andrey Rublev hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 13 Sätzen) – die physische Frische ist ein Fragezeichen.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 2.14,
-    "p2": 1.86,
-    "src": "Matchbook"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-04T08:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "China Open",
-   "round": "3. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Viktorija Golubic",
-    "rank": 67,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 5
-   },
-   "p2": {
-    "name": "Linda Noskova",
-    "rank": 6,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": 0.114,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.114
-   },
-   "h2h": [],
-   "analysis": "Viktorija Golubic (Weltrangliste #67) trifft auf Linda Noskova (#6). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Linda Noskova mit 89 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 6.0,
-    "p2": 1.12,
-    "src": "888sport"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-04T09:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "Kinoshita Group Japan Open Tennis Championships",
-   "round": "Viertelfinale",
-   "surface": null,
-   "p1": {
-    "name": "Arthur Fils",
-    "rank": 9,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4,
-    "sets7": 10
-   },
-   "p2": {
-    "name": "Valentin Vacherot",
-    "rank": 18,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 5
-   },
-   "pP1": 0.6432,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6432
-   },
-   "h2h": [],
-   "analysis": "Arthur Fils (Weltrangliste #9) trifft auf Valentin Vacherot (#18). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Arthur Fils mit 64 % vorn. Arthur Fils hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 1.2,
-    "p2": 3.75,
-    "src": "PMU (FR)"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-04T09:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "China Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Maya Joint / Andreja Klepac",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Mirra Andreeva / Anna Kalinskaya",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-10-04T09:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "China Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Maia Lumsden / Alexandra Panova",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Elise Mertens / Diana Shnaider",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-10-04T10:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "China Open",
-   "round": "Halbfinale",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Alexander Bublik / Shang Juncheng",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Sander Arends / David Pel",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-10-04T10:30:00+02:00",
-   "tour": "ATP",
-   "tournament": "Kinoshita Group Japan Open Tennis Championships",
-   "round": "Viertelfinale",
-   "surface": null,
-   "p1": {
-    "name": "Adolfo Daniel Vallejo",
-    "rank": 56,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4,
-    "sets7": 9
-   },
-   "p2": {
-    "name": "Jiri Lehecka",
-    "rank": 23,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 6
-   },
-   "pP1": 0.3194,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.3194
-   },
-   "h2h": [],
-   "analysis": "Adolfo Daniel Vallejo (Weltrangliste #56) trifft auf Jiri Lehecka (#23). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Jiri Lehecka mit 68 % vorn. Adolfo Daniel Vallejo hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 9 Sätzen) – die physische Frische ist ein Fragezeichen.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 2.85,
-    "p2": 1.33,
-    "src": "Winamax (FR)"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-04T10:30:00+02:00",
-   "tour": "ATP",
-   "tournament": "China Open",
-   "round": "Viertelfinale",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Francisco Cerundolo",
-    "rank": 22,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 5
-   },
-   "p2": {
-    "name": "Daniil Medvedev",
-    "rank": 6,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 5,
-    "sets7": 11
-   },
-   "pP1": 0.2489,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.2489
-   },
-   "h2h": [],
-   "analysis": "Francisco Cerundolo (Weltrangliste #22) trifft auf Daniil Medvedev (#6). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Daniil Medvedev mit 75 % vorn. Daniil Medvedev hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 11 Sätzen) – die physische Frische ist ein Fragezeichen.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 3.07,
-    "p2": 1.38,
-    "src": "Coolbet"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-04T11:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Samsun Open",
-   "round": "Qualifying 1st Round",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Elena Micic",
-    "rank": 278,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 4
-   },
-   "p2": {
-    "name": "Mariia Golovina",
-    "rank": 424,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.5887,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.5887
-   },
-   "h2h": [],
-   "analysis": "Elena Micic (Weltrangliste #278) trifft auf Mariia Golovina (#424). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Elena Micic mit 59 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-04T11:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Samsun Open",
-   "round": "Qualifying 1st Round",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Ilay Yoruk",
-    "rank": 757,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Noma Noha Akugue",
-    "rank": 130,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": 0.1828,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.1828
-   },
-   "h2h": [],
-   "analysis": "Ilay Yoruk (Weltrangliste #757) trifft auf Noma Noha Akugue (#130). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Noma Noha Akugue mit 82 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-04T11:30:00+02:00",
-   "tour": "ATP",
-   "tournament": "China Open",
-   "round": "Viertelfinale",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Julian Cash / Lloyd Glasspool",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Marcelo Melo / Alexander Zverev",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
   {
    "start": "2026-10-04T12:30:00+02:00",
    "tour": "WTA",
@@ -2320,28 +1069,28 @@
     "sets7": 0
    },
    "p2": {
-    "name": "Fiona Crawley",
-    "rank": 234,
+    "name": "Adelina Lacinova",
+    "rank": null,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 8
+    "last7": 0,
+    "sets7": 0
    },
-   "pP1": 0.3487,
+   "pP1": 0.3616,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.3487
+    "pRank": 0.3616
    },
    "h2h": [],
-   "analysis": "Alana Smith (Weltrangliste #488) trifft auf Fiona Crawley (#234). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Fiona Crawley mit 65 % vorn.",
+   "analysis": "Alana Smith (#488) trifft auf Adelina Lacinova, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Adelina Lacinova mit 64 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-04T13:00:00+02:00",
@@ -2384,6 +1133,31 @@
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-04T14:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "China Open",
+   "round": "Viertelfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Julian Cash / Lloyd Glasspool",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Marcelo Melo / Alexander Zverev",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
   },
   {
    "start": "2026-10-04T14:30:00+02:00",
@@ -2601,200 +1375,14 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-10-05T06:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "Kinoshita Group Japan Open Tennis Championships",
-   "round": "Halbfinale",
+   "start": "2026-10-05T04:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "round": "Qualifying Final",
    "surface": null,
-   "doubles": true,
    "p1": {
-    "name": "Austin Krajicek / Nikola Mektic",
+    "name": "Yang Yidi",
     "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Simone Bolelli / Andrea Vavassori",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-05T06:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "China Open",
-   "round": "Halbfinale",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "TBD / TBD",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Robert Cash / Alexander Erler",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-05T06:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "China Open",
-   "round": "3. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Zheng Qinwen",
-    "rank": 54,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 6
-   },
-   "p2": {
-    "name": "Marie Bouzkova",
-    "rank": 27,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": 0.3568,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.3568
-   },
-   "h2h": [],
-   "analysis": "Zheng Qinwen (Weltrangliste #54) trifft auf Marie Bouzkova (#27). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Marie Bouzkova mit 64 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-05T06:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "China Open",
-   "round": "3. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Sonay Kartal",
-    "rank": 129,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 4
-   },
-   "p2": {
-    "name": "Alina Charaeva",
-    "rank": 118,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 6
-   },
-   "pP1": 0.4811,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.4811
-   },
-   "h2h": [],
-   "analysis": "Sonay Kartal (Weltrangliste #129) trifft auf Alina Charaeva (#118). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alina Charaeva mit 52 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "odds": {
-    "p1": 1.44,
-    "p2": 2.6,
-    "src": "Betfair"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-05T06:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "China Open",
-   "round": "3. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Ann Li",
-    "rank": 30,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "p2": {
-    "name": "Belinda Bencic",
-    "rank": 12,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": 0.3146,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.3146
-   },
-   "h2h": [],
-   "analysis": "Ann Li (Weltrangliste #30) trifft auf Belinda Bencic (#12). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Belinda Bencic mit 69 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "odds": {
-    "p1": 2.42,
-    "p2": 1.43,
-    "src": "Betfair"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-05T06:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "China Open",
-   "round": "3. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Kamilla Rakhimova",
-    "rank": 76,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -2805,90 +1393,46 @@
     "sets7": 5
    },
    "p2": {
-    "name": "Iva Jovic",
-    "rank": 13,
+    "name": "Shi Han",
+    "rank": null,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 3
+    "last7": 4,
+    "sets7": 11
    },
-   "pP1": 0.1823,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.1823
-   },
+   "pP1": null,
+   "model": {},
    "h2h": [],
-   "analysis": "Kamilla Rakhimova (Weltrangliste #76) trifft auf Iva Jovic (#13). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Iva Jovic mit 82 % vorn.",
+   "analysis": "Yang Yidi trifft auf Shi Han; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Shi Han hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 11 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
-   "timeTBD": true,
-   "odds": {
-    "p1": 2.7,
-    "p2": 1.18,
-    "src": "Matchbook"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-10-05T06:00:00+02:00",
+   "start": "2026-10-05T04:00:00+02:00",
    "tour": "WTA",
-   "tournament": "China Open",
-   "round": "3. Runde",
-   "surface": "Hartplatz",
+   "tournament": "Suzhou Open",
+   "round": "Qualifying Final",
+   "surface": null,
    "p1": {
-    "name": "Elise Mertens",
-    "rank": 19,
+    "name": "Darya Khamutsianskaya",
+    "rank": null,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 3
+    "last7": 2,
+    "sets7": 6
    },
    "p2": {
-    "name": "Jelena Ostapenko",
-    "rank": 32,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": 0.609,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.609
-   },
-   "h2h": [],
-   "analysis": "Elise Mertens (Weltrangliste #19) trifft auf Jelena Ostapenko (#32). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Elise Mertens mit 61 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "odds": {
-    "p1": 1.5,
-    "p2": 2.34,
-    "src": "Betfair"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-05T06:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "China Open",
-   "round": "3. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Xinran Sun",
-    "rank": 582,
+    "name": "Katarina Zavatska",
+    "rank": 266,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -2898,79 +1442,58 @@
     "last7": 2,
     "sets7": 4
    },
-   "p2": {
-    "name": "Coco Gauff",
-    "rank": 4,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "pP1": 0.0143,
+   "pP1": 0.5132,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.0143
+    "pRank": 0.5132
    },
    "h2h": [],
-   "analysis": "Xinran Sun (Weltrangliste #582) trifft auf Coco Gauff (#4). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Coco Gauff mit 99 % vorn.",
+   "analysis": "Darya Khamutsianskaya – aktuell ohne Top-Ranking – trifft auf Katarina Zavatska (#266). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Darya Khamutsianskaya mit 51 % vorn.",
    "unconfirmed": false,
-   "timeTBD": true,
+   "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-10-05T06:00:00+02:00",
+   "start": "2026-10-05T04:00:00+02:00",
    "tour": "WTA",
-   "tournament": "China Open",
-   "round": "3. Runde",
-   "surface": "Hartplatz",
+   "tournament": "Suzhou Open",
+   "round": "Qualifying Final",
+   "surface": null,
    "p1": {
-    "name": "Elina Svitolina",
-    "rank": 7,
+    "name": "Lu Jia-Jing",
+    "rank": null,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 3
+    "last7": 3,
+    "sets7": 7
    },
    "p2": {
-    "name": "Maria Sakkari",
-    "rank": 33,
+    "name": "Zheng Wushuang",
+    "rank": null,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 2
+    "last7": 4,
+    "sets7": 10
    },
-   "pP1": 0.7889,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.7889
-   },
+   "pP1": null,
+   "model": {},
    "h2h": [],
-   "analysis": "Elina Svitolina (Weltrangliste #7) trifft auf Maria Sakkari (#33). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Elina Svitolina mit 79 % vorn.",
+   "analysis": "Lu Jia-Jing trifft auf Zheng Wushuang; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
    "unconfirmed": false,
-   "timeTBD": true,
-   "odds": {
-    "p1": 1.34,
-    "p2": 3.54,
-    "src": "GTbets"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-10-05T06:00:00+02:00",
+   "start": "2026-10-05T05:00:00+02:00",
    "tour": "WTA",
    "tournament": "China Open",
    "round": "3. Runde",
@@ -3008,7 +1531,7 @@
    "h2h": [],
    "analysis": "Iga Swiatek (Weltrangliste #9) trifft auf Donna Vekic (#40). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Iga Swiatek mit 78 % vorn.",
    "unconfirmed": false,
-   "timeTBD": true,
+   "timeTBD": false,
    "odds": {
     "p1": 1.11,
     "p2": 8.6,
@@ -3017,7 +1540,1432 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
+   "start": "2026-10-05T05:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Ulrikke Eikeri / Quinn Gleason",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Linda Noskova / Clara Tauson",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-05T05:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Cristina Bucsa / Nicole Melichar-Martinez",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Ekaterina Alexandrova / Fanny Stollar",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-05T05:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Rebecca Sramkova",
+    "rank": 152,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Alevtina Ibragimova",
+    "rank": 168,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 6
+   },
+   "pP1": 0.5213,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.5213
+   },
+   "h2h": [],
+   "analysis": "Rebecca Sramkova (Weltrangliste #152) trifft auf Alevtina Ibragimova (#168). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Rebecca Sramkova mit 52 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T05:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Tatiana Prozorova",
+    "rank": 123,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Zhang Ruien",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "pP1": 0.6463,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6463
+   },
+   "h2h": [],
+   "analysis": "Tatiana Prozorova (#123) trifft auf Zhang Ruien, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Tatiana Prozorova mit 65 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
    "start": "2026-10-05T06:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Nikoloz Basilashvili",
+    "rank": 121,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 5
+   },
+   "p2": {
+    "name": "Andre Ilagan",
+    "rank": 195,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.6,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6
+   },
+   "h2h": [],
+   "analysis": "Nikoloz Basilashvili (Weltrangliste #121) trifft auf Andre Ilagan (#195). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Nikoloz Basilashvili mit 60 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T06:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Liam Draxl",
+    "rank": 215,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Hugo Gaston",
+    "rank": 87,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "pP1": 0.3167,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3167
+   },
+   "h2h": [],
+   "analysis": "Liam Draxl (Weltrangliste #215) trifft auf Hugo Gaston (#87). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Hugo Gaston mit 68 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T06:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Shintaro Mochizuki",
+    "rank": 120,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Taro Daniel",
+    "rank": 172,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.5759,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.5759
+   },
+   "h2h": [],
+   "analysis": "Shintaro Mochizuki (Weltrangliste #120) trifft auf Taro Daniel (#172). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Shintaro Mochizuki mit 58 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T06:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Alexis Galarneau",
+    "rank": 180,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Roman Safiullin",
+    "rank": 84,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 4,
+    "sets7": 9
+   },
+   "pP1": 0.3435,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3435
+   },
+   "h2h": [],
+   "analysis": "Alexis Galarneau (Weltrangliste #180) trifft auf Roman Safiullin (#84). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Roman Safiullin mit 66 % vorn. Roman Safiullin hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 9 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T06:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Federico Cina",
+    "rank": 150,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Xiao Linang",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.6069,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6069
+   },
+   "h2h": [],
+   "analysis": "Federico Cina (#150) trifft auf Xiao Linang, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Federico Cina mit 61 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T06:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Aziz Dougaz",
+    "rank": 423,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Lorenzo Sonego",
+    "rank": 83,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.2003,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.2003
+   },
+   "h2h": [],
+   "analysis": "Aziz Dougaz (Weltrangliste #423) trifft auf Lorenzo Sonego (#83). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Lorenzo Sonego mit 80 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T06:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "3. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Zheng Qinwen",
+    "rank": 54,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 6
+   },
+   "p2": {
+    "name": "Marie Bouzkova",
+    "rank": 27,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.3568,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3568
+   },
+   "h2h": [],
+   "analysis": "Zheng Qinwen (Weltrangliste #54) trifft auf Marie Bouzkova (#27). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Marie Bouzkova mit 64 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T06:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "3. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Kamilla Rakhimova",
+    "rank": 76,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 5
+   },
+   "p2": {
+    "name": "Iva Jovic",
+    "rank": 13,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "pP1": 0.1823,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.1823
+   },
+   "h2h": [],
+   "analysis": "Kamilla Rakhimova (Weltrangliste #76) trifft auf Iva Jovic (#13). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Iva Jovic mit 82 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "odds": {
+    "p1": 2.7,
+    "p2": 1.18,
+    "src": "Matchbook"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T06:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Ingrid Neel / Giuliana Olmos",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Erin Routliffe / Aldila Sutjiadi",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-05T07:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Kinoshita Group Japan Open Tennis Championships",
+   "round": "Halbfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Austin Krajicek / Nikola Mektic",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Simone Bolelli / Andrea Vavassori",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-05T07:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Darya Astakhova",
+    "rank": 187,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
+   },
+   "p2": {
+    "name": "Sofia Costoulas",
+    "rank": 159,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
+   },
+   "pP1": 0.4656,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4656
+   },
+   "h2h": [],
+   "analysis": "Darya Astakhova (Weltrangliste #187) trifft auf Sofia Costoulas (#159). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Sofia Costoulas mit 53 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T07:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Claire Liu",
+    "rank": 97,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Elsa Jacquemot",
+    "rank": 165,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 7
+   },
+   "pP1": 0.611,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.611
+   },
+   "h2h": [],
+   "analysis": "Claire Liu (Weltrangliste #97) trifft auf Elsa Jacquemot (#165). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Claire Liu mit 61 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T07:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Ma YeXin",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 8
+   },
+   "p2": {
+    "name": "Elvina Kalieva",
+    "rank": 117,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 7
+   },
+   "pP1": 0.344,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.344
+   },
+   "h2h": [],
+   "analysis": "Ma YeXin – aktuell ohne Top-Ranking – trifft auf Elvina Kalieva (#117). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Elvina Kalieva mit 66 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T07:30:00+02:00",
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Nicolas Mejia",
+    "rank": 116,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Chun-Hsin Tseng",
+    "rank": 221,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.6336,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6336
+   },
+   "h2h": [],
+   "analysis": "Nicolas Mejia (Weltrangliste #116) trifft auf Chun-Hsin Tseng (#221). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Nicolas Mejia mit 63 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T07:30:00+02:00",
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Ilia Simakin",
+    "rank": 152,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Luka Pavlovic",
+    "rank": 205,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.5632,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.5632
+   },
+   "h2h": [],
+   "analysis": "Ilia Simakin (Weltrangliste #152) trifft auf Luka Pavlovic (#205). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Ilia Simakin mit 56 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T07:30:00+02:00",
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Stefanos Sakellaridis",
+    "rank": 134,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Timofey Skatov",
+    "rank": 204,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.5884,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.5884
+   },
+   "h2h": [],
+   "analysis": "Stefanos Sakellaridis (Weltrangliste #134) trifft auf Timofey Skatov (#204). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Stefanos Sakellaridis mit 59 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T07:30:00+02:00",
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Bernard Tomic",
+    "rank": 184,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Terence Atmane",
+    "rank": 99,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.3713,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3713
+   },
+   "h2h": [],
+   "analysis": "Bernard Tomic (Weltrangliste #184) trifft auf Terence Atmane (#99). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Terence Atmane mit 63 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T07:30:00+02:00",
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Te Rigele",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Adam Walton",
+    "rank": 97,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.309,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.309
+   },
+   "h2h": [],
+   "analysis": "Te Rigele – aktuell ohne Top-Ranking – trifft auf Adam Walton (#97). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Adam Walton mit 69 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T07:30:00+02:00",
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Federico Agustin Gomez",
+    "rank": 196,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Michael Zheng",
+    "rank": 92,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.3446,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3446
+   },
+   "h2h": [],
+   "analysis": "Federico Agustin Gomez (Weltrangliste #196) trifft auf Michael Zheng (#92). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Michael Zheng mit 66 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T08:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "3. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Sonay Kartal",
+    "rank": 129,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
+   },
+   "p2": {
+    "name": "Alina Charaeva",
+    "rank": 118,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 6
+   },
+   "pP1": 0.4811,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4811
+   },
+   "h2h": [],
+   "analysis": "Sonay Kartal (Weltrangliste #129) trifft auf Alina Charaeva (#118). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alina Charaeva mit 52 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "odds": {
+    "p1": 1.44,
+    "p2": 2.6,
+    "src": "Betfair"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T08:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Aliaksandra Sasnovich",
+    "rank": 121,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 4,
+    "sets7": 8
+   },
+   "p2": {
+    "name": "Yao Xinxin",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.6495,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6495
+   },
+   "h2h": [],
+   "analysis": "Aliaksandra Sasnovich (#121) trifft auf Yao Xinxin, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Aliaksandra Sasnovich mit 65 % vorn. Aliaksandra Sasnovich hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 8 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T08:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Momoko Kobori / Ayano Shimizu",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Yujia Huang / Peangtarn Plipuech",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-05T08:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "I-hsuan Cho / Yi-Tsen Cho",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Tamara Korpatsch / Lilli Tagger",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-05T09:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Kinoshita Group Japan Open Tennis Championships",
+   "round": "Halbfinale",
+   "surface": null,
+   "p1": {
+    "name": "Jaume Munar",
+    "rank": 64,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 5,
+    "sets7": 12
+   },
+   "p2": {
+    "name": "Carlos Alcaraz",
+    "rank": 3,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 7
+   },
+   "pP1": 0.0691,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.0691
+   },
+   "h2h": [],
+   "analysis": "Jaume Munar (Weltrangliste #64) trifft auf Carlos Alcaraz (#3). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Carlos Alcaraz mit 93 % vorn. Jaume Munar hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 12 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T09:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "China Open",
+   "round": "Halbfinale",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Hubert Hurkacz",
+    "rank": 39,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 6,
+    "sets7": 15
+   },
+   "p2": {
+    "name": "Alex de Minaur",
+    "rank": 10,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 8
+   },
+   "pP1": 0.2392,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.2392
+   },
+   "h2h": [],
+   "analysis": "Hubert Hurkacz (Weltrangliste #39) trifft auf Alex de Minaur (#10). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alex de Minaur mit 76 % vorn. Hubert Hurkacz hat allerdings eine intensive Woche in den Beinen (6 Matches in den letzten 7 Tagen und 15 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T09:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Dalibor Svrcina",
+    "rank": 124,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Billy Harris",
+    "rank": 237,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.6343,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6343
+   },
+   "h2h": [],
+   "analysis": "Dalibor Svrcina (Weltrangliste #124) trifft auf Billy Harris (#237). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Dalibor Svrcina mit 63 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T09:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Yoshihito Nishioka",
+    "rank": 214,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Aleksandr Shevchenko",
+    "rank": 109,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.3604,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3604
+   },
+   "h2h": [],
+   "analysis": "Yoshihito Nishioka (Weltrangliste #214) trifft auf Aleksandr Shevchenko (#109). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Aleksandr Shevchenko mit 64 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T09:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Aleksandar Vukic",
+    "rank": 112,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Cui Jie",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
+   },
+   "pP1": 0.6643,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6643
+   },
+   "h2h": [],
+   "analysis": "Aleksandar Vukic (#112) trifft auf Cui Jie, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Aleksandar Vukic mit 66 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T09:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Pavel Kotov",
+    "rank": 182,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Martin Damm",
+    "rank": 103,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "pP1": 0.3813,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3813
+   },
+   "h2h": [],
+   "analysis": "Pavel Kotov (Weltrangliste #182) trifft auf Martin Damm (#103). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Martin Damm mit 62 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T09:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Rei Sakamoto",
+    "rank": 137,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "p2": {
+    "name": "SeongChan Hong",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.6251,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6251
+   },
+   "h2h": [],
+   "analysis": "Rei Sakamoto (#137) trifft auf SeongChan Hong, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Rei Sakamoto mit 63 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T09:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Zhang Tianhui",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Kyrian Jacquet",
+    "rank": 86,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 5,
+    "sets7": 10
+   },
+   "pP1": 0.2876,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.2876
+   },
+   "h2h": [],
+   "analysis": "Zhang Tianhui – aktuell ohne Top-Ranking – trifft auf Kyrian Jacquet (#86). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Kyrian Jacquet mit 71 % vorn. Kyrian Jacquet hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T09:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "3. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Ann Li",
+    "rank": 30,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Belinda Bencic",
+    "rank": 12,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.3146,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3146
+   },
+   "h2h": [],
+   "analysis": "Ann Li (Weltrangliste #30) trifft auf Belinda Bencic (#12). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Belinda Bencic mit 69 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "odds": {
+    "p1": 2.42,
+    "p2": 1.43,
+    "src": "Betfair"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T09:00:00+02:00",
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
@@ -3039,10 +2987,599 @@
    "h2h": [],
    "analysis": "",
    "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-05T10:30:00+02:00",
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Nishesh Basavareddy",
+    "rank": 139,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Kimmer Coppejans",
+    "rank": 229,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.6045,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6045
+   },
+   "h2h": [],
+   "analysis": "Nishesh Basavareddy (Weltrangliste #139) trifft auf Kimmer Coppejans (#229). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Nishesh Basavareddy mit 60 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T10:30:00+02:00",
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Tristan Schoolkate",
+    "rank": 153,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Dane Sweeny",
+    "rank": 110,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.4303,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4303
+   },
+   "h2h": [],
+   "analysis": "Tristan Schoolkate (Weltrangliste #153) trifft auf Dane Sweeny (#110). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Dane Sweeny mit 57 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T10:30:00+02:00",
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Lloyd Harris",
+    "rank": 125,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Alex Bolt",
+    "rank": 183,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.5803,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.5803
+   },
+   "h2h": [],
+   "analysis": "Lloyd Harris (Weltrangliste #125) trifft auf Alex Bolt (#183). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Lloyd Harris mit 58 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T10:30:00+02:00",
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Cruz Hewitt",
+    "rank": 322,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Chak Lam Coleman Wong",
+    "rank": 100,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "pP1": 0.2701,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.2701
+   },
+   "h2h": [],
+   "analysis": "Cruz Hewitt (Weltrangliste #322) trifft auf Chak Lam Coleman Wong (#100). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Chak Lam Coleman Wong mit 73 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T10:30:00+02:00",
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Alexandre Muller",
+    "rank": 132,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Rio Noguchi",
+    "rank": 216,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.6031,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6031
+   },
+   "h2h": [],
+   "analysis": "Alexandre Muller (Weltrangliste #132) trifft auf Rio Noguchi (#216). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alexandre Muller mit 60 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T10:30:00+02:00",
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "round": "Qualifying 1st Round",
+   "surface": null,
+   "p1": {
+    "name": "Elias Ymer",
+    "rank": 192,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Mattia Bellucci",
+    "rank": 91,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.3465,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3465
+   },
+   "h2h": [],
+   "analysis": "Elias Ymer (Weltrangliste #192) trifft auf Mattia Bellucci (#91). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Mattia Bellucci mit 65 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T10:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "3. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Elise Mertens",
+    "rank": 19,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "p2": {
+    "name": "Jelena Ostapenko",
+    "rank": 32,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.609,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.609
+   },
+   "h2h": [],
+   "analysis": "Elise Mertens (Weltrangliste #19) trifft auf Jelena Ostapenko (#32). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Elise Mertens mit 61 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "odds": {
+    "p1": 1.5,
+    "p2": 2.34,
+    "src": "Betfair"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T10:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "3. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Elina Svitolina",
+    "rank": 7,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "p2": {
+    "name": "Maria Sakkari",
+    "rank": 33,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.7889,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.7889
+   },
+   "h2h": [],
+   "analysis": "Elina Svitolina (Weltrangliste #7) trifft auf Maria Sakkari (#33). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Elina Svitolina mit 79 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "odds": {
+    "p1": 1.34,
+    "p2": 3.54,
+    "src": "GTbets"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-05T12:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "China Open",
+   "round": "Halbfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "TBD / TBD",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Robert Cash / Alexander Erler",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-05T14:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "3. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Xinran Sun",
+    "rank": 582,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
+   },
+   "p2": {
+    "name": "Coco Gauff",
+    "rank": 4,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "pP1": 0.0143,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.0143
+   },
+   "h2h": [],
+   "analysis": "Xinran Sun (Weltrangliste #582) trifft auf Coco Gauff (#4). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Coco Gauff mit 99 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-06T06:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Kinoshita Group Japan Open Tennis Championships",
+   "round": "Finale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Theo Arribage / Albano Olivetti",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "TBD / TBD",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
    "timeTBD": true
   },
   {
-   "start": "2026-10-05T06:00:00+02:00",
+   "start": "2026-10-06T06:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "China Open",
+   "round": "Finale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "TBD / TBD",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Sander Arends / David Pel",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-06T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "4. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Mirra Andreeva",
+    "rank": 5,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 5
+   },
+   "p2": {
+    "name": "Daria Snigur",
+    "rank": 46,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 8
+   },
+   "pP1": 0.8683,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.8683
+   },
+   "h2h": [],
+   "analysis": "Mirra Andreeva (Weltrangliste #5) trifft auf Daria Snigur (#46). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Mirra Andreeva mit 87 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-06T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "4. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Ekaterina Alexandrova",
+    "rank": 28,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 5
+   },
+   "p2": {
+    "name": "Linda Noskova",
+    "rank": 6,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
+   },
+   "pP1": 0.2126,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.2126
+   },
+   "h2h": [],
+   "analysis": "Ekaterina Alexandrova (Weltrangliste #28) trifft auf Linda Noskova (#6). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Linda Noskova mit 79 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-06T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "4. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Nikola Bartunkova",
+    "rank": 34,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
+   },
+   "p2": {
+    "name": "Sinja Kraus",
+    "rank": 95,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 6
+   },
+   "pP1": 0.7055,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.7055
+   },
+   "h2h": [],
+   "analysis": "Nikola Bartunkova (Weltrangliste #34) trifft auf Sinja Kraus (#95). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Nikola Bartunkova mit 71 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-06T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
@@ -3067,32 +3604,7 @@
    "timeTBD": true
   },
   {
-   "start": "2026-10-05T06:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "China Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Ulrikke Eikeri / Quinn Gleason",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Linda Noskova / Clara Tauson",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-05T06:00:00+02:00",
+   "start": "2026-10-06T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
@@ -3117,32 +3629,7 @@
    "timeTBD": true
   },
   {
-   "start": "2026-10-05T06:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "China Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Ingrid Neel / Giuliana Olmos",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Erin Routliffe / Aldila Sutjiadi",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-05T06:00:00+02:00",
+   "start": "2026-10-06T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
@@ -3167,7 +3654,7 @@
    "timeTBD": true
   },
   {
-   "start": "2026-10-05T06:00:00+02:00",
+   "start": "2026-10-06T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
@@ -3192,32 +3679,7 @@
    "timeTBD": true
   },
   {
-   "start": "2026-10-05T06:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "China Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Cristina Bucsa / Nicole Melichar-Martinez",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Ekaterina Alexandrova / Fanny Stollar",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-05T06:00:00+02:00",
+   "start": "2026-10-06T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "China Open",
    "round": "1. Runde",
@@ -3231,6 +3693,516 @@
    },
    "p2": {
     "name": "Hao-Ching Chan / Miyu Kato",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-06T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "2. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Nikola Bartunkova / Maja Chwalinska",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "TBD / TBD",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-06T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "2. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Storm Hunter / Kristina Mladenovic",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Lyudmyla Kichenok / Asia Muhammad",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-06T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "2. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Gabriela Dabrowski / Luisa Stefani",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "TBD / TBD",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-06T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "2. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Katie Boulter / Yuliia Starodubtseva",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "TBD / TBD",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-06T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "2. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "TBD / TBD",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Ellen Perez / Demi  Schuurs",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-06T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "2. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "TBD / TBD",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Elise Mertens / Diana Shnaider",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-06T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Mai Hontama",
+    "rank": 177,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 7
+   },
+   "p2": {
+    "name": "Emerson Jones",
+    "rank": 134,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 4,
+    "sets7": 8
+   },
+   "pP1": 0.4411,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4411
+   },
+   "h2h": [],
+   "analysis": "Mai Hontama (Weltrangliste #177) trifft auf Emerson Jones (#134). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Emerson Jones mit 56 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-06T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Aliona Falei",
+    "rank": 220,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 4,
+    "sets7": 9
+   },
+   "p2": {
+    "name": "Guo Hanyu",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.5271,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.5271
+   },
+   "h2h": [],
+   "analysis": "Aliona Falei (#220) trifft auf Guo Hanyu, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Aliona Falei mit 53 % vorn. Aliona Falei hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 9 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-06T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Shao Yushan",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Yulia Putintseva",
+    "rank": 82,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.2794,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.2794
+   },
+   "h2h": [],
+   "analysis": "Shao Yushan – aktuell ohne Top-Ranking – trifft auf Yulia Putintseva (#82). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Yulia Putintseva mit 72 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-06T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Bai Zhuoxuan",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 6
+   },
+   "p2": {
+    "name": "Moyuka Uchijima",
+    "rank": 106,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.3253,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3253
+   },
+   "h2h": [],
+   "analysis": "Bai Zhuoxuan – aktuell ohne Top-Ranking – trifft auf Moyuka Uchijima (#106). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Moyuka Uchijima mit 67 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-06T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Linda Fruhvirtova",
+    "rank": 181,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 4,
+    "sets7": 10
+   },
+   "p2": {
+    "name": "Mananchaya Sawangkaew",
+    "rank": 90,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.3557,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3557
+   },
+   "h2h": [],
+   "analysis": "Linda Fruhvirtova (Weltrangliste #181) trifft auf Mananchaya Sawangkaew (#90). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Mananchaya Sawangkaew mit 64 % vorn. Linda Fruhvirtova hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-06T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Ya Hsin Lee / Hong Yi Cody Wong",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Madeleine Brooks / Ekaterina Ovcharenko",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-06T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Mana Ayukawa / Emily Webley-Smith",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Li Zongyu / Zheng Wushuang",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-06T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Qu Yihan / Shao Yushan",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Yu-Yun Li / Zhang Ying",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-06T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Alevtina Ibragimova / Ingrid Gamarra Martins",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Eudice Wong Chong / Eri Hozumi",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-06T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Dang Yiming / You Xiaodi",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Tatiana Prozorova / Aliaksandra Sasnovich",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-06T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Ma YeXin / Mananchaya Sawangkaew",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Hiroko Kuwata / Ye Qiu Yu",
     "rank": null,
     "last7": 0,
     "sets7": 0
@@ -3258,12 +4230,173 @@
    "wta": 0
   }
  },
- "tennisFinished": [],
+ "tennisFinished": [
+  {
+   "tour": "ATP",
+   "tournament": "Kinoshita Group Japan Open Tennis Championships",
+   "p1": "Kyrian Jacquet",
+   "p2": "Jaume Munar",
+   "winner": "Jaume Munar",
+   "score": "4:6 2:6"
+  },
+  {
+   "tour": "ATP",
+   "tournament": "Kinoshita Group Japan Open Tennis Championships",
+   "p1": "Denis Shapovalov",
+   "p2": "Carlos Alcaraz",
+   "winner": "Carlos Alcaraz",
+   "score": "6:7 1:2"
+  },
+  {
+   "tour": "ATP",
+   "tournament": "Kinoshita Group Japan Open Tennis Championships",
+   "p1": "Arthur Fils",
+   "p2": "Valentin Vacherot",
+   "winner": "Valentin Vacherot",
+   "score": "5:7 6:4 4:6"
+  },
+  {
+   "tour": "ATP",
+   "tournament": "China Open",
+   "p1": "Karen Khachanov",
+   "p2": "Hubert Hurkacz",
+   "winner": "Hubert Hurkacz",
+   "score": "6:7 2:6"
+  },
+  {
+   "tour": "ATP",
+   "tournament": "China Open",
+   "p1": "Andrey Rublev",
+   "p2": "Alex de Minaur",
+   "winner": "Alex de Minaur",
+   "score": "6:1 2:6 3:6"
+  },
+  {
+   "tour": "ATP",
+   "tournament": "China Open",
+   "p1": "Francisco Cerundolo",
+   "p2": "Daniil Medvedev",
+   "winner": "Daniil Medvedev",
+   "score": "6:7 3:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Jingshan Tennis Open",
+   "p1": "Alexandra Shubladze",
+   "p2": "Jessica Bouzas Maneiro",
+   "winner": "Alexandra Shubladze",
+   "score": "6:3 6:2"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "China Open",
+   "p1": "Aryna Sabalenka",
+   "p2": "Nikola Bartunkova",
+   "winner": "Nikola Bartunkova",
+   "score": "4:6 3:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "China Open",
+   "p1": "Dayana Yastremska",
+   "p2": "Sinja Kraus",
+   "winner": "Sinja Kraus",
+   "score": "1:6 4:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "China Open",
+   "p1": "Diana Shnaider",
+   "p2": "Ekaterina Alexandrova",
+   "winner": "Ekaterina Alexandrova",
+   "score": "6:3 4:6 3:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "China Open",
+   "p1": "Mirra Andreeva",
+   "p2": "Polina Kudermetova",
+   "winner": "Mirra Andreeva",
+   "score": "6:4 6:1"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "China Open",
+   "p1": "Viktorija Golubic",
+   "p2": "Linda Noskova",
+   "winner": "Linda Noskova",
+   "score": "2:6 1:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "China Open",
+   "p1": "Taylah Preston",
+   "p2": "Daria Snigur",
+   "winner": "Daria Snigur",
+   "score": "1:6 0:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "p1": "Li Zongyu",
+   "p2": "Lu Jia-Jing",
+   "winner": "Lu Jia-Jing",
+   "score": "1:6 7:5 5:7"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "p1": "Darya Khamutsianskaya",
+   "p2": "Yujia Huang",
+   "winner": "Darya Khamutsianskaya",
+   "score": "4:6 6:4 7:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "p1": "Qu Yihan",
+   "p2": "Zheng Wushuang",
+   "winner": "Zheng Wushuang",
+   "score": "6:4 3:6 4:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "p1": "Kristiana Sidorova",
+   "p2": "Katarina Zavatska",
+   "winner": "Katarina Zavatska",
+   "score": "4:6 1:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "p1": "Chengyiyi Yuan",
+   "p2": "Shi Han",
+   "winner": "Shi Han",
+   "score": "6:3 4:6 4:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "p1": "Rina Saigo",
+   "p2": "Yang Yidi",
+   "winner": "Yang Yidi",
+   "score": "3:6 3:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Suzhou Open",
+   "p1": "Wei Sijia",
+   "p2": "Rinko Matsuda",
+   "winner": "Wei Sijia",
+   "score": "6:2 6:2"
+  }
+ ],
  "stats": {
   "overall": {
-   "n": 2803,
-   "correct": 1664,
-   "pct": 0.5936
+   "n": 2823,
+   "correct": 1679,
+   "pct": 0.5948
   },
   "football": {
    "n": 858,
@@ -3271,15 +4404,15 @@
    "pct": 0.486
   },
   "tennis": {
-   "n": 1945,
-   "correct": 1247,
-   "pct": 0.6411
+   "n": 1965,
+   "correct": 1262,
+   "pct": 0.6422
   },
   "exact": {
    "n": 858,
    "correct": 98
   },
-  "open": 109,
+  "open": 132,
   "value": {
    "n": 0,
    "correct": 0,
@@ -3287,6 +4420,193 @@
    "avgOdds": null
   },
   "recent": [
+   {
+    "date": "2026-10-04",
+    "comp": "ATP · Kinoshita Group Japan Open Tennis Championships",
+    "label": "Kyrian Jacquet – Jaume Munar",
+    "tipName": "Jaume Munar",
+    "tip": "P2",
+    "prob": 0.5625,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-04",
+    "comp": "WTA · China Open",
+    "label": "Taylah Preston – Daria Snigur",
+    "tipName": "Daria Snigur",
+    "tip": "P2",
+    "prob": 0.641,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-04",
+    "comp": "WTA · China Open",
+    "label": "Diana Shnaider – Ekaterina Alexandrova",
+    "tipName": "Diana Shnaider",
+    "tip": "P1",
+    "prob": 0.6432,
+    "result": "Sieger: P2",
+    "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-04",
+    "comp": "WTA · China Open",
+    "label": "Viktorija Golubic – Linda Noskova",
+    "tipName": "Linda Noskova",
+    "tip": "P2",
+    "prob": 0.886,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-04",
+    "comp": "WTA · China Open",
+    "label": "Mirra Andreeva – Polina Kudermetova",
+    "tipName": "Mirra Andreeva",
+    "tip": "P1",
+    "prob": 0.9295,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-04",
+    "comp": "WTA · China Open",
+    "label": "Dayana Yastremska – Sinja Kraus",
+    "tipName": "Sinja Kraus",
+    "tip": "P2",
+    "prob": 0.533,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-04",
+    "comp": "ATP · Kinoshita Group Japan Open Tennis Championships",
+    "label": "Arthur Fils – Valentin Vacherot",
+    "tipName": "Arthur Fils",
+    "tip": "P1",
+    "prob": 0.6432,
+    "result": "Sieger: P2",
+    "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-04",
+    "comp": "ATP · China Open",
+    "label": "Karen Khachanov – Hubert Hurkacz",
+    "tipName": "Karen Khachanov",
+    "tip": "P1",
+    "prob": 0.5775,
+    "result": "Sieger: P2",
+    "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-04",
+    "comp": "WTA · China Open",
+    "label": "Aryna Sabalenka – Nikola Bartunkova",
+    "tipName": "Aryna Sabalenka",
+    "tip": "P1",
+    "prob": 0.9175,
+    "result": "Sieger: P2",
+    "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-04",
+    "comp": "WTA · Suzhou Open",
+    "label": "Chengyiyi Yuan – Shi Han",
+    "tipName": "Shi Han",
+    "tip": "P2",
+    "prob": 0.6188,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-04",
+    "comp": "WTA · Suzhou Open",
+    "label": "Kristiana Sidorova – Katarina Zavatska",
+    "tipName": "Katarina Zavatska",
+    "tip": "P2",
+    "prob": 0.5628,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-04",
+    "comp": "WTA · Suzhou Open",
+    "label": "Rina Saigo – Yang Yidi",
+    "tipName": "Yang Yidi",
+    "tip": "P2",
+    "prob": 0.53,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-04",
+    "comp": "ATP · Kinoshita Group Japan Open Tennis Championships",
+    "label": "Denis Shapovalov – Carlos Alcaraz",
+    "tipName": "Carlos Alcaraz",
+    "tip": "P2",
+    "prob": 0.9106,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-04",
+    "comp": "WTA · Jingshan Tennis Open",
+    "label": "Alexandra Shubladze – Jessica Bouzas Maneiro",
+    "tipName": "Jessica Bouzas Maneiro",
+    "tip": "P2",
+    "prob": 0.6106,
+    "result": "Sieger: P1",
+    "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-04",
+    "comp": "WTA · Suzhou Open",
+    "label": "Wei Sijia – Rinko Matsuda",
+    "tipName": "Wei Sijia",
+    "tip": "P1",
+    "prob": 0.6201,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-04",
+    "comp": "ATP · China Open",
+    "label": "Andrey Rublev – Alex de Minaur",
+    "tipName": "Alex de Minaur",
+    "tip": "P2",
+    "prob": 0.6779,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-04",
+    "comp": "ATP · China Open",
+    "label": "Francisco Cerundolo – Daniil Medvedev",
+    "tipName": "Daniil Medvedev",
+    "tip": "P2",
+    "prob": 0.7511,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
    {
     "date": "2026-10-03",
     "comp": "ATP · Kinoshita Group Japan Open Tennis Championships",
@@ -3373,193 +4693,6 @@
     "prob": 0.6272,
     "result": "Sieger: P2",
     "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-03",
-    "comp": "WTA · China Open",
-    "label": "Kimberly Birrell – Marie Bouzkova",
-    "tipName": "Marie Bouzkova",
-    "tip": "P2",
-    "prob": 0.5878,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-03",
-    "comp": "WTA · China Open",
-    "label": "Wang Xinyu – Sonay Kartal",
-    "tipName": "Wang Xinyu",
-    "tip": "P1",
-    "prob": 0.7386,
-    "result": "Sieger: P2",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-03",
-    "comp": "WTA · China Open",
-    "label": "Alina Charaeva – Elena Rybakina",
-    "tipName": "Elena Rybakina",
-    "tip": "P2",
-    "prob": 0.983,
-    "result": "Sieger: P1",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-03",
-    "comp": "WTA · China Open",
-    "label": "Anna Kalinskaya – Zheng Qinwen",
-    "tipName": "Anna Kalinskaya",
-    "tip": "P1",
-    "prob": 0.6821,
-    "result": "Sieger: P2",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-03",
-    "comp": "WTA · China Open",
-    "label": "Ann Li – Ashlyn Krueger",
-    "tipName": "Ann Li",
-    "tip": "P1",
-    "prob": 0.6805,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-03",
-    "comp": "WTA · China Open",
-    "label": "Anastasia Zakharova – Belinda Bencic",
-    "tipName": "Belinda Bencic",
-    "tip": "P2",
-    "prob": 0.868,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-03",
-    "comp": "ATP · China Open",
-    "label": "Shang Juncheng – Alexander Zverev",
-    "tipName": "Alexander Zverev",
-    "tip": "P2",
-    "prob": 0.9838,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-03",
-    "comp": "ATP · China Open",
-    "label": "Quentin Halys – Alex de Minaur",
-    "tipName": "Alex de Minaur",
-    "tip": "P2",
-    "prob": 0.7971,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-03",
-    "comp": "WTA · China Open",
-    "label": "Zhu Lin – Donna Vekic",
-    "tipName": "Donna Vekic",
-    "tip": "P2",
-    "prob": 0.826,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-03",
-    "comp": "ATP · Kinoshita Group Japan Open Tennis Championships",
-    "label": "Adolfo Daniel Vallejo – Matteo Berrettini",
-    "tipName": "Matteo Berrettini",
-    "tip": "P2",
-    "prob": 0.5372,
-    "result": "Sieger: P1",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-03",
-    "comp": "ATP · China Open",
-    "label": "Roman Safiullin – Andrey Rublev",
-    "tipName": "Andrey Rublev",
-    "tip": "P2",
-    "prob": 0.7436,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-03",
-    "comp": "WTA · China Open",
-    "label": "Cristina Bucsa – Xinran Sun",
-    "tipName": "Cristina Bucsa",
-    "tip": "P1",
-    "prob": 0.916,
-    "result": "Sieger: P2",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-03",
-    "comp": "WTA · China Open",
-    "label": "Camila Osorio – Coco Gauff",
-    "tipName": "Coco Gauff",
-    "tip": "P2",
-    "prob": 0.9155,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-03",
-    "comp": "WTA · China Open",
-    "label": "Harriet Dart – Iva Jovic",
-    "tipName": "Iva Jovic",
-    "tip": "P2",
-    "prob": 0.8653,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-03",
-    "comp": "ATP · China Open",
-    "label": "Jakub Mensik – Francisco Cerundolo",
-    "tipName": "Jakub Mensik",
-    "tip": "P1",
-    "prob": 0.5949,
-    "result": "Sieger: P2",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-03",
-    "comp": "WTA · China Open",
-    "label": "Iga Swiatek – Gao Xinyu",
-    "tipName": "Iga Swiatek",
-    "tip": "P1",
-    "prob": 0.944,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-03",
-    "comp": "WTA · Jingshan Tennis Open",
-    "label": "Alexandra Shubladze – Emerson Jones",
-    "tipName": "Emerson Jones",
-    "tip": "P2",
-    "prob": 0.5415,
-    "result": "Sieger: P1",
-    "correct": false,
     "sport": "tn"
    }
   ]
