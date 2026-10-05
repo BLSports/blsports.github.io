@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-04T22:49:17.036284+02:00",
+ "generatedAt": "2026-10-05T02:24:11.894245+02:00",
  "windowDays": 3,
  "days": [
-  "2026-10-04",
   "2026-10-05",
-  "2026-10-06"
+  "2026-10-06",
+  "2026-10-07"
  ],
  "football": [
   {
@@ -171,17 +171,17 @@
      "nTeams": 22,
      "h2h": [],
      "prediction": {
-      "pHome": 0.427,
-      "pDraw": 0.2491,
-      "pAway": 0.3239,
-      "pOver25": 0.539,
-      "pBtts": 0.571,
+      "pHome": 0.4284,
+      "pDraw": 0.25,
+      "pAway": 0.3216,
+      "pOver25": 0.5343,
+      "pBtts": 0.5671,
       "xgHome": 1.53,
-      "xgAway": 1.3,
+      "xgAway": 1.29,
       "tipScore": "1:1",
       "confidence": "mittel"
      },
-     "pBtts": 0.571,
+     "pBtts": 0.5671,
      "odds": {
       "h": 1.93,
       "d": 3.3,
@@ -190,8 +190,8 @@
      },
      "value": {
       "outcome": "2",
-      "edge": 0.0711,
-      "modelP": 0.3239,
+      "edge": 0.0688,
+      "modelP": 0.3216,
       "odds": 3.6
      },
      "scorersHome": [],
@@ -202,7 +202,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Córdoba ist gegen Tenerife leicht favorisiert (43 % zu 32 %). In der Tabelle stehen sich Platz 18 und Platz 9 gegenüber. Heim-/Auswärtsbilanz: Córdoba gewann 1 der letzten 5 Heimspiele, Tenerife 1 der letzten 3 Auswärtsspiele. Das Modell erwartet eine offene Tor-Ausbeute (xG 1,5:1,3; über 2,5 Tore: 54 %, beide Teams treffen zu 57 %). Gefährlichste Torschützen: bei Tenerife Enric Gallego (5 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,60) für 7 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Córdoba ist gegen Tenerife leicht favorisiert (43 % zu 32 %). In der Tabelle stehen sich Platz 20 und Platz 11 gegenüber. Heim-/Auswärtsbilanz: Córdoba gewann 1 der letzten 5 Heimspiele, Tenerife 1 der letzten 3 Auswärtsspiele. Das Modell erwartet eine offene Tor-Ausbeute (xG 1,5:1,3; über 2,5 Tore: 53 %, beide Teams treffen zu 57 %). Gefährlichste Torschützen: bei Tenerife Enric Gallego (5 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,60) für 7 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
@@ -313,7 +313,156 @@
    "name": "MLS (USA)",
    "flag": "🇺🇸",
    "espn": "usa.1",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-10-07T02:30:00+02:00",
+     "home": "Chicago Fire FC",
+     "away": "Vancouver Whitecaps",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/182.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/9727.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "U",
+      "U",
+      "N",
+      "N",
+      "S"
+     ],
+     "formAway": [
+      "S",
+      "N",
+      "N",
+      "S",
+      "U"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 5,
+     "posAway": 1,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "23.03.2025",
+       "home": "Vancouver Whitecaps",
+       "away": "Chicago Fire",
+       "score": "1:3"
+      },
+      {
+       "date": "31.08.2023",
+       "home": "Chicago Fire",
+       "away": "Vancouver Whitecaps",
+       "score": "0:1"
+      },
+      {
+       "date": "24.07.2022",
+       "home": "Vancouver Whitecaps",
+       "away": "Chicago Fire",
+       "score": "1:3"
+      },
+      {
+       "date": "10.04.2021",
+       "home": "Vancouver Whitecaps",
+       "away": "Chicago Fire",
+       "score": "3:2"
+      },
+      {
+       "date": "23.07.2020",
+       "home": "Chicago Fire",
+       "away": "Vancouver Whitecaps",
+       "score": "0:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3748,
+      "pDraw": 0.2368,
+      "pAway": 0.3885,
+      "pOver25": 0.6073,
+      "pBtts": 0.627,
+      "xgHome": 1.55,
+      "xgAway": 1.59,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.627,
+     "odds": {
+      "h": 2.7,
+      "d": 3.5,
+      "a": 2.2,
+      "src": "William Hill"
+     },
+     "value": null,
+     "scorersHome": [
+      {
+       "name": "H. Cuypers",
+       "goals": 13
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "Brian White",
+       "goals": 17
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Zwischen Chicago Fire FC und Vancouver Whitecaps deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Chicago Fire FC 37 %, Unentschieden 24 %, Sieg Vancouver Whitecaps 39 %). In der Tabelle stehen sich Platz 5 und Platz 1 gegenüber. Das letzte Duell (2025) endete 1:3 (Vancouver Whitecaps – Chicago Fire). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,6; über 2,5 Tore: 61 %, beide Teams treffen zu 63 %). Gefährlichste Torschützen: bei Chicago Fire FC H. Cuypers (13 Tore) und bei Vancouver Whitecaps Brian White (17 Tore). Personal: Chicago Fire FC fehlen 6 Spieler (u.a. A. Franco); Vancouver Whitecaps fehlen 6 Spieler (u.a. S. Adekugbe).",
+     "injuriesHome": [
+      {
+       "name": "A. Franco",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "A. Gutman",
+       "reason": "Inactive"
+      },
+      {
+       "name": "V. Radojevic",
+       "reason": "Lower-Body Injury"
+      },
+      {
+       "name": "J. Bamba",
+       "reason": "Lower-Body Injury"
+      },
+      {
+       "name": "S. Rogers",
+       "reason": "Lower-Body Injury"
+      },
+      {
+       "name": "J. Shokalook",
+       "reason": "Head Injury"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "S. Adekugbe",
+       "reason": "Achilles Tendon Injury"
+      },
+      {
+       "name": "R. Gauld",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "B. Halbouni",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "R. Veselinovic",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "E. Sabbi",
+       "reason": "Suspended"
+      },
+      {
+       "name": "S. Schonlau",
+       "reason": "Calf Injury"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": false,
    "isCup": false
   },
@@ -471,8 +620,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 10
+    "last7": 3,
+    "sets7": 8
    },
    "pP1": null,
    "model": {},
@@ -487,7 +636,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "3. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Iga Swiatek",
     "rank": 9,
@@ -524,7 +673,7 @@
    "timeTBD": false,
    "odds": {
     "p1": 1.11,
-    "p2": 8.6,
+    "p2": 9.2,
     "src": "Betfair"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -720,8 +869,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 5
+    "last7": 1,
+    "sets7": 3
    },
    "p2": {
     "name": "Andre Ilagan",
@@ -774,8 +923,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 3
+    "last7": 0,
+    "sets7": 0
    },
    "pP1": 0.3167,
    "model": {
@@ -787,7 +936,7 @@
    "analysis": "Liam Draxl (Weltrangliste #215) trifft auf Hugo Gaston (#87). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Hugo Gaston mit 68 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-05T06:00:00+02:00",
@@ -858,8 +1007,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 9
+    "last7": 3,
+    "sets7": 7
    },
    "pP1": 0.3435,
    "model": {
@@ -868,7 +1017,7 @@
     "pRank": 0.3435
    },
    "h2h": [],
-   "analysis": "Alexis Galarneau (Weltrangliste #180) trifft auf Roman Safiullin (#84). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Roman Safiullin mit 66 % vorn. Roman Safiullin hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 9 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Alexis Galarneau (Weltrangliste #180) trifft auf Roman Safiullin (#84). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Roman Safiullin mit 66 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -962,7 +1111,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "3. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Zheng Qinwen",
     "rank": 54,
@@ -1004,7 +1153,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "3. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Kamilla Rakhimova",
     "rank": 76,
@@ -1040,8 +1189,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 2.7,
-    "p2": 1.18,
+    "p1": 4.6,
+    "p2": 1.27,
     "src": "Matchbook"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1479,7 +1628,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "3. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Sonay Kartal",
     "rank": 129,
@@ -1515,8 +1664,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 1.44,
-    "p2": 2.6,
+    "p1": 1.55,
+    "p2": 2.78,
     "src": "Betfair"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1653,14 +1802,19 @@
    "analysis": "Jaume Munar (Weltrangliste #64) trifft auf Carlos Alcaraz (#3). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Carlos Alcaraz mit 93 % vorn. Jaume Munar hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 12 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 8.0,
+    "p2": 1.13,
+    "src": "Betfair"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-05T09:00:00+02:00",
    "tour": "ATP",
    "tournament": "China Open",
    "round": "Halbfinale",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Hubert Hurkacz",
     "rank": 39,
@@ -1670,8 +1824,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 6,
-    "sets7": 15
+    "last7": 5,
+    "sets7": 13
    },
    "p2": {
     "name": "Alex de Minaur",
@@ -1692,10 +1846,15 @@
     "pRank": 0.2392
    },
    "h2h": [],
-   "analysis": "Hubert Hurkacz (Weltrangliste #39) trifft auf Alex de Minaur (#10). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alex de Minaur mit 76 % vorn. Hubert Hurkacz hat allerdings eine intensive Woche in den Beinen (6 Matches in den letzten 7 Tagen und 15 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Hubert Hurkacz (Weltrangliste #39) trifft auf Alex de Minaur (#10). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alex de Minaur mit 76 % vorn. Hubert Hurkacz hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 13 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 2.22,
+    "p2": 1.8,
+    "src": "Betfair"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-05T09:00:00+02:00",
@@ -1934,8 +2093,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 5,
-    "sets7": 10
+    "last7": 4,
+    "sets7": 8
    },
    "pP1": 0.2876,
    "model": {
@@ -1944,7 +2103,7 @@
     "pRank": 0.2876
    },
    "h2h": [],
-   "analysis": "Zhang Tianhui – aktuell ohne Top-Ranking – trifft auf Kyrian Jacquet (#86). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Kyrian Jacquet mit 71 % vorn. Kyrian Jacquet hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Zhang Tianhui – aktuell ohne Top-Ranking – trifft auf Kyrian Jacquet (#86). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Kyrian Jacquet mit 71 % vorn. Kyrian Jacquet hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 8 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1954,7 +2113,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "3. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Ann Li",
     "rank": 30,
@@ -1990,8 +2149,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 2.42,
-    "p2": 1.43,
+    "p1": 3.3,
+    "p2": 1.41,
     "src": "Betfair"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2026,7 +2185,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Elena Micic",
     "rank": 278,
@@ -2036,8 +2195,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 6
+    "last7": 2,
+    "sets7": 4
    },
    "p2": {
     "name": "Noma Noha Akugue",
@@ -2068,7 +2227,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Mariam Bolkvadze",
     "rank": 370,
@@ -2204,8 +2363,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 2
+    "last7": 0,
+    "sets7": 0
    },
    "p2": {
     "name": "Alex Bolt",
@@ -2229,7 +2388,7 @@
    "analysis": "Lloyd Harris (Weltrangliste #125) trifft auf Alex Bolt (#183). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Lloyd Harris mit 58 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-05T10:30:00+02:00",
@@ -2258,8 +2417,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 3
+    "last7": 0,
+    "sets7": 0
    },
    "pP1": 0.2701,
    "model": {
@@ -2271,7 +2430,7 @@
    "analysis": "Cruz Hewitt (Weltrangliste #322) trifft auf Chak Lam Coleman Wong (#100). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Chak Lam Coleman Wong mit 73 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-05T10:30:00+02:00",
@@ -2288,8 +2447,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 2
+    "last7": 0,
+    "sets7": 0
    },
    "p2": {
     "name": "Rio Noguchi",
@@ -2313,7 +2472,7 @@
    "analysis": "Alexandre Muller (Weltrangliste #132) trifft auf Rio Noguchi (#216). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alexandre Muller mit 60 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-05T10:30:00+02:00",
@@ -2362,7 +2521,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "3. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Elise Mertens",
     "rank": 19,
@@ -2398,8 +2557,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 1.5,
-    "p2": 2.34,
+    "p1": 1.54,
+    "p2": 2.82,
     "src": "Betfair"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2409,7 +2568,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "3. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Elina Svitolina",
     "rank": 7,
@@ -2456,7 +2615,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Weronika Falkowska",
     "rank": 300,
@@ -2533,7 +2692,12 @@
    "analysis": "Valentin Vacherot (Weltrangliste #18) trifft auf Jiri Lehecka (#23). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Valentin Vacherot mit 55 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 2.84,
+    "p2": 1.53,
+    "src": "Betfair"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-05T11:00:00+02:00",
@@ -2565,7 +2729,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Fiona Crawley",
     "rank": 234,
@@ -2575,8 +2739,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 8
+    "last7": 2,
+    "sets7": 5
    },
    "p2": {
     "name": "Lucia Bronzetti",
@@ -2607,7 +2771,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Julia Grabher",
     "rank": 99,
@@ -2649,7 +2813,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Dalila Jakupovic",
     "rank": 385,
@@ -2691,7 +2855,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "Halbfinale",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Daniil Medvedev",
     "rank": 6,
@@ -2701,8 +2865,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 6,
-    "sets7": 13
+    "last7": 5,
+    "sets7": 10
    },
    "p2": {
     "name": "Novak Djokovic",
@@ -2723,17 +2887,22 @@
     "pRank": 0.626
    },
    "h2h": [],
-   "analysis": "Daniil Medvedev (Weltrangliste #6) trifft auf Novak Djokovic (#11). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Daniil Medvedev mit 63 % vorn. Daniil Medvedev hat allerdings eine intensive Woche in den Beinen (6 Matches in den letzten 7 Tagen und 13 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Daniil Medvedev (Weltrangliste #6) trifft auf Novak Djokovic (#11). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Daniil Medvedev mit 63 % vorn. Daniil Medvedev hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 1.56,
+    "p2": 2.18,
+    "src": "PMU (FR)"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-05T13:00:00+02:00",
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Himeno Sakatsume",
     "rank": 120,
@@ -2775,7 +2944,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Suzan Lamens",
     "rank": 215,
@@ -2817,7 +2986,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "3. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Xinran Sun",
     "rank": 582,
@@ -2934,7 +3103,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "4. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Mirra Andreeva",
     "rank": 5,
@@ -2969,14 +3138,19 @@
    "analysis": "Mirra Andreeva (Weltrangliste #5) trifft auf Daria Snigur (#46). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Mirra Andreeva mit 87 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 1.13,
+    "p2": 5.85,
+    "src": "1xBet"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-06T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "China Open",
    "round": "4. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Ekaterina Alexandrova",
     "rank": 28,
@@ -3011,14 +3185,19 @@
    "analysis": "Ekaterina Alexandrova (Weltrangliste #28) trifft auf Linda Noskova (#6). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Linda Noskova mit 79 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 3.1,
+    "p2": 1.36,
+    "src": "888sport"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-06T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "China Open",
    "round": "4. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Nikola Bartunkova",
     "rank": 34,
@@ -3053,14 +3232,19 @@
    "analysis": "Nikola Bartunkova (Weltrangliste #34) trifft auf Sinja Kraus (#95). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Nikola Bartunkova mit 71 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 1.2,
+    "p2": 5.1,
+    "src": "Betfair"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-06T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "China Open",
    "round": "4. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Naomi Osaka",
     "rank": 17,
@@ -3095,7 +3279,12 @@
    "analysis": "Naomi Osaka (Weltrangliste #17) trifft auf Karolina Muchova (#8). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Karolina Muchova mit 65 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 2.1,
+    "p2": 1.61,
+    "src": "Betfair"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-06T06:00:00+02:00",
@@ -3737,7 +3926,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Anna Blinkova",
     "rank": 89,
@@ -3779,7 +3968,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Alicia Dudeney",
     "rank": 251,
@@ -3821,7 +4010,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Ayla Aksu",
     "rank": 210,
@@ -3863,7 +4052,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Viktoria Hruncakova",
     "rank": 211,
@@ -3873,8 +4062,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 5
+    "last7": 2,
+    "sets7": 3
    },
    "p2": {
     "name": "Aysegul Mert",
@@ -3905,7 +4094,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Carole Monnet",
     "rank": 202,
@@ -3947,7 +4136,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Oksana Selekhmeteva",
     "rank": 101,
@@ -3989,7 +4178,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Melisa Ercan",
     "rank": 655,
@@ -4031,7 +4220,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Linda Klimovicova",
     "rank": 206,
@@ -4192,6 +4381,56 @@
    "analysis": "",
    "unconfirmed": false,
    "timeTBD": true
+  },
+  {
+   "start": "2026-10-07T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Samsun Open",
+   "round": "Viertelfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Dalila Jakupovic / Lara Salden",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "TBD / TBD",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-07T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Samsun Open",
+   "round": "Viertelfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "TBD / TBD",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Elena Pridankina / Anastasia Tikhonova",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
   }
  ],
  "meta": {
@@ -4210,290 +4449,17 @@
    "wta": 0
   }
  },
- "tennisFinished": [
-  {
-   "tour": "ATP",
-   "tournament": "Kinoshita Group Japan Open Tennis Championships",
-   "p1": "Kyrian Jacquet",
-   "p2": "Jaume Munar",
-   "winner": "Jaume Munar",
-   "score": "4:6 2:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Kinoshita Group Japan Open Tennis Championships",
-   "p1": "Denis Shapovalov",
-   "p2": "Carlos Alcaraz",
-   "winner": "Carlos Alcaraz",
-   "score": "6:7 1:2"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Kinoshita Group Japan Open Tennis Championships",
-   "p1": "Arthur Fils",
-   "p2": "Valentin Vacherot",
-   "winner": "Valentin Vacherot",
-   "score": "5:7 6:4 4:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Kinoshita Group Japan Open Tennis Championships",
-   "p1": "Adolfo Daniel Vallejo",
-   "p2": "Jiri Lehecka",
-   "winner": "Jiri Lehecka",
-   "score": "1:6 1:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "China Open",
-   "p1": "Karen Khachanov",
-   "p2": "Hubert Hurkacz",
-   "winner": "Hubert Hurkacz",
-   "score": "6:7 2:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "China Open",
-   "p1": "Andrey Rublev",
-   "p2": "Alex de Minaur",
-   "winner": "Alex de Minaur",
-   "score": "6:1 2:6 3:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "China Open",
-   "p1": "Francisco Cerundolo",
-   "p2": "Daniil Medvedev",
-   "winner": "Daniil Medvedev",
-   "score": "6:7 3:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "China Open",
-   "p1": "Novak Djokovic",
-   "p2": "Alexander Zverev",
-   "winner": "Novak Djokovic",
-   "score": "4:6 6:4 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Jingshan Tennis Open",
-   "p1": "Alexandra Shubladze",
-   "p2": "Jessica Bouzas Maneiro",
-   "winner": "Alexandra Shubladze",
-   "score": "6:3 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Adana Open",
-   "p1": "Lois Boisson",
-   "p2": "Leolia Jeanjean",
-   "winner": "Leolia Jeanjean",
-   "score": "6:7 6:4 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Aryna Sabalenka",
-   "p2": "Nikola Bartunkova",
-   "winner": "Nikola Bartunkova",
-   "score": "4:6 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Dayana Yastremska",
-   "p2": "Sinja Kraus",
-   "winner": "Sinja Kraus",
-   "score": "1:6 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Diana Shnaider",
-   "p2": "Ekaterina Alexandrova",
-   "winner": "Ekaterina Alexandrova",
-   "score": "6:3 4:6 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Mirra Andreeva",
-   "p2": "Polina Kudermetova",
-   "winner": "Mirra Andreeva",
-   "score": "6:4 6:1"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Viktorija Golubic",
-   "p2": "Linda Noskova",
-   "winner": "Linda Noskova",
-   "score": "2:6 1:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Taylah Preston",
-   "p2": "Daria Snigur",
-   "winner": "Daria Snigur",
-   "score": "1:6 0:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Naomi Osaka",
-   "p2": "Sara Bejlek",
-   "winner": "Naomi Osaka",
-   "score": "7:6 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Liudmila Samsonova",
-   "p2": "Karolina Muchova",
-   "winner": "Karolina Muchova",
-   "score": "6:4 4:6 2:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "p1": "Li Zongyu",
-   "p2": "Lu Jia-Jing",
-   "winner": "Lu Jia-Jing",
-   "score": "1:6 7:5 5:7"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "p1": "Darya Khamutsianskaya",
-   "p2": "Yujia Huang",
-   "winner": "Darya Khamutsianskaya",
-   "score": "4:6 6:4 7:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "p1": "Qu Yihan",
-   "p2": "Zheng Wushuang",
-   "winner": "Zheng Wushuang",
-   "score": "6:4 3:6 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "p1": "Kristiana Sidorova",
-   "p2": "Katarina Zavatska",
-   "winner": "Katarina Zavatska",
-   "score": "4:6 1:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "p1": "Chengyiyi Yuan",
-   "p2": "Shi Han",
-   "winner": "Shi Han",
-   "score": "6:3 4:6 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "p1": "Rina Saigo",
-   "p2": "Yang Yidi",
-   "winner": "Yang Yidi",
-   "score": "3:6 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "p1": "Kyoka Okamura",
-   "p2": "Priska Nugroho",
-   "winner": "Kyoka Okamura",
-   "score": "6:3 7:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "p1": "Wei Sijia",
-   "p2": "Rinko Matsuda",
-   "winner": "Wei Sijia",
-   "score": "6:2 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Samsun Open",
-   "p1": "Ilay Yoruk",
-   "p2": "Noma Noha Akugue",
-   "winner": "Noma Noha Akugue",
-   "score": "1:6 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Samsun Open",
-   "p1": "Elena Micic",
-   "p2": "Mariia Golovina",
-   "winner": "Elena Micic",
-   "score": "6:4 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Samsun Open",
-   "p1": "Mariia Tkacheva",
-   "p2": "Anastasia Tikhonova",
-   "winner": "Mariia Tkacheva",
-   "score": "6:2 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Samsun Open",
-   "p1": "Alana Smith",
-   "p2": "Adelina Lacinova",
-   "winner": "Alana Smith",
-   "score": "3:6 6:1 6:1"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Samsun Open",
-   "p1": "Weronika Falkowska",
-   "p2": "Doga Turkmen",
-   "winner": "Weronika Falkowska",
-   "score": "6:2 6:3"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Samsun Open",
-   "p1": "Ekaterina Yashina",
-   "p2": "Caroline Werner",
-   "winner": "Caroline Werner",
-   "score": "3:6 6:3 2:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Samsun Open",
-   "p1": "Mariam Bolkvadze",
-   "p2": "Alya Naz Altinel",
-   "winner": "Mariam Bolkvadze",
-   "score": "6:1 6:0"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Samsun Open",
-   "p1": "Lucija Ciric Bagaric",
-   "p2": "Dalila Jakupovic",
-   "winner": "Dalila Jakupovic",
-   "score": "4:6 4:6"
-  }
- ],
+ "tennisFinished": [],
  "stats": {
   "overall": {
-   "n": 2837,
-   "correct": 1685,
-   "pct": 0.5939
+   "n": 2844,
+   "correct": 1687,
+   "pct": 0.5932
   },
   "football": {
-   "n": 858,
-   "correct": 417,
-   "pct": 0.486
+   "n": 865,
+   "correct": 419,
+   "pct": 0.4844
   },
   "tennis": {
    "n": 1979,
@@ -4501,17 +4467,50 @@
    "pct": 0.6407
   },
   "exact": {
-   "n": 858,
-   "correct": 98
+   "n": 865,
+   "correct": 99
   },
-  "open": 145,
+  "open": 136,
   "value": {
-   "n": 0,
-   "correct": 0,
-   "units": 0,
-   "avgOdds": null
+   "n": 4,
+   "correct": 1,
+   "units": -1.57,
+   "avgOdds": 2.54
   },
   "recent": [
+   {
+    "date": "2026-10-04",
+    "comp": "La Liga 2",
+    "label": "Castellón – Ceuta",
+    "tipName": "Castellón",
+    "tip": "1",
+    "prob": 0.7633,
+    "result": "1:1",
+    "correct": false,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-10-04",
+    "comp": "La Liga 2",
+    "label": "Las Palmas – Real Valladolid",
+    "tipName": "Las Palmas",
+    "tip": "1",
+    "prob": 0.5787,
+    "result": "2:2",
+    "correct": false,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-10-04",
+    "comp": "La Liga 2",
+    "label": "Girona – Mallorca",
+    "tipName": "Mallorca",
+    "tip": "2",
+    "prob": 0.367,
+    "result": "0:0",
+    "correct": false,
+    "sport": "fb"
+   },
    {
     "date": "2026-10-04",
     "comp": "ATP · Kinoshita Group Japan Open Tennis Championships",
@@ -4752,39 +4751,6 @@
     "prob": 0.5887,
     "result": "Sieger: P1",
     "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-04",
-    "comp": "WTA · Samsun Open",
-    "label": "Ilay Yoruk – Noma Noha Akugue",
-    "tipName": "Noma Noha Akugue",
-    "tip": "P2",
-    "prob": 0.8172,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-04",
-    "comp": "WTA · Samsun Open",
-    "label": "Mariia Tkacheva – Anastasia Tikhonova",
-    "tipName": "Anastasia Tikhonova",
-    "tip": "P2",
-    "prob": 0.6919,
-    "result": "Sieger: P1",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-04",
-    "comp": "ATP · China Open",
-    "label": "Novak Djokovic – Alexander Zverev",
-    "tipName": "Alexander Zverev",
-    "tip": "P2",
-    "prob": 0.8099,
-    "result": "Sieger: P1",
-    "correct": false,
     "sport": "tn"
    }
   ]
