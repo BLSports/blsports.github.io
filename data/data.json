@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-05T23:25:18.244138+02:00",
+ "generatedAt": "2026-10-06T01:14:35.148546+02:00",
  "windowDays": 3,
  "days": [
-  "2026-10-05",
   "2026-10-06",
-  "2026-10-07"
+  "2026-10-07",
+  "2026-10-08"
  ],
  "football": [
   {
@@ -395,7 +395,773 @@
    "name": "Série A (Brasilien)",
    "flag": "🇧🇷",
    "espn": "bra.1",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-10-08T00:30:00+02:00",
+     "home": "Internacional",
+     "away": "Corinthians",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "N",
+      "N",
+      "N",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "N",
+      "U",
+      "N",
+      "N",
+      "N"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 18,
+     "posAway": 14,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "06.08.2026",
+       "home": "Corinthians",
+       "away": "Internacional",
+       "score": "2:1"
+      },
+      {
+       "date": "02.08.2026",
+       "home": "Internacional",
+       "away": "Corinthians",
+       "score": "2:0"
+      },
+      {
+       "date": "05.04.2026",
+       "home": "Corinthians",
+       "away": "Internacional",
+       "score": "0:1"
+      },
+      {
+       "date": "01.10.2025",
+       "home": "Internacional",
+       "away": "Corinthians",
+       "score": "1:1"
+      },
+      {
+       "date": "03.05.2025",
+       "home": "Corinthians",
+       "away": "Internacional",
+       "score": "4:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4357,
+      "pDraw": 0.2844,
+      "pAway": 0.28,
+      "pOver25": 0.3853,
+      "pBtts": 0.4437,
+      "xgHome": 1.27,
+      "xgAway": 0.96,
+      "tipScore": "1:0",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.4437,
+     "odds": {
+      "h": 2.1,
+      "d": 3.1,
+      "a": 3.4,
+      "src": "William Hill"
+     },
+     "value": null,
+     "scorersHome": [
+      {
+       "name": "J. Carbonero",
+       "goals": 7
+      }
+     ],
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "Internacional ist gegen Corinthians leicht favorisiert (44 % zu 28 %). In der Tabelle stehen sich Platz 18 und Platz 14 gegenüber. Das letzte Duell (2026) endete 2:1 (Corinthians – Internacional). Das Modell erwartet eher wenige Tore (xG 1,3:1,0; über 2,5 Tore: 39 %, beide Teams treffen zu 44 %). Gefährlichste Torschützen: bei Internacional J. Carbonero (7 Tore). Personal: Internacional fehlen 6 Spieler (u.a. Richard); Corinthians fehlen 6 Spieler (u.a. J. Martinez).",
+     "injuriesHome": [
+      {
+       "name": "Richard",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Thiago Maia",
+       "reason": "Inactive"
+      },
+      {
+       "name": "A. Rodriguez",
+       "reason": "Injury"
+      },
+      {
+       "name": "B. Arhin",
+       "reason": "Injury"
+      },
+      {
+       "name": "Bruno Tabata",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Victor Gabriel",
+       "reason": "Injury"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "J. Martinez",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Hugo",
+       "reason": "Injury"
+      },
+      {
+       "name": "Kaio Cesar",
+       "reason": "Injury"
+      },
+      {
+       "name": "Breno Bidon",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Yuri Alberto",
+       "reason": "Inactive"
+      },
+      {
+       "name": "M. Pereira",
+       "reason": "Injury"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-10-08T00:30:00+02:00",
+     "home": "Red Bull Bragantino",
+     "away": "Mirassol",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [],
+     "formAway": [],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": null,
+     "posAway": 15,
+     "nTeams": null,
+     "h2h": [],
+     "prediction": null,
+     "pBtts": null,
+     "odds": null,
+     "value": null,
+     "scorersHome": [],
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": " Personal: Mirassol fehlen 20 Spieler (u.a. Andre Luis).",
+     "injuriesAway": [
+      {
+       "name": "Andre Luis",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Edson Carioca",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "Felipe Jonatan",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Daniel Borges",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Renato Marques",
+       "reason": "Injury"
+      },
+      {
+       "name": "Eduardo",
+       "reason": "Injury"
+      }
+     ],
+     "basis": "Datenbasis: Verletztenliste. Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-10-08T00:30:00+02:00",
+     "home": "Remo",
+     "away": "Grêmio",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "N",
+      "N",
+      "N",
+      "N",
+      "N"
+     ],
+     "formAway": [
+      "S",
+      "N",
+      "N",
+      "N",
+      "U"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 19,
+     "posAway": 17,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "05.04.2026",
+       "home": "Gremio",
+       "away": "Remo",
+       "score": "0:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3595,
+      "pDraw": 0.2796,
+      "pAway": 0.3609,
+      "pOver25": 0.419,
+      "pBtts": 0.4792,
+      "xgHome": 1.18,
+      "xgAway": 1.18,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.4792,
+     "odds": {
+      "h": 2.2,
+      "d": 3.2,
+      "a": 3.0,
+      "src": "William Hill"
+     },
+     "value": {
+      "outcome": "2",
+      "edge": 0.058,
+      "modelP": 0.3609,
+      "odds": 3.0
+     },
+     "scorersHome": [
+      {
+       "name": "Jája Silva",
+       "goals": 7
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "Carlos Vinícius",
+       "goals": 10
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Zwischen Remo und Grêmio deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Remo 36 %, Unentschieden 28 %, Sieg Grêmio 36 %). In der Tabelle stehen sich Platz 19 und Platz 17 gegenüber. Das letzte Duell (2026) endete 0:0 (Gremio – Remo). Das Modell erwartet eher wenige Tore (xG 1,2:1,2; über 2,5 Tore: 42 %, beide Teams treffen zu 48 %). Gefährlichste Torschützen: bei Remo Jája Silva (7 Tore) und bei Grêmio Carlos Vinícius (10 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,00) für 6 Prozentpunkte wahrscheinlicher als der Markt. Personal: Remo fehlen 6 Spieler (u.a. Diego Hernandez); Grêmio fehlen 6 Spieler (u.a. M. Braithwaite).",
+     "injuriesHome": [
+      {
+       "name": "Diego Hernandez",
+       "reason": "Red Card"
+      },
+      {
+       "name": "M. N. Ferreira Berrondo",
+       "reason": "Red Card"
+      },
+      {
+       "name": "Savio",
+       "reason": "Injury"
+      },
+      {
+       "name": "Eduardo Melo",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Freitas",
+       "reason": "Loan agreement"
+      },
+      {
+       "name": "Kayky Almeida",
+       "reason": "Loan agreement"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "M. Braithwaite",
+       "reason": "Achilles Tendon Injury"
+      },
+      {
+       "name": "M. Villasanti",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "Walter Kannemann",
+       "reason": "Inactive"
+      },
+      {
+       "name": "M. Monsalve",
+       "reason": "Injury"
+      },
+      {
+       "name": "L. Perez",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Wagner Leonardo",
+       "reason": "Red Card"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-10-08T01:00:00+02:00",
+     "home": "Vitória",
+     "away": "Chapecoense",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "N",
+      "N",
+      "S",
+      "U",
+      "N"
+     ],
+     "formAway": [
+      "N",
+      "S",
+      "N",
+      "U",
+      "U"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 13,
+     "posAway": 20,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "05.04.2026",
+       "home": "Chapecoense-sc",
+       "away": "Vitoria",
+       "score": "1:1"
+      },
+      {
+       "date": "25.11.2023",
+       "home": "Chapecoense-sc",
+       "away": "Vitoria",
+       "score": "3:1"
+      },
+      {
+       "date": "24.07.2023",
+       "home": "Vitoria",
+       "away": "Chapecoense-sc",
+       "score": "1:0"
+      },
+      {
+       "date": "17.01.2021",
+       "home": "Vitoria",
+       "away": "Chapecoense-sc",
+       "score": "0:0"
+      },
+      {
+       "date": "17.10.2020",
+       "home": "Chapecoense-sc",
+       "away": "Vitoria",
+       "score": "1:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3879,
+      "pDraw": 0.2634,
+      "pAway": 0.3487,
+      "pOver25": 0.4827,
+      "pBtts": 0.5296,
+      "xgHome": 1.34,
+      "xgAway": 1.26,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5296,
+     "odds": {
+      "h": 1.67,
+      "d": 3.6,
+      "a": 4.6,
+      "src": "William Hill"
+     },
+     "value": null,
+     "scorersHome": [
+      {
+       "name": "Renê",
+       "goals": 9
+      }
+     ],
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "Zwischen Vitória und Chapecoense deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Vitória 39 %, Unentschieden 26 %, Sieg Chapecoense 35 %). In der Tabelle stehen sich Platz 13 und Platz 20 gegenüber. Das letzte Duell (2026) endete 1:1 (Chapecoense-sc – Vitoria). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,3:1,3; über 2,5 Tore: 48 %, beide Teams treffen zu 53 %). Gefährlichste Torschützen: bei Vitória Renê (9 Tore). Personal: Vitória fehlen 6 Spieler (u.a. Claudinho); Chapecoense fehlen 6 Spieler (u.a. Bruno Matias).",
+     "injuriesHome": [
+      {
+       "name": "Claudinho",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "Edu",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Fintelman",
+       "reason": "Hip Injury"
+      },
+      {
+       "name": "Kauan Vitor",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Lucas Arcanjo",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "R. Ramos",
+       "reason": "Knee Injury"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "Bruno Matias",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "Mancha",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "Neto Pessoa",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Rafael Thyere",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Robert Conceicao",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Marcos Vinicius",
+       "reason": "Inactive"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-10-08T01:30:00+02:00",
+     "home": "Botafogo",
+     "away": "Vasco da Gama",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "N",
+      "U",
+      "U",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "N",
+      "U",
+      "S",
+      "S",
+      "S"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 12,
+     "posAway": 16,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "05.04.2026",
+       "home": "Vasco DA Gama",
+       "away": "Botafogo",
+       "score": "1:2"
+      },
+      {
+       "date": "08.02.2026",
+       "home": "Vasco DA Gama",
+       "away": "Botafogo",
+       "score": "2:0"
+      },
+      {
+       "date": "05.11.2025",
+       "home": "Botafogo",
+       "away": "Vasco DA Gama",
+       "score": "3:0"
+      },
+      {
+       "date": "12.09.2025",
+       "home": "Botafogo",
+       "away": "Vasco DA Gama",
+       "score": "1:1"
+      },
+      {
+       "date": "28.08.2025",
+       "home": "Vasco DA Gama",
+       "away": "Botafogo",
+       "score": "1:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.2594,
+      "pDraw": 0.2663,
+      "pAway": 0.4744,
+      "pOver25": 0.4373,
+      "pBtts": 0.4789,
+      "xgHome": 0.99,
+      "xgAway": 1.44,
+      "tipScore": "0:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.4789,
+     "odds": {
+      "h": 2.62,
+      "d": 3.25,
+      "a": 2.45,
+      "src": "William Hill"
+     },
+     "value": {
+      "outcome": "2",
+      "edge": 0.1025,
+      "modelP": 0.4744,
+      "odds": 2.45
+     },
+     "scorersHome": [
+      {
+       "name": "Danilo Santos",
+       "goals": 9
+      }
+     ],
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "Vasco da Gama ist bei Botafogo leicht favorisiert (47 % zu 26 %). In der Tabelle stehen sich Platz 12 und Platz 16 gegenüber. Die Form spricht für Vasco da Gama: 3 Siege aus den letzten 5 Spielen, Botafogo holte nur 1. Das letzte Duell (2026) endete 1:2 (Vasco DA Gama – Botafogo). Das Modell erwartet eher wenige Tore (xG 1,0:1,4; über 2,5 Tore: 44 %, beide Teams treffen zu 48 %). Gefährlichste Torschützen: bei Botafogo Danilo Santos (9 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,45) für 10 Prozentpunkte wahrscheinlicher als der Markt. Personal: Botafogo fehlen 6 Spieler (u.a. J. Correa); Vasco da Gama fehlen 6 Spieler (u.a. Brenner).",
+     "injuriesHome": [
+      {
+       "name": "J. Correa",
+       "reason": "Inactive"
+      },
+      {
+       "name": "C. Ramos",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Marcal",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "Bastos",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Kaio Pantaleao",
+       "reason": "Inactive"
+      },
+      {
+       "name": "M. Ponte",
+       "reason": "Inactive"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "Brenner",
+       "reason": "Inactive"
+      },
+      {
+       "name": "M. Hinestroza",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Jair",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "Paulo Henrique",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Cuiabano",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Hugo Moura",
+       "reason": "Inactive"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-10-08T02:30:00+02:00",
+     "home": "Cruzeiro",
+     "away": "São Paulo",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "N",
+      "N",
+      "S",
+      "N",
+      "S"
+     ],
+     "formAway": [
+      "N",
+      "N",
+      "U",
+      "S",
+      "N"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 6,
+     "posAway": 10,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "04.04.2026",
+       "home": "Sao Paulo",
+       "away": "Cruzeiro",
+       "score": "4:1"
+      },
+      {
+       "date": "31.08.2025",
+       "home": "Cruzeiro",
+       "away": "Sao Paulo",
+       "score": "1:0"
+      },
+      {
+       "date": "13.04.2025",
+       "home": "Sao Paulo",
+       "away": "Cruzeiro",
+       "score": "1:1"
+      },
+      {
+       "date": "16.01.2025",
+       "home": "Cruzeiro",
+       "away": "Sao Paulo",
+       "score": "1:1"
+      },
+      {
+       "date": "15.09.2024",
+       "home": "Cruzeiro",
+       "away": "Sao Paulo",
+       "score": "0:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.497,
+      "pDraw": 0.2492,
+      "pAway": 0.2537,
+      "pOver25": 0.499,
+      "pBtts": 0.5243,
+      "xgHome": 1.6,
+      "xgAway": 1.07,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5243,
+     "odds": {
+      "h": 1.85,
+      "d": 3.3,
+      "a": 3.9,
+      "src": "William Hill"
+     },
+     "value": null,
+     "scorersHome": [
+      {
+       "name": "Matheus Pereira",
+       "goals": 9
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "Luciano",
+       "goals": 9
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Cruzeiro ist gegen São Paulo leicht favorisiert (50 % zu 25 %). In der Tabelle stehen sich Platz 6 und Platz 10 gegenüber. Das letzte Duell (2026) endete 4:1 (Sao Paulo – Cruzeiro). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,6:1,1; über 2,5 Tore: 50 %, beide Teams treffen zu 52 %). Gefährlichste Torschützen: bei Cruzeiro Matheus Pereira (9 Tore) und bei São Paulo Luciano (9 Tore). Personal: Cruzeiro fehlen 6 Spieler (u.a. Marquinhos); São Paulo fehlen 6 Spieler (u.a. Andre Silva).",
+     "injuriesHome": [
+      {
+       "name": "Marquinhos",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "Matheus Cunha",
+       "reason": "Inactive"
+      },
+      {
+       "name": "L. Sinisterra",
+       "reason": "Injury"
+      },
+      {
+       "name": "L. Villalba",
+       "reason": "Ankle Injury"
+      },
+      {
+       "name": "Chico",
+       "reason": "Injury"
+      },
+      {
+       "name": "Jonathan Jesus",
+       "reason": "Inactive"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "Andre Silva",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "Ryan Francisco",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "Alisson",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Danielzinho",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Lucca Marques",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Lucas Ramon",
+       "reason": "Inactive"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": false,
    "isCup": false
   },
@@ -452,8 +1218,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 10
+    "last7": 3,
+    "sets7": 7
    },
    "p2": {
     "name": "Mananchaya Sawangkaew",
@@ -474,7 +1240,7 @@
     "pRank": 0.3557
    },
    "h2h": [],
-   "analysis": "Linda Fruhvirtova (Weltrangliste #181) trifft auf Mananchaya Sawangkaew (#90). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Mananchaya Sawangkaew mit 64 % vorn. Linda Fruhvirtova hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Linda Fruhvirtova (Weltrangliste #181) trifft auf Mananchaya Sawangkaew (#90). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Mananchaya Sawangkaew mit 64 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -536,8 +1302,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 6
+    "last7": 2,
+    "sets7": 4
    },
    "p2": {
     "name": "Moyuka Uchijima",
@@ -568,7 +1334,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "4. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Mirra Andreeva",
     "rank": 5,
@@ -604,8 +1370,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 1.13,
-    "p2": 5.85,
+    "p1": 1.17,
+    "p2": 5.03,
     "src": "1xBet"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -687,8 +1453,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 5,
-    "sets7": 13
+    "last7": 4,
+    "sets7": 11
    },
    "pP1": 0.6967,
    "model": {
@@ -697,7 +1463,7 @@
     "pRank": 0.6967
    },
    "h2h": [],
-   "analysis": "Renata Zarazua (#94) trifft auf Shi Han, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Renata Zarazua mit 70 % vorn. Shi Han hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 13 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Renata Zarazua (#94) trifft auf Shi Han, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Renata Zarazua mit 70 % vorn. Shi Han hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 11 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -759,8 +1525,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 11
+    "last7": 3,
+    "sets7": 9
    },
    "p2": {
     "name": "Oleksandra Oliynykova",
@@ -781,7 +1547,7 @@
     "pRank": 0.1946
    },
    "h2h": [],
-   "analysis": "Zheng Wushuang – aktuell ohne Top-Ranking – trifft auf Oleksandra Oliynykova (#47). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Oleksandra Oliynykova mit 81 % vorn. Zheng Wushuang hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 11 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Zheng Wushuang – aktuell ohne Top-Ranking – trifft auf Oleksandra Oliynykova (#47). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Oleksandra Oliynykova mit 81 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -801,8 +1567,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 5
+    "last7": 1,
+    "sets7": 3
    },
    "p2": {
     "name": "Roman Safiullin",
@@ -813,8 +1579,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 9
+    "last7": 3,
+    "sets7": 7
    },
    "pP1": 0.4248,
    "model": {
@@ -823,7 +1589,7 @@
     "pRank": 0.4248
    },
    "h2h": [],
-   "analysis": "Shintaro Mochizuki (Weltrangliste #120) trifft auf Roman Safiullin (#84). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Roman Safiullin mit 58 % vorn. Roman Safiullin hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 9 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Shintaro Mochizuki (Weltrangliste #120) trifft auf Roman Safiullin (#84). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Roman Safiullin mit 58 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -843,8 +1609,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 6
+    "last7": 1,
+    "sets7": 3
    },
    "p2": {
     "name": "Liam Draxl",
@@ -959,7 +1725,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Anna Blinkova",
     "rank": 89,
@@ -969,8 +1735,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 6
+    "last7": 2,
+    "sets7": 4
    },
    "p2": {
     "name": "Elena Pridankina",
@@ -1001,7 +1767,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "4. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Ekaterina Alexandrova",
     "rank": 28,
@@ -1037,8 +1803,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 3.1,
-    "p2": 1.36,
+    "p1": 3.5,
+    "p2": 1.3,
     "src": "888sport"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1217,8 +1983,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 7
+    "last7": 2,
+    "sets7": 5
    },
    "p2": {
     "name": "Emerson Jones",
@@ -1229,8 +1995,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 8
+    "last7": 3,
+    "sets7": 6
    },
    "pP1": 0.4411,
    "model": {
@@ -1271,8 +2037,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 5
+    "last7": 1,
+    "sets7": 3
    },
    "pP1": 0.6015,
    "model": {
@@ -1355,8 +2121,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 4
+    "last7": 1,
+    "sets7": 2
    },
    "pP1": 0.6176,
    "model": {
@@ -1397,8 +2163,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 5,
-    "sets7": 10
+    "last7": 4,
+    "sets7": 8
    },
    "pP1": 0.4023,
    "model": {
@@ -1407,7 +2173,7 @@
     "pRank": 0.4023
    },
    "h2h": [],
-   "analysis": "Rei Sakamoto (Weltrangliste #137) trifft auf Kyrian Jacquet (#86). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Kyrian Jacquet mit 60 % vorn. Kyrian Jacquet hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Rei Sakamoto (Weltrangliste #137) trifft auf Kyrian Jacquet (#86). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Kyrian Jacquet mit 60 % vorn. Kyrian Jacquet hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 8 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1464,8 +2230,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 10
+    "last7": 3,
+    "sets7": 8
    },
    "pP1": 0.7889,
    "model": {
@@ -1474,7 +2240,7 @@
     "pRank": 0.7889
    },
    "h2h": [],
-   "analysis": "Tamara Korpatsch (#53) trifft auf Lu Jia-Jing, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Tamara Korpatsch mit 79 % vorn. Lu Jia-Jing hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Tamara Korpatsch (#53) trifft auf Lu Jia-Jing, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Tamara Korpatsch mit 79 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1618,7 +2384,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "4. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Naomi Osaka",
     "rank": 17,
@@ -1654,8 +2420,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 2.1,
-    "p2": 1.61,
+    "p1": 2.28,
+    "p2": 1.76,
     "src": "Betfair"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1690,7 +2456,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Alicia Dudeney",
     "rank": 251,
@@ -1712,8 +2478,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 10
+    "last7": 3,
+    "sets7": 8
    },
    "pP1": 0.2808,
    "model": {
@@ -1722,7 +2488,7 @@
     "pRank": 0.2808
    },
    "h2h": [],
-   "analysis": "Alicia Dudeney (Weltrangliste #251) trifft auf Antonia Ruzic (#83). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Antonia Ruzic mit 72 % vorn. Antonia Ruzic hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Alicia Dudeney (Weltrangliste #251) trifft auf Antonia Ruzic (#83). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Antonia Ruzic mit 72 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1732,7 +2498,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Noma Noha Akugue",
     "rank": 130,
@@ -1742,8 +2508,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 6
+    "last7": 2,
+    "sets7": 4
    },
    "p2": {
     "name": "Teodora Kostovic",
@@ -1774,7 +2540,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Ayla Aksu",
     "rank": 210,
@@ -1796,8 +2562,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 2
+    "last7": 0,
+    "sets7": 0
    },
    "pP1": 0.4117,
    "model": {
@@ -1925,7 +2691,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "4. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Nikola Bartunkova",
     "rank": 34,
@@ -1961,7 +2727,7 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 1.2,
+    "p1": 1.24,
     "p2": 5.1,
     "src": "Betfair"
    },
@@ -1997,7 +2763,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Viktoria Hruncakova",
     "rank": 211,
@@ -2007,8 +2773,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 3
+    "last7": 1,
+    "sets7": 2
    },
    "p2": {
     "name": "Aysegul Mert",
@@ -2039,7 +2805,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Carole Monnet",
     "rank": 202,
@@ -2061,8 +2827,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 9
+    "last7": 2,
+    "sets7": 6
    },
    "pP1": 0.3994,
    "model": {
@@ -2081,7 +2847,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Oksana Selekhmeteva",
     "rank": 101,
@@ -2158,7 +2924,12 @@
    "analysis": "Jiri Lehecka (Weltrangliste #23) trifft auf Carlos Alcaraz (#3). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Carlos Alcaraz mit 85 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 4.2,
+    "p2": 1.3,
+    "src": "Betfair"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-06T11:00:00+02:00",
@@ -2190,7 +2961,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Melisa Ercan",
     "rank": 655,
@@ -2232,7 +3003,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Alana Smith",
     "rank": 488,
@@ -2274,7 +3045,7 @@
    "tour": "ATP",
    "tournament": "China Open",
    "round": "Finale",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Alex de Minaur",
     "rank": 10,
@@ -2309,14 +3080,19 @@
    "analysis": "Alex de Minaur (Weltrangliste #10) trifft auf Novak Djokovic (#11). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alex de Minaur mit 52 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 2.62,
+    "p2": 1.6,
+    "src": "Matchbook"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-06T13:30:00+02:00",
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Linda Klimovicova",
     "rank": 206,
@@ -2358,7 +3134,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Mariam Bolkvadze",
     "rank": 370,
@@ -2380,8 +3156,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 5,
-    "sets7": 15
+    "last7": 4,
+    "sets7": 12
    },
    "pP1": 0.2614,
    "model": {
@@ -2390,7 +3166,7 @@
     "pRank": 0.2614
    },
    "h2h": [],
-   "analysis": "Mariam Bolkvadze (Weltrangliste #370) trifft auf Leolia Jeanjean (#109). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Leolia Jeanjean mit 74 % vorn. Leolia Jeanjean hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 15 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Mariam Bolkvadze (Weltrangliste #370) trifft auf Leolia Jeanjean (#109). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Leolia Jeanjean mit 74 % vorn. Leolia Jeanjean hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 12 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2425,7 +3201,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Caroline Werner",
     "rank": 273,
@@ -2477,8 +3253,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 7
+    "last7": 2,
+    "sets7": 4
    },
    "p2": {
     "name": "Zhang Zhizhen",
@@ -2531,8 +3307,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 5
+    "last7": 1,
+    "sets7": 2
    },
    "pP1": 0.6086,
    "model": {
@@ -2578,8 +3354,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 3
+    "last7": 0,
+    "sets7": 0
    },
    "pP1": 0.5451,
    "model": {
@@ -2660,8 +3436,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 3
+    "last7": 0,
+    "sets7": 0
    },
    "p2": {
     "name": "Adolfo Daniel Vallejo",
@@ -2672,8 +3448,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 5,
-    "sets7": 11
+    "last7": 4,
+    "sets7": 9
    },
    "pP1": 0.3695,
    "model": {
@@ -2682,7 +3458,7 @@
     "pRank": 0.3695
    },
    "h2h": [],
-   "analysis": "Valentin Royer (Weltrangliste #105) trifft auf Adolfo Daniel Vallejo (#56). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Adolfo Daniel Vallejo mit 63 % vorn. Adolfo Daniel Vallejo hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 11 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Valentin Royer (Weltrangliste #105) trifft auf Adolfo Daniel Vallejo (#56). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Adolfo Daniel Vallejo mit 63 % vorn. Adolfo Daniel Vallejo hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 9 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
@@ -2707,8 +3483,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 10
+    "last7": 3,
+    "sets7": 7
    },
    "p2": {
     "name": "Cameron Norrie",
@@ -2729,7 +3505,7 @@
     "pRank": 0.4703
    },
    "h2h": [],
-   "analysis": "Denis Shapovalov (Weltrangliste #46) trifft auf Cameron Norrie (#40). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Cameron Norrie mit 53 % vorn. Denis Shapovalov hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Denis Shapovalov (Weltrangliste #46) trifft auf Cameron Norrie (#40). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Cameron Norrie mit 53 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2775,7 +3551,7 @@
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
-    "p1": 3.35,
+    "p1": 3.45,
     "p2": 1.21,
     "src": "Unibet (FR)"
    },
@@ -2843,8 +3619,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 6
+    "last7": 2,
+    "sets7": 4
    },
    "p2": {
     "name": "Mariano Navone",
@@ -2890,8 +3666,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 3
+    "last7": 0,
+    "sets7": 0
    },
    "p2": {
     "name": "Fabian Marozsan",
@@ -2920,7 +3696,7 @@
     "p2": 1.71,
     "src": "Unibet (FR)"
    },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-07T06:00:00+02:00",
@@ -2996,8 +3772,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 6,
-    "sets7": 15
+    "last7": 4,
+    "sets7": 10
    },
    "pP1": 0.3995,
    "model": {
@@ -3006,7 +3782,7 @@
     "pRank": 0.3995
    },
    "h2h": [],
-   "analysis": "James Duckworth (Weltrangliste #63) trifft auf Hubert Hurkacz (#39). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Hubert Hurkacz mit 60 % vorn. Hubert Hurkacz hat allerdings eine intensive Woche in den Beinen (6 Matches in den letzten 7 Tagen und 15 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "James Duckworth (Weltrangliste #63) trifft auf Hubert Hurkacz (#39). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Hubert Hurkacz mit 60 % vorn. Hubert Hurkacz hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -3038,8 +3814,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 8
+    "last7": 2,
+    "sets7": 5
    },
    "pP1": 0.4949,
    "model": {
@@ -3080,8 +3856,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 6,
-    "sets7": 15
+    "last7": 5,
+    "sets7": 12
    },
    "pP1": 0.4042,
    "model": {
@@ -3090,7 +3866,7 @@
     "pRank": 0.4042
    },
    "h2h": [],
-   "analysis": "Jenson Brooksby (Weltrangliste #101) trifft auf Jaume Munar (#64). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Jaume Munar mit 60 % vorn. Jaume Munar hat allerdings eine intensive Woche in den Beinen (6 Matches in den letzten 7 Tagen und 15 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Jenson Brooksby (Weltrangliste #101) trifft auf Jaume Munar (#64). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Jaume Munar mit 60 % vorn. Jaume Munar hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 12 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": true,
    "odds": {
@@ -3115,8 +3891,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 5
+    "last7": 1,
+    "sets7": 3
    },
    "p2": {
     "name": "Yannick Hanfmann",
@@ -3127,8 +3903,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 3
+    "last7": 0,
+    "sets7": 0
    },
    "pP1": 0.4421,
    "model": {
@@ -3162,8 +3938,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 10
+    "last7": 3,
+    "sets7": 8
    },
    "p2": {
     "name": "Arthur Gea",
@@ -3174,8 +3950,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 9
+    "last7": 3,
+    "sets7": 7
    },
    "pP1": 0.4893,
    "model": {
@@ -3221,8 +3997,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 3
+    "last7": 0,
+    "sets7": 0
    },
    "pP1": 0.6069,
    "model": {
@@ -3256,8 +4032,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 2
+    "last7": 0,
+    "sets7": 0
    },
    "p2": {
     "name": "Holger Rune",
@@ -3298,8 +4074,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 3
+    "last7": 0,
+    "sets7": 0
    },
    "p2": {
     "name": "Sho Shimabukuro",
@@ -3357,8 +4133,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 3
+    "last7": 0,
+    "sets7": 0
    },
    "pP1": 0.6212,
    "model": {
@@ -3382,7 +4158,7 @@
    "tour": "WTA",
    "tournament": "China Open",
    "round": "4. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Iga Swiatek",
     "rank": 9,
@@ -3417,14 +4193,19 @@
    "analysis": "Iga Swiatek (Weltrangliste #9) trifft auf Iva Jovic (#13). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Iga Swiatek mit 58 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 1.53,
+    "p2": 2.74,
+    "src": "Betfair"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-07T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "China Open",
    "round": "4. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Elise Mertens",
     "rank": 19,
@@ -3459,14 +4240,19 @@
    "analysis": "Elise Mertens (Weltrangliste #19) trifft auf Coco Gauff (#4). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Coco Gauff mit 79 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 4.1,
+    "p2": 1.24,
+    "src": "Unibet (SE)"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-07T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "China Open",
    "round": "4. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Elina Svitolina",
     "rank": 7,
@@ -3501,14 +4287,19 @@
    "analysis": "Elina Svitolina (Weltrangliste #7) trifft auf Ann Li (#30). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Elina Svitolina mit 78 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "odds": {
+    "p1": 1.27,
+    "p2": 3.0,
+    "src": "Matchbook"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-07T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "China Open",
    "round": "4. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Zheng Qinwen",
     "rank": 54,
@@ -3697,8 +4488,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 4
+    "last7": 1,
+    "sets7": 2
    },
    "pP1": 0.5943,
    "model": {
@@ -3867,7 +4658,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "2. Runde",
-   "surface": null,
+   "surface": "Hartplatz",
    "p1": {
     "name": "Dalma Galfi",
     "rank": 150,
@@ -4096,450 +4887,17 @@
    "wta": 0
   }
  },
- "tennisFinished": [
-  {
-   "tour": "ATP",
-   "tournament": "Kinoshita Group Japan Open Tennis Championships",
-   "p1": "Jaume Munar",
-   "p2": "Carlos Alcaraz",
-   "winner": "Carlos Alcaraz",
-   "score": "7:5 3:6 1:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Kinoshita Group Japan Open Tennis Championships",
-   "p1": "Valentin Vacherot",
-   "p2": "Jiri Lehecka",
-   "winner": "Jiri Lehecka",
-   "score": "4:6 2:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "China Open",
-   "p1": "Hubert Hurkacz",
-   "p2": "Alex de Minaur",
-   "winner": "Alex de Minaur",
-   "score": "4:6 2:3"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "China Open",
-   "p1": "Daniil Medvedev",
-   "p2": "Novak Djokovic",
-   "winner": "Novak Djokovic",
-   "score": "5:7 3:5"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Rolex Shanghai Masters",
-   "p1": "Nikoloz Basilashvili",
-   "p2": "Andre Ilagan",
-   "winner": "Nikoloz Basilashvili",
-   "score": "6:3 6:7 7:5"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Rolex Shanghai Masters",
-   "p1": "Liam Draxl",
-   "p2": "Hugo Gaston",
-   "winner": "Liam Draxl",
-   "score": "7:5 6:4"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Rolex Shanghai Masters",
-   "p1": "Shintaro Mochizuki",
-   "p2": "Taro Daniel",
-   "winner": "Shintaro Mochizuki",
-   "score": "2:6 6:2 6:2"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Rolex Shanghai Masters",
-   "p1": "Alexis Galarneau",
-   "p2": "Roman Safiullin",
-   "winner": "Roman Safiullin",
-   "score": "3:6 0:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Rolex Shanghai Masters",
-   "p1": "Federico Cina",
-   "p2": "Xiao Linang",
-   "winner": "Federico Cina",
-   "score": "2:6 6:3 6:2"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Rolex Shanghai Masters",
-   "p1": "Aziz Dougaz",
-   "p2": "Lorenzo Sonego",
-   "winner": "Aziz Dougaz",
-   "score": "7:6 5:7 6:4"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Rolex Shanghai Masters",
-   "p1": "Nicolas Mejia",
-   "p2": "Chun-Hsin Tseng",
-   "winner": "Nicolas Mejia",
-   "score": "6:4 0:0"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Rolex Shanghai Masters",
-   "p1": "Bernard Tomic",
-   "p2": "Terence Atmane",
-   "winner": "Bernard Tomic",
-   "score": "6:3 4:6 5:3"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Rolex Shanghai Masters",
-   "p1": "Ilia Simakin",
-   "p2": "Luka Pavlovic",
-   "winner": "Ilia Simakin",
-   "score": "4:6 6:4 6:1"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Rolex Shanghai Masters",
-   "p1": "Federico Agustin Gomez",
-   "p2": "Michael Zheng",
-   "winner": "Michael Zheng",
-   "score": "7:6 3:6 3:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Rolex Shanghai Masters",
-   "p1": "Stefanos Sakellaridis",
-   "p2": "Timofey Skatov",
-   "winner": "Timofey Skatov",
-   "score": "3:6 2:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Rolex Shanghai Masters",
-   "p1": "Te Rigele",
-   "p2": "Adam Walton",
-   "winner": "Te Rigele",
-   "score": "5:7 6:3 6:4"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Rolex Shanghai Masters",
-   "p1": "Rei Sakamoto",
-   "p2": "SeongChan Hong",
-   "winner": "Rei Sakamoto",
-   "score": "6:3 7:5"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Rolex Shanghai Masters",
-   "p1": "Dalibor Svrcina",
-   "p2": "Billy Harris",
-   "winner": "Dalibor Svrcina",
-   "score": "4:6 7:6 7:5"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Rolex Shanghai Masters",
-   "p1": "Pavel Kotov",
-   "p2": "Martin Damm",
-   "winner": "Pavel Kotov",
-   "score": "7:6 6:7 6:3"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Rolex Shanghai Masters",
-   "p1": "Yoshihito Nishioka",
-   "p2": "Aleksandr Shevchenko",
-   "winner": "Yoshihito Nishioka",
-   "score": "6:2 6:4"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Rolex Shanghai Masters",
-   "p1": "Tristan Schoolkate",
-   "p2": "Dane Sweeny",
-   "winner": "Dane Sweeny",
-   "score": "6:3 3:6 2:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Rolex Shanghai Masters",
-   "p1": "Zhang Tianhui",
-   "p2": "Kyrian Jacquet",
-   "winner": "Kyrian Jacquet",
-   "score": "2:6 6:7"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Rolex Shanghai Masters",
-   "p1": "Aleksandar Vukic",
-   "p2": "Cui Jie",
-   "winner": "Aleksandar Vukic",
-   "score": "4:6 7:6 7:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Rolex Shanghai Masters",
-   "p1": "Alexandre Muller",
-   "p2": "Rio Noguchi",
-   "winner": "Alexandre Muller",
-   "score": "6:3 4:6 6:1"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Rolex Shanghai Masters",
-   "p1": "Elias Ymer",
-   "p2": "Mattia Bellucci",
-   "winner": "Mattia Bellucci",
-   "score": "6:4 5:7 6:7"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Rolex Shanghai Masters",
-   "p1": "Lloyd Harris",
-   "p2": "Alex Bolt",
-   "winner": "Lloyd Harris",
-   "score": "7:5 6:4"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Rolex Shanghai Masters",
-   "p1": "Nishesh Basavareddy",
-   "p2": "Kimmer Coppejans",
-   "winner": "Kimmer Coppejans",
-   "score": "6:7 3:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Rolex Shanghai Masters",
-   "p1": "Cruz Hewitt",
-   "p2": "Chak Lam Coleman Wong",
-   "winner": "Chak Lam Coleman Wong",
-   "score": "4:6 1:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Iga Swiatek",
-   "p2": "Donna Vekic",
-   "winner": "Iga Swiatek",
-   "score": "4:6 7:6 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Kamilla Rakhimova",
-   "p2": "Iva Jovic",
-   "winner": "Iva Jovic",
-   "score": "1:6 5:7"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Zheng Qinwen",
-   "p2": "Marie Bouzkova",
-   "winner": "Zheng Qinwen",
-   "score": "7:6 4:6 7:5"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Sonay Kartal",
-   "p2": "Alina Charaeva",
-   "winner": "Alina Charaeva",
-   "score": "4:6 1:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Ann Li",
-   "p2": "Belinda Bencic",
-   "winner": "Ann Li",
-   "score": "6:4 6:3"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Elise Mertens",
-   "p2": "Jelena Ostapenko",
-   "winner": "Elise Mertens",
-   "score": "6:2 3:6 6:3"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Elina Svitolina",
-   "p2": "Maria Sakkari",
-   "winner": "Elina Svitolina",
-   "score": "6:4 7:5"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "China Open",
-   "p1": "Xinran Sun",
-   "p2": "Coco Gauff",
-   "winner": "Coco Gauff",
-   "score": "5:7 1:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "p1": "Lu Jia-Jing",
-   "p2": "Zheng Wushuang",
-   "winner": "Zheng Wushuang",
-   "score": "6:3 6:7 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "p1": "Yang Yidi",
-   "p2": "Shi Han",
-   "winner": "Shi Han",
-   "score": "4:6 6:7"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "p1": "Darya Khamutsianskaya",
-   "p2": "Katarina Zavatska",
-   "winner": "Darya Khamutsianskaya",
-   "score": "6:4 6:1"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "p1": "Rebecca Sramkova",
-   "p2": "Alevtina Ibragimova",
-   "winner": "Rebecca Sramkova",
-   "score": "6:2 6:3"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "p1": "Kyoka Okamura",
-   "p2": "Wei Sijia",
-   "winner": "Kyoka Okamura",
-   "score": "6:3 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "p1": "Tatiana Prozorova",
-   "p2": "Zhang Ruien",
-   "winner": "Tatiana Prozorova",
-   "score": "6:4 3:6 6:2"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "p1": "Claire Liu",
-   "p2": "Elsa Jacquemot",
-   "winner": "Claire Liu",
-   "score": "6:1 6:1"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "p1": "Darya Astakhova",
-   "p2": "Sofia Costoulas",
-   "winner": "Darya Astakhova",
-   "score": "6:3"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "p1": "Ma YeXin",
-   "p2": "Elvina Kalieva",
-   "winner": "Elvina Kalieva",
-   "score": "3:6 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Suzhou Open",
-   "p1": "Aliaksandra Sasnovich",
-   "p2": "Yao Xinxin",
-   "winner": "Aliaksandra Sasnovich",
-   "score": "7:5 6:1"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Samsun Open",
-   "p1": "Elena Micic",
-   "p2": "Noma Noha Akugue",
-   "winner": "Noma Noha Akugue",
-   "score": "5:7 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Samsun Open",
-   "p1": "Mariam Bolkvadze",
-   "p2": "Mariia Tkacheva",
-   "winner": "Mariam Bolkvadze",
-   "score": "4:6 7:6 6:0"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Samsun Open",
-   "p1": "Weronika Falkowska",
-   "p2": "Caroline Werner",
-   "winner": "Caroline Werner",
-   "score": "3:6 6:2 6:7"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Samsun Open",
-   "p1": "Julia Grabher",
-   "p2": "Dalma Galfi",
-   "winner": "Dalma Galfi",
-   "score": "3:6 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Samsun Open",
-   "p1": "Fiona Crawley",
-   "p2": "Lucia Bronzetti",
-   "winner": "Fiona Crawley",
-   "score": "6:2 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Samsun Open",
-   "p1": "Suzan Lamens",
-   "p2": "Polina Iatcenko",
-   "winner": "Polina Iatcenko",
-   "score": "3:6 1:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Samsun Open",
-   "p1": "Dalila Jakupovic",
-   "p2": "Alana Smith",
-   "winner": "Alana Smith",
-   "score": "1:6 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "Samsun Open",
-   "p1": "Himeno Sakatsume",
-   "p2": "Dominika Salkova",
-   "winner": "Himeno Sakatsume",
-   "score": "6:1 6:4"
-  }
- ],
+ "tennisFinished": [],
  "stats": {
   "overall": {
-   "n": 2896,
-   "correct": 1722,
-   "pct": 0.5946
+   "n": 2897,
+   "correct": 1723,
+   "pct": 0.5948
   },
   "football": {
-   "n": 865,
-   "correct": 419,
-   "pct": 0.4844
+   "n": 866,
+   "correct": 420,
+   "pct": 0.485
   },
   "tennis": {
    "n": 2031,
@@ -4547,17 +4905,28 @@
    "pct": 0.6416
   },
   "exact": {
-   "n": 865,
+   "n": 866,
    "correct": 99
   },
-  "open": 133,
+  "open": 135,
   "value": {
-   "n": 4,
+   "n": 5,
    "correct": 1,
-   "units": -1.57,
-   "avgOdds": 2.54
+   "units": -2.57,
+   "avgOdds": 2.75
   },
   "recent": [
+   {
+    "date": "2026-10-05",
+    "comp": "La Liga 2",
+    "label": "Córdoba – Tenerife",
+    "tipName": "Córdoba",
+    "tip": "1",
+    "prob": 0.4284,
+    "result": "3:1",
+    "correct": true,
+    "sport": "fb"
+   },
    {
     "date": "2026-10-05",
     "comp": "WTA · China Open",
@@ -4818,17 +5187,6 @@
     "tipName": "Terence Atmane",
     "tip": "P2",
     "prob": 0.6287,
-    "result": "Sieger: P1",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-05",
-    "comp": "ATP · Rolex Shanghai Masters",
-    "label": "Te Rigele – Adam Walton",
-    "tipName": "Adam Walton",
-    "tip": "P2",
-    "prob": 0.691,
     "result": "Sieger: P1",
     "correct": false,
     "sport": "tn"
