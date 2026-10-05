@@ -63136,9 +63136,9 @@
    "tip": "P2",
    "tipName": "Coco Gauff",
    "prob": 0.9857,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-04|boisson l|jeanjean l": {
    "sport": "tn",
@@ -63616,9 +63616,9 @@
    "tip": "P2",
    "tipName": "Chak Lam Coleman Wong",
    "prob": 0.7345,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-10-05|muller a|noguchi r": {
    "sport": "tn",
@@ -63644,9 +63644,9 @@
    "tip": "P2",
    "tipName": "Mattia Bellucci",
    "prob": 0.6535,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-06|andreeva m|snigur d": {
    "sport": "tn",
@@ -63924,9 +63924,9 @@
    "tip": "P1",
    "tipName": "Himeno Sakatsume",
    "prob": 0.5104,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-05|bronzetti l|crawley f": {
    "sport": "tn",
@@ -64008,9 +64008,9 @@
    "tip": "P1",
    "tipName": "Daniil Medvedev",
    "prob": 0.626,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-06|muchova k|osaka n": {
    "sport": "tn",
@@ -64726,6 +64726,118 @@
    "tip": "P1",
    "tipName": "Dalma Galfi",
    "prob": 0.5137,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-06|kostovic t|noha akugue n": {
+   "sport": "tn",
+   "comp": "WTA · Samsun Open",
+   "date": "2026-10-06",
+   "label": "Noma Noha Akugue – Teodora Kostovic",
+   "p1Key": "noha akugue n",
+   "p2Key": "kostovic t",
+   "tip": "P1",
+   "tipName": "Noma Noha Akugue",
+   "prob": 0.5142,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-06|bellucci m|muller a": {
+   "sport": "tn",
+   "comp": "ATP · Rolex Shanghai Masters",
+   "date": "2026-10-06",
+   "label": "Alexandre Muller – Mattia Bellucci",
+   "p1Key": "muller a",
+   "p2Key": "bellucci m",
+   "tip": "P2",
+   "tipName": "Mattia Bellucci",
+   "prob": 0.5784,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-06|harris l|lam coleman wong c": {
+   "sport": "tn",
+   "comp": "ATP · Rolex Shanghai Masters",
+   "date": "2026-10-06",
+   "label": "Lloyd Harris – Chak Lam Coleman Wong",
+   "p1Key": "harris l",
+   "p2Key": "lam coleman wong c",
+   "tip": "P2",
+   "tipName": "Chak Lam Coleman Wong",
+   "prob": 0.5473,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-06|andreescu b|smith a": {
+   "sport": "tn",
+   "comp": "WTA · Samsun Open",
+   "date": "2026-10-06",
+   "label": "Alana Smith – Bianca Andreescu",
+   "p1Key": "smith a",
+   "p2Key": "andreescu b",
+   "tip": "P2",
+   "tipName": "Bianca Andreescu",
+   "prob": 0.6384,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-06|de minaur a|djokovic n": {
+   "sport": "tn",
+   "comp": "ATP · China Open",
+   "date": "2026-10-06",
+   "label": "Alex de Minaur – Novak Djokovic",
+   "p1Key": "de minaur a",
+   "p2Key": "djokovic n",
+   "tip": "P1",
+   "tipName": "Alex de Minaur",
+   "prob": 0.5202,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-06|bolkvadze m|jeanjean l": {
+   "sport": "tn",
+   "comp": "WTA · Samsun Open",
+   "date": "2026-10-06",
+   "label": "Mariam Bolkvadze – Leolia Jeanjean",
+   "p1Key": "bolkvadze m",
+   "p2Key": "jeanjean l",
+   "tip": "P2",
+   "tipName": "Leolia Jeanjean",
+   "prob": 0.7386,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-06|egribel e|werner c": {
+   "sport": "tn",
+   "comp": "WTA · Samsun Open",
+   "date": "2026-10-06",
+   "label": "Caroline Werner – Elvin Egribel",
+   "p1Key": "werner c",
+   "p2Key": "egribel e",
+   "tip": "P2",
+   "tipName": "Elvin Egribel",
+   "prob": 0.5187,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-07|gauff c|mertens e": {
+   "sport": "tn",
+   "comp": "WTA · China Open",
+   "date": "2026-10-07",
+   "label": "Elise Mertens – Coco Gauff",
+   "p1Key": "mertens e",
+   "p2Key": "gauff c",
+   "tip": "P2",
+   "tipName": "Coco Gauff",
+   "prob": 0.7899,
    "status": "open",
    "result": null,
    "correct": null
