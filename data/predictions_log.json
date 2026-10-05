@@ -63490,9 +63490,9 @@
    "tip": "P1",
    "tipName": "Dalibor Svrcina",
    "prob": 0.6343,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-10-05|nishioka y|shevchenko a": {
    "sport": "tn",
@@ -63518,9 +63518,9 @@
    "tip": "P1",
    "tipName": "Aleksandar Vukic",
    "prob": 0.6643,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-10-05|damm m|kotov p": {
    "sport": "tn",
@@ -63574,9 +63574,9 @@
    "tip": "P1",
    "tipName": "Nishesh Basavareddy",
    "prob": 0.6072,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|atp|2026-10-05|schoolkate t|sweeny d": {
    "sport": "tn",
@@ -63602,9 +63602,9 @@
    "tip": "P1",
    "tipName": "Lloyd Harris",
    "prob": 0.565,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-10-05|hewitt c|lam coleman wong c": {
    "sport": "tn",
@@ -63630,9 +63630,9 @@
    "tip": "P1",
    "tipName": "Alexandre Muller",
    "prob": 0.6031,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-10-05|bellucci m|ymer e": {
    "sport": "tn",
@@ -63882,9 +63882,9 @@
    "tip": "P2",
    "tipName": "Polina Iatcenko",
    "prob": 0.5625,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-05|galfi d|grabher j": {
    "sport": "tn",
@@ -63896,9 +63896,9 @@
    "tip": "P1",
    "tipName": "Julia Grabher",
    "prob": 0.5874,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-05|monnet c|stefanini l": {
    "sport": "tn",
@@ -63938,9 +63938,9 @@
    "tip": "P2",
    "tipName": "Lucia Bronzetti",
    "prob": 0.6193,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-10-05|lehecka j|vacherot v": {
    "sport": "tn",
@@ -63952,9 +63952,9 @@
    "tip": "P1",
    "tipName": "Valentin Vacherot",
    "prob": 0.5519,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-05|bolkvadze m|tkacheva m": {
    "sport": "tn",
@@ -63980,9 +63980,9 @@
    "tip": "P2",
    "tipName": "Caroline Werner",
    "prob": 0.52,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-05|jakupovic d|smith a": {
    "sport": "tn",
@@ -63994,9 +63994,9 @@
    "tip": "P1",
    "tipName": "Dalila Jakupovic",
    "prob": 0.5502,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|atp|2026-10-05|djokovic n|medvedev d": {
    "sport": "tn",
@@ -64656,6 +64656,76 @@
    "tip": "P1",
    "tipName": "Claire Liu",
    "prob": 0.5943,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-06|nishioka y|svrcina d": {
+   "sport": "tn",
+   "comp": "ATP · Rolex Shanghai Masters",
+   "date": "2026-10-06",
+   "label": "Dalibor Svrcina – Yoshihito Nishioka",
+   "p1Key": "svrcina d",
+   "p2Key": "nishioka y",
+   "tip": "P1",
+   "tipName": "Dalibor Svrcina",
+   "prob": 0.6176,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-06|coppejans k|sweeny d": {
+   "sport": "tn",
+   "comp": "ATP · Rolex Shanghai Masters",
+   "date": "2026-10-06",
+   "label": "Kimmer Coppejans – Dane Sweeny",
+   "p1Key": "coppejans k",
+   "p2Key": "sweeny d",
+   "tip": "P2",
+   "tipName": "Dane Sweeny",
+   "prob": 0.6535,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-06|kotov p|vukic a": {
+   "sport": "tn",
+   "comp": "ATP · Rolex Shanghai Masters",
+   "date": "2026-10-06",
+   "label": "Aleksandar Vukic – Pavel Kotov",
+   "p1Key": "vukic a",
+   "p2Key": "kotov p",
+   "tip": "P1",
+   "tipName": "Aleksandar Vukic",
+   "prob": 0.6072,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-06|alcaraz c|lehecka j": {
+   "sport": "tn",
+   "comp": "ATP · Kinoshita Group Japan Open Tennis Championships",
+   "date": "2026-10-06",
+   "label": "Jiri Lehecka – Carlos Alcaraz",
+   "p1Key": "lehecka j",
+   "p2Key": "alcaraz c",
+   "tip": "P2",
+   "tipName": "Carlos Alcaraz",
+   "prob": 0.8496,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-07|galfi d|iatcenko p": {
+   "sport": "tn",
+   "comp": "WTA · Samsun Open",
+   "date": "2026-10-07",
+   "label": "Dalma Galfi – Polina Iatcenko",
+   "p1Key": "galfi d",
+   "p2Key": "iatcenko p",
+   "tip": "P1",
+   "tipName": "Dalma Galfi",
+   "prob": 0.5137,
    "status": "open",
    "result": null,
    "correct": null
