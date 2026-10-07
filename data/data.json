@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-07T12:36:42.133094+02:00",
+ "generatedAt": "2026-10-07T14:33:56.293844+02:00",
  "windowDays": 3,
  "days": [
   "2026-10-07",
@@ -219,13 +219,7 @@
        "reason": "Muscle Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "Der verletzungsanfällige Lieblingsschüler: Agu fehlt Werder erneut",
-       "link": "https://www.kicker.de/der-verletzungsanfaellige-lieblingsschueler-agu-fehlt-werder-erneut-1258562/artikel#omrss"
-      }
-     ]
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
    "seasonHasStarted": true,
@@ -278,17 +272,17 @@
      "nTeams": 18,
      "h2h": [],
      "prediction": {
-      "pHome": 0.4896,
+      "pHome": 0.4898,
       "pDraw": 0.2136,
-      "pAway": 0.2968,
-      "pOver25": 0.6964,
-      "pBtts": 0.6865,
+      "pAway": 0.2966,
+      "pOver25": 0.6963,
+      "pBtts": 0.6864,
       "xgHome": 2.04,
       "xgAway": 1.56,
       "tipScore": "2:1",
       "confidence": "mittel"
      },
-     "pBtts": 0.6865,
+     "pBtts": 0.6864,
      "odds": {
       "h": 1.88,
       "d": 3.41,
@@ -384,17 +378,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.3928,
+      "pHome": 0.3927,
       "pDraw": 0.2592,
-      "pAway": 0.348,
-      "pOver25": 0.5002,
-      "pBtts": 0.5432,
+      "pAway": 0.3481,
+      "pOver25": 0.5003,
+      "pBtts": 0.5433,
       "xgHome": 1.39,
       "xgAway": 1.29,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5432,
+     "pBtts": 0.5433,
      "odds": {
       "h": 2.62,
       "d": 3.81,
@@ -485,17 +479,17 @@
      "nTeams": 20,
      "h2h": [],
      "prediction": {
-      "pHome": 0.3495,
+      "pHome": 0.3492,
       "pDraw": 0.2056,
-      "pAway": 0.4448,
-      "pOver25": 0.7619,
-      "pBtts": 0.7456,
+      "pAway": 0.4451,
+      "pOver25": 0.7621,
+      "pBtts": 0.7457,
       "xgHome": 1.88,
-      "xgAway": 2.12,
+      "xgAway": 2.13,
       "tipScore": "1:2",
       "confidence": "mittel"
      },
-     "pBtts": 0.7456,
+     "pBtts": 0.7457,
      "odds": {
       "h": 3.3,
       "d": 3.9,
@@ -504,8 +498,8 @@
      },
      "value": {
       "outcome": "1",
-      "edge": 0.0635,
-      "modelP": 0.3495,
+      "edge": 0.0632,
+      "modelP": 0.3492,
       "odds": 3.3
      },
      "scorersHome": [
@@ -5282,7 +5276,7 @@
  ],
  "tennis": [
   {
-   "start": "2026-10-07T13:00:00+02:00",
+   "start": "2026-10-07T14:55:00+02:00",
    "tour": "ATP",
    "tournament": "Rolex Shanghai Masters",
    "round": "1. Runde",
@@ -5329,230 +5323,7 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-10-07T13:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "China Open",
-   "round": "4. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Zheng Qinwen",
-    "rank": 54,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 9
-   },
-   "p2": {
-    "name": "Alina Charaeva",
-    "rank": 118,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 8
-   },
-   "pP1": 0.6603,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6603
-   },
-   "h2h": [],
-   "analysis": "Zheng Qinwen (Weltrangliste #54) trifft auf Alina Charaeva (#118). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Zheng Qinwen mit 66 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-07T13:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Samsun Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Weronika Falkowska / Alana Smith",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Rutuja Bhosale / Elena Micic",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-10-07T13:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Samsun Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Ankita Raina / Doga Turkmen",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Eylul Asya Yilmaz / Ilay Yoruk",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-10-07T13:30:00+02:00",
-   "tour": "ATP",
-   "tournament": "Rolex Shanghai Masters",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Marin Cilic",
-    "rank": 80,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Arthur Fery",
-    "rank": 37,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "pP1": 0.3418,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.3418
-   },
-   "h2h": [],
-   "analysis": "Marin Cilic (Weltrangliste #80) trifft auf Arthur Fery (#37). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Arthur Fery mit 66 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 2.4,
-    "p2": 1.58,
-    "src": "Nordic Bet"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-07T13:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "Samsun Open",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Linda Klimovicova",
-    "rank": 206,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Cagla Buyukakcay",
-    "rank": 427,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "pP1": 0.6501,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6501
-   },
-   "h2h": [],
-   "analysis": "Linda Klimovicova (Weltrangliste #206) trifft auf Cagla Buyukakcay (#427). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Linda Klimovicova mit 65 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-07T14:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Samsun Open",
-   "round": "2. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Dalma Galfi",
-    "rank": 150,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 5
-   },
-   "p2": {
-    "name": "Polina Iatcenko",
-    "rank": 160,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": 0.5137,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.5137
-   },
-   "h2h": [],
-   "analysis": "Dalma Galfi (Weltrangliste #150) trifft auf Polina Iatcenko (#160). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Dalma Galfi mit 51 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-07T14:30:00+02:00",
+   "start": "2026-10-07T15:00:00+02:00",
    "tour": "WTA",
    "tournament": "China Open",
    "round": "4. Runde",
@@ -5599,32 +5370,7 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-10-07T14:30:00+02:00",
-   "tour": "WTA",
-   "tournament": "Samsun Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Fiona Crawley / Ekaterina Yashina",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Lucija Ciric Bagaric / Zhibek Kulambayeva",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-10-07T14:30:00+02:00",
+   "start": "2026-10-07T15:00:00+02:00",
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "1. Runde",
@@ -5638,6 +5384,31 @@
    },
    "p2": {
     "name": "Freya Christie / Eden Silva",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-07T15:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "Samsun Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Fiona Crawley / Ekaterina Yashina",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Lucija Ciric Bagaric / Zhibek Kulambayeva",
     "rank": null,
     "last7": 0,
     "sets7": 0
@@ -6176,6 +5947,90 @@
    "start": "2026-10-08T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "Samsun Open",
+   "round": "2. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Linda Klimovicova",
+    "rank": 206,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "p2": {
+    "name": "Simona Waltert",
+    "rank": 98,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
+   },
+   "pP1": 0.3472,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3472
+   },
+   "h2h": [],
+   "analysis": "Linda Klimovicova (Weltrangliste #206) trifft auf Simona Waltert (#98). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Simona Waltert mit 65 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-08T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Samsun Open",
+   "round": "2. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Anna Blinkova",
+    "rank": 89,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 7
+   },
+   "p2": {
+    "name": "Caroline Werner",
+    "rank": 273,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 8
+   },
+   "pP1": 0.7217,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.7217
+   },
+   "h2h": [],
+   "analysis": "Anna Blinkova (Weltrangliste #89) trifft auf Caroline Werner (#273). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Anna Blinkova mit 72 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-08T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Samsun Open",
    "round": "Viertelfinale",
    "surface": null,
    "doubles": true,
@@ -6261,7 +6116,7 @@
     "sets7": 0
    },
    "p2": {
-    "name": "TBD / TBD",
+    "name": "Elise Mertens / Diana Shnaider",
     "rank": null,
     "last7": 0,
     "sets7": 0
@@ -6560,53 +6415,6 @@
   {
    "start": "2026-10-08T08:30:00+02:00",
    "tour": "WTA",
-   "tournament": "China Open",
-   "round": "Viertelfinale",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Nikola Bartunkova",
-    "rank": 34,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 7
-   },
-   "p2": {
-    "name": "Karolina Muchova",
-    "rank": 8,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 8
-   },
-   "pP1": 0.2262,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.2262
-   },
-   "h2h": [],
-   "analysis": "Nikola Bartunkova (Weltrangliste #34) trifft auf Karolina Muchova (#8). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Karolina Muchova mit 77 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 3.05,
-    "p2": 1.43,
-    "src": "Betfair"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-08T08:30:00+02:00",
-   "tour": "WTA",
    "tournament": "Suzhou Open",
    "round": "Viertelfinale",
    "surface": null,
@@ -6839,6 +6647,53 @@
     "p1": 2.45,
     "p2": 1.41,
     "src": "Unibet (FR)"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-08T09:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "China Open",
+   "round": "Viertelfinale",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Nikola Bartunkova",
+    "rank": 34,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 7
+   },
+   "p2": {
+    "name": "Karolina Muchova",
+    "rank": 8,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 8
+   },
+   "pP1": 0.2262,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.2262
+   },
+   "h2h": [],
+   "analysis": "Nikola Bartunkova (Weltrangliste #34) trifft auf Karolina Muchova (#8). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Karolina Muchova mit 77 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "odds": {
+    "p1": 3.05,
+    "p2": 1.43,
+    "src": "Betfair"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
@@ -7519,6 +7374,48 @@
   },
   {
    "start": "2026-10-09T06:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "round": "2. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Wu Yibing",
+    "rank": 113,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Alexander Zverev",
+    "rank": 2,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 7
+   },
+   "pP1": 0.0314,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.0314
+   },
+   "h2h": [],
+   "analysis": "Wu Yibing (Weltrangliste #113) trifft auf Alexander Zverev (#2). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alexander Zverev mit 97 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-09T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "China Open",
    "round": "Viertelfinale",
@@ -7708,6 +7605,14 @@
    "score": "4:6 6:7"
   },
   {
+   "tour": "ATP",
+   "tournament": "Rolex Shanghai Masters",
+   "p1": "Michael Zheng",
+   "p2": "Wu Yibing",
+   "winner": "Wu Yibing",
+   "score": "3:6 6:7"
+  },
+  {
    "tour": "WTA",
    "tournament": "China Open",
    "p1": "Iga Swiatek",
@@ -7770,13 +7675,45 @@
    "p2": "Leolia Jeanjean",
    "winner": "Mariam Bolkvadze",
    "score": "6:3 6:1"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Samsun Open",
+   "p1": "Oksana Selekhmeteva",
+   "p2": "Fiona Crawley",
+   "winner": "Fiona Crawley",
+   "score": "6:4 4:6 4:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Samsun Open",
+   "p1": "Noma Noha Akugue",
+   "p2": "Lucrezia Stefanini",
+   "winner": "Lucrezia Stefanini",
+   "score": "2:6 3:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Samsun Open",
+   "p1": "Caroline Werner",
+   "p2": "Elvin Egribel",
+   "winner": "Caroline Werner",
+   "score": "6:0 6:0"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Samsun Open",
+   "p1": "Linda Klimovicova",
+   "p2": "Cagla Buyukakcay",
+   "winner": "Linda Klimovicova",
+   "score": "3:6 7:6 6:1"
   }
  ],
  "stats": {
   "overall": {
-   "n": 2957,
-   "correct": 1763,
-   "pct": 0.5962
+   "n": 2964,
+   "correct": 1766,
+   "pct": 0.5958
   },
   "football": {
    "n": 866,
@@ -7784,15 +7721,15 @@
    "pct": 0.485
   },
   "tennis": {
-   "n": 2091,
-   "correct": 1343,
-   "pct": 0.6423
+   "n": 2098,
+   "correct": 1346,
+   "pct": 0.6416
   },
   "exact": {
    "n": 866,
    "correct": 99
   },
-  "open": 163,
+  "open": 159,
   "value": {
    "n": 5,
    "correct": 1,
@@ -7978,6 +7915,17 @@
    },
    {
     "date": "2026-10-07",
+    "comp": "ATP · Rolex Shanghai Masters",
+    "label": "Michael Zheng – Wu Yibing",
+    "tipName": "Michael Zheng",
+    "tip": "P1",
+    "prob": 0.539,
+    "result": "Sieger: P2",
+    "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-07",
     "comp": "WTA · Samsun Open",
     "label": "Anna Blinkova – Elena Pridankina",
     "tipName": "Anna Blinkova",
@@ -7999,6 +7947,50 @@
     "sport": "tn"
    },
    {
+    "date": "2026-10-07",
+    "comp": "WTA · Samsun Open",
+    "label": "Oksana Selekhmeteva – Fiona Crawley",
+    "tipName": "Oksana Selekhmeteva",
+    "tip": "P1",
+    "prob": 0.6713,
+    "result": "Sieger: P2",
+    "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-07",
+    "comp": "WTA · Samsun Open",
+    "label": "Caroline Werner – Elvin Egribel",
+    "tipName": "Elvin Egribel",
+    "tip": "P2",
+    "prob": 0.5187,
+    "result": "Sieger: P1",
+    "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-07",
+    "comp": "WTA · Samsun Open",
+    "label": "Noma Noha Akugue – Lucrezia Stefanini",
+    "tipName": "Lucrezia Stefanini",
+    "tip": "P2",
+    "prob": 0.5083,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-07",
+    "comp": "WTA · Samsun Open",
+    "label": "Linda Klimovicova – Cagla Buyukakcay",
+    "tipName": "Linda Klimovicova",
+    "tip": "P1",
+    "prob": 0.6501,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
     "date": "2026-10-06",
     "comp": "WTA · China Open",
     "label": "Mirra Andreeva – Daria Snigur",
@@ -8016,61 +8008,6 @@
     "tipName": "Linda Noskova",
     "tip": "P2",
     "prob": 0.7874,
-    "result": "Sieger: P1",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-06",
-    "comp": "WTA · China Open",
-    "label": "Nikola Bartunkova – Sinja Kraus",
-    "tipName": "Nikola Bartunkova",
-    "tip": "P1",
-    "prob": 0.7055,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-06",
-    "comp": "WTA · Suzhou Open",
-    "label": "Mai Hontama – Emerson Jones",
-    "tipName": "Emerson Jones",
-    "tip": "P2",
-    "prob": 0.5589,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-06",
-    "comp": "WTA · Suzhou Open",
-    "label": "Aliona Falei – Guo Hanyu",
-    "tipName": "Aliona Falei",
-    "tip": "P1",
-    "prob": 0.5271,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-06",
-    "comp": "WTA · Suzhou Open",
-    "label": "Bai Zhuoxuan – Moyuka Uchijima",
-    "tipName": "Moyuka Uchijima",
-    "tip": "P2",
-    "prob": 0.6747,
-    "result": "Sieger: P1",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-06",
-    "comp": "WTA · Suzhou Open",
-    "label": "Linda Fruhvirtova – Mananchaya Sawangkaew",
-    "tipName": "Mananchaya Sawangkaew",
-    "tip": "P2",
-    "prob": 0.6443,
     "result": "Sieger: P1",
     "correct": false,
     "sport": "tn"

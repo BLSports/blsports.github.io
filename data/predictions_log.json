@@ -64134,9 +64134,9 @@
    "tip": "P1",
    "tipName": "Linda Klimovicova",
    "prob": 0.6501,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "fb|us1|2026-10-07|chicago fire fc|vancouver whitecaps": {
    "sport": "fb",
@@ -64831,9 +64831,9 @@
    "tip": "P2",
    "tipName": "Elvin Egribel",
    "prob": 0.5187,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-07|gauff c|mertens e": {
    "sport": "tn",
@@ -65177,9 +65177,9 @@
    "tip": "P1",
    "tipName": "Michael Zheng",
    "prob": 0.539,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|atp|2026-10-08|landaluce m|lennard struff j": {
    "sport": "tn",
@@ -65513,9 +65513,9 @@
    "tip": "P1",
    "tipName": "Oksana Selekhmeteva",
    "prob": 0.6713,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-07|egribel e|werner c": {
    "sport": "tn",
@@ -65527,9 +65527,9 @@
    "tip": "P2",
    "tipName": "Elvin Egribel",
    "prob": 0.5187,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-07|noha akugue n|stefanini l": {
    "sport": "tn",
@@ -65541,9 +65541,9 @@
    "tip": "P2",
    "tipName": "Lucrezia Stefanini",
    "prob": 0.5083,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-07|buyukakcay c|klimovicova l": {
    "sport": "tn",
@@ -65555,9 +65555,9 @@
    "tip": "P1",
    "tipName": "Linda Klimovicova",
    "prob": 0.6501,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-07|hruncakova v|sakatsume h": {
    "sport": "tn",
@@ -65622,9 +65622,9 @@
    "awayKey": "1 fc kaiserslautern",
    "tip": "1",
    "tipName": "1. FC Heidenheim 1846",
-   "prob": 0.4896,
+   "prob": 0.4898,
    "tipScore": "2:1",
-   "pOver25": 0.6964,
+   "pOver25": 0.6963,
    "status": "open",
    "result": null,
    "correct": null,
@@ -65640,9 +65640,9 @@
    "awayKey": "holstein kiel",
    "tip": "1",
    "tipName": "Eintracht Braunschweig",
-   "prob": 0.3928,
+   "prob": 0.3927,
    "tipScore": "1:1",
-   "pOver25": 0.5002,
+   "pOver25": 0.5003,
    "status": "open",
    "result": null,
    "correct": null,
@@ -65658,9 +65658,9 @@
    "awayKey": "rot-weiss essen",
    "tip": "2",
    "tipName": "Rot-Weiss Essen",
-   "prob": 0.4448,
+   "prob": 0.4451,
    "tipScore": "1:2",
-   "pOver25": 0.7619,
+   "pOver25": 0.7621,
    "status": "open",
    "result": null,
    "correct": null,
@@ -65668,8 +65668,8 @@
    "value": {
     "pick": "1",
     "odds": 3.3,
-    "edge": 0.0635,
-    "modelP": 0.3495,
+    "edge": 0.0632,
+    "modelP": 0.3492,
     "won": null
    }
   },
@@ -66522,6 +66522,48 @@
    "tip": "P1",
    "tipName": "Iga Swiatek",
    "prob": 0.6537,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-08|klimovicova l|waltert s": {
+   "sport": "tn",
+   "comp": "WTA · Samsun Open",
+   "date": "2026-10-08",
+   "label": "Linda Klimovicova – Simona Waltert",
+   "p1Key": "klimovicova l",
+   "p2Key": "waltert s",
+   "tip": "P2",
+   "tipName": "Simona Waltert",
+   "prob": 0.6528,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-08|blinkova a|werner c": {
+   "sport": "tn",
+   "comp": "WTA · Samsun Open",
+   "date": "2026-10-08",
+   "label": "Anna Blinkova – Caroline Werner",
+   "p1Key": "blinkova a",
+   "p2Key": "werner c",
+   "tip": "P1",
+   "tipName": "Anna Blinkova",
+   "prob": 0.7217,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-09|yibing w|zverev a": {
+   "sport": "tn",
+   "comp": "ATP · Rolex Shanghai Masters",
+   "date": "2026-10-09",
+   "label": "Wu Yibing – Alexander Zverev",
+   "p1Key": "yibing w",
+   "p2Key": "zverev a",
+   "tip": "P2",
+   "tipName": "Alexander Zverev",
+   "prob": 0.9686,
    "status": "open",
    "result": null,
    "correct": null
