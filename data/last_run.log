@@ -59,8 +59,8 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!
 total 8
-drwxr-xr-x  2 runner runner 4096 Oct  6 23:31 .
-drwxrwxrwt 15 root   root   4096 Oct  6 23:31 ..
+drwxr-xr-x  2 runner runner 4096 Oct  7 10:36 .
+drwxrwxrwt 14 root   root   4096 Oct  7 10:36 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -105,7 +105,6 @@ drwxrwxrwt 15 root   root   4096 Oct  6 23:31 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20260328-20260625&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20260626-20260923&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20260924-20261007&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
-  WARN: https://api.the-odds-api.com/v4/sports/soccer_belgium_pro_league/odds/?apiKey=8392ea7216723e341b1a7c2cea58bcb4&regions=eu&markets=h2h&oddsFormat=decimal nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -264,8 +263,7 @@ fixtures.csv: 46 Spiele mit Quoten
   0 Spiele in den naechsten 3 Tagen
 == MLS (USA) ==
   0 Ergebnisse geladen
-  1 Spiele in den naechsten 3 Tagen
-  1 Prognosen via Team-Historie-Fallback erstellt
+  0 Spiele in den naechsten 3 Tagen
 == Série A (Brasilien) ==
   0 Ergebnisse geladen
   10 Spiele in den naechsten 3 Tagen
@@ -286,17 +284,17 @@ fixtures.csv: 46 Spiele mit Quoten
   0 Ergebnisse geladen
   4 Spiele in den naechsten 3 Tagen
   4 Prognosen via Team-Historie-Fallback erstellt
-  Kicker-News: 36 Schlagzeilen geladen
+  Kicker-News: 34 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 896, WTA 892
   Historie: ATP 0 Matches, WTA 0 Matches
   Elo ATP: 0 Spieler bewertet
   Elo WTA: 0 Spieler bewertet
-  Belag-Zuordnung (MatchStat): 33 Turniere
-  Tennis-Quoten zugeordnet: 33
-  78 Tennis-Matches in den naechsten 3 Tagen
-  0 Tennis-Matches heute bereits beendet
-  Tipp-Log: 4194 Eintraege, 2937 ausgewertet, 1749 richtig
-  Premium-Abrufe: Tennis 8, Fussball 271 (Tennis AKTIV, Fussball AKTIV)
+  Belag-Zuordnung (MatchStat): 32 Turniere
+  Tennis-Quoten zugeordnet: 21
+  59 Tennis-Matches in den naechsten 3 Tagen
+  18 Tennis-Matches heute bereits beendet
+  Tipp-Log: 4206 Eintraege, 2957 ausgewertet, 1763 richtig
+  Premium-Abrufe: Tennis 8, Fussball 262 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
