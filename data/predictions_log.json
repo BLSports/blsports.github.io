@@ -64383,9 +64383,9 @@
    "tip": "P2",
    "tipName": "Arthur Fery",
    "prob": 0.6582,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-10-07|daniel vallejo a|royer v": {
    "sport": "tn",
@@ -64579,9 +64579,9 @@
    "tip": "P1",
    "tipName": "Daniel Altmaier",
    "prob": 0.7126,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-10-07|kecmanovic m|shimabukuro s": {
    "sport": "tn",
@@ -64635,9 +64635,9 @@
    "tip": "P1",
    "tipName": "Elina Svitolina",
    "prob": 0.775,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-07|charaeva a|qinwen z": {
    "sport": "tn",
@@ -64649,9 +64649,9 @@
    "tip": "P1",
    "tipName": "Zheng Qinwen",
    "prob": 0.6603,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-07|liu c|sramkova r": {
    "sport": "tn",
@@ -64733,9 +64733,9 @@
    "tip": "P1",
    "tipName": "Dalma Galfi",
    "prob": 0.5137,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-06|kostovic t|noha akugue n": {
    "sport": "tn",
@@ -64886,8 +64886,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 3.3,
-    "edge": 0.0869,
+    "odds": 3.4,
+    "edge": 0.0928,
     "modelP": 0.3609,
     "won": null
    }
@@ -64926,14 +64926,7 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null,
-   "value": {
-    "pick": "2",
-    "odds": 2.25,
-    "edge": 0.0675,
-    "modelP": 0.4744,
-    "won": null
-   }
+   "exact": null
   },
   "fb|br1|2026-10-08|cruzeiro|sao paulo": {
    "sport": "fb",
@@ -65135,9 +65128,9 @@
    "tip": "P2",
    "tipName": "Mattia Bellucci",
    "prob": 0.7124,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-10-07|hijikata r|safiullin r": {
    "sport": "tn",
@@ -65569,9 +65562,9 @@
    "tip": "P1",
    "tipName": "Himeno Sakatsume",
    "prob": 0.6177,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-08|aksu a|dudeney a": {
    "sport": "tn",
@@ -65622,9 +65615,9 @@
    "awayKey": "1 fc kaiserslautern",
    "tip": "1",
    "tipName": "1. FC Heidenheim 1846",
-   "prob": 0.4898,
+   "prob": 0.4896,
    "tipScore": "2:1",
-   "pOver25": 0.6963,
+   "pOver25": 0.6964,
    "status": "open",
    "result": null,
    "correct": null,
@@ -65640,9 +65633,9 @@
    "awayKey": "holstein kiel",
    "tip": "1",
    "tipName": "Eintracht Braunschweig",
-   "prob": 0.3927,
+   "prob": 0.3928,
    "tipScore": "1:1",
-   "pOver25": 0.5003,
+   "pOver25": 0.5002,
    "status": "open",
    "result": null,
    "correct": null,
@@ -65658,9 +65651,9 @@
    "awayKey": "rot-weiss essen",
    "tip": "2",
    "tipName": "Rot-Weiss Essen",
-   "prob": 0.4451,
+   "prob": 0.4448,
    "tipScore": "1:2",
-   "pOver25": 0.7621,
+   "pOver25": 0.7619,
    "status": "open",
    "result": null,
    "correct": null,
@@ -65668,8 +65661,8 @@
    "value": {
     "pick": "1",
     "odds": 3.3,
-    "edge": 0.0632,
-    "modelP": 0.3492,
+    "edge": 0.0635,
+    "modelP": 0.3495,
     "won": null
    }
   },
@@ -66564,6 +66557,76 @@
    "tip": "P2",
    "tipName": "Alexander Zverev",
    "prob": 0.9686,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-09|fery a|khachanov k": {
+   "sport": "tn",
+   "comp": "ATP · Rolex Shanghai Masters",
+   "date": "2026-10-09",
+   "label": "Arthur Fery – Karen Khachanov",
+   "p1Key": "fery a",
+   "p2Key": "khachanov k",
+   "tip": "P2",
+   "tipName": "Karen Khachanov",
+   "prob": 0.5666,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-09|musetti l|yi z": {
+   "sport": "tn",
+   "comp": "ATP · Rolex Shanghai Masters",
+   "date": "2026-10-09",
+   "label": "Lorenzo Musetti – Zhou Yi",
+   "p1Key": "musetti l",
+   "p2Key": "yi z",
+   "tip": "P1",
+   "tipName": "Lorenzo Musetti",
+   "prob": 0.8762,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-09|altmaier d|shelton b": {
+   "sport": "tn",
+   "comp": "ATP · Rolex Shanghai Masters",
+   "date": "2026-10-09",
+   "label": "Daniel Altmaier – Ben Shelton",
+   "p1Key": "altmaier d",
+   "p2Key": "shelton b",
+   "tip": "P2",
+   "tipName": "Ben Shelton",
+   "prob": 0.9165,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-09|qinwen z|svitolina e": {
+   "sport": "tn",
+   "comp": "WTA · China Open",
+   "date": "2026-10-09",
+   "label": "Elina Svitolina – Zheng Qinwen",
+   "p1Key": "svitolina e",
+   "p2Key": "qinwen z",
+   "tip": "P1",
+   "tipName": "Elina Svitolina",
+   "prob": 0.8503,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-09|iatcenko p|stefanini l": {
+   "sport": "tn",
+   "comp": "WTA · Samsun Open",
+   "date": "2026-10-09",
+   "label": "Polina Iatcenko – Lucrezia Stefanini",
+   "p1Key": "iatcenko p",
+   "p2Key": "stefanini l",
+   "tip": "P2",
+   "tipName": "Lucrezia Stefanini",
+   "prob": 0.5523,
    "status": "open",
    "result": null,
    "correct": null
