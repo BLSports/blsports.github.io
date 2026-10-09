@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-09T21:13:25.198333+02:00",
+ "generatedAt": "2026-10-09T23:47:59.012446+02:00",
  "windowDays": 3,
  "days": [
   "2026-10-09",
@@ -59,174 +59,6 @@
    "espn": "ger.1",
    "matches": [
     {
-     "kickoff": "2026-10-09T20:30:00+02:00",
-     "home": "Borussia Dortmund",
-     "away": "SV Werder Bremen",
-     "homeIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-     "awayIcon": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-     "matchday": 5,
-     "roundName": null,
-     "formHome": [
-      "S",
-      "S",
-      "S",
-      "S",
-      "S"
-     ],
-     "formAway": [
-      "N",
-      "N",
-      "S",
-      "U",
-      "S"
-     ],
-     "formHomeH": [
-      "N",
-      "S",
-      "S",
-      "S",
-      "S"
-     ],
-     "formAwayA": [
-      "N",
-      "U",
-      "N",
-      "N",
-      "U"
-     ],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 1,
-     "posAway": 8,
-     "nTeams": 18,
-     "h2h": [
-      {
-       "date": "16.05.2026",
-       "home": "SV Werder Bremen",
-       "away": "Borussia Dortmund",
-       "score": "0:2"
-      },
-      {
-       "date": "13.01.2026",
-       "home": "Borussia Dortmund",
-       "away": "SV Werder Bremen",
-       "score": "3:0"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.7988,
-      "pDraw": 0.1365,
-      "pAway": 0.0643,
-      "pOver25": 0.6093,
-      "pBtts": 0.4112,
-      "xgHome": 2.56,
-      "xgAway": 0.59,
-      "tipScore": "2:0",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.4112,
-     "odds": {
-      "h": 1.32,
-      "d": 5.85,
-      "a": 8.88,
-      "src": "Pinnacle"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "S. Guirassy",
-       "goals": 2
-      },
-      {
-       "name": "Fabio Silva",
-       "goals": 2
-      },
-      {
-       "name": "F. Nmecha",
-       "goals": 2
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "N. Füllkrug",
-       "goals": 3
-      },
-      {
-       "name": "M. Grüll",
-       "goals": 2
-      },
-      {
-       "name": "D. Stalmach",
-       "goals": 1
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Borussia Dortmund geht als klarer Favorit (80 %) in das Heimspiel gegen SV Werder Bremen. In der Tabelle stehen sich Platz 1 und Platz 8 gegenüber. Die Form spricht für Borussia Dortmund: 5 Siege aus den letzten 5 Spielen, SV Werder Bremen holte nur 2. Heim-/Auswärtsbilanz: Borussia Dortmund gewann 4 der letzten 5 Heimspiele, SV Werder Bremen 0 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:2 (SV Werder Bremen – Borussia Dortmund). Das Modell erwartet ein torreiches Spiel (xG 2,6:0,6; über 2,5 Tore: 61 %, beide Teams treffen zu 41 %). Gefährlichste Torschützen: bei Borussia Dortmund S. Guirassy (2 Tore) und bei SV Werder Bremen N. Füllkrug (3 Tore). Personal: Borussia Dortmund fehlen 11 Spieler (u.a. R. Bensebaini); SV Werder Bremen fehlen 10 Spieler (u.a. F. Agu).",
-     "injuriesHome": [
-      {
-       "name": "R. Bensebaini",
-       "reason": "Ribs Injury"
-      },
-      {
-       "name": "E. Can",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "M. Kaba",
-       "reason": "Injury"
-      },
-      {
-       "name": "N. Schlotterbeck",
-       "reason": "Ankle Injury"
-      },
-      {
-       "name": "S. Inacio",
-       "reason": "Red Card"
-      },
-      {
-       "name": "G. Konstantelias",
-       "reason": "Knee Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "F. Agu",
-       "reason": "Calf Injury"
-      },
-      {
-       "name": "K. Topp",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "M. Weiser",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "O. Wojcik",
-       "reason": "Muscle Injury"
-      },
-      {
-       "name": "J. Njinmah",
-       "reason": "Thigh Injury"
-      },
-      {
-       "name": "J. Stage",
-       "reason": "Muscle Injury"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "3:2 nach 0:2 in der 89. Minute: Das wundersame Werder-Comeback in Dortmund",
-       "link": "https://www.kicker.de/3-2-nach-0-2-in-der-89-minute-das-wundersame-werder-comeback-in-dortmund-1259148/video#omrss"
-      },
-      {
-       "title": "\"Bestes Jahr meiner Karriere\": Füllkrug freut sich auf Rückkehr nach Dortmund",
-       "link": "https://www.kicker.de/bestes-jahr-meiner-karriere-fuellkrug-freut-sich-auf-rueckkehr-nach-dortmund-1259534/artikel#omrss"
-      }
-     ]
-    },
-    {
      "kickoff": "2026-10-10T15:30:00+02:00",
      "home": "TSG Hoffenheim",
      "away": "Hamburger SV",
@@ -282,17 +114,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.6884,
-      "pDraw": 0.1745,
-      "pAway": 0.1369,
-      "pOver25": 0.6615,
-      "pBtts": 0.5722,
-      "xgHome": 2.42,
+      "pHome": 0.6875,
+      "pDraw": 0.1749,
+      "pAway": 0.1373,
+      "pOver25": 0.6606,
+      "pBtts": 0.572,
+      "xgHome": 2.41,
       "xgAway": 0.99,
       "tipScore": "2:0",
       "confidence": "hoch"
      },
-     "pBtts": 0.5722,
+     "pBtts": 0.572,
      "odds": {
       "h": 1.46,
       "d": 4.87,
@@ -392,7 +224,7 @@
      ],
      "load14Home": 0,
      "load14Away": 0,
-     "posHome": 4,
+     "posHome": 5,
      "posAway": 2,
      "nTeams": 18,
      "h2h": [
@@ -410,17 +242,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.0967,
-      "pDraw": 0.126,
-      "pAway": 0.7756,
-      "pOver25": 0.7992,
-      "pBtts": 0.6413,
+      "pHome": 0.0965,
+      "pDraw": 0.1259,
+      "pAway": 0.776,
+      "pOver25": 0.7989,
+      "pBtts": 0.6405,
       "xgHome": 1.11,
       "xgAway": 3.18,
       "tipScore": "1:3",
       "confidence": "hoch"
      },
-     "pBtts": 0.6413,
+     "pBtts": 0.6405,
      "odds": {
       "h": 10.49,
       "d": 9.38,
@@ -457,7 +289,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "FC Bayern München reist als klarer Favorit (77 %) zu FC Augsburg. In der Tabelle stehen sich Platz 5 und Platz 2 gegenüber. Die Form spricht für FC Bayern München: 4 Siege aus den letzten 5 Spielen, FC Augsburg holte nur 2. Heim-/Auswärtsbilanz: FC Augsburg gewann 2 der letzten 5 Heimspiele, FC Bayern München 4 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:2 (FC Bayern München – FC Augsburg). Das Modell erwartet ein torreiches Spiel (xG 1,1:3,2; über 2,5 Tore: 80 %, beide Teams treffen zu 64 %). Gefährlichste Torschützen: bei FC Augsburg M. Gregoritsch (3 Tore) und bei FC Bayern München M. Olise (4 Tore). Personal: FC Augsburg fehlen 8 Spieler (u.a. T. Breithaupt); FC Bayern München fehlen 3 Spieler (u.a. T. Buchmann).",
+     "analysis": "FC Bayern München reist als klarer Favorit (77 %) zu FC Augsburg. In der Tabelle stehen sich Platz 6 und Platz 2 gegenüber. Die Form spricht für FC Bayern München: 4 Siege aus den letzten 5 Spielen, FC Augsburg holte nur 2. Heim-/Auswärtsbilanz: FC Augsburg gewann 2 der letzten 5 Heimspiele, FC Bayern München 4 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:2 (FC Bayern München – FC Augsburg). Das Modell erwartet ein torreiches Spiel (xG 1,1:3,2; über 2,5 Tore: 80 %, beide Teams treffen zu 64 %). Gefährlichste Torschützen: bei FC Augsburg M. Gregoritsch (3 Tore) und bei FC Bayern München M. Olise (4 Tore). Personal: FC Augsburg fehlen 8 Spieler (u.a. T. Breithaupt); FC Bayern München fehlen 3 Spieler (u.a. T. Buchmann).",
      "injuriesHome": [
       {
        "name": "T. Breithaupt",
@@ -509,8 +341,8 @@
        "link": "https://www.kicker.de/bayern-ii-gegen-unterhaching-2026-regionalliga-bayern-5234636/spielbericht#omrss"
       },
       {
-       "title": "Bayern-Amateure müssen auf Heindl verzichten - Hennig hat es schwer erwischt",
-       "link": "https://www.kicker.de/bayern-amateure-muessen-auf-heindl-verzichten-hennig-hat-es-schwer-erwischt-1259603/artikel#omrss"
+       "title": "Bayerns XXL-Programm bis zur nächsten Länderspielpause",
+       "link": "https://www.kicker.de/bayerns-xxl-programm-bis-zur-naechsten-laenderspielpause-1259120/artikel#omrss"
       }
      ]
     },
@@ -552,8 +384,8 @@
      ],
      "load14Home": 0,
      "load14Away": 0,
-     "posHome": 6,
-     "posAway": 5,
+     "posHome": 7,
+     "posAway": 6,
      "nTeams": 18,
      "h2h": [
       {
@@ -570,17 +402,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.3399,
-      "pDraw": 0.2362,
-      "pAway": 0.4239,
-      "pOver25": 0.6045,
-      "pBtts": 0.6229,
-      "xgHome": 1.47,
+      "pHome": 0.3393,
+      "pDraw": 0.2363,
+      "pAway": 0.4244,
+      "pOver25": 0.6038,
+      "pBtts": 0.6224,
+      "xgHome": 1.46,
       "xgAway": 1.66,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6229,
+     "pBtts": 0.6224,
      "odds": {
       "h": 3.07,
       "d": 3.97,
@@ -617,7 +449,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Bayer 04 Leverkusen ist bei 1. FSV Mainz 05 leicht favorisiert (42 % zu 34 %). In der Tabelle stehen sich Platz 6 und Platz 4 gegenüber. Heim-/Auswärtsbilanz: 1. FSV Mainz 05 gewann 0 der letzten 5 Heimspiele, Bayer 04 Leverkusen 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:1 (Bayer 04 Leverkusen – 1. FSV Mainz 05). Das Modell erwartet ein torreiches Spiel (xG 1,5:1,7; über 2,5 Tore: 60 %, beide Teams treffen zu 62 %). Gefährlichste Torschützen: bei 1. FSV Mainz 05 P. Tietz (4 Tore) und bei Bayer 04 Leverkusen P. Schick (4 Tore). Personal: 1. FSV Mainz 05 fehlen 8 Spieler (u.a. B. Hollerbach); Bayer 04 Leverkusen fehlen 7 Spieler (u.a. E. Ben Seghir).",
+     "analysis": "Bayer 04 Leverkusen ist bei 1. FSV Mainz 05 leicht favorisiert (42 % zu 34 %). In der Tabelle stehen sich Platz 7 und Platz 5 gegenüber. Heim-/Auswärtsbilanz: 1. FSV Mainz 05 gewann 0 der letzten 5 Heimspiele, Bayer 04 Leverkusen 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:1 (Bayer 04 Leverkusen – 1. FSV Mainz 05). Das Modell erwartet ein torreiches Spiel (xG 1,5:1,7; über 2,5 Tore: 60 %, beide Teams treffen zu 62 %). Gefährlichste Torschützen: bei 1. FSV Mainz 05 P. Tietz (4 Tore) und bei Bayer 04 Leverkusen P. Schick (4 Tore). Personal: 1. FSV Mainz 05 fehlen 8 Spieler (u.a. B. Hollerbach); Bayer 04 Leverkusen fehlen 8 Spieler (u.a. E. Ben Seghir).",
      "injuriesHome": [
       {
        "name": "B. Hollerbach",
@@ -677,12 +509,12 @@
        "link": "https://www.kicker.de/bayern-ii-gegen-unterhaching-2026-regionalliga-bayern-5234636/spielbericht#omrss"
       },
       {
-       "title": "Bayern-Amateure müssen auf Heindl verzichten - Hennig hat es schwer erwischt",
-       "link": "https://www.kicker.de/bayern-amateure-muessen-auf-heindl-verzichten-hennig-hat-es-schwer-erwischt-1259603/artikel#omrss"
-      },
-      {
        "title": "Bayerns XXL-Programm bis zur nächsten Länderspielpause",
        "link": "https://www.kicker.de/bayerns-xxl-programm-bis-zur-naechsten-laenderspielpause-1259120/artikel#omrss"
+      },
+      {
+       "title": "Warum es für die Bayern gegen Augsburg um Wiedergutmachung geht",
+       "link": "https://www.kicker.de/warum-es-fuer-die-bayern-gegen-augsburg-um-wiedergutmachung-geht-1259540/video#omrss"
       }
      ]
     },
@@ -721,21 +553,21 @@
      "load14Home": 0,
      "load14Away": 0,
      "posHome": 17,
-     "posAway": 7,
+     "posAway": 8,
      "nTeams": 18,
      "h2h": [],
      "prediction": {
-      "pHome": 0.2513,
+      "pHome": 0.2506,
       "pDraw": 0.2011,
-      "pAway": 0.5475,
-      "pOver25": 0.7207,
-      "pBtts": 0.6926,
+      "pAway": 0.5482,
+      "pOver25": 0.7201,
+      "pBtts": 0.6919,
       "xgHome": 1.49,
       "xgAway": 2.25,
       "tipScore": "1:2",
       "confidence": "niedrig"
      },
-     "pBtts": 0.6926,
+     "pBtts": 0.6919,
      "odds": {
       "h": 2.38,
       "d": 3.82,
@@ -744,8 +576,8 @@
      },
      "value": {
       "outcome": "2",
-      "edge": 0.2078,
-      "modelP": 0.5475,
+      "edge": 0.2085,
+      "modelP": 0.5482,
       "odds": 2.85
      },
      "scorersHome": [
@@ -777,7 +609,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "SV 07 Elversberg ist bei 1. FC Union Berlin leicht favorisiert (55 % zu 25 %). In der Tabelle stehen sich Platz 17 und Platz 7 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 1,5:2,2; über 2,5 Tore: 72 %, beide Teams treffen zu 69 %). Gefährlichste Torschützen: bei 1. FC Union Berlin T. Skarke (2 Tore) und bei SV 07 Elversberg M. Krattenmacher (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,85) für 21 Prozentpunkte wahrscheinlicher als der Markt. Personal: 1. FC Union Berlin fehlen 8 Spieler (u.a. O. Burke); SV 07 Elversberg fehlen 4 Spieler (u.a. L. Seifert).",
+     "analysis": "SV 07 Elversberg ist bei 1. FC Union Berlin leicht favorisiert (55 % zu 25 %). In der Tabelle stehen sich Platz 17 und Platz 8 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 1,5:2,2; über 2,5 Tore: 72 %, beide Teams treffen zu 69 %). Gefährlichste Torschützen: bei 1. FC Union Berlin T. Skarke (2 Tore) und bei SV 07 Elversberg M. Krattenmacher (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,85) für 21 Prozentpunkte wahrscheinlicher als der Markt. Personal: 1. FC Union Berlin fehlen 8 Spieler (u.a. O. Burke); SV 07 Elversberg fehlen 4 Spieler (u.a. L. Seifert).",
      "injuriesHome": [
       {
        "name": "O. Burke",
@@ -814,12 +646,12 @@
        "reason": "Back Injury"
       },
       {
-       "name": "F. Onyeka",
-       "reason": "Foot Injury"
+       "name": "J. Gyamerah",
+       "reason": "Groin Injury"
       },
       {
-       "name": "L. Schnellbacher",
-       "reason": "Injury"
+       "name": "F. Onyeka",
+       "reason": "Foot Injury"
       }
      ],
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -863,17 +695,17 @@
      "nTeams": 18,
      "h2h": [],
      "prediction": {
-      "pHome": 0.2391,
-      "pDraw": 0.2809,
-      "pAway": 0.48,
-      "pOver25": 0.3748,
-      "pBtts": 0.4234,
+      "pHome": 0.2387,
+      "pDraw": 0.281,
+      "pAway": 0.4804,
+      "pOver25": 0.3743,
+      "pBtts": 0.4228,
       "xgHome": 0.85,
       "xgAway": 1.34,
       "tipScore": "0:1",
       "confidence": "niedrig"
      },
-     "pBtts": 0.4234,
+     "pBtts": 0.4228,
      "odds": {
       "h": 4.96,
       "d": 4.75,
@@ -1021,17 +853,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.6718,
-      "pDraw": 0.1654,
-      "pAway": 0.1622,
-      "pOver25": 0.7659,
-      "pBtts": 0.6816,
+      "pHome": 0.6709,
+      "pDraw": 0.1658,
+      "pAway": 0.1628,
+      "pOver25": 0.7651,
+      "pBtts": 0.6813,
       "xgHome": 2.72,
       "xgAway": 1.31,
       "tipScore": "2:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6816,
+     "pBtts": 0.6813,
      "odds": {
       "h": 1.58,
       "d": 4.99,
@@ -1179,17 +1011,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5129,
-      "pDraw": 0.2203,
-      "pAway": 0.2668,
-      "pOver25": 0.6403,
-      "pBtts": 0.6356,
-      "xgHome": 1.95,
+      "pHome": 0.512,
+      "pDraw": 0.2206,
+      "pAway": 0.2673,
+      "pOver25": 0.6395,
+      "pBtts": 0.6352,
+      "xgHome": 1.94,
       "xgAway": 1.35,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6356,
+     "pBtts": 0.6352,
      "odds": {
       "h": 2.1,
       "d": 4.07,
@@ -1320,17 +1152,17 @@
      "nTeams": 18,
      "h2h": [],
      "prediction": {
-      "pHome": 0.5084,
-      "pDraw": 0.3081,
-      "pAway": 0.1835,
-      "pOver25": 0.267,
-      "pBtts": 0.3124,
+      "pHome": 0.5077,
+      "pDraw": 0.3085,
+      "pAway": 0.1838,
+      "pOver25": 0.2664,
+      "pBtts": 0.3121,
       "xgHome": 1.2,
       "xgAway": 0.59,
       "tipScore": "1:0",
       "confidence": "niedrig"
      },
-     "pBtts": 0.3124,
+     "pBtts": 0.3121,
      "odds": {
       "h": 1.66,
       "d": 3.94,
@@ -1339,8 +1171,8 @@
      },
      "value": {
       "outcome": "X",
-      "edge": 0.0636,
-      "modelP": 0.3081,
+      "edge": 0.064,
+      "modelP": 0.3085,
       "odds": 3.94
      },
      "scorersHome": [
@@ -1472,10 +1304,10 @@
      "nTeams": 18,
      "h2h": [],
      "prediction": {
-      "pHome": 0.4068,
+      "pHome": 0.4067,
       "pDraw": 0.1937,
-      "pAway": 0.3992,
-      "pOver25": 0.8285,
+      "pAway": 0.3994,
+      "pOver25": 0.8284,
       "pBtts": 0.802,
       "xgHome": 2.27,
       "xgAway": 2.25,
@@ -1491,8 +1323,8 @@
      },
      "value": {
       "outcome": "2",
-      "edge": 0.0659,
-      "modelP": 0.3992,
+      "edge": 0.0661,
+      "modelP": 0.3994,
       "odds": 2.86
      },
      "scorersHome": [
@@ -1566,7 +1398,7 @@
      "load14Home": 0,
      "load14Away": 0,
      "posHome": 6,
-     "posAway": 10,
+     "posAway": 11,
      "nTeams": 18,
      "h2h": [
       {
@@ -1669,14 +1501,14 @@
      ],
      "load14Home": 0,
      "load14Away": 0,
-     "posHome": 11,
+     "posHome": 12,
      "posAway": 17,
      "nTeams": 18,
      "h2h": [],
      "prediction": {
-      "pHome": 0.403,
+      "pHome": 0.4029,
       "pDraw": 0.2169,
-      "pAway": 0.3801,
+      "pAway": 0.3802,
       "pOver25": 0.7098,
       "pBtts": 0.7064,
       "xgHome": 1.86,
@@ -1761,7 +1593,7 @@
      "load14Home": 0,
      "load14Away": 0,
      "posHome": 2,
-     "posAway": 4,
+     "posAway": 5,
      "nTeams": 18,
      "h2h": [],
      "prediction": {
@@ -1851,8 +1683,8 @@
      ],
      "load14Home": 0,
      "load14Away": 0,
-     "posHome": 8,
-     "posAway": 14,
+     "posHome": 9,
+     "posAway": 15,
      "nTeams": 18,
      "h2h": [],
      "prediction": {
@@ -1860,13 +1692,13 @@
       "pDraw": 0.2219,
       "pAway": 0.2187,
       "pOver25": 0.5822,
-      "pBtts": 0.5723,
+      "pBtts": 0.5722,
       "xgHome": 1.91,
       "xgAway": 1.11,
       "tipScore": "1:1",
       "confidence": "mittel"
      },
-     "pBtts": 0.5723,
+     "pBtts": 0.5722,
      "odds": {
       "h": 1.73,
       "d": 4.3,
@@ -1945,7 +1777,7 @@
      "load14Home": 0,
      "load14Away": 0,
      "posHome": 1,
-     "posAway": 12,
+     "posAway": 13,
      "nTeams": 18,
      "h2h": [
       {
@@ -2050,8 +1882,8 @@
      ],
      "load14Home": 0,
      "load14Away": 0,
-     "posHome": 9,
-     "posAway": 13,
+     "posHome": 10,
+     "posAway": 14,
      "nTeams": 18,
      "h2h": [
       {
@@ -2068,8 +1900,8 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4638,
-      "pDraw": 0.2472,
+      "pHome": 0.4637,
+      "pDraw": 0.2473,
       "pAway": 0.289,
       "pOver25": 0.5315,
       "pBtts": 0.5591,
@@ -2848,7 +2680,7 @@
      ],
      "load14Home": 0,
      "load14Away": 0,
-     "posHome": 7,
+     "posHome": 8,
      "posAway": 2,
      "nTeams": 20,
      "h2h": [
@@ -3006,7 +2838,13 @@
      ],
      "scorersPeriod": "Saison",
      "analysis": "SC Verl ist bei Fortuna Düsseldorf leicht favorisiert (42 % zu 26 %). In der Tabelle stehen sich Platz 10 und Platz 11 gegenüber. Heim-/Auswärtsbilanz: Fortuna Düsseldorf gewann 2 der letzten 3 Heimspiele, SC Verl 1 der letzten 5 Auswärtsspiele. Das Modell erwartet eher wenige Tore (xG 0,8:1,1; über 2,5 Tore: 28 %, beide Teams treffen zu 36 %). Gefährlichste Torschützen: bei Fortuna Düsseldorf Schleusener (1 Tore) und bei SC Verl F. Vogler (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 4,20) für 19 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "news": [
+      {
+       "title": "Storck wird Trainer in der Türkei - Gonzalez verlängert",
+       "link": "https://www.kicker.de/transferticker-953155/artikel#omrss"
+      }
+     ]
     }
    ],
    "seasonHasStarted": true,
@@ -4341,7 +4179,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen Genoa und Fiorentina deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Genoa 35 %, Unentschieden 28 %, Sieg Fiorentina 37 %). In der Tabelle stehen sich Platz 19 und Platz 17 gegenüber. Heim-/Auswärtsbilanz: Genoa gewann 0 der letzten 5 Heimspiele, Fiorentina 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (Fiorentina – Genoa). Das Modell erwartet eher wenige Tore (xG 1,2:1,2; über 2,5 Tore: 43 %, beide Teams treffen zu 49 %). Gefährlichste Torschützen: bei Fiorentina Franco Mastantuono (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,30) für 6 Prozentpunkte wahrscheinlicher als der Markt. Personal: Genoa fehlen 8 Spieler (u.a. E. Havel); Fiorentina fehlen 3 Spieler (u.a. M. Kean).",
+     "analysis": "Zwischen Genoa und Fiorentina deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Genoa 35 %, Unentschieden 28 %, Sieg Fiorentina 37 %). In der Tabelle stehen sich Platz 19 und Platz 17 gegenüber. Heim-/Auswärtsbilanz: Genoa gewann 0 der letzten 5 Heimspiele, Fiorentina 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (Fiorentina – Genoa). Das Modell erwartet eher wenige Tore (xG 1,2:1,2; über 2,5 Tore: 43 %, beide Teams treffen zu 49 %). Gefährlichste Torschützen: bei Fiorentina Franco Mastantuono (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,30) für 6 Prozentpunkte wahrscheinlicher als der Markt. Personal: Genoa fehlen 8 Spieler (u.a. E. Havel); Fiorentina fehlen 4 Spieler (u.a. M. Kean).",
      "injuriesHome": [
       {
        "name": "E. Havel",
@@ -4380,6 +4218,10 @@
       {
        "name": "F. Parisi",
        "reason": "Jumpers Knee"
+      },
+      {
+       "name": "A. Atta",
+       "reason": "Abdominal strain"
       }
      ],
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -4466,7 +4308,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Internazionale geht als klarer Favorit (79 %) in das Heimspiel gegen Parma. In der Tabelle stehen sich Platz 2 und Platz 14 gegenüber. Die Form spricht für Internazionale: 4 Siege aus den letzten 5 Spielen, Parma holte nur 1. Heim-/Auswärtsbilanz: Internazionale gewann 4 der letzten 5 Heimspiele, Parma 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:0 (Inter – Parma). Das Modell erwartet ein torreiches Spiel (xG 2,5:0,6; über 2,5 Tore: 61 %, beide Teams treffen zu 43 %). Gefährlichste Torschützen: bei Internazionale Lautaro Martínez (4 Tore). Personal: Internazionale fehlen 6 Spieler (u.a. H. Mkhitaryan); Parma fehlen 10 Spieler (u.a. S. Britschgi).",
+     "analysis": "Internazionale geht als klarer Favorit (79 %) in das Heimspiel gegen Parma. In der Tabelle stehen sich Platz 2 und Platz 14 gegenüber. Die Form spricht für Internazionale: 4 Siege aus den letzten 5 Spielen, Parma holte nur 1. Heim-/Auswärtsbilanz: Internazionale gewann 4 der letzten 5 Heimspiele, Parma 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:0 (Inter – Parma). Das Modell erwartet ein torreiches Spiel (xG 2,5:0,6; über 2,5 Tore: 61 %, beide Teams treffen zu 43 %). Gefährlichste Torschützen: bei Internazionale Lautaro Martínez (4 Tore). Personal: Internazionale fehlen 6 Spieler (u.a. H. Mkhitaryan); Parma fehlen 9 Spieler (u.a. S. Britschgi).",
      "injuriesHome": [
       {
        "name": "H. Mkhitaryan",
@@ -4729,15 +4571,11 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen Como und AS Roma deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Como 35 %, Unentschieden 28 %, Sieg AS Roma 37 %). In der Tabelle stehen sich Platz 8 und Platz 1 gegenüber. Heim-/Auswärtsbilanz: Como gewann 3 der letzten 5 Heimspiele, AS Roma 5 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:1 (Como – Roma). Das Modell erwartet eher wenige Tore (xG 1,2:1,2; über 2,5 Tore: 43 %, beide Teams treffen zu 49 %). Gefährlichste Torschützen: bei AS Roma Donyell Malen (6 Tore). Personal: Como fehlen 3 Spieler (u.a. J. Addai); AS Roma fehlen 5 Spieler (u.a. L. Pellegrini).",
+     "analysis": "Zwischen Como und AS Roma deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Como 35 %, Unentschieden 28 %, Sieg AS Roma 37 %). In der Tabelle stehen sich Platz 8 und Platz 1 gegenüber. Heim-/Auswärtsbilanz: Como gewann 3 der letzten 5 Heimspiele, AS Roma 5 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:1 (Como – Roma). Das Modell erwartet eher wenige Tore (xG 1,2:1,2; über 2,5 Tore: 43 %, beide Teams treffen zu 49 %). Gefährlichste Torschützen: bei AS Roma Donyell Malen (6 Tore). Personal: Como fehlen 2 Spieler (u.a. J. Addai); AS Roma fehlen 5 Spieler (u.a. L. Pellegrini).",
      "injuriesHome": [
       {
        "name": "J. Addai",
        "reason": "Achilles Tendon Injury"
-      },
-      {
-       "name": "M. Kean",
-       "reason": "Health problems"
       },
       {
        "name": "I. Smolcic",
@@ -4977,7 +4815,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Bologna ist bei Lecce leicht favorisiert (46 % zu 25 %). In der Tabelle stehen sich Platz 12 und Platz 18 gegenüber. Die Form spricht für Lecce: 2 Siege aus den letzten 5 Spielen, Bologna holte nur 0. Heim-/Auswärtsbilanz: Lecce gewann 2 der letzten 5 Heimspiele, Bologna 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:0 (Bologna – Lecce). Das Modell erwartet eher wenige Tore (xG 0,8:1,2; über 2,5 Tore: 34 %, beide Teams treffen zu 40 %). Personal: Lecce fehlen 5 Spieler (u.a. L. Banda); Bologna fehlen 8 Spieler (u.a. N. Casale).",
+     "analysis": "Bologna ist bei Lecce leicht favorisiert (46 % zu 25 %). In der Tabelle stehen sich Platz 12 und Platz 18 gegenüber. Die Form spricht für Lecce: 2 Siege aus den letzten 5 Spielen, Bologna holte nur 0. Heim-/Auswärtsbilanz: Lecce gewann 2 der letzten 5 Heimspiele, Bologna 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:0 (Bologna – Lecce). Das Modell erwartet eher wenige Tore (xG 0,8:1,2; über 2,5 Tore: 34 %, beide Teams treffen zu 40 %). Personal: Lecce fehlen 5 Spieler (u.a. L. Banda); Bologna fehlen 9 Spieler (u.a. N. Casale).",
      "injuriesHome": [
       {
        "name": "L. Banda",
@@ -5115,7 +4953,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "AC Milan ist bei Sassuolo leicht favorisiert (50 % zu 25 %). In der Tabelle stehen sich Platz 10 und Platz 5 gegenüber. Heim-/Auswärtsbilanz: Sassuolo gewann 4 der letzten 5 Heimspiele, AC Milan 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:0 (Sassuolo – Milan). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,0:1,6; über 2,5 Tore: 48 %, beide Teams treffen zu 51 %). Gefährlichste Torschützen: bei Sassuolo Vasilije Adzic (3 Tore) und bei AC Milan Diego Moreira (3 Tore). Personal: Sassuolo fehlen 12 Spieler (u.a. D. Berardi); AC Milan fehlen 8 Spieler (u.a. Y. Fofana).",
+     "analysis": "AC Milan ist bei Sassuolo leicht favorisiert (50 % zu 25 %). In der Tabelle stehen sich Platz 10 und Platz 5 gegenüber. Heim-/Auswärtsbilanz: Sassuolo gewann 4 der letzten 5 Heimspiele, AC Milan 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:0 (Sassuolo – Milan). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,0:1,6; über 2,5 Tore: 48 %, beide Teams treffen zu 51 %). Gefährlichste Torschützen: bei Sassuolo Vasilije Adzic (3 Tore) und bei AC Milan Diego Moreira (3 Tore). Personal: Sassuolo fehlen 12 Spieler (u.a. D. Berardi); AC Milan fehlen 7 Spieler (u.a. Y. Fofana).",
      "injuriesHome": [
       {
        "name": "D. Berardi",
@@ -5360,7 +5198,7 @@
      ],
      "load14Home": 0,
      "load14Away": 0,
-     "posHome": 12,
+     "posHome": 13,
      "posAway": 10,
      "nTeams": 20,
      "h2h": [
@@ -5654,7 +5492,7 @@
      "load14Home": 0,
      "load14Away": 0,
      "posHome": 1,
-     "posAway": 11,
+     "posAway": 12,
      "nTeams": 20,
      "h2h": [
       {
@@ -5701,7 +5539,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Barcelona geht als klarer Favorit (81 %) in das Heimspiel gegen Getafe. In der Tabelle stehen sich Platz 1 und Platz 11 gegenüber. Die Form spricht für Barcelona: 5 Siege aus den letzten 5 Spielen, Getafe holte nur 1. Heim-/Auswärtsbilanz: Barcelona gewann 5 der letzten 5 Heimspiele, Getafe 0 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:2 (Getafe – Barcelona). Das Modell erwartet eine offene Tor-Ausbeute (xG 2,4:0,4; über 2,5 Tore: 53 %, beide Teams treffen zu 32 %). Gefährlichste Torschützen: bei Barcelona Raphinha (12 Tore). Personal: Barcelona fehlen 12 Spieler (u.a. A. Balde); Getafe fehlen 11 Spieler (u.a. Juanmi).",
+     "analysis": "Barcelona geht als klarer Favorit (81 %) in das Heimspiel gegen Getafe. In der Tabelle stehen sich Platz 1 und Platz 11 gegenüber. Die Form spricht für Barcelona: 5 Siege aus den letzten 5 Spielen, Getafe holte nur 1. Heim-/Auswärtsbilanz: Barcelona gewann 5 der letzten 5 Heimspiele, Getafe 0 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:2 (Getafe – Barcelona). Das Modell erwartet eine offene Tor-Ausbeute (xG 2,4:0,4; über 2,5 Tore: 53 %, beide Teams treffen zu 32 %). Gefährlichste Torschützen: bei Barcelona Raphinha (12 Tore). Personal: Barcelona fehlen 12 Spieler (u.a. A. Balde); Getafe fehlen 10 Spieler (u.a. Juanmi).",
      "injuriesHome": [
       {
        "name": "A. Balde",
@@ -5847,7 +5685,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Real Madrid geht als klarer Favorit (66 %) in das Heimspiel gegen Villarreal. In der Tabelle stehen sich Platz 4 und Platz 9 gegenüber. Heim-/Auswärtsbilanz: Real Madrid gewann 5 der letzten 5 Heimspiele, Villarreal 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:2 (Villarreal – Real Madrid). Das Modell erwartet ein torreiches Spiel (xG 2,5:1,1; über 2,5 Tore: 70 %, beide Teams treffen zu 62 %). Gefährlichste Torschützen: bei Real Madrid Kylian Mbappé (7 Tore). Personal: Real Madrid fehlen 9 Spieler (u.a. R. Asencio); Villarreal fehlen 5 Spieler (u.a. A. Diatta).",
+     "analysis": "Real Madrid geht als klarer Favorit (66 %) in das Heimspiel gegen Villarreal. In der Tabelle stehen sich Platz 4 und Platz 9 gegenüber. Heim-/Auswärtsbilanz: Real Madrid gewann 5 der letzten 5 Heimspiele, Villarreal 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:2 (Villarreal – Real Madrid). Das Modell erwartet ein torreiches Spiel (xG 2,5:1,1; über 2,5 Tore: 70 %, beide Teams treffen zu 62 %). Gefährlichste Torschützen: bei Real Madrid Kylian Mbappé (7 Tore). Personal: Real Madrid fehlen 8 Spieler (u.a. R. Asencio); Villarreal fehlen 5 Spieler (u.a. A. Diatta).",
      "injuriesHome": [
       {
        "name": "R. Asencio",
@@ -5937,7 +5775,7 @@
      "load14Home": 0,
      "load14Away": 0,
      "posHome": 18,
-     "posAway": 14,
+     "posAway": 15,
      "nTeams": 20,
      "h2h": [
       {
@@ -5980,7 +5818,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen Elche und Celta Vigo deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Elche 35 %, Unentschieden 25 %, Sieg Celta Vigo 40 %). In der Tabelle stehen sich Platz 18 und Platz 14 gegenüber. Heim-/Auswärtsbilanz: Elche gewann 1 der letzten 5 Heimspiele, Celta Vigo 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:1 (Celta – Elche). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,4:1,5; über 2,5 Tore: 53 %, beide Teams treffen zu 57 %). Gefährlichste Torschützen: bei Elche Fer Niño (5 Tore). Personal: Elche fehlen 6 Spieler (u.a. A. Boayar); Celta Vigo fehlen 11 Spieler (u.a. C. Perez).",
+     "analysis": "Zwischen Elche und Celta Vigo deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Elche 35 %, Unentschieden 25 %, Sieg Celta Vigo 40 %). In der Tabelle stehen sich Platz 18 und Platz 14 gegenüber. Heim-/Auswärtsbilanz: Elche gewann 1 der letzten 5 Heimspiele, Celta Vigo 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:1 (Celta – Elche). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,4:1,5; über 2,5 Tore: 53 %, beide Teams treffen zu 57 %). Gefährlichste Torschützen: bei Elche Fer Niño (5 Tore). Personal: Elche fehlen 5 Spieler (u.a. A. Boayar); Celta Vigo fehlen 10 Spieler (u.a. C. Perez).",
      "injuriesHome": [
       {
        "name": "A. Boayar",
@@ -6001,10 +5839,6 @@
       {
        "name": "F. Redondo Solari",
        "reason": "Red Card"
-      },
-      {
-       "name": "Buba Sangare",
-       "reason": "Muscle Injury"
       }
      ],
      "injuriesAway": [
@@ -6082,7 +5916,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Gefährlichste Torschützen: bei Deportivo Pierre-Emerick Aubameyang (5 Tore). Personal: Real Sociedad fehlen 9 Spieler (u.a. J. Gorrotxategi).",
+     "analysis": "Gefährlichste Torschützen: bei Deportivo Pierre-Emerick Aubameyang (5 Tore). Personal: Real Sociedad fehlen 10 Spieler (u.a. J. Gorrotxategi).",
      "injuriesHome": [
       {
        "name": "J. Gorrotxategi",
@@ -6150,7 +5984,7 @@
      "load14Home": 0,
      "load14Away": 0,
      "posHome": 3,
-     "posAway": 13,
+     "posAway": 14,
      "nTeams": 20,
      "h2h": [
       {
@@ -6193,7 +6027,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Real Betis geht als klarer Favorit (62 %) in das Heimspiel gegen Osasuna. In der Tabelle stehen sich Platz 3 und Platz 13 gegenüber. Die Form spricht für Real Betis: 3 Siege aus den letzten 5 Spielen, Osasuna holte nur 1. Heim-/Auswärtsbilanz: Real Betis gewann 5 der letzten 5 Heimspiele, Osasuna 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:1 (Osasuna – Betis). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,9:0,8; über 2,5 Tore: 50 %, beide Teams treffen zu 47 %). Gefährlichste Torschützen: bei Osasuna Ante Budimir (5 Tore). Personal: Real Betis fehlen 12 Spieler (u.a. D. Conde); Osasuna fehlen 5 Spieler (u.a. V. Rosier).",
+     "analysis": "Real Betis geht als klarer Favorit (62 %) in das Heimspiel gegen Osasuna. In der Tabelle stehen sich Platz 3 und Platz 13 gegenüber. Die Form spricht für Real Betis: 3 Siege aus den letzten 5 Spielen, Osasuna holte nur 1. Heim-/Auswärtsbilanz: Real Betis gewann 5 der letzten 5 Heimspiele, Osasuna 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:1 (Osasuna – Betis). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,9:0,8; über 2,5 Tore: 50 %, beide Teams treffen zu 47 %). Gefährlichste Torschützen: bei Osasuna Ante Budimir (5 Tore). Personal: Real Betis fehlen 11 Spieler (u.a. D. Conde); Osasuna fehlen 7 Spieler (u.a. V. Rosier).",
      "injuriesHome": [
       {
        "name": "D. Conde",
@@ -6236,6 +6070,10 @@
       {
        "name": "M. Gomez",
        "reason": "Hamstring Injury"
+      },
+      {
+       "name": "R. Del Castillo",
+       "reason": "Muscle Injury"
       },
       {
        "name": "R. Moro",
@@ -7098,7 +6936,7 @@
      "load14Home": 0,
      "load14Away": 0,
      "posHome": 1,
-     "posAway": 13,
+     "posAway": 14,
      "nTeams": 18,
      "h2h": [
       {
@@ -7243,8 +7081,8 @@
      ],
      "load14Home": 0,
      "load14Away": 0,
-     "posHome": 11,
-     "posAway": 7,
+     "posHome": 12,
+     "posAway": 8,
      "nTeams": 18,
      "h2h": [
       {
@@ -7287,7 +7125,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Brest ist gegen Angers leicht favorisiert (46 % zu 26 %). In der Tabelle stehen sich Platz 11 und Platz 7 gegenüber. Heim-/Auswärtsbilanz: Brest gewann 0 der letzten 5 Heimspiele, Angers 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:1 (Brest – Angers). Das Modell erwartet eher wenige Tore (xG 1,4:0,9; über 2,5 Tore: 40 %, beide Teams treffen zu 45 %). Gefährlichste Torschützen: bei Brest Kamory Doumbia (4 Tore). Personal: Brest fehlen 9 Spieler (u.a. B. Chardonnet); Angers fehlen 2 Spieler (u.a. H. Belkebla).",
+     "analysis": "Brest ist gegen Angers leicht favorisiert (46 % zu 26 %). In der Tabelle stehen sich Platz 11 und Platz 7 gegenüber. Heim-/Auswärtsbilanz: Brest gewann 0 der letzten 5 Heimspiele, Angers 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:1 (Brest – Angers). Das Modell erwartet eher wenige Tore (xG 1,4:0,9; über 2,5 Tore: 40 %, beide Teams treffen zu 45 %). Gefährlichste Torschützen: bei Brest Kamory Doumbia (4 Tore). Personal: Brest fehlen 9 Spieler (u.a. B. Chardonnet); Angers fehlen 3 Spieler (u.a. H. Belkebla).",
      "injuriesHome": [
       {
        "name": "B. Chardonnet",
@@ -7322,6 +7160,10 @@
       {
        "name": "L. Mouton",
        "reason": "Knee Injury"
+      },
+      {
+       "name": "U. Simbakoli",
+       "reason": "Muscle Injury"
       }
      ],
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -7364,7 +7206,7 @@
      ],
      "load14Home": 0,
      "load14Away": 0,
-     "posHome": 12,
+     "posHome": 13,
      "posAway": 3,
      "nTeams": 18,
      "h2h": [
@@ -7490,7 +7332,7 @@
      "load14Home": 0,
      "load14Away": 0,
      "posHome": 6,
-     "posAway": 9,
+     "posAway": 10,
      "nTeams": 18,
      "h2h": [
       {
@@ -7552,7 +7394,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Paris Saint-Germain ist gegen Le Mans leicht favorisiert (46 % zu 30 %). In der Tabelle stehen sich Platz 6 und Platz 9 gegenüber. Die Form spricht für Paris Saint-Germain: 3 Siege aus den letzten 5 Spielen, Le Mans holte nur 1. Das letzte Duell (2025) endete 0:2 (Le Mans – Paris Saint Germain). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,3; über 2,5 Tore: 56 %, beide Teams treffen zu 59 %). Gefährlichste Torschützen: bei Paris Saint-Germain Ferran Torres (4 Tore) und bei Le Mans Louis Mafouta (3 Tore). Personal: Paris Saint-Germain fehlen 6 Spieler (u.a. B. Barcola); Le Mans fehlen 6 Spieler (u.a. H. Voyer).",
+     "analysis": "Paris Saint-Germain ist gegen Le Mans leicht favorisiert (46 % zu 30 %). In der Tabelle stehen sich Platz 6 und Platz 10 gegenüber. Die Form spricht für Paris Saint-Germain: 3 Siege aus den letzten 5 Spielen, Le Mans holte nur 1. Das letzte Duell (2025) endete 0:2 (Le Mans – Paris Saint Germain). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,3; über 2,5 Tore: 56 %, beide Teams treffen zu 59 %). Gefährlichste Torschützen: bei Paris Saint-Germain Ferran Torres (4 Tore) und bei Le Mans Louis Mafouta (3 Tore). Personal: Paris Saint-Germain fehlen 6 Spieler (u.a. B. Barcola); Le Mans fehlen 6 Spieler (u.a. H. Voyer).",
      "injuriesHome": [
       {
        "name": "B. Barcola",
@@ -7645,8 +7487,8 @@
      ],
      "load14Home": 0,
      "load14Away": 0,
-     "posHome": 14,
-     "posAway": 8,
+     "posHome": 15,
+     "posAway": 9,
      "nTeams": 18,
      "h2h": [
       {
@@ -7780,7 +7622,7 @@
      "load14Home": 0,
      "load14Away": 0,
      "posHome": null,
-     "posAway": 10,
+     "posAway": 11,
      "nTeams": 18,
      "h2h": [],
      "prediction": null,
@@ -7800,7 +7642,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Gefährlichste Torschützen: bei Stade Rennais Esteban Lepaul (3 Tore). Personal: AJ Auxerre fehlen 12 Spieler (u.a. T. Bair).",
+     "analysis": "Gefährlichste Torschützen: bei Stade Rennais Esteban Lepaul (3 Tore). Personal: AJ Auxerre fehlen 13 Spieler (u.a. T. Bair).",
      "injuriesAway": [
       {
        "name": "T. Bair",
@@ -7900,7 +7742,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Marseille reist als klarer Favorit (71 %) zu Troyes. In der Tabelle stehen sich Platz 16 und Platz 17 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 0,9:2,4; über 2,5 Tore: 63 %, beide Teams treffen zu 53 %). Gefährlichste Torschützen: bei Marseille Amine Gouiri (4 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 1,93) für 20 Prozentpunkte wahrscheinlicher als der Markt. Personal: Troyes fehlen 7 Spieler (u.a. I. Boura); Marseille fehlen 11 Spieler (u.a. L. Balerdi).",
+     "analysis": "Marseille reist als klarer Favorit (71 %) zu Troyes. In der Tabelle stehen sich Platz 16 und Platz 17 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 0,9:2,4; über 2,5 Tore: 63 %, beide Teams treffen zu 53 %). Gefährlichste Torschützen: bei Marseille Amine Gouiri (4 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 1,93) für 20 Prozentpunkte wahrscheinlicher als der Markt. Personal: Troyes fehlen 8 Spieler (u.a. I. Boura); Marseille fehlen 11 Spieler (u.a. L. Balerdi).",
      "injuriesHome": [
       {
        "name": "I. Boura",
@@ -8048,13 +7890,7 @@
      ],
      "scorersPeriod": "Saison",
      "analysis": "Red Star FC 93 ist bei Clermont Foot leicht favorisiert (43 % zu 27 %). In der Tabelle stehen sich Platz 16 und Platz 2 gegenüber. Die Form spricht für Red Star FC 93: 3 Siege aus den letzten 5 Spielen, Clermont Foot holte nur 0. Heim-/Auswärtsbilanz: Clermont Foot gewann 1 der letzten 5 Heimspiele, Red Star FC 93 4 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:1 (Clermont – Red Star). Das Modell erwartet eher wenige Tore (xG 0,9:1,2; über 2,5 Tore: 34 %, beide Teams treffen zu 41 %). Gefährlichste Torschützen: bei Red Star FC 93 Damien Durand (4 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "LIVE! Sabitzer sorgt für Wirbel - Hein rettet stark gegen Beier",
-       "link": "https://www.kicker.de/live-sabitzer-sorgt-fuer-wirbel-hein-rettet-stark-gegen-beier-1258778/artikel#omrss"
-      }
-     ]
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-10-10T14:00:00+02:00",
@@ -8418,7 +8254,7 @@
      ],
      "load14Home": 0,
      "load14Away": 0,
-     "posHome": 2,
+     "posHome": 3,
      "posAway": 1,
      "nTeams": 18,
      "h2h": [
@@ -9438,8 +9274,8 @@
      "pBtts": 0.493,
      "odds": {
       "h": 6.5,
-      "d": 4.6,
-      "a": 1.4,
+      "d": 4.75,
+      "a": 1.36,
       "src": "William Hill"
      },
      "value": null,
@@ -10448,108 +10284,6 @@
    "espn": "por.1",
    "matches": [
     {
-     "kickoff": "2026-10-09T21:15:00+02:00",
-     "home": "Braga",
-     "away": "Sporting CP",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/2994.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "S",
-      "S",
-      "N",
-      "S",
-      "U"
-     ],
-     "formAway": [
-      "S",
-      "S",
-      "S",
-      "U",
-      "U"
-     ],
-     "formHomeH": [
-      "U",
-      "U",
-      "U",
-      "S",
-      "S"
-     ],
-     "formAwayA": [],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 6,
-     "posAway": 3,
-     "nTeams": 18,
-     "h2h": [
-      {
-       "date": "07.03.2026",
-       "home": "SC Braga",
-       "away": "Sporting CP",
-       "score": "2:2"
-      },
-      {
-       "date": "05.10.2025",
-       "home": "Sporting CP",
-       "away": "SC Braga",
-       "score": "1:1"
-      },
-      {
-       "date": "07.04.2025",
-       "home": "Sporting CP",
-       "away": "SC Braga",
-       "score": "1:1"
-      },
-      {
-       "date": "10.11.2024",
-       "home": "SC Braga",
-       "away": "Sporting CP",
-       "score": "2:4"
-      },
-      {
-       "date": "11.02.2024",
-       "home": "Sporting CP",
-       "away": "SC Braga",
-       "score": "5:0"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.3015,
-      "pDraw": 0.2488,
-      "pAway": 0.4497,
-      "pOver25": 0.5311,
-      "pBtts": 0.5614,
-      "xgHome": 1.24,
-      "xgAway": 1.57,
-      "tipScore": "1:1",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.5614,
-     "odds": {
-      "h": 2.9,
-      "d": 3.1,
-      "a": 2.3,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Pau Victor",
-       "goals": 3
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Luis Suárez",
-       "goals": 6
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Sporting CP ist bei Braga leicht favorisiert (45 % zu 30 %). In der Tabelle stehen sich Platz 6 und Platz 3 gegenüber. Das letzte Duell (2026) endete 2:2 (SC Braga – Sporting CP). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,2:1,6; über 2,5 Tore: 53 %, beide Teams treffen zu 56 %). Gefährlichste Torschützen: bei Braga Pau Victor (3 Tore) und bei Sporting CP Luis Suárez (6 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
      "kickoff": "2026-10-10T16:30:00+02:00",
      "home": "Casa Pia",
      "away": "Santa Clara",
@@ -10740,7 +10474,7 @@
      ],
      "load14Home": 0,
      "load14Away": 0,
-     "posHome": 7,
+     "posHome": 8,
      "posAway": 18,
      "nTeams": 18,
      "h2h": [],
@@ -10977,7 +10711,7 @@
      "load14Home": 0,
      "load14Away": 0,
      "posHome": 5,
-     "posAway": 8,
+     "posAway": 9,
      "nTeams": 18,
      "h2h": [
       {
@@ -11075,7 +10809,7 @@
      "load14Home": 0,
      "load14Away": 0,
      "posHome": 13,
-     "posAway": 1,
+     "posAway": 2,
      "nTeams": 18,
      "h2h": [
       {
@@ -11130,7 +10864,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Amed SFK ist bei Genclerbirligi leicht favorisiert (46 % zu 30 %). In der Tabelle stehen sich Platz 13 und Platz 1 gegenüber. Die Form spricht für Amed SFK: 3 Siege aus den letzten 5 Spielen, Genclerbirligi holte nur 1. Das letzte Duell (2025) endete 1:1 (Amed – Gençlerbirliği S.K.). Das Modell erwartet ein torreiches Spiel (xG 1,3:1,7; über 2,5 Tore: 58 %, beide Teams treffen zu 60 %). Gefährlichste Torschützen: bei Amed SFK Gift Orban (7 Tore). Personal: Genclerbirligi fehlen 3 Spieler (u.a. D. Demir); Amed SFK fehlen 5 Spieler (u.a. M. Yildirim).",
+     "analysis": "Amed SFK ist bei Genclerbirligi leicht favorisiert (46 % zu 30 %). In der Tabelle stehen sich Platz 13 und Platz 2 gegenüber. Die Form spricht für Amed SFK: 3 Siege aus den letzten 5 Spielen, Genclerbirligi holte nur 1. Das letzte Duell (2025) endete 1:1 (Amed – Gençlerbirliği S.K.). Das Modell erwartet ein torreiches Spiel (xG 1,3:1,7; über 2,5 Tore: 58 %, beide Teams treffen zu 60 %). Gefährlichste Torschützen: bei Amed SFK Gift Orban (7 Tore). Personal: Genclerbirligi fehlen 3 Spieler (u.a. D. Demir); Amed SFK fehlen 5 Spieler (u.a. M. Yildirim).",
      "injuriesHome": [
       {
        "name": "D. Demir",
@@ -11390,7 +11124,7 @@
      ],
      "load14Home": 0,
      "load14Away": 0,
-     "posHome": 9,
+     "posHome": 8,
      "posAway": 6,
      "nTeams": 18,
      "h2h": [
@@ -11705,12 +11439,12 @@
        "reason": "Hamstring Injury"
       },
       {
-       "name": "A. O. Kalin",
-       "reason": "Muscle Injury"
-      },
-      {
        "name": "S. Hansen",
        "reason": "Injury"
+      },
+      {
+       "name": "A. O. Kalin",
+       "reason": "Muscle Injury"
       }
      ],
      "injuriesAway": [
@@ -12022,16 +11756,16 @@
      },
      "pBtts": 0.5561,
      "odds": {
-      "h": 3.1,
-      "d": 3.4,
-      "a": 2.1,
+      "h": 3.0,
+      "d": 3.3,
+      "a": 2.2,
       "src": "William Hill"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.2076,
+      "edge": 0.1972,
       "modelP": 0.5028,
-      "odds": 3.1
+      "odds": 3.0
      },
      "scorersHome": [
       {
@@ -12045,7 +11779,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Austria Vienna ist gegen SK Sturm Graz leicht favorisiert (50 % zu 26 %). In der Tabelle stehen sich Platz 10 und Platz 4 gegenüber. Das letzte Duell (2026) endete 1:1 (Sturm Graz – Austria Vienna). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,7:1,1; über 2,5 Tore: 54 %, beide Teams treffen zu 56 %). Gefährlichste Torschützen: bei Austria Vienna M. Fischer (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,10) für 21 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Austria Vienna ist gegen SK Sturm Graz leicht favorisiert (50 % zu 26 %). In der Tabelle stehen sich Platz 10 und Platz 4 gegenüber. Das letzte Duell (2026) endete 1:1 (Sturm Graz – Austria Vienna). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,7:1,1; über 2,5 Tore: 54 %, beide Teams treffen zu 56 %). Gefährlichste Torschützen: bei Austria Vienna M. Fischer (2 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,00) für 20 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
       {
@@ -14185,9 +13919,9 @@
      },
      "pBtts": 0.6331,
      "odds": {
-      "h": 1.36,
+      "h": 1.4,
       "d": 5.0,
-      "a": 6.0,
+      "a": 5.5,
       "src": "William Hill"
      },
      "value": null,
@@ -14608,9 +14342,9 @@
      },
      "pBtts": 0.6049,
      "odds": {
-      "h": 1.4,
-      "d": 4.6,
-      "a": 5.8,
+      "h": 1.36,
+      "d": 4.8,
+      "a": 6.0,
       "src": "William Hill"
      },
      "value": null,
@@ -16498,7 +16232,7 @@
      "odds": {
       "h": 1.36,
       "d": 5.0,
-      "a": 6.0,
+      "a": 6.5,
       "src": "William Hill"
      },
      "value": null,
@@ -17686,7 +17420,7 @@
      "load14Home": 0,
      "load14Away": 0,
      "posHome": 8,
-     "posAway": 3,
+     "posAway": 4,
      "nTeams": null,
      "h2h": [
       {
@@ -17761,7 +17495,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Randers FC ist gegen Viborg FF leicht favorisiert (42 % zu 32 %). In der Tabelle stehen sich Platz 8 und Platz 3 gegenüber. Das letzte Duell (2026) endete 2:0 (Randers FC – Viborg). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,5:1,2; über 2,5 Tore: 51 %, beide Teams treffen zu 55 %). Gefährlichste Torschützen: bei Randers FC Elies Mahmoud (3 Tore) und bei Viborg FF Dorian Hanza (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,25) für 14 Prozentpunkte wahrscheinlicher als der Markt. Personal: Randers FC fehlen 6 Spieler (u.a. W. Caddy); Viborg FF fehlen 6 Spieler (u.a. H. Bidstrup).",
+     "analysis": "Randers FC ist gegen Viborg FF leicht favorisiert (42 % zu 32 %). In der Tabelle stehen sich Platz 8 und Platz 4 gegenüber. Das letzte Duell (2026) endete 2:0 (Randers FC – Viborg). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,5:1,2; über 2,5 Tore: 51 %, beide Teams treffen zu 55 %). Gefährlichste Torschützen: bei Randers FC Elies Mahmoud (3 Tore) und bei Viborg FF Dorian Hanza (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,25) für 14 Prozentpunkte wahrscheinlicher als der Markt. Personal: Randers FC fehlen 6 Spieler (u.a. W. Caddy); Viborg FF fehlen 6 Spieler (u.a. H. Bidstrup).",
      "injuriesHome": [
       {
        "name": "W. Caddy",
@@ -18273,7 +18007,7 @@
      "formAwayA": [],
      "load14Home": 0,
      "load14Away": 0,
-     "posHome": 4,
+     "posHome": 5,
      "posAway": 2,
      "nTeams": null,
      "h2h": [
@@ -18351,7 +18085,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen Derry City und St Patrick's Athl. deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Derry City 38 %, Unentschieden 25 %, Sieg St Patrick's Athl. 37 %). In der Tabelle stehen sich Platz 4 und Platz 2 gegenüber. Das letzte Duell (2026) endete 1:1 (St Patrick's Athl. – Derry City). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,4:1,4; über 2,5 Tore: 54 %, beide Teams treffen zu 58 %). Gefährlichste Torschützen: bei Derry City M. Duffy (10 Tore) und bei St Patrick's Athl. R. Edmondson (10 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,96) für 7 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Zwischen Derry City und St Patrick's Athl. deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Derry City 38 %, Unentschieden 25 %, Sieg St Patrick's Athl. 37 %). In der Tabelle stehen sich Platz 5 und Platz 2 gegenüber. Das letzte Duell (2026) endete 1:1 (St Patrick's Athl. – Derry City). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,4:1,4; über 2,5 Tore: 54 %, beide Teams treffen zu 58 %). Gefährlichste Torschützen: bei Derry City M. Duffy (10 Tore) und bei St Patrick's Athl. R. Edmondson (10 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,96) für 7 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -18364,10 +18098,10 @@
      "roundName": "Regular Season - 33",
      "formHome": [
       "S",
-      "S",
       "U",
       "U",
-      "N"
+      "N",
+      "S"
      ],
      "formAway": [
       "S",
@@ -18410,17 +18144,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5102,
-      "pDraw": 0.265,
-      "pAway": 0.2247,
-      "pOver25": 0.4161,
-      "pBtts": 0.4495,
-      "xgHome": 1.47,
-      "xgAway": 0.88,
+      "pHome": 0.5239,
+      "pDraw": 0.2629,
+      "pAway": 0.2132,
+      "pOver25": 0.413,
+      "pBtts": 0.4417,
+      "xgHome": 1.49,
+      "xgAway": 0.84,
       "tipScore": "1:0",
       "confidence": "mittel"
      },
-     "pBtts": 0.4495,
+     "pBtts": 0.4417,
      "odds": {
       "h": 2.1,
       "d": 3.56,
@@ -18429,8 +18163,8 @@
      },
      "value": {
       "outcome": "1",
-      "edge": 0.0675,
-      "modelP": 0.5102,
+      "edge": 0.0812,
+      "modelP": 0.5239,
       "odds": 2.1
      },
      "scorersHome": [
@@ -18450,7 +18184,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Waterford ist gegen Galway United leicht favorisiert (52 % zu 22 %). In der Tabelle stehen sich Platz 8 und Platz 7 gegenüber. Das letzte Duell (2026) endete 0:0 (Galway United – Waterford). Das Modell erwartet eher wenige Tore (xG 1,5:0,9; über 2,5 Tore: 42 %, beide Teams treffen zu 45 %). Gefährlichste Torschützen: bei Waterford T. Lonergan (14 Tore) und bei Galway United K. Twardek (8 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,10) für 7 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Waterford ist gegen Galway United leicht favorisiert (53 % zu 21 %). In der Tabelle stehen sich Platz 8 und Platz 7 gegenüber. Das letzte Duell (2026) endete 0:0 (Galway United – Waterford). Das Modell erwartet eher wenige Tore (xG 1,5:0,8; über 2,5 Tore: 41 %, beide Teams treffen zu 44 %). Gefährlichste Torschützen: bei Waterford T. Lonergan (14 Tore) und bei Galway United K. Twardek (8 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,10) für 8 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
@@ -20197,7 +19931,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "Halbfinale",
-   "surface": "Hartplatz",
+   "surface": null,
    "p1": {
     "name": "Himeno Sakatsume",
     "rank": 120,
@@ -20328,7 +20062,7 @@
    "tour": "WTA",
    "tournament": "Samsun Open",
    "round": "Halbfinale",
-   "surface": "Hartplatz",
+   "surface": null,
    "p1": {
     "name": "Anna Blinkova",
     "rank": 89,
@@ -21155,14 +20889,14 @@
  ],
  "stats": {
   "overall": {
-   "n": 3041,
+   "n": 3042,
    "correct": 1814,
-   "pct": 0.5965
+   "pct": 0.5963
   },
   "football": {
-   "n": 869,
+   "n": 870,
    "correct": 421,
-   "pct": 0.4845
+   "pct": 0.4839
   },
   "tennis": {
    "n": 2172,
@@ -21170,10 +20904,10 @@
    "pct": 0.6413
   },
   "exact": {
-   "n": 869,
+   "n": 870,
    "correct": 99
   },
-  "open": 265,
+  "open": 264,
   "value": {
    "n": 6,
    "correct": 1,
@@ -21181,6 +20915,17 @@
    "avgOdds": 2.91
   },
   "recent": [
+   {
+    "date": "2026-10-09",
+    "comp": "1. Bundesliga",
+    "label": "Borussia Dortmund – SV Werder Bremen",
+    "tipName": "Borussia Dortmund",
+    "tip": "1",
+    "prob": 0.7987,
+    "result": "2:2",
+    "correct": false,
+    "sport": "fb"
+   },
    {
     "date": "2026-10-09",
     "comp": "2. Bundesliga",
@@ -21442,17 +21187,6 @@
     "tip": "P2",
     "prob": 0.523,
     "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-09",
-    "comp": "WTA · Suzhou Open",
-    "label": "Rebecca Sramkova – Aliona Falei",
-    "tipName": "Rebecca Sramkova",
-    "tip": "P1",
-    "prob": 0.5779,
-    "result": "Sieger: P1",
     "correct": true,
     "sport": "tn"
    }
