@@ -66741,10 +66741,10 @@
    "prob": 0.6709,
    "tipScore": "2:1",
    "pOver25": 0.7651,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "6:0",
+   "correct": true,
+   "exact": false
   },
   "fb|bl2|2026-10-10|sv darmstadt 98|energie cottbus": {
    "sport": "fb",
@@ -66820,10 +66820,10 @@
    "prob": 0.4033,
    "tipScore": "1:1",
    "pOver25": 0.7004,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "4:4",
+   "correct": false,
+   "exact": false
   },
   "fb|bl3|2026-10-10|jahn regensburg|tsv havelse": {
    "sport": "fb",
@@ -66838,10 +66838,10 @@
    "prob": 0.5766,
    "tipScore": "2:1",
    "pOver25": 0.7532,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "5:0",
+   "correct": true,
+   "exact": false
   },
   "fb|bl3|2026-10-10|fortuna koln|1 fc saarbrucken": {
    "sport": "fb",
@@ -66856,16 +66856,16 @@
    "prob": 0.3886,
    "tipScore": "1:1",
    "pOver25": 0.4053,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "wrong",
+   "result": "0:0",
+   "correct": false,
+   "exact": false,
    "value": {
     "pick": "1",
     "odds": 3.5,
     "edge": 0.1219,
     "modelP": 0.3886,
-    "won": null
+    "won": false
    }
   },
   "fb|bl3|2026-10-10|sv meppen|vfb stuttgart ii": {
@@ -66881,16 +66881,16 @@
    "prob": 0.4881,
    "tipScore": "1:1",
    "pOver25": 0.6751,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "wrong",
+   "result": "1:1",
+   "correct": false,
+   "exact": true,
    "value": {
     "pick": "2",
     "odds": 3.1,
     "edge": 0.1864,
     "modelP": 0.4881,
-    "won": null
+    "won": false
    }
   },
   "fb|bl3|2026-10-10|sg sonnenhof grossaspach|sv waldhof mannheim": {
@@ -66906,10 +66906,10 @@
    "prob": 0.3701,
    "tipScore": "1:1",
    "pOver25": 0.3686,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "1:5",
+   "correct": true,
+   "exact": false
   },
   "fb|bl3|2026-10-10|wurzburger kickers|hansa rostock": {
    "sport": "fb",
@@ -66924,16 +66924,16 @@
    "prob": 0.576,
    "tipScore": "1:2",
    "pOver25": 0.7861,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "correct",
+   "result": "0:2",
+   "correct": true,
+   "exact": false,
    "value": {
     "pick": "2",
     "odds": 1.87,
     "edge": 0.0754,
     "modelP": 0.576,
-    "won": null
+    "won": true
    }
   },
   "fb|bl3|2026-10-10|msv duisburg|tsg 1899 hoffenheim ii": {
@@ -68452,9 +68452,9 @@
    "awayKey": "mgladbach",
    "tip": "1",
    "tipName": "1. FC Köln",
-   "prob": 0.5048,
+   "prob": 0.5106,
    "tipScore": "1:1",
-   "pOver25": 0.6359,
+   "pOver25": 0.6342,
    "status": "open",
    "result": null,
    "correct": null,
@@ -68470,9 +68470,9 @@
    "awayKey": "fc schalke 04",
    "tip": "1",
    "tipName": "SC Freiburg",
-   "prob": 0.5017,
+   "prob": 0.5058,
    "tipScore": "1:0",
-   "pOver25": 0.2634,
+   "pOver25": 0.2625,
    "status": "open",
    "result": null,
    "correct": null,
@@ -68480,8 +68480,8 @@
    "value": {
     "pick": "X",
     "odds": 3.94,
-    "edge": 0.0664,
-    "modelP": 0.311,
+    "edge": 0.0657,
+    "modelP": 0.3103,
     "won": null
    }
   },
@@ -68495,9 +68495,9 @@
    "awayKey": "karlsruher sc",
    "tip": "1",
    "tipName": "FC St. Pauli",
-   "prob": 0.5643,
+   "prob": 0.5617,
    "tipScore": "1:1",
-   "pOver25": 0.5833,
+   "pOver25": 0.5775,
    "status": "open",
    "result": null,
    "correct": null,
@@ -68513,9 +68513,9 @@
    "awayKey": "spvgg greuther furth",
    "tip": "1",
    "tipName": "Hertha BSC",
-   "prob": 0.6598,
+   "prob": 0.6571,
    "tipScore": "2:1",
-   "pOver25": 0.6907,
+   "pOver25": 0.6849,
    "status": "open",
    "result": null,
    "correct": null,
@@ -68531,9 +68531,9 @@
    "awayKey": "dsc arminia bielefeld",
    "tip": "1",
    "tipName": "VfL Bochum",
-   "prob": 0.4685,
+   "prob": 0.4663,
    "tipScore": "1:1",
-   "pOver25": 0.5322,
+   "pOver25": 0.5264,
    "status": "open",
    "result": null,
    "correct": null,
@@ -68549,9 +68549,9 @@
    "awayKey": "sv wehen wiesbaden",
    "tip": "1",
    "tipName": "FC Ingolstadt 04",
-   "prob": 0.4959,
+   "prob": 0.4942,
    "tipScore": "1:1",
-   "pOver25": 0.4862,
+   "pOver25": 0.4867,
    "status": "open",
    "result": null,
    "correct": null,
@@ -68559,8 +68559,8 @@
    "value": {
     "pick": "1",
     "odds": 2.4,
-    "edge": 0.1034,
-    "modelP": 0.4959,
+    "edge": 0.1017,
+    "modelP": 0.4942,
     "won": null
    }
   },
@@ -68574,9 +68574,9 @@
    "awayKey": "viktoria koln",
    "tip": "1",
    "tipName": "Alemannia Aachen",
-   "prob": 0.5035,
+   "prob": 0.5018,
    "tipScore": "1:1",
-   "pOver25": 0.5942,
+   "pOver25": 0.5951,
    "status": "open",
    "result": null,
    "correct": null,
@@ -68592,9 +68592,9 @@
    "awayKey": "sc verl",
    "tip": "2",
    "tipName": "SC Verl",
-   "prob": 0.4178,
+   "prob": 0.4199,
    "tipScore": "0:1",
-   "pOver25": 0.2827,
+   "pOver25": 0.2838,
    "status": "open",
    "result": null,
    "correct": null,
@@ -68602,8 +68602,8 @@
    "value": {
     "pick": "2",
     "odds": 4.2,
-    "edge": 0.1931,
-    "modelP": 0.4178,
+    "edge": 0.1952,
+    "modelP": 0.4199,
     "won": null
    }
   },
@@ -69311,8 +69311,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 3.75,
-    "edge": 0.0911,
+    "odds": 3.6,
+    "edge": 0.0808,
     "modelP": 0.336,
     "won": null
    }
@@ -69587,8 +69587,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 3.2,
-    "edge": 0.0968,
+    "odds": 3.25,
+    "edge": 0.0999,
     "modelP": 0.38,
     "won": null
    }
@@ -69609,7 +69609,14 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 2.62,
+    "edge": 0.0554,
+    "modelP": 0.4003,
+    "won": null
+   }
   },
   "fb|us1|2026-10-11|colorado rapids|san jose earthquakes": {
    "sport": "fb",
@@ -69728,7 +69735,7 @@
    "value": {
     "pick": "1",
     "odds": 2.9,
-    "edge": 0.1259,
+    "edge": 0.1273,
     "modelP": 0.4402,
     "won": null
    }
@@ -69925,7 +69932,7 @@
    "value": {
     "pick": "1",
     "odds": 2.5,
-    "edge": 0.1153,
+    "edge": 0.1126,
     "modelP": 0.4782,
     "won": null
    }
