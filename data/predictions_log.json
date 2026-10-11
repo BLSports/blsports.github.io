@@ -69157,14 +69157,7 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null,
-   "value": {
-    "pick": "1",
-    "odds": 2.4,
-    "edge": 0.0622,
-    "modelP": 0.4343,
-    "won": null
-   }
+   "exact": null
   },
   "fb|pt1|2026-10-11|rio ave|cd nacional": {
    "sport": "fb",
@@ -69362,7 +69355,7 @@
    "value": {
     "pick": "1",
     "odds": 2.5,
-    "edge": 0.1401,
+    "edge": 0.139,
     "modelP": 0.5033,
     "won": null
    }
@@ -69734,8 +69727,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 2.9,
-    "edge": 0.1273,
+    "odds": 2.8,
+    "edge": 0.1176,
     "modelP": 0.4402,
     "won": null
    }
@@ -69778,7 +69771,7 @@
    "value": {
     "pick": "1",
     "odds": 2.75,
-    "edge": 0.1365,
+    "edge": 0.1347,
     "modelP": 0.4693,
     "won": null
    }
@@ -69802,8 +69795,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 2.1,
-    "edge": 0.0986,
+    "odds": 2.25,
+    "edge": 0.1252,
     "modelP": 0.532,
     "won": null
    }
@@ -69870,8 +69863,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 3.25,
-    "edge": 0.1369,
+    "odds": 3.1,
+    "edge": 0.1236,
     "modelP": 0.4193,
     "won": null
    }
@@ -69931,8 +69924,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 2.5,
-    "edge": 0.1126,
+    "odds": 2.4,
+    "edge": 0.0968,
     "modelP": 0.4782,
     "won": null
    }
@@ -70199,9 +70192,9 @@
    "tip": "P2",
    "tipName": "Alex de Minaur",
    "prob": 0.9101,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-10-11|halys q|zverev a": {
    "sport": "tn",
@@ -70241,9 +70234,9 @@
    "tip": "P2",
    "tipName": "Ben Shelton",
    "prob": 0.9041,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-10-11|cerundolo f|mensik j": {
    "sport": "tn",
@@ -70255,9 +70248,9 @@
    "tip": "P1",
    "tipName": "Jakub Mensik",
    "prob": 0.5608,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-10-11|khachanov k|mannarino a": {
    "sport": "tn",
@@ -70269,9 +70262,9 @@
    "tip": "P2",
    "tipName": "Karen Khachanov",
    "prob": 0.722,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-10|aksu a|sakatsume h": {
    "sport": "tn",
@@ -70339,9 +70332,9 @@
    "tip": "P2",
    "tipName": "Hubert Hurkacz",
    "prob": 0.845,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "fb|pl|2026-10-12|coventry city|newcastle": {
    "sport": "fb",
@@ -70745,8 +70738,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 3.3,
-    "edge": 0.0843,
+    "odds": 3.25,
+    "edge": 0.0812,
     "modelP": 0.3613,
     "won": null
    }
@@ -70761,9 +70754,9 @@
    "tip": "P1",
    "tipName": "Daria Kasatkina",
    "prob": 0.6641,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-11|frech m|ito a": {
    "sport": "tn",
@@ -70775,9 +70768,9 @@
    "tip": "P2",
    "tipName": "Magdalena Frech",
    "prob": 0.8475,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-11|krueger a|putintseva y": {
    "sport": "tn",
@@ -70789,9 +70782,9 @@
    "tip": "P1",
    "tipName": "Ashlyn Krueger",
    "prob": 0.5247,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-11|kraus s|sonmez z": {
    "sport": "tn",
@@ -70803,9 +70796,9 @@
    "tip": "P2",
    "tipName": "Zeynep Sonmez",
    "prob": 0.6033,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-11|mcnally c|tararudee l": {
    "sport": "tn",
@@ -70817,9 +70810,9 @@
    "tip": "P2",
    "tipName": "Lanlana Tararudee",
    "prob": 0.5283,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-11|han s|rakhimova k": {
    "sport": "tn",
@@ -70831,9 +70824,9 @@
    "tip": "P1",
    "tipName": "Kamilla Rakhimova",
    "prob": 0.7334,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-11|okamura k|sramkova r": {
    "sport": "tn",
@@ -70845,9 +70838,9 @@
    "tip": "P2",
    "tipName": "Rebecca Sramkova",
    "prob": 0.6425,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-10-12|auger aliassime f|carreno busta p": {
    "sport": "tn",
@@ -71153,9 +71146,9 @@
    "tip": "P2",
    "tipName": "Camila Osorio",
    "prob": 0.5243,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-11|bondar a|sawangkaew m": {
    "sport": "tn",
@@ -71167,9 +71160,9 @@
    "tip": "P2",
    "tipName": "Anna Bondar",
    "prob": 0.5719,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-10-12|ruud c|tien l": {
    "sport": "tn",
@@ -71209,9 +71202,9 @@
    "tip": "P1",
    "tipName": "Amandine Hesse",
    "prob": 0.5486,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-11|nguyen tan l|sagrista bermejo m": {
    "sport": "tn",
@@ -71237,9 +71230,9 @@
    "tip": "P2",
    "tipName": "Isabella Shinikova",
    "prob": 0.5633,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-11|lena friedsam a|peer l": {
    "sport": "tn",
@@ -71251,9 +71244,9 @@
    "tip": "P1",
    "tipName": "Lisa Peer",
    "prob": 0.5083,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-11|boskovic l|senica a": {
    "sport": "tn",
@@ -71265,9 +71258,9 @@
    "tip": "P1",
    "tipName": "Lea Boskovic",
    "prob": 0.6426,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-11|vogt m|yesypchuk d": {
    "sport": "tn",
@@ -72066,6 +72059,258 @@
     "modelP": 0.401,
     "won": null
    }
+  },
+  "tn|wta|2026-10-12|ito a|tjen j": {
+   "sport": "tn",
+   "comp": "WTA · Dongfeng Voyah Wuhan Open",
+   "date": "2026-10-12",
+   "label": "Aoi Ito – Janice Tjen",
+   "p1Key": "ito a",
+   "p2Key": "tjen j",
+   "tip": "P2",
+   "tipName": "Janice Tjen",
+   "prob": 0.8452,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-12|frech m|sawangkaew m": {
+   "sport": "tn",
+   "comp": "WTA · Dongfeng Voyah Wuhan Open",
+   "date": "2026-10-12",
+   "label": "Magdalena Frech – Mananchaya Sawangkaew",
+   "p1Key": "frech m",
+   "p2Key": "sawangkaew m",
+   "tip": "P1",
+   "tipName": "Magdalena Frech",
+   "prob": 0.6305,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-12|mcnally c|starodubtseva y": {
+   "sport": "tn",
+   "comp": "WTA · Dongfeng Voyah Wuhan Open",
+   "date": "2026-10-12",
+   "label": "Yuliia Starodubtseva – Catherine McNally",
+   "p1Key": "starodubtseva y",
+   "p2Key": "mcnally c",
+   "tip": "P1",
+   "tipName": "Yuliia Starodubtseva",
+   "prob": 0.5986,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-12|eala a|han s": {
+   "sport": "tn",
+   "comp": "WTA · Dongfeng Voyah Wuhan Open",
+   "date": "2026-10-12",
+   "label": "Shi Han – Alexandra Eala",
+   "p1Key": "han s",
+   "p2Key": "eala a",
+   "tip": "P2",
+   "tipName": "Alexandra Eala",
+   "prob": 0.9035,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-13|de minaur a|khachanov k": {
+   "sport": "tn",
+   "comp": "ATP · Rolex Shanghai Masters",
+   "date": "2026-10-13",
+   "label": "Karen Khachanov – Alex de Minaur",
+   "p1Key": "khachanov k",
+   "p2Key": "de minaur a",
+   "tip": "P2",
+   "tipName": "Alex de Minaur",
+   "prob": 0.7178,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-13|gea a|mensik j": {
+   "sport": "tn",
+   "comp": "ATP · Rolex Shanghai Masters",
+   "date": "2026-10-13",
+   "label": "Jakub Mensik – Arthur Gea",
+   "p1Key": "mensik j",
+   "p2Key": "gea a",
+   "tip": "P1",
+   "tipName": "Jakub Mensik",
+   "prob": 0.7539,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-13|cirstea s|hanyu g": {
+   "sport": "tn",
+   "comp": "WTA · Dongfeng Voyah Wuhan Open",
+   "date": "2026-10-13",
+   "label": "Sorana Cirstea – Guo Hanyu",
+   "p1Key": "cirstea s",
+   "p2Key": "hanyu g",
+   "tip": "P1",
+   "tipName": "Sorana Cirstea",
+   "prob": 0.9119,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-13|bartunkova n|tagger l": {
+   "sport": "tn",
+   "comp": "WTA · Dongfeng Voyah Wuhan Open",
+   "date": "2026-10-13",
+   "label": "Nikola Bartunkova – Lilli Tagger",
+   "p1Key": "bartunkova n",
+   "p2Key": "tagger l",
+   "tip": "P1",
+   "tipName": "Nikola Bartunkova",
+   "prob": 0.6217,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-13|putintseva y|sonmez z": {
+   "sport": "tn",
+   "comp": "WTA · Dongfeng Voyah Wuhan Open",
+   "date": "2026-10-13",
+   "label": "Zeynep Sonmez – Yulia Putintseva",
+   "p1Key": "sonmez z",
+   "p2Key": "putintseva y",
+   "tip": "P1",
+   "tipName": "Zeynep Sonmez",
+   "prob": 0.5731,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-13|boulter k|shnaider d": {
+   "sport": "tn",
+   "comp": "WTA · Dongfeng Voyah Wuhan Open",
+   "date": "2026-10-13",
+   "label": "Diana Shnaider – Katie Boulter",
+   "p1Key": "shnaider d",
+   "p2Key": "boulter k",
+   "tip": "P1",
+   "tipName": "Diana Shnaider",
+   "prob": 0.7647,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-13|bucsa c|yastremska d": {
+   "sport": "tn",
+   "comp": "WTA · Dongfeng Voyah Wuhan Open",
+   "date": "2026-10-13",
+   "label": "Cristina Bucsa – Dayana Yastremska",
+   "p1Key": "bucsa c",
+   "p2Key": "yastremska d",
+   "tip": "P1",
+   "tipName": "Cristina Bucsa",
+   "prob": 0.7273,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-13|samsonova l|siniakova k": {
+   "sport": "tn",
+   "comp": "WTA · Dongfeng Voyah Wuhan Open",
+   "date": "2026-10-13",
+   "label": "Liudmila Samsonova – Katerina Siniakova",
+   "p1Key": "samsonova l",
+   "p2Key": "siniakova k",
+   "tip": "P1",
+   "tipName": "Liudmila Samsonova",
+   "prob": 0.5725,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-13|chwalinska m|sherif m": {
+   "sport": "tn",
+   "comp": "WTA · Dongfeng Voyah Wuhan Open",
+   "date": "2026-10-13",
+   "label": "Maja Chwalinska – Mayar Sherif",
+   "p1Key": "chwalinska m",
+   "p2Key": "sherif m",
+   "tip": "P1",
+   "tipName": "Maja Chwalinska",
+   "prob": 0.6837,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-13|birrell k|volynets k": {
+   "sport": "tn",
+   "comp": "WTA · Dongfeng Voyah Wuhan Open",
+   "date": "2026-10-13",
+   "label": "Katie Volynets – Kimberly Birrell",
+   "p1Key": "volynets k",
+   "p2Key": "birrell k",
+   "tip": "P2",
+   "tipName": "Kimberly Birrell",
+   "prob": 0.6229,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-13|kasatkina d|ostapenko j": {
+   "sport": "tn",
+   "comp": "WTA · Dongfeng Voyah Wuhan Open",
+   "date": "2026-10-13",
+   "label": "Jelena Ostapenko – Daria Kasatkina",
+   "p1Key": "ostapenko j",
+   "p2Key": "kasatkina d",
+   "tip": "P1",
+   "tipName": "Jelena Ostapenko",
+   "prob": 0.7006,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-13|mertens e|snigur d": {
+   "sport": "tn",
+   "comp": "WTA · Dongfeng Voyah Wuhan Open",
+   "date": "2026-10-13",
+   "label": "Elise Mertens – Daria Snigur",
+   "p1Key": "mertens e",
+   "p2Key": "snigur d",
+   "tip": "P1",
+   "tipName": "Elise Mertens",
+   "prob": 0.6795,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-13|kalinskaya a|shuai z": {
+   "sport": "tn",
+   "comp": "WTA · Dongfeng Voyah Wuhan Open",
+   "date": "2026-10-13",
+   "label": "Zhang Shuai – Anna Kalinskaya",
+   "p1Key": "shuai z",
+   "p2Key": "kalinskaya a",
+   "tip": "P2",
+   "tipName": "Anna Kalinskaya",
+   "prob": 0.6919,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-13|li a|qinwen z": {
+   "sport": "tn",
+   "comp": "WTA · Dongfeng Voyah Wuhan Open",
+   "date": "2026-10-13",
+   "label": "Zheng Qinwen – Ann Li",
+   "p1Key": "qinwen z",
+   "p2Key": "li a",
+   "tip": "P2",
+   "tipName": "Ann Li",
+   "prob": 0.6224,
+   "status": "open",
+   "result": null,
+   "correct": null
   }
  }
 }
