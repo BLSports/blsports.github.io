@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-13T00:42:13.178317+02:00",
+ "generatedAt": "2026-10-13T01:41:19.187706+02:00",
  "windowDays": 3,
  "days": [
   "2026-10-13",
@@ -8018,7 +8018,41 @@
        "reason": "Inactive"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "lineups": {
+      "home": {
+       "formation": "4-2-3-1",
+       "xi": [
+        "Tiago Volpi",
+        "Ryan Tavares",
+        "Guzmán Rodríguez",
+        "Gustavo Marques",
+        "Juninho Capixaba",
+        "Fabinho",
+        "Eric Ramires",
+        "Lucas Barbosa",
+        "Wallace",
+        "Fernando",
+        "Eduardo Sasha"
+       ]
+      },
+      "away": {
+       "formation": "4-2-3-1",
+       "xi": [
+        "Otávio Eleodoro Rezende Costa",
+        "William",
+        "João Marcelo",
+        "Jonathan",
+        "G. Rojas",
+        "Zé Lucas",
+        "Gerson",
+        "Felipe Morais",
+        "Matheus Pereira",
+        "K. Arroyo",
+        "Kaio Jorge"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
    "seasonHasStarted": false,
@@ -11497,14 +11531,14 @@
  "tennisFinished": [],
  "stats": {
   "overall": {
-   "n": 3199,
-   "correct": 1900,
-   "pct": 0.5939
+   "n": 3244,
+   "correct": 1925,
+   "pct": 0.5934
   },
   "football": {
-   "n": 905,
-   "correct": 442,
-   "pct": 0.4884
+   "n": 950,
+   "correct": 467,
+   "pct": 0.4916
   },
   "tennis": {
    "n": 2294,
@@ -11512,17 +11546,94 @@
    "pct": 0.6356
   },
   "exact": {
-   "n": 905,
-   "correct": 104
+   "n": 950,
+   "correct": 108
   },
-  "open": 350,
+  "open": 305,
   "value": {
-   "n": 15,
-   "correct": 2,
-   "units": -10.7,
-   "avgOdds": 2.96
+   "n": 38,
+   "correct": 11,
+   "units": -10.06,
+   "avgOdds": 2.93
   },
   "recent": [
+   {
+    "date": "2026-10-12",
+    "comp": "Serie A",
+    "label": "Atalanta – Venezia",
+    "tipName": "Atalanta",
+    "tip": "1",
+    "prob": 0.8085,
+    "result": "3:1",
+    "correct": true,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-10-12",
+    "comp": "Serie A",
+    "label": "Torino – Udinese",
+    "tipName": "Udinese",
+    "tip": "2",
+    "prob": 0.4304,
+    "result": "2:1",
+    "correct": false,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-10-12",
+    "comp": "La Liga",
+    "label": "Levante – Sevilla",
+    "tipName": "Levante",
+    "tip": "1",
+    "prob": 0.4562,
+    "result": "3:3",
+    "correct": false,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-10-12",
+    "comp": "La Liga 2",
+    "label": "Real Valladolid – Albacete",
+    "tipName": "Real Valladolid",
+    "tip": "1",
+    "prob": 0.3921,
+    "result": "5:0",
+    "correct": true,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-10-12",
+    "comp": "La Liga 2",
+    "label": "Burgos – Granada",
+    "tipName": "Burgos",
+    "tip": "1",
+    "prob": 0.547,
+    "result": "0:1",
+    "correct": false,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-10-12",
+    "comp": "La Liga 2",
+    "label": "Real Oviedo – Eibar",
+    "tipName": "Eibar",
+    "tip": "2",
+    "prob": 0.4252,
+    "result": "3:1",
+    "correct": false,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-10-12",
+    "comp": "La Liga 2",
+    "label": "Tenerife – Girona",
+    "tipName": "Girona",
+    "tip": "2",
+    "prob": 0.5572,
+    "result": "1:1",
+    "correct": false,
+    "sport": "fb"
+   },
    {
     "date": "2026-10-12",
     "comp": "ATP · Rolex Shanghai Masters",
@@ -11717,83 +11828,6 @@
     "tipName": "Susan Bandecchi",
     "tip": "P2",
     "prob": 0.7525,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-12",
-    "comp": "WTA · RoveretOpen Città della Pace",
-    "label": "Lucia Bronzetti – Mona Barthel",
-    "tipName": "Lucia Bronzetti",
-    "tip": "P1",
-    "prob": 0.5608,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-12",
-    "comp": "WTA · RoveretOpen Città della Pace",
-    "label": "Gabriela Knutson – Emiliana Arango",
-    "tipName": "Emiliana Arango",
-    "tip": "P2",
-    "prob": 0.5937,
-    "result": "Sieger: P1",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-12",
-    "comp": "WTA · Dongfeng Voyah Wuhan Open",
-    "label": "Aoi Ito – Janice Tjen",
-    "tipName": "Janice Tjen",
-    "tip": "P2",
-    "prob": 0.8452,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-12",
-    "comp": "WTA · Dongfeng Voyah Wuhan Open",
-    "label": "Magdalena Frech – Mananchaya Sawangkaew",
-    "tipName": "Magdalena Frech",
-    "tip": "P1",
-    "prob": 0.6305,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-12",
-    "comp": "WTA · Dongfeng Voyah Wuhan Open",
-    "label": "Yuliia Starodubtseva – Catherine McNally",
-    "tipName": "Yuliia Starodubtseva",
-    "tip": "P1",
-    "prob": 0.5986,
-    "result": "Sieger: P2",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-12",
-    "comp": "WTA · Dongfeng Voyah Wuhan Open",
-    "label": "Shi Han – Alexandra Eala",
-    "tipName": "Alexandra Eala",
-    "tip": "P2",
-    "prob": 0.8994,
-    "result": "Sieger: P1",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-12",
-    "comp": "WTA · Vanda Pharmaceuticals Mallorca Women's Championships presented by Ecotrans Group",
-    "label": "Yasmine Kabbaj – Andrea Lazaro Garcia",
-    "tipName": "Andrea Lazaro Garcia",
-    "tip": "P2",
-    "prob": 0.6205,
     "result": "Sieger: P2",
     "correct": true,
     "sport": "tn"
