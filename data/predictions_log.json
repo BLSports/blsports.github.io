@@ -70659,8 +70659,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 2.75,
-    "edge": 0.1458,
+    "odds": 2.8,
+    "edge": 0.1501,
     "modelP": 0.4786,
     "won": null
    }
@@ -70735,14 +70735,7 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null,
-   "value": {
-    "pick": "2",
-    "odds": 3.25,
-    "edge": 0.0812,
-    "modelP": 0.3613,
-    "won": null
-   }
+   "exact": null
   },
   "tn|wta|2026-10-11|kasatkina d|sorribes tormo s": {
    "sport": "tn",
@@ -70852,9 +70845,9 @@
    "tip": "P1",
    "tipName": "Felix Auger-Aliassime",
    "prob": 0.8985,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-10-12|medvedev d|svrcina d": {
    "sport": "tn",
@@ -70866,9 +70859,9 @@
    "tip": "P2",
    "tipName": "Daniil Medvedev",
    "prob": 0.9301,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-10-12|jodar r|lehecka j": {
    "sport": "tn",
@@ -70880,9 +70873,9 @@
    "tip": "P1",
    "tipName": "Rafael Jodar",
    "prob": 0.544,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-12|kalinina a|kartal s": {
    "sport": "tn",
@@ -70894,9 +70887,9 @@
    "tip": "P2",
    "tipName": "Anhelina Kalinina",
    "prob": 0.6912,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-12|cirstea s|hanyu g": {
    "sport": "tn",
@@ -70922,9 +70915,9 @@
    "tip": "P2",
    "tipName": "Jasmine Paolini",
    "prob": 0.5783,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-12|bartunkova n|tagger l": {
    "sport": "tn",
@@ -70978,9 +70971,9 @@
    "tip": "P2",
    "tipName": "Maria Sakkari",
    "prob": 0.5408,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-12|samsonova l|siniakova k": {
    "sport": "tn",
@@ -71006,9 +70999,9 @@
    "tip": "P1",
    "tipName": "Marie Bouzkova",
    "prob": 0.6023,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-12|chwalinska m|sherif m": {
    "sport": "tn",
@@ -71047,7 +71040,7 @@
    "p2Key": "xiyu w",
    "tip": "P1",
    "tipName": "Wang Xinyu",
-   "prob": 0.6647,
+   "prob": 0.6727,
    "status": "open",
    "result": null,
    "correct": null
@@ -71062,9 +71055,9 @@
    "tip": "P1",
    "tipName": "Leylah Fernandez",
    "prob": 0.5157,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-12|mertens e|snigur d": {
    "sport": "tn",
@@ -71174,9 +71167,9 @@
    "tip": "P2",
    "tipName": "Learner Tien",
    "prob": 0.5728,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-10-12|fritz t|tsitsipas s": {
    "sport": "tn",
@@ -71188,9 +71181,9 @@
    "tip": "P1",
    "tipName": "Taylor Fritz",
    "prob": 0.7474,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-11|garcia cid m|hesse a": {
    "sport": "tn",
@@ -71621,7 +71614,7 @@
    "p2Key": "pigato l",
    "tip": "P2",
    "tipName": "Lisa Pigato",
-   "prob": 0.6121,
+   "prob": 0.6201,
    "status": "open",
    "result": null,
    "correct": null
@@ -71635,7 +71628,7 @@
    "p2Key": "klimovicova l",
    "tip": "P1",
    "tipName": "Lucie Havlickova",
-   "prob": 0.5228,
+   "prob": 0.5151,
    "status": "open",
    "result": null,
    "correct": null
@@ -71705,7 +71698,7 @@
    "p2Key": "iatcenko p",
    "tip": "P2",
    "tipName": "Polina Iatcenko",
-   "prob": 0.5765,
+   "prob": 0.5948,
    "status": "open",
    "result": null,
    "correct": null
@@ -71719,7 +71712,7 @@
    "p2Key": "bandecchi s",
    "tip": "P2",
    "tipName": "Susan Bandecchi",
-   "prob": 0.7363,
+   "prob": 0.7525,
    "status": "open",
    "result": null,
    "correct": null
@@ -71747,7 +71740,7 @@
    "p2Key": "barthel m",
    "tip": "P1",
    "tipName": "Lucia Bronzetti",
-   "prob": 0.5724,
+   "prob": 0.5608,
    "status": "open",
    "result": null,
    "correct": null
@@ -71761,7 +71754,7 @@
    "p2Key": "arango e",
    "tip": "P2",
    "tipName": "Emiliana Arango",
-   "prob": 0.6237,
+   "prob": 0.5937,
    "status": "open",
    "result": null,
    "correct": null
@@ -72077,9 +72070,9 @@
    "tip": "P2",
    "tipName": "Janice Tjen",
    "prob": 0.8452,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-12|frech m|sawangkaew m": {
    "sport": "tn",
@@ -72091,9 +72084,9 @@
    "tip": "P1",
    "tipName": "Magdalena Frech",
    "prob": 0.6305,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-12|mcnally c|starodubtseva y": {
    "sport": "tn",
@@ -72105,9 +72098,9 @@
    "tip": "P1",
    "tipName": "Yuliia Starodubtseva",
    "prob": 0.5986,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-12|eala a|han s": {
    "sport": "tn",
@@ -72118,7 +72111,7 @@
    "p2Key": "eala a",
    "tip": "P2",
    "tipName": "Alexandra Eala",
-   "prob": 0.9035,
+   "prob": 0.8994,
    "status": "open",
    "result": null,
    "correct": null
@@ -72174,7 +72167,7 @@
    "p2Key": "tagger l",
    "tip": "P1",
    "tipName": "Nikola Bartunkova",
-   "prob": 0.6217,
+   "prob": 0.6327,
    "status": "open",
    "result": null,
    "correct": null
@@ -72188,7 +72181,7 @@
    "p2Key": "putintseva y",
    "tip": "P1",
    "tipName": "Zeynep Sonmez",
-   "prob": 0.5731,
+   "prob": 0.5617,
    "status": "open",
    "result": null,
    "correct": null
@@ -72202,7 +72195,7 @@
    "p2Key": "boulter k",
    "tip": "P1",
    "tipName": "Diana Shnaider",
-   "prob": 0.7647,
+   "prob": 0.7704,
    "status": "open",
    "result": null,
    "correct": null
@@ -72216,7 +72209,7 @@
    "p2Key": "yastremska d",
    "tip": "P1",
    "tipName": "Cristina Bucsa",
-   "prob": 0.7273,
+   "prob": 0.7001,
    "status": "open",
    "result": null,
    "correct": null
@@ -72230,7 +72223,7 @@
    "p2Key": "siniakova k",
    "tip": "P1",
    "tipName": "Liudmila Samsonova",
-   "prob": 0.5725,
+   "prob": 0.6454,
    "status": "open",
    "result": null,
    "correct": null
@@ -72244,7 +72237,7 @@
    "p2Key": "sherif m",
    "tip": "P1",
    "tipName": "Maja Chwalinska",
-   "prob": 0.6837,
+   "prob": 0.6751,
    "status": "open",
    "result": null,
    "correct": null
@@ -72258,7 +72251,7 @@
    "p2Key": "birrell k",
    "tip": "P2",
    "tipName": "Kimberly Birrell",
-   "prob": 0.6229,
+   "prob": 0.6615,
    "status": "open",
    "result": null,
    "correct": null
@@ -72272,7 +72265,7 @@
    "p2Key": "kasatkina d",
    "tip": "P1",
    "tipName": "Jelena Ostapenko",
-   "prob": 0.7006,
+   "prob": 0.6788,
    "status": "open",
    "result": null,
    "correct": null
@@ -72286,7 +72279,7 @@
    "p2Key": "snigur d",
    "tip": "P1",
    "tipName": "Elise Mertens",
-   "prob": 0.6795,
+   "prob": 0.7178,
    "status": "open",
    "result": null,
    "correct": null
@@ -72328,7 +72321,7 @@
    "p2Key": "lazaro garcia a",
    "tip": "P2",
    "tipName": "Andrea Lazaro Garcia",
-   "prob": 0.6359,
+   "prob": 0.6205,
    "status": "open",
    "result": null,
    "correct": null
@@ -72454,7 +72447,7 @@
    "p2Key": "grabher j",
    "tip": "P2",
    "tipName": "Julia Grabher",
-   "prob": 0.7396,
+   "prob": 0.7462,
    "status": "open",
    "result": null,
    "correct": null
@@ -72496,7 +72489,7 @@
    "p2Key": "ruggeri j",
    "tip": "P1",
    "tipName": "Elizara Yaneva",
-   "prob": 0.5956,
+   "prob": 0.614,
    "status": "open",
    "result": null,
    "correct": null
@@ -72511,9 +72504,9 @@
    "tip": "P2",
    "tipName": "Aneta Kucmova",
    "prob": 0.5004,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-12|nguyen tan l|roura llaverias r": {
    "sport": "tn",
@@ -72525,9 +72518,9 @@
    "tip": "P2",
    "tipName": "Lucie Nguyen Tan",
    "prob": 0.567,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-12|diaz adrover c|wobker i": {
    "sport": "tn",
@@ -72539,9 +72532,9 @@
    "tip": "P2",
    "tipName": "Ida Wobker",
    "prob": 0.5493,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-12|boskovic l|jacquemot e": {
    "sport": "tn",
@@ -72553,9 +72546,9 @@
    "tip": "P2",
    "tipName": "Elsa Jacquemot",
    "prob": 0.6426,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-12|johanna brockmann t|lena friedsam a": {
    "sport": "tn",
@@ -72567,9 +72560,9 @@
    "tip": "P2",
    "tipName": "Anna-Lena Friedsam",
    "prob": 0.5574,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-12|encheva l|yesypchuk d": {
    "sport": "tn",
@@ -72609,9 +72602,9 @@
    "tip": "P2",
    "tipName": "Erika Andreeva",
    "prob": 0.534,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-12|nagy a|primorac pavicic i": {
    "sport": "tn",
@@ -72664,7 +72657,7 @@
    "p2Key": "serban r",
    "tip": "P2",
    "tipName": "Raluka Serban",
-   "prob": 0.6619,
+   "prob": 0.6807,
    "status": "open",
    "result": null,
    "correct": null
@@ -72678,7 +72671,7 @@
    "p2Key": "burel c",
    "tip": "P2",
    "tipName": "Clara Burel",
-   "prob": 0.5969,
+   "prob": 0.6093,
    "status": "open",
    "result": null,
    "correct": null
@@ -72692,7 +72685,7 @@
    "p2Key": "palicova b",
    "tip": "P1",
    "tipName": "Jazmin Ortenzi",
-   "prob": 0.5467,
+   "prob": 0.5398,
    "status": "open",
    "result": null,
    "correct": null
@@ -72706,7 +72699,7 @@
    "p2Key": "romero gormaz l",
    "tip": "P2",
    "tipName": "Leyre Romero Gormaz",
-   "prob": 0.6398,
+   "prob": 0.6494,
    "status": "open",
    "result": null,
    "correct": null
@@ -72748,7 +72741,7 @@
    "p2Key": "kovacevic t",
    "tip": "P2",
    "tipName": "Tea Kovacevic",
-   "prob": 0.6485,
+   "prob": 0.6451,
    "status": "open",
    "result": null,
    "correct": null
@@ -72762,7 +72755,7 @@
    "p2Key": "pigossi l",
    "tip": "P1",
    "tipName": "Nuria Brancaccio",
-   "prob": 0.5057,
+   "prob": 0.5098,
    "status": "open",
    "result": null,
    "correct": null
@@ -72776,7 +72769,7 @@
    "p2Key": "cortez llorca l",
    "tip": "P1",
    "tipName": "Ekaterine Gorgodze",
-   "prob": 0.6946,
+   "prob": 0.6901,
    "status": "open",
    "result": null,
    "correct": null
@@ -72804,7 +72797,7 @@
    "p2Key": "hodzic m",
    "tip": "P1",
    "tipName": "Joelle Lilly Sophie Steur",
-   "prob": 0.5278,
+   "prob": 0.5218,
    "status": "open",
    "result": null,
    "correct": null
@@ -72818,7 +72811,7 @@
    "p2Key": "sobolieva a",
    "tip": "P2",
    "tipName": "Anastasiia Sobolieva",
-   "prob": 0.56,
+   "prob": 0.5455,
    "status": "open",
    "result": null,
    "correct": null
@@ -72832,7 +72825,7 @@
    "p2Key": "masarova r",
    "tip": "P1",
    "tipName": "Noma Noha Akugue",
-   "prob": 0.553,
+   "prob": 0.5645,
    "status": "open",
    "result": null,
    "correct": null
@@ -72846,7 +72839,7 @@
    "p2Key": "zidansek t",
    "tip": "P2",
    "tipName": "Tamara Zidansek",
-   "prob": 0.5638,
+   "prob": 0.534,
    "status": "open",
    "result": null,
    "correct": null
@@ -72860,7 +72853,7 @@
    "p2Key": "ruzic a",
    "tip": "P2",
    "tipName": "Antonia Ruzic",
-   "prob": 0.6478,
+   "prob": 0.6195,
    "status": "open",
    "result": null,
    "correct": null
@@ -72874,7 +72867,7 @@
    "p2Key": "kubka m",
    "tip": "P1",
    "tipName": "Alina Charaeva",
-   "prob": 0.5806,
+   "prob": 0.6102,
    "status": "open",
    "result": null,
    "correct": null
@@ -72902,7 +72895,7 @@
    "p2Key": "salkova d",
    "tip": "P2",
    "tipName": "Dominika Salkova",
-   "prob": 0.6416,
+   "prob": 0.6511,
    "status": "open",
    "result": null,
    "correct": null
@@ -72916,7 +72909,7 @@
    "p2Key": "radivojevic l",
    "tip": "P1",
    "tipName": "Teodora Kostovic",
-   "prob": 0.5524,
+   "prob": 0.6161,
    "status": "open",
    "result": null,
    "correct": null
@@ -72930,7 +72923,7 @@
    "p2Key": "basiletti n",
    "tip": "P1",
    "tipName": "Viktoria Hruncakova",
-   "prob": 0.53,
+   "prob": 0.5333,
    "status": "open",
    "result": null,
    "correct": null
@@ -72944,7 +72937,7 @@
    "p2Key": "mair l",
    "tip": "P1",
    "tipName": "Lucrezia Stefanini",
-   "prob": 0.7423,
+   "prob": 0.772,
    "status": "open",
    "result": null,
    "correct": null
@@ -72958,7 +72951,7 @@
    "p2Key": "bouzas maneiro j",
    "tip": "P2",
    "tipName": "Jessica Bouzas Maneiro",
-   "prob": 0.6929,
+   "prob": 0.6873,
    "status": "open",
    "result": null,
    "correct": null
@@ -72972,7 +72965,7 @@
    "p2Key": "galfi d",
    "tip": "P2",
    "tipName": "Dalma Galfi",
-   "prob": 0.6069,
+   "prob": 0.6042,
    "status": "open",
    "result": null,
    "correct": null
@@ -72986,7 +72979,7 @@
    "p2Key": "burillo i",
    "tip": "P2",
    "tipName": "Irene Burillo",
-   "prob": 0.5734,
+   "prob": 0.5647,
    "status": "open",
    "result": null,
    "correct": null
@@ -73000,7 +72993,7 @@
    "p2Key": "zantedeschi a",
    "tip": "P1",
    "tipName": "Fiona Ferro",
-   "prob": 0.6946,
+   "prob": 0.7046,
    "status": "open",
    "result": null,
    "correct": null
@@ -73014,7 +73007,7 @@
    "p2Key": "colmegna m",
    "tip": "P1",
    "tipName": "Francesca Jones",
-   "prob": 0.7293,
+   "prob": 0.7248,
    "status": "open",
    "result": null,
    "correct": null
@@ -73028,7 +73021,7 @@
    "p2Key": "kulambayeva z",
    "tip": "P1",
    "tipName": "Francisca Jorge",
-   "prob": 0.6668,
+   "prob": 0.6677,
    "status": "open",
    "result": null,
    "correct": null
@@ -73042,7 +73035,7 @@
    "p2Key": "zaar l",
    "tip": "P1",
    "tipName": "Matilde Jorge",
-   "prob": 0.5373,
+   "prob": 0.5379,
    "status": "open",
    "result": null,
    "correct": null
@@ -73056,7 +73049,7 @@
    "p2Key": "matias m",
    "tip": "P1",
    "tipName": "Polona Hercog",
-   "prob": 0.5113,
+   "prob": 0.5233,
    "status": "open",
    "result": null,
    "correct": null
@@ -73068,9 +73061,9 @@
    "label": "Giorgia Pedone – Martha Matoula",
    "p1Key": "pedone g",
    "p2Key": "matoula m",
-   "tip": "P1",
-   "tipName": "Giorgia Pedone",
-   "prob": 0.5059,
+   "tip": "P2",
+   "tipName": "Martha Matoula",
+   "prob": 0.5054,
    "status": "open",
    "result": null,
    "correct": null
@@ -73396,6 +73389,118 @@
     "modelP": 0.7075,
     "won": null
    }
+  },
+  "tn|wta|2026-10-13|kostyuk m|sakkari m": {
+   "sport": "tn",
+   "comp": "WTA · Dongfeng Voyah Wuhan Open",
+   "date": "2026-10-13",
+   "label": "Marta Kostyuk – Maria Sakkari",
+   "p1Key": "kostyuk m",
+   "p2Key": "sakkari m",
+   "tip": "P1",
+   "tipName": "Marta Kostyuk",
+   "prob": 0.7436,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-13|li a|osorio c": {
+   "sport": "tn",
+   "comp": "WTA · Dongfeng Voyah Wuhan Open",
+   "date": "2026-10-13",
+   "label": "Camila Osorio – Ann Li",
+   "p1Key": "osorio c",
+   "p2Key": "li a",
+   "tip": "P2",
+   "tipName": "Ann Li",
+   "prob": 0.6582,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-13|krueger a|shuai z": {
+   "sport": "tn",
+   "comp": "WTA · Dongfeng Voyah Wuhan Open",
+   "date": "2026-10-13",
+   "label": "Zhang Shuai – Ashlyn Krueger",
+   "p1Key": "shuai z",
+   "p2Key": "krueger a",
+   "tip": "P2",
+   "tipName": "Ashlyn Krueger",
+   "prob": 0.5371,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-14|auger aliassime f|ruud c": {
+   "sport": "tn",
+   "comp": "ATP · Rolex Shanghai Masters",
+   "date": "2026-10-14",
+   "label": "Felix Auger-Aliassime – Casper Ruud",
+   "p1Key": "auger aliassime f",
+   "p2Key": "ruud c",
+   "tip": "P1",
+   "tipName": "Felix Auger-Aliassime",
+   "prob": 0.7914,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-14|medvedev d|tsitsipas s": {
+   "sport": "tn",
+   "comp": "ATP · Rolex Shanghai Masters",
+   "date": "2026-10-14",
+   "label": "Stefanos Tsitsipas – Daniil Medvedev",
+   "p1Key": "tsitsipas s",
+   "p2Key": "medvedev d",
+   "tip": "P2",
+   "tipName": "Daniil Medvedev",
+   "prob": 0.8421,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-14|mcnally c|muchova k": {
+   "sport": "tn",
+   "comp": "WTA · Dongfeng Voyah Wuhan Open",
+   "date": "2026-10-14",
+   "label": "Catherine McNally – Karolina Muchova",
+   "p1Key": "mcnally c",
+   "p2Key": "muchova k",
+   "tip": "P2",
+   "tipName": "Karolina Muchova",
+   "prob": 0.8762,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-14|bencic b|kartal s": {
+   "sport": "tn",
+   "comp": "WTA · Dongfeng Voyah Wuhan Open",
+   "date": "2026-10-14",
+   "label": "Belinda Bencic – Sonay Kartal",
+   "p1Key": "bencic b",
+   "p2Key": "kartal s",
+   "tip": "P1",
+   "tipName": "Belinda Bencic",
+   "prob": 0.9049,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-14|frech m|swiatek i": {
+   "sport": "tn",
+   "comp": "WTA · Dongfeng Voyah Wuhan Open",
+   "date": "2026-10-14",
+   "label": "Iga Swiatek – Magdalena Frech",
+   "p1Key": "swiatek i",
+   "p2Key": "frech m",
+   "tip": "P1",
+   "tipName": "Iga Swiatek",
+   "prob": 0.8255,
+   "status": "open",
+   "result": null,
+   "correct": null
   }
  }
 }
