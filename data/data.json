@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-13T22:02:08.398836+02:00",
+ "generatedAt": "2026-10-13T23:54:38.719982+02:00",
  "windowDays": 3,
  "days": [
   "2026-10-13",
@@ -392,7 +392,13 @@
        "reason": "Knee Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "news": [
+      {
+       "title": "Horror-Start und Rote Karte: Manchester United verliert in Madrid",
+       "link": "https://www.kicker.de/horror-start-und-rote-karte-manchester-united-verliert-in-madrid-1261053/video#omrss"
+      }
+     ]
     },
     {
      "kickoff": "2026-10-14T21:00:00+02:00",
@@ -643,13 +649,7 @@
        "reason": "Muscle Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "Dortmunds vier Herausforderungen im hohen Norden",
-       "link": "https://www.kicker.de/dortmunds-vier-herausforderungen-im-hohen-norden-1260752/artikel#omrss"
-      }
-     ]
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-10-14T21:00:00+02:00",
@@ -1176,11 +1176,11 @@
       },
       {
        "name": "J. Hornkamp",
-       "reason": "Inactive"
+       "reason": "Injury"
       },
       {
        "name": "K. Smit",
-       "reason": "Inactive"
+       "reason": "Injury"
       },
       {
        "name": "H. Verhulst",
@@ -1296,7 +1296,7 @@
       },
       {
        "name": "A. Sayyadmanesh",
-       "reason": "Inactive"
+       "reason": "Groin Injury"
       }
      ],
      "injuriesAway": [
@@ -1327,10 +1327,6 @@
      ],
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
-      {
-       "title": "LIVE! Elfer nach VAR-Eingriff: Kane bringt die Bayern zurück ins Spiel",
-       "link": "https://www.kicker.de/live-elfer-nach-var-eingriff-kane-bringt-die-bayern-zurueck-ins-spiel-1260461/artikel#omrss"
-      },
       {
        "title": "Die graue Eminenz geht: Nickl löst Wenning als obersten Bayer-Kontrolleur ab",
        "link": "https://www.kicker.de/die-graue-eminenz-geht-nickl-loest-wenning-als-obersten-bayer-kontrolleur-ab-1260781/artikel#omrss"
@@ -1406,7 +1402,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Lyon ist gegen Crystal Palace leicht favorisiert (49 % zu 28 %). In der Tabelle stehen sich Platz 11 und Platz 2 gegenüber. Das letzte Duell (2023) endete 2:0 (Crystal Palace – Lyon). Das Modell erwartet ein torreiches Spiel (xG 1,8:1,3; über 2,5 Tore: 59 %, beide Teams treffen zu 60 %). Gefährlichste Torschützen: bei Lyon Keito Nakamura (1 Tore) und bei Crystal Palace Yéremy Pino (1 Tore). Personal: Lyon fehlen 6 Spieler (u.a. Abner Vinicius); Crystal Palace fehlen 6 Spieler (u.a. C. Doucoure).",
+     "analysis": "Lyon ist gegen Crystal Palace leicht favorisiert (49 % zu 28 %). In der Tabelle stehen sich Platz 11 und Platz 2 gegenüber. Das letzte Duell (2023) endete 2:0 (Crystal Palace – Lyon). Das Modell erwartet ein torreiches Spiel (xG 1,8:1,3; über 2,5 Tore: 59 %, beide Teams treffen zu 60 %). Gefährlichste Torschützen: bei Lyon Keito Nakamura (1 Tore) und bei Crystal Palace Yéremy Pino (1 Tore). Personal: Lyon fehlen 5 Spieler (u.a. Abner Vinicius); Crystal Palace fehlen 6 Spieler (u.a. C. Doucoure).",
      "injuriesHome": [
       {
        "name": "Abner Vinicius",
@@ -1417,20 +1413,16 @@
        "reason": "Inactive"
       },
       {
-       "name": "R. Himbert",
-       "reason": "Inactive"
-      },
-      {
        "name": "M. Niakhate",
        "reason": "Muscle Injury"
       },
       {
-       "name": "M. Ouedraogo",
-       "reason": "Knee Injury"
+       "name": "L. Openda",
+       "reason": "Leg Injury"
       },
       {
-       "name": "L. Openda",
-       "reason": "Injury"
+       "name": "M. Ouedraogo",
+       "reason": "Knee Injury"
       }
      ],
      "injuriesAway": [
@@ -1584,15 +1576,15 @@
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": " Personal: AC Milan fehlen 2 Spieler (u.a. A. Saelemaekers).",
+     "analysis": " Personal: AC Milan fehlen 2 Spieler (u.a. M. Gabbia).",
      "injuriesAway": [
-      {
-       "name": "A. Saelemaekers",
-       "reason": "Ankle Injury"
-      },
       {
        "name": "M. Gabbia",
        "reason": "Injury"
+      },
+      {
+       "name": "A. Saelemaekers",
+       "reason": "Ankle Injury"
       }
      ],
      "basis": "Datenbasis: Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1808,7 +1800,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Union St.-Gilloise geht als klarer Favorit (72 %) in das Heimspiel gegen Real Sociedad. In der Tabelle stehen sich Platz 5 und Platz 22 gegenüber. Die Form spricht für Union St.-Gilloise: 4 Siege aus den letzten 5 Spielen, Real Sociedad holte nur 2. Das Modell erwartet ein torreiches Spiel (xG 2,5:1,0; über 2,5 Tore: 68 %, beide Teams treffen zu 57 %). Gefährlichste Torschützen: bei Real Sociedad Sergio Gómez (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,39) für 32 Prozentpunkte wahrscheinlicher als der Markt. Personal: Union St.-Gilloise fehlen 6 Spieler (u.a. A. Ait El Hadj); Real Sociedad fehlen 3 Spieler (u.a. J. Aramburu).",
+     "analysis": "Union St.-Gilloise geht als klarer Favorit (72 %) in das Heimspiel gegen Real Sociedad. In der Tabelle stehen sich Platz 5 und Platz 22 gegenüber. Die Form spricht für Union St.-Gilloise: 4 Siege aus den letzten 5 Spielen, Real Sociedad holte nur 2. Das Modell erwartet ein torreiches Spiel (xG 2,5:1,0; über 2,5 Tore: 68 %, beide Teams treffen zu 57 %). Gefährlichste Torschützen: bei Real Sociedad Sergio Gómez (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,39) für 32 Prozentpunkte wahrscheinlicher als der Markt. Personal: Union St.-Gilloise fehlen 6 Spieler (u.a. A. Ait El Hadj); Real Sociedad fehlen 4 Spieler (u.a. J. Aramburu).",
      "injuriesHome": [
       {
        "name": "A. Ait El Hadj",
@@ -1847,6 +1839,10 @@
       {
        "name": "I. Zubeldia",
        "reason": "Injury"
+      },
+      {
+       "name": "L. Beitia",
+       "reason": "Ankle Injury"
       }
      ],
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2799,7 +2795,7 @@
       },
       {
        "name": "V. Cerny",
-       "reason": "Injury"
+       "reason": "Muscle Injury"
       }
      ],
      "basis": "Datenbasis: Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -3070,6 +3066,10 @@
      "analysis": "",
      "basis": "Datenbasis: Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
+      {
+       "title": "Horror-Start und Rote Karte: Manchester United verliert in Madrid",
+       "link": "https://www.kicker.de/horror-start-und-rote-karte-manchester-united-verliert-in-madrid-1261053/video#omrss"
+      },
       {
        "title": "Die Bremer Bieger: Warum ist Werder nach Rückständen so stark?",
        "link": "https://www.kicker.de/die-bremer-bieger-warum-ist-werder-nach-rueckstaenden-so-stark-1260552/artikel#omrss"
@@ -4147,16 +4147,16 @@
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
       {
+       "title": "Horror-Start und Rote Karte: Manchester United verliert in Madrid",
+       "link": "https://www.kicker.de/horror-start-und-rote-karte-manchester-united-verliert-in-madrid-1261053/video#omrss"
+      },
+      {
        "title": "BVB verlängert mit Kovac - eine gute Entscheidung?",
        "link": "https://www.kicker.de/bvb-verlaengert-mit-kovac-eine-gute-entscheidung-1260767/artikel#omrss"
       },
       {
        "title": "Offiziell: BVB verlängert mit Trainer Kovac bis 2029",
        "link": "https://www.kicker.de/offiziell-bvb-verlaengert-mit-trainer-kovac-bis-2029-1259227/artikel#omrss"
-      },
-      {
-       "title": "Sechs Verletzte nach Ausschreitungen beim Rheinderby",
-       "link": "https://www.kicker.de/sechs-verletzte-nach-ausschreitungen-beim-rheinderby-1260599/artikel#omrss"
       }
      ]
     },
