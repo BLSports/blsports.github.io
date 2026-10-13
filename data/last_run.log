@@ -59,8 +59,8 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!
 total 8
-drwxr-xr-x  2 runner runner 4096 Oct 12 23:41 .
-drwxrwxrwt 15 root   root   4096 Oct 12 23:41 ..
+drwxr-xr-x  2 runner runner 4096 Oct 13 11:12 .
+drwxrwxrwt 14 root   root   4096 Oct 13 11:12 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -188,7 +188,7 @@ drwxrwxrwt 15 root   root   4096 Oct 12 23:41 ..
   WARN: https://www.tennis-data.co.uk/2024w/2024.xlsx nicht erreichbar (binaer)
   WARN: https://www.tennis-data.co.uk/2025w/2025.xlsx nicht erreichbar (binaer)
   WARN: https://www.tennis-data.co.uk/2026w/2026.xlsx nicht erreichbar (binaer)
-fixtures.csv: 199 Spiele mit Quoten
+fixtures.csv: 14 Spiele mit Quoten
 == WM ==
   0 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
@@ -267,8 +267,7 @@ fixtures.csv: 199 Spiele mit Quoten
   12 Prognosen via Team-Historie-Fallback erstellt
 == Série A (Brasilien) ==
   0 Ergebnisse geladen
-  1 Spiele in den naechsten 3 Tagen
-  1 Prognosen via Team-Historie-Fallback erstellt
+  0 Spiele in den naechsten 3 Tagen
 == Eliteserien (Norwegen) ==
   0 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
@@ -281,17 +280,17 @@ fixtures.csv: 199 Spiele mit Quoten
 == Premier Division (Irland) ==
   0 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
-  Kicker-News: 40 Schlagzeilen geladen
+  Kicker-News: 34 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 896, WTA 892
   Historie: ATP 0 Matches, WTA 0 Matches
   Elo ATP: 0 Spieler bewertet
   Elo WTA: 0 Spieler bewertet
-  Belag-Zuordnung (MatchStat): 29 Turniere
-  Tennis-Quoten zugeordnet: 23
-  90 Tennis-Matches in den naechsten 3 Tagen
-  0 Tennis-Matches heute bereits beendet
-  Tipp-Log: 4670 Eintraege, 3244 ausgewertet, 1925 richtig
-  Premium-Abrufe: Tennis 8, Fussball 300 (Tennis AKTIV, Fussball AKTIV)
+  Belag-Zuordnung (MatchStat): 38 Turniere
+  Tennis-Quoten zugeordnet: 9
+  74 Tennis-Matches in den naechsten 3 Tagen
+  21 Tennis-Matches heute bereits beendet
+  Tipp-Log: 4682 Eintraege, 3275 ausgewertet, 1945 richtig
+  Premium-Abrufe: Tennis 8, Fussball 297 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
