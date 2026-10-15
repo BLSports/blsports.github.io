@@ -59,8 +59,8 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!
 total 8
-drwxr-xr-x  2 runner runner 4096 Oct 15 16:13 .
-drwxrwxrwt 15 root   root   4096 Oct 15 16:12 ..
+drwxr-xr-x  2 runner runner 4096 Oct 15 20:26 .
+drwxrwxrwt 15 root   root   4096 Oct 15 20:26 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -88,14 +88,14 @@ drwxrwxrwt 15 root   root   4096 Oct 15 16:12 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20260328-20260625&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20260626-20260923&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20260924-20261015&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
+  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa/scoreboard?dates=20261015-20270212&limit=50 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20260328-20260625&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20260626-20260923&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20260924-20261015&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
-  WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/uefa.europa.conf/seasons/2026/types/1/leaders nicht erreichbar (HTTP Error 404: Not Found)
-  WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/uefa.europa.conf/seasons/2026/types/2/leaders nicht erreichbar (HTTP Error 404: Not Found)
+  WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261015-20270212&limit=50 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -190,12 +190,10 @@ fixtures.csv: 14 Spiele mit Quoten
   0 Spiele in den naechsten 3 Tagen
 == Europa League ==
   0 Ergebnisse geladen
-  19 Spiele in den naechsten 3 Tagen
-  14 Prognosen via Team-Historie-Fallback erstellt
+  0 Spiele in den naechsten 3 Tagen
 == Conference League ==
   0 Ergebnisse geladen
-  18 Spiele in den naechsten 3 Tagen
-  15 Prognosen via Team-Historie-Fallback erstellt
+  0 Spiele in den naechsten 3 Tagen
 == 1. Bundesliga ==
   351 Ergebnisse geladen
   7 Spiele in den naechsten 3 Tagen
@@ -287,10 +285,10 @@ fixtures.csv: 14 Spiele mit Quoten
   Historie: ATP 0 Matches, WTA 0 Matches
   Elo ATP: 0 Spieler bewertet
   Elo WTA: 0 Spieler bewertet
-  Belag-Zuordnung (MatchStat): 24 Turniere
+  Belag-Zuordnung (MatchStat): 13 Turniere
   Tennis-Quoten zugeordnet: 2
-  31 Tennis-Matches in den naechsten 3 Tagen
-  19 Tennis-Matches heute bereits beendet
-  Tipp-Log: 4824 Eintraege, 3378 ausgewertet, 2004 richtig
-  Premium-Abrufe: Tennis 8, Fussball 411 (Tennis AKTIV, Fussball AKTIV)
+  33 Tennis-Matches in den naechsten 3 Tagen
+  21 Tennis-Matches heute bereits beendet
+  Tipp-Log: 4827 Eintraege, 3381 ausgewertet, 2006 richtig
+  Premium-Abrufe: Tennis 8, Fussball 283 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
