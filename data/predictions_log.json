@@ -74143,8 +74143,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 3.0,
-    "edge": 0.2873,
+    "odds": 2.9,
+    "edge": 0.2792,
     "modelP": 0.597,
     "won": null
    }
@@ -74968,9 +74968,9 @@
    "tip": "P1",
    "tipName": "Alejandro Davidovich Fokina",
    "prob": 0.6575,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-15|pohankova m|sakkari m": {
    "sport": "tn",
@@ -74982,9 +74982,9 @@
    "tip": "P1",
    "tipName": "Maria Sakkari",
    "prob": 0.8161,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-15|nguyen tan l|samson l": {
    "sport": "tn",
@@ -75442,8 +75442,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 3.5,
-    "edge": 0.1057,
+    "odds": 3.25,
+    "edge": 0.0904,
     "modelP": 0.3706,
     "won": null
    }
@@ -75557,8 +75557,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 2.7,
-    "edge": 0.1748,
+    "odds": 2.75,
+    "edge": 0.187,
     "modelP": 0.5198,
     "won": null
    }
@@ -75618,8 +75618,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 3.1,
-    "edge": 0.1091,
+    "odds": 3.0,
+    "edge": 0.0993,
     "modelP": 0.4036,
     "won": null
    }
@@ -75659,9 +75659,9 @@
    "tip": "P2",
    "tipName": "Iva Jovic",
    "prob": 0.6432,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-15|kartal s|paolini j": {
    "sport": "tn",
@@ -75687,9 +75687,9 @@
    "tip": "P2",
    "tipName": "Karolina Muchova",
    "prob": 0.6286,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-10-16|jodar r|ruud c": {
    "sport": "tn",
@@ -75715,9 +75715,9 @@
    "tip": "P2",
    "tipName": "Elina Svitolina",
    "prob": 0.9597,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-16|curmi f|yaneva e": {
    "sport": "tn",
@@ -76747,7 +76747,7 @@
    "value": {
     "pick": "1",
     "odds": 1.91,
-    "edge": 0.1269,
+    "edge": 0.1302,
     "modelP": 0.6081,
     "won": null
    }
@@ -76826,7 +76826,7 @@
    "value": {
     "pick": "1",
     "odds": 2.3,
-    "edge": 0.0914,
+    "edge": 0.0907,
     "modelP": 0.4887,
     "won": null
    }
@@ -77067,9 +77067,9 @@
    "awayKey": "charlotte fc",
    "tip": "1",
    "tipName": "Philadelphia Union",
-   "prob": 0.581,
+   "prob": 0.6037,
    "tipScore": "2:1",
-   "pOver25": 0.7174,
+   "pOver25": 0.7253,
    "status": "open",
    "result": null,
    "correct": null,
@@ -77085,9 +77085,9 @@
    "awayKey": "st louis city sc",
    "tip": "2",
    "tipName": "St. Louis CITY SC",
-   "prob": 0.4689,
+   "prob": 0.4673,
    "tipScore": "1:2",
-   "pOver25": 0.7805,
+   "pOver25": 0.7918,
    "status": "open",
    "result": null,
    "correct": null,
@@ -77095,8 +77095,8 @@
    "value": {
     "pick": "2",
     "odds": 2.62,
-    "edge": 0.1226,
-    "modelP": 0.4689,
+    "edge": 0.121,
+    "modelP": 0.4673,
     "won": null
    }
   },
@@ -77184,11 +77184,11 @@
    "comp": "Eliteserien (Norwegen)",
    "compId": "no1",
    "date": "2026-10-17",
-   "label": "Viking FK – Fredrikstad",
+   "label": "VIKING FK – Fredrikstad",
    "homeKey": "viking fk",
    "awayKey": "fredrikstad",
    "tip": "1",
-   "tipName": "Viking FK",
+   "tipName": "VIKING FK",
    "prob": 0.5481,
    "tipScore": "2:1",
    "pOver25": 0.6581,
@@ -77221,6 +77221,20 @@
     "modelP": 0.39,
     "won": null
    }
+  },
+  "tn|wta|2026-10-16|chwalinska m|sakkari m": {
+   "sport": "tn",
+   "comp": "WTA · Dongfeng Voyah Wuhan Open",
+   "date": "2026-10-16",
+   "label": "Maria Sakkari – Maja Chwalinska",
+   "p1Key": "sakkari m",
+   "p2Key": "chwalinska m",
+   "tip": "P2",
+   "tipName": "Maja Chwalinska",
+   "prob": 0.5974,
+   "status": "open",
+   "result": null,
+   "correct": null
   }
  }
 }
