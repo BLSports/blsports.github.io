@@ -59,8 +59,8 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!
 total 8
-drwxr-xr-x  2 runner runner 4096 Oct 16 10:35 .
-drwxrwxrwt 15 root   root   4096 Oct 16 10:35 ..
+drwxr-xr-x  2 runner runner 4096 Oct 16 15:59 .
+drwxrwxrwt 15 root   root   4096 Oct 16 15:59 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -178,6 +178,9 @@ drwxrwxrwt 15 root   root   4096 Oct 16 10:35 ..
   WARN: https://www.tennis-data.co.uk/2024w/2024.xlsx nicht erreichbar (binaer)
   WARN: https://www.tennis-data.co.uk/2025w/2025.xlsx nicht erreichbar (binaer)
   WARN: https://www.tennis-data.co.uk/2026w/2026.xlsx nicht erreichbar (binaer)
+  WARN: https://www.thesportsdb.com/api/v1/json/123/eventsday.php?d=2026-10-16&s=Tennis nicht erreichbar (HTTP Error 403: Forbidden)
+  WARN: https://www.thesportsdb.com/api/v1/json/123/eventsday.php?d=2026-10-17&s=Tennis nicht erreichbar (HTTP Error 403: Forbidden)
+  WARN: https://www.thesportsdb.com/api/v1/json/123/eventsday.php?d=2026-10-18&s=Tennis nicht erreichbar (HTTP Error 403: Forbidden)
 fixtures.csv: 169 Spiele mit Quoten
 == WM ==
   0 Ergebnisse geladen
@@ -286,10 +289,10 @@ fixtures.csv: 169 Spiele mit Quoten
   Historie: ATP 0 Matches, WTA 0 Matches
   Elo ATP: 0 Spieler bewertet
   Elo WTA: 0 Spieler bewertet
-  Belag-Zuordnung (MatchStat): 37 Turniere
-  Tennis-Quoten zugeordnet: 2
-  45 Tennis-Matches in den naechsten 3 Tagen
-  5 Tennis-Matches heute bereits beendet
-  Tipp-Log: 4920 Eintraege, 3386 ausgewertet, 2008 richtig
-  Premium-Abrufe: Tennis 8, Fussball 434 (Tennis AKTIV, Fussball AKTIV)
+  Belag-Zuordnung (MatchStat): 19 Turniere
+  Tennis-Quoten zugeordnet: 1
+  49 Tennis-Matches in den naechsten 3 Tagen
+  16 Tennis-Matches heute bereits beendet
+  Tipp-Log: 4934 Eintraege, 3398 ausgewertet, 2016 richtig
+  Premium-Abrufe: Tennis 8, Fussball 456 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
