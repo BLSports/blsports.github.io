@@ -59,8 +59,8 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!
 total 8
-drwxr-xr-x  2 runner runner 4096 Oct 16 00:02 .
-drwxrwxrwt 14 root   root   4096 Oct 16 00:02 ..
+drwxr-xr-x  2 runner runner 4096 Oct 16 08:32 .
+drwxrwxrwt 15 root   root   4096 Oct 16 08:32 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -96,7 +96,6 @@ drwxrwxrwt 14 root   root   4096 Oct 16 00:02 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20260626-20260923&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20260924-20261016&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/uefa.europa.conf/scoreboard?dates=20261016-20270213&limit=50 nicht erreichbar (HTTP Error 400: Bad Request)
-  WARN: https://sports.core.api.espn.com/v2/sports/soccer/leagues/ned.1/seasons/2026/athletes/341711?lang=en&region=us nicht erreichbar (HTTP Error 503: Backend fetch failed)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -180,7 +179,8 @@ drwxrwxrwt 14 root   root   4096 Oct 16 00:02 ..
   WARN: https://www.tennis-data.co.uk/2025w/2025.xlsx nicht erreichbar (binaer)
   WARN: https://www.tennis-data.co.uk/2026w/2026.xlsx nicht erreichbar (binaer)
   WARN: https://www.thesportsdb.com/api/v1/json/123/eventsday.php?d=2026-10-16&s=Tennis nicht erreichbar (The read operation timed out)
-  WARN: https://www.thesportsdb.com/api/v1/json/123/eventsday.php?d=2026-10-17&s=Tennis nicht erreichbar (The read operation timed out)
+  WARN: https://www.thesportsdb.com/api/v1/json/123/eventsday.php?d=2026-10-17&s=Tennis nicht erreichbar (HTTP Error 404: Not Found)
+  WARN: https://www.thesportsdb.com/api/v1/json/123/eventsday.php?d=2026-10-18&s=Tennis nicht erreichbar (HTTP Error 404: Not Found)
 fixtures.csv: 14 Spiele mit Quoten
 == WM ==
   0 Ergebnisse geladen
@@ -282,17 +282,17 @@ fixtures.csv: 14 Spiele mit Quoten
   0 Ergebnisse geladen
   5 Spiele in den naechsten 3 Tagen
   5 Prognosen via Team-Historie-Fallback erstellt
-  Kicker-News: 33 Schlagzeilen geladen
+  Kicker-News: 34 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 896, WTA 892
   Historie: ATP 0 Matches, WTA 0 Matches
   Elo ATP: 0 Spieler bewertet
   Elo WTA: 0 Spieler bewertet
-  Belag-Zuordnung (MatchStat): 31 Turniere
-  Tennis-Quoten zugeordnet: 7
-  33 Tennis-Matches in den naechsten 3 Tagen
-  0 Tennis-Matches heute bereits beendet
-  Tipp-Log: 4895 Eintraege, 3381 ausgewertet, 2006 richtig
+  Belag-Zuordnung (MatchStat): 37 Turniere
+  Tennis-Quoten zugeordnet: 3
+  40 Tennis-Matches in den naechsten 3 Tagen
+  2 Tennis-Matches heute bereits beendet
+  Tipp-Log: 4908 Eintraege, 3383 ausgewertet, 2006 richtig
   Premium-Abrufe: Tennis 8, Fussball 432 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
