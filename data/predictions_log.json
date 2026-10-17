@@ -75976,10 +75976,10 @@
    "prob": 0.7511,
    "tipScore": "3:1",
    "pOver25": 0.8034,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "6:1",
+   "correct": true,
+   "exact": false
   },
   "fb|bl2|2026-10-17|vfl wolfsburg|1 fc heidenheim 1846": {
    "sport": "fb",
@@ -76184,16 +76184,16 @@
    "prob": 0.4434,
    "tipScore": "1:1",
    "pOver25": 0.6985,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "wrong",
+   "result": "2:0",
+   "correct": false,
+   "exact": false,
    "value": {
     "pick": "1",
     "odds": 3.4,
     "edge": 0.0648,
     "modelP": 0.3392,
-    "won": null
+    "won": true
    }
   },
   "fb|pl|2026-10-17|everton|chelsea": {
@@ -77442,9 +77442,9 @@
    "awayKey": "sc freiburg",
    "tip": "1",
    "tipName": "Bayer 04 Leverkusen",
-   "prob": 0.5695,
+   "prob": 0.5734,
    "tipScore": "2:1",
-   "pOver25": 0.6904,
+   "pOver25": 0.6877,
    "status": "open",
    "result": null,
    "correct": null,
@@ -77460,9 +77460,9 @@
    "awayKey": "tsg hoffenheim",
    "tip": "2",
    "tipName": "TSG Hoffenheim",
-   "prob": 0.4551,
+   "prob": 0.4497,
    "tipScore": "1:1",
-   "pOver25": 0.6834,
+   "pOver25": 0.6793,
    "status": "open",
    "result": null,
    "correct": null,
@@ -77521,9 +77521,9 @@
    "awayKey": "vfl osnabruck",
    "tip": "1",
    "tipName": "DSC Arminia Bielefeld",
-   "prob": 0.5627,
+   "prob": 0.5628,
    "tipScore": "2:1",
-   "pOver25": 0.668,
+   "pOver25": 0.6679,
    "status": "open",
    "result": null,
    "correct": null,
@@ -77539,9 +77539,9 @@
    "awayKey": "sc verl",
    "tip": "2",
    "tipName": "SC Verl",
-   "prob": 0.4768,
+   "prob": 0.4752,
    "tipScore": "1:2",
-   "pOver25": 0.701,
+   "pOver25": 0.7018,
    "status": "open",
    "result": null,
    "correct": null,
@@ -77549,8 +77549,8 @@
    "value": {
     "pick": "2",
     "odds": 3.9,
-    "edge": 0.2354,
-    "modelP": 0.4768,
+    "edge": 0.2338,
+    "modelP": 0.4752,
     "won": null
    }
   },
@@ -77564,9 +77564,9 @@
    "awayKey": "viktoria koln",
    "tip": "1",
    "tipName": "MSV Duisburg",
-   "prob": 0.5125,
+   "prob": 0.5144,
    "tipScore": "1:1",
-   "pOver25": 0.6392,
+   "pOver25": 0.6406,
    "status": "open",
    "result": null,
    "correct": null,
@@ -77582,9 +77582,9 @@
    "awayKey": "tsv havelse",
    "tip": "1",
    "tipName": "SV Meppen",
-   "prob": 0.4856,
+   "prob": 0.4875,
    "tipScore": "1:1",
-   "pOver25": 0.6658,
+   "pOver25": 0.667,
    "status": "open",
    "result": null,
    "correct": null,
@@ -78274,7 +78274,7 @@
    "value": {
     "pick": "1",
     "odds": 3.25,
-    "edge": 0.1239,
+    "edge": 0.1256,
     "modelP": 0.4041,
     "won": null
    }
@@ -78829,7 +78829,7 @@
    "value": {
     "pick": "1",
     "odds": 2.8,
-    "edge": 0.0931,
+    "edge": 0.0936,
     "modelP": 0.419,
     "won": null
    }
@@ -79520,9 +79520,9 @@
    "tip": "P1",
    "tipName": "Tom Gentzsch",
    "prob": 0.6941,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|atp|2026-10-17|damm m|gadamauri b": {
    "sport": "tn",
@@ -79534,9 +79534,9 @@
    "tip": "P2",
    "tipName": "Martin Damm",
    "prob": 0.693,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "fb|pl|2026-10-19|tottenham|coventry city": {
    "sport": "fb",
@@ -80815,6 +80815,34 @@
    "tip": "P1",
    "tipName": "Lorenzo Musetti",
    "prob": 0.588,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-18|basavareddy n|dougaz a": {
+   "sport": "tn",
+   "comp": "ATP · BNP Paribas Fortis European Open",
+   "date": "2026-10-18",
+   "label": "Aziz Dougaz – Nishesh Basavareddy",
+   "p1Key": "dougaz a",
+   "p2Key": "basavareddy n",
+   "tip": "P2",
+   "tipName": "Nishesh Basavareddy",
+   "prob": 0.7231,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-18|damm m|guerrieri a": {
+   "sport": "tn",
+   "comp": "ATP · BNP Paribas Fortis European Open",
+   "date": "2026-10-18",
+   "label": "Andrea Guerrieri – Martin Damm",
+   "p1Key": "guerrieri a",
+   "p2Key": "damm m",
+   "tip": "P2",
+   "tipName": "Martin Damm",
+   "prob": 0.5968,
    "status": "open",
    "result": null,
    "correct": null
