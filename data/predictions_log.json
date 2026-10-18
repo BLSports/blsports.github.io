@@ -77445,10 +77445,10 @@
    "prob": 0.5734,
    "tipScore": "2:1",
    "pOver25": 0.6877,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:1",
+   "correct": true,
+   "exact": true
   },
   "fb|bl1|2026-10-18|mgladbach|tsg hoffenheim": {
    "sport": "fb",
@@ -77463,10 +77463,10 @@
    "prob": 0.4496,
    "tipScore": "1:1",
    "pOver25": 0.6792,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "1:2",
+   "correct": true,
+   "exact": false
   },
   "fb|bl2|2026-10-18|karlsruher sc|sv darmstadt 98": {
    "sport": "fb",
@@ -77567,16 +77567,16 @@
    "prob": 0.5144,
    "tipScore": "1:1",
    "pOver25": 0.6406,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "wrong",
+   "result": "1:1",
+   "correct": false,
+   "exact": true,
    "value": {
     "pick": "1",
     "odds": 2.1,
     "edge": 0.069,
     "modelP": 0.5144,
-    "won": null
+    "won": false
    }
   },
   "fb|bl3|2026-10-18|sv meppen|tsv havelse": {
@@ -78513,8 +78513,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 2.38,
-    "edge": 0.1257,
+    "odds": 2.15,
+    "edge": 0.086,
     "modelP": 0.5106,
     "won": null
    }
@@ -78563,8 +78563,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 3.1,
-    "edge": 0.0652,
+    "odds": 3.2,
+    "edge": 0.0718,
     "modelP": 0.3595,
     "won": null
    }
@@ -80514,9 +80514,9 @@
    "tip": "P2",
    "tipName": "Clement Chidekh",
    "prob": 0.5298,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-19|bencic b|ostapenko j": {
    "sport": "tn",
@@ -80612,9 +80612,9 @@
    "tip": "P2",
    "tipName": "Valentin Royer",
    "prob": 0.5886,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-10-18|kumstat j|mmoh m": {
    "sport": "tn",
@@ -80626,9 +80626,9 @@
    "tip": "P1",
    "tipName": "Michael Mmoh",
    "prob": 0.5498,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-10-18|sachko v|virtanen o": {
    "sport": "tn",
@@ -80668,9 +80668,9 @@
    "tip": "P1",
    "tipName": "Borna Gojo",
    "prob": 0.5278,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-10-18|hugues herbert p|rodionov j": {
    "sport": "tn",
@@ -80836,9 +80836,9 @@
    "tip": "P2",
    "tipName": "Martin Damm",
    "prob": 0.5968,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "fb|cl|2026-10-20|sabah fk|borussia dortmund": {
    "sport": "fb",
@@ -81693,6 +81693,104 @@
    "tip": "P2",
    "tipName": "Cristina Bucsa",
    "prob": 0.6983,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-19|cina f|munar j": {
+   "sport": "tn",
+   "comp": "ATP · BNP Paribas Fortis European Open",
+   "date": "2026-10-19",
+   "label": "Jaume Munar – Federico Cina",
+   "p1Key": "munar j",
+   "p2Key": "cina f",
+   "tip": "P1",
+   "tipName": "Jaume Munar",
+   "prob": 0.7178,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-19|gojo b|sachko v": {
+   "sport": "tn",
+   "comp": "ATP · Grand Prix Auvergne-Rhône-Alpes",
+   "date": "2026-10-19",
+   "label": "Borna Gojo – Vitaliy Sachko",
+   "p1Key": "gojo b",
+   "p2Key": "sachko v",
+   "tip": "P1",
+   "tipName": "Borna Gojo",
+   "prob": 0.529,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-19|damm m|hanfmann y": {
+   "sport": "tn",
+   "comp": "ATP · BNP Paribas Fortis European Open",
+   "date": "2026-10-19",
+   "label": "Martin Damm – Yannick Hanfmann",
+   "p1Key": "damm m",
+   "p2Key": "hanfmann y",
+   "tip": "P2",
+   "tipName": "Yannick Hanfmann",
+   "prob": 0.6251,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-19|guerrieri a|michelsen a": {
+   "sport": "tn",
+   "comp": "ATP · BNP Paribas Fortis European Open",
+   "date": "2026-10-19",
+   "label": "Alex Michelsen – Andrea Guerrieri",
+   "p1Key": "michelsen a",
+   "p2Key": "guerrieri a",
+   "tip": "P1",
+   "tipName": "Alex Michelsen",
+   "prob": 0.7889,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-20|bertola r|goffin d": {
+   "sport": "tn",
+   "comp": "ATP · BNP Paribas Fortis European Open",
+   "date": "2026-10-20",
+   "label": "Remy Bertola – David Goffin",
+   "p1Key": "bertola r",
+   "p2Key": "goffin d",
+   "tip": "P1",
+   "tipName": "Remy Bertola",
+   "prob": 0.6487,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-20|basavareddy n|collignon r": {
+   "sport": "tn",
+   "comp": "ATP · BNP Paribas Fortis European Open",
+   "date": "2026-10-20",
+   "label": "Raphael Collignon – Nishesh Basavareddy",
+   "p1Key": "collignon r",
+   "p2Key": "basavareddy n",
+   "tip": "P1",
+   "tipName": "Raphael Collignon",
+   "prob": 0.7046,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-20|chidekh c|van de zandschulp b": {
+   "sport": "tn",
+   "comp": "ATP · BNP Paribas Fortis European Open",
+   "date": "2026-10-20",
+   "label": "Clement Chidekh – Botic Van De Zandschulp",
+   "p1Key": "chidekh c",
+   "p2Key": "van de zandschulp b",
+   "tip": "P2",
+   "tipName": "Botic Van De Zandschulp",
+   "prob": 0.7464,
    "status": "open",
    "result": null,
    "correct": null
