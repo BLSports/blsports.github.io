@@ -77460,9 +77460,9 @@
    "awayKey": "tsg hoffenheim",
    "tip": "2",
    "tipName": "TSG Hoffenheim",
-   "prob": 0.4497,
+   "prob": 0.4496,
    "tipScore": "1:1",
-   "pOver25": 0.6793,
+   "pOver25": 0.6792,
    "status": "open",
    "result": null,
    "correct": null,
@@ -77481,16 +77481,16 @@
    "prob": 0.4054,
    "tipScore": "1:1",
    "pOver25": 0.6513,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "wrong",
+   "result": "4:0",
+   "correct": false,
+   "exact": false,
    "value": {
     "pick": "2",
     "odds": 2.95,
     "edge": 0.0858,
     "modelP": 0.4054,
-    "won": null
+    "won": false
    }
   },
   "fb|bl2|2026-10-18|dynamo dresden|1 fc magdeburg": {
@@ -77506,10 +77506,10 @@
    "prob": 0.4038,
    "tipScore": "1:1",
    "pOver25": 0.6684,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:0",
+   "correct": true,
+   "exact": false
   },
   "fb|bl2|2026-10-18|dsc arminia bielefeld|vfl osnabruck": {
    "sport": "fb",
@@ -77524,10 +77524,10 @@
    "prob": 0.5627,
    "tipScore": "2:1",
    "pOver25": 0.6689,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:1",
+   "correct": true,
+   "exact": true
   },
   "fb|bl3|2026-10-18|tsg 1899 hoffenheim ii|sc verl": {
    "sport": "fb",
@@ -77542,16 +77542,16 @@
    "prob": 0.4752,
    "tipScore": "1:2",
    "pOver25": 0.7018,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "wrong",
+   "result": "2:1",
+   "correct": false,
+   "exact": false,
    "value": {
     "pick": "2",
     "odds": 3.7,
     "edge": 0.2225,
     "modelP": 0.4752,
-    "won": null
+    "won": false
    }
   },
   "fb|bl3|2026-10-18|msv duisburg|viktoria koln": {
@@ -77589,9 +77589,9 @@
    "awayKey": "tsv havelse",
    "tip": "1",
    "tipName": "SV Meppen",
-   "prob": 0.4875,
+   "prob": 0.4881,
    "tipScore": "1:1",
-   "pOver25": 0.667,
+   "pOver25": 0.6673,
    "status": "open",
    "result": null,
    "correct": null,
@@ -78513,8 +78513,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 2.3,
-    "edge": 0.1169,
+    "odds": 2.38,
+    "edge": 0.1257,
     "modelP": 0.5106,
     "won": null
    }
@@ -78538,8 +78538,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 2.8,
-    "edge": 0.0971,
+    "odds": 3.0,
+    "edge": 0.1182,
     "modelP": 0.4233,
     "won": null
    }
@@ -80388,9 +80388,9 @@
    "tip": "P1",
    "tipName": "Dominika Salkova",
    "prob": 0.6511,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-18|prozorova t|rakhimova k": {
    "sport": "tn",
@@ -80444,9 +80444,9 @@
    "tip": "P1",
    "tipName": "Rafael Jodar",
    "prob": 0.6432,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|atp|2026-10-18|sakellaridis s|shevchenko a": {
    "sport": "tn",
@@ -80458,9 +80458,9 @@
    "tip": "P2",
    "tipName": "Aleksandr Shevchenko",
    "prob": 0.5415,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-18|burel c|romero gormaz l": {
    "sport": "tn",
@@ -80472,9 +80472,9 @@
    "tip": "P1",
    "tipName": "Leyre Romero Gormaz",
    "prob": 0.5907,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|atp|2026-10-18|bertola r|cina f": {
    "sport": "tn",
@@ -80486,9 +80486,9 @@
    "tip": "P1",
    "tipName": "Federico Cina",
    "prob": 0.5913,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-18|chwalinska m|kartal s": {
    "sport": "tn",
@@ -80500,9 +80500,9 @@
    "tip": "P2",
    "tipName": "Maja Chwalinska",
    "prob": 0.8504,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-10-18|chidekh c|onclin g": {
    "sport": "tn",
@@ -80640,9 +80640,9 @@
    "tip": "P2",
    "tipName": "Otto Virtanen",
    "prob": 0.5995,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-10-18|gueymard wayenburg s|jacquet k": {
    "sport": "tn",
@@ -80654,9 +80654,9 @@
    "tip": "P2",
    "tipName": "Kyrian Jacquet",
    "prob": 0.6845,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-10-18|gojo b|maestrelli f": {
    "sport": "tn",
@@ -80682,9 +80682,9 @@
    "tip": "P2",
    "tipName": "Jurij Rodionov",
    "prob": 0.6539,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-10-18|lajovic d|mrva m": {
    "sport": "tn",
@@ -80696,9 +80696,9 @@
    "tip": "P1",
    "tipName": "Dusan Lajovic",
    "prob": 0.5806,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|atp|2026-10-19|landaluce m|wawrinka s": {
    "sport": "tn",
@@ -80822,9 +80822,9 @@
    "tip": "P2",
    "tipName": "Nishesh Basavareddy",
    "prob": 0.7231,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-10-18|damm m|guerrieri a": {
    "sport": "tn",
@@ -81301,6 +81301,398 @@
    "tip": "P1",
    "tipName": "Ekaterina Alexandrova",
    "prob": 0.8799,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-19|cirstea s|han s": {
+   "sport": "tn",
+   "comp": "WTA · BNB Ningbo Open",
+   "date": "2026-10-19",
+   "label": "Shi Han – Sorana Cirstea",
+   "p1Key": "han s",
+   "p2Key": "cirstea s",
+   "tip": "P2",
+   "tipName": "Sorana Cirstea",
+   "prob": 0.9119,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-19|kasatkina d|sasnovich a": {
+   "sport": "tn",
+   "comp": "WTA · BNB Ningbo Open",
+   "date": "2026-10-19",
+   "label": "Aliaksandra Sasnovich – Daria Kasatkina",
+   "p1Key": "sasnovich a",
+   "p2Key": "kasatkina d",
+   "tip": "P2",
+   "tipName": "Daria Kasatkina",
+   "prob": 0.5767,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-19|hugues herbert p|mrva m": {
+   "sport": "tn",
+   "comp": "ATP · Grand Prix Auvergne-Rhône-Alpes",
+   "date": "2026-10-19",
+   "label": "Maxim Mrva – Pierre-Hugues Herbert",
+   "p1Key": "mrva m",
+   "p2Key": "hugues herbert p",
+   "tip": "P1",
+   "tipName": "Maxim Mrva",
+   "prob": 0.5656,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-19|basilashvili n|cilic m": {
+   "sport": "tn",
+   "comp": "ATP · Almaty Open",
+   "date": "2026-10-19",
+   "label": "Nikoloz Basilashvili – Marin Cilic",
+   "p1Key": "basilashvili n",
+   "p2Key": "cilic m",
+   "tip": "P2",
+   "tipName": "Marin Cilic",
+   "prob": 0.5921,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-19|bouzkova m|rakhimova k": {
+   "sport": "tn",
+   "comp": "WTA · BNB Ningbo Open",
+   "date": "2026-10-19",
+   "label": "Marie Bouzkova – Kamilla Rakhimova",
+   "p1Key": "bouzkova m",
+   "p2Key": "rakhimova k",
+   "tip": "P1",
+   "tipName": "Marie Bouzkova",
+   "prob": 0.6828,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-19|kukushkin m|sakellaridis s": {
+   "sport": "tn",
+   "comp": "ATP · Almaty Open",
+   "date": "2026-10-19",
+   "label": "Stefanos Sakellaridis – Mikhail Kukushkin",
+   "p1Key": "sakellaridis s",
+   "p2Key": "kukushkin m",
+   "tip": "P1",
+   "tipName": "Stefanos Sakellaridis",
+   "prob": 0.6961,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-20|manuel cerundolo j|navone m": {
+   "sport": "tn",
+   "comp": "ATP · BNP Paribas Fortis European Open",
+   "date": "2026-10-20",
+   "label": "Juan Manuel Cerundolo – Mariano Navone",
+   "p1Key": "manuel cerundolo j",
+   "p2Key": "navone m",
+   "tip": "P2",
+   "tipName": "Mariano Navone",
+   "prob": 0.5334,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-20|griekspoor t|schoenhaus m": {
+   "sport": "tn",
+   "comp": "ATP · BNP Paribas Fortis European Open",
+   "date": "2026-10-20",
+   "label": "Max Schoenhaus – Tallon Griekspoor",
+   "p1Key": "schoenhaus m",
+   "p2Key": "griekspoor t",
+   "tip": "P2",
+   "tipName": "Tallon Griekspoor",
+   "prob": 0.7985,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-20|fearnley j|gaston h": {
+   "sport": "tn",
+   "comp": "ATP · BNP Paribas Fortis European Open",
+   "date": "2026-10-20",
+   "label": "Hugo Gaston – Jacob Fearnley",
+   "p1Key": "gaston h",
+   "p2Key": "fearnley j",
+   "tip": "P1",
+   "tipName": "Hugo Gaston",
+   "prob": 0.5161,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-20|dzumhur d|prizmic d": {
+   "sport": "tn",
+   "comp": "ATP · BNP Paribas Fortis European Open",
+   "date": "2026-10-20",
+   "label": "Damir Dzumhur – Dino Prizmic",
+   "p1Key": "dzumhur d",
+   "p2Key": "prizmic d",
+   "tip": "P2",
+   "tipName": "Dino Prizmic",
+   "prob": 0.5128,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-20|giron m|lennard struff j": {
+   "sport": "tn",
+   "comp": "ATP · BNP Paribas Fortis European Open",
+   "date": "2026-10-20",
+   "label": "Marcos Giron – Jan-Lennard Struff",
+   "p1Key": "giron m",
+   "p2Key": "lennard struff j",
+   "tip": "P2",
+   "tipName": "Jan-Lennard Struff",
+   "prob": 0.5841,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-20|bergs z|samuel t": {
+   "sport": "tn",
+   "comp": "ATP · BNP Paribas Fortis European Open",
+   "date": "2026-10-20",
+   "label": "Zizou Bergs – Toby Samuel",
+   "p1Key": "bergs z",
+   "p2Key": "samuel t",
+   "tip": "P1",
+   "tipName": "Zizou Bergs",
+   "prob": 0.6901,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-20|bellucci m|martin etcheverry t": {
+   "sport": "tn",
+   "comp": "ATP · Almaty Open",
+   "date": "2026-10-20",
+   "label": "Tomas Martin Etcheverry – Mattia Bellucci",
+   "p1Key": "martin etcheverry t",
+   "p2Key": "bellucci m",
+   "tip": "P1",
+   "tipName": "Tomas Martin Etcheverry",
+   "prob": 0.7042,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-20|safiullin r|shimabukuro s": {
+   "sport": "tn",
+   "comp": "ATP · Almaty Open",
+   "date": "2026-10-20",
+   "label": "Roman Safiullin – Sho Shimabukuro",
+   "p1Key": "safiullin r",
+   "p2Key": "shimabukuro s",
+   "tip": "P1",
+   "tipName": "Roman Safiullin",
+   "prob": 0.568,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-20|kovacevic a|tsitsipas s": {
+   "sport": "tn",
+   "comp": "ATP · Almaty Open",
+   "date": "2026-10-20",
+   "label": "Aleksandar Kovacevic – Stefanos Tsitsipas",
+   "p1Key": "kovacevic a",
+   "p2Key": "tsitsipas s",
+   "tip": "P2",
+   "tipName": "Stefanos Tsitsipas",
+   "prob": 0.6314,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-20|machac t|nurlanuly z": {
+   "sport": "tn",
+   "comp": "ATP · Almaty Open",
+   "date": "2026-10-20",
+   "label": "Tomas Machac – Zangar Nurlanuly",
+   "p1Key": "machac t",
+   "p2Key": "nurlanuly z",
+   "tip": "P1",
+   "tipName": "Tomas Machac",
+   "prob": 0.7356,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-20|khachanov k|sakamoto r": {
+   "sport": "tn",
+   "comp": "ATP · Almaty Open",
+   "date": "2026-10-20",
+   "label": "Karen Khachanov – Rei Sakamoto",
+   "p1Key": "khachanov k",
+   "p2Key": "sakamoto r",
+   "tip": "P1",
+   "tipName": "Karen Khachanov",
+   "prob": 0.7991,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-20|atmane t|hijikata r": {
+   "sport": "tn",
+   "comp": "ATP · Almaty Open",
+   "date": "2026-10-20",
+   "label": "Rinky Hijikata – Terence Atmane",
+   "p1Key": "hijikata r",
+   "p2Key": "atmane t",
+   "tip": "P1",
+   "tipName": "Rinky Hijikata",
+   "prob": 0.5324,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-20|marozsan f|skatov t": {
+   "sport": "tn",
+   "comp": "ATP · Almaty Open",
+   "date": "2026-10-20",
+   "label": "Timofey Skatov – Fabian Marozsan",
+   "p1Key": "skatov t",
+   "p2Key": "marozsan f",
+   "tip": "P2",
+   "tipName": "Fabian Marozsan",
+   "prob": 0.7356,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-20|humbert u|moutet c": {
+   "sport": "tn",
+   "comp": "ATP · Grand Prix Auvergne-Rhône-Alpes",
+   "date": "2026-10-20",
+   "label": "Corentin Moutet – Ugo Humbert",
+   "p1Key": "moutet c",
+   "p2Key": "humbert u",
+   "tip": "P2",
+   "tipName": "Ugo Humbert",
+   "prob": 0.6632,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-20|altmaier d|droguet t": {
+   "sport": "tn",
+   "comp": "ATP · Grand Prix Auvergne-Rhône-Alpes",
+   "date": "2026-10-20",
+   "label": "Titouan Droguet – Daniel Altmaier",
+   "p1Key": "droguet t",
+   "p2Key": "altmaier d",
+   "tip": "P2",
+   "tipName": "Daniel Altmaier",
+   "prob": 0.5153,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-20|medjedovic h|nakashima b": {
+   "sport": "tn",
+   "comp": "ATP · Grand Prix Auvergne-Rhône-Alpes",
+   "date": "2026-10-20",
+   "label": "Brandon Nakashima – Hamad Medjedovic",
+   "p1Key": "nakashima b",
+   "p2Key": "medjedovic h",
+   "tip": "P1",
+   "tipName": "Brandon Nakashima",
+   "prob": 0.7686,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-20|landaluce m|wawrinka s": {
+   "sport": "tn",
+   "comp": "ATP · Grand Prix Auvergne-Rhône-Alpes",
+   "date": "2026-10-20",
+   "label": "Martin Landaluce – Stan Wawrinka",
+   "p1Key": "landaluce m",
+   "p2Key": "wawrinka s",
+   "tip": "P1",
+   "tipName": "Martin Landaluce",
+   "prob": 0.6377,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-20|bonzi b|norrie c": {
+   "sport": "tn",
+   "comp": "ATP · Grand Prix Auvergne-Rhône-Alpes",
+   "date": "2026-10-20",
+   "label": "Cameron Norrie – Benjamin Bonzi",
+   "p1Key": "norrie c",
+   "p2Key": "bonzi b",
+   "tip": "P1",
+   "tipName": "Cameron Norrie",
+   "prob": 0.67,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-20|kalinina a|paolini j": {
+   "sport": "tn",
+   "comp": "WTA · BNB Ningbo Open",
+   "date": "2026-10-20",
+   "label": "Anhelina Kalinina – Jasmine Paolini",
+   "p1Key": "kalinina a",
+   "p2Key": "paolini j",
+   "tip": "P2",
+   "tipName": "Jasmine Paolini",
+   "prob": 0.579,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-20|putintseva y|shnaider d": {
+   "sport": "tn",
+   "comp": "WTA · BNB Ningbo Open",
+   "date": "2026-10-20",
+   "label": "Diana Shnaider – Yulia Putintseva",
+   "p1Key": "shnaider d",
+   "p2Key": "putintseva y",
+   "tip": "P1",
+   "tipName": "Diana Shnaider",
+   "prob": 0.8226,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-20|chwalinska m|kawa k": {
+   "sport": "tn",
+   "comp": "WTA · BNB Ningbo Open",
+   "date": "2026-10-20",
+   "label": "Maja Chwalinska – Katarzyna Kawa",
+   "p1Key": "chwalinska m",
+   "p2Key": "kawa k",
+   "tip": "P1",
+   "tipName": "Maja Chwalinska",
+   "prob": 0.8161,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-20|bucsa c|kudermetova p": {
+   "sport": "tn",
+   "comp": "WTA · BNB Ningbo Open",
+   "date": "2026-10-20",
+   "label": "Polina Kudermetova – Cristina Bucsa",
+   "p1Key": "kudermetova p",
+   "p2Key": "bucsa c",
+   "tip": "P2",
+   "tipName": "Cristina Bucsa",
+   "prob": 0.6983,
    "status": "open",
    "result": null,
    "correct": null
