@@ -64151,7 +64151,7 @@
    "prob": 0.3885,
    "tipScore": "1:1",
    "pOver25": 0.6073,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null,
@@ -64411,7 +64411,7 @@
    "tip": "P2",
    "tipName": "Cameron Norrie",
    "prob": 0.5297,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null
   },
@@ -66156,7 +66156,7 @@
    "prob": 0.3885,
    "tipScore": "1:1",
    "pOver25": 0.6073,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null,
@@ -77487,8 +77487,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 2.9,
-    "edge": 0.08,
+    "odds": 2.95,
+    "edge": 0.0858,
     "modelP": 0.4054,
     "won": null
    }
@@ -77548,8 +77548,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 3.9,
-    "edge": 0.2338,
+    "odds": 3.7,
+    "edge": 0.2225,
     "modelP": 0.4752,
     "won": null
    }
@@ -77570,7 +77570,14 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 2.1,
+    "edge": 0.069,
+    "modelP": 0.5144,
+    "won": null
+   }
   },
   "fb|bl3|2026-10-18|sv meppen|tsv havelse": {
    "sport": "fb",
@@ -77642,14 +77649,7 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null,
-   "value": {
-    "pick": "2",
-    "odds": 2.7,
-    "edge": 0.053,
-    "modelP": 0.3895,
-    "won": null
-   }
+   "exact": null
   },
   "fb|pl|2026-10-18|nott'm forest|arsenal": {
    "sport": "fb",
@@ -77706,8 +77706,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 2.1,
-    "edge": 0.1802,
+    "odds": 2.12,
+    "edge": 0.1843,
     "modelP": 0.6402,
     "won": null
    }
@@ -77767,8 +77767,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 2.01,
-    "edge": 0.1342,
+    "odds": 2.0,
+    "edge": 0.1313,
     "modelP": 0.6148,
     "won": null
    }
@@ -77792,8 +77792,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 2.25,
-    "edge": 0.09,
+    "odds": 2.23,
+    "edge": 0.0865,
     "modelP": 0.5203,
     "won": null
    }
@@ -77817,8 +77817,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 2.15,
-    "edge": 0.1171,
+    "odds": 2.16,
+    "edge": 0.119,
     "modelP": 0.5669,
     "won": null
    }
@@ -77922,7 +77922,7 @@
    "value": {
     "pick": "2",
     "odds": 4.1,
-    "edge": 0.0849,
+    "edge": 0.0861,
     "modelP": 0.3149,
     "won": null
    }
@@ -78000,8 +78000,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 3.75,
-    "edge": 0.1277,
+    "odds": 3.78,
+    "edge": 0.1297,
     "modelP": 0.3855,
     "won": null
    }
@@ -78025,8 +78025,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 1.69,
-    "edge": 0.125,
+    "odds": 1.82,
+    "edge": 0.1652,
     "modelP": 0.6958,
     "won": null
    }
@@ -78050,8 +78050,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 1.9,
-    "edge": 0.1491,
+    "odds": 1.92,
+    "edge": 0.1481,
     "modelP": 0.6241,
     "won": null
    }
@@ -78474,11 +78474,11 @@
    "comp": "Série A (Brasilien)",
    "compId": "br1",
    "date": "2026-10-18",
-   "label": "São Paulo – Vasco da Gama",
+   "label": "Sao Paulo – Vasco DA Gama",
    "homeKey": "sao paulo",
    "awayKey": "vasco da gama",
    "tip": "2",
-   "tipName": "Vasco da Gama",
+   "tipName": "Vasco DA Gama",
    "prob": 0.4023,
    "tipScore": "0:1",
    "pOver25": 0.3689,
@@ -78563,8 +78563,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 3.1,
-    "edge": 0.0652,
+    "odds": 3.0,
+    "edge": 0.0544,
     "modelP": 0.3595,
     "won": null
    }
@@ -80846,6 +80846,275 @@
    "status": "open",
    "result": null,
    "correct": null
+  },
+  "fb|cl|2026-10-20|sabah fk|borussia dortmund": {
+   "sport": "fb",
+   "comp": "Champions League",
+   "compId": "cl",
+   "date": "2026-10-20",
+   "label": "Sabah FK – Borussia Dortmund",
+   "homeKey": "sabah fk",
+   "awayKey": "borussia dortmund",
+   "tip": "1",
+   "tipName": "Sabah FK",
+   "prob": 0.5522,
+   "tipScore": "2:1",
+   "pOver25": 0.6361,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|cl|2026-10-20|roma|slovan bratislava": {
+   "sport": "fb",
+   "comp": "Champions League",
+   "compId": "cl",
+   "date": "2026-10-20",
+   "label": "AS Roma – Slovan Bratislava",
+   "homeKey": "roma",
+   "awayKey": "slovan bratislava",
+   "tip": "1",
+   "tipName": "AS Roma",
+   "prob": 0.5434,
+   "tipScore": "2:1",
+   "pOver25": 0.7124,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|cl|2026-10-20|fc porto|psv eindhoven": {
+   "sport": "fb",
+   "comp": "Champions League",
+   "compId": "cl",
+   "date": "2026-10-20",
+   "label": "FC Porto – PSV Eindhoven",
+   "homeKey": "fc porto",
+   "awayKey": "psv eindhoven",
+   "tip": "1",
+   "tipName": "FC Porto",
+   "prob": 0.5299,
+   "tipScore": "2:1",
+   "pOver25": 0.674,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|cl|2026-10-20|liverpool|villarreal": {
+   "sport": "fb",
+   "comp": "Champions League",
+   "compId": "cl",
+   "date": "2026-10-20",
+   "label": "Liverpool – Villarreal",
+   "homeKey": "liverpool",
+   "awayKey": "villarreal",
+   "tip": "1",
+   "tipName": "Liverpool",
+   "prob": 0.5048,
+   "tipScore": "1:1",
+   "pOver25": 0.6223,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|cl|2026-10-20|man city|aek athens": {
+   "sport": "fb",
+   "comp": "Champions League",
+   "compId": "cl",
+   "date": "2026-10-20",
+   "label": "Manchester City – AEK Athens",
+   "homeKey": "man city",
+   "awayKey": "aek athens",
+   "tip": "2",
+   "tipName": "AEK Athens",
+   "prob": 0.3956,
+   "tipScore": "1:1",
+   "pOver25": 0.7076,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|cl|2026-10-20|napoli|bodo/glimt": {
+   "sport": "fb",
+   "comp": "Champions League",
+   "compId": "cl",
+   "date": "2026-10-20",
+   "label": "Napoli – Bodo/Glimt",
+   "homeKey": "napoli",
+   "awayKey": "bodo/glimt",
+   "tip": "2",
+   "tipName": "Bodo/Glimt",
+   "prob": 0.4035,
+   "tipScore": "1:1",
+   "pOver25": 0.6726,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|cl|2026-10-20|paris saint-germain|barcelona": {
+   "sport": "fb",
+   "comp": "Champions League",
+   "compId": "cl",
+   "date": "2026-10-20",
+   "label": "Paris Saint-Germain – Barcelona",
+   "homeKey": "paris saint-germain",
+   "awayKey": "barcelona",
+   "tip": "2",
+   "tipName": "Barcelona",
+   "prob": 0.5069,
+   "tipScore": "1:2",
+   "pOver25": 0.7939,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "2",
+    "odds": 2.47,
+    "edge": 0.1236,
+    "modelP": 0.5069,
+    "won": null
+   }
+  },
+  "fb|cl|2026-10-20|vfb stuttgart|ath madrid": {
+   "sport": "fb",
+   "comp": "Champions League",
+   "compId": "cl",
+   "date": "2026-10-20",
+   "label": "VfB Stuttgart – Atlético Madrid",
+   "homeKey": "vfb stuttgart",
+   "awayKey": "ath madrid",
+   "tip": "1",
+   "tipName": "VfB Stuttgart",
+   "prob": 0.4724,
+   "tipScore": "1:1",
+   "pOver25": 0.5922,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 3.25,
+    "edge": 0.1785,
+    "modelP": 0.4724,
+    "won": null
+   }
+  },
+  "fb|us1|2026-10-18|houston dynamo|fc dallas": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-10-18",
+   "label": "Houston Dynamo – FC Dallas",
+   "homeKey": "houston dynamo",
+   "awayKey": "fc dallas",
+   "tip": "1",
+   "tipName": "Houston Dynamo",
+   "prob": 0.4805,
+   "tipScore": "1:1",
+   "pOver25": 0.5841,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 2.25,
+    "edge": 0.0753,
+    "modelP": 0.4805,
+    "won": null
+   }
+  },
+  "fb|us1|2026-10-18|austin|vancouver whitecaps": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-10-18",
+   "label": "Austin – Vancouver Whitecaps",
+   "homeKey": "austin",
+   "awayKey": "vancouver whitecaps",
+   "tip": "2",
+   "tipName": "Vancouver Whitecaps",
+   "prob": 0.417,
+   "tipScore": "1:1",
+   "pOver25": 0.5764,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 4.4,
+    "edge": 0.1333,
+    "modelP": 0.3409,
+    "won": null
+   }
+  },
+  "fb|us1|2026-10-18|seattle sounders|cf montreal": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-10-18",
+   "label": "Seattle Sounders – CF Montreal",
+   "homeKey": "seattle sounders",
+   "awayKey": "cf montreal",
+   "tip": "1",
+   "tipName": "Seattle Sounders",
+   "prob": 0.6119,
+   "tipScore": "2:0",
+   "pOver25": 0.5813,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|us1|2026-10-18|los angeles galaxy|san diego": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-10-18",
+   "label": "Los Angeles Galaxy – San Diego",
+   "homeKey": "los angeles galaxy",
+   "awayKey": "san diego",
+   "tip": "1",
+   "tipName": "Los Angeles Galaxy",
+   "prob": 0.4911,
+   "tipScore": "2:1",
+   "pOver25": 0.7072,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 2.2,
+    "edge": 0.0803,
+    "modelP": 0.4911,
+    "won": null
+   }
+  },
+  "fb|br1|2026-10-20|corinthians|vitoria": {
+   "sport": "fb",
+   "comp": "Série A (Brasilien)",
+   "compId": "br1",
+   "date": "2026-10-20",
+   "label": "Corinthians – Vitória",
+   "homeKey": "corinthians",
+   "awayKey": "vitoria",
+   "tip": "2",
+   "tipName": "Vitória",
+   "prob": 0.3914,
+   "tipScore": "1:1",
+   "pOver25": 0.4479,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
   }
  }
 }
