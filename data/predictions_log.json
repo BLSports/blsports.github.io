@@ -78563,8 +78563,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 3.0,
-    "edge": 0.0544,
+    "odds": 3.1,
+    "edge": 0.0652,
     "modelP": 0.3595,
     "won": null
    }
@@ -78674,8 +78674,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 3.2,
-    "edge": 0.0915,
+    "odds": 3.1,
+    "edge": 0.082,
     "modelP": 0.3777,
     "won": null
    }
@@ -78699,8 +78699,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 2.38,
-    "edge": 0.1915,
+    "odds": 2.3,
+    "edge": 0.181,
     "modelP": 0.5781,
     "won": null
    }
@@ -78739,7 +78739,14 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 2.62,
+    "edge": 0.0625,
+    "modelP": 0.4146,
+    "won": null
+   }
   },
   "fb|se1|2026-10-18|orgryte is|gais": {
    "sport": "fb",
@@ -78757,14 +78764,7 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null,
-   "value": {
-    "pick": "1",
-    "odds": 4.5,
-    "edge": 0.1228,
-    "modelP": 0.3264,
-    "won": null
-   }
+   "exact": null
   },
   "fb|dk1|2026-10-18|lyngby boldklub|fc nordsjaelland": {
    "sport": "fb",
@@ -78785,8 +78785,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 3.4,
-    "edge": 0.0978,
+    "odds": 3.5,
+    "edge": 0.104,
     "modelP": 0.3663,
     "won": null
    }
@@ -78828,8 +78828,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 2.8,
-    "edge": 0.0936,
+    "odds": 2.88,
+    "edge": 0.0997,
     "modelP": 0.419,
     "won": null
    }
@@ -79805,14 +79805,7 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null,
-   "value": {
-    "pick": "1",
-    "odds": 2.1,
-    "edge": 0.0767,
-    "modelP": 0.5089,
-    "won": null
-   }
+   "exact": null
   },
   "fb|ie1|2026-10-19|derry city|st patricks athl": {
    "sport": "fb",
@@ -79833,8 +79826,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 3.4,
-    "edge": 0.1378,
+    "odds": 3.5,
+    "edge": 0.1464,
     "modelP": 0.4077,
     "won": null
    }
@@ -79961,9 +79954,9 @@
    "tip": "P2",
    "tipName": "Maya Joint",
    "prob": 0.5545,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-18|jones e|preston t": {
    "sport": "tn",
@@ -79975,9 +79968,9 @@
    "tip": "P2",
    "tipName": "Taylah Preston",
    "prob": 0.5738,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-18|ishii s|stoiana m": {
    "sport": "tn",
@@ -79989,9 +79982,9 @@
    "tip": "P2",
    "tipName": "Mary Stoiana",
    "prob": 0.8013,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-18|dart h|ito a": {
    "sport": "tn",
@@ -80003,9 +79996,9 @@
    "tip": "P2",
    "tipName": "Harriet Dart",
    "prob": 0.7204,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-18|kenin s|kraus s": {
    "sport": "tn",
@@ -80017,9 +80010,9 @@
    "tip": "P2",
    "tipName": "Sinja Kraus",
    "prob": 0.6069,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-18|kudermetova p|zakharova a": {
    "sport": "tn",
@@ -80031,9 +80024,9 @@
    "tip": "P1",
    "tipName": "Polina Kudermetova",
    "prob": 0.518,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-18|kawa k|snigur d": {
    "sport": "tn",
@@ -80045,9 +80038,9 @@
    "tip": "P2",
    "tipName": "Daria Snigur",
    "prob": 0.7192,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-18|parks a|putintseva y": {
    "sport": "tn",
@@ -80059,9 +80052,9 @@
    "tip": "P2",
    "tipName": "Alycia Parks",
    "prob": 0.5446,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-19|quevedo k|tararudee l": {
    "sport": "tn",
@@ -80213,9 +80206,9 @@
    "tip": "P2",
    "tipName": "Claire Liu",
    "prob": 0.5641,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-18|kalinina a|sasnovich a": {
    "sport": "tn",
@@ -80227,9 +80220,9 @@
    "tip": "P2",
    "tipName": "Anhelina Kalinina",
    "prob": 0.6823,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-10-18|diallo g|sakamoto r": {
    "sport": "tn",
@@ -80241,9 +80234,9 @@
    "tip": "P2",
    "tipName": "Gabriel Diallo",
    "prob": 0.5264,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-10-18|basilashvili n|walton a": {
    "sport": "tn",
@@ -80255,9 +80248,9 @@
    "tip": "P2",
    "tipName": "Adam Walton",
    "prob": 0.5498,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-18|han s|korneeva a": {
    "sport": "tn",
@@ -80269,9 +80262,9 @@
    "tip": "P1",
    "tipName": "Alina Korneeva",
    "prob": 0.7378,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|atp|2026-10-19|mannarino a|vukic a": {
    "sport": "tn",
@@ -81115,6 +81108,160 @@
    "result": null,
    "correct": null,
    "exact": null
+  },
+  "tn|wta|2026-10-19|kraus s|mcnally c": {
+   "sport": "tn",
+   "comp": "WTA · Kinoshita Group Japan Open",
+   "date": "2026-10-19",
+   "label": "Sinja Kraus – Catherine McNally",
+   "p1Key": "kraus s",
+   "p2Key": "mcnally c",
+   "tip": "P2",
+   "tipName": "Catherine McNally",
+   "prob": 0.5147,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-19|dart h|gibson t": {
+   "sport": "tn",
+   "comp": "WTA · Kinoshita Group Japan Open",
+   "date": "2026-10-19",
+   "label": "Harriet Dart – Talia Gibson",
+   "p1Key": "dart h",
+   "p2Key": "gibson t",
+   "tip": "P2",
+   "tipName": "Talia Gibson",
+   "prob": 0.703,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-20|shibahara e|uchijima m": {
+   "sport": "tn",
+   "comp": "WTA · Kinoshita Group Japan Open",
+   "date": "2026-10-20",
+   "label": "Ena Shibahara – Moyuka Uchijima",
+   "p1Key": "shibahara e",
+   "p2Key": "uchijima m",
+   "tip": "P2",
+   "tipName": "Moyuka Uchijima",
+   "prob": 0.7926,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-20|oliynykova o|stoiana m": {
+   "sport": "tn",
+   "comp": "WTA · Kinoshita Group Japan Open",
+   "date": "2026-10-20",
+   "label": "Mary Stoiana – Oleksandra Oliynykova",
+   "p1Key": "stoiana m",
+   "p2Key": "oliynykova o",
+   "tip": "P2",
+   "tipName": "Oleksandra Oliynykova",
+   "prob": 0.6646,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-20|joint m|sonmez z": {
+   "sport": "tn",
+   "comp": "WTA · Kinoshita Group Japan Open",
+   "date": "2026-10-20",
+   "label": "Zeynep Sonmez – Maya Joint",
+   "p1Key": "sonmez z",
+   "p2Key": "joint m",
+   "tip": "P1",
+   "tipName": "Zeynep Sonmez",
+   "prob": 0.5933,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-20|birrell k|kartal s": {
+   "sport": "tn",
+   "comp": "WTA · Kinoshita Group Japan Open",
+   "date": "2026-10-20",
+   "label": "Kimberly Birrell – Sonay Kartal",
+   "p1Key": "birrell k",
+   "p2Key": "kartal s",
+   "tip": "P1",
+   "tipName": "Kimberly Birrell",
+   "prob": 0.7738,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-20|jones e|li a": {
+   "sport": "tn",
+   "comp": "WTA · Kinoshita Group Japan Open",
+   "date": "2026-10-20",
+   "label": "Emerson Jones – Ann Li",
+   "p1Key": "jones e",
+   "p2Key": "li a",
+   "tip": "P2",
+   "tipName": "Ann Li",
+   "prob": 0.7622,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-20|badosa p|ruzic a": {
+   "sport": "tn",
+   "comp": "WTA · Kinoshita Group Japan Open",
+   "date": "2026-10-20",
+   "label": "Antonia Ruzic – Paula Badosa",
+   "p1Key": "ruzic a",
+   "p2Key": "badosa p",
+   "tip": "P2",
+   "tipName": "Paula Badosa",
+   "prob": 0.599,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-20|linette m|liu c": {
+   "sport": "tn",
+   "comp": "WTA · Kinoshita Group Japan Open",
+   "date": "2026-10-20",
+   "label": "Magda Linette – Claire Liu",
+   "p1Key": "linette m",
+   "p2Key": "liu c",
+   "tip": "P1",
+   "tipName": "Magda Linette",
+   "prob": 0.5467,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-20|siniakova k|stearns p": {
+   "sport": "tn",
+   "comp": "WTA · Kinoshita Group Japan Open",
+   "date": "2026-10-20",
+   "label": "Peyton Stearns – Katerina Siniakova",
+   "p1Key": "stearns p",
+   "p2Key": "siniakova k",
+   "tip": "P1",
+   "tipName": "Peyton Stearns",
+   "prob": 0.6741,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-20|shuai z|valentova t": {
+   "sport": "tn",
+   "comp": "WTA · Kinoshita Group Japan Open",
+   "date": "2026-10-20",
+   "label": "Zhang Shuai – Tereza Valentova",
+   "p1Key": "shuai z",
+   "p2Key": "valentova t",
+   "tip": "P2",
+   "tipName": "Tereza Valentova",
+   "prob": 0.5566,
+   "status": "open",
+   "result": null,
+   "correct": null
   }
  }
 }
