@@ -77592,10 +77592,10 @@
    "prob": 0.4881,
    "tipScore": "1:1",
    "pOver25": 0.6673,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "1:1",
+   "correct": false,
+   "exact": true
   },
   "fb|pl|2026-10-18|bournemouth|sunderland": {
    "sport": "fb",
@@ -80598,9 +80598,9 @@
    "tip": "P1",
    "tipName": "Nicolai Budkov Kjaer",
    "prob": 0.6438,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-10-18|royer v|tabur c": {
    "sport": "tn",
@@ -81791,6 +81791,34 @@
    "tip": "P2",
    "tipName": "Botic Van De Zandschulp",
    "prob": 0.7464,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-19|jacquet k|mmoh m": {
+   "sport": "tn",
+   "comp": "ATP · Grand Prix Auvergne-Rhône-Alpes",
+   "date": "2026-10-19",
+   "label": "Michael Mmoh – Kyrian Jacquet",
+   "p1Key": "mmoh m",
+   "p2Key": "jacquet k",
+   "tip": "P2",
+   "tipName": "Kyrian Jacquet",
+   "prob": 0.6419,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-19|budkov kjaer n|tabur c": {
+   "sport": "tn",
+   "comp": "ATP · Grand Prix Auvergne-Rhône-Alpes",
+   "date": "2026-10-19",
+   "label": "Nicolai Budkov Kjaer – Clement Tabur",
+   "p1Key": "budkov kjaer n",
+   "p2Key": "tabur c",
+   "tip": "P1",
+   "tipName": "Nicolai Budkov Kjaer",
+   "prob": 0.5109,
    "status": "open",
    "result": null,
    "correct": null
