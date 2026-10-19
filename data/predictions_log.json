@@ -80556,9 +80556,9 @@
    "tip": "P2",
    "tipName": "Alexandra Eala",
    "prob": 0.6109,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-19|alexandrova e|hanyu g": {
    "sport": "tn",
@@ -80724,9 +80724,9 @@
    "tip": "P2",
    "tipName": "Lorenzo Sonego",
    "prob": 0.6598,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-10-19|bonzi b|norrie c": {
    "sport": "tn",
@@ -80752,9 +80752,9 @@
    "tip": "P2",
    "tipName": "Jaime Faria",
    "prob": 0.735,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-10-19|medjedovic h|nakashima b": {
    "sport": "tn",
@@ -80808,9 +80808,9 @@
    "tip": "P1",
    "tipName": "Lorenzo Musetti",
    "prob": 0.5687,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-10-18|basavareddy n|dougaz a": {
    "sport": "tn",
@@ -81357,9 +81357,9 @@
    "tip": "P2",
    "tipName": "Marin Cilic",
    "prob": 0.5886,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-19|bouzkova m|rakhimova k": {
    "sport": "tn",
@@ -81385,9 +81385,9 @@
    "tip": "P1",
    "tipName": "Stefanos Sakellaridis",
    "prob": 0.7135,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|atp|2026-10-20|manuel cerundolo j|navone m": {
    "sport": "tn",
@@ -81735,9 +81735,9 @@
    "tip": "P2",
    "tipName": "Yannick Hanfmann",
    "prob": 0.6239,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-10-19|guerrieri a|michelsen a": {
    "sport": "tn",
@@ -81749,9 +81749,9 @@
    "tip": "P1",
    "tipName": "Alex Michelsen",
    "prob": 0.7818,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-10-20|bertola r|goffin d": {
    "sport": "tn",
@@ -81805,9 +81805,9 @@
    "tip": "P2",
    "tipName": "Kyrian Jacquet",
    "prob": 0.6143,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-10-19|budkov kjaer n|tabur c": {
    "sport": "tn",
@@ -81819,9 +81819,9 @@
    "tip": "P2",
    "tipName": "Clement Tabur",
    "prob": 0.5357,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "fb|cl|2026-10-21|como|man united": {
    "sport": "fb",
@@ -82262,6 +82262,118 @@
    "tip": "P1",
    "tipName": "Iga Swiatek",
    "prob": 0.7113,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-20|baez s|hugues herbert p": {
+   "sport": "tn",
+   "comp": "ATP · Grand Prix Auvergne-Rhône-Alpes",
+   "date": "2026-10-20",
+   "label": "Sebastian Baez – Pierre-Hugues Herbert",
+   "p1Key": "baez s",
+   "p2Key": "hugues herbert p",
+   "tip": "P1",
+   "tipName": "Sebastian Baez",
+   "prob": 0.8193,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-20|fery a|gojo b": {
+   "sport": "tn",
+   "comp": "ATP · Grand Prix Auvergne-Rhône-Alpes",
+   "date": "2026-10-20",
+   "label": "Borna Gojo – Arthur Fery",
+   "p1Key": "gojo b",
+   "p2Key": "fery a",
+   "tip": "P2",
+   "tipName": "Arthur Fery",
+   "prob": 0.7773,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-20|tabur c|van assche l": {
+   "sport": "tn",
+   "comp": "ATP · Grand Prix Auvergne-Rhône-Alpes",
+   "date": "2026-10-20",
+   "label": "Clement Tabur – Luca Van Assche",
+   "p1Key": "tabur c",
+   "p2Key": "van assche l",
+   "tip": "P2",
+   "tipName": "Luca Van Assche",
+   "prob": 0.7335,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-20|berrettini m|jacquet k": {
+   "sport": "tn",
+   "comp": "ATP · Grand Prix Auvergne-Rhône-Alpes",
+   "date": "2026-10-20",
+   "label": "Kyrian Jacquet – Matteo Berrettini",
+   "p1Key": "jacquet k",
+   "p2Key": "berrettini m",
+   "tip": "P2",
+   "tipName": "Matteo Berrettini",
+   "prob": 0.6409,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-21|cerundolo f|damm m": {
+   "sport": "tn",
+   "comp": "ATP · BNP Paribas Fortis European Open",
+   "date": "2026-10-21",
+   "label": "Francisco Cerundolo – Martin Damm",
+   "p1Key": "cerundolo f",
+   "p2Key": "damm m",
+   "tip": "P1",
+   "tipName": "Francisco Cerundolo",
+   "prob": 0.7996,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-21|basilashvili n|diaz acosta f": {
+   "sport": "tn",
+   "comp": "ATP · Almaty Open",
+   "date": "2026-10-21",
+   "label": "Nikoloz Basilashvili – Facundo Diaz Acosta",
+   "p1Key": "basilashvili n",
+   "p2Key": "diaz acosta f",
+   "tip": "P2",
+   "tipName": "Facundo Diaz Acosta",
+   "prob": 0.6227,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-21|kouame m|musetti l": {
+   "sport": "tn",
+   "comp": "ATP · Grand Prix Auvergne-Rhône-Alpes",
+   "date": "2026-10-21",
+   "label": "Lorenzo Musetti – Moise Kouame",
+   "p1Key": "musetti l",
+   "p2Key": "kouame m",
+   "tip": "P1",
+   "tipName": "Lorenzo Musetti",
+   "prob": 0.8466,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-21|landaluce m|wawrinka s": {
+   "sport": "tn",
+   "comp": "ATP · Grand Prix Auvergne-Rhône-Alpes",
+   "date": "2026-10-21",
+   "label": "Martin Landaluce – Stan Wawrinka",
+   "p1Key": "landaluce m",
+   "p2Key": "wawrinka s",
+   "tip": "P1",
+   "tipName": "Martin Landaluce",
+   "prob": 0.6517,
    "status": "open",
    "result": null,
    "correct": null
