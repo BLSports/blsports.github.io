@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-20T12:52:14.046229+02:00",
+ "generatedAt": "2026-10-20T18:16:49.537021+02:00",
  "windowDays": 3,
  "days": [
   "2026-10-20",
@@ -70,7 +70,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Gefährlichste Torschützen: bei Slavia Prague Danijel Sturm (2 Tore). Personal: Fenerbahce fehlen 18 Spieler (u.a. M. Asensio).",
+     "analysis": "Gefährlichste Torschützen: bei Slavia Prague Danijel Sturm (2 Tore). Personal: Fenerbahce fehlen 19 Spieler (u.a. M. Asensio).",
      "injuriesHome": [
       {
        "name": "M. Asensio",
@@ -193,17 +193,41 @@
        "reason": "Muscle Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "Wie BVB-Gegner Sabah seine Zuschauerzahl vervierzigfacht",
-       "link": "https://www.kicker.de/wie-bvb-gegner-sabah-seine-zuschauerzahl-vervierzigfacht-1263173/artikel#omrss"
+     "lineups": {
+      "home": {
+       "formation": "4-2-3-1",
+       "xi": [
+        "S. Pokatilov",
+        "A. Zedadka",
+        "S. Solvet",
+        "A. McCarthy",
+        "T. Puchacz",
+        "U. Rahmonaliyev",
+        "I. Lepinjica",
+        "K. Parris",
+        "Du Queiroz",
+        "V. Simić",
+        "J. Mickels"
+       ]
       },
-      {
-       "title": "LIVE! Wie schlägt sich Dortmunds U 19 in Aserbaidschan?",
-       "link": "https://www.kicker.de/sabah-gegen-dortmund-2026-uefa-youth-league-5264935/spielbericht#omrss"
+      "away": {
+       "formation": "3-4-2-1",
+       "xi": [
+        "G. Kobel",
+        "N. Schlotterbeck",
+        "W. Anton",
+        "R. Bensebaïni",
+        "J. Ryerson",
+        "J. Veerman",
+        "C. Chukwuemeka",
+        "D. Svensson",
+        "Fábio Silva",
+        "F. Nmecha",
+        "S. Guirassy"
+       ]
       }
-     ]
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-10-20T21:00:00+02:00",
@@ -560,13 +584,7 @@
        "reason": "Eye injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "Liverpools kuriose Ballung, die nicht nur den Greenkeeper besorgt",
-       "link": "https://www.kicker.de/liverpools-kuriose-ballung-die-nicht-nur-den-greenkeeper-besorgt-1263027/artikel#omrss"
-      }
-     ]
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-10-20T21:00:00+02:00",
@@ -995,8 +1013,8 @@
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
       {
-       "title": "Wer überträgt VfB Stuttgart gegen Atletico Madrid heute live im TV &amp; Stream?",
-       "link": "https://www.kicker.de/wer-uebertraegt-vfb-stuttgart-gegen-atletico-madrid-heute-live-im-tv-stream-1261917/artikel#omrss"
+       "title": "Elfmeter-Festival in Stuttgart: VfB verliert trotz Redzepis Doppelpack",
+       "link": "https://www.kicker.de/vfb-gegen-atletico-2026-uefa-youth-league-5264942/spielbericht#omrss"
       }
      ]
     },
@@ -1187,8 +1205,8 @@
        "reason": "Foot Injury"
       },
       {
-       "name": "B. Ozer",
-       "reason": "Injury"
+       "name": "O. Sahraoui",
+       "reason": "Inactive"
       }
      ],
      "injuriesAway": [
@@ -1474,7 +1492,17 @@
        "reason": "Ankle Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "news": [
+      {
+       "title": "\"Virus strahlt in die Beine aus\": Wie geht es Kompany vor dem Arsenal-Spiel?",
+       "link": "https://www.kicker.de/virus-strahlt-in-die-beine-aus-wie-geht-es-kompany-vor-dem-arsenal-spiel-1263367/video#omrss"
+      },
+      {
+       "title": "Kompany fraglich für Arsenal-Spiel - Neuer vor Rückkehr, Kimmich fehlt im Training",
+       "link": "https://www.kicker.de/kompany-fraglich-fuer-arsenal-spiel-neuer-vor-rueckkehr-kimmich-fehlt-im-training-1263219/artikel#omrss"
+      }
+     ]
     },
     {
      "kickoff": "2026-10-21T21:00:00+02:00",
@@ -1963,8 +1991,8 @@
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
       {
-       "title": "Wer überträgt VfB Stuttgart gegen Atletico Madrid heute live im TV &amp; Stream?",
-       "link": "https://www.kicker.de/wer-uebertraegt-vfb-stuttgart-gegen-atletico-madrid-heute-live-im-tv-stream-1261917/artikel#omrss"
+       "title": "Referee-Diskussionen ohne Ende - aber gegen Leipzig erwartet Mourinho keine",
+       "link": "https://www.kicker.de/referee-diskussionen-ohne-ende-aber-gegen-leipzig-erwartet-mourinho-keine-1263292/artikel#omrss"
       }
      ]
     },
@@ -2044,7 +2072,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Sporting CP geht als klarer Favorit (58 %) in das Heimspiel gegen LASK Linz. In der Tabelle stehen sich Platz 6 und Platz 33 gegenüber. Das letzte Duell (2020) endete 1:4 (Sporting CP – Lask Linz). Das Modell erwartet ein torreiches Spiel (xG 2,5:1,5; über 2,5 Tore: 76 %, beide Teams treffen zu 71 %). Gefährlichste Torschützen: bei LASK Linz F. Flecker (3 Tore). Personal: Sporting CP fehlen 6 Spieler (u.a. I. Ba); LASK Linz fehlen 6 Spieler (u.a. G. Bello).",
+     "analysis": "Sporting CP geht als klarer Favorit (58 %) in das Heimspiel gegen LASK Linz. In der Tabelle stehen sich Platz 6 und Platz 33 gegenüber. Das letzte Duell (2020) endete 1:4 (Sporting CP – Lask Linz). Das Modell erwartet ein torreiches Spiel (xG 2,5:1,5; über 2,5 Tore: 76 %, beide Teams treffen zu 71 %). Gefährlichste Torschützen: bei LASK Linz F. Flecker (3 Tore). Personal: Sporting CP fehlen 6 Spieler (u.a. I. Ba); LASK Linz fehlen 5 Spieler (u.a. G. Bello).",
      "injuriesHome": [
       {
        "name": "I. Ba",
@@ -2091,10 +2119,6 @@
       {
        "name": "M. Usor",
        "reason": "Shoulder Injury"
-      },
-      {
-       "name": "S. Horvath",
-       "reason": "Thigh Injury"
       }
      ],
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2632,7 +2656,13 @@
        "reason": "Illness"
       }
      ],
-     "basis": "Datenbasis: Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "basis": "Datenbasis: Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "news": [
+      {
+       "title": "Boniface ausgestochen: Bayer nominiert Hofmann nach",
+       "link": "https://www.kicker.de/boniface-ausgestochen-bayer-nominiert-hofmann-nach-1263364/artikel#omrss"
+      }
+     ]
     },
     {
      "kickoff": "2026-10-22T18:45:00+02:00",
@@ -3794,8 +3824,8 @@
      },
      "pBtts": 0.5613,
      "odds": {
-      "h": 1.53,
-      "d": 4.0,
+      "h": 1.5,
+      "d": 4.2,
       "a": 5.8,
       "src": "William Hill"
      },
@@ -4390,13 +4420,7 @@
      ],
      "scorersPeriod": "Saison",
      "analysis": "Gefährlichste Torschützen: bei F.C. København Andreas Cornelius (2 Tore).",
-     "basis": "Datenbasis: Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "Die Champions League startet mit auffälligen Ergebnissen - das könnte Folgen haben",
-       "link": "https://www.kicker.de/die-champions-league-startet-mit-auffaelligen-ergebnissen-das-koennte-folgen-haben-1263021/artikel#omrss"
-      }
-     ]
+     "basis": "Datenbasis: Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-10-22T18:45:00+02:00",
@@ -4456,13 +4480,7 @@
      "scorersAway": [],
      "scorersPeriod": "Saison",
      "analysis": "Trabzonspor ist gegen Heart of Midlothian leicht favorisiert (48 % zu 30 %). In der Tabelle stehen sich Platz 3 und Platz 19 gegenüber. Die Form spricht für Trabzonspor: 4 Siege aus den letzten 5 Spielen, Heart of Midlothian holte nur 1. Das Modell erwartet ein torreiches Spiel (xG 1,9:1,5; über 2,5 Tore: 67 %, beide Teams treffen zu 67 %). Gefährlichste Torschützen: bei Trabzonspor Franculino Djú (2 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "Traumsolo: Baur fährt Slalom mit der Hearts-Abwehr",
-       "link": "https://www.kicker.de/traumsolo-baur-faehrt-slalom-mit-der-hearts-abwehr-1263262/video#omrss"
-      }
-     ]
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-10-22T21:00:00+02:00",
@@ -4668,13 +4686,7 @@
      "scorersAway": [],
      "scorersPeriod": "Saison",
      "analysis": "SC Freiburg ist bei AS Monaco leicht favorisiert (44 % zu 34 %). In der Tabelle stehen sich Platz 9 und Platz 7 gegenüber. Das Modell erwartet ein torreiches Spiel (xG 1,6:1,8; über 2,5 Tore: 66 %, beide Teams treffen zu 67 %). Gefährlichste Torschützen: bei AS Monaco Paris Brunner (1 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,92) für 12 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "Nach Tennisball-Protest: Schuster kritisiert Freiburger Fans",
-       "link": "https://www.kicker.de/nach-tennisball-protest-schuster-kritisiert-freiburger-fans-1262870/artikel#omrss"
-      }
-     ]
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-10-22T21:00:00+02:00",
@@ -4797,13 +4809,7 @@
      "scorersAway": [],
      "scorersPeriod": "Saison",
      "analysis": "KAA Gent ist bei Braga leicht favorisiert (43 % zu 29 %). In der Tabelle stehen sich Platz 35 und Platz 13 gegenüber. Die Form spricht für KAA Gent: 3 Siege aus den letzten 5 Spielen, Braga holte nur 1. Das letzte Duell (2016) endete 2:2 (Gent – SC Braga). Das Modell erwartet eher wenige Tore (xG 1,0:1,2; über 2,5 Tore: 39 %, beide Teams treffen zu 45 %).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "Mit Sachspenden aus Silber: Maradona-Statue bei Argentinos Juniors",
-       "link": "https://www.kicker.de/mit-sachspenden-aus-silber-maradona-statue-bei-argentinos-juniors-1263165/artikel#omrss"
-      }
-     ]
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-10-22T21:00:00+02:00",
@@ -5511,490 +5517,7 @@
  ],
  "tennis": [
   {
-   "start": "2026-10-20T13:05:00+02:00",
-   "tour": "ATP",
-   "tournament": "Almaty Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Yuki Bhambri / Ryan Seggerman",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Sander Gille / Sem Verbeek",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-10-20T13:10:00+02:00",
-   "tour": "WTA",
-   "tournament": "BNB Ningbo Open",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Ekaterina Alexandrova",
-    "rank": 33,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Guo Hanyu",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 8
-   },
-   "pP1": 0.8483,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.8483
-   },
-   "h2h": [],
-   "analysis": "Ekaterina Alexandrova (#33) trifft auf Guo Hanyu, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Ekaterina Alexandrova mit 85 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 1.22,
-    "p2": 4.25,
-    "src": "Unibet (NL)"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-20T13:20:00+02:00",
-   "tour": "ATP",
-   "tournament": "BNP Paribas Fortis European Open",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Clement Chidekh",
-    "rank": 152,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 4
-   },
-   "p2": {
-    "name": "Botic Van De Zandschulp",
-    "rank": 38,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "pP1": 0.2353,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.2353
-   },
-   "h2h": [],
-   "analysis": "Clement Chidekh (Weltrangliste #152) trifft auf Botic Van De Zandschulp (#38). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Botic Van De Zandschulp mit 76 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-20T13:30:00+02:00",
-   "tour": "ATP",
-   "tournament": "BNP Paribas Fortis European Open",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Marcos Giron",
-    "rank": 88,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Jan-Lennard Struff",
-    "rank": 58,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.4123,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.4123
-   },
-   "h2h": [],
-   "analysis": "Marcos Giron (Weltrangliste #88) trifft auf Jan-Lennard Struff (#58). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Jan-Lennard Struff mit 59 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-20T13:30:00+02:00",
-   "tour": "ATP",
-   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Borna Gojo",
-    "rank": 148,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 5
-   },
-   "p2": {
-    "name": "Arthur Fery",
-    "rank": 34,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.2227,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.2227
-   },
-   "h2h": [],
-   "analysis": "Borna Gojo (Weltrangliste #148) trifft auf Arthur Fery (#34). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Arthur Fery mit 78 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-20T14:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Corentin Moutet",
-    "rank": 94,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Ugo Humbert",
-    "rank": 35,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.3016,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.3016
-   },
-   "h2h": [],
-   "analysis": "Corentin Moutet (Weltrangliste #94) trifft auf Ugo Humbert (#35). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Ugo Humbert mit 70 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-20T14:30:00+02:00",
-   "tour": "ATP",
-   "tournament": "BNP Paribas Fortis European Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Marcelo Melo / John-Patrick Smith",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Nicolas Barrientos / David Pel",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-10-20T14:30:00+02:00",
-   "tour": "ATP",
-   "tournament": "Almaty Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Alexander Bublik / Zangar Nurlanuly",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Daniel Cukierman / Fernando Romboli",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-10-20T15:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Titouan Droguet",
-    "rank": 69,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Daniel Altmaier",
-    "rank": 65,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.4873,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.4873
-   },
-   "h2h": [],
-   "analysis": "Titouan Droguet (Weltrangliste #69) trifft auf Daniel Altmaier (#65). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Daniel Altmaier mit 51 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-20T15:30:00+02:00",
-   "tour": "ATP",
-   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Cameron Norrie",
-    "rank": 40,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Benjamin Bonzi",
-    "rank": 100,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.6854,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6854
-   },
-   "h2h": [],
-   "analysis": "Cameron Norrie (Weltrangliste #40) trifft auf Benjamin Bonzi (#100). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Cameron Norrie mit 69 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-20T16:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "BNP Paribas Fortis European Open",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Hugo Gaston",
-    "rank": 93,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Jacob Fearnley",
-    "rank": 87,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.4858,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.4858
-   },
-   "h2h": [],
-   "analysis": "Hugo Gaston (Weltrangliste #93) trifft auf Jacob Fearnley (#87). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Jacob Fearnley mit 51 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-20T16:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "BNP Paribas Fortis European Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Orlando Luz / Rafael Matos",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Sander Arends / Luke Johnson",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-10-20T16:30:00+02:00",
-   "tour": "ATP",
-   "tournament": "Almaty Open",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Karen Khachanov",
-    "rank": 25,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "p2": {
-    "name": "Rei Sakamoto",
-    "rank": 124,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 5
-   },
-   "pP1": 0.796,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.796
-   },
-   "h2h": [],
-   "analysis": "Karen Khachanov (Weltrangliste #25) trifft auf Rei Sakamoto (#124). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Karen Khachanov mit 80 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-20T16:30:00+02:00",
+   "start": "2026-10-20T18:50:00+02:00",
    "tour": "ATP",
    "tournament": "Grand Prix Auvergne-Rhône-Alpes",
    "round": "1. Runde",
@@ -6031,48 +5554,6 @@
    },
    "h2h": [],
    "analysis": "Clement Tabur (Weltrangliste #158) trifft auf Luca Van Assche (#48). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Luca Van Assche mit 73 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-20T18:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "BNP Paribas Fortis European Open",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Zizou Bergs",
-    "rank": 41,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "p2": {
-    "name": "Toby Samuel",
-    "rank": 96,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.6733,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6733
-   },
-   "h2h": [],
-   "analysis": "Zizou Bergs (Weltrangliste #41) trifft auf Toby Samuel (#96). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Zizou Bergs mit 67 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -6288,7 +5769,7 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-10-21T05:30:00+02:00",
+   "start": "2026-10-21T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "Kinoshita Group Japan Open",
    "round": "2. Runde",
@@ -6331,533 +5812,6 @@
   },
   {
    "start": "2026-10-21T06:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "BNP Paribas Fortis European Open",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Damir Dzumhur",
-    "rank": 83,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Dino Prizmic",
-    "rank": 95,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.5287,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.5287
-   },
-   "h2h": [],
-   "analysis": "Damir Dzumhur (Weltrangliste #83) trifft auf Dino Prizmic (#95). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Damir Dzumhur mit 53 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-21T06:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "BNP Paribas Fortis European Open",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Remy Bertola",
-    "rank": 219,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 6
-   },
-   "p2": {
-    "name": "David Goffin",
-    "rank": 657,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.7178,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.7178
-   },
-   "h2h": [],
-   "analysis": "Remy Bertola (Weltrangliste #219) trifft auf David Goffin (#657). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Remy Bertola mit 72 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-21T06:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "BNP Paribas Fortis European Open",
-   "round": "2. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Francisco Cerundolo",
-    "rank": 21,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Martin Damm",
-    "rank": 107,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 7
-   },
-   "pP1": 0.7996,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.7996
-   },
-   "h2h": [],
-   "analysis": "Francisco Cerundolo (Weltrangliste #21) trifft auf Martin Damm (#107). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Francisco Cerundolo mit 80 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-21T06:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "BNP Paribas Fortis European Open",
-   "round": "2. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Jaume Munar",
-    "rank": 51,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "p2": {
-    "name": "Arthur Fils",
-    "rank": 10,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.2002,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.2002
-   },
-   "h2h": [],
-   "analysis": "Jaume Munar (Weltrangliste #51) trifft auf Arthur Fils (#10). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Arthur Fils mit 80 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-21T06:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "BNP Paribas Fortis European Open",
-   "round": "Viertelfinale",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Raphael Collignon / David Goffin",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Constantin Frantzén / Robert Galloway",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-21T06:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "BNP Paribas Fortis European Open",
-   "round": "Viertelfinale",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Tallon Griekspoor / Botic Van De Zandschulp",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Sadio Doumbia / Bart Stevens",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-21T06:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "BNP Paribas Fortis European Open",
-   "round": "Viertelfinale",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "TBD / TBD",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Francisco Cerundolo / Alex Michelsen",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-21T06:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "BNP Paribas Fortis European Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Michael Geerts / Joran Vliegen",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Guido Andreozzi / Manuel Guinard",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-21T06:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
-   "round": "2. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Lorenzo Musetti",
-    "rank": 26,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "p2": {
-    "name": "Moise Kouame",
-    "rank": 194,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": 0.8466,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.8466
-   },
-   "h2h": [],
-   "analysis": "Lorenzo Musetti (Weltrangliste #26) trifft auf Moise Kouame (#194). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Lorenzo Musetti mit 85 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-21T06:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
-   "round": "1. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Martin Landaluce",
-    "rank": 67,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Stan Wawrinka",
-    "rank": 140,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.6517,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6517
-   },
-   "h2h": [],
-   "analysis": "Martin Landaluce (Weltrangliste #67) trifft auf Stan Wawrinka (#140). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Martin Landaluce mit 65 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-21T06:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
-   "round": "Viertelfinale",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "TBD / TBD",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Julian Cash / Lloyd Glasspool",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-21T06:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Andrew Paulson / Nino Serdarusic",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "David Stevenson / Marcus Willis",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-21T06:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Theo Arribage / Albano Olivetti",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Titouan Droguet / Kyrian Jacquet",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-21T06:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Santiago Gonzalez / Hendrik Jebens",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Jakub Paul / Matej Vocel",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-21T06:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
-   "round": "Viertelfinale",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Matisse Bobichon / Kilian Feldbausch",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "TBD / TBD",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-21T06:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
-   "round": "Viertelfinale",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Ariel Behar / Joshua Paris",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "TBD / TBD",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-21T06:00:00+02:00",
-   "tour": "ATP",
-   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Gonzalo Escobar / Niki Kaliyanda Poonacha",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Romain Arneodo / Ugo Blanchet",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-21T06:00:00+02:00",
    "tour": "WTA",
    "tournament": "Kinoshita Group Japan Open",
    "round": "Viertelfinale",
@@ -6879,124 +5833,7 @@
    "h2h": [],
    "analysis": "",
    "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-21T06:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Kinoshita Group Japan Open",
-   "round": "Viertelfinale",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "TBD / TBD",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Momoko Kobori / Ayano Shimizu",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-21T06:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Kinoshita Group Japan Open",
-   "round": "Viertelfinale",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Ya Hsin Lee / Fang-Hsien Wu",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "TBD / TBD",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-21T06:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Kinoshita Group Japan Open",
-   "round": "Viertelfinale",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "TBD / TBD",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Ingrid Neel / Giuliana Olmos",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-21T07:00:00+02:00",
-   "tour": "WTA",
-   "tournament": "Kinoshita Group Japan Open",
-   "round": "2. Runde",
-   "surface": null,
-   "p1": {
-    "name": "Viktorija Golubic",
-    "rank": 82,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "p2": {
-    "name": "Katie Boulter",
-    "rank": 58,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 4
-   },
-   "pP1": 0.4269,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.4269
-   },
-   "h2h": [],
-   "analysis": "Viktorija Golubic (Weltrangliste #82) trifft auf Katie Boulter (#58). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Katie Boulter mit 57 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "timeTBD": false
   },
   {
    "start": "2026-10-21T07:00:00+02:00",
@@ -7066,11 +5903,78 @@
    "timeTBD": false
   },
   {
+   "start": "2026-10-21T07:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "Kinoshita Group Japan Open",
+   "round": "2. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Viktorija Golubic",
+    "rank": 82,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Katie Boulter",
+    "rank": 58,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
+   },
+   "pP1": 0.4269,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4269
+   },
+   "h2h": [],
+   "analysis": "Viktorija Golubic (Weltrangliste #82) trifft auf Katie Boulter (#58). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Katie Boulter mit 57 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-21T07:30:00+02:00",
+   "tour": "WTA",
+   "tournament": "Kinoshita Group Japan Open",
+   "round": "Viertelfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Ya Hsin Lee / Fang-Hsien Wu",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Storm Hunter / Janice Tjen",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
    "start": "2026-10-21T08:30:00+02:00",
    "tour": "ATP",
    "tournament": "Almaty Open",
    "round": "1. Runde",
-   "surface": "Hartplatz",
+   "surface": null,
    "p1": {
     "name": "Tomas Martin Etcheverry",
     "rank": 29,
@@ -7112,7 +6016,7 @@
    "tour": "ATP",
    "tournament": "Almaty Open",
    "round": "2. Runde",
-   "surface": "Hartplatz",
+   "surface": null,
    "p1": {
     "name": "Luciano Darderi",
     "rank": 23,
@@ -7204,7 +6108,7 @@
    "surface": null,
    "doubles": true,
    "p1": {
-    "name": "Su-Wei Hsieh / Jelena Ostapenko",
+    "name": "TBD / TBD",
     "rank": null,
     "last7": 0,
     "sets7": 0
@@ -7222,11 +6126,36 @@
    "timeTBD": false
   },
   {
+   "start": "2026-10-21T09:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Kinoshita Group Japan Open",
+   "round": "Viertelfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Hao-Ching Chan / Miyu Kato",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Momoko Kobori / Ayano Shimizu",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
    "start": "2026-10-21T10:00:00+02:00",
    "tour": "ATP",
    "tournament": "Almaty Open",
    "round": "2. Runde",
-   "surface": "Hartplatz",
+   "surface": null,
    "p1": {
     "name": "Nikoloz Basilashvili",
     "rank": 128,
@@ -7268,7 +6197,7 @@
    "tour": "ATP",
    "tournament": "Almaty Open",
    "round": "1. Runde",
-   "surface": "Hartplatz",
+   "surface": null,
    "p1": {
     "name": "Tomas Machac",
     "rank": 72,
@@ -7375,9 +6304,93 @@
   {
    "start": "2026-10-21T11:30:00+02:00",
    "tour": "ATP",
+   "tournament": "BNP Paribas Fortis European Open",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Damir Dzumhur",
+    "rank": 83,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Dino Prizmic",
+    "rank": 95,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.5287,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.5287
+   },
+   "h2h": [],
+   "analysis": "Damir Dzumhur (Weltrangliste #83) trifft auf Dino Prizmic (#95). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Damir Dzumhur mit 53 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-21T11:30:00+02:00",
+   "tour": "ATP",
+   "tournament": "BNP Paribas Fortis European Open",
+   "round": "2. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Francisco Cerundolo",
+    "rank": 21,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Martin Damm",
+    "rank": 107,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 7
+   },
+   "pP1": 0.7996,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.7996
+   },
+   "h2h": [],
+   "analysis": "Francisco Cerundolo (Weltrangliste #21) trifft auf Martin Damm (#107). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Francisco Cerundolo mit 80 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-21T11:30:00+02:00",
+   "tour": "ATP",
    "tournament": "Almaty Open",
    "round": "2. Runde",
-   "surface": "Hartplatz",
+   "surface": null,
    "p1": {
     "name": "Andrey Rublev",
     "rank": 22,
@@ -7465,6 +6478,123 @@
    "timeTBD": false
   },
   {
+   "start": "2026-10-21T12:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Gonzalo Escobar / Niki Kaliyanda Poonacha",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Romain Arneodo / Ugo Blanchet",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-21T12:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Theo Arribage / Albano Olivetti",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Titouan Droguet / Kyrian Jacquet",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-21T13:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "BNP Paribas Fortis European Open",
+   "round": "2. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Tallon Griekspoor",
+    "rank": 60,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "p2": {
+    "name": "Mariano Navone",
+    "rank": 45,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.4392,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4392
+   },
+   "h2h": [],
+   "analysis": "Tallon Griekspoor (Weltrangliste #60) trifft auf Mariano Navone (#45). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Mariano Navone mit 56 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-21T13:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "BNP Paribas Fortis European Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Michael Geerts / Joran Vliegen",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Guido Andreozzi / Manuel Guinard",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
    "start": "2026-10-21T13:00:00+02:00",
    "tour": "ATP",
    "tournament": "Almaty Open",
@@ -7479,6 +6609,182 @@
    },
    "p2": {
     "name": "N.Sriram Balaji / Evan King",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-21T13:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "BNB Ningbo Open",
+   "round": "2. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Marta Kostyuk",
+    "rank": 10,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "p2": {
+    "name": "Ekaterina Alexandrova",
+    "rank": 33,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.734,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.734
+   },
+   "h2h": [],
+   "analysis": "Marta Kostyuk (Weltrangliste #10) trifft auf Ekaterina Alexandrova (#33). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Marta Kostyuk mit 73 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-21T13:30:00+02:00",
+   "tour": "ATP",
+   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Santiago Gonzalez / Hendrik Jebens",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Jakub Paul / Matej Vocel",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-21T14:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Martin Landaluce",
+    "rank": 67,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Stan Wawrinka",
+    "rank": 140,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.6517,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6517
+   },
+   "h2h": [],
+   "analysis": "Martin Landaluce (Weltrangliste #67) trifft auf Stan Wawrinka (#140). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Martin Landaluce mit 65 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-21T14:30:00+02:00",
+   "tour": "ATP",
+   "tournament": "BNP Paribas Fortis European Open",
+   "round": "2. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Jacob Fearnley",
+    "rank": 87,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Clement Chidekh",
+    "rank": 152,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 6
+   },
+   "pP1": 0.6164,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6164
+   },
+   "h2h": [],
+   "analysis": "Jacob Fearnley (Weltrangliste #87) trifft auf Clement Chidekh (#152). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Jacob Fearnley mit 62 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-21T14:30:00+02:00",
+   "tour": "ATP",
+   "tournament": "BNP Paribas Fortis European Open",
+   "round": "Viertelfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "TBD / TBD",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Francisco Cerundolo / Alex Michelsen",
     "rank": null,
     "last7": 0,
     "sets7": 0
@@ -7515,11 +6821,78 @@
    "timeTBD": false
   },
   {
+   "start": "2026-10-21T15:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Andrew Paulson / Nino Serdarusic",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "David Stevenson / Marcus Willis",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-21T15:30:00+02:00",
+   "tour": "ATP",
+   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
+   "round": "2. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Felix Balshaw",
+    "rank": 186,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "p2": {
+    "name": "Corentin Moutet",
+    "rank": 94,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "pP1": 0.3589,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3589
+   },
+   "h2h": [],
+   "analysis": "Felix Balshaw (Weltrangliste #186) trifft auf Corentin Moutet (#94). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Corentin Moutet mit 64 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
    "start": "2026-10-21T16:30:00+02:00",
    "tour": "ATP",
    "tournament": "Almaty Open",
    "round": "2. Runde",
-   "surface": "Hartplatz",
+   "surface": null,
    "p1": {
     "name": "Mikhail Kukushkin",
     "rank": 389,
@@ -7557,11 +6930,254 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
+   "start": "2026-10-21T16:30:00+02:00",
+   "tour": "ATP",
+   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
+   "round": "Viertelfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Ariel Behar / Joshua Paris",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Finn Reynolds / James Watt",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-21T18:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "BNP Paribas Fortis European Open",
+   "round": "1. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Remy Bertola",
+    "rank": 219,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 6
+   },
+   "p2": {
+    "name": "David Goffin",
+    "rank": 657,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.7178,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.7178
+   },
+   "h2h": [],
+   "analysis": "Remy Bertola (Weltrangliste #219) trifft auf David Goffin (#657). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Remy Bertola mit 72 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-21T19:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
+   "round": "2. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Lorenzo Musetti",
+    "rank": 26,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Moise Kouame",
+    "rank": 194,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.8466,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.8466
+   },
+   "h2h": [],
+   "analysis": "Lorenzo Musetti (Weltrangliste #26) trifft auf Moise Kouame (#194). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Lorenzo Musetti mit 85 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-21T19:30:00+02:00",
+   "tour": "ATP",
+   "tournament": "BNP Paribas Fortis European Open",
+   "round": "2. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Jan-Lennard Struff",
+    "rank": 58,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Gauthier Onclin",
+    "rank": 178,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 5
+   },
+   "pP1": 0.7217,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.7217
+   },
+   "h2h": [],
+   "analysis": "Jan-Lennard Struff (Weltrangliste #58) trifft auf Gauthier Onclin (#178). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Jan-Lennard Struff mit 72 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-22T06:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "BNP Paribas Fortis European Open",
+   "round": "Viertelfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Raphael Collignon / David Goffin",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Constantin Frantzén / Robert Galloway",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-22T06:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "BNP Paribas Fortis European Open",
+   "round": "Viertelfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Nicolas Barrientos / David Pel",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "TBD / TBD",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
    "start": "2026-10-22T06:00:00+02:00",
    "tour": "ATP",
    "tournament": "Almaty Open",
    "round": "2. Runde",
-   "surface": "Hartplatz",
+   "surface": null,
+   "p1": {
+    "name": "Fabian Marozsan",
+    "rank": 64,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Alexander Bublik",
+    "rank": 19,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "pP1": 0.2626,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.2626
+   },
+   "h2h": [],
+   "analysis": "Fabian Marozsan (Weltrangliste #64) trifft auf Alexander Bublik (#19). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alexander Bublik mit 74 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-22T06:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Almaty Open",
+   "round": "2. Runde",
+   "surface": null,
    "p1": {
     "name": "Sho Shimabukuro",
     "rank": 109,
@@ -7656,13 +7272,130 @@
    "surface": null,
    "doubles": true,
    "p1": {
-    "name": "TBD / TBD",
+    "name": "Yuki Bhambri / Ryan Seggerman",
     "rank": null,
     "last7": 0,
     "sets7": 0
    },
    "p2": {
     "name": "Alexander Donski / Filip Pieczonka",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-22T06:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Almaty Open",
+   "round": "Viertelfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Daniel Cukierman / Fernando Romboli",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "TBD / TBD",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-22T06:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
+   "round": "2. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Taylor Fritz",
+    "rank": 14,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Pierre-Hugues Herbert",
+    "rank": 290,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 8
+   },
+   "pP1": 0.9293,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.9293
+   },
+   "h2h": [],
+   "analysis": "Taylor Fritz (Weltrangliste #14) trifft auf Pierre-Hugues Herbert (#290). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Taylor Fritz mit 93 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-22T06:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
+   "round": "Viertelfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "TBD / TBD",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Julian Cash / Lloyd Glasspool",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-22T06:00:00+02:00",
+   "tour": "ATP",
+   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
+   "round": "Viertelfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Matisse Bobichon / Kilian Feldbausch",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "TBD / TBD",
     "rank": null,
     "last7": 0,
     "sets7": 0
@@ -7722,37 +7455,37 @@
    "round": "2. Runde",
    "surface": null,
    "p1": {
-    "name": "Katerina Siniakova",
-    "rank": 86,
+    "name": "Kayla Day",
+    "rank": 119,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 6
+    "last7": 3,
+    "sets7": 7
    },
    "p2": {
-    "name": "Magda Linette",
-    "rank": 77,
+    "name": "Antonia Ruzic",
+    "rank": 91,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 2
+    "last7": 3,
+    "sets7": 8
    },
-   "pP1": 0.4765,
+   "pP1": 0.4432,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.4765
+    "pRank": 0.4432
    },
    "h2h": [],
-   "analysis": "Katerina Siniakova (Weltrangliste #86) trifft auf Magda Linette (#77). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Magda Linette mit 52 % vorn.",
+   "analysis": "Kayla Day (Weltrangliste #119) trifft auf Antonia Ruzic (#91). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Antonia Ruzic mit 56 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -7806,40 +7539,65 @@
    "round": "2. Runde",
    "surface": null,
    "p1": {
-    "name": "Kayla Day",
-    "rank": 119,
+    "name": "Katerina Siniakova",
+    "rank": 86,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 7
+    "last7": 2,
+    "sets7": 6
    },
    "p2": {
-    "name": "Antonia Ruzic",
-    "rank": 91,
+    "name": "Magda Linette",
+    "rank": 77,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 8
+    "last7": 1,
+    "sets7": 2
    },
-   "pP1": 0.4432,
+   "pP1": 0.4765,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.4432
+    "pRank": 0.4765
    },
    "h2h": [],
-   "analysis": "Kayla Day (Weltrangliste #119) trifft auf Antonia Ruzic (#91). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Antonia Ruzic mit 56 % vorn.",
+   "analysis": "Katerina Siniakova (Weltrangliste #86) trifft auf Magda Linette (#77). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Magda Linette mit 52 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-22T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "Kinoshita Group Japan Open",
+   "round": "Viertelfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Isabelle Haverlag / Lilli Tagger",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Ingrid Neel / Giuliana Olmos",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
   },
   {
    "start": "2026-10-22T06:00:00+02:00",
@@ -7921,6 +7679,48 @@
    },
    "h2h": [],
    "analysis": "Polina Kudermetova (Weltrangliste #105) trifft auf Elena Rybakina (#1). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Elena Rybakina mit 98 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-22T06:00:00+02:00",
+   "tour": "WTA",
+   "tournament": "BNB Ningbo Open",
+   "round": "2. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Belinda Bencic",
+    "rank": 14,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
+   },
+   "p2": {
+    "name": "Katarzyna Kawa",
+    "rank": 128,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 7
+   },
+   "pP1": 0.8677,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.8677
+   },
+   "h2h": [],
+   "analysis": "Belinda Bencic (Weltrangliste #14) trifft auf Katarzyna Kawa (#128). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Belinda Bencic mit 87 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -8062,6 +7862,46 @@
  "tennisFinished": [
   {
    "tour": "ATP",
+   "tournament": "BNP Paribas Fortis European Open",
+   "p1": "Juan Manuel Cerundolo",
+   "p2": "Mariano Navone",
+   "winner": "Mariano Navone",
+   "score": "6:7 2:6"
+  },
+  {
+   "tour": "ATP",
+   "tournament": "BNP Paribas Fortis European Open",
+   "p1": "Max Schoenhaus",
+   "p2": "Tallon Griekspoor",
+   "winner": "Tallon Griekspoor",
+   "score": "6:7 7:6 5:7"
+  },
+  {
+   "tour": "ATP",
+   "tournament": "BNP Paribas Fortis European Open",
+   "p1": "Marcos Giron",
+   "p2": "Jan-Lennard Struff",
+   "winner": "Jan-Lennard Struff",
+   "score": "6:7 6:7"
+  },
+  {
+   "tour": "ATP",
+   "tournament": "BNP Paribas Fortis European Open",
+   "p1": "Clement Chidekh",
+   "p2": "Botic Van De Zandschulp",
+   "winner": "Clement Chidekh",
+   "score": "6:1 6:4"
+  },
+  {
+   "tour": "ATP",
+   "tournament": "BNP Paribas Fortis European Open",
+   "p1": "Hugo Gaston",
+   "p2": "Jacob Fearnley",
+   "winner": "Jacob Fearnley",
+   "score": "3:6 0:6"
+  },
+  {
+   "tour": "ATP",
    "tournament": "Almaty Open",
    "p1": "Rinky Hijikata",
    "p2": "Terence Atmane",
@@ -8083,6 +7923,46 @@
    "p2": "Stefanos Tsitsipas",
    "winner": "Stefanos Tsitsipas",
    "score": "6:7 6:3 3:6"
+  },
+  {
+   "tour": "ATP",
+   "tournament": "Almaty Open",
+   "p1": "Timofey Skatov",
+   "p2": "Fabian Marozsan",
+   "winner": "Fabian Marozsan",
+   "score": "5:7 6:7"
+  },
+  {
+   "tour": "ATP",
+   "tournament": "Almaty Open",
+   "p1": "Karen Khachanov",
+   "p2": "Rei Sakamoto",
+   "winner": "Karen Khachanov",
+   "score": "6:2 6:4"
+  },
+  {
+   "tour": "ATP",
+   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
+   "p1": "Sebastian Baez",
+   "p2": "Pierre-Hugues Herbert",
+   "winner": "Pierre-Hugues Herbert",
+   "score": "3:6 4:6"
+  },
+  {
+   "tour": "ATP",
+   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
+   "p1": "Borna Gojo",
+   "p2": "Arthur Fery",
+   "winner": "Borna Gojo",
+   "score": "6:3 7:6"
+  },
+  {
+   "tour": "ATP",
+   "tournament": "Grand Prix Auvergne-Rhône-Alpes",
+   "p1": "Corentin Moutet",
+   "p2": "Ugo Humbert",
+   "winner": "Corentin Moutet",
+   "score": "6:2 6:7 7:6"
   },
   {
    "tour": "WTA",
@@ -8203,13 +8083,29 @@
    "p2": "Jelena Ostapenko",
    "winner": "Belinda Bencic",
    "score": "6:3 1:1"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "BNB Ningbo Open",
+   "p1": "Daria Snigur",
+   "p2": "Katarzyna Kawa",
+   "winner": "Katarzyna Kawa",
+   "score": "6:1 2:6 4:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "BNB Ningbo Open",
+   "p1": "Ekaterina Alexandrova",
+   "p2": "Guo Hanyu",
+   "winner": "Ekaterina Alexandrova",
+   "score": "6:2 6:3"
   }
  ],
  "stats": {
   "overall": {
-   "n": 3615,
-   "correct": 2138,
-   "pct": 0.5914
+   "n": 3634,
+   "correct": 2150,
+   "pct": 0.5916
   },
   "football": {
    "n": 1041,
@@ -8217,15 +8113,15 @@
    "pct": 0.4938
   },
   "tennis": {
-   "n": 2574,
-   "correct": 1624,
+   "n": 2593,
+   "correct": 1636,
    "pct": 0.6309
   },
   "exact": {
    "n": 1041,
    "correct": 118
   },
-  "open": 382,
+  "open": 371,
   "value": {
    "n": 80,
    "correct": 33,
@@ -8334,6 +8230,61 @@
    },
    {
     "date": "2026-10-20",
+    "comp": "WTA · BNB Ningbo Open",
+    "label": "Ekaterina Alexandrova – Guo Hanyu",
+    "tipName": "Ekaterina Alexandrova",
+    "tip": "P1",
+    "prob": 0.8483,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-20",
+    "comp": "ATP · BNP Paribas Fortis European Open",
+    "label": "Juan Manuel Cerundolo – Mariano Navone",
+    "tipName": "Mariano Navone",
+    "tip": "P2",
+    "prob": 0.5347,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-20",
+    "comp": "ATP · BNP Paribas Fortis European Open",
+    "label": "Max Schoenhaus – Tallon Griekspoor",
+    "tipName": "Tallon Griekspoor",
+    "tip": "P2",
+    "prob": 0.798,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-20",
+    "comp": "ATP · BNP Paribas Fortis European Open",
+    "label": "Hugo Gaston – Jacob Fearnley",
+    "tipName": "Jacob Fearnley",
+    "tip": "P2",
+    "prob": 0.5142,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-20",
+    "comp": "ATP · BNP Paribas Fortis European Open",
+    "label": "Marcos Giron – Jan-Lennard Struff",
+    "tipName": "Jan-Lennard Struff",
+    "tip": "P2",
+    "prob": 0.5877,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-20",
     "comp": "ATP · Almaty Open",
     "label": "Roman Safiullin – Sho Shimabukuro",
     "tipName": "Roman Safiullin",
@@ -8357,11 +8308,44 @@
    {
     "date": "2026-10-20",
     "comp": "ATP · Almaty Open",
+    "label": "Karen Khachanov – Rei Sakamoto",
+    "tipName": "Karen Khachanov",
+    "tip": "P1",
+    "prob": 0.796,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-20",
+    "comp": "ATP · Almaty Open",
     "label": "Rinky Hijikata – Terence Atmane",
     "tipName": "Rinky Hijikata",
     "tip": "P1",
     "prob": 0.5277,
     "result": "Sieger: P2",
+    "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-20",
+    "comp": "ATP · Almaty Open",
+    "label": "Timofey Skatov – Fabian Marozsan",
+    "tipName": "Fabian Marozsan",
+    "tip": "P2",
+    "prob": 0.7257,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-20",
+    "comp": "ATP · Grand Prix Auvergne-Rhône-Alpes",
+    "label": "Corentin Moutet – Ugo Humbert",
+    "tipName": "Ugo Humbert",
+    "tip": "P2",
+    "prob": 0.6984,
+    "result": "Sieger: P1",
     "correct": false,
     "sport": "tn"
    },
@@ -8400,6 +8384,17 @@
    },
    {
     "date": "2026-10-20",
+    "comp": "ATP · BNP Paribas Fortis European Open",
+    "label": "Clement Chidekh – Botic Van De Zandschulp",
+    "tipName": "Botic Van De Zandschulp",
+    "tip": "P2",
+    "prob": 0.7647,
+    "result": "Sieger: P1",
+    "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-20",
     "comp": "WTA · BNB Ningbo Open",
     "label": "Alycia Parks – Sara Bejlek",
     "tipName": "Sara Bejlek",
@@ -8407,105 +8402,6 @@
     "prob": 0.6432,
     "result": "Sieger: P2",
     "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-20",
-    "comp": "WTA · Kinoshita Group Japan Open",
-    "label": "Himeno Sakatsume – Katie Boulter",
-    "tipName": "Katie Boulter",
-    "tip": "P2",
-    "prob": 0.6415,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-19",
-    "comp": "Serie A",
-    "label": "Monza – Cagliari",
-    "tipName": "Cagliari",
-    "tip": "2",
-    "prob": 0.4819,
-    "result": "4:0",
-    "correct": false,
-    "sport": "fb"
-   },
-   {
-    "date": "2026-10-19",
-    "comp": "Serie A",
-    "label": "Parma – Torino",
-    "tipName": "Torino",
-    "tip": "2",
-    "prob": 0.4028,
-    "result": "0:3",
-    "correct": true,
-    "sport": "fb"
-   },
-   {
-    "date": "2026-10-19",
-    "comp": "La Liga",
-    "label": "Getafe – Rayo Vallecano",
-    "tipName": "Getafe",
-    "tip": "1",
-    "prob": 0.3564,
-    "result": "1:1",
-    "correct": false,
-    "sport": "fb"
-   },
-   {
-    "date": "2026-10-19",
-    "comp": "Süper Lig (Türkei)",
-    "label": "Trabzonspor – Besiktas",
-    "tipName": "Trabzonspor",
-    "tip": "1",
-    "prob": 0.5006,
-    "result": "2:0",
-    "correct": true,
-    "sport": "fb"
-   },
-   {
-    "date": "2026-10-19",
-    "comp": "WTA · Kinoshita Group Japan Open",
-    "label": "Kaitlin Quevedo – Lanlana Tararudee",
-    "tipName": "Lanlana Tararudee",
-    "tip": "P2",
-    "prob": 0.5501,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-19",
-    "comp": "WTA · Kinoshita Group Japan Open",
-    "label": "Antonia Ruzic – Paula Badosa",
-    "tipName": "Paula Badosa",
-    "tip": "P2",
-    "prob": 0.599,
-    "result": "Sieger: P1",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-19",
-    "comp": "WTA · Kinoshita Group Japan Open",
-    "label": "Mai Hontama – Viktorija Golubic",
-    "tipName": "Viktorija Golubic",
-    "tip": "P2",
-    "prob": 0.6681,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-19",
-    "comp": "WTA · Kinoshita Group Japan Open",
-    "label": "Liudmila Samsonova – Lilli Tagger",
-    "tipName": "Liudmila Samsonova",
-    "tip": "P1",
-    "prob": 0.5521,
-    "result": "Sieger: P2",
-    "correct": false,
     "sport": "tn"
    }
   ]
