@@ -79940,9 +79940,9 @@
    "tip": "P1",
    "tipName": "Zizou Bergs",
    "prob": 0.6901,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-18|day k|joint m": {
    "sport": "tn",
@@ -80738,9 +80738,9 @@
    "tip": "P1",
    "tipName": "Cameron Norrie",
    "prob": 0.67,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|atp|2026-10-19|balshaw f|faria j": {
    "sport": "tn",
@@ -80780,9 +80780,9 @@
    "tip": "P2",
    "tipName": "Daniel Altmaier",
    "prob": 0.5153,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-10-19|humbert u|moutet c": {
    "sport": "tn",
@@ -81469,9 +81469,9 @@
    "tip": "P1",
    "tipName": "Zizou Bergs",
    "prob": 0.6733,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-10-20|bellucci m|martin etcheverry t": {
    "sport": "tn",
@@ -81595,9 +81595,9 @@
    "tip": "P2",
    "tipName": "Daniel Altmaier",
    "prob": 0.5127,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-10-20|medjedovic h|nakashima b": {
    "sport": "tn",
@@ -81637,9 +81637,9 @@
    "tip": "P1",
    "tipName": "Cameron Norrie",
    "prob": 0.6854,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-20|kalinina a|paolini j": {
    "sport": "tn",
@@ -81777,9 +81777,9 @@
    "tip": "P1",
    "tipName": "Raphael Collignon",
    "prob": 0.6807,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-10-20|chidekh c|van de zandschulp b": {
    "sport": "tn",
@@ -82304,9 +82304,9 @@
    "tip": "P2",
    "tipName": "Luca Van Assche",
    "prob": 0.7335,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-10-20|berrettini m|jacquet k": {
    "sport": "tn",
@@ -82318,9 +82318,9 @@
    "tip": "P2",
    "tipName": "Matteo Berrettini",
    "prob": 0.6409,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-10-21|cerundolo f|damm m": {
    "sport": "tn",
@@ -83010,8 +83010,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 4.2,
-    "edge": 0.0876,
+    "odds": 4.0,
+    "edge": 0.0755,
     "modelP": 0.303,
     "won": null
    }
@@ -83334,6 +83334,62 @@
    "tip": "P1",
    "tipName": "Belinda Bencic",
    "prob": 0.8677,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-21|bonzi b|paul t": {
+   "sport": "tn",
+   "comp": "ATP · Grand Prix Auvergne-Rhône-Alpes",
+   "date": "2026-10-21",
+   "label": "Tommy Paul – Benjamin Bonzi",
+   "p1Key": "paul t",
+   "p2Key": "bonzi b",
+   "tip": "P1",
+   "tipName": "Tommy Paul",
+   "prob": 0.8338,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-22|collignon r|lehecka j": {
+   "sport": "tn",
+   "comp": "ATP · BNP Paribas Fortis European Open",
+   "date": "2026-10-22",
+   "label": "Jiri Lehecka – Raphael Collignon",
+   "p1Key": "lehecka j",
+   "p2Key": "collignon r",
+   "tip": "P1",
+   "tipName": "Jiri Lehecka",
+   "prob": 0.7026,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-22|vacherot v|van assche l": {
+   "sport": "tn",
+   "comp": "ATP · Grand Prix Auvergne-Rhône-Alpes",
+   "date": "2026-10-22",
+   "label": "Luca Van Assche – Valentin Vacherot",
+   "p1Key": "van assche l",
+   "p2Key": "vacherot v",
+   "tip": "P2",
+   "tipName": "Valentin Vacherot",
+   "prob": 0.5853,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-22|altmaier d|gojo b": {
+   "sport": "tn",
+   "comp": "ATP · Grand Prix Auvergne-Rhône-Alpes",
+   "date": "2026-10-22",
+   "label": "Daniel Altmaier – Borna Gojo",
+   "p1Key": "altmaier d",
+   "p2Key": "gojo b",
+   "tip": "P1",
+   "tipName": "Daniel Altmaier",
+   "prob": 0.6681,
    "status": "open",
    "result": null,
    "correct": null
