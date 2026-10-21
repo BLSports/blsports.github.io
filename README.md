@@ -39,6 +39,24 @@ TheSportsDB (Tennis-Ergänzung). Keine API-Keys nötig.
 4. Fertig — die Seite liegt unter `https://blsports.github.io/` und aktualisiert
    sich jeden Morgen selbst.
 
+## 📱 Als App aufs iPhone
+
+Das Dashboard ist eine installierbare Web-App (PWA) – kein App Store, kein Mac nötig:
+
+1. `https://blsports.github.io/` in **Safari** öffnen.
+2. Unten auf **Teilen** (Quadrat mit Pfeil) tippen → **„Zum Home-Bildschirm“** → *Hinzufügen*.
+3. Sport-Radar startet ab jetzt wie eine normale App: eigenes Icon, Vollbild ohne Safari-Leisten.
+
+In der App:
+- **Nach unten ziehen** oder **↻** oben rechts lädt den neuesten Stand.
+- Kommt man nach > 20 Minuten zurück in die App, werden neue Daten automatisch geladen.
+- **Offline** (Flugmodus, Funkloch) bleibt der zuletzt geladene Stand lesbar.
+- Notch/Dynamic Island, Querformat und Dark Mode werden berücksichtigt.
+
+Technik: `manifest.webmanifest`, `sw.js` (Service Worker, Offline-Cache) und `icons/`
+(erzeugt mit `python scripts/make_icons.py`) liegen in der Repo-Wurzel; die iOS-Meta-Tags
+und das App-Verhalten stecken in `scripts/build_site.py`.
+
 ## Vorhersage-Modell (Kurzfassung)
 
 - **Fußball:** Poisson-Modell. Angriffs-/Abwehrstärke je Team aus den Ergebnissen der letzten

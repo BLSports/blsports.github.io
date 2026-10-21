@@ -716,8 +716,9 @@ def build(data_path=None, out_path=None):
     header = f"""
 <header class="hero">
   <div class="heroin">
-    <div class="brand"><span class="logo">⚽</span><div><h1>Sport-Radar</h1>
-      <div class="sub">Spiele &amp; Modell-Analysen der nächsten 3 Tage{f" · Saison {esc(season)}" if season else ""}</div></div></div>
+    <div class="brand"><span class="logo"><img src="icons/icon-192.png" alt="" width="44" height="44"></span><div><h1>Sport-Radar</h1>
+      <div class="sub">Spiele &amp; Modell-Analysen der nächsten 3 Tage{f" · Saison {esc(season)}" if season else ""}</div></div>
+      <button class="appbtn" id="reload" type="button" aria-label="Aktualisieren" title="Aktualisieren" hidden>↻</button></div>
     <div class="kpis">
       <div class="kpi"><b>{n_fb}</b><span>Fußball</span></div>
       <div class="kpi"><b>{n_tn}</b><span>Tennis</span></div>
@@ -792,11 +793,21 @@ HEAD = r"""<!DOCTYPE html>
 <html lang="de">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="robots" content="noindex, nofollow">
-<meta name="theme-color" content="#0e3b2c">
+<meta name="theme-color" content="#0e3b2c" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0a2a20" media="(prefers-color-scheme: dark)">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Sport-Radar">
+<meta name="application-name" content="Sport-Radar">
+<meta name="format-detection" content="telephone=no">
 <title>Sport-Radar · Spiele & Analysen der nächsten 3 Tage</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚽</text></svg>">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -823,23 +834,30 @@ HEAD = r"""<!DOCTYPE html>
   }
 }
 * { box-sizing:border-box; }
-html { scroll-padding-top:150px; }
+html { scroll-padding-top:150px; -webkit-text-size-adjust:100%; text-size-adjust:100%; }
 body { margin:0; background:var(--page); color:var(--ink);
-  font:14.5px/1.45 Inter,system-ui,-apple-system,"Segoe UI",sans-serif; -webkit-font-smoothing:antialiased; }
+  font:14.5px/1.45 Inter,system-ui,-apple-system,"Segoe UI",sans-serif; -webkit-font-smoothing:antialiased;
+  -webkit-tap-highlight-color:transparent; }
+button, .tab, .flt, .star, .livebtn, summary, .jump { touch-action:manipulation; -webkit-user-select:none; user-select:none; }
+/* Notch / Dynamic Island / Home-Indikator (iPhone, auch im Querformat) */
+:root { --sat:env(safe-area-inset-top,0px); --sal:env(safe-area-inset-left,0px);
+  --sar:env(safe-area-inset-right,0px); --sab:env(safe-area-inset-bottom,0px); }
 a { color:var(--accent); }
 h1,h2,h3 { margin:0; }
 [hidden] { display:none !important; }
 
 /* Kopfbereich */
 .hero { background:radial-gradient(120% 140% at 85% -20%, var(--brand2) 0%, var(--brand) 55%);
-  color:#fff; padding:20px 16px 12px; position:relative; overflow:hidden; }
+  color:#fff; padding:calc(20px + var(--sat)) calc(16px + var(--sar)) 12px calc(16px + var(--sal));
+  position:relative; overflow:hidden; }
 .hero::after { content:""; position:absolute; right:-70px; top:-70px; width:260px; height:260px;
   border:2px solid rgba(255,255,255,.07); border-radius:50%; box-shadow:0 0 0 60px rgba(255,255,255,.025); }
 .heroin { max-width:1180px; margin:0 auto; display:flex; gap:16px; align-items:center;
   justify-content:space-between; flex-wrap:wrap; position:relative; z-index:1; }
-.brand { display:flex; gap:12px; align-items:center; }
+.brand { display:flex; gap:12px; align-items:center; flex:1 1 auto; }
 .logo { width:44px; height:44px; border-radius:12px; background:rgba(255,255,255,.1);
-  display:grid; place-items:center; font-size:24px; }
+  display:grid; place-items:center; font-size:24px; overflow:hidden; flex:none; box-shadow:0 0 0 1px rgba(255,255,255,.12); }
+.logo img { width:100%; height:100%; display:block; }
 h1 { font-family:var(--num); font-size:30px; letter-spacing:.5px; text-transform:uppercase; line-height:1; }
 .sub { color:rgba(255,255,255,.72); font-size:13px; margin-top:3px; }
 .kpis { display:flex; gap:8px; }
@@ -854,7 +872,7 @@ h1 { font-family:var(--num); font-size:30px; letter-spacing:.5px; text-transform
 .bar { position:sticky; top:0; z-index:20; background:color-mix(in srgb, var(--page) 88%, transparent);
   backdrop-filter:saturate(1.4) blur(10px); -webkit-backdrop-filter:saturate(1.4) blur(10px);
   border-bottom:1px solid var(--border); }
-.barin { max-width:1180px; margin:0 auto; padding:10px 16px 8px; }
+.barin { max-width:1180px; margin:0 auto; padding:10px calc(16px + var(--sar)) 8px calc(16px + var(--sal)); }
 .tabs { display:grid; grid-template-columns:repeat(3,1fr); gap:6px; }
 .tab { background:var(--surface); border:1px solid var(--border); border-radius:10px; padding:7px 10px;
   font:inherit; color:var(--ink2); cursor:pointer; text-align:left; display:flex; flex-direction:column; gap:1px; }
@@ -870,9 +888,10 @@ h1 { font-family:var(--num); font-size:30px; letter-spacing:.5px; text-transform
 .flt.active { background:var(--ink); color:var(--page); border-color:var(--ink); font-weight:600; }
 .search { display:flex; align-items:center; gap:6px; background:var(--surface); border:1px solid var(--border);
   border-radius:999px; padding:0 12px; flex:0 1 260px; min-width:180px; }
-.search input { border:0; background:none; font:inherit; color:var(--ink); padding:6px 0; width:100%; outline:none; }
+.search input { border:0; background:none; font:inherit; font-size:16px; color:var(--ink); padding:5px 0; width:100%;
+  outline:none; -webkit-appearance:none; appearance:none; }
 
-main { max-width:1180px; margin:0 auto; padding:6px 16px 40px; }
+main { max-width:1180px; margin:0 auto; padding:6px calc(16px + var(--sar)) 40px calc(16px + var(--sal)); }
 
 /* Highlights */
 .highlights { display:grid; grid-template-columns:repeat(auto-fit,minmax(290px,1fr)); gap:10px; margin:14px 0 6px; }
@@ -1041,28 +1060,60 @@ details.sub { margin-top:10px; } details.sub > summary { cursor:pointer; color:v
   font-size:13px; color:var(--ink2); margin:14px 0 0; }
 .banner.click { cursor:pointer; }
 
-footer { max-width:1180px; margin:0 auto; padding:18px 16px 30px; color:var(--muted); font-size:12px; }
+footer { max-width:1180px; margin:0 auto; padding:18px calc(16px + var(--sar)) calc(30px + var(--sab)) calc(16px + var(--sal));
+  color:var(--muted); font-size:12px; }
 footer details { margin-bottom:10px; color:var(--ink2); }
 footer summary { cursor:pointer; font-weight:600; }
 .disclaimer { border-top:1px solid var(--grid); padding-top:10px; margin-top:10px; }
 .muted { color:var(--muted); } .small { font-size:12.5px; } .tiny { font-size:11.5px; }
 
 @media (max-width: 640px) {
-  .hero { padding:14px 14px 10px; }
+  .hero { padding:calc(14px + var(--sat)) calc(14px + var(--sar)) 10px calc(14px + var(--sal)); }
   h1 { font-size:24px; }
   .logo { width:36px; height:36px; font-size:20px; }
   .kpis { width:100%; }
   .kpi { flex:1; min-width:0; padding:5px 4px; }
   .kpi b { font-size:19px; }
-  .barin { padding:8px 12px 6px; }
+  .barin { padding:8px calc(12px + var(--sar)) 6px calc(12px + var(--sal)); }
   .tab { padding:6px 8px; }
   .tab .tabsub { display:none; }
   .search { flex:1 1 100%; }
-  main { padding:4px 12px 30px; }
+  main { padding:4px calc(12px + var(--sar)) 30px calc(12px + var(--sal)); }
   .grid { grid-template-columns:1fr; }
   .card { padding:11px 12px; }
   html { scroll-padding-top:190px; }
 }
+
+/* ---- App-Modus (vom iPhone-Homescreen gestartet) */
+.appbtn { background:rgba(255,255,255,.1); border:1px solid rgba(255,255,255,.14); color:#fff; border-radius:10px;
+  width:36px; height:36px; font-size:18px; line-height:1; cursor:pointer; display:grid; place-items:center; padding:0; }
+.appbtn.spin { animation:spin .8s linear infinite; }
+@keyframes spin { to { transform:rotate(360deg); } }
+.brand .appbtn { margin-left:auto; }
+@media (display-mode: standalone) {
+  /* Statusleiste (Uhrzeit/Akku) liegt über der Seite: grüner Streifen + Sticky-Leiste darunter */
+  body::before { content:""; position:fixed; top:0; left:0; right:0; height:var(--sat); background:var(--brand); z-index:40;
+    opacity:0; transition:opacity .2s; pointer-events:none; }
+  html.scrolled body::before { opacity:1; }
+  .bar { top:var(--sat); }
+  html { overscroll-behavior-y:none; }
+}
+.ptr { position:fixed; left:50%; top:calc(var(--sat) + 8px); z-index:50; width:38px; height:38px; margin-left:-19px;
+  border-radius:50%; background:var(--surface); color:var(--accent); box-shadow:0 4px 16px rgba(0,0,0,.18);
+  display:grid; place-items:center; font-size:20px; transform:translateY(-70px); opacity:0; pointer-events:none;
+  transition:opacity .15s; }
+.ptr.ready { color:var(--good); }
+.ptr.spin span { display:inline-block; animation:spin .8s linear infinite; }
+.installhint { position:fixed; left:calc(10px + var(--sal)); right:calc(10px + var(--sar)); bottom:calc(10px + var(--sab));
+  z-index:60; max-width:460px; margin:0 auto; background:var(--surface); color:var(--ink); border:1px solid var(--border);
+  border-radius:16px; box-shadow:0 10px 40px rgba(0,0,0,.25); padding:12px 40px 12px 12px; display:flex; gap:12px;
+  align-items:center; font-size:13.5px; line-height:1.4; animation:up .35s ease-out; }
+.installhint img { width:44px; height:44px; border-radius:10px; flex:none; }
+.installhint .x { position:absolute; top:6px; right:8px; background:none; border:0; font-size:20px; color:var(--muted);
+  cursor:pointer; padding:4px 6px; }
+.installhint .share { display:inline-block; vertical-align:-3px; width:16px; height:18px; }
+@keyframes up { from { transform:translateY(30px); opacity:0; } to { transform:none; opacity:1; } }
+.offline { background:var(--gold-bg); color:var(--ink2); text-align:center; font-size:12.5px; padding:5px 12px; }
 </style>
 </head>
 <body>"""
@@ -1177,17 +1228,22 @@ favRender();
 anwenden();
 
 // ---- Neuere Version verfügbar?
-fetch('https://raw.githubusercontent.com/BLSports/blsports.github.io/main/data/data.json', { cache: 'no-store' })
-  .then(r => r.json())
-  .then(d => {
-    if (d.generatedAt && d.generatedAt > GEN) {
+const neuLaden = () => location.replace(location.pathname + '?v=' + Date.now());
+function pruefeUpdate(auto) {
+  return fetch('https://raw.githubusercontent.com/BLSports/blsports.github.io/main/data/data.json?v=' + Date.now(), { cache: 'no-store' })
+    .then(r => r.json())
+    .then(d => {
+      if (!d.generatedAt || d.generatedAt <= GEN) return;
+      if (auto) { neuLaden(); return; }
+      if ($('#updbanner')) return;
       const b = document.createElement('div');
-      b.className = 'banner click';
+      b.className = 'banner click'; b.id = 'updbanner';
       b.innerHTML = '🔄 <b>Neuere Daten verfügbar</b> – hier tippen zum Aktualisieren';
-      b.onclick = () => location.replace(location.pathname + '?v=' + Date.now());
+      b.onclick = neuLaden;
       $('main').prepend(b);
-    }
-  }).catch(() => {});
+    }).catch(() => {});
+}
+pruefeUpdate(false);
 
 // ---- Live-Box
 const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -1223,6 +1279,93 @@ async function ladeLive() {
 }
 ladeLive();
 setInterval(ladeLive, 90000);
+
+// ---- iPhone-App (Homescreen): Service Worker, Aktualisieren, Pull-to-Refresh, Installations-Hinweis
+const istApp = window.matchMedia('(display-mode: standalone)').matches || navigator.standalone === true;
+if ('serviceWorker' in navigator && location.protocol === 'https:') {
+  window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+}
+if (istApp) {
+  document.documentElement.classList.add('app');
+  const rb = $('#reload');
+  rb.hidden = false;
+  rb.addEventListener('click', () => { rb.classList.add('spin'); neuLaden(); });
+  const hero = $('.hero');
+  const scrollt = () => document.documentElement.classList.toggle('scrolled', window.scrollY > hero.offsetHeight - 70);
+  window.addEventListener('scroll', scrollt, { passive: true }); scrollt();
+
+  // Zurück aus dem Hintergrund: Status, Live-Box und Datenstand auffrischen
+  let wegSeit = 0;
+  document.addEventListener('visibilitychange', () => {
+    if (document.hidden) { wegSeit = Date.now(); return; }
+    zeitStatus(); ladeLive();
+    // länger als 20 Min. weg und oben auf der Seite -> neue Daten direkt laden, sonst Hinweis-Banner
+    pruefeUpdate(wegSeit && Date.now() - wegSeit > 20 * 60000 && window.scrollY < 80);
+  });
+
+  // Nach unten ziehen zum Aktualisieren (in der Homescreen-App gibt es keinen Reload-Knopf)
+  const ptr = document.createElement('div');
+  ptr.className = 'ptr'; ptr.innerHTML = '<span>↻</span>';
+  document.body.appendChild(ptr);
+  let y0 = null, dy = 0;
+  const SCHWELLE = 80;
+  window.addEventListener('touchstart', e => {
+    y0 = window.scrollY <= 0 && e.touches.length === 1 ? e.touches[0].clientY : null; dy = 0;
+  }, { passive: true });
+  window.addEventListener('touchmove', e => {
+    if (y0 === null) return;
+    dy = e.touches[0].clientY - y0;
+    if (dy <= 0 || window.scrollY > 0) { ptr.style.opacity = 0; return; }
+    const d = Math.min(dy, SCHWELLE * 1.6);
+    ptr.style.transition = 'none';
+    ptr.style.opacity = Math.min(1, d / SCHWELLE);
+    ptr.style.transform = 'translateY(' + (d * 0.6 - 20) + 'px) rotate(' + d * 3 + 'deg)';
+    ptr.classList.toggle('ready', dy > SCHWELLE);
+  }, { passive: true });
+  window.addEventListener('touchend', () => {
+    if (y0 === null) return;
+    ptr.style.transition = '';
+    if (dy > SCHWELLE && window.scrollY <= 0) {
+      ptr.classList.add('spin'); ptr.style.transform = 'translateY(36px)';
+      if (navigator.vibrate) navigator.vibrate(10);
+      neuLaden();
+    } else { ptr.style.opacity = 0; ptr.style.transform = 'translateY(-70px)'; }
+    y0 = null;
+  });
+} else {
+  // iPhone/iPad-Safari: einmaliger Hinweis "Zum Home-Bildschirm"
+  const ua = navigator.userAgent;
+  const iOS = /iPhone|iPad|iPod/.test(ua) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  const safari = /Safari/.test(ua) && !/CriOS|FxiOS|EdgiOS|OPiOS|GSA\//.test(ua);
+  const zuletzt = store.get('hint', 0);
+  if (iOS && safari && Date.now() - zuletzt > 14 * 864e5) {
+    setTimeout(() => {
+      const h = document.createElement('div');
+      h.className = 'installhint'; h.setAttribute('role', 'dialog');
+      h.innerHTML = '<img src="icons/apple-touch-icon.png" alt="">' +
+        '<div><b>Sport-Radar als App</b><br>Tippe unten auf <svg class="share" viewBox="0 0 16 18" fill="none" ' +
+        'stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 11V1.5M4.8 4.5 8 1.3l3.2 3.2"/>' +
+        '<path d="M5 7.5H3.2v9h9.6v-9H11"/></svg> <b>Teilen</b> und dann <b>„Zum Home-Bildschirm“</b>.</div>' +
+        '<button class="x" type="button" aria-label="Schließen">×</button>';
+      $('.x', h).onclick = () => { store.set('hint', Date.now()); h.remove(); };
+      document.body.appendChild(h);
+    }, 2500);
+  }
+}
+
+// ---- Offline-Hinweis
+function netzStatus() {
+  let o = $('#offline');
+  if (navigator.onLine) { if (o) o.remove(); return; }
+  if (o) return;
+  o = document.createElement('div');
+  o.id = 'offline'; o.className = 'offline';
+  o.textContent = '📴 Offline – du siehst den zuletzt geladenen Stand.';
+  $('.bar').appendChild(o);
+}
+window.addEventListener('online', () => { netzStatus(); ladeLive(); });
+window.addEventListener('offline', netzStatus);
+netzStatus();
 
 // ---- Live-Status je Spiel (ESPN)
 $$('.livebtn').forEach(btn => btn.addEventListener('click', async e => {
