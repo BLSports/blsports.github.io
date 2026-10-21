@@ -1,0 +1,66 @@
+name: iPhone-App bauen
+
+on:
+  push:
+    paths: ["ios/**", ".github/workflows/ios.yml"]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ios-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: macos-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Werkzeuge
+        run: |
+          xcodebuild -version
+          brew install xcodegen
+
+      - name: Xcode-Projekt erzeugen
+        working-directory: ios
+        run: xcodegen generate
+
+      - name: App bauen (unsigniert)
+        working-directory: ios
+        run: |
+          set -o pipefail
+          xcodebuild -project SportRadar.xcodeproj -scheme SportRadar \
+            -configuration Release -sdk iphoneos -destination 'generic/platform=iOS' \
+            -derivedDataPath build \
+            CURRENT_PROJECT_VERSION=${{ github.run_number }} \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" \
+            build 2>&1 | tee build.log | grep -E "error:|warning: .*SportRadar/|BUILD (SUCCEEDED|FAILED)" || true
+          test -d build/Build/Products/Release-iphoneos/SportRadar.app || { tail -80 build.log; exit 1; }
+
+      - name: IPA packen
+        working-directory: ios
+        run: |
+          mkdir -p Payload
+          cp -R build/Build/Products/Release-iphoneos/SportRadar.app Payload/
+          zip -qry SportRadar.ipa Payload
+          ls -la SportRadar.ipa
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: SportRadar-ipa
+          path: ios/SportRadar.ipa
+          retention-days: 30
+
+      - name: Als Download veröffentlichen (Release "ios-latest")
+        if: github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete ios-latest --yes --cleanup-tag 2>/dev/null || true
+          gh release create ios-latest ios/SportRadar.ipa \
+            --title "Sport-Radar iPhone-App (Build ${{ github.run_number }})" \
+            --notes "Unsignierte iPhone-App. Installation mit AltStore oder Sideloadly – Anleitung in der README (Abschnitt „Echte iPhone-App“)." \
+            --target "${{ github.sha }}" --prerelease
