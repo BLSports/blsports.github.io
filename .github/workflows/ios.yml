@@ -64,3 +64,61 @@ jobs:
             --title "Sport-Radar iPhone-App (Build ${{ github.run_number }})" \
             --notes "Unsignierte iPhone-App. Installation mit AltStore oder Sideloadly – Anleitung in der README (Abschnitt „Echte iPhone-App“)." \
             --target "${{ github.sha }}" --prerelease
+
+  screenshots:
+    # startet die App im iPhone-Simulator und macht Bildschirmfotos (Kontrolle ohne echtes Gerät)
+    runs-on: macos-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Projekt erzeugen
+        run: brew install xcodegen && cd ios && xcodegen generate
+
+      - name: Für den Simulator bauen
+        working-directory: ios
+        run: |
+          set -o pipefail
+          xcodebuild -project SportRadar.xcodeproj -scheme SportRadar -configuration Debug \
+            -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath build build 2>&1 | tee build.log | grep -E "error:|BUILD (SUCCEEDED|FAILED)" || true
+          test -d build/Build/Products/Debug-iphonesimulator/SportRadar.app || { tail -80 build.log; exit 1; }
+
+      - name: Screenshots
+        working-directory: ios
+        run: |
+          UDID=$(xcrun simctl list devices available -j | python3 -c "
+          import json, sys
+          devs = json.load(sys.stdin)['devices']
+          c = [x for k, v in devs.items() if 'iOS' in k for x in v if x['name'].startswith('iPhone')]
+          pro = [x for x in c if x['name'].endswith(' Pro')]
+          print((pro or c)[-1]['udid'])")
+          echo "Simulator: $UDID"
+          xcrun simctl boot "$UDID"
+          xcrun simctl bootstatus "$UDID" -b
+          xcrun simctl status_bar "$UDID" override --time 9:41 --batteryState charged --batteryLevel 100 || true
+          xcrun simctl install "$UDID" build/Build/Products/Debug-iphonesimulator/SportRadar.app
+          mkdir -p shots
+          APP=io.github.blsports.sportradar
+          shot() {
+            name=$1; shift
+            xcrun simctl terminate "$UDID" $APP 2>/dev/null || true
+            xcrun simctl launch "$UDID" $APP "$@"
+            sleep 15
+            xcrun simctl io "$UDID" screenshot "shots/$name.png"
+          }
+          shot 1-spiele -tab 0 -demoDetail NO
+          shot 2-detail -tab 0 -demoDetail YES
+          shot 3-tipps -tab 1 -demoDetail NO
+          shot 4-live -tab 2
+          shot 5-bilanz -tab 3
+          xcrun simctl ui "$UDID" appearance dark
+          shot 6-spiele-dunkel -tab 0 -demoDetail NO
+          shot 7-detail-dunkel -tab 0 -demoDetail YES
+          ls -la shots
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: SportRadar-screenshots
+          path: ios/shots
+          retention-days: 14

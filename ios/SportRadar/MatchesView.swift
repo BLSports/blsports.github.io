@@ -5,11 +5,12 @@ struct MatchesView: View {
     @AppStorage("filter") private var filterRaw = MatchFilter.alle.rawValue
     @State private var dayIndex = 0
     @State private var search = ""
+    @State private var path: [String] = []
 
     private var filter: MatchFilter { MatchFilter(rawValue: filterRaw) ?? .alle }
 
     var body: some View {
-        NavigationStack {
+        NavigationStack(path: $path) {
             List {
                 Section {
                     header
@@ -30,7 +31,19 @@ struct MatchesView: View {
                 ToolbarItem(placement: .topBarTrailing) { StandLabel() }
             }
             .overlay { emptyState }
+            .task(id: store.data?.generatedAt) { openDemoDetail() }
         }
+    }
+
+    /// Startparameter "-demoDetail YES" (nur für automatische Screenshots): öffnet ein Beispielspiel.
+    private func openDemoDetail() {
+        guard UserDefaults.standard.bool(forKey: "demoDetail"), path.isEmpty else { return }
+        let all = store.days.flatMap { store.allMatches(day: $0) }
+        let pick = all.first { m in
+            if case .football(let f, _) = m { return f.value != nil && f.prediction != nil && !(f.h2h ?? []).isEmpty }
+            return false
+        } ?? all.first
+        if let pick { path = [pick.id] }
     }
 
     private var day: String {
