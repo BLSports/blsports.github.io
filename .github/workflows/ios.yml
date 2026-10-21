@@ -49,6 +49,7 @@ jobs:
             echo "Xcode-Projekt unverändert."
           else
             git commit -m "Xcode-Projekt aktualisiert (automatisch aus ios/project.yml)"
+            git stash --include-untracked -q || true
             for i in 1 2 3; do git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && break || sleep 10; done
           fi
 
@@ -138,6 +139,7 @@ jobs:
           git add ios/screenshots
           if ! git diff --cached --quiet; then
             git commit -m "iOS-Screenshots aktualisiert"
+            git stash --include-untracked -q || true   # generierte Projektdateien aus dem Weg räumen
             for i in 1 2 3 4; do git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && break || sleep 15; done
           fi
 
