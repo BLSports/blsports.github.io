@@ -39,7 +39,51 @@ TheSportsDB (Tennis-Ergänzung). Keine API-Keys nötig.
 4. Fertig — die Seite liegt unter `https://blsports.github.io/` und aktualisiert
    sich jeden Morgen selbst.
 
-## 📱 Als App aufs iPhone
+## 📱 Echte iPhone-App (Swift)
+
+Unter `ios/` liegt eine native iPhone-App (SwiftUI, ab iOS 17). Sie liest dieselben Daten wie die
+Website (`data/data.json`, `data/live.json`) und bietet:
+
+- Tabs **Spiele** (3 Tage, Filter, Suche), **Tipps** (sicherste Tipps, Value, Torspiele), **Live** und **Bilanz**
+- Detailansicht je Spiel: Wahrscheinlichkeiten, xG, Quoten, Form, direkte Duelle, Torschützen, Ausfälle, News
+- **Favoriten** (☆ bei Team/Spieler), **Erinnerung** 🔔 15 Minuten vor Anpfiff, Teilen
+- Offline-Cache, Nach-unten-ziehen zum Aktualisieren, Dark Mode, iPad
+
+**Gebaut wird automatisch in der Cloud:** `.github/workflows/ios.yml` erzeugt auf einem Mac-Runner
+eine `.ipa`-Datei. Die aktuelle Version liegt immer unter
+[Releases → ios-latest](https://github.com/BLSports/blsports.github.io/releases/tag/ios-latest).
+
+### Installation ohne Entwicklerkonto (kostenlos, alle 7 Tage erneuern)
+
+Apple erlaubt mit einer normalen Apple-ID nur Apps, die alle 7 Tage neu signiert werden.
+
+**Variante A – AltStore (erneuert automatisch im WLAN):**
+1. Auf dem PC/Mac **AltServer** von [altstore.io](https://altstore.io) installieren (Windows: zusätzlich iTunes und iCloud *von apple.com*, nicht aus dem Microsoft Store).
+2. iPhone per Kabel anschließen, im AltServer-Symbol „Install AltStore“ → iPhone wählen, mit Apple-ID anmelden.
+3. Auf dem iPhone: *Einstellungen → Allgemein → VPN & Geräteverwaltung* → deiner Apple-ID vertrauen;
+   *Einstellungen → Datenschutz & Sicherheit → Entwicklermodus* einschalten (Neustart).
+4. `SportRadar.ipa` aus dem Release auf dem iPhone in Safari laden → *Teilen → AltStore* (oder in AltStore unter *My Apps* auf „+“).
+5. Solange AltServer auf dem PC läuft und das iPhone im selben WLAN ist, erneuert AltStore die App von selbst.
+
+**Variante B – Sideloadly (einfach, Erneuern per Klick):**
+1. [Sideloadly](https://sideloadly.io) auf PC/Mac installieren, iPhone per Kabel anschließen.
+2. `SportRadar.ipa` ins Fenster ziehen, Apple-ID eintragen, *Start*.
+3. Auf dem iPhone wie oben der Apple-ID vertrauen und den Entwicklermodus einschalten.
+4. Alle 7 Tage *Start* erneut klicken (ca. 1 Minute; Favoriten bleiben erhalten).
+
+### Mit Apple-Entwicklerkonto (99 €/Jahr)
+
+Dann kann der Workflow die App signieren und automatisch zu **TestFlight** hochladen – ohne 7-Tage-Grenze
+und ohne PC. Dafür werden einige Schlüssel als GitHub-Secrets benötigt (wird bei Bedarf ergänzt).
+
+### Lokal mit Xcode
+
+```bash
+brew install xcodegen
+cd ios && xcodegen generate && open SportRadar.xcodeproj
+```
+
+## 📱 Als Web-App aufs iPhone
 
 Das Dashboard ist eine installierbare Web-App (PWA) – kein App Store, kein Mac nötig:
 
