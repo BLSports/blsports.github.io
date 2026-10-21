@@ -39,7 +39,51 @@ TheSportsDB (Tennis-Ergänzung). Keine API-Keys nötig.
 4. Fertig — die Seite liegt unter `https://blsports.github.io/` und aktualisiert
    sich jeden Morgen selbst.
 
-## 📱 Als App aufs iPhone
+## 📱 Echte iPhone-App (Swift)
+
+Unter `ios/` liegt eine native iPhone-App (SwiftUI, ab iOS 17). Sie liest dieselben Daten wie die
+Website (`data/data.json`, `data/live.json`) und bietet:
+
+- Tabs **Spiele** (3 Tage, Filter, Suche), **Tipps** (sicherste Tipps, Value, Torspiele), **Live** und **Bilanz**
+- Detailansicht je Spiel: Wahrscheinlichkeiten, xG, Quoten, Form, direkte Duelle, Torschützen, Ausfälle, News
+- **Favoriten** (☆ bei Team/Spieler), **Erinnerung** 🔔 15 Minuten vor Anpfiff, Teilen
+- Offline-Cache, Nach-unten-ziehen zum Aktualisieren, Dark Mode, iPad
+
+**Gebaut wird automatisch in der Cloud:** `.github/workflows/ios.yml` erzeugt auf einem Mac-Runner
+eine `.ipa`-Datei (Kontrolle, dass alles kompiliert, plus Screenshots aus dem iPhone-Simulator).
+
+### Installation ohne Entwicklerkonto (kostenlos, mit Xcode auf dem Mac)
+
+Nur Apple-Software, keine Zusatzprogramme, die Apple-ID bleibt bei Apple.
+Mit einer normalen (kostenlosen) Apple-ID läuft die App jeweils **7 Tage** und wird dann per Klick erneuert.
+
+**Einmalig einrichten:**
+1. **Xcode** aus dem Mac App Store installieren (kostenlos, ca. 10 GB) und einmal starten.
+   Unter *Xcode → Settings → Accounts* mit „+“ die eigene Apple-ID hinzufügen.
+2. Dieses Repository als ZIP laden: [Download ZIP](https://github.com/BLSports/blsports.github.io/archive/refs/heads/main.zip),
+   entpacken und **`ios/SportRadar.xcodeproj`** doppelklicken.
+3. In Xcode links oben auf **SportRadar** (blaues Symbol) → Reiter **Signing & Capabilities** →
+   bei **Team** die eigene Apple-ID („Personal Team“) wählen.
+4. iPhone per Kabel anschließen, entsperren und „Diesem Computer vertrauen“ bestätigen.
+   Oben in der Xcode-Leiste das iPhone als Ziel wählen und **▶︎** klicken.
+5. Auf dem iPhone, beim ersten Mal:
+   *Einstellungen → Datenschutz & Sicherheit → **Entwicklermodus*** einschalten (Neustart) und
+   *Einstellungen → Allgemein → **VPN & Geräteverwaltung*** → der eigenen Apple-ID vertrauen.
+
+**Alle 7 Tage:** iPhone anschließen, Xcode öffnen, **▶︎** klicken – fertig (Favoriten bleiben erhalten).
+Für eine neue App-Version vorher die ZIP-Datei neu laden.
+
+### Mit Apple-Entwicklerkonto (99 €/Jahr)
+
+Dann kann der Workflow die App signieren und automatisch zu **TestFlight** hochladen – ohne 7-Tage-Grenze
+und ohne PC. Dafür werden einige Schlüssel als GitHub-Secrets benötigt (wird bei Bedarf ergänzt).
+
+### Für Entwickler
+
+`ios/SportRadar.xcodeproj` wird vom Workflow automatisch aus `ios/project.yml` erzeugt
+(XcodeGen). Projektänderungen also in `project.yml` vornehmen.
+
+## 📱 Als Web-App aufs iPhone
 
 Das Dashboard ist eine installierbare Web-App (PWA) – kein App Store, kein Mac nötig:
 

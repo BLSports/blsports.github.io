@@ -1,0 +1,152 @@
+name: iPhone-App bauen
+
+on:
+  push:
+    paths: ["ios/**", ".github/workflows/ios.yml"]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ios-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: macos-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Werkzeuge
+        run: |
+          xcodebuild -version
+          brew install xcodegen
+
+      - name: Xcode-Projekt erzeugen
+        working-directory: ios
+        run: xcodegen generate
+
+      - name: App bauen (unsigniert)
+        working-directory: ios
+        run: |
+          set -o pipefail
+          xcodebuild -project SportRadar.xcodeproj -scheme SportRadar \
+            -configuration Release -sdk iphoneos -destination 'generic/platform=iOS' \
+            -derivedDataPath build \
+            CURRENT_PROJECT_VERSION=${{ github.run_number }} \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" \
+            build 2>&1 | tee build.log | grep -E "error:|warning: .*SportRadar/|BUILD (SUCCEEDED|FAILED)" || true
+          test -d build/Build/Products/Release-iphoneos/SportRadar.app || { tail -80 build.log; exit 1; }
+
+      - name: Xcode-Projekt ins Repo übernehmen (zum direkten Öffnen auf dem Mac)
+        run: |
+          git config user.name "sport-radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add ios/SportRadar.xcodeproj ios/SportRadar/Info.plist
+          if git diff --cached --quiet; then
+            echo "Xcode-Projekt unverändert."
+          else
+            git commit -m "Xcode-Projekt aktualisiert (automatisch aus ios/project.yml)"
+            git stash --include-untracked -q || true
+            for i in 1 2 3; do git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && break || sleep 10; done
+          fi
+
+      - name: IPA packen
+        working-directory: ios
+        run: |
+          mkdir -p Payload
+          cp -R build/Build/Products/Release-iphoneos/SportRadar.app Payload/
+          zip -qry SportRadar.ipa Payload
+          ls -la SportRadar.ipa
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: SportRadar-ipa
+          path: ios/SportRadar.ipa
+          retention-days: 30
+
+      - name: Als Download veröffentlichen (Release "ios-latest")
+        if: github.ref == 'refs/heads/main'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release delete ios-latest --yes --cleanup-tag 2>/dev/null || true
+          gh release create ios-latest ios/SportRadar.ipa \
+            --title "Sport-Radar iPhone-App (Build ${{ github.run_number }})" \
+            --notes "Unsignierte iPhone-App (Build-Kontrolle). Installation am einfachsten per Xcode – Anleitung in der README (Abschnitt „Echte iPhone-App“)." \
+            --target "${{ github.sha }}" --prerelease
+
+  screenshots:
+    # startet die App im iPhone-Simulator und macht Bildschirmfotos (Kontrolle ohne echtes Gerät);
+    # nur bei manuellem Start ("Run workflow"), damit das Repo nicht bei jedem Push wächst
+    if: github.event_name == 'workflow_dispatch'
+    runs-on: macos-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Projekt erzeugen
+        run: brew install xcodegen && cd ios && xcodegen generate
+
+      - name: Für den Simulator bauen
+        working-directory: ios
+        run: |
+          set -o pipefail
+          xcodebuild -project SportRadar.xcodeproj -scheme SportRadar -configuration Debug \
+            -sdk iphonesimulator -destination 'generic/platform=iOS Simulator' \
+            -derivedDataPath build build 2>&1 | tee build.log | grep -E "error:|BUILD (SUCCEEDED|FAILED)" || true
+          test -d build/Build/Products/Debug-iphonesimulator/SportRadar.app || { tail -80 build.log; exit 1; }
+
+      - name: Screenshots
+        working-directory: ios
+        run: |
+          UDID=$(xcrun simctl list devices available -j | python3 -c "
+          import json, sys
+          devs = json.load(sys.stdin)['devices']
+          c = [x for k, v in devs.items() if 'iOS' in k for x in v if x['name'].startswith('iPhone')]
+          pro = [x for x in c if x['name'].endswith(' Pro')]
+          print((pro or c)[-1]['udid'])")
+          echo "Simulator: $UDID"
+          xcrun simctl boot "$UDID"
+          xcrun simctl bootstatus "$UDID" -b
+          xcrun simctl status_bar "$UDID" override --time 9:41 --batteryState charged --batteryLevel 100 || true
+          xcrun simctl install "$UDID" build/Build/Products/Debug-iphonesimulator/SportRadar.app
+          mkdir -p shots
+          APP=io.github.blsports.sportradar
+          shot() {
+            name=$1; shift
+            xcrun simctl terminate "$UDID" $APP 2>/dev/null || true
+            xcrun simctl launch "$UDID" $APP "$@"
+            sleep 15
+            xcrun simctl io "$UDID" screenshot "shots/$name.png"
+          }
+          shot 1-spiele -tab 0 -demoDetail NO
+          shot 2-detail -tab 0 -demoDetail YES
+          shot 3-tipps -tab 1 -demoDetail NO
+          shot 4-live -tab 2
+          shot 5-bilanz -tab 3
+          xcrun simctl ui "$UDID" appearance dark
+          shot 6-spiele-dunkel -tab 0 -demoDetail NO
+          shot 7-detail-dunkel -tab 0 -demoDetail YES
+          ls -la shots
+
+      - name: Screenshots ins Repo (verkleinert)
+        run: |
+          mkdir -p ios/screenshots
+          for f in ios/shots/*.png; do sips -Z 1100 "$f" --out "ios/screenshots/$(basename "$f")" >/dev/null; done
+          git config user.name "sport-radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add ios/screenshots
+          if ! git diff --cached --quiet; then
+            git commit -m "iOS-Screenshots aktualisiert"
+            git stash --include-untracked -q || true   # generierte Projektdateien aus dem Weg räumen
+            for i in 1 2 3 4; do git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && break || sleep 15; done
+          fi
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: SportRadar-screenshots
+          path: ios/shots
+          retention-days: 14

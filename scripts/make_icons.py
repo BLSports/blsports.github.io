@@ -1,4 +1,4 @@
-"""Erzeugt die App-Icons (iPhone-Homescreen, Android, Favicon) nach icons/.
+"""Erzeugt die App-Icons (Web-App, Favicon, iPhone-App) nach icons/ und ios/.
 
 Einmalig auszuführen; die PNGs liegen danach im Repo:
     python scripts/make_icons.py
@@ -92,6 +92,12 @@ def main():
     for name, (n, safe) in targets.items():
         draw_icon(n, safe).save(os.path.join(OUT, name), optimize=True)
         print("OK ->", os.path.join("icons", name))
+
+    # iPhone-App (ios/): ein 1024er-Icon, iOS rundet die Ecken selbst ab
+    ios = os.path.join(BASE, "ios", "SportRadar", "Assets.xcassets", "AppIcon.appiconset")
+    os.makedirs(ios, exist_ok=True)
+    draw_icon(1024).save(os.path.join(ios, "icon-1024.png"), optimize=True)
+    print("OK ->", os.path.relpath(os.path.join(ios, "icon-1024.png"), BASE))
 
 
 if __name__ == "__main__":
