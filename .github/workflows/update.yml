@@ -119,6 +119,7 @@ jobs:
             mkdir -p dist
             cp index.html dist/
             cp robots.txt dist/ 2>/dev/null || true
+            cp -r manifest.webmanifest sw.js icons dist/ 2>/dev/null || true   # iPhone-App (PWA)
             echo "--- project create ---"
             npx --yes wrangler pages project create blsports-sport-radar               --production-branch main 2>&1 || true
             echo "--- deploy ---"
