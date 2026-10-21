@@ -58,7 +58,7 @@ eine `.ipa`-Datei. Die aktuelle Version liegt immer unter
 Apple erlaubt mit einer normalen Apple-ID nur Apps, die alle 7 Tage neu signiert werden.
 
 **Variante A – AltStore (erneuert automatisch im WLAN):**
-1. Auf dem PC/Mac **AltServer** von [altstore.io](https://altstore.io) installieren (Windows: zusätzlich iTunes und iCloud *von apple.com*, nicht aus dem Microsoft Store).
+1. Auf dem PC/Mac **AltServer** von [altstore.io](https://altstore.io) installieren und starten (Windows: zusätzlich iTunes und iCloud *von apple.com*, nicht aus dem Microsoft Store).
 2. iPhone per Kabel anschließen, im AltServer-Symbol „Install AltStore“ → iPhone wählen, mit Apple-ID anmelden.
 3. Auf dem iPhone: *Einstellungen → Allgemein → VPN & Geräteverwaltung* → deiner Apple-ID vertrauen;
    *Einstellungen → Datenschutz & Sicherheit → Entwicklermodus* einschalten (Neustart).
@@ -70,6 +70,13 @@ Apple erlaubt mit einer normalen Apple-ID nur Apps, die alle 7 Tage neu signiert
 2. `SportRadar.ipa` ins Fenster ziehen, Apple-ID eintragen, *Start*.
 3. Auf dem iPhone wie oben der Apple-ID vertrauen und den Entwicklermodus einschalten.
 4. Alle 7 Tage *Start* erneut klicken (ca. 1 Minute; Favoriten bleiben erhalten).
+
+**Variante C – Xcode auf dem Mac (ohne Zusatzprogramme, aber Xcode ist ~10 GB groß):**
+1. Xcode aus dem Mac App Store installieren und einmal starten; unter *Xcode → Settings → Accounts* die Apple-ID hinzufügen.
+2. Im Terminal: `brew install xcodegen` (falls Homebrew fehlt: [brew.sh](https://brew.sh)), dann
+   `git clone https://github.com/BLSports/blsports.github.io && cd blsports.github.io/ios && xcodegen generate && open SportRadar.xcodeproj`
+3. In Xcode links *SportRadar* → *Signing & Capabilities* → bei *Team* die eigene Apple-ID wählen.
+4. iPhone per Kabel anschließen, oben als Ziel auswählen, ▶︎ klicken. Auf dem iPhone wie oben vertrauen und den Entwicklermodus einschalten.
 
 ### Mit Apple-Entwicklerkonto (99 €/Jahr)
 
