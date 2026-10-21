@@ -81441,9 +81441,9 @@
    "tip": "P1",
    "tipName": "Damir Dzumhur",
    "prob": 0.5287,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-10-20|giron m|lennard struff j": {
    "sport": "tn",
@@ -81623,9 +81623,9 @@
    "tip": "P1",
    "tipName": "Martin Landaluce",
    "prob": 0.6517,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|atp|2026-10-20|bonzi b|norrie c": {
    "sport": "tn",
@@ -82192,9 +82192,9 @@
    "tip": "P1",
    "tipName": "Damir Dzumhur",
    "prob": 0.5287,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-10-21|bertola r|goffin d": {
    "sport": "tn",
@@ -82234,9 +82234,9 @@
    "tip": "P1",
    "tipName": "Andrey Rublev",
    "prob": 0.7477,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-21|fernandez l|sasnovich a": {
    "sport": "tn",
@@ -82374,9 +82374,9 @@
    "tip": "P1",
    "tipName": "Martin Landaluce",
    "prob": 0.6517,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "fb|el|2026-10-22|ararat-armenia|az alkmaar": {
    "sport": "fb",
@@ -83054,9 +83054,9 @@
    "tip": "P2",
    "tipName": "Sorana Cirstea",
    "prob": 0.6313,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-21|bouzkova m|zakharova a": {
    "sport": "tn",
@@ -83236,9 +83236,9 @@
    "tip": "P2",
    "tipName": "Mariano Navone",
    "prob": 0.5608,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-21|alexandrova e|kostyuk m": {
    "sport": "tn",
@@ -83250,9 +83250,9 @@
    "tip": "P1",
    "tipName": "Marta Kostyuk",
    "prob": 0.734,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|atp|2026-10-21|chidekh c|fearnley j": {
    "sport": "tn",
@@ -83404,7 +83404,7 @@
    "awayKey": "mgladbach",
    "tip": "1",
    "tipName": "VfB Stuttgart",
-   "prob": 0.7221,
+   "prob": 0.7223,
    "tipScore": "2:0",
    "pOver25": 0.7022,
    "status": "open",
@@ -83424,7 +83424,7 @@
    "tipName": "FC St. Pauli",
    "prob": 0.4055,
    "tipScore": "1:1",
-   "pOver25": 0.4722,
+   "pOver25": 0.4724,
    "status": "open",
    "result": null,
    "correct": null,
@@ -83440,9 +83440,9 @@
    "awayKey": "vfl wolfsburg",
    "tip": "2",
    "tipName": "VfL Wolfsburg",
-   "prob": 0.5179,
+   "prob": 0.5182,
    "tipScore": "1:2",
-   "pOver25": 0.7064,
+   "pOver25": 0.7065,
    "status": "open",
    "result": null,
    "correct": null,
@@ -83450,8 +83450,8 @@
    "value": {
     "pick": "2",
     "odds": 2.08,
-    "edge": 0.0831,
-    "modelP": 0.5179,
+    "edge": 0.0834,
+    "modelP": 0.5182,
     "won": null
    }
   },
@@ -83465,7 +83465,7 @@
    "awayKey": "jahn regensburg",
    "tip": "1",
    "tipName": "Rot-Weiss Essen",
-   "prob": 0.5169,
+   "prob": 0.517,
    "tipScore": "2:1",
    "pOver25": 0.7006,
    "status": "open",
@@ -83829,8 +83829,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 2.8,
-    "edge": 0.1679,
+    "odds": 2.62,
+    "edge": 0.1416,
     "modelP": 0.4909,
     "won": null
    }
@@ -83915,8 +83915,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 3.08,
-    "edge": 0.1408,
+    "odds": 2.38,
+    "edge": 0.0616,
     "modelP": 0.4409,
     "won": null
    }
@@ -84160,6 +84160,76 @@
    "tip": "P1",
    "tipName": "Karen Khachanov",
    "prob": 0.7108,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-22|bergs z|dzumhur d": {
+   "sport": "tn",
+   "comp": "ATP · BNP Paribas Fortis European Open",
+   "date": "2026-10-22",
+   "label": "Zizou Bergs – Damir Dzumhur",
+   "p1Key": "bergs z",
+   "p2Key": "dzumhur d",
+   "tip": "P1",
+   "tipName": "Zizou Bergs",
+   "prob": 0.6455,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-22|cobolli f|wawrinka s": {
+   "sport": "tn",
+   "comp": "ATP · Grand Prix Auvergne-Rhône-Alpes",
+   "date": "2026-10-22",
+   "label": "Stan Wawrinka – Flavio Cobolli",
+   "p1Key": "wawrinka s",
+   "p2Key": "cobolli f",
+   "tip": "P2",
+   "tipName": "Flavio Cobolli",
+   "prob": 0.9357,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-23|basilashvili n|mannarino a": {
+   "sport": "tn",
+   "comp": "ATP · Almaty Open",
+   "date": "2026-10-23",
+   "label": "Adrian Mannarino – Nikoloz Basilashvili",
+   "p1Key": "mannarino a",
+   "p2Key": "basilashvili n",
+   "tip": "P1",
+   "tipName": "Adrian Mannarino",
+   "prob": 0.6011,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-23|alexandrova e|fernandez l": {
+   "sport": "tn",
+   "comp": "WTA · BNB Ningbo Open",
+   "date": "2026-10-23",
+   "label": "Ekaterina Alexandrova – Leylah Fernandez",
+   "p1Key": "alexandrova e",
+   "p2Key": "fernandez l",
+   "tip": "P2",
+   "tipName": "Leylah Fernandez",
+   "prob": 0.5202,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-23|bejlek s|bouzkova m": {
+   "sport": "tn",
+   "comp": "WTA · BNB Ningbo Open",
+   "date": "2026-10-23",
+   "label": "Marie Bouzkova – Sara Bejlek",
+   "p1Key": "bouzkova m",
+   "p2Key": "bejlek s",
+   "tip": "P1",
+   "tipName": "Marie Bouzkova",
+   "prob": 0.544,
    "status": "open",
    "result": null,
    "correct": null
