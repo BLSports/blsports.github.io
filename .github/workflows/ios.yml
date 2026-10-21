@@ -40,6 +40,18 @@ jobs:
             build 2>&1 | tee build.log | grep -E "error:|warning: .*SportRadar/|BUILD (SUCCEEDED|FAILED)" || true
           test -d build/Build/Products/Release-iphoneos/SportRadar.app || { tail -80 build.log; exit 1; }
 
+      - name: Xcode-Projekt ins Repo übernehmen (zum direkten Öffnen auf dem Mac)
+        run: |
+          git config user.name "sport-radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add ios/SportRadar.xcodeproj ios/SportRadar/Info.plist
+          if git diff --cached --quiet; then
+            echo "Xcode-Projekt unverändert."
+          else
+            git commit -m "Xcode-Projekt aktualisiert (automatisch aus ios/project.yml)"
+            for i in 1 2 3; do git pull --rebase origin "${GITHUB_REF_NAME}" && git push origin "HEAD:${GITHUB_REF_NAME}" && break || sleep 10; done
+          fi
+
       - name: IPA packen
         working-directory: ios
         run: |
