@@ -33,13 +33,11 @@ struct TipsView: View {
                             NavigationLink(value: t.match.id) {
                                 TipRow(p: t.p, tint: .accentColor, title: t.pick,
                                        subtitle: "\(Fmt.time(t.match.date)) · \(t.match.title)",
-                                       trailing: hist(t))
+                                       trailing: nil)
                             }
                         }
                     } header: {
                         Label("Sicherste Tipps", systemImage: "scope")
-                    } footer: {
-                        Text("„bisher“ zeigt, wie oft frühere Tipps dieser Sicherheitsklasse richtig lagen.")
                     }
                 }
 
@@ -98,19 +96,6 @@ struct TipsView: View {
             }
         }
         return ""
-    }
-
-    /// Historische Trefferquote der Klasse (z. B. "70–80 %") aus dem Tipp-Log.
-    private func hist(_ t: AppStore.Tip) -> String? {
-        guard let recent = store.data?.stats?.recent, recent.count >= 5 else { return nil }
-        let lo = (t.p * 10).rounded(.down) / 10
-        let same = recent.filter { r in
-            guard let p = r.prob, r.correct != nil else { return false }
-            return p >= lo && p < lo + 0.1
-        }
-        guard same.count >= 5 else { return nil }
-        let ok = same.filter { $0.correct == true }.count
-        return "bisher \(Fmt.pctShort(Double(ok) / Double(same.count))) ✓"
     }
 }
 
@@ -284,7 +269,7 @@ struct StatsView: View {
                                     VStack(alignment: .leading, spacing: 2) {
                                         Text(r.label).font(.subheadline.weight(.semibold)).lineLimit(1)
                                         Text("\(r.sport == "fb" ? "⚽" : "🎾") \(r.comp)").font(.caption).foregroundStyle(.secondary).lineLimit(1)
-                                        Text("Tipp: \(r.tipName ?? "–")\(r.prob.map { " (\(Fmt.pctShort($0)))" } ?? "") · \(r.result ?? "")")
+                                        Text("Tipp: \(r.tipName ?? "–")\(r.prob.map { " (\(Fmt.pctShort($0)))" } ?? "") · \(resultText(r))")
                                             .font(.caption).foregroundStyle(.secondary).lineLimit(1)
                                     }
                                 }
@@ -312,6 +297,16 @@ struct StatsView: View {
             }
         }
     }
+}
+
+/// "Sieger: P2" -> "Sieger: James Duckworth" (P1/P2 = erster/zweiter Name im Label)
+private func resultText(_ r: RecentTip) -> String {
+    guard var res = r.result else { return "" }
+    let parts = r.label.components(separatedBy: " – ")
+    if parts.count == 2 {
+        res = res.replacingOccurrences(of: "P1", with: parts[0]).replacingOccurrences(of: "P2", with: parts[1])
+    }
+    return res
 }
 
 private struct StatTile: View {

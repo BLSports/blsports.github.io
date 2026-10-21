@@ -79,7 +79,9 @@ jobs:
             --target "${{ github.sha }}" --prerelease
 
   screenshots:
-    # startet die App im iPhone-Simulator und macht Bildschirmfotos (Kontrolle ohne echtes Gerät)
+    # startet die App im iPhone-Simulator und macht Bildschirmfotos (Kontrolle ohne echtes Gerät);
+    # nur bei manuellem Start ("Run workflow"), damit das Repo nicht bei jedem Push wächst
+    if: github.event_name == 'workflow_dispatch'
     runs-on: macos-latest
     timeout-minutes: 30
     steps:

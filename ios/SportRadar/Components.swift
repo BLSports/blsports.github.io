@@ -26,9 +26,17 @@ enum Fmt {
         x.formatted(.number.precision(.fractionLength(digits)).locale(Locale(identifier: "de_DE")))
     }
 
+    private static let hhmm: DateFormatter = {
+        let f = DateFormatter()
+        f.locale = Locale(identifier: "de_DE")
+        f.dateFormat = "HH:mm"
+        return f
+    }()
+
+    /// Immer 24-Stunden-Format ("18:45"), unabhängig von der Sprache des iPhones.
     static func time(_ d: Date?) -> String {
         guard let d else { return "offen" }
-        return d.formatted(.dateTime.hour(.twoDigits(amPM: .omitted)).minute(.twoDigits))
+        return hhmm.string(from: d)
     }
 
     static func longDate(_ d: Date?) -> String {
