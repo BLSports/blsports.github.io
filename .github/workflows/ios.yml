@@ -74,7 +74,7 @@ jobs:
           gh release delete ios-latest --yes --cleanup-tag 2>/dev/null || true
           gh release create ios-latest ios/SportRadar.ipa \
             --title "Sport-Radar iPhone-App (Build ${{ github.run_number }})" \
-            --notes "Unsignierte iPhone-App. Installation mit AltStore oder Sideloadly – Anleitung in der README (Abschnitt „Echte iPhone-App“)." \
+            --notes "Unsignierte iPhone-App (Build-Kontrolle). Installation am einfachsten per Xcode – Anleitung in der README (Abschnitt „Echte iPhone-App“)." \
             --target "${{ github.sha }}" --prerelease
 
   screenshots:

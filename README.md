@@ -50,45 +50,38 @@ Website (`data/data.json`, `data/live.json`) und bietet:
 - Offline-Cache, Nach-unten-ziehen zum Aktualisieren, Dark Mode, iPad
 
 **Gebaut wird automatisch in der Cloud:** `.github/workflows/ios.yml` erzeugt auf einem Mac-Runner
-eine `.ipa`-Datei. Die aktuelle Version liegt immer unter
-[Releases → ios-latest](https://github.com/BLSports/blsports.github.io/releases/tag/ios-latest).
+eine `.ipa`-Datei (Kontrolle, dass alles kompiliert, plus Screenshots aus dem iPhone-Simulator).
 
-### Installation ohne Entwicklerkonto (kostenlos, alle 7 Tage erneuern)
+### Installation ohne Entwicklerkonto (kostenlos, mit Xcode auf dem Mac)
 
-Apple erlaubt mit einer normalen Apple-ID nur Apps, die alle 7 Tage neu signiert werden.
+Nur Apple-Software, keine Zusatzprogramme, die Apple-ID bleibt bei Apple.
+Mit einer normalen (kostenlosen) Apple-ID läuft die App jeweils **7 Tage** und wird dann per Klick erneuert.
 
-**Variante A – AltStore (erneuert automatisch im WLAN):**
-1. Auf dem PC/Mac **AltServer** von [altstore.io](https://altstore.io) installieren und starten (Windows: zusätzlich iTunes und iCloud *von apple.com*, nicht aus dem Microsoft Store).
-2. iPhone per Kabel anschließen, im AltServer-Symbol „Install AltStore“ → iPhone wählen, mit Apple-ID anmelden.
-3. Auf dem iPhone: *Einstellungen → Allgemein → VPN & Geräteverwaltung* → deiner Apple-ID vertrauen;
-   *Einstellungen → Datenschutz & Sicherheit → Entwicklermodus* einschalten (Neustart).
-4. `SportRadar.ipa` aus dem Release auf dem iPhone in Safari laden → *Teilen → AltStore* (oder in AltStore unter *My Apps* auf „+“).
-5. Solange AltServer auf dem PC läuft und das iPhone im selben WLAN ist, erneuert AltStore die App von selbst.
+**Einmalig einrichten:**
+1. **Xcode** aus dem Mac App Store installieren (kostenlos, ca. 10 GB) und einmal starten.
+   Unter *Xcode → Settings → Accounts* mit „+“ die eigene Apple-ID hinzufügen.
+2. Dieses Repository als ZIP laden: [Download ZIP](https://github.com/BLSports/blsports.github.io/archive/refs/heads/main.zip),
+   entpacken und **`ios/SportRadar.xcodeproj`** doppelklicken.
+3. In Xcode links oben auf **SportRadar** (blaues Symbol) → Reiter **Signing & Capabilities** →
+   bei **Team** die eigene Apple-ID („Personal Team“) wählen.
+4. iPhone per Kabel anschließen, entsperren und „Diesem Computer vertrauen“ bestätigen.
+   Oben in der Xcode-Leiste das iPhone als Ziel wählen und **▶︎** klicken.
+5. Auf dem iPhone, beim ersten Mal:
+   *Einstellungen → Datenschutz & Sicherheit → **Entwicklermodus*** einschalten (Neustart) und
+   *Einstellungen → Allgemein → **VPN & Geräteverwaltung*** → der eigenen Apple-ID vertrauen.
 
-**Variante B – Sideloadly (einfach, Erneuern per Klick):**
-1. [Sideloadly](https://sideloadly.io) auf PC/Mac installieren, iPhone per Kabel anschließen.
-2. `SportRadar.ipa` ins Fenster ziehen, Apple-ID eintragen, *Start*.
-3. Auf dem iPhone wie oben der Apple-ID vertrauen und den Entwicklermodus einschalten.
-4. Alle 7 Tage *Start* erneut klicken (ca. 1 Minute; Favoriten bleiben erhalten).
-
-**Variante C – Xcode auf dem Mac (ohne Zusatzprogramme, aber Xcode ist ~10 GB groß):**
-1. Xcode aus dem Mac App Store installieren und einmal starten; unter *Xcode → Settings → Accounts* die Apple-ID hinzufügen.
-2. Im Terminal: `brew install xcodegen` (falls Homebrew fehlt: [brew.sh](https://brew.sh)), dann
-   `git clone https://github.com/BLSports/blsports.github.io && cd blsports.github.io/ios && xcodegen generate && open SportRadar.xcodeproj`
-3. In Xcode links *SportRadar* → *Signing & Capabilities* → bei *Team* die eigene Apple-ID wählen.
-4. iPhone per Kabel anschließen, oben als Ziel auswählen, ▶︎ klicken. Auf dem iPhone wie oben vertrauen und den Entwicklermodus einschalten.
+**Alle 7 Tage:** iPhone anschließen, Xcode öffnen, **▶︎** klicken – fertig (Favoriten bleiben erhalten).
+Für eine neue App-Version vorher die ZIP-Datei neu laden.
 
 ### Mit Apple-Entwicklerkonto (99 €/Jahr)
 
 Dann kann der Workflow die App signieren und automatisch zu **TestFlight** hochladen – ohne 7-Tage-Grenze
 und ohne PC. Dafür werden einige Schlüssel als GitHub-Secrets benötigt (wird bei Bedarf ergänzt).
 
-### Lokal mit Xcode
+### Für Entwickler
 
-```bash
-brew install xcodegen
-cd ios && xcodegen generate && open SportRadar.xcodeproj
-```
+`ios/SportRadar.xcodeproj` wird vom Workflow automatisch aus `ios/project.yml` erzeugt
+(XcodeGen). Projektänderungen also in `project.yml` vornehmen.
 
 ## 📱 Als Web-App aufs iPhone
 
