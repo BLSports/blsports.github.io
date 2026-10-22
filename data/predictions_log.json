@@ -83131,9 +83131,9 @@
    "tip": "P2",
    "tipName": "Ann Li",
    "prob": 0.6869,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-22|stoiana m|uchijima m": {
    "sport": "tn",
@@ -83145,9 +83145,9 @@
    "tip": "P2",
    "tipName": "Mary Stoiana",
    "prob": 0.5127,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-22|day k|ruzic a": {
    "sport": "tn",
@@ -83159,9 +83159,9 @@
    "tip": "P2",
    "tipName": "Antonia Ruzic",
    "prob": 0.5568,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-10-21|kukushkin m|tsitsipas s": {
    "sport": "tn",
@@ -83187,9 +83187,9 @@
    "tip": "P2",
    "tipName": "Magda Linette",
    "prob": 0.5235,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-22|eala a|shnaider d": {
    "sport": "tn",
@@ -83229,9 +83229,9 @@
    "tip": "P2",
    "tipName": "Iva Jovic",
    "prob": 0.713,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-10-21|griekspoor t|navone m": {
    "sport": "tn",
@@ -83341,9 +83341,9 @@
    "tip": "P1",
    "tipName": "Belinda Bencic",
    "prob": 0.8677,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|atp|2026-10-21|bonzi b|paul t": {
    "sport": "tn",
@@ -83815,7 +83815,14 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 1.75,
+    "edge": 0.0862,
+    "modelP": 0.6067,
+    "won": null
+   }
   },
   "fb|nl2|2026-10-23|nac breda|heracles almelo": {
    "sport": "fb",
@@ -83922,8 +83929,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 2.38,
-    "edge": 0.0616,
+    "odds": 2.4,
+    "edge": 0.0719,
     "modelP": 0.4409,
     "won": null
    }
@@ -83980,7 +83987,14 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 2.05,
+    "edge": 0.078,
+    "modelP": 0.5237,
+    "won": null
+   }
   },
   "fb|se1|2026-10-23|vasteras sk|halmstads bk": {
    "sport": "fb",
@@ -85116,8 +85130,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 2.05,
-    "edge": 0.0711,
+    "odds": 2.1,
+    "edge": 0.0816,
     "modelP": 0.515,
     "won": null
    }
@@ -85210,7 +85224,14 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 2.15,
+    "edge": 0.1088,
+    "modelP": 0.5224,
+    "won": null
+   }
   },
   "fb|be2|2026-10-24|lokeren-temse|kaa gent ii": {
    "sport": "fb",
@@ -85321,8 +85342,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 2.38,
-    "edge": 0.1146,
+    "odds": 2.3,
+    "edge": 0.1012,
     "modelP": 0.5019,
     "won": null
    }
@@ -85346,8 +85367,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 2.3,
-    "edge": 0.1981,
+    "odds": 2.1,
+    "edge": 0.1614,
     "modelP": 0.5936,
     "won": null
    }
@@ -85390,7 +85411,7 @@
    "value": {
     "pick": "1",
     "odds": 2.45,
-    "edge": 0.1084,
+    "edge": 0.1055,
     "modelP": 0.4786,
     "won": null
    }
@@ -85432,8 +85453,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 1.8,
-    "edge": 0.1748,
+    "odds": 1.83,
+    "edge": 0.1827,
     "modelP": 0.6847,
     "won": null
    }
@@ -85520,9 +85541,9 @@
    "awayKey": "nashville sc",
    "tip": "2",
    "tipName": "Nashville SC",
-   "prob": 0.6195,
+   "prob": 0.61,
    "tipScore": "0:1",
-   "pOver25": 0.5613,
+   "pOver25": 0.5531,
    "status": "open",
    "result": null,
    "correct": null,
@@ -85538,9 +85559,9 @@
    "awayKey": "toronto fc",
    "tip": "1",
    "tipName": "Columbus Crew",
-   "prob": 0.5219,
-   "tipScore": "2:1",
-   "pOver25": 0.6567,
+   "prob": 0.5153,
+   "tipScore": "1:1",
+   "pOver25": 0.632,
    "status": "open",
    "result": null,
    "correct": null,
@@ -85698,8 +85719,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 3.7,
-    "edge": 0.0666,
+    "odds": 3.8,
+    "edge": 0.0696,
     "modelP": 0.3112,
     "won": null
    }
@@ -85714,6 +85735,48 @@
    "tip": "P1",
    "tipName": "Tommy Paul",
    "prob": 0.8263,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-23|li a|tagger l": {
+   "sport": "tn",
+   "comp": "WTA · Kinoshita Group Japan Open",
+   "date": "2026-10-23",
+   "label": "Lilli Tagger – Ann Li",
+   "p1Key": "tagger l",
+   "p2Key": "li a",
+   "tip": "P2",
+   "tipName": "Ann Li",
+   "prob": 0.6683,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-23|siniakova k|stoiana m": {
+   "sport": "tn",
+   "comp": "WTA · Kinoshita Group Japan Open",
+   "date": "2026-10-23",
+   "label": "Katerina Siniakova – Mary Stoiana",
+   "p1Key": "siniakova k",
+   "p2Key": "stoiana m",
+   "tip": "P1",
+   "tipName": "Katerina Siniakova",
+   "prob": 0.5596,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-23|boulter k|ruzic a": {
+   "sport": "tn",
+   "comp": "WTA · Kinoshita Group Japan Open",
+   "date": "2026-10-23",
+   "label": "Antonia Ruzic – Katie Boulter",
+   "p1Key": "ruzic a",
+   "p2Key": "boulter k",
+   "tip": "P2",
+   "tipName": "Katie Boulter",
+   "prob": 0.5946,
    "status": "open",
    "result": null,
    "correct": null
