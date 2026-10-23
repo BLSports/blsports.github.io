@@ -83901,14 +83901,7 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null,
-   "value": {
-    "pick": "1",
-    "odds": 3.2,
-    "edge": 0.1747,
-    "modelP": 0.4555,
-    "won": null
-   }
+   "exact": null
   },
   "fb|be2|2026-10-23|rsc anderlecht ii|k lierse sk": {
    "sport": "fb",
@@ -84153,9 +84146,9 @@
    "tip": "P2",
    "tipName": "Talia Gibson",
    "prob": 0.5571,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-10-22|atmane t|bellucci m": {
    "sport": "tn",
@@ -84223,9 +84216,9 @@
    "tip": "P1",
    "tipName": "Adrian Mannarino",
    "prob": 0.6011,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-23|alexandrova e|fernandez l": {
    "sport": "tn",
@@ -84251,9 +84244,9 @@
    "tip": "P1",
    "tipName": "Marie Bouzkova",
    "prob": 0.544,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-10-23|cerundolo f|chidekh c": {
    "sport": "tn",
@@ -85742,9 +85735,9 @@
    "tip": "P2",
    "tipName": "Ann Li",
    "prob": 0.6683,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-23|siniakova k|stoiana m": {
    "sport": "tn",
@@ -85756,9 +85749,9 @@
    "tip": "P1",
    "tipName": "Katerina Siniakova",
    "prob": 0.5596,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-23|boulter k|ruzic a": {
    "sport": "tn",
@@ -87088,8 +87081,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 2.25,
-    "edge": 0.1542,
+    "odds": 2.2,
+    "edge": 0.1477,
     "modelP": 0.5557,
     "won": null
    }
@@ -87203,8 +87196,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 2.5,
-    "edge": 0.1679,
+    "odds": 2.4,
+    "edge": 0.147,
     "modelP": 0.5249,
     "won": null
    }
@@ -87228,8 +87221,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 3.2,
-    "edge": 0.109,
+    "odds": 3.0,
+    "edge": 0.0912,
     "modelP": 0.3952,
     "won": null
    }
@@ -87516,6 +87509,20 @@
     "modelP": 0.5936,
     "won": null
    }
+  },
+  "tn|wta|2026-10-24|krueger a|li a": {
+   "sport": "tn",
+   "comp": "WTA · Kinoshita Group Japan Open",
+   "date": "2026-10-24",
+   "label": "Ashlyn Krueger – Ann Li",
+   "p1Key": "krueger a",
+   "p2Key": "li a",
+   "tip": "P2",
+   "tipName": "Ann Li",
+   "prob": 0.6615,
+   "status": "open",
+   "result": null,
+   "correct": null
   }
  }
 }
