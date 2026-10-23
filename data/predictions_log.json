@@ -83411,7 +83411,7 @@
    "awayKey": "mgladbach",
    "tip": "1",
    "tipName": "VfB Stuttgart",
-   "prob": 0.7221,
+   "prob": 0.7222,
    "tipScore": "2:0",
    "pOver25": 0.7022,
    "status": "open",
@@ -83431,7 +83431,7 @@
    "tipName": "FC St. Pauli",
    "prob": 0.4055,
    "tipScore": "1:1",
-   "pOver25": 0.4722,
+   "pOver25": 0.4724,
    "status": "open",
    "result": null,
    "correct": null,
@@ -83449,7 +83449,7 @@
    "tipName": "VfL Wolfsburg",
    "prob": 0.5182,
    "tipScore": "1:2",
-   "pOver25": 0.7067,
+   "pOver25": 0.7065,
    "status": "open",
    "result": null,
    "correct": null,
@@ -83465,7 +83465,7 @@
    "awayKey": "jahn regensburg",
    "tip": "1",
    "tipName": "Rot-Weiss Essen",
-   "prob": 0.5169,
+   "prob": 0.517,
    "tipScore": "2:1",
    "pOver25": 0.7006,
    "status": "open",
@@ -83729,7 +83729,14 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 1.95,
+    "edge": 0.072,
+    "modelP": 0.5378,
+    "won": null
+   }
   },
   "fb|nl2|2026-10-23|de graafschap|rkc waalwijk": {
    "sport": "fb",
@@ -83750,8 +83757,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 2.4,
-    "edge": 0.1091,
+    "odds": 2.3,
+    "edge": 0.0961,
     "modelP": 0.4921,
     "won": null
    }
@@ -83812,7 +83819,7 @@
    "value": {
     "pick": "1",
     "odds": 1.85,
-    "edge": 0.1159,
+    "edge": 0.1105,
     "modelP": 0.6067,
     "won": null
    }
@@ -83836,8 +83843,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 2.6,
-    "edge": 0.1371,
+    "odds": 2.38,
+    "edge": 0.1067,
     "modelP": 0.4909,
     "won": null
    }
@@ -83858,14 +83865,7 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null,
-   "value": {
-    "pick": "2",
-    "odds": 2.9,
-    "edge": 0.0632,
-    "modelP": 0.3785,
-    "won": null
-   }
+   "exact": null
   },
   "fb|be1|2026-10-23|kv kortrijk|kv mechelen": {
    "sport": "fb",
@@ -83991,7 +83991,7 @@
    "value": {
     "pick": "1",
     "odds": 2.05,
-    "edge": 0.082,
+    "edge": 0.076,
     "modelP": 0.5237,
     "won": null
    }
@@ -84265,9 +84265,9 @@
    "tip": "P1",
    "tipName": "Francisco Cerundolo",
    "prob": 0.8432,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-10-23|duckworth j|tsitsipas s": {
    "sport": "tn",
@@ -84309,7 +84309,7 @@
    "tipName": "RB Leipzig",
    "prob": 0.6106,
    "tipScore": "2:1",
-   "pOver25": 0.7976,
+   "pOver25": 0.7977,
    "status": "open",
    "result": null,
    "correct": null,
@@ -84325,9 +84325,9 @@
    "awayKey": "1 fc union berlin",
    "tip": "1",
    "tipName": "FC Augsburg",
-   "prob": 0.6374,
+   "prob": 0.6376,
    "tipScore": "2:1",
-   "pOver25": 0.6674,
+   "pOver25": 0.6675,
    "status": "open",
    "result": null,
    "correct": null,
@@ -84335,8 +84335,8 @@
    "value": {
     "pick": "1",
     "odds": 1.85,
-    "edge": 0.1146,
-    "modelP": 0.6374,
+    "edge": 0.1148,
+    "modelP": 0.6376,
     "won": null
    }
   },
@@ -84350,9 +84350,9 @@
    "awayKey": "sv werder bremen",
    "tip": "1",
    "tipName": "1. FSV Mainz 05",
-   "prob": 0.5899,
+   "prob": 0.5898,
    "tipScore": "1:1",
-   "pOver25": 0.589,
+   "pOver25": 0.5889,
    "status": "open",
    "result": null,
    "correct": null,
@@ -84368,9 +84368,9 @@
    "awayKey": "fc schalke 04",
    "tip": "1",
    "tipName": "1. FC Köln",
-   "prob": 0.4665,
+   "prob": 0.466,
    "tipScore": "1:0",
-   "pOver25": 0.2588,
+   "pOver25": 0.2587,
    "status": "open",
    "result": null,
    "correct": null,
@@ -84378,8 +84378,8 @@
    "value": {
     "pick": "X",
     "odds": 3.86,
-    "edge": 0.0695,
-    "modelP": 0.3202,
+    "edge": 0.0696,
+    "modelP": 0.3203,
     "won": null
    }
   },
@@ -84393,9 +84393,9 @@
    "awayKey": "hamburger sv",
    "tip": "1",
    "tipName": "SC Paderborn 07",
-   "prob": 0.3862,
+   "prob": 0.3867,
    "tipScore": "1:0",
-   "pOver25": 0.3233,
+   "pOver25": 0.3235,
    "status": "open",
    "result": null,
    "correct": null,
@@ -84403,8 +84403,8 @@
    "value": {
     "pick": "X",
     "odds": 3.77,
-    "edge": 0.0507,
-    "modelP": 0.3073,
+    "edge": 0.0506,
+    "modelP": 0.3072,
     "won": null
    }
   },
@@ -84418,9 +84418,9 @@
    "awayKey": "eintracht frankfurt",
    "tip": "1",
    "tipName": "Borussia Dortmund",
-   "prob": 0.7929,
+   "prob": 0.793,
    "tipScore": "2:0",
-   "pOver25": 0.7082,
+   "pOver25": 0.7085,
    "status": "open",
    "result": null,
    "correct": null,
@@ -84428,8 +84428,8 @@
    "value": {
     "pick": "1",
     "odds": 1.48,
-    "edge": 0.1416,
-    "modelP": 0.7929,
+    "edge": 0.1417,
+    "modelP": 0.793,
     "won": null
    }
   },
@@ -84443,9 +84443,9 @@
    "awayKey": "energie cottbus",
    "tip": "1",
    "tipName": "1. FC Heidenheim 1846",
-   "prob": 0.5505,
+   "prob": 0.5504,
    "tipScore": "2:2",
-   "pOver25": 0.8765,
+   "pOver25": 0.8763,
    "status": "open",
    "result": null,
    "correct": null,
@@ -84461,7 +84461,7 @@
    "awayKey": "dsc arminia bielefeld",
    "tip": "1",
    "tipName": "Hertha BSC",
-   "prob": 0.5701,
+   "prob": 0.5704,
    "tipScore": "2:1",
    "pOver25": 0.6129,
    "status": "open",
@@ -84479,9 +84479,9 @@
    "awayKey": "karlsruher sc",
    "tip": "1",
    "tipName": "1. FC Magdeburg",
-   "prob": 0.5987,
+   "prob": 0.5986,
    "tipScore": "2:1",
-   "pOver25": 0.7094,
+   "pOver25": 0.7095,
    "status": "open",
    "result": null,
    "correct": null,
@@ -84497,7 +84497,7 @@
    "awayKey": "1 fc kaiserslautern",
    "tip": "1",
    "tipName": "1. FC Nürnberg",
-   "prob": 0.4889,
+   "prob": 0.4891,
    "tipScore": "1:1",
    "pOver25": 0.4726,
    "status": "open",
@@ -84515,7 +84515,7 @@
    "awayKey": "sc verl",
    "tip": "1",
    "tipName": "Viktoria Köln",
-   "prob": 0.4184,
+   "prob": 0.4187,
    "tipScore": "1:1",
    "pOver25": 0.6235,
    "status": "open",
@@ -84533,9 +84533,9 @@
    "awayKey": "fortuna dusseldorf",
    "tip": "1",
    "tipName": "Hansa Rostock",
-   "prob": 0.5296,
+   "prob": 0.5292,
    "tipScore": "1:0",
-   "pOver25": 0.4969,
+   "pOver25": 0.4968,
    "status": "open",
    "result": null,
    "correct": null,
@@ -84543,8 +84543,8 @@
    "value": {
     "pick": "1",
     "odds": 2.05,
-    "edge": 0.0699,
-    "modelP": 0.5296,
+    "edge": 0.0695,
+    "modelP": 0.5292,
     "won": null
    }
   },
@@ -84558,9 +84558,9 @@
    "awayKey": "sg sonnenhof grossaspach",
    "tip": "1",
    "tipName": "SV Wehen Wiesbaden",
-   "prob": 0.5244,
+   "prob": 0.5242,
    "tipScore": "1:1",
-   "pOver25": 0.5025,
+   "pOver25": 0.5026,
    "status": "open",
    "result": null,
    "correct": null,
@@ -84576,9 +84576,9 @@
    "awayKey": "msv duisburg",
    "tip": "2",
    "tipName": "MSV Duisburg",
-   "prob": 0.4637,
+   "prob": 0.4638,
    "tipScore": "1:1",
-   "pOver25": 0.5894,
+   "pOver25": 0.5895,
    "status": "open",
    "result": null,
    "correct": null,
@@ -84594,7 +84594,7 @@
    "awayKey": "wurzburger kickers",
    "tip": "1",
    "tipName": "SV Meppen",
-   "prob": 0.4284,
+   "prob": 0.4282,
    "tipScore": "1:1",
    "pOver25": 0.5857,
    "status": "open",
@@ -84604,8 +84604,8 @@
    "value": {
     "pick": "2",
     "odds": 3.4,
-    "edge": 0.0557,
-    "modelP": 0.332,
+    "edge": 0.0558,
+    "modelP": 0.3321,
     "won": null
    }
   },
@@ -84619,9 +84619,9 @@
    "awayKey": "alemannia aachen",
    "tip": "2",
    "tipName": "Alemannia Aachen",
-   "prob": 0.4831,
+   "prob": 0.4832,
    "tipScore": "1:2",
-   "pOver25": 0.7015,
+   "pOver25": 0.7014,
    "status": "open",
    "result": null,
    "correct": null,
@@ -85227,8 +85227,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 2.15,
-    "edge": 0.1088,
+    "odds": 2.2,
+    "edge": 0.1144,
     "modelP": 0.5224,
     "won": null
    }
@@ -85249,7 +85249,14 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 1.57,
+    "edge": 0.0914,
+    "modelP": 0.666,
+    "won": null
+   }
   },
   "fb|pt1|2026-10-24|estrela|casa pia": {
    "sport": "fb",
@@ -85728,9 +85735,9 @@
    "tip": "P1",
    "tipName": "Tommy Paul",
    "prob": 0.8263,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-23|li a|tagger l": {
    "sport": "tn",
@@ -85784,9 +85791,9 @@
    "tip": "P2",
    "tipName": "Iva Jovic",
    "prob": 0.517,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-10-23|atmane t|medvedev d": {
    "sport": "tn",
@@ -85812,9 +85819,9 @@
    "tip": "P2",
    "tipName": "Elena Rybakina",
    "prob": 0.9841,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-10-23|altmaier d|fritz t": {
    "sport": "tn",
@@ -85840,9 +85847,9 @@
    "tip": "P1",
    "tipName": "Jiri Lehecka",
    "prob": 0.7178,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|atp|2026-10-23|bublik a|khachanov k": {
    "sport": "tn",
@@ -85924,9 +85931,9 @@
    "awayKey": "bayer 04 leverkusen",
    "tip": "2",
    "tipName": "Bayer 04 Leverkusen",
-   "prob": 0.4272,
+   "prob": 0.4273,
    "tipScore": "1:1",
-   "pOver25": 0.7299,
+   "pOver25": 0.7298,
    "status": "open",
    "result": null,
    "correct": null,
@@ -85942,9 +85949,9 @@
    "awayKey": "bayern",
    "tip": "2",
    "tipName": "FC Bayern München",
-   "prob": 0.6914,
+   "prob": 0.6916,
    "tipScore": "1:2",
-   "pOver25": 0.7712,
+   "pOver25": 0.7711,
    "status": "open",
    "result": null,
    "correct": null,
@@ -85960,7 +85967,7 @@
    "awayKey": "dynamo dresden",
    "tip": "1",
    "tipName": "Holstein Kiel",
-   "prob": 0.4066,
+   "prob": 0.4068,
    "tipScore": "1:1",
    "pOver25": 0.4999,
    "status": "open",
@@ -85996,7 +86003,7 @@
    "awayKey": "spvgg greuther furth",
    "tip": "1",
    "tipName": "VfL Osnabrück",
-   "prob": 0.4477,
+   "prob": 0.4478,
    "tipScore": "1:1",
    "pOver25": 0.6576,
    "status": "open",
@@ -86014,9 +86021,9 @@
    "awayKey": "1 fc saarbrucken",
    "tip": "2",
    "tipName": "1. FC Saarbrücken",
-   "prob": 0.5557,
+   "prob": 0.5555,
    "tipScore": "1:2",
-   "pOver25": 0.7351,
+   "pOver25": 0.7352,
    "status": "open",
    "result": null,
    "correct": null,
@@ -86032,9 +86039,9 @@
    "awayKey": "fortuna koln",
    "tip": "1",
    "tipName": "Preußen Münster",
-   "prob": 0.4456,
+   "prob": 0.4457,
    "tipScore": "1:0",
-   "pOver25": 0.395,
+   "pOver25": 0.3953,
    "status": "open",
    "result": null,
    "correct": null,
@@ -86052,7 +86059,7 @@
    "tipName": "TSG 1899 Hoffenheim II",
    "prob": 0.3939,
    "tipScore": "1:1",
-   "pOver25": 0.7064,
+   "pOver25": 0.7063,
    "status": "open",
    "result": null,
    "correct": null,
@@ -87203,8 +87210,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 2.4,
-    "edge": 0.147,
+    "odds": 2.62,
+    "edge": 0.1791,
     "modelP": 0.5249,
     "won": null
    }
@@ -87278,8 +87285,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 3.8,
-    "edge": 0.0603,
+    "odds": 3.9,
+    "edge": 0.065,
     "modelP": 0.3,
     "won": null
    }
@@ -87422,14 +87429,7 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null,
-   "value": {
-    "pick": "2",
-    "odds": 3.0,
-    "edge": 0.0563,
-    "modelP": 0.362,
-    "won": null
-   }
+   "exact": null
   },
   "fb|se1|2026-10-25|mjallby aif|hammarby if": {
    "sport": "fb",
@@ -87905,6 +87905,52 @@
    "tip": "P2",
    "tipName": "Anastasia Zakharova",
    "prob": 0.666,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "fb|fr1|2026-10-25|paris saint germain|lyon": {
+   "sport": "fb",
+   "comp": "Ligue 1",
+   "compId": "fr1",
+   "date": "2026-10-25",
+   "label": "Paris Saint Germain – Lyon",
+   "homeKey": "paris saint germain",
+   "awayKey": "lyon",
+   "tip": "1",
+   "tipName": "Paris Saint Germain",
+   "prob": 0.5459,
+   "tipScore": "2:1",
+   "pOver25": 0.66,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "tn|wta|2026-10-24|rybakina e|shnaider d": {
+   "sport": "tn",
+   "comp": "WTA · BNB Ningbo Open",
+   "date": "2026-10-24",
+   "label": "Diana Shnaider – Elena Rybakina",
+   "p1Key": "shnaider d",
+   "p2Key": "rybakina e",
+   "tip": "P2",
+   "tipName": "Elena Rybakina",
+   "prob": 0.8985,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-24|cerundolo f|griekspoor t": {
+   "sport": "tn",
+   "comp": "ATP · BNP Paribas Fortis European Open",
+   "date": "2026-10-24",
+   "label": "Tallon Griekspoor – Francisco Cerundolo",
+   "p1Key": "griekspoor t",
+   "p2Key": "cerundolo f",
+   "tip": "P2",
+   "tipName": "Francisco Cerundolo",
+   "prob": 0.7094,
    "status": "open",
    "result": null,
    "correct": null
