@@ -73081,7 +73081,7 @@
    "prob": 0.575,
    "tipScore": "2:1",
    "pOver25": 0.6864,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null,
@@ -73106,7 +73106,7 @@
    "prob": 0.5803,
    "tipScore": "2:1",
    "pOver25": 0.6476,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -73124,7 +73124,7 @@
    "prob": 0.3897,
    "tipScore": "1:1",
    "pOver25": 0.6346,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null,
@@ -73149,7 +73149,7 @@
    "prob": 0.4827,
    "tipScore": "1:1",
    "pOver25": 0.5778,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -73167,7 +73167,7 @@
    "prob": 0.5149,
    "tipScore": "2:1",
    "pOver25": 0.7497,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null,
@@ -73192,7 +73192,7 @@
    "prob": 0.5982,
    "tipScore": "2:1",
    "pOver25": 0.6496,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null,
@@ -73217,7 +73217,7 @@
    "prob": 0.4139,
    "tipScore": "1:1",
    "pOver25": 0.5481,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null,
@@ -73242,7 +73242,7 @@
    "prob": 0.3883,
    "tipScore": "1:1",
    "pOver25": 0.5449,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -73260,7 +73260,7 @@
    "prob": 0.4516,
    "tipScore": "2:1",
    "pOver25": 0.7241,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -84493,10 +84493,10 @@
    "prob": 0.4946,
    "tipScore": "1:1",
    "pOver25": 0.4768,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "0:1",
+   "correct": false,
+   "exact": false
   },
   "fb|bl3|2026-10-24|viktoria koln|sc verl": {
    "sport": "fb",
@@ -85960,9 +85960,9 @@
    "awayKey": "dynamo dresden",
    "tip": "1",
    "tipName": "Holstein Kiel",
-   "prob": 0.4118,
+   "prob": 0.4109,
    "tipScore": "1:1",
-   "pOver25": 0.5035,
+   "pOver25": 0.5056,
    "status": "open",
    "result": null,
    "correct": null,
@@ -85978,9 +85978,9 @@
    "awayKey": "hannover 96",
    "tip": "2",
    "tipName": "Hannover 96",
-   "prob": 0.4053,
+   "prob": 0.4068,
    "tipScore": "1:1",
-   "pOver25": 0.5229,
+   "pOver25": 0.5252,
    "status": "open",
    "result": null,
    "correct": null,
@@ -85996,9 +85996,9 @@
    "awayKey": "spvgg greuther furth",
    "tip": "1",
    "tipName": "VfL Osnabrück",
-   "prob": 0.4536,
+   "prob": 0.4525,
    "tipScore": "1:1",
-   "pOver25": 0.6613,
+   "pOver25": 0.6633,
    "status": "open",
    "result": null,
    "correct": null,
@@ -86056,7 +86056,14 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null
+   "exact": null,
+   "value": {
+    "pick": "2",
+    "odds": 2.85,
+    "edge": 0.0557,
+    "modelP": 0.3841,
+    "won": null
+   }
   },
   "fb|pl|2026-10-25|crystal palace|newcastle": {
    "sport": "fb",
@@ -86145,8 +86152,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 2.22,
-    "edge": 0.123,
+    "odds": 2.3,
+    "edge": 0.138,
     "modelP": 0.5665,
     "won": null
    }
@@ -86189,7 +86196,7 @@
    "value": {
     "pick": "1",
     "odds": 1.35,
-    "edge": 0.1152,
+    "edge": 0.1146,
     "modelP": 0.829,
     "won": null
    }
@@ -86213,8 +86220,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 3.93,
-    "edge": 0.1522,
+    "odds": 3.94,
+    "edge": 0.1526,
     "modelP": 0.3982,
     "won": null
    }
@@ -86238,8 +86245,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 2.19,
-    "edge": 0.1365,
+    "odds": 2.18,
+    "edge": 0.1352,
     "modelP": 0.5786,
     "won": null
    }
@@ -86299,8 +86306,8 @@
    "exact": null,
    "value": {
     "pick": "X",
-    "odds": 4.1,
-    "edge": 0.1176,
+    "odds": 4.0,
+    "edge": 0.1125,
     "modelP": 0.3469,
     "won": null
    }
@@ -86324,8 +86331,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 3.15,
-    "edge": 0.16,
+    "odds": 3.25,
+    "edge": 0.1693,
     "modelP": 0.4686,
     "won": null
    }
@@ -86404,7 +86411,7 @@
    "value": {
     "pick": "2",
     "odds": 3.15,
-    "edge": 0.1203,
+    "edge": 0.1215,
     "modelP": 0.4181,
     "won": null
    }
@@ -86464,8 +86471,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 3.4,
-    "edge": 0.1129,
+    "odds": 3.6,
+    "edge": 0.1278,
     "modelP": 0.3807,
     "won": null
    }
@@ -86490,7 +86497,7 @@
    "value": {
     "pick": "1",
     "odds": 2.05,
-    "edge": 0.0708,
+    "edge": 0.0683,
     "modelP": 0.5228,
     "won": null
    }
@@ -86557,8 +86564,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 1.57,
-    "edge": 0.2189,
+    "odds": 1.56,
+    "edge": 0.2133,
     "modelP": 0.794,
     "won": null
    }
@@ -87035,11 +87042,11 @@
    "comp": "MLS (USA)",
    "compId": "us1",
    "date": "2026-10-25",
-   "label": "D.C. United – FC Cincinnati",
+   "label": "DC United – FC Cincinnati",
    "homeKey": "dc united",
    "awayKey": "fc cincinnati",
    "tip": "1",
-   "tipName": "D.C. United",
+   "tipName": "DC United",
    "prob": 0.4442,
    "tipScore": "1:1",
    "pOver25": 0.6407,
@@ -88248,8 +88255,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 3.65,
-    "edge": 0.1441,
+    "odds": 3.15,
+    "edge": 0.1054,
     "modelP": 0.3736,
     "won": null
    }
@@ -88292,7 +88299,7 @@
    "value": {
     "pick": "2",
     "odds": 2.1,
-    "edge": 0.1335,
+    "edge": 0.1296,
     "modelP": 0.5502,
     "won": null
    }
@@ -89501,6 +89508,316 @@
    "tip": "P2",
    "tipName": "Jan-Lennard Struff",
    "prob": 0.5072,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "fb|sa|2026-10-27|sassuolo|lazio": {
+   "sport": "fb",
+   "comp": "Serie A",
+   "compId": "sa",
+   "date": "2026-10-27",
+   "label": "Sassuolo – Lazio",
+   "homeKey": "sassuolo",
+   "awayKey": "lazio",
+   "tip": "2",
+   "tipName": "Lazio",
+   "prob": 0.473,
+   "tipScore": "1:1",
+   "pOver25": 0.4676,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "2",
+    "odds": 2.36,
+    "edge": 0.0693,
+    "modelP": 0.473,
+    "won": null
+   }
+  },
+  "fb|sa|2026-10-27|roma|cagliari": {
+   "sport": "fb",
+   "comp": "Serie A",
+   "compId": "sa",
+   "date": "2026-10-27",
+   "label": "AS Roma – Cagliari",
+   "homeKey": "roma",
+   "awayKey": "cagliari",
+   "tip": "1",
+   "tipName": "AS Roma",
+   "prob": 0.7049,
+   "tipScore": "1:0",
+   "pOver25": 0.4498,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|sa|2026-10-27|torino|como": {
+   "sport": "fb",
+   "comp": "Serie A",
+   "compId": "sa",
+   "date": "2026-10-27",
+   "label": "Torino – Como",
+   "homeKey": "torino",
+   "awayKey": "como",
+   "tip": "2",
+   "tipName": "Como",
+   "prob": 0.6336,
+   "tipScore": "0:1",
+   "pOver25": 0.5384,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "2",
+    "odds": 1.74,
+    "edge": 0.0883,
+    "modelP": 0.6336,
+    "won": null
+   }
+  },
+  "fb|us1|2026-10-25|atlanta united fc|chicago fire": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-10-25",
+   "label": "Atlanta United FC – Chicago Fire",
+   "homeKey": "atlanta united fc",
+   "awayKey": "chicago fire",
+   "tip": "1",
+   "tipName": "Atlanta United FC",
+   "prob": 0.5023,
+   "tipScore": "1:1",
+   "pOver25": 0.6046,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 2.6,
+    "edge": 0.1543,
+    "modelP": 0.5023,
+    "won": null
+   }
+  },
+  "fb|us1|2026-10-25|houston dynamo|minnesota united fc": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-10-25",
+   "label": "Houston Dynamo – Minnesota United FC",
+   "homeKey": "houston dynamo",
+   "awayKey": "minnesota united fc",
+   "tip": "1",
+   "tipName": "Houston Dynamo",
+   "prob": 0.4987,
+   "tipScore": "2:1",
+   "pOver25": 0.7008,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 2.1,
+    "edge": 0.0672,
+    "modelP": 0.4987,
+    "won": null
+   }
+  },
+  "fb|us1|2026-10-25|sporting kansas city|austin": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-10-25",
+   "label": "Sporting Kansas City – Austin",
+   "homeKey": "sporting kansas city",
+   "awayKey": "austin",
+   "tip": "1",
+   "tipName": "Sporting Kansas City",
+   "prob": 0.4219,
+   "tipScore": "1:1",
+   "pOver25": 0.6625,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|us1|2026-10-25|real salt lake|st louis city": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-10-25",
+   "label": "Real Salt Lake – St. Louis City",
+   "homeKey": "real salt lake",
+   "awayKey": "st louis city",
+   "tip": "2",
+   "tipName": "St. Louis City",
+   "prob": 0.5249,
+   "tipScore": "1:1",
+   "pOver25": 0.6177,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "2",
+    "odds": 3.0,
+    "edge": 0.2216,
+    "modelP": 0.5249,
+    "won": null
+   }
+  },
+  "fb|us1|2026-10-25|portland timbers|charlotte": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-10-25",
+   "label": "Portland Timbers – Charlotte",
+   "homeKey": "portland timbers",
+   "awayKey": "charlotte",
+   "tip": "2",
+   "tipName": "Charlotte",
+   "prob": 0.3952,
+   "tipScore": "1:1",
+   "pOver25": 0.6656,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "2",
+    "odds": 3.1,
+    "edge": 0.1016,
+    "modelP": 0.3952,
+    "won": null
+   }
+  },
+  "fb|us1|2026-10-25|san diego|seattle sounders": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-10-25",
+   "label": "San Diego – Seattle Sounders",
+   "homeKey": "san diego",
+   "awayKey": "seattle sounders",
+   "tip": "2",
+   "tipName": "Seattle Sounders",
+   "prob": 0.405,
+   "tipScore": "1:1",
+   "pOver25": 0.64,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "2",
+    "odds": 2.8,
+    "edge": 0.0803,
+    "modelP": 0.405,
+    "won": null
+   }
+  },
+  "fb|br1|2026-10-25|chapecoense-sc|fluminense": {
+   "sport": "fb",
+   "comp": "Série A (Brasilien)",
+   "compId": "br1",
+   "date": "2026-10-25",
+   "label": "Chapecoense-sc – Fluminense",
+   "homeKey": "chapecoense-sc",
+   "awayKey": "fluminense",
+   "tip": "2",
+   "tipName": "Fluminense",
+   "prob": 0.4562,
+   "tipScore": "1:1",
+   "pOver25": 0.5526,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 4.2,
+    "edge": 0.0826,
+    "modelP": 0.3,
+    "won": null
+   }
+  },
+  "fb|br1|2026-10-27|flamengo|atletico-mg": {
+   "sport": "fb",
+   "comp": "Série A (Brasilien)",
+   "compId": "br1",
+   "date": "2026-10-27",
+   "label": "Flamengo – Atlético-MG",
+   "homeKey": "flamengo",
+   "awayKey": "atletico-mg",
+   "tip": "1",
+   "tipName": "Flamengo",
+   "prob": 0.5303,
+   "tipScore": "1:0",
+   "pOver25": 0.4404,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "tn|wta|2026-10-25|ayala l|gulin g": {
+   "sport": "tn",
+   "comp": "WTA · Curitiba Open",
+   "date": "2026-10-25",
+   "label": "Georgia Gulin – Lourdes Ayala",
+   "p1Key": "gulin g",
+   "p2Key": "ayala l",
+   "tip": "P1",
+   "tipName": "Georgia Gulin",
+   "prob": 0.7317,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-25|dourado j|maria cinalli l": {
+   "sport": "tn",
+   "comp": "WTA · Curitiba Open",
+   "date": "2026-10-25",
+   "label": "Jennifer Dourado – Luna Maria Cinalli",
+   "p1Key": "dourado j",
+   "p2Key": "maria cinalli l",
+   "tip": "P1",
+   "tipName": "Jennifer Dourado",
+   "prob": 0.7095,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-25|bonardi b|mellei ibiaraba melleiro c": {
+   "sport": "tn",
+   "comp": "WTA · Curitiba Open",
+   "date": "2026-10-25",
+   "label": "Catarina Mellei Ibiaraba Melleiro – Berta Bonardi",
+   "p1Key": "mellei ibiaraba melleiro c",
+   "p2Key": "bonardi b",
+   "tip": "P1",
+   "tipName": "Catarina Mellei Ibiaraba Melleiro",
+   "prob": 0.6898,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-25|labrana f|mendonca bernardes b": {
+   "sport": "tn",
+   "comp": "WTA · Curitiba Open",
+   "date": "2026-10-25",
+   "label": "Bianca Mendonca Bernardes – Fernanda Labrana",
+   "p1Key": "mendonca bernardes b",
+   "p2Key": "labrana f",
+   "tip": "P1",
+   "tipName": "Bianca Mendonca Bernardes",
+   "prob": 0.6368,
    "status": "open",
    "result": null,
    "correct": null
