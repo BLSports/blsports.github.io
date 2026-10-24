@@ -85439,8 +85439,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 1.75,
-    "edge": 0.1613,
+    "odds": 1.8,
+    "edge": 0.1749,
     "modelP": 0.6847,
     "won": null
    }
@@ -85623,7 +85623,14 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 1.67,
+    "edge": 0.1074,
+    "modelP": 0.6548,
+    "won": null
+   }
   },
   "fb|no1|2026-10-24|bodo/glimt|valerenga": {
    "sport": "fb",
@@ -87189,8 +87196,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 2.62,
-    "edge": 0.1791,
+    "odds": 2.7,
+    "edge": 0.189,
     "modelP": 0.5249,
     "won": null
    }
@@ -87215,7 +87222,7 @@
    "value": {
     "pick": "2",
     "odds": 3.0,
-    "edge": 0.0922,
+    "edge": 0.0932,
     "modelP": 0.3952,
     "won": null
    }
@@ -87264,8 +87271,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 4.2,
-    "edge": 0.0843,
+    "odds": 4.0,
+    "edge": 0.0709,
     "modelP": 0.3,
     "won": null
    }
@@ -87604,9 +87611,9 @@
    "tip": "P1",
    "tipName": "Viktorija Golubic",
    "prob": 0.5198,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-24|hontama m|oliynykova o": {
    "sport": "tn",
@@ -87632,9 +87639,9 @@
    "tip": "P2",
    "tipName": "Katie Boulter",
    "prob": 0.5829,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-24|caterina grant t|pridankina e": {
    "sport": "tn",
@@ -87674,9 +87681,9 @@
    "tip": "P2",
    "tipName": "Kimberly Birrell",
    "prob": 0.8495,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-24|day k|shuai z": {
    "sport": "tn",
@@ -87716,9 +87723,9 @@
    "tip": "P1",
    "tipName": "Emerson Jones",
    "prob": 0.7878,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-24|gorgodze e|prozorova t": {
    "sport": "tn",
@@ -87730,9 +87737,9 @@
    "tip": "P2",
    "tipName": "Tatiana Prozorova",
    "prob": 0.583,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-24|valentova t|xinyu w": {
    "sport": "tn",
@@ -87786,9 +87793,9 @@
    "tip": "P1",
    "tipName": "Marie Bouzkova",
    "prob": 0.5304,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-24|dart h|ying shek c": {
    "sport": "tn",
@@ -88780,6 +88787,48 @@
    "tip": "P2",
    "tipName": "Ann Li",
    "prob": 0.5587,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-24|bertola r|paul j": {
+   "sport": "tn",
+   "comp": "ATP · Swiss Indoors Basel",
+   "date": "2026-10-24",
+   "label": "Jakub Paul – Remy Bertola",
+   "p1Key": "paul j",
+   "p2Key": "bertola r",
+   "tip": "P2",
+   "tipName": "Remy Bertola",
+   "prob": 0.5281,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-25|hontama m|joint m": {
+   "sport": "tn",
+   "comp": "WTA · Toray Pan Pacific Open Tennis",
+   "date": "2026-10-25",
+   "label": "Maya Joint – Mai Hontama",
+   "p1Key": "joint m",
+   "p2Key": "hontama m",
+   "tip": "P1",
+   "tipName": "Maya Joint",
+   "prob": 0.6296,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-25|krueger a|siniakova k": {
+   "sport": "tn",
+   "comp": "WTA · Kinoshita Group Japan Open",
+   "date": "2026-10-25",
+   "label": "Katerina Siniakova – Ashlyn Krueger",
+   "p1Key": "siniakova k",
+   "p2Key": "krueger a",
+   "tip": "P2",
+   "tipName": "Ashlyn Krueger",
+   "prob": 0.5939,
    "status": "open",
    "result": null,
    "correct": null
