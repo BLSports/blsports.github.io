@@ -84411,9 +84411,9 @@
    "awayKey": "eintracht frankfurt",
    "tip": "1",
    "tipName": "Borussia Dortmund",
-   "prob": 0.7909,
+   "prob": 0.7911,
    "tipScore": "2:0",
-   "pOver25": 0.7057,
+   "pOver25": 0.7059,
    "status": "open",
    "result": null,
    "correct": null,
@@ -84421,8 +84421,8 @@
    "value": {
     "pick": "1",
     "odds": 1.51,
-    "edge": 0.1536,
-    "modelP": 0.7909,
+    "edge": 0.1538,
+    "modelP": 0.7911,
     "won": null
    }
   },
@@ -84439,10 +84439,10 @@
    "prob": 0.5508,
    "tipScore": "2:2",
    "pOver25": 0.8792,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "1:1",
+   "correct": false,
+   "exact": false
   },
   "fb|bl2|2026-10-24|hertha bsc|dsc arminia bielefeld": {
    "sport": "fb",
@@ -84457,10 +84457,10 @@
    "prob": 0.5709,
    "tipScore": "2:1",
    "pOver25": 0.6173,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "1:0",
+   "correct": true,
+   "exact": false
   },
   "fb|bl2|2026-10-24|1 fc magdeburg|karlsruher sc": {
    "sport": "fb",
@@ -84475,10 +84475,10 @@
    "prob": 0.5994,
    "tipScore": "2:1",
    "pOver25": 0.7136,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "6:1",
+   "correct": true,
+   "exact": false
   },
   "fb|bl2|2026-10-24|1 fc nurnberg|1 fc kaiserslautern": {
    "sport": "fb",
@@ -84490,9 +84490,9 @@
    "awayKey": "1 fc kaiserslautern",
    "tip": "1",
    "tipName": "1. FC Nürnberg",
-   "prob": 0.4895,
+   "prob": 0.4946,
    "tipScore": "1:1",
-   "pOver25": 0.4769,
+   "pOver25": 0.4768,
    "status": "open",
    "result": null,
    "correct": null,
@@ -84511,16 +84511,16 @@
    "prob": 0.4194,
    "tipScore": "1:1",
    "pOver25": 0.6253,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "correct",
+   "result": "3:1",
+   "correct": true,
+   "exact": false,
    "value": {
     "pick": "2",
     "odds": 4.5,
     "edge": 0.1404,
     "modelP": 0.3482,
-    "won": null
+    "won": false
    }
   },
   "fb|bl3|2026-10-24|hansa rostock|fortuna dusseldorf": {
@@ -84536,10 +84536,10 @@
    "prob": 0.5307,
    "tipScore": "1:0",
    "pOver25": 0.4988,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "1:1",
+   "correct": false,
+   "exact": false
   },
   "fb|bl3|2026-10-24|sv wehen wiesbaden|sg sonnenhof grossaspach": {
    "sport": "fb",
@@ -84554,10 +84554,10 @@
    "prob": 0.5255,
    "tipScore": "1:1",
    "pOver25": 0.5045,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "7:1",
+   "correct": true,
+   "exact": false
   },
   "fb|bl3|2026-10-24|fc ingolstadt 04|msv duisburg": {
    "sport": "fb",
@@ -84572,10 +84572,10 @@
    "prob": 0.4633,
    "tipScore": "1:1",
    "pOver25": 0.5912,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "2:1",
+   "correct": false,
+   "exact": false
   },
   "fb|bl3|2026-10-24|sv meppen|wurzburger kickers": {
    "sport": "fb",
@@ -84590,16 +84590,16 @@
    "prob": 0.4294,
    "tipScore": "1:1",
    "pOver25": 0.5876,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "correct",
+   "result": "4:0",
+   "correct": true,
+   "exact": false,
    "value": {
     "pick": "2",
     "odds": 3.8,
     "edge": 0.0861,
     "modelP": 0.3314,
-    "won": null
+    "won": false
    }
   },
   "fb|bl3|2026-10-24|vfb stuttgart ii|alemannia aachen": {
@@ -85235,14 +85235,7 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null,
-   "value": {
-    "pick": "1",
-    "odds": 1.62,
-    "edge": 0.1087,
-    "modelP": 0.666,
-    "won": null
-   }
+   "exact": null
   },
   "fb|pt1|2026-10-24|estrela|casa pia": {
    "sport": "fb",
@@ -85332,7 +85325,14 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null
+   "exact": null,
+   "value": {
+    "pick": "2",
+    "odds": 2.2,
+    "edge": 0.0896,
+    "modelP": 0.5019,
+    "won": null
+   }
   },
   "fb|at1|2026-10-24|tsv hartberg|wolfsberger": {
    "sport": "fb",
@@ -85397,7 +85397,7 @@
    "value": {
     "pick": "1",
     "odds": 2.45,
-    "edge": 0.1027,
+    "edge": 0.1055,
     "modelP": 0.4786,
     "won": null
    }
@@ -85418,7 +85418,14 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 2.05,
+    "edge": 0.1217,
+    "modelP": 0.57,
+    "won": null
+   }
   },
   "fb|ch1|2026-10-24|bsc young boys|fc st gallen": {
    "sport": "fb",
@@ -85696,18 +85703,18 @@
    "awayKey": "if brommapojkarna",
    "tip": "1",
    "tipName": "Kalmar FF",
-   "prob": 0.4561,
+   "prob": 0.4518,
    "tipScore": "1:1",
-   "pOver25": 0.6104,
+   "pOver25": 0.5916,
    "status": "open",
    "result": null,
    "correct": null,
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 3.8,
-    "edge": 0.0709,
-    "modelP": 0.3112,
+    "odds": 4.0,
+    "edge": 0.0841,
+    "modelP": 0.3115,
     "won": null
    }
   },
@@ -85935,9 +85942,9 @@
    "awayKey": "bayern",
    "tip": "2",
    "tipName": "FC Bayern München",
-   "prob": 0.6928,
+   "prob": 0.693,
    "tipScore": "1:2",
-   "pOver25": 0.7703,
+   "pOver25": 0.7702,
    "status": "open",
    "result": null,
    "correct": null,
@@ -85953,9 +85960,9 @@
    "awayKey": "dynamo dresden",
    "tip": "1",
    "tipName": "Holstein Kiel",
-   "prob": 0.407,
+   "prob": 0.412,
    "tipScore": "1:1",
-   "pOver25": 0.5043,
+   "pOver25": 0.5035,
    "status": "open",
    "result": null,
    "correct": null,
@@ -85971,9 +85978,9 @@
    "awayKey": "hannover 96",
    "tip": "2",
    "tipName": "Hannover 96",
-   "prob": 0.4106,
+   "prob": 0.4053,
    "tipScore": "1:1",
-   "pOver25": 0.5244,
+   "pOver25": 0.5229,
    "status": "open",
    "result": null,
    "correct": null,
@@ -85989,9 +85996,9 @@
    "awayKey": "spvgg greuther furth",
    "tip": "1",
    "tipName": "VfL Osnabrück",
-   "prob": 0.448,
+   "prob": 0.4537,
    "tipScore": "1:1",
-   "pOver25": 0.662,
+   "pOver25": 0.6612,
    "status": "open",
    "result": null,
    "correct": null,
@@ -86007,9 +86014,9 @@
    "awayKey": "1 fc saarbrucken",
    "tip": "2",
    "tipName": "1. FC Saarbrücken",
-   "prob": 0.5552,
+   "prob": 0.5437,
    "tipScore": "1:2",
-   "pOver25": 0.7366,
+   "pOver25": 0.7316,
    "status": "open",
    "result": null,
    "correct": null,
@@ -86025,9 +86032,9 @@
    "awayKey": "fortuna koln",
    "tip": "1",
    "tipName": "Preußen Münster",
-   "prob": 0.4467,
+   "prob": 0.454,
    "tipScore": "1:0",
-   "pOver25": 0.3967,
+   "pOver25": 0.395,
    "status": "open",
    "result": null,
    "correct": null,
@@ -86041,22 +86048,15 @@
    "label": "SV Waldhof Mannheim – TSG 1899 Hoffenheim II",
    "homeKey": "sv waldhof mannheim",
    "awayKey": "tsg 1899 hoffenheim ii",
-   "tip": "2",
-   "tipName": "TSG 1899 Hoffenheim II",
-   "prob": 0.3932,
+   "tip": "1",
+   "tipName": "SV Waldhof Mannheim",
+   "prob": 0.399,
    "tipScore": "1:1",
-   "pOver25": 0.7081,
+   "pOver25": 0.7046,
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null,
-   "value": {
-    "pick": "2",
-    "odds": 2.8,
-    "edge": 0.0578,
-    "modelP": 0.3932,
-    "won": null
-   }
+   "exact": null
   },
   "fb|pl|2026-10-25|crystal palace|newcastle": {
    "sport": "fb",
@@ -86744,8 +86744,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 2.75,
-    "edge": 0.1203,
+    "odds": 2.6,
+    "edge": 0.1018,
     "modelP": 0.4472,
     "won": null
    }
@@ -87031,8 +87031,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 2.5,
-    "edge": 0.1406,
+    "odds": 2.6,
+    "edge": 0.1543,
     "modelP": 0.5023,
     "won": null
    }
@@ -87081,8 +87081,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 2.1,
-    "edge": 0.1223,
+    "odds": 2.05,
+    "edge": 0.1118,
     "modelP": 0.5557,
     "won": null
    }
@@ -87271,8 +87271,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 4.0,
-    "edge": 0.0709,
+    "odds": 4.2,
+    "edge": 0.0826,
     "modelP": 0.3,
     "won": null
    }
@@ -87332,8 +87332,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 3.0,
-    "edge": 0.1739,
+    "odds": 2.9,
+    "edge": 0.1634,
     "modelP": 0.4772,
     "won": null
    }
@@ -87357,8 +87357,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 2.9,
-    "edge": 0.1145,
+    "odds": 2.8,
+    "edge": 0.104,
     "modelP": 0.4302,
     "won": null
    }
@@ -87695,9 +87695,9 @@
    "tip": "P1",
    "tipName": "Zhang Shuai",
    "prob": 0.571,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-24|kasatkina d|yexin m": {
    "sport": "tn",
@@ -87709,9 +87709,9 @@
    "tip": "P1",
    "tipName": "Daria Kasatkina",
    "prob": 0.7378,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-24|jones e|yi cody wong h": {
    "sport": "tn",
@@ -87765,9 +87765,9 @@
    "tip": "P1",
    "tipName": "Yulia Putintseva",
    "prob": 0.7364,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-24|boulter k|ishii s": {
    "sport": "tn",
@@ -87807,9 +87807,9 @@
    "tip": "P2",
    "tipName": "Harriet Dart",
    "prob": 0.8081,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-24|garland j|inglis m": {
    "sport": "tn",
@@ -87821,9 +87821,9 @@
    "tip": "P1",
    "tipName": "Maddison Inglis",
    "prob": 0.5392,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-24|xiaodi y|yastremska d": {
    "sport": "tn",
@@ -87835,9 +87835,9 @@
    "tip": "P2",
    "tipName": "Dayana Yastremska",
    "prob": 0.68,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-10-24|basilashvili n|tsitsipas s": {
    "sport": "tn",
@@ -87849,9 +87849,9 @@
    "tip": "P1",
    "tipName": "Stefanos Tsitsipas",
    "prob": 0.7331,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-24|kostovic t|yihan q": {
    "sport": "tn",
@@ -87863,9 +87863,9 @@
    "tip": "P1",
    "tipName": "Teodora Kostovic",
    "prob": 0.6151,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-24|fruhvirtova l|kawa k": {
    "sport": "tn",
@@ -87891,9 +87891,9 @@
    "tip": "P2",
    "tipName": "Anastasia Zakharova",
    "prob": 0.666,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "fb|fr1|2026-10-25|paris saint germain|lyon": {
    "sport": "fb",
@@ -87923,9 +87923,9 @@
    "tip": "P2",
    "tipName": "Elena Rybakina",
    "prob": 0.8985,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-10-24|cerundolo f|griekspoor t": {
    "sport": "tn",
@@ -87969,9 +87969,9 @@
    "tip": "P1",
    "tipName": "Pablo Carreno Busta",
    "prob": 0.5343,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|atp|2026-10-24|giron m|hanfmann y": {
    "sport": "tn",
@@ -87983,9 +87983,9 @@
    "tip": "P1",
    "tipName": "Yannick Hanfmann",
    "prob": 0.5841,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-10-24|hijikata r|kecmanovic m": {
    "sport": "tn",
@@ -87997,9 +87997,9 @@
    "tip": "P2",
    "tipName": "Miomir Kecmanovic",
    "prob": 0.5865,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-10-24|kopriva v|neumayer l": {
    "sport": "tn",
@@ -88011,9 +88011,9 @@
    "tip": "P2",
    "tipName": "Vit Kopriva",
    "prob": 0.6887,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-10-24|daniel vallejo a|sonego l": {
    "sport": "tn",
@@ -88025,9 +88025,9 @@
    "tip": "P2",
    "tipName": "Adolfo Daniel Vallejo",
    "prob": 0.6046,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-10-24|brunold m|faria j": {
    "sport": "tn",
@@ -88039,9 +88039,9 @@
    "tip": "P2",
    "tipName": "Jaime Faria",
    "prob": 0.7428,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-10-24|manuel cerundolo j|svajda z": {
    "sport": "tn",
@@ -88053,9 +88053,9 @@
    "tip": "P2",
    "tipName": "Juan Manuel Cerundolo",
    "prob": 0.5787,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-10-24|droguet t|josef schwaerzler j": {
    "sport": "tn",
@@ -88067,9 +88067,9 @@
    "tip": "P1",
    "tipName": "Titouan Droguet",
    "prob": 0.7492,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-10-24|fritz t|paul t": {
    "sport": "tn",
@@ -88081,9 +88081,9 @@
    "tip": "P1",
    "tipName": "Taylor Fritz",
    "prob": 0.5147,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-10-24|medjedovic h|molcan a": {
    "sport": "tn",
@@ -88095,9 +88095,9 @@
    "tip": "P1",
    "tipName": "Hamad Medjedovic",
    "prob": 0.5109,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|atp|2026-10-24|baez s|mpetshi perricard g": {
    "sport": "tn",
@@ -88109,9 +88109,9 @@
    "tip": "P2",
    "tipName": "Sebastian Baez",
    "prob": 0.7155,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-10-24|marozsan f|sorger s": {
    "sport": "tn",
@@ -88151,9 +88151,9 @@
    "tip": "P2",
    "tipName": "Daniil Medvedev",
    "prob": 0.7567,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-10-24|duckworth j|kovacevic a": {
    "sport": "tn",
@@ -88465,9 +88465,9 @@
    "tip": "P2",
    "tipName": "Linda Fruhvirtova",
    "prob": 0.6011,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-24|ishii s|okamura k": {
    "sport": "tn",
@@ -88479,9 +88479,9 @@
    "tip": "P2",
    "tipName": "Kyoka Okamura",
    "prob": 0.6775,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-24|shuo liang e|valentova t": {
    "sport": "tn",
@@ -88493,9 +88493,9 @@
    "tip": "P1",
    "tipName": "Tereza Valentova",
    "prob": 0.7575,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-25|iatcenko p|ibragimova a": {
    "sport": "tn",
@@ -88829,6 +88829,496 @@
    "tip": "P2",
    "tipName": "Ashlyn Krueger",
    "prob": 0.5939,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-25|birrell k|kasatkina d": {
+   "sport": "tn",
+   "comp": "WTA · Toray Pan Pacific Open Tennis",
+   "date": "2026-10-25",
+   "label": "Daria Kasatkina – Kimberly Birrell",
+   "p1Key": "kasatkina d",
+   "p2Key": "birrell k",
+   "tip": "P2",
+   "tipName": "Kimberly Birrell",
+   "prob": 0.6229,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-25|fearnley j|sonego l": {
+   "sport": "tn",
+   "comp": "ATP · Erste Bank Open",
+   "date": "2026-10-25",
+   "label": "Jacob Fearnley – Lorenzo Sonego",
+   "p1Key": "fearnley j",
+   "p2Key": "sonego l",
+   "tip": "P1",
+   "tipName": "Jacob Fearnley",
+   "prob": 0.5048,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-25|droguet t|neumayer l": {
+   "sport": "tn",
+   "comp": "ATP · Erste Bank Open",
+   "date": "2026-10-25",
+   "label": "Titouan Droguet – Lukas Neumayer",
+   "p1Key": "droguet t",
+   "p2Key": "neumayer l",
+   "tip": "P1",
+   "tipName": "Titouan Droguet",
+   "prob": 0.6806,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-25|hanfmann y|hijikata r": {
+   "sport": "tn",
+   "comp": "ATP · Swiss Indoors Basel",
+   "date": "2026-10-25",
+   "label": "Yannick Hanfmann – Rinky Hijikata",
+   "p1Key": "hanfmann y",
+   "p2Key": "hijikata r",
+   "tip": "P1",
+   "tipName": "Yannick Hanfmann",
+   "prob": 0.5794,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-25|ishii s|putintseva y": {
+   "sport": "tn",
+   "comp": "WTA · Toray Pan Pacific Open Tennis",
+   "date": "2026-10-25",
+   "label": "Yulia Putintseva – Sayaka Ishii",
+   "p1Key": "putintseva y",
+   "p2Key": "ishii s",
+   "tip": "P1",
+   "tipName": "Yulia Putintseva",
+   "prob": 0.8654,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-25|garland j|prozorova t": {
+   "sport": "tn",
+   "comp": "WTA · Guangzhou Open",
+   "date": "2026-10-25",
+   "label": "Joanna Garland – Tatiana Prozorova",
+   "p1Key": "garland j",
+   "p2Key": "prozorova t",
+   "tip": "P2",
+   "tipName": "Tatiana Prozorova",
+   "prob": 0.5608,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-25|jones e|yastremska d": {
+   "sport": "tn",
+   "comp": "WTA · Guangzhou Open",
+   "date": "2026-10-25",
+   "label": "Emerson Jones – Dayana Yastremska",
+   "p1Key": "jones e",
+   "p2Key": "yastremska d",
+   "tip": "P2",
+   "tipName": "Dayana Yastremska",
+   "prob": 0.5557,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-25|dart h|yamaguchi m": {
+   "sport": "tn",
+   "comp": "WTA · Guangzhou Open",
+   "date": "2026-10-25",
+   "label": "Mei Yamaguchi – Harriet Dart",
+   "p1Key": "yamaguchi m",
+   "p2Key": "dart h",
+   "tip": "P2",
+   "tipName": "Harriet Dart",
+   "prob": 0.6605,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-25|kostovic t|zakharova a": {
+   "sport": "tn",
+   "comp": "WTA · Guangzhou Open",
+   "date": "2026-10-25",
+   "label": "Teodora Kostovic – Anastasia Zakharova",
+   "p1Key": "kostovic t",
+   "p2Key": "zakharova a",
+   "tip": "P2",
+   "tipName": "Anastasia Zakharova",
+   "prob": 0.5551,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-25|fernandez l|rybakina e": {
+   "sport": "tn",
+   "comp": "WTA · BNB Ningbo Open",
+   "date": "2026-10-25",
+   "label": "Leylah Fernandez – Elena Rybakina",
+   "p1Key": "fernandez l",
+   "p2Key": "rybakina e",
+   "tip": "P2",
+   "tipName": "Elena Rybakina",
+   "prob": 0.9474,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-25|basilashvili n|medvedev d": {
+   "sport": "tn",
+   "comp": "ATP · Almaty Open",
+   "date": "2026-10-25",
+   "label": "Nikoloz Basilashvili – Daniil Medvedev",
+   "p1Key": "basilashvili n",
+   "p2Key": "medvedev d",
+   "tip": "P2",
+   "tipName": "Daniil Medvedev",
+   "prob": 0.9403,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-26|tien l|van assche l": {
+   "sport": "tn",
+   "comp": "ATP · Erste Bank Open",
+   "date": "2026-10-26",
+   "label": "Learner Tien – Luca Van Assche",
+   "p1Key": "tien l",
+   "p2Key": "van assche l",
+   "tip": "P1",
+   "tipName": "Learner Tien",
+   "prob": 0.6971,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-26|medvedev d|merida d": {
+   "sport": "tn",
+   "comp": "ATP · Erste Bank Open",
+   "date": "2026-10-26",
+   "label": "Daniil Medvedev – Daniel Merida",
+   "p1Key": "medvedev d",
+   "p2Key": "merida d",
+   "tip": "P1",
+   "tipName": "Daniil Medvedev",
+   "prob": 0.8592,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-26|griekspoor t|nakashima b": {
+   "sport": "tn",
+   "comp": "ATP · Erste Bank Open",
+   "date": "2026-10-26",
+   "label": "Brandon Nakashima – Tallon Griekspoor",
+   "p1Key": "nakashima b",
+   "p2Key": "griekspoor t",
+   "tip": "P1",
+   "tipName": "Brandon Nakashima",
+   "prob": 0.745,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-26|paul t|rublev a": {
+   "sport": "tn",
+   "comp": "ATP · Erste Bank Open",
+   "date": "2026-10-26",
+   "label": "Andrey Rublev – Tommy Paul",
+   "p1Key": "rublev a",
+   "p2Key": "paul t",
+   "tip": "P2",
+   "tipName": "Tommy Paul",
+   "prob": 0.5807,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-26|landaluce m|zverev a": {
+   "sport": "tn",
+   "comp": "ATP · Erste Bank Open",
+   "date": "2026-10-26",
+   "label": "Martin Landaluce – Alexander Zverev",
+   "p1Key": "landaluce m",
+   "p2Key": "zverev a",
+   "tip": "P2",
+   "tipName": "Alexander Zverev",
+   "prob": 0.9519,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-26|cerundolo f|norrie c": {
+   "sport": "tn",
+   "comp": "ATP · Erste Bank Open",
+   "date": "2026-10-26",
+   "label": "Francisco Cerundolo – Cameron Norrie",
+   "p1Key": "cerundolo f",
+   "p2Key": "norrie c",
+   "tip": "P1",
+   "tipName": "Francisco Cerundolo",
+   "prob": 0.6336,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-26|berrettini m|martin etcheverry t": {
+   "sport": "tn",
+   "comp": "ATP · Erste Bank Open",
+   "date": "2026-10-26",
+   "label": "Tomas Martin Etcheverry – Matteo Berrettini",
+   "p1Key": "martin etcheverry t",
+   "p2Key": "berrettini m",
+   "tip": "P1",
+   "tipName": "Tomas Martin Etcheverry",
+   "prob": 0.5829,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-26|alcaraz c|khachanov k": {
+   "sport": "tn",
+   "comp": "ATP · Erste Bank Open",
+   "date": "2026-10-26",
+   "label": "Carlos Alcaraz – Karen Khachanov",
+   "p1Key": "alcaraz c",
+   "p2Key": "khachanov k",
+   "tip": "P1",
+   "tipName": "Carlos Alcaraz",
+   "prob": 0.8584,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-26|cobolli f|dimitrov g": {
+   "sport": "tn",
+   "comp": "ATP · Erste Bank Open",
+   "date": "2026-10-26",
+   "label": "Grigor Dimitrov – Flavio Cobolli",
+   "p1Key": "dimitrov g",
+   "p2Key": "cobolli f",
+   "tip": "P2",
+   "tipName": "Flavio Cobolli",
+   "prob": 0.9287,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-26|basilashvili n|rodionov j": {
+   "sport": "tn",
+   "comp": "ATP · Erste Bank Open",
+   "date": "2026-10-26",
+   "label": "Nikoloz Basilashvili – Jurij Rodionov",
+   "p1Key": "basilashvili n",
+   "p2Key": "rodionov j",
+   "tip": "P1",
+   "tipName": "Nikoloz Basilashvili",
+   "prob": 0.5144,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-26|musetti l|tiafoe f": {
+   "sport": "tn",
+   "comp": "ATP · Erste Bank Open",
+   "date": "2026-10-26",
+   "label": "Frances Tiafoe – Lorenzo Musetti",
+   "p1Key": "tiafoe f",
+   "p2Key": "musetti l",
+   "tip": "P1",
+   "tipName": "Frances Tiafoe",
+   "prob": 0.7113,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-26|arnaldi m|darderi l": {
+   "sport": "tn",
+   "comp": "ATP · Erste Bank Open",
+   "date": "2026-10-26",
+   "label": "Matteo Arnaldi – Luciano Darderi",
+   "p1Key": "arnaldi m",
+   "p2Key": "darderi l",
+   "tip": "P2",
+   "tipName": "Luciano Darderi",
+   "prob": 0.5941,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-26|halys q|rune h": {
+   "sport": "tn",
+   "comp": "ATP · Swiss Indoors Basel",
+   "date": "2026-10-26",
+   "label": "Quentin Halys – Holger Rune",
+   "p1Key": "halys q",
+   "p2Key": "rune h",
+   "tip": "P1",
+   "tipName": "Quentin Halys",
+   "prob": 0.8083,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-26|bergs z|davidovich fokina a": {
+   "sport": "tn",
+   "comp": "ATP · Swiss Indoors Basel",
+   "date": "2026-10-26",
+   "label": "Zizou Bergs – Alejandro Davidovich Fokina",
+   "p1Key": "bergs z",
+   "p2Key": "davidovich fokina a",
+   "tip": "P2",
+   "tipName": "Alejandro Davidovich Fokina",
+   "prob": 0.7264,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-26|michelsen a|van de zandschulp b": {
+   "sport": "tn",
+   "comp": "ATP · Swiss Indoors Basel",
+   "date": "2026-10-26",
+   "label": "Botic Van De Zandschulp – Alex Michelsen",
+   "p1Key": "van de zandschulp b",
+   "p2Key": "michelsen a",
+   "tip": "P2",
+   "tipName": "Alex Michelsen",
+   "prob": 0.5057,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-26|lehecka j|wawrinka s": {
+   "sport": "tn",
+   "comp": "ATP · Swiss Indoors Basel",
+   "date": "2026-10-26",
+   "label": "Jiri Lehecka – Stan Wawrinka",
+   "p1Key": "lehecka j",
+   "p2Key": "wawrinka s",
+   "tip": "P1",
+   "tipName": "Jiri Lehecka",
+   "prob": 0.8394,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-26|kym j|rinderknech a": {
+   "sport": "tn",
+   "comp": "ATP · Swiss Indoors Basel",
+   "date": "2026-10-26",
+   "label": "Arthur Rinderknech – Jerome Kym",
+   "p1Key": "rinderknech a",
+   "p2Key": "kym j",
+   "tip": "P1",
+   "tipName": "Arthur Rinderknech",
+   "prob": 0.7506,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-26|ruud c|shelton b": {
+   "sport": "tn",
+   "comp": "ATP · Swiss Indoors Basel",
+   "date": "2026-10-26",
+   "label": "Casper Ruud – Ben Shelton",
+   "p1Key": "ruud c",
+   "p2Key": "shelton b",
+   "tip": "P2",
+   "tipName": "Ben Shelton",
+   "prob": 0.821,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-26|fritz t|tsitsipas s": {
+   "sport": "tn",
+   "comp": "ATP · Swiss Indoors Basel",
+   "date": "2026-10-26",
+   "label": "Stefanos Tsitsipas – Taylor Fritz",
+   "p1Key": "tsitsipas s",
+   "p2Key": "fritz t",
+   "tip": "P2",
+   "tipName": "Taylor Fritz",
+   "prob": 0.7049,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-26|bublik a|stricker d": {
+   "sport": "tn",
+   "comp": "ATP · Swiss Indoors Basel",
+   "date": "2026-10-26",
+   "label": "Alexander Bublik – Dominic Stricker",
+   "p1Key": "bublik a",
+   "p2Key": "stricker d",
+   "tip": "P1",
+   "tipName": "Alexander Bublik",
+   "prob": 0.8997,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-26|fils a|hurkacz h": {
+   "sport": "tn",
+   "comp": "ATP · Swiss Indoors Basel",
+   "date": "2026-10-26",
+   "label": "Arthur Fils – Hubert Hurkacz",
+   "p1Key": "fils a",
+   "p2Key": "hurkacz h",
+   "tip": "P1",
+   "tipName": "Arthur Fils",
+   "prob": 0.7178,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-26|djokovic n|humbert u": {
+   "sport": "tn",
+   "comp": "ATP · Swiss Indoors Basel",
+   "date": "2026-10-26",
+   "label": "Ugo Humbert – Novak Djokovic",
+   "p1Key": "humbert u",
+   "p2Key": "djokovic n",
+   "tip": "P2",
+   "tipName": "Novak Djokovic",
+   "prob": 0.713,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-26|jodar r|tabilo a": {
+   "sport": "tn",
+   "comp": "ATP · Swiss Indoors Basel",
+   "date": "2026-10-26",
+   "label": "Rafael Jodar – Alejandro Tabilo",
+   "p1Key": "jodar r",
+   "p2Key": "tabilo a",
+   "tip": "P1",
+   "tipName": "Rafael Jodar",
+   "prob": 0.707,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-26|navone m|vacherot v": {
+   "sport": "tn",
+   "comp": "ATP · Swiss Indoors Basel",
+   "date": "2026-10-26",
+   "label": "Mariano Navone – Valentin Vacherot",
+   "p1Key": "navone m",
+   "p2Key": "vacherot v",
+   "tip": "P2",
+   "tipName": "Valentin Vacherot",
+   "prob": 0.5719,
    "status": "open",
    "result": null,
    "correct": null
