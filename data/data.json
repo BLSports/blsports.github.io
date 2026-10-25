@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-25T20:49:12.493758+01:00",
+ "generatedAt": "2026-10-25T23:15:29.368601+01:00",
  "windowDays": 3,
  "days": [
   "2026-10-25",
@@ -87,121 +87,15 @@
    "name": "3. Liga",
    "flag": "🇩🇪",
    "espn": "ger.3",
-   "matches": [
-    {
-     "kickoff": "2026-10-25T19:30:00+01:00",
-     "home": "SV Waldhof Mannheim",
-     "away": "TSG 1899 Hoffenheim II",
-     "homeIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Svwaldhof.svg/960px-Svwaldhof.svg.png",
-     "awayIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Logo_TSG_Hoffenheim.svg/960px-Logo_TSG_Hoffenheim.svg.png",
-     "matchday": 11,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "S",
-      "S",
-      "N",
-      "N"
-     ],
-     "formAway": [
-      "S",
-      "S",
-      "N",
-      "N",
-      "S"
-     ],
-     "formHomeH": [
-      "S",
-      "N",
-      "N",
-      "S",
-      "N"
-     ],
-     "formAwayA": [
-      "S",
-      "N",
-      "S",
-      "N",
-      "N"
-     ],
-     "load14Home": 2,
-     "load14Away": 2,
-     "posHome": 14,
-     "posAway": 7,
-     "nTeams": 20,
-     "h2h": [
-      {
-       "date": "07.04.2026",
-       "home": "SV Waldhof Mannheim",
-       "away": "TSG 1899 Hoffenheim II",
-       "score": "1:1"
-      },
-      {
-       "date": "02.11.2025",
-       "home": "TSG 1899 Hoffenheim II",
-       "away": "SV Waldhof Mannheim",
-       "score": "2:0"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.3986,
-      "pDraw": 0.2177,
-      "pAway": 0.3837,
-      "pOver25": 0.7059,
-      "pBtts": 0.7034,
-      "xgHome": 1.84,
-      "xgAway": 1.81,
-      "tipScore": "1:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.7034,
-     "odds": {
-      "h": 2.2,
-      "d": 3.8,
-      "a": 2.85,
-      "src": "Tipico"
-     },
-     "value": {
-      "outcome": "2",
-      "edge": 0.0553,
-      "modelP": 0.3837,
-      "odds": 2.85
-     },
-     "scorersHome": [
-      {
-       "name": "L. Bierschenk",
-       "goals": 2
-      },
-      {
-       "name": "J. Ulbricht",
-       "goals": 2
-      },
-      {
-       "name": "N. Muteba N'Tumba",
-       "goals": 2
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Yasin Zor",
-       "goals": 6
-      },
-      {
-       "name": "T. Poller",
-       "goals": 2
-      },
-      {
-       "name": "K. Gjasula",
-       "goals": 2
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Zwischen SV Waldhof Mannheim und TSG 1899 Hoffenheim II deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg SV Waldhof Mannheim 40 %, Unentschieden 22 %, Sieg TSG 1899 Hoffenheim II 38 %). In der Tabelle stehen sich Platz 14 und Platz 7 gegenüber. Heim-/Auswärtsbilanz: SV Waldhof Mannheim gewann 2 der letzten 5 Heimspiele, TSG 1899 Hoffenheim II 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:1 (SV Waldhof Mannheim – TSG 1899 Hoffenheim II). Das Modell erwartet ein torreiches Spiel (xG 1,8:1,8; über 2,5 Tore: 71 %, beide Teams treffen zu 70 %). Gefährlichste Torschützen: bei SV Waldhof Mannheim L. Bierschenk (2 Tore) und bei TSG 1899 Hoffenheim II Yasin Zor (6 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,85) für 6 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    }
-   ],
+   "matches": [],
    "seasonHasStarted": true,
-   "isCup": false
+   "isCup": false,
+   "nextMatch": {
+    "kickoff": "2026-10-30T19:00:00+01:00",
+    "home": "Fortuna Düsseldorf",
+    "away": "SV Meppen",
+    "matchday": 12
+   }
   },
   {
    "id": "pl",
@@ -404,7 +298,7 @@
      "load14Home": 1,
      "load14Away": 1,
      "posHome": 3,
-     "posAway": 8,
+     "posAway": 9,
      "nTeams": 20,
      "h2h": [
       {
@@ -545,7 +439,7 @@
      ],
      "load14Home": 2,
      "load14Away": 1,
-     "posHome": 7,
+     "posHome": 8,
      "posAway": 4,
      "nTeams": 20,
      "h2h": [
@@ -664,186 +558,6 @@
    "flag": "🇪🇸",
    "espn": "esp.1",
    "matches": [
-    {
-     "kickoff": "2026-10-25T21:00:00+01:00",
-     "home": "Barcelona",
-     "away": "Real Madrid",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "S",
-      "S",
-      "S",
-      "S",
-      "S"
-     ],
-     "formAway": [
-      "S",
-      "S",
-      "N",
-      "S",
-      "S"
-     ],
-     "formHomeH": [
-      "S",
-      "S",
-      "S",
-      "S",
-      "S"
-     ],
-     "formAwayA": [
-      "S",
-      "S",
-      "N",
-      "S",
-      "N"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 1,
-     "posAway": 3,
-     "nTeams": 20,
-     "h2h": [
-      {
-       "date": "10.05.2026",
-       "home": "Barcelona",
-       "away": "Real Madrid",
-       "score": "2:0"
-      },
-      {
-       "date": "26.10.2025",
-       "home": "Real Madrid",
-       "away": "Barcelona",
-       "score": "2:1"
-      }
-     ],
-     "prediction": {
-      "pHome": 0.6271,
-      "pDraw": 0.1864,
-      "pAway": 0.1862,
-      "pOver25": 0.705,
-      "pBtts": 0.6483,
-      "xgHome": 2.4,
-      "xgAway": 1.25,
-      "tipScore": "2:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.6483,
-     "odds": {
-      "h": 1.7,
-      "d": 5.8,
-      "a": 3.7,
-      "src": "Coolbet"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Raphinha",
-       "goals": 12
-      },
-      {
-       "name": "Lamine Yamal",
-       "goals": 8
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Kylian Mbappé",
-       "goals": 9
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Barcelona geht als klarer Favorit (62 %) in das Heimspiel gegen Real Madrid. In der Tabelle stehen sich Platz 1 und Platz 3 gegenüber. Heim-/Auswärtsbilanz: Barcelona gewann 5 der letzten 5 Heimspiele, Real Madrid 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:0 (Barcelona – Real Madrid). Das Modell erwartet ein torreiches Spiel (xG 2,4:1,2; über 2,5 Tore: 70 %, beide Teams treffen zu 65 %). Gefährlichste Torschützen: bei Barcelona Raphinha (12 Tore) und bei Real Madrid Kylian Mbappé (9 Tore). Die Aufstellungen sind offiziell (4-3-3 gegen 4-4-2). Personal: Barcelona fehlen 15 Spieler (u.a. A. Balde); Real Madrid fehlen 9 Spieler (u.a. R. Asencio).",
-     "injuriesHome": [
-      {
-       "name": "A. Balde",
-       "reason": "Coach's decision"
-      },
-      {
-       "name": "R. Bardghji",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "J. Bisiwu",
-       "reason": "Inactive"
-      },
-      {
-       "name": "M. Casado",
-       "reason": "Coach's decision"
-      },
-      {
-       "name": "H. Fort",
-       "reason": "Coach's decision"
-      },
-      {
-       "name": "Rodri",
-       "reason": "Lacking Match Fitness"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "R. Asencio",
-       "reason": "Muscle Injury"
-      },
-      {
-       "name": "Eder Militao",
-       "reason": "Hamstring Injury"
-      },
-      {
-       "name": "Endrick",
-       "reason": "Muscle Injury"
-      },
-      {
-       "name": "F. Mendy",
-       "reason": "Hip Injury"
-      },
-      {
-       "name": "T. Pitarch",
-       "reason": "Knee Injury"
-      },
-      {
-       "name": "Rodrygo",
-       "reason": "Knee Injury"
-      }
-     ],
-     "lineups": {
-      "home": {
-       "formation": "4-3-3",
-       "xi": [
-        "Joan García",
-        "X. Espart",
-        "Pau Cubarsí Paredes",
-        "Gerard Martín",
-        "João Cancelo",
-        "Pedri",
-        "Rodri",
-        "Fermín",
-        "Lamine Yamal",
-        "Raphinha",
-        "A. Gordon"
-       ]
-      },
-      "away": {
-       "formation": "4-4-2",
-       "xi": [
-        "A. Lunin",
-        "F. Valverde",
-        "I. Konaté",
-        "D. Huijsen",
-        "Marc Cucurella",
-        "A. Güler",
-        "A. Tchouaméni",
-        "Bernardo Silva",
-        "J. Bellingham",
-        "Kylian Mbappé",
-        "Y. Diomande"
-       ]
-      }
-     },
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-10-26T21:00:00+01:00",
      "home": "Sevilla",
@@ -1449,8 +1163,8 @@
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
       {
-       "title": "LIVE! Clasico startet mit Extra-Zündstoff - und ohne Adeyemi, Rüdiger und Courtois",
-       "link": "https://www.kicker.de/barcelona-gegen-real-madrid-2026-la-liga-5223887/spielbericht#omrss"
+       "title": "Starke Torjäger, drei Münchner und eine Gladbacher Eins: Die kicker-Elf des 7. Spieltags",
+       "link": "https://www.kicker.de/starke-torjaeger-drei-muenchner-und-eine-gladbacher-eins-die-kicker-elf-des-7-spieltags-1265200/slideshow#omrss"
       },
       {
        "title": "Augsburgs Start verblasst: Erst das Mittelmaß, dann die Abwehrnot",
@@ -1504,76 +1218,6 @@
    "flag": "🇵🇹",
    "espn": "por.1",
    "matches": [
-    {
-     "kickoff": "2026-10-25T21:30:00+01:00",
-     "home": "Sporting CP",
-     "away": "Académico de Viseu",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/21607.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "U",
-      "U",
-      "S",
-      "S",
-      "N"
-     ],
-     "formAway": [
-      "N",
-      "S",
-      "S",
-      "S",
-      "S"
-     ],
-     "formHomeH": [],
-     "formAwayA": [
-      "U",
-      "U",
-      "S",
-      "S"
-     ],
-     "load14Home": 0,
-     "load14Away": 0,
-     "posHome": 3,
-     "posAway": 6,
-     "nTeams": 18,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.6312,
-      "pDraw": 0.2007,
-      "pAway": 0.168,
-      "pOver25": 0.6019,
-      "pBtts": 0.5547,
-      "xgHome": 2.12,
-      "xgAway": 1.0,
-      "tipScore": "2:0",
-      "confidence": "mittel"
-     },
-     "pBtts": 0.5547,
-     "odds": {
-      "h": 1.2,
-      "d": 6.5,
-      "a": 11.0,
-      "src": "William Hill"
-     },
-     "value": null,
-     "scorersHome": [
-      {
-       "name": "Luis Suárez",
-       "goals": 7
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "André Clóvis",
-       "goals": 4
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Sporting CP geht als klarer Favorit (63 %) in das Heimspiel gegen Académico de Viseu. In der Tabelle stehen sich Platz 3 und Platz 6 gegenüber. Die Form spricht für Académico de Viseu: 4 Siege aus den letzten 5 Spielen, Sporting CP holte nur 2. Das Modell erwartet ein torreiches Spiel (xG 2,1:1,0; über 2,5 Tore: 60 %, beide Teams treffen zu 55 %). Gefährlichste Torschützen: bei Sporting CP Luis Suárez (7 Tore) und bei Académico de Viseu André Clóvis (4 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-10-26T19:45:00+01:00",
      "home": "Santa Clara",
@@ -2021,8 +1665,8 @@
      },
      "pBtts": 0.6872,
      "odds": {
-      "h": 2.15,
-      "d": 3.5,
+      "h": 2.1,
+      "d": 3.6,
       "a": 2.9,
       "src": "William Hill"
      },
@@ -2864,338 +2508,6 @@
  ],
  "tennis": [
   {
-   "start": "2026-10-25T21:30:00+01:00",
-   "tour": "WTA",
-   "tournament": "Queretaro Open",
-   "round": "Qualifying 1st Round",
-   "surface": "Sand",
-   "p1": {
-    "name": "Amelie Van Impe",
-    "rank": 680,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Sophie Llewellyn",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.2993,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.2993
-   },
-   "h2h": [],
-   "analysis": "Amelie Van Impe (#680) trifft auf Sophie Llewellyn, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Sophie Llewellyn mit 70 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-25T21:30:00+01:00",
-   "tour": "WTA",
-   "tournament": "Queretaro Open",
-   "round": "Qualifying 1st Round",
-   "surface": "Sand",
-   "p1": {
-    "name": "Gabriela Vilar",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Valeriya Strakhova",
-    "rank": 499,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.6428,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6428
-   },
-   "h2h": [],
-   "analysis": "Gabriela Vilar – aktuell ohne Top-Ranking – trifft auf Valeriya Strakhova (#499). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Gabriela Vilar mit 64 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-25T21:30:00+01:00",
-   "tour": "WTA",
-   "tournament": "Queretaro Open",
-   "round": "Qualifying 1st Round",
-   "surface": "Sand",
-   "p1": {
-    "name": "Natalia Sousa Salazar",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Victoria Hu",
-    "rank": 539,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.6577,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6577
-   },
-   "h2h": [],
-   "analysis": "Natalia Sousa Salazar – aktuell ohne Top-Ranking – trifft auf Victoria Hu (#539). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Natalia Sousa Salazar mit 66 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-25T22:30:00+01:00",
-   "tour": "WTA",
-   "tournament": "Queretaro Open",
-   "round": "Qualifying 1st Round",
-   "surface": "Sand",
-   "p1": {
-    "name": "Jessica Hinojosa Gomez",
-    "rank": 713,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Alexandra Osborne",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.2909,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.2909
-   },
-   "h2h": [],
-   "analysis": "Jessica Hinojosa Gomez (#713) trifft auf Alexandra Osborne, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alexandra Osborne mit 71 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-25T23:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "Queretaro Open",
-   "round": "Qualifying 1st Round",
-   "surface": "Sand",
-   "p1": {
-    "name": "Maria Herazo Gonzalez",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Victoria Rodriguez",
-    "rank": 594,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.676,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.676
-   },
-   "h2h": [],
-   "analysis": "Maria Herazo Gonzalez – aktuell ohne Top-Ranking – trifft auf Victoria Rodriguez (#594). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Maria Herazo Gonzalez mit 68 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-25T23:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "Queretaro Open",
-   "round": "Qualifying 1st Round",
-   "surface": "Sand",
-   "p1": {
-    "name": "Demi Tran",
-    "rank": 636,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Dasha Plekhanova",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.3114,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.3114
-   },
-   "h2h": [],
-   "analysis": "Demi Tran (#636) trifft auf Dasha Plekhanova, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Dasha Plekhanova mit 69 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-26T00:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "Queretaro Open",
-   "round": "Qualifying 1st Round",
-   "surface": "Sand",
-   "p1": {
-    "name": "Abril Cardenas Olivares",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Carmen Andreea Herea",
-    "rank": 468,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.6302,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6302
-   },
-   "h2h": [],
-   "analysis": "Abril Cardenas Olivares – aktuell ohne Top-Ranking – trifft auf Carmen Andreea Herea (#468). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Abril Cardenas Olivares mit 63 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-26T00:30:00+01:00",
-   "tour": "WTA",
-   "tournament": "Queretaro Open",
-   "round": "Qualifying 1st Round",
-   "surface": "Sand",
-   "p1": {
-    "name": "Maria Fernanda Navarro Oliva",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Maria Camila Torres Murcia",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "model": {},
-   "h2h": [],
-   "analysis": "Maria Fernanda Navarro Oliva trifft auf Maria Camila Torres Murcia; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
    "start": "2026-10-26T02:30:00+01:00",
    "tour": "WTA",
    "tournament": "Toray Pan Pacific Open Tennis",
@@ -3563,6 +2875,842 @@
    "analysis": "",
    "unconfirmed": false,
    "timeTBD": true
+  },
+  {
+   "start": "2026-10-26T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Queretaro Open",
+   "round": "Qualifying 1st Round",
+   "surface": "Sand",
+   "p1": {
+    "name": "Jessica Hinojosa Gomez",
+    "rank": 713,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Alexandra Osborne",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.2909,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.2909
+   },
+   "h2h": [],
+   "analysis": "Jessica Hinojosa Gomez (#713) trifft auf Alexandra Osborne, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alexandra Osborne mit 71 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-26T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Queretaro Open",
+   "round": "Qualifying 1st Round",
+   "surface": "Sand",
+   "p1": {
+    "name": "Amelie Van Impe",
+    "rank": 680,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Sophie Llewellyn",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.2993,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.2993
+   },
+   "h2h": [],
+   "analysis": "Amelie Van Impe (#680) trifft auf Sophie Llewellyn, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Sophie Llewellyn mit 70 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-26T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Queretaro Open",
+   "round": "Qualifying 1st Round",
+   "surface": "Sand",
+   "p1": {
+    "name": "Maria Herazo Gonzalez",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Victoria Rodriguez",
+    "rank": 594,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.676,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.676
+   },
+   "h2h": [],
+   "analysis": "Maria Herazo Gonzalez – aktuell ohne Top-Ranking – trifft auf Victoria Rodriguez (#594). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Maria Herazo Gonzalez mit 68 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-26T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Queretaro Open",
+   "round": "Qualifying 1st Round",
+   "surface": "Sand",
+   "p1": {
+    "name": "Gabriela Vilar",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Valeriya Strakhova",
+    "rank": 499,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.6428,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6428
+   },
+   "h2h": [],
+   "analysis": "Gabriela Vilar – aktuell ohne Top-Ranking – trifft auf Valeriya Strakhova (#499). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Gabriela Vilar mit 64 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-26T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Queretaro Open",
+   "round": "Qualifying 1st Round",
+   "surface": "Sand",
+   "p1": {
+    "name": "Maria Fernanda Navarro Oliva",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Maria Camila Torres Murcia",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "model": {},
+   "h2h": [],
+   "analysis": "Maria Fernanda Navarro Oliva trifft auf Maria Camila Torres Murcia; für beide liegt kein aktuelles Top-Ranking vor. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-26T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Queretaro Open",
+   "round": "Qualifying 1st Round",
+   "surface": "Sand",
+   "p1": {
+    "name": "Abril Cardenas Olivares",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Carmen Andreea Herea",
+    "rank": 468,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.6302,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6302
+   },
+   "h2h": [],
+   "analysis": "Abril Cardenas Olivares – aktuell ohne Top-Ranking – trifft auf Carmen Andreea Herea (#468). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Abril Cardenas Olivares mit 63 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-26T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Queretaro Open",
+   "round": "Qualifying 1st Round",
+   "surface": "Sand",
+   "p1": {
+    "name": "Demi Tran",
+    "rank": 636,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Dasha Plekhanova",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.3114,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3114
+   },
+   "h2h": [],
+   "analysis": "Demi Tran (#636) trifft auf Dasha Plekhanova, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Dasha Plekhanova mit 69 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-26T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Queretaro Open",
+   "round": "Qualifying 1st Round",
+   "surface": "Sand",
+   "p1": {
+    "name": "Natalia Sousa Salazar",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Victoria Hu",
+    "rank": 539,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.6577,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6577
+   },
+   "h2h": [],
+   "analysis": "Natalia Sousa Salazar – aktuell ohne Top-Ranking – trifft auf Victoria Hu (#539). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Natalia Sousa Salazar mit 66 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-26T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Queretaro Open",
+   "round": "1. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Diletta Cherubini",
+    "rank": 379,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Mell Reasco Gonzalez",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.4125,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4125
+   },
+   "h2h": [],
+   "analysis": "Diletta Cherubini (#379) trifft auf Mell Reasco Gonzalez, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Mell Reasco Gonzalez mit 59 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-26T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Queretaro Open",
+   "round": "1. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Katrina Scott",
+    "rank": 279,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Tamara Zidansek",
+    "rank": 143,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.3617,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3617
+   },
+   "h2h": [],
+   "analysis": "Katrina Scott (Weltrangliste #279) trifft auf Tamara Zidansek (#143). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Tamara Zidansek mit 64 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-26T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Queretaro Open",
+   "round": "1. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Ana Grubor",
+    "rank": 506,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Selena Janicijevic",
+    "rank": 282,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.3783,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3783
+   },
+   "h2h": [],
+   "analysis": "Ana Grubor (Weltrangliste #506) trifft auf Selena Janicijevic (#282). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Selena Janicijevic mit 62 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-26T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Queretaro Open",
+   "round": "1. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Emiliana Arango",
+    "rank": 164,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Elizabeth Mandlik",
+    "rank": 224,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.5659,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.5659
+   },
+   "h2h": [],
+   "analysis": "Emiliana Arango (Weltrangliste #164) trifft auf Elizabeth Mandlik (#224). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Emiliana Arango mit 57 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-26T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Queretaro Open",
+   "round": "1. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Bianca Andreescu",
+    "rank": 132,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Katherine Hui",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.6325,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6325
+   },
+   "h2h": [],
+   "analysis": "Bianca Andreescu (#132) trifft auf Katherine Hui, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Bianca Andreescu mit 63 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-26T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Queretaro Open",
+   "round": "1. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Carlota Garibay Romero",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Tatjana Maria",
+    "rank": 69,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.2508,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.2508
+   },
+   "h2h": [],
+   "analysis": "Carlota Garibay Romero – aktuell ohne Top-Ranking – trifft auf Tatjana Maria (#69). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Tatjana Maria mit 75 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-26T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Queretaro Open",
+   "round": "1. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Lan Mi",
+    "rank": 420,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Adriana Reami",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.3915,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3915
+   },
+   "h2h": [],
+   "analysis": "Lan Mi (#420) trifft auf Adriana Reami, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Adriana Reami mit 61 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-26T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Queretaro Open",
+   "round": "1. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Zuzanna Pawlikowska",
+    "rank": 338,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Martina Colmegna",
+    "rank": 348,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.5062,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.5062
+   },
+   "h2h": [],
+   "analysis": "Zuzanna Pawlikowska (Weltrangliste #338) trifft auf Martina Colmegna (#348). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Zuzanna Pawlikowska mit 51 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-26T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Queretaro Open",
+   "round": "1. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Leolia Jeanjean",
+    "rank": 92,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Carole Monnet",
+    "rank": 206,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.6649,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6649
+   },
+   "h2h": [],
+   "analysis": "Leolia Jeanjean (Weltrangliste #92) trifft auf Carole Monnet (#206). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Leolia Jeanjean mit 66 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-26T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Queretaro Open",
+   "round": "1. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Alice Rame",
+    "rank": 377,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Nadia Podoroska",
+    "rank": 205,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.3734,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3734
+   },
+   "h2h": [],
+   "analysis": "Alice Rame (Weltrangliste #377) trifft auf Nadia Podoroska (#205). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Nadia Podoroska mit 63 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-26T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Queretaro Open",
+   "round": "1. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Sofia Johnson",
+    "rank": 364,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Fiona Ferro",
+    "rank": 100,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.2501,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.2501
+   },
+   "h2h": [],
+   "analysis": "Sofia Johnson (Weltrangliste #364) trifft auf Fiona Ferro (#100). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Fiona Ferro mit 75 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-26T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Queretaro Open",
+   "round": "1. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Martina Capurro Taborda",
+    "rank": 281,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Polona Hercog",
+    "rank": 210,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.4384,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4384
+   },
+   "h2h": [],
+   "analysis": "Martina Capurro Taborda (Weltrangliste #281) trifft auf Polona Hercog (#210). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Polona Hercog mit 56 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-26T05:00:00+01:00",
@@ -8186,14 +8334,14 @@
  ],
  "stats": {
   "overall": {
-   "n": 3826,
-   "correct": 2258,
-   "pct": 0.5902
+   "n": 3827,
+   "correct": 2259,
+   "pct": 0.5903
   },
   "football": {
-   "n": 1069,
-   "correct": 529,
-   "pct": 0.4949
+   "n": 1070,
+   "correct": 530,
+   "pct": 0.4953
   },
   "tennis": {
    "n": 2757,
@@ -8201,14 +8349,14 @@
    "pct": 0.6271
   },
   "exact": {
-   "n": 1069,
+   "n": 1070,
    "correct": 121
   },
-  "open": 521,
+  "open": 538,
   "value": {
-   "n": 86,
+   "n": 87,
    "correct": 36,
-   "units": 8.11,
+   "units": 7.11,
    "avgOdds": 2.8
   },
   "recent": [
@@ -8286,6 +8434,17 @@
     "tip": "1",
     "prob": 0.4529,
     "result": "1:0",
+    "correct": true,
+    "sport": "fb"
+   },
+   {
+    "date": "2026-10-25",
+    "comp": "3. Liga",
+    "label": "SV Waldhof Mannheim – TSG 1899 Hoffenheim II",
+    "tipName": "SV Waldhof Mannheim",
+    "tip": "1",
+    "prob": 0.3976,
+    "result": "4:1",
     "correct": true,
     "sport": "fb"
    },
@@ -8474,17 +8633,6 @@
     "prob": 0.9403,
     "result": "Sieger: P2",
     "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-25",
-    "comp": "WTA · Toray Pan Pacific Open Tennis",
-    "label": "Zhang Shuai – Tereza Valentova",
-    "tipName": "Zhang Shuai",
-    "tip": "P1",
-    "prob": 0.5074,
-    "result": "Sieger: P2",
-    "correct": false,
     "sport": "tn"
    }
   ]
