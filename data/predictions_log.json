@@ -75321,7 +75321,7 @@
    "prob": 0.5257,
    "tipScore": "1:0",
    "pOver25": 0.4656,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null,
@@ -75364,7 +75364,7 @@
    "prob": 0.4745,
    "tipScore": "1:1",
    "pOver25": 0.5458,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -75382,7 +75382,7 @@
    "prob": 0.5204,
    "tipScore": "2:1",
    "pOver25": 0.6658,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -75400,7 +75400,7 @@
    "prob": 0.4117,
    "tipScore": "1:1",
    "pOver25": 0.4036,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null,
@@ -75443,7 +75443,7 @@
    "prob": 0.3889,
    "tipScore": "1:1",
    "pOver25": 0.5891,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null,
@@ -75468,7 +75468,7 @@
    "prob": 0.4325,
    "tipScore": "1:1",
    "pOver25": 0.6714,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -75486,7 +75486,7 @@
    "prob": 0.4715,
    "tipScore": "2:1",
    "pOver25": 0.7816,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null,
@@ -75511,7 +75511,7 @@
    "prob": 0.669,
    "tipScore": "2:1",
    "pOver25": 0.7905,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -75529,7 +75529,7 @@
    "prob": 0.6227,
    "tipScore": "2:1",
    "pOver25": 0.7656,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -75547,7 +75547,7 @@
    "prob": 0.5254,
    "tipScore": "1:1",
    "pOver25": 0.6324,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -75565,7 +75565,7 @@
    "prob": 0.5198,
    "tipScore": "2:1",
    "pOver25": 0.6651,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null,
@@ -75590,7 +75590,7 @@
    "prob": 0.4116,
    "tipScore": "1:1",
    "pOver25": 0.5666,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null,
@@ -75615,7 +75615,7 @@
    "prob": 0.5532,
    "tipScore": "1:1",
    "pOver25": 0.5553,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -75633,7 +75633,7 @@
    "prob": 0.4036,
    "tipScore": "1:1",
    "pOver25": 0.5274,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null,
@@ -75658,7 +75658,7 @@
    "prob": 0.4662,
    "tipScore": "1:1",
    "pOver25": 0.5544,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null,
@@ -83511,16 +83511,16 @@
    "prob": 0.4089,
    "tipScore": "2:2",
    "pOver25": 0.8042,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "correct",
+   "result": "3:2",
+   "correct": true,
+   "exact": false,
    "value": {
     "pick": "2",
     "odds": 3.56,
     "edge": 0.1206,
     "modelP": 0.3923,
-    "won": null
+    "won": false
    }
   },
   "fb|ll1|2026-10-23|alaves|malaga": {
@@ -83536,16 +83536,16 @@
    "prob": 0.7363,
    "tipScore": "2:0",
    "pOver25": 0.5174,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "wrong",
+   "result": "1:1",
+   "correct": false,
+   "exact": false,
    "value": {
     "pick": "1",
     "odds": 1.64,
     "edge": 0.1659,
     "modelP": 0.7363,
-    "won": null
+    "won": false
    }
   },
   "fb|ll2|2026-10-23|granada|valladolid": {
@@ -83561,10 +83561,10 @@
    "prob": 0.4911,
    "tipScore": "1:1",
    "pOver25": 0.4988,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:1",
+   "correct": true,
+   "exact": false
   },
   "fb|fr1|2026-10-23|brest|nice": {
    "sport": "fb",
@@ -83579,16 +83579,16 @@
    "prob": 0.5532,
    "tipScore": "1:0",
    "pOver25": 0.5104,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "wrong",
+   "result": "1:2",
+   "correct": false,
+   "exact": false,
    "value": {
     "pick": "1",
     "odds": 2.15,
     "edge": 0.119,
     "modelP": 0.5532,
-    "won": null
+    "won": false
    }
   },
   "fb|fr2|2026-10-23|as nancy lorraine|stade laval": {
@@ -83647,10 +83647,10 @@
    "prob": 0.4079,
    "tipScore": "1:1",
    "pOver25": 0.6997,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "1:1",
+   "correct": false,
+   "exact": true
   },
   "fb|fr2|2026-10-23|pau|grenoble": {
    "sport": "fb",
@@ -83683,16 +83683,16 @@
    "prob": 0.4217,
    "tipScore": "0:1",
    "pOver25": 0.2759,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "correct",
+   "result": "1:3",
+   "correct": true,
+   "exact": false,
    "value": {
     "pick": "2",
     "odds": 2.85,
     "edge": 0.117,
     "modelP": 0.4217,
-    "won": null
+    "won": true
    }
   },
   "fb|nl1|2026-10-23|go ahead eagles|telstar": {
@@ -83708,10 +83708,10 @@
    "prob": 0.5058,
    "tipScore": "1:1",
    "pOver25": 0.6513,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "3:2",
+   "correct": true,
+   "exact": false
   },
   "fb|nl2|2026-10-23|almere city|roda jc kerkrade": {
    "sport": "fb",
@@ -83966,10 +83966,10 @@
    "prob": 0.4404,
    "tipScore": "1:0",
    "pOver25": 0.2462,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "1:2",
+   "correct": false,
+   "exact": false
   },
   "fb|se1|2026-10-23|if elfsborg|malmo ff": {
    "sport": "fb",
@@ -84633,10 +84633,10 @@
    "prob": 0.5897,
    "tipScore": "1:1",
    "pOver25": 0.5851,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "2:1",
+   "correct": false,
+   "exact": false
   },
   "fb|pl|2026-10-24|arsenal|everton": {
    "sport": "fb",
@@ -84651,10 +84651,10 @@
    "prob": 0.6752,
    "tipScore": "1:0",
    "pOver25": 0.4264,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:0",
+   "correct": true,
+   "exact": false
   },
   "fb|pl|2026-10-24|coventry city|fulham": {
    "sport": "fb",
@@ -84687,10 +84687,10 @@
    "prob": 0.5914,
    "tipScore": "2:1",
    "pOver25": 0.6158,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "0:2",
+   "correct": false,
+   "exact": false
   },
   "fb|sa|2026-10-24|cagliari|bologna": {
    "sport": "fb",
@@ -84705,10 +84705,10 @@
    "prob": 0.369,
    "tipScore": "1:1",
    "pOver25": 0.3725,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "0:2",
+   "correct": true,
+   "exact": false
   },
   "fb|sa|2026-10-24|como|sassuolo": {
    "sport": "fb",
@@ -84723,10 +84723,10 @@
    "prob": 0.6777,
    "tipScore": "2:0",
    "pOver25": 0.5691,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:0",
+   "correct": true,
+   "exact": true
   },
   "fb|sa|2026-10-24|napoli|roma": {
    "sport": "fb",
@@ -84741,16 +84741,16 @@
    "prob": 0.4504,
    "tipScore": "0:1",
    "pOver25": 0.3724,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "wrong",
+   "result": "3:3",
+   "correct": false,
+   "exact": false,
    "value": {
     "pick": "2",
     "odds": 2.62,
     "edge": 0.0813,
     "modelP": 0.4504,
-    "won": null
+    "won": false
    }
   },
   "fb|sa|2026-10-24|lazio|parma": {
@@ -84766,10 +84766,10 @@
    "prob": 0.627,
    "tipScore": "1:0",
    "pOver25": 0.3295,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:1",
+   "correct": true,
+   "exact": false
   },
   "fb|ll1|2026-10-24|vallecano|elche": {
    "sport": "fb",
@@ -84784,10 +84784,10 @@
    "prob": 0.5098,
    "tipScore": "1:1",
    "pOver25": 0.517,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "0:3",
+   "correct": false,
+   "exact": false
   },
   "fb|ll1|2026-10-24|santander|espanol": {
    "sport": "fb",
@@ -84802,16 +84802,16 @@
    "prob": 0.4336,
    "tipScore": "1:1",
    "pOver25": 0.6949,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "wrong",
+   "result": "2:1",
+   "correct": false,
+   "exact": false,
    "value": {
     "pick": "2",
     "odds": 2.75,
     "edge": 0.0945,
     "modelP": 0.4336,
-    "won": null
+    "won": false
    }
   },
   "fb|ll1|2026-10-24|valencia|villarreal": {
@@ -84827,10 +84827,10 @@
    "prob": 0.4657,
    "tipScore": "1:1",
    "pOver25": 0.5185,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "1:2",
+   "correct": true,
+   "exact": false
   },
   "fb|ll2|2026-10-24|cordoba|eibar": {
    "sport": "fb",
@@ -84845,16 +84845,16 @@
    "prob": 0.4908,
    "tipScore": "1:1",
    "pOver25": 0.5401,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "wrong",
+   "result": "2:0",
+   "correct": false,
+   "exact": false,
    "value": {
     "pick": "2",
     "odds": 3.05,
     "edge": 0.1823,
     "modelP": 0.4908,
-    "won": null
+    "won": false
    }
   },
   "fb|ll2|2026-10-24|leganes|mallorca": {
@@ -84870,16 +84870,16 @@
    "prob": 0.5397,
    "tipScore": "0:1",
    "pOver25": 0.1826,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "wrong",
+   "result": "1:1",
+   "correct": false,
+   "exact": false,
    "value": {
     "pick": "2",
     "odds": 2.07,
     "edge": 0.1266,
     "modelP": 0.5397,
-    "won": null
+    "won": false
    }
   },
   "fb|ll2|2026-10-24|las palmas|real sociedad ii": {
@@ -84913,10 +84913,10 @@
    "prob": 0.5082,
    "tipScore": "1:1",
    "pOver25": 0.5388,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "2:2",
+   "correct": false,
+   "exact": false
   },
   "fb|fr1|2026-10-24|toulouse|estac troyes": {
    "sport": "fb",
@@ -84956,16 +84956,16 @@
    "prob": 0.5547,
    "tipScore": "1:1",
    "pOver25": 0.5988,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "correct",
+   "result": "2:1",
+   "correct": true,
+   "exact": false,
    "value": {
     "pick": "1",
     "odds": 2.35,
     "edge": 0.1595,
     "modelP": 0.5547,
-    "won": null
+    "won": true
    }
   },
   "fb|fr2|2026-10-24|dijon fco|rodez aveyron": {
@@ -85250,10 +85250,10 @@
    "prob": 0.5992,
    "tipScore": "1:0",
    "pOver25": 0.5004,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "0:2",
+   "correct": false,
+   "exact": false
   },
   "fb|pt1|2026-10-24|alverca|arouca": {
    "sport": "fb",
@@ -85268,10 +85268,10 @@
    "prob": 0.3797,
    "tipScore": "1:1",
    "pOver25": 0.5522,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "0:1",
+   "correct": true,
+   "exact": false
   },
   "fb|pt1|2026-10-24|gil vicente|fc porto": {
    "sport": "fb",
@@ -85304,10 +85304,10 @@
    "prob": 0.4832,
    "tipScore": "0:1",
    "pOver25": 0.4069,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "0:1",
+   "correct": true,
+   "exact": true
   },
   "fb|tr1|2026-10-24|samsunspor|amed sfk": {
    "sport": "fb",
@@ -85465,10 +85465,10 @@
    "prob": 0.4394,
    "tipScore": "1:1",
    "pOver25": 0.4281,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "3:2",
+   "correct": true,
+   "exact": false
   },
   "fb|sc1|2026-10-24|falkirk|kilmarnock": {
    "sport": "fb",
@@ -85483,10 +85483,10 @@
    "prob": 0.4967,
    "tipScore": "1:1",
    "pOver25": 0.6216,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "3:0",
+   "correct": true,
+   "exact": false
   },
   "fb|sc1|2026-10-24|rangers|st johnstone": {
    "sport": "fb",
@@ -85501,10 +85501,10 @@
    "prob": 0.6052,
    "tipScore": "1:0",
    "pOver25": 0.4913,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "4:0",
+   "correct": true,
+   "exact": false
   },
   "fb|sc1|2026-10-24|st mirren|dundee": {
    "sport": "fb",
@@ -85519,10 +85519,10 @@
    "prob": 0.4446,
    "tipScore": "0:1",
    "pOver25": 0.4035,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "2:1",
+   "correct": false,
+   "exact": false
   },
   "fb|us1|2026-10-24|cf montreal|nashville sc": {
    "sport": "fb",
@@ -86078,10 +86078,10 @@
    "prob": 0.3947,
    "tipScore": "1:1",
    "pOver25": 0.5772,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "0:2",
+   "correct": true,
+   "exact": false
   },
   "fb|pl|2026-10-25|hull city|brentford": {
    "sport": "fb",
@@ -86121,16 +86121,16 @@
    "prob": 0.4469,
    "tipScore": "1:1",
    "pOver25": 0.5602,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "wrong",
+   "result": "2:0",
+   "correct": false,
+   "exact": false,
    "value": {
     "pick": "2",
     "odds": 3.1,
     "edge": 0.1473,
     "modelP": 0.4469,
-    "won": null
+    "won": false
    }
   },
   "fb|pl|2026-10-25|man united|bournemouth": {
@@ -86146,16 +86146,16 @@
    "prob": 0.5665,
    "tipScore": "2:1",
    "pOver25": 0.6342,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "wrong",
+   "result": "0:3",
+   "correct": false,
+   "exact": false,
    "value": {
     "pick": "1",
     "odds": 2.3,
     "edge": 0.138,
     "modelP": 0.5665,
-    "won": null
+    "won": false
    }
   },
   "fb|pl|2026-10-25|sunderland|leeds": {
@@ -86171,10 +86171,10 @@
    "prob": 0.4088,
    "tipScore": "1:1",
    "pOver25": 0.4073,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "0:0",
+   "correct": false,
+   "exact": false
   },
   "fb|sa|2026-10-25|inter|fiorentina": {
    "sport": "fb",
@@ -86189,16 +86189,16 @@
    "prob": 0.829,
    "tipScore": "3:0",
    "pOver25": 0.7681,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "correct",
+   "result": "2:1",
+   "correct": true,
+   "exact": false,
    "value": {
     "pick": "1",
     "odds": 1.35,
     "edge": 0.1146,
     "modelP": 0.829,
-    "won": null
+    "won": true
    }
   },
   "fb|sa|2026-10-25|atalanta|frosinone": {
@@ -86214,16 +86214,16 @@
    "prob": 0.3982,
    "tipScore": "1:1",
    "pOver25": 0.5836,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "wrong",
+   "result": "4:4",
+   "correct": false,
+   "exact": false,
    "value": {
     "pick": "2",
     "odds": 3.94,
     "edge": 0.1526,
     "modelP": 0.3982,
-    "won": null
+    "won": false
    }
   },
   "fb|sa|2026-10-25|genoa|venezia": {
@@ -86239,16 +86239,16 @@
    "prob": 0.5786,
    "tipScore": "1:0",
    "pOver25": 0.5135,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "correct",
+   "result": "1:0",
+   "correct": true,
+   "exact": true,
    "value": {
     "pick": "1",
     "odds": 2.18,
     "edge": 0.1352,
     "modelP": 0.5786,
-    "won": null
+    "won": true
    }
   },
   "fb|sa|2026-10-25|lecce|juventus": {
@@ -86264,10 +86264,10 @@
    "prob": 0.576,
    "tipScore": "0:1",
    "pOver25": 0.4001,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "0:2",
+   "correct": true,
+   "exact": false
   },
   "fb|sa|2026-10-25|udinese|milan": {
    "sport": "fb",
@@ -86282,10 +86282,10 @@
    "prob": 0.5367,
    "tipScore": "0:1",
    "pOver25": 0.4944,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "0:2",
+   "correct": true,
+   "exact": false
   },
   "fb|ll1|2026-10-25|ath bilbao|getafe": {
    "sport": "fb",
@@ -86300,16 +86300,16 @@
    "prob": 0.4102,
    "tipScore": "0:0",
    "pOver25": 0.2177,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "correct",
+   "result": "4:0",
+   "correct": true,
+   "exact": false,
    "value": {
     "pick": "X",
     "odds": 4.0,
     "edge": 0.1125,
     "modelP": 0.3469,
-    "won": null
+    "won": false
    }
   },
   "fb|ll1|2026-10-25|celta|betis": {
@@ -86325,16 +86325,16 @@
    "prob": 0.4686,
    "tipScore": "1:1",
    "pOver25": 0.4896,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "wrong",
+   "result": "0:0",
+   "correct": false,
+   "exact": false,
    "value": {
     "pick": "1",
     "odds": 3.25,
     "edge": 0.1693,
     "modelP": 0.4686,
-    "won": null
+    "won": false
    }
   },
   "fb|ll1|2026-10-25|sociedad|levante": {
@@ -86350,10 +86350,10 @@
    "prob": 0.5769,
    "tipScore": "2:1",
    "pOver25": 0.7378,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:1",
+   "correct": true,
+   "exact": true
   },
   "fb|ll1|2026-10-25|barcelona|real madrid": {
    "sport": "fb",
@@ -86368,10 +86368,10 @@
    "prob": 0.6271,
    "tipScore": "2:1",
    "pOver25": 0.705,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "1:2",
+   "correct": false,
+   "exact": false
   },
   "fb|ll2|2026-10-25|cd sabadell|tenerife": {
    "sport": "fb",
@@ -86404,16 +86404,16 @@
    "prob": 0.4181,
    "tipScore": "1:1",
    "pOver25": 0.4854,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "wrong",
+   "result": "2:0",
+   "correct": false,
+   "exact": false,
    "value": {
     "pick": "2",
     "odds": 3.15,
     "edge": 0.1215,
     "modelP": 0.4181,
-    "won": null
+    "won": false
    }
   },
   "fb|ll2|2026-10-25|cadiz|ceuta": {
@@ -86429,10 +86429,10 @@
    "prob": 0.4516,
    "tipScore": "1:1",
    "pOver25": 0.4762,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "3:1",
+   "correct": true,
+   "exact": false
   },
   "fb|ll2|2026-10-25|castellon|sp gijon": {
    "sport": "fb",
@@ -86447,10 +86447,10 @@
    "prob": 0.5686,
    "tipScore": "1:0",
    "pOver25": 0.4724,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "4:0",
+   "correct": true,
+   "exact": false
   },
   "fb|fr1|2026-10-25|as monaco|lille": {
    "sport": "fb",
@@ -86515,16 +86515,16 @@
    "prob": 0.4787,
    "tipScore": "0:1",
    "pOver25": 0.4116,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "wrong",
+   "result": "0:0",
+   "correct": false,
+   "exact": false,
    "value": {
     "pick": "2",
     "odds": 2.52,
     "edge": 0.0878,
     "modelP": 0.4787,
-    "won": null
+    "won": false
    }
   },
   "fb|fr1|2026-10-25|marseille|le havre ac": {
@@ -86558,16 +86558,16 @@
    "prob": 0.794,
    "tipScore": "2:0",
    "pOver25": 0.6246,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "wrong",
+   "result": "0:0",
+   "correct": false,
+   "exact": false,
    "value": {
     "pick": "1",
     "odds": 1.56,
     "edge": 0.2133,
     "modelP": 0.794,
-    "won": null
+    "won": false
    }
   },
   "fb|fr1|2026-10-25|paris saint-germain|lyon": {
@@ -86795,10 +86795,10 @@
    "prob": 0.4579,
    "tipScore": "1:1",
    "pOver25": 0.4922,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "1:3",
+   "correct": false,
+   "exact": false
   },
   "fb|pt1|2026-10-25|cd nacional|braga": {
    "sport": "fb",
@@ -86867,10 +86867,10 @@
    "prob": 0.4749,
    "tipScore": "1:0",
    "pOver25": 0.3671,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:0",
+   "correct": true,
+   "exact": false
   },
   "fb|tr1|2026-10-25|goztepe|corum fk": {
    "sport": "fb",
@@ -86989,10 +86989,10 @@
    "prob": 0.5582,
    "tipScore": "0:1",
    "pOver25": 0.5237,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "1:2",
+   "correct": true,
+   "exact": false
   },
   "fb|sc1|2026-10-25|motherwell|heart of midlothian": {
    "sport": "fb",
@@ -88231,10 +88231,10 @@
    "prob": 0.4954,
    "tipScore": "1:1",
    "pOver25": 0.5389,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:0",
+   "correct": true,
+   "exact": false
   },
   "fb|ll2|2026-10-26|andorra|burgos": {
    "sport": "fb",
@@ -88249,16 +88249,16 @@
    "prob": 0.3736,
    "tipScore": "0:1",
    "pOver25": 0.3471,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "correct",
+   "result": "2:3",
+   "correct": true,
+   "exact": false,
    "value": {
     "pick": "2",
     "odds": 3.2,
     "edge": 0.107,
     "modelP": 0.3736,
-    "won": null
+    "won": true
    }
   },
   "fb|fr1|2026-10-26|paris saint-germain|lyon": {
@@ -88335,10 +88335,10 @@
    "prob": 0.5941,
    "tipScore": "0:1",
    "pOver25": 0.4298,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "1:2",
+   "correct": true,
+   "exact": false
   },
   "fb|tr1|2026-10-26|besiktas|istanbul basaksehir": {
    "sport": "fb",
@@ -88389,10 +88389,10 @@
    "prob": 0.4154,
    "tipScore": "1:1",
    "pOver25": 0.6859,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:1",
+   "correct": true,
+   "exact": false
   },
   "fb|us1|2026-10-26|los angeles fc|los angeles galaxy": {
    "sport": "fb",
@@ -89522,9 +89522,9 @@
    "awayKey": "lazio",
    "tip": "2",
    "tipName": "Lazio",
-   "prob": 0.473,
-   "tipScore": "1:1",
-   "pOver25": 0.4676,
+   "prob": 0.4958,
+   "tipScore": "0:1",
+   "pOver25": 0.4618,
    "status": "open",
    "result": null,
    "correct": null,
@@ -89540,9 +89540,9 @@
    "awayKey": "cagliari",
    "tip": "1",
    "tipName": "AS Roma",
-   "prob": 0.7049,
+   "prob": 0.7077,
    "tipScore": "1:0",
-   "pOver25": 0.4498,
+   "pOver25": 0.4756,
    "status": "open",
    "result": null,
    "correct": null,
@@ -89558,9 +89558,9 @@
    "awayKey": "como",
    "tip": "2",
    "tipName": "Como",
-   "prob": 0.6336,
+   "prob": 0.6377,
    "tipScore": "0:1",
-   "pOver25": 0.5384,
+   "pOver25": 0.5415,
    "status": "open",
    "result": null,
    "correct": null,
@@ -90616,9 +90616,9 @@
    "tip": "P1",
    "tipName": "Lucia Bronzetti",
    "prob": 0.5864,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-26|papamichail d|vitoria leme da silva n": {
    "sport": "tn",
@@ -91414,9 +91414,9 @@
    "awayKey": "bologna",
    "tip": "1",
    "tipName": "AC Milan",
-   "prob": 0.554,
+   "prob": 0.5412,
    "tipScore": "1:0",
-   "pOver25": 0.4458,
+   "pOver25": 0.4224,
    "status": "open",
    "result": null,
    "correct": null,
@@ -91432,18 +91432,18 @@
    "awayKey": "udinese",
    "tip": "2",
    "tipName": "Udinese",
-   "prob": 0.4536,
+   "prob": 0.4378,
    "tipScore": "0:1",
-   "pOver25": 0.3514,
+   "pOver25": 0.3435,
    "status": "open",
    "result": null,
    "correct": null,
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 2.56,
-    "edge": 0.0755,
-    "modelP": 0.4536,
+    "odds": 2.57,
+    "edge": 0.061,
+    "modelP": 0.4378,
     "won": null
    }
   },
@@ -91457,18 +91457,18 @@
    "awayKey": "inter",
    "tip": "2",
    "tipName": "Internazionale",
-   "prob": 0.9115,
-   "tipScore": "0:4",
-   "pOver25": 0.8588,
+   "prob": 0.9071,
+   "tipScore": "0:3",
+   "pOver25": 0.8128,
    "status": "open",
    "result": null,
    "correct": null,
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 1.34,
-    "edge": 0.194,
-    "modelP": 0.9115,
+    "odds": 1.36,
+    "edge": 0.1995,
+    "modelP": 0.9071,
     "won": null
    }
   },
@@ -91482,9 +91482,9 @@
    "awayKey": "juventus",
    "tip": "2",
    "tipName": "Juventus",
-   "prob": 0.5746,
+   "prob": 0.5704,
    "tipScore": "0:1",
-   "pOver25": 0.4273,
+   "pOver25": 0.3998,
    "status": "open",
    "result": null,
    "correct": null,
@@ -91500,9 +91500,9 @@
    "awayKey": "napoli",
    "tip": "2",
    "tipName": "Napoli",
-   "prob": 0.5649,
+   "prob": 0.581,
    "tipScore": "1:2",
-   "pOver25": 0.7295,
+   "pOver25": 0.7785,
    "status": "open",
    "result": null,
    "correct": null,
@@ -91518,9 +91518,9 @@
    "awayKey": "falkirk",
    "tip": "1",
    "tipName": "Aberdeen",
-   "prob": 0.4452,
+   "prob": 0.4211,
    "tipScore": "1:1",
-   "pOver25": 0.4515,
+   "pOver25": 0.473,
    "status": "open",
    "result": null,
    "correct": null,
@@ -91536,9 +91536,9 @@
    "awayKey": "dundee united",
    "tip": "1",
    "tipName": "Celtic",
-   "prob": 0.7636,
+   "prob": 0.7617,
    "tipScore": "2:0",
-   "pOver25": 0.6424,
+   "pOver25": 0.6546,
    "status": "open",
    "result": null,
    "correct": null,
@@ -91554,9 +91554,9 @@
    "awayKey": "kilmarnock",
    "tip": "1",
    "tipName": "Dundee",
-   "prob": 0.5345,
+   "prob": 0.5527,
    "tipScore": "1:1",
-   "pOver25": 0.6053,
+   "pOver25": 0.6013,
    "status": "open",
    "result": null,
    "correct": null,
@@ -91570,11 +91570,11 @@
    "label": "St Johnstone – Motherwell",
    "homeKey": "st johnstone",
    "awayKey": "motherwell",
-   "tip": "1",
-   "tipName": "St Johnstone",
-   "prob": 0.3852,
+   "tip": "2",
+   "tipName": "Motherwell",
+   "prob": 0.4139,
    "tipScore": "1:1",
-   "pOver25": 0.3995,
+   "pOver25": 0.4276,
    "status": "open",
    "result": null,
    "correct": null,
@@ -91590,9 +91590,9 @@
    "awayKey": "hibernian",
    "tip": "2",
    "tipName": "Hibernian",
-   "prob": 0.487,
+   "prob": 0.4549,
    "tipScore": "0:1",
-   "pOver25": 0.3863,
+   "pOver25": 0.3896,
    "status": "open",
    "result": null,
    "correct": null,
@@ -92014,9 +92014,9 @@
    "tip": "P1",
    "tipName": "Dasha Plekhanova",
    "prob": 0.6673,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-26|andreea herea c|fernanda navarro oliva m": {
    "sport": "tn",
@@ -92353,6 +92353,493 @@
    "status": "open",
    "result": null,
    "correct": null
+  },
+  "fb|sa|2026-10-29|frosinone|lecce": {
+   "sport": "fb",
+   "comp": "Serie A",
+   "compId": "sa",
+   "date": "2026-10-29",
+   "label": "Frosinone – Lecce",
+   "homeKey": "frosinone",
+   "awayKey": "lecce",
+   "tip": "1",
+   "tipName": "Frosinone",
+   "prob": 0.6819,
+   "tipScore": "2:1",
+   "pOver25": 0.6904,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 1.68,
+    "edge": 0.1086,
+    "modelP": 0.6819,
+    "won": null
+   }
+  },
+  "fb|sa|2026-10-29|fiorentina|atalanta": {
+   "sport": "fb",
+   "comp": "Serie A",
+   "compId": "sa",
+   "date": "2026-10-29",
+   "label": "Fiorentina – Atalanta",
+   "homeKey": "fiorentina",
+   "awayKey": "atalanta",
+   "tip": "2",
+   "tipName": "Atalanta",
+   "prob": 0.5152,
+   "tipScore": "1:1",
+   "pOver25": 0.5313,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "2",
+    "odds": 3.18,
+    "edge": 0.2108,
+    "modelP": 0.5152,
+    "won": null
+   }
+  },
+  "fb|us1|2026-10-29|charlotte fc|cf montreal": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-10-29",
+   "label": "Charlotte FC – CF Montréal",
+   "homeKey": "charlotte fc",
+   "awayKey": "cf montreal",
+   "tip": "1",
+   "tipName": "Charlotte FC",
+   "prob": 0.5758,
+   "tipScore": "1:1",
+   "pOver25": 0.5953,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|us1|2026-10-29|inter miami cf|fc cincinnati": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-10-29",
+   "label": "Inter Miami CF – FC Cincinnati",
+   "homeKey": "inter miami cf",
+   "awayKey": "fc cincinnati",
+   "tip": "1",
+   "tipName": "Inter Miami CF",
+   "prob": 0.6524,
+   "tipScore": "2:1",
+   "pOver25": 0.7164,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|us1|2026-10-29|new york city fc|atlanta united fc": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-10-29",
+   "label": "New York City FC – Atlanta United FC",
+   "homeKey": "new york city fc",
+   "awayKey": "atlanta united fc",
+   "tip": "1",
+   "tipName": "New York City FC",
+   "prob": 0.4313,
+   "tipScore": "1:1",
+   "pOver25": 0.521,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "2",
+    "odds": 3.8,
+    "edge": 0.0795,
+    "modelP": 0.3161,
+    "won": null
+   }
+  },
+  "fb|us1|2026-10-29|toronto fc|dc united": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-10-29",
+   "label": "Toronto FC – D.C. United",
+   "homeKey": "toronto fc",
+   "awayKey": "dc united",
+   "tip": "1",
+   "tipName": "Toronto FC",
+   "prob": 0.5477,
+   "tipScore": "2:1",
+   "pOver25": 0.6759,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 1.91,
+    "edge": 0.0736,
+    "modelP": 0.5477,
+    "won": null
+   }
+  },
+  "fb|us1|2026-10-29|austin fc|real salt lake": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-10-29",
+   "label": "Austin FC – Real Salt Lake",
+   "homeKey": "austin fc",
+   "awayKey": "real salt lake",
+   "tip": "1",
+   "tipName": "Austin FC",
+   "prob": 0.4548,
+   "tipScore": "1:1",
+   "pOver25": 0.5434,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 2.45,
+    "edge": 0.0844,
+    "modelP": 0.4548,
+    "won": null
+   }
+  },
+  "fb|us1|2026-10-29|chicago fire fc|orlando city sc": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-10-29",
+   "label": "Chicago Fire FC – Orlando City SC",
+   "homeKey": "chicago fire fc",
+   "awayKey": "orlando city sc",
+   "tip": "1",
+   "tipName": "Chicago Fire FC",
+   "prob": 0.4234,
+   "tipScore": "2:1",
+   "pOver25": 0.7476,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "2",
+    "odds": 4.0,
+    "edge": 0.1388,
+    "modelP": 0.3673,
+    "won": null
+   }
+  },
+  "fb|us1|2026-10-29|fc dallas|columbus crew": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-10-29",
+   "label": "FC Dallas – Columbus Crew",
+   "homeKey": "fc dallas",
+   "awayKey": "columbus crew",
+   "tip": "1",
+   "tipName": "FC Dallas",
+   "prob": 0.4293,
+   "tipScore": "1:1",
+   "pOver25": 0.6553,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "2",
+    "odds": 3.2,
+    "edge": 0.0593,
+    "modelP": 0.3445,
+    "won": null
+   }
+  },
+  "fb|us1|2026-10-29|minnesota united fc|sporting kansas city": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-10-29",
+   "label": "Minnesota United FC – Sporting Kansas City",
+   "homeKey": "minnesota united fc",
+   "awayKey": "sporting kansas city",
+   "tip": "1",
+   "tipName": "Minnesota United FC",
+   "prob": 0.5562,
+   "tipScore": "2:1",
+   "pOver25": 0.8096,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|us1|2026-10-29|nashville sc|philadelphia union": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-10-29",
+   "label": "Nashville SC – Philadelphia Union",
+   "homeKey": "nashville sc",
+   "awayKey": "philadelphia union",
+   "tip": "1",
+   "tipName": "Nashville SC",
+   "prob": 0.4785,
+   "tipScore": "1:1",
+   "pOver25": 0.6839,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|us1|2026-10-29|st louis city sc|portland timbers": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-10-29",
+   "label": "St. Louis CITY SC – Portland Timbers",
+   "homeKey": "st louis city sc",
+   "awayKey": "portland timbers",
+   "tip": "1",
+   "tipName": "St. Louis CITY SC",
+   "prob": 0.6125,
+   "tipScore": "2:1",
+   "pOver25": 0.7329,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 1.75,
+    "edge": 0.0904,
+    "modelP": 0.6125,
+    "won": null
+   }
+  },
+  "fb|us1|2026-10-29|san jose earthquakes|colorado rapids": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-10-29",
+   "label": "San Jose Earthquakes – Colorado Rapids",
+   "homeKey": "san jose earthquakes",
+   "awayKey": "colorado rapids",
+   "tip": "1",
+   "tipName": "San Jose Earthquakes",
+   "prob": 0.4765,
+   "tipScore": "1:1",
+   "pOver25": 0.4965,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|us1|2026-10-29|seattle sounders fc|houston dynamo fc": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-10-29",
+   "label": "Seattle Sounders FC – Houston Dynamo FC",
+   "homeKey": "seattle sounders fc",
+   "awayKey": "houston dynamo fc",
+   "tip": "1",
+   "tipName": "Seattle Sounders FC",
+   "prob": 0.5354,
+   "tipScore": "1:0",
+   "pOver25": 0.4832,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|us1|2026-10-29|vancouver whitecaps|san diego fc": {
+   "sport": "fb",
+   "comp": "MLS (USA)",
+   "compId": "us1",
+   "date": "2026-10-29",
+   "label": "Vancouver Whitecaps – San Diego FC",
+   "homeKey": "vancouver whitecaps",
+   "awayKey": "san diego fc",
+   "tip": "1",
+   "tipName": "Vancouver Whitecaps",
+   "prob": 0.5416,
+   "tipScore": "2:1",
+   "pOver25": 0.6978,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|br1|2026-10-29|bahia|sao paulo": {
+   "sport": "fb",
+   "comp": "Série A (Brasilien)",
+   "compId": "br1",
+   "date": "2026-10-29",
+   "label": "Bahia – São Paulo",
+   "homeKey": "bahia",
+   "awayKey": "sao paulo",
+   "tip": "1",
+   "tipName": "Bahia",
+   "prob": 0.449,
+   "tipScore": "1:0",
+   "pOver25": 0.3979,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|br1|2026-10-29|remo|botafogo": {
+   "sport": "fb",
+   "comp": "Série A (Brasilien)",
+   "compId": "br1",
+   "date": "2026-10-29",
+   "label": "Remo – Botafogo",
+   "homeKey": "remo",
+   "awayKey": "botafogo",
+   "tip": "1",
+   "tipName": "Remo",
+   "prob": 0.4402,
+   "tipScore": "1:0",
+   "pOver25": 0.4076,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 2.75,
+    "edge": 0.1101,
+    "modelP": 0.4402,
+    "won": null
+   }
+  },
+  "fb|br1|2026-10-29|atletico-mg|cruzeiro": {
+   "sport": "fb",
+   "comp": "Série A (Brasilien)",
+   "compId": "br1",
+   "date": "2026-10-29",
+   "label": "Atlético-MG – Cruzeiro",
+   "homeKey": "atletico-mg",
+   "awayKey": "cruzeiro",
+   "tip": "1",
+   "tipName": "Atlético-MG",
+   "prob": 0.477,
+   "tipScore": "1:1",
+   "pOver25": 0.5992,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 2.38,
+    "edge": 0.0915,
+    "modelP": 0.477,
+    "won": null
+   }
+  },
+  "fb|br1|2026-10-29|coritiba|vitoria": {
+   "sport": "fb",
+   "comp": "Série A (Brasilien)",
+   "compId": "br1",
+   "date": "2026-10-29",
+   "label": "Coritiba – Vitoria",
+   "homeKey": "coritiba",
+   "awayKey": "vitoria",
+   "tip": "1",
+   "tipName": "Coritiba",
+   "prob": 0.3862,
+   "tipScore": "1:1",
+   "pOver25": 0.527,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "2",
+    "odds": 3.0,
+    "edge": 0.0575,
+    "modelP": 0.3604,
+    "won": null
+   }
+  },
+  "fb|se1|2026-10-29|hammarby if|ik sirius": {
+   "sport": "fb",
+   "comp": "Allsvenskan (Schweden)",
+   "compId": "se1",
+   "date": "2026-10-29",
+   "label": "Hammarby IF – IK Sirius",
+   "homeKey": "hammarby if",
+   "awayKey": "ik sirius",
+   "tip": "1",
+   "tipName": "Hammarby IF",
+   "prob": 0.5629,
+   "tipScore": "1:0",
+   "pOver25": 0.4619,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|se1|2026-10-29|kalmar ff|gais": {
+   "sport": "fb",
+   "comp": "Allsvenskan (Schweden)",
+   "compId": "se1",
+   "date": "2026-10-29",
+   "label": "Kalmar FF – GAIS",
+   "homeKey": "kalmar ff",
+   "awayKey": "gais",
+   "tip": "2",
+   "tipName": "GAIS",
+   "prob": 0.398,
+   "tipScore": "1:1",
+   "pOver25": 0.4933,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "2",
+    "odds": 2.7,
+    "edge": 0.0616,
+    "modelP": 0.398,
+    "won": null
+   }
+  },
+  "fb|se1|2026-10-29|orgryte is|mjallby aif": {
+   "sport": "fb",
+   "comp": "Allsvenskan (Schweden)",
+   "compId": "se1",
+   "date": "2026-10-29",
+   "label": "Örgryte IS – Mjällby AIF",
+   "homeKey": "orgryte is",
+   "awayKey": "mjallby aif",
+   "tip": "1",
+   "tipName": "Örgryte IS",
+   "prob": 0.557,
+   "tipScore": "1:1",
+   "pOver25": 0.593,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 2.88,
+    "edge": 0.2398,
+    "modelP": 0.557,
+    "won": null
+   }
   }
  }
 }
