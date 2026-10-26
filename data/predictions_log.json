@@ -89004,9 +89004,9 @@
    "tip": "P1",
    "tipName": "Learner Tien",
    "prob": 0.6894,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-10-26|medvedev d|merida d": {
    "sport": "tn",
@@ -89466,9 +89466,9 @@
    "tip": "P1",
    "tipName": "Casper Ruud",
    "prob": 0.8773,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-26|nagy a|yesypchuk d": {
    "sport": "tn",
@@ -89818,9 +89818,9 @@
    "tip": "P2",
    "tipName": "Sophie Llewellyn",
    "prob": 0.7007,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-25|strakhova v|vilar g": {
    "sport": "tn",
@@ -90336,9 +90336,9 @@
    "tip": "P2",
    "tipName": "Rositsa Dencheva",
    "prob": 0.5526,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-26|bassols ribera m|jimenez kasintseva v": {
    "sport": "tn",
@@ -91176,9 +91176,9 @@
    "tip": "P2",
    "tipName": "Sophie Llewellyn",
    "prob": 0.69,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-26|herazo gonzalez m|rodriguez v": {
    "sport": "tn",
@@ -92028,9 +92028,9 @@
    "tip": "P1",
    "tipName": "Maria Fernanda Navarro Oliva",
    "prob": 0.6447,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-27|kovinic d|noha akugue n": {
    "sport": "tn",
@@ -92308,6 +92308,48 @@
    "tip": "P1",
    "tipName": "Katarina Zavatska",
    "prob": 0.6358,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-26|strakhova v|van impe a": {
+   "sport": "tn",
+   "comp": "WTA · Queretaro Open",
+   "date": "2026-10-26",
+   "label": "Amelie Van Impe – Valeriya Strakhova",
+   "p1Key": "van impe a",
+   "p2Key": "strakhova v",
+   "tip": "P2",
+   "tipName": "Valeriya Strakhova",
+   "prob": 0.5581,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-28|de minaur a|tien l": {
+   "sport": "tn",
+   "comp": "ATP · Erste Bank Open",
+   "date": "2026-10-28",
+   "label": "Alex de Minaur – Learner Tien",
+   "p1Key": "de minaur a",
+   "p2Key": "tien l",
+   "tip": "P1",
+   "tipName": "Alex de Minaur",
+   "prob": 0.6224,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-10-28|borges n|ruud c": {
+   "sport": "tn",
+   "comp": "ATP · Swiss Indoors Basel",
+   "date": "2026-10-28",
+   "label": "Casper Ruud – Nuno Borges",
+   "p1Key": "ruud c",
+   "p2Key": "borges n",
+   "tip": "P1",
+   "tipName": "Casper Ruud",
+   "prob": 0.6545,
    "status": "open",
    "result": null,
    "correct": null
