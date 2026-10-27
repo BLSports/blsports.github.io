@@ -88570,9 +88570,9 @@
    "tip": "P2",
    "tipName": "Antonia Ruzic",
    "prob": 0.5091,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-26|tagger l|williams v": {
    "sport": "tn",
@@ -88584,9 +88584,9 @@
    "tip": "P2",
    "tipName": "Lilli Tagger",
    "prob": 0.8807,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-26|teichmann j|waltert s": {
    "sport": "tn",
@@ -88668,9 +88668,9 @@
    "tip": "P1",
    "tipName": "Janice Tjen",
    "prob": 0.6685,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-26|kenin s|quevedo k": {
    "sport": "tn",
@@ -88780,9 +88780,9 @@
    "tip": "P2",
    "tipName": "Naomi Osaka",
    "prob": 0.627,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-26|alexandrova e|li a": {
    "sport": "tn",
@@ -90056,9 +90056,9 @@
    "tip": "P2",
    "tipName": "Antonia Ruzic",
    "prob": 0.5551,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-27|kenin s|quevedo k": {
    "sport": "tn",
@@ -90084,9 +90084,9 @@
    "tip": "P2",
    "tipName": "Lilli Tagger",
    "prob": 0.8871,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-27|teichmann j|waltert s": {
    "sport": "tn",
@@ -90140,9 +90140,9 @@
    "tip": "P2",
    "tipName": "Naomi Osaka",
    "prob": 0.6377,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-27|pohankova m|valentova t": {
    "sport": "tn",
@@ -90154,9 +90154,9 @@
    "tip": "P2",
    "tipName": "Tereza Valentova",
    "prob": 0.6055,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-10-27|fernandez l|sakatsume h": {
    "sport": "tn",
@@ -90420,9 +90420,9 @@
    "tip": "P1",
    "tipName": "Noma Noha Akugue",
    "prob": 0.8362,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-26|alves c|grabher j": {
    "sport": "tn",
@@ -91944,9 +91944,9 @@
    "tip": "P1",
    "tipName": "Janice Tjen",
    "prob": 0.6368,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-28|siniakova k|tararudee l": {
    "sport": "tn",
@@ -92042,9 +92042,9 @@
    "tip": "P1",
    "tipName": "Noma Noha Akugue",
    "prob": 0.8362,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-10-27|pieri j|yaneva e": {
    "sport": "tn",
@@ -93047,6 +93047,76 @@
    "tip": "P1",
    "tipName": "Elise Mertens",
    "prob": 0.604,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-28|dart h|tjen j": {
+   "sport": "tn",
+   "comp": "WTA · Guangzhou Open",
+   "date": "2026-10-28",
+   "label": "Janice Tjen – Harriet Dart",
+   "p1Key": "tjen j",
+   "p2Key": "dart h",
+   "tip": "P1",
+   "tipName": "Janice Tjen",
+   "prob": 0.6815,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-29|sonmez z|teichmann j": {
+   "sport": "tn",
+   "comp": "WTA · Guangzhou Open",
+   "date": "2026-10-29",
+   "label": "Zeynep Sonmez – Jil Teichmann",
+   "p1Key": "sonmez z",
+   "p2Key": "teichmann j",
+   "tip": "P1",
+   "tipName": "Zeynep Sonmez",
+   "prob": 0.6943,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-29|linette m|tagger l": {
+   "sport": "tn",
+   "comp": "WTA · Guangzhou Open",
+   "date": "2026-10-29",
+   "label": "Magda Linette – Lilli Tagger",
+   "p1Key": "linette m",
+   "p2Key": "tagger l",
+   "tip": "P2",
+   "tipName": "Lilli Tagger",
+   "prob": 0.5618,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-29|bondar a|quevedo k": {
+   "sport": "tn",
+   "comp": "WTA · Guangzhou Open",
+   "date": "2026-10-29",
+   "label": "Kaitlin Quevedo – Anna Bondar",
+   "p1Key": "quevedo k",
+   "p2Key": "bondar a",
+   "tip": "P2",
+   "tipName": "Anna Bondar",
+   "prob": 0.5262,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-29|osaka n|pohankova m": {
+   "sport": "tn",
+   "comp": "WTA · Toray Pan Pacific Open Tennis",
+   "date": "2026-10-29",
+   "label": "Mia Pohankova – Naomi Osaka",
+   "p1Key": "pohankova m",
+   "p2Key": "osaka n",
+   "tip": "P2",
+   "tipName": "Naomi Osaka",
+   "prob": 0.8541,
    "status": "open",
    "result": null,
    "correct": null
