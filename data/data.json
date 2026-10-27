@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-27T12:31:52.202401+01:00",
+ "generatedAt": "2026-10-27T18:22:38.968362+01:00",
  "windowDays": 3,
  "days": [
   "2026-10-27",
@@ -199,7 +199,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Lazio ist bei Sassuolo leicht favorisiert (49 % zu 25 %). In der Tabelle stehen sich Platz 14 und Platz 2 gegenüber. Die Form spricht für Lazio: 4 Siege aus den letzten 5 Spielen, Sassuolo holte nur 1. Heim-/Auswärtsbilanz: Sassuolo gewann 3 der letzten 5 Heimspiele, Lazio 4 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:1 (Lazio – Sassuolo). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,0:1,5; über 2,5 Tore: 46 %, beide Teams treffen zu 49 %). Personal: Sassuolo fehlen 13 Spieler (u.a. D. Berardi); Lazio fehlen 13 Spieler (u.a. D. Cataldi).",
+     "analysis": "Lazio ist bei Sassuolo leicht favorisiert (49 % zu 25 %). In der Tabelle stehen sich Platz 14 und Platz 2 gegenüber. Die Form spricht für Lazio: 4 Siege aus den letzten 5 Spielen, Sassuolo holte nur 1. Heim-/Auswärtsbilanz: Sassuolo gewann 3 der letzten 5 Heimspiele, Lazio 4 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:1 (Lazio – Sassuolo). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,0:1,5; über 2,5 Tore: 46 %, beide Teams treffen zu 49 %). Die Aufstellungen sind offiziell (4-3-3 gegen 4-3-3). Personal: Sassuolo fehlen 13 Spieler (u.a. D. Berardi); Lazio fehlen 13 Spieler (u.a. D. Cataldi).",
      "injuriesHome": [
       {
        "name": "D. Berardi",
@@ -252,7 +252,41 @@
        "reason": "Sprained Ankle"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "lineups": {
+      "home": {
+       "formation": "4-3-3",
+       "xi": [
+        "S. Turati",
+        "S. Cinquegrano",
+        "C. Odenthal",
+        "D. Ćaleta-Car",
+        "J. Doig",
+        "K. Thorstvedt",
+        "L. Lipani",
+        "D. Bakola",
+        "D. Berardi",
+        "S. Esposito",
+        "A. Laurienté"
+       ]
+      },
+      "away": {
+       "formation": "4-3-3",
+       "xi": [
+        "C. Mandas",
+        "R. Floriani Mussolini",
+        "J. Šutalo",
+        "Diogo Leite",
+        "Nuno Tavares",
+        "D. Frattesi",
+        "R. Belahyane",
+        "K. Taylor",
+        "G. Isaksen",
+        "T. Noslin",
+        "M. Zaccagni"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-10-27T20:45:00+01:00",
@@ -1965,9 +1999,9 @@
      },
      "pBtts": 0.4828,
      "odds": {
-      "h": 2.5,
+      "h": 2.4,
       "d": 3.3,
-      "a": 2.62,
+      "a": 2.7,
       "src": "William Hill"
      },
      "value": null,
@@ -3219,16 +3253,16 @@
      },
      "pBtts": 0.6623,
      "odds": {
-      "h": 1.95,
-      "d": 3.7,
-      "a": 3.2,
+      "h": 2.0,
+      "d": 3.6,
+      "a": 3.1,
       "src": "William Hill"
      },
      "value": {
       "outcome": "2",
-      "edge": 0.0593,
+      "edge": 0.0513,
       "modelP": 0.3445,
-      "odds": 3.2
+      "odds": 3.1
      },
      "scorersHome": [
       {
@@ -3238,7 +3272,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "FC Dallas ist gegen Columbus Crew leicht favorisiert (43 % zu 34 %). In der Tabelle stehen sich Platz 2 und Platz 10 gegenüber. Das letzte Duell (2023) endete 1:1 (FC Dallas – Columbus Crew). Das Modell erwartet ein torreiches Spiel (xG 1,8:1,6; über 2,5 Tore: 66 %, beide Teams treffen zu 66 %). Gefährlichste Torschützen: bei FC Dallas Petar Musa (22 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,20) für 6 Prozentpunkte wahrscheinlicher als der Markt. Personal: FC Dallas fehlen 6 Spieler (u.a. Geovane Jesus); Columbus Crew fehlen 6 Spieler (u.a. M. Farsi).",
+     "analysis": "FC Dallas ist gegen Columbus Crew leicht favorisiert (43 % zu 34 %). In der Tabelle stehen sich Platz 2 und Platz 10 gegenüber. Das letzte Duell (2023) endete 1:1 (FC Dallas – Columbus Crew). Das Modell erwartet ein torreiches Spiel (xG 1,8:1,6; über 2,5 Tore: 66 %, beide Teams treffen zu 66 %). Gefährlichste Torschützen: bei FC Dallas Petar Musa (22 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,10) für 5 Prozentpunkte wahrscheinlicher als der Markt. Personal: FC Dallas fehlen 6 Spieler (u.a. Geovane Jesus); Columbus Crew fehlen 6 Spieler (u.a. M. Farsi).",
      "injuriesHome": [
       {
        "name": "Geovane Jesus",
@@ -3510,12 +3544,17 @@
      },
      "pBtts": 0.6784,
      "odds": {
-      "h": 1.85,
-      "d": 3.6,
-      "a": 3.4,
+      "h": 1.83,
+      "d": 3.7,
+      "a": 3.6,
       "src": "William Hill"
      },
-     "value": null,
+     "value": {
+      "outcome": "2",
+      "edge": 0.0506,
+      "modelP": 0.3044,
+      "odds": 3.6
+     },
      "scorersHome": [
       {
        "name": "Sam Surridge",
@@ -3533,7 +3572,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Nashville SC ist gegen Philadelphia Union leicht favorisiert (48 % zu 30 %). In der Tabelle stehen sich Platz 1 und Platz 6 gegenüber. Das letzte Duell (2026) endete 0:0 (Philadelphia Union – Nashville SC). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,6; über 2,5 Tore: 68 %, beide Teams treffen zu 68 %). Gefährlichste Torschützen: bei Nashville SC Sam Surridge (18 Tore) und bei Philadelphia Union Milan Iloski (19 Tore). Personal: Nashville SC fehlen 6 Spieler (u.a. S. Mohammed); Philadelphia Union fehlen 6 Spieler (u.a. B. Bender).",
+     "analysis": "Nashville SC ist gegen Philadelphia Union leicht favorisiert (48 % zu 30 %). In der Tabelle stehen sich Platz 1 und Platz 6 gegenüber. Das letzte Duell (2026) endete 0:0 (Philadelphia Union – Nashville SC). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,6; über 2,5 Tore: 68 %, beide Teams treffen zu 68 %). Gefährlichste Torschützen: bei Nashville SC Sam Surridge (18 Tore) und bei Philadelphia Union Milan Iloski (19 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,60) für 5 Prozentpunkte wahrscheinlicher als der Markt. Personal: Nashville SC fehlen 6 Spieler (u.a. S. Mohammed); Philadelphia Union fehlen 6 Spieler (u.a. B. Bender).",
      "injuriesHome": [
       {
        "name": "S. Mohammed",
@@ -4720,16 +4759,16 @@
      },
      "pBtts": 0.4618,
      "odds": {
-      "h": 2.75,
+      "h": 2.7,
       "d": 3.3,
-      "a": 2.3,
+      "a": 2.38,
       "src": "William Hill"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.1101,
+      "edge": 0.1015,
       "modelP": 0.4402,
-      "odds": 2.75
+      "odds": 2.7
      },
      "scorersHome": [
       {
@@ -4744,7 +4783,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Remo ist gegen Botafogo leicht favorisiert (44 % zu 28 %). In der Tabelle stehen sich Platz 19 und Platz 11 gegenüber. Das letzte Duell (2026) endete 1:2 (Botafogo – Remo). Das Modell erwartet eher wenige Tore (xG 1,3:1,0; über 2,5 Tore: 41 %, beide Teams treffen zu 46 %). Gefährlichste Torschützen: bei Remo Jája Silva (8 Tore) und bei Botafogo Danilo Santos (10 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,75) für 11 Prozentpunkte wahrscheinlicher als der Markt. Personal: Remo fehlen 6 Spieler (u.a. Diego Hernandez); Botafogo fehlen 6 Spieler (u.a. J. Correa).",
+     "analysis": "Remo ist gegen Botafogo leicht favorisiert (44 % zu 28 %). In der Tabelle stehen sich Platz 19 und Platz 11 gegenüber. Das letzte Duell (2026) endete 1:2 (Botafogo – Remo). Das Modell erwartet eher wenige Tore (xG 1,3:1,0; über 2,5 Tore: 41 %, beide Teams treffen zu 46 %). Gefährlichste Torschützen: bei Remo Jája Silva (8 Tore) und bei Botafogo Danilo Santos (10 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,70) für 10 Prozentpunkte wahrscheinlicher als der Markt. Personal: Remo fehlen 6 Spieler (u.a. Diego Hernandez); Botafogo fehlen 6 Spieler (u.a. J. Correa).",
      "injuriesHome": [
       {
        "name": "Diego Hernandez",
@@ -4874,13 +4913,13 @@
      "pBtts": 0.6277,
      "odds": {
       "h": 2.45,
-      "d": 3.2,
-      "a": 2.75,
+      "d": 3.25,
+      "a": 2.62,
       "src": "William Hill"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.091,
+      "edge": 0.0955,
       "modelP": 0.4674,
       "odds": 2.45
      },
@@ -4892,7 +4931,7 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Atlético-MG ist gegen Cruzeiro leicht favorisiert (47 % zu 30 %). In der Tabelle stehen sich Platz 6 und Platz 3 gegenüber. Das letzte Duell (2026) endete 2:1 (Atletico-MG – Cruzeiro). Das Modell erwartet ein torreiches Spiel (xG 1,8:1,4; über 2,5 Tore: 62 %, beide Teams treffen zu 63 %). Gefährlichste Torschützen: bei Cruzeiro Kaio Jorge (11 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,45) für 9 Prozentpunkte wahrscheinlicher als der Markt. Personal: Atlético-MG fehlen 6 Spieler (u.a. Lyanco); Cruzeiro fehlen 6 Spieler (u.a. Marquinhos).",
+     "analysis": "Atlético-MG ist gegen Cruzeiro leicht favorisiert (47 % zu 30 %). In der Tabelle stehen sich Platz 6 und Platz 3 gegenüber. Das letzte Duell (2026) endete 2:1 (Atletico-MG – Cruzeiro). Das Modell erwartet ein torreiches Spiel (xG 1,8:1,4; über 2,5 Tore: 62 %, beide Teams treffen zu 63 %). Gefährlichste Torschützen: bei Cruzeiro Kaio Jorge (11 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,45) für 10 Prozentpunkte wahrscheinlicher als der Markt. Personal: Atlético-MG fehlen 6 Spieler (u.a. Lyanco); Cruzeiro fehlen 6 Spieler (u.a. Marquinhos).",
      "injuriesHome": [
       {
        "name": "Lyanco",
@@ -6005,21 +6044,21 @@
      },
      "pBtts": 0.5375,
      "odds": {
-      "h": 2.45,
+      "h": 2.38,
       "d": 3.1,
-      "a": 2.7,
+      "a": 2.8,
       "src": "William Hill"
      },
      "value": {
       "outcome": "2",
-      "edge": 0.0616,
+      "edge": 0.0733,
       "modelP": 0.398,
-      "odds": 2.7
+      "odds": 2.8
      },
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen Kalmar FF und GAIS deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Kalmar FF 34 %, Unentschieden 26 %, Sieg GAIS 40 %). In der Tabelle stehen sich Platz 13 und Platz 11 gegenüber. Das letzte Duell (2026) endete 3:0 (Gais – Kalmar FF). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,3:1,4; über 2,5 Tore: 49 %, beide Teams treffen zu 54 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,70) für 6 Prozentpunkte wahrscheinlicher als der Markt. Personal: Kalmar FF fehlen 6 Spieler (u.a. A. Keita); GAIS fehlen 6 Spieler (u.a. F. Beckman).",
+     "analysis": "Zwischen Kalmar FF und GAIS deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Kalmar FF 34 %, Unentschieden 26 %, Sieg GAIS 40 %). In der Tabelle stehen sich Platz 13 und Platz 11 gegenüber. Das letzte Duell (2026) endete 3:0 (Gais – Kalmar FF). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,3:1,4; über 2,5 Tore: 49 %, beide Teams treffen zu 54 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,80) für 7 Prozentpunkte wahrscheinlicher als der Markt. Personal: Kalmar FF fehlen 6 Spieler (u.a. A. Keita); GAIS fehlen 6 Spieler (u.a. F. Beckman).",
      "injuriesHome": [
       {
        "name": "A. Keita",
@@ -6246,811 +6285,7 @@
  ],
  "tennis": [
   {
-   "start": "2026-10-27T05:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Erste Bank Open",
-   "round": "Qualifying 1st Round",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Maximo Gonzalez / Andres Molteni",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Santiago Gonzalez / Bart Stevens",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-27T12:45:00+01:00",
-   "tour": "WTA",
-   "tournament": "Guangzhou Open",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Mananchaya Sawangkaew",
-    "rank": 80,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Xinran Sun",
-    "rank": 405,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.7988,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.7988
-   },
-   "h2h": [],
-   "analysis": "Mananchaya Sawangkaew (Weltrangliste #80) trifft auf Xinran Sun (#405). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Mananchaya Sawangkaew mit 80 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T12:45:00+01:00",
-   "tour": "WTA",
-   "tournament": "Valle D'Aosta Ladies Open",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Victoria Jimenez Kasintseva",
-    "rank": 211,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Marina Bassols Ribera",
-    "rank": 125,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.3905,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.3905
-   },
-   "h2h": [],
-   "analysis": "Victoria Jimenez Kasintseva (Weltrangliste #211) trifft auf Marina Bassols Ribera (#125). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Marina Bassols Ribera mit 61 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T12:50:00+01:00",
-   "tour": "WTA",
-   "tournament": "Valle D'Aosta Ladies Open",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Elizara Yaneva",
-    "rank": 139,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Jessica Pieri",
-    "rank": 339,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.6809,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6809
-   },
-   "h2h": [],
-   "analysis": "Elizara Yaneva (Weltrangliste #139) trifft auf Jessica Pieri (#339). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Elizara Yaneva mit 68 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T13:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Erste Bank Open",
-   "round": "Qualifying 1st Round",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Skander Mansouri / Maximilian Neuchrist",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Sander Arends / Luke Johnson",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-10-27T13:30:00+01:00",
-   "tour": "ATP",
-   "tournament": "Erste Bank Open",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Andrey Rublev",
-    "rank": 22,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "p2": {
-    "name": "Tommy Paul",
-    "rank": 14,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 8
-   },
-   "pP1": 0.4051,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.4051
-   },
-   "h2h": [],
-   "analysis": "Andrey Rublev (Weltrangliste #22) trifft auf Tommy Paul (#14). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Tommy Paul mit 59 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 2.2,
-    "p2": 1.71,
-    "src": "BetOnline.ag"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T13:30:00+01:00",
-   "tour": "ATP",
-   "tournament": "Swiss Indoors Basel",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Arthur Rinderknech",
-    "rank": 61,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Jerome Kym",
-    "rank": 222,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.7499,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.7499
-   },
-   "h2h": [],
-   "analysis": "Arthur Rinderknech (Weltrangliste #61) trifft auf Jerome Kym (#222). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Arthur Rinderknech mit 75 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 2.09,
-    "p2": 1.82,
-    "src": "Pinnacle"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T14:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Swiss Indoors Basel",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Rafael Jodar",
-    "rank": 11,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Alejandro Tabilo",
-    "rank": 30,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.7012,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.7012
-   },
-   "h2h": [],
-   "analysis": "Rafael Jodar (Weltrangliste #11) trifft auf Alejandro Tabilo (#30). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Rafael Jodar mit 70 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 1.3,
-    "p2": 3.83,
-    "src": "Pinnacle"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T14:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "Valle D'Aosta Ladies Open",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Alina Charaeva",
-    "rank": 100,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Enola Chiesa",
-    "rank": 535,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 5
-   },
-   "pP1": 0.8062,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.8062
-   },
-   "h2h": [],
-   "analysis": "Alina Charaeva (Weltrangliste #100) trifft auf Enola Chiesa (#535). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alina Charaeva mit 81 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T14:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "Valle D'Aosta Ladies Open",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Oksana Selekhmeteva",
-    "rank": 120,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Adrienn Nagy",
-    "rank": 434,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "pP1": 0.7489,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.7489
-   },
-   "h2h": [],
-   "analysis": "Oksana Selekhmeteva (Weltrangliste #120) trifft auf Adrienn Nagy (#434). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Oksana Selekhmeteva mit 75 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T15:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Erste Bank Open",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Carlos Alcaraz",
-    "rank": 3,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Karen Khachanov",
-    "rank": 24,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 8
-   },
-   "pP1": 0.8541,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.8541
-   },
-   "h2h": [],
-   "analysis": "Carlos Alcaraz (Weltrangliste #3) trifft auf Karen Khachanov (#24). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Carlos Alcaraz mit 85 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 1.21,
-    "p2": 4.51,
-    "src": "BetOnline.ag"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T15:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Erste Bank Open",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Ignacio Buse",
-    "rank": 32,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Adrian Mannarino",
-    "rank": 73,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4,
-    "sets7": 9
-   },
-   "pP1": 0.6684,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6684
-   },
-   "h2h": [],
-   "analysis": "Ignacio Buse (Weltrangliste #32) trifft auf Adrian Mannarino (#73). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Ignacio Buse mit 67 % vorn. Adrian Mannarino hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 9 Sätzen) – die physische Frische ist ein Fragezeichen.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 2.45,
-    "p2": 1.55,
-    "src": "LeoVegas (SE)"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T15:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Swiss Indoors Basel",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Botic Van De Zandschulp",
-    "rank": 37,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "p2": {
-    "name": "Alex Michelsen",
-    "rank": 34,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 4
-   },
-   "pP1": 0.482,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.482
-   },
-   "h2h": [],
-   "analysis": "Botic Van De Zandschulp (Weltrangliste #37) trifft auf Alex Michelsen (#34). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alex Michelsen mit 52 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 2.73,
-    "p2": 1.51,
-    "src": "Pinnacle"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T15:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "Curitiba Open",
-   "round": "1. Runde",
-   "surface": "Sand",
-   "p1": {
-    "name": "Rebeka Masarova",
-    "rank": 158,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Julia Riera",
-    "rank": 140,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.4743,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.4743
-   },
-   "h2h": [],
-   "analysis": "Rebeka Masarova (Weltrangliste #158) trifft auf Julia Riera (#140). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Julia Riera mit 53 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T15:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "Curitiba Open",
-   "round": "1. Runde",
-   "surface": "Sand",
-   "p1": {
-    "name": "Maria Urrutia",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Francesca Jones",
-    "rank": 98,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.3109,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.3109
-   },
-   "h2h": [],
-   "analysis": "Maria Urrutia – aktuell ohne Top-Ranking – trifft auf Francesca Jones (#98). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Francesca Jones mit 69 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T15:30:00+01:00",
-   "tour": "ATP",
-   "tournament": "Swiss Indoors Basel",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Arthur Fils",
-    "rank": 8,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 5
-   },
-   "p2": {
-    "name": "Giovanni Mpetshi Perricard",
-    "rank": 148,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 5
-   },
-   "pP1": 0.9227,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.9227
-   },
-   "h2h": [],
-   "analysis": "Arthur Fils (Weltrangliste #8) trifft auf Giovanni Mpetshi Perricard (#148). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Arthur Fils mit 92 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 1.2,
-    "p2": 4.5,
-    "src": "LeoVegas (SE)"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T15:30:00+01:00",
-   "tour": "WTA",
-   "tournament": "Valle D'Aosta Ladies Open",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Linda Klimovicova",
-    "rank": 264,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Gaia Maduzzi",
-    "rank": 516,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 4
-   },
-   "pP1": 0.6387,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6387
-   },
-   "h2h": [],
-   "analysis": "Linda Klimovicova (Weltrangliste #264) trifft auf Gaia Maduzzi (#516). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Linda Klimovicova mit 64 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T15:30:00+01:00",
-   "tour": "WTA",
-   "tournament": "Valle D'Aosta Ladies Open",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Martyna Kubka",
-    "rank": 148,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Mia Ristic",
-    "rank": 182,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.5438,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.5438
-   },
-   "h2h": [],
-   "analysis": "Martyna Kubka (Weltrangliste #148) trifft auf Mia Ristic (#182). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Martyna Kubka mit 54 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T16:30:00+01:00",
-   "tour": "ATP",
-   "tournament": "Erste Bank Open",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Francisco Cerundolo",
-    "rank": 19,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 7
-   },
-   "p2": {
-    "name": "Cameron Norrie",
-    "rank": 41,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "pP1": 0.6579,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6579
-   },
-   "h2h": [],
-   "analysis": "Francisco Cerundolo (Weltrangliste #19) trifft auf Cameron Norrie (#41). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Francisco Cerundolo mit 66 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 1.48,
-    "p2": 2.8,
-    "src": "BetOnline.ag"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T16:30:00+01:00",
+   "start": "2026-10-27T18:30:00+01:00",
    "tour": "ATP",
    "tournament": "Swiss Indoors Basel",
    "round": "1. Runde",
@@ -7075,420 +6310,7 @@
    "timeTBD": false
   },
   {
-   "start": "2026-10-27T16:30:00+01:00",
-   "tour": "WTA",
-   "tournament": "Curitiba Open",
-   "round": "1. Runde",
-   "surface": "Sand",
-   "p1": {
-    "name": "Solana Sierra",
-    "rank": 101,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Justina Gonzalez Daniele",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.6836,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6836
-   },
-   "h2h": [],
-   "analysis": "Solana Sierra (#101) trifft auf Justina Gonzalez Daniele, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Solana Sierra mit 68 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T16:30:00+01:00",
-   "tour": "WTA",
-   "tournament": "Curitiba Open",
-   "round": "1. Runde",
-   "surface": "Sand",
-   "p1": {
-    "name": "Luna Maria Cinalli",
-    "rank": 667,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "p2": {
-    "name": "Ana Candiotto",
-    "rank": 550,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.4591,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.4591
-   },
-   "h2h": [],
-   "analysis": "Luna Maria Cinalli (Weltrangliste #667) trifft auf Ana Candiotto (#550). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Ana Candiotto mit 54 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T16:30:00+01:00",
-   "tour": "WTA",
-   "tournament": "Queretaro Open",
-   "round": "1. Runde",
-   "surface": "Sand",
-   "p1": {
-    "name": "Carlota Garibay Romero",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Tatjana Maria",
-    "rank": 70,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.2531,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.2531
-   },
-   "h2h": [],
-   "analysis": "Carlota Garibay Romero – aktuell ohne Top-Ranking – trifft auf Tatjana Maria (#70). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Tatjana Maria mit 75 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T16:30:00+01:00",
-   "tour": "WTA",
-   "tournament": "Queretaro Open",
-   "round": "1. Runde",
-   "surface": "Sand",
-   "p1": {
-    "name": "Zuzanna Pawlikowska",
-    "rank": 330,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Martina Colmegna",
-    "rank": 420,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.5511,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.5511
-   },
-   "h2h": [],
-   "analysis": "Zuzanna Pawlikowska (Weltrangliste #330) trifft auf Martina Colmegna (#420). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Zuzanna Pawlikowska mit 55 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T16:30:00+01:00",
-   "tour": "WTA",
-   "tournament": "Queretaro Open",
-   "round": "1. Runde",
-   "surface": "Sand",
-   "p1": {
-    "name": "Lan Mi",
-    "rank": 407,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Adriana Reami",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.3979,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.3979
-   },
-   "h2h": [],
-   "analysis": "Lan Mi (#407) trifft auf Adriana Reami, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Adriana Reami mit 60 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T17:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "Valle D'Aosta Ladies Open",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Dalma Galfi",
-    "rank": 152,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Anna Blinkova",
-    "rank": 73,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.349,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.349
-   },
-   "h2h": [],
-   "analysis": "Dalma Galfi (Weltrangliste #152) trifft auf Anna Blinkova (#73). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Anna Blinkova mit 65 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T17:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "Valle D'Aosta Ladies Open",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Anastasiia Sobolieva",
-    "rank": 166,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Susan Bandecchi",
-    "rank": 149,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.4771,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.4771
-   },
-   "h2h": [],
-   "analysis": "Anastasiia Sobolieva (Weltrangliste #166) trifft auf Susan Bandecchi (#149). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Susan Bandecchi mit 52 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T17:30:00+01:00",
-   "tour": "ATP",
-   "tournament": "Erste Bank Open",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Martin Landaluce",
-    "rank": 67,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "p2": {
-    "name": "Alexander Zverev",
-    "rank": 2,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.0481,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.0481
-   },
-   "h2h": [],
-   "analysis": "Martin Landaluce (Weltrangliste #67) trifft auf Alexander Zverev (#2). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alexander Zverev mit 95 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 7.32,
-    "p2": 1.1,
-    "src": "BetOnline.ag"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T18:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Swiss Indoors Basel",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Aleksandar Kovacevic",
-    "rank": 84,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 7
-   },
-   "p2": {
-    "name": "Ben Shelton",
-    "rank": 4,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.0699,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.0699
-   },
-   "h2h": [],
-   "analysis": "Aleksandar Kovacevic (Weltrangliste #84) trifft auf Ben Shelton (#4). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Ben Shelton mit 93 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 4.4,
-    "p2": 1.21,
-    "src": "LeoVegas (SE)"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T18:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Swiss Indoors Basel",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Arthur Reymond / Luca Sanchez",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Francisco Cabral / JJ Tracy",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-10-27T18:00:00+01:00",
+   "start": "2026-10-27T18:50:00+01:00",
    "tour": "WTA",
    "tournament": "Curitiba Open",
    "round": "1. Runde",
@@ -7530,91 +6352,7 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-10-27T18:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "Queretaro Open",
-   "round": "1. Runde",
-   "surface": "Sand",
-   "p1": {
-    "name": "Martina Capurro Taborda",
-    "rank": 277,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Polona Hercog",
-    "rank": 206,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.4374,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.4374
-   },
-   "h2h": [],
-   "analysis": "Martina Capurro Taborda (Weltrangliste #277) trifft auf Polona Hercog (#206). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Polona Hercog mit 56 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T18:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "Queretaro Open",
-   "round": "1. Runde",
-   "surface": "Sand",
-   "p1": {
-    "name": "Emiliana Arango",
-    "rank": 157,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Elizabeth Mandlik",
-    "rank": 210,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.5615,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.5615
-   },
-   "h2h": [],
-   "analysis": "Emiliana Arango (Weltrangliste #157) trifft auf Elizabeth Mandlik (#210). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Emiliana Arango mit 56 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T18:00:00+01:00",
+   "start": "2026-10-27T18:50:00+01:00",
    "tour": "WTA",
    "tournament": "Queretaro Open",
    "round": "1. Runde",
@@ -7747,48 +6485,6 @@
   {
    "start": "2026-10-27T19:30:00+01:00",
    "tour": "WTA",
-   "tournament": "Curitiba Open",
-   "round": "1. Runde",
-   "surface": "Sand",
-   "p1": {
-    "name": "Marjorie Souza",
-    "rank": 747,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Berta Bonardi",
-    "rank": 638,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": 0.4665,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.4665
-   },
-   "h2h": [],
-   "analysis": "Marjorie Souza (Weltrangliste #747) trifft auf Berta Bonardi (#638). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Berta Bonardi mit 53 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-27T19:30:00+01:00",
-   "tour": "WTA",
    "tournament": "Queretaro Open",
    "round": "1. Runde",
    "surface": "Sand",
@@ -7874,6 +6570,73 @@
     "src": "BetOnline.ag"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-27T20:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Swiss Indoors Basel",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Arthur Reymond / Luca Sanchez",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Francisco Cabral / JJ Tracy",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-27T20:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Curitiba Open",
+   "round": "1. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Marjorie Souza",
+    "rank": 747,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Berta Bonardi",
+    "rank": 638,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.4665,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4665
+   },
+   "h2h": [],
+   "analysis": "Marjorie Souza (Weltrangliste #747) trifft auf Berta Bonardi (#638). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Berta Bonardi mit 53 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-10-27T20:30:00+01:00",
@@ -8385,821 +7148,6 @@
   },
   {
    "start": "2026-10-28T05:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Erste Bank Open",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Brandon Nakashima",
-    "rank": 17,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 8
-   },
-   "p2": {
-    "name": "Tallon Griekspoor",
-    "rank": 50,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 5,
-    "sets7": 14
-   },
-   "pP1": 0.7144,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.7144
-   },
-   "h2h": [],
-   "analysis": "Brandon Nakashima (Weltrangliste #17) trifft auf Tallon Griekspoor (#50). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Brandon Nakashima mit 71 % vorn. Tallon Griekspoor hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 14 Sätzen) – die physische Frische ist ein Fragezeichen.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "odds": {
-    "p1": 1.45,
-    "p2": 2.84,
-    "src": "BetOnline.ag"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Erste Bank Open",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Daniil Medvedev",
-    "rank": 5,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4,
-    "sets7": 8
-   },
-   "p2": {
-    "name": "Daniel Merida",
-    "rank": 42,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.8592,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.8592
-   },
-   "h2h": [],
-   "analysis": "Daniil Medvedev (Weltrangliste #5) trifft auf Daniel Merida (#42). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Daniil Medvedev mit 86 % vorn. Daniil Medvedev hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 8 Sätzen) – die physische Frische ist ein Fragezeichen.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Erste Bank Open",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Nikoloz Basilashvili",
-    "rank": 95,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4,
-    "sets7": 10
-   },
-   "p2": {
-    "name": "Jurij Rodionov",
-    "rank": 137,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.5772,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.5772
-   },
-   "h2h": [],
-   "analysis": "Nikoloz Basilashvili (Weltrangliste #95) trifft auf Jurij Rodionov (#137). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Nikoloz Basilashvili mit 58 % vorn. Nikoloz Basilashvili hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "odds": {
-    "p1": 1.69,
-    "p2": 2.24,
-    "src": "BetOnline.ag"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Erste Bank Open",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Frances Tiafoe",
-    "rank": 9,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Lorenzo Musetti",
-    "rank": 26,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4,
-    "sets7": 10
-   },
-   "pP1": 0.7113,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.7113
-   },
-   "h2h": [],
-   "analysis": "Frances Tiafoe (Weltrangliste #9) trifft auf Lorenzo Musetti (#26). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Frances Tiafoe mit 71 % vorn. Lorenzo Musetti hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "odds": {
-    "p1": 1.86,
-    "p2": 1.96,
-    "src": "BetOnline.ag"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Erste Bank Open",
-   "round": "2. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Alex de Minaur",
-    "rank": 10,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "p2": {
-    "name": "Learner Tien",
-    "rank": 18,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": 0.6224,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6224
-   },
-   "h2h": [],
-   "analysis": "Alex de Minaur (Weltrangliste #10) trifft auf Learner Tien (#18). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alex de Minaur mit 62 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "odds": {
-    "p1": 1.76,
-    "p2": 2.05,
-    "src": "Marathon Bet"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Erste Bank Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Christian Harrison / Neal Skupski",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Orlando Luz / Rafael Matos",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Erste Bank Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Guido Andreozzi / Manuel Guinard",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Robert Cash / Alexander Erler",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Erste Bank Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Petr Nouza / Michael Venus",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Lucas Miedler / Neil Oberleitner",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Erste Bank Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Ignacio Buse / Luciano Darderi",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "TBD / TBD",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Erste Bank Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Marcelo Arevalo / Mate Pavic",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Francisco Cerundolo / Tomas Martin Etcheverry",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Erste Bank Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Lukas Neumayer / Jurij Rodionov",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Ryan Seggerman / Learner Tien",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Erste Bank Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Austin Krajicek / Nikola Mektic",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Harri Heliovaara / Henry Patten",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Erste Bank Open",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Marcelo Melo / Alexander Zverev",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Simone Bolelli / Andrea Vavassori",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Swiss Indoors Basel",
-   "round": "2. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Casper Ruud",
-    "rank": 25,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "p2": {
-    "name": "Nuno Borges",
-    "rank": 53,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": 0.6545,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6545
-   },
-   "h2h": [],
-   "analysis": "Casper Ruud (Weltrangliste #25) trifft auf Nuno Borges (#53). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Casper Ruud mit 65 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "odds": {
-    "p1": 1.39,
-    "p2": 2.5,
-    "src": "Winamax (FR)"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Swiss Indoors Basel",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Denis Shapovalov",
-    "rank": 52,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Remy Bertola",
-    "rank": 236,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 7
-   },
-   "pP1": 0.7834,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.7834
-   },
-   "h2h": [],
-   "analysis": "Denis Shapovalov (Weltrangliste #52) trifft auf Remy Bertola (#236). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Denis Shapovalov mit 78 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "odds": {
-    "p1": 1.36,
-    "p2": 3.65,
-    "src": "Betfair"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Swiss Indoors Basel",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Rinky Hijikata",
-    "rank": 85,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 7
-   },
-   "p2": {
-    "name": "Taylor Fritz",
-    "rank": 13,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4,
-    "sets7": 8
-   },
-   "pP1": 0.1685,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.1685
-   },
-   "h2h": [],
-   "analysis": "Rinky Hijikata (Weltrangliste #85) trifft auf Taylor Fritz (#13). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Taylor Fritz mit 83 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "odds": {
-    "p1": 7.5,
-    "p2": 1.08,
-    "src": "LeoVegas (SE)"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Swiss Indoors Basel",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Jan-Lennard Struff",
-    "rank": 47,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 5,
-    "sets7": 12
-   },
-   "p2": {
-    "name": "Yannick Hanfmann",
-    "rank": 59,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 6
-   },
-   "pP1": 0.5482,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.5482
-   },
-   "h2h": [],
-   "analysis": "Jan-Lennard Struff (Weltrangliste #47) trifft auf Yannick Hanfmann (#59). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Jan-Lennard Struff mit 55 % vorn. Jan-Lennard Struff hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 12 Sätzen) – die physische Frische ist ein Fragezeichen.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "odds": {
-    "p1": 1.84,
-    "p2": 2.12,
-    "src": "Matchbook"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Swiss Indoors Basel",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Ugo Humbert",
-    "rank": 38,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "p2": {
-    "name": "Novak Djokovic",
-    "rank": 12,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.2729,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.2729
-   },
-   "h2h": [],
-   "analysis": "Ugo Humbert (Weltrangliste #38) trifft auf Novak Djokovic (#12). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Novak Djokovic mit 73 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "odds": {
-    "p1": 3.15,
-    "p2": 1.41,
-    "src": "Pinnacle"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Swiss Indoors Basel",
-   "round": "Viertelfinale",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "TBD / TBD",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Alex Michelsen / Botic Van De Zandschulp",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Swiss Indoors Basel",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Marc Polmans / Jan Zielinski",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Robert Galloway / Andre Goransson",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Swiss Indoors Basel",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Theo Arribage / Albano Olivetti",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Hugo Nys / Edouard Roger-Vasselin",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Swiss Indoors Basel",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Julian Cash / Lloyd Glasspool",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Adam Pavlasek / Patrik Rikl",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Swiss Indoors Basel",
-   "round": "Viertelfinale",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "TBD / TBD",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Kevin Krawietz / Tim Puetz",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Swiss Indoors Basel",
-   "round": "1. Runde",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Constantin Frantzén / Robin Haase",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Mariano Navone / Alejandro Tabilo",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
    "tour": "WTA",
    "tournament": "Toray Pan Pacific Open Tennis",
    "round": "2. Runde",
@@ -9356,6 +7304,48 @@
    "round": "2. Runde",
    "surface": "Sand",
    "p1": {
+    "name": "Luna Maria Cinalli",
+    "rank": 667,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
+   },
+   "p2": {
+    "name": "Alice Tubello",
+    "rank": 207,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.27,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.27
+   },
+   "h2h": [],
+   "analysis": "Luna Maria Cinalli (Weltrangliste #667) trifft auf Alice Tubello (#207). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alice Tubello mit 73 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-28T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Curitiba Open",
+   "round": "2. Runde",
+   "surface": "Sand",
+   "p1": {
     "name": "Luisina Giovannini",
     "rank": 199,
     "form": [],
@@ -9394,186 +7384,18 @@
   {
    "start": "2026-10-28T05:00:00+01:00",
    "tour": "WTA",
-   "tournament": "Valle D'Aosta Ladies Open",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Lisa Pigato",
-    "rank": 102,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Robin Montgomery",
-    "rank": 150,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.5812,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.5812
-   },
-   "h2h": [],
-   "analysis": "Lisa Pigato (Weltrangliste #102) trifft auf Robin Montgomery (#150). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Lisa Pigato mit 58 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "Valle D'Aosta Ladies Open",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Erika Andreeva",
-    "rank": 214,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Yelyzaveta Kotliar",
-    "rank": 353,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": 0.6048,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6048
-   },
-   "h2h": [],
-   "analysis": "Erika Andreeva (Weltrangliste #214) trifft auf Yelyzaveta Kotliar (#353). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Erika Andreeva mit 60 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "Valle D'Aosta Ladies Open",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Katarina Zavatska",
-    "rank": 229,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Laura Mair",
-    "rank": 441,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.6358,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6358
-   },
-   "h2h": [],
-   "analysis": "Katarina Zavatska (Weltrangliste #229) trifft auf Laura Mair (#441). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Katarina Zavatska mit 64 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "Valle D'Aosta Ladies Open",
-   "round": "1. Runde",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Caroline Werner",
-    "rank": 262,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Elsa Jacquemot",
-    "rank": 135,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.3627,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.3627
-   },
-   "h2h": [],
-   "analysis": "Caroline Werner (Weltrangliste #262) trifft auf Elsa Jacquemot (#135). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Elsa Jacquemot mit 64 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-28T05:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "Valle D'Aosta Ladies Open",
+   "tournament": "Curitiba Open",
    "round": "Viertelfinale",
    "surface": null,
    "doubles": true,
    "p1": {
-    "name": "Laura Mair / Isabella Maria Serban",
+    "name": "Ana Candiotto / Despina Papamichail",
     "rank": null,
     "last7": 0,
     "sets7": 0
    },
    "p2": {
-    "name": "Hiroko Kuwata / Ankita Raina",
+    "name": "Justina Gonzalez Daniele / Antonia Vergara Rivera",
     "rank": null,
     "last7": 0,
     "sets7": 0
@@ -9587,18 +7409,18 @@
   {
    "start": "2026-10-28T05:00:00+01:00",
    "tour": "WTA",
-   "tournament": "Valle D'Aosta Ladies Open",
+   "tournament": "Curitiba Open",
    "round": "Viertelfinale",
    "surface": null,
    "doubles": true,
    "p1": {
-    "name": "Anastasiia Sobolieva / Elizara Yaneva",
+    "name": "Luiza Fullana / Rebeca Pereira",
     "rank": null,
     "last7": 0,
     "sets7": 0
    },
    "p2": {
-    "name": "Catherine Harrison / Dalayna Hewitt",
+    "name": "Dalila Jakupovic / Nika Radisic",
     "rank": null,
     "last7": 0,
     "sets7": 0
@@ -9612,18 +7434,43 @@
   {
    "start": "2026-10-28T05:00:00+01:00",
    "tour": "WTA",
-   "tournament": "Valle D'Aosta Ladies Open",
+   "tournament": "Curitiba Open",
    "round": "Viertelfinale",
    "surface": null,
    "doubles": true,
    "p1": {
-    "name": "Susan Bandecchi / Lisa Pigato",
+    "name": "Nauhany Vitoria Leme Da Silva / Laura Pigossi",
     "rank": null,
     "last7": 0,
     "sets7": 0
    },
    "p2": {
-    "name": "Enola Chiesa / Rositsa Dencheva",
+    "name": "Julia Konishi Camargo Silva / Marjorie Souza",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-28T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Curitiba Open",
+   "round": "Viertelfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Lucia Bronzetti / Julia Grabher",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Maria Lourdes Carle / Julia Riera",
     "rank": null,
     "last7": 0,
     "sets7": 0
@@ -9639,7 +7486,7 @@
    "tour": "WTA",
    "tournament": "Guangzhou Open",
    "round": "1. Runde",
-   "surface": "Hartplatz",
+   "surface": null,
    "p1": {
     "name": "Lanlana Tararudee",
     "rank": 57,
@@ -9731,7 +7578,7 @@
    "tour": "WTA",
    "tournament": "Guangzhou Open",
    "round": "2. Runde",
-   "surface": "Hartplatz",
+   "surface": null,
    "p1": {
     "name": "Sinja Kraus",
     "rank": 77,
@@ -9823,7 +7670,7 @@
    "tour": "WTA",
    "tournament": "Guangzhou Open",
    "round": "2. Runde",
-   "surface": "Hartplatz",
+   "surface": null,
    "p1": {
     "name": "Janice Tjen",
     "rank": 47,
@@ -9933,11 +7780,36 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
+   "start": "2026-10-28T11:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Swiss Indoors Basel",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Constantin Frantzén / Robin Haase",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Mariano Navone / Alejandro Tabilo",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
    "start": "2026-10-28T12:00:00+01:00",
    "tour": "WTA",
    "tournament": "Guangzhou Open",
    "round": "2. Runde",
-   "surface": "Hartplatz",
+   "surface": null,
    "p1": {
     "name": "Dayana Yastremska",
     "rank": 97,
@@ -9975,6 +7847,251 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
+   "start": "2026-10-28T12:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Valle D'Aosta Ladies Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Lisa Pigato",
+    "rank": 102,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Robin Montgomery",
+    "rank": 150,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.5812,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.5812
+   },
+   "h2h": [],
+   "analysis": "Lisa Pigato (Weltrangliste #102) trifft auf Robin Montgomery (#150). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Lisa Pigato mit 58 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-28T12:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Valle D'Aosta Ladies Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Erika Andreeva",
+    "rank": 214,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Yelyzaveta Kotliar",
+    "rank": 353,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.6048,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6048
+   },
+   "h2h": [],
+   "analysis": "Erika Andreeva (Weltrangliste #214) trifft auf Yelyzaveta Kotliar (#353). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Erika Andreeva mit 60 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-28T12:30:00+01:00",
+   "tour": "ATP",
+   "tournament": "Swiss Indoors Basel",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Jan-Lennard Struff",
+    "rank": 47,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 5,
+    "sets7": 12
+   },
+   "p2": {
+    "name": "Yannick Hanfmann",
+    "rank": 59,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 6
+   },
+   "pP1": 0.5482,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.5482
+   },
+   "h2h": [],
+   "analysis": "Jan-Lennard Struff (Weltrangliste #47) trifft auf Yannick Hanfmann (#59). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Jan-Lennard Struff mit 55 % vorn. Jan-Lennard Struff hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 12 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "odds": {
+    "p1": 1.84,
+    "p2": 2.12,
+    "src": "Matchbook"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-28T13:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Erste Bank Open",
+   "round": "Qualifying Final",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Maximo Gonzalez / Andres Molteni",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Sander Arends / Luke Johnson",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-28T13:30:00+01:00",
+   "tour": "ATP",
+   "tournament": "Erste Bank Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Brandon Nakashima",
+    "rank": 17,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 8
+   },
+   "p2": {
+    "name": "Tallon Griekspoor",
+    "rank": 50,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 5,
+    "sets7": 14
+   },
+   "pP1": 0.7144,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.7144
+   },
+   "h2h": [],
+   "analysis": "Brandon Nakashima (Weltrangliste #17) trifft auf Tallon Griekspoor (#50). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Brandon Nakashima mit 71 % vorn. Tallon Griekspoor hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 14 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "odds": {
+    "p1": 1.45,
+    "p2": 2.84,
+    "src": "BetOnline.ag"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-28T13:30:00+01:00",
+   "tour": "ATP",
+   "tournament": "Erste Bank Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Daniil Medvedev",
+    "rank": 5,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 4,
+    "sets7": 8
+   },
+   "p2": {
+    "name": "Daniel Merida",
+    "rank": 42,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.8592,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.8592
+   },
+   "h2h": [],
+   "analysis": "Daniil Medvedev (Weltrangliste #5) trifft auf Daniel Merida (#42). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Daniil Medvedev mit 86 % vorn. Daniil Medvedev hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 8 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
    "start": "2026-10-28T13:30:00+01:00",
    "tour": "WTA",
    "tournament": "Guangzhou Open",
@@ -10000,11 +8117,1135 @@
    "timeTBD": false
   },
   {
+   "start": "2026-10-28T13:30:00+01:00",
+   "tour": "WTA",
+   "tournament": "Valle D'Aosta Ladies Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Katarina Zavatska",
+    "rank": 229,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Laura Mair",
+    "rank": 441,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.6358,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6358
+   },
+   "h2h": [],
+   "analysis": "Katarina Zavatska (Weltrangliste #229) trifft auf Laura Mair (#441). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Katarina Zavatska mit 64 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-28T13:30:00+01:00",
+   "tour": "WTA",
+   "tournament": "Valle D'Aosta Ladies Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Caroline Werner",
+    "rank": 262,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Elsa Jacquemot",
+    "rank": 135,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.3627,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3627
+   },
+   "h2h": [],
+   "analysis": "Caroline Werner (Weltrangliste #262) trifft auf Elsa Jacquemot (#135). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Elsa Jacquemot mit 64 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-28T14:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Swiss Indoors Basel",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Denis Shapovalov",
+    "rank": 52,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Remy Bertola",
+    "rank": 236,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 7
+   },
+   "pP1": 0.7834,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.7834
+   },
+   "h2h": [],
+   "analysis": "Denis Shapovalov (Weltrangliste #52) trifft auf Remy Bertola (#236). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Denis Shapovalov mit 78 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "odds": {
+    "p1": 1.36,
+    "p2": 3.65,
+    "src": "Betfair"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-28T14:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Swiss Indoors Basel",
+   "round": "2. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Casper Ruud",
+    "rank": 25,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "p2": {
+    "name": "Nuno Borges",
+    "rank": 53,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.6545,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6545
+   },
+   "h2h": [],
+   "analysis": "Casper Ruud (Weltrangliste #25) trifft auf Nuno Borges (#53). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Casper Ruud mit 65 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "odds": {
+    "p1": 1.39,
+    "p2": 2.5,
+    "src": "Winamax (FR)"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-28T15:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Erste Bank Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Frances Tiafoe",
+    "rank": 9,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Lorenzo Musetti",
+    "rank": 26,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 4,
+    "sets7": 10
+   },
+   "pP1": 0.7113,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.7113
+   },
+   "h2h": [],
+   "analysis": "Frances Tiafoe (Weltrangliste #9) trifft auf Lorenzo Musetti (#26). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Frances Tiafoe mit 71 % vorn. Lorenzo Musetti hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "odds": {
+    "p1": 1.86,
+    "p2": 1.96,
+    "src": "BetOnline.ag"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-28T15:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Erste Bank Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Marcelo Melo / Alexander Zverev",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Simone Bolelli / Andrea Vavassori",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-28T15:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Erste Bank Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Marcelo Arevalo / Mate Pavic",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Francisco Cerundolo / Tomas Martin Etcheverry",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-28T15:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Valle D'Aosta Ladies Open",
+   "round": "2. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Oksana Selekhmeteva",
+    "rank": 120,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Elizara Yaneva",
+    "rank": 139,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.5312,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.5312
+   },
+   "h2h": [],
+   "analysis": "Oksana Selekhmeteva (Weltrangliste #120) trifft auf Elizara Yaneva (#139). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Oksana Selekhmeteva mit 53 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-28T15:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Valle D'Aosta Ladies Open",
+   "round": "Viertelfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Susan Bandecchi / Lisa Pigato",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Enola Chiesa / Rositsa Dencheva",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-28T15:30:00+01:00",
+   "tour": "ATP",
+   "tournament": "Swiss Indoors Basel",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Ugo Humbert",
+    "rank": 38,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "p2": {
+    "name": "Novak Djokovic",
+    "rank": 12,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.2729,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.2729
+   },
+   "h2h": [],
+   "analysis": "Ugo Humbert (Weltrangliste #38) trifft auf Novak Djokovic (#12). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Novak Djokovic mit 73 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "odds": {
+    "p1": 3.15,
+    "p2": 1.41,
+    "src": "Pinnacle"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-28T15:30:00+01:00",
+   "tour": "ATP",
+   "tournament": "Swiss Indoors Basel",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Theo Arribage / Albano Olivetti",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Hugo Nys / Edouard Roger-Vasselin",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-28T16:30:00+01:00",
+   "tour": "ATP",
+   "tournament": "Erste Bank Open",
+   "round": "2. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Adrian Mannarino",
+    "rank": 73,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 5,
+    "sets7": 12
+   },
+   "p2": {
+    "name": "Jakub Mensik",
+    "rank": 16,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.2158,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.2158
+   },
+   "h2h": [],
+   "analysis": "Adrian Mannarino (Weltrangliste #73) trifft auf Jakub Mensik (#16). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Jakub Mensik mit 78 % vorn. Adrian Mannarino hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 12 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-28T16:30:00+01:00",
+   "tour": "ATP",
+   "tournament": "Erste Bank Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Austin Krajicek / Nikola Mektic",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Harri Heliovaara / Henry Patten",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-28T16:30:00+01:00",
+   "tour": "WTA",
+   "tournament": "Valle D'Aosta Ladies Open",
+   "round": "2. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Alina Charaeva",
+    "rank": 100,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Gabriela Knutson",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "pP1": 0.6854,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6854
+   },
+   "h2h": [],
+   "analysis": "Alina Charaeva (#100) trifft auf Gabriela Knutson, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alina Charaeva mit 69 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-28T16:30:00+01:00",
+   "tour": "WTA",
+   "tournament": "Valle D'Aosta Ladies Open",
+   "round": "2. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Noma Noha Akugue",
+    "rank": 126,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Linda Klimovicova",
+    "rank": 264,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.6522,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6522
+   },
+   "h2h": [],
+   "analysis": "Noma Noha Akugue (Weltrangliste #126) trifft auf Linda Klimovicova (#264). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Noma Noha Akugue mit 65 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-28T17:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Swiss Indoors Basel",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Marc Polmans / Jan Zielinski",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Robert Galloway / Andre Goransson",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-28T17:30:00+01:00",
+   "tour": "ATP",
+   "tournament": "Erste Bank Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Nikoloz Basilashvili",
+    "rank": 95,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 4,
+    "sets7": 10
+   },
+   "p2": {
+    "name": "Jurij Rodionov",
+    "rank": 137,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.5772,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.5772
+   },
+   "h2h": [],
+   "analysis": "Nikoloz Basilashvili (Weltrangliste #95) trifft auf Jurij Rodionov (#137). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Nikoloz Basilashvili mit 58 % vorn. Nikoloz Basilashvili hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "odds": {
+    "p1": 1.69,
+    "p2": 2.24,
+    "src": "BetOnline.ag"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-28T18:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Erste Bank Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Guido Andreozzi / Manuel Guinard",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Robert Cash / Alexander Erler",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-28T18:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Swiss Indoors Basel",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Rinky Hijikata",
+    "rank": 85,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 7
+   },
+   "p2": {
+    "name": "Taylor Fritz",
+    "rank": 13,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 4,
+    "sets7": 8
+   },
+   "pP1": 0.1685,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.1685
+   },
+   "h2h": [],
+   "analysis": "Rinky Hijikata (Weltrangliste #85) trifft auf Taylor Fritz (#13). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Taylor Fritz mit 83 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "odds": {
+    "p1": 7.5,
+    "p2": 1.08,
+    "src": "LeoVegas (SE)"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-28T18:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Valle D'Aosta Ladies Open",
+   "round": "Viertelfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Madeleine Brooks / Lisa Zaar",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Adrienn Nagy / Sapfo Sakellaridi",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-28T18:30:00+01:00",
+   "tour": "ATP",
+   "tournament": "Swiss Indoors Basel",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Julian Cash / Lloyd Glasspool",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Adam Pavlasek / Patrik Rikl",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-10-28T19:30:00+01:00",
+   "tour": "ATP",
+   "tournament": "Swiss Indoors Basel",
+   "round": "2. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Holger Rune",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "p2": {
+    "name": "Hubert Hurkacz",
+    "rank": 28,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "pP1": 0.1346,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.1346
+   },
+   "h2h": [],
+   "analysis": "Holger Rune – aktuell ohne Top-Ranking – trifft auf Hubert Hurkacz (#28). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Hubert Hurkacz mit 87 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-28T20:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Erste Bank Open",
+   "round": "2. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Alex de Minaur",
+    "rank": 10,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "p2": {
+    "name": "Learner Tien",
+    "rank": 18,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.6224,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6224
+   },
+   "h2h": [],
+   "analysis": "Alex de Minaur (Weltrangliste #10) trifft auf Learner Tien (#18). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alex de Minaur mit 62 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "odds": {
+    "p1": 1.76,
+    "p2": 2.05,
+    "src": "Marathon Bet"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-28T20:30:00+01:00",
+   "tour": "WTA",
+   "tournament": "Valle D'Aosta Ladies Open",
+   "round": "2. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Ayla Aksu",
+    "rank": 159,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Lucrezia Stefanini",
+    "rank": 118,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.437,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.437
+   },
+   "h2h": [],
+   "analysis": "Ayla Aksu (Weltrangliste #159) trifft auf Lucrezia Stefanini (#118). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Lucrezia Stefanini mit 56 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-29T05:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Erste Bank Open",
+   "round": "2. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Luciano Darderi",
+    "rank": 23,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
+   },
+   "p2": {
+    "name": "Tommy Paul",
+    "rank": 14,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 4,
+    "sets7": 10
+   },
+   "pP1": 0.396,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.396
+   },
+   "h2h": [],
+   "analysis": "Luciano Darderi (Weltrangliste #23) trifft auf Tommy Paul (#14). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Tommy Paul mit 60 % vorn. Tommy Paul hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-29T05:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Erste Bank Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Christian Harrison / Neal Skupski",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Orlando Luz / Rafael Matos",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-29T05:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Erste Bank Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Lukas Neumayer / Jurij Rodionov",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Ryan Seggerman / Learner Tien",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-29T05:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Erste Bank Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Ignacio Buse / Luciano Darderi",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "TBD / TBD",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-29T05:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Erste Bank Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Petr Nouza / Michael Venus",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Lucas Miedler / Neil Oberleitner",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-29T05:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Swiss Indoors Basel",
+   "round": "2. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Rafael Jodar",
+    "rank": 11,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Valentin Vacherot",
+    "rank": 31,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 5
+   },
+   "pP1": 0.707,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.707
+   },
+   "h2h": [],
+   "analysis": "Rafael Jodar (Weltrangliste #11) trifft auf Valentin Vacherot (#31). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Rafael Jodar mit 71 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-29T05:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Swiss Indoors Basel",
+   "round": "Viertelfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "TBD / TBD",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Alex Michelsen / Botic Van De Zandschulp",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-29T05:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Swiss Indoors Basel",
+   "round": "Viertelfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "TBD / TBD",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Kevin Krawietz / Tim Puetz",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
    "start": "2026-10-29T05:00:00+01:00",
    "tour": "WTA",
    "tournament": "Guangzhou Open",
    "round": "2. Runde",
-   "surface": "Hartplatz",
+   "surface": null,
    "p1": {
     "name": "Zeynep Sonmez",
     "rank": 64,
@@ -10046,7 +9287,7 @@
    "tour": "WTA",
    "tournament": "Guangzhou Open",
    "round": "2. Runde",
-   "surface": "Hartplatz",
+   "surface": null,
    "p1": {
     "name": "Magda Linette",
     "rank": 71,
@@ -10088,7 +9329,49 @@
    "tour": "WTA",
    "tournament": "Guangzhou Open",
    "round": "2. Runde",
-   "surface": "Hartplatz",
+   "surface": null,
+   "p1": {
+    "name": "Xinran Sun",
+    "rank": 405,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Maria Timofeeva",
+    "rank": 72,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.1872,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.1872
+   },
+   "h2h": [],
+   "analysis": "Xinran Sun (Weltrangliste #405) trifft auf Maria Timofeeva (#72). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Maria Timofeeva mit 81 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-29T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Guangzhou Open",
+   "round": "2. Runde",
+   "surface": null,
    "p1": {
     "name": "Kaitlin Quevedo",
     "rank": 86,
@@ -10134,6 +9417,31 @@
    "doubles": true,
    "p1": {
     "name": "Eri Hozumi / Andreja Klepac",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "TBD / TBD",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-29T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Guangzhou Open",
+   "round": "Viertelfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "I-hsuan Cho / Yi-Tsen Cho",
     "rank": null,
     "last7": 0,
     "sets7": 0
@@ -10372,6 +9680,56 @@
    "analysis": "",
    "unconfirmed": false,
    "timeTBD": true
+  },
+  {
+   "start": "2026-10-29T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Valle D'Aosta Ladies Open",
+   "round": "Viertelfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Laura Mair / Isabella Maria Serban",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Hiroko Kuwata / Ankita Raina",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-10-29T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Valle D'Aosta Ladies Open",
+   "round": "Viertelfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Anastasiia Sobolieva / Elizara Yaneva",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Catherine Harrison / Dalayna Hewitt",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
   }
  ],
  "meta": {
@@ -10391,6 +9749,62 @@
   }
  },
  "tennisFinished": [
+  {
+   "tour": "ATP",
+   "tournament": "Erste Bank Open",
+   "p1": "Andrey Rublev",
+   "p2": "Tommy Paul",
+   "winner": "Tommy Paul",
+   "score": "5:7 2:6"
+  },
+  {
+   "tour": "ATP",
+   "tournament": "Erste Bank Open",
+   "p1": "Ignacio Buse",
+   "p2": "Adrian Mannarino",
+   "winner": "Adrian Mannarino",
+   "score": "6:0 5:7 4:6"
+  },
+  {
+   "tour": "ATP",
+   "tournament": "Erste Bank Open",
+   "p1": "Carlos Alcaraz",
+   "p2": "Karen Khachanov",
+   "winner": "Carlos Alcaraz",
+   "score": "6:4 7:6"
+  },
+  {
+   "tour": "ATP",
+   "tournament": "Swiss Indoors Basel",
+   "p1": "Zizou Bergs",
+   "p2": "Hubert Hurkacz",
+   "winner": "Hubert Hurkacz",
+   "score": "6:3 3:6 4:6"
+  },
+  {
+   "tour": "ATP",
+   "tournament": "Swiss Indoors Basel",
+   "p1": "Rafael Jodar",
+   "p2": "Alejandro Tabilo",
+   "winner": "Rafael Jodar",
+   "score": "6:4 6:2"
+  },
+  {
+   "tour": "ATP",
+   "tournament": "Swiss Indoors Basel",
+   "p1": "Arthur Rinderknech",
+   "p2": "Jerome Kym",
+   "winner": "Jerome Kym",
+   "score": "6:7 4:6"
+  },
+  {
+   "tour": "ATP",
+   "tournament": "Swiss Indoors Basel",
+   "p1": "Arthur Fils",
+   "p2": "Giovanni Mpetshi Perricard",
+   "winner": "Arthur Fils",
+   "score": "7:6 7:5"
+  },
   {
    "tour": "WTA",
    "tournament": "Guangzhou Open",
@@ -10454,6 +9868,14 @@
    "p2": "Lilli Tagger",
    "winner": "Lilli Tagger",
    "score": "2:6 2:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Guangzhou Open",
+   "p1": "Mananchaya Sawangkaew",
+   "p2": "Xinran Sun",
+   "winner": "Xinran Sun",
+   "score": "3:6 4:6"
   },
   {
    "tour": "WTA",
@@ -10521,6 +9943,30 @@
   },
   {
    "tour": "WTA",
+   "tournament": "Curitiba Open",
+   "p1": "Rebeka Masarova",
+   "p2": "Julia Riera",
+   "winner": "Julia Riera",
+   "score": "6:1 4:6 1:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Curitiba Open",
+   "p1": "Maria Urrutia",
+   "p2": "Francesca Jones",
+   "winner": "Francesca Jones",
+   "score": "5:7 1:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Curitiba Open",
+   "p1": "Luna Maria Cinalli",
+   "p2": "Ana Candiotto",
+   "winner": "Luna Maria Cinalli",
+   "score": "6:2 6:3"
+  },
+  {
+   "tour": "WTA",
    "tournament": "Valle D'Aosta Ladies Open",
    "p1": "Noma Noha Akugue",
    "p2": "Danka Kovinic",
@@ -10529,18 +9975,98 @@
   },
   {
    "tour": "WTA",
+   "tournament": "Valle D'Aosta Ladies Open",
+   "p1": "Isabella Maria Serban",
+   "p2": "Lucrezia Stefanini",
+   "winner": "Lucrezia Stefanini",
+   "score": "3:6 2:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Valle D'Aosta Ladies Open",
+   "p1": "Victoria Jimenez Kasintseva",
+   "p2": "Marina Bassols Ribera",
+   "winner": "Marina Bassols Ribera",
+   "score": "3:6 3:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Valle D'Aosta Ladies Open",
+   "p1": "Elizara Yaneva",
+   "p2": "Jessica Pieri",
+   "winner": "Elizara Yaneva",
+   "score": "6:2 6:2"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Valle D'Aosta Ladies Open",
+   "p1": "Oksana Selekhmeteva",
+   "p2": "Adrienn Nagy",
+   "winner": "Oksana Selekhmeteva",
+   "score": "6:4 6:2"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Valle D'Aosta Ladies Open",
+   "p1": "Alina Charaeva",
+   "p2": "Enola Chiesa",
+   "winner": "Alina Charaeva",
+   "score": "6:4 6:1"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Valle D'Aosta Ladies Open",
+   "p1": "Linda Klimovicova",
+   "p2": "Gaia Maduzzi",
+   "winner": "Linda Klimovicova",
+   "score": "6:4 6:2"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Valle D'Aosta Ladies Open",
+   "p1": "Martyna Kubka",
+   "p2": "Mia Ristic",
+   "winner": "Martyna Kubka",
+   "score": "6:3 7:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Valle D'Aosta Ladies Open",
+   "p1": "Dalma Galfi",
+   "p2": "Anna Blinkova",
+   "winner": "Anna Blinkova",
+   "score": "3:6 2:6"
+  },
+  {
+   "tour": "WTA",
    "tournament": "Queretaro Open",
    "p1": "Ana Grubor",
    "p2": "Selena Janicijevic",
    "winner": "Selena Janicijevic",
    "score": "0:6 2:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Queretaro Open",
+   "p1": "Carlota Garibay Romero",
+   "p2": "Tatjana Maria",
+   "winner": "Tatjana Maria",
+   "score": "0:6 0:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Queretaro Open",
+   "p1": "Lan Mi",
+   "p2": "Adriana Reami",
+   "winner": "Adriana Reami",
+   "score": "1:6 2:6"
   }
  ],
  "stats": {
   "overall": {
-   "n": 3964,
-   "correct": 2332,
-   "pct": 0.5883
+   "n": 3997,
+   "correct": 2359,
+   "pct": 0.5902
   },
   "football": {
    "n": 1124,
@@ -10548,15 +10074,15 @@
    "pct": 0.4982
   },
   "tennis": {
-   "n": 2840,
-   "correct": 1772,
-   "pct": 0.6239
+   "n": 2873,
+   "correct": 1799,
+   "pct": 0.6262
   },
   "exact": {
    "n": 1124,
    "correct": 126
   },
-  "open": 441,
+  "open": 418,
   "value": {
    "n": 107,
    "correct": 41,
@@ -10643,6 +10169,17 @@
    },
    {
     "date": "2026-10-27",
+    "comp": "WTA · Guangzhou Open",
+    "label": "Mananchaya Sawangkaew – Xinran Sun",
+    "tipName": "Mananchaya Sawangkaew",
+    "tip": "P1",
+    "prob": 0.7988,
+    "result": "Sieger: P2",
+    "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-27",
     "comp": "WTA · Toray Pan Pacific Open Tennis",
     "label": "Jasmine Paolini – Naomi Osaka",
     "tipName": "Naomi Osaka",
@@ -10720,123 +10257,112 @@
    },
    {
     "date": "2026-10-27",
-    "comp": "WTA · Queretaro Open",
-    "label": "Ana Grubor – Selena Janicijevic",
-    "tipName": "Selena Janicijevic",
-    "tip": "P2",
-    "prob": 0.599,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-27",
-    "comp": "WTA · Toray Pan Pacific Open Tennis",
-    "label": "Nikola Bartunkova – Aliaksandra Sasnovich",
-    "tipName": "Nikola Bartunkova",
+    "comp": "ATP · Erste Bank Open",
+    "label": "Carlos Alcaraz – Karen Khachanov",
+    "tipName": "Carlos Alcaraz",
     "tip": "P1",
-    "prob": 0.7592,
-    "result": "Sieger: P2",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-27",
-    "comp": "WTA · Guangzhou Open",
-    "label": "Janice Tjen – Polina Kudermetova",
-    "tipName": "Janice Tjen",
-    "tip": "P1",
-    "prob": 0.6368,
+    "prob": 0.8541,
     "result": "Sieger: P1",
     "correct": true,
     "sport": "tn"
    },
    {
     "date": "2026-10-27",
-    "comp": "WTA · Valle D'Aosta Ladies Open",
-    "label": "Noma Noha Akugue – Danka Kovinic",
-    "tipName": "Noma Noha Akugue",
+    "comp": "ATP · Erste Bank Open",
+    "label": "Ignacio Buse – Adrian Mannarino",
+    "tipName": "Ignacio Buse",
     "tip": "P1",
-    "prob": 0.8362,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-26",
-    "comp": "La Liga",
-    "label": "Sevilla – Osasuna",
-    "tipName": "Sevilla",
-    "tip": "1",
-    "prob": 0.4954,
-    "result": "2:0",
-    "correct": true,
-    "sport": "fb"
-   },
-   {
-    "date": "2026-10-26",
-    "comp": "La Liga 2",
-    "label": "FC Andorra – Burgos",
-    "tipName": "Burgos",
-    "tip": "2",
-    "prob": 0.3736,
-    "result": "2:3",
-    "correct": true,
-    "sport": "fb"
-   },
-   {
-    "date": "2026-10-26",
-    "comp": "Primeira Liga (Portugal)",
-    "label": "Santa Clara – Benfica",
-    "tipName": "Benfica",
-    "tip": "2",
-    "prob": 0.5941,
-    "result": "1:2",
-    "correct": true,
-    "sport": "fb"
-   },
-   {
-    "date": "2026-10-26",
-    "comp": "Süper Lig (Türkei)",
-    "label": "Galatasaray – Fenerbahce",
-    "tipName": "Galatasaray",
-    "tip": "1",
-    "prob": 0.4154,
-    "result": "2:1",
-    "correct": true,
-    "sport": "fb"
-   },
-   {
-    "date": "2026-10-26",
-    "comp": "WTA · Guangzhou Open",
-    "label": "Claire Liu – Antonia Ruzic",
-    "tipName": "Antonia Ruzic",
-    "tip": "P2",
-    "prob": 0.5091,
-    "result": "Sieger: P1",
+    "prob": 0.6684,
+    "result": "Sieger: P2",
     "correct": false,
     "sport": "tn"
    },
    {
-    "date": "2026-10-26",
-    "comp": "WTA · Guangzhou Open",
-    "label": "Venus Williams – Lilli Tagger",
-    "tipName": "Lilli Tagger",
+    "date": "2026-10-27",
+    "comp": "ATP · Erste Bank Open",
+    "label": "Andrey Rublev – Tommy Paul",
+    "tipName": "Tommy Paul",
     "tip": "P2",
-    "prob": 0.8807,
+    "prob": 0.5949,
     "result": "Sieger: P2",
     "correct": true,
     "sport": "tn"
    },
    {
-    "date": "2026-10-26",
-    "comp": "WTA · Guangzhou Open",
-    "label": "Jil Teichmann – Simona Waltert",
-    "tipName": "Simona Waltert",
+    "date": "2026-10-27",
+    "comp": "ATP · Swiss Indoors Basel",
+    "label": "Arthur Rinderknech – Jerome Kym",
+    "tipName": "Arthur Rinderknech",
+    "tip": "P1",
+    "prob": 0.7499,
+    "result": "Sieger: P2",
+    "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-27",
+    "comp": "ATP · Swiss Indoors Basel",
+    "label": "Arthur Fils – Giovanni Mpetshi Perricard",
+    "tipName": "Arthur Fils",
+    "tip": "P1",
+    "prob": 0.9227,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-27",
+    "comp": "ATP · Swiss Indoors Basel",
+    "label": "Rafael Jodar – Alejandro Tabilo",
+    "tipName": "Rafael Jodar",
+    "tip": "P1",
+    "prob": 0.7012,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-27",
+    "comp": "ATP · Swiss Indoors Basel",
+    "label": "Zizou Bergs – Hubert Hurkacz",
+    "tipName": "Hubert Hurkacz",
     "tip": "P2",
-    "prob": 0.5662,
+    "prob": 0.57,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-27",
+    "comp": "WTA · Curitiba Open",
+    "label": "Maria Urrutia – Francesca Jones",
+    "tipName": "Francesca Jones",
+    "tip": "P2",
+    "prob": 0.6891,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-27",
+    "comp": "WTA · Curitiba Open",
+    "label": "Luna Maria Cinalli – Ana Candiotto",
+    "tipName": "Ana Candiotto",
+    "tip": "P2",
+    "prob": 0.5409,
     "result": "Sieger: P1",
     "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-27",
+    "comp": "WTA · Curitiba Open",
+    "label": "Rebeka Masarova – Julia Riera",
+    "tipName": "Julia Riera",
+    "tip": "P2",
+    "prob": 0.5257,
+    "result": "Sieger: P2",
+    "correct": true,
     "sport": "tn"
    }
   ]
