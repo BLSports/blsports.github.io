@@ -91979,9 +91979,9 @@
    "tip": "P2",
    "tipName": "Alexandra Eala",
    "prob": 0.6432,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-10-28|badosa p|kraus s": {
    "sport": "tn",
@@ -92174,7 +92174,7 @@
    "p2Key": "bertola r",
    "tip": "P1",
    "tipName": "Denis Shapovalov",
-   "prob": 0.7916,
+   "prob": 0.7834,
    "status": "open",
    "result": null,
    "correct": null
@@ -92599,8 +92599,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 1.75,
-    "edge": 0.0904,
+    "odds": 1.83,
+    "edge": 0.1136,
     "modelP": 0.6125,
     "won": null
    }
@@ -93040,9 +93040,9 @@
    "tip": "P1",
    "tipName": "Janice Tjen",
    "prob": 0.6815,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-10-29|sonmez z|teichmann j": {
    "sport": "tn",
@@ -93319,7 +93319,7 @@
    "p2Key": "shelton b",
    "tip": "P2",
    "tipName": "Ben Shelton",
-   "prob": 0.9711,
+   "prob": 0.9681,
    "status": "open",
    "result": null,
    "correct": null
@@ -93401,7 +93401,7 @@
    "awayKey": "eintracht braunschweig",
    "tip": "1",
    "tipName": "DSC Arminia Bielefeld",
-   "prob": 0.5521,
+   "prob": 0.552,
    "tipScore": "1:1",
    "pOver25": 0.5658,
    "status": "open",
@@ -93421,7 +93421,7 @@
    "tipName": "Energie Cottbus",
    "prob": 0.4978,
    "tipScore": "1:1",
-   "pOver25": 0.6253,
+   "pOver25": 0.6251,
    "status": "open",
    "result": null,
    "correct": null,
@@ -93444,7 +93444,7 @@
    "awayKey": "sv meppen",
    "tip": "1",
    "tipName": "Fortuna Düsseldorf",
-   "prob": 0.3665,
+   "prob": 0.3667,
    "tipScore": "1:1",
    "pOver25": 0.3724,
    "status": "open",
@@ -93454,8 +93454,8 @@
    "value": {
     "pick": "2",
     "odds": 4.1,
-    "edge": 0.1105,
-    "modelP": 0.3408,
+    "edge": 0.1103,
+    "modelP": 0.3406,
     "won": null
    }
   },
@@ -94186,6 +94186,34 @@
    "tip": "P2",
    "tipName": "Kamilla Rakhimova",
    "prob": 0.5746,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-30|badosa p|dart h": {
+   "sport": "tn",
+   "comp": "WTA · Guangzhou Open",
+   "date": "2026-10-30",
+   "label": "Harriet Dart – Paula Badosa",
+   "p1Key": "dart h",
+   "p2Key": "badosa p",
+   "tip": "P2",
+   "tipName": "Paula Badosa",
+   "prob": 0.6316,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-10-30|eala a|shnaider d": {
+   "sport": "tn",
+   "comp": "WTA · Toray Pan Pacific Open Tennis",
+   "date": "2026-10-30",
+   "label": "Diana Shnaider – Alexandra Eala",
+   "p1Key": "shnaider d",
+   "p2Key": "eala a",
+   "tip": "P1",
+   "tipName": "Diana Shnaider",
+   "prob": 0.5799,
    "status": "open",
    "result": null,
    "correct": null
