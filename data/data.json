@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-31T10:59:04.918308+01:00",
+ "generatedAt": "2026-10-31T12:37:29.179277+01:00",
  "windowDays": 3,
  "days": [
   "2026-10-31",
@@ -1316,8 +1316,8 @@
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
       {
-       "title": "Einigung erzielt: Chatzialexiou wird Sportvorstand in Frankfurt",
-       "link": "https://www.kicker.de/einigung-erzielt-chatzialexiou-wird-sportvorstand-in-frankfurt-1267031/artikel#omrss"
+       "title": "Chatzialexiou wird Eintracht-Sportvorstand in Frankfurt - Nürnberg lässt Zeitpunkt offen",
+       "link": "https://www.kicker.de/chatzialexiou-wird-eintracht-sportvorstand-in-frankfurt-nuernberg-laesst-zeitpunkt-offen-1267031/artikel#omrss"
       }
      ]
     }
@@ -1372,17 +1372,17 @@
      "nTeams": 18,
      "h2h": [],
      "prediction": {
-      "pHome": 0.7282,
-      "pDraw": 0.1369,
-      "pAway": 0.1329,
-      "pOver25": 0.8446,
-      "pBtts": 0.7299,
+      "pHome": 0.7277,
+      "pDraw": 0.1371,
+      "pAway": 0.1332,
+      "pOver25": 0.8444,
+      "pBtts": 0.7298,
       "xgHome": 3.26,
       "xgAway": 1.43,
       "tipScore": "3:1",
       "confidence": "mittel"
      },
-     "pBtts": 0.7299,
+     "pBtts": 0.7298,
      "odds": {
       "h": 1.5,
       "d": 4.5,
@@ -1391,8 +1391,8 @@
      },
      "value": {
       "outcome": "1",
-      "edge": 0.1182,
-      "modelP": 0.7282,
+      "edge": 0.1177,
+      "modelP": 0.7277,
       "odds": 1.5
      },
      "scorersHome": [
@@ -1424,8 +1424,42 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "VfL Wolfsburg geht als klarer Favorit (73 %) in das Heimspiel gegen VfL Osnabrück. In der Tabelle stehen sich Platz 4 und Platz 9 gegenüber. Heim-/Auswärtsbilanz: VfL Wolfsburg gewann 2 der letzten 4 Heimspiele, VfL Osnabrück 1 der letzten 4 Auswärtsspiele. Das Modell erwartet ein torreiches Spiel (xG 3,3:1,4; über 2,5 Tore: 84 %, beide Teams treffen zu 73 %). Gefährlichste Torschützen: bei VfL Wolfsburg R. Glatzel (5 Tore) und bei VfL Osnabrück R. Meißner (4 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 1,50) für 12 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "analysis": "VfL Wolfsburg geht als klarer Favorit (73 %) in das Heimspiel gegen VfL Osnabrück. In der Tabelle stehen sich Platz 4 und Platz 9 gegenüber. Heim-/Auswärtsbilanz: VfL Wolfsburg gewann 2 der letzten 4 Heimspiele, VfL Osnabrück 1 der letzten 4 Auswärtsspiele. Das Modell erwartet ein torreiches Spiel (xG 3,3:1,4; über 2,5 Tore: 84 %, beide Teams treffen zu 73 %). Gefährlichste Torschützen: bei VfL Wolfsburg R. Glatzel (5 Tore) und bei VfL Osnabrück R. Meißner (4 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 1,50) für 12 Prozentpunkte wahrscheinlicher als der Markt. Die Aufstellungen sind offiziell (4-3-3 gegen 3-4-2-1).",
+     "lineups": {
+      "home": {
+       "formation": "4-3-3",
+       "xi": [
+        "T. Wellenreuther",
+        "S. Kumbedi",
+        "H. Wahl",
+        "Cleiton",
+        "J. Mæhle",
+        "M. Arnold",
+        "Vinicius Souza",
+        "M. Damar",
+        "A. Bernhardsson",
+        "R. Glatzel",
+        "F. Reese"
+       ]
+      },
+      "away": {
+       "formation": "3-4-2-1",
+       "xi": [
+        "J. Krumrey",
+        "R. Fabinski",
+        "J. Müller",
+        "N. Wiemann",
+        "K. Faber",
+        "L. Münst",
+        "B. Jacobsen",
+        "J. Gómez",
+        "D. Kyereh",
+        "A. Beck",
+        "R. Meißner"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-10-31T13:00:00+01:00",
@@ -1483,17 +1517,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.3684,
+      "pHome": 0.3686,
       "pDraw": 0.2276,
-      "pAway": 0.404,
-      "pOver25": 0.6532,
-      "pBtts": 0.6622,
+      "pAway": 0.4038,
+      "pOver25": 0.6533,
+      "pBtts": 0.6623,
       "xgHome": 1.64,
       "xgAway": 1.72,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6622,
+     "pBtts": 0.6623,
      "odds": {
       "h": 2.95,
       "d": 3.65,
@@ -1502,8 +1536,8 @@
      },
      "value": {
       "outcome": "1",
-      "edge": 0.0521,
-      "modelP": 0.3684,
+      "edge": 0.0523,
+      "modelP": 0.3686,
       "odds": 2.95
      },
      "scorersHome": [
@@ -1535,8 +1569,48 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "Zwischen SV Darmstadt 98 und 1. FC Magdeburg deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg SV Darmstadt 98 37 %, Unentschieden 23 %, Sieg 1. FC Magdeburg 40 %). In der Tabelle stehen sich Platz 18 und Platz 5 gegenüber. Heim-/Auswärtsbilanz: SV Darmstadt 98 gewann 2 der letzten 5 Heimspiele, 1. FC Magdeburg 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:1 (1. FC Magdeburg – SV Darmstadt 98). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,7; über 2,5 Tore: 65 %, beide Teams treffen zu 66 %). Gefährlichste Torschützen: bei SV Darmstadt 98 Ho-jae Lee (2 Tore) und bei 1. FC Magdeburg E. Iyoha (6 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,95) für 5 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "analysis": "Zwischen SV Darmstadt 98 und 1. FC Magdeburg deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg SV Darmstadt 98 37 %, Unentschieden 23 %, Sieg 1. FC Magdeburg 40 %). In der Tabelle stehen sich Platz 18 und Platz 5 gegenüber. Heim-/Auswärtsbilanz: SV Darmstadt 98 gewann 2 der letzten 5 Heimspiele, 1. FC Magdeburg 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:1 (1. FC Magdeburg – SV Darmstadt 98). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,7; über 2,5 Tore: 65 %, beide Teams treffen zu 66 %). Gefährlichste Torschützen: bei SV Darmstadt 98 Ho-jae Lee (2 Tore) und bei 1. FC Magdeburg E. Iyoha (6 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,95) für 5 Prozentpunkte wahrscheinlicher als der Markt. Die Aufstellungen sind offiziell (4-4-2 gegen 4-3-3).",
+     "lineups": {
+      "home": {
+       "formation": "4-4-2",
+       "xi": [
+        "M. Schuhen",
+        "W. Mikelbrencis",
+        "P. Pfeiffer",
+        "Y. Lührs",
+        "R. Petretta",
+        "M. Richter",
+        "K. Klefisch",
+        "H. Akiyama",
+        "N. Weißhaupt",
+        "M. Smit",
+        "F. Lakenmacher"
+       ]
+      },
+      "away": {
+       "formation": "4-3-3",
+       "xi": [
+        "D. Reimann",
+        "P. Nadjombe",
+        "T. Müller",
+        "A. MacNulty",
+        "A. Nollenberger",
+        "L. Hyryläinen",
+        "F. Michel",
+        "T. Müsel",
+        "E. Iyoha",
+        "R. Šimić",
+        "B. Atik"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "news": [
+      {
+       "title": "Halle nimmt in Magdeburg die Spitze ins Visier - Verfolgerduell zwischen Aue und Jena",
+       "link": "https://www.kicker.de/halle-nimmt-in-magdeburg-die-spitze-ins-visier-verfolgerduell-zwischen-aue-und-jena-1238720/artikel#omrss"
+      }
+     ]
     },
     {
      "kickoff": "2026-10-31T13:00:00+01:00",
@@ -1597,14 +1671,14 @@
       "pHome": 0.4121,
       "pDraw": 0.2852,
       "pAway": 0.3027,
-      "pOver25": 0.3905,
-      "pBtts": 0.452,
+      "pOver25": 0.3906,
+      "pBtts": 0.4522,
       "xgHome": 1.23,
-      "xgAway": 1.01,
+      "xgAway": 1.02,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.452,
+     "pBtts": 0.4522,
      "odds": {
       "h": 2.8,
       "d": 3.3,
@@ -1641,8 +1715,42 @@
       }
      ],
      "scorersPeriod": "Saison",
-     "analysis": "1. FC Kaiserslautern ist gegen Hertha BSC leicht favorisiert (41 % zu 30 %). In der Tabelle stehen sich Platz 3 und Platz 1 gegenüber. Heim-/Auswärtsbilanz: 1. FC Kaiserslautern gewann 4 der letzten 5 Heimspiele, Hertha BSC 4 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:1 (Hertha BSC – 1. FC Kaiserslautern). Das Modell erwartet eher wenige Tore (xG 1,2:1,0; über 2,5 Tore: 39 %, beide Teams treffen zu 45 %). Gefährlichste Torschützen: bei 1. FC Kaiserslautern Erencan Yardimci (3 Tore) und bei Hertha BSC J. Brekalo (5 Tore).",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+     "analysis": "1. FC Kaiserslautern ist gegen Hertha BSC leicht favorisiert (41 % zu 30 %). In der Tabelle stehen sich Platz 3 und Platz 1 gegenüber. Heim-/Auswärtsbilanz: 1. FC Kaiserslautern gewann 4 der letzten 5 Heimspiele, Hertha BSC 4 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:1 (Hertha BSC – 1. FC Kaiserslautern). Das Modell erwartet eher wenige Tore (xG 1,2:1,0; über 2,5 Tore: 39 %, beide Teams treffen zu 45 %). Gefährlichste Torschützen: bei 1. FC Kaiserslautern Erencan Yardimci (3 Tore) und bei Hertha BSC J. Brekalo (5 Tore). Die Aufstellungen sind offiziell (3-1-4-2 gegen 4-2-3-1).",
+     "lineups": {
+      "home": {
+       "formation": "3-1-4-2",
+       "xi": [
+        "J. Krahl",
+        "J. Elvedi",
+        "M. Gyamfi",
+        "A. Murphy",
+        "Leon Robinson",
+        "P. Joly",
+        "N. Skyttä",
+        "M. Sauer",
+        "Mika Haas",
+        "M. Luković",
+        "T. Fidjeu-Tazemeta"
+       ]
+      },
+      "away": {
+       "formation": "4-2-3-1",
+       "xi": [
+        "M. Gersbeck",
+        "J. Eitschberger",
+        "L. Gechter",
+        "N. Kolbe",
+        "M. Pedersen",
+        "P. Seguin",
+        "K. Sessa",
+        "S. Grønning",
+        "J. Þorsteinsson",
+        "J. Brekalo",
+        "O. Adewumi"
+       ]
+      }
+     },
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, offizielle Aufstellungen, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-10-31T20:30:00+01:00",
@@ -1686,17 +1794,17 @@
      "nTeams": 18,
      "h2h": [],
      "prediction": {
-      "pHome": 0.386,
+      "pHome": 0.3861,
       "pDraw": 0.2072,
-      "pAway": 0.4067,
-      "pOver25": 0.7604,
-      "pBtts": 0.7463,
+      "pAway": 0.4066,
+      "pOver25": 0.7602,
+      "pBtts": 0.7462,
       "xgHome": 1.97,
       "xgAway": 2.02,
       "tipScore": "1:2",
       "confidence": "mittel"
      },
-     "pBtts": 0.7463,
+     "pBtts": 0.7462,
      "odds": {
       "h": 3.05,
       "d": 3.55,
@@ -1705,8 +1813,8 @@
      },
      "value": {
       "outcome": "1",
-      "edge": 0.0872,
-      "modelP": 0.386,
+      "edge": 0.0873,
+      "modelP": 0.3861,
       "odds": 3.05
      },
      "scorersHome": [
@@ -1784,16 +1892,16 @@
      "h2h": [],
      "prediction": {
       "pHome": 0.4265,
-      "pDraw": 0.2864,
+      "pDraw": 0.2863,
       "pAway": 0.2872,
-      "pOver25": 0.3816,
-      "pBtts": 0.4422,
+      "pOver25": 0.3817,
+      "pBtts": 0.4423,
       "xgHome": 1.25,
       "xgAway": 0.97,
       "tipScore": "1:0",
       "confidence": "mittel"
      },
-     "pBtts": 0.4422,
+     "pBtts": 0.4423,
      "odds": {
       "h": 2.12,
       "d": 3.45,
@@ -1889,7 +1997,7 @@
       }
      ],
      "prediction": {
-      "pHome": 0.5262,
+      "pHome": 0.5263,
       "pDraw": 0.2254,
       "pAway": 0.2483,
       "pOver25": 0.5988,
@@ -1908,8 +2016,8 @@
      },
      "value": {
       "outcome": "1",
-      "edge": 0.0706,
-      "modelP": 0.5262,
+      "edge": 0.0707,
+      "modelP": 0.5263,
       "odds": 1.93
      },
      "scorersHome": [
@@ -1945,8 +2053,8 @@
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
      "news": [
       {
-       "title": "Verpuffter Trainerwechsel und latente Krise: Hannover beruft Boldt ab",
-       "link": "https://www.kicker.de/verpuffter-trainerwechsel-und-latente-krise-hannover-beruft-boldt-ab-1266574/artikel#omrss"
+       "title": "Hannover beruft Boldt ab",
+       "link": "https://www.kicker.de/hannover-beruft-boldt-ab-1266574/artikel#omrss"
       }
      ]
     },
@@ -2006,17 +2114,17 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4016,
+      "pHome": 0.4015,
       "pDraw": 0.2541,
-      "pAway": 0.3443,
-      "pOver25": 0.5219,
-      "pBtts": 0.5599,
-      "xgHome": 1.44,
+      "pAway": 0.3444,
+      "pOver25": 0.5221,
+      "pBtts": 0.56,
+      "xgHome": 1.45,
       "xgAway": 1.32,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.5599,
+     "pBtts": 0.56,
      "odds": {
       "h": 2.55,
       "d": 3.7,
@@ -2125,14 +2233,14 @@
       "pHome": 0.323,
       "pDraw": 0.2179,
       "pAway": 0.459,
-      "pOver25": 0.6892,
-      "pBtts": 0.6857,
+      "pOver25": 0.6893,
+      "pBtts": 0.6858,
       "xgHome": 1.61,
       "xgAway": 1.95,
       "tipScore": "1:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6857,
+     "pBtts": 0.6858,
      "odds": {
       "h": 2.85,
       "d": 3.8,
@@ -2231,7 +2339,7 @@
       "pHome": 0.6642,
       "pDraw": 0.1748,
       "pAway": 0.1606,
-      "pOver25": 0.7144,
+      "pOver25": 0.7145,
       "pBtts": 0.6372,
       "xgHome": 2.52,
       "xgAway": 1.18,
@@ -2334,10 +2442,10 @@
       }
      ],
      "prediction": {
-      "pHome": 0.4823,
+      "pHome": 0.4824,
       "pDraw": 0.232,
-      "pAway": 0.2857,
-      "pOver25": 0.5989,
+      "pAway": 0.2856,
+      "pOver25": 0.599,
       "pBtts": 0.6095,
       "xgHome": 1.78,
       "xgAway": 1.32,
@@ -2353,8 +2461,8 @@
      },
      "value": {
       "outcome": "1",
-      "edge": 0.1704,
-      "modelP": 0.4823,
+      "edge": 0.1705,
+      "modelP": 0.4824,
       "odds": 3.0
      },
      "scorersHome": [
@@ -2562,16 +2670,16 @@
      ],
      "prediction": {
       "pHome": 0.267,
-      "pDraw": 0.2085,
+      "pDraw": 0.2086,
       "pAway": 0.5244,
-      "pOver25": 0.6986,
-      "pBtts": 0.6805,
+      "pOver25": 0.6985,
+      "pBtts": 0.6804,
       "xgHome": 1.48,
       "xgAway": 2.13,
       "tipScore": "1:2",
       "confidence": "hoch"
      },
-     "pBtts": 0.6805,
+     "pBtts": 0.6804,
      "odds": {
       "h": 3.8,
       "d": 4.0,
@@ -2656,7 +2764,7 @@
      "prediction": {
       "pHome": 0.3872,
       "pDraw": 0.3251,
-      "pAway": 0.2877,
+      "pAway": 0.2878,
       "pOver25": 0.2737,
       "pBtts": 0.3527,
       "xgHome": 1.0,
@@ -2768,14 +2876,14 @@
       "pHome": 0.5039,
       "pDraw": 0.214,
       "pAway": 0.2821,
-      "pOver25": 0.6842,
-      "pBtts": 0.6736,
+      "pOver25": 0.6841,
+      "pBtts": 0.6735,
       "xgHome": 2.04,
       "xgAway": 1.49,
       "tipScore": "2:1",
       "confidence": "hoch"
      },
-     "pBtts": 0.6736,
+     "pBtts": 0.6735,
      "odds": {
       "h": 2.1,
       "d": 3.7,
@@ -2860,7 +2968,7 @@
      "prediction": {
       "pHome": 0.1703,
       "pDraw": 0.1748,
-      "pAway": 0.6545,
+      "pAway": 0.6546,
       "pOver25": 0.7344,
       "pBtts": 0.6612,
       "xgHome": 1.26,
@@ -2877,8 +2985,8 @@
      },
      "value": {
       "outcome": "2",
-      "edge": 0.1589,
-      "modelP": 0.6545,
+      "edge": 0.159,
+      "modelP": 0.6546,
       "odds": 1.9
      },
      "scorersHome": [
@@ -2959,7 +3067,7 @@
       "pHome": 0.6033,
       "pDraw": 0.1866,
       "pAway": 0.2098,
-      "pOver25": 0.7416,
+      "pOver25": 0.7417,
       "pBtts": 0.6915,
       "xgHome": 2.45,
       "xgAway": 1.41,
@@ -4818,10 +4926,10 @@
      "kickoff": "2026-11-01T12:30:00+01:00",
      "home": "Como",
      "away": "Venezia",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
+     "homeIcon": null,
+     "awayIcon": null,
      "matchday": null,
-     "roundName": null,
+     "roundName": "Regular Season - 10",
      "formHome": [
       "N",
       "U",
@@ -4944,138 +5052,12 @@
     },
     {
      "kickoff": "2026-11-01T15:00:00+01:00",
-     "home": "Frosinone",
-     "away": "Torino",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "S",
-      "N",
-      "S",
-      "U",
-      "S"
-     ],
-     "formAway": [
-      "U",
-      "S",
-      "S",
-      "S",
-      "N"
-     ],
-     "formHomeH": [
-      "N",
-      "S",
-      "S",
-      "S",
-      "S"
-     ],
-     "formAwayA": [
-      "N",
-      "N",
-      "S",
-      "U",
-      "S"
-     ],
-     "load14Home": 2,
-     "load14Away": 3,
-     "posHome": 6,
-     "posAway": 9,
-     "nTeams": 20,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.6906,
-      "pDraw": 0.1488,
-      "pAway": 0.1592,
-      "pOver25": 0.8425,
-      "pBtts": 0.749,
-      "xgHome": 3.13,
-      "xgAway": 1.53,
-      "tipScore": "3:1",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.749,
-     "odds": {
-      "h": 2.16,
-      "d": 3.96,
-      "a": 3.17,
-      "src": "Pinnacle"
-     },
-     "value": {
-      "outcome": "1",
-      "edge": 0.2415,
-      "modelP": 0.6906,
-      "odds": 2.16
-     },
-     "scorersHome": [
-      {
-       "name": "Antonio Raimondo",
-       "goals": 8
-      },
-      {
-       "name": "Giacomo Calo",
-       "goals": 4
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "C. Adams",
-       "goals": 4
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Frosinone geht als klarer Favorit (69 %) in das Heimspiel gegen Torino. In der Tabelle stehen sich Platz 6 und Platz 9 gegenüber. Heim-/Auswärtsbilanz: Frosinone gewann 4 der letzten 5 Heimspiele, Torino 2 der letzten 5 Auswärtsspiele. Das Modell erwartet ein torreiches Spiel (xG 3,1:1,5; über 2,5 Tore: 84 %, beide Teams treffen zu 75 %). Gefährlichste Torschützen: bei Frosinone Antonio Raimondo (8 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,16) für 24 Prozentpunkte wahrscheinlicher als der Markt. Personal: Frosinone fehlen 3 Spieler (u.a. F. Ghedjemis); Torino fehlen 11 Spieler (u.a. F. Anjorin).",
-     "injuriesHome": [
-      {
-       "name": "F. Ghedjemis",
-       "reason": "Calf Injury"
-      },
-      {
-       "name": "F. Grillitsch",
-       "reason": "Thigh Injury"
-      },
-      {
-       "name": "D. Birligea",
-       "reason": "Muscle Injury"
-      }
-     ],
-     "injuriesAway": [
-      {
-       "name": "F. Anjorin",
-       "reason": "Hip Injury"
-      },
-      {
-       "name": "E. Comert",
-       "reason": "Red Card"
-      },
-      {
-       "name": "C. Biraghi",
-       "reason": "Illness"
-      },
-      {
-       "name": "F. Israel",
-       "reason": "Shoulder Injury"
-      },
-      {
-       "name": "C. Casadei",
-       "reason": "Rest"
-      },
-      {
-       "name": "P. Pellegri",
-       "reason": "Jumpers Knee"
-      }
-     ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
-    {
-     "kickoff": "2026-11-01T15:00:00+01:00",
      "home": "Lazio",
      "away": "Cagliari",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
+     "homeIcon": null,
+     "awayIcon": null,
      "matchday": null,
-     "roundName": null,
+     "roundName": "Regular Season - 10",
      "formHome": [
       "S",
       "S",
@@ -5211,13 +5193,139 @@
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
+     "kickoff": "2026-11-01T15:00:00+01:00",
+     "home": "Frosinone",
+     "away": "Torino",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Regular Season - 10",
+     "formHome": [
+      "S",
+      "N",
+      "S",
+      "U",
+      "S"
+     ],
+     "formAway": [
+      "U",
+      "S",
+      "S",
+      "S",
+      "N"
+     ],
+     "formHomeH": [
+      "N",
+      "S",
+      "S",
+      "S",
+      "S"
+     ],
+     "formAwayA": [
+      "N",
+      "N",
+      "S",
+      "U",
+      "S"
+     ],
+     "load14Home": 2,
+     "load14Away": 3,
+     "posHome": 6,
+     "posAway": 9,
+     "nTeams": 20,
+     "h2h": [],
+     "prediction": {
+      "pHome": 0.6906,
+      "pDraw": 0.1488,
+      "pAway": 0.1592,
+      "pOver25": 0.8425,
+      "pBtts": 0.749,
+      "xgHome": 3.13,
+      "xgAway": 1.53,
+      "tipScore": "3:1",
+      "confidence": "hoch"
+     },
+     "pBtts": 0.749,
+     "odds": {
+      "h": 2.16,
+      "d": 3.96,
+      "a": 3.17,
+      "src": "Pinnacle"
+     },
+     "value": {
+      "outcome": "1",
+      "edge": 0.2415,
+      "modelP": 0.6906,
+      "odds": 2.16
+     },
+     "scorersHome": [
+      {
+       "name": "Antonio Raimondo",
+       "goals": 8
+      },
+      {
+       "name": "Giacomo Calo",
+       "goals": 4
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "C. Adams",
+       "goals": 4
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Frosinone geht als klarer Favorit (69 %) in das Heimspiel gegen Torino. In der Tabelle stehen sich Platz 6 und Platz 9 gegenüber. Heim-/Auswärtsbilanz: Frosinone gewann 4 der letzten 5 Heimspiele, Torino 2 der letzten 5 Auswärtsspiele. Das Modell erwartet ein torreiches Spiel (xG 3,1:1,5; über 2,5 Tore: 84 %, beide Teams treffen zu 75 %). Gefährlichste Torschützen: bei Frosinone Antonio Raimondo (8 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,16) für 24 Prozentpunkte wahrscheinlicher als der Markt. Personal: Frosinone fehlen 3 Spieler (u.a. F. Ghedjemis); Torino fehlen 11 Spieler (u.a. F. Anjorin).",
+     "injuriesHome": [
+      {
+       "name": "F. Ghedjemis",
+       "reason": "Calf Injury"
+      },
+      {
+       "name": "F. Grillitsch",
+       "reason": "Thigh Injury"
+      },
+      {
+       "name": "D. Birligea",
+       "reason": "Muscle Injury"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "F. Anjorin",
+       "reason": "Hip Injury"
+      },
+      {
+       "name": "E. Comert",
+       "reason": "Red Card"
+      },
+      {
+       "name": "C. Biraghi",
+       "reason": "Illness"
+      },
+      {
+       "name": "F. Israel",
+       "reason": "Shoulder Injury"
+      },
+      {
+       "name": "C. Casadei",
+       "reason": "Rest"
+      },
+      {
+       "name": "P. Pellegri",
+       "reason": "Jumpers Knee"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
      "kickoff": "2026-11-01T18:00:00+01:00",
      "home": "Lecce",
      "away": "Genoa",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+     "homeIcon": null,
+     "awayIcon": null,
      "matchday": null,
-     "roundName": null,
+     "roundName": "Regular Season - 10",
      "formHome": [
       "N",
       "N",
@@ -5346,10 +5454,10 @@
      "kickoff": "2026-11-01T20:45:00+01:00",
      "home": "Juventus",
      "away": "Napoli",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+     "homeIcon": null,
+     "awayIcon": null,
      "matchday": null,
-     "roundName": null,
+     "roundName": "Regular Season - 10",
      "formHome": [
       "S",
       "U",
@@ -6732,13 +6840,7 @@
        "reason": "Muscle Injury"
       }
      ],
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
-     "news": [
-      {
-       "title": "Fußball mit Grusel-Faktor: Welche Partien Fans auf beiden Seiten erschauern ließen",
-       "link": "https://www.kicker.de/fussball-mit-grusel-faktor-welche-partien-fans-auf-beiden-seiten-erschauern-liessen-1265774/artikel#omrss"
-      }
-     ]
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
      "kickoff": "2026-11-01T21:00:00+01:00",
@@ -11356,9 +11458,9 @@
      },
      "pBtts": 0.6091,
      "odds": {
-      "h": 1.53,
-      "d": 3.9,
-      "a": 5.0,
+      "h": 1.55,
+      "d": 3.8,
+      "a": 4.8,
       "src": "William Hill"
      },
      "value": null,
@@ -11531,16 +11633,16 @@
      },
      "pBtts": 0.6094,
      "odds": {
-      "h": 2.8,
-      "d": 3.5,
-      "a": 2.1,
+      "h": 3.0,
+      "d": 3.6,
+      "a": 1.95,
       "src": "William Hill"
      },
      "value": {
       "outcome": "1",
-      "edge": 0.1076,
+      "edge": 0.1301,
       "modelP": 0.4267,
-      "odds": 2.8
+      "odds": 3.0
      },
      "scorersHome": [
       {
@@ -11558,7 +11660,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Club Brugge II ist gegen Sporting Hasselt leicht favorisiert (43 % zu 33 %). In der Tabelle stehen sich Platz 10 und Platz 6 gegenüber. Die Form spricht für Sporting Hasselt: 3 Siege aus den letzten 5 Spielen, Club Brugge II holte nur 0. Das letzte Duell (2024) endete 3:1 (Sporting Hasselt – Club Brugge II). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,4; über 2,5 Tore: 59 %, beide Teams treffen zu 61 %). Gefährlichste Torschützen: bei Club Brugge II M. Robberechts (4 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,80) für 11 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Club Brugge II ist gegen Sporting Hasselt leicht favorisiert (43 % zu 33 %). In der Tabelle stehen sich Platz 10 und Platz 6 gegenüber. Die Form spricht für Sporting Hasselt: 3 Siege aus den letzten 5 Spielen, Club Brugge II holte nur 0. Das letzte Duell (2024) endete 3:1 (Sporting Hasselt – Club Brugge II). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,4; über 2,5 Tore: 59 %, beide Teams treffen zu 61 %). Gefährlichste Torschützen: bei Club Brugge II M. Robberechts (4 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,00) für 13 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -11804,9 +11906,9 @@
      },
      "pBtts": 0.5751,
      "odds": {
-      "h": 2.8,
+      "h": 2.9,
       "d": 3.0,
-      "a": 2.5,
+      "a": 2.45,
       "src": "William Hill"
      },
      "value": null,
@@ -11893,9 +11995,9 @@
      },
      "pBtts": 0.3448,
      "odds": {
-      "h": 1.18,
+      "h": 1.17,
       "d": 7.0,
-      "a": 13.0,
+      "a": 15.0,
       "src": "William Hill"
      },
      "value": null,
@@ -12218,9 +12320,9 @@
      },
      "pBtts": 0.4689,
      "odds": {
-      "h": 1.83,
+      "h": 1.8,
       "d": 3.3,
-      "a": 4.4,
+      "a": 4.5,
       "src": "William Hill"
      },
      "value": null,
@@ -12428,81 +12530,6 @@
    "flag": "🇹🇷",
    "espn": "tur.1",
    "matches": [
-    {
-     "kickoff": "2026-10-31T11:30:00+01:00",
-     "home": "Erzurum BB",
-     "away": "Çorum FK",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/19267.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/132334.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [],
-     "formAway": [
-      "S",
-      "N",
-      "S",
-      "S",
-      "N"
-     ],
-     "formHomeH": [],
-     "formAwayA": [
-      "U",
-      "N",
-      "S",
-      "S",
-      "N"
-     ],
-     "load14Home": 0,
-     "load14Away": 1,
-     "posHome": null,
-     "posAway": 9,
-     "nTeams": 18,
-     "h2h": [],
-     "prediction": null,
-     "pBtts": null,
-     "odds": null,
-     "value": null,
-     "scorersHome": [],
-     "scorersAway": [
-      {
-       "name": "A. Kyziridis",
-       "goals": 4
-      },
-      {
-       "name": "C. Ramírez",
-       "goals": 4
-      },
-      {
-       "name": "C. Ünder",
-       "goals": 4
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": " Personal: Çorum FK fehlen 5 Spieler (u.a. S. Osmanoglu).",
-     "injuriesAway": [
-      {
-       "name": "S. Osmanoglu",
-       "reason": "Injury"
-      },
-      {
-       "name": "A. Kyziridis",
-       "reason": "Red Card"
-      },
-      {
-       "name": "E. Gurluk",
-       "reason": "Injury"
-      },
-      {
-       "name": "S. Saatci",
-       "reason": "Inactive"
-      },
-      {
-       "name": "C. Soyuncu",
-       "reason": "Injury"
-      }
-     ],
-     "basis": "Datenbasis: Heim/Auswärts-Form, Verletztenliste. Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-10-31T14:00:00+01:00",
      "home": "Kocaelispor",
@@ -13336,12 +13363,12 @@
     },
     {
      "kickoff": "2026-11-02T18:00:00+01:00",
-     "home": "Genclerbirligi",
+     "home": "Gençlerbirliği S.K.",
      "away": "Alanyaspor",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/996.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/9078.png",
+     "homeIcon": null,
+     "awayIcon": null,
      "matchday": null,
-     "roundName": null,
+     "roundName": "Regular Season - 10",
      "formHome": [
       "N",
       "N",
@@ -13411,7 +13438,7 @@
      "scorersHome": [],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "Alanyaspor ist bei Genclerbirligi leicht favorisiert (41 % zu 30 %). In der Tabelle stehen sich Platz 16 und Platz 11 gegenüber. Heim-/Auswärtsbilanz: Genclerbirligi gewann 1 der letzten 5 Heimspiele, Alanyaspor 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (Alanyaspor – Genclerbirligi). Das Modell erwartet eher wenige Tore (xG 1,0:1,2; über 2,5 Tore: 36 %, beide Teams treffen zu 43 %). Personal: Genclerbirligi fehlen 9 Spieler (u.a. D. Demir); Alanyaspor fehlen 3 Spieler (u.a. Maestro).",
+     "analysis": "Alanyaspor ist bei Gençlerbirliği S.K. leicht favorisiert (41 % zu 30 %). In der Tabelle stehen sich Platz 16 und Platz 11 gegenüber. Heim-/Auswärtsbilanz: Gençlerbirliği S.K. gewann 1 der letzten 5 Heimspiele, Alanyaspor 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (Alanyaspor – Genclerbirligi). Das Modell erwartet eher wenige Tore (xG 1,0:1,2; über 2,5 Tore: 36 %, beide Teams treffen zu 43 %). Personal: Gençlerbirliği S.K. fehlen 9 Spieler (u.a. D. Demir); Alanyaspor fehlen 3 Spieler (u.a. Maestro).",
      "injuriesHome": [
       {
        "name": "D. Demir",
@@ -13860,16 +13887,16 @@
      },
      "pBtts": 0.6367,
      "odds": {
-      "h": 1.85,
-      "d": 3.7,
-      "a": 3.5,
+      "h": 1.75,
+      "d": 3.9,
+      "a": 3.8,
       "src": "William Hill"
      },
      "value": {
       "outcome": "2",
-      "edge": 0.2169,
+      "edge": 0.2363,
       "modelP": 0.4775,
-      "odds": 3.5
+      "odds": 3.8
      },
      "scorersHome": [
       {
@@ -13888,7 +13915,7 @@
       }
      ],
      "scorersPeriod": "Vorsaison",
-     "analysis": "Servette FC ist bei FC ST. Gallen leicht favorisiert (47 % zu 30 %). In der Tabelle stehen sich Platz 6 und Platz 5 gegenüber. Das letzte Duell (2026) endete 0:2 (Servette FC – FC ST. Gallen). Das Modell erwartet ein torreiches Spiel (xG 1,4:1,8; über 2,5 Tore: 63 %, beide Teams treffen zu 64 %). Gefährlichste Torschützen: bei FC ST. Gallen Alessandro Vogt (5 Tore) und bei Servette FC Miroslav Stevanovic (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,50) für 22 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "Servette FC ist bei FC ST. Gallen leicht favorisiert (47 % zu 30 %). In der Tabelle stehen sich Platz 6 und Platz 5 gegenüber. Das letzte Duell (2026) endete 0:2 (Servette FC – FC ST. Gallen). Das Modell erwartet ein torreiches Spiel (xG 1,4:1,8; über 2,5 Tore: 63 %, beide Teams treffen zu 64 %). Gefährlichste Torschützen: bei FC ST. Gallen Alessandro Vogt (5 Tore) und bei Servette FC Miroslav Stevanovic (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,80) für 24 Prozentpunkte wahrscheinlicher als der Markt.",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     },
     {
@@ -15097,13 +15124,13 @@
      "pBtts": 0.6804,
      "odds": {
       "h": 2.3,
-      "d": 3.7,
+      "d": 3.6,
       "a": 2.5,
       "src": "William Hill"
      },
      "value": {
       "outcome": "2",
-      "edge": 0.177,
+      "edge": 0.1795,
       "modelP": 0.539,
       "odds": 2.5
      },
@@ -19026,10 +19053,6 @@
       {
        "name": "A. Lind",
        "goals": 4
-      },
-      {
-       "name": "H. Boe Rasmussen",
-       "goals": 3
       }
      ],
      "scorersAway": [
@@ -19410,316 +19433,7 @@
  ],
  "tennis": [
   {
-   "start": "2026-10-31T11:20:00+01:00",
-   "tour": "WTA",
-   "tournament": "Guangzhou Open",
-   "round": "Halbfinale",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Lilli Tagger",
-    "rank": 53,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 7
-   },
-   "p2": {
-    "name": "Kaitlin Quevedo",
-    "rank": 86,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 7
-   },
-   "pP1": 0.6014,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6014
-   },
-   "h2h": [],
-   "analysis": "Lilli Tagger (Weltrangliste #53) trifft auf Kaitlin Quevedo (#86). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Lilli Tagger mit 60 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-31T12:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Rolex Paris Masters",
-   "round": "Qualifying 1st Round",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Vit Kopriva",
-    "rank": 64,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "p2": {
-    "name": "Hugo Gaston",
-    "rank": 110,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.6131,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6131
-   },
-   "h2h": [],
-   "analysis": "Vit Kopriva (Weltrangliste #64) trifft auf Hugo Gaston (#110). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Vit Kopriva mit 61 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 2.83,
-    "p2": 1.46,
-    "src": "Pinnacle"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-31T12:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "Chennai Open",
-   "round": "Qualifying 1st Round",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Weronika Falkowska",
-    "rank": 287,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Jensi Dipakbhai Kanabar",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.4707,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.4707
-   },
-   "h2h": [],
-   "analysis": "Weronika Falkowska (#287) trifft auf Jensi Dipakbhai Kanabar, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Jensi Dipakbhai Kanabar mit 53 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-31T12:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "Chennai Open",
-   "round": "Qualifying 1st Round",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Shrivalli Bhamidipaty",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Viktoria Morvayova",
-    "rank": 274,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.5195,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.5195
-   },
-   "h2h": [],
-   "analysis": "Shrivalli Bhamidipaty – aktuell ohne Top-Ranking – trifft auf Viktoria Morvayova (#274). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Shrivalli Bhamidipaty mit 52 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-31T12:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "Chennai Open",
-   "round": "Qualifying 1st Round",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Momoko Kobori",
-    "rank": 375,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Rinko Matsuda",
-    "rank": 422,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.5251,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.5251
-   },
-   "h2h": [],
-   "analysis": "Momoko Kobori (Weltrangliste #375) trifft auf Rinko Matsuda (#422). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Momoko Kobori mit 53 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-31T12:30:00+01:00",
-   "tour": "ATP",
-   "tournament": "Rolex Paris Masters",
-   "round": "Qualifying 1st Round",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Aleksandar Kovacevic",
-    "rank": 84,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 7
-   },
-   "p2": {
-    "name": "Juan Manuel Cerundolo",
-    "rank": 54,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 7
-   },
-   "pP1": 0.4072,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.4072
-   },
-   "h2h": [],
-   "analysis": "Aleksandar Kovacevic (Weltrangliste #84) trifft auf Juan Manuel Cerundolo (#54). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Juan Manuel Cerundolo mit 59 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 1.72,
-    "p2": 2.19,
-    "src": "Pinnacle"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-31T12:30:00+01:00",
-   "tour": "ATP",
-   "tournament": "Rolex Paris Masters",
-   "round": "Qualifying 1st Round",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Miomir Kecmanovic",
-    "rank": 58,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "p2": {
-    "name": "James Duckworth",
-    "rank": 68,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": 0.5337,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.5337
-   },
-   "h2h": [],
-   "analysis": "Miomir Kecmanovic (Weltrangliste #58) trifft auf James Duckworth (#68). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Miomir Kecmanovic mit 53 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 1.69,
-    "p2": 2.23,
-    "src": "Pinnacle"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-10-31T12:30:00+01:00",
+   "start": "2026-10-31T12:50:00+01:00",
    "tour": "ATP",
    "tournament": "Rolex Paris Masters",
    "round": "Qualifying 1st Round",
@@ -19761,6 +19475,53 @@
    "odds": {
     "p1": 2.7,
     "p2": 1.5,
+    "src": "Pinnacle"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-10-31T12:55:00+01:00",
+   "tour": "ATP",
+   "tournament": "Rolex Paris Masters",
+   "round": "Qualifying 1st Round",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Aleksandar Kovacevic",
+    "rank": 84,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 7
+   },
+   "p2": {
+    "name": "Juan Manuel Cerundolo",
+    "rank": 54,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 7
+   },
+   "pP1": 0.4072,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4072
+   },
+   "h2h": [],
+   "analysis": "Aleksandar Kovacevic (Weltrangliste #84) trifft auf Juan Manuel Cerundolo (#54). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Juan Manuel Cerundolo mit 59 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "odds": {
+    "p1": 1.72,
+    "p2": 2.19,
     "src": "Pinnacle"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -21024,6 +20785,48 @@
    "timeTBD": true
   },
   {
+   "start": "2026-11-01T05:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Chennai Open",
+   "round": "Qualifying Final",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Rada Zolotareva",
+    "rank": 340,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Aliona Falei",
+    "rank": 196,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.385,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.385
+   },
+   "h2h": [],
+   "analysis": "Rada Zolotareva (Weltrangliste #340) trifft auf Aliona Falei (#196). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Aliona Falei mit 62 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
    "start": "2026-11-01T05:50:00+01:00",
    "tour": "WTA",
    "tournament": "Toray Pan Pacific Open Tennis",
@@ -21031,7 +20834,7 @@
    "surface": null,
    "doubles": true,
    "p1": {
-    "name": "TBD / TBD",
+    "name": "Sara Errani / Jasmine Paolini",
     "rank": null,
     "last7": 0,
     "sets7": 0
@@ -21849,6 +21652,306 @@
   },
   {
    "start": "2026-11-02T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Rolex Paris Masters",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Julian Cash / Lloyd Glasspool",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Theo Arribage / Albano Olivetti",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Rolex Paris Masters",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Benjamin Bonzi / Arthur Rinderknech",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Ignacio Buse / Luciano Darderi",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Rolex Paris Masters",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Kevin Krawietz / Tim Puetz",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Alexander Erler / Daniil Medvedev",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Rolex Paris Masters",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Quentin Halys / Pierre-Hugues Herbert",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Austin Krajicek / Nikola Mektic",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Rolex Paris Masters",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Adam Pavlasek / Patrik Rikl",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Guido Andreozzi / Manuel Guinard",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Rolex Paris Masters",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Matteo Berrettini / Flavio Cobolli",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Orlando Luz / Rafael Matos",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Rolex Paris Masters",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Marcelo Melo / Alexander Zverev",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Lucas Miedler / Neil Oberleitner",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Rolex Paris Masters",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Francisco Cabral / JJ Tracy",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Petr Nouza / Michael Venus",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Rolex Paris Masters",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Jakob Schnaitter / Mark Wallner",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Simone Bolelli / Andrea Vavassori",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Rolex Paris Masters",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Valentin Vacherot / Luca Van Assche",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Robert Cash / Brandon Nakashima",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Rolex Paris Masters",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Marc Polmans / Jan Zielinski",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Francisco Cerundolo / Tomas Martin Etcheverry",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Rolex Paris Masters",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Sadio Doumbia / David Pel",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Hugo Nys / Edouard Roger-Vasselin",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
    "tour": "WTA",
    "tournament": "Prudential Hong Kong Tennis Open",
    "round": "1. Runde",
@@ -21916,8 +22019,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 7
+    "last7": 4,
+    "sets7": 10
    },
    "pP1": 0.7871,
    "model": {
@@ -22350,6 +22453,710 @@
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Prudential Hong Kong Tennis Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Talia Gibson / Maddison Inglis",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Mariia Kozyreva / Maia Lumsden",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Prudential Hong Kong Tennis Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Adithya Karunaratne / Cheuk Ying Shek",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Tang Qianhui / Ye Qiu Yu",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Prudential Hong Kong Tennis Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Nicole Fossa Huergo / Elena Pridankina",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Miriam Skoch / Jesika Maleckova",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Prudential Hong Kong Tennis Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Venus Williams / Xu Yifan",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Ya Hsin Lee / Fang-Hsien Wu",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Prudential Hong Kong Tennis Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "I-hsuan Cho / Yi-Tsen Cho",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Ekaterine Gorgodze / Maria Timofeeva",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Prudential Hong Kong Tennis Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Ingrid Neel / Giuliana Olmos",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Jiang Xinyu / Hong Yi Cody Wong",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Prudential Hong Kong Tennis Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Eri Hozumi / Andreja Klepac",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Makoto Ninomiya / Zhang Ying",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Prudential Hong Kong Tennis Open",
+   "round": "1. Runde",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Hao-Ching Chan / Miyu Kato",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Catherine Harrison / Dalayna Hewitt",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Chennai Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Mai Hontama",
+    "rank": 163,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
+   },
+   "p2": {
+    "name": "Mananchaya Sawangkaew",
+    "rank": 80,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.3532,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3532
+   },
+   "h2h": [],
+   "analysis": "Mai Hontama (Weltrangliste #163) trifft auf Mananchaya Sawangkaew (#80). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Mananchaya Sawangkaew mit 65 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Chennai Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Robin Montgomery",
+    "rank": 150,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Panna Udvardy",
+    "rank": 78,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.3645,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3645
+   },
+   "h2h": [],
+   "analysis": "Robin Montgomery (Weltrangliste #150) trifft auf Panna Udvardy (#78). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Panna Udvardy mit 64 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Chennai Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Polina Iatcenko",
+    "rank": 147,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 5
+   },
+   "p2": {
+    "name": "Anastasia Zakharova",
+    "rank": 105,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 6
+   },
+   "pP1": 0.429,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.429
+   },
+   "h2h": [],
+   "analysis": "Polina Iatcenko (Weltrangliste #147) trifft auf Anastasia Zakharova (#105). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Anastasia Zakharova mit 57 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Chennai Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Joanna Garland",
+    "rank": 155,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 5
+   },
+   "p2": {
+    "name": "Jil Teichmann",
+    "rank": 168,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 7
+   },
+   "pP1": 0.5171,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.5171
+   },
+   "h2h": [],
+   "analysis": "Joanna Garland (Weltrangliste #155) trifft auf Jil Teichmann (#168). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Joanna Garland mit 52 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Chennai Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Vaishnavi Adkar",
+    "rank": 334,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Jodie Burrage",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.4388,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4388
+   },
+   "h2h": [],
+   "analysis": "Vaishnavi Adkar (#334) trifft auf Jodie Burrage, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Jodie Burrage mit 56 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Chennai Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Teodora Kostovic",
+    "rank": 143,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 7
+   },
+   "p2": {
+    "name": "Oksana Selekhmeteva",
+    "rank": 120,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 5
+   },
+   "pP1": 0.4628,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4628
+   },
+   "h2h": [],
+   "analysis": "Teodora Kostovic (Weltrangliste #143) trifft auf Oksana Selekhmeteva (#120). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Oksana Selekhmeteva mit 54 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Chennai Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Simona Waltert",
+    "rank": 128,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Sahaja Yamalapalli",
+    "rank": 369,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.7109,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.7109
+   },
+   "h2h": [],
+   "analysis": "Simona Waltert (Weltrangliste #128) trifft auf Sahaja Yamalapalli (#369). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Simona Waltert mit 71 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Chennai Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Polina Kudermetova",
+    "rank": 91,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Harriet Dart",
+    "rank": 115,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 6,
+    "sets7": 17
+   },
+   "pP1": 0.5496,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.5496
+   },
+   "h2h": [],
+   "analysis": "Polina Kudermetova (Weltrangliste #91) trifft auf Harriet Dart (#115). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Polina Kudermetova mit 55 % vorn. Harriet Dart hat allerdings eine intensive Woche in den Beinen (6 Matches in den letzten 7 Tagen und 17 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Chennai Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Lilli Tagger",
+    "rank": 53,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 7
+   },
+   "p2": {
+    "name": "Elsa Jacquemot",
+    "rank": 135,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 9
+   },
+   "pP1": 0.6888,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6888
+   },
+   "h2h": [],
+   "analysis": "Lilli Tagger (Weltrangliste #53) trifft auf Elsa Jacquemot (#135). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Lilli Tagger mit 69 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Chennai Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Katherine Hui",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Janice Tjen",
+    "rank": 47,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 5
+   },
+   "pP1": 0.1946,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.1946
+   },
+   "h2h": [],
+   "analysis": "Katherine Hui – aktuell ohne Top-Ranking – trifft auf Janice Tjen (#47). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Janice Tjen mit 81 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Chennai Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Katarzyna Kawa",
+    "rank": 106,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Maaya Rajeshwaran Revathi",
+    "rank": 716,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.8353,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.8353
+   },
+   "h2h": [],
+   "analysis": "Katarzyna Kawa (Weltrangliste #106) trifft auf Maaya Rajeshwaran Revathi (#716). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Katarzyna Kawa mit 84 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-02T06:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "Chennai Open",
+   "round": "1. Runde",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Rebecca Sramkova",
+    "rank": 142,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Moyuka Uchijima",
+    "rank": 121,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.466,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.466
+   },
+   "h2h": [],
+   "analysis": "Rebecca Sramkova (Weltrangliste #142) trifft auf Moyuka Uchijima (#121). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Moyuka Uchijima mit 53 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   }
  ],
  "meta": {
@@ -22369,6 +23176,30 @@
   }
  },
  "tennisFinished": [
+  {
+   "tour": "ATP",
+   "tournament": "Rolex Paris Masters",
+   "p1": "Mattia Bellucci",
+   "p2": "Pablo Carreno Busta",
+   "winner": "Mattia Bellucci",
+   "score": "6:1 7:6"
+  },
+  {
+   "tour": "ATP",
+   "tournament": "Rolex Paris Masters",
+   "p1": "Rinky Hijikata",
+   "p2": "Jaime Faria",
+   "winner": "Rinky Hijikata",
+   "score": "6:3 6:4"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Guangzhou Open",
+   "p1": "Harriet Dart",
+   "p2": "Xinran Sun",
+   "winner": "Harriet Dart",
+   "score": "5:7 7:6 6:0"
+  },
   {
    "tour": "WTA",
    "tournament": "Toray Pan Pacific Open Tennis",
@@ -22464,13 +23295,37 @@
    "p2": "Zhang Ying",
    "winner": "Alexandra Shubladze",
    "score": "6:4 6:3"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Chennai Open",
+   "p1": "Rada Zolotareva",
+   "p2": "Mariia Tkacheva",
+   "winner": "Rada Zolotareva",
+   "score": "6:1 2:1"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Chennai Open",
+   "p1": "Ekaterina Yashina",
+   "p2": "Aliona Falei",
+   "winner": "Aliona Falei",
+   "score": "1:6 4:6"
+  },
+  {
+   "tour": "WTA",
+   "tournament": "Chennai Open",
+   "p1": "Diya Ramesh Ramesh",
+   "p2": "Kyoka Okamura",
+   "winner": "Kyoka Okamura",
+   "score": "4:6 2:6"
   }
  ],
  "stats": {
   "overall": {
-   "n": 4187,
-   "correct": 2479,
-   "pct": 0.5921
+   "n": 4193,
+   "correct": 2484,
+   "pct": 0.5924
   },
   "football": {
    "n": 1143,
@@ -22478,15 +23333,15 @@
    "pct": 0.4978
   },
   "tennis": {
-   "n": 3044,
-   "correct": 1910,
-   "pct": 0.6275
+   "n": 3050,
+   "correct": 1915,
+   "pct": 0.6279
   },
   "exact": {
    "n": 1143,
    "correct": 126
   },
-  "open": 465,
+  "open": 473,
   "value": {
    "n": 114,
    "correct": 44,
@@ -22617,6 +23472,39 @@
    },
    {
     "date": "2026-10-31",
+    "comp": "WTA · Chennai Open",
+    "label": "Ekaterina Yashina – Aliona Falei",
+    "tipName": "Aliona Falei",
+    "tip": "P2",
+    "prob": 0.6955,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-31",
+    "comp": "WTA · Chennai Open",
+    "label": "Rada Zolotareva – Mariia Tkacheva",
+    "tipName": "Rada Zolotareva",
+    "tip": "P1",
+    "prob": 0.6275,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-31",
+    "comp": "WTA · Chennai Open",
+    "label": "Diya Ramesh Ramesh – Kyoka Okamura",
+    "tipName": "Kyoka Okamura",
+    "tip": "P2",
+    "prob": 0.5078,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-31",
     "comp": "WTA · Toray Pan Pacific Open Tennis",
     "label": "Mia Pohankova – Diana Shnaider",
     "tipName": "Diana Shnaider",
@@ -22624,6 +23512,39 @@
     "prob": 0.8854,
     "result": "Sieger: P2",
     "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-31",
+    "comp": "WTA · Guangzhou Open",
+    "label": "Harriet Dart – Xinran Sun",
+    "tipName": "Harriet Dart",
+    "tip": "P1",
+    "prob": 0.7446,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-31",
+    "comp": "ATP · Rolex Paris Masters",
+    "label": "Mattia Bellucci – Pablo Carreno Busta",
+    "tipName": "Mattia Bellucci",
+    "tip": "P1",
+    "prob": 0.5243,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-10-31",
+    "comp": "ATP · Rolex Paris Masters",
+    "label": "Rinky Hijikata – Jaime Faria",
+    "tipName": "Jaime Faria",
+    "tip": "P2",
+    "prob": 0.5841,
+    "result": "Sieger: P1",
+    "correct": false,
     "sport": "tn"
    },
    {
@@ -22701,72 +23622,6 @@
     "prob": 0.5799,
     "result": "Sieger: P1",
     "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-30",
-    "comp": "WTA · Curitiba Open",
-    "label": "Jazmin Ortenzi – Alice Tubello",
-    "tipName": "Jazmin Ortenzi",
-    "tip": "P1",
-    "prob": 0.5381,
-    "result": "Sieger: P2",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-30",
-    "comp": "WTA · Queretaro Open",
-    "label": "Bianca Andreescu – Diletta Cherubini",
-    "tipName": "Bianca Andreescu",
-    "tip": "P1",
-    "prob": 0.7222,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-30",
-    "comp": "WTA · Queretaro Open",
-    "label": "Alicia Herrero Linana – Tamara Zidansek",
-    "tipName": "Tamara Zidansek",
-    "tip": "P2",
-    "prob": 0.5998,
-    "result": "Sieger: P1",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-30",
-    "comp": "WTA · Queretaro Open",
-    "label": "Martina Colmegna – Tatjana Maria",
-    "tipName": "Tatjana Maria",
-    "tip": "P2",
-    "prob": 0.821,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-30",
-    "comp": "WTA · Toray Pan Pacific Open Tennis",
-    "label": "Alycia Parks – Mia Pohankova",
-    "tipName": "Alycia Parks",
-    "tip": "P1",
-    "prob": 0.6629,
-    "result": "Sieger: P2",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-10-30",
-    "comp": "WTA · Guangzhou Open",
-    "label": "Claire Liu – Xinran Sun",
-    "tipName": "Claire Liu",
-    "tip": "P1",
-    "prob": 0.7532,
-    "result": "Sieger: P2",
-    "correct": false,
     "sport": "tn"
    }
   ]
