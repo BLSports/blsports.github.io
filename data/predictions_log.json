@@ -96467,16 +96467,16 @@
    "prob": 0.5984,
    "tipScore": "2:1",
    "pOver25": 0.7404,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "correct",
+   "result": "2:1",
+   "correct": true,
+   "exact": true,
    "value": {
     "pick": "1",
     "odds": 1.8,
     "edge": 0.0786,
     "modelP": 0.5984,
-    "won": null
+    "won": true
    }
   },
   "fb|pl|2026-11-01|liverpool|arsenal": {
@@ -100069,9 +100069,9 @@
    "tip": "P2",
    "tipName": "Elizabeth Mandlik",
    "prob": 0.582,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-11-01|pigossi l|scott k": {
    "sport": "tn",
@@ -100996,6 +100996,31 @@
    "status": "open",
    "result": null,
    "correct": null
+  },
+  "fb|ll2|2026-11-02|tenerife|andorra": {
+   "sport": "fb",
+   "comp": "La Liga 2",
+   "compId": "ll2",
+   "date": "2026-11-02",
+   "label": "Tenerife – FC Andorra",
+   "homeKey": "tenerife",
+   "awayKey": "andorra",
+   "tip": "1",
+   "tipName": "Tenerife",
+   "prob": 0.3977,
+   "tipScore": "1:1",
+   "pOver25": 0.5245,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "2",
+    "odds": 3.15,
+    "edge": 0.0505,
+    "modelP": 0.3486,
+    "won": null
+   }
   }
  }
 }
