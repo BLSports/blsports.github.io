@@ -59,8 +59,8 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!
 total 8
-drwxr-xr-x  2 runner runner 4096 Nov  2 23:17 .
-drwxrwxrwt 23 root   root   4096 Nov  2 23:17 ..
+drwxr-xr-x  2 runner runner 4096 Nov  2 23:57 .
+drwxrwxrwt 23 root   root   4096 Nov  2 23:57 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -107,7 +107,6 @@ drwxrwxrwt 23 root   root   4096 Nov  2 23:17 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20260626-20260923&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20260924-20261103&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/scoreboard?dates=20261103-20270303&limit=50 nicht erreichbar (HTTP Error 400: Bad Request)
-  WARN: https://api.the-odds-api.com/v4/sports/soccer_belgium_pro_league/odds/?apiKey=8392ea7216723e341b1a7c2cea58bcb4&regions=eu&markets=h2h&oddsFormat=decimal nicht erreichbar (HTTP Error 404: Not Found)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/bel.2/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -294,6 +293,6 @@ fixtures.csv: 196 Spiele mit Quoten
   Tennis-Quoten zugeordnet: 16
   106 Tennis-Matches in den naechsten 3 Tagen
   0 Tennis-Matches heute bereits beendet
-  Tipp-Log: 6316 Eintraege, 4343 ausgewertet, 2572 richtig
+  Tipp-Log: 6316 Eintraege, 4344 ausgewertet, 2572 richtig
   Premium-Abrufe: Tennis 8, Fussball 289 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
