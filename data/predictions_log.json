@@ -102498,9 +102498,9 @@
    "tip": "P2",
    "tipName": "Arthur Fils",
    "prob": 0.8749,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-11-04|alves c|jeanjean l": {
    "sport": "tn",
@@ -102526,9 +102526,9 @@
    "tip": "P1",
    "tipName": "Solana Sierra",
    "prob": 0.5489,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-11-04|kabbaj y|martynov d": {
    "sport": "tn",
@@ -103044,9 +103044,9 @@
    "tip": "P1",
    "tipName": "Renata Zarazua",
    "prob": 0.6576,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "fb|bl1|2026-11-06|hamburger sv|mgladbach": {
    "sport": "fb",
@@ -103592,9 +103592,9 @@
    "awayKey": "waasland-beveren",
    "tip": "1",
    "tipName": "Standard Liege",
-   "prob": 0.5871,
+   "prob": 0.584,
    "tipScore": "1:1",
-   "pOver25": 0.5817,
+   "pOver25": 0.5797,
    "status": "open",
    "result": null,
    "correct": null,
@@ -104006,6 +104006,48 @@
    "tip": "P2",
    "tipName": "Janice Tjen",
    "prob": 0.5456,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-05|monnet c|romero gormaz l": {
+   "sport": "tn",
+   "comp": "WTA · Reto Win Tennis Cali Open",
+   "date": "2026-11-05",
+   "label": "Leyre Romero Gormaz – Carole Monnet",
+   "p1Key": "romero gormaz l",
+   "p2Key": "monnet c",
+   "tip": "P1",
+   "tipName": "Leyre Romero Gormaz",
+   "prob": 0.6066,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-05|riera j|zarazua r": {
+   "sport": "tn",
+   "comp": "WTA · Reto Win Tennis Cali Open",
+   "date": "2026-11-05",
+   "label": "Renata Zarazua – Julia Riera",
+   "p1Key": "zarazua r",
+   "p2Key": "riera j",
+   "tip": "P1",
+   "tipName": "Renata Zarazua",
+   "prob": 0.5728,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-11-05|fils a|fritz t": {
+   "sport": "tn",
+   "comp": "ATP · Rolex Paris Masters",
+   "date": "2026-11-05",
+   "label": "Taylor Fritz – Arthur Fils",
+   "p1Key": "fritz t",
+   "p2Key": "fils a",
+   "tip": "P2",
+   "tipName": "Arthur Fils",
+   "prob": 0.6126,
    "status": "open",
    "result": null,
    "correct": null
