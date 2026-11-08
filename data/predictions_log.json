@@ -105793,10 +105793,10 @@
    "prob": 0.478,
    "tipScore": "1:1",
    "pOver25": 0.6519,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "1:2",
+   "correct": true,
+   "exact": false
   },
   "fb|bl1|2026-11-08|sc freiburg|1 fc union berlin": {
    "sport": "fb",
@@ -105811,10 +105811,10 @@
    "prob": 0.676,
    "tipScore": "2:0",
    "pOver25": 0.6262,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:0",
+   "correct": true,
+   "exact": true
   },
   "fb|bl1|2026-11-08|tsg hoffenheim|fc schalke 04": {
    "sport": "fb",
@@ -105847,10 +105847,10 @@
    "prob": 0.4513,
    "tipScore": "1:1",
    "pOver25": 0.6527,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "2:2",
+   "correct": false,
+   "exact": false
   },
   "fb|bl2|2026-11-08|vfl bochum|karlsruher sc": {
    "sport": "fb",
@@ -105865,10 +105865,10 @@
    "prob": 0.5658,
    "tipScore": "1:1",
    "pOver25": 0.5855,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "3:2",
+   "correct": true,
+   "exact": false
   },
   "fb|bl2|2026-11-08|1 fc magdeburg|fc st pauli": {
    "sport": "fb",
@@ -105883,16 +105883,16 @@
    "prob": 0.5275,
    "tipScore": "1:1",
    "pOver25": 0.5162,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "correct",
+   "result": "4:1",
+   "correct": true,
+   "exact": false,
    "value": {
     "pick": "1",
     "odds": 2.25,
     "edge": 0.1267,
     "modelP": 0.5275,
-    "won": null
+    "won": true
    }
   },
   "fb|bl3|2026-11-08|sv meppen|jahn regensburg": {
@@ -105908,10 +105908,10 @@
    "prob": 0.4216,
    "tipScore": "1:1",
    "pOver25": 0.4944,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:1",
+   "correct": true,
+   "exact": false
   },
   "fb|bl3|2026-11-08|vfb stuttgart ii|sc verl": {
    "sport": "fb",
@@ -105926,16 +105926,16 @@
    "prob": 0.4341,
    "tipScore": "1:1",
    "pOver25": 0.7187,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "wrong",
+   "result": "1:0",
+   "correct": false,
+   "exact": false,
    "value": {
     "pick": "2",
     "odds": 2.55,
     "edge": 0.0668,
     "modelP": 0.4341,
-    "won": null
+    "won": false
    }
   },
   "fb|bl3|2026-11-08|wurzburger kickers|tsg 1899 hoffenheim ii": {
@@ -107782,9 +107782,9 @@
    "tip": "P1",
    "tipName": "Juan Manuel Cerundolo",
    "prob": 0.7834,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-11-08|hanfmann y|michelsen a": {
    "sport": "tn",
@@ -107852,9 +107852,9 @@
    "tip": "P2",
    "tipName": "Anna Blinkova",
    "prob": 0.6879,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-11-08|montes de la torre i|sonego l": {
    "sport": "tn",
@@ -107866,9 +107866,9 @@
    "tip": "P1",
    "tipName": "Lorenzo Sonego",
    "prob": 0.6226,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-11-08|basilashvili n|gojo b": {
    "sport": "tn",
@@ -107894,9 +107894,9 @@
    "tip": "P2",
    "tipName": "Adrian Mannarino",
    "prob": 0.6041,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-11-08|fearnley j|shevchenko a": {
    "sport": "tn",
@@ -107908,9 +107908,9 @@
    "tip": "P2",
    "tipName": "Jacob Fearnley",
    "prob": 0.5387,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-11-08|linette m|tjen j": {
    "sport": "tn",
@@ -107936,9 +107936,9 @@
    "tip": "P1",
    "tipName": "Carlos Alcaraz",
    "prob": 0.5608,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-11-09|daniel vallejo a|humbert u": {
    "sport": "tn",
@@ -108170,9 +108170,9 @@
    "tip": "P1",
    "tipName": "Maria Camila Torres Murcia",
    "prob": 0.5859,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-11-08|collazos i|jakupovic d": {
    "sport": "tn",
@@ -108184,9 +108184,9 @@
    "tip": "P1",
    "tipName": "Isabella Collazos",
    "prob": 0.5897,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-11-10|kostyuk m|pegula j": {
    "sport": "tn",
@@ -108296,6 +108296,104 @@
    "tip": "P1",
    "tipName": "Coco Gauff",
    "prob": 0.6854,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-09|linette m|tjen j": {
+   "sport": "tn",
+   "comp": "WTA · Chennai Open",
+   "date": "2026-11-09",
+   "label": "Magda Linette – Janice Tjen",
+   "p1Key": "linette m",
+   "p2Key": "tjen j",
+   "tip": "P1",
+   "tipName": "Magda Linette",
+   "prob": 0.5208,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-11-09|gojo b|machac t": {
+   "sport": "tn",
+   "comp": "ATP · Bybit Stockholm Open",
+   "date": "2026-11-09",
+   "label": "Borna Gojo – Tomas Machac",
+   "p1Key": "gojo b",
+   "p2Key": "machac t",
+   "tip": "P2",
+   "tipName": "Tomas Machac",
+   "prob": 0.6359,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-11-09|borg l|samuel t": {
+   "sport": "tn",
+   "comp": "ATP · Bybit Stockholm Open",
+   "date": "2026-11-09",
+   "label": "Toby Samuel – Leo Borg",
+   "p1Key": "samuel t",
+   "p2Key": "borg l",
+   "tip": "P1",
+   "tipName": "Toby Samuel",
+   "prob": 0.8245,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-11-10|halys q|sonego l": {
+   "sport": "tn",
+   "comp": "ATP · Bybit Stockholm Open",
+   "date": "2026-11-10",
+   "label": "Quentin Halys – Lorenzo Sonego",
+   "p1Key": "halys q",
+   "p2Key": "sonego l",
+   "tip": "P1",
+   "tipName": "Quentin Halys",
+   "prob": 0.6703,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-11-10|kecmanovic m|rinderknech a": {
+   "sport": "tn",
+   "comp": "ATP · Bybit Stockholm Open",
+   "date": "2026-11-10",
+   "label": "Miomir Kecmanovic – Arthur Rinderknech",
+   "p1Key": "kecmanovic m",
+   "p2Key": "rinderknech a",
+   "tip": "P1",
+   "tipName": "Miomir Kecmanovic",
+   "prob": 0.5266,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-11-10|shevchenko a|van assche l": {
+   "sport": "tn",
+   "comp": "ATP · Bybit Stockholm Open",
+   "date": "2026-11-10",
+   "label": "Aleksandr Shevchenko – Luca Van Assche",
+   "p1Key": "shevchenko a",
+   "p2Key": "van assche l",
+   "tip": "P2",
+   "tipName": "Luca Van Assche",
+   "prob": 0.6698,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-11-10|bergs z|rune h": {
+   "sport": "tn",
+   "comp": "ATP · Bybit Stockholm Open",
+   "date": "2026-11-10",
+   "label": "Zizou Bergs – Holger Rune",
+   "p1Key": "bergs z",
+   "p2Key": "rune h",
+   "tip": "P1",
+   "tipName": "Zizou Bergs",
+   "prob": 0.8834,
    "status": "open",
    "result": null,
    "correct": null
