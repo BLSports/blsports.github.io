@@ -107619,14 +107619,7 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null,
-   "value": {
-    "pick": "2",
-    "odds": 2.6,
-    "edge": 0.0943,
-    "modelP": 0.4484,
-    "won": null
-   }
+   "exact": null
   },
   "tn|wta|2026-11-07|andreescu b|tubello a": {
    "sport": "tn",
@@ -107754,9 +107747,9 @@
    "tip": "P1",
    "tipName": "Cameron Norrie",
    "prob": 0.5928,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-11-08|dahlin m|martin etcheverry t": {
    "sport": "tn",
@@ -107796,9 +107789,9 @@
    "tip": "P2",
    "tipName": "Alex Michelsen",
    "prob": 0.6057,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-11-08|daniel vallejo a|humbert u": {
    "sport": "tn",
@@ -107810,9 +107803,9 @@
    "tip": "P1",
    "tipName": "Ugo Humbert",
    "prob": 0.5817,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-11-07|blinkova a|feistel g": {
    "sport": "tn",
@@ -107950,9 +107943,9 @@
    "tip": "P1",
    "tipName": "Ugo Humbert",
    "prob": 0.5763,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-11-09|hanfmann y|michelsen a": {
    "sport": "tn",
@@ -107964,9 +107957,9 @@
    "tip": "P2",
    "tipName": "Alex Michelsen",
    "prob": 0.6057,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-11-09|dahlin m|martin etcheverry t": {
    "sport": "tn",
@@ -107992,9 +107985,9 @@
    "tip": "P1",
    "tipName": "Cameron Norrie",
    "prob": 0.5928,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-11-09|kecmanovic m|rinderknech a": {
    "sport": "tn",
@@ -108324,9 +108317,9 @@
    "tip": "P2",
    "tipName": "Tomas Machac",
    "prob": 0.6644,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-11-09|borg l|samuel t": {
    "sport": "tn",
@@ -108453,7 +108446,7 @@
    "p2Key": "maria t",
    "tip": "P2",
    "tipName": "Tatjana Maria",
-   "prob": 0.7116,
+   "prob": 0.7064,
    "status": "open",
    "result": null,
    "correct": null
@@ -108495,7 +108488,7 @@
    "p2Key": "herazo gonzalez m",
    "tip": "P1",
    "tipName": "Marina Bassols Ribera",
-   "prob": 0.6432,
+   "prob": 0.637,
    "status": "open",
    "result": null,
    "correct": null
@@ -108509,7 +108502,7 @@
    "p2Key": "zidansek t",
    "tip": "P1",
    "tipName": "Julia Grabher",
-   "prob": 0.5458,
+   "prob": 0.5447,
    "status": "open",
    "result": null,
    "correct": null
@@ -108537,7 +108530,7 @@
    "p2Key": "andreescu b",
    "tip": "P2",
    "tipName": "Bianca Andreescu",
-   "prob": 0.5769,
+   "prob": 0.5947,
    "status": "open",
    "result": null,
    "correct": null
@@ -108551,7 +108544,7 @@
    "p2Key": "ortenzi j",
    "tip": "P1",
    "tipName": "Leolia Jeanjean",
-   "prob": 0.641,
+   "prob": 0.6454,
    "status": "open",
    "result": null,
    "correct": null
@@ -108565,7 +108558,7 @@
    "p2Key": "monnet c",
    "tip": "P1",
    "tipName": "Leyre Romero Gormaz",
-   "prob": 0.6066,
+   "prob": 0.6396,
    "status": "open",
    "result": null,
    "correct": null
@@ -108579,7 +108572,7 @@
    "p2Key": "scott k",
    "tip": "P1",
    "tipName": "Andrea Lazaro Garcia",
-   "prob": 0.6984,
+   "prob": 0.6946,
    "status": "open",
    "result": null,
    "correct": null
@@ -108593,7 +108586,7 @@
    "p2Key": "tubello a",
    "tip": "P1",
    "tipName": "Julia Riera",
-   "prob": 0.5221,
+   "prob": 0.5135,
    "status": "open",
    "result": null,
    "correct": null
@@ -108607,7 +108600,7 @@
    "p2Key": "bronzetti l",
    "tip": "P2",
    "tipName": "Lucia Bronzetti",
-   "prob": 0.5863,
+   "prob": 0.5833,
    "status": "open",
    "result": null,
    "correct": null
@@ -108621,7 +108614,7 @@
    "p2Key": "samson l",
    "tip": "P2",
    "tipName": "Laura Samson",
-   "prob": 0.6576,
+   "prob": 0.6527,
    "status": "open",
    "result": null,
    "correct": null
@@ -108734,6 +108727,48 @@
    "tip": "P2",
    "tipName": "Aryna Sabalenka",
    "prob": 0.5853,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-11-10|manuel cerundolo j|michelsen a": {
+   "sport": "tn",
+   "comp": "ATP · Bybit Stockholm Open",
+   "date": "2026-11-10",
+   "label": "Juan Manuel Cerundolo – Alex Michelsen",
+   "p1Key": "manuel cerundolo j",
+   "p2Key": "michelsen a",
+   "tip": "P2",
+   "tipName": "Alex Michelsen",
+   "prob": 0.5911,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-11-11|gojo b|humbert u": {
+   "sport": "tn",
+   "comp": "ATP · Bybit Stockholm Open",
+   "date": "2026-11-11",
+   "label": "Ugo Humbert – Borna Gojo",
+   "p1Key": "humbert u",
+   "p2Key": "gojo b",
+   "tip": "P1",
+   "tipName": "Ugo Humbert",
+   "prob": 0.7406,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-11-11|fritz t|norrie c": {
+   "sport": "tn",
+   "comp": "ATP · Bybit Stockholm Open",
+   "date": "2026-11-11",
+   "label": "Cameron Norrie – Taylor Fritz",
+   "p1Key": "norrie c",
+   "p2Key": "fritz t",
+   "tip": "P2",
+   "tipName": "Taylor Fritz",
+   "prob": 0.805,
    "status": "open",
    "result": null,
    "correct": null
