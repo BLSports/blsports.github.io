@@ -106299,16 +106299,16 @@
    "prob": 0.5488,
    "tipScore": "1:0",
    "pOver25": 0.4865,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "correct",
+   "result": "2:0",
+   "correct": true,
+   "exact": false,
    "value": {
     "pick": "1",
     "odds": 1.79,
     "edge": 0.0868,
     "modelP": 0.5488,
-    "won": null
+    "won": true
    }
   },
   "fb|ll2|2026-11-08|sp gijon|valladolid": {
@@ -108404,10 +108404,10 @@
    "prob": 0.5457,
    "tipScore": "1:0",
    "pOver25": 0.4841,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "2:0",
+   "correct": true,
+   "exact": false
   },
   "tn|wta|2026-11-09|jakupovic d|pigossi l": {
    "sport": "tn",
@@ -108811,6 +108811,62 @@
    "tip": "P1",
    "tipName": "Julia Grabher",
    "prob": 0.6336,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-12|sabalenka a|svitolina e": {
+   "sport": "tn",
+   "comp": "WTA · FAGE WTA Finals Indian Wells",
+   "date": "2026-11-12",
+   "label": "Elina Svitolina – Aryna Sabalenka",
+   "p1Key": "svitolina e",
+   "p2Key": "sabalenka a",
+   "tip": "P2",
+   "tipName": "Aryna Sabalenka",
+   "prob": 0.7178,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-12|gauff c|kostyuk m": {
+   "sport": "tn",
+   "comp": "WTA · FAGE WTA Finals Indian Wells",
+   "date": "2026-11-12",
+   "label": "Coco Gauff – Marta Kostyuk",
+   "p1Key": "gauff c",
+   "p2Key": "kostyuk m",
+   "tip": "P1",
+   "tipName": "Coco Gauff",
+   "prob": 0.6854,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-12|noskova l|pegula j": {
+   "sport": "tn",
+   "comp": "WTA · FAGE WTA Finals Indian Wells",
+   "date": "2026-11-12",
+   "label": "Linda Noskova – Jessica Pegula",
+   "p1Key": "noskova l",
+   "p2Key": "pegula j",
+   "tip": "P2",
+   "tipName": "Jessica Pegula",
+   "prob": 0.5986,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-12|andreeva m|muchova k": {
+   "sport": "tn",
+   "comp": "WTA · FAGE WTA Finals Indian Wells",
+   "date": "2026-11-12",
+   "label": "Karolina Muchova – Mirra Andreeva",
+   "p1Key": "muchova k",
+   "p2Key": "andreeva m",
+   "tip": "P2",
+   "tipName": "Mirra Andreeva",
+   "prob": 0.6727,
    "status": "open",
    "result": null,
    "correct": null
