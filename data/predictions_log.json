@@ -108643,9 +108643,9 @@
    "tip": "P2",
    "tipName": "Adrian Mannarino",
    "prob": 0.6172,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-11-11|sabalenka a|svitolina e": {
    "sport": "tn",
@@ -108741,9 +108741,9 @@
    "tip": "P2",
    "tipName": "Alex Michelsen",
    "prob": 0.5911,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-11-11|gojo b|humbert u": {
    "sport": "tn",
@@ -108783,9 +108783,9 @@
    "tip": "P2",
    "tipName": "Tomas Martin Etcheverry",
    "prob": 0.6177,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-11-10|musetti l|samuel t": {
    "sport": "tn",
@@ -108867,6 +108867,20 @@
    "tip": "P2",
    "tipName": "Mirra Andreeva",
    "prob": 0.6727,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-11-11|ruud c|shevchenko a": {
+   "sport": "tn",
+   "comp": "ATP · Bybit Stockholm Open",
+   "date": "2026-11-11",
+   "label": "Casper Ruud – Aleksandr Shevchenko",
+   "p1Key": "ruud c",
+   "p2Key": "shevchenko a",
+   "tip": "P1",
+   "tipName": "Casper Ruud",
+   "prob": 0.8198,
    "status": "open",
    "result": null,
    "correct": null
