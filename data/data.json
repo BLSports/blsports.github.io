@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-10T23:26:36.338801+01:00",
+ "generatedAt": "2026-11-11T02:41:01.492376+01:00",
  "windowDays": 3,
  "days": [
-  "2026-11-10",
   "2026-11-11",
-  "2026-11-12"
+  "2026-11-12",
+  "2026-11-13"
  ],
  "football": [
   {
@@ -129,7 +129,98 @@
    "name": "La Liga 2",
    "flag": "🇪🇸",
    "espn": "esp.2",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-11-13T20:30:00+01:00",
+     "home": "Leganés",
+     "away": "Burgos",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/17534.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/12597.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "N",
+      "N",
+      "U",
+      "N",
+      "N"
+     ],
+     "formAway": [
+      "N",
+      "S",
+      "S",
+      "U",
+      "S"
+     ],
+     "formHomeH": [
+      "S",
+      "N",
+      "N",
+      "U",
+      "N"
+     ],
+     "formAwayA": [
+      "N",
+      "U",
+      "S",
+      "N",
+      "S"
+     ],
+     "load14Home": 2,
+     "load14Away": 2,
+     "posHome": 18,
+     "posAway": 3,
+     "nTeams": 22,
+     "h2h": [
+      {
+       "date": "31.01.2026",
+       "home": "Burgos",
+       "away": "Leganes",
+       "score": "2:1"
+      },
+      {
+       "date": "01.11.2025",
+       "home": "Leganes",
+       "away": "Burgos",
+       "score": "1:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.208,
+      "pDraw": 0.2995,
+      "pAway": 0.4925,
+      "pOver25": 0.3028,
+      "pBtts": 0.3535,
+      "xgHome": 0.69,
+      "xgAway": 1.23,
+      "tipScore": "0:1",
+      "confidence": "hoch"
+     },
+     "pBtts": 0.3535,
+     "odds": {
+      "h": 2.12,
+      "d": 3.25,
+      "a": 3.45,
+      "src": "Unibet (NL)"
+     },
+     "value": {
+      "outcome": "2",
+      "edge": 0.2214,
+      "modelP": 0.4925,
+      "odds": 3.45
+     },
+     "scorersHome": [],
+     "scorersAway": [
+      {
+       "name": "Álex Forés",
+       "goals": 4
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Burgos ist bei Leganés leicht favorisiert (49 % zu 21 %). In der Tabelle stehen sich Platz 18 und Platz 3 gegenüber. Die Form spricht für Burgos: 3 Siege aus den letzten 5 Spielen, Leganés holte nur 0. Heim-/Auswärtsbilanz: Leganés gewann 1 der letzten 5 Heimspiele, Burgos 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:1 (Burgos – Leganes). Das Modell erwartet eher wenige Tore (xG 0,7:1,2; über 2,5 Tore: 30 %, beide Teams treffen zu 35 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,45) für 22 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": true,
    "isCup": false
   },
@@ -289,32 +380,7 @@
  ],
  "tennis": [
   {
-   "start": "2026-11-11T00:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "FAGE WTA Finals Indian Wells",
-   "round": "Group Stage",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Ellen Perez / Demi  Schuurs",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Katerina Siniakova / Taylor Townsend",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-11-11T01:30:00+01:00",
+   "start": "2026-11-11T02:50:00+01:00",
    "tour": "WTA",
    "tournament": "FAGE WTA Finals Indian Wells",
    "round": "Group Stage",
@@ -445,8 +511,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 4
+    "last7": 1,
+    "sets7": 2
    },
    "p2": {
     "name": "Taylor Fritz",
@@ -457,8 +523,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 11
+    "last7": 3,
+    "sets7": 8
    },
    "pP1": 0.195,
    "model": {
@@ -467,7 +533,7 @@
     "pRank": 0.195
    },
    "h2h": [],
-   "analysis": "Cameron Norrie (Weltrangliste #53) trifft auf Taylor Fritz (#10). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Taylor Fritz mit 80 % vorn. Taylor Fritz hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 11 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Cameron Norrie (Weltrangliste #53) trifft auf Taylor Fritz (#10). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Taylor Fritz mit 80 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -529,8 +595,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 7
+    "last7": 2,
+    "sets7": 4
    },
    "p2": {
     "name": "Andrea Lazaro Garcia",
@@ -571,8 +637,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 10
+    "last7": 3,
+    "sets7": 8
    },
    "p2": {
     "name": "Polona Hercog",
@@ -593,7 +659,7 @@
     "pRank": 0.4856
    },
    "h2h": [],
-   "analysis": "Carole Monnet (Weltrangliste #214) trifft auf Polona Hercog (#200). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Polona Hercog mit 51 % vorn. Carole Monnet hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Carole Monnet (Weltrangliste #214) trifft auf Polona Hercog (#200). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Polona Hercog mit 51 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -613,8 +679,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 5,
-    "sets7": 10
+    "last7": 4,
+    "sets7": 8
    },
    "p2": {
     "name": "Tatjana Maria",
@@ -635,7 +701,7 @@
     "pRank": 0.3431
    },
    "h2h": [],
-   "analysis": "Alice Tubello (Weltrangliste #146) trifft auf Tatjana Maria (#68). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Tatjana Maria mit 66 % vorn. Alice Tubello hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 10 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Alice Tubello (Weltrangliste #146) trifft auf Tatjana Maria (#68). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Tatjana Maria mit 66 % vorn. Alice Tubello hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 8 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -680,8 +746,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 7
+    "last7": 2,
+    "sets7": 4
    },
    "p2": {
     "name": "Irene Burillo",
@@ -692,8 +758,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 3,
-    "sets7": 6
+    "last7": 2,
+    "sets7": 4
    },
    "pP1": 0.6281,
    "model": {
@@ -722,8 +788,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 6
+    "last7": 1,
+    "sets7": 3
    },
    "p2": {
     "name": "Lucia Bronzetti",
@@ -750,6 +816,48 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
+   "start": "2026-11-11T17:30:00+01:00",
+   "tour": "WTA",
+   "tournament": "DIRECTV Open Presentado por Compesar",
+   "round": "2. Runde",
+   "surface": null,
+   "p1": {
+    "name": "Sofia Costoulas",
+    "rank": 183,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Laura Samson",
+    "rank": 119,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 6
+   },
+   "pP1": 0.4096,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4096
+   },
+   "h2h": [],
+   "analysis": "Sofia Costoulas (Weltrangliste #183) trifft auf Laura Samson (#119). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Laura Samson mit 59 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
    "start": "2026-11-11T18:00:00+01:00",
    "tour": "ATP",
    "tournament": "Bybit Stockholm Open",
@@ -764,8 +872,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 4,
-    "sets7": 8
+    "last7": 3,
+    "sets7": 6
    },
    "p2": {
     "name": "Aleksandr Shevchenko",
@@ -798,6 +906,48 @@
    "round": "2. Runde",
    "surface": null,
    "p1": {
+    "name": "Marina Bassols Ribera",
+    "rank": 129,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
+   },
+   "p2": {
+    "name": "Maria Lourdes Carle",
+    "rank": 234,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "pP1": 0.6239,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6239
+   },
+   "h2h": [],
+   "analysis": "Marina Bassols Ribera (Weltrangliste #129) trifft auf Maria Lourdes Carle (#234). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Marina Bassols Ribera mit 62 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-11T19:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "DIRECTV Open Presentado por Compesar",
+   "round": "2. Runde",
+   "surface": null,
+   "p1": {
     "name": "Laura Pigossi",
     "rank": 263,
     "form": [],
@@ -806,8 +956,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 5
+    "last7": 1,
+    "sets7": 2
    },
    "p2": {
     "name": "Bianca Andreescu",
@@ -818,8 +968,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 6,
-    "sets7": 13
+    "last7": 5,
+    "sets7": 11
    },
    "pP1": 0.3054,
    "model": {
@@ -828,7 +978,7 @@
     "pRank": 0.3054
    },
    "h2h": [],
-   "analysis": "Laura Pigossi (Weltrangliste #263) trifft auf Bianca Andreescu (#100). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Bianca Andreescu mit 69 % vorn. Bianca Andreescu hat allerdings eine intensive Woche in den Beinen (6 Matches in den letzten 7 Tagen und 13 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "analysis": "Laura Pigossi (Weltrangliste #263) trifft auf Bianca Andreescu (#100). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Bianca Andreescu mit 69 % vorn. Bianca Andreescu hat allerdings eine intensive Woche in den Beinen (5 Matches in den letzten 7 Tagen und 11 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -848,8 +998,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 4
+    "last7": 1,
+    "sets7": 2
    },
    "p2": {
     "name": "Miomir Kecmanovic",
@@ -916,8 +1066,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 1.67,
-    "p2": 2.28,
+    "p1": 1.73,
+    "p2": 2.34,
     "src": "Betfair"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -963,8 +1113,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 2.14,
-    "p2": 1.83,
+    "p1": 2.02,
+    "p2": 1.95,
     "src": "Betfair"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -1118,90 +1268,6 @@
    "round": "Group Stage",
    "surface": null,
    "p1": {
-    "name": "Coco Gauff",
-    "rank": 4,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "p2": {
-    "name": "Marta Kostyuk",
-    "rank": 10,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 4
-   },
-   "pP1": 0.6854,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6854
-   },
-   "h2h": [],
-   "analysis": "Coco Gauff (Weltrangliste #4) trifft auf Marta Kostyuk (#10). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Coco Gauff mit 69 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-11-12T06:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "FAGE WTA Finals Indian Wells",
-   "round": "Group Stage",
-   "surface": null,
-   "p1": {
-    "name": "Linda Noskova",
-    "rank": 8,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "p2": {
-    "name": "Jessica Pegula",
-    "rank": 5,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 5
-   },
-   "pP1": 0.4014,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.4014
-   },
-   "h2h": [],
-   "analysis": "Linda Noskova (Weltrangliste #8) trifft auf Jessica Pegula (#5). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Jessica Pegula mit 60 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-11-12T06:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "FAGE WTA Finals Indian Wells",
-   "round": "Group Stage",
-   "surface": null,
-   "p1": {
     "name": "Karolina Muchova",
     "rank": 7,
     "form": [],
@@ -1336,6 +1402,90 @@
    "analysis": "",
    "unconfirmed": false,
    "timeTBD": true
+  },
+  {
+   "start": "2026-11-12T21:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "FAGE WTA Finals Indian Wells",
+   "round": "Group Stage",
+   "surface": null,
+   "p1": {
+    "name": "Coco Gauff",
+    "rank": 4,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 5
+   },
+   "p2": {
+    "name": "Marta Kostyuk",
+    "rank": 10,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
+   },
+   "pP1": 0.6854,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6854
+   },
+   "h2h": [],
+   "analysis": "Coco Gauff (Weltrangliste #4) trifft auf Marta Kostyuk (#10). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Coco Gauff mit 69 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-12T22:30:00+01:00",
+   "tour": "WTA",
+   "tournament": "FAGE WTA Finals Indian Wells",
+   "round": "Group Stage",
+   "surface": null,
+   "p1": {
+    "name": "Linda Noskova",
+    "rank": 8,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
+   },
+   "p2": {
+    "name": "Jessica Pegula",
+    "rank": 5,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 5
+   },
+   "pP1": 0.4014,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4014
+   },
+   "h2h": [],
+   "analysis": "Linda Noskova (Weltrangliste #8) trifft auf Jessica Pegula (#5). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Jessica Pegula mit 60 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   }
  ],
  "meta": {
@@ -1354,124 +1504,11 @@
    "wta": 0
   }
  },
- "tennisFinished": [
-  {
-   "tour": "ATP",
-   "tournament": "Bybit Stockholm Open",
-   "p1": "Aleksandr Shevchenko",
-   "p2": "Adrian Mannarino",
-   "winner": "Aleksandr Shevchenko",
-   "score": "6:1 6:3"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Bybit Stockholm Open",
-   "p1": "Juan Manuel Cerundolo",
-   "p2": "Alex Michelsen",
-   "winner": "Alex Michelsen",
-   "score": "3:6 2:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Bybit Stockholm Open",
-   "p1": "Quentin Halys",
-   "p2": "Lorenzo Sonego",
-   "winner": "Lorenzo Sonego",
-   "score": "4:6 6:7"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Bybit Stockholm Open",
-   "p1": "Thiago Agustin Tirante",
-   "p2": "Tomas Martin Etcheverry",
-   "winner": "Thiago Agustin Tirante",
-   "score": ""
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Bybit Stockholm Open",
-   "p1": "Miomir Kecmanovic",
-   "p2": "Arthur Rinderknech",
-   "winner": "Miomir Kecmanovic",
-   "score": "7:6 4:6 6:4"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Bybit Stockholm Open",
-   "p1": "Zizou Bergs",
-   "p2": "Holger Rune",
-   "winner": "Holger Rune",
-   "score": "3:6 4:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Bybit Stockholm Open",
-   "p1": "Toby Samuel",
-   "p2": "Lorenzo Musetti",
-   "winner": "Lorenzo Musetti",
-   "score": "1:6 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "FAGE WTA Finals Indian Wells",
-   "p1": "Jessica Pegula",
-   "p2": "Marta Kostyuk",
-   "winner": "Jessica Pegula",
-   "score": "6:2 7:5"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "DIRECTV Open Presentado por Compesar",
-   "p1": "Julia Riera",
-   "p2": "Alice Tubello",
-   "winner": "Alice Tubello",
-   "score": "6:7 2:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "DIRECTV Open Presentado por Compesar",
-   "p1": "Julieta Pareja",
-   "p2": "Lucia Bronzetti",
-   "winner": "Lucia Bronzetti",
-   "score": "3:6 6:4 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "DIRECTV Open Presentado por Compesar",
-   "p1": "Leyre Romero Gormaz",
-   "p2": "Carole Monnet",
-   "winner": "Carole Monnet",
-   "score": "4:6 6:7"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "DIRECTV Open Presentado por Compesar",
-   "p1": "Andrea Lazaro Garcia",
-   "p2": "Katrina Scott",
-   "winner": "Andrea Lazaro Garcia",
-   "score": "6:7 7:5 6:4"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "DIRECTV Open Presentado por Compesar",
-   "p1": "Rebeka Masarova",
-   "p2": "Bianca Andreescu",
-   "winner": "Bianca Andreescu",
-   "score": "6:3 3:6 4:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "DIRECTV Open Presentado por Compesar",
-   "p1": "Maria Camila Torres Murcia",
-   "p2": "Jazmin Ortenzi",
-   "winner": "Jazmin Ortenzi",
-   "score": "2:6 3:6"
-  }
- ],
+ "tennisFinished": [],
  "stats": {
   "overall": {
-   "n": 4682,
-   "correct": 2787,
+   "n": 4685,
+   "correct": 2789,
    "pct": 0.5953
   },
   "football": {
@@ -1480,15 +1517,15 @@
    "pct": 0.5081
   },
   "tennis": {
-   "n": 3379,
-   "correct": 2125,
+   "n": 3382,
+   "correct": 2127,
    "pct": 0.6289
   },
   "exact": {
    "n": 1303,
    "correct": 143
   },
-  "open": 311,
+  "open": 277,
   "value": {
    "n": 169,
    "correct": 65,
@@ -1505,6 +1542,17 @@
     "prob": 0.6432,
     "result": "Sieger: P1",
     "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-11-10",
+    "comp": "WTA · FAGE WTA Finals Indian Wells",
+    "label": "Linda Noskova – Coco Gauff",
+    "tipName": "Coco Gauff",
+    "tip": "P2",
+    "prob": 0.6432,
+    "result": "Sieger: P1",
+    "correct": false,
     "sport": "tn"
    },
    {
@@ -1591,6 +1639,28 @@
     "tipName": "Lucia Bronzetti",
     "tip": "P2",
     "prob": 0.5833,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-11-10",
+    "comp": "WTA · DIRECTV Open Presentado por Compesar",
+    "label": "Carolina Alves – Laura Samson",
+    "tipName": "Laura Samson",
+    "tip": "P2",
+    "prob": 0.6527,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-11-10",
+    "comp": "WTA · DIRECTV Open Presentado por Compesar",
+    "label": "Valentina Mediorreal Arias – Maria Lourdes Carle",
+    "tipName": "Maria Lourdes Carle",
+    "tip": "P2",
+    "prob": 0.5159,
     "result": "Sieger: P2",
     "correct": true,
     "sport": "tn"
@@ -1737,39 +1807,6 @@
     "result": "Sieger: P1",
     "correct": true,
     "sport": "tn"
-   },
-   {
-    "date": "2026-11-09",
-    "comp": "ATP · Bybit Stockholm Open",
-    "label": "Borna Gojo – Tomas Machac",
-    "tipName": "Tomas Machac",
-    "tip": "P2",
-    "prob": 0.6644,
-    "result": "Sieger: P1",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-11-09",
-    "comp": "ATP · Bybit Stockholm Open",
-    "label": "Toby Samuel – Leo Borg",
-    "tipName": "Toby Samuel",
-    "tip": "P1",
-    "prob": 0.8271,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-11-09",
-    "comp": "La Liga 2",
-    "label": "Las Palmas – Eldense",
-    "tipName": "Las Palmas",
-    "tip": "1",
-    "prob": 0.5457,
-    "result": "2:0",
-    "correct": true,
-    "sport": "fb"
    }
   ]
  }
