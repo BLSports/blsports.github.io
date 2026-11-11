@@ -108755,9 +108755,9 @@
    "tip": "P1",
    "tipName": "Ugo Humbert",
    "prob": 0.7406,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|atp|2026-11-11|fritz t|norrie c": {
    "sport": "tn",
@@ -108769,9 +108769,9 @@
    "tip": "P2",
    "tipName": "Taylor Fritz",
    "prob": 0.805,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-11-10|agustin tirante t|martin etcheverry t": {
    "sport": "tn",
@@ -108811,9 +108811,9 @@
    "tip": "P1",
    "tipName": "Julia Grabher",
    "prob": 0.6281,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-11-12|sabalenka a|svitolina e": {
    "sport": "tn",
@@ -108881,9 +108881,9 @@
    "tip": "P1",
    "tipName": "Casper Ruud",
    "prob": 0.8198,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|atp|2026-11-11|sonego l|tabilo a": {
    "sport": "tn",
@@ -108895,9 +108895,9 @@
    "tip": "P1",
    "tipName": "Alejandro Tabilo",
    "prob": 0.7529,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-11-11|lazaro garcia a|ortenzi j": {
    "sport": "tn",
@@ -108909,9 +108909,9 @@
    "tip": "P2",
    "tipName": "Andrea Lazaro Garcia",
    "prob": 0.5568,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-11-11|hercog p|monnet c": {
    "sport": "tn",
@@ -108923,9 +108923,9 @@
    "tip": "P2",
    "tipName": "Polona Hercog",
    "prob": 0.5144,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-11-11|maria t|tubello a": {
    "sport": "tn",
@@ -108937,9 +108937,9 @@
    "tip": "P2",
    "tipName": "Tatjana Maria",
    "prob": 0.6569,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-11-11|bronzetti l|mandlik e": {
    "sport": "tn",
@@ -108951,9 +108951,9 @@
    "tip": "P2",
    "tipName": "Lucia Bronzetti",
    "prob": 0.6159,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-11-11|andreescu b|pigossi l": {
    "sport": "tn",
@@ -108965,9 +108965,9 @@
    "tip": "P2",
    "tipName": "Bianca Andreescu",
    "prob": 0.6946,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-11-11|kecmanovic m|rune h": {
    "sport": "tn",
@@ -108979,9 +108979,9 @@
    "tip": "P2",
    "tipName": "Miomir Kecmanovic",
    "prob": 0.8278,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "fb|ll2|2026-11-13|leganes|burgos": {
    "sport": "fb",
@@ -109018,9 +109018,9 @@
    "tip": "P2",
    "tipName": "Laura Samson",
    "prob": 0.5904,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-11-11|bassols ribera m|lourdes carle m": {
    "sport": "tn",
@@ -109032,9 +109032,9 @@
    "tip": "P1",
    "tipName": "Marina Bassols Ribera",
    "prob": 0.6239,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-11-13|sabalenka a|svitolina e": {
    "sport": "tn",
@@ -109060,6 +109060,118 @@
    "tip": "P2",
    "tipName": "Mirra Andreeva",
    "prob": 0.6727,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-11-12|michelsen a|tabilo a": {
+   "sport": "tn",
+   "comp": "ATP · Bybit Stockholm Open",
+   "date": "2026-11-12",
+   "label": "Alejandro Tabilo – Alex Michelsen",
+   "p1Key": "tabilo a",
+   "p2Key": "michelsen a",
+   "tip": "P1",
+   "tipName": "Alejandro Tabilo",
+   "prob": 0.5258,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-11-12|agustin tirante t|shevchenko a": {
+   "sport": "tn",
+   "comp": "ATP · Bybit Stockholm Open",
+   "date": "2026-11-12",
+   "label": "Aleksandr Shevchenko – Thiago Agustin Tirante",
+   "p1Key": "shevchenko a",
+   "p2Key": "agustin tirante t",
+   "tip": "P2",
+   "tipName": "Thiago Agustin Tirante",
+   "prob": 0.6525,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-12|lazaro garcia a|mandlik e": {
+   "sport": "tn",
+   "comp": "WTA · DIRECTV Open Presentado por Compesar",
+   "date": "2026-11-12",
+   "label": "Andrea Lazaro Garcia – Elizabeth Mandlik",
+   "p1Key": "lazaro garcia a",
+   "p2Key": "mandlik e",
+   "tip": "P1",
+   "tipName": "Andrea Lazaro Garcia",
+   "prob": 0.6057,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-12|burillo i|samson l": {
+   "sport": "tn",
+   "comp": "WTA · DIRECTV Open Presentado por Compesar",
+   "date": "2026-11-12",
+   "label": "Irene Burillo – Laura Samson",
+   "p1Key": "burillo i",
+   "p2Key": "samson l",
+   "tip": "P2",
+   "tipName": "Laura Samson",
+   "prob": 0.6212,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-12|hercog p|tubello a": {
+   "sport": "tn",
+   "comp": "WTA · DIRECTV Open Presentado por Compesar",
+   "date": "2026-11-12",
+   "label": "Polona Hercog – Alice Tubello",
+   "p1Key": "hercog p",
+   "p2Key": "tubello a",
+   "tip": "P2",
+   "tipName": "Alice Tubello",
+   "prob": 0.5665,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-12|andreescu b|bassols ribera m": {
+   "sport": "tn",
+   "comp": "WTA · DIRECTV Open Presentado por Compesar",
+   "date": "2026-11-12",
+   "label": "Marina Bassols Ribera – Bianca Andreescu",
+   "p1Key": "bassols ribera m",
+   "p2Key": "andreescu b",
+   "tip": "P2",
+   "tipName": "Bianca Andreescu",
+   "prob": 0.5539,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-11-12|fritz t|rune h": {
+   "sport": "tn",
+   "comp": "ATP · Bybit Stockholm Open",
+   "date": "2026-11-12",
+   "label": "Holger Rune – Taylor Fritz",
+   "p1Key": "rune h",
+   "p2Key": "fritz t",
+   "tip": "P2",
+   "tipName": "Taylor Fritz",
+   "prob": 0.9588,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-11-12|humbert u|musetti l": {
+   "sport": "tn",
+   "comp": "ATP · Bybit Stockholm Open",
+   "date": "2026-11-12",
+   "label": "Ugo Humbert – Lorenzo Musetti",
+   "p1Key": "humbert u",
+   "p2Key": "musetti l",
+   "tip": "P2",
+   "tipName": "Lorenzo Musetti",
+   "prob": 0.5934,
    "status": "open",
    "result": null,
    "correct": null
