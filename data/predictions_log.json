@@ -108671,9 +108671,9 @@
    "tip": "P1",
    "tipName": "Coco Gauff",
    "prob": 0.6854,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-11-11|noskova l|pegula j": {
    "sport": "tn",
@@ -108839,9 +108839,9 @@
    "tip": "P1",
    "tipName": "Coco Gauff",
    "prob": 0.6854,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-11-12|noskova l|pegula j": {
    "sport": "tn",
@@ -109088,9 +109088,9 @@
    "tip": "P2",
    "tipName": "Thiago Agustin Tirante",
    "prob": 0.6525,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-11-12|lazaro garcia a|mandlik e": {
    "sport": "tn",
@@ -109102,9 +109102,9 @@
    "tip": "P1",
    "tipName": "Andrea Lazaro Garcia",
    "prob": 0.6057,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-11-12|burillo i|samson l": {
    "sport": "tn",
@@ -109116,9 +109116,9 @@
    "tip": "P2",
    "tipName": "Laura Samson",
    "prob": 0.6212,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-11-12|hercog p|tubello a": {
    "sport": "tn",
@@ -109130,9 +109130,9 @@
    "tip": "P2",
    "tipName": "Alice Tubello",
    "prob": 0.5665,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-11-12|andreescu b|bassols ribera m": {
    "sport": "tn",
@@ -109144,9 +109144,9 @@
    "tip": "P2",
    "tipName": "Bianca Andreescu",
    "prob": 0.5539,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-11-12|fritz t|rune h": {
    "sport": "tn",
@@ -109158,9 +109158,9 @@
    "tip": "P2",
    "tipName": "Taylor Fritz",
    "prob": 0.9588,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-11-12|humbert u|musetti l": {
    "sport": "tn",
@@ -109172,9 +109172,9 @@
    "tip": "P2",
    "tipName": "Lorenzo Musetti",
    "prob": 0.5934,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "fb|ll2|2026-11-14|valladolid|castellon": {
    "sport": "fb",
@@ -109419,6 +109419,62 @@
    "result": null,
    "correct": null,
    "exact": null
+  },
+  "tn|atp|2026-11-13|agustin tirante t|tabilo a": {
+   "sport": "tn",
+   "comp": "ATP · Bybit Stockholm Open",
+   "date": "2026-11-13",
+   "label": "Thiago Agustin Tirante – Alejandro Tabilo",
+   "p1Key": "agustin tirante t",
+   "p2Key": "tabilo a",
+   "tip": "P2",
+   "tipName": "Alejandro Tabilo",
+   "prob": 0.6042,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-13|mandlik e|samson l": {
+   "sport": "tn",
+   "comp": "WTA · DIRECTV Open Presentado por Compesar",
+   "date": "2026-11-13",
+   "label": "Elizabeth Mandlik – Laura Samson",
+   "p1Key": "mandlik e",
+   "p2Key": "samson l",
+   "tip": "P2",
+   "tipName": "Laura Samson",
+   "prob": 0.6424,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-11-13|fritz t|musetti l": {
+   "sport": "tn",
+   "comp": "ATP · Bybit Stockholm Open",
+   "date": "2026-11-13",
+   "label": "Lorenzo Musetti – Taylor Fritz",
+   "p1Key": "musetti l",
+   "p2Key": "fritz t",
+   "tip": "P2",
+   "tipName": "Taylor Fritz",
+   "prob": 0.6854,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-13|andreescu b|hercog p": {
+   "sport": "tn",
+   "comp": "WTA · DIRECTV Open Presentado por Compesar",
+   "date": "2026-11-13",
+   "label": "Bianca Andreescu – Polona Hercog",
+   "p1Key": "andreescu b",
+   "p2Key": "hercog p",
+   "tip": "P1",
+   "tipName": "Bianca Andreescu",
+   "prob": 0.6432,
+   "status": "open",
+   "result": null,
+   "correct": null
   }
  }
 }
