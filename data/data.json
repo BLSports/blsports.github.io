@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-12T00:35:06.029989+01:00",
+ "generatedAt": "2026-11-12T03:39:58.943859+01:00",
  "windowDays": 3,
  "days": [
   "2026-11-12",
@@ -396,8 +396,8 @@
      "pBtts": 0.5936,
      "odds": {
       "h": 2.45,
-      "d": 3.1,
-      "a": 2.7,
+      "d": 2.9,
+      "a": 2.8,
       "src": "William Hill"
      },
      "value": null,
@@ -1287,17 +1287,12 @@
      },
      "pBtts": 0.6908,
      "odds": {
-      "h": 1.65,
+      "h": 1.6,
       "d": 4.0,
-      "a": 4.33,
+      "a": 4.6,
       "src": "William Hill"
      },
-     "value": {
-      "outcome": "1",
-      "edge": 0.0886,
-      "modelP": 0.6461,
-      "odds": 1.65
-     },
+     "value": null,
      "scorersHome": [
       {
        "name": "L. Schmidt",
@@ -1310,7 +1305,7 @@
      ],
      "scorersAway": [],
      "scorersPeriod": "Saison",
-     "analysis": "VVV-Venlo geht als klarer Favorit (65 %) in das Heimspiel gegen FC Eindhoven. In der Tabelle stehen sich Platz 2 und Platz 5 gegenüber. Das letzte Duell (2026) endete 1:0 (VVV Venlo – FC Eindhoven). Das Modell erwartet ein torreiches Spiel (xG 2,6:1,4; über 2,5 Tore: 76 %, beide Teams treffen zu 69 %). Gefährlichste Torschützen: bei VVV-Venlo L. Schmidt (5 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 1,65) für 9 Prozentpunkte wahrscheinlicher als der Markt.",
+     "analysis": "VVV-Venlo geht als klarer Favorit (65 %) in das Heimspiel gegen FC Eindhoven. In der Tabelle stehen sich Platz 2 und Platz 5 gegenüber. Das letzte Duell (2026) endete 1:0 (VVV Venlo – FC Eindhoven). Das Modell erwartet ein torreiches Spiel (xG 2,6:1,4; über 2,5 Tore: 76 %, beide Teams treffen zu 69 %). Gefährlichste Torschützen: bei VVV-Venlo L. Schmidt (5 Tore).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
@@ -1563,56 +1558,6 @@
   }
  ],
  "tennis": [
-  {
-   "start": "2026-11-12T00:50:00+01:00",
-   "tour": "WTA",
-   "tournament": "FAGE WTA Finals Indian Wells",
-   "round": "Group Stage",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Guo Hanyu / Kristina Mladenovic",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Gabriela Dabrowski / Luisa Stefani",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-11-12T02:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "FAGE WTA Finals Indian Wells",
-   "round": "Group Stage",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Elise Mertens / Zhang Shuai",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Su-Wei Hsieh / Jelena Ostapenko",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
   {
    "start": "2026-11-12T13:00:00+01:00",
    "tour": "ATP",
@@ -2299,44 +2244,52 @@
    "tournament": "FAGE WTA Finals Indian Wells",
    "round": "Group Stage",
    "surface": null,
+   "doubles": true,
    "p1": {
-    "name": "Elina Svitolina",
-    "rank": 6,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 5
+    "name": "Su-Wei Hsieh / Jelena Ostapenko",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
    },
    "p2": {
-    "name": "Aryna Sabalenka",
-    "rank": 2,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 4
+    "name": "Gabriela Dabrowski / Luisa Stefani",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
    },
-   "pP1": 0.2822,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.2822
-   },
+   "pP1": null,
    "h2h": [],
-   "analysis": "Elina Svitolina (Weltrangliste #6) trifft auf Aryna Sabalenka (#2). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Aryna Sabalenka mit 72 % vorn.",
+   "analysis": "",
    "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "timeTBD": true
   },
   {
    "start": "2026-11-13T06:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "FAGE WTA Finals Indian Wells",
+   "round": "Group Stage",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Elise Mertens / Zhang Shuai",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Guo Hanyu / Kristina Mladenovic",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-13T21:00:00+01:00",
    "tour": "WTA",
    "tournament": "FAGE WTA Finals Indian Wells",
    "round": "Group Stage",
@@ -2374,58 +2327,50 @@
    "h2h": [],
    "analysis": "Karolina Muchova (Weltrangliste #7) trifft auf Mirra Andreeva (#3). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Mirra Andreeva mit 67 % vorn.",
    "unconfirmed": false,
-   "timeTBD": true,
+   "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-11-13T06:00:00+01:00",
+   "start": "2026-11-13T22:30:00+01:00",
    "tour": "WTA",
    "tournament": "FAGE WTA Finals Indian Wells",
    "round": "Group Stage",
    "surface": null,
-   "doubles": true,
    "p1": {
-    "name": "Elise Mertens / Zhang Shuai",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
+    "name": "Elina Svitolina",
+    "rank": 6,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 5
    },
    "p2": {
-    "name": "Guo Hanyu / Kristina Mladenovic",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
+    "name": "Aryna Sabalenka",
+    "rank": 2,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
    },
-   "pP1": null,
+   "pP1": 0.2822,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.2822
+   },
    "h2h": [],
-   "analysis": "",
+   "analysis": "Elina Svitolina (Weltrangliste #6) trifft auf Aryna Sabalenka (#2). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Aryna Sabalenka mit 72 % vorn.",
    "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-11-13T06:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "FAGE WTA Finals Indian Wells",
-   "round": "Group Stage",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Su-Wei Hsieh / Jelena Ostapenko",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Gabriela Dabrowski / Luisa Stefani",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   }
  ],
  "meta": {
