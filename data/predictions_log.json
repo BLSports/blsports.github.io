@@ -109378,8 +109378,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 3.25,
-    "edge": 0.0613,
+    "odds": 3.3,
+    "edge": 0.0672,
     "modelP": 0.3443,
     "won": null
    }
@@ -109430,9 +109430,9 @@
    "tip": "P2",
    "tipName": "Alejandro Tabilo",
    "prob": 0.6042,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-11-13|mandlik e|samson l": {
    "sport": "tn",
@@ -109444,9 +109444,9 @@
    "tip": "P2",
    "tipName": "Laura Samson",
    "prob": 0.6424,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|atp|2026-11-13|fritz t|musetti l": {
    "sport": "tn",
@@ -109458,9 +109458,9 @@
    "tip": "P2",
    "tipName": "Taylor Fritz",
    "prob": 0.6854,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-11-13|andreescu b|hercog p": {
    "sport": "tn",
@@ -109472,9 +109472,9 @@
    "tip": "P1",
    "tipName": "Bianca Andreescu",
    "prob": 0.6432,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "fb|ll2|2026-11-15|tenerife|ceuta": {
    "sport": "fb",
@@ -109618,6 +109618,34 @@
    "tip": "P2",
    "tipName": "Ben Shelton",
    "prob": 0.6167,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-11-14|agustin tirante t|fritz t": {
+   "sport": "tn",
+   "comp": "ATP · Bybit Stockholm Open",
+   "date": "2026-11-14",
+   "label": "Thiago Agustin Tirante – Taylor Fritz",
+   "p1Key": "agustin tirante t",
+   "p2Key": "fritz t",
+   "tip": "P2",
+   "tipName": "Taylor Fritz",
+   "prob": 0.7998,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-14|andreescu b|mandlik e": {
+   "sport": "tn",
+   "comp": "WTA · DIRECTV Open Presentado por Compesar",
+   "date": "2026-11-14",
+   "label": "Elizabeth Mandlik – Bianca Andreescu",
+   "p1Key": "mandlik e",
+   "p2Key": "andreescu b",
+   "tip": "P2",
+   "tipName": "Bianca Andreescu",
+   "prob": 0.6756,
    "status": "open",
    "result": null,
    "correct": null
