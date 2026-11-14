@@ -99800,7 +99800,7 @@
    "prob": 0.39,
    "tipScore": "1:1",
    "pOver25": 0.6745,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null,
@@ -99825,7 +99825,7 @@
    "prob": 0.514,
    "tipScore": "1:1",
    "pOver25": 0.5506,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null,
@@ -99850,7 +99850,7 @@
    "prob": 0.428,
    "tipScore": "1:1",
    "pOver25": 0.6929,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -99868,7 +99868,7 @@
    "prob": 0.6574,
    "tipScore": "3:1",
    "pOver25": 0.8564,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -99886,7 +99886,7 @@
    "prob": 0.5397,
    "tipScore": "2:1",
    "pOver25": 0.6827,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -99904,7 +99904,7 @@
    "prob": 0.5443,
    "tipScore": "2:1",
    "pOver25": 0.7821,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null,
@@ -99929,7 +99929,7 @@
    "prob": 0.5694,
    "tipScore": "2:1",
    "pOver25": 0.7897,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -99947,7 +99947,7 @@
    "prob": 0.4902,
    "tipScore": "1:1",
    "pOver25": 0.6787,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null,
@@ -99972,7 +99972,7 @@
    "prob": 0.4169,
    "tipScore": "1:1",
    "pOver25": 0.7295,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null,
@@ -100015,7 +100015,7 @@
    "prob": 0.4402,
    "tipScore": "1:1",
    "pOver25": 0.4945,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -100033,7 +100033,7 @@
    "prob": 0.5091,
    "tipScore": "1:0",
    "pOver25": 0.4397,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null,
    "exact": null
@@ -100230,7 +100230,7 @@
    "tip": "P1",
    "tipName": "Alexandra Eala",
    "prob": 0.7422,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null
   },
@@ -100244,7 +100244,7 @@
    "tip": "P2",
    "tipName": "Leylah Fernandez",
    "prob": 0.8559,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null
   },
@@ -100706,7 +100706,7 @@
    "tip": "P2",
    "tipName": "Alejandro Davidovich Fokina",
    "prob": 0.851,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null
   },
@@ -100734,7 +100734,7 @@
    "tip": "P1",
    "tipName": "Learner Tien",
    "prob": 0.6212,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null
   },
@@ -100776,7 +100776,7 @@
    "tip": "P1",
    "tipName": "Lucrezia Stefanini",
    "prob": 0.5224,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null
   },
@@ -101386,7 +101386,7 @@
    "tip": "P1",
    "tipName": "Renata Zarazua",
    "prob": 0.637,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null
   },
@@ -108825,9 +108825,9 @@
    "tip": "P2",
    "tipName": "Aryna Sabalenka",
    "prob": 0.7178,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-11-12|gauff c|kostyuk m": {
    "sport": "tn",
@@ -109046,9 +109046,9 @@
    "tip": "P2",
    "tipName": "Aryna Sabalenka",
    "prob": 0.7178,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-11-13|andreeva m|muchova k": {
    "sport": "tn",
@@ -109257,7 +109257,7 @@
    "value": {
     "pick": "1",
     "odds": 1.82,
-    "edge": 0.1129,
+    "edge": 0.1097,
     "modelP": 0.6269,
     "won": null
    }
@@ -109281,8 +109281,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 2.9,
-    "edge": 0.1137,
+    "odds": 2.8,
+    "edge": 0.1018,
     "modelP": 0.4291,
     "won": null
    }
@@ -109646,6 +109646,76 @@
    "tip": "P2",
    "tipName": "Bianca Andreescu",
    "prob": 0.6756,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-14|noskova l|svitolina e": {
+   "sport": "tn",
+   "comp": "WTA · FAGE WTA Finals Indian Wells",
+   "date": "2026-11-14",
+   "label": "Elina Svitolina – Linda Noskova",
+   "p1Key": "svitolina e",
+   "p2Key": "noskova l",
+   "tip": "P1",
+   "tipName": "Elina Svitolina",
+   "prob": 0.5608,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-11-16|alcaraz c|cobolli f": {
+   "sport": "tn",
+   "comp": "ATP · Nitto ATP Finals",
+   "date": "2026-11-16",
+   "label": "Flavio Cobolli – Carlos Alcaraz",
+   "p1Key": "cobolli f",
+   "p2Key": "alcaraz c",
+   "tip": "P2",
+   "tipName": "Carlos Alcaraz",
+   "prob": 0.6432,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-11-16|cobolli f|tiafoe f": {
+   "sport": "tn",
+   "comp": "ATP · Nitto ATP Finals",
+   "date": "2026-11-16",
+   "label": "Frances Tiafoe – Flavio Cobolli",
+   "p1Key": "tiafoe f",
+   "p2Key": "cobolli f",
+   "tip": "P2",
+   "tipName": "Flavio Cobolli",
+   "prob": 0.5608,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-11-16|alcaraz c|tiafoe f": {
+   "sport": "tn",
+   "comp": "ATP · Nitto ATP Finals",
+   "date": "2026-11-16",
+   "label": "Frances Tiafoe – Carlos Alcaraz",
+   "p1Key": "tiafoe f",
+   "p2Key": "alcaraz c",
+   "tip": "P2",
+   "tipName": "Carlos Alcaraz",
+   "prob": 0.6971,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|atp|2026-11-16|cobolli f|medvedev d": {
+   "sport": "tn",
+   "comp": "ATP · Nitto ATP Finals",
+   "date": "2026-11-16",
+   "label": "Flavio Cobolli – Daniil Medvedev",
+   "p1Key": "cobolli f",
+   "p2Key": "medvedev d",
+   "tip": "P2",
+   "tipName": "Daniil Medvedev",
+   "prob": 0.5387,
    "status": "open",
    "result": null,
    "correct": null
