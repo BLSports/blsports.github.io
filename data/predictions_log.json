@@ -109376,18 +109376,18 @@
    "awayKey": "fc volendam",
    "tip": "1",
    "tipName": "Roda JC Kerkrade",
-   "prob": 0.4386,
+   "prob": 0.4771,
    "tipScore": "1:1",
-   "pOver25": 0.7019,
+   "pOver25": 0.6755,
    "status": "open",
    "result": null,
    "correct": null,
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 3.3,
-    "edge": 0.0699,
-    "modelP": 0.3443,
+    "odds": 3.6,
+    "edge": 0.0509,
+    "modelP": 0.3042,
     "won": null
    }
   },
@@ -109401,9 +109401,9 @@
    "awayKey": "fc eindhoven",
    "tip": "1",
    "tipName": "VVV-Venlo",
-   "prob": 0.6461,
+   "prob": 0.6195,
    "tipScore": "2:1",
-   "pOver25": 0.7616,
+   "pOver25": 0.7597,
    "status": "open",
    "result": null,
    "correct": null,
@@ -109425,7 +109425,14 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 2.15,
+    "edge": 0.0698,
+    "modelP": 0.4965,
+    "won": null
+   }
   },
   "tn|atp|2026-11-13|agustin tirante t|tabilo a": {
    "sport": "tn",
@@ -109639,9 +109646,9 @@
    "tip": "P2",
    "tipName": "Taylor Fritz",
    "prob": 0.7998,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-11-14|andreescu b|mandlik e": {
    "sport": "tn",
@@ -109653,9 +109660,9 @@
    "tip": "P2",
    "tipName": "Bianca Andreescu",
    "prob": 0.6756,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-11-14|noskova l|svitolina e": {
    "sport": "tn",
@@ -109726,6 +109733,31 @@
    "status": "open",
    "result": null,
    "correct": null
+  },
+  "fb|nl2|2026-11-14|de graafschap|fc oss": {
+   "sport": "fb",
+   "comp": "Eerste Divisie",
+   "compId": "nl2",
+   "date": "2026-11-14",
+   "label": "De Graafschap – FC OSS",
+   "homeKey": "de graafschap",
+   "awayKey": "fc oss",
+   "tip": "1",
+   "tipName": "De Graafschap",
+   "prob": 0.3882,
+   "tipScore": "1:1",
+   "pOver25": 0.5785,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "2",
+    "odds": 4.4,
+    "edge": 0.1616,
+    "modelP": 0.3692,
+    "won": null
+   }
   }
  }
 }
