@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T12:34:38.299138+01:00",
+ "generatedAt": "2026-11-15T14:22:35.753930+01:00",
  "windowDays": 3,
  "days": [
   "2026-11-15",
@@ -130,92 +130,6 @@
    "flag": "🇪🇸",
    "espn": "esp.2",
    "matches": [
-    {
-     "kickoff": "2026-11-15T14:00:00+01:00",
-     "home": "Tenerife",
-     "away": "Ceuta",
-     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/245.png",
-     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/5404.png",
-     "matchday": null,
-     "roundName": null,
-     "formHome": [
-      "N",
-      "U",
-      "U",
-      "U",
-      "U"
-     ],
-     "formAway": [
-      "N",
-      "N",
-      "N",
-      "N",
-      "N"
-     ],
-     "formHomeH": [
-      "N",
-      "S",
-      "U",
-      "U",
-      "U"
-     ],
-     "formAwayA": [
-      "N",
-      "N",
-      "U",
-      "N",
-      "N"
-     ],
-     "load14Home": 1,
-     "load14Away": 1,
-     "posHome": 14,
-     "posAway": 22,
-     "nTeams": 22,
-     "h2h": [],
-     "prediction": {
-      "pHome": 0.586,
-      "pDraw": 0.2206,
-      "pAway": 0.1934,
-      "pOver25": 0.5537,
-      "pBtts": 0.5364,
-      "xgHome": 1.9,
-      "xgAway": 1.0,
-      "tipScore": "1:0",
-      "confidence": "hoch"
-     },
-     "pBtts": 0.5364,
-     "odds": {
-      "h": 1.77,
-      "d": 3.35,
-      "a": 3.9,
-      "src": "LeoVegas (SE)"
-     },
-     "value": {
-      "outcome": "1",
-      "edge": 0.0815,
-      "modelP": 0.586,
-      "odds": 1.77
-     },
-     "scorersHome": [
-      {
-       "name": "Enric Gallego",
-       "goals": 8
-      }
-     ],
-     "scorersAway": [
-      {
-       "name": "Jordi Escobar",
-       "goals": 4
-      },
-      {
-       "name": "Carlos Hernández",
-       "goals": 4
-      }
-     ],
-     "scorersPeriod": "Saison",
-     "analysis": "Tenerife geht als klarer Favorit (59 %) in das Heimspiel gegen Ceuta. In der Tabelle stehen sich Platz 14 und Platz 22 gegenüber. Heim-/Auswärtsbilanz: Tenerife gewann 1 der letzten 5 Heimspiele, Ceuta 0 der letzten 5 Auswärtsspiele. Das Modell erwartet ein torreiches Spiel (xG 1,9:1,0; über 2,5 Tore: 55 %, beide Teams treffen zu 54 %). Gefährlichste Torschützen: bei Tenerife Enric Gallego (8 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 1,77) für 8 Prozentpunkte wahrscheinlicher als der Markt.",
-     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-    },
     {
      "kickoff": "2026-11-15T16:15:00+01:00",
      "home": "Granada",
@@ -702,53 +616,6 @@
  ],
  "tennis": [
   {
-   "start": "2026-11-15T14:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Nitto ATP Finals",
-   "round": "Group Stage",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Rafael Jodar",
-    "rank": 10,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Alexander Zverev",
-    "rank": 1,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.1238,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.1238
-   },
-   "h2h": [],
-   "analysis": "Rafael Jodar (Weltrangliste #10) trifft auf Alexander Zverev (#1). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alexander Zverev mit 88 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 2.95,
-    "p2": 1.43,
-    "src": "BetAnything"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
    "start": "2026-11-15T15:30:00+01:00",
    "tour": "WTA",
    "tournament": "LP Open by IND",
@@ -1059,90 +926,6 @@
    "analysis": "",
    "unconfirmed": false,
    "timeTBD": false
-  },
-  {
-   "start": "2026-11-16T06:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Nitto ATP Finals",
-   "round": "Group Stage",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Flavio Cobolli",
-    "rank": 6,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Carlos Alcaraz",
-    "rank": 3,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.3568,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.3568
-   },
-   "h2h": [],
-   "analysis": "Flavio Cobolli (Weltrangliste #6) trifft auf Carlos Alcaraz (#3). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Carlos Alcaraz mit 64 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-11-16T06:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Nitto ATP Finals",
-   "round": "Group Stage",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Frances Tiafoe",
-    "rank": 8,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Flavio Cobolli",
-    "rank": 6,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.4392,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.4392
-   },
-   "h2h": [],
-   "analysis": "Frances Tiafoe (Weltrangliste #8) trifft auf Flavio Cobolli (#6). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Flavio Cobolli mit 56 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-11-16T06:00:00+01:00",
@@ -2053,6 +1836,48 @@
     "sets7": 0
    },
    "p2": {
+    "name": "Flavio Cobolli",
+    "rank": 6,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.4392,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4392
+   },
+   "h2h": [],
+   "analysis": "Frances Tiafoe (Weltrangliste #8) trifft auf Flavio Cobolli (#6). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Flavio Cobolli mit 56 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-17T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Nitto ATP Finals",
+   "round": "Group Stage",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Frances Tiafoe",
+    "rank": 8,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
     "name": "Daniil Medvedev",
     "rank": 5,
     "form": [],
@@ -2072,6 +1897,48 @@
    },
    "h2h": [],
    "analysis": "Frances Tiafoe (Weltrangliste #8) trifft auf Daniil Medvedev (#5). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Daniil Medvedev mit 60 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-17T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Nitto ATP Finals",
+   "round": "Group Stage",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Flavio Cobolli",
+    "rank": 6,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Carlos Alcaraz",
+    "rank": 3,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.3568,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3568
+   },
+   "h2h": [],
+   "analysis": "Flavio Cobolli (Weltrangliste #6) trifft auf Carlos Alcaraz (#3). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Carlos Alcaraz mit 64 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2282,7 +2149,7 @@
    "n": 1303,
    "correct": 143
   },
-  "open": 203,
+  "open": 205,
   "value": {
    "n": 169,
    "correct": 65,
