@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-11-15T00:35:50.780361+01:00",
+ "generatedAt": "2026-11-15T12:34:38.299138+01:00",
  "windowDays": 3,
  "days": [
   "2026-11-15",
@@ -296,12 +296,7 @@
        "goals": 4
       }
      ],
-     "scorersAway": [
-      {
-       "name": "Jesé",
-       "goals": 4
-      }
-     ],
+     "scorersAway": [],
      "scorersPeriod": "Saison",
      "analysis": "Granada ist gegen Las Palmas leicht favorisiert (42 % zu 32 %). In der Tabelle stehen sich Platz 5 und Platz 10 gegenüber. Die Form spricht für Granada: 5 Siege aus den letzten 5 Spielen, Las Palmas holte nur 3. Heim-/Auswärtsbilanz: Granada gewann 3 der letzten 5 Heimspiele, Las Palmas 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:0 (Las Palmas – Granada). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,4:1,2; über 2,5 Tore: 50 %, beide Teams treffen zu 54 %).",
      "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -451,9 +446,9 @@
      },
      "pBtts": 0.3032,
      "odds": {
-      "h": 2.25,
-      "d": 2.9,
-      "a": 3.1,
+      "h": 2.3,
+      "d": 2.8,
+      "a": 3.25,
       "src": "William Hill"
      },
      "value": null,
@@ -707,98 +702,6 @@
  ],
  "tennis": [
   {
-   "start": "2026-11-15T01:30:00+01:00",
-   "tour": "WTA",
-   "tournament": "FAGE WTA Finals Indian Wells",
-   "round": "Halbfinale",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Sara Errani / Jasmine Paolini",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Guo Hanyu / Kristina Mladenovic",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-11-15T06:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "FAGE WTA Finals Indian Wells",
-   "round": "Finale",
-   "surface": null,
-   "p1": {
-    "name": "Mirra Andreeva",
-    "rank": 3,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4,
-    "sets7": 8
-   },
-   "p2": {
-    "name": "Elina Svitolina",
-    "rank": 6,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4,
-    "sets7": 10
-   },
-   "pP1": 0.6432,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6432
-   },
-   "h2h": [],
-   "analysis": "Mirra Andreeva (Weltrangliste #3) trifft auf Elina Svitolina (#6). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Mirra Andreeva mit 64 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-11-15T11:30:00+01:00",
-   "tour": "ATP",
-   "tournament": "Nitto ATP Finals",
-   "round": "Group Stage",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Orlando Luz / Rafael Matos",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Harri Heliovaara / Henry Patten",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
    "start": "2026-11-15T14:00:00+01:00",
    "tour": "ATP",
    "tournament": "Nitto ATP Finals",
@@ -806,7 +709,7 @@
    "surface": "Hartplatz",
    "p1": {
     "name": "Rafael Jodar",
-    "rank": 11,
+    "rank": 10,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -828,14 +731,14 @@
     "last7": 0,
     "sets7": 0
    },
-   "pP1": 0.1152,
+   "pP1": 0.1238,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.1152
+    "pRank": 0.1238
    },
    "h2h": [],
-   "analysis": "Rafael Jodar (Weltrangliste #11) trifft auf Alexander Zverev (#1). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alexander Zverev mit 88 % vorn.",
+   "analysis": "Rafael Jodar (Weltrangliste #10) trifft auf Alexander Zverev (#1). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alexander Zverev mit 88 % vorn.",
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
@@ -850,7 +753,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Alexandra Osborne",
     "rank": null,
@@ -892,7 +795,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Samantha Alvarez",
     "rank": null,
@@ -934,7 +837,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Valeriya Strakhova",
     "rank": 401,
@@ -976,7 +879,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "Qualifying Final",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Camila Rodero Contreras",
     "rank": null,
@@ -1086,45 +989,67 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-11-16T06:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Nitto ATP Finals",
-   "round": "Group Stage",
+   "start": "2026-11-15T21:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "FAGE WTA Finals Indian Wells",
+   "round": "Finale",
    "surface": null,
-   "doubles": true,
    "p1": {
-    "name": "Kevin Krawietz / Tim Puetz",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
+    "name": "Mirra Andreeva",
+    "rank": 3,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 4,
+    "sets7": 8
    },
    "p2": {
-    "name": "Simone Bolelli / Andrea Vavassori",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
+    "name": "Elina Svitolina",
+    "rank": 6,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 4,
+    "sets7": 10
    },
-   "pP1": null,
+   "pP1": 0.6432,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6432
+   },
    "h2h": [],
-   "analysis": "",
+   "analysis": "Mirra Andreeva (Weltrangliste #3) trifft auf Elina Svitolina (#6). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Mirra Andreeva mit 64 % vorn.",
    "unconfirmed": false,
-   "timeTBD": true
+   "timeTBD": false,
+   "odds": {
+    "p1": 1.37,
+    "p2": 3.55,
+    "src": "Matchbook"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-11-16T06:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Nitto ATP Finals",
-   "round": "Group Stage",
+   "start": "2026-11-15T23:15:00+01:00",
+   "tour": "WTA",
+   "tournament": "FAGE WTA Finals Indian Wells",
+   "round": "Finale",
    "surface": null,
    "doubles": true,
    "p1": {
-    "name": "Kevin Krawietz / Tim Puetz",
+    "name": "Sara Errani / Jasmine Paolini",
     "rank": null,
     "last7": 0,
     "sets7": 0
    },
    "p2": {
-    "name": "Marcel Granollers / Horacio Zeballos",
+    "name": "Katerina Siniakova / Taylor Townsend",
     "rank": null,
     "last7": 0,
     "sets7": 0
@@ -1133,7 +1058,7 @@
    "h2h": [],
    "analysis": "",
    "unconfirmed": false,
-   "timeTBD": true
+   "timeTBD": false
   },
   {
    "start": "2026-11-16T06:00:00+01:00",
@@ -1224,7 +1149,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Nuria Brancaccio",
     "rank": 220,
@@ -1266,7 +1191,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Antonia Vergara Rivera",
     "rank": 500,
@@ -1308,7 +1233,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Andrea Lazaro Garcia",
     "rank": 143,
@@ -1350,7 +1275,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Ipek Oz",
     "rank": 266,
@@ -1392,7 +1317,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Varvara Lepchenko",
     "rank": 216,
@@ -1434,7 +1359,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Veronika Erjavec",
     "rank": 161,
@@ -1476,7 +1401,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Carole Monnet",
     "rank": 214,
@@ -1518,7 +1443,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Alicia Herrero Linana",
     "rank": 225,
@@ -1560,7 +1485,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Laura Samson",
     "rank": 119,
@@ -1602,7 +1527,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Miriam Bulgaru",
     "rank": null,
@@ -1644,7 +1569,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Anastasia Zolotareva",
     "rank": 341,
@@ -1686,7 +1611,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Darja Semenistaja",
     "rank": 175,
@@ -1866,6 +1791,56 @@
     "src": "BetAnything"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-17T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Nitto ATP Finals",
+   "round": "Group Stage",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Kevin Krawietz / Tim Puetz",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Simone Bolelli / Andrea Vavassori",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-17T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Nitto ATP Finals",
+   "round": "Group Stage",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Kevin Krawietz / Tim Puetz",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Marcel Granollers / Horacio Zeballos",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
   },
   {
    "start": "2026-11-17T06:00:00+01:00",
@@ -2151,7 +2126,7 @@
    "surface": "Hartplatz",
    "p1": {
     "name": "Rafael Jodar",
-    "rank": 11,
+    "rank": 10,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -2173,14 +2148,14 @@
     "last7": 0,
     "sets7": 0
    },
-   "pP1": 0.4051,
+   "pP1": 0.4248,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.4051
+    "pRank": 0.4248
    },
    "h2h": [],
-   "analysis": "Rafael Jodar (Weltrangliste #11) trifft auf Arthur Fils (#7). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Arthur Fils mit 59 % vorn.",
+   "analysis": "Rafael Jodar (Weltrangliste #10) trifft auf Arthur Fils (#7). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Arthur Fils mit 58 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -2193,7 +2168,7 @@
    "surface": "Hartplatz",
    "p1": {
     "name": "Rafael Jodar",
-    "rank": 11,
+    "rank": 10,
     "form": [],
     "elo": null,
     "rankYearAgo": null,
@@ -2215,14 +2190,14 @@
     "last7": 0,
     "sets7": 0
    },
-   "pP1": 0.2974,
+   "pP1": 0.3146,
    "model": {
     "n1": 0,
     "n2": 0,
-    "pRank": 0.2974
+    "pRank": 0.3146
    },
    "h2h": [],
-   "analysis": "Rafael Jodar (Weltrangliste #11) trifft auf Ben Shelton (#4). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Ben Shelton mit 70 % vorn.",
+   "analysis": "Rafael Jodar (Weltrangliste #10) trifft auf Ben Shelton (#4). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Ben Shelton mit 69 % vorn.",
    "unconfirmed": false,
    "timeTBD": true,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
