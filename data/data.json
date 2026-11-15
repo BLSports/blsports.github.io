@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-15T22:56:29.578101+01:00",
+ "generatedAt": "2026-11-16T00:42:50.066857+01:00",
  "windowDays": 3,
  "days": [
-  "2026-11-15",
   "2026-11-16",
-  "2026-11-17"
+  "2026-11-17",
+  "2026-11-18"
  ],
  "football": [
   {
@@ -163,7 +163,7 @@
      "prediction": null,
      "pBtts": null,
      "odds": {
-      "h": 1.54,
+      "h": 1.56,
       "d": 4.1,
       "a": 4.5,
       "src": "Winamax (DE)"
@@ -297,7 +297,165 @@
    "name": "Série A (Brasilien)",
    "flag": "🇧🇷",
    "espn": "bra.1",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-11-18T23:30:00+01:00",
+     "home": "Coritiba",
+     "away": "Santos",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "U",
+      "N",
+      "N",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "N",
+      "S",
+      "U",
+      "U",
+      "N"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 13,
+     "posAway": 9,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "17.05.2026",
+       "home": "Santos",
+       "away": "Coritiba",
+       "score": "0:3"
+      },
+      {
+       "date": "13.05.2026",
+       "home": "Coritiba",
+       "away": "Santos",
+       "score": "0:2"
+      },
+      {
+       "date": "22.04.2026",
+       "home": "Santos",
+       "away": "Coritiba",
+       "score": "0:0"
+      },
+      {
+       "date": "12.11.2024",
+       "home": "Coritiba",
+       "away": "Santos",
+       "score": "0:2"
+      },
+      {
+       "date": "22.07.2024",
+       "home": "Santos",
+       "away": "Coritiba",
+       "score": "4:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3478,
+      "pDraw": 0.2442,
+      "pAway": 0.408,
+      "pOver25": 0.568,
+      "pBtts": 0.5957,
+      "xgHome": 1.41,
+      "xgAway": 1.55,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5957,
+     "odds": {
+      "h": 3.3,
+      "d": 3.4,
+      "a": 2.0,
+      "src": "William Hill"
+     },
+     "value": {
+      "outcome": "1",
+      "edge": 0.0716,
+      "modelP": 0.3478,
+      "odds": 3.3
+     },
+     "scorersHome": [
+      {
+       "name": "Pedro Rocha",
+       "goals": 9
+      },
+      {
+       "name": "Breno Lopes",
+       "goals": 8
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "Gabriel Barbosa",
+       "goals": 15
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Zwischen Coritiba und Santos deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Coritiba 35 %, Unentschieden 24 %, Sieg Santos 41 %). In der Tabelle stehen sich Platz 13 und Platz 9 gegenüber. Das letzte Duell (2026) endete 0:3 (Santos – Coritiba). Das Modell erwartet ein torreiches Spiel (xG 1,4:1,6; über 2,5 Tore: 57 %, beide Teams treffen zu 60 %). Gefährlichste Torschützen: bei Coritiba Pedro Rocha (9 Tore) und bei Santos Gabriel Barbosa (15 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,30) für 7 Prozentpunkte wahrscheinlicher als der Markt. Personal: Coritiba fehlen 6 Spieler (u.a. Lucas Crepaldi); Santos fehlen 6 Spieler (u.a. A. Frias).",
+     "injuriesHome": [
+      {
+       "name": "Lucas Crepaldi",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Rodrigo Rodrigues",
+       "reason": "Ankle Injury"
+      },
+      {
+       "name": "Josue",
+       "reason": "Red Card"
+      },
+      {
+       "name": "Wallisson",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Benassi",
+       "reason": "Inactive"
+      },
+      {
+       "name": "S. Gomez",
+       "reason": "Inactive"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "A. Frias",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Mayke",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Neymar",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "Thaciano",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Tiquinho Soares",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Willian Arao",
+       "reason": "Inactive"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": false,
    "isCup": false
   },
@@ -339,31 +497,6 @@
   }
  ],
  "tennis": [
-  {
-   "start": "2026-11-15T23:15:00+01:00",
-   "tour": "WTA",
-   "tournament": "FAGE WTA Finals Indian Wells",
-   "round": "Finale",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Sara Errani / Jasmine Paolini",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Katerina Siniakova / Taylor Townsend",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
   {
    "start": "2026-11-16T11:30:00+01:00",
    "tour": "ATP",
@@ -430,8 +563,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 6.95,
-    "p2": 1.1,
+    "p1": 7.45,
+    "p2": 1.09,
     "src": "BetAnything"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -441,7 +574,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Anastasia Zolotareva",
     "rank": 341,
@@ -463,8 +596,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 2,
-    "sets7": 5
+    "last7": 1,
+    "sets7": 3
    },
    "pP1": 0.5219,
    "model": {
@@ -483,7 +616,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Diletta Cherubini",
     "rank": 360,
@@ -525,7 +658,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Martina Trevisan",
     "rank": 301,
@@ -567,7 +700,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Nuria Brancaccio",
     "rank": 220,
@@ -634,7 +767,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Carole Monnet",
     "rank": 214,
@@ -676,7 +809,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Ipek Oz",
     "rank": 266,
@@ -754,8 +887,8 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 3.75,
-    "p2": 1.29,
+    "p1": 3.85,
+    "p2": 1.27,
     "src": "BetAnything"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
@@ -765,7 +898,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Anastasia Tikhonova",
     "rank": 276,
@@ -807,7 +940,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Ariana Geerlings",
     "rank": 299,
@@ -933,7 +1066,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Andrea Lazaro Garcia",
     "rank": 143,
@@ -975,7 +1108,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Veronika Erjavec",
     "rank": 161,
@@ -1017,7 +1150,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Alicia Herrero Linana",
     "rank": 225,
@@ -1059,7 +1192,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Laura Samson",
     "rank": 119,
@@ -1101,7 +1234,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Darja Semenistaja",
     "rank": 175,
@@ -1143,7 +1276,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Varvara Lepchenko",
     "rank": 216,
@@ -1185,7 +1318,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Antonia Vergara Rivera",
     "rank": 500,
@@ -1227,7 +1360,7 @@
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
-   "surface": null,
+   "surface": "Sand",
    "p1": {
     "name": "Miriam Bulgaru",
     "rank": null,
@@ -1397,6 +1530,324 @@
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-18T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Nitto ATP Finals",
+   "round": "Group Stage",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Kevin Krawietz / Tim Puetz",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Marcel Granollers / Horacio Zeballos",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-18T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Nitto ATP Finals",
+   "round": "Group Stage",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Kevin Krawietz / Tim Puetz",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Simone Bolelli / Andrea Vavassori",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-18T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Nitto ATP Finals",
+   "round": "Group Stage",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Simone Bolelli / Andrea Vavassori",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Christian Harrison / Neal Skupski",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-18T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Nitto ATP Finals",
+   "round": "Group Stage",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Marcel Granollers / Horacio Zeballos",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Christian Harrison / Neal Skupski",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-18T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Nitto ATP Finals",
+   "round": "Group Stage",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Orlando Luz / Rafael Matos",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Marcelo Arevalo / Mate Pavic",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-18T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Nitto ATP Finals",
+   "round": "Group Stage",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Theo Arribage / Albano Olivetti",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Harri Heliovaara / Henry Patten",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-18T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Nitto ATP Finals",
+   "round": "Group Stage",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Arthur Fils",
+    "rank": 7,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "p2": {
+    "name": "Alexander Zverev",
+    "rank": 1,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.1606,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.1606
+   },
+   "h2h": [],
+   "analysis": "Arthur Fils (Weltrangliste #7) trifft auf Alexander Zverev (#1). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alexander Zverev mit 84 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-18T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Nitto ATP Finals",
+   "round": "Group Stage",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Flavio Cobolli",
+    "rank": 6,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Carlos Alcaraz",
+    "rank": 3,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.3568,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3568
+   },
+   "h2h": [],
+   "analysis": "Flavio Cobolli (Weltrangliste #6) trifft auf Carlos Alcaraz (#3). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Carlos Alcaraz mit 64 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-18T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Nitto ATP Finals",
+   "round": "Group Stage",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Daniil Medvedev",
+    "rank": 5,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Carlos Alcaraz",
+    "rank": 3,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": 0.3931,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3931
+   },
+   "h2h": [],
+   "analysis": "Daniil Medvedev (Weltrangliste #5) trifft auf Carlos Alcaraz (#3). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Carlos Alcaraz mit 61 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-18T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Nitto ATP Finals",
+   "round": "Group Stage",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Rafael Jodar",
+    "rank": 10,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Ben Shelton",
+    "rank": 4,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "pP1": 0.3146,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3146
+   },
+   "h2h": [],
+   "analysis": "Rafael Jodar (Weltrangliste #10) trifft auf Ben Shelton (#4). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Ben Shelton mit 69 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   }
  ],
  "meta": {
@@ -1415,64 +1866,7 @@
    "wta": 0
   }
  },
- "tennisFinished": [
-  {
-   "tour": "ATP",
-   "tournament": "Nitto ATP Finals",
-   "p1": "Rafael Jodar",
-   "p2": "Alexander Zverev",
-   "winner": "Alexander Zverev",
-   "score": "4:6 4:6"
-  },
-  {
-   "tour": "ATP",
-   "tournament": "Nitto ATP Finals",
-   "p1": "Arthur Fils",
-   "p2": "Ben Shelton",
-   "winner": "Ben Shelton",
-   "score": "2:6 6:3 3:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "FAGE WTA Finals Indian Wells",
-   "p1": "Mirra Andreeva",
-   "p2": "Elina Svitolina",
-   "winner": "Mirra Andreeva",
-   "score": "7:5 6:3"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "LP Open by IND",
-   "p1": "Alexandra Osborne",
-   "p2": "Diletta Cherubini",
-   "winner": "Diletta Cherubini",
-   "score": "2:6 2:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "LP Open by IND",
-   "p1": "Samantha Alvarez",
-   "p2": "Martina Trevisan",
-   "winner": "Martina Trevisan",
-   "score": "1:6 0:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "LP Open by IND",
-   "p1": "Camila Rodero Contreras",
-   "p2": "Ariana Geerlings",
-   "winner": "Ariana Geerlings",
-   "score": "3:6 1:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "LP Open by IND",
-   "p1": "Valeriya Strakhova",
-   "p2": "Zhibek Kulambayeva",
-   "winner": "Valeriya Strakhova",
-   "score": "7:5 6:2"
-  }
- ],
+ "tennisFinished": [],
  "stats": {
   "overall": {
    "n": 4731,
@@ -1493,7 +1887,7 @@
    "n": 1303,
    "correct": 143
   },
-  "open": 210,
+  "open": 184,
   "value": {
    "n": 169,
    "correct": 65,
