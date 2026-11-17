@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-11-17T16:26:14.387365+01:00",
+ "generatedAt": "2026-11-18T00:18:23.502438+01:00",
  "windowDays": 3,
  "days": [
-  "2026-11-17",
   "2026-11-18",
-  "2026-11-19"
+  "2026-11-19",
+  "2026-11-20"
  ],
  "football": [
   {
@@ -57,45 +57,514 @@
    "name": "1. Bundesliga",
    "flag": "🇩🇪",
    "espn": "ger.1",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-11-20T20:30:00+01:00",
+     "home": "FC Bayern München",
+     "away": "1. FC Köln",
+     "homeIcon": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+     "awayIcon": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+     "matchday": 10,
+     "roundName": null,
+     "formHome": [
+      "U",
+      "S",
+      "S",
+      "U",
+      "S"
+     ],
+     "formAway": [
+      "S",
+      "N",
+      "U",
+      "U",
+      "N"
+     ],
+     "formHomeH": [
+      "S",
+      "S",
+      "S",
+      "S",
+      "U"
+     ],
+     "formAwayA": [
+      "N",
+      "N",
+      "N",
+      "N",
+      "U"
+     ],
+     "load14Home": 1,
+     "load14Away": 1,
+     "posHome": 1,
+     "posAway": 15,
+     "nTeams": 18,
+     "h2h": [
+      {
+       "date": "16.05.2026",
+       "home": "FC Bayern München",
+       "away": "1. FC Köln",
+       "score": "5:1"
+      },
+      {
+       "date": "14.01.2026",
+       "home": "1. FC Köln",
+       "away": "FC Bayern München",
+       "score": "1:3"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.9117,
+      "pDraw": 0.0522,
+      "pAway": 0.0242,
+      "pOver25": 0.8619,
+      "pBtts": 0.5077,
+      "xgHome": 4.25,
+      "xgAway": 0.74,
+      "tipScore": "4:0",
+      "confidence": "hoch"
+     },
+     "pBtts": 0.5077,
+     "odds": {
+      "h": 1.09,
+      "d": 13.91,
+      "a": 20.26,
+      "src": "Pinnacle"
+     },
+     "value": null,
+     "scorersHome": [
+      {
+       "name": "M. Olise",
+       "goals": 6
+      },
+      {
+       "name": "Luis Díaz",
+       "goals": 4
+      },
+      {
+       "name": "H. Kane",
+       "goals": 4
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "S. El Mala",
+       "goals": 3
+      },
+      {
+       "name": "Thijs Dallinga",
+       "goals": 2
+      },
+      {
+       "name": "L. Maina",
+       "goals": 1
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "FC Bayern München geht als klarer Favorit (93 %) in das Heimspiel gegen 1. FC Köln. In der Tabelle stehen sich Platz 1 und Platz 15 gegenüber. Die Form spricht für FC Bayern München: 3 Siege aus den letzten 5 Spielen, 1. FC Köln holte nur 1. Heim-/Auswärtsbilanz: FC Bayern München gewann 4 der letzten 5 Heimspiele, 1. FC Köln 0 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 5:1 (FC Bayern München – 1. FC Köln). Das Modell erwartet ein torreiches Spiel (xG 4,2:0,7; über 2,5 Tore: 86 %, beide Teams treffen zu 51 %). Gefährlichste Torschützen: bei FC Bayern München M. Olise (6 Tore) und bei 1. FC Köln S. El Mala (3 Tore). Personal: FC Bayern München fehlen 8 Spieler (u.a. T. Buchmann); 1. FC Köln fehlen 11 Spieler (u.a. T. Hubers).",
+     "injuriesHome": [
+      {
+       "name": "T. Buchmann",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "S. Gnabry",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "J. Musiala",
+       "reason": "Health problems"
+      },
+      {
+       "name": "M. Neuer",
+       "reason": "Foot Injury"
+      },
+      {
+       "name": "L. Diaz",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "Kim Min-Jae",
+       "reason": "Groin Injury"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "T. Hubers",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "S. Sebulonsen",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "L. Waldschmidt",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "T. Dallinga",
+       "reason": "Illness"
+      },
+      {
+       "name": "S. El Mala",
+       "reason": "Illness"
+      },
+      {
+       "name": "P. Okon-Engstler",
+       "reason": "Injury"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "news": [
+      {
+       "title": "Kompany, Musiala, Diaz: So steht es um Bayerns Rückkehrer",
+       "link": "https://www.kicker.de/kompany-musiala-diaz-so-steht-es-um-bayerns-rueckkehrer-1272417/video#omrss"
+      },
+      {
+       "title": "Kompany leitet erstmals wieder das Training beim FC Bayern",
+       "link": "https://www.kicker.de/kompany-leitet-erstmals-wieder-das-training-beim-fc-bayern-1272144/artikel#omrss"
+      }
+     ]
+    }
+   ],
    "seasonHasStarted": true,
-   "isCup": false,
-   "nextMatch": {
-    "kickoff": "2026-11-20T20:30:00+01:00",
-    "home": "FC Bayern München",
-    "away": "1. FC Köln",
-    "matchday": 10
-   }
+   "isCup": false
   },
   {
    "id": "bl2",
    "name": "2. Bundesliga",
    "flag": "🇩🇪",
    "espn": "ger.2",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-11-20T18:30:00+01:00",
+     "home": "SV Darmstadt 98",
+     "away": "1. FC Heidenheim 1846",
+     "homeIcon": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
+     "awayIcon": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
+     "matchday": 12,
+     "roundName": null,
+     "formHome": [
+      "S",
+      "N",
+      "U",
+      "U",
+      "N"
+     ],
+     "formAway": [
+      "U",
+      "N",
+      "U",
+      "N",
+      "U"
+     ],
+     "formHomeH": [
+      "N",
+      "S",
+      "S",
+      "U",
+      "U"
+     ],
+     "formAwayA": [
+      "N",
+      "S",
+      "U",
+      "N",
+      "N"
+     ],
+     "load14Home": 1,
+     "load14Away": 1,
+     "posHome": 17,
+     "posAway": 7,
+     "nTeams": 18,
+     "h2h": [],
+     "prediction": {
+      "pHome": 0.4425,
+      "pDraw": 0.2247,
+      "pAway": 0.3328,
+      "pOver25": 0.6594,
+      "pBtts": 0.6641,
+      "xgHome": 1.83,
+      "xgAway": 1.57,
+      "tipScore": "1:1",
+      "confidence": "hoch"
+     },
+     "pBtts": 0.6641,
+     "odds": {
+      "h": 3.45,
+      "d": 3.88,
+      "a": 2.0,
+      "src": "Pinnacle"
+     },
+     "value": {
+      "outcome": "1",
+      "edge": 0.1658,
+      "modelP": 0.4425,
+      "odds": 3.45
+     },
+     "scorersHome": [
+      {
+       "name": "Ho-jae Lee",
+       "goals": 2
+      },
+      {
+       "name": "A. Vukotic",
+       "goals": 2
+      },
+      {
+       "name": "Milan Smit",
+       "goals": 2
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "B. Zivzivadze",
+       "goals": 4
+      },
+      {
+       "name": "J. Schöppner",
+       "goals": 3
+      },
+      {
+       "name": "O. Mhamdi",
+       "goals": 2
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "SV Darmstadt 98 ist gegen 1. FC Heidenheim 1846 leicht favorisiert (45 % zu 33 %). In der Tabelle stehen sich Platz 17 und Platz 7 gegenüber. Heim-/Auswärtsbilanz: SV Darmstadt 98 gewann 2 der letzten 5 Heimspiele, 1. FC Heidenheim 1846 1 der letzten 5 Auswärtsspiele. Das Modell erwartet ein torreiches Spiel (xG 1,8:1,6; über 2,5 Tore: 66 %, beide Teams treffen zu 66 %). Gefährlichste Torschützen: bei SV Darmstadt 98 Ho-jae Lee (2 Tore) und bei 1. FC Heidenheim 1846 B. Zivzivadze (4 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,45) für 17 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-11-20T18:30:00+01:00",
+     "home": "DSC Arminia Bielefeld",
+     "away": "1. FC Magdeburg",
+     "homeIcon": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
+     "awayIcon": "https://upload.wikimedia.org/wikipedia/commons/8/84/1._FC_Magdeburg.svg",
+     "matchday": 12,
+     "roundName": null,
+     "formHome": [
+      "S",
+      "S",
+      "N",
+      "S",
+      "S"
+     ],
+     "formAway": [
+      "S",
+      "N",
+      "S",
+      "U",
+      "S"
+     ],
+     "formHomeH": [
+      "S",
+      "U",
+      "U",
+      "S",
+      "S"
+     ],
+     "formAwayA": [
+      "S",
+      "N",
+      "U",
+      "N",
+      "U"
+     ],
+     "load14Home": 1,
+     "load14Away": 1,
+     "posHome": 6,
+     "posAway": 4,
+     "nTeams": 18,
+     "h2h": [
+      {
+       "date": "15.02.2026",
+       "home": "1. FC Magdeburg",
+       "away": "DSC Arminia Bielefeld",
+       "score": "0:2"
+      },
+      {
+       "date": "12.09.2025",
+       "home": "DSC Arminia Bielefeld",
+       "away": "1. FC Magdeburg",
+       "score": "2:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4373,
+      "pDraw": 0.2219,
+      "pAway": 0.3407,
+      "pOver25": 0.6758,
+      "pBtts": 0.6776,
+      "xgHome": 1.86,
+      "xgAway": 1.62,
+      "tipScore": "1:1",
+      "confidence": "hoch"
+     },
+     "pBtts": 0.6776,
+     "odds": {
+      "h": 2.24,
+      "d": 3.62,
+      "a": 3.1,
+      "src": "Pinnacle"
+     },
+     "value": null,
+     "scorersHome": [
+      {
+       "name": "Joel Grodowski",
+       "goals": 7
+      },
+      {
+       "name": "M. Wörl",
+       "goals": 2
+      },
+      {
+       "name": "M. Mehlem",
+       "goals": 1
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "M. Zukowski",
+       "goals": 6
+      },
+      {
+       "name": "E. Iyoha",
+       "goals": 6
+      },
+      {
+       "name": "R. Simic",
+       "goals": 2
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "DSC Arminia Bielefeld ist gegen 1. FC Magdeburg leicht favorisiert (44 % zu 34 %). In der Tabelle stehen sich Platz 6 und Platz 4 gegenüber. Heim-/Auswärtsbilanz: DSC Arminia Bielefeld gewann 3 der letzten 5 Heimspiele, 1. FC Magdeburg 1 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:2 (1. FC Magdeburg – DSC Arminia Bielefeld). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,6; über 2,5 Tore: 68 %, beide Teams treffen zu 68 %). Gefährlichste Torschützen: bei DSC Arminia Bielefeld Joel Grodowski (7 Tore) und bei 1. FC Magdeburg M. Zukowski (6 Tore).",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren.",
+     "news": [
+      {
+       "title": "Zahlen zum Strahlen: Bei Arminia passt es sportlich und wirtschaftlich",
+       "link": "https://www.kicker.de/zahlen-zum-strahlen-bei-arminia-passt-es-sportlich-und-wirtschaftlich-1272341/artikel#omrss"
+      }
+     ]
+    }
+   ],
    "seasonHasStarted": true,
-   "isCup": false,
-   "nextMatch": {
-    "kickoff": "2026-11-20T18:30:00+01:00",
-    "home": "SV Darmstadt 98",
-    "away": "1. FC Heidenheim 1846",
-    "matchday": 12
-   }
+   "isCup": false
   },
   {
    "id": "bl3",
    "name": "3. Liga",
    "flag": "🇩🇪",
    "espn": "ger.3",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-11-20T19:00:00+01:00",
+     "home": "TSV Havelse",
+     "away": "Viktoria Köln",
+     "homeIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/TSV_Havelse_logo.svg/120px-TSV_Havelse_logo.svg.png",
+     "awayIcon": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/FC_Viktoria_K%C3%B6ln_1904_Logo.svg/960px-FC_Viktoria_K%C3%B6ln_1904_Logo.svg.png",
+     "matchday": 14,
+     "roundName": null,
+     "formHome": [
+      "U",
+      "U",
+      "S",
+      "U",
+      "N"
+     ],
+     "formAway": [
+      "U",
+      "U",
+      "S",
+      "S",
+      "S"
+     ],
+     "formHomeH": [
+      "U",
+      "N",
+      "U",
+      "S",
+      "U"
+     ],
+     "formAwayA": [
+      "N",
+      "S",
+      "S",
+      "U",
+      "S"
+     ],
+     "load14Home": 1,
+     "load14Away": 1,
+     "posHome": 20,
+     "posAway": 1,
+     "nTeams": 20,
+     "h2h": [
+      {
+       "date": "14.03.2026",
+       "home": "TSV Havelse",
+       "away": "Viktoria Köln",
+       "score": "3:2"
+      },
+      {
+       "date": "04.10.2025",
+       "home": "Viktoria Köln",
+       "away": "TSV Havelse",
+       "score": "4:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.1926,
+      "pDraw": 0.1802,
+      "pAway": 0.6269,
+      "pOver25": 0.747,
+      "pBtts": 0.6864,
+      "xgHome": 1.37,
+      "xgAway": 2.53,
+      "tipScore": "1:2",
+      "confidence": "hoch"
+     },
+     "pBtts": 0.6864,
+     "odds": {
+      "h": 6.0,
+      "d": 4.8,
+      "a": 1.45,
+      "src": "Tipico"
+     },
+     "value": null,
+     "scorersHome": [
+      {
+       "name": "K. Wriedt",
+       "goals": 2
+      },
+      {
+       "name": "J.Berger",
+       "goals": 2
+      },
+      {
+       "name": "Tauer",
+       "goals": 1
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "D. Otto",
+       "goals": 6
+      },
+      {
+       "name": "N. Castelle",
+       "goals": 4
+      },
+      {
+       "name": "T. Duman",
+       "goals": 3
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Viktoria Köln reist als klarer Favorit (63 %) zu TSV Havelse. In der Tabelle stehen sich Platz 20 und Platz 1 gegenüber. Die Form spricht für Viktoria Köln: 3 Siege aus den letzten 5 Spielen, TSV Havelse holte nur 1. Heim-/Auswärtsbilanz: TSV Havelse gewann 1 der letzten 5 Heimspiele, Viktoria Köln 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 3:2 (TSV Havelse – Viktoria Köln). Das Modell erwartet ein torreiches Spiel (xG 1,4:2,5; über 2,5 Tore: 75 %, beide Teams treffen zu 69 %). Gefährlichste Torschützen: bei TSV Havelse K. Wriedt (2 Tore) und bei Viktoria Köln D. Otto (6 Tore).",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": true,
-   "isCup": false,
-   "nextMatch": {
-    "kickoff": "2026-11-20T19:00:00+01:00",
-    "home": "TSV Havelse",
-    "away": "Viktoria Köln",
-    "matchday": 14
-   }
+   "isCup": false
   },
   {
    "id": "pl",
@@ -120,7 +589,150 @@
    "name": "La Liga",
    "flag": "🇪🇸",
    "espn": "esp.1",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-11-20T21:00:00+01:00",
+     "home": "Athletic Club",
+     "away": "Espanyol",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "U",
+      "N",
+      "S",
+      "S",
+      "U"
+     ],
+     "formAway": [
+      "U",
+      "N",
+      "N",
+      "S",
+      "U"
+     ],
+     "formHomeH": [
+      "S",
+      "U",
+      "U",
+      "S",
+      "S"
+     ],
+     "formAwayA": [
+      "S",
+      "N",
+      "U",
+      "N",
+      "S"
+     ],
+     "load14Home": 1,
+     "load14Away": 1,
+     "posHome": 7,
+     "posAway": 13,
+     "nTeams": 20,
+     "h2h": [
+      {
+       "date": "13.05.2026",
+       "home": "Espanol",
+       "away": "Ath Bilbao",
+       "score": "2:0"
+      },
+      {
+       "date": "22.12.2025",
+       "home": "Ath Bilbao",
+       "away": "Espanol",
+       "score": "1:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4841,
+      "pDraw": 0.272,
+      "pAway": 0.244,
+      "pOver25": 0.407,
+      "pBtts": 0.4503,
+      "xgHome": 1.4,
+      "xgAway": 0.91,
+      "tipScore": "1:0",
+      "confidence": "hoch"
+     },
+     "pBtts": 0.4503,
+     "odds": {
+      "h": 1.48,
+      "d": 4.59,
+      "a": 6.99,
+      "src": "Pinnacle"
+     },
+     "value": null,
+     "scorersHome": [
+      {
+       "name": "Álex Berenguer",
+       "goals": 4
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "Roberto Fernández",
+       "goals": 6
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Athletic Club ist gegen Espanyol leicht favorisiert (49 % zu 24 %). In der Tabelle stehen sich Platz 7 und Platz 13 gegenüber. Heim-/Auswärtsbilanz: Athletic Club gewann 3 der letzten 5 Heimspiele, Espanyol 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:0 (Espanol – Ath Bilbao). Das Modell erwartet eher wenige Tore (xG 1,4:0,9; über 2,5 Tore: 41 %, beide Teams treffen zu 45 %). Gefährlichste Torschützen: bei Espanyol Roberto Fernández (6 Tore). Personal: Athletic Club fehlen 13 Spieler (u.a. U. Egiluz); Espanyol fehlen 9 Spieler (u.a. K. Garcia).",
+     "injuriesHome": [
+      {
+       "name": "U. Egiluz",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "A. Gorosabel",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "B. Prados Diaz",
+       "reason": "Thigh Injury"
+      },
+      {
+       "name": "N. Serrano",
+       "reason": "Coach's decision"
+      },
+      {
+       "name": "U. Vencedor",
+       "reason": "Inactive"
+      },
+      {
+       "name": "D. Vivian",
+       "reason": "Hamstring Injury"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "K. Garcia",
+       "reason": "Hamstring Injury"
+      },
+      {
+       "name": "J. Puado",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "L. Cabrera",
+       "reason": "Red Card"
+      },
+      {
+       "name": "B. Zaragoza",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "A. Gorosabel",
+       "reason": "Injury"
+      },
+      {
+       "name": "Jofre",
+       "reason": "Groin Injury"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": true,
    "isCup": false
   },
@@ -129,7 +741,93 @@
    "name": "La Liga 2",
    "flag": "🇪🇸",
    "espn": "esp.2",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-11-20T20:30:00+01:00",
+     "home": "FC Andorra",
+     "away": "Leganés",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/20179.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/17534.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "S",
+      "N",
+      "N",
+      "U",
+      "N"
+     ],
+     "formAway": [
+      "N",
+      "U",
+      "N",
+      "N",
+      "S"
+     ],
+     "formHomeH": [
+      "N",
+      "N",
+      "N",
+      "S",
+      "N"
+     ],
+     "formAwayA": [
+      "U",
+      "N",
+      "N",
+      "N",
+      "N"
+     ],
+     "load14Home": 1,
+     "load14Away": 2,
+     "posHome": 21,
+     "posAway": 16,
+     "nTeams": 22,
+     "h2h": [
+      {
+       "date": "26.04.2026",
+       "home": "Leganes",
+       "away": "Andorra",
+       "score": "0:4"
+      },
+      {
+       "date": "04.10.2025",
+       "home": "Andorra",
+       "away": "Leganes",
+       "score": "1:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5709,
+      "pDraw": 0.227,
+      "pAway": 0.2021,
+      "pOver25": 0.5381,
+      "pBtts": 0.53,
+      "xgHome": 1.84,
+      "xgAway": 1.0,
+      "tipScore": "1:0",
+      "confidence": "hoch"
+     },
+     "pBtts": 0.53,
+     "odds": {
+      "h": 1.87,
+      "d": 3.55,
+      "a": 4.0,
+      "src": "Unibet (SE)"
+     },
+     "value": null,
+     "scorersHome": [
+      {
+       "name": "Jordi Cano",
+       "goals": 5
+      }
+     ],
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "FC Andorra geht als klarer Favorit (57 %) in das Heimspiel gegen Leganés. In der Tabelle stehen sich Platz 21 und Platz 16 gegenüber. Heim-/Auswärtsbilanz: FC Andorra gewann 1 der letzten 5 Heimspiele, Leganés 0 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:4 (Leganes – Andorra). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,8:1,0; über 2,5 Tore: 54 %, beide Teams treffen zu 53 %).",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": true,
    "isCup": false
   },
@@ -138,7 +836,137 @@
    "name": "Ligue 1",
    "flag": "🇫🇷",
    "espn": "fra.1",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-11-20T20:45:00+01:00",
+     "home": "Troyes",
+     "away": "Le Havre AC",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "N",
+      "N",
+      "U",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "N",
+      "N",
+      "N",
+      "N",
+      "N"
+     ],
+     "formHomeH": [
+      "U",
+      "N",
+      "N",
+      "N",
+      "S"
+     ],
+     "formAwayA": [
+      "S",
+      "U",
+      "N",
+      "N",
+      "N"
+     ],
+     "load14Home": 1,
+     "load14Away": 1,
+     "posHome": 17,
+     "posAway": 18,
+     "nTeams": 18,
+     "h2h": [],
+     "prediction": {
+      "pHome": 0.3134,
+      "pDraw": 0.3206,
+      "pAway": 0.366,
+      "pOver25": 0.2887,
+      "pBtts": 0.3685,
+      "xgHome": 0.89,
+      "xgAway": 0.98,
+      "tipScore": "0:0",
+      "confidence": "hoch"
+     },
+     "pBtts": 0.3685,
+     "odds": {
+      "h": 2.1,
+      "d": 3.3,
+      "a": 3.3,
+      "src": "888sport"
+     },
+     "value": {
+      "outcome": "2",
+      "edge": 0.086,
+      "modelP": 0.366,
+      "odds": 3.3
+     },
+     "scorersHome": [],
+     "scorersAway": [
+      {
+       "name": "J. Maja",
+       "goals": 4
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Zwischen Troyes und Le Havre AC deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Troyes 31 %, Unentschieden 32 %, Sieg Le Havre AC 37 %). In der Tabelle stehen sich Platz 16 und Platz 18 gegenüber. Heim-/Auswärtsbilanz: Troyes gewann 1 der letzten 5 Heimspiele, Le Havre AC 1 der letzten 5 Auswärtsspiele. Das Modell erwartet eher wenige Tore (xG 0,9:1,0; über 2,5 Tore: 29 %, beide Teams treffen zu 37 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,30) für 9 Prozentpunkte wahrscheinlicher als der Markt. Personal: Troyes fehlen 8 Spieler (u.a. I. Boura); Le Havre AC fehlen 12 Spieler (u.a. A. Toure).",
+     "injuriesHome": [
+      {
+       "name": "I. Boura",
+       "reason": "Injury"
+      },
+      {
+       "name": "A. Fatah",
+       "reason": "Hamstring Injury"
+      },
+      {
+       "name": "Y. Titi",
+       "reason": "Injury"
+      },
+      {
+       "name": "P. Gozzi",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "M. Ifnaoui",
+       "reason": "Calf Injury"
+      },
+      {
+       "name": "A. Phliponeau",
+       "reason": "Knee Injury"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "A. Toure",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "P. Argney",
+       "reason": "Injury"
+      },
+      {
+       "name": "J. Mwanga",
+       "reason": "Red Card"
+      },
+      {
+       "name": "R. Ndiaye",
+       "reason": "Groin Injury"
+      },
+      {
+       "name": "I. Bouneb",
+       "reason": "Inactive"
+      },
+      {
+       "name": "A. Seko",
+       "reason": "Yellow Card"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": true,
    "isCup": false
   },
@@ -147,7 +975,786 @@
    "name": "Ligue 2",
    "flag": "🇫🇷",
    "espn": "fra.2",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-11-20T20:00:00+01:00",
+     "home": "Annecy",
+     "away": "Clermont Foot",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/18066.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3171.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "S",
+      "N",
+      "S",
+      "N",
+      "N"
+     ],
+     "formAway": [
+      "N",
+      "U",
+      "N",
+      "U",
+      "S"
+     ],
+     "formHomeH": [
+      "S",
+      "U",
+      "N",
+      "N",
+      "N"
+     ],
+     "formAwayA": [
+      "N",
+      "U",
+      "U",
+      "U",
+      "U"
+     ],
+     "load14Home": 1,
+     "load14Away": 1,
+     "posHome": 9,
+     "posAway": 15,
+     "nTeams": 18,
+     "h2h": [
+      {
+       "date": "23.01.2026",
+       "home": "Annecy",
+       "away": "Clermont",
+       "score": "2:1"
+      },
+      {
+       "date": "17.10.2025",
+       "home": "Clermont",
+       "away": "Annecy",
+       "score": "0:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4495,
+      "pDraw": 0.2703,
+      "pAway": 0.2802,
+      "pOver25": 0.4343,
+      "pBtts": 0.4823,
+      "xgHome": 1.38,
+      "xgAway": 1.03,
+      "tipScore": "1:1",
+      "confidence": "hoch"
+     },
+     "pBtts": 0.4823,
+     "odds": {
+      "h": 2.11,
+      "d": 3.34,
+      "a": 3.55,
+      "src": "Pinnacle"
+     },
+     "value": null,
+     "scorersHome": [
+      {
+       "name": "Dion Moise Sahi",
+       "goals": 5
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "F. Bianchini",
+       "goals": 4
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Annecy ist gegen Clermont Foot leicht favorisiert (45 % zu 28 %). In der Tabelle stehen sich Platz 9 und Platz 15 gegenüber. Heim-/Auswärtsbilanz: Annecy gewann 1 der letzten 5 Heimspiele, Clermont Foot 0 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:1 (Annecy – Clermont). Das Modell erwartet eher wenige Tore (xG 1,4:1,0; über 2,5 Tore: 43 %, beide Teams treffen zu 48 %). Gefährlichste Torschützen: bei Annecy Dion Moise Sahi (5 Tore).",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-11-20T20:00:00+01:00",
+     "home": "AS Nancy Lorraine",
+     "away": "Dijon FCO",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3267.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3170.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "S",
+      "S",
+      "S",
+      "S",
+      "S"
+     ],
+     "formAway": [
+      "S",
+      "N",
+      "N",
+      "S",
+      "S"
+     ],
+     "formHomeH": [
+      "S",
+      "N",
+      "S",
+      "S",
+      "S"
+     ],
+     "formAwayA": [
+      "U",
+      "U",
+      "S",
+      "N",
+      "S"
+     ],
+     "load14Home": 1,
+     "load14Away": 1,
+     "posHome": 2,
+     "posAway": 6,
+     "nTeams": 18,
+     "h2h": [],
+     "prediction": {
+      "pHome": 0.3742,
+      "pDraw": 0.2346,
+      "pAway": 0.3911,
+      "pOver25": 0.618,
+      "pBtts": 0.6353,
+      "xgHome": 1.58,
+      "xgAway": 1.61,
+      "tipScore": "1:1",
+      "confidence": "hoch"
+     },
+     "pBtts": 0.6353,
+     "odds": {
+      "h": 1.76,
+      "d": 3.89,
+      "a": 4.34,
+      "src": "Pinnacle"
+     },
+     "value": {
+      "outcome": "2",
+      "edge": 0.1728,
+      "modelP": 0.3911,
+      "odds": 4.34
+     },
+     "scorersHome": [],
+     "scorersAway": [
+      {
+       "name": "Júlio Tavares",
+       "goals": 5
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Zwischen AS Nancy Lorraine und Dijon FCO deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg AS Nancy Lorraine 37 %, Unentschieden 23 %, Sieg Dijon FCO 40 %). In der Tabelle stehen sich Platz 2 und Platz 6 gegenüber. Die Form spricht für AS Nancy Lorraine: 5 Siege aus den letzten 5 Spielen, Dijon FCO holte nur 3. Heim-/Auswärtsbilanz: AS Nancy Lorraine gewann 4 der letzten 5 Heimspiele, Dijon FCO 2 der letzten 5 Auswärtsspiele. Das Modell erwartet ein torreiches Spiel (xG 1,6:1,6; über 2,5 Tore: 62 %, beide Teams treffen zu 64 %). Gefährlichste Torschützen: bei Dijon FCO Júlio Tavares (5 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 4,34) für 17 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-11-20T20:00:00+01:00",
+     "home": "Guingamp",
+     "away": "Rodez Aveyron",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/171.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/7719.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "N",
+      "N",
+      "S",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "N",
+      "N",
+      "S",
+      "S",
+      "N"
+     ],
+     "formHomeH": [
+      "U",
+      "S",
+      "N",
+      "N",
+      "S"
+     ],
+     "formAwayA": [
+      "S",
+      "N",
+      "N",
+      "S",
+      "N"
+     ],
+     "load14Home": 1,
+     "load14Away": 1,
+     "posHome": 11,
+     "posAway": 13,
+     "nTeams": 18,
+     "h2h": [
+      {
+       "date": "28.02.2026",
+       "home": "Guingamp",
+       "away": "Rodez",
+       "score": "0:0"
+      },
+      {
+       "date": "12.12.2025",
+       "home": "Rodez",
+       "away": "Guingamp",
+       "score": "2:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.364,
+      "pDraw": 0.2504,
+      "pAway": 0.3856,
+      "pOver25": 0.5414,
+      "pBtts": 0.5759,
+      "xgHome": 1.4,
+      "xgAway": 1.45,
+      "tipScore": "1:1",
+      "confidence": "hoch"
+     },
+     "pBtts": 0.5759,
+     "odds": {
+      "h": 2.0,
+      "d": 3.5,
+      "a": 3.3,
+      "src": "William Hill"
+     },
+     "value": null,
+     "scorersHome": [
+      {
+       "name": "B. Bokangu",
+       "goals": 4
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "Ibrahima Baldé",
+       "goals": 5
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Zwischen Guingamp und Rodez Aveyron deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Guingamp 36 %, Unentschieden 25 %, Sieg Rodez Aveyron 39 %). In der Tabelle stehen sich Platz 11 und Platz 13 gegenüber. Heim-/Auswärtsbilanz: Guingamp gewann 2 der letzten 5 Heimspiele, Rodez Aveyron 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:0 (Guingamp – Rodez). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,4:1,4; über 2,5 Tore: 54 %, beide Teams treffen zu 58 %). Gefährlichste Torschützen: bei Rodez Aveyron Ibrahima Baldé (5 Tore).",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-11-20T20:00:00+01:00",
+     "home": "Metz",
+     "away": "Boulogne",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/177.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/7869.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "N",
+      "S",
+      "U",
+      "N",
+      "S"
+     ],
+     "formAway": [
+      "U",
+      "S",
+      "U",
+      "N",
+      "S"
+     ],
+     "formHomeH": [
+      "U",
+      "S",
+      "U",
+      "S",
+      "N"
+     ],
+     "formAwayA": [
+      "U",
+      "U",
+      "U",
+      "S",
+      "N"
+     ],
+     "load14Home": 1,
+     "load14Away": 1,
+     "posHome": 7,
+     "posAway": 12,
+     "nTeams": 18,
+     "h2h": [],
+     "prediction": {
+      "pHome": 0.4535,
+      "pDraw": 0.2567,
+      "pAway": 0.2898,
+      "pOver25": 0.4921,
+      "pBtts": 0.5292,
+      "xgHome": 1.5,
+      "xgAway": 1.14,
+      "tipScore": "1:1",
+      "confidence": "hoch"
+     },
+     "pBtts": 0.5292,
+     "odds": {
+      "h": 2.11,
+      "d": 3.36,
+      "a": 3.54,
+      "src": "Pinnacle"
+     },
+     "value": null,
+     "scorersHome": [
+      {
+       "name": "Pape Fall",
+       "goals": 8
+      }
+     ],
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "Metz ist gegen Boulogne leicht favorisiert (45 % zu 29 %). In der Tabelle stehen sich Platz 7 und Platz 12 gegenüber. Heim-/Auswärtsbilanz: Metz gewann 2 der letzten 5 Heimspiele, Boulogne 1 der letzten 5 Auswärtsspiele. Das Modell erwartet eine offene Tor-Ausbeute (xG 1,5:1,1; über 2,5 Tore: 49 %, beide Teams treffen zu 53 %). Gefährlichste Torschützen: bei Metz Pape Fall (8 Tore).",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-11-20T20:00:00+01:00",
+     "home": "Red Star FC 93",
+     "away": "Pau",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/11884.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/10678.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "S",
+      "N",
+      "N",
+      "N",
+      "N"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "S",
+      "N",
+      "S"
+     ],
+     "formHomeH": [
+      "U",
+      "N",
+      "S",
+      "N",
+      "N"
+     ],
+     "formAwayA": [],
+     "load14Home": 1,
+     "load14Away": 0,
+     "posHome": 8,
+     "posAway": 5,
+     "nTeams": 18,
+     "h2h": [
+      {
+       "date": "06.02.2026",
+       "home": "RED Star FC 93",
+       "away": "PAU",
+       "score": "0:3"
+      },
+      {
+       "date": "12.09.2025",
+       "home": "PAU",
+       "away": "RED Star FC 93",
+       "score": "0:3"
+      },
+      {
+       "date": "17.01.2025",
+       "home": "RED Star FC 93",
+       "away": "PAU",
+       "score": "1:3"
+      },
+      {
+       "date": "22.11.2024",
+       "home": "PAU",
+       "away": "RED Star FC 93",
+       "score": "4:1"
+      },
+      {
+       "date": "07.02.2020",
+       "home": "RED Star FC 93",
+       "away": "PAU",
+       "score": "1:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3573,
+      "pDraw": 0.2524,
+      "pAway": 0.3902,
+      "pOver25": 0.5314,
+      "pBtts": 0.5679,
+      "xgHome": 1.37,
+      "xgAway": 1.44,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5679,
+     "odds": {
+      "h": 2.05,
+      "d": 3.2,
+      "a": 3.5,
+      "src": "William Hill"
+     },
+     "value": {
+      "outcome": "2",
+      "edge": 0.1271,
+      "modelP": 0.3902,
+      "odds": 3.5
+     },
+     "scorersHome": [
+      {
+       "name": "Damien Durand",
+       "goals": 5
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "B. Leye",
+       "goals": 4
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Zwischen Red Star FC 93 und Pau deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Red Star FC 93 36 %, Unentschieden 25 %, Sieg Pau 39 %). In der Tabelle stehen sich Platz 8 und Platz 5 gegenüber. Die Form spricht für Pau: 4 Siege aus den letzten 5 Spielen, Red Star FC 93 holte nur 1. Das letzte Duell (2026) endete 0:3 (RED Star FC 93 – PAU). Das Modell erwartet eine offene Tor-Ausbeute (xG 1,4:1,4; über 2,5 Tore: 53 %, beide Teams treffen zu 57 %). Gefährlichste Torschützen: bei Red Star FC 93 Damien Durand (5 Tore) und bei Pau B. Leye (4 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,50) für 13 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-11-20T20:00:00+01:00",
+     "home": "Nantes",
+     "away": "Grenoble",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Regular Season - 13",
+     "formHome": [
+      "U",
+      "N",
+      "N",
+      "U",
+      "S"
+     ],
+     "formAway": [
+      "N",
+      "N",
+      "N",
+      "N",
+      "S"
+     ],
+     "formHomeH": [
+      "N",
+      "S",
+      "U",
+      "N",
+      "U"
+     ],
+     "formAwayA": [
+      "N",
+      "S",
+      "S",
+      "N",
+      "N"
+     ],
+     "load14Home": 1,
+     "load14Away": 1,
+     "posHome": 14,
+     "posAway": 17,
+     "nTeams": 18,
+     "h2h": [],
+     "prediction": {
+      "pHome": 0.4208,
+      "pDraw": 0.2741,
+      "pAway": 0.3051,
+      "pOver25": 0.4305,
+      "pBtts": 0.4842,
+      "xgHome": 1.32,
+      "xgAway": 1.08,
+      "tipScore": "1:1",
+      "confidence": "hoch"
+     },
+     "pBtts": 0.4842,
+     "odds": {
+      "h": 1.4,
+      "d": 4.0,
+      "a": 7.0,
+      "src": "888sport"
+     },
+     "value": null,
+     "scorersHome": [],
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "Nantes ist gegen Grenoble leicht favorisiert (42 % zu 31 %). In der Tabelle stehen sich Platz 14 und Platz 17 gegenüber. Heim-/Auswärtsbilanz: Nantes gewann 1 der letzten 5 Heimspiele, Grenoble 2 der letzten 5 Auswärtsspiele. Das Modell erwartet eher wenige Tore (xG 1,3:1,1; über 2,5 Tore: 43 %, beide Teams treffen zu 48 %).",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-11-20T20:00:00+01:00",
+     "home": "Reims",
+     "away": "Saint Etienne",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Regular Season - 13",
+     "formHome": [
+      "U",
+      "S",
+      "U",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "S",
+      "N",
+      "S"
+     ],
+     "formHomeH": [
+      "S",
+      "U",
+      "U",
+      "S",
+      "S"
+     ],
+     "formAwayA": [
+      "S",
+      "N",
+      "U",
+      "S",
+      "N"
+     ],
+     "load14Home": 1,
+     "load14Away": 1,
+     "posHome": 4,
+     "posAway": 1,
+     "nTeams": 18,
+     "h2h": [
+      {
+       "date": "24.01.2026",
+       "home": "Reims",
+       "away": "St Etienne",
+       "score": "1:0"
+      },
+      {
+       "date": "20.09.2025",
+       "home": "St Etienne",
+       "away": "Reims",
+       "score": "3:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3515,
+      "pDraw": 0.2479,
+      "pAway": 0.4006,
+      "pOver25": 0.5514,
+      "pBtts": 0.5831,
+      "xgHome": 1.39,
+      "xgAway": 1.5,
+      "tipScore": "1:1",
+      "confidence": "hoch"
+     },
+     "pBtts": 0.5831,
+     "odds": {
+      "h": 3.42,
+      "d": 3.33,
+      "a": 2.17,
+      "src": "Pinnacle"
+     },
+     "value": {
+      "outcome": "1",
+      "edge": 0.074,
+      "modelP": 0.3515,
+      "odds": 3.42
+     },
+     "scorersHome": [
+      {
+       "name": "Yaya Fofana",
+       "goals": 11
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "Augustine Boakye",
+       "goals": 6
+      },
+      {
+       "name": "Irvin Cardona",
+       "goals": 6
+      },
+      {
+       "name": "Thierno Ballo",
+       "goals": 5
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Zwischen Reims und Saint Etienne deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Reims 35 %, Unentschieden 25 %, Sieg Saint Etienne 40 %). In der Tabelle stehen sich Platz 4 und Platz 1 gegenüber. Die Form spricht für Saint Etienne: 4 Siege aus den letzten 5 Spielen, Reims holte nur 2. Heim-/Auswärtsbilanz: Reims gewann 3 der letzten 5 Heimspiele, Saint Etienne 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 1:0 (Reims – St Etienne). Das Modell erwartet ein torreiches Spiel (xG 1,4:1,5; über 2,5 Tore: 55 %, beide Teams treffen zu 58 %). Gefährlichste Torschützen: bei Reims Yaya Fofana (11 Tore) und bei Saint Etienne Augustine Boakye (6 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,42) für 7 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-11-20T20:00:00+01:00",
+     "home": "Sochaux",
+     "away": "Dunkerque",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Regular Season - 13",
+     "formHome": [
+      "U",
+      "N",
+      "N",
+      "N",
+      "N"
+     ],
+     "formAway": [
+      "N",
+      "S",
+      "U",
+      "N",
+      "S"
+     ],
+     "formHomeH": [
+      "N",
+      "S",
+      "S",
+      "U",
+      "N"
+     ],
+     "formAwayA": [
+      "U",
+      "N",
+      "N",
+      "S",
+      "N"
+     ],
+     "load14Home": 1,
+     "load14Away": 1,
+     "posHome": 16,
+     "posAway": 10,
+     "nTeams": 18,
+     "h2h": [],
+     "prediction": {
+      "pHome": 0.1979,
+      "pDraw": 0.2749,
+      "pAway": 0.5273,
+      "pOver25": 0.3616,
+      "pBtts": 0.3943,
+      "xgHome": 0.74,
+      "xgAway": 1.4,
+      "tipScore": "0:1",
+      "confidence": "hoch"
+     },
+     "pBtts": 0.3943,
+     "odds": {
+      "h": 2.4,
+      "d": 3.27,
+      "a": 3.02,
+      "src": "Pinnacle"
+     },
+     "value": {
+      "outcome": "2",
+      "edge": 0.213,
+      "modelP": 0.5273,
+      "odds": 3.02
+     },
+     "scorersHome": [],
+     "scorersAway": [
+      {
+       "name": "E. Prutsev",
+       "goals": 3
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Dunkerque ist bei Sochaux leicht favorisiert (53 % zu 20 %). In der Tabelle stehen sich Platz 16 und Platz 10 gegenüber. Die Form spricht für Dunkerque: 2 Siege aus den letzten 5 Spielen, Sochaux holte nur 0. Heim-/Auswärtsbilanz: Sochaux gewann 2 der letzten 5 Heimspiele, Dunkerque 1 der letzten 5 Auswärtsspiele. Das Modell erwartet eher wenige Tore (xG 0,7:1,4; über 2,5 Tore: 36 %, beide Teams treffen zu 39 %). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,02) für 21 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-11-20T20:00:00+01:00",
+     "home": "Laval",
+     "away": "Montpellier",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Regular Season - 13",
+     "formHome": [
+      "N",
+      "U",
+      "N",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "S",
+      "S",
+      "N"
+     ],
+     "formHomeH": [
+      "N",
+      "N",
+      "U",
+      "U",
+      "S"
+     ],
+     "formAwayA": [
+      "S",
+      "N",
+      "U",
+      "S",
+      "S"
+     ],
+     "load14Home": 1,
+     "load14Away": 1,
+     "posHome": 18,
+     "posAway": 3,
+     "nTeams": 18,
+     "h2h": [
+      {
+       "date": "13.03.2026",
+       "home": "Montpellier",
+       "away": "Laval",
+       "score": "2:0"
+      },
+      {
+       "date": "27.09.2025",
+       "home": "Laval",
+       "away": "Montpellier",
+       "score": "0:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.1512,
+      "pDraw": 0.2412,
+      "pAway": 0.6075,
+      "pOver25": 0.412,
+      "pBtts": 0.3988,
+      "xgHome": 0.68,
+      "xgAway": 1.65,
+      "tipScore": "0:1",
+      "confidence": "hoch"
+     },
+     "pBtts": 0.3988,
+     "odds": {
+      "h": 3.29,
+      "d": 3.8,
+      "a": 2.06,
+      "src": "Pinnacle"
+     },
+     "value": {
+      "outcome": "2",
+      "edge": 0.1463,
+      "modelP": 0.6075,
+      "odds": 2.06
+     },
+     "scorersHome": [
+      {
+       "name": "M. Houdayer",
+       "goals": 4
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "Nicolas Pays",
+       "goals": 5
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Montpellier reist als klarer Favorit (61 %) zu Laval. In der Tabelle stehen sich Platz 18 und Platz 3 gegenüber. Die Form spricht für Montpellier: 4 Siege aus den letzten 5 Spielen, Laval holte nur 1. Heim-/Auswärtsbilanz: Laval gewann 1 der letzten 5 Heimspiele, Montpellier 3 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 2:0 (Montpellier – Laval). Das Modell erwartet eher wenige Tore (xG 0,7:1,6; über 2,5 Tore: 41 %, beide Teams treffen zu 40 %). Gefährlichste Torschützen: bei Montpellier Nicolas Pays (5 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 2,06) für 15 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": true,
    "isCup": false
   },
@@ -165,7 +1772,729 @@
    "name": "Eerste Divisie",
    "flag": "🇳🇱",
    "espn": "ned.2",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-11-20T20:00:00+01:00",
+     "home": "Almere City",
+     "away": "NAC Breda",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/5291.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/141.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "N",
+      "S",
+      "S",
+      "S",
+      "S"
+     ],
+     "formAway": [
+      "U",
+      "S",
+      "S",
+      "U",
+      "S"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 9,
+     "posAway": 13,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "14.03.2025",
+       "home": "Almere City FC",
+       "away": "NAC Breda",
+       "score": "1:1"
+      },
+      {
+       "date": "30.11.2024",
+       "home": "NAC Breda",
+       "away": "Almere City FC",
+       "score": "1:0"
+      },
+      {
+       "date": "07.05.2023",
+       "home": "Almere City FC",
+       "away": "NAC Breda",
+       "score": "0:2"
+      },
+      {
+       "date": "16.12.2022",
+       "home": "NAC Breda",
+       "away": "Almere City FC",
+       "score": "0:1"
+      },
+      {
+       "date": "16.04.2022",
+       "home": "Almere City FC",
+       "away": "NAC Breda",
+       "score": "1:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5278,
+      "pDraw": 0.2149,
+      "pAway": 0.2573,
+      "pOver25": 0.6581,
+      "pBtts": 0.6461,
+      "xgHome": 2.02,
+      "xgAway": 1.36,
+      "tipScore": "2:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6461,
+     "odds": {
+      "h": 2.7,
+      "d": 3.8,
+      "a": 2.2,
+      "src": "William Hill"
+     },
+     "value": {
+      "outcome": "1",
+      "edge": 0.1874,
+      "modelP": 0.5278,
+      "odds": 2.7
+     },
+     "scorersHome": [
+      {
+       "name": "Ferdy Druijf",
+       "goals": 10
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "Charles-Andreas Brym",
+       "goals": 9
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Almere City ist gegen NAC Breda leicht favorisiert (53 % zu 26 %). In der Tabelle stehen sich Platz 9 und Platz 13 gegenüber. Das letzte Duell (2025) endete 1:1 (Almere City FC – NAC Breda). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,4; über 2,5 Tore: 66 %, beide Teams treffen zu 65 %). Gefährlichste Torschützen: bei Almere City Ferdy Druijf (10 Tore) und bei NAC Breda Charles-Andreas Brym (9 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,70) für 19 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-11-20T20:00:00+01:00",
+     "home": "De Graafschap",
+     "away": "MVV Maastricht",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/144.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3730.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [],
+     "formAway": [],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 1,
+     "posAway": null,
+     "nTeams": null,
+     "h2h": [],
+     "prediction": null,
+     "pBtts": null,
+     "odds": null,
+     "value": null,
+     "scorersHome": [],
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "",
+     "basis": "Datenbasis: Tabelle. Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-11-20T20:00:00+01:00",
+     "home": "FC Den Bosch",
+     "away": "VVV-Venlo",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/271.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3731.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "U",
+      "S",
+      "S",
+      "U",
+      "N"
+     ],
+     "formAway": [
+      "S",
+      "N",
+      "S",
+      "U",
+      "N"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 3,
+     "posAway": 2,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "12.12.2025",
+       "home": "Den Bosch",
+       "away": "VVV Venlo",
+       "score": "0:1"
+      },
+      {
+       "date": "30.09.2025",
+       "home": "VVV Venlo",
+       "away": "Den Bosch",
+       "score": "0:1"
+      },
+      {
+       "date": "18.04.2025",
+       "home": "Den Bosch",
+       "away": "VVV Venlo",
+       "score": "0:0"
+      },
+      {
+       "date": "25.10.2024",
+       "home": "VVV Venlo",
+       "away": "Den Bosch",
+       "score": "1:2"
+      },
+      {
+       "date": "26.04.2024",
+       "home": "VVV Venlo",
+       "away": "Den Bosch",
+       "score": "2:3"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4386,
+      "pDraw": 0.2171,
+      "pAway": 0.3443,
+      "pOver25": 0.7019,
+      "pBtts": 0.6981,
+      "xgHome": 1.93,
+      "xgAway": 1.7,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6981,
+     "odds": {
+      "h": 2.0,
+      "d": 3.6,
+      "a": 3.1,
+      "src": "William Hill"
+     },
+     "value": {
+      "outcome": "2",
+      "edge": 0.0511,
+      "modelP": 0.3443,
+      "odds": 3.1
+     },
+     "scorersHome": [
+      {
+       "name": "S. Karlsson Grach",
+       "goals": 6
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "É. Clancy",
+       "goals": 5
+      },
+      {
+       "name": "L. Schmidt",
+       "goals": 5
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "FC Den Bosch ist gegen VVV-Venlo leicht favorisiert (44 % zu 34 %). In der Tabelle stehen sich Platz 3 und Platz 2 gegenüber. Das letzte Duell (2025) endete 0:1 (Den Bosch – VVV Venlo). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,7; über 2,5 Tore: 70 %, beide Teams treffen zu 70 %). Gefährlichste Torschützen: bei FC Den Bosch S. Karlsson Grach (6 Tore) und bei VVV-Venlo É. Clancy (5 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,10) für 5 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-11-20T20:00:00+01:00",
+     "home": "FC Volendam",
+     "away": "Jong Ajax",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/2727.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/10597.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "S",
+      "N",
+      "N",
+      "S",
+      "N"
+     ],
+     "formAway": [
+      "N",
+      "S",
+      "U",
+      "U",
+      "S"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 11,
+     "posAway": 18,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "31.03.2025",
+       "home": "Jong Ajax",
+       "away": "FC Volendam",
+       "score": "0:2"
+      },
+      {
+       "date": "25.11.2024",
+       "home": "FC Volendam",
+       "away": "Jong Ajax",
+       "score": "3:0"
+      },
+      {
+       "date": "02.08.2024",
+       "home": "Jong Ajax",
+       "away": "FC Volendam",
+       "score": "3:1"
+      },
+      {
+       "date": "16.04.2022",
+       "home": "FC Volendam",
+       "away": "Jong Ajax",
+       "score": "3:1"
+      },
+      {
+       "date": "19.11.2021",
+       "home": "Jong Ajax",
+       "away": "FC Volendam",
+       "score": "4:4"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5224,
+      "pDraw": 0.2011,
+      "pAway": 0.2764,
+      "pOver25": 0.744,
+      "pBtts": 0.7187,
+      "xgHome": 2.26,
+      "xgAway": 1.62,
+      "tipScore": "2:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.7187,
+     "odds": {
+      "h": 1.8,
+      "d": 4.0,
+      "a": 3.3,
+      "src": "William Hill"
+     },
+     "value": null,
+     "scorersHome": [
+      {
+       "name": "Henk Veerman",
+       "goals": 14
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "Emre Ünüvar",
+       "goals": 8
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "FC Volendam ist gegen Jong Ajax leicht favorisiert (52 % zu 28 %). In der Tabelle stehen sich Platz 11 und Platz 18 gegenüber. Das letzte Duell (2025) endete 0:2 (Jong Ajax – FC Volendam). Das Modell erwartet ein torreiches Spiel (xG 2,3:1,6; über 2,5 Tore: 74 %, beide Teams treffen zu 72 %). Gefährlichste Torschützen: bei FC Volendam Henk Veerman (14 Tore) und bei Jong Ajax Emre Ünüvar (8 Tore).",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-11-20T20:00:00+01:00",
+     "home": "Helmond Sport",
+     "away": "FC Dordrecht",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3775.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/4426.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "N",
+      "N",
+      "S",
+      "N",
+      "N"
+     ],
+     "formAway": [
+      "N",
+      "N",
+      "N",
+      "U",
+      "N"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 7,
+     "posAway": 4,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "03.02.2026",
+       "home": "Dordrecht",
+       "away": "Helmond Sport",
+       "score": "3:0"
+      },
+      {
+       "date": "24.10.2025",
+       "home": "Helmond Sport",
+       "away": "Dordrecht",
+       "score": "1:2"
+      },
+      {
+       "date": "08.02.2025",
+       "home": "Helmond Sport",
+       "away": "Dordrecht",
+       "score": "0:1"
+      },
+      {
+       "date": "10.11.2024",
+       "home": "Dordrecht",
+       "away": "Helmond Sport",
+       "score": "4:0"
+      },
+      {
+       "date": "12.01.2024",
+       "home": "Dordrecht",
+       "away": "Helmond Sport",
+       "score": "2:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5244,
+      "pDraw": 0.1897,
+      "pAway": 0.2856,
+      "pOver25": 0.8072,
+      "pBtts": 0.7721,
+      "xgHome": 2.5,
+      "xgAway": 1.84,
+      "tipScore": "2:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.7721,
+     "odds": {
+      "h": 2.25,
+      "d": 3.6,
+      "a": 2.75,
+      "src": "William Hill"
+     },
+     "value": {
+      "outcome": "1",
+      "edge": 0.1151,
+      "modelP": 0.5244,
+      "odds": 2.25
+     },
+     "scorersHome": [],
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "Helmond Sport ist gegen FC Dordrecht leicht favorisiert (52 % zu 29 %). In der Tabelle stehen sich Platz 7 und Platz 4 gegenüber. Das letzte Duell (2026) endete 3:0 (Dordrecht – Helmond Sport). Das Modell erwartet ein torreiches Spiel (xG 2,5:1,8; über 2,5 Tore: 81 %, beide Teams treffen zu 77 %). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,25) für 12 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-11-20T20:00:00+01:00",
+     "home": "Heracles Almelo",
+     "away": "Jong PSV",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3708.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/9983.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "U",
+      "N",
+      "S",
+      "S",
+      "S"
+     ],
+     "formAway": [
+      "N",
+      "S",
+      "S",
+      "N",
+      "U"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 16,
+     "posAway": 17,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "28.04.2023",
+       "home": "Heracles",
+       "away": "Jong PSV U21",
+       "score": "3:0"
+      },
+      {
+       "date": "22.08.2022",
+       "home": "Jong PSV U21",
+       "away": "Heracles",
+       "score": "0:3"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.6243,
+      "pDraw": 0.1962,
+      "pAway": 0.1794,
+      "pOver25": 0.6443,
+      "pBtts": 0.5959,
+      "xgHome": 2.21,
+      "xgAway": 1.11,
+      "tipScore": "2:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5959,
+     "odds": {
+      "h": 1.14,
+      "d": 8.5,
+      "a": 13.0,
+      "src": "William Hill"
+     },
+     "value": null,
+     "scorersHome": [
+      {
+       "name": "Jean-Paul N'Djoli",
+       "goals": 15
+      },
+      {
+       "name": "Tristan Van Gilst",
+       "goals": 11
+      }
+     ],
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "Heracles Almelo geht als klarer Favorit (62 %) in das Heimspiel gegen Jong PSV. In der Tabelle stehen sich Platz 16 und Platz 17 gegenüber. Das letzte Duell (2023) endete 3:0 (Heracles – Jong PSV U21). Das Modell erwartet ein torreiches Spiel (xG 2,2:1,1; über 2,5 Tore: 64 %, beide Teams treffen zu 60 %). Gefährlichste Torschützen: bei Heracles Almelo Jean-Paul N'Djoli (15 Tore).",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-11-20T20:00:00+01:00",
+     "home": "Jong FC Utrecht",
+     "away": "FC Emmen",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/18278.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3707.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "N",
+      "N",
+      "N",
+      "S",
+      "U"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "N",
+      "N",
+      "N"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 20,
+     "posAway": 6,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "02.03.2026",
+       "home": "Emmen",
+       "away": "Jong Utrecht",
+       "score": "1:0"
+      },
+      {
+       "date": "07.11.2025",
+       "home": "Jong Utrecht",
+       "away": "Emmen",
+       "score": "1:2"
+      },
+      {
+       "date": "14.03.2025",
+       "home": "Emmen",
+       "away": "Jong Utrecht",
+       "score": "2:0"
+      },
+      {
+       "date": "30.08.2024",
+       "home": "Jong Utrecht",
+       "away": "Emmen",
+       "score": "1:2"
+      },
+      {
+       "date": "15.03.2024",
+       "home": "Jong Utrecht",
+       "away": "Emmen",
+       "score": "2:3"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4274,
+      "pDraw": 0.2127,
+      "pAway": 0.3599,
+      "pOver25": 0.7285,
+      "pBtts": 0.7201,
+      "xgHome": 1.98,
+      "xgAway": 1.81,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.7201,
+     "odds": {
+      "h": 3.1,
+      "d": 3.9,
+      "a": 1.95,
+      "src": "William Hill"
+     },
+     "value": {
+      "outcome": "1",
+      "edge": 0.1319,
+      "modelP": 0.4274,
+      "odds": 3.1
+     },
+     "scorersHome": [
+      {
+       "name": "E. C. Owen",
+       "goals": 6
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "Jack Cooper Love",
+       "goals": 11
+      },
+      {
+       "name": "Freddy Quispel",
+       "goals": 7
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Zwischen Jong FC Utrecht und FC Emmen deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Jong FC Utrecht 43 %, Unentschieden 21 %, Sieg FC Emmen 36 %). In der Tabelle stehen sich Platz 20 und Platz 6 gegenüber. Das letzte Duell (2026) endete 1:0 (Emmen – Jong Utrecht). Das Modell erwartet ein torreiches Spiel (xG 2,0:1,8; über 2,5 Tore: 73 %, beide Teams treffen zu 72 %). Gefährlichste Torschützen: bei Jong FC Utrecht E. C. Owen (6 Tore) und bei FC Emmen Jack Cooper Love (11 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,10) für 13 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-11-20T20:00:00+01:00",
+     "home": "TOP Oss",
+     "away": "Roda JC Kerkrade",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3728.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/149.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [],
+     "formAway": [],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": null,
+     "posAway": 14,
+     "nTeams": null,
+     "h2h": [],
+     "prediction": null,
+     "pBtts": null,
+     "odds": null,
+     "value": null,
+     "scorersHome": [],
+     "scorersAway": [
+      {
+       "name": "Anthony van der Hurk",
+       "goals": 9
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Gefährlichste Torschützen: bei Roda JC Kerkrade Anthony van der Hurk (9 Tore).",
+     "basis": "Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-11-20T20:00:00+01:00",
+     "home": "Vitesse",
+     "away": "Jong AZ",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/154.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/18748.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "S",
+      "N",
+      "S",
+      "U",
+      "N"
+     ],
+     "formAway": [
+      "N",
+      "U",
+      "S",
+      "N",
+      "N"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 15,
+     "posAway": 19,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "27.02.2026",
+       "home": "Vitesse",
+       "away": "Jong AZ",
+       "score": "2:0"
+      },
+      {
+       "date": "12.09.2025",
+       "home": "Jong AZ",
+       "away": "Vitesse",
+       "score": "4:0"
+      },
+      {
+       "date": "04.04.2025",
+       "home": "Vitesse",
+       "away": "Jong AZ",
+       "score": "2:2"
+      },
+      {
+       "date": "13.09.2024",
+       "home": "Jong AZ",
+       "away": "Vitesse",
+       "score": "0:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4596,
+      "pDraw": 0.2187,
+      "pAway": 0.3216,
+      "pOver25": 0.6847,
+      "pBtts": 0.682,
+      "xgHome": 1.93,
+      "xgAway": 1.6,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.682,
+     "odds": {
+      "h": 1.95,
+      "d": 3.7,
+      "a": 3.3,
+      "src": "William Hill"
+     },
+     "value": null,
+     "scorersHome": [
+      {
+       "name": "Naoufal Bannis",
+       "goals": 10
+      }
+     ],
+     "scorersAway": [],
+     "scorersPeriod": "Saison",
+     "analysis": "Vitesse ist gegen Jong AZ leicht favorisiert (46 % zu 32 %). In der Tabelle stehen sich Platz 15 und Platz 19 gegenüber. Das letzte Duell (2026) endete 2:0 (Vitesse – Jong AZ). Das Modell erwartet ein torreiches Spiel (xG 1,9:1,6; über 2,5 Tore: 68 %, beide Teams treffen zu 68 %). Gefährlichste Torschützen: bei Vitesse Naoufal Bannis (10 Tore).",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": false,
    "isCup": false
   },
@@ -174,7 +2503,97 @@
    "name": "Pro League (Belgien)",
    "flag": "🇧🇪",
    "espn": "bel.1",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-11-20T20:45:00+01:00",
+     "home": "Cercle Brugge KSV",
+     "away": "KVC Westerlo",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3610.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/606.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "N",
+      "N",
+      "N",
+      "S",
+      "S"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "U",
+      "N",
+      "N"
+     ],
+     "formHomeH": [
+      "U",
+      "N",
+      "N",
+      "N",
+      "S"
+     ],
+     "formAwayA": [
+      "N",
+      "N",
+      "S",
+      "S",
+      "N"
+     ],
+     "load14Home": 1,
+     "load14Away": 1,
+     "posHome": 16,
+     "posAway": 9,
+     "nTeams": 18,
+     "h2h": [
+      {
+       "date": "17.01.2026",
+       "home": "Westerlo",
+       "away": "Cercle Brugge",
+       "score": "0:2"
+      },
+      {
+       "date": "17.08.2025",
+       "home": "Cercle Brugge",
+       "away": "Westerlo",
+       "score": "4:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4537,
+      "pDraw": 0.2079,
+      "pAway": 0.3383,
+      "pOver25": 0.7466,
+      "pBtts": 0.7324,
+      "xgHome": 2.1,
+      "xgAway": 1.8,
+      "tipScore": "2:1",
+      "confidence": "hoch"
+     },
+     "pBtts": 0.7324,
+     "odds": {
+      "h": 2.0,
+      "d": 3.6,
+      "a": 3.1,
+      "src": "William Hill"
+     },
+     "value": null,
+     "scorersHome": [],
+     "scorersAway": [
+      {
+       "name": "Norman Bassette",
+       "goals": 8
+      },
+      {
+       "name": "Shunsuke Saito",
+       "goals": 5
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Cercle Brugge KSV ist gegen KVC Westerlo leicht favorisiert (45 % zu 34 %). In der Tabelle stehen sich Platz 16 und Platz 9 gegenüber. Heim-/Auswärtsbilanz: Cercle Brugge KSV gewann 1 der letzten 5 Heimspiele, KVC Westerlo 2 der letzten 5 Auswärtsspiele. Das letzte Duell (2026) endete 0:2 (Westerlo – Cercle Brugge). Das Modell erwartet ein torreiches Spiel (xG 2,1:1,8; über 2,5 Tore: 75 %, beide Teams treffen zu 73 %). Gefährlichste Torschützen: bei KVC Westerlo Norman Bassette (8 Tore).",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Heim/Auswärts-Form, Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": true,
    "isCup": false
   },
@@ -183,7 +2602,190 @@
    "name": "Challenger Pro League (Belgien)",
    "flag": "🇧🇪",
    "espn": "bel.2",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-11-20T20:00:00+01:00",
+     "home": "K. Lierse S.K.",
+     "away": "Lokeren-Temse",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Regular Season - 11",
+     "formHome": [
+      "N",
+      "S",
+      "N",
+      "N",
+      "N"
+     ],
+     "formAway": [
+      "S",
+      "N",
+      "S",
+      "N",
+      "U"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 13,
+     "posAway": 7,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "17.04.2026",
+       "home": "K. Lierse S.K.",
+       "away": "Lokeren-Temse",
+       "score": "1:1"
+      },
+      {
+       "date": "12.09.2025",
+       "home": "Lokeren-Temse",
+       "away": "K. Lierse S.K.",
+       "score": "2:0"
+      },
+      {
+       "date": "24.01.2025",
+       "home": "Lokeren-Temse",
+       "away": "K. Lierse S.K.",
+       "score": "1:1"
+      },
+      {
+       "date": "08.11.2024",
+       "home": "K. Lierse S.K.",
+       "away": "Lokeren-Temse",
+       "score": "2:2"
+      },
+      {
+       "date": "05.01.2024",
+       "home": "Lokeren-Temse",
+       "away": "K. Lierse S.K.",
+       "score": "2:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.369,
+      "pDraw": 0.2375,
+      "pAway": 0.3935,
+      "pOver25": 0.6034,
+      "pBtts": 0.6239,
+      "xgHome": 1.53,
+      "xgAway": 1.59,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6239,
+     "odds": {
+      "h": 3.6,
+      "d": 3.4,
+      "a": 1.85,
+      "src": "William Hill"
+     },
+     "value": {
+      "outcome": "1",
+      "edge": 0.1193,
+      "modelP": 0.369,
+      "odds": 3.6
+     },
+     "scorersHome": [],
+     "scorersAway": [
+      {
+       "name": "V. Mabanza",
+       "goals": 3
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Zwischen K. Lierse S.K. und Lokeren-Temse deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg K. Lierse S.K. 37 %, Unentschieden 24 %, Sieg Lokeren-Temse 39 %). In der Tabelle stehen sich Platz 13 und Platz 7 gegenüber. Das letzte Duell (2026) endete 1:1 (K. Lierse S.K. – Lokeren-Temse). Das Modell erwartet ein torreiches Spiel (xG 1,5:1,6; über 2,5 Tore: 60 %, beide Teams treffen zu 62 %). Gefährlichste Torschützen: bei Lokeren-Temse V. Mabanza (3 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,60) für 12 Prozentpunkte wahrscheinlicher als der Markt.",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-11-20T20:00:00+01:00",
+     "home": "Club Brugge II",
+     "away": "Excelsior Virton",
+     "homeIcon": null,
+     "awayIcon": null,
+     "matchday": null,
+     "roundName": "Regular Season - 11",
+     "formHome": [
+      "U",
+      "N",
+      "U",
+      "N",
+      "N"
+     ],
+     "formAway": [
+      "N",
+      "N",
+      "N",
+      "S",
+      "N"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 11,
+     "posAway": 8,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "05.02.2023",
+       "home": "Club Brugge II",
+       "away": "Excelsior Virton",
+       "score": "1:0"
+      },
+      {
+       "date": "30.09.2022",
+       "home": "Excelsior Virton",
+       "away": "Club Brugge II",
+       "score": "3:3"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3929,
+      "pDraw": 0.2335,
+      "pAway": 0.3736,
+      "pOver25": 0.6235,
+      "pBtts": 0.6395,
+      "xgHome": 1.63,
+      "xgAway": 1.59,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.6395,
+     "odds": {
+      "h": 2.3,
+      "d": 3.25,
+      "a": 2.7,
+      "src": "William Hill"
+     },
+     "value": null,
+     "scorersHome": [
+      {
+       "name": "N. Amengai",
+       "goals": 4
+      },
+      {
+       "name": "M. Robberechts",
+       "goals": 4
+      },
+      {
+       "name": "J. Van Britsom",
+       "goals": 3
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "A. Hachem",
+       "goals": 4
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Zwischen Club Brugge II und Excelsior Virton deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg Club Brugge II 40 %, Unentschieden 23 %, Sieg Excelsior Virton 37 %). In der Tabelle stehen sich Platz 11 und Platz 8 gegenüber. Das letzte Duell (2023) endete 1:0 (Club Brugge II – Excelsior Virton). Das Modell erwartet ein torreiches Spiel (xG 1,6:1,6; über 2,5 Tore: 62 %, beide Teams treffen zu 64 %). Gefährlichste Torschützen: bei Club Brugge II N. Amengai (4 Tore) und bei Excelsior Virton A. Hachem (4 Tore).",
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: bestätigte Ausfälle, Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": false,
    "isCup": false
   },
@@ -237,7 +2839,308 @@
    "name": "MLS (USA)",
    "flag": "🇺🇸",
    "espn": "usa.1",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-11-20T01:30:00+01:00",
+     "home": "Orlando City SC",
+     "away": "FC Cincinnati",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/12011.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/18267.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "S",
+      "U",
+      "U",
+      "N",
+      "S"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "U",
+      "S",
+      "N"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 8,
+     "posAway": 9,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "15.08.2026",
+       "home": "Orlando City SC",
+       "away": "FC Cincinnati",
+       "score": "1:1"
+      },
+      {
+       "date": "23.05.2026",
+       "home": "FC Cincinnati",
+       "away": "Orlando City SC",
+       "score": "6:2"
+      },
+      {
+       "date": "11.02.2026",
+       "home": "Orlando City SC",
+       "away": "FC Cincinnati",
+       "score": "3:2"
+      },
+      {
+       "date": "28.09.2025",
+       "home": "FC Cincinnati",
+       "away": "Orlando City SC",
+       "score": "1:1"
+      },
+      {
+       "date": "28.06.2025",
+       "home": "Orlando City SC",
+       "away": "FC Cincinnati",
+       "score": "1:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.541,
+      "pDraw": 0.1959,
+      "pAway": 0.2629,
+      "pOver25": 0.7583,
+      "pBtts": 0.7262,
+      "xgHome": 2.35,
+      "xgAway": 1.62,
+      "tipScore": "2:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.7262,
+     "odds": {
+      "h": 2.38,
+      "d": 3.75,
+      "a": 2.45,
+      "src": "William Hill"
+     },
+     "value": {
+      "outcome": "1",
+      "edge": 0.1573,
+      "modelP": 0.541,
+      "odds": 2.38
+     },
+     "scorersHome": [
+      {
+       "name": "M. Ojeda",
+       "goals": 16
+      },
+      {
+       "name": "A. Griezmann",
+       "goals": 14
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "Kévin Denkey",
+       "goals": 17
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Orlando City SC ist gegen FC Cincinnati leicht favorisiert (54 % zu 26 %). In der Tabelle stehen sich Platz 8 und Platz 9 gegenüber. Das letzte Duell (2026) endete 1:1 (Orlando City SC – FC Cincinnati). Das Modell erwartet ein torreiches Spiel (xG 2,4:1,6; über 2,5 Tore: 76 %, beide Teams treffen zu 73 %). Gefährlichste Torschützen: bei Orlando City SC M. Ojeda (16 Tore) und bei FC Cincinnati Kévin Denkey (17 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 2,38) für 16 Prozentpunkte wahrscheinlicher als der Markt. Personal: Orlando City SC fehlen 6 Spieler (u.a. R. Jansson); FC Cincinnati fehlen 6 Spieler (u.a. K. Fletcher).",
+     "injuriesHome": [
+      {
+       "name": "R. Jansson",
+       "reason": "Foot Injury"
+      },
+      {
+       "name": "Luis Otavio",
+       "reason": "Injury"
+      },
+      {
+       "name": "J. Gerbet",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "W. Cartagena",
+       "reason": "Thigh Injury"
+      },
+      {
+       "name": "A. Marin",
+       "reason": "Thigh Injury"
+      },
+      {
+       "name": "C. Guske",
+       "reason": "Red Card"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "K. Fletcher",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "M. Miazga",
+       "reason": "Leg Injury"
+      },
+      {
+       "name": "S. Chirila",
+       "reason": "Leg Injury"
+      },
+      {
+       "name": "T. Anunga",
+       "reason": "Leg Injury"
+      },
+      {
+       "name": "R. Celentano",
+       "reason": "Rest"
+      },
+      {
+       "name": "G. Valenzuela",
+       "reason": "Red Card"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-11-20T04:00:00+01:00",
+     "home": "Seattle Sounders FC",
+     "away": "Real Salt Lake",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/9726.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/4771.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "U",
+      "U",
+      "N",
+      "N",
+      "S"
+     ],
+     "formAway": [
+      "S",
+      "S",
+      "S",
+      "N",
+      "S"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 8,
+     "posAway": 9,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "24.09.2026",
+       "home": "Seattle Sounders",
+       "away": "Real Salt Lake",
+       "score": "2:0"
+      },
+      {
+       "date": "01.03.2026",
+       "home": "Real Salt Lake",
+       "away": "Seattle Sounders",
+       "score": "2:1"
+      },
+      {
+       "date": "12.10.2025",
+       "home": "Seattle Sounders",
+       "away": "Real Salt Lake",
+       "score": "1:0"
+      },
+      {
+       "date": "01.03.2025",
+       "home": "Real Salt Lake",
+       "away": "Seattle Sounders",
+       "score": "2:0"
+      },
+      {
+       "date": "30.05.2024",
+       "home": "Seattle Sounders",
+       "away": "Real Salt Lake",
+       "score": "1:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.4887,
+      "pDraw": 0.2354,
+      "pAway": 0.2758,
+      "pOver25": 0.5758,
+      "pBtts": 0.5894,
+      "xgHome": 1.74,
+      "xgAway": 1.25,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5894,
+     "odds": {
+      "h": 1.95,
+      "d": 3.5,
+      "a": 3.4,
+      "src": "William Hill"
+     },
+     "value": null,
+     "scorersHome": [],
+     "scorersAway": [
+      {
+       "name": "S. Solans",
+       "goals": 15
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Seattle Sounders FC ist gegen Real Salt Lake leicht favorisiert (48 % zu 28 %). In der Tabelle stehen sich Platz 8 und Platz 9 gegenüber. Die Form spricht für Real Salt Lake: 4 Siege aus den letzten 5 Spielen, Seattle Sounders FC holte nur 1. Das letzte Duell (2026) endete 2:0 (Seattle Sounders – Real Salt Lake). Das Modell erwartet ein torreiches Spiel (xG 1,7:1,2; über 2,5 Tore: 58 %, beide Teams treffen zu 59 %). Gefährlichste Torschützen: bei Real Salt Lake S. Solans (15 Tore). Personal: Seattle Sounders FC fehlen 6 Spieler (u.a. S. Hawkins); Real Salt Lake fehlen 6 Spieler (u.a. E. Eneli).",
+     "injuriesHome": [
+      {
+       "name": "S. Hawkins",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Kim Kee-Hee",
+       "reason": "Calf Injury"
+      },
+      {
+       "name": "R. Sailor",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "P. de La Vega",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "J. Morris",
+       "reason": "Injury"
+      },
+      {
+       "name": "G. Minoungou",
+       "reason": "Foot Injury"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "E. Eneli",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "K. Henry",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "D. Luna",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "V. Olatunji",
+       "reason": "Eye injury"
+      },
+      {
+       "name": "D. Yedlin",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "J. J. Arias",
+       "reason": "Inactive"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": false,
    "isCup": false
   },
@@ -466,7 +3369,7 @@
      },
      "pBtts": 0.5561,
      "odds": {
-      "h": 1.6,
+      "h": 1.55,
       "d": 4.0,
       "a": 4.8,
       "src": "William Hill"
@@ -1252,6 +4155,159 @@
       }
      ],
      "basis": "Datenbasis: Tabelle, Verletztenliste. Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    },
+    {
+     "kickoff": "2026-11-20T01:30:00+01:00",
+     "home": "São Paulo",
+     "away": "Fluminense",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "S",
+      "S",
+      "U",
+      "N",
+      "U"
+     ],
+     "formAway": [
+      "N",
+      "S",
+      "N",
+      "S",
+      "S"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 10,
+     "posAway": 4,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "16.05.2026",
+       "home": "Fluminense",
+       "away": "Sao Paulo",
+       "score": "2:1"
+      },
+      {
+       "date": "27.11.2025",
+       "home": "Fluminense",
+       "away": "Sao Paulo",
+       "score": "6:0"
+      },
+      {
+       "date": "27.07.2025",
+       "home": "Sao Paulo",
+       "away": "Fluminense",
+       "score": "3:1"
+      },
+      {
+       "date": "01.09.2024",
+       "home": "Fluminense",
+       "away": "Sao Paulo",
+       "score": "2:0"
+      },
+      {
+       "date": "13.05.2024",
+       "home": "Sao Paulo",
+       "away": "Fluminense",
+       "score": "2:1"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.3519,
+      "pDraw": 0.277,
+      "pAway": 0.3712,
+      "pOver25": 0.4287,
+      "pBtts": 0.4869,
+      "xgHome": 1.18,
+      "xgAway": 1.22,
+      "tipScore": "1:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.4869,
+     "odds": {
+      "h": 2.3,
+      "d": 3.0,
+      "a": 3.0,
+      "src": "William Hill"
+     },
+     "value": {
+      "outcome": "2",
+      "edge": 0.0686,
+      "modelP": 0.3712,
+      "odds": 3.0
+     },
+     "scorersHome": [
+      {
+       "name": "Jonathan Calleri",
+       "goals": 10
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "John Kennedy",
+       "goals": 9
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Zwischen São Paulo und Fluminense deutet das Modell auf ein Duell auf Augenhöhe hin (Sieg São Paulo 35 %, Unentschieden 28 %, Sieg Fluminense 37 %). In der Tabelle stehen sich Platz 10 und Platz 4 gegenüber. Das letzte Duell (2026) endete 2:1 (Fluminense – Sao Paulo). Das Modell erwartet eher wenige Tore (xG 1,2:1,2; über 2,5 Tore: 43 %, beide Teams treffen zu 49 %). Gefährlichste Torschützen: bei São Paulo Jonathan Calleri (10 Tore) und bei Fluminense John Kennedy (9 Tore). Quoten-Hinweis: Das Modell hält Tipp 2 (Quote 3,00) für 7 Prozentpunkte wahrscheinlicher als der Markt. Personal: São Paulo fehlen 6 Spieler (u.a. Andre Silva); Fluminense fehlen 6 Spieler (u.a. G. Cano).",
+     "injuriesHome": [
+      {
+       "name": "Andre Silva",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "Ryan Francisco",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "Alisson",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Danielzinho",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Lucca Marques",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Lucas Ramon",
+       "reason": "Inactive"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "G. Cano",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Hercules",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Y. Soteldo",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Everaldo",
+       "reason": "Inactive"
+      },
+      {
+       "name": "J. Savarino",
+       "reason": "Inactive"
+      },
+      {
+       "name": "Nonato",
+       "reason": "Injury"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
     }
    ],
    "seasonHasStarted": false,
@@ -1262,7 +4318,165 @@
    "name": "Eliteserien (Norwegen)",
    "flag": "🇳🇴",
    "espn": "nor.1",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-11-20T19:00:00+01:00",
+     "home": "Molde",
+     "away": "Bodo/Glimt",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/2715.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "S",
+      "S",
+      "S",
+      "N",
+      "U"
+     ],
+     "formAway": [
+      "N",
+      "N",
+      "S",
+      "U",
+      "S"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 5,
+     "posAway": 2,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "28.06.2026",
+       "home": "Molde",
+       "away": "Bodo/Glimt",
+       "score": "1:4"
+      },
+      {
+       "date": "04.05.2026",
+       "home": "Bodo/Glimt",
+       "away": "Molde",
+       "score": "0:1"
+      },
+      {
+       "date": "05.03.2026",
+       "home": "Molde",
+       "away": "Bodo/Glimt",
+       "score": "1:2"
+      },
+      {
+       "date": "26.10.2025",
+       "home": "Bodo/Glimt",
+       "away": "Molde",
+       "score": "4:1"
+      },
+      {
+       "date": "21.04.2025",
+       "home": "Molde",
+       "away": "Bodo/Glimt",
+       "score": "2:2"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.6564,
+      "pDraw": 0.1599,
+      "pAway": 0.1827,
+      "pOver25": 0.8311,
+      "pBtts": 0.7534,
+      "xgHome": 2.97,
+      "xgAway": 1.59,
+      "tipScore": "2:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.7534,
+     "odds": {
+      "h": 3.3,
+      "d": 4.2,
+      "a": 1.8,
+      "src": "William Hill"
+     },
+     "value": {
+      "outcome": "1",
+      "edge": 0.3801,
+      "modelP": 0.6564,
+      "odds": 3.3
+     },
+     "scorersHome": [
+      {
+       "name": "Emil Breivik",
+       "goals": 10
+      },
+      {
+       "name": "Kristian Lonebu",
+       "goals": 10
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "Andreas Helmersen",
+       "goals": 13
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "Molde geht als klarer Favorit (66 %) in das Heimspiel gegen Bodo/Glimt. In der Tabelle stehen sich Platz 5 und Platz 2 gegenüber. Das letzte Duell (2026) endete 1:4 (Molde – Bodo/Glimt). Das Modell erwartet ein torreiches Spiel (xG 3,0:1,6; über 2,5 Tore: 83 %, beide Teams treffen zu 75 %). Gefährlichste Torschützen: bei Molde Emil Breivik (10 Tore) und bei Bodo/Glimt Andreas Helmersen (13 Tore). Quoten-Hinweis: Das Modell hält Tipp 1 (Quote 3,30) für 38 Prozentpunkte wahrscheinlicher als der Markt. Personal: Molde fehlen 6 Spieler (u.a. M. Daehli); Bodo/Glimt fehlen 6 Spieler (u.a. D. Bassi).",
+     "injuriesHome": [
+      {
+       "name": "M. Daehli",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "D. Daga",
+       "reason": "Injury"
+      },
+      {
+       "name": "F. Dahl",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "M. Linnes",
+       "reason": "Injury"
+      },
+      {
+       "name": "O. Spiten-Nysaeter",
+       "reason": "Injury"
+      },
+      {
+       "name": "S. Kabini",
+       "reason": "Red Card"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "D. Bassi",
+       "reason": "Illness"
+      },
+      {
+       "name": "O. Brynhildsen",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "A. Helmersen",
+       "reason": "Inactive"
+      },
+      {
+       "name": "M. Riisnaes",
+       "reason": "Illness"
+      },
+      {
+       "name": "U. Saltnes",
+       "reason": "Injury"
+      },
+      {
+       "name": "P. Berg",
+       "reason": "International duty"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": false,
    "isCup": false
   },
@@ -1280,7 +4494,144 @@
    "name": "Superliga (Dänemark)",
    "flag": "🇩🇰",
    "espn": "den.1",
-   "matches": [],
+   "matches": [
+    {
+     "kickoff": "2026-11-20T19:00:00+01:00",
+     "home": "AGF",
+     "away": "Lyngby Boldklub",
+     "homeIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/7853.png",
+     "awayIcon": "https://a.espncdn.com/i/teamlogos/soccer/500/7860.png",
+     "matchday": null,
+     "roundName": null,
+     "formHome": [
+      "S",
+      "S",
+      "N",
+      "U",
+      "S"
+     ],
+     "formAway": [
+      "U",
+      "N",
+      "S",
+      "S",
+      "N"
+     ],
+     "formHomeH": [],
+     "formAwayA": [],
+     "load14Home": 0,
+     "load14Away": 0,
+     "posHome": 8,
+     "posAway": 10,
+     "nTeams": null,
+     "h2h": [
+      {
+       "date": "01.08.2026",
+       "home": "Lyngby",
+       "away": "Aarhus",
+       "score": "2:2"
+      },
+      {
+       "date": "03.11.2024",
+       "home": "Aarhus",
+       "away": "Lyngby",
+       "score": "2:1"
+      },
+      {
+       "date": "22.09.2024",
+       "home": "Lyngby",
+       "away": "Aarhus",
+       "score": "0:0"
+      },
+      {
+       "date": "22.10.2023",
+       "home": "Lyngby",
+       "away": "Aarhus",
+       "score": "0:2"
+      },
+      {
+       "date": "27.08.2023",
+       "home": "Aarhus",
+       "away": "Lyngby",
+       "score": "1:0"
+      }
+     ],
+     "prediction": {
+      "pHome": 0.5957,
+      "pDraw": 0.208,
+      "pAway": 0.1962,
+      "pOver25": 0.6154,
+      "pBtts": 0.5848,
+      "xgHome": 2.07,
+      "xgAway": 1.11,
+      "tipScore": "2:1",
+      "confidence": "mittel"
+     },
+     "pBtts": 0.5848,
+     "odds": {
+      "h": 1.75,
+      "d": 3.75,
+      "a": 4.0,
+      "src": "William Hill"
+     },
+     "value": null,
+     "scorersHome": [
+      {
+       "name": "J. Serra",
+       "goals": 5
+      }
+     ],
+     "scorersAway": [
+      {
+       "name": "Simon Colyn",
+       "goals": 5
+      }
+     ],
+     "scorersPeriod": "Saison",
+     "analysis": "AGF geht als klarer Favorit (59 %) in das Heimspiel gegen Lyngby Boldklub. In der Tabelle stehen sich Platz 8 und Platz 10 gegenüber. Das letzte Duell (2026) endete 2:2 (Lyngby – Aarhus). Das Modell erwartet ein torreiches Spiel (xG 2,1:1,1; über 2,5 Tore: 62 %, beide Teams treffen zu 58 %). Gefährlichste Torschützen: bei AGF J. Serra (5 Tore) und bei Lyngby Boldklub Simon Colyn (5 Tore). Personal: AGF fehlen 6 Spieler (u.a. L. Callo); Lyngby Boldklub fehlen 3 Spieler (u.a. O. Snorre).",
+     "injuriesHome": [
+      {
+       "name": "L. Callo",
+       "reason": "Injury"
+      },
+      {
+       "name": "R. Gyamfi",
+       "reason": "Muscle Injury"
+      },
+      {
+       "name": "T. Molgaard",
+       "reason": "Injury"
+      },
+      {
+       "name": "N. Poulsen",
+       "reason": "Achilles Tendon Injury"
+      },
+      {
+       "name": "J. Andersen",
+       "reason": "Inactive"
+      },
+      {
+       "name": "G. Links",
+       "reason": "Inactive"
+      }
+     ],
+     "injuriesAway": [
+      {
+       "name": "O. Snorre",
+       "reason": "Knee Injury"
+      },
+      {
+       "name": "S. Colyn",
+       "reason": "Red Card"
+      },
+      {
+       "name": "I. Thorvaldsson",
+       "reason": "Yellow Cards"
+      }
+     ],
+     "basis": "Datenbasis: Poisson-Modell aus den letzten 12 Spielen beider Teams (alle Wettbewerbe), Tabelle, Verletztenliste, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufstellungen (erst ~1 h vor Anpfiff), xG-Detaildaten, Trainerwechsel/Motivation, Saisonziele – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+    }
+   ],
    "seasonHasStarted": false,
    "isCup": false
   },
@@ -1296,314 +4647,7 @@
  ],
  "tennis": [
   {
-   "start": "2026-11-17T16:45:00+01:00",
-   "tour": "WTA",
-   "tournament": "LP Open by IND",
-   "round": "1. Runde",
-   "surface": "Sand",
-   "p1": {
-    "name": "Alicia Herrero Linana",
-    "rank": 225,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Lucia Bronzetti",
-    "rank": 135,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 5
-   },
-   "pP1": 0.3931,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.3931
-   },
-   "h2h": [],
-   "analysis": "Alicia Herrero Linana (Weltrangliste #225) trifft auf Lucia Bronzetti (#135). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Lucia Bronzetti mit 61 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-11-17T16:50:00+01:00",
-   "tour": "WTA",
-   "tournament": "LP Open by IND",
-   "round": "1. Runde",
-   "surface": "Sand",
-   "p1": {
-    "name": "Miriam Bulgaru",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Polona Hercog",
-    "rank": 179,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 6
-   },
-   "pP1": 0.4295,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.4295
-   },
-   "h2h": [],
-   "analysis": "Miriam Bulgaru – aktuell ohne Top-Ranking – trifft auf Polona Hercog (#179). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Polona Hercog mit 57 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-11-17T18:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Nitto ATP Finals",
-   "round": "Group Stage",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Orlando Luz / Rafael Matos",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Theo Arribage / Albano Olivetti",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-11-17T18:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "LP Open by IND",
-   "round": "1. Runde",
-   "surface": "Sand",
-   "p1": {
-    "name": "Veronika Erjavec",
-    "rank": 161,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Maria Lourdes Carle",
-    "rank": 233,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 5
-   },
-   "pP1": 0.5779,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.5779
-   },
-   "h2h": [],
-   "analysis": "Veronika Erjavec (Weltrangliste #161) trifft auf Maria Lourdes Carle (#233). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Veronika Erjavec mit 58 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-11-17T18:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "LP Open by IND",
-   "round": "Viertelfinale",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Sofia Costoulas / Darja Semenistaja",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Nuria Brancaccio / Guiomar Maristany Zuleta De Reales",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": false
-  },
-  {
-   "start": "2026-11-17T20:30:00+01:00",
-   "tour": "ATP",
-   "tournament": "Nitto ATP Finals",
-   "round": "Group Stage",
-   "surface": "Hartplatz",
-   "p1": {
-    "name": "Ben Shelton",
-    "rank": 4,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
-   },
-   "p2": {
-    "name": "Alexander Zverev",
-    "rank": 1,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": 0.2353,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.2353
-   },
-   "h2h": [],
-   "analysis": "Ben Shelton (Weltrangliste #4) trifft auf Alexander Zverev (#1). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alexander Zverev mit 76 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "odds": {
-    "p1": 2.58,
-    "p2": 1.42,
-    "src": "Betclic (FR)"
-   },
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-11-17T21:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "LP Open by IND",
-   "round": "1. Runde",
-   "surface": "Sand",
-   "p1": {
-    "name": "Laura Samson",
-    "rank": 107,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 4,
-    "sets7": 9
-   },
-   "p2": {
-    "name": "Despina Papamichail",
-    "rank": 230,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.6571,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6571
-   },
-   "h2h": [],
-   "analysis": "Laura Samson (Weltrangliste #107) trifft auf Despina Papamichail (#230). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Laura Samson mit 66 % vorn. Laura Samson hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 9 Sätzen) – die physische Frische ist ein Fragezeichen.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-11-17T21:30:00+01:00",
-   "tour": "WTA",
-   "tournament": "LP Open by IND",
-   "round": "1. Runde",
-   "surface": "Sand",
-   "p1": {
-    "name": "Andrea Lazaro Garcia",
-    "rank": 140,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 8
-   },
-   "p2": {
-    "name": "Barbara Gatica",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": 0.6208,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6208
-   },
-   "h2h": [],
-   "analysis": "Andrea Lazaro Garcia (#140) trifft auf Barbara Gatica, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Andrea Lazaro Garcia mit 62 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": false,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-11-17T23:00:00+01:00",
+   "start": "2026-11-18T00:50:00+01:00",
    "tour": "WTA",
    "tournament": "LP Open by IND",
    "round": "1. Runde",
@@ -1643,165 +4687,6 @@
    "unconfirmed": false,
    "timeTBD": false,
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-11-18T06:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "LP Open by IND",
-   "round": "2. Runde",
-   "surface": "Sand",
-   "p1": {
-    "name": "Irene Burillo",
-    "rank": 204,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 3,
-    "sets7": 6
-   },
-   "p2": {
-    "name": "Anastasia Zolotareva",
-    "rank": 336,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": 0.6045,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.6045
-   },
-   "h2h": [],
-   "analysis": "Irene Burillo (Weltrangliste #204) trifft auf Anastasia Zolotareva (#336). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Irene Burillo mit 60 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-11-18T06:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "LP Open by IND",
-   "round": "2. Runde",
-   "surface": "Sand",
-   "p1": {
-    "name": "Sofia Costoulas",
-    "rank": 181,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 4
-   },
-   "p2": {
-    "name": "Guiomar Maristany Zuleta De Reales",
-    "rank": null,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 2
-   },
-   "pP1": 0.5682,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.5682
-   },
-   "h2h": [],
-   "analysis": "Sofia Costoulas (#181) trifft auf Guiomar Maristany Zuleta De Reales, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Sofia Costoulas mit 57 % vorn.",
-   "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
-  },
-  {
-   "start": "2026-11-18T06:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "LP Open by IND",
-   "round": "Viertelfinale",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Irene Burillo / Anastasia Zolotareva",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Valeriya Strakhova / Anastasia Tikhonova",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-11-18T06:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "LP Open by IND",
-   "round": "Viertelfinale",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Veronika Erjavec / Zhibek Kulambayeva",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Ipek Oz / Despina Papamichail",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
-  },
-  {
-   "start": "2026-11-18T06:00:00+01:00",
-   "tour": "WTA",
-   "tournament": "LP Open by IND",
-   "round": "Viertelfinale",
-   "surface": null,
-   "doubles": true,
-   "p1": {
-    "name": "Tenika McGiffin / Alexandra Osborne",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "p2": {
-    "name": "Fernanda Labrana / Antonia Vergara Rivera",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
-   },
-   "pP1": null,
-   "h2h": [],
-   "analysis": "",
-   "unconfirmed": false,
-   "timeTBD": true
   },
   {
    "start": "2026-11-18T11:30:00+01:00",
@@ -1869,11 +4754,145 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 3.7,
+    "p1": 3.75,
     "p2": 1.28,
     "src": "Unibet (NL)"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-18T15:30:00+01:00",
+   "tour": "WTA",
+   "tournament": "LP Open by IND",
+   "round": "2. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Sofia Costoulas",
+    "rank": 181,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
+   },
+   "p2": {
+    "name": "Guiomar Maristany Zuleta De Reales",
+    "rank": null,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.5682,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.5682
+   },
+   "h2h": [],
+   "analysis": "Sofia Costoulas (#181) trifft auf Guiomar Maristany Zuleta De Reales, der/die aktuell außerhalb der Top-Platzierungen geführt wird. Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Sofia Costoulas mit 57 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-18T15:30:00+01:00",
+   "tour": "WTA",
+   "tournament": "LP Open by IND",
+   "round": "Viertelfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Irene Burillo / Anastasia Zolotareva",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Valeriya Strakhova / Anastasia Tikhonova",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
+  },
+  {
+   "start": "2026-11-18T17:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "LP Open by IND",
+   "round": "2. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Polona Hercog",
+    "rank": 179,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 4,
+    "sets7": 8
+   },
+   "p2": {
+    "name": "Rebeka Masarova",
+    "rank": 160,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.4762,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4762
+   },
+   "h2h": [],
+   "analysis": "Polona Hercog (Weltrangliste #179) trifft auf Rebeka Masarova (#160). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Rebeka Masarova mit 52 % vorn. Polona Hercog hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 8 Sätzen) – die physische Frische ist ein Fragezeichen.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-18T17:30:00+01:00",
+   "tour": "WTA",
+   "tournament": "LP Open by IND",
+   "round": "Viertelfinale",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Veronika Erjavec / Zhibek Kulambayeva",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Ipek Oz / Despina Papamichail",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": false
   },
   {
    "start": "2026-11-18T18:00:00+01:00",
@@ -1899,6 +4918,48 @@
    "analysis": "",
    "unconfirmed": false,
    "timeTBD": false
+  },
+  {
+   "start": "2026-11-18T18:30:00+01:00",
+   "tour": "WTA",
+   "tournament": "LP Open by IND",
+   "round": "2. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Nadia Podoroska",
+    "rank": 190,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "p2": {
+    "name": "Leyre Romero Gormaz",
+    "rank": 111,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "pP1": 0.3877,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3877
+   },
+   "h2h": [],
+   "analysis": "Nadia Podoroska (Weltrangliste #190) trifft auf Leyre Romero Gormaz (#111). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Leyre Romero Gormaz mit 61 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-11-18T20:30:00+01:00",
@@ -1941,27 +5002,27 @@
    "unconfirmed": false,
    "timeTBD": false,
    "odds": {
-    "p1": 1.83,
-    "p2": 1.96,
+    "p1": 1.73,
+    "p2": 2.1,
     "src": "Unibet (NL)"
    },
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-11-19T06:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Nitto ATP Finals",
-   "round": "Group Stage",
+   "start": "2026-11-18T22:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "LP Open by IND",
+   "round": "Viertelfinale",
    "surface": null,
    "doubles": true,
    "p1": {
-    "name": "Kevin Krawietz / Tim Puetz",
+    "name": "Tenika McGiffin / Alexandra Osborne",
     "rank": null,
     "last7": 0,
     "sets7": 0
    },
    "p2": {
-    "name": "Simone Bolelli / Andrea Vavassori",
+    "name": "Fernanda Labrana / Antonia Vergara Rivera",
     "rank": null,
     "last7": 0,
     "sets7": 0
@@ -1970,35 +5031,178 @@
    "h2h": [],
    "analysis": "",
    "unconfirmed": false,
-   "timeTBD": true
+   "timeTBD": false
   },
   {
-   "start": "2026-11-19T06:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Nitto ATP Finals",
-   "round": "Group Stage",
-   "surface": null,
-   "doubles": true,
+   "start": "2026-11-18T23:30:00+01:00",
+   "tour": "WTA",
+   "tournament": "LP Open by IND",
+   "round": "2. Runde",
+   "surface": "Sand",
    "p1": {
-    "name": "Marcel Granollers / Horacio Zeballos",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
+    "name": "Laura Samson",
+    "rank": 107,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 4,
+    "sets7": 9
    },
    "p2": {
-    "name": "Christian Harrison / Neal Skupski",
-    "rank": null,
-    "last7": 0,
-    "sets7": 0
+    "name": "Ariana Geerlings",
+    "rank": 296,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
    },
-   "pP1": null,
+   "pP1": 0.7037,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.7037
+   },
    "h2h": [],
-   "analysis": "",
+   "analysis": "Laura Samson (Weltrangliste #107) trifft auf Ariana Geerlings (#296). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Laura Samson mit 70 % vorn. Laura Samson hat allerdings eine intensive Woche in den Beinen (4 Matches in den letzten 7 Tagen und 9 Sätzen) – die physische Frische ist ein Fragezeichen.",
    "unconfirmed": false,
-   "timeTBD": true
+   "timeTBD": false,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
    "start": "2026-11-19T06:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "LP Open by IND",
+   "round": "2. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Irene Burillo",
+    "rank": 204,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 3,
+    "sets7": 6
+   },
+   "p2": {
+    "name": "Anastasia Zolotareva",
+    "rank": 336,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 2
+   },
+   "pP1": 0.6045,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6045
+   },
+   "h2h": [],
+   "analysis": "Irene Burillo (Weltrangliste #204) trifft auf Anastasia Zolotareva (#336). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Irene Burillo mit 60 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-19T06:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "LP Open by IND",
+   "round": "2. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Carole Monnet",
+    "rank": 209,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 5
+   },
+   "p2": {
+    "name": "Lucia Bronzetti",
+    "rank": 135,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 4
+   },
+   "pP1": 0.4082,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.4082
+   },
+   "h2h": [],
+   "analysis": "Carole Monnet (Weltrangliste #209) trifft auf Lucia Bronzetti (#135). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Lucia Bronzetti mit 59 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-19T06:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "LP Open by IND",
+   "round": "2. Runde",
+   "surface": "Sand",
+   "p1": {
+    "name": "Veronika Erjavec",
+    "rank": 161,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 1,
+    "sets7": 3
+   },
+   "p2": {
+    "name": "Valeriya Strakhova",
+    "rank": 400,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 5
+   },
+   "pP1": 0.6843,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.6843
+   },
+   "h2h": [],
+   "analysis": "Veronika Erjavec (Weltrangliste #161) trifft auf Valeriya Strakhova (#400). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Veronika Erjavec mit 68 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": true,
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-19T11:30:00+01:00",
    "tour": "ATP",
    "tournament": "Nitto ATP Finals",
    "round": "Group Stage",
@@ -2020,10 +5224,57 @@
    "h2h": [],
    "analysis": "",
    "unconfirmed": false,
-   "timeTBD": true
+   "timeTBD": false
   },
   {
-   "start": "2026-11-19T06:00:00+01:00",
+   "start": "2026-11-19T14:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Nitto ATP Finals",
+   "round": "Group Stage",
+   "surface": "Hartplatz",
+   "p1": {
+    "name": "Rafael Jodar",
+    "rank": 10,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 5
+   },
+   "p2": {
+    "name": "Ben Shelton",
+    "rank": 4,
+    "form": [],
+    "elo": null,
+    "rankYearAgo": null,
+    "oppElo": null,
+    "onSurface": null,
+    "favSurface": null,
+    "last7": 2,
+    "sets7": 5
+   },
+   "pP1": 0.3146,
+   "model": {
+    "n1": 0,
+    "n2": 0,
+    "pRank": 0.3146
+   },
+   "h2h": [],
+   "analysis": "Rafael Jodar (Weltrangliste #10) trifft auf Ben Shelton (#4). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Ben Shelton mit 69 % vorn.",
+   "unconfirmed": false,
+   "timeTBD": false,
+   "odds": {
+    "p1": 2.7,
+    "p2": 1.46,
+    "src": "Winamax (DE)"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+  },
+  {
+   "start": "2026-11-19T18:00:00+01:00",
    "tour": "ATP",
    "tournament": "Nitto ATP Finals",
    "round": "Group Stage",
@@ -2045,10 +5296,10 @@
    "h2h": [],
    "analysis": "",
    "unconfirmed": false,
-   "timeTBD": true
+   "timeTBD": false
   },
   {
-   "start": "2026-11-19T06:00:00+01:00",
+   "start": "2026-11-19T20:30:00+01:00",
    "tour": "ATP",
    "tournament": "Nitto ATP Finals",
    "round": "Group Stage",
@@ -2074,8 +5325,8 @@
     "oppElo": null,
     "onSurface": null,
     "favSurface": null,
-    "last7": 1,
-    "sets7": 2
+    "last7": 2,
+    "sets7": 4
    },
    "pP1": 0.1606,
    "model": {
@@ -2086,11 +5337,66 @@
    "h2h": [],
    "analysis": "Arthur Fils (Weltrangliste #7) trifft auf Alexander Zverev (#1). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Alexander Zverev mit 84 % vorn.",
    "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "timeTBD": false,
+   "odds": {
+    "p1": 3.1,
+    "p2": 1.36,
+    "src": "888sport"
+   },
+   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage, Quoten (nur Vergleich, kein Modell-Input). Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-11-19T06:00:00+01:00",
+   "start": "2026-11-20T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Nitto ATP Finals",
+   "round": "Group Stage",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Marcel Granollers / Horacio Zeballos",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Christian Harrison / Neal Skupski",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-20T06:00:00+01:00",
+   "tour": "ATP",
+   "tournament": "Nitto ATP Finals",
+   "round": "Group Stage",
+   "surface": null,
+   "doubles": true,
+   "p1": {
+    "name": "Kevin Krawietz / Tim Puetz",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "p2": {
+    "name": "Simone Bolelli / Andrea Vavassori",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
+   },
+   "pP1": null,
+   "h2h": [],
+   "analysis": "",
+   "unconfirmed": false,
+   "timeTBD": true
+  },
+  {
+   "start": "2026-11-20T06:00:00+01:00",
    "tour": "ATP",
    "tournament": "Nitto ATP Finals",
    "round": "Group Stage",
@@ -2132,7 +5438,7 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-11-19T06:00:00+01:00",
+   "start": "2026-11-20T06:00:00+01:00",
    "tour": "ATP",
    "tournament": "Nitto ATP Finals",
    "round": "Group Stage",
@@ -2174,46 +5480,29 @@
    "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
   },
   {
-   "start": "2026-11-19T06:00:00+01:00",
-   "tour": "ATP",
-   "tournament": "Nitto ATP Finals",
-   "round": "Group Stage",
-   "surface": "Hartplatz",
+   "start": "2026-11-20T06:00:00+01:00",
+   "tour": "WTA",
+   "tournament": "LP Open by IND",
+   "round": "Halbfinale",
+   "surface": null,
+   "doubles": true,
    "p1": {
-    "name": "Rafael Jodar",
-    "rank": 10,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 2,
-    "sets7": 5
+    "name": "Nuria Brancaccio / Guiomar Maristany Zuleta De Reales",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
    },
    "p2": {
-    "name": "Ben Shelton",
-    "rank": 4,
-    "form": [],
-    "elo": null,
-    "rankYearAgo": null,
-    "oppElo": null,
-    "onSurface": null,
-    "favSurface": null,
-    "last7": 1,
-    "sets7": 3
+    "name": "TBD / TBD",
+    "rank": null,
+    "last7": 0,
+    "sets7": 0
    },
-   "pP1": 0.3146,
-   "model": {
-    "n1": 0,
-    "n2": 0,
-    "pRank": 0.3146
-   },
+   "pP1": null,
    "h2h": [],
-   "analysis": "Rafael Jodar (Weltrangliste #10) trifft auf Ben Shelton (#4). Ein früheres Aufeinandertreffen auf der Tour ist nicht verzeichnet – es ist das erste direkte Duell. Mangels ausreichender Match-Historie stützt sich die Einschätzung auf die Weltrangliste: Ben Shelton mit 69 % vorn.",
+   "analysis": "",
    "unconfirmed": false,
-   "timeTBD": true,
-   "basis": "Datenbasis: Live-Weltrangliste, Match-Historie inkl. Belag & H2H (mehrere Saisons), Elo-Formmodell mit Gegnerstärke, Matchbelastung der letzten 7 Tage. Nicht in den Zahlen enthalten: Aufschlag-/Return-Detailstatistiken, Tagesform und Verletzungsstatus – bei knappen Wahrscheinlichkeiten entsprechend vorsichtig interpretieren."
+   "timeTBD": true
   }
  ],
  "meta": {
@@ -2232,29 +5521,12 @@
    "wta": 0
   }
  },
- "tennisFinished": [
-  {
-   "tour": "ATP",
-   "tournament": "Nitto ATP Finals",
-   "p1": "Rafael Jodar",
-   "p2": "Arthur Fils",
-   "winner": "Arthur Fils",
-   "score": "6:4 2:6 2:6"
-  },
-  {
-   "tour": "WTA",
-   "tournament": "LP Open by IND",
-   "p1": "Darja Semenistaja",
-   "p2": "Irene Burillo",
-   "winner": "Irene Burillo",
-   "score": "4:6 0:6"
-  }
- ],
+ "tennisFinished": [],
  "stats": {
   "overall": {
-   "n": 4752,
-   "correct": 2832,
-   "pct": 0.596
+   "n": 4763,
+   "correct": 2843,
+   "pct": 0.5969
   },
   "football": {
    "n": 1311,
@@ -2262,15 +5534,15 @@
    "pct": 0.5088
   },
   "tennis": {
-   "n": 3441,
-   "correct": 2165,
-   "pct": 0.6292
+   "n": 3452,
+   "correct": 2176,
+   "pct": 0.6304
   },
   "exact": {
    "n": 1311,
    "correct": 144
   },
-  "open": 152,
+  "open": 142,
   "value": {
    "n": 174,
    "correct": 68,
@@ -2291,6 +5563,50 @@
    },
    {
     "date": "2026-11-17",
+    "comp": "ATP · Nitto ATP Finals",
+    "label": "Ben Shelton – Alexander Zverev",
+    "tipName": "Alexander Zverev",
+    "tip": "P2",
+    "prob": 0.7647,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-11-17",
+    "comp": "WTA · LP Open by IND",
+    "label": "Veronika Erjavec – Maria Lourdes Carle",
+    "tipName": "Veronika Erjavec",
+    "tip": "P1",
+    "prob": 0.5779,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-11-17",
+    "comp": "WTA · LP Open by IND",
+    "label": "Alicia Herrero Linana – Lucia Bronzetti",
+    "tipName": "Lucia Bronzetti",
+    "tip": "P2",
+    "prob": 0.6069,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-11-17",
+    "comp": "WTA · LP Open by IND",
+    "label": "Laura Samson – Despina Papamichail",
+    "tipName": "Laura Samson",
+    "tip": "P1",
+    "prob": 0.6571,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-11-17",
     "comp": "WTA · LP Open by IND",
     "label": "Darja Semenistaja – Irene Burillo",
     "tipName": "Darja Semenistaja",
@@ -2298,6 +5614,28 @@
     "prob": 0.5313,
     "result": "Sieger: P2",
     "correct": false,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-11-17",
+    "comp": "WTA · LP Open by IND",
+    "label": "Varvara Lepchenko – Nadia Podoroska",
+    "tipName": "Nadia Podoroska",
+    "tip": "P2",
+    "prob": 0.5282,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-11-17",
+    "comp": "WTA · LP Open by IND",
+    "label": "Miriam Bulgaru – Polona Hercog",
+    "tipName": "Polona Hercog",
+    "tip": "P2",
+    "prob": 0.5705,
+    "result": "Sieger: P2",
+    "correct": true,
     "sport": "tn"
    },
    {
@@ -2347,11 +5685,66 @@
    {
     "date": "2026-11-16",
     "comp": "WTA · LP Open by IND",
+    "label": "Varvara Lepchenko – Nadia Podoroska",
+    "tipName": "Nadia Podoroska",
+    "tip": "P2",
+    "prob": 0.525,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-11-16",
+    "comp": "WTA · LP Open by IND",
+    "label": "Veronika Erjavec – Maria Lourdes Carle",
+    "tipName": "Veronika Erjavec",
+    "tip": "P1",
+    "prob": 0.5788,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-11-16",
+    "comp": "WTA · LP Open by IND",
     "label": "Carole Monnet – Victoria Jimenez Kasintseva",
     "tipName": "Carole Monnet",
     "tip": "P1",
     "prob": 0.509,
     "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-11-16",
+    "comp": "WTA · LP Open by IND",
+    "label": "Alicia Herrero Linana – Lucia Bronzetti",
+    "tipName": "Lucia Bronzetti",
+    "tip": "P2",
+    "prob": 0.6054,
+    "result": "Sieger: P2",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-11-16",
+    "comp": "WTA · LP Open by IND",
+    "label": "Laura Samson – Despina Papamichail",
+    "tipName": "Laura Samson",
+    "tip": "P1",
+    "prob": 0.6373,
+    "result": "Sieger: P1",
+    "correct": true,
+    "sport": "tn"
+   },
+   {
+    "date": "2026-11-16",
+    "comp": "WTA · LP Open by IND",
+    "label": "Miriam Bulgaru – Polona Hercog",
+    "tipName": "Polona Hercog",
+    "tip": "P2",
+    "prob": 0.5473,
+    "result": "Sieger: P2",
     "correct": true,
     "sport": "tn"
    },
@@ -2429,127 +5822,6 @@
     "tip": "1",
     "prob": 0.586,
     "result": "2:0",
-    "correct": true,
-    "sport": "fb"
-   },
-   {
-    "date": "2026-11-15",
-    "comp": "La Liga 2",
-    "label": "Granada – Las Palmas",
-    "tipName": "Granada",
-    "tip": "1",
-    "prob": 0.4256,
-    "result": "1:0",
-    "correct": true,
-    "sport": "fb"
-   },
-   {
-    "date": "2026-11-15",
-    "comp": "La Liga 2",
-    "label": "Eibar – Cádiz",
-    "tipName": "Eibar",
-    "tip": "1",
-    "prob": 0.6344,
-    "result": "1:1",
-    "correct": false,
-    "sport": "fb"
-   },
-   {
-    "date": "2026-11-15",
-    "comp": "ATP · Nitto ATP Finals",
-    "label": "Rafael Jodar – Alexander Zverev",
-    "tipName": "Alexander Zverev",
-    "tip": "P2",
-    "prob": 0.8762,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-11-15",
-    "comp": "ATP · Nitto ATP Finals",
-    "label": "Arthur Fils – Ben Shelton",
-    "tipName": "Ben Shelton",
-    "tip": "P2",
-    "prob": 0.6167,
-    "result": "Sieger: P2",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-11-15",
-    "comp": "WTA · LP Open by IND",
-    "label": "Alexandra Osborne – Diletta Cherubini",
-    "tipName": "Alexandra Osborne",
-    "tip": "P1",
-    "prob": 0.5769,
-    "result": "Sieger: P2",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-11-15",
-    "comp": "WTA · LP Open by IND",
-    "label": "Samantha Alvarez – Martina Trevisan",
-    "tipName": "Samantha Alvarez",
-    "tip": "P1",
-    "prob": 0.5394,
-    "result": "Sieger: P2",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-11-15",
-    "comp": "WTA · LP Open by IND",
-    "label": "Valeriya Strakhova – Zhibek Kulambayeva",
-    "tipName": "Zhibek Kulambayeva",
-    "tip": "P2",
-    "prob": 0.5109,
-    "result": "Sieger: P1",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-11-15",
-    "comp": "WTA · LP Open by IND",
-    "label": "Camila Rodero Contreras – Ariana Geerlings",
-    "tipName": "Camila Rodero Contreras",
-    "tip": "P1",
-    "prob": 0.538,
-    "result": "Sieger: P2",
-    "correct": false,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-11-15",
-    "comp": "WTA · FAGE WTA Finals Indian Wells",
-    "label": "Mirra Andreeva – Elina Svitolina",
-    "tipName": "Mirra Andreeva",
-    "tip": "P1",
-    "prob": 0.6432,
-    "result": "Sieger: P1",
-    "correct": true,
-    "sport": "tn"
-   },
-   {
-    "date": "2026-11-14",
-    "comp": "La Liga 2",
-    "label": "Real Valladolid – Castellón",
-    "tipName": "Castellón",
-    "tip": "2",
-    "prob": 0.54,
-    "result": "0:1",
-    "correct": true,
-    "sport": "fb"
-   },
-   {
-    "date": "2026-11-14",
-    "comp": "La Liga 2",
-    "label": "Almería – FC Andorra",
-    "tipName": "Almería",
-    "tip": "1",
-    "prob": 0.6256,
-    "result": "2:1",
     "correct": true,
     "sport": "fb"
    }
