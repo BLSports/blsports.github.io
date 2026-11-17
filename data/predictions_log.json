@@ -109986,9 +109986,9 @@
    "tip": "P1",
    "tipName": "Darja Semenistaja",
    "prob": 0.5417,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|atp|2026-11-17|fils a|zverev a": {
    "sport": "tn",
@@ -110042,9 +110042,9 @@
    "tip": "P2",
    "tipName": "Arthur Fils",
    "prob": 0.5752,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|atp|2026-11-17|jodar r|shelton b": {
    "sport": "tn",
@@ -110224,9 +110224,9 @@
    "tip": "P1",
    "tipName": "Darja Semenistaja",
    "prob": 0.5313,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|wta|2026-11-17|lepchenko v|podoroska n": {
    "sport": "tn",
@@ -110549,6 +110549,20 @@
    "tip": "P2",
    "tipName": "Ben Shelton",
    "prob": 0.6854,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-18|burillo i|zolotareva a": {
+   "sport": "tn",
+   "comp": "WTA · LP Open by IND",
+   "date": "2026-11-18",
+   "label": "Irene Burillo – Anastasia Zolotareva",
+   "p1Key": "burillo i",
+   "p2Key": "zolotareva a",
+   "tip": "P1",
+   "tipName": "Irene Burillo",
+   "prob": 0.6045,
    "status": "open",
    "result": null,
    "correct": null
