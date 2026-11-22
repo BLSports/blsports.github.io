@@ -59,8 +59,8 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!
 total 8
-drwxr-xr-x  2 runner runner 4096 Nov 22 20:37 .
-drwxrwxrwt 13 root   root   4096 Nov 22 20:37 ..
+drwxr-xr-x  2 runner runner 4096 Nov 22 22:38 .
+drwxrwxrwt 12 root   root   4096 Nov 22 22:38 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -252,12 +252,12 @@ fixtures.csv: 190 Spiele mit Quoten
   2 Spiele in den naechsten 3 Tagen
 == MLS (USA) ==
   0 Ergebnisse geladen
-  4 Spiele in den naechsten 3 Tagen
-  3 Prognosen via Team-Historie-Fallback erstellt
+  3 Spiele in den naechsten 3 Tagen
+  2 Prognosen via Team-Historie-Fallback erstellt
 == Série A (Brasilien) ==
   0 Ergebnisse geladen
-  6 Spiele in den naechsten 3 Tagen
-  5 Prognosen via Team-Historie-Fallback erstellt
+  4 Spiele in den naechsten 3 Tagen
+  4 Prognosen via Team-Historie-Fallback erstellt
 == Eliteserien (Norwegen) ==
   0 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
@@ -272,17 +272,17 @@ fixtures.csv: 190 Spiele mit Quoten
 == Premier Division (Irland) ==
   0 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
-  Kicker-News: 34 Schlagzeilen geladen
+  Kicker-News: 37 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 896, WTA 892
   Historie: ATP 0 Matches, WTA 0 Matches
   Elo ATP: 0 Spieler bewertet
   Elo WTA: 0 Spieler bewertet
-  Belag-Zuordnung (MatchStat): 14 Turniere
+  Belag-Zuordnung (MatchStat): 11 Turniere
   Tennis-Quoten zugeordnet: 0
-  17 Tennis-Matches in den naechsten 3 Tagen
+  16 Tennis-Matches in den naechsten 3 Tagen
   5 Tennis-Matches heute bereits beendet
   Tipp-Log: 7021 Eintraege, 4830 ausgewertet, 2887 richtig
-  Premium-Abrufe: Tennis 8, Fussball 227 (Tennis AKTIV, Fussball AKTIV)
+  Premium-Abrufe: Tennis 8, Fussball 215 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
