@@ -108657,7 +108657,7 @@
    "tip": "P2",
    "tipName": "Aryna Sabalenka",
    "prob": 0.7178,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null
   },
@@ -108713,7 +108713,7 @@
    "tip": "P2",
    "tipName": "Mirra Andreeva",
    "prob": 0.6727,
-   "status": "open",
+   "status": "void",
    "result": null,
    "correct": null
   },
@@ -112964,8 +112964,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 2.71,
-    "edge": 0.1157,
+    "odds": 2.7,
+    "edge": 0.1147,
     "modelP": 0.474,
     "won": null
    }
@@ -113004,14 +113004,7 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null,
-   "value": {
-    "pick": "1",
-    "odds": 2.17,
-    "edge": 0.0755,
-    "modelP": 0.5166,
-    "won": null
-   }
+   "exact": null
   },
   "fb|bl2|2026-11-22|karlsruher sc|vfl osnabruck": {
    "sport": "fb",
@@ -113032,8 +113025,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 2.32,
-    "edge": 0.064,
+    "odds": 2.38,
+    "edge": 0.0691,
     "modelP": 0.4763,
     "won": null
    }
@@ -113111,8 +113104,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 2.2,
-    "edge": 0.0868,
+    "odds": 2.15,
+    "edge": 0.0831,
     "modelP": 0.5164,
     "won": null
    }
@@ -113299,7 +113292,7 @@
    "value": {
     "pick": "1",
     "odds": 1.85,
-    "edge": 0.0969,
+    "edge": 0.0965,
     "modelP": 0.6195,
     "won": null
    }
@@ -113341,8 +113334,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 3.63,
-    "edge": 0.0802,
+    "odds": 3.64,
+    "edge": 0.0763,
     "modelP": 0.3427,
     "won": null
    }
@@ -113402,8 +113395,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 1.9,
-    "edge": 0.0924,
+    "odds": 1.88,
+    "edge": 0.0864,
     "modelP": 0.5495,
     "won": null
    }
@@ -113445,8 +113438,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 1.42,
-    "edge": 0.1147,
+    "odds": 1.41,
+    "edge": 0.1131,
     "modelP": 0.7518,
     "won": null
    }
@@ -113729,8 +113722,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 3.3,
-    "edge": 0.213,
+    "odds": 3.1,
+    "edge": 0.1949,
     "modelP": 0.4911,
     "won": null
    }
@@ -113773,7 +113766,7 @@
    "value": {
     "pick": "2",
     "odds": 3.0,
-    "edge": 0.1297,
+    "edge": 0.1307,
     "modelP": 0.434,
     "won": null
    }
@@ -113962,8 +113955,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 2.8,
-    "edge": 0.0845,
+    "odds": 2.7,
+    "edge": 0.0738,
     "modelP": 0.4107,
     "won": null
    }
@@ -114142,9 +114135,9 @@
    "tip": "P2",
    "tipName": "Leyre Romero Gormaz",
    "prob": 0.5415,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "fb|pl|2026-11-23|brentford|everton": {
    "sport": "fb",
@@ -114162,7 +114155,14 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 2.25,
+    "edge": 0.0733,
+    "modelP": 0.4844,
+    "won": null
+   }
   },
   "fb|sa|2026-11-23|monza|fiorentina": {
    "sport": "fb",
@@ -114183,8 +114183,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 3.81,
-    "edge": 0.1195,
+    "odds": 3.82,
+    "edge": 0.1206,
     "modelP": 0.3737,
     "won": null
    }
@@ -114226,8 +114226,8 @@
    "exact": null,
    "value": {
     "pick": "2",
-    "odds": 1.92,
-    "edge": 0.1543,
+    "odds": 1.97,
+    "edge": 0.167,
     "modelP": 0.6509,
     "won": null
    }
@@ -114507,9 +114507,9 @@
    "tip": "P1",
    "tipName": "Rebeka Masarova",
    "prob": 0.5937,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P1",
+   "correct": true
   },
   "tn|wta|2026-11-22|estevez j|markus c": {
    "sport": "tn",
@@ -114563,6 +114563,286 @@
    "tip": "P1",
    "tipName": "Guadalupe Rondinoni",
    "prob": 0.587,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "fb|cl|2026-11-24|bodo/glimt|lask linz": {
+   "sport": "fb",
+   "comp": "Champions League",
+   "compId": "cl",
+   "date": "2026-11-24",
+   "label": "Bodo/Glimt – LASK Linz",
+   "homeKey": "bodo/glimt",
+   "awayKey": "lask linz",
+   "tip": "1",
+   "tipName": "Bodo/Glimt",
+   "prob": 0.5315,
+   "tipScore": "2:1",
+   "pOver25": 0.8026,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|cl|2026-11-24|galatasaray|aston villa": {
+   "sport": "fb",
+   "comp": "Champions League",
+   "compId": "cl",
+   "date": "2026-11-24",
+   "label": "Galatasaray – Aston Villa",
+   "homeKey": "galatasaray",
+   "awayKey": "aston villa",
+   "tip": "1",
+   "tipName": "Galatasaray",
+   "prob": 0.4935,
+   "tipScore": "2:1",
+   "pOver25": 0.7214,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "1",
+    "odds": 2.62,
+    "edge": 0.1302,
+    "modelP": 0.4935,
+    "won": null
+   }
+  },
+  "fb|cl|2026-11-24|arsenal|borussia dortmund": {
+   "sport": "fb",
+   "comp": "Champions League",
+   "compId": "cl",
+   "date": "2026-11-24",
+   "label": "Arsenal – Borussia Dortmund",
+   "homeKey": "arsenal",
+   "awayKey": "borussia dortmund",
+   "tip": "1",
+   "tipName": "Arsenal",
+   "prob": 0.4439,
+   "tipScore": "1:1",
+   "pOver25": 0.4822,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|cl|2026-11-24|como|aek athens": {
+   "sport": "fb",
+   "comp": "Champions League",
+   "compId": "cl",
+   "date": "2026-11-24",
+   "label": "Como – AEK Athens",
+   "homeKey": "como",
+   "awayKey": "aek athens",
+   "tip": "1",
+   "tipName": "Como",
+   "prob": 0.5569,
+   "tipScore": "2:1",
+   "pOver25": 0.7281,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|cl|2026-11-24|feyenoord rotterdam|fc porto": {
+   "sport": "fb",
+   "comp": "Champions League",
+   "compId": "cl",
+   "date": "2026-11-24",
+   "label": "Feyenoord Rotterdam – FC Porto",
+   "homeKey": "feyenoord rotterdam",
+   "awayKey": "fc porto",
+   "tip": "1",
+   "tipName": "Feyenoord Rotterdam",
+   "prob": 0.3935,
+   "tipScore": "1:1",
+   "pOver25": 0.7252,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|cl|2026-11-24|man city|napoli": {
+   "sport": "fb",
+   "comp": "Champions League",
+   "compId": "cl",
+   "date": "2026-11-24",
+   "label": "Manchester City – Napoli",
+   "homeKey": "man city",
+   "awayKey": "napoli",
+   "tip": "1",
+   "tipName": "Manchester City",
+   "prob": 0.5637,
+   "tipScore": "2:1",
+   "pOver25": 0.7414,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|cl|2026-11-24|rb leipzig|lens": {
+   "sport": "fb",
+   "comp": "Champions League",
+   "compId": "cl",
+   "date": "2026-11-24",
+   "label": "RB Leipzig – Lens",
+   "homeKey": "rb leipzig",
+   "awayKey": "lens",
+   "tip": "1",
+   "tipName": "RB Leipzig",
+   "prob": 0.6471,
+   "tipScore": "2:1",
+   "pOver25": 0.7851,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|cl|2026-11-24|real madrid|psv eindhoven": {
+   "sport": "fb",
+   "comp": "Champions League",
+   "compId": "cl",
+   "date": "2026-11-24",
+   "label": "Real Madrid – PSV Eindhoven",
+   "homeKey": "real madrid",
+   "awayKey": "psv eindhoven",
+   "tip": "1",
+   "tipName": "Real Madrid",
+   "prob": 0.5299,
+   "tipScore": "2:1",
+   "pOver25": 0.7382,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|cl|2026-11-24|slovan bratislava|betis": {
+   "sport": "fb",
+   "comp": "Champions League",
+   "compId": "cl",
+   "date": "2026-11-24",
+   "label": "Slovan Bratislava – Real Betis",
+   "homeKey": "slovan bratislava",
+   "awayKey": "betis",
+   "tip": "1",
+   "tipName": "Slovan Bratislava",
+   "prob": 0.4098,
+   "tipScore": "1:1",
+   "pOver25": 0.6231,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|sc1|2026-11-24|hibernian|dundee": {
+   "sport": "fb",
+   "comp": "Premiership (Schottland)",
+   "compId": "sc1",
+   "date": "2026-11-24",
+   "label": "Hibernian – Dundee",
+   "homeKey": "hibernian",
+   "awayKey": "dundee",
+   "tip": "1",
+   "tipName": "Hibernian",
+   "prob": 0.5051,
+   "tipScore": "1:1",
+   "pOver25": 0.4958,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|sc1|2026-11-24|rangers|aberdeen": {
+   "sport": "fb",
+   "comp": "Premiership (Schottland)",
+   "compId": "sc1",
+   "date": "2026-11-24",
+   "label": "Rangers – Aberdeen",
+   "homeKey": "rangers",
+   "awayKey": "aberdeen",
+   "tip": "1",
+   "tipName": "Rangers",
+   "prob": 0.7415,
+   "tipScore": "2:0",
+   "pOver25": 0.5853,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|br1|2026-11-24|botafogo|sao paulo": {
+   "sport": "fb",
+   "comp": "Série A (Brasilien)",
+   "compId": "br1",
+   "date": "2026-11-24",
+   "label": "Botafogo – São Paulo",
+   "homeKey": "botafogo",
+   "awayKey": "sao paulo",
+   "tip": "1",
+   "tipName": "Botafogo",
+   "prob": 0.3559,
+   "tipScore": "1:1",
+   "pOver25": 0.3645,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null,
+   "value": {
+    "pick": "2",
+    "odds": 3.1,
+    "edge": 0.053,
+    "modelP": 0.349,
+    "won": null
+   }
+  },
+  "fb|br1|2026-11-24|santos|gremio": {
+   "sport": "fb",
+   "comp": "Série A (Brasilien)",
+   "compId": "br1",
+   "date": "2026-11-24",
+   "label": "Santos – Grêmio",
+   "homeKey": "santos",
+   "awayKey": "gremio",
+   "tip": "1",
+   "tipName": "Santos",
+   "prob": 0.4852,
+   "tipScore": "1:1",
+   "pOver25": 0.4873,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "fb|br1|2026-11-24|chapecoense|palmeiras": {
+   "sport": "fb",
+   "comp": "Série A (Brasilien)",
+   "compId": "br1",
+   "date": "2026-11-24",
+   "label": "Chapecoense – Palmeiras",
+   "homeKey": "chapecoense",
+   "awayKey": "palmeiras",
+   "tip": "2",
+   "tipName": "Palmeiras",
+   "prob": 0.5871,
+   "tipScore": "0:1",
+   "pOver25": 0.4553,
+   "status": "open",
+   "result": null,
+   "correct": null,
+   "exact": null
+  },
+  "tn|wta|2026-11-22|masarova r|romero gormaz l": {
+   "sport": "tn",
+   "comp": "WTA · LP Open by IND",
+   "date": "2026-11-22",
+   "label": "Rebeka Masarova – Leyre Romero Gormaz",
+   "p1Key": "masarova r",
+   "p2Key": "romero gormaz l",
+   "tip": "P2",
+   "tipName": "Leyre Romero Gormaz",
+   "prob": 0.5771,
    "status": "open",
    "result": null,
    "correct": null
