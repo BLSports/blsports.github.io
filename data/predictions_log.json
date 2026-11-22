@@ -112958,16 +112958,16 @@
    "prob": 0.4742,
    "tipScore": "2:1",
    "pOver25": 0.7081,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "correct",
+   "result": "3:1",
+   "correct": true,
+   "exact": false,
    "value": {
     "pick": "1",
     "odds": 2.7,
     "edge": 0.1149,
     "modelP": 0.4742,
-    "won": null
+    "won": true
    }
   },
   "fb|bl1|2026-11-22|sv werder bremen|hamburger sv": {
@@ -112983,10 +112983,10 @@
    "prob": 0.5234,
    "tipScore": "1:1",
    "pOver25": 0.5263,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "4:0",
+   "correct": true,
+   "exact": false
   },
   "fb|bl2|2026-11-22|1 fc kaiserslautern|dynamo dresden": {
    "sport": "fb",
@@ -113001,10 +113001,10 @@
    "prob": 0.5166,
    "tipScore": "1:0",
    "pOver25": 0.4615,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "2:2",
+   "correct": false,
+   "exact": false
   },
   "fb|bl2|2026-11-22|karlsruher sc|vfl osnabruck": {
    "sport": "fb",
@@ -113019,16 +113019,16 @@
    "prob": 0.4761,
    "tipScore": "1:1",
    "pOver25": 0.6501,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "wrong",
+   "result": "0:0",
+   "correct": false,
+   "exact": false,
    "value": {
     "pick": "1",
     "odds": 2.38,
     "edge": 0.0689,
     "modelP": 0.4761,
-    "won": null
+    "won": false
    }
   },
   "fb|bl2|2026-11-22|energie cottbus|hertha bsc": {
@@ -113044,10 +113044,10 @@
    "prob": 0.4564,
    "tipScore": "1:1",
    "pOver25": 0.6212,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "correct",
+   "result": "0:4",
+   "correct": true,
+   "exact": false
   },
   "fb|bl3|2026-11-22|vfb stuttgart ii|fc ingolstadt 04": {
    "sport": "fb",
@@ -113062,10 +113062,10 @@
    "prob": 0.4026,
    "tipScore": "1:1",
    "pOver25": 0.6373,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "5:0",
+   "correct": false,
+   "exact": false
   },
   "fb|bl3|2026-11-22|1 fc saarbrucken|sv wehen wiesbaden": {
    "sport": "fb",
@@ -113080,10 +113080,10 @@
    "prob": 0.3972,
    "tipScore": "1:1",
    "pOver25": 0.6312,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null
+   "status": "wrong",
+   "result": "2:1",
+   "correct": false,
+   "exact": false
   },
   "fb|bl3|2026-11-22|msv duisburg|hansa rostock": {
    "sport": "fb",
@@ -113098,16 +113098,16 @@
    "prob": 0.5165,
    "tipScore": "2:1",
    "pOver25": 0.6771,
-   "status": "open",
-   "result": null,
-   "correct": null,
-   "exact": null,
+   "status": "correct",
+   "result": "2:0",
+   "correct": true,
+   "exact": false,
    "value": {
     "pick": "1",
     "odds": 2.15,
     "edge": 0.0832,
     "modelP": 0.5165,
-    "won": null
+    "won": true
    }
   },
   "fb|pl|2026-11-22|hull city|brighton": {
@@ -114384,14 +114384,7 @@
    "status": "open",
    "result": null,
    "correct": null,
-   "exact": null,
-   "value": {
-    "pick": "2",
-    "odds": 4.4,
-    "edge": 0.161,
-    "modelP": 0.3686,
-    "won": null
-   }
+   "exact": null
   },
   "fb|us1|2026-11-23|vancouver whitecaps|real salt lake": {
    "sport": "fb",
@@ -114466,8 +114459,8 @@
    "exact": null,
    "value": {
     "pick": "1",
-    "odds": 3.2,
-    "edge": 0.2078,
+    "odds": 3.3,
+    "edge": 0.217,
     "modelP": 0.494,
     "won": null
    }
@@ -114528,9 +114521,9 @@
    "tip": "P2",
    "tipName": "Josefina Estevez",
    "prob": 0.525,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "correct",
+   "result": "Sieger: P2",
+   "correct": true
   },
   "tn|wta|2026-11-22|ayala l|bulbarella m": {
    "sport": "tn",
@@ -114542,9 +114535,9 @@
    "tip": "P1",
    "tipName": "Marina Bulbarella",
    "prob": 0.697,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "tn|atp|2026-11-22|alcaraz c|zverev a": {
    "sport": "tn",
@@ -114556,9 +114549,9 @@
    "tip": "P2",
    "tipName": "Alexander Zverev",
    "prob": 0.7178,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P1",
+   "correct": false
   },
   "tn|wta|2026-11-22|kulambayeva z|rondinoni g": {
    "sport": "tn",
@@ -114570,9 +114563,9 @@
    "tip": "P1",
    "tipName": "Guadalupe Rondinoni",
    "prob": 0.587,
-   "status": "open",
-   "result": null,
-   "correct": null
+   "status": "wrong",
+   "result": "Sieger: P2",
+   "correct": false
   },
   "fb|cl|2026-11-24|bodo/glimt|lask linz": {
    "sport": "fb",
@@ -114850,6 +114843,230 @@
    "tip": "P2",
    "tipName": "Leyre Romero Gormaz",
    "prob": 0.5771,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-23|akli a|trevisan m": {
+   "sport": "tn",
+   "comp": "WTA · IEB+ Argentina Open",
+   "date": "2026-11-23",
+   "label": "Ayana Akli – Martina Trevisan",
+   "p1Key": "akli a",
+   "p2Key": "trevisan m",
+   "tip": "P1",
+   "tipName": "Ayana Akli",
+   "prob": 0.5249,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-23|bonardi b|monnet c": {
+   "sport": "tn",
+   "comp": "WTA · IEB+ Argentina Open",
+   "date": "2026-11-23",
+   "label": "Carole Monnet – Berta Bonardi",
+   "p1Key": "monnet c",
+   "p2Key": "bonardi b",
+   "tip": "P1",
+   "tipName": "Carole Monnet",
+   "prob": 0.7289,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-23|hercog p|oz i": {
+   "sport": "tn",
+   "comp": "WTA · IEB+ Argentina Open",
+   "date": "2026-11-23",
+   "label": "Ipek Oz – Polona Hercog",
+   "p1Key": "oz i",
+   "p2Key": "hercog p",
+   "tip": "P2",
+   "tipName": "Polona Hercog",
+   "prob": 0.5803,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-23|estevez j|geerlings a": {
+   "sport": "tn",
+   "comp": "WTA · IEB+ Argentina Open",
+   "date": "2026-11-23",
+   "label": "Ariana Geerlings – Josefina Estevez",
+   "p1Key": "geerlings a",
+   "p2Key": "estevez j",
+   "tip": "P1",
+   "tipName": "Ariana Geerlings",
+   "prob": 0.67,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-23|brancaccio n|zolotareva a": {
+   "sport": "tn",
+   "comp": "WTA · IEB+ Argentina Open",
+   "date": "2026-11-23",
+   "label": "Anastasia Zolotareva – Nuria Brancaccio",
+   "p1Key": "zolotareva a",
+   "p2Key": "brancaccio n",
+   "tip": "P2",
+   "tipName": "Nuria Brancaccio",
+   "prob": 0.5881,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-23|lepchenko v|rencheli a": {
+   "sport": "tn",
+   "comp": "WTA · IEB+ Argentina Open",
+   "date": "2026-11-23",
+   "label": "Abigail Rencheli – Varvara Lepchenko",
+   "p1Key": "rencheli a",
+   "p2Key": "lepchenko v",
+   "tip": "P2",
+   "tipName": "Varvara Lepchenko",
+   "prob": 0.53,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-23|papamichail d|riera j": {
+   "sport": "tn",
+   "comp": "WTA · IEB+ Argentina Open",
+   "date": "2026-11-23",
+   "label": "Julia Riera – Despina Papamichail",
+   "p1Key": "riera j",
+   "p2Key": "papamichail d",
+   "tip": "P1",
+   "tipName": "Julia Riera",
+   "prob": 0.6084,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-24|maria cinalli l|maristany zuleta de reales g": {
+   "sport": "tn",
+   "comp": "WTA · IEB+ Argentina Open",
+   "date": "2026-11-24",
+   "label": "Luna Maria Cinalli – Guiomar Maristany Zuleta De Reales",
+   "p1Key": "maria cinalli l",
+   "p2Key": "maristany zuleta de reales g",
+   "tip": "P2",
+   "tipName": "Guiomar Maristany Zuleta De Reales",
+   "prob": 0.6779,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-24|ailin larraya guidi s|lourdes carle m": {
+   "sport": "tn",
+   "comp": "WTA · IEB+ Argentina Open",
+   "date": "2026-11-24",
+   "label": "Maria Lourdes Carle – Sol Ailin Larraya Guidi",
+   "p1Key": "lourdes carle m",
+   "p2Key": "ailin larraya guidi s",
+   "tip": "P1",
+   "tipName": "Maria Lourdes Carle",
+   "prob": 0.515,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-24|podoroska n|romero gormaz l": {
+   "sport": "tn",
+   "comp": "WTA · IEB+ Argentina Open",
+   "date": "2026-11-24",
+   "label": "Leyre Romero Gormaz – Nadia Podoroska",
+   "p1Key": "romero gormaz l",
+   "p2Key": "podoroska n",
+   "tip": "P1",
+   "tipName": "Leyre Romero Gormaz",
+   "prob": 0.6123,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-24|costoulas s|masarova r": {
+   "sport": "tn",
+   "comp": "WTA · IEB+ Argentina Open",
+   "date": "2026-11-24",
+   "label": "Sofia Costoulas – Rebeka Masarova",
+   "p1Key": "costoulas s",
+   "p2Key": "masarova r",
+   "tip": "P2",
+   "tipName": "Rebeka Masarova",
+   "prob": 0.5262,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-24|bronzetti l|herrero linana a": {
+   "sport": "tn",
+   "comp": "WTA · IEB+ Argentina Open",
+   "date": "2026-11-24",
+   "label": "Alicia Herrero Linana – Lucia Bronzetti",
+   "p1Key": "herrero linana a",
+   "p2Key": "bronzetti l",
+   "tip": "P2",
+   "tipName": "Lucia Bronzetti",
+   "prob": 0.6069,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-24|bosio v|samson l": {
+   "sport": "tn",
+   "comp": "WTA · IEB+ Argentina Open",
+   "date": "2026-11-24",
+   "label": "Laura Samson – Victoria Bosio",
+   "p1Key": "samson l",
+   "p2Key": "bosio v",
+   "tip": "P1",
+   "tipName": "Laura Samson",
+   "prob": 0.7271,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-24|erjavec v|kulambayeva z": {
+   "sport": "tn",
+   "comp": "WTA · IEB+ Argentina Open",
+   "date": "2026-11-24",
+   "label": "Veronika Erjavec – Zhibek Kulambayeva",
+   "p1Key": "erjavec v",
+   "p2Key": "kulambayeva z",
+   "tip": "P1",
+   "tipName": "Veronika Erjavec",
+   "prob": 0.6738,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-24|ayala l|burillo i": {
+   "sport": "tn",
+   "comp": "WTA · IEB+ Argentina Open",
+   "date": "2026-11-24",
+   "label": "Irene Burillo – Lourdes Ayala",
+   "p1Key": "burillo i",
+   "p2Key": "ayala l",
+   "tip": "P1",
+   "tipName": "Irene Burillo",
+   "prob": 0.7322,
+   "status": "open",
+   "result": null,
+   "correct": null
+  },
+  "tn|wta|2026-11-24|jimenez kasintseva v|sierra s": {
+   "sport": "tn",
+   "comp": "WTA · IEB+ Argentina Open",
+   "date": "2026-11-24",
+   "label": "Victoria Jimenez Kasintseva – Solana Sierra",
+   "p1Key": "jimenez kasintseva v",
+   "p2Key": "sierra s",
+   "tip": "P2",
+   "tipName": "Solana Sierra",
+   "prob": 0.6504,
    "status": "open",
    "result": null,
    "correct": null
