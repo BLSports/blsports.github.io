@@ -59,8 +59,8 @@
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en-US"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en-US"> <!
 total 8
-drwxr-xr-x  2 runner runner 4096 Nov 28 12:29 .
-drwxrwxrwt 13 root   root   4096 Nov 28 12:29 ..
+drwxr-xr-x  2 runner runner 4096 Nov 28 14:58 .
+drwxrwxrwt 12 root   root   4096 Nov 28 14:58 ..
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250701-20250928&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20250929-20251227&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
   WARN: https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20251228-20260327&limit=1000 nicht erreichbar (HTTP Error 400: Bad Request)
@@ -199,23 +199,23 @@ fixtures.csv: 175 Spiele mit Quoten
   397 Ergebnisse geladen
   8 Spiele in den naechsten 3 Tagen
 == 2. Bundesliga ==
-  416 Ergebnisse geladen
-  7 Spiele in den naechsten 3 Tagen
+  419 Ergebnisse geladen
+  4 Spiele in den naechsten 3 Tagen
 == 3. Liga ==
-  521 Ergebnisse geladen
-  9 Spiele in den naechsten 3 Tagen
+  522 Ergebnisse geladen
+  8 Spiele in den naechsten 3 Tagen
 == Premier League ==
   490 Ergebnisse geladen
-  9 Spiele in den naechsten 3 Tagen
+  7 Spiele in den naechsten 3 Tagen
 == Serie A ==
   500 Ergebnisse geladen
-  9 Spiele in den naechsten 3 Tagen
+  8 Spiele in den naechsten 3 Tagen
 == La Liga ==
   509 Ergebnisse geladen
-  9 Spiele in den naechsten 3 Tagen
+  8 Spiele in den naechsten 3 Tagen
 == La Liga 2 ==
   624 Ergebnisse geladen
-  10 Spiele in den naechsten 3 Tagen
+  9 Spiele in den naechsten 3 Tagen
   1 Prognosen via Team-Historie-Fallback erstellt
 == Ligue 1 ==
   405 Ergebnisse geladen
@@ -233,19 +233,19 @@ fixtures.csv: 175 Spiele mit Quoten
   2 Prognosen via Team-Historie-Fallback erstellt
 == Pro League (Belgien) ==
   419 Ergebnisse geladen
-  8 Spiele in den naechsten 3 Tagen
+  7 Spiele in den naechsten 3 Tagen
   1 Prognosen via Team-Historie-Fallback erstellt
 == Challenger Pro League (Belgien) ==
   0 Ergebnisse geladen
-  5 Spiele in den naechsten 3 Tagen
-  5 Prognosen via Team-Historie-Fallback erstellt
+  3 Spiele in den naechsten 3 Tagen
+  3 Prognosen via Team-Historie-Fallback erstellt
 == Primeira Liga (Portugal) ==
   404 Ergebnisse geladen
   8 Spiele in den naechsten 3 Tagen
   1 Prognosen via Team-Historie-Fallback erstellt
 == Süper Lig (Türkei) ==
   414 Ergebnisse geladen
-  7 Spiele in den naechsten 3 Tagen
+  6 Spiele in den naechsten 3 Tagen
   2 Prognosen via Team-Historie-Fallback erstellt
 == Bundesliga (Österreich) ==
   0 Ergebnisse geladen
@@ -257,7 +257,7 @@ fixtures.csv: 175 Spiele mit Quoten
   6 Prognosen via Team-Historie-Fallback erstellt
 == Premiership (Schottland) ==
   311 Ergebnisse geladen
-  6 Spiele in den naechsten 3 Tagen
+  2 Spiele in den naechsten 3 Tagen
   1 Prognosen via Team-Historie-Fallback erstellt
 == MLS (USA) ==
   0 Ergebnisse geladen
@@ -269,8 +269,8 @@ fixtures.csv: 175 Spiele mit Quoten
   5 Prognosen via Team-Historie-Fallback erstellt
 == Eliteserien (Norwegen) ==
   0 Ergebnisse geladen
-  8 Spiele in den naechsten 3 Tagen
-  6 Prognosen via Team-Historie-Fallback erstellt
+  7 Spiele in den naechsten 3 Tagen
+  5 Prognosen via Team-Historie-Fallback erstellt
 == Allsvenskan (Schweden) ==
   0 Ergebnisse geladen
   8 Spiele in den naechsten 3 Tagen
@@ -282,17 +282,17 @@ fixtures.csv: 175 Spiele mit Quoten
 == Premier Division (Irland) ==
   0 Ergebnisse geladen
   0 Spiele in den naechsten 3 Tagen
-  Kicker-News: 34 Schlagzeilen geladen
+  Kicker-News: 36 Schlagzeilen geladen
 == Tennis ==
   Rankings: ATP 150, WTA 150
   Tiefe Rankings (MatchStat): ATP 896, WTA 892
   Historie: ATP 0 Matches, WTA 0 Matches
   Elo ATP: 0 Spieler bewertet
   Elo WTA: 0 Spieler bewertet
-  Belag-Zuordnung (MatchStat): 16 Turniere
+  Belag-Zuordnung (MatchStat): 15 Turniere
   Tennis-Quoten zugeordnet: 0
   4 Tennis-Matches in den naechsten 3 Tagen
   0 Tennis-Matches heute bereits beendet
-  Tipp-Log: 7250 Eintraege, 4920 ausgewertet, 2944 richtig
-  Premium-Abrufe: Tennis 8, Fussball 461 (Tennis AKTIV, Fussball AKTIV)
+  Tipp-Log: 7250 Eintraege, 4924 ausgewertet, 2946 richtig
+  Premium-Abrufe: Tennis 8, Fussball 431 (Tennis AKTIV, Fussball AKTIV)
 OK -> /home/runner/work/blsports.github.io/blsports.github.io/scripts/../data/data.json
